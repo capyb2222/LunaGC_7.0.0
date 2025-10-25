@@ -19,14 +19,14 @@ public final class ServerTimeNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint64 server_time = 10;</code>
+     * <code>uint64 server_time = 6;</code>
      * @return The serverTime.
      */
     long getServerTime();
   }
   /**
    * <pre>
-   * CmdId: 9683
+   * CmdId: 8060
    * </pre>
    *
    * Protobuf type {@code ServerTimeNotify}
@@ -73,7 +73,7 @@ public final class ServerTimeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 48: {
 
               serverTime_ = input.readUInt64();
               break;
@@ -110,10 +110,10 @@ public final class ServerTimeNotifyOuterClass {
               emu.grasscutter.net.proto.ServerTimeNotifyOuterClass.ServerTimeNotify.class, emu.grasscutter.net.proto.ServerTimeNotifyOuterClass.ServerTimeNotify.Builder.class);
     }
 
-    public static final int SERVER_TIME_FIELD_NUMBER = 10;
+    public static final int SERVER_TIME_FIELD_NUMBER = 6;
     private long serverTime_;
     /**
-     * <code>uint64 server_time = 10;</code>
+     * <code>uint64 server_time = 6;</code>
      * @return The serverTime.
      */
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class ServerTimeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (serverTime_ != 0L) {
-        output.writeUInt64(10, serverTime_);
+        output.writeUInt64(6, serverTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -149,7 +149,7 @@ public final class ServerTimeNotifyOuterClass {
       size = 0;
       if (serverTime_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(10, serverTime_);
+          .computeUInt64Size(6, serverTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -279,7 +279,7 @@ public final class ServerTimeNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 9683
+     * CmdId: 8060
      * </pre>
      *
      * Protobuf type {@code ServerTimeNotify}
@@ -430,7 +430,7 @@ public final class ServerTimeNotifyOuterClass {
 
       private long serverTime_ ;
       /**
-       * <code>uint64 server_time = 10;</code>
+       * <code>uint64 server_time = 6;</code>
        * @return The serverTime.
        */
       @java.lang.Override
@@ -438,7 +438,7 @@ public final class ServerTimeNotifyOuterClass {
         return serverTime_;
       }
       /**
-       * <code>uint64 server_time = 10;</code>
+       * <code>uint64 server_time = 6;</code>
        * @param value The serverTime to set.
        * @return This builder for chaining.
        */
@@ -449,7 +449,7 @@ public final class ServerTimeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint64 server_time = 10;</code>
+       * <code>uint64 server_time = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearServerTime() {
@@ -526,7 +526,7 @@ public final class ServerTimeNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026ServerTimeNotify.proto\"\'\n\020ServerTimeNo" +
-      "tify\022\023\n\013server_time\030\n \001(\004B\033\n\031emu.grasscu" +
+      "tify\022\023\n\013server_time\030\006 \001(\004B\033\n\031emu.grasscu" +
       "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

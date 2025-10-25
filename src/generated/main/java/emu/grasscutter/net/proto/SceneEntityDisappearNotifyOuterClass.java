@@ -36,25 +36,25 @@ public final class SceneEntityDisappearNotifyOuterClass {
     int getEntityList(int index);
 
     /**
-     * <code>.VisionType disappear_type = 7;</code>
+     * <code>.VisionType disappear_type = 3;</code>
      * @return The enum numeric value on the wire for disappearType.
      */
     int getDisappearTypeValue();
     /**
-     * <code>.VisionType disappear_type = 7;</code>
+     * <code>.VisionType disappear_type = 3;</code>
      * @return The disappearType.
      */
     emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType getDisappearType();
 
     /**
-     * <code>uint32 param = 13;</code>
+     * <code>uint32 param = 9;</code>
      * @return The param.
      */
     int getParam();
   }
   /**
    * <pre>
-   * CmdId: 20184
+   * CmdId: 5502
    * </pre>
    *
    * Protobuf type {@code SceneEntityDisappearNotify}
@@ -125,13 +125,13 @@ public final class SceneEntityDisappearNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 56: {
+            case 24: {
               int rawValue = input.readEnum();
 
               disappearType_ = rawValue;
               break;
             }
-            case 104: {
+            case 72: {
 
               param_ = input.readUInt32();
               break;
@@ -199,17 +199,17 @@ public final class SceneEntityDisappearNotifyOuterClass {
     }
     private int entityListMemoizedSerializedSize = -1;
 
-    public static final int DISAPPEAR_TYPE_FIELD_NUMBER = 7;
+    public static final int DISAPPEAR_TYPE_FIELD_NUMBER = 3;
     private int disappearType_;
     /**
-     * <code>.VisionType disappear_type = 7;</code>
+     * <code>.VisionType disappear_type = 3;</code>
      * @return The enum numeric value on the wire for disappearType.
      */
     @java.lang.Override public int getDisappearTypeValue() {
       return disappearType_;
     }
     /**
-     * <code>.VisionType disappear_type = 7;</code>
+     * <code>.VisionType disappear_type = 3;</code>
      * @return The disappearType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType getDisappearType() {
@@ -218,10 +218,10 @@ public final class SceneEntityDisappearNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType.UNRECOGNIZED : result;
     }
 
-    public static final int PARAM_FIELD_NUMBER = 13;
+    public static final int PARAM_FIELD_NUMBER = 9;
     private int param_;
     /**
-     * <code>uint32 param = 13;</code>
+     * <code>uint32 param = 9;</code>
      * @return The param.
      */
     @java.lang.Override
@@ -252,10 +252,10 @@ public final class SceneEntityDisappearNotifyOuterClass {
         output.writeUInt32NoTag(entityList_.getInt(i));
       }
       if (disappearType_ != emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType.VISION_TYPE_NONE.getNumber()) {
-        output.writeEnum(7, disappearType_);
+        output.writeEnum(3, disappearType_);
       }
       if (param_ != 0) {
-        output.writeUInt32(13, param_);
+        output.writeUInt32(9, param_);
       }
       unknownFields.writeTo(output);
     }
@@ -282,11 +282,11 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       if (disappearType_ != emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType.VISION_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(7, disappearType_);
+          .computeEnumSize(3, disappearType_);
       }
       if (param_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, param_);
+          .computeUInt32Size(9, param_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -424,7 +424,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 20184
+     * CmdId: 5502
      * </pre>
      *
      * Protobuf type {@code SceneEntityDisappearNotify}
@@ -679,14 +679,14 @@ public final class SceneEntityDisappearNotifyOuterClass {
 
       private int disappearType_ = 0;
       /**
-       * <code>.VisionType disappear_type = 7;</code>
+       * <code>.VisionType disappear_type = 3;</code>
        * @return The enum numeric value on the wire for disappearType.
        */
       @java.lang.Override public int getDisappearTypeValue() {
         return disappearType_;
       }
       /**
-       * <code>.VisionType disappear_type = 7;</code>
+       * <code>.VisionType disappear_type = 3;</code>
        * @param value The enum numeric value on the wire for disappearType to set.
        * @return This builder for chaining.
        */
@@ -697,7 +697,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.VisionType disappear_type = 7;</code>
+       * <code>.VisionType disappear_type = 3;</code>
        * @return The disappearType.
        */
       @java.lang.Override
@@ -707,7 +707,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
         return result == null ? emu.grasscutter.net.proto.VisionTypeOuterClass.VisionType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.VisionType disappear_type = 7;</code>
+       * <code>.VisionType disappear_type = 3;</code>
        * @param value The disappearType to set.
        * @return This builder for chaining.
        */
@@ -721,7 +721,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.VisionType disappear_type = 7;</code>
+       * <code>.VisionType disappear_type = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearDisappearType() {
@@ -733,7 +733,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
 
       private int param_ ;
       /**
-       * <code>uint32 param = 13;</code>
+       * <code>uint32 param = 9;</code>
        * @return The param.
        */
       @java.lang.Override
@@ -741,7 +741,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
         return param_;
       }
       /**
-       * <code>uint32 param = 13;</code>
+       * <code>uint32 param = 9;</code>
        * @param value The param to set.
        * @return This builder for chaining.
        */
@@ -752,7 +752,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 param = 13;</code>
+       * <code>uint32 param = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearParam() {
@@ -831,7 +831,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       "\n SceneEntityDisappearNotify.proto\032\020Visi" +
       "onType.proto\"e\n\032SceneEntityDisappearNoti" +
       "fy\022\023\n\013entity_list\030\001 \003(\r\022#\n\016disappear_typ" +
-      "e\030\007 \001(\0162\013.VisionType\022\r\n\005param\030\r \001(\rB\033\n\031e" +
+      "e\030\003 \001(\0162\013.VisionType\022\r\n\005param\030\t \001(\rB\033\n\031e" +
       "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

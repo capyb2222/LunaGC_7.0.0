@@ -1,6 +1,5 @@
-# LunaGC-6.0.0 WIP
-
-# Notice: Development halted in favor of the upcoming release (6.1)
+# LunaGC-6.1.0 VERY WIP
+# Very buggy, not recommended at all to play now (can't even walk - will fix soon)
 
 ## Updated version of Grasscutters, with some new features implemented.
 Old Discord for LunaGC https://discord.gg/7D5gkyJR5Y (don't ask for support there, instead create an issue in this repository)
@@ -11,7 +10,7 @@ This is possibly the only public PS with updated mob and gadget spawns! (Up to V
 Contribute if you want/can...
 
 # Outstanding bug(s) hall of fame:
-- Abyss (as expected) -  wrong floor and chamber numbers being displayed (for example floor 0 chamber 1000) and buffs don't apply/change
+- everything (for now)
 
 # Outstanding critical stuff that does not work hall of fame:
 - Lauma and Flins (bad res)
@@ -26,29 +25,29 @@ Contribute if you want/can...
 - Get [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 - Get [NodeJS](https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi) (For handbook generation)
-- Get game version REL6.0.0 (pray you still have it)
+- Get game version REL6.1.0 (pray you still have it)
 - Make sure to install java and set the environment variables.
 - Build the server (refer to "Compile the actual server" in this guide.)
-- Download the [Resources](https://github.com/pmagixc/6.0-res), make a new folder called `resources` in the downloaded LunaGC folder and then extract the resources in that new folder.
+- Download the [Resources](https://github.com/pmagixc/LunaGC-res/tree/6.1.0), make a new folder called `resources` in the downloaded LunaGC folder and then extract the resources in that new folder.
 - Set useEncryption, Questing and useInRouting to false (it should be false by default, if not then change it)
 - [Patch the game](#patching-the-game)
 - Start the server and the game, make sure to also create an account in the LunaGC console!
 - Have fun (or don't)
 
 ### Patching the game
-- Put [Astrolabe.dll](https://github.com/pmagixc/LunaGC_6.0.0/raw/main/patch/Astrolabe.dll) in the game directory
+- Put [Astrolabe.dll](https://github.com/pmagixc/LunaGC/raw/6.1.0/patch/Astrolabe.dll) in the game directory
 - To "disable" the patch, just rename Astrolabe.dll to something else so it's not a DLL or don't name it Astrolabe (for example Astrolabe.deleleu / astrollable.dll)
 
 ### Getting started
 
 - Clone the repository (install [Git](https://git-scm.com) first )
-  
+
   ```
-  git clone https://github.com/pmagixc/LunaGC_6.0.0.git
+  git clone https://github.com/pmagixc/LunaGC.git -b 6.1.0
   ```
-  
+
 - Now you can continue with the steps below.
-  
+
 
 ### Compile the actual Server
 
@@ -57,16 +56,16 @@ Contribute if you want/can...
 [Java Development Kit 17 | JDK](https://oracle.com/java/technologies/javase/jdk17-archive-downloads.html) or higher
 
 - **Sidenote**: Handbook generation may fail on some systems. To disable handbook generation, append `-PskipHandbook=1` to the `gradlew jar` command.
-  
+
 - **For Windows**:
-  
+
   ```shell
   .\gradlew.bat
   .\gradlew.bat jar
   ```
-  
+
 - **For Linux**:
-  
+
   ```bash
   chmod +x gradlew
   ./gradlew

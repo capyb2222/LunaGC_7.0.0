@@ -54,7 +54,7 @@ public final class WorldDataNotifyOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 21967
+   * CmdId: 4817
    * </pre>
    *
    * Protobuf type {@code WorldDataNotify}
@@ -408,7 +408,7 @@ public final class WorldDataNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 21967
+     * CmdId: 4817
      * </pre>
      *
      * Protobuf type {@code WorldDataNotify}

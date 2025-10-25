@@ -19,7 +19,7 @@ public final class PostEnterSceneReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 enter_scene_token = 11;</code>
+     * <code>uint32 enter_scene_token = 6;</code>
      * @return The enterSceneToken.
      */
     int getEnterSceneToken();
@@ -32,7 +32,7 @@ public final class PostEnterSceneReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 9890
+   * CmdId: 22532
    * </pre>
    *
    * Protobuf type {@code PostEnterSceneReq}
@@ -84,7 +84,7 @@ public final class PostEnterSceneReqOuterClass {
               totalTickTime_ = input.readDouble();
               break;
             }
-            case 88: {
+            case 48: {
 
               enterSceneToken_ = input.readUInt32();
               break;
@@ -121,10 +121,10 @@ public final class PostEnterSceneReqOuterClass {
               emu.grasscutter.net.proto.PostEnterSceneReqOuterClass.PostEnterSceneReq.class, emu.grasscutter.net.proto.PostEnterSceneReqOuterClass.PostEnterSceneReq.Builder.class);
     }
 
-    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 11;
+    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 6;
     private int enterSceneToken_;
     /**
-     * <code>uint32 enter_scene_token = 11;</code>
+     * <code>uint32 enter_scene_token = 6;</code>
      * @return The enterSceneToken.
      */
     @java.lang.Override
@@ -161,7 +161,7 @@ public final class PostEnterSceneReqOuterClass {
         output.writeDouble(5, totalTickTime_);
       }
       if (enterSceneToken_ != 0) {
-        output.writeUInt32(11, enterSceneToken_);
+        output.writeUInt32(6, enterSceneToken_);
       }
       unknownFields.writeTo(output);
     }
@@ -178,7 +178,7 @@ public final class PostEnterSceneReqOuterClass {
       }
       if (enterSceneToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, enterSceneToken_);
+          .computeUInt32Size(6, enterSceneToken_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -313,7 +313,7 @@ public final class PostEnterSceneReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 9890
+     * CmdId: 22532
      * </pre>
      *
      * Protobuf type {@code PostEnterSceneReq}
@@ -470,7 +470,7 @@ public final class PostEnterSceneReqOuterClass {
 
       private int enterSceneToken_ ;
       /**
-       * <code>uint32 enter_scene_token = 11;</code>
+       * <code>uint32 enter_scene_token = 6;</code>
        * @return The enterSceneToken.
        */
       @java.lang.Override
@@ -478,7 +478,7 @@ public final class PostEnterSceneReqOuterClass {
         return enterSceneToken_;
       }
       /**
-       * <code>uint32 enter_scene_token = 11;</code>
+       * <code>uint32 enter_scene_token = 6;</code>
        * @param value The enterSceneToken to set.
        * @return This builder for chaining.
        */
@@ -489,7 +489,7 @@ public final class PostEnterSceneReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 enter_scene_token = 11;</code>
+       * <code>uint32 enter_scene_token = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearEnterSceneToken() {
@@ -597,7 +597,7 @@ public final class PostEnterSceneReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027PostEnterSceneReq.proto\"G\n\021PostEnterSc" +
-      "eneReq\022\031\n\021enter_scene_token\030\013 \001(\r\022\027\n\017tot" +
+      "eneReq\022\031\n\021enter_scene_token\030\006 \001(\r\022\027\n\017tot" +
       "al_tick_time\030\005 \001(\001B\033\n\031emu.grasscutter.ne" +
       "t.protob\006proto3"
     };

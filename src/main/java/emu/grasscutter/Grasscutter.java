@@ -106,7 +106,7 @@ public final class Grasscutter {
         // Initialize server.
         logger.info(translate("messages.status.starting"));
         logger.info(translate("messages.status.game_version", GameConstants.VERSION));
-        logger.info(translate("messages.status.version", "6.0.0", "NOTKeiLuna"));
+        logger.info(translate("messages.status.version", "6.1.0", "pmagixc"));
 
         // Initialize database.
         DatabaseManager.initialize();

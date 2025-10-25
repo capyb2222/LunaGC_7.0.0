@@ -19,13 +19,13 @@ public final class BattlePassRewardPlanOptionOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 reward_type = 8;</code>
+     * <code>uint32 reward_type = 15;</code>
      * @return The rewardType.
      */
     int getRewardType();
 
     /**
-     * <code>uint32 tier_id = 9;</code>
+     * <code>uint32 tier_id = 12;</code>
      * @return The tierId.
      */
     int getTierId();
@@ -86,14 +86,14 @@ public final class BattlePassRewardPlanOptionOuterClass {
               isOriginal_ = input.readBool();
               break;
             }
-            case 64: {
-
-              rewardType_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 96: {
 
               tierId_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              rewardType_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class BattlePassRewardPlanOptionOuterClass {
               emu.grasscutter.net.proto.BattlePassRewardPlanOptionOuterClass.BattlePassRewardPlanOption.class, emu.grasscutter.net.proto.BattlePassRewardPlanOptionOuterClass.BattlePassRewardPlanOption.Builder.class);
     }
 
-    public static final int REWARD_TYPE_FIELD_NUMBER = 8;
+    public static final int REWARD_TYPE_FIELD_NUMBER = 15;
     private int rewardType_;
     /**
-     * <code>uint32 reward_type = 8;</code>
+     * <code>uint32 reward_type = 15;</code>
      * @return The rewardType.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class BattlePassRewardPlanOptionOuterClass {
       return rewardType_;
     }
 
-    public static final int TIER_ID_FIELD_NUMBER = 9;
+    public static final int TIER_ID_FIELD_NUMBER = 12;
     private int tierId_;
     /**
-     * <code>uint32 tier_id = 9;</code>
+     * <code>uint32 tier_id = 12;</code>
      * @return The tierId.
      */
     @java.lang.Override
@@ -178,11 +178,11 @@ public final class BattlePassRewardPlanOptionOuterClass {
       if (isOriginal_ != false) {
         output.writeBool(4, isOriginal_);
       }
-      if (rewardType_ != 0) {
-        output.writeUInt32(8, rewardType_);
-      }
       if (tierId_ != 0) {
-        output.writeUInt32(9, tierId_);
+        output.writeUInt32(12, tierId_);
+      }
+      if (rewardType_ != 0) {
+        output.writeUInt32(15, rewardType_);
       }
       unknownFields.writeTo(output);
     }
@@ -197,13 +197,13 @@ public final class BattlePassRewardPlanOptionOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(4, isOriginal_);
       }
-      if (rewardType_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, rewardType_);
-      }
       if (tierId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, tierId_);
+          .computeUInt32Size(12, tierId_);
+      }
+      if (rewardType_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, rewardType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class BattlePassRewardPlanOptionOuterClass {
 
       private int rewardType_ ;
       /**
-       * <code>uint32 reward_type = 8;</code>
+       * <code>uint32 reward_type = 15;</code>
        * @return The rewardType.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class BattlePassRewardPlanOptionOuterClass {
         return rewardType_;
       }
       /**
-       * <code>uint32 reward_type = 8;</code>
+       * <code>uint32 reward_type = 15;</code>
        * @param value The rewardType to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class BattlePassRewardPlanOptionOuterClass {
         return this;
       }
       /**
-       * <code>uint32 reward_type = 8;</code>
+       * <code>uint32 reward_type = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearRewardType() {
@@ -531,7 +531,7 @@ public final class BattlePassRewardPlanOptionOuterClass {
 
       private int tierId_ ;
       /**
-       * <code>uint32 tier_id = 9;</code>
+       * <code>uint32 tier_id = 12;</code>
        * @return The tierId.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class BattlePassRewardPlanOptionOuterClass {
         return tierId_;
       }
       /**
-       * <code>uint32 tier_id = 9;</code>
+       * <code>uint32 tier_id = 12;</code>
        * @param value The tierId to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class BattlePassRewardPlanOptionOuterClass {
         return this;
       }
       /**
-       * <code>uint32 tier_id = 9;</code>
+       * <code>uint32 tier_id = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearTierId() {
@@ -659,7 +659,7 @@ public final class BattlePassRewardPlanOptionOuterClass {
     java.lang.String[] descriptorData = {
       "\n BattlePassRewardPlanOption.proto\"W\n\032Ba" +
       "ttlePassRewardPlanOption\022\023\n\013reward_type\030" +
-      "\010 \001(\r\022\017\n\007tier_id\030\t \001(\r\022\023\n\013is_original\030\004 " +
+      "\017 \001(\r\022\017\n\007tier_id\030\014 \001(\r\022\023\n\013is_original\030\004 " +
       "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

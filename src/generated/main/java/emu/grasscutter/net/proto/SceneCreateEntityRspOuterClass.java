@@ -19,17 +19,17 @@ public final class SceneCreateEntityRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.CreateEntityInfo entity = 15;</code>
+     * <code>.CreateEntityInfo entity = 5;</code>
      * @return Whether the entity field is set.
      */
     boolean hasEntity();
     /**
-     * <code>.CreateEntityInfo entity = 15;</code>
+     * <code>.CreateEntityInfo entity = 5;</code>
      * @return The entity.
      */
     emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo getEntity();
     /**
-     * <code>.CreateEntityInfo entity = 15;</code>
+     * <code>.CreateEntityInfo entity = 5;</code>
      */
     emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfoOrBuilder getEntityOrBuilder();
 
@@ -40,14 +40,14 @@ public final class SceneCreateEntityRspOuterClass {
     int getEntityId();
 
     /**
-     * <code>int32 retcode = 12;</code>
+     * <code>int32 retcode = 14;</code>
      * @return The retcode.
      */
     int getRetcode();
   }
   /**
    * <pre>
-   * CmdId: 22832
+   * CmdId: 1117
    * </pre>
    *
    * Protobuf type {@code SceneCreateEntityRsp}
@@ -99,12 +99,7 @@ public final class SceneCreateEntityRspOuterClass {
               entityId_ = input.readUInt32();
               break;
             }
-            case 96: {
-
-              retcode_ = input.readInt32();
-              break;
-            }
-            case 122: {
+            case 42: {
               emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo.Builder subBuilder = null;
               if (entity_ != null) {
                 subBuilder = entity_.toBuilder();
@@ -115,6 +110,11 @@ public final class SceneCreateEntityRspOuterClass {
                 entity_ = subBuilder.buildPartial();
               }
 
+              break;
+            }
+            case 112: {
+
+              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -149,10 +149,10 @@ public final class SceneCreateEntityRspOuterClass {
               emu.grasscutter.net.proto.SceneCreateEntityRspOuterClass.SceneCreateEntityRsp.class, emu.grasscutter.net.proto.SceneCreateEntityRspOuterClass.SceneCreateEntityRsp.Builder.class);
     }
 
-    public static final int ENTITY_FIELD_NUMBER = 15;
+    public static final int ENTITY_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo entity_;
     /**
-     * <code>.CreateEntityInfo entity = 15;</code>
+     * <code>.CreateEntityInfo entity = 5;</code>
      * @return Whether the entity field is set.
      */
     @java.lang.Override
@@ -160,7 +160,7 @@ public final class SceneCreateEntityRspOuterClass {
       return entity_ != null;
     }
     /**
-     * <code>.CreateEntityInfo entity = 15;</code>
+     * <code>.CreateEntityInfo entity = 5;</code>
      * @return The entity.
      */
     @java.lang.Override
@@ -168,7 +168,7 @@ public final class SceneCreateEntityRspOuterClass {
       return entity_ == null ? emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo.getDefaultInstance() : entity_;
     }
     /**
-     * <code>.CreateEntityInfo entity = 15;</code>
+     * <code>.CreateEntityInfo entity = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfoOrBuilder getEntityOrBuilder() {
@@ -186,10 +186,10 @@ public final class SceneCreateEntityRspOuterClass {
       return entityId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
     /**
-     * <code>int32 retcode = 12;</code>
+     * <code>int32 retcode = 14;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -214,11 +214,11 @@ public final class SceneCreateEntityRspOuterClass {
       if (entityId_ != 0) {
         output.writeUInt32(2, entityId_);
       }
-      if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
-      }
       if (entity_ != null) {
-        output.writeMessage(15, getEntity());
+        output.writeMessage(5, getEntity());
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -233,13 +233,13 @@ public final class SceneCreateEntityRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, entityId_);
       }
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
-      }
       if (entity_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getEntity());
+          .computeMessageSize(5, getEntity());
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -381,7 +381,7 @@ public final class SceneCreateEntityRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 22832
+     * CmdId: 1117
      * </pre>
      *
      * Protobuf type {@code SceneCreateEntityRsp}
@@ -554,14 +554,14 @@ public final class SceneCreateEntityRspOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo, emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo.Builder, emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfoOrBuilder> entityBuilder_;
       /**
-       * <code>.CreateEntityInfo entity = 15;</code>
+       * <code>.CreateEntityInfo entity = 5;</code>
        * @return Whether the entity field is set.
        */
       public boolean hasEntity() {
         return entityBuilder_ != null || entity_ != null;
       }
       /**
-       * <code>.CreateEntityInfo entity = 15;</code>
+       * <code>.CreateEntityInfo entity = 5;</code>
        * @return The entity.
        */
       public emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo getEntity() {
@@ -572,7 +572,7 @@ public final class SceneCreateEntityRspOuterClass {
         }
       }
       /**
-       * <code>.CreateEntityInfo entity = 15;</code>
+       * <code>.CreateEntityInfo entity = 5;</code>
        */
       public Builder setEntity(emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo value) {
         if (entityBuilder_ == null) {
@@ -588,7 +588,7 @@ public final class SceneCreateEntityRspOuterClass {
         return this;
       }
       /**
-       * <code>.CreateEntityInfo entity = 15;</code>
+       * <code>.CreateEntityInfo entity = 5;</code>
        */
       public Builder setEntity(
           emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo.Builder builderForValue) {
@@ -602,7 +602,7 @@ public final class SceneCreateEntityRspOuterClass {
         return this;
       }
       /**
-       * <code>.CreateEntityInfo entity = 15;</code>
+       * <code>.CreateEntityInfo entity = 5;</code>
        */
       public Builder mergeEntity(emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo value) {
         if (entityBuilder_ == null) {
@@ -620,7 +620,7 @@ public final class SceneCreateEntityRspOuterClass {
         return this;
       }
       /**
-       * <code>.CreateEntityInfo entity = 15;</code>
+       * <code>.CreateEntityInfo entity = 5;</code>
        */
       public Builder clearEntity() {
         if (entityBuilder_ == null) {
@@ -634,7 +634,7 @@ public final class SceneCreateEntityRspOuterClass {
         return this;
       }
       /**
-       * <code>.CreateEntityInfo entity = 15;</code>
+       * <code>.CreateEntityInfo entity = 5;</code>
        */
       public emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo.Builder getEntityBuilder() {
         
@@ -642,7 +642,7 @@ public final class SceneCreateEntityRspOuterClass {
         return getEntityFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CreateEntityInfo entity = 15;</code>
+       * <code>.CreateEntityInfo entity = 5;</code>
        */
       public emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfoOrBuilder getEntityOrBuilder() {
         if (entityBuilder_ != null) {
@@ -653,7 +653,7 @@ public final class SceneCreateEntityRspOuterClass {
         }
       }
       /**
-       * <code>.CreateEntityInfo entity = 15;</code>
+       * <code>.CreateEntityInfo entity = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo, emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfo.Builder, emu.grasscutter.net.proto.CreateEntityInfoOuterClass.CreateEntityInfoOrBuilder> 
@@ -702,7 +702,7 @@ public final class SceneCreateEntityRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 12;</code>
+       * <code>int32 retcode = 14;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -710,7 +710,7 @@ public final class SceneCreateEntityRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 12;</code>
+       * <code>int32 retcode = 14;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -721,7 +721,7 @@ public final class SceneCreateEntityRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 12;</code>
+       * <code>int32 retcode = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -799,8 +799,8 @@ public final class SceneCreateEntityRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032SceneCreateEntityRsp.proto\032\026CreateEnti" +
       "tyInfo.proto\"]\n\024SceneCreateEntityRsp\022!\n\006" +
-      "entity\030\017 \001(\0132\021.CreateEntityInfo\022\021\n\tentit" +
-      "y_id\030\002 \001(\r\022\017\n\007retcode\030\014 \001(\005B\033\n\031emu.grass" +
+      "entity\030\005 \001(\0132\021.CreateEntityInfo\022\021\n\tentit" +
+      "y_id\030\002 \001(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grass" +
       "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
