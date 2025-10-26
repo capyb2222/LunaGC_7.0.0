@@ -409,9 +409,9 @@ public final class PacketOpcodes {
     public static final int GetOnlinePlayerListRsp = 27181;
     public static final int JoinPlayerSceneReq = 9634;
     public static final int JoinPlayerSceneRsp = 7667;
-    public static final int LeaveSceneReq = 1; nsure
-    public static final int LeaveSceneRsp = 1; nsure
-    public static final int LeaveWorldNotify = 20875; nsure
+    public static final int LeaveSceneReq = 1; //nsure
+    public static final int LeaveSceneRsp = 1; //nsure
+    public static final int LeaveWorldNotify = 20875; //nsure
     public static final int GroupUnloadNotify = 25270;
     public static final int CheckAddItemExceedLimitNotify = 27332; 
 	public static final int CodexDataUpdateNotify = 27672; 
@@ -531,7 +531,7 @@ public final class PacketOpcodes {
     public static final int UnlockPersonalLineRsp = 25739;
 	public static final int TrialAvatarFirstPassDungeonNotify = 25781;
 
-    seless
+    //useless
     public static final int PlayerReportReq = 5599; // who tf are u gonna report
     public static final int PlayerReportRsp = 8507;
     // :skull:
@@ -623,7 +623,7 @@ public final class PacketOpcodes {
     public static final int SceneEntityUpdateNotify = 1;
     public static final int EntityAnimatorPairValueInfoNotify = 1;
 	
-	nk
+	//unknown
     public static final int AcceptCityReputationRequestReq = 1;
     public static final int AcceptCityReputationRequestRsp = 1;
     public static final int ActivityAcceptAllGiveGiftReq = 1;
