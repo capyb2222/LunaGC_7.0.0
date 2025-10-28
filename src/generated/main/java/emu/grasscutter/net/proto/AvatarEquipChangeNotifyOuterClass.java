@@ -55,12 +55,6 @@ public final class AvatarEquipChangeNotifyOuterClass {
     long getAvatarGuid();
 
     /**
-     * <code>uint64 equip_guid = 4;</code>
-     * @return The equipGuid.
-     */
-    long getEquipGuid();
-
-    /**
      * <code>uint32 item_id = 11;</code>
      * @return The itemId.
      */
@@ -71,6 +65,12 @@ public final class AvatarEquipChangeNotifyOuterClass {
      * @return The equipType.
      */
     int getEquipType();
+
+    /**
+     * <code>uint64 equip_guid = 4;</code>
+     * @return The equipGuid.
+     */
+    long getEquipGuid();
   }
   /**
    * <pre>
@@ -262,17 +262,6 @@ public final class AvatarEquipChangeNotifyOuterClass {
       return avatarGuid_;
     }
 
-    public static final int EQUIP_GUID_FIELD_NUMBER = 4;
-    private long equipGuid_;
-    /**
-     * <code>uint64 equip_guid = 4;</code>
-     * @return The equipGuid.
-     */
-    @java.lang.Override
-    public long getEquipGuid() {
-      return equipGuid_;
-    }
-
     public static final int ITEM_ID_FIELD_NUMBER = 11;
     private int itemId_;
     /**
@@ -293,6 +282,17 @@ public final class AvatarEquipChangeNotifyOuterClass {
     @java.lang.Override
     public int getEquipType() {
       return equipType_;
+    }
+
+    public static final int EQUIP_GUID_FIELD_NUMBER = 4;
+    private long equipGuid_;
+    /**
+     * <code>uint64 equip_guid = 4;</code>
+     * @return The equipGuid.
+     */
+    @java.lang.Override
+    public long getEquipGuid() {
+      return equipGuid_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -387,12 +387,12 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       if (getAvatarGuid()
           != other.getAvatarGuid()) return false;
-      if (getEquipGuid()
-          != other.getEquipGuid()) return false;
       if (getItemId()
           != other.getItemId()) return false;
       if (getEquipType()
           != other.getEquipType()) return false;
+      if (getEquipGuid()
+          != other.getEquipGuid()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -415,13 +415,13 @@ public final class AvatarEquipChangeNotifyOuterClass {
       hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getAvatarGuid());
-      hash = (37 * hash) + EQUIP_GUID_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-          getEquipGuid());
       hash = (37 * hash) + ITEM_ID_FIELD_NUMBER;
       hash = (53 * hash) + getItemId();
       hash = (37 * hash) + EQUIP_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getEquipType();
+      hash = (37 * hash) + EQUIP_GUID_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          getEquipGuid());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -573,11 +573,11 @@ public final class AvatarEquipChangeNotifyOuterClass {
         }
         avatarGuid_ = 0L;
 
-        equipGuid_ = 0L;
-
         itemId_ = 0;
 
         equipType_ = 0;
+
+        equipGuid_ = 0L;
 
         return this;
       }
@@ -616,9 +616,9 @@ public final class AvatarEquipChangeNotifyOuterClass {
           result.weapon_ = weaponBuilder_.build();
         }
         result.avatarGuid_ = avatarGuid_;
-        result.equipGuid_ = equipGuid_;
         result.itemId_ = itemId_;
         result.equipType_ = equipType_;
+        result.equipGuid_ = equipGuid_;
         onBuilt();
         return result;
       }
@@ -676,14 +676,14 @@ public final class AvatarEquipChangeNotifyOuterClass {
         if (other.getAvatarGuid() != 0L) {
           setAvatarGuid(other.getAvatarGuid());
         }
-        if (other.getEquipGuid() != 0L) {
-          setEquipGuid(other.getEquipGuid());
-        }
         if (other.getItemId() != 0) {
           setItemId(other.getItemId());
         }
         if (other.getEquipType() != 0) {
           setEquipType(other.getEquipType());
+        }
+        if (other.getEquipGuid() != 0L) {
+          setEquipGuid(other.getEquipGuid());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -983,37 +983,6 @@ public final class AvatarEquipChangeNotifyOuterClass {
         return this;
       }
 
-      private long equipGuid_ ;
-      /**
-       * <code>uint64 equip_guid = 4;</code>
-       * @return The equipGuid.
-       */
-      @java.lang.Override
-      public long getEquipGuid() {
-        return equipGuid_;
-      }
-      /**
-       * <code>uint64 equip_guid = 4;</code>
-       * @param value The equipGuid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEquipGuid(long value) {
-        
-        equipGuid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint64 equip_guid = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEquipGuid() {
-        
-        equipGuid_ = 0L;
-        onChanged();
-        return this;
-      }
-
       private int itemId_ ;
       /**
        * <code>uint32 item_id = 11;</code>
@@ -1072,6 +1041,37 @@ public final class AvatarEquipChangeNotifyOuterClass {
       public Builder clearEquipType() {
         
         equipType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private long equipGuid_ ;
+      /**
+       * <code>uint64 equip_guid = 4;</code>
+       * @return The equipGuid.
+       */
+      @java.lang.Override
+      public long getEquipGuid() {
+        return equipGuid_;
+      }
+      /**
+       * <code>uint64 equip_guid = 4;</code>
+       * @param value The equipGuid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEquipGuid(long value) {
+        
+        equipGuid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint64 equip_guid = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEquipGuid() {
+        
+        equipGuid_ = 0L;
         onChanged();
         return this;
       }
@@ -1142,29 +1142,29 @@ public final class AvatarEquipChangeNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035AvatarEquipChangeNotify.proto\032\025SceneWe" +
-      "aponInfo.proto\032\030SceneReliquaryInfo.proto" +
+      "\n\035AvatarEquipChangeNotify.proto\032\030SceneRe" +
+      "liquaryInfo.proto\032\025SceneWeaponInfo.proto" +
       "\"\261\001\n\027AvatarEquipChangeNotify\022&\n\treliquar" +
       "y\030\t \001(\0132\023.SceneReliquaryInfo\022 \n\006weapon\030\002" +
       " \001(\0132\020.SceneWeaponInfo\022\023\n\013avatar_guid\030\r " +
-      "\001(\004\022\022\n\nequip_guid\030\004 \001(\004\022\017\n\007item_id\030\013 \001(\r" +
-      "\022\022\n\nequip_type\030\017 \001(\rB\033\n\031emu.grasscutter." +
+      "\001(\004\022\017\n\007item_id\030\013 \001(\r\022\022\n\nequip_type\030\017 \001(\r" +
+      "\022\022\n\nequip_guid\030\004 \001(\004B\033\n\031emu.grasscutter." +
       "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.getDescriptor(),
         });
     internal_static_AvatarEquipChangeNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_AvatarEquipChangeNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarEquipChangeNotify_descriptor,
-        new java.lang.String[] { "Reliquary", "Weapon", "AvatarGuid", "EquipGuid", "ItemId", "EquipType", });
-    emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "Reliquary", "Weapon", "AvatarGuid", "ItemId", "EquipType", "EquipGuid", });
     emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

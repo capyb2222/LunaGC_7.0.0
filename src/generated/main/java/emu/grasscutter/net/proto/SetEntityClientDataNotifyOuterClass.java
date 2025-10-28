@@ -19,29 +19,29 @@ public final class SetEntityClientDataNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.EntityClientData entity_client_data = 2;</code>
+     * <code>.EntityClientData entity_client_data = 4;</code>
      * @return Whether the entityClientData field is set.
      */
     boolean hasEntityClientData();
     /**
-     * <code>.EntityClientData entity_client_data = 2;</code>
+     * <code>.EntityClientData entity_client_data = 4;</code>
      * @return The entityClientData.
      */
     emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData getEntityClientData();
     /**
-     * <code>.EntityClientData entity_client_data = 2;</code>
+     * <code>.EntityClientData entity_client_data = 4;</code>
      */
     emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder getEntityClientDataOrBuilder();
 
     /**
-     * <code>uint32 entity_id = 12;</code>
+     * <code>uint32 entity_id = 2;</code>
      * @return The entityId.
      */
     int getEntityId();
   }
   /**
    * <pre>
-   * CmdId: 308
+   * CmdId: 4000
    * </pre>
    *
    * Protobuf type {@code SetEntityClientDataNotify}
@@ -88,7 +88,12 @@ public final class SetEntityClientDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 16: {
+
+              entityId_ = input.readUInt32();
+              break;
+            }
+            case 34: {
               emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder subBuilder = null;
               if (entityClientData_ != null) {
                 subBuilder = entityClientData_.toBuilder();
@@ -99,11 +104,6 @@ public final class SetEntityClientDataNotifyOuterClass {
                 entityClientData_ = subBuilder.buildPartial();
               }
 
-              break;
-            }
-            case 96: {
-
-              entityId_ = input.readUInt32();
               break;
             }
             default: {
@@ -138,10 +138,10 @@ public final class SetEntityClientDataNotifyOuterClass {
               emu.grasscutter.net.proto.SetEntityClientDataNotifyOuterClass.SetEntityClientDataNotify.class, emu.grasscutter.net.proto.SetEntityClientDataNotifyOuterClass.SetEntityClientDataNotify.Builder.class);
     }
 
-    public static final int ENTITY_CLIENT_DATA_FIELD_NUMBER = 2;
+    public static final int ENTITY_CLIENT_DATA_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData entityClientData_;
     /**
-     * <code>.EntityClientData entity_client_data = 2;</code>
+     * <code>.EntityClientData entity_client_data = 4;</code>
      * @return Whether the entityClientData field is set.
      */
     @java.lang.Override
@@ -149,7 +149,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       return entityClientData_ != null;
     }
     /**
-     * <code>.EntityClientData entity_client_data = 2;</code>
+     * <code>.EntityClientData entity_client_data = 4;</code>
      * @return The entityClientData.
      */
     @java.lang.Override
@@ -157,17 +157,17 @@ public final class SetEntityClientDataNotifyOuterClass {
       return entityClientData_ == null ? emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.getDefaultInstance() : entityClientData_;
     }
     /**
-     * <code>.EntityClientData entity_client_data = 2;</code>
+     * <code>.EntityClientData entity_client_data = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder getEntityClientDataOrBuilder() {
       return getEntityClientData();
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 12;
+    public static final int ENTITY_ID_FIELD_NUMBER = 2;
     private int entityId_;
     /**
-     * <code>uint32 entity_id = 12;</code>
+     * <code>uint32 entity_id = 2;</code>
      * @return The entityId.
      */
     @java.lang.Override
@@ -189,11 +189,11 @@ public final class SetEntityClientDataNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (entityClientData_ != null) {
-        output.writeMessage(2, getEntityClientData());
-      }
       if (entityId_ != 0) {
-        output.writeUInt32(12, entityId_);
+        output.writeUInt32(2, entityId_);
+      }
+      if (entityClientData_ != null) {
+        output.writeMessage(4, getEntityClientData());
       }
       unknownFields.writeTo(output);
     }
@@ -204,13 +204,13 @@ public final class SetEntityClientDataNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (entityClientData_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getEntityClientData());
-      }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, entityId_);
+          .computeUInt32Size(2, entityId_);
+      }
+      if (entityClientData_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getEntityClientData());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -348,7 +348,7 @@ public final class SetEntityClientDataNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 308
+     * CmdId: 4000
      * </pre>
      *
      * Protobuf type {@code SetEntityClientDataNotify}
@@ -515,14 +515,14 @@ public final class SetEntityClientDataNotifyOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder> entityClientDataBuilder_;
       /**
-       * <code>.EntityClientData entity_client_data = 2;</code>
+       * <code>.EntityClientData entity_client_data = 4;</code>
        * @return Whether the entityClientData field is set.
        */
       public boolean hasEntityClientData() {
         return entityClientDataBuilder_ != null || entityClientData_ != null;
       }
       /**
-       * <code>.EntityClientData entity_client_data = 2;</code>
+       * <code>.EntityClientData entity_client_data = 4;</code>
        * @return The entityClientData.
        */
       public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData getEntityClientData() {
@@ -533,7 +533,7 @@ public final class SetEntityClientDataNotifyOuterClass {
         }
       }
       /**
-       * <code>.EntityClientData entity_client_data = 2;</code>
+       * <code>.EntityClientData entity_client_data = 4;</code>
        */
       public Builder setEntityClientData(emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData value) {
         if (entityClientDataBuilder_ == null) {
@@ -549,7 +549,7 @@ public final class SetEntityClientDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.EntityClientData entity_client_data = 2;</code>
+       * <code>.EntityClientData entity_client_data = 4;</code>
        */
       public Builder setEntityClientData(
           emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder builderForValue) {
@@ -563,7 +563,7 @@ public final class SetEntityClientDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.EntityClientData entity_client_data = 2;</code>
+       * <code>.EntityClientData entity_client_data = 4;</code>
        */
       public Builder mergeEntityClientData(emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData value) {
         if (entityClientDataBuilder_ == null) {
@@ -581,7 +581,7 @@ public final class SetEntityClientDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.EntityClientData entity_client_data = 2;</code>
+       * <code>.EntityClientData entity_client_data = 4;</code>
        */
       public Builder clearEntityClientData() {
         if (entityClientDataBuilder_ == null) {
@@ -595,7 +595,7 @@ public final class SetEntityClientDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.EntityClientData entity_client_data = 2;</code>
+       * <code>.EntityClientData entity_client_data = 4;</code>
        */
       public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder getEntityClientDataBuilder() {
         
@@ -603,7 +603,7 @@ public final class SetEntityClientDataNotifyOuterClass {
         return getEntityClientDataFieldBuilder().getBuilder();
       }
       /**
-       * <code>.EntityClientData entity_client_data = 2;</code>
+       * <code>.EntityClientData entity_client_data = 4;</code>
        */
       public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder getEntityClientDataOrBuilder() {
         if (entityClientDataBuilder_ != null) {
@@ -614,7 +614,7 @@ public final class SetEntityClientDataNotifyOuterClass {
         }
       }
       /**
-       * <code>.EntityClientData entity_client_data = 2;</code>
+       * <code>.EntityClientData entity_client_data = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder> 
@@ -632,7 +632,7 @@ public final class SetEntityClientDataNotifyOuterClass {
 
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 12;</code>
+       * <code>uint32 entity_id = 2;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -640,7 +640,7 @@ public final class SetEntityClientDataNotifyOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 12;</code>
+       * <code>uint32 entity_id = 2;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -651,7 +651,7 @@ public final class SetEntityClientDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 entity_id = 12;</code>
+       * <code>uint32 entity_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
@@ -729,8 +729,8 @@ public final class SetEntityClientDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037SetEntityClientDataNotify.proto\032\026Entit" +
       "yClientData.proto\"]\n\031SetEntityClientData" +
-      "Notify\022-\n\022entity_client_data\030\002 \001(\0132\021.Ent" +
-      "ityClientData\022\021\n\tentity_id\030\014 \001(\rB\033\n\031emu." +
+      "Notify\022-\n\022entity_client_data\030\004 \001(\0132\021.Ent" +
+      "ityClientData\022\021\n\tentity_id\030\002 \001(\rB\033\n\031emu." +
       "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

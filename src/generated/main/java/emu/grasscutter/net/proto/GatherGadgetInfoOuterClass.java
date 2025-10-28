@@ -19,16 +19,16 @@ public final class GatherGadgetInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 item_id = 1;</code>
-     * @return The itemId.
-     */
-    int getItemId();
-
-    /**
      * <code>bool is_forbid_guest = 2;</code>
      * @return The isForbidGuest.
      */
     boolean getIsForbidGuest();
+
+    /**
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    int getItemId();
   }
   /**
    * Protobuf type {@code GatherGadgetInfo}
@@ -117,17 +117,6 @@ public final class GatherGadgetInfoOuterClass {
               emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo.class, emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo.Builder.class);
     }
 
-    public static final int ITEM_ID_FIELD_NUMBER = 1;
-    private int itemId_;
-    /**
-     * <code>uint32 item_id = 1;</code>
-     * @return The itemId.
-     */
-    @java.lang.Override
-    public int getItemId() {
-      return itemId_;
-    }
-
     public static final int IS_FORBID_GUEST_FIELD_NUMBER = 2;
     private boolean isForbidGuest_;
     /**
@@ -137,6 +126,17 @@ public final class GatherGadgetInfoOuterClass {
     @java.lang.Override
     public boolean getIsForbidGuest() {
       return isForbidGuest_;
+    }
+
+    public static final int ITEM_ID_FIELD_NUMBER = 1;
+    private int itemId_;
+    /**
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    @java.lang.Override
+    public int getItemId() {
+      return itemId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -191,10 +191,10 @@ public final class GatherGadgetInfoOuterClass {
       }
       emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo other = (emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo) obj;
 
-      if (getItemId()
-          != other.getItemId()) return false;
       if (getIsForbidGuest()
           != other.getIsForbidGuest()) return false;
+      if (getItemId()
+          != other.getItemId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,11 +206,11 @@ public final class GatherGadgetInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + ITEM_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getItemId();
       hash = (37 * hash) + IS_FORBID_GUEST_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsForbidGuest());
+      hash = (37 * hash) + ITEM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getItemId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -344,9 +344,9 @@ public final class GatherGadgetInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        itemId_ = 0;
-
         isForbidGuest_ = false;
+
+        itemId_ = 0;
 
         return this;
       }
@@ -374,8 +374,8 @@ public final class GatherGadgetInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo buildPartial() {
         emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo result = new emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo(this);
-        result.itemId_ = itemId_;
         result.isForbidGuest_ = isForbidGuest_;
+        result.itemId_ = itemId_;
         onBuilt();
         return result;
       }
@@ -424,11 +424,11 @@ public final class GatherGadgetInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo other) {
         if (other == emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo.getDefaultInstance()) return this;
-        if (other.getItemId() != 0) {
-          setItemId(other.getItemId());
-        }
         if (other.getIsForbidGuest() != false) {
           setIsForbidGuest(other.getIsForbidGuest());
+        }
+        if (other.getItemId() != 0) {
+          setItemId(other.getItemId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -459,37 +459,6 @@ public final class GatherGadgetInfoOuterClass {
         return this;
       }
 
-      private int itemId_ ;
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @return The itemId.
-       */
-      @java.lang.Override
-      public int getItemId() {
-        return itemId_;
-      }
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @param value The itemId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setItemId(int value) {
-        
-        itemId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearItemId() {
-        
-        itemId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private boolean isForbidGuest_ ;
       /**
        * <code>bool is_forbid_guest = 2;</code>
@@ -517,6 +486,37 @@ public final class GatherGadgetInfoOuterClass {
       public Builder clearIsForbidGuest() {
         
         isForbidGuest_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int itemId_ ;
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return The itemId.
+       */
+      @java.lang.Override
+      public int getItemId() {
+        return itemId_;
+      }
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @param value The itemId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setItemId(int value) {
+        
+        itemId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearItemId() {
+        
+        itemId_ = 0;
         onChanged();
         return this;
       }
@@ -588,8 +588,8 @@ public final class GatherGadgetInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026GatherGadgetInfo.proto\"<\n\020GatherGadget" +
-      "Info\022\017\n\007item_id\030\001 \001(\r\022\027\n\017is_forbid_guest" +
-      "\030\002 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
+      "Info\022\027\n\017is_forbid_guest\030\002 \001(\010\022\017\n\007item_id" +
+      "\030\001 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
       "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -601,7 +601,7 @@ public final class GatherGadgetInfoOuterClass {
     internal_static_GatherGadgetInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GatherGadgetInfo_descriptor,
-        new java.lang.String[] { "ItemId", "IsForbidGuest", });
+        new java.lang.String[] { "IsForbidGuest", "ItemId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

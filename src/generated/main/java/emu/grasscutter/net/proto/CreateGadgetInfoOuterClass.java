@@ -146,16 +146,16 @@ public final class CreateGadgetInfoOuterClass {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>bool is_show_cutscene = 2;</code>
-       * @return The isShowCutscene.
-       */
-      boolean getIsShowCutscene();
-
-      /**
        * <code>uint32 chest_drop_id = 1;</code>
        * @return The chestDropId.
        */
       int getChestDropId();
+
+      /**
+       * <code>bool is_show_cutscene = 2;</code>
+       * @return The isShowCutscene.
+       */
+      boolean getIsShowCutscene();
     }
     /**
      * Protobuf type {@code CreateGadgetInfo.Chest}
@@ -244,17 +244,6 @@ public final class CreateGadgetInfoOuterClass {
                 emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest.class, emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest.Builder.class);
       }
 
-      public static final int IS_SHOW_CUTSCENE_FIELD_NUMBER = 2;
-      private boolean isShowCutscene_;
-      /**
-       * <code>bool is_show_cutscene = 2;</code>
-       * @return The isShowCutscene.
-       */
-      @java.lang.Override
-      public boolean getIsShowCutscene() {
-        return isShowCutscene_;
-      }
-
       public static final int CHEST_DROP_ID_FIELD_NUMBER = 1;
       private int chestDropId_;
       /**
@@ -264,6 +253,17 @@ public final class CreateGadgetInfoOuterClass {
       @java.lang.Override
       public int getChestDropId() {
         return chestDropId_;
+      }
+
+      public static final int IS_SHOW_CUTSCENE_FIELD_NUMBER = 2;
+      private boolean isShowCutscene_;
+      /**
+       * <code>bool is_show_cutscene = 2;</code>
+       * @return The isShowCutscene.
+       */
+      @java.lang.Override
+      public boolean getIsShowCutscene() {
+        return isShowCutscene_;
       }
 
       private byte memoizedIsInitialized = -1;
@@ -318,10 +318,10 @@ public final class CreateGadgetInfoOuterClass {
         }
         emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest other = (emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest) obj;
 
-        if (getIsShowCutscene()
-            != other.getIsShowCutscene()) return false;
         if (getChestDropId()
             != other.getChestDropId()) return false;
+        if (getIsShowCutscene()
+            != other.getIsShowCutscene()) return false;
         if (!unknownFields.equals(other.unknownFields)) return false;
         return true;
       }
@@ -333,11 +333,11 @@ public final class CreateGadgetInfoOuterClass {
         }
         int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
+        hash = (37 * hash) + CHEST_DROP_ID_FIELD_NUMBER;
+        hash = (53 * hash) + getChestDropId();
         hash = (37 * hash) + IS_SHOW_CUTSCENE_FIELD_NUMBER;
         hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
             getIsShowCutscene());
-        hash = (37 * hash) + CHEST_DROP_ID_FIELD_NUMBER;
-        hash = (53 * hash) + getChestDropId();
         hash = (29 * hash) + unknownFields.hashCode();
         memoizedHashCode = hash;
         return hash;
@@ -471,9 +471,9 @@ public final class CreateGadgetInfoOuterClass {
         @java.lang.Override
         public Builder clear() {
           super.clear();
-          isShowCutscene_ = false;
-
           chestDropId_ = 0;
+
+          isShowCutscene_ = false;
 
           return this;
         }
@@ -501,8 +501,8 @@ public final class CreateGadgetInfoOuterClass {
         @java.lang.Override
         public emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest buildPartial() {
           emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest result = new emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest(this);
-          result.isShowCutscene_ = isShowCutscene_;
           result.chestDropId_ = chestDropId_;
+          result.isShowCutscene_ = isShowCutscene_;
           onBuilt();
           return result;
         }
@@ -551,11 +551,11 @@ public final class CreateGadgetInfoOuterClass {
 
         public Builder mergeFrom(emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest other) {
           if (other == emu.grasscutter.net.proto.CreateGadgetInfoOuterClass.CreateGadgetInfo.Chest.getDefaultInstance()) return this;
-          if (other.getIsShowCutscene() != false) {
-            setIsShowCutscene(other.getIsShowCutscene());
-          }
           if (other.getChestDropId() != 0) {
             setChestDropId(other.getChestDropId());
+          }
+          if (other.getIsShowCutscene() != false) {
+            setIsShowCutscene(other.getIsShowCutscene());
           }
           this.mergeUnknownFields(other.unknownFields);
           onChanged();
@@ -586,37 +586,6 @@ public final class CreateGadgetInfoOuterClass {
           return this;
         }
 
-        private boolean isShowCutscene_ ;
-        /**
-         * <code>bool is_show_cutscene = 2;</code>
-         * @return The isShowCutscene.
-         */
-        @java.lang.Override
-        public boolean getIsShowCutscene() {
-          return isShowCutscene_;
-        }
-        /**
-         * <code>bool is_show_cutscene = 2;</code>
-         * @param value The isShowCutscene to set.
-         * @return This builder for chaining.
-         */
-        public Builder setIsShowCutscene(boolean value) {
-          
-          isShowCutscene_ = value;
-          onChanged();
-          return this;
-        }
-        /**
-         * <code>bool is_show_cutscene = 2;</code>
-         * @return This builder for chaining.
-         */
-        public Builder clearIsShowCutscene() {
-          
-          isShowCutscene_ = false;
-          onChanged();
-          return this;
-        }
-
         private int chestDropId_ ;
         /**
          * <code>uint32 chest_drop_id = 1;</code>
@@ -644,6 +613,37 @@ public final class CreateGadgetInfoOuterClass {
         public Builder clearChestDropId() {
           
           chestDropId_ = 0;
+          onChanged();
+          return this;
+        }
+
+        private boolean isShowCutscene_ ;
+        /**
+         * <code>bool is_show_cutscene = 2;</code>
+         * @return The isShowCutscene.
+         */
+        @java.lang.Override
+        public boolean getIsShowCutscene() {
+          return isShowCutscene_;
+        }
+        /**
+         * <code>bool is_show_cutscene = 2;</code>
+         * @param value The isShowCutscene to set.
+         * @return This builder for chaining.
+         */
+        public Builder setIsShowCutscene(boolean value) {
+          
+          isShowCutscene_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>bool is_show_cutscene = 2;</code>
+         * @return This builder for chaining.
+         */
+        public Builder clearIsShowCutscene() {
+          
+          isShowCutscene_ = false;
           onChanged();
           return this;
         }
@@ -1323,9 +1323,9 @@ public final class CreateGadgetInfoOuterClass {
       "\n\026CreateGadgetInfo.proto\032\024GadgetBornType" +
       ".proto\"\230\001\n\020CreateGadgetInfo\022&\n\005chest\030\002 \001" +
       "(\0132\027.CreateGadgetInfo.Chest\022\"\n\tborn_type" +
-      "\030\001 \001(\0162\017.GadgetBornType\0328\n\005Chest\022\030\n\020is_s" +
-      "how_cutscene\030\002 \001(\010\022\025\n\rchest_drop_id\030\001 \001(" +
-      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\030\001 \001(\0162\017.GadgetBornType\0328\n\005Chest\022\025\n\rches" +
+      "t_drop_id\030\001 \001(\r\022\030\n\020is_show_cutscene\030\002 \001(" +
+      "\010B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1343,7 +1343,7 @@ public final class CreateGadgetInfoOuterClass {
     internal_static_CreateGadgetInfo_Chest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CreateGadgetInfo_Chest_descriptor,
-        new java.lang.String[] { "IsShowCutscene", "ChestDropId", });
+        new java.lang.String[] { "ChestDropId", "IsShowCutscene", });
     emu.grasscutter.net.proto.GadgetBornTypeOuterClass.getDescriptor();
   }
 

@@ -2630,8 +2630,8 @@ public final class AvatarDataNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026AvatarDataNotify.proto\032\026AvatarRenameIn" +
-      "fo.proto\032\020AvatarInfo.proto\032\020AvatarTeam.p" +
+      "\n\026AvatarDataNotify.proto\032\020AvatarTeam.pro" +
+      "to\032\020AvatarInfo.proto\032\026AvatarRenameInfo.p" +
       "roto\"\275\003\n\020AvatarDataNotify\022\037\n\027owned_trace" +
       "_effect_list\030\016 \003(\r\022=\n\017avatar_team_map\030\005 " +
       "\003(\0132$.AvatarDataNotify.AvatarTeamMapEntr" +
@@ -2649,9 +2649,9 @@ public final class AvatarDataNotifyOuterClass {
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.AvatarInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.AvatarTeamOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.AvatarInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.getDescriptor(),
         });
     internal_static_AvatarDataNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -2665,9 +2665,9 @@ public final class AvatarDataNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarDataNotify_AvatarTeamMapEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.AvatarInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.AvatarTeamOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.AvatarInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

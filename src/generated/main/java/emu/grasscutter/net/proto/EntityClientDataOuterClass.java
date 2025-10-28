@@ -19,6 +19,12 @@ public final class EntityClientDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>float windmill_sync_angle = 2;</code>
+     * @return The windmillSyncAngle.
+     */
+    float getWindmillSyncAngle();
+
+    /**
      * <code>int32 wind_change_target_level = 3;</code>
      * @return The windChangeTargetLevel.
      */
@@ -29,12 +35,6 @@ public final class EntityClientDataOuterClass {
      * @return The windChangeSceneTime.
      */
     int getWindChangeSceneTime();
-
-    /**
-     * <code>float windmill_sync_angle = 2;</code>
-     * @return The windmillSyncAngle.
-     */
-    float getWindmillSyncAngle();
   }
   /**
    * Protobuf type {@code EntityClientData}
@@ -128,6 +128,17 @@ public final class EntityClientDataOuterClass {
               emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.class, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder.class);
     }
 
+    public static final int WINDMILL_SYNC_ANGLE_FIELD_NUMBER = 2;
+    private float windmillSyncAngle_;
+    /**
+     * <code>float windmill_sync_angle = 2;</code>
+     * @return The windmillSyncAngle.
+     */
+    @java.lang.Override
+    public float getWindmillSyncAngle() {
+      return windmillSyncAngle_;
+    }
+
     public static final int WIND_CHANGE_TARGET_LEVEL_FIELD_NUMBER = 3;
     private int windChangeTargetLevel_;
     /**
@@ -148,17 +159,6 @@ public final class EntityClientDataOuterClass {
     @java.lang.Override
     public int getWindChangeSceneTime() {
       return windChangeSceneTime_;
-    }
-
-    public static final int WINDMILL_SYNC_ANGLE_FIELD_NUMBER = 2;
-    private float windmillSyncAngle_;
-    /**
-     * <code>float windmill_sync_angle = 2;</code>
-     * @return The windmillSyncAngle.
-     */
-    @java.lang.Override
-    public float getWindmillSyncAngle() {
-      return windmillSyncAngle_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -220,13 +220,13 @@ public final class EntityClientDataOuterClass {
       }
       emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData other = (emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData) obj;
 
+      if (java.lang.Float.floatToIntBits(getWindmillSyncAngle())
+          != java.lang.Float.floatToIntBits(
+              other.getWindmillSyncAngle())) return false;
       if (getWindChangeTargetLevel()
           != other.getWindChangeTargetLevel()) return false;
       if (getWindChangeSceneTime()
           != other.getWindChangeSceneTime()) return false;
-      if (java.lang.Float.floatToIntBits(getWindmillSyncAngle())
-          != java.lang.Float.floatToIntBits(
-              other.getWindmillSyncAngle())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -238,13 +238,13 @@ public final class EntityClientDataOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + WINDMILL_SYNC_ANGLE_FIELD_NUMBER;
+      hash = (53 * hash) + java.lang.Float.floatToIntBits(
+          getWindmillSyncAngle());
       hash = (37 * hash) + WIND_CHANGE_TARGET_LEVEL_FIELD_NUMBER;
       hash = (53 * hash) + getWindChangeTargetLevel();
       hash = (37 * hash) + WIND_CHANGE_SCENE_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getWindChangeSceneTime();
-      hash = (37 * hash) + WINDMILL_SYNC_ANGLE_FIELD_NUMBER;
-      hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getWindmillSyncAngle());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -378,11 +378,11 @@ public final class EntityClientDataOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        windmillSyncAngle_ = 0F;
+
         windChangeTargetLevel_ = 0;
 
         windChangeSceneTime_ = 0;
-
-        windmillSyncAngle_ = 0F;
 
         return this;
       }
@@ -410,9 +410,9 @@ public final class EntityClientDataOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData buildPartial() {
         emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData result = new emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData(this);
+        result.windmillSyncAngle_ = windmillSyncAngle_;
         result.windChangeTargetLevel_ = windChangeTargetLevel_;
         result.windChangeSceneTime_ = windChangeSceneTime_;
-        result.windmillSyncAngle_ = windmillSyncAngle_;
         onBuilt();
         return result;
       }
@@ -461,14 +461,14 @@ public final class EntityClientDataOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData other) {
         if (other == emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.getDefaultInstance()) return this;
+        if (other.getWindmillSyncAngle() != 0F) {
+          setWindmillSyncAngle(other.getWindmillSyncAngle());
+        }
         if (other.getWindChangeTargetLevel() != 0) {
           setWindChangeTargetLevel(other.getWindChangeTargetLevel());
         }
         if (other.getWindChangeSceneTime() != 0) {
           setWindChangeSceneTime(other.getWindChangeSceneTime());
-        }
-        if (other.getWindmillSyncAngle() != 0F) {
-          setWindmillSyncAngle(other.getWindmillSyncAngle());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -496,6 +496,37 @@ public final class EntityClientDataOuterClass {
             mergeFrom(parsedMessage);
           }
         }
+        return this;
+      }
+
+      private float windmillSyncAngle_ ;
+      /**
+       * <code>float windmill_sync_angle = 2;</code>
+       * @return The windmillSyncAngle.
+       */
+      @java.lang.Override
+      public float getWindmillSyncAngle() {
+        return windmillSyncAngle_;
+      }
+      /**
+       * <code>float windmill_sync_angle = 2;</code>
+       * @param value The windmillSyncAngle to set.
+       * @return This builder for chaining.
+       */
+      public Builder setWindmillSyncAngle(float value) {
+        
+        windmillSyncAngle_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float windmill_sync_angle = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearWindmillSyncAngle() {
+        
+        windmillSyncAngle_ = 0F;
+        onChanged();
         return this;
       }
 
@@ -557,37 +588,6 @@ public final class EntityClientDataOuterClass {
       public Builder clearWindChangeSceneTime() {
         
         windChangeSceneTime_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private float windmillSyncAngle_ ;
-      /**
-       * <code>float windmill_sync_angle = 2;</code>
-       * @return The windmillSyncAngle.
-       */
-      @java.lang.Override
-      public float getWindmillSyncAngle() {
-        return windmillSyncAngle_;
-      }
-      /**
-       * <code>float windmill_sync_angle = 2;</code>
-       * @param value The windmillSyncAngle to set.
-       * @return This builder for chaining.
-       */
-      public Builder setWindmillSyncAngle(float value) {
-        
-        windmillSyncAngle_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float windmill_sync_angle = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearWindmillSyncAngle() {
-        
-        windmillSyncAngle_ = 0F;
         onChanged();
         return this;
       }
@@ -659,9 +659,9 @@ public final class EntityClientDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026EntityClientData.proto\"q\n\020EntityClient" +
-      "Data\022 \n\030wind_change_target_level\030\003 \001(\005\022\036" +
-      "\n\026wind_change_scene_time\030\001 \001(\r\022\033\n\023windmi" +
-      "ll_sync_angle\030\002 \001(\002B\033\n\031emu.grasscutter.n" +
+      "Data\022\033\n\023windmill_sync_angle\030\002 \001(\002\022 \n\030win" +
+      "d_change_target_level\030\003 \001(\005\022\036\n\026wind_chan" +
+      "ge_scene_time\030\001 \001(\rB\033\n\031emu.grasscutter.n" +
       "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -673,7 +673,7 @@ public final class EntityClientDataOuterClass {
     internal_static_EntityClientData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EntityClientData_descriptor,
-        new java.lang.String[] { "WindChangeTargetLevel", "WindChangeSceneTime", "WindmillSyncAngle", });
+        new java.lang.String[] { "WindmillSyncAngle", "WindChangeTargetLevel", "WindChangeSceneTime", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

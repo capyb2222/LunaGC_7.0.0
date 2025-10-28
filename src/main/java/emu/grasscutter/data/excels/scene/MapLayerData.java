@@ -10,9 +10,9 @@ public final class MapLayerData extends GameResource {
     @Getter(onMethod_ = @Override)
     private int id;
 
-    @SerializedName("BDPONBHJAHL")
+    @SerializedName("AFHDCMCENLN")
     private int idk1;
 
-    @SerializedName("HNHPONNDEHO")
+    @SerializedName("MHIONMOOBAA")
     private float level; // how deep thoronium is in me | ??? skul
 }

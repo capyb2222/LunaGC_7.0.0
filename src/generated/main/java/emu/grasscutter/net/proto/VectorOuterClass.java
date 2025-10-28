@@ -25,16 +25,16 @@ public final class VectorOuterClass {
     float getY();
 
     /**
-     * <code>float z = 3;</code>
-     * @return The z.
-     */
-    float getZ();
-
-    /**
      * <code>float x = 1;</code>
      * @return The x.
      */
     float getX();
+
+    /**
+     * <code>float z = 3;</code>
+     * @return The z.
+     */
+    float getZ();
   }
   /**
    * Protobuf type {@code Vector}
@@ -139,17 +139,6 @@ public final class VectorOuterClass {
       return y_;
     }
 
-    public static final int Z_FIELD_NUMBER = 3;
-    private float z_;
-    /**
-     * <code>float z = 3;</code>
-     * @return The z.
-     */
-    @java.lang.Override
-    public float getZ() {
-      return z_;
-    }
-
     public static final int X_FIELD_NUMBER = 1;
     private float x_;
     /**
@@ -159,6 +148,17 @@ public final class VectorOuterClass {
     @java.lang.Override
     public float getX() {
       return x_;
+    }
+
+    public static final int Z_FIELD_NUMBER = 3;
+    private float z_;
+    /**
+     * <code>float z = 3;</code>
+     * @return The z.
+     */
+    @java.lang.Override
+    public float getZ() {
+      return z_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -223,12 +223,12 @@ public final class VectorOuterClass {
       if (java.lang.Float.floatToIntBits(getY())
           != java.lang.Float.floatToIntBits(
               other.getY())) return false;
-      if (java.lang.Float.floatToIntBits(getZ())
-          != java.lang.Float.floatToIntBits(
-              other.getZ())) return false;
       if (java.lang.Float.floatToIntBits(getX())
           != java.lang.Float.floatToIntBits(
               other.getX())) return false;
+      if (java.lang.Float.floatToIntBits(getZ())
+          != java.lang.Float.floatToIntBits(
+              other.getZ())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -243,12 +243,12 @@ public final class VectorOuterClass {
       hash = (37 * hash) + Y_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getY());
-      hash = (37 * hash) + Z_FIELD_NUMBER;
-      hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getZ());
       hash = (37 * hash) + X_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getX());
+      hash = (37 * hash) + Z_FIELD_NUMBER;
+      hash = (53 * hash) + java.lang.Float.floatToIntBits(
+          getZ());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -384,9 +384,9 @@ public final class VectorOuterClass {
         super.clear();
         y_ = 0F;
 
-        z_ = 0F;
-
         x_ = 0F;
+
+        z_ = 0F;
 
         return this;
       }
@@ -415,8 +415,8 @@ public final class VectorOuterClass {
       public emu.grasscutter.net.proto.VectorOuterClass.Vector buildPartial() {
         emu.grasscutter.net.proto.VectorOuterClass.Vector result = new emu.grasscutter.net.proto.VectorOuterClass.Vector(this);
         result.y_ = y_;
-        result.z_ = z_;
         result.x_ = x_;
+        result.z_ = z_;
         onBuilt();
         return result;
       }
@@ -468,11 +468,11 @@ public final class VectorOuterClass {
         if (other.getY() != 0F) {
           setY(other.getY());
         }
-        if (other.getZ() != 0F) {
-          setZ(other.getZ());
-        }
         if (other.getX() != 0F) {
           setX(other.getX());
+        }
+        if (other.getZ() != 0F) {
+          setZ(other.getZ());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -534,37 +534,6 @@ public final class VectorOuterClass {
         return this;
       }
 
-      private float z_ ;
-      /**
-       * <code>float z = 3;</code>
-       * @return The z.
-       */
-      @java.lang.Override
-      public float getZ() {
-        return z_;
-      }
-      /**
-       * <code>float z = 3;</code>
-       * @param value The z to set.
-       * @return This builder for chaining.
-       */
-      public Builder setZ(float value) {
-        
-        z_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float z = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearZ() {
-        
-        z_ = 0F;
-        onChanged();
-        return this;
-      }
-
       private float x_ ;
       /**
        * <code>float x = 1;</code>
@@ -592,6 +561,37 @@ public final class VectorOuterClass {
       public Builder clearX() {
         
         x_ = 0F;
+        onChanged();
+        return this;
+      }
+
+      private float z_ ;
+      /**
+       * <code>float z = 3;</code>
+       * @return The z.
+       */
+      @java.lang.Override
+      public float getZ() {
+        return z_;
+      }
+      /**
+       * <code>float z = 3;</code>
+       * @param value The z to set.
+       * @return This builder for chaining.
+       */
+      public Builder setZ(float value) {
+        
+        z_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float z = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearZ() {
+        
+        z_ = 0F;
         onChanged();
         return this;
       }
@@ -662,8 +662,8 @@ public final class VectorOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\014Vector.proto\")\n\006Vector\022\t\n\001y\030\002 \001(\002\022\t\n\001z" +
-      "\030\003 \001(\002\022\t\n\001x\030\001 \001(\002B\033\n\031emu.grasscutter.net" +
+      "\n\014Vector.proto\")\n\006Vector\022\t\n\001y\030\002 \001(\002\022\t\n\001x" +
+      "\030\001 \001(\002\022\t\n\001z\030\003 \001(\002B\033\n\031emu.grasscutter.net" +
       ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -675,7 +675,7 @@ public final class VectorOuterClass {
     internal_static_Vector_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Vector_descriptor,
-        new java.lang.String[] { "Y", "Z", "X", });
+        new java.lang.String[] { "Y", "X", "Z", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

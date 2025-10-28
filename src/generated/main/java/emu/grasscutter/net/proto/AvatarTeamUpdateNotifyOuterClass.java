@@ -70,10 +70,6 @@ public final class AvatarTeamUpdateNotifyOuterClass {
         int key);
   }
   /**
-   * <pre>
-   * CmdId: 29192
-   * </pre>
-   *
    * Protobuf type {@code AvatarTeamUpdateNotify}
    */
   public static final class AvatarTeamUpdateNotify extends
@@ -505,10 +501,6 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 29192
-     * </pre>
-     *
      * Protobuf type {@code AvatarTeamUpdateNotify}
      */
     public static final class Builder extends

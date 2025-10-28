@@ -36,17 +36,6 @@ public final class AnimatorParameterValueInfoOuterClass {
     int getIntVal();
 
     /**
-     * <code>float float_val = 3;</code>
-     * @return Whether the floatVal field is set.
-     */
-    boolean hasFloatVal();
-    /**
-     * <code>float float_val = 3;</code>
-     * @return The floatVal.
-     */
-    float getFloatVal();
-
-    /**
      * <code>bool bool_val = 4;</code>
      * @return Whether the boolVal field is set.
      */
@@ -56,6 +45,17 @@ public final class AnimatorParameterValueInfoOuterClass {
      * @return The boolVal.
      */
     boolean getBoolVal();
+
+    /**
+     * <code>float float_val = 3;</code>
+     * @return Whether the floatVal field is set.
+     */
+    boolean hasFloatVal();
+    /**
+     * <code>float float_val = 3;</code>
+     * @return The floatVal.
+     */
+    float getFloatVal();
 
     public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.ParaValCase getParaValCase();
   }
@@ -162,8 +162,8 @@ public final class AnimatorParameterValueInfoOuterClass {
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
       INT_VAL(2),
-      FLOAT_VAL(3),
       BOOL_VAL(4),
+      FLOAT_VAL(3),
       PARAVAL_NOT_SET(0);
       private final int value;
       private ParaValCase(int value) {
@@ -182,8 +182,8 @@ public final class AnimatorParameterValueInfoOuterClass {
       public static ParaValCase forNumber(int value) {
         switch (value) {
           case 2: return INT_VAL;
-          case 3: return FLOAT_VAL;
           case 4: return BOOL_VAL;
+          case 3: return FLOAT_VAL;
           case 0: return PARAVAL_NOT_SET;
           default: return null;
         }
@@ -231,27 +231,6 @@ public final class AnimatorParameterValueInfoOuterClass {
       return 0;
     }
 
-    public static final int FLOAT_VAL_FIELD_NUMBER = 3;
-    /**
-     * <code>float float_val = 3;</code>
-     * @return Whether the floatVal field is set.
-     */
-    @java.lang.Override
-    public boolean hasFloatVal() {
-      return paraValCase_ == 3;
-    }
-    /**
-     * <code>float float_val = 3;</code>
-     * @return The floatVal.
-     */
-    @java.lang.Override
-    public float getFloatVal() {
-      if (paraValCase_ == 3) {
-        return (java.lang.Float) paraVal_;
-      }
-      return 0F;
-    }
-
     public static final int BOOL_VAL_FIELD_NUMBER = 4;
     /**
      * <code>bool bool_val = 4;</code>
@@ -271,6 +250,27 @@ public final class AnimatorParameterValueInfoOuterClass {
         return (java.lang.Boolean) paraVal_;
       }
       return false;
+    }
+
+    public static final int FLOAT_VAL_FIELD_NUMBER = 3;
+    /**
+     * <code>float float_val = 3;</code>
+     * @return Whether the floatVal field is set.
+     */
+    @java.lang.Override
+    public boolean hasFloatVal() {
+      return paraValCase_ == 3;
+    }
+    /**
+     * <code>float float_val = 3;</code>
+     * @return The floatVal.
+     */
+    @java.lang.Override
+    public float getFloatVal() {
+      if (paraValCase_ == 3) {
+        return (java.lang.Float) paraVal_;
+      }
+      return 0F;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -353,14 +353,14 @@ public final class AnimatorParameterValueInfoOuterClass {
           if (getIntVal()
               != other.getIntVal()) return false;
           break;
+        case 4:
+          if (getBoolVal()
+              != other.getBoolVal()) return false;
+          break;
         case 3:
           if (java.lang.Float.floatToIntBits(getFloatVal())
               != java.lang.Float.floatToIntBits(
                   other.getFloatVal())) return false;
-          break;
-        case 4:
-          if (getBoolVal()
-              != other.getBoolVal()) return false;
           break;
         case 0:
         default:
@@ -383,15 +383,15 @@ public final class AnimatorParameterValueInfoOuterClass {
           hash = (37 * hash) + INT_VAL_FIELD_NUMBER;
           hash = (53 * hash) + getIntVal();
           break;
-        case 3:
-          hash = (37 * hash) + FLOAT_VAL_FIELD_NUMBER;
-          hash = (53 * hash) + java.lang.Float.floatToIntBits(
-              getFloatVal());
-          break;
         case 4:
           hash = (37 * hash) + BOOL_VAL_FIELD_NUMBER;
           hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
               getBoolVal());
+          break;
+        case 3:
+          hash = (37 * hash) + FLOAT_VAL_FIELD_NUMBER;
+          hash = (53 * hash) + java.lang.Float.floatToIntBits(
+              getFloatVal());
           break;
         case 0:
         default:
@@ -563,10 +563,10 @@ public final class AnimatorParameterValueInfoOuterClass {
         if (paraValCase_ == 2) {
           result.paraVal_ = paraVal_;
         }
-        if (paraValCase_ == 3) {
+        if (paraValCase_ == 4) {
           result.paraVal_ = paraVal_;
         }
-        if (paraValCase_ == 4) {
+        if (paraValCase_ == 3) {
           result.paraVal_ = paraVal_;
         }
         result.paraValCase_ = paraValCase_;
@@ -626,12 +626,12 @@ public final class AnimatorParameterValueInfoOuterClass {
             setIntVal(other.getIntVal());
             break;
           }
-          case FLOAT_VAL: {
-            setFloatVal(other.getFloatVal());
-            break;
-          }
           case BOOL_VAL: {
             setBoolVal(other.getBoolVal());
+            break;
+          }
+          case FLOAT_VAL: {
+            setFloatVal(other.getFloatVal());
             break;
           }
           case PARAVAL_NOT_SET: {
@@ -755,47 +755,6 @@ public final class AnimatorParameterValueInfoOuterClass {
       }
 
       /**
-       * <code>float float_val = 3;</code>
-       * @return Whether the floatVal field is set.
-       */
-      public boolean hasFloatVal() {
-        return paraValCase_ == 3;
-      }
-      /**
-       * <code>float float_val = 3;</code>
-       * @return The floatVal.
-       */
-      public float getFloatVal() {
-        if (paraValCase_ == 3) {
-          return (java.lang.Float) paraVal_;
-        }
-        return 0F;
-      }
-      /**
-       * <code>float float_val = 3;</code>
-       * @param value The floatVal to set.
-       * @return This builder for chaining.
-       */
-      public Builder setFloatVal(float value) {
-        paraValCase_ = 3;
-        paraVal_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float float_val = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearFloatVal() {
-        if (paraValCase_ == 3) {
-          paraValCase_ = 0;
-          paraVal_ = null;
-          onChanged();
-        }
-        return this;
-      }
-
-      /**
        * <code>bool bool_val = 4;</code>
        * @return Whether the boolVal field is set.
        */
@@ -829,6 +788,47 @@ public final class AnimatorParameterValueInfoOuterClass {
        */
       public Builder clearBoolVal() {
         if (paraValCase_ == 4) {
+          paraValCase_ = 0;
+          paraVal_ = null;
+          onChanged();
+        }
+        return this;
+      }
+
+      /**
+       * <code>float float_val = 3;</code>
+       * @return Whether the floatVal field is set.
+       */
+      public boolean hasFloatVal() {
+        return paraValCase_ == 3;
+      }
+      /**
+       * <code>float float_val = 3;</code>
+       * @return The floatVal.
+       */
+      public float getFloatVal() {
+        if (paraValCase_ == 3) {
+          return (java.lang.Float) paraVal_;
+        }
+        return 0F;
+      }
+      /**
+       * <code>float float_val = 3;</code>
+       * @param value The floatVal to set.
+       * @return This builder for chaining.
+       */
+      public Builder setFloatVal(float value) {
+        paraValCase_ = 3;
+        paraVal_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float float_val = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearFloatVal() {
+        if (paraValCase_ == 3) {
           paraValCase_ = 0;
           paraVal_ = null;
           onChanged();
@@ -902,11 +902,11 @@ public final class AnimatorParameterValueInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n AnimatorParameterValueInfo.proto\"w\n\032An" +
+      "\n AnimatorParameterValueInfo.proto\"v\n\032An" +
       "imatorParameterValueInfo\022\021\n\tpara_type\030\001 " +
-      "\001(\r\022\021\n\007int_val\030\002 \001(\005H\000\022\023\n\tfloat_val\030\003 \001(" +
-      "\002H\000\022\022\n\010bool_val\030\004 \001(\010H\000B\n\n\010para_ValB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\001(\r\022\021\n\007int_val\030\002 \001(\005H\000\022\022\n\010bool_val\030\004 \001(\010" +
+      "H\000\022\023\n\tfloat_val\030\003 \001(\002H\000B\t\n\007paraValB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -917,7 +917,7 @@ public final class AnimatorParameterValueInfoOuterClass {
     internal_static_AnimatorParameterValueInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AnimatorParameterValueInfo_descriptor,
-        new java.lang.String[] { "ParaType", "IntVal", "FloatVal", "BoolVal", "ParaVal", });
+        new java.lang.String[] { "ParaType", "IntVal", "BoolVal", "FloatVal", "ParaVal", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

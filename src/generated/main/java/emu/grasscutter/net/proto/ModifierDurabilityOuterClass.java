@@ -19,16 +19,16 @@ public final class ModifierDurabilityOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>float reduce_ratio = 1;</code>
-     * @return The reduceRatio.
-     */
-    float getReduceRatio();
-
-    /**
      * <code>float remaining_durability = 2;</code>
      * @return The remainingDurability.
      */
     float getRemainingDurability();
+
+    /**
+     * <code>float reduce_ratio = 1;</code>
+     * @return The reduceRatio.
+     */
+    float getReduceRatio();
   }
   /**
    * Protobuf type {@code ModifierDurability}
@@ -117,17 +117,6 @@ public final class ModifierDurabilityOuterClass {
               emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability.class, emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability.Builder.class);
     }
 
-    public static final int REDUCE_RATIO_FIELD_NUMBER = 1;
-    private float reduceRatio_;
-    /**
-     * <code>float reduce_ratio = 1;</code>
-     * @return The reduceRatio.
-     */
-    @java.lang.Override
-    public float getReduceRatio() {
-      return reduceRatio_;
-    }
-
     public static final int REMAINING_DURABILITY_FIELD_NUMBER = 2;
     private float remainingDurability_;
     /**
@@ -137,6 +126,17 @@ public final class ModifierDurabilityOuterClass {
     @java.lang.Override
     public float getRemainingDurability() {
       return remainingDurability_;
+    }
+
+    public static final int REDUCE_RATIO_FIELD_NUMBER = 1;
+    private float reduceRatio_;
+    /**
+     * <code>float reduce_ratio = 1;</code>
+     * @return The reduceRatio.
+     */
+    @java.lang.Override
+    public float getReduceRatio() {
+      return reduceRatio_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -191,12 +191,12 @@ public final class ModifierDurabilityOuterClass {
       }
       emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability other = (emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability) obj;
 
-      if (java.lang.Float.floatToIntBits(getReduceRatio())
-          != java.lang.Float.floatToIntBits(
-              other.getReduceRatio())) return false;
       if (java.lang.Float.floatToIntBits(getRemainingDurability())
           != java.lang.Float.floatToIntBits(
               other.getRemainingDurability())) return false;
+      if (java.lang.Float.floatToIntBits(getReduceRatio())
+          != java.lang.Float.floatToIntBits(
+              other.getReduceRatio())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -208,12 +208,12 @@ public final class ModifierDurabilityOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + REDUCE_RATIO_FIELD_NUMBER;
-      hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getReduceRatio());
       hash = (37 * hash) + REMAINING_DURABILITY_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getRemainingDurability());
+      hash = (37 * hash) + REDUCE_RATIO_FIELD_NUMBER;
+      hash = (53 * hash) + java.lang.Float.floatToIntBits(
+          getReduceRatio());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -347,9 +347,9 @@ public final class ModifierDurabilityOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        reduceRatio_ = 0F;
-
         remainingDurability_ = 0F;
+
+        reduceRatio_ = 0F;
 
         return this;
       }
@@ -377,8 +377,8 @@ public final class ModifierDurabilityOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability buildPartial() {
         emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability result = new emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability(this);
-        result.reduceRatio_ = reduceRatio_;
         result.remainingDurability_ = remainingDurability_;
+        result.reduceRatio_ = reduceRatio_;
         onBuilt();
         return result;
       }
@@ -427,11 +427,11 @@ public final class ModifierDurabilityOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability other) {
         if (other == emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability.getDefaultInstance()) return this;
-        if (other.getReduceRatio() != 0F) {
-          setReduceRatio(other.getReduceRatio());
-        }
         if (other.getRemainingDurability() != 0F) {
           setRemainingDurability(other.getRemainingDurability());
+        }
+        if (other.getReduceRatio() != 0F) {
+          setReduceRatio(other.getReduceRatio());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -462,37 +462,6 @@ public final class ModifierDurabilityOuterClass {
         return this;
       }
 
-      private float reduceRatio_ ;
-      /**
-       * <code>float reduce_ratio = 1;</code>
-       * @return The reduceRatio.
-       */
-      @java.lang.Override
-      public float getReduceRatio() {
-        return reduceRatio_;
-      }
-      /**
-       * <code>float reduce_ratio = 1;</code>
-       * @param value The reduceRatio to set.
-       * @return This builder for chaining.
-       */
-      public Builder setReduceRatio(float value) {
-        
-        reduceRatio_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float reduce_ratio = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearReduceRatio() {
-        
-        reduceRatio_ = 0F;
-        onChanged();
-        return this;
-      }
-
       private float remainingDurability_ ;
       /**
        * <code>float remaining_durability = 2;</code>
@@ -520,6 +489,37 @@ public final class ModifierDurabilityOuterClass {
       public Builder clearRemainingDurability() {
         
         remainingDurability_ = 0F;
+        onChanged();
+        return this;
+      }
+
+      private float reduceRatio_ ;
+      /**
+       * <code>float reduce_ratio = 1;</code>
+       * @return The reduceRatio.
+       */
+      @java.lang.Override
+      public float getReduceRatio() {
+        return reduceRatio_;
+      }
+      /**
+       * <code>float reduce_ratio = 1;</code>
+       * @param value The reduceRatio to set.
+       * @return This builder for chaining.
+       */
+      public Builder setReduceRatio(float value) {
+        
+        reduceRatio_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float reduce_ratio = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearReduceRatio() {
+        
+        reduceRatio_ = 0F;
         onChanged();
         return this;
       }
@@ -591,8 +591,8 @@ public final class ModifierDurabilityOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030ModifierDurability.proto\"H\n\022ModifierDu" +
-      "rability\022\024\n\014reduce_ratio\030\001 \001(\002\022\034\n\024remain" +
-      "ing_durability\030\002 \001(\002B\033\n\031emu.grasscutter." +
+      "rability\022\034\n\024remaining_durability\030\002 \001(\002\022\024" +
+      "\n\014reduce_ratio\030\001 \001(\002B\033\n\031emu.grasscutter." +
       "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -604,7 +604,7 @@ public final class ModifierDurabilityOuterClass {
     internal_static_ModifierDurability_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ModifierDurability_descriptor,
-        new java.lang.String[] { "ReduceRatio", "RemainingDurability", });
+        new java.lang.String[] { "RemainingDurability", "ReduceRatio", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

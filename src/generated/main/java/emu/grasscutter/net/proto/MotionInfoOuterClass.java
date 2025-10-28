@@ -19,6 +19,21 @@ public final class MotionInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>.Vector ref_pos = 6;</code>
+     * @return Whether the refPos field is set.
+     */
+    boolean hasRefPos();
+    /**
+     * <code>.Vector ref_pos = 6;</code>
+     * @return The refPos.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getRefPos();
+    /**
+     * <code>.Vector ref_pos = 6;</code>
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRefPosOrBuilder();
+
+    /**
      * <code>.Vector pos = 1;</code>
      * @return Whether the pos field is set.
      */
@@ -32,6 +47,38 @@ public final class MotionInfoOuterClass {
      * <code>.Vector pos = 1;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
+
+    /**
+     * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+     * @return A list containing the fIDKMOKEFMG.
+     */
+    java.util.List<java.lang.Integer> getFIDKMOKEFMGList();
+    /**
+     * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+     * @return The count of fIDKMOKEFMG.
+     */
+    int getFIDKMOKEFMGCount();
+    /**
+     * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+     * @param index The index of the element to return.
+     * @return The fIDKMOKEFMG at the given index.
+     */
+    int getFIDKMOKEFMG(int index);
+
+    /**
+     * <code>.Vector speed = 3;</code>
+     * @return Whether the speed field is set.
+     */
+    boolean hasSpeed();
+    /**
+     * <code>.Vector speed = 3;</code>
+     * @return The speed.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getSpeed();
+    /**
+     * <code>.Vector speed = 3;</code>
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSpeedOrBuilder();
 
     /**
      * <code>.Vector rot = 2;</code>
@@ -73,46 +120,22 @@ public final class MotionInfoOuterClass {
         int index);
 
     /**
-     * <code>.Vector ref_pos = 6;</code>
-     * @return Whether the refPos field is set.
+     * <code>uint32 HEJOGKBNLKB = 11;</code>
+     * @return The hEJOGKBNLKB.
      */
-    boolean hasRefPos();
-    /**
-     * <code>.Vector ref_pos = 6;</code>
-     * @return The refPos.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getRefPos();
-    /**
-     * <code>.Vector ref_pos = 6;</code>
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRefPosOrBuilder();
+    int getHEJOGKBNLKB();
 
     /**
-     * <code>.Vector speed = 3;</code>
-     * @return Whether the speed field is set.
+     * <code>uint32 MDBDIPDLKOP = 10;</code>
+     * @return The mDBDIPDLKOP.
      */
-    boolean hasSpeed();
-    /**
-     * <code>.Vector speed = 3;</code>
-     * @return The speed.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getSpeed();
-    /**
-     * <code>.Vector speed = 3;</code>
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSpeedOrBuilder();
+    int getMDBDIPDLKOP();
 
     /**
-     * <code>uint32 ref_id = 7;</code>
-     * @return The refId.
+     * <code>uint32 scene_time = 8;</code>
+     * @return The sceneTime.
      */
-    int getRefId();
-
-    /**
-     * <code>uint32 KDOIAIEDOEE = 10;</code>
-     * @return The kDOIAIEDOEE.
-     */
-    int getKDOIAIEDOEE();
+    int getSceneTime();
 
     /**
      * <code>.MotionState state = 4;</code>
@@ -126,16 +149,10 @@ public final class MotionInfoOuterClass {
     emu.grasscutter.net.proto.MotionStateOuterClass.MotionState getState();
 
     /**
-     * <code>uint32 EOJMCFKMAOH = 11;</code>
-     * @return The eOJMCFKMAOH.
+     * <code>uint32 ref_id = 7;</code>
+     * @return The refId.
      */
-    int getEOJMCFKMAOH();
-
-    /**
-     * <code>uint32 scene_time = 8;</code>
-     * @return The sceneTime.
-     */
-    int getSceneTime();
+    int getRefId();
 
     /**
      * <code>uint64 interval_velocity = 9;</code>
@@ -156,6 +173,7 @@ public final class MotionInfoOuterClass {
       super(builder);
     }
     private MotionInfo() {
+      fIDKMOKEFMG_ = emptyIntList();
       params_ = java.util.Collections.emptyList();
       state_ = 0;
     }
@@ -237,9 +255,9 @@ public final class MotionInfoOuterClass {
               break;
             }
             case 42: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 params_ = new java.util.ArrayList<emu.grasscutter.net.proto.VectorOuterClass.Vector>();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               params_.add(
                   input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry));
@@ -275,12 +293,33 @@ public final class MotionInfoOuterClass {
             }
             case 80: {
 
-              kDOIAIEDOEE_ = input.readUInt32();
+              mDBDIPDLKOP_ = input.readUInt32();
               break;
             }
             case 88: {
 
-              eOJMCFKMAOH_ = input.readUInt32();
+              hEJOGKBNLKB_ = input.readUInt32();
+              break;
+            }
+            case 800: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                fIDKMOKEFMG_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              fIDKMOKEFMG_.addInt(input.readInt32());
+              break;
+            }
+            case 802: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                fIDKMOKEFMG_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                fIDKMOKEFMG_.addInt(input.readInt32());
+              }
+              input.popLimit(limit);
               break;
             }
             default: {
@@ -298,8 +337,11 @@ public final class MotionInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           params_ = java.util.Collections.unmodifiableList(params_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          fIDKMOKEFMG_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -316,6 +358,32 @@ public final class MotionInfoOuterClass {
       return emu.grasscutter.net.proto.MotionInfoOuterClass.internal_static_MotionInfo_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo.class, emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo.Builder.class);
+    }
+
+    public static final int REF_POS_FIELD_NUMBER = 6;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector refPos_;
+    /**
+     * <code>.Vector ref_pos = 6;</code>
+     * @return Whether the refPos field is set.
+     */
+    @java.lang.Override
+    public boolean hasRefPos() {
+      return refPos_ != null;
+    }
+    /**
+     * <code>.Vector ref_pos = 6;</code>
+     * @return The refPos.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getRefPos() {
+      return refPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : refPos_;
+    }
+    /**
+     * <code>.Vector ref_pos = 6;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRefPosOrBuilder() {
+      return getRefPos();
     }
 
     public static final int POS_FIELD_NUMBER = 1;
@@ -342,6 +410,60 @@ public final class MotionInfoOuterClass {
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
       return getPos();
+    }
+
+    public static final int FIDKMOKEFMG_FIELD_NUMBER = 100;
+    private com.google.protobuf.Internal.IntList fIDKMOKEFMG_;
+    /**
+     * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+     * @return A list containing the fIDKMOKEFMG.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getFIDKMOKEFMGList() {
+      return fIDKMOKEFMG_;
+    }
+    /**
+     * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+     * @return The count of fIDKMOKEFMG.
+     */
+    public int getFIDKMOKEFMGCount() {
+      return fIDKMOKEFMG_.size();
+    }
+    /**
+     * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+     * @param index The index of the element to return.
+     * @return The fIDKMOKEFMG at the given index.
+     */
+    public int getFIDKMOKEFMG(int index) {
+      return fIDKMOKEFMG_.getInt(index);
+    }
+    private int fIDKMOKEFMGMemoizedSerializedSize = -1;
+
+    public static final int SPEED_FIELD_NUMBER = 3;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector speed_;
+    /**
+     * <code>.Vector speed = 3;</code>
+     * @return Whether the speed field is set.
+     */
+    @java.lang.Override
+    public boolean hasSpeed() {
+      return speed_ != null;
+    }
+    /**
+     * <code>.Vector speed = 3;</code>
+     * @return The speed.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getSpeed() {
+      return speed_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : speed_;
+    }
+    /**
+     * <code>.Vector speed = 3;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSpeedOrBuilder() {
+      return getSpeed();
     }
 
     public static final int ROT_FIELD_NUMBER = 2;
@@ -410,78 +532,37 @@ public final class MotionInfoOuterClass {
       return params_.get(index);
     }
 
-    public static final int REF_POS_FIELD_NUMBER = 6;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector refPos_;
+    public static final int HEJOGKBNLKB_FIELD_NUMBER = 11;
+    private int hEJOGKBNLKB_;
     /**
-     * <code>.Vector ref_pos = 6;</code>
-     * @return Whether the refPos field is set.
+     * <code>uint32 HEJOGKBNLKB = 11;</code>
+     * @return The hEJOGKBNLKB.
      */
     @java.lang.Override
-    public boolean hasRefPos() {
-      return refPos_ != null;
-    }
-    /**
-     * <code>.Vector ref_pos = 6;</code>
-     * @return The refPos.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getRefPos() {
-      return refPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : refPos_;
-    }
-    /**
-     * <code>.Vector ref_pos = 6;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRefPosOrBuilder() {
-      return getRefPos();
+    public int getHEJOGKBNLKB() {
+      return hEJOGKBNLKB_;
     }
 
-    public static final int SPEED_FIELD_NUMBER = 3;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector speed_;
+    public static final int MDBDIPDLKOP_FIELD_NUMBER = 10;
+    private int mDBDIPDLKOP_;
     /**
-     * <code>.Vector speed = 3;</code>
-     * @return Whether the speed field is set.
+     * <code>uint32 MDBDIPDLKOP = 10;</code>
+     * @return The mDBDIPDLKOP.
      */
     @java.lang.Override
-    public boolean hasSpeed() {
-      return speed_ != null;
-    }
-    /**
-     * <code>.Vector speed = 3;</code>
-     * @return The speed.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getSpeed() {
-      return speed_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : speed_;
-    }
-    /**
-     * <code>.Vector speed = 3;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSpeedOrBuilder() {
-      return getSpeed();
+    public int getMDBDIPDLKOP() {
+      return mDBDIPDLKOP_;
     }
 
-    public static final int REF_ID_FIELD_NUMBER = 7;
-    private int refId_;
+    public static final int SCENE_TIME_FIELD_NUMBER = 8;
+    private int sceneTime_;
     /**
-     * <code>uint32 ref_id = 7;</code>
-     * @return The refId.
+     * <code>uint32 scene_time = 8;</code>
+     * @return The sceneTime.
      */
     @java.lang.Override
-    public int getRefId() {
-      return refId_;
-    }
-
-    public static final int KDOIAIEDOEE_FIELD_NUMBER = 10;
-    private int kDOIAIEDOEE_;
-    /**
-     * <code>uint32 KDOIAIEDOEE = 10;</code>
-     * @return The kDOIAIEDOEE.
-     */
-    @java.lang.Override
-    public int getKDOIAIEDOEE() {
-      return kDOIAIEDOEE_;
+    public int getSceneTime() {
+      return sceneTime_;
     }
 
     public static final int STATE_FIELD_NUMBER = 4;
@@ -503,26 +584,15 @@ public final class MotionInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.MotionStateOuterClass.MotionState.UNRECOGNIZED : result;
     }
 
-    public static final int EOJMCFKMAOH_FIELD_NUMBER = 11;
-    private int eOJMCFKMAOH_;
+    public static final int REF_ID_FIELD_NUMBER = 7;
+    private int refId_;
     /**
-     * <code>uint32 EOJMCFKMAOH = 11;</code>
-     * @return The eOJMCFKMAOH.
+     * <code>uint32 ref_id = 7;</code>
+     * @return The refId.
      */
     @java.lang.Override
-    public int getEOJMCFKMAOH() {
-      return eOJMCFKMAOH_;
-    }
-
-    public static final int SCENE_TIME_FIELD_NUMBER = 8;
-    private int sceneTime_;
-    /**
-     * <code>uint32 scene_time = 8;</code>
-     * @return The sceneTime.
-     */
-    @java.lang.Override
-    public int getSceneTime() {
-      return sceneTime_;
+    public int getRefId() {
+      return refId_;
     }
 
     public static final int INTERVAL_VELOCITY_FIELD_NUMBER = 9;
@@ -550,6 +620,7 @@ public final class MotionInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      getSerializedSize();
       if (pos_ != null) {
         output.writeMessage(1, getPos());
       }
@@ -577,11 +648,18 @@ public final class MotionInfoOuterClass {
       if (intervalVelocity_ != 0L) {
         output.writeUInt64(9, intervalVelocity_);
       }
-      if (kDOIAIEDOEE_ != 0) {
-        output.writeUInt32(10, kDOIAIEDOEE_);
+      if (mDBDIPDLKOP_ != 0) {
+        output.writeUInt32(10, mDBDIPDLKOP_);
       }
-      if (eOJMCFKMAOH_ != 0) {
-        output.writeUInt32(11, eOJMCFKMAOH_);
+      if (hEJOGKBNLKB_ != 0) {
+        output.writeUInt32(11, hEJOGKBNLKB_);
+      }
+      if (getFIDKMOKEFMGList().size() > 0) {
+        output.writeUInt32NoTag(802);
+        output.writeUInt32NoTag(fIDKMOKEFMGMemoizedSerializedSize);
+      }
+      for (int i = 0; i < fIDKMOKEFMG_.size(); i++) {
+        output.writeInt32NoTag(fIDKMOKEFMG_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -628,13 +706,27 @@ public final class MotionInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(9, intervalVelocity_);
       }
-      if (kDOIAIEDOEE_ != 0) {
+      if (mDBDIPDLKOP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, kDOIAIEDOEE_);
+          .computeUInt32Size(10, mDBDIPDLKOP_);
       }
-      if (eOJMCFKMAOH_ != 0) {
+      if (hEJOGKBNLKB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, eOJMCFKMAOH_);
+          .computeUInt32Size(11, hEJOGKBNLKB_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < fIDKMOKEFMG_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeInt32SizeNoTag(fIDKMOKEFMG_.getInt(i));
+        }
+        size += dataSize;
+        if (!getFIDKMOKEFMGList().isEmpty()) {
+          size += 2;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        fIDKMOKEFMGMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -651,10 +743,22 @@ public final class MotionInfoOuterClass {
       }
       emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo other = (emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo) obj;
 
+      if (hasRefPos() != other.hasRefPos()) return false;
+      if (hasRefPos()) {
+        if (!getRefPos()
+            .equals(other.getRefPos())) return false;
+      }
       if (hasPos() != other.hasPos()) return false;
       if (hasPos()) {
         if (!getPos()
             .equals(other.getPos())) return false;
+      }
+      if (!getFIDKMOKEFMGList()
+          .equals(other.getFIDKMOKEFMGList())) return false;
+      if (hasSpeed() != other.hasSpeed()) return false;
+      if (hasSpeed()) {
+        if (!getSpeed()
+            .equals(other.getSpeed())) return false;
       }
       if (hasRot() != other.hasRot()) return false;
       if (hasRot()) {
@@ -663,25 +767,15 @@ public final class MotionInfoOuterClass {
       }
       if (!getParamsList()
           .equals(other.getParamsList())) return false;
-      if (hasRefPos() != other.hasRefPos()) return false;
-      if (hasRefPos()) {
-        if (!getRefPos()
-            .equals(other.getRefPos())) return false;
-      }
-      if (hasSpeed() != other.hasSpeed()) return false;
-      if (hasSpeed()) {
-        if (!getSpeed()
-            .equals(other.getSpeed())) return false;
-      }
-      if (getRefId()
-          != other.getRefId()) return false;
-      if (getKDOIAIEDOEE()
-          != other.getKDOIAIEDOEE()) return false;
-      if (state_ != other.state_) return false;
-      if (getEOJMCFKMAOH()
-          != other.getEOJMCFKMAOH()) return false;
+      if (getHEJOGKBNLKB()
+          != other.getHEJOGKBNLKB()) return false;
+      if (getMDBDIPDLKOP()
+          != other.getMDBDIPDLKOP()) return false;
       if (getSceneTime()
           != other.getSceneTime()) return false;
+      if (state_ != other.state_) return false;
+      if (getRefId()
+          != other.getRefId()) return false;
       if (getIntervalVelocity()
           != other.getIntervalVelocity()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -695,9 +789,21 @@ public final class MotionInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (hasRefPos()) {
+        hash = (37 * hash) + REF_POS_FIELD_NUMBER;
+        hash = (53 * hash) + getRefPos().hashCode();
+      }
       if (hasPos()) {
         hash = (37 * hash) + POS_FIELD_NUMBER;
         hash = (53 * hash) + getPos().hashCode();
+      }
+      if (getFIDKMOKEFMGCount() > 0) {
+        hash = (37 * hash) + FIDKMOKEFMG_FIELD_NUMBER;
+        hash = (53 * hash) + getFIDKMOKEFMGList().hashCode();
+      }
+      if (hasSpeed()) {
+        hash = (37 * hash) + SPEED_FIELD_NUMBER;
+        hash = (53 * hash) + getSpeed().hashCode();
       }
       if (hasRot()) {
         hash = (37 * hash) + ROT_FIELD_NUMBER;
@@ -707,24 +813,16 @@ public final class MotionInfoOuterClass {
         hash = (37 * hash) + PARAMS_FIELD_NUMBER;
         hash = (53 * hash) + getParamsList().hashCode();
       }
-      if (hasRefPos()) {
-        hash = (37 * hash) + REF_POS_FIELD_NUMBER;
-        hash = (53 * hash) + getRefPos().hashCode();
-      }
-      if (hasSpeed()) {
-        hash = (37 * hash) + SPEED_FIELD_NUMBER;
-        hash = (53 * hash) + getSpeed().hashCode();
-      }
-      hash = (37 * hash) + REF_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getRefId();
-      hash = (37 * hash) + KDOIAIEDOEE_FIELD_NUMBER;
-      hash = (53 * hash) + getKDOIAIEDOEE();
-      hash = (37 * hash) + STATE_FIELD_NUMBER;
-      hash = (53 * hash) + state_;
-      hash = (37 * hash) + EOJMCFKMAOH_FIELD_NUMBER;
-      hash = (53 * hash) + getEOJMCFKMAOH();
+      hash = (37 * hash) + HEJOGKBNLKB_FIELD_NUMBER;
+      hash = (53 * hash) + getHEJOGKBNLKB();
+      hash = (37 * hash) + MDBDIPDLKOP_FIELD_NUMBER;
+      hash = (53 * hash) + getMDBDIPDLKOP();
       hash = (37 * hash) + SCENE_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getSceneTime();
+      hash = (37 * hash) + STATE_FIELD_NUMBER;
+      hash = (53 * hash) + state_;
+      hash = (37 * hash) + REF_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getRefId();
       hash = (37 * hash) + INTERVAL_VELOCITY_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getIntervalVelocity());
@@ -862,11 +960,25 @@ public final class MotionInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (refPosBuilder_ == null) {
+          refPos_ = null;
+        } else {
+          refPos_ = null;
+          refPosBuilder_ = null;
+        }
         if (posBuilder_ == null) {
           pos_ = null;
         } else {
           pos_ = null;
           posBuilder_ = null;
+        }
+        fIDKMOKEFMG_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        if (speedBuilder_ == null) {
+          speed_ = null;
+        } else {
+          speed_ = null;
+          speedBuilder_ = null;
         }
         if (rotBuilder_ == null) {
           rot_ = null;
@@ -876,31 +988,19 @@ public final class MotionInfoOuterClass {
         }
         if (paramsBuilder_ == null) {
           params_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           paramsBuilder_.clear();
         }
-        if (refPosBuilder_ == null) {
-          refPos_ = null;
-        } else {
-          refPos_ = null;
-          refPosBuilder_ = null;
-        }
-        if (speedBuilder_ == null) {
-          speed_ = null;
-        } else {
-          speed_ = null;
-          speedBuilder_ = null;
-        }
-        refId_ = 0;
+        hEJOGKBNLKB_ = 0;
 
-        kDOIAIEDOEE_ = 0;
+        mDBDIPDLKOP_ = 0;
+
+        sceneTime_ = 0;
 
         state_ = 0;
 
-        eOJMCFKMAOH_ = 0;
-
-        sceneTime_ = 0;
+        refId_ = 0;
 
         intervalVelocity_ = 0L;
 
@@ -931,10 +1031,25 @@ public final class MotionInfoOuterClass {
       public emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo buildPartial() {
         emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo result = new emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo(this);
         int from_bitField0_ = bitField0_;
+        if (refPosBuilder_ == null) {
+          result.refPos_ = refPos_;
+        } else {
+          result.refPos_ = refPosBuilder_.build();
+        }
         if (posBuilder_ == null) {
           result.pos_ = pos_;
         } else {
           result.pos_ = posBuilder_.build();
+        }
+        if (((bitField0_ & 0x00000001) != 0)) {
+          fIDKMOKEFMG_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.fIDKMOKEFMG_ = fIDKMOKEFMG_;
+        if (speedBuilder_ == null) {
+          result.speed_ = speed_;
+        } else {
+          result.speed_ = speedBuilder_.build();
         }
         if (rotBuilder_ == null) {
           result.rot_ = rot_;
@@ -942,29 +1057,19 @@ public final class MotionInfoOuterClass {
           result.rot_ = rotBuilder_.build();
         }
         if (paramsBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
+          if (((bitField0_ & 0x00000002) != 0)) {
             params_ = java.util.Collections.unmodifiableList(params_);
-            bitField0_ = (bitField0_ & ~0x00000001);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.params_ = params_;
         } else {
           result.params_ = paramsBuilder_.build();
         }
-        if (refPosBuilder_ == null) {
-          result.refPos_ = refPos_;
-        } else {
-          result.refPos_ = refPosBuilder_.build();
-        }
-        if (speedBuilder_ == null) {
-          result.speed_ = speed_;
-        } else {
-          result.speed_ = speedBuilder_.build();
-        }
-        result.refId_ = refId_;
-        result.kDOIAIEDOEE_ = kDOIAIEDOEE_;
-        result.state_ = state_;
-        result.eOJMCFKMAOH_ = eOJMCFKMAOH_;
+        result.hEJOGKBNLKB_ = hEJOGKBNLKB_;
+        result.mDBDIPDLKOP_ = mDBDIPDLKOP_;
         result.sceneTime_ = sceneTime_;
+        result.state_ = state_;
+        result.refId_ = refId_;
         result.intervalVelocity_ = intervalVelocity_;
         onBuilt();
         return result;
@@ -1014,8 +1119,24 @@ public final class MotionInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo other) {
         if (other == emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo.getDefaultInstance()) return this;
+        if (other.hasRefPos()) {
+          mergeRefPos(other.getRefPos());
+        }
         if (other.hasPos()) {
           mergePos(other.getPos());
+        }
+        if (!other.fIDKMOKEFMG_.isEmpty()) {
+          if (fIDKMOKEFMG_.isEmpty()) {
+            fIDKMOKEFMG_ = other.fIDKMOKEFMG_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureFIDKMOKEFMGIsMutable();
+            fIDKMOKEFMG_.addAll(other.fIDKMOKEFMG_);
+          }
+          onChanged();
+        }
+        if (other.hasSpeed()) {
+          mergeSpeed(other.getSpeed());
         }
         if (other.hasRot()) {
           mergeRot(other.getRot());
@@ -1024,7 +1145,7 @@ public final class MotionInfoOuterClass {
           if (!other.params_.isEmpty()) {
             if (params_.isEmpty()) {
               params_ = other.params_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureParamsIsMutable();
               params_.addAll(other.params_);
@@ -1037,7 +1158,7 @@ public final class MotionInfoOuterClass {
               paramsBuilder_.dispose();
               paramsBuilder_ = null;
               params_ = other.params_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000002);
               paramsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getParamsFieldBuilder() : null;
@@ -1046,26 +1167,20 @@ public final class MotionInfoOuterClass {
             }
           }
         }
-        if (other.hasRefPos()) {
-          mergeRefPos(other.getRefPos());
+        if (other.getHEJOGKBNLKB() != 0) {
+          setHEJOGKBNLKB(other.getHEJOGKBNLKB());
         }
-        if (other.hasSpeed()) {
-          mergeSpeed(other.getSpeed());
+        if (other.getMDBDIPDLKOP() != 0) {
+          setMDBDIPDLKOP(other.getMDBDIPDLKOP());
         }
-        if (other.getRefId() != 0) {
-          setRefId(other.getRefId());
-        }
-        if (other.getKDOIAIEDOEE() != 0) {
-          setKDOIAIEDOEE(other.getKDOIAIEDOEE());
+        if (other.getSceneTime() != 0) {
+          setSceneTime(other.getSceneTime());
         }
         if (other.state_ != 0) {
           setStateValue(other.getStateValue());
         }
-        if (other.getEOJMCFKMAOH() != 0) {
-          setEOJMCFKMAOH(other.getEOJMCFKMAOH());
-        }
-        if (other.getSceneTime() != 0) {
-          setSceneTime(other.getSceneTime());
+        if (other.getRefId() != 0) {
+          setRefId(other.getRefId());
         }
         if (other.getIntervalVelocity() != 0L) {
           setIntervalVelocity(other.getIntervalVelocity());
@@ -1099,6 +1214,125 @@ public final class MotionInfoOuterClass {
         return this;
       }
       private int bitField0_;
+
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector refPos_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> refPosBuilder_;
+      /**
+       * <code>.Vector ref_pos = 6;</code>
+       * @return Whether the refPos field is set.
+       */
+      public boolean hasRefPos() {
+        return refPosBuilder_ != null || refPos_ != null;
+      }
+      /**
+       * <code>.Vector ref_pos = 6;</code>
+       * @return The refPos.
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getRefPos() {
+        if (refPosBuilder_ == null) {
+          return refPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : refPos_;
+        } else {
+          return refPosBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.Vector ref_pos = 6;</code>
+       */
+      public Builder setRefPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (refPosBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          refPos_ = value;
+          onChanged();
+        } else {
+          refPosBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector ref_pos = 6;</code>
+       */
+      public Builder setRefPos(
+          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
+        if (refPosBuilder_ == null) {
+          refPos_ = builderForValue.build();
+          onChanged();
+        } else {
+          refPosBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector ref_pos = 6;</code>
+       */
+      public Builder mergeRefPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (refPosBuilder_ == null) {
+          if (refPos_ != null) {
+            refPos_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(refPos_).mergeFrom(value).buildPartial();
+          } else {
+            refPos_ = value;
+          }
+          onChanged();
+        } else {
+          refPosBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector ref_pos = 6;</code>
+       */
+      public Builder clearRefPos() {
+        if (refPosBuilder_ == null) {
+          refPos_ = null;
+          onChanged();
+        } else {
+          refPos_ = null;
+          refPosBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector ref_pos = 6;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRefPosBuilder() {
+        
+        onChanged();
+        return getRefPosFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.Vector ref_pos = 6;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRefPosOrBuilder() {
+        if (refPosBuilder_ != null) {
+          return refPosBuilder_.getMessageOrBuilder();
+        } else {
+          return refPos_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : refPos_;
+        }
+      }
+      /**
+       * <code>.Vector ref_pos = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          getRefPosFieldBuilder() {
+        if (refPosBuilder_ == null) {
+          refPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
+                  getRefPos(),
+                  getParentForChildren(),
+                  isClean());
+          refPos_ = null;
+        }
+        return refPosBuilder_;
+      }
 
       private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -1217,6 +1451,204 @@ public final class MotionInfoOuterClass {
           pos_ = null;
         }
         return posBuilder_;
+      }
+
+      private com.google.protobuf.Internal.IntList fIDKMOKEFMG_ = emptyIntList();
+      private void ensureFIDKMOKEFMGIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          fIDKMOKEFMG_ = mutableCopy(fIDKMOKEFMG_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+       * @return A list containing the fIDKMOKEFMG.
+       */
+      public java.util.List<java.lang.Integer>
+          getFIDKMOKEFMGList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(fIDKMOKEFMG_) : fIDKMOKEFMG_;
+      }
+      /**
+       * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+       * @return The count of fIDKMOKEFMG.
+       */
+      public int getFIDKMOKEFMGCount() {
+        return fIDKMOKEFMG_.size();
+      }
+      /**
+       * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+       * @param index The index of the element to return.
+       * @return The fIDKMOKEFMG at the given index.
+       */
+      public int getFIDKMOKEFMG(int index) {
+        return fIDKMOKEFMG_.getInt(index);
+      }
+      /**
+       * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+       * @param index The index to set the value at.
+       * @param value The fIDKMOKEFMG to set.
+       * @return This builder for chaining.
+       */
+      public Builder setFIDKMOKEFMG(
+          int index, int value) {
+        ensureFIDKMOKEFMGIsMutable();
+        fIDKMOKEFMG_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+       * @param value The fIDKMOKEFMG to add.
+       * @return This builder for chaining.
+       */
+      public Builder addFIDKMOKEFMG(int value) {
+        ensureFIDKMOKEFMGIsMutable();
+        fIDKMOKEFMG_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+       * @param values The fIDKMOKEFMG to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllFIDKMOKEFMG(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureFIDKMOKEFMGIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, fIDKMOKEFMG_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated int32 FIDKMOKEFMG = 100;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearFIDKMOKEFMG() {
+        fIDKMOKEFMG_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector speed_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> speedBuilder_;
+      /**
+       * <code>.Vector speed = 3;</code>
+       * @return Whether the speed field is set.
+       */
+      public boolean hasSpeed() {
+        return speedBuilder_ != null || speed_ != null;
+      }
+      /**
+       * <code>.Vector speed = 3;</code>
+       * @return The speed.
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getSpeed() {
+        if (speedBuilder_ == null) {
+          return speed_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : speed_;
+        } else {
+          return speedBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.Vector speed = 3;</code>
+       */
+      public Builder setSpeed(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (speedBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          speed_ = value;
+          onChanged();
+        } else {
+          speedBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector speed = 3;</code>
+       */
+      public Builder setSpeed(
+          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
+        if (speedBuilder_ == null) {
+          speed_ = builderForValue.build();
+          onChanged();
+        } else {
+          speedBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector speed = 3;</code>
+       */
+      public Builder mergeSpeed(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (speedBuilder_ == null) {
+          if (speed_ != null) {
+            speed_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(speed_).mergeFrom(value).buildPartial();
+          } else {
+            speed_ = value;
+          }
+          onChanged();
+        } else {
+          speedBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector speed = 3;</code>
+       */
+      public Builder clearSpeed() {
+        if (speedBuilder_ == null) {
+          speed_ = null;
+          onChanged();
+        } else {
+          speed_ = null;
+          speedBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector speed = 3;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSpeedBuilder() {
+        
+        onChanged();
+        return getSpeedFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.Vector speed = 3;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSpeedOrBuilder() {
+        if (speedBuilder_ != null) {
+          return speedBuilder_.getMessageOrBuilder();
+        } else {
+          return speed_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : speed_;
+        }
+      }
+      /**
+       * <code>.Vector speed = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          getSpeedFieldBuilder() {
+        if (speedBuilder_ == null) {
+          speedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
+                  getSpeed(),
+                  getParentForChildren(),
+                  isClean());
+          speed_ = null;
+        }
+        return speedBuilder_;
       }
 
       private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
@@ -1341,9 +1773,9 @@ public final class MotionInfoOuterClass {
       private java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector> params_ =
         java.util.Collections.emptyList();
       private void ensureParamsIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
+        if (!((bitField0_ & 0x00000002) != 0)) {
           params_ = new java.util.ArrayList<emu.grasscutter.net.proto.VectorOuterClass.Vector>(params_);
-          bitField0_ |= 0x00000001;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -1493,7 +1925,7 @@ public final class MotionInfoOuterClass {
       public Builder clearParams() {
         if (paramsBuilder_ == null) {
           params_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           paramsBuilder_.clear();
@@ -1570,7 +2002,7 @@ public final class MotionInfoOuterClass {
           paramsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
                   params_,
-                  ((bitField0_ & 0x00000001) != 0),
+                  ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
                   isClean());
           params_ = null;
@@ -1578,302 +2010,95 @@ public final class MotionInfoOuterClass {
         return paramsBuilder_;
       }
 
-      private emu.grasscutter.net.proto.VectorOuterClass.Vector refPos_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> refPosBuilder_;
+      private int hEJOGKBNLKB_ ;
       /**
-       * <code>.Vector ref_pos = 6;</code>
-       * @return Whether the refPos field is set.
-       */
-      public boolean hasRefPos() {
-        return refPosBuilder_ != null || refPos_ != null;
-      }
-      /**
-       * <code>.Vector ref_pos = 6;</code>
-       * @return The refPos.
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector getRefPos() {
-        if (refPosBuilder_ == null) {
-          return refPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : refPos_;
-        } else {
-          return refPosBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>.Vector ref_pos = 6;</code>
-       */
-      public Builder setRefPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (refPosBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          refPos_ = value;
-          onChanged();
-        } else {
-          refPosBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector ref_pos = 6;</code>
-       */
-      public Builder setRefPos(
-          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
-        if (refPosBuilder_ == null) {
-          refPos_ = builderForValue.build();
-          onChanged();
-        } else {
-          refPosBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector ref_pos = 6;</code>
-       */
-      public Builder mergeRefPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (refPosBuilder_ == null) {
-          if (refPos_ != null) {
-            refPos_ =
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(refPos_).mergeFrom(value).buildPartial();
-          } else {
-            refPos_ = value;
-          }
-          onChanged();
-        } else {
-          refPosBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector ref_pos = 6;</code>
-       */
-      public Builder clearRefPos() {
-        if (refPosBuilder_ == null) {
-          refPos_ = null;
-          onChanged();
-        } else {
-          refPos_ = null;
-          refPosBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector ref_pos = 6;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRefPosBuilder() {
-        
-        onChanged();
-        return getRefPosFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.Vector ref_pos = 6;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRefPosOrBuilder() {
-        if (refPosBuilder_ != null) {
-          return refPosBuilder_.getMessageOrBuilder();
-        } else {
-          return refPos_ == null ?
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : refPos_;
-        }
-      }
-      /**
-       * <code>.Vector ref_pos = 6;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
-          getRefPosFieldBuilder() {
-        if (refPosBuilder_ == null) {
-          refPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
-                  getRefPos(),
-                  getParentForChildren(),
-                  isClean());
-          refPos_ = null;
-        }
-        return refPosBuilder_;
-      }
-
-      private emu.grasscutter.net.proto.VectorOuterClass.Vector speed_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> speedBuilder_;
-      /**
-       * <code>.Vector speed = 3;</code>
-       * @return Whether the speed field is set.
-       */
-      public boolean hasSpeed() {
-        return speedBuilder_ != null || speed_ != null;
-      }
-      /**
-       * <code>.Vector speed = 3;</code>
-       * @return The speed.
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector getSpeed() {
-        if (speedBuilder_ == null) {
-          return speed_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : speed_;
-        } else {
-          return speedBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>.Vector speed = 3;</code>
-       */
-      public Builder setSpeed(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (speedBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          speed_ = value;
-          onChanged();
-        } else {
-          speedBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector speed = 3;</code>
-       */
-      public Builder setSpeed(
-          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
-        if (speedBuilder_ == null) {
-          speed_ = builderForValue.build();
-          onChanged();
-        } else {
-          speedBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector speed = 3;</code>
-       */
-      public Builder mergeSpeed(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (speedBuilder_ == null) {
-          if (speed_ != null) {
-            speed_ =
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(speed_).mergeFrom(value).buildPartial();
-          } else {
-            speed_ = value;
-          }
-          onChanged();
-        } else {
-          speedBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector speed = 3;</code>
-       */
-      public Builder clearSpeed() {
-        if (speedBuilder_ == null) {
-          speed_ = null;
-          onChanged();
-        } else {
-          speed_ = null;
-          speedBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector speed = 3;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSpeedBuilder() {
-        
-        onChanged();
-        return getSpeedFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.Vector speed = 3;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSpeedOrBuilder() {
-        if (speedBuilder_ != null) {
-          return speedBuilder_.getMessageOrBuilder();
-        } else {
-          return speed_ == null ?
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : speed_;
-        }
-      }
-      /**
-       * <code>.Vector speed = 3;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
-          getSpeedFieldBuilder() {
-        if (speedBuilder_ == null) {
-          speedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
-                  getSpeed(),
-                  getParentForChildren(),
-                  isClean());
-          speed_ = null;
-        }
-        return speedBuilder_;
-      }
-
-      private int refId_ ;
-      /**
-       * <code>uint32 ref_id = 7;</code>
-       * @return The refId.
+       * <code>uint32 HEJOGKBNLKB = 11;</code>
+       * @return The hEJOGKBNLKB.
        */
       @java.lang.Override
-      public int getRefId() {
-        return refId_;
+      public int getHEJOGKBNLKB() {
+        return hEJOGKBNLKB_;
       }
       /**
-       * <code>uint32 ref_id = 7;</code>
-       * @param value The refId to set.
+       * <code>uint32 HEJOGKBNLKB = 11;</code>
+       * @param value The hEJOGKBNLKB to set.
        * @return This builder for chaining.
        */
-      public Builder setRefId(int value) {
+      public Builder setHEJOGKBNLKB(int value) {
         
-        refId_ = value;
+        hEJOGKBNLKB_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 ref_id = 7;</code>
+       * <code>uint32 HEJOGKBNLKB = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearRefId() {
+      public Builder clearHEJOGKBNLKB() {
         
-        refId_ = 0;
+        hEJOGKBNLKB_ = 0;
         onChanged();
         return this;
       }
 
-      private int kDOIAIEDOEE_ ;
+      private int mDBDIPDLKOP_ ;
       /**
-       * <code>uint32 KDOIAIEDOEE = 10;</code>
-       * @return The kDOIAIEDOEE.
+       * <code>uint32 MDBDIPDLKOP = 10;</code>
+       * @return The mDBDIPDLKOP.
        */
       @java.lang.Override
-      public int getKDOIAIEDOEE() {
-        return kDOIAIEDOEE_;
+      public int getMDBDIPDLKOP() {
+        return mDBDIPDLKOP_;
       }
       /**
-       * <code>uint32 KDOIAIEDOEE = 10;</code>
-       * @param value The kDOIAIEDOEE to set.
+       * <code>uint32 MDBDIPDLKOP = 10;</code>
+       * @param value The mDBDIPDLKOP to set.
        * @return This builder for chaining.
        */
-      public Builder setKDOIAIEDOEE(int value) {
+      public Builder setMDBDIPDLKOP(int value) {
         
-        kDOIAIEDOEE_ = value;
+        mDBDIPDLKOP_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 KDOIAIEDOEE = 10;</code>
+       * <code>uint32 MDBDIPDLKOP = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearKDOIAIEDOEE() {
+      public Builder clearMDBDIPDLKOP() {
         
-        kDOIAIEDOEE_ = 0;
+        mDBDIPDLKOP_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int sceneTime_ ;
+      /**
+       * <code>uint32 scene_time = 8;</code>
+       * @return The sceneTime.
+       */
+      @java.lang.Override
+      public int getSceneTime() {
+        return sceneTime_;
+      }
+      /**
+       * <code>uint32 scene_time = 8;</code>
+       * @param value The sceneTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSceneTime(int value) {
+        
+        sceneTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 scene_time = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSceneTime() {
+        
+        sceneTime_ = 0;
         onChanged();
         return this;
       }
@@ -1932,64 +2157,33 @@ public final class MotionInfoOuterClass {
         return this;
       }
 
-      private int eOJMCFKMAOH_ ;
+      private int refId_ ;
       /**
-       * <code>uint32 EOJMCFKMAOH = 11;</code>
-       * @return The eOJMCFKMAOH.
+       * <code>uint32 ref_id = 7;</code>
+       * @return The refId.
        */
       @java.lang.Override
-      public int getEOJMCFKMAOH() {
-        return eOJMCFKMAOH_;
+      public int getRefId() {
+        return refId_;
       }
       /**
-       * <code>uint32 EOJMCFKMAOH = 11;</code>
-       * @param value The eOJMCFKMAOH to set.
+       * <code>uint32 ref_id = 7;</code>
+       * @param value The refId to set.
        * @return This builder for chaining.
        */
-      public Builder setEOJMCFKMAOH(int value) {
+      public Builder setRefId(int value) {
         
-        eOJMCFKMAOH_ = value;
+        refId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 EOJMCFKMAOH = 11;</code>
+       * <code>uint32 ref_id = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEOJMCFKMAOH() {
+      public Builder clearRefId() {
         
-        eOJMCFKMAOH_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int sceneTime_ ;
-      /**
-       * <code>uint32 scene_time = 8;</code>
-       * @return The sceneTime.
-       */
-      @java.lang.Override
-      public int getSceneTime() {
-        return sceneTime_;
-      }
-      /**
-       * <code>uint32 scene_time = 8;</code>
-       * @param value The sceneTime to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSceneTime(int value) {
-        
-        sceneTime_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 scene_time = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSceneTime() {
-        
-        sceneTime_ = 0;
+        refId_ = 0;
         onChanged();
         return this;
       }
@@ -2092,14 +2286,15 @@ public final class MotionInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020MotionInfo.proto\032\014Vector.proto\032\021Motion" +
-      "State.proto\"\211\002\n\nMotionInfo\022\024\n\003pos\030\001 \001(\0132" +
-      "\007.Vector\022\024\n\003rot\030\002 \001(\0132\007.Vector\022\027\n\006params" +
-      "\030\005 \003(\0132\007.Vector\022\030\n\007ref_pos\030\006 \001(\0132\007.Vecto" +
-      "r\022\026\n\005speed\030\003 \001(\0132\007.Vector\022\016\n\006ref_id\030\007 \001(" +
-      "\r\022\023\n\013KDOIAIEDOEE\030\n \001(\r\022\033\n\005state\030\004 \001(\0162\014." +
-      "MotionState\022\023\n\013EOJMCFKMAOH\030\013 \001(\r\022\022\n\nscen" +
-      "e_time\030\010 \001(\r\022\031\n\021interval_velocity\030\t \001(\004B" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "State.proto\"\236\002\n\nMotionInfo\022\030\n\007ref_pos\030\006 " +
+      "\001(\0132\007.Vector\022\024\n\003pos\030\001 \001(\0132\007.Vector\022\023\n\013FI" +
+      "DKMOKEFMG\030d \003(\005\022\026\n\005speed\030\003 \001(\0132\007.Vector\022" +
+      "\024\n\003rot\030\002 \001(\0132\007.Vector\022\027\n\006params\030\005 \003(\0132\007." +
+      "Vector\022\023\n\013HEJOGKBNLKB\030\013 \001(\r\022\023\n\013MDBDIPDLK" +
+      "OP\030\n \001(\r\022\022\n\nscene_time\030\010 \001(\r\022\033\n\005state\030\004 " +
+      "\001(\0162\014.MotionState\022\016\n\006ref_id\030\007 \001(\r\022\031\n\021int" +
+      "erval_velocity\030\t \001(\004B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2112,7 +2307,7 @@ public final class MotionInfoOuterClass {
     internal_static_MotionInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MotionInfo_descriptor,
-        new java.lang.String[] { "Pos", "Rot", "Params", "RefPos", "Speed", "RefId", "KDOIAIEDOEE", "State", "EOJMCFKMAOH", "SceneTime", "IntervalVelocity", });
+        new java.lang.String[] { "RefPos", "Pos", "FIDKMOKEFMG", "Speed", "Rot", "Params", "HEJOGKBNLKB", "MDBDIPDLKOP", "SceneTime", "State", "RefId", "IntervalVelocity", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MotionStateOuterClass.getDescriptor();
   }

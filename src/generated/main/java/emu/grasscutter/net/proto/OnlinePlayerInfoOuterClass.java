@@ -19,71 +19,6 @@ public final class OnlinePlayerInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 blacklist_uid_list = 10;</code>
-     * @return A list containing the blacklistUidList.
-     */
-    java.util.List<java.lang.Integer> getBlacklistUidListList();
-    /**
-     * <code>repeated uint32 blacklist_uid_list = 10;</code>
-     * @return The count of blacklistUidList.
-     */
-    int getBlacklistUidListCount();
-    /**
-     * <code>repeated uint32 blacklist_uid_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The blacklistUidList at the given index.
-     */
-    int getBlacklistUidList(int index);
-
-    /**
-     * <code>string nickname = 2;</code>
-     * @return The nickname.
-     */
-    java.lang.String getNickname();
-    /**
-     * <code>string nickname = 2;</code>
-     * @return The bytes for nickname.
-     */
-    com.google.protobuf.ByteString
-        getNicknameBytes();
-
-    /**
-     * <code>string online_id = 8;</code>
-     * @return The onlineId.
-     */
-    java.lang.String getOnlineId();
-    /**
-     * <code>string online_id = 8;</code>
-     * @return The bytes for onlineId.
-     */
-    com.google.protobuf.ByteString
-        getOnlineIdBytes();
-
-    /**
-     * <code>string signature = 11;</code>
-     * @return The signature.
-     */
-    java.lang.String getSignature();
-    /**
-     * <code>string signature = 11;</code>
-     * @return The bytes for signature.
-     */
-    com.google.protobuf.ByteString
-        getSignatureBytes();
-
-    /**
-     * <code>string ADDELLGIEED = 14;</code>
-     * @return The aDDELLGIEED.
-     */
-    java.lang.String getADDELLGIEED();
-    /**
-     * <code>string ADDELLGIEED = 14;</code>
-     * @return The bytes for aDDELLGIEED.
-     */
-    com.google.protobuf.ByteString
-        getADDELLGIEEDBytes();
-
-    /**
      * <code>string psn_id = 13;</code>
      * @return The psnId.
      */
@@ -96,16 +31,16 @@ public final class OnlinePlayerInfoOuterClass {
         getPsnIdBytes();
 
     /**
-     * <code>string PJMKDOCDKLH = 15;</code>
-     * @return The pJMKDOCDKLH.
+     * <code>string online_id = 8;</code>
+     * @return The onlineId.
      */
-    java.lang.String getPJMKDOCDKLH();
+    java.lang.String getOnlineId();
     /**
-     * <code>string PJMKDOCDKLH = 15;</code>
-     * @return The bytes for pJMKDOCDKLH.
+     * <code>string online_id = 8;</code>
+     * @return The bytes for onlineId.
      */
     com.google.protobuf.ByteString
-        getPJMKDOCDKLHBytes();
+        getOnlineIdBytes();
 
     /**
      * <code>.ProfilePicture profile_picture = 12;</code>
@@ -123,33 +58,69 @@ public final class OnlinePlayerInfoOuterClass {
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder();
 
     /**
-     * <code>uint32 uid = 1;</code>
-     * @return The uid.
+     * <code>string signature = 11;</code>
+     * @return The signature.
      */
-    int getUid();
+    java.lang.String getSignature();
+    /**
+     * <code>string signature = 11;</code>
+     * @return The bytes for signature.
+     */
+    com.google.protobuf.ByteString
+        getSignatureBytes();
 
     /**
-     * <code>uint32 avatar_id = 4;</code>
-     * @return The avatarId.
+     * <code>string nickname = 2;</code>
+     * @return The nickname.
      */
-    int getAvatarId();
+    java.lang.String getNickname();
+    /**
+     * <code>string nickname = 2;</code>
+     * @return The bytes for nickname.
+     */
+    com.google.protobuf.ByteString
+        getNicknameBytes();
 
     /**
-     * <code>uint32 world_level = 7;</code>
-     * @return The worldLevel.
+     * <code>string xbox_id = 14;</code>
+     * @return The xboxId.
      */
-    int getWorldLevel();
+    java.lang.String getXboxId();
+    /**
+     * <code>string xbox_id = 14;</code>
+     * @return The bytes for xboxId.
+     */
+    com.google.protobuf.ByteString
+        getXboxIdBytes();
 
     /**
-     * <code>.MpSettingType mp_setting_type = 5;</code>
-     * @return The enum numeric value on the wire for mpSettingType.
+     * <code>string IHCGGGJKIAF = 15;</code>
+     * @return The iHCGGGJKIAF.
      */
-    int getMpSettingTypeValue();
+    java.lang.String getIHCGGGJKIAF();
     /**
-     * <code>.MpSettingType mp_setting_type = 5;</code>
-     * @return The mpSettingType.
+     * <code>string IHCGGGJKIAF = 15;</code>
+     * @return The bytes for iHCGGGJKIAF.
      */
-    emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType();
+    com.google.protobuf.ByteString
+        getIHCGGGJKIAFBytes();
+
+    /**
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @return A list containing the blacklistUidList.
+     */
+    java.util.List<java.lang.Integer> getBlacklistUidListList();
+    /**
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @return The count of blacklistUidList.
+     */
+    int getBlacklistUidListCount();
+    /**
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @param index The index of the element to return.
+     * @return The blacklistUidList at the given index.
+     */
+    int getBlacklistUidList(int index);
 
     /**
      * <code>.PlatformType platform_type = 16;</code>
@@ -169,16 +140,69 @@ public final class OnlinePlayerInfoOuterClass {
     int getCurPlayerNumInWorld();
 
     /**
+     * <code>uint32 player_level = 3;</code>
+     * @return The playerLevel.
+     */
+    int getPlayerLevel();
+
+    /**
      * <code>uint32 name_card_id = 9;</code>
      * @return The nameCardId.
      */
     int getNameCardId();
 
     /**
-     * <code>uint32 player_level = 3;</code>
-     * @return The playerLevel.
+     * <code>uint32 OHANFMALHLA = 22;</code>
+     * @return The oHANFMALHLA.
      */
-    int getPlayerLevel();
+    int getOHANFMALHLA();
+
+    /**
+     * <code>uint32 avatar_id = 4;</code>
+     * @return The avatarId.
+     */
+    int getAvatarId();
+
+    /**
+     * <code>uint32 world_level = 7;</code>
+     * @return The worldLevel.
+     */
+    int getWorldLevel();
+
+    /**
+     * <code>uint32 uid = 1;</code>
+     * @return The uid.
+     */
+    int getUid();
+
+    /**
+     * <code>bool PBPEIIIOMNA = 17;</code>
+     * @return The pBPEIIIOMNA.
+     */
+    boolean getPBPEIIIOMNA();
+
+    /**
+     * <code>bool BIFFOOOKJIH = 19;</code>
+     * @return The bIFFOOOKJIH.
+     */
+    boolean getBIFFOOOKJIH();
+
+    /**
+     * <code>bool KAGOBNDFENE = 18;</code>
+     * @return The kAGOBNDFENE.
+     */
+    boolean getKAGOBNDFENE();
+
+    /**
+     * <code>.MpSettingType mp_setting_type = 5;</code>
+     * @return The enum numeric value on the wire for mpSettingType.
+     */
+    int getMpSettingTypeValue();
+    /**
+     * <code>.MpSettingType mp_setting_type = 5;</code>
+     * @return The mpSettingType.
+     */
+    emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType();
   }
   /**
    * Protobuf type {@code OnlinePlayerInfo}
@@ -193,15 +217,15 @@ public final class OnlinePlayerInfoOuterClass {
       super(builder);
     }
     private OnlinePlayerInfo() {
-      blacklistUidList_ = emptyIntList();
-      nickname_ = "";
+      psnId_ = "";
       onlineId_ = "";
       signature_ = "";
-      aDDELLGIEED_ = "";
-      psnId_ = "";
-      pJMKDOCDKLH_ = "";
-      mpSettingType_ = 0;
+      nickname_ = "";
+      xboxId_ = "";
+      iHCGGGJKIAF_ = "";
+      blacklistUidList_ = emptyIntList();
       platformType_ = 0;
+      mpSettingType_ = 0;
     }
 
     @java.lang.Override
@@ -332,19 +356,39 @@ public final class OnlinePlayerInfoOuterClass {
             case 114: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              aDDELLGIEED_ = s;
+              xboxId_ = s;
               break;
             }
             case 122: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              pJMKDOCDKLH_ = s;
+              iHCGGGJKIAF_ = s;
               break;
             }
             case 128: {
               int rawValue = input.readEnum();
 
               platformType_ = rawValue;
+              break;
+            }
+            case 136: {
+
+              pBPEIIIOMNA_ = input.readBool();
+              break;
+            }
+            case 144: {
+
+              kAGOBNDFENE_ = input.readBool();
+              break;
+            }
+            case 152: {
+
+              bIFFOOOKJIH_ = input.readBool();
+              break;
+            }
+            case 176: {
+
+              oHANFMALHLA_ = input.readUInt32();
               break;
             }
             default: {
@@ -382,66 +426,38 @@ public final class OnlinePlayerInfoOuterClass {
               emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.class, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder.class);
     }
 
-    public static final int BLACKLIST_UID_LIST_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList blacklistUidList_;
+    public static final int PSN_ID_FIELD_NUMBER = 13;
+    private volatile java.lang.Object psnId_;
     /**
-     * <code>repeated uint32 blacklist_uid_list = 10;</code>
-     * @return A list containing the blacklistUidList.
+     * <code>string psn_id = 13;</code>
+     * @return The psnId.
      */
     @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getBlacklistUidListList() {
-      return blacklistUidList_;
-    }
-    /**
-     * <code>repeated uint32 blacklist_uid_list = 10;</code>
-     * @return The count of blacklistUidList.
-     */
-    public int getBlacklistUidListCount() {
-      return blacklistUidList_.size();
-    }
-    /**
-     * <code>repeated uint32 blacklist_uid_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The blacklistUidList at the given index.
-     */
-    public int getBlacklistUidList(int index) {
-      return blacklistUidList_.getInt(index);
-    }
-    private int blacklistUidListMemoizedSerializedSize = -1;
-
-    public static final int NICKNAME_FIELD_NUMBER = 2;
-    private volatile java.lang.Object nickname_;
-    /**
-     * <code>string nickname = 2;</code>
-     * @return The nickname.
-     */
-    @java.lang.Override
-    public java.lang.String getNickname() {
-      java.lang.Object ref = nickname_;
+    public java.lang.String getPsnId() {
+      java.lang.Object ref = psnId_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        nickname_ = s;
+        psnId_ = s;
         return s;
       }
     }
     /**
-     * <code>string nickname = 2;</code>
-     * @return The bytes for nickname.
+     * <code>string psn_id = 13;</code>
+     * @return The bytes for psnId.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getNicknameBytes() {
-      java.lang.Object ref = nickname_;
+        getPsnIdBytes() {
+      java.lang.Object ref = psnId_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        nickname_ = b;
+        psnId_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -486,6 +502,32 @@ public final class OnlinePlayerInfoOuterClass {
       }
     }
 
+    public static final int PROFILE_PICTURE_FIELD_NUMBER = 12;
+    private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
+    /**
+     * <code>.ProfilePicture profile_picture = 12;</code>
+     * @return Whether the profilePicture field is set.
+     */
+    @java.lang.Override
+    public boolean hasProfilePicture() {
+      return profilePicture_ != null;
+    }
+    /**
+     * <code>.ProfilePicture profile_picture = 12;</code>
+     * @return The profilePicture.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture() {
+      return profilePicture_ == null ? emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.getDefaultInstance() : profilePicture_;
+    }
+    /**
+     * <code>.ProfilePicture profile_picture = 12;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder() {
+      return getProfilePicture();
+    }
+
     public static final int SIGNATURE_FIELD_NUMBER = 11;
     private volatile java.lang.Object signature_;
     /**
@@ -524,197 +566,147 @@ public final class OnlinePlayerInfoOuterClass {
       }
     }
 
-    public static final int ADDELLGIEED_FIELD_NUMBER = 14;
-    private volatile java.lang.Object aDDELLGIEED_;
+    public static final int NICKNAME_FIELD_NUMBER = 2;
+    private volatile java.lang.Object nickname_;
     /**
-     * <code>string ADDELLGIEED = 14;</code>
-     * @return The aDDELLGIEED.
+     * <code>string nickname = 2;</code>
+     * @return The nickname.
      */
     @java.lang.Override
-    public java.lang.String getADDELLGIEED() {
-      java.lang.Object ref = aDDELLGIEED_;
+    public java.lang.String getNickname() {
+      java.lang.Object ref = nickname_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        aDDELLGIEED_ = s;
+        nickname_ = s;
         return s;
       }
     }
     /**
-     * <code>string ADDELLGIEED = 14;</code>
-     * @return The bytes for aDDELLGIEED.
+     * <code>string nickname = 2;</code>
+     * @return The bytes for nickname.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getADDELLGIEEDBytes() {
-      java.lang.Object ref = aDDELLGIEED_;
+        getNicknameBytes() {
+      java.lang.Object ref = nickname_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        aDDELLGIEED_ = b;
+        nickname_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int PSN_ID_FIELD_NUMBER = 13;
-    private volatile java.lang.Object psnId_;
+    public static final int XBOX_ID_FIELD_NUMBER = 14;
+    private volatile java.lang.Object xboxId_;
     /**
-     * <code>string psn_id = 13;</code>
-     * @return The psnId.
+     * <code>string xbox_id = 14;</code>
+     * @return The xboxId.
      */
     @java.lang.Override
-    public java.lang.String getPsnId() {
-      java.lang.Object ref = psnId_;
+    public java.lang.String getXboxId() {
+      java.lang.Object ref = xboxId_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        psnId_ = s;
+        xboxId_ = s;
         return s;
       }
     }
     /**
-     * <code>string psn_id = 13;</code>
-     * @return The bytes for psnId.
+     * <code>string xbox_id = 14;</code>
+     * @return The bytes for xboxId.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getPsnIdBytes() {
-      java.lang.Object ref = psnId_;
+        getXboxIdBytes() {
+      java.lang.Object ref = xboxId_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        psnId_ = b;
+        xboxId_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int PJMKDOCDKLH_FIELD_NUMBER = 15;
-    private volatile java.lang.Object pJMKDOCDKLH_;
+    public static final int IHCGGGJKIAF_FIELD_NUMBER = 15;
+    private volatile java.lang.Object iHCGGGJKIAF_;
     /**
-     * <code>string PJMKDOCDKLH = 15;</code>
-     * @return The pJMKDOCDKLH.
+     * <code>string IHCGGGJKIAF = 15;</code>
+     * @return The iHCGGGJKIAF.
      */
     @java.lang.Override
-    public java.lang.String getPJMKDOCDKLH() {
-      java.lang.Object ref = pJMKDOCDKLH_;
+    public java.lang.String getIHCGGGJKIAF() {
+      java.lang.Object ref = iHCGGGJKIAF_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        pJMKDOCDKLH_ = s;
+        iHCGGGJKIAF_ = s;
         return s;
       }
     }
     /**
-     * <code>string PJMKDOCDKLH = 15;</code>
-     * @return The bytes for pJMKDOCDKLH.
+     * <code>string IHCGGGJKIAF = 15;</code>
+     * @return The bytes for iHCGGGJKIAF.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getPJMKDOCDKLHBytes() {
-      java.lang.Object ref = pJMKDOCDKLH_;
+        getIHCGGGJKIAFBytes() {
+      java.lang.Object ref = iHCGGGJKIAF_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        pJMKDOCDKLH_ = b;
+        iHCGGGJKIAF_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int PROFILE_PICTURE_FIELD_NUMBER = 12;
-    private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
+    public static final int BLACKLIST_UID_LIST_FIELD_NUMBER = 10;
+    private com.google.protobuf.Internal.IntList blacklistUidList_;
     /**
-     * <code>.ProfilePicture profile_picture = 12;</code>
-     * @return Whether the profilePicture field is set.
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @return A list containing the blacklistUidList.
      */
     @java.lang.Override
-    public boolean hasProfilePicture() {
-      return profilePicture_ != null;
+    public java.util.List<java.lang.Integer>
+        getBlacklistUidListList() {
+      return blacklistUidList_;
     }
     /**
-     * <code>.ProfilePicture profile_picture = 12;</code>
-     * @return The profilePicture.
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @return The count of blacklistUidList.
      */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture() {
-      return profilePicture_ == null ? emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.getDefaultInstance() : profilePicture_;
+    public int getBlacklistUidListCount() {
+      return blacklistUidList_.size();
     }
     /**
-     * <code>.ProfilePicture profile_picture = 12;</code>
+     * <code>repeated uint32 blacklist_uid_list = 10;</code>
+     * @param index The index of the element to return.
+     * @return The blacklistUidList at the given index.
      */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder() {
-      return getProfilePicture();
+    public int getBlacklistUidList(int index) {
+      return blacklistUidList_.getInt(index);
     }
-
-    public static final int UID_FIELD_NUMBER = 1;
-    private int uid_;
-    /**
-     * <code>uint32 uid = 1;</code>
-     * @return The uid.
-     */
-    @java.lang.Override
-    public int getUid() {
-      return uid_;
-    }
-
-    public static final int AVATAR_ID_FIELD_NUMBER = 4;
-    private int avatarId_;
-    /**
-     * <code>uint32 avatar_id = 4;</code>
-     * @return The avatarId.
-     */
-    @java.lang.Override
-    public int getAvatarId() {
-      return avatarId_;
-    }
-
-    public static final int WORLD_LEVEL_FIELD_NUMBER = 7;
-    private int worldLevel_;
-    /**
-     * <code>uint32 world_level = 7;</code>
-     * @return The worldLevel.
-     */
-    @java.lang.Override
-    public int getWorldLevel() {
-      return worldLevel_;
-    }
-
-    public static final int MP_SETTING_TYPE_FIELD_NUMBER = 5;
-    private int mpSettingType_;
-    /**
-     * <code>.MpSettingType mp_setting_type = 5;</code>
-     * @return The enum numeric value on the wire for mpSettingType.
-     */
-    @java.lang.Override public int getMpSettingTypeValue() {
-      return mpSettingType_;
-    }
-    /**
-     * <code>.MpSettingType mp_setting_type = 5;</code>
-     * @return The mpSettingType.
-     */
-    @java.lang.Override public emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType() {
-      @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType result = emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.valueOf(mpSettingType_);
-      return result == null ? emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.UNRECOGNIZED : result;
-    }
+    private int blacklistUidListMemoizedSerializedSize = -1;
 
     public static final int PLATFORM_TYPE_FIELD_NUMBER = 16;
     private int platformType_;
@@ -746,6 +738,17 @@ public final class OnlinePlayerInfoOuterClass {
       return curPlayerNumInWorld_;
     }
 
+    public static final int PLAYER_LEVEL_FIELD_NUMBER = 3;
+    private int playerLevel_;
+    /**
+     * <code>uint32 player_level = 3;</code>
+     * @return The playerLevel.
+     */
+    @java.lang.Override
+    public int getPlayerLevel() {
+      return playerLevel_;
+    }
+
     public static final int NAME_CARD_ID_FIELD_NUMBER = 9;
     private int nameCardId_;
     /**
@@ -757,15 +760,100 @@ public final class OnlinePlayerInfoOuterClass {
       return nameCardId_;
     }
 
-    public static final int PLAYER_LEVEL_FIELD_NUMBER = 3;
-    private int playerLevel_;
+    public static final int OHANFMALHLA_FIELD_NUMBER = 22;
+    private int oHANFMALHLA_;
     /**
-     * <code>uint32 player_level = 3;</code>
-     * @return The playerLevel.
+     * <code>uint32 OHANFMALHLA = 22;</code>
+     * @return The oHANFMALHLA.
      */
     @java.lang.Override
-    public int getPlayerLevel() {
-      return playerLevel_;
+    public int getOHANFMALHLA() {
+      return oHANFMALHLA_;
+    }
+
+    public static final int AVATAR_ID_FIELD_NUMBER = 4;
+    private int avatarId_;
+    /**
+     * <code>uint32 avatar_id = 4;</code>
+     * @return The avatarId.
+     */
+    @java.lang.Override
+    public int getAvatarId() {
+      return avatarId_;
+    }
+
+    public static final int WORLD_LEVEL_FIELD_NUMBER = 7;
+    private int worldLevel_;
+    /**
+     * <code>uint32 world_level = 7;</code>
+     * @return The worldLevel.
+     */
+    @java.lang.Override
+    public int getWorldLevel() {
+      return worldLevel_;
+    }
+
+    public static final int UID_FIELD_NUMBER = 1;
+    private int uid_;
+    /**
+     * <code>uint32 uid = 1;</code>
+     * @return The uid.
+     */
+    @java.lang.Override
+    public int getUid() {
+      return uid_;
+    }
+
+    public static final int PBPEIIIOMNA_FIELD_NUMBER = 17;
+    private boolean pBPEIIIOMNA_;
+    /**
+     * <code>bool PBPEIIIOMNA = 17;</code>
+     * @return The pBPEIIIOMNA.
+     */
+    @java.lang.Override
+    public boolean getPBPEIIIOMNA() {
+      return pBPEIIIOMNA_;
+    }
+
+    public static final int BIFFOOOKJIH_FIELD_NUMBER = 19;
+    private boolean bIFFOOOKJIH_;
+    /**
+     * <code>bool BIFFOOOKJIH = 19;</code>
+     * @return The bIFFOOOKJIH.
+     */
+    @java.lang.Override
+    public boolean getBIFFOOOKJIH() {
+      return bIFFOOOKJIH_;
+    }
+
+    public static final int KAGOBNDFENE_FIELD_NUMBER = 18;
+    private boolean kAGOBNDFENE_;
+    /**
+     * <code>bool KAGOBNDFENE = 18;</code>
+     * @return The kAGOBNDFENE.
+     */
+    @java.lang.Override
+    public boolean getKAGOBNDFENE() {
+      return kAGOBNDFENE_;
+    }
+
+    public static final int MP_SETTING_TYPE_FIELD_NUMBER = 5;
+    private int mpSettingType_;
+    /**
+     * <code>.MpSettingType mp_setting_type = 5;</code>
+     * @return The enum numeric value on the wire for mpSettingType.
+     */
+    @java.lang.Override public int getMpSettingTypeValue() {
+      return mpSettingType_;
+    }
+    /**
+     * <code>.MpSettingType mp_setting_type = 5;</code>
+     * @return The mpSettingType.
+     */
+    @java.lang.Override public emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType() {
+      @SuppressWarnings("deprecation")
+      emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType result = emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.valueOf(mpSettingType_);
+      return result == null ? emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -826,14 +914,26 @@ public final class OnlinePlayerInfoOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 13, psnId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(aDDELLGIEED_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 14, aDDELLGIEED_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(xboxId_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 14, xboxId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(pJMKDOCDKLH_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, pJMKDOCDKLH_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(iHCGGGJKIAF_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, iHCGGGJKIAF_);
       }
       if (platformType_ != emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType.PLATFORM_TYPE_EDITOR.getNumber()) {
         output.writeEnum(16, platformType_);
+      }
+      if (pBPEIIIOMNA_ != false) {
+        output.writeBool(17, pBPEIIIOMNA_);
+      }
+      if (kAGOBNDFENE_ != false) {
+        output.writeBool(18, kAGOBNDFENE_);
+      }
+      if (bIFFOOOKJIH_ != false) {
+        output.writeBool(19, bIFFOOOKJIH_);
+      }
+      if (oHANFMALHLA_ != 0) {
+        output.writeUInt32(22, oHANFMALHLA_);
       }
       unknownFields.writeTo(output);
     }
@@ -902,15 +1002,31 @@ public final class OnlinePlayerInfoOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, psnId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(aDDELLGIEED_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, aDDELLGIEED_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(xboxId_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, xboxId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(pJMKDOCDKLH_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, pJMKDOCDKLH_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(iHCGGGJKIAF_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, iHCGGGJKIAF_);
       }
       if (platformType_ != emu.grasscutter.net.proto.PlatformTypeOuterClass.PlatformType.PLATFORM_TYPE_EDITOR.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(16, platformType_);
+      }
+      if (pBPEIIIOMNA_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(17, pBPEIIIOMNA_);
+      }
+      if (kAGOBNDFENE_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(18, kAGOBNDFENE_);
+      }
+      if (bIFFOOOKJIH_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(19, bIFFOOOKJIH_);
+      }
+      if (oHANFMALHLA_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(22, oHANFMALHLA_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -927,39 +1043,47 @@ public final class OnlinePlayerInfoOuterClass {
       }
       emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo other = (emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo) obj;
 
-      if (!getBlacklistUidListList()
-          .equals(other.getBlacklistUidListList())) return false;
-      if (!getNickname()
-          .equals(other.getNickname())) return false;
-      if (!getOnlineId()
-          .equals(other.getOnlineId())) return false;
-      if (!getSignature()
-          .equals(other.getSignature())) return false;
-      if (!getADDELLGIEED()
-          .equals(other.getADDELLGIEED())) return false;
       if (!getPsnId()
           .equals(other.getPsnId())) return false;
-      if (!getPJMKDOCDKLH()
-          .equals(other.getPJMKDOCDKLH())) return false;
+      if (!getOnlineId()
+          .equals(other.getOnlineId())) return false;
       if (hasProfilePicture() != other.hasProfilePicture()) return false;
       if (hasProfilePicture()) {
         if (!getProfilePicture()
             .equals(other.getProfilePicture())) return false;
       }
-      if (getUid()
-          != other.getUid()) return false;
+      if (!getSignature()
+          .equals(other.getSignature())) return false;
+      if (!getNickname()
+          .equals(other.getNickname())) return false;
+      if (!getXboxId()
+          .equals(other.getXboxId())) return false;
+      if (!getIHCGGGJKIAF()
+          .equals(other.getIHCGGGJKIAF())) return false;
+      if (!getBlacklistUidListList()
+          .equals(other.getBlacklistUidListList())) return false;
+      if (platformType_ != other.platformType_) return false;
+      if (getCurPlayerNumInWorld()
+          != other.getCurPlayerNumInWorld()) return false;
+      if (getPlayerLevel()
+          != other.getPlayerLevel()) return false;
+      if (getNameCardId()
+          != other.getNameCardId()) return false;
+      if (getOHANFMALHLA()
+          != other.getOHANFMALHLA()) return false;
       if (getAvatarId()
           != other.getAvatarId()) return false;
       if (getWorldLevel()
           != other.getWorldLevel()) return false;
+      if (getUid()
+          != other.getUid()) return false;
+      if (getPBPEIIIOMNA()
+          != other.getPBPEIIIOMNA()) return false;
+      if (getBIFFOOOKJIH()
+          != other.getBIFFOOOKJIH()) return false;
+      if (getKAGOBNDFENE()
+          != other.getKAGOBNDFENE()) return false;
       if (mpSettingType_ != other.mpSettingType_) return false;
-      if (platformType_ != other.platformType_) return false;
-      if (getCurPlayerNumInWorld()
-          != other.getCurPlayerNumInWorld()) return false;
-      if (getNameCardId()
-          != other.getNameCardId()) return false;
-      if (getPlayerLevel()
-          != other.getPlayerLevel()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -971,42 +1095,53 @@ public final class OnlinePlayerInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getBlacklistUidListCount() > 0) {
-        hash = (37 * hash) + BLACKLIST_UID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getBlacklistUidListList().hashCode();
-      }
-      hash = (37 * hash) + NICKNAME_FIELD_NUMBER;
-      hash = (53 * hash) + getNickname().hashCode();
-      hash = (37 * hash) + ONLINE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getOnlineId().hashCode();
-      hash = (37 * hash) + SIGNATURE_FIELD_NUMBER;
-      hash = (53 * hash) + getSignature().hashCode();
-      hash = (37 * hash) + ADDELLGIEED_FIELD_NUMBER;
-      hash = (53 * hash) + getADDELLGIEED().hashCode();
       hash = (37 * hash) + PSN_ID_FIELD_NUMBER;
       hash = (53 * hash) + getPsnId().hashCode();
-      hash = (37 * hash) + PJMKDOCDKLH_FIELD_NUMBER;
-      hash = (53 * hash) + getPJMKDOCDKLH().hashCode();
+      hash = (37 * hash) + ONLINE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getOnlineId().hashCode();
       if (hasProfilePicture()) {
         hash = (37 * hash) + PROFILE_PICTURE_FIELD_NUMBER;
         hash = (53 * hash) + getProfilePicture().hashCode();
       }
-      hash = (37 * hash) + UID_FIELD_NUMBER;
-      hash = (53 * hash) + getUid();
-      hash = (37 * hash) + AVATAR_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getAvatarId();
-      hash = (37 * hash) + WORLD_LEVEL_FIELD_NUMBER;
-      hash = (53 * hash) + getWorldLevel();
-      hash = (37 * hash) + MP_SETTING_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + mpSettingType_;
+      hash = (37 * hash) + SIGNATURE_FIELD_NUMBER;
+      hash = (53 * hash) + getSignature().hashCode();
+      hash = (37 * hash) + NICKNAME_FIELD_NUMBER;
+      hash = (53 * hash) + getNickname().hashCode();
+      hash = (37 * hash) + XBOX_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getXboxId().hashCode();
+      hash = (37 * hash) + IHCGGGJKIAF_FIELD_NUMBER;
+      hash = (53 * hash) + getIHCGGGJKIAF().hashCode();
+      if (getBlacklistUidListCount() > 0) {
+        hash = (37 * hash) + BLACKLIST_UID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getBlacklistUidListList().hashCode();
+      }
       hash = (37 * hash) + PLATFORM_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + platformType_;
       hash = (37 * hash) + CUR_PLAYER_NUM_IN_WORLD_FIELD_NUMBER;
       hash = (53 * hash) + getCurPlayerNumInWorld();
-      hash = (37 * hash) + NAME_CARD_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getNameCardId();
       hash = (37 * hash) + PLAYER_LEVEL_FIELD_NUMBER;
       hash = (53 * hash) + getPlayerLevel();
+      hash = (37 * hash) + NAME_CARD_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getNameCardId();
+      hash = (37 * hash) + OHANFMALHLA_FIELD_NUMBER;
+      hash = (53 * hash) + getOHANFMALHLA();
+      hash = (37 * hash) + AVATAR_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getAvatarId();
+      hash = (37 * hash) + WORLD_LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getWorldLevel();
+      hash = (37 * hash) + UID_FIELD_NUMBER;
+      hash = (53 * hash) + getUid();
+      hash = (37 * hash) + PBPEIIIOMNA_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getPBPEIIIOMNA());
+      hash = (37 * hash) + BIFFOOOKJIH_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getBIFFOOOKJIH());
+      hash = (37 * hash) + KAGOBNDFENE_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getKAGOBNDFENE());
+      hash = (37 * hash) + MP_SETTING_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + mpSettingType_;
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -1140,19 +1275,9 @@ public final class OnlinePlayerInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        blacklistUidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        nickname_ = "";
-
-        onlineId_ = "";
-
-        signature_ = "";
-
-        aDDELLGIEED_ = "";
-
         psnId_ = "";
 
-        pJMKDOCDKLH_ = "";
+        onlineId_ = "";
 
         if (profilePictureBuilder_ == null) {
           profilePicture_ = null;
@@ -1160,21 +1285,39 @@ public final class OnlinePlayerInfoOuterClass {
           profilePicture_ = null;
           profilePictureBuilder_ = null;
         }
-        uid_ = 0;
+        signature_ = "";
+
+        nickname_ = "";
+
+        xboxId_ = "";
+
+        iHCGGGJKIAF_ = "";
+
+        blacklistUidList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        platformType_ = 0;
+
+        curPlayerNumInWorld_ = 0;
+
+        playerLevel_ = 0;
+
+        nameCardId_ = 0;
+
+        oHANFMALHLA_ = 0;
 
         avatarId_ = 0;
 
         worldLevel_ = 0;
 
+        uid_ = 0;
+
+        pBPEIIIOMNA_ = false;
+
+        bIFFOOOKJIH_ = false;
+
+        kAGOBNDFENE_ = false;
+
         mpSettingType_ = 0;
-
-        platformType_ = 0;
-
-        curPlayerNumInWorld_ = 0;
-
-        nameCardId_ = 0;
-
-        playerLevel_ = 0;
 
         return this;
       }
@@ -1203,30 +1346,34 @@ public final class OnlinePlayerInfoOuterClass {
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo buildPartial() {
         emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo result = new emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo(this);
         int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) != 0)) {
-          blacklistUidList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.blacklistUidList_ = blacklistUidList_;
-        result.nickname_ = nickname_;
-        result.onlineId_ = onlineId_;
-        result.signature_ = signature_;
-        result.aDDELLGIEED_ = aDDELLGIEED_;
         result.psnId_ = psnId_;
-        result.pJMKDOCDKLH_ = pJMKDOCDKLH_;
+        result.onlineId_ = onlineId_;
         if (profilePictureBuilder_ == null) {
           result.profilePicture_ = profilePicture_;
         } else {
           result.profilePicture_ = profilePictureBuilder_.build();
         }
-        result.uid_ = uid_;
-        result.avatarId_ = avatarId_;
-        result.worldLevel_ = worldLevel_;
-        result.mpSettingType_ = mpSettingType_;
+        result.signature_ = signature_;
+        result.nickname_ = nickname_;
+        result.xboxId_ = xboxId_;
+        result.iHCGGGJKIAF_ = iHCGGGJKIAF_;
+        if (((bitField0_ & 0x00000001) != 0)) {
+          blacklistUidList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.blacklistUidList_ = blacklistUidList_;
         result.platformType_ = platformType_;
         result.curPlayerNumInWorld_ = curPlayerNumInWorld_;
-        result.nameCardId_ = nameCardId_;
         result.playerLevel_ = playerLevel_;
+        result.nameCardId_ = nameCardId_;
+        result.oHANFMALHLA_ = oHANFMALHLA_;
+        result.avatarId_ = avatarId_;
+        result.worldLevel_ = worldLevel_;
+        result.uid_ = uid_;
+        result.pBPEIIIOMNA_ = pBPEIIIOMNA_;
+        result.bIFFOOOKJIH_ = bIFFOOOKJIH_;
+        result.kAGOBNDFENE_ = kAGOBNDFENE_;
+        result.mpSettingType_ = mpSettingType_;
         onBuilt();
         return result;
       }
@@ -1275,6 +1422,33 @@ public final class OnlinePlayerInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo other) {
         if (other == emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.getDefaultInstance()) return this;
+        if (!other.getPsnId().isEmpty()) {
+          psnId_ = other.psnId_;
+          onChanged();
+        }
+        if (!other.getOnlineId().isEmpty()) {
+          onlineId_ = other.onlineId_;
+          onChanged();
+        }
+        if (other.hasProfilePicture()) {
+          mergeProfilePicture(other.getProfilePicture());
+        }
+        if (!other.getSignature().isEmpty()) {
+          signature_ = other.signature_;
+          onChanged();
+        }
+        if (!other.getNickname().isEmpty()) {
+          nickname_ = other.nickname_;
+          onChanged();
+        }
+        if (!other.getXboxId().isEmpty()) {
+          xboxId_ = other.xboxId_;
+          onChanged();
+        }
+        if (!other.getIHCGGGJKIAF().isEmpty()) {
+          iHCGGGJKIAF_ = other.iHCGGGJKIAF_;
+          onChanged();
+        }
         if (!other.blacklistUidList_.isEmpty()) {
           if (blacklistUidList_.isEmpty()) {
             blacklistUidList_ = other.blacklistUidList_;
@@ -1285,35 +1459,20 @@ public final class OnlinePlayerInfoOuterClass {
           }
           onChanged();
         }
-        if (!other.getNickname().isEmpty()) {
-          nickname_ = other.nickname_;
-          onChanged();
+        if (other.platformType_ != 0) {
+          setPlatformTypeValue(other.getPlatformTypeValue());
         }
-        if (!other.getOnlineId().isEmpty()) {
-          onlineId_ = other.onlineId_;
-          onChanged();
+        if (other.getCurPlayerNumInWorld() != 0) {
+          setCurPlayerNumInWorld(other.getCurPlayerNumInWorld());
         }
-        if (!other.getSignature().isEmpty()) {
-          signature_ = other.signature_;
-          onChanged();
+        if (other.getPlayerLevel() != 0) {
+          setPlayerLevel(other.getPlayerLevel());
         }
-        if (!other.getADDELLGIEED().isEmpty()) {
-          aDDELLGIEED_ = other.aDDELLGIEED_;
-          onChanged();
+        if (other.getNameCardId() != 0) {
+          setNameCardId(other.getNameCardId());
         }
-        if (!other.getPsnId().isEmpty()) {
-          psnId_ = other.psnId_;
-          onChanged();
-        }
-        if (!other.getPJMKDOCDKLH().isEmpty()) {
-          pJMKDOCDKLH_ = other.pJMKDOCDKLH_;
-          onChanged();
-        }
-        if (other.hasProfilePicture()) {
-          mergeProfilePicture(other.getProfilePicture());
-        }
-        if (other.getUid() != 0) {
-          setUid(other.getUid());
+        if (other.getOHANFMALHLA() != 0) {
+          setOHANFMALHLA(other.getOHANFMALHLA());
         }
         if (other.getAvatarId() != 0) {
           setAvatarId(other.getAvatarId());
@@ -1321,20 +1480,20 @@ public final class OnlinePlayerInfoOuterClass {
         if (other.getWorldLevel() != 0) {
           setWorldLevel(other.getWorldLevel());
         }
+        if (other.getUid() != 0) {
+          setUid(other.getUid());
+        }
+        if (other.getPBPEIIIOMNA() != false) {
+          setPBPEIIIOMNA(other.getPBPEIIIOMNA());
+        }
+        if (other.getBIFFOOOKJIH() != false) {
+          setBIFFOOOKJIH(other.getBIFFOOOKJIH());
+        }
+        if (other.getKAGOBNDFENE() != false) {
+          setKAGOBNDFENE(other.getKAGOBNDFENE());
+        }
         if (other.mpSettingType_ != 0) {
           setMpSettingTypeValue(other.getMpSettingTypeValue());
-        }
-        if (other.platformType_ != 0) {
-          setPlatformTypeValue(other.getPlatformTypeValue());
-        }
-        if (other.getCurPlayerNumInWorld() != 0) {
-          setCurPlayerNumInWorld(other.getCurPlayerNumInWorld());
-        }
-        if (other.getNameCardId() != 0) {
-          setNameCardId(other.getNameCardId());
-        }
-        if (other.getPlayerLevel() != 0) {
-          setPlayerLevel(other.getPlayerLevel());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1365,389 +1524,6 @@ public final class OnlinePlayerInfoOuterClass {
         return this;
       }
       private int bitField0_;
-
-      private com.google.protobuf.Internal.IntList blacklistUidList_ = emptyIntList();
-      private void ensureBlacklistUidListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          blacklistUidList_ = mutableCopy(blacklistUidList_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated uint32 blacklist_uid_list = 10;</code>
-       * @return A list containing the blacklistUidList.
-       */
-      public java.util.List<java.lang.Integer>
-          getBlacklistUidListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(blacklistUidList_) : blacklistUidList_;
-      }
-      /**
-       * <code>repeated uint32 blacklist_uid_list = 10;</code>
-       * @return The count of blacklistUidList.
-       */
-      public int getBlacklistUidListCount() {
-        return blacklistUidList_.size();
-      }
-      /**
-       * <code>repeated uint32 blacklist_uid_list = 10;</code>
-       * @param index The index of the element to return.
-       * @return The blacklistUidList at the given index.
-       */
-      public int getBlacklistUidList(int index) {
-        return blacklistUidList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 blacklist_uid_list = 10;</code>
-       * @param index The index to set the value at.
-       * @param value The blacklistUidList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setBlacklistUidList(
-          int index, int value) {
-        ensureBlacklistUidListIsMutable();
-        blacklistUidList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 blacklist_uid_list = 10;</code>
-       * @param value The blacklistUidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addBlacklistUidList(int value) {
-        ensureBlacklistUidListIsMutable();
-        blacklistUidList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 blacklist_uid_list = 10;</code>
-       * @param values The blacklistUidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllBlacklistUidList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureBlacklistUidListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, blacklistUidList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 blacklist_uid_list = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearBlacklistUidList() {
-        blacklistUidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object nickname_ = "";
-      /**
-       * <code>string nickname = 2;</code>
-       * @return The nickname.
-       */
-      public java.lang.String getNickname() {
-        java.lang.Object ref = nickname_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          nickname_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string nickname = 2;</code>
-       * @return The bytes for nickname.
-       */
-      public com.google.protobuf.ByteString
-          getNicknameBytes() {
-        java.lang.Object ref = nickname_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          nickname_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string nickname = 2;</code>
-       * @param value The nickname to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNickname(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        nickname_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string nickname = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNickname() {
-        
-        nickname_ = getDefaultInstance().getNickname();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string nickname = 2;</code>
-       * @param value The bytes for nickname to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNicknameBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        nickname_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object onlineId_ = "";
-      /**
-       * <code>string online_id = 8;</code>
-       * @return The onlineId.
-       */
-      public java.lang.String getOnlineId() {
-        java.lang.Object ref = onlineId_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          onlineId_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string online_id = 8;</code>
-       * @return The bytes for onlineId.
-       */
-      public com.google.protobuf.ByteString
-          getOnlineIdBytes() {
-        java.lang.Object ref = onlineId_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          onlineId_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string online_id = 8;</code>
-       * @param value The onlineId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOnlineId(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        onlineId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string online_id = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOnlineId() {
-        
-        onlineId_ = getDefaultInstance().getOnlineId();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string online_id = 8;</code>
-       * @param value The bytes for onlineId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOnlineIdBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        onlineId_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object signature_ = "";
-      /**
-       * <code>string signature = 11;</code>
-       * @return The signature.
-       */
-      public java.lang.String getSignature() {
-        java.lang.Object ref = signature_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          signature_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string signature = 11;</code>
-       * @return The bytes for signature.
-       */
-      public com.google.protobuf.ByteString
-          getSignatureBytes() {
-        java.lang.Object ref = signature_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          signature_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string signature = 11;</code>
-       * @param value The signature to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSignature(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        signature_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string signature = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSignature() {
-        
-        signature_ = getDefaultInstance().getSignature();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string signature = 11;</code>
-       * @param value The bytes for signature to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSignatureBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        signature_ = value;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object aDDELLGIEED_ = "";
-      /**
-       * <code>string ADDELLGIEED = 14;</code>
-       * @return The aDDELLGIEED.
-       */
-      public java.lang.String getADDELLGIEED() {
-        java.lang.Object ref = aDDELLGIEED_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          aDDELLGIEED_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string ADDELLGIEED = 14;</code>
-       * @return The bytes for aDDELLGIEED.
-       */
-      public com.google.protobuf.ByteString
-          getADDELLGIEEDBytes() {
-        java.lang.Object ref = aDDELLGIEED_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          aDDELLGIEED_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string ADDELLGIEED = 14;</code>
-       * @param value The aDDELLGIEED to set.
-       * @return This builder for chaining.
-       */
-      public Builder setADDELLGIEED(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        aDDELLGIEED_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string ADDELLGIEED = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearADDELLGIEED() {
-        
-        aDDELLGIEED_ = getDefaultInstance().getADDELLGIEED();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string ADDELLGIEED = 14;</code>
-       * @param value The bytes for aDDELLGIEED to set.
-       * @return This builder for chaining.
-       */
-      public Builder setADDELLGIEEDBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        aDDELLGIEED_ = value;
-        onChanged();
-        return this;
-      }
 
       private java.lang.Object psnId_ = "";
       /**
@@ -1825,78 +1601,78 @@ public final class OnlinePlayerInfoOuterClass {
         return this;
       }
 
-      private java.lang.Object pJMKDOCDKLH_ = "";
+      private java.lang.Object onlineId_ = "";
       /**
-       * <code>string PJMKDOCDKLH = 15;</code>
-       * @return The pJMKDOCDKLH.
+       * <code>string online_id = 8;</code>
+       * @return The onlineId.
        */
-      public java.lang.String getPJMKDOCDKLH() {
-        java.lang.Object ref = pJMKDOCDKLH_;
+      public java.lang.String getOnlineId() {
+        java.lang.Object ref = onlineId_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          pJMKDOCDKLH_ = s;
+          onlineId_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string PJMKDOCDKLH = 15;</code>
-       * @return The bytes for pJMKDOCDKLH.
+       * <code>string online_id = 8;</code>
+       * @return The bytes for onlineId.
        */
       public com.google.protobuf.ByteString
-          getPJMKDOCDKLHBytes() {
-        java.lang.Object ref = pJMKDOCDKLH_;
+          getOnlineIdBytes() {
+        java.lang.Object ref = onlineId_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          pJMKDOCDKLH_ = b;
+          onlineId_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string PJMKDOCDKLH = 15;</code>
-       * @param value The pJMKDOCDKLH to set.
+       * <code>string online_id = 8;</code>
+       * @param value The onlineId to set.
        * @return This builder for chaining.
        */
-      public Builder setPJMKDOCDKLH(
+      public Builder setOnlineId(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        pJMKDOCDKLH_ = value;
+        onlineId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string PJMKDOCDKLH = 15;</code>
+       * <code>string online_id = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPJMKDOCDKLH() {
+      public Builder clearOnlineId() {
         
-        pJMKDOCDKLH_ = getDefaultInstance().getPJMKDOCDKLH();
+        onlineId_ = getDefaultInstance().getOnlineId();
         onChanged();
         return this;
       }
       /**
-       * <code>string PJMKDOCDKLH = 15;</code>
-       * @param value The bytes for pJMKDOCDKLH to set.
+       * <code>string online_id = 8;</code>
+       * @param value The bytes for onlineId to set.
        * @return This builder for chaining.
        */
-      public Builder setPJMKDOCDKLHBytes(
+      public Builder setOnlineIdBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        pJMKDOCDKLH_ = value;
+        onlineId_ = value;
         onChanged();
         return this;
       }
@@ -2020,149 +1796,385 @@ public final class OnlinePlayerInfoOuterClass {
         return profilePictureBuilder_;
       }
 
-      private int uid_ ;
+      private java.lang.Object signature_ = "";
       /**
-       * <code>uint32 uid = 1;</code>
-       * @return The uid.
+       * <code>string signature = 11;</code>
+       * @return The signature.
        */
-      @java.lang.Override
-      public int getUid() {
-        return uid_;
-      }
-      /**
-       * <code>uint32 uid = 1;</code>
-       * @param value The uid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setUid(int value) {
-        
-        uid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 uid = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearUid() {
-        
-        uid_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int avatarId_ ;
-      /**
-       * <code>uint32 avatar_id = 4;</code>
-       * @return The avatarId.
-       */
-      @java.lang.Override
-      public int getAvatarId() {
-        return avatarId_;
-      }
-      /**
-       * <code>uint32 avatar_id = 4;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAvatarId(int value) {
-        
-        avatarId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 avatar_id = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAvatarId() {
-        
-        avatarId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int worldLevel_ ;
-      /**
-       * <code>uint32 world_level = 7;</code>
-       * @return The worldLevel.
-       */
-      @java.lang.Override
-      public int getWorldLevel() {
-        return worldLevel_;
-      }
-      /**
-       * <code>uint32 world_level = 7;</code>
-       * @param value The worldLevel to set.
-       * @return This builder for chaining.
-       */
-      public Builder setWorldLevel(int value) {
-        
-        worldLevel_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 world_level = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearWorldLevel() {
-        
-        worldLevel_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int mpSettingType_ = 0;
-      /**
-       * <code>.MpSettingType mp_setting_type = 5;</code>
-       * @return The enum numeric value on the wire for mpSettingType.
-       */
-      @java.lang.Override public int getMpSettingTypeValue() {
-        return mpSettingType_;
-      }
-      /**
-       * <code>.MpSettingType mp_setting_type = 5;</code>
-       * @param value The enum numeric value on the wire for mpSettingType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMpSettingTypeValue(int value) {
-        
-        mpSettingType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>.MpSettingType mp_setting_type = 5;</code>
-       * @return The mpSettingType.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType() {
-        @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType result = emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.valueOf(mpSettingType_);
-        return result == null ? emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.UNRECOGNIZED : result;
-      }
-      /**
-       * <code>.MpSettingType mp_setting_type = 5;</code>
-       * @param value The mpSettingType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMpSettingType(emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType value) {
-        if (value == null) {
-          throw new NullPointerException();
+      public java.lang.String getSignature() {
+        java.lang.Object ref = signature_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          signature_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
         }
-        
-        mpSettingType_ = value.getNumber();
+      }
+      /**
+       * <code>string signature = 11;</code>
+       * @return The bytes for signature.
+       */
+      public com.google.protobuf.ByteString
+          getSignatureBytes() {
+        java.lang.Object ref = signature_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          signature_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string signature = 11;</code>
+       * @param value The signature to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSignature(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        signature_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * <code>string signature = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMpSettingType() {
+      public Builder clearSignature() {
         
-        mpSettingType_ = 0;
+        signature_ = getDefaultInstance().getSignature();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string signature = 11;</code>
+       * @param value The bytes for signature to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSignatureBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        signature_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object nickname_ = "";
+      /**
+       * <code>string nickname = 2;</code>
+       * @return The nickname.
+       */
+      public java.lang.String getNickname() {
+        java.lang.Object ref = nickname_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          nickname_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>string nickname = 2;</code>
+       * @return The bytes for nickname.
+       */
+      public com.google.protobuf.ByteString
+          getNicknameBytes() {
+        java.lang.Object ref = nickname_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          nickname_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string nickname = 2;</code>
+       * @param value The nickname to set.
+       * @return This builder for chaining.
+       */
+      public Builder setNickname(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        nickname_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string nickname = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearNickname() {
+        
+        nickname_ = getDefaultInstance().getNickname();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string nickname = 2;</code>
+       * @param value The bytes for nickname to set.
+       * @return This builder for chaining.
+       */
+      public Builder setNicknameBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        nickname_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object xboxId_ = "";
+      /**
+       * <code>string xbox_id = 14;</code>
+       * @return The xboxId.
+       */
+      public java.lang.String getXboxId() {
+        java.lang.Object ref = xboxId_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          xboxId_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>string xbox_id = 14;</code>
+       * @return The bytes for xboxId.
+       */
+      public com.google.protobuf.ByteString
+          getXboxIdBytes() {
+        java.lang.Object ref = xboxId_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          xboxId_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string xbox_id = 14;</code>
+       * @param value The xboxId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setXboxId(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        xboxId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string xbox_id = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearXboxId() {
+        
+        xboxId_ = getDefaultInstance().getXboxId();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string xbox_id = 14;</code>
+       * @param value The bytes for xboxId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setXboxIdBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        xboxId_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object iHCGGGJKIAF_ = "";
+      /**
+       * <code>string IHCGGGJKIAF = 15;</code>
+       * @return The iHCGGGJKIAF.
+       */
+      public java.lang.String getIHCGGGJKIAF() {
+        java.lang.Object ref = iHCGGGJKIAF_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          iHCGGGJKIAF_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>string IHCGGGJKIAF = 15;</code>
+       * @return The bytes for iHCGGGJKIAF.
+       */
+      public com.google.protobuf.ByteString
+          getIHCGGGJKIAFBytes() {
+        java.lang.Object ref = iHCGGGJKIAF_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          iHCGGGJKIAF_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string IHCGGGJKIAF = 15;</code>
+       * @param value The iHCGGGJKIAF to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIHCGGGJKIAF(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        iHCGGGJKIAF_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string IHCGGGJKIAF = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIHCGGGJKIAF() {
+        
+        iHCGGGJKIAF_ = getDefaultInstance().getIHCGGGJKIAF();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string IHCGGGJKIAF = 15;</code>
+       * @param value The bytes for iHCGGGJKIAF to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIHCGGGJKIAFBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        iHCGGGJKIAF_ = value;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList blacklistUidList_ = emptyIntList();
+      private void ensureBlacklistUidListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          blacklistUidList_ = mutableCopy(blacklistUidList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @return A list containing the blacklistUidList.
+       */
+      public java.util.List<java.lang.Integer>
+          getBlacklistUidListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(blacklistUidList_) : blacklistUidList_;
+      }
+      /**
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @return The count of blacklistUidList.
+       */
+      public int getBlacklistUidListCount() {
+        return blacklistUidList_.size();
+      }
+      /**
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @param index The index of the element to return.
+       * @return The blacklistUidList at the given index.
+       */
+      public int getBlacklistUidList(int index) {
+        return blacklistUidList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @param index The index to set the value at.
+       * @param value The blacklistUidList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBlacklistUidList(
+          int index, int value) {
+        ensureBlacklistUidListIsMutable();
+        blacklistUidList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @param value The blacklistUidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addBlacklistUidList(int value) {
+        ensureBlacklistUidListIsMutable();
+        blacklistUidList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @param values The blacklistUidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllBlacklistUidList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureBlacklistUidListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, blacklistUidList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 blacklist_uid_list = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBlacklistUidList() {
+        blacklistUidList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
@@ -2252,6 +2264,37 @@ public final class OnlinePlayerInfoOuterClass {
         return this;
       }
 
+      private int playerLevel_ ;
+      /**
+       * <code>uint32 player_level = 3;</code>
+       * @return The playerLevel.
+       */
+      @java.lang.Override
+      public int getPlayerLevel() {
+        return playerLevel_;
+      }
+      /**
+       * <code>uint32 player_level = 3;</code>
+       * @param value The playerLevel to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPlayerLevel(int value) {
+        
+        playerLevel_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 player_level = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPlayerLevel() {
+        
+        playerLevel_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int nameCardId_ ;
       /**
        * <code>uint32 name_card_id = 9;</code>
@@ -2283,33 +2326,273 @@ public final class OnlinePlayerInfoOuterClass {
         return this;
       }
 
-      private int playerLevel_ ;
+      private int oHANFMALHLA_ ;
       /**
-       * <code>uint32 player_level = 3;</code>
-       * @return The playerLevel.
+       * <code>uint32 OHANFMALHLA = 22;</code>
+       * @return The oHANFMALHLA.
        */
       @java.lang.Override
-      public int getPlayerLevel() {
-        return playerLevel_;
+      public int getOHANFMALHLA() {
+        return oHANFMALHLA_;
       }
       /**
-       * <code>uint32 player_level = 3;</code>
-       * @param value The playerLevel to set.
+       * <code>uint32 OHANFMALHLA = 22;</code>
+       * @param value The oHANFMALHLA to set.
        * @return This builder for chaining.
        */
-      public Builder setPlayerLevel(int value) {
+      public Builder setOHANFMALHLA(int value) {
         
-        playerLevel_ = value;
+        oHANFMALHLA_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 player_level = 3;</code>
+       * <code>uint32 OHANFMALHLA = 22;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPlayerLevel() {
+      public Builder clearOHANFMALHLA() {
         
-        playerLevel_ = 0;
+        oHANFMALHLA_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int avatarId_ ;
+      /**
+       * <code>uint32 avatar_id = 4;</code>
+       * @return The avatarId.
+       */
+      @java.lang.Override
+      public int getAvatarId() {
+        return avatarId_;
+      }
+      /**
+       * <code>uint32 avatar_id = 4;</code>
+       * @param value The avatarId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAvatarId(int value) {
+        
+        avatarId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 avatar_id = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAvatarId() {
+        
+        avatarId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int worldLevel_ ;
+      /**
+       * <code>uint32 world_level = 7;</code>
+       * @return The worldLevel.
+       */
+      @java.lang.Override
+      public int getWorldLevel() {
+        return worldLevel_;
+      }
+      /**
+       * <code>uint32 world_level = 7;</code>
+       * @param value The worldLevel to set.
+       * @return This builder for chaining.
+       */
+      public Builder setWorldLevel(int value) {
+        
+        worldLevel_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 world_level = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearWorldLevel() {
+        
+        worldLevel_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int uid_ ;
+      /**
+       * <code>uint32 uid = 1;</code>
+       * @return The uid.
+       */
+      @java.lang.Override
+      public int getUid() {
+        return uid_;
+      }
+      /**
+       * <code>uint32 uid = 1;</code>
+       * @param value The uid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setUid(int value) {
+        
+        uid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 uid = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearUid() {
+        
+        uid_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean pBPEIIIOMNA_ ;
+      /**
+       * <code>bool PBPEIIIOMNA = 17;</code>
+       * @return The pBPEIIIOMNA.
+       */
+      @java.lang.Override
+      public boolean getPBPEIIIOMNA() {
+        return pBPEIIIOMNA_;
+      }
+      /**
+       * <code>bool PBPEIIIOMNA = 17;</code>
+       * @param value The pBPEIIIOMNA to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPBPEIIIOMNA(boolean value) {
+        
+        pBPEIIIOMNA_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool PBPEIIIOMNA = 17;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPBPEIIIOMNA() {
+        
+        pBPEIIIOMNA_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean bIFFOOOKJIH_ ;
+      /**
+       * <code>bool BIFFOOOKJIH = 19;</code>
+       * @return The bIFFOOOKJIH.
+       */
+      @java.lang.Override
+      public boolean getBIFFOOOKJIH() {
+        return bIFFOOOKJIH_;
+      }
+      /**
+       * <code>bool BIFFOOOKJIH = 19;</code>
+       * @param value The bIFFOOOKJIH to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBIFFOOOKJIH(boolean value) {
+        
+        bIFFOOOKJIH_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool BIFFOOOKJIH = 19;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBIFFOOOKJIH() {
+        
+        bIFFOOOKJIH_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean kAGOBNDFENE_ ;
+      /**
+       * <code>bool KAGOBNDFENE = 18;</code>
+       * @return The kAGOBNDFENE.
+       */
+      @java.lang.Override
+      public boolean getKAGOBNDFENE() {
+        return kAGOBNDFENE_;
+      }
+      /**
+       * <code>bool KAGOBNDFENE = 18;</code>
+       * @param value The kAGOBNDFENE to set.
+       * @return This builder for chaining.
+       */
+      public Builder setKAGOBNDFENE(boolean value) {
+        
+        kAGOBNDFENE_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool KAGOBNDFENE = 18;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearKAGOBNDFENE() {
+        
+        kAGOBNDFENE_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int mpSettingType_ = 0;
+      /**
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @return The enum numeric value on the wire for mpSettingType.
+       */
+      @java.lang.Override public int getMpSettingTypeValue() {
+        return mpSettingType_;
+      }
+      /**
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @param value The enum numeric value on the wire for mpSettingType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMpSettingTypeValue(int value) {
+        
+        mpSettingType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @return The mpSettingType.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType getMpSettingType() {
+        @SuppressWarnings("deprecation")
+        emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType result = emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.valueOf(mpSettingType_);
+        return result == null ? emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType.UNRECOGNIZED : result;
+      }
+      /**
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @param value The mpSettingType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMpSettingType(emu.grasscutter.net.proto.MpSettingTypeOuterClass.MpSettingType value) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        
+        mpSettingType_ = value.getNumber();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>.MpSettingType mp_setting_type = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMpSettingType() {
+        
+        mpSettingType_ = 0;
         onChanged();
         return this;
       }
@@ -2381,36 +2664,38 @@ public final class OnlinePlayerInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026OnlinePlayerInfo.proto\032\024ProfilePicture" +
-      ".proto\032\023MpSettingType.proto\032\022PlatformTyp" +
-      "e.proto\"\233\003\n\020OnlinePlayerInfo\022\032\n\022blacklis" +
-      "t_uid_list\030\n \003(\r\022\020\n\010nickname\030\002 \001(\t\022\021\n\ton" +
-      "line_id\030\010 \001(\t\022\021\n\tsignature\030\013 \001(\t\022\023\n\013ADDE" +
-      "LLGIEED\030\016 \001(\t\022\016\n\006psn_id\030\r \001(\t\022\023\n\013PJMKDOC" +
-      "DKLH\030\017 \001(\t\022(\n\017profile_picture\030\014 \001(\0132\017.Pr" +
-      "ofilePicture\022\013\n\003uid\030\001 \001(\r\022\021\n\tavatar_id\030\004" +
-      " \001(\r\022\023\n\013world_level\030\007 \001(\r\022\'\n\017mp_setting_" +
-      "type\030\005 \001(\0162\016.MpSettingType\022$\n\rplatform_t" +
-      "ype\030\020 \001(\0162\r.PlatformType\022\037\n\027cur_player_n" +
-      "um_in_world\030\006 \001(\r\022\024\n\014name_card_id\030\t \001(\r\022" +
-      "\024\n\014player_level\030\003 \001(\rB\033\n\031emu.grasscutter" +
+      ".proto\032\022PlatformType.proto\032\023MpSettingTyp" +
+      "e.proto\"\353\003\n\020OnlinePlayerInfo\022\016\n\006psn_id\030\r" +
+      " \001(\t\022\021\n\tonline_id\030\010 \001(\t\022(\n\017profile_pictu" +
+      "re\030\014 \001(\0132\017.ProfilePicture\022\021\n\tsignature\030\013" +
+      " \001(\t\022\020\n\010nickname\030\002 \001(\t\022\017\n\007xbox_id\030\016 \001(\t\022" +
+      "\023\n\013IHCGGGJKIAF\030\017 \001(\t\022\032\n\022blacklist_uid_li" +
+      "st\030\n \003(\r\022$\n\rplatform_type\030\020 \001(\0162\r.Platfo" +
+      "rmType\022\037\n\027cur_player_num_in_world\030\006 \001(\r\022" +
+      "\024\n\014player_level\030\003 \001(\r\022\024\n\014name_card_id\030\t " +
+      "\001(\r\022\023\n\013OHANFMALHLA\030\026 \001(\r\022\021\n\tavatar_id\030\004 " +
+      "\001(\r\022\023\n\013world_level\030\007 \001(\r\022\013\n\003uid\030\001 \001(\r\022\023\n" +
+      "\013PBPEIIIOMNA\030\021 \001(\010\022\023\n\013BIFFOOOKJIH\030\023 \001(\010\022" +
+      "\023\n\013KAGOBNDFENE\030\022 \001(\010\022\'\n\017mp_setting_type\030" +
+      "\005 \001(\0162\016.MpSettingTypeB\033\n\031emu.grasscutter" +
       ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MpSettingTypeOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PlatformTypeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MpSettingTypeOuterClass.getDescriptor(),
         });
     internal_static_OnlinePlayerInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_OnlinePlayerInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OnlinePlayerInfo_descriptor,
-        new java.lang.String[] { "BlacklistUidList", "Nickname", "OnlineId", "Signature", "ADDELLGIEED", "PsnId", "PJMKDOCDKLH", "ProfilePicture", "Uid", "AvatarId", "WorldLevel", "MpSettingType", "PlatformType", "CurPlayerNumInWorld", "NameCardId", "PlayerLevel", });
+        new java.lang.String[] { "PsnId", "OnlineId", "ProfilePicture", "Signature", "Nickname", "XboxId", "IHCGGGJKIAF", "BlacklistUidList", "PlatformType", "CurPlayerNumInWorld", "PlayerLevel", "NameCardId", "OHANFMALHLA", "AvatarId", "WorldLevel", "Uid", "PBPEIIIOMNA", "BIFFOOOKJIH", "KAGOBNDFENE", "MpSettingType", });
     emu.grasscutter.net.proto.ProfilePictureOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MpSettingTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PlatformTypeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.MpSettingTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

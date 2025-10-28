@@ -19,16 +19,31 @@ public final class ItemOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    int getItemId();
+
+    /**
      * <code>uint64 guid = 2;</code>
      * @return The guid.
      */
     long getGuid();
 
     /**
-     * <code>uint32 item_id = 1;</code>
-     * @return The itemId.
+     * <code>.Furniture furniture = 7;</code>
+     * @return Whether the furniture field is set.
      */
-    int getItemId();
+    boolean hasFurniture();
+    /**
+     * <code>.Furniture furniture = 7;</code>
+     * @return The furniture.
+     */
+    emu.grasscutter.net.proto.FurnitureOuterClass.Furniture getFurniture();
+    /**
+     * <code>.Furniture furniture = 7;</code>
+     */
+    emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder getFurnitureOrBuilder();
 
     /**
      * <code>.Material material = 5;</code>
@@ -46,6 +61,36 @@ public final class ItemOuterClass {
     emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder getMaterialOrBuilder();
 
     /**
+     * <code>.Facility facility = 9;</code>
+     * @return Whether the facility field is set.
+     */
+    boolean hasFacility();
+    /**
+     * <code>.Facility facility = 9;</code>
+     * @return The facility.
+     */
+    emu.grasscutter.net.proto.FacilityOuterClass.Facility getFacility();
+    /**
+     * <code>.Facility facility = 9;</code>
+     */
+    emu.grasscutter.net.proto.FacilityOuterClass.FacilityOrBuilder getFacilityOrBuilder();
+
+    /**
+     * <code>.BeyondMaterial beyond_material = 8;</code>
+     * @return Whether the beyondMaterial field is set.
+     */
+    boolean hasBeyondMaterial();
+    /**
+     * <code>.BeyondMaterial beyond_material = 8;</code>
+     * @return The beyondMaterial.
+     */
+    emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial getBeyondMaterial();
+    /**
+     * <code>.BeyondMaterial beyond_material = 8;</code>
+     */
+    emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterialOrBuilder getBeyondMaterialOrBuilder();
+
+    /**
      * <code>.Equip equip = 6;</code>
      * @return Whether the equip field is set.
      */
@@ -59,21 +104,6 @@ public final class ItemOuterClass {
      * <code>.Equip equip = 6;</code>
      */
     emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder getEquipOrBuilder();
-
-    /**
-     * <code>.Furniture furniture = 7;</code>
-     * @return Whether the furniture field is set.
-     */
-    boolean hasFurniture();
-    /**
-     * <code>.Furniture furniture = 7;</code>
-     * @return The furniture.
-     */
-    emu.grasscutter.net.proto.FurnitureOuterClass.Furniture getFurniture();
-    /**
-     * <code>.Furniture furniture = 7;</code>
-     */
-    emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder getFurnitureOrBuilder();
 
     public emu.grasscutter.net.proto.ItemOuterClass.Item.DetailCase getDetailCase();
   }
@@ -174,6 +204,34 @@ public final class ItemOuterClass {
               detailCase_ = 7;
               break;
             }
+            case 66: {
+              emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.Builder subBuilder = null;
+              if (detailCase_ == 8) {
+                subBuilder = ((emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 8;
+              break;
+            }
+            case 74: {
+              emu.grasscutter.net.proto.FacilityOuterClass.Facility.Builder subBuilder = null;
+              if (detailCase_ == 9) {
+                subBuilder = ((emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto.FacilityOuterClass.Facility.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 9;
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -211,9 +269,11 @@ public final class ItemOuterClass {
     public enum DetailCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      MATERIAL(5),
-      EQUIP(6),
       FURNITURE(7),
+      MATERIAL(5),
+      FACILITY(9),
+      BEYOND_MATERIAL(8),
+      EQUIP(6),
       DETAIL_NOT_SET(0);
       private final int value;
       private DetailCase(int value) {
@@ -231,9 +291,11 @@ public final class ItemOuterClass {
 
       public static DetailCase forNumber(int value) {
         switch (value) {
-          case 5: return MATERIAL;
-          case 6: return EQUIP;
           case 7: return FURNITURE;
+          case 5: return MATERIAL;
+          case 9: return FACILITY;
+          case 8: return BEYOND_MATERIAL;
+          case 6: return EQUIP;
           case 0: return DETAIL_NOT_SET;
           default: return null;
         }
@@ -249,17 +311,6 @@ public final class ItemOuterClass {
           detailCase_);
     }
 
-    public static final int GUID_FIELD_NUMBER = 2;
-    private long guid_;
-    /**
-     * <code>uint64 guid = 2;</code>
-     * @return The guid.
-     */
-    @java.lang.Override
-    public long getGuid() {
-      return guid_;
-    }
-
     public static final int ITEM_ID_FIELD_NUMBER = 1;
     private int itemId_;
     /**
@@ -271,66 +322,15 @@ public final class ItemOuterClass {
       return itemId_;
     }
 
-    public static final int MATERIAL_FIELD_NUMBER = 5;
+    public static final int GUID_FIELD_NUMBER = 2;
+    private long guid_;
     /**
-     * <code>.Material material = 5;</code>
-     * @return Whether the material field is set.
+     * <code>uint64 guid = 2;</code>
+     * @return The guid.
      */
     @java.lang.Override
-    public boolean hasMaterial() {
-      return detailCase_ == 5;
-    }
-    /**
-     * <code>.Material material = 5;</code>
-     * @return The material.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.MaterialOuterClass.Material getMaterial() {
-      if (detailCase_ == 5) {
-         return (emu.grasscutter.net.proto.MaterialOuterClass.Material) detail_;
-      }
-      return emu.grasscutter.net.proto.MaterialOuterClass.Material.getDefaultInstance();
-    }
-    /**
-     * <code>.Material material = 5;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder getMaterialOrBuilder() {
-      if (detailCase_ == 5) {
-         return (emu.grasscutter.net.proto.MaterialOuterClass.Material) detail_;
-      }
-      return emu.grasscutter.net.proto.MaterialOuterClass.Material.getDefaultInstance();
-    }
-
-    public static final int EQUIP_FIELD_NUMBER = 6;
-    /**
-     * <code>.Equip equip = 6;</code>
-     * @return Whether the equip field is set.
-     */
-    @java.lang.Override
-    public boolean hasEquip() {
-      return detailCase_ == 6;
-    }
-    /**
-     * <code>.Equip equip = 6;</code>
-     * @return The equip.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.EquipOuterClass.Equip getEquip() {
-      if (detailCase_ == 6) {
-         return (emu.grasscutter.net.proto.EquipOuterClass.Equip) detail_;
-      }
-      return emu.grasscutter.net.proto.EquipOuterClass.Equip.getDefaultInstance();
-    }
-    /**
-     * <code>.Equip equip = 6;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder getEquipOrBuilder() {
-      if (detailCase_ == 6) {
-         return (emu.grasscutter.net.proto.EquipOuterClass.Equip) detail_;
-      }
-      return emu.grasscutter.net.proto.EquipOuterClass.Equip.getDefaultInstance();
+    public long getGuid() {
+      return guid_;
     }
 
     public static final int FURNITURE_FIELD_NUMBER = 7;
@@ -364,6 +364,130 @@ public final class ItemOuterClass {
       return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
     }
 
+    public static final int MATERIAL_FIELD_NUMBER = 5;
+    /**
+     * <code>.Material material = 5;</code>
+     * @return Whether the material field is set.
+     */
+    @java.lang.Override
+    public boolean hasMaterial() {
+      return detailCase_ == 5;
+    }
+    /**
+     * <code>.Material material = 5;</code>
+     * @return The material.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MaterialOuterClass.Material getMaterial() {
+      if (detailCase_ == 5) {
+         return (emu.grasscutter.net.proto.MaterialOuterClass.Material) detail_;
+      }
+      return emu.grasscutter.net.proto.MaterialOuterClass.Material.getDefaultInstance();
+    }
+    /**
+     * <code>.Material material = 5;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder getMaterialOrBuilder() {
+      if (detailCase_ == 5) {
+         return (emu.grasscutter.net.proto.MaterialOuterClass.Material) detail_;
+      }
+      return emu.grasscutter.net.proto.MaterialOuterClass.Material.getDefaultInstance();
+    }
+
+    public static final int FACILITY_FIELD_NUMBER = 9;
+    /**
+     * <code>.Facility facility = 9;</code>
+     * @return Whether the facility field is set.
+     */
+    @java.lang.Override
+    public boolean hasFacility() {
+      return detailCase_ == 9;
+    }
+    /**
+     * <code>.Facility facility = 9;</code>
+     * @return The facility.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FacilityOuterClass.Facility getFacility() {
+      if (detailCase_ == 9) {
+         return (emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_;
+      }
+      return emu.grasscutter.net.proto.FacilityOuterClass.Facility.getDefaultInstance();
+    }
+    /**
+     * <code>.Facility facility = 9;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FacilityOuterClass.FacilityOrBuilder getFacilityOrBuilder() {
+      if (detailCase_ == 9) {
+         return (emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_;
+      }
+      return emu.grasscutter.net.proto.FacilityOuterClass.Facility.getDefaultInstance();
+    }
+
+    public static final int BEYOND_MATERIAL_FIELD_NUMBER = 8;
+    /**
+     * <code>.BeyondMaterial beyond_material = 8;</code>
+     * @return Whether the beyondMaterial field is set.
+     */
+    @java.lang.Override
+    public boolean hasBeyondMaterial() {
+      return detailCase_ == 8;
+    }
+    /**
+     * <code>.BeyondMaterial beyond_material = 8;</code>
+     * @return The beyondMaterial.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial getBeyondMaterial() {
+      if (detailCase_ == 8) {
+         return (emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_;
+      }
+      return emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.getDefaultInstance();
+    }
+    /**
+     * <code>.BeyondMaterial beyond_material = 8;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterialOrBuilder getBeyondMaterialOrBuilder() {
+      if (detailCase_ == 8) {
+         return (emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_;
+      }
+      return emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.getDefaultInstance();
+    }
+
+    public static final int EQUIP_FIELD_NUMBER = 6;
+    /**
+     * <code>.Equip equip = 6;</code>
+     * @return Whether the equip field is set.
+     */
+    @java.lang.Override
+    public boolean hasEquip() {
+      return detailCase_ == 6;
+    }
+    /**
+     * <code>.Equip equip = 6;</code>
+     * @return The equip.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.EquipOuterClass.Equip getEquip() {
+      if (detailCase_ == 6) {
+         return (emu.grasscutter.net.proto.EquipOuterClass.Equip) detail_;
+      }
+      return emu.grasscutter.net.proto.EquipOuterClass.Equip.getDefaultInstance();
+    }
+    /**
+     * <code>.Equip equip = 6;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder getEquipOrBuilder() {
+      if (detailCase_ == 6) {
+         return (emu.grasscutter.net.proto.EquipOuterClass.Equip) detail_;
+      }
+      return emu.grasscutter.net.proto.EquipOuterClass.Equip.getDefaultInstance();
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -392,6 +516,12 @@ public final class ItemOuterClass {
       }
       if (detailCase_ == 7) {
         output.writeMessage(7, (emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_);
+      }
+      if (detailCase_ == 8) {
+        output.writeMessage(8, (emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_);
+      }
+      if (detailCase_ == 9) {
+        output.writeMessage(9, (emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -422,6 +552,14 @@ public final class ItemOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(7, (emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_);
       }
+      if (detailCase_ == 8) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(8, (emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_);
+      }
+      if (detailCase_ == 9) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, (emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_);
+      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -437,23 +575,31 @@ public final class ItemOuterClass {
       }
       emu.grasscutter.net.proto.ItemOuterClass.Item other = (emu.grasscutter.net.proto.ItemOuterClass.Item) obj;
 
-      if (getGuid()
-          != other.getGuid()) return false;
       if (getItemId()
           != other.getItemId()) return false;
+      if (getGuid()
+          != other.getGuid()) return false;
       if (!getDetailCase().equals(other.getDetailCase())) return false;
       switch (detailCase_) {
+        case 7:
+          if (!getFurniture()
+              .equals(other.getFurniture())) return false;
+          break;
         case 5:
           if (!getMaterial()
               .equals(other.getMaterial())) return false;
           break;
+        case 9:
+          if (!getFacility()
+              .equals(other.getFacility())) return false;
+          break;
+        case 8:
+          if (!getBeyondMaterial()
+              .equals(other.getBeyondMaterial())) return false;
+          break;
         case 6:
           if (!getEquip()
               .equals(other.getEquip())) return false;
-          break;
-        case 7:
-          if (!getFurniture()
-              .equals(other.getFurniture())) return false;
           break;
         case 0:
         default:
@@ -469,23 +615,31 @@ public final class ItemOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + ITEM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getItemId();
       hash = (37 * hash) + GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getGuid());
-      hash = (37 * hash) + ITEM_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getItemId();
       switch (detailCase_) {
+        case 7:
+          hash = (37 * hash) + FURNITURE_FIELD_NUMBER;
+          hash = (53 * hash) + getFurniture().hashCode();
+          break;
         case 5:
           hash = (37 * hash) + MATERIAL_FIELD_NUMBER;
           hash = (53 * hash) + getMaterial().hashCode();
           break;
+        case 9:
+          hash = (37 * hash) + FACILITY_FIELD_NUMBER;
+          hash = (53 * hash) + getFacility().hashCode();
+          break;
+        case 8:
+          hash = (37 * hash) + BEYOND_MATERIAL_FIELD_NUMBER;
+          hash = (53 * hash) + getBeyondMaterial().hashCode();
+          break;
         case 6:
           hash = (37 * hash) + EQUIP_FIELD_NUMBER;
           hash = (53 * hash) + getEquip().hashCode();
-          break;
-        case 7:
-          hash = (37 * hash) + FURNITURE_FIELD_NUMBER;
-          hash = (53 * hash) + getFurniture().hashCode();
           break;
         case 0:
         default:
@@ -623,9 +777,9 @@ public final class ItemOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        guid_ = 0L;
-
         itemId_ = 0;
+
+        guid_ = 0L;
 
         detailCase_ = 0;
         detail_ = null;
@@ -655,8 +809,15 @@ public final class ItemOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ItemOuterClass.Item buildPartial() {
         emu.grasscutter.net.proto.ItemOuterClass.Item result = new emu.grasscutter.net.proto.ItemOuterClass.Item(this);
-        result.guid_ = guid_;
         result.itemId_ = itemId_;
+        result.guid_ = guid_;
+        if (detailCase_ == 7) {
+          if (furnitureBuilder_ == null) {
+            result.detail_ = detail_;
+          } else {
+            result.detail_ = furnitureBuilder_.build();
+          }
+        }
         if (detailCase_ == 5) {
           if (materialBuilder_ == null) {
             result.detail_ = detail_;
@@ -664,18 +825,25 @@ public final class ItemOuterClass {
             result.detail_ = materialBuilder_.build();
           }
         }
+        if (detailCase_ == 9) {
+          if (facilityBuilder_ == null) {
+            result.detail_ = detail_;
+          } else {
+            result.detail_ = facilityBuilder_.build();
+          }
+        }
+        if (detailCase_ == 8) {
+          if (beyondMaterialBuilder_ == null) {
+            result.detail_ = detail_;
+          } else {
+            result.detail_ = beyondMaterialBuilder_.build();
+          }
+        }
         if (detailCase_ == 6) {
           if (equipBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = equipBuilder_.build();
-          }
-        }
-        if (detailCase_ == 7) {
-          if (furnitureBuilder_ == null) {
-            result.detail_ = detail_;
-          } else {
-            result.detail_ = furnitureBuilder_.build();
           }
         }
         result.detailCase_ = detailCase_;
@@ -727,23 +895,31 @@ public final class ItemOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ItemOuterClass.Item other) {
         if (other == emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance()) return this;
-        if (other.getGuid() != 0L) {
-          setGuid(other.getGuid());
-        }
         if (other.getItemId() != 0) {
           setItemId(other.getItemId());
         }
+        if (other.getGuid() != 0L) {
+          setGuid(other.getGuid());
+        }
         switch (other.getDetailCase()) {
+          case FURNITURE: {
+            mergeFurniture(other.getFurniture());
+            break;
+          }
           case MATERIAL: {
             mergeMaterial(other.getMaterial());
             break;
           }
-          case EQUIP: {
-            mergeEquip(other.getEquip());
+          case FACILITY: {
+            mergeFacility(other.getFacility());
             break;
           }
-          case FURNITURE: {
-            mergeFurniture(other.getFurniture());
+          case BEYOND_MATERIAL: {
+            mergeBeyondMaterial(other.getBeyondMaterial());
+            break;
+          }
+          case EQUIP: {
+            mergeEquip(other.getEquip());
             break;
           }
           case DETAIL_NOT_SET: {
@@ -794,6 +970,37 @@ public final class ItemOuterClass {
       }
 
 
+      private int itemId_ ;
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return The itemId.
+       */
+      @java.lang.Override
+      public int getItemId() {
+        return itemId_;
+      }
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @param value The itemId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setItemId(int value) {
+        
+        itemId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 item_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearItemId() {
+        
+        itemId_ = 0;
+        onChanged();
+        return this;
+      }
+
       private long guid_ ;
       /**
        * <code>uint64 guid = 2;</code>
@@ -825,35 +1032,145 @@ public final class ItemOuterClass {
         return this;
       }
 
-      private int itemId_ ;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder> furnitureBuilder_;
       /**
-       * <code>uint32 item_id = 1;</code>
-       * @return The itemId.
+       * <code>.Furniture furniture = 7;</code>
+       * @return Whether the furniture field is set.
        */
       @java.lang.Override
-      public int getItemId() {
-        return itemId_;
+      public boolean hasFurniture() {
+        return detailCase_ == 7;
       }
       /**
-       * <code>uint32 item_id = 1;</code>
-       * @param value The itemId to set.
-       * @return This builder for chaining.
+       * <code>.Furniture furniture = 7;</code>
+       * @return The furniture.
        */
-      public Builder setItemId(int value) {
-        
-        itemId_ = value;
-        onChanged();
+      @java.lang.Override
+      public emu.grasscutter.net.proto.FurnitureOuterClass.Furniture getFurniture() {
+        if (furnitureBuilder_ == null) {
+          if (detailCase_ == 7) {
+            return (emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_;
+          }
+          return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
+        } else {
+          if (detailCase_ == 7) {
+            return furnitureBuilder_.getMessage();
+          }
+          return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.Furniture furniture = 7;</code>
+       */
+      public Builder setFurniture(emu.grasscutter.net.proto.FurnitureOuterClass.Furniture value) {
+        if (furnitureBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          detail_ = value;
+          onChanged();
+        } else {
+          furnitureBuilder_.setMessage(value);
+        }
+        detailCase_ = 7;
         return this;
       }
       /**
-       * <code>uint32 item_id = 1;</code>
-       * @return This builder for chaining.
+       * <code>.Furniture furniture = 7;</code>
        */
-      public Builder clearItemId() {
-        
-        itemId_ = 0;
-        onChanged();
+      public Builder setFurniture(
+          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder builderForValue) {
+        if (furnitureBuilder_ == null) {
+          detail_ = builderForValue.build();
+          onChanged();
+        } else {
+          furnitureBuilder_.setMessage(builderForValue.build());
+        }
+        detailCase_ = 7;
         return this;
+      }
+      /**
+       * <code>.Furniture furniture = 7;</code>
+       */
+      public Builder mergeFurniture(emu.grasscutter.net.proto.FurnitureOuterClass.Furniture value) {
+        if (furnitureBuilder_ == null) {
+          if (detailCase_ == 7 &&
+              detail_ != emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.newBuilder((emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            detail_ = value;
+          }
+          onChanged();
+        } else {
+          if (detailCase_ == 7) {
+            furnitureBuilder_.mergeFrom(value);
+          }
+          furnitureBuilder_.setMessage(value);
+        }
+        detailCase_ = 7;
+        return this;
+      }
+      /**
+       * <code>.Furniture furniture = 7;</code>
+       */
+      public Builder clearFurniture() {
+        if (furnitureBuilder_ == null) {
+          if (detailCase_ == 7) {
+            detailCase_ = 0;
+            detail_ = null;
+            onChanged();
+          }
+        } else {
+          if (detailCase_ == 7) {
+            detailCase_ = 0;
+            detail_ = null;
+          }
+          furnitureBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>.Furniture furniture = 7;</code>
+       */
+      public emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder getFurnitureBuilder() {
+        return getFurnitureFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.Furniture furniture = 7;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder getFurnitureOrBuilder() {
+        if ((detailCase_ == 7) && (furnitureBuilder_ != null)) {
+          return furnitureBuilder_.getMessageOrBuilder();
+        } else {
+          if (detailCase_ == 7) {
+            return (emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_;
+          }
+          return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.Furniture furniture = 7;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder> 
+          getFurnitureFieldBuilder() {
+        if (furnitureBuilder_ == null) {
+          if (!(detailCase_ == 7)) {
+            detail_ = emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
+          }
+          furnitureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder>(
+                  (emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_,
+                  getParentForChildren(),
+                  isClean());
+          detail_ = null;
+        }
+        detailCase_ = 7;
+        onChanged();;
+        return furnitureBuilder_;
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -998,6 +1315,288 @@ public final class ItemOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FacilityOuterClass.Facility, emu.grasscutter.net.proto.FacilityOuterClass.Facility.Builder, emu.grasscutter.net.proto.FacilityOuterClass.FacilityOrBuilder> facilityBuilder_;
+      /**
+       * <code>.Facility facility = 9;</code>
+       * @return Whether the facility field is set.
+       */
+      @java.lang.Override
+      public boolean hasFacility() {
+        return detailCase_ == 9;
+      }
+      /**
+       * <code>.Facility facility = 9;</code>
+       * @return The facility.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.FacilityOuterClass.Facility getFacility() {
+        if (facilityBuilder_ == null) {
+          if (detailCase_ == 9) {
+            return (emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_;
+          }
+          return emu.grasscutter.net.proto.FacilityOuterClass.Facility.getDefaultInstance();
+        } else {
+          if (detailCase_ == 9) {
+            return facilityBuilder_.getMessage();
+          }
+          return emu.grasscutter.net.proto.FacilityOuterClass.Facility.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.Facility facility = 9;</code>
+       */
+      public Builder setFacility(emu.grasscutter.net.proto.FacilityOuterClass.Facility value) {
+        if (facilityBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          detail_ = value;
+          onChanged();
+        } else {
+          facilityBuilder_.setMessage(value);
+        }
+        detailCase_ = 9;
+        return this;
+      }
+      /**
+       * <code>.Facility facility = 9;</code>
+       */
+      public Builder setFacility(
+          emu.grasscutter.net.proto.FacilityOuterClass.Facility.Builder builderForValue) {
+        if (facilityBuilder_ == null) {
+          detail_ = builderForValue.build();
+          onChanged();
+        } else {
+          facilityBuilder_.setMessage(builderForValue.build());
+        }
+        detailCase_ = 9;
+        return this;
+      }
+      /**
+       * <code>.Facility facility = 9;</code>
+       */
+      public Builder mergeFacility(emu.grasscutter.net.proto.FacilityOuterClass.Facility value) {
+        if (facilityBuilder_ == null) {
+          if (detailCase_ == 9 &&
+              detail_ != emu.grasscutter.net.proto.FacilityOuterClass.Facility.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.FacilityOuterClass.Facility.newBuilder((emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            detail_ = value;
+          }
+          onChanged();
+        } else {
+          if (detailCase_ == 9) {
+            facilityBuilder_.mergeFrom(value);
+          }
+          facilityBuilder_.setMessage(value);
+        }
+        detailCase_ = 9;
+        return this;
+      }
+      /**
+       * <code>.Facility facility = 9;</code>
+       */
+      public Builder clearFacility() {
+        if (facilityBuilder_ == null) {
+          if (detailCase_ == 9) {
+            detailCase_ = 0;
+            detail_ = null;
+            onChanged();
+          }
+        } else {
+          if (detailCase_ == 9) {
+            detailCase_ = 0;
+            detail_ = null;
+          }
+          facilityBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>.Facility facility = 9;</code>
+       */
+      public emu.grasscutter.net.proto.FacilityOuterClass.Facility.Builder getFacilityBuilder() {
+        return getFacilityFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.Facility facility = 9;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.FacilityOuterClass.FacilityOrBuilder getFacilityOrBuilder() {
+        if ((detailCase_ == 9) && (facilityBuilder_ != null)) {
+          return facilityBuilder_.getMessageOrBuilder();
+        } else {
+          if (detailCase_ == 9) {
+            return (emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_;
+          }
+          return emu.grasscutter.net.proto.FacilityOuterClass.Facility.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.Facility facility = 9;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FacilityOuterClass.Facility, emu.grasscutter.net.proto.FacilityOuterClass.Facility.Builder, emu.grasscutter.net.proto.FacilityOuterClass.FacilityOrBuilder> 
+          getFacilityFieldBuilder() {
+        if (facilityBuilder_ == null) {
+          if (!(detailCase_ == 9)) {
+            detail_ = emu.grasscutter.net.proto.FacilityOuterClass.Facility.getDefaultInstance();
+          }
+          facilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.FacilityOuterClass.Facility, emu.grasscutter.net.proto.FacilityOuterClass.Facility.Builder, emu.grasscutter.net.proto.FacilityOuterClass.FacilityOrBuilder>(
+                  (emu.grasscutter.net.proto.FacilityOuterClass.Facility) detail_,
+                  getParentForChildren(),
+                  isClean());
+          detail_ = null;
+        }
+        detailCase_ = 9;
+        onChanged();;
+        return facilityBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial, emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.Builder, emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterialOrBuilder> beyondMaterialBuilder_;
+      /**
+       * <code>.BeyondMaterial beyond_material = 8;</code>
+       * @return Whether the beyondMaterial field is set.
+       */
+      @java.lang.Override
+      public boolean hasBeyondMaterial() {
+        return detailCase_ == 8;
+      }
+      /**
+       * <code>.BeyondMaterial beyond_material = 8;</code>
+       * @return The beyondMaterial.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial getBeyondMaterial() {
+        if (beyondMaterialBuilder_ == null) {
+          if (detailCase_ == 8) {
+            return (emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_;
+          }
+          return emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.getDefaultInstance();
+        } else {
+          if (detailCase_ == 8) {
+            return beyondMaterialBuilder_.getMessage();
+          }
+          return emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.BeyondMaterial beyond_material = 8;</code>
+       */
+      public Builder setBeyondMaterial(emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial value) {
+        if (beyondMaterialBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          detail_ = value;
+          onChanged();
+        } else {
+          beyondMaterialBuilder_.setMessage(value);
+        }
+        detailCase_ = 8;
+        return this;
+      }
+      /**
+       * <code>.BeyondMaterial beyond_material = 8;</code>
+       */
+      public Builder setBeyondMaterial(
+          emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.Builder builderForValue) {
+        if (beyondMaterialBuilder_ == null) {
+          detail_ = builderForValue.build();
+          onChanged();
+        } else {
+          beyondMaterialBuilder_.setMessage(builderForValue.build());
+        }
+        detailCase_ = 8;
+        return this;
+      }
+      /**
+       * <code>.BeyondMaterial beyond_material = 8;</code>
+       */
+      public Builder mergeBeyondMaterial(emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial value) {
+        if (beyondMaterialBuilder_ == null) {
+          if (detailCase_ == 8 &&
+              detail_ != emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.newBuilder((emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            detail_ = value;
+          }
+          onChanged();
+        } else {
+          if (detailCase_ == 8) {
+            beyondMaterialBuilder_.mergeFrom(value);
+          }
+          beyondMaterialBuilder_.setMessage(value);
+        }
+        detailCase_ = 8;
+        return this;
+      }
+      /**
+       * <code>.BeyondMaterial beyond_material = 8;</code>
+       */
+      public Builder clearBeyondMaterial() {
+        if (beyondMaterialBuilder_ == null) {
+          if (detailCase_ == 8) {
+            detailCase_ = 0;
+            detail_ = null;
+            onChanged();
+          }
+        } else {
+          if (detailCase_ == 8) {
+            detailCase_ = 0;
+            detail_ = null;
+          }
+          beyondMaterialBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>.BeyondMaterial beyond_material = 8;</code>
+       */
+      public emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.Builder getBeyondMaterialBuilder() {
+        return getBeyondMaterialFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.BeyondMaterial beyond_material = 8;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterialOrBuilder getBeyondMaterialOrBuilder() {
+        if ((detailCase_ == 8) && (beyondMaterialBuilder_ != null)) {
+          return beyondMaterialBuilder_.getMessageOrBuilder();
+        } else {
+          if (detailCase_ == 8) {
+            return (emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_;
+          }
+          return emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.BeyondMaterial beyond_material = 8;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial, emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.Builder, emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterialOrBuilder> 
+          getBeyondMaterialFieldBuilder() {
+        if (beyondMaterialBuilder_ == null) {
+          if (!(detailCase_ == 8)) {
+            detail_ = emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.getDefaultInstance();
+          }
+          beyondMaterialBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial, emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial.Builder, emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterialOrBuilder>(
+                  (emu.grasscutter.net.proto.BeyondMaterialOuterClass.BeyondMaterial) detail_,
+                  getParentForChildren(),
+                  isClean());
+          detail_ = null;
+        }
+        detailCase_ = 8;
+        onChanged();;
+        return beyondMaterialBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EquipOuterClass.Equip, emu.grasscutter.net.proto.EquipOuterClass.Equip.Builder, emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder> equipBuilder_;
       /**
        * <code>.Equip equip = 6;</code>
@@ -1137,147 +1736,6 @@ public final class ItemOuterClass {
         onChanged();;
         return equipBuilder_;
       }
-
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder> furnitureBuilder_;
-      /**
-       * <code>.Furniture furniture = 7;</code>
-       * @return Whether the furniture field is set.
-       */
-      @java.lang.Override
-      public boolean hasFurniture() {
-        return detailCase_ == 7;
-      }
-      /**
-       * <code>.Furniture furniture = 7;</code>
-       * @return The furniture.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.FurnitureOuterClass.Furniture getFurniture() {
-        if (furnitureBuilder_ == null) {
-          if (detailCase_ == 7) {
-            return (emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_;
-          }
-          return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
-        } else {
-          if (detailCase_ == 7) {
-            return furnitureBuilder_.getMessage();
-          }
-          return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>.Furniture furniture = 7;</code>
-       */
-      public Builder setFurniture(emu.grasscutter.net.proto.FurnitureOuterClass.Furniture value) {
-        if (furnitureBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          detail_ = value;
-          onChanged();
-        } else {
-          furnitureBuilder_.setMessage(value);
-        }
-        detailCase_ = 7;
-        return this;
-      }
-      /**
-       * <code>.Furniture furniture = 7;</code>
-       */
-      public Builder setFurniture(
-          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder builderForValue) {
-        if (furnitureBuilder_ == null) {
-          detail_ = builderForValue.build();
-          onChanged();
-        } else {
-          furnitureBuilder_.setMessage(builderForValue.build());
-        }
-        detailCase_ = 7;
-        return this;
-      }
-      /**
-       * <code>.Furniture furniture = 7;</code>
-       */
-      public Builder mergeFurniture(emu.grasscutter.net.proto.FurnitureOuterClass.Furniture value) {
-        if (furnitureBuilder_ == null) {
-          if (detailCase_ == 7 &&
-              detail_ != emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.newBuilder((emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_)
-                .mergeFrom(value).buildPartial();
-          } else {
-            detail_ = value;
-          }
-          onChanged();
-        } else {
-          if (detailCase_ == 7) {
-            furnitureBuilder_.mergeFrom(value);
-          }
-          furnitureBuilder_.setMessage(value);
-        }
-        detailCase_ = 7;
-        return this;
-      }
-      /**
-       * <code>.Furniture furniture = 7;</code>
-       */
-      public Builder clearFurniture() {
-        if (furnitureBuilder_ == null) {
-          if (detailCase_ == 7) {
-            detailCase_ = 0;
-            detail_ = null;
-            onChanged();
-          }
-        } else {
-          if (detailCase_ == 7) {
-            detailCase_ = 0;
-            detail_ = null;
-          }
-          furnitureBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>.Furniture furniture = 7;</code>
-       */
-      public emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder getFurnitureBuilder() {
-        return getFurnitureFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.Furniture furniture = 7;</code>
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder getFurnitureOrBuilder() {
-        if ((detailCase_ == 7) && (furnitureBuilder_ != null)) {
-          return furnitureBuilder_.getMessageOrBuilder();
-        } else {
-          if (detailCase_ == 7) {
-            return (emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_;
-          }
-          return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>.Furniture furniture = 7;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder> 
-          getFurnitureFieldBuilder() {
-        if (furnitureBuilder_ == null) {
-          if (!(detailCase_ == 7)) {
-            detail_ = emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
-          }
-          furnitureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder>(
-                  (emu.grasscutter.net.proto.FurnitureOuterClass.Furniture) detail_,
-                  getParentForChildren(),
-                  isClean());
-          detail_ = null;
-        }
-        detailCase_ = 7;
-        onChanged();;
-        return furnitureBuilder_;
-      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1345,29 +1803,36 @@ public final class ItemOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\nItem.proto\032\016Material.proto\032\013Equip.prot" +
-      "o\032\017Furniture.proto\"\210\001\n\004Item\022\014\n\004guid\030\002 \001(" +
-      "\004\022\017\n\007item_id\030\001 \001(\r\022\035\n\010material\030\005 \001(\0132\t.M" +
-      "aterialH\000\022\027\n\005equip\030\006 \001(\0132\006.EquipH\000\022\037\n\tfu" +
-      "rniture\030\007 \001(\0132\n.FurnitureH\000B\010\n\006detailB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "\n\nItem.proto\032\017Furniture.proto\032\016Material." +
+      "proto\032\016Facility.proto\032\024BeyondMaterial.pr" +
+      "oto\032\013Equip.proto\"\323\001\n\004Item\022\017\n\007item_id\030\001 \001" +
+      "(\r\022\014\n\004guid\030\002 \001(\004\022\037\n\tfurniture\030\007 \001(\0132\n.Fu" +
+      "rnitureH\000\022\035\n\010material\030\005 \001(\0132\t.MaterialH\000" +
+      "\022\035\n\010facility\030\t \001(\0132\t.FacilityH\000\022*\n\017beyon" +
+      "d_material\030\010 \001(\0132\017.BeyondMaterialH\000\022\027\n\005e" +
+      "quip\030\006 \001(\0132\006.EquipH\000B\010\n\006detailB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.MaterialOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.EquipOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FurnitureOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MaterialOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.FacilityOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.BeyondMaterialOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.EquipOuterClass.getDescriptor(),
         });
     internal_static_Item_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_Item_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Item_descriptor,
-        new java.lang.String[] { "Guid", "ItemId", "Material", "Equip", "Furniture", "Detail", });
-    emu.grasscutter.net.proto.MaterialOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.EquipOuterClass.getDescriptor();
+        new java.lang.String[] { "ItemId", "Guid", "Furniture", "Material", "Facility", "BeyondMaterial", "Equip", "Detail", });
     emu.grasscutter.net.proto.FurnitureOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.MaterialOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.FacilityOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.BeyondMaterialOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.EquipOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

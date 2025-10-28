@@ -19,6 +19,23 @@ public final class BossChestInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>repeated uint32 qualify_uid_list = 4;</code>
+     * @return A list containing the qualifyUidList.
+     */
+    java.util.List<java.lang.Integer> getQualifyUidListList();
+    /**
+     * <code>repeated uint32 qualify_uid_list = 4;</code>
+     * @return The count of qualifyUidList.
+     */
+    int getQualifyUidListCount();
+    /**
+     * <code>repeated uint32 qualify_uid_list = 4;</code>
+     * @param index The index of the element to return.
+     * @return The qualifyUidList at the given index.
+     */
+    int getQualifyUidList(int index);
+
+    /**
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
     int getUidDiscountMapCount();
@@ -51,23 +68,6 @@ public final class BossChestInfoOuterClass {
 
     emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getUidDiscountMapOrThrow(
         int key);
-
-    /**
-     * <code>repeated uint32 qualify_uid_list = 4;</code>
-     * @return A list containing the qualifyUidList.
-     */
-    java.util.List<java.lang.Integer> getQualifyUidListList();
-    /**
-     * <code>repeated uint32 qualify_uid_list = 4;</code>
-     * @return The count of qualifyUidList.
-     */
-    int getQualifyUidListCount();
-    /**
-     * <code>repeated uint32 qualify_uid_list = 4;</code>
-     * @param index The index of the element to return.
-     * @return The qualifyUidList at the given index.
-     */
-    int getQualifyUidList(int index);
 
     /**
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -178,9 +178,9 @@ public final class BossChestInfoOuterClass {
               break;
             }
             case 32: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 qualifyUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               qualifyUidList_.addInt(input.readUInt32());
               break;
@@ -188,9 +188,9 @@ public final class BossChestInfoOuterClass {
             case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
                 qualifyUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
                 qualifyUidList_.addInt(input.readUInt32());
@@ -199,10 +199,10 @@ public final class BossChestInfoOuterClass {
               break;
             }
             case 42: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 uidDiscountMap_ = com.google.protobuf.MapField.newMapField(
                     UidDiscountMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo>
               uidDiscountMap__ = input.readMessage(
@@ -229,7 +229,7 @@ public final class BossChestInfoOuterClass {
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           remainUidList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           qualifyUidList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
@@ -260,6 +260,34 @@ public final class BossChestInfoOuterClass {
           .ensureFieldAccessorsInitialized(
               emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.class, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder.class);
     }
+
+    public static final int QUALIFY_UID_LIST_FIELD_NUMBER = 4;
+    private com.google.protobuf.Internal.IntList qualifyUidList_;
+    /**
+     * <code>repeated uint32 qualify_uid_list = 4;</code>
+     * @return A list containing the qualifyUidList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getQualifyUidListList() {
+      return qualifyUidList_;
+    }
+    /**
+     * <code>repeated uint32 qualify_uid_list = 4;</code>
+     * @return The count of qualifyUidList.
+     */
+    public int getQualifyUidListCount() {
+      return qualifyUidList_.size();
+    }
+    /**
+     * <code>repeated uint32 qualify_uid_list = 4;</code>
+     * @param index The index of the element to return.
+     * @return The qualifyUidList at the given index.
+     */
+    public int getQualifyUidList(int index) {
+      return qualifyUidList_.getInt(index);
+    }
+    private int qualifyUidListMemoizedSerializedSize = -1;
 
     public static final int UID_DISCOUNT_MAP_FIELD_NUMBER = 5;
     private static final class UidDiscountMapDefaultEntryHolder {
@@ -341,34 +369,6 @@ public final class BossChestInfoOuterClass {
       }
       return map.get(key);
     }
-
-    public static final int QUALIFY_UID_LIST_FIELD_NUMBER = 4;
-    private com.google.protobuf.Internal.IntList qualifyUidList_;
-    /**
-     * <code>repeated uint32 qualify_uid_list = 4;</code>
-     * @return A list containing the qualifyUidList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getQualifyUidListList() {
-      return qualifyUidList_;
-    }
-    /**
-     * <code>repeated uint32 qualify_uid_list = 4;</code>
-     * @return The count of qualifyUidList.
-     */
-    public int getQualifyUidListCount() {
-      return qualifyUidList_.size();
-    }
-    /**
-     * <code>repeated uint32 qualify_uid_list = 4;</code>
-     * @param index The index of the element to return.
-     * @return The qualifyUidList at the given index.
-     */
-    public int getQualifyUidList(int index) {
-      return qualifyUidList_.getInt(index);
-    }
-    private int qualifyUidListMemoizedSerializedSize = -1;
 
     public static final int REMAIN_UID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList remainUidList_;
@@ -531,10 +531,10 @@ public final class BossChestInfoOuterClass {
       }
       emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo other = (emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) obj;
 
-      if (!internalGetUidDiscountMap().equals(
-          other.internalGetUidDiscountMap())) return false;
       if (!getQualifyUidListList()
           .equals(other.getQualifyUidListList())) return false;
+      if (!internalGetUidDiscountMap().equals(
+          other.internalGetUidDiscountMap())) return false;
       if (!getRemainUidListList()
           .equals(other.getRemainUidListList())) return false;
       if (getMonsterConfigId()
@@ -552,13 +552,13 @@ public final class BossChestInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (!internalGetUidDiscountMap().getMap().isEmpty()) {
-        hash = (37 * hash) + UID_DISCOUNT_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetUidDiscountMap().hashCode();
-      }
       if (getQualifyUidListCount() > 0) {
         hash = (37 * hash) + QUALIFY_UID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getQualifyUidListList().hashCode();
+      }
+      if (!internalGetUidDiscountMap().getMap().isEmpty()) {
+        hash = (37 * hash) + UID_DISCOUNT_MAP_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetUidDiscountMap().hashCode();
       }
       if (getRemainUidListCount() > 0) {
         hash = (37 * hash) + REMAIN_UID_LIST_FIELD_NUMBER;
@@ -723,9 +723,9 @@ public final class BossChestInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        internalGetMutableUidDiscountMap().clear();
         qualifyUidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
+        bitField0_ = (bitField0_ & ~0x00000001);
+        internalGetMutableUidDiscountMap().clear();
         remainUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         monsterConfigId_ = 0;
@@ -759,13 +759,13 @@ public final class BossChestInfoOuterClass {
       public emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo buildPartial() {
         emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo result = new emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo(this);
         int from_bitField0_ = bitField0_;
-        result.uidDiscountMap_ = internalGetUidDiscountMap();
-        result.uidDiscountMap_.makeImmutable();
-        if (((bitField0_ & 0x00000002) != 0)) {
+        if (((bitField0_ & 0x00000001) != 0)) {
           qualifyUidList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.qualifyUidList_ = qualifyUidList_;
+        result.uidDiscountMap_ = internalGetUidDiscountMap();
+        result.uidDiscountMap_.makeImmutable();
         if (((bitField0_ & 0x00000004) != 0)) {
           remainUidList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
@@ -821,18 +821,18 @@ public final class BossChestInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo other) {
         if (other == emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.getDefaultInstance()) return this;
-        internalGetMutableUidDiscountMap().mergeFrom(
-            other.internalGetUidDiscountMap());
         if (!other.qualifyUidList_.isEmpty()) {
           if (qualifyUidList_.isEmpty()) {
             qualifyUidList_ = other.qualifyUidList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           } else {
             ensureQualifyUidListIsMutable();
             qualifyUidList_.addAll(other.qualifyUidList_);
           }
           onChanged();
         }
+        internalGetMutableUidDiscountMap().mergeFrom(
+            other.internalGetUidDiscountMap());
         if (!other.remainUidList_.isEmpty()) {
           if (remainUidList_.isEmpty()) {
             remainUidList_ = other.remainUidList_;
@@ -878,6 +878,85 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       private int bitField0_;
+
+      private com.google.protobuf.Internal.IntList qualifyUidList_ = emptyIntList();
+      private void ensureQualifyUidListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          qualifyUidList_ = mutableCopy(qualifyUidList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 qualify_uid_list = 4;</code>
+       * @return A list containing the qualifyUidList.
+       */
+      public java.util.List<java.lang.Integer>
+          getQualifyUidListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(qualifyUidList_) : qualifyUidList_;
+      }
+      /**
+       * <code>repeated uint32 qualify_uid_list = 4;</code>
+       * @return The count of qualifyUidList.
+       */
+      public int getQualifyUidListCount() {
+        return qualifyUidList_.size();
+      }
+      /**
+       * <code>repeated uint32 qualify_uid_list = 4;</code>
+       * @param index The index of the element to return.
+       * @return The qualifyUidList at the given index.
+       */
+      public int getQualifyUidList(int index) {
+        return qualifyUidList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 qualify_uid_list = 4;</code>
+       * @param index The index to set the value at.
+       * @param value The qualifyUidList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setQualifyUidList(
+          int index, int value) {
+        ensureQualifyUidListIsMutable();
+        qualifyUidList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 qualify_uid_list = 4;</code>
+       * @param value The qualifyUidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addQualifyUidList(int value) {
+        ensureQualifyUidListIsMutable();
+        qualifyUidList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 qualify_uid_list = 4;</code>
+       * @param values The qualifyUidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllQualifyUidList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureQualifyUidListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, qualifyUidList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 qualify_uid_list = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearQualifyUidList() {
+        qualifyUidList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
 
       private com.google.protobuf.MapField<
           java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo> uidDiscountMap_;
@@ -1004,85 +1083,6 @@ public final class BossChestInfoOuterClass {
           java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo> values) {
         internalGetMutableUidDiscountMap().getMutableMap()
             .putAll(values);
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList qualifyUidList_ = emptyIntList();
-      private void ensureQualifyUidListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          qualifyUidList_ = mutableCopy(qualifyUidList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 qualify_uid_list = 4;</code>
-       * @return A list containing the qualifyUidList.
-       */
-      public java.util.List<java.lang.Integer>
-          getQualifyUidListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(qualifyUidList_) : qualifyUidList_;
-      }
-      /**
-       * <code>repeated uint32 qualify_uid_list = 4;</code>
-       * @return The count of qualifyUidList.
-       */
-      public int getQualifyUidListCount() {
-        return qualifyUidList_.size();
-      }
-      /**
-       * <code>repeated uint32 qualify_uid_list = 4;</code>
-       * @param index The index of the element to return.
-       * @return The qualifyUidList at the given index.
-       */
-      public int getQualifyUidList(int index) {
-        return qualifyUidList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 qualify_uid_list = 4;</code>
-       * @param index The index to set the value at.
-       * @param value The qualifyUidList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setQualifyUidList(
-          int index, int value) {
-        ensureQualifyUidListIsMutable();
-        qualifyUidList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 qualify_uid_list = 4;</code>
-       * @param value The qualifyUidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addQualifyUidList(int value) {
-        ensureQualifyUidListIsMutable();
-        qualifyUidList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 qualify_uid_list = 4;</code>
-       * @param values The qualifyUidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllQualifyUidList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureQualifyUidListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, qualifyUidList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 qualify_uid_list = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearQualifyUidList() {
-        qualifyUidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
         return this;
       }
 
@@ -1299,10 +1299,10 @@ public final class BossChestInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023BossChestInfo.proto\032!WeeklyBossResinDi" +
-      "scountInfo.proto\"\377\001\n\rBossChestInfo\022<\n\020ui" +
-      "d_discount_map\030\005 \003(\0132\".BossChestInfo.Uid" +
-      "DiscountMapEntry\022\030\n\020qualify_uid_list\030\004 \003" +
-      "(\r\022\027\n\017remain_uid_list\030\003 \003(\r\022\031\n\021monster_c" +
+      "scountInfo.proto\"\377\001\n\rBossChestInfo\022\030\n\020qu" +
+      "alify_uid_list\030\004 \003(\r\022<\n\020uid_discount_map" +
+      "\030\005 \003(\0132\".BossChestInfo.UidDiscountMapEnt" +
+      "ry\022\027\n\017remain_uid_list\030\003 \003(\r\022\031\n\021monster_c" +
       "onfig_id\030\001 \001(\r\022\r\n\005resin\030\002 \001(\r\032S\n\023UidDisc" +
       "ountMapEntry\022\013\n\003key\030\001 \001(\r\022+\n\005value\030\002 \001(\013" +
       "2\034.WeeklyBossResinDiscountInfo:\0028\001B\033\n\031em" +
@@ -1318,7 +1318,7 @@ public final class BossChestInfoOuterClass {
     internal_static_BossChestInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BossChestInfo_descriptor,
-        new java.lang.String[] { "UidDiscountMap", "QualifyUidList", "RemainUidList", "MonsterConfigId", "Resin", });
+        new java.lang.String[] { "QualifyUidList", "UidDiscountMap", "RemainUidList", "MonsterConfigId", "Resin", });
     internal_static_BossChestInfo_UidDiscountMapEntry_descriptor =
       internal_static_BossChestInfo_descriptor.getNestedTypes().get(0);
     internal_static_BossChestInfo_UidDiscountMapEntry_fieldAccessorTable = new

@@ -19,12 +19,6 @@ public final class EnterWorldAreaRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 area_id = 8;</code>
-     * @return The areaId.
-     */
-    int getAreaId();
-
-    /**
      * <code>int32 retcode = 10;</code>
      * @return The retcode.
      */
@@ -35,6 +29,12 @@ public final class EnterWorldAreaRspOuterClass {
      * @return The areaType.
      */
     int getAreaType();
+
+    /**
+     * <code>uint32 area_id = 8;</code>
+     * @return The areaId.
+     */
+    int getAreaId();
   }
   /**
    * <pre>
@@ -132,17 +132,6 @@ public final class EnterWorldAreaRspOuterClass {
               emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp.class, emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp.Builder.class);
     }
 
-    public static final int AREA_ID_FIELD_NUMBER = 8;
-    private int areaId_;
-    /**
-     * <code>uint32 area_id = 8;</code>
-     * @return The areaId.
-     */
-    @java.lang.Override
-    public int getAreaId() {
-      return areaId_;
-    }
-
     public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
     /**
@@ -163,6 +152,17 @@ public final class EnterWorldAreaRspOuterClass {
     @java.lang.Override
     public int getAreaType() {
       return areaType_;
+    }
+
+    public static final int AREA_ID_FIELD_NUMBER = 8;
+    private int areaId_;
+    /**
+     * <code>uint32 area_id = 8;</code>
+     * @return The areaId.
+     */
+    @java.lang.Override
+    public int getAreaId() {
+      return areaId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -224,12 +224,12 @@ public final class EnterWorldAreaRspOuterClass {
       }
       emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp other = (emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp) obj;
 
-      if (getAreaId()
-          != other.getAreaId()) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
       if (getAreaType()
           != other.getAreaType()) return false;
+      if (getAreaId()
+          != other.getAreaId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -241,12 +241,12 @@ public final class EnterWorldAreaRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + AREA_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getAreaId();
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
       hash = (37 * hash) + AREA_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getAreaType();
+      hash = (37 * hash) + AREA_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getAreaId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -384,11 +384,11 @@ public final class EnterWorldAreaRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        areaId_ = 0;
-
         retcode_ = 0;
 
         areaType_ = 0;
+
+        areaId_ = 0;
 
         return this;
       }
@@ -416,9 +416,9 @@ public final class EnterWorldAreaRspOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp buildPartial() {
         emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp result = new emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp(this);
-        result.areaId_ = areaId_;
         result.retcode_ = retcode_;
         result.areaType_ = areaType_;
+        result.areaId_ = areaId_;
         onBuilt();
         return result;
       }
@@ -467,14 +467,14 @@ public final class EnterWorldAreaRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp other) {
         if (other == emu.grasscutter.net.proto.EnterWorldAreaRspOuterClass.EnterWorldAreaRsp.getDefaultInstance()) return this;
-        if (other.getAreaId() != 0) {
-          setAreaId(other.getAreaId());
-        }
         if (other.getRetcode() != 0) {
           setRetcode(other.getRetcode());
         }
         if (other.getAreaType() != 0) {
           setAreaType(other.getAreaType());
+        }
+        if (other.getAreaId() != 0) {
+          setAreaId(other.getAreaId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -502,37 +502,6 @@ public final class EnterWorldAreaRspOuterClass {
             mergeFrom(parsedMessage);
           }
         }
-        return this;
-      }
-
-      private int areaId_ ;
-      /**
-       * <code>uint32 area_id = 8;</code>
-       * @return The areaId.
-       */
-      @java.lang.Override
-      public int getAreaId() {
-        return areaId_;
-      }
-      /**
-       * <code>uint32 area_id = 8;</code>
-       * @param value The areaId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAreaId(int value) {
-        
-        areaId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 area_id = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAreaId() {
-        
-        areaId_ = 0;
-        onChanged();
         return this;
       }
 
@@ -594,6 +563,37 @@ public final class EnterWorldAreaRspOuterClass {
       public Builder clearAreaType() {
         
         areaType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int areaId_ ;
+      /**
+       * <code>uint32 area_id = 8;</code>
+       * @return The areaId.
+       */
+      @java.lang.Override
+      public int getAreaId() {
+        return areaId_;
+      }
+      /**
+       * <code>uint32 area_id = 8;</code>
+       * @param value The areaId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAreaId(int value) {
+        
+        areaId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 area_id = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAreaId() {
+        
+        areaId_ = 0;
         onChanged();
         return this;
       }
@@ -665,8 +665,8 @@ public final class EnterWorldAreaRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027EnterWorldAreaRsp.proto\"H\n\021EnterWorldA" +
-      "reaRsp\022\017\n\007area_id\030\010 \001(\r\022\017\n\007retcode\030\n \001(\005" +
-      "\022\021\n\tarea_type\030\016 \001(\rB\033\n\031emu.grasscutter.n" +
+      "reaRsp\022\017\n\007retcode\030\n \001(\005\022\021\n\tarea_type\030\016 \001" +
+      "(\r\022\017\n\007area_id\030\010 \001(\rB\033\n\031emu.grasscutter.n" +
       "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -678,7 +678,7 @@ public final class EnterWorldAreaRspOuterClass {
     internal_static_EnterWorldAreaRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EnterWorldAreaRsp_descriptor,
-        new java.lang.String[] { "AreaId", "Retcode", "AreaType", });
+        new java.lang.String[] { "Retcode", "AreaType", "AreaId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

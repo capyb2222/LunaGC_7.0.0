@@ -371,7 +371,7 @@ public class ConfigContainer {
             public String content = """
                     Hi there!\r\nWelcome to LunaGC!
                     """;
-            public String sender = "Kei-Luna";
+            public String sender = "Kei-Luna and pmagixc";
             public emu.grasscutter.game.mail.Mail.MailItem[] items = {
             };
         }

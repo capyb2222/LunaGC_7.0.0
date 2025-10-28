@@ -19,6 +19,12 @@ public final class MaterialDeleteInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>bool has_delete_config = 1;</code>
+     * @return The hasDeleteConfig.
+     */
+    boolean getHasDeleteConfig();
+
+    /**
      * <code>.MaterialDeleteInfo.CountDownDelete count_down_delete = 2;</code>
      * @return Whether the countDownDelete field is set.
      */
@@ -62,12 +68,6 @@ public final class MaterialDeleteInfoOuterClass {
      * <code>.MaterialDeleteInfo.DelayWeekCountDownDelete delay_week_count_down_delete = 4;</code>
      */
     emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DelayWeekCountDownDeleteOrBuilder getDelayWeekCountDownDeleteOrBuilder();
-
-    /**
-     * <code>bool has_delete_config = 1;</code>
-     * @return The hasDeleteConfig.
-     */
-    boolean getHasDeleteConfig();
 
     public emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DeleteInfoCase getDeleteInfoCase();
   }
@@ -2412,6 +2412,17 @@ public final class MaterialDeleteInfoOuterClass {
           deleteInfoCase_);
     }
 
+    public static final int HAS_DELETE_CONFIG_FIELD_NUMBER = 1;
+    private boolean hasDeleteConfig_;
+    /**
+     * <code>bool has_delete_config = 1;</code>
+     * @return The hasDeleteConfig.
+     */
+    @java.lang.Override
+    public boolean getHasDeleteConfig() {
+      return hasDeleteConfig_;
+    }
+
     public static final int COUNT_DOWN_DELETE_FIELD_NUMBER = 2;
     /**
      * <code>.MaterialDeleteInfo.CountDownDelete count_down_delete = 2;</code>
@@ -2503,17 +2514,6 @@ public final class MaterialDeleteInfoOuterClass {
          return (emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DelayWeekCountDownDelete) deleteInfo_;
       }
       return emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.DelayWeekCountDownDelete.getDefaultInstance();
-    }
-
-    public static final int HAS_DELETE_CONFIG_FIELD_NUMBER = 1;
-    private boolean hasDeleteConfig_;
-    /**
-     * <code>bool has_delete_config = 1;</code>
-     * @return The hasDeleteConfig.
-     */
-    @java.lang.Override
-    public boolean getHasDeleteConfig() {
-      return hasDeleteConfig_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -2794,6 +2794,7 @@ public final class MaterialDeleteInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo buildPartial() {
         emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo result = new emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo(this);
+        result.hasDeleteConfig_ = hasDeleteConfig_;
         if (deleteInfoCase_ == 2) {
           if (countDownDeleteBuilder_ == null) {
             result.deleteInfo_ = deleteInfo_;
@@ -2815,7 +2816,6 @@ public final class MaterialDeleteInfoOuterClass {
             result.deleteInfo_ = delayWeekCountDownDeleteBuilder_.build();
           }
         }
-        result.hasDeleteConfig_ = hasDeleteConfig_;
         result.deleteInfoCase_ = deleteInfoCase_;
         onBuilt();
         return result;
@@ -2928,6 +2928,37 @@ public final class MaterialDeleteInfoOuterClass {
         return this;
       }
 
+
+      private boolean hasDeleteConfig_ ;
+      /**
+       * <code>bool has_delete_config = 1;</code>
+       * @return The hasDeleteConfig.
+       */
+      @java.lang.Override
+      public boolean getHasDeleteConfig() {
+        return hasDeleteConfig_;
+      }
+      /**
+       * <code>bool has_delete_config = 1;</code>
+       * @param value The hasDeleteConfig to set.
+       * @return This builder for chaining.
+       */
+      public Builder setHasDeleteConfig(boolean value) {
+        
+        hasDeleteConfig_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool has_delete_config = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearHasDeleteConfig() {
+        
+        hasDeleteConfig_ = false;
+        onChanged();
+        return this;
+      }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.CountDownDelete, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.CountDownDelete.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.CountDownDeleteOrBuilder> countDownDeleteBuilder_;
@@ -3351,37 +3382,6 @@ public final class MaterialDeleteInfoOuterClass {
         onChanged();;
         return delayWeekCountDownDeleteBuilder_;
       }
-
-      private boolean hasDeleteConfig_ ;
-      /**
-       * <code>bool has_delete_config = 1;</code>
-       * @return The hasDeleteConfig.
-       */
-      @java.lang.Override
-      public boolean getHasDeleteConfig() {
-        return hasDeleteConfig_;
-      }
-      /**
-       * <code>bool has_delete_config = 1;</code>
-       * @param value The hasDeleteConfig to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHasDeleteConfig(boolean value) {
-        
-        hasDeleteConfig_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool has_delete_config = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHasDeleteConfig() {
-        
-        hasDeleteConfig_ = false;
-        onChanged();
-        return this;
-      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -3475,13 +3475,13 @@ public final class MaterialDeleteInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030MaterialDeleteInfo.proto\"\357\005\n\022MaterialD" +
-      "eleteInfo\022@\n\021count_down_delete\030\002 \001(\0132#.M" +
-      "aterialDeleteInfo.CountDownDeleteH\000\0229\n\013d" +
-      "ate_delete\030\003 \001(\0132\".MaterialDeleteInfo.Da" +
-      "teTimeDeleteH\000\022T\n\034delay_week_count_down_" +
-      "delete\030\004 \001(\0132,.MaterialDeleteInfo.DelayW" +
-      "eekCountDownDeleteH\000\022\031\n\021has_delete_confi" +
-      "g\030\001 \001(\010\032\302\001\n\017CountDownDelete\022V\n\023delete_ti" +
+      "eleteInfo\022\031\n\021has_delete_config\030\001 \001(\010\022@\n\021" +
+      "count_down_delete\030\002 \001(\0132#.MaterialDelete" +
+      "Info.CountDownDeleteH\000\0229\n\013date_delete\030\003 " +
+      "\001(\0132\".MaterialDeleteInfo.DateTimeDeleteH" +
+      "\000\022T\n\034delay_week_count_down_delete\030\004 \001(\0132" +
+      ",.MaterialDeleteInfo.DelayWeekCountDownD" +
+      "eleteH\000\032\302\001\n\017CountDownDelete\022V\n\023delete_ti" +
       "me_num_map\030\001 \003(\01329.MaterialDeleteInfo.Co" +
       "untDownDelete.DeleteTimeNumMapEntry\022\036\n\026c" +
       "onfig_count_down_time\030\002 \001(\r\0327\n\025DeleteTim" +
@@ -3505,7 +3505,7 @@ public final class MaterialDeleteInfoOuterClass {
     internal_static_MaterialDeleteInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MaterialDeleteInfo_descriptor,
-        new java.lang.String[] { "CountDownDelete", "DateDelete", "DelayWeekCountDownDelete", "HasDeleteConfig", "DeleteInfo", });
+        new java.lang.String[] { "HasDeleteConfig", "CountDownDelete", "DateDelete", "DelayWeekCountDownDelete", "DeleteInfo", });
     internal_static_MaterialDeleteInfo_CountDownDelete_descriptor =
       internal_static_MaterialDeleteInfo_descriptor.getNestedTypes().get(0);
     internal_static_MaterialDeleteInfo_CountDownDelete_fieldAccessorTable = new

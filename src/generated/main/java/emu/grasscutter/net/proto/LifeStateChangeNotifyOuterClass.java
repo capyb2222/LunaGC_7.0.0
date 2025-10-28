@@ -19,6 +19,18 @@ public final class LifeStateChangeNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>string attack_tag = 3;</code>
+     * @return The attackTag.
+     */
+    java.lang.String getAttackTag();
+    /**
+     * <code>string attack_tag = 3;</code>
+     * @return The bytes for attackTag.
+     */
+    com.google.protobuf.ByteString
+        getAttackTagBytes();
+
+    /**
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> 
@@ -43,22 +55,47 @@ public final class LifeStateChangeNotifyOuterClass {
         int index);
 
     /**
-     * <code>string attack_tag = 3;</code>
-     * @return The attackTag.
+     * <code>repeated string PLDDNPGHHBH = 4;</code>
+     * @return A list containing the pLDDNPGHHBH.
      */
-    java.lang.String getAttackTag();
+    java.util.List<java.lang.String>
+        getPLDDNPGHHBHList();
     /**
-     * <code>string attack_tag = 3;</code>
-     * @return The bytes for attackTag.
+     * <code>repeated string PLDDNPGHHBH = 4;</code>
+     * @return The count of pLDDNPGHHBH.
+     */
+    int getPLDDNPGHHBHCount();
+    /**
+     * <code>repeated string PLDDNPGHHBH = 4;</code>
+     * @param index The index of the element to return.
+     * @return The pLDDNPGHHBH at the given index.
+     */
+    java.lang.String getPLDDNPGHHBH(int index);
+    /**
+     * <code>repeated string PLDDNPGHHBH = 4;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the pLDDNPGHHBH at the given index.
      */
     com.google.protobuf.ByteString
-        getAttackTagBytes();
+        getPLDDNPGHHBHBytes(int index);
 
     /**
      * <code>uint32 entity_id = 13;</code>
      * @return The entityId.
      */
     int getEntityId();
+
+    /**
+     * <code>uint32 PMJIKEBBDDP = 12;</code>
+     * @return The pMJIKEBBDDP.
+     */
+    int getPMJIKEBBDDP();
+
+    /**
+     * <code>uint32 JEPLCGMGMDP = 8;</code>
+     * @return The jEPLCGMGMDP.
+     */
+    int getJEPLCGMGMDP();
 
     /**
      * <code>uint32 move_reliable_seq = 10;</code>
@@ -106,8 +143,9 @@ public final class LifeStateChangeNotifyOuterClass {
       super(builder);
     }
     private LifeStateChangeNotify() {
-      serverBuffList_ = java.util.Collections.emptyList();
       attackTag_ = "";
+      serverBuffList_ = java.util.Collections.emptyList();
+      pLDDNPGHHBH_ = com.google.protobuf.LazyStringArrayList.EMPTY;
       dieType_ = 0;
     }
 
@@ -157,10 +195,24 @@ public final class LifeStateChangeNotifyOuterClass {
               attackTag_ = s;
               break;
             }
+            case 34: {
+              java.lang.String s = input.readStringRequireUtf8();
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                pLDDNPGHHBH_ = new com.google.protobuf.LazyStringArrayList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              pLDDNPGHHBH_.add(s);
+              break;
+            }
             case 40: {
               int rawValue = input.readEnum();
 
               dieType_ = rawValue;
+              break;
+            }
+            case 64: {
+
+              jEPLCGMGMDP_ = input.readUInt32();
               break;
             }
             case 72: {
@@ -171,6 +223,11 @@ public final class LifeStateChangeNotifyOuterClass {
             case 80: {
 
               moveReliableSeq_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+
+              pMJIKEBBDDP_ = input.readUInt32();
               break;
             }
             case 104: {
@@ -201,6 +258,9 @@ public final class LifeStateChangeNotifyOuterClass {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           serverBuffList_ = java.util.Collections.unmodifiableList(serverBuffList_);
         }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          pLDDNPGHHBH_ = pLDDNPGHHBH_.getUnmodifiableView();
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -216,6 +276,44 @@ public final class LifeStateChangeNotifyOuterClass {
       return emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.internal_static_LifeStateChangeNotify_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify.class, emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify.Builder.class);
+    }
+
+    public static final int ATTACK_TAG_FIELD_NUMBER = 3;
+    private volatile java.lang.Object attackTag_;
+    /**
+     * <code>string attack_tag = 3;</code>
+     * @return The attackTag.
+     */
+    @java.lang.Override
+    public java.lang.String getAttackTag() {
+      java.lang.Object ref = attackTag_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        attackTag_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>string attack_tag = 3;</code>
+     * @return The bytes for attackTag.
+     */
+    @java.lang.Override
+    public com.google.protobuf.ByteString
+        getAttackTagBytes() {
+      java.lang.Object ref = attackTag_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        attackTag_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
     }
 
     public static final int SERVER_BUFF_LIST_FIELD_NUMBER = 1;
@@ -258,42 +356,39 @@ public final class LifeStateChangeNotifyOuterClass {
       return serverBuffList_.get(index);
     }
 
-    public static final int ATTACK_TAG_FIELD_NUMBER = 3;
-    private volatile java.lang.Object attackTag_;
+    public static final int PLDDNPGHHBH_FIELD_NUMBER = 4;
+    private com.google.protobuf.LazyStringList pLDDNPGHHBH_;
     /**
-     * <code>string attack_tag = 3;</code>
-     * @return The attackTag.
+     * <code>repeated string PLDDNPGHHBH = 4;</code>
+     * @return A list containing the pLDDNPGHHBH.
      */
-    @java.lang.Override
-    public java.lang.String getAttackTag() {
-      java.lang.Object ref = attackTag_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        attackTag_ = s;
-        return s;
-      }
+    public com.google.protobuf.ProtocolStringList
+        getPLDDNPGHHBHList() {
+      return pLDDNPGHHBH_;
     }
     /**
-     * <code>string attack_tag = 3;</code>
-     * @return The bytes for attackTag.
+     * <code>repeated string PLDDNPGHHBH = 4;</code>
+     * @return The count of pLDDNPGHHBH.
      */
-    @java.lang.Override
+    public int getPLDDNPGHHBHCount() {
+      return pLDDNPGHHBH_.size();
+    }
+    /**
+     * <code>repeated string PLDDNPGHHBH = 4;</code>
+     * @param index The index of the element to return.
+     * @return The pLDDNPGHHBH at the given index.
+     */
+    public java.lang.String getPLDDNPGHHBH(int index) {
+      return pLDDNPGHHBH_.get(index);
+    }
+    /**
+     * <code>repeated string PLDDNPGHHBH = 4;</code>
+     * @param index The index of the value to return.
+     * @return The bytes of the pLDDNPGHHBH at the given index.
+     */
     public com.google.protobuf.ByteString
-        getAttackTagBytes() {
-      java.lang.Object ref = attackTag_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        attackTag_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+        getPLDDNPGHHBHBytes(int index) {
+      return pLDDNPGHHBH_.getByteString(index);
     }
 
     public static final int ENTITY_ID_FIELD_NUMBER = 13;
@@ -305,6 +400,28 @@ public final class LifeStateChangeNotifyOuterClass {
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
+    }
+
+    public static final int PMJIKEBBDDP_FIELD_NUMBER = 12;
+    private int pMJIKEBBDDP_;
+    /**
+     * <code>uint32 PMJIKEBBDDP = 12;</code>
+     * @return The pMJIKEBBDDP.
+     */
+    @java.lang.Override
+    public int getPMJIKEBBDDP() {
+      return pMJIKEBBDDP_;
+    }
+
+    public static final int JEPLCGMGMDP_FIELD_NUMBER = 8;
+    private int jEPLCGMGMDP_;
+    /**
+     * <code>uint32 JEPLCGMGMDP = 8;</code>
+     * @return The jEPLCGMGMDP.
+     */
+    @java.lang.Override
+    public int getJEPLCGMGMDP() {
+      return jEPLCGMGMDP_;
     }
 
     public static final int MOVE_RELIABLE_SEQ_FIELD_NUMBER = 10;
@@ -379,14 +496,23 @@ public final class LifeStateChangeNotifyOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(attackTag_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 3, attackTag_);
       }
+      for (int i = 0; i < pLDDNPGHHBH_.size(); i++) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, pLDDNPGHHBH_.getRaw(i));
+      }
       if (dieType_ != emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType.PLAYER_DIE_TYPE_NONE.getNumber()) {
         output.writeEnum(5, dieType_);
+      }
+      if (jEPLCGMGMDP_ != 0) {
+        output.writeUInt32(8, jEPLCGMGMDP_);
       }
       if (sourceEntityId_ != 0) {
         output.writeUInt32(9, sourceEntityId_);
       }
       if (moveReliableSeq_ != 0) {
         output.writeUInt32(10, moveReliableSeq_);
+      }
+      if (pMJIKEBBDDP_ != 0) {
+        output.writeUInt32(12, pMJIKEBBDDP_);
       }
       if (entityId_ != 0) {
         output.writeUInt32(13, entityId_);
@@ -410,9 +536,21 @@ public final class LifeStateChangeNotifyOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(attackTag_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, attackTag_);
       }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < pLDDNPGHHBH_.size(); i++) {
+          dataSize += computeStringSizeNoTag(pLDDNPGHHBH_.getRaw(i));
+        }
+        size += dataSize;
+        size += 1 * getPLDDNPGHHBHList().size();
+      }
       if (dieType_ != emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType.PLAYER_DIE_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(5, dieType_);
+      }
+      if (jEPLCGMGMDP_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, jEPLCGMGMDP_);
       }
       if (sourceEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -421,6 +559,10 @@ public final class LifeStateChangeNotifyOuterClass {
       if (moveReliableSeq_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, moveReliableSeq_);
+      }
+      if (pMJIKEBBDDP_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, pMJIKEBBDDP_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -445,12 +587,18 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify other = (emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify) obj;
 
-      if (!getServerBuffListList()
-          .equals(other.getServerBuffListList())) return false;
       if (!getAttackTag()
           .equals(other.getAttackTag())) return false;
+      if (!getServerBuffListList()
+          .equals(other.getServerBuffListList())) return false;
+      if (!getPLDDNPGHHBHList()
+          .equals(other.getPLDDNPGHHBHList())) return false;
       if (getEntityId()
           != other.getEntityId()) return false;
+      if (getPMJIKEBBDDP()
+          != other.getPMJIKEBBDDP()) return false;
+      if (getJEPLCGMGMDP()
+          != other.getJEPLCGMGMDP()) return false;
       if (getMoveReliableSeq()
           != other.getMoveReliableSeq()) return false;
       if (getLifeState()
@@ -469,14 +617,22 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + ATTACK_TAG_FIELD_NUMBER;
+      hash = (53 * hash) + getAttackTag().hashCode();
       if (getServerBuffListCount() > 0) {
         hash = (37 * hash) + SERVER_BUFF_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getServerBuffListList().hashCode();
       }
-      hash = (37 * hash) + ATTACK_TAG_FIELD_NUMBER;
-      hash = (53 * hash) + getAttackTag().hashCode();
+      if (getPLDDNPGHHBHCount() > 0) {
+        hash = (37 * hash) + PLDDNPGHHBH_FIELD_NUMBER;
+        hash = (53 * hash) + getPLDDNPGHHBHList().hashCode();
+      }
       hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getEntityId();
+      hash = (37 * hash) + PMJIKEBBDDP_FIELD_NUMBER;
+      hash = (53 * hash) + getPMJIKEBBDDP();
+      hash = (37 * hash) + JEPLCGMGMDP_FIELD_NUMBER;
+      hash = (53 * hash) + getJEPLCGMGMDP();
       hash = (37 * hash) + MOVE_RELIABLE_SEQ_FIELD_NUMBER;
       hash = (53 * hash) + getMoveReliableSeq();
       hash = (37 * hash) + LIFE_STATE_FIELD_NUMBER;
@@ -623,15 +779,21 @@ public final class LifeStateChangeNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        attackTag_ = "";
+
         if (serverBuffListBuilder_ == null) {
           serverBuffList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           serverBuffListBuilder_.clear();
         }
-        attackTag_ = "";
-
+        pLDDNPGHHBH_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        bitField0_ = (bitField0_ & ~0x00000002);
         entityId_ = 0;
+
+        pMJIKEBBDDP_ = 0;
+
+        jEPLCGMGMDP_ = 0;
 
         moveReliableSeq_ = 0;
 
@@ -668,6 +830,7 @@ public final class LifeStateChangeNotifyOuterClass {
       public emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify buildPartial() {
         emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify result = new emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify(this);
         int from_bitField0_ = bitField0_;
+        result.attackTag_ = attackTag_;
         if (serverBuffListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             serverBuffList_ = java.util.Collections.unmodifiableList(serverBuffList_);
@@ -677,8 +840,14 @@ public final class LifeStateChangeNotifyOuterClass {
         } else {
           result.serverBuffList_ = serverBuffListBuilder_.build();
         }
-        result.attackTag_ = attackTag_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          pLDDNPGHHBH_ = pLDDNPGHHBH_.getUnmodifiableView();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.pLDDNPGHHBH_ = pLDDNPGHHBH_;
         result.entityId_ = entityId_;
+        result.pMJIKEBBDDP_ = pMJIKEBBDDP_;
+        result.jEPLCGMGMDP_ = jEPLCGMGMDP_;
         result.moveReliableSeq_ = moveReliableSeq_;
         result.lifeState_ = lifeState_;
         result.sourceEntityId_ = sourceEntityId_;
@@ -731,6 +900,10 @@ public final class LifeStateChangeNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify other) {
         if (other == emu.grasscutter.net.proto.LifeStateChangeNotifyOuterClass.LifeStateChangeNotify.getDefaultInstance()) return this;
+        if (!other.getAttackTag().isEmpty()) {
+          attackTag_ = other.attackTag_;
+          onChanged();
+        }
         if (serverBuffListBuilder_ == null) {
           if (!other.serverBuffList_.isEmpty()) {
             if (serverBuffList_.isEmpty()) {
@@ -757,12 +930,24 @@ public final class LifeStateChangeNotifyOuterClass {
             }
           }
         }
-        if (!other.getAttackTag().isEmpty()) {
-          attackTag_ = other.attackTag_;
+        if (!other.pLDDNPGHHBH_.isEmpty()) {
+          if (pLDDNPGHHBH_.isEmpty()) {
+            pLDDNPGHHBH_ = other.pLDDNPGHHBH_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensurePLDDNPGHHBHIsMutable();
+            pLDDNPGHHBH_.addAll(other.pLDDNPGHHBH_);
+          }
           onChanged();
         }
         if (other.getEntityId() != 0) {
           setEntityId(other.getEntityId());
+        }
+        if (other.getPMJIKEBBDDP() != 0) {
+          setPMJIKEBBDDP(other.getPMJIKEBBDDP());
+        }
+        if (other.getJEPLCGMGMDP() != 0) {
+          setJEPLCGMGMDP(other.getJEPLCGMGMDP());
         }
         if (other.getMoveReliableSeq() != 0) {
           setMoveReliableSeq(other.getMoveReliableSeq());
@@ -805,6 +990,82 @@ public final class LifeStateChangeNotifyOuterClass {
         return this;
       }
       private int bitField0_;
+
+      private java.lang.Object attackTag_ = "";
+      /**
+       * <code>string attack_tag = 3;</code>
+       * @return The attackTag.
+       */
+      public java.lang.String getAttackTag() {
+        java.lang.Object ref = attackTag_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          attackTag_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>string attack_tag = 3;</code>
+       * @return The bytes for attackTag.
+       */
+      public com.google.protobuf.ByteString
+          getAttackTagBytes() {
+        java.lang.Object ref = attackTag_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          attackTag_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string attack_tag = 3;</code>
+       * @param value The attackTag to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAttackTag(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        attackTag_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string attack_tag = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAttackTag() {
+        
+        attackTag_ = getDefaultInstance().getAttackTag();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string attack_tag = 3;</code>
+       * @param value The bytes for attackTag to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAttackTagBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        attackTag_ = value;
+        onChanged();
+        return this;
+      }
 
       private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_ =
         java.util.Collections.emptyList();
@@ -1046,78 +1307,112 @@ public final class LifeStateChangeNotifyOuterClass {
         return serverBuffListBuilder_;
       }
 
-      private java.lang.Object attackTag_ = "";
-      /**
-       * <code>string attack_tag = 3;</code>
-       * @return The attackTag.
-       */
-      public java.lang.String getAttackTag() {
-        java.lang.Object ref = attackTag_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          attackTag_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
+      private com.google.protobuf.LazyStringList pLDDNPGHHBH_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      private void ensurePLDDNPGHHBHIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          pLDDNPGHHBH_ = new com.google.protobuf.LazyStringArrayList(pLDDNPGHHBH_);
+          bitField0_ |= 0x00000002;
+         }
       }
       /**
-       * <code>string attack_tag = 3;</code>
-       * @return The bytes for attackTag.
+       * <code>repeated string PLDDNPGHHBH = 4;</code>
+       * @return A list containing the pLDDNPGHHBH.
+       */
+      public com.google.protobuf.ProtocolStringList
+          getPLDDNPGHHBHList() {
+        return pLDDNPGHHBH_.getUnmodifiableView();
+      }
+      /**
+       * <code>repeated string PLDDNPGHHBH = 4;</code>
+       * @return The count of pLDDNPGHHBH.
+       */
+      public int getPLDDNPGHHBHCount() {
+        return pLDDNPGHHBH_.size();
+      }
+      /**
+       * <code>repeated string PLDDNPGHHBH = 4;</code>
+       * @param index The index of the element to return.
+       * @return The pLDDNPGHHBH at the given index.
+       */
+      public java.lang.String getPLDDNPGHHBH(int index) {
+        return pLDDNPGHHBH_.get(index);
+      }
+      /**
+       * <code>repeated string PLDDNPGHHBH = 4;</code>
+       * @param index The index of the value to return.
+       * @return The bytes of the pLDDNPGHHBH at the given index.
        */
       public com.google.protobuf.ByteString
-          getAttackTagBytes() {
-        java.lang.Object ref = attackTag_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          attackTag_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
+          getPLDDNPGHHBHBytes(int index) {
+        return pLDDNPGHHBH_.getByteString(index);
       }
       /**
-       * <code>string attack_tag = 3;</code>
-       * @param value The attackTag to set.
+       * <code>repeated string PLDDNPGHHBH = 4;</code>
+       * @param index The index to set the value at.
+       * @param value The pLDDNPGHHBH to set.
        * @return This builder for chaining.
        */
-      public Builder setAttackTag(
+      public Builder setPLDDNPGHHBH(
+          int index, java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  ensurePLDDNPGHHBHIsMutable();
+        pLDDNPGHHBH_.set(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string PLDDNPGHHBH = 4;</code>
+       * @param value The pLDDNPGHHBH to add.
+       * @return This builder for chaining.
+       */
+      public Builder addPLDDNPGHHBH(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
-        attackTag_ = value;
+  ensurePLDDNPGHHBHIsMutable();
+        pLDDNPGHHBH_.add(value);
         onChanged();
         return this;
       }
       /**
-       * <code>string attack_tag = 3;</code>
+       * <code>repeated string PLDDNPGHHBH = 4;</code>
+       * @param values The pLDDNPGHHBH to add.
        * @return This builder for chaining.
        */
-      public Builder clearAttackTag() {
-        
-        attackTag_ = getDefaultInstance().getAttackTag();
+      public Builder addAllPLDDNPGHHBH(
+          java.lang.Iterable<java.lang.String> values) {
+        ensurePLDDNPGHHBHIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, pLDDNPGHHBH_);
         onChanged();
         return this;
       }
       /**
-       * <code>string attack_tag = 3;</code>
-       * @param value The bytes for attackTag to set.
+       * <code>repeated string PLDDNPGHHBH = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder setAttackTagBytes(
+      public Builder clearPLDDNPGHHBH() {
+        pLDDNPGHHBH_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated string PLDDNPGHHBH = 4;</code>
+       * @param value The bytes of the pLDDNPGHHBH to add.
+       * @return This builder for chaining.
+       */
+      public Builder addPLDDNPGHHBHBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
-        attackTag_ = value;
+        ensurePLDDNPGHHBHIsMutable();
+        pLDDNPGHHBH_.add(value);
         onChanged();
         return this;
       }
@@ -1149,6 +1444,68 @@ public final class LifeStateChangeNotifyOuterClass {
       public Builder clearEntityId() {
         
         entityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int pMJIKEBBDDP_ ;
+      /**
+       * <code>uint32 PMJIKEBBDDP = 12;</code>
+       * @return The pMJIKEBBDDP.
+       */
+      @java.lang.Override
+      public int getPMJIKEBBDDP() {
+        return pMJIKEBBDDP_;
+      }
+      /**
+       * <code>uint32 PMJIKEBBDDP = 12;</code>
+       * @param value The pMJIKEBBDDP to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPMJIKEBBDDP(int value) {
+        
+        pMJIKEBBDDP_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 PMJIKEBBDDP = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPMJIKEBBDDP() {
+        
+        pMJIKEBBDDP_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int jEPLCGMGMDP_ ;
+      /**
+       * <code>uint32 JEPLCGMGMDP = 8;</code>
+       * @return The jEPLCGMGMDP.
+       */
+      @java.lang.Override
+      public int getJEPLCGMGMDP() {
+        return jEPLCGMGMDP_;
+      }
+      /**
+       * <code>uint32 JEPLCGMGMDP = 8;</code>
+       * @param value The jEPLCGMGMDP to set.
+       * @return This builder for chaining.
+       */
+      public Builder setJEPLCGMGMDP(int value) {
+        
+        jEPLCGMGMDP_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 JEPLCGMGMDP = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearJEPLCGMGMDP() {
+        
+        jEPLCGMGMDP_ = 0;
         onChanged();
         return this;
       }
@@ -1367,13 +1724,15 @@ public final class LifeStateChangeNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033LifeStateChangeNotify.proto\032\020ServerBuf" +
-      "f.proto\032\023PlayerDieType.proto\"\320\001\n\025LifeSta" +
-      "teChangeNotify\022%\n\020server_buff_list\030\001 \003(\013" +
-      "2\013.ServerBuff\022\022\n\nattack_tag\030\003 \001(\t\022\021\n\tent" +
-      "ity_id\030\r \001(\r\022\031\n\021move_reliable_seq\030\n \001(\r\022" +
-      "\022\n\nlife_state\030\017 \001(\r\022\030\n\020source_entity_id\030" +
-      "\t \001(\r\022 \n\010die_type\030\005 \001(\0162\016.PlayerDieTypeB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "f.proto\032\023PlayerDieType.proto\"\217\002\n\025LifeSta" +
+      "teChangeNotify\022\022\n\nattack_tag\030\003 \001(\t\022%\n\020se" +
+      "rver_buff_list\030\001 \003(\0132\013.ServerBuff\022\023\n\013PLD" +
+      "DNPGHHBH\030\004 \003(\t\022\021\n\tentity_id\030\r \001(\r\022\023\n\013PMJ" +
+      "IKEBBDDP\030\014 \001(\r\022\023\n\013JEPLCGMGMDP\030\010 \001(\r\022\031\n\021m" +
+      "ove_reliable_seq\030\n \001(\r\022\022\n\nlife_state\030\017 \001" +
+      "(\r\022\030\n\020source_entity_id\030\t \001(\r\022 \n\010die_type" +
+      "\030\005 \001(\0162\016.PlayerDieTypeB\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1386,7 +1745,7 @@ public final class LifeStateChangeNotifyOuterClass {
     internal_static_LifeStateChangeNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_LifeStateChangeNotify_descriptor,
-        new java.lang.String[] { "ServerBuffList", "AttackTag", "EntityId", "MoveReliableSeq", "LifeState", "SourceEntityId", "DieType", });
+        new java.lang.String[] { "AttackTag", "ServerBuffList", "PLDDNPGHHBH", "EntityId", "PMJIKEBBDDP", "JEPLCGMGMDP", "MoveReliableSeq", "LifeState", "SourceEntityId", "DieType", });
     emu.grasscutter.net.proto.ServerBuffOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PlayerDieTypeOuterClass.getDescriptor();
   }

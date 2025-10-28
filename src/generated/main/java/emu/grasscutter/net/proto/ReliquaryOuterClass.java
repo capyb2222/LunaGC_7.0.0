@@ -36,22 +36,38 @@ public final class ReliquaryOuterClass {
     int getAppendPropIdList(int index);
 
     /**
-     * <code>uint32 promote_level = 3;</code>
-     * @return The promoteLevel.
+     * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+     * @return A list containing the oLODHOBPEPI.
      */
-    int getPromoteLevel();
+    java.util.List<java.lang.Integer> getOLODHOBPEPIList();
+    /**
+     * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+     * @return The count of oLODHOBPEPI.
+     */
+    int getOLODHOBPEPICount();
+    /**
+     * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+     * @param index The index of the element to return.
+     * @return The oLODHOBPEPI at the given index.
+     */
+    int getOLODHOBPEPI(int index);
 
     /**
-     * <code>uint32 level = 1;</code>
-     * @return The level.
+     * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+     * @return A list containing the oIDDEKJANHC.
      */
-    int getLevel();
-
+    java.util.List<java.lang.Integer> getOIDDEKJANHCList();
     /**
-     * <code>uint32 main_prop_id = 4;</code>
-     * @return The mainPropId.
+     * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+     * @return The count of oIDDEKJANHC.
      */
-    int getMainPropId();
+    int getOIDDEKJANHCCount();
+    /**
+     * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+     * @param index The index of the element to return.
+     * @return The oIDDEKJANHC at the given index.
+     */
+    int getOIDDEKJANHC(int index);
 
     /**
      * <code>uint32 exp = 2;</code>
@@ -60,10 +76,28 @@ public final class ReliquaryOuterClass {
     int getExp();
 
     /**
-     * <code>bool GPPMHJLMIIF = 6;</code>
-     * @return The gPPMHJLMIIF.
+     * <code>uint32 level = 1;</code>
+     * @return The level.
      */
-    boolean getGPPMHJLMIIF();
+    int getLevel();
+
+    /**
+     * <code>uint32 promote_level = 3;</code>
+     * @return The promoteLevel.
+     */
+    int getPromoteLevel();
+
+    /**
+     * <code>uint32 main_prop_id = 4;</code>
+     * @return The mainPropId.
+     */
+    int getMainPropId();
+
+    /**
+     * <code>bool is_favourite = 6;</code>
+     * @return The isFavourite.
+     */
+    boolean getIsFavourite();
   }
   /**
    * Protobuf type {@code Reliquary}
@@ -79,6 +113,8 @@ public final class ReliquaryOuterClass {
     }
     private Reliquary() {
       appendPropIdList_ = emptyIntList();
+      oLODHOBPEPI_ = emptyIntList();
+      oIDDEKJANHC_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -155,7 +191,49 @@ public final class ReliquaryOuterClass {
             }
             case 48: {
 
-              gPPMHJLMIIF_ = input.readBool();
+              isFavourite_ = input.readBool();
+              break;
+            }
+            case 56: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                oIDDEKJANHC_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              oIDDEKJANHC_.addInt(input.readUInt32());
+              break;
+            }
+            case 58: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
+                oIDDEKJANHC_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                oIDDEKJANHC_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 64: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                oLODHOBPEPI_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              oLODHOBPEPI_.addInt(input.readUInt32());
+              break;
+            }
+            case 66: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                oLODHOBPEPI_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                oLODHOBPEPI_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
               break;
             }
             default: {
@@ -175,6 +253,12 @@ public final class ReliquaryOuterClass {
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           appendPropIdList_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          oIDDEKJANHC_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          oLODHOBPEPI_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -221,15 +305,71 @@ public final class ReliquaryOuterClass {
     }
     private int appendPropIdListMemoizedSerializedSize = -1;
 
-    public static final int PROMOTE_LEVEL_FIELD_NUMBER = 3;
-    private int promoteLevel_;
+    public static final int OLODHOBPEPI_FIELD_NUMBER = 8;
+    private com.google.protobuf.Internal.IntList oLODHOBPEPI_;
     /**
-     * <code>uint32 promote_level = 3;</code>
-     * @return The promoteLevel.
+     * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+     * @return A list containing the oLODHOBPEPI.
      */
     @java.lang.Override
-    public int getPromoteLevel() {
-      return promoteLevel_;
+    public java.util.List<java.lang.Integer>
+        getOLODHOBPEPIList() {
+      return oLODHOBPEPI_;
+    }
+    /**
+     * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+     * @return The count of oLODHOBPEPI.
+     */
+    public int getOLODHOBPEPICount() {
+      return oLODHOBPEPI_.size();
+    }
+    /**
+     * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+     * @param index The index of the element to return.
+     * @return The oLODHOBPEPI at the given index.
+     */
+    public int getOLODHOBPEPI(int index) {
+      return oLODHOBPEPI_.getInt(index);
+    }
+    private int oLODHOBPEPIMemoizedSerializedSize = -1;
+
+    public static final int OIDDEKJANHC_FIELD_NUMBER = 7;
+    private com.google.protobuf.Internal.IntList oIDDEKJANHC_;
+    /**
+     * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+     * @return A list containing the oIDDEKJANHC.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getOIDDEKJANHCList() {
+      return oIDDEKJANHC_;
+    }
+    /**
+     * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+     * @return The count of oIDDEKJANHC.
+     */
+    public int getOIDDEKJANHCCount() {
+      return oIDDEKJANHC_.size();
+    }
+    /**
+     * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+     * @param index The index of the element to return.
+     * @return The oIDDEKJANHC at the given index.
+     */
+    public int getOIDDEKJANHC(int index) {
+      return oIDDEKJANHC_.getInt(index);
+    }
+    private int oIDDEKJANHCMemoizedSerializedSize = -1;
+
+    public static final int EXP_FIELD_NUMBER = 2;
+    private int exp_;
+    /**
+     * <code>uint32 exp = 2;</code>
+     * @return The exp.
+     */
+    @java.lang.Override
+    public int getExp() {
+      return exp_;
     }
 
     public static final int LEVEL_FIELD_NUMBER = 1;
@@ -243,6 +383,17 @@ public final class ReliquaryOuterClass {
       return level_;
     }
 
+    public static final int PROMOTE_LEVEL_FIELD_NUMBER = 3;
+    private int promoteLevel_;
+    /**
+     * <code>uint32 promote_level = 3;</code>
+     * @return The promoteLevel.
+     */
+    @java.lang.Override
+    public int getPromoteLevel() {
+      return promoteLevel_;
+    }
+
     public static final int MAIN_PROP_ID_FIELD_NUMBER = 4;
     private int mainPropId_;
     /**
@@ -254,26 +405,15 @@ public final class ReliquaryOuterClass {
       return mainPropId_;
     }
 
-    public static final int EXP_FIELD_NUMBER = 2;
-    private int exp_;
+    public static final int IS_FAVOURITE_FIELD_NUMBER = 6;
+    private boolean isFavourite_;
     /**
-     * <code>uint32 exp = 2;</code>
-     * @return The exp.
+     * <code>bool is_favourite = 6;</code>
+     * @return The isFavourite.
      */
     @java.lang.Override
-    public int getExp() {
-      return exp_;
-    }
-
-    public static final int GPPMHJLMIIF_FIELD_NUMBER = 6;
-    private boolean gPPMHJLMIIF_;
-    /**
-     * <code>bool GPPMHJLMIIF = 6;</code>
-     * @return The gPPMHJLMIIF.
-     */
-    @java.lang.Override
-    public boolean getGPPMHJLMIIF() {
-      return gPPMHJLMIIF_;
+    public boolean getIsFavourite() {
+      return isFavourite_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -310,8 +450,22 @@ public final class ReliquaryOuterClass {
       for (int i = 0; i < appendPropIdList_.size(); i++) {
         output.writeUInt32NoTag(appendPropIdList_.getInt(i));
       }
-      if (gPPMHJLMIIF_ != false) {
-        output.writeBool(6, gPPMHJLMIIF_);
+      if (isFavourite_ != false) {
+        output.writeBool(6, isFavourite_);
+      }
+      if (getOIDDEKJANHCList().size() > 0) {
+        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(oIDDEKJANHCMemoizedSerializedSize);
+      }
+      for (int i = 0; i < oIDDEKJANHC_.size(); i++) {
+        output.writeUInt32NoTag(oIDDEKJANHC_.getInt(i));
+      }
+      if (getOLODHOBPEPIList().size() > 0) {
+        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(oLODHOBPEPIMemoizedSerializedSize);
+      }
+      for (int i = 0; i < oLODHOBPEPI_.size(); i++) {
+        output.writeUInt32NoTag(oLODHOBPEPI_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -352,9 +506,37 @@ public final class ReliquaryOuterClass {
         }
         appendPropIdListMemoizedSerializedSize = dataSize;
       }
-      if (gPPMHJLMIIF_ != false) {
+      if (isFavourite_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, gPPMHJLMIIF_);
+          .computeBoolSize(6, isFavourite_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < oIDDEKJANHC_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(oIDDEKJANHC_.getInt(i));
+        }
+        size += dataSize;
+        if (!getOIDDEKJANHCList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        oIDDEKJANHCMemoizedSerializedSize = dataSize;
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < oLODHOBPEPI_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(oLODHOBPEPI_.getInt(i));
+        }
+        size += dataSize;
+        if (!getOLODHOBPEPIList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        oLODHOBPEPIMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -373,16 +555,20 @@ public final class ReliquaryOuterClass {
 
       if (!getAppendPropIdListList()
           .equals(other.getAppendPropIdListList())) return false;
-      if (getPromoteLevel()
-          != other.getPromoteLevel()) return false;
-      if (getLevel()
-          != other.getLevel()) return false;
-      if (getMainPropId()
-          != other.getMainPropId()) return false;
+      if (!getOLODHOBPEPIList()
+          .equals(other.getOLODHOBPEPIList())) return false;
+      if (!getOIDDEKJANHCList()
+          .equals(other.getOIDDEKJANHCList())) return false;
       if (getExp()
           != other.getExp()) return false;
-      if (getGPPMHJLMIIF()
-          != other.getGPPMHJLMIIF()) return false;
+      if (getLevel()
+          != other.getLevel()) return false;
+      if (getPromoteLevel()
+          != other.getPromoteLevel()) return false;
+      if (getMainPropId()
+          != other.getMainPropId()) return false;
+      if (getIsFavourite()
+          != other.getIsFavourite()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -398,17 +584,25 @@ public final class ReliquaryOuterClass {
         hash = (37 * hash) + APPEND_PROP_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getAppendPropIdListList().hashCode();
       }
-      hash = (37 * hash) + PROMOTE_LEVEL_FIELD_NUMBER;
-      hash = (53 * hash) + getPromoteLevel();
-      hash = (37 * hash) + LEVEL_FIELD_NUMBER;
-      hash = (53 * hash) + getLevel();
-      hash = (37 * hash) + MAIN_PROP_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getMainPropId();
+      if (getOLODHOBPEPICount() > 0) {
+        hash = (37 * hash) + OLODHOBPEPI_FIELD_NUMBER;
+        hash = (53 * hash) + getOLODHOBPEPIList().hashCode();
+      }
+      if (getOIDDEKJANHCCount() > 0) {
+        hash = (37 * hash) + OIDDEKJANHC_FIELD_NUMBER;
+        hash = (53 * hash) + getOIDDEKJANHCList().hashCode();
+      }
       hash = (37 * hash) + EXP_FIELD_NUMBER;
       hash = (53 * hash) + getExp();
-      hash = (37 * hash) + GPPMHJLMIIF_FIELD_NUMBER;
+      hash = (37 * hash) + LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getLevel();
+      hash = (37 * hash) + PROMOTE_LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getPromoteLevel();
+      hash = (37 * hash) + MAIN_PROP_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getMainPropId();
+      hash = (37 * hash) + IS_FAVOURITE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getGPPMHJLMIIF());
+          getIsFavourite());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -544,15 +738,19 @@ public final class ReliquaryOuterClass {
         super.clear();
         appendPropIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        promoteLevel_ = 0;
+        oLODHOBPEPI_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        oIDDEKJANHC_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000004);
+        exp_ = 0;
 
         level_ = 0;
 
+        promoteLevel_ = 0;
+
         mainPropId_ = 0;
 
-        exp_ = 0;
-
-        gPPMHJLMIIF_ = false;
+        isFavourite_ = false;
 
         return this;
       }
@@ -586,11 +784,21 @@ public final class ReliquaryOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.appendPropIdList_ = appendPropIdList_;
-        result.promoteLevel_ = promoteLevel_;
-        result.level_ = level_;
-        result.mainPropId_ = mainPropId_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          oLODHOBPEPI_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.oLODHOBPEPI_ = oLODHOBPEPI_;
+        if (((bitField0_ & 0x00000004) != 0)) {
+          oIDDEKJANHC_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000004);
+        }
+        result.oIDDEKJANHC_ = oIDDEKJANHC_;
         result.exp_ = exp_;
-        result.gPPMHJLMIIF_ = gPPMHJLMIIF_;
+        result.level_ = level_;
+        result.promoteLevel_ = promoteLevel_;
+        result.mainPropId_ = mainPropId_;
+        result.isFavourite_ = isFavourite_;
         onBuilt();
         return result;
       }
@@ -649,20 +857,40 @@ public final class ReliquaryOuterClass {
           }
           onChanged();
         }
-        if (other.getPromoteLevel() != 0) {
-          setPromoteLevel(other.getPromoteLevel());
+        if (!other.oLODHOBPEPI_.isEmpty()) {
+          if (oLODHOBPEPI_.isEmpty()) {
+            oLODHOBPEPI_ = other.oLODHOBPEPI_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureOLODHOBPEPIIsMutable();
+            oLODHOBPEPI_.addAll(other.oLODHOBPEPI_);
+          }
+          onChanged();
         }
-        if (other.getLevel() != 0) {
-          setLevel(other.getLevel());
-        }
-        if (other.getMainPropId() != 0) {
-          setMainPropId(other.getMainPropId());
+        if (!other.oIDDEKJANHC_.isEmpty()) {
+          if (oIDDEKJANHC_.isEmpty()) {
+            oIDDEKJANHC_ = other.oIDDEKJANHC_;
+            bitField0_ = (bitField0_ & ~0x00000004);
+          } else {
+            ensureOIDDEKJANHCIsMutable();
+            oIDDEKJANHC_.addAll(other.oIDDEKJANHC_);
+          }
+          onChanged();
         }
         if (other.getExp() != 0) {
           setExp(other.getExp());
         }
-        if (other.getGPPMHJLMIIF() != false) {
-          setGPPMHJLMIIF(other.getGPPMHJLMIIF());
+        if (other.getLevel() != 0) {
+          setLevel(other.getLevel());
+        }
+        if (other.getPromoteLevel() != 0) {
+          setPromoteLevel(other.getPromoteLevel());
+        }
+        if (other.getMainPropId() != 0) {
+          setMainPropId(other.getMainPropId());
+        }
+        if (other.getIsFavourite() != false) {
+          setIsFavourite(other.getIsFavourite());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -773,95 +1001,160 @@ public final class ReliquaryOuterClass {
         return this;
       }
 
-      private int promoteLevel_ ;
-      /**
-       * <code>uint32 promote_level = 3;</code>
-       * @return The promoteLevel.
-       */
-      @java.lang.Override
-      public int getPromoteLevel() {
-        return promoteLevel_;
+      private com.google.protobuf.Internal.IntList oLODHOBPEPI_ = emptyIntList();
+      private void ensureOLODHOBPEPIIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          oLODHOBPEPI_ = mutableCopy(oLODHOBPEPI_);
+          bitField0_ |= 0x00000002;
+         }
       }
       /**
-       * <code>uint32 promote_level = 3;</code>
-       * @param value The promoteLevel to set.
+       * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+       * @return A list containing the oLODHOBPEPI.
+       */
+      public java.util.List<java.lang.Integer>
+          getOLODHOBPEPIList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(oLODHOBPEPI_) : oLODHOBPEPI_;
+      }
+      /**
+       * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+       * @return The count of oLODHOBPEPI.
+       */
+      public int getOLODHOBPEPICount() {
+        return oLODHOBPEPI_.size();
+      }
+      /**
+       * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+       * @param index The index of the element to return.
+       * @return The oLODHOBPEPI at the given index.
+       */
+      public int getOLODHOBPEPI(int index) {
+        return oLODHOBPEPI_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+       * @param index The index to set the value at.
+       * @param value The oLODHOBPEPI to set.
        * @return This builder for chaining.
        */
-      public Builder setPromoteLevel(int value) {
-        
-        promoteLevel_ = value;
+      public Builder setOLODHOBPEPI(
+          int index, int value) {
+        ensureOLODHOBPEPIIsMutable();
+        oLODHOBPEPI_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 promote_level = 3;</code>
+       * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+       * @param value The oLODHOBPEPI to add.
        * @return This builder for chaining.
        */
-      public Builder clearPromoteLevel() {
-        
-        promoteLevel_ = 0;
+      public Builder addOLODHOBPEPI(int value) {
+        ensureOLODHOBPEPIIsMutable();
+        oLODHOBPEPI_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+       * @param values The oLODHOBPEPI to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllOLODHOBPEPI(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureOLODHOBPEPIIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, oLODHOBPEPI_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 OLODHOBPEPI = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOLODHOBPEPI() {
+        oLODHOBPEPI_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
-      private int level_ ;
-      /**
-       * <code>uint32 level = 1;</code>
-       * @return The level.
-       */
-      @java.lang.Override
-      public int getLevel() {
-        return level_;
+      private com.google.protobuf.Internal.IntList oIDDEKJANHC_ = emptyIntList();
+      private void ensureOIDDEKJANHCIsMutable() {
+        if (!((bitField0_ & 0x00000004) != 0)) {
+          oIDDEKJANHC_ = mutableCopy(oIDDEKJANHC_);
+          bitField0_ |= 0x00000004;
+         }
       }
       /**
-       * <code>uint32 level = 1;</code>
-       * @param value The level to set.
+       * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+       * @return A list containing the oIDDEKJANHC.
+       */
+      public java.util.List<java.lang.Integer>
+          getOIDDEKJANHCList() {
+        return ((bitField0_ & 0x00000004) != 0) ?
+                 java.util.Collections.unmodifiableList(oIDDEKJANHC_) : oIDDEKJANHC_;
+      }
+      /**
+       * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+       * @return The count of oIDDEKJANHC.
+       */
+      public int getOIDDEKJANHCCount() {
+        return oIDDEKJANHC_.size();
+      }
+      /**
+       * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+       * @param index The index of the element to return.
+       * @return The oIDDEKJANHC at the given index.
+       */
+      public int getOIDDEKJANHC(int index) {
+        return oIDDEKJANHC_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+       * @param index The index to set the value at.
+       * @param value The oIDDEKJANHC to set.
        * @return This builder for chaining.
        */
-      public Builder setLevel(int value) {
-        
-        level_ = value;
+      public Builder setOIDDEKJANHC(
+          int index, int value) {
+        ensureOIDDEKJANHCIsMutable();
+        oIDDEKJANHC_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 level = 1;</code>
+       * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+       * @param value The oIDDEKJANHC to add.
        * @return This builder for chaining.
        */
-      public Builder clearLevel() {
-        
-        level_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int mainPropId_ ;
-      /**
-       * <code>uint32 main_prop_id = 4;</code>
-       * @return The mainPropId.
-       */
-      @java.lang.Override
-      public int getMainPropId() {
-        return mainPropId_;
-      }
-      /**
-       * <code>uint32 main_prop_id = 4;</code>
-       * @param value The mainPropId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMainPropId(int value) {
-        
-        mainPropId_ = value;
+      public Builder addOIDDEKJANHC(int value) {
+        ensureOIDDEKJANHCIsMutable();
+        oIDDEKJANHC_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 main_prop_id = 4;</code>
+       * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+       * @param values The oIDDEKJANHC to add.
        * @return This builder for chaining.
        */
-      public Builder clearMainPropId() {
-        
-        mainPropId_ = 0;
+      public Builder addAllOIDDEKJANHC(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureOIDDEKJANHCIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, oIDDEKJANHC_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 OIDDEKJANHC = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOIDDEKJANHC() {
+        oIDDEKJANHC_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
       }
@@ -897,33 +1190,126 @@ public final class ReliquaryOuterClass {
         return this;
       }
 
-      private boolean gPPMHJLMIIF_ ;
+      private int level_ ;
       /**
-       * <code>bool GPPMHJLMIIF = 6;</code>
-       * @return The gPPMHJLMIIF.
+       * <code>uint32 level = 1;</code>
+       * @return The level.
        */
       @java.lang.Override
-      public boolean getGPPMHJLMIIF() {
-        return gPPMHJLMIIF_;
+      public int getLevel() {
+        return level_;
       }
       /**
-       * <code>bool GPPMHJLMIIF = 6;</code>
-       * @param value The gPPMHJLMIIF to set.
+       * <code>uint32 level = 1;</code>
+       * @param value The level to set.
        * @return This builder for chaining.
        */
-      public Builder setGPPMHJLMIIF(boolean value) {
+      public Builder setLevel(int value) {
         
-        gPPMHJLMIIF_ = value;
+        level_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool GPPMHJLMIIF = 6;</code>
+       * <code>uint32 level = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGPPMHJLMIIF() {
+      public Builder clearLevel() {
         
-        gPPMHJLMIIF_ = false;
+        level_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int promoteLevel_ ;
+      /**
+       * <code>uint32 promote_level = 3;</code>
+       * @return The promoteLevel.
+       */
+      @java.lang.Override
+      public int getPromoteLevel() {
+        return promoteLevel_;
+      }
+      /**
+       * <code>uint32 promote_level = 3;</code>
+       * @param value The promoteLevel to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPromoteLevel(int value) {
+        
+        promoteLevel_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 promote_level = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPromoteLevel() {
+        
+        promoteLevel_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int mainPropId_ ;
+      /**
+       * <code>uint32 main_prop_id = 4;</code>
+       * @return The mainPropId.
+       */
+      @java.lang.Override
+      public int getMainPropId() {
+        return mainPropId_;
+      }
+      /**
+       * <code>uint32 main_prop_id = 4;</code>
+       * @param value The mainPropId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMainPropId(int value) {
+        
+        mainPropId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 main_prop_id = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMainPropId() {
+        
+        mainPropId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean isFavourite_ ;
+      /**
+       * <code>bool is_favourite = 6;</code>
+       * @return The isFavourite.
+       */
+      @java.lang.Override
+      public boolean getIsFavourite() {
+        return isFavourite_;
+      }
+      /**
+       * <code>bool is_favourite = 6;</code>
+       * @param value The isFavourite to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsFavourite(boolean value) {
+        
+        isFavourite_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_favourite = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsFavourite() {
+        
+        isFavourite_ = false;
         onChanged();
         return this;
       }
@@ -994,11 +1380,12 @@ public final class ReliquaryOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017Reliquary.proto\"\206\001\n\tReliquary\022\033\n\023appen" +
-      "d_prop_id_list\030\005 \003(\r\022\025\n\rpromote_level\030\003 " +
-      "\001(\r\022\r\n\005level\030\001 \001(\r\022\024\n\014main_prop_id\030\004 \001(\r" +
-      "\022\013\n\003exp\030\002 \001(\r\022\023\n\013GPPMHJLMIIF\030\006 \001(\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\017Reliquary.proto\"\261\001\n\tReliquary\022\033\n\023appen" +
+      "d_prop_id_list\030\005 \003(\r\022\023\n\013OLODHOBPEPI\030\010 \003(" +
+      "\r\022\023\n\013OIDDEKJANHC\030\007 \003(\r\022\013\n\003exp\030\002 \001(\r\022\r\n\005l" +
+      "evel\030\001 \001(\r\022\025\n\rpromote_level\030\003 \001(\r\022\024\n\014mai" +
+      "n_prop_id\030\004 \001(\r\022\024\n\014is_favourite\030\006 \001(\010B\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1009,7 +1396,7 @@ public final class ReliquaryOuterClass {
     internal_static_Reliquary_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Reliquary_descriptor,
-        new java.lang.String[] { "AppendPropIdList", "PromoteLevel", "Level", "MainPropId", "Exp", "GPPMHJLMIIF", });
+        new java.lang.String[] { "AppendPropIdList", "OLODHOBPEPI", "OIDDEKJANHC", "Exp", "Level", "PromoteLevel", "MainPropId", "IsFavourite", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

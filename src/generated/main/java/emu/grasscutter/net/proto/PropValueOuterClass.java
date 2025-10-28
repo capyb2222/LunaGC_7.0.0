@@ -19,15 +19,16 @@ public final class PropValueOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int64 ival = 2;</code>
-     * @return Whether the ival field is set.
+     * <code>uint32 type = 1;</code>
+     * @return The type.
      */
-    boolean hasIval();
+    int getType();
+
     /**
-     * <code>int64 ival = 2;</code>
-     * @return The ival.
+     * <code>int64 val = 4;</code>
+     * @return The val.
      */
-    long getIval();
+    long getVal();
 
     /**
      * <code>float fval = 3;</code>
@@ -41,16 +42,15 @@ public final class PropValueOuterClass {
     float getFval();
 
     /**
-     * <code>uint32 type = 1;</code>
-     * @return The type.
+     * <code>int64 ival = 2;</code>
+     * @return Whether the ival field is set.
      */
-    int getType();
-
+    boolean hasIval();
     /**
-     * <code>int64 val = 4;</code>
-     * @return The val.
+     * <code>int64 ival = 2;</code>
+     * @return The ival.
      */
-    long getVal();
+    long getIval();
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue.ValueCase getValueCase();
   }
@@ -156,8 +156,8 @@ public final class PropValueOuterClass {
     public enum ValueCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      IVAL(2),
       FVAL(3),
+      IVAL(2),
       VALUE_NOT_SET(0);
       private final int value;
       private ValueCase(int value) {
@@ -175,8 +175,8 @@ public final class PropValueOuterClass {
 
       public static ValueCase forNumber(int value) {
         switch (value) {
-          case 2: return IVAL;
           case 3: return FVAL;
+          case 2: return IVAL;
           case 0: return VALUE_NOT_SET;
           default: return null;
         }
@@ -192,25 +192,26 @@ public final class PropValueOuterClass {
           valueCase_);
     }
 
-    public static final int IVAL_FIELD_NUMBER = 2;
+    public static final int TYPE_FIELD_NUMBER = 1;
+    private int type_;
     /**
-     * <code>int64 ival = 2;</code>
-     * @return Whether the ival field is set.
+     * <code>uint32 type = 1;</code>
+     * @return The type.
      */
     @java.lang.Override
-    public boolean hasIval() {
-      return valueCase_ == 2;
+    public int getType() {
+      return type_;
     }
+
+    public static final int VAL_FIELD_NUMBER = 4;
+    private long val_;
     /**
-     * <code>int64 ival = 2;</code>
-     * @return The ival.
+     * <code>int64 val = 4;</code>
+     * @return The val.
      */
     @java.lang.Override
-    public long getIval() {
-      if (valueCase_ == 2) {
-        return (java.lang.Long) value_;
-      }
-      return 0L;
+    public long getVal() {
+      return val_;
     }
 
     public static final int FVAL_FIELD_NUMBER = 3;
@@ -234,26 +235,25 @@ public final class PropValueOuterClass {
       return 0F;
     }
 
-    public static final int TYPE_FIELD_NUMBER = 1;
-    private int type_;
+    public static final int IVAL_FIELD_NUMBER = 2;
     /**
-     * <code>uint32 type = 1;</code>
-     * @return The type.
+     * <code>int64 ival = 2;</code>
+     * @return Whether the ival field is set.
      */
     @java.lang.Override
-    public int getType() {
-      return type_;
+    public boolean hasIval() {
+      return valueCase_ == 2;
     }
-
-    public static final int VAL_FIELD_NUMBER = 4;
-    private long val_;
     /**
-     * <code>int64 val = 4;</code>
-     * @return The val.
+     * <code>int64 ival = 2;</code>
+     * @return The ival.
      */
     @java.lang.Override
-    public long getVal() {
-      return val_;
+    public long getIval() {
+      if (valueCase_ == 2) {
+        return (java.lang.Long) value_;
+      }
+      return 0L;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -332,14 +332,14 @@ public final class PropValueOuterClass {
           != other.getVal()) return false;
       if (!getValueCase().equals(other.getValueCase())) return false;
       switch (valueCase_) {
-        case 2:
-          if (getIval()
-              != other.getIval()) return false;
-          break;
         case 3:
           if (java.lang.Float.floatToIntBits(getFval())
               != java.lang.Float.floatToIntBits(
                   other.getFval())) return false;
+          break;
+        case 2:
+          if (getIval()
+              != other.getIval()) return false;
           break;
         case 0:
         default:
@@ -361,15 +361,15 @@ public final class PropValueOuterClass {
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getVal());
       switch (valueCase_) {
-        case 2:
-          hash = (37 * hash) + IVAL_FIELD_NUMBER;
-          hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-              getIval());
-          break;
         case 3:
           hash = (37 * hash) + FVAL_FIELD_NUMBER;
           hash = (53 * hash) + java.lang.Float.floatToIntBits(
               getFval());
+          break;
+        case 2:
+          hash = (37 * hash) + IVAL_FIELD_NUMBER;
+          hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+              getIval());
           break;
         case 0:
         default:
@@ -539,14 +539,14 @@ public final class PropValueOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue buildPartial() {
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue result = new emu.grasscutter.net.proto.PropValueOuterClass.PropValue(this);
-        if (valueCase_ == 2) {
-          result.value_ = value_;
-        }
+        result.type_ = type_;
+        result.val_ = val_;
         if (valueCase_ == 3) {
           result.value_ = value_;
         }
-        result.type_ = type_;
-        result.val_ = val_;
+        if (valueCase_ == 2) {
+          result.value_ = value_;
+        }
         result.valueCase_ = valueCase_;
         onBuilt();
         return result;
@@ -603,12 +603,12 @@ public final class PropValueOuterClass {
           setVal(other.getVal());
         }
         switch (other.getValueCase()) {
-          case IVAL: {
-            setIval(other.getIval());
-            break;
-          }
           case FVAL: {
             setFval(other.getFval());
+            break;
+          }
+          case IVAL: {
+            setIval(other.getIval());
             break;
           }
           case VALUE_NOT_SET: {
@@ -658,88 +658,6 @@ public final class PropValueOuterClass {
         return this;
       }
 
-
-      /**
-       * <code>int64 ival = 2;</code>
-       * @return Whether the ival field is set.
-       */
-      public boolean hasIval() {
-        return valueCase_ == 2;
-      }
-      /**
-       * <code>int64 ival = 2;</code>
-       * @return The ival.
-       */
-      public long getIval() {
-        if (valueCase_ == 2) {
-          return (java.lang.Long) value_;
-        }
-        return 0L;
-      }
-      /**
-       * <code>int64 ival = 2;</code>
-       * @param value The ival to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIval(long value) {
-        valueCase_ = 2;
-        value_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int64 ival = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIval() {
-        if (valueCase_ == 2) {
-          valueCase_ = 0;
-          value_ = null;
-          onChanged();
-        }
-        return this;
-      }
-
-      /**
-       * <code>float fval = 3;</code>
-       * @return Whether the fval field is set.
-       */
-      public boolean hasFval() {
-        return valueCase_ == 3;
-      }
-      /**
-       * <code>float fval = 3;</code>
-       * @return The fval.
-       */
-      public float getFval() {
-        if (valueCase_ == 3) {
-          return (java.lang.Float) value_;
-        }
-        return 0F;
-      }
-      /**
-       * <code>float fval = 3;</code>
-       * @param value The fval to set.
-       * @return This builder for chaining.
-       */
-      public Builder setFval(float value) {
-        valueCase_ = 3;
-        value_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float fval = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearFval() {
-        if (valueCase_ == 3) {
-          valueCase_ = 0;
-          value_ = null;
-          onChanged();
-        }
-        return this;
-      }
 
       private int type_ ;
       /**
@@ -800,6 +718,88 @@ public final class PropValueOuterClass {
         
         val_ = 0L;
         onChanged();
+        return this;
+      }
+
+      /**
+       * <code>float fval = 3;</code>
+       * @return Whether the fval field is set.
+       */
+      public boolean hasFval() {
+        return valueCase_ == 3;
+      }
+      /**
+       * <code>float fval = 3;</code>
+       * @return The fval.
+       */
+      public float getFval() {
+        if (valueCase_ == 3) {
+          return (java.lang.Float) value_;
+        }
+        return 0F;
+      }
+      /**
+       * <code>float fval = 3;</code>
+       * @param value The fval to set.
+       * @return This builder for chaining.
+       */
+      public Builder setFval(float value) {
+        valueCase_ = 3;
+        value_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float fval = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearFval() {
+        if (valueCase_ == 3) {
+          valueCase_ = 0;
+          value_ = null;
+          onChanged();
+        }
+        return this;
+      }
+
+      /**
+       * <code>int64 ival = 2;</code>
+       * @return Whether the ival field is set.
+       */
+      public boolean hasIval() {
+        return valueCase_ == 2;
+      }
+      /**
+       * <code>int64 ival = 2;</code>
+       * @return The ival.
+       */
+      public long getIval() {
+        if (valueCase_ == 2) {
+          return (java.lang.Long) value_;
+        }
+        return 0L;
+      }
+      /**
+       * <code>int64 ival = 2;</code>
+       * @param value The ival to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIval(long value) {
+        valueCase_ = 2;
+        value_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int64 ival = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIval() {
+        if (valueCase_ == 2) {
+          valueCase_ = 0;
+          value_ = null;
+          onChanged();
+        }
         return this;
       }
       @java.lang.Override
@@ -869,9 +869,9 @@ public final class PropValueOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017PropValue.proto\"O\n\tPropValue\022\016\n\004ival\030\002" +
-      " \001(\003H\000\022\016\n\004fval\030\003 \001(\002H\000\022\014\n\004type\030\001 \001(\r\022\013\n\003" +
-      "val\030\004 \001(\003B\007\n\005valueB\033\n\031emu.grasscutter.ne" +
+      "\n\017PropValue.proto\"O\n\tPropValue\022\014\n\004type\030\001" +
+      " \001(\r\022\013\n\003val\030\004 \001(\003\022\016\n\004fval\030\003 \001(\002H\000\022\016\n\004iva" +
+      "l\030\002 \001(\003H\000B\007\n\005valueB\033\n\031emu.grasscutter.ne" +
       "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -883,7 +883,7 @@ public final class PropValueOuterClass {
     internal_static_PropValue_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PropValue_descriptor,
-        new java.lang.String[] { "Ival", "Fval", "Type", "Val", "Value", });
+        new java.lang.String[] { "Type", "Val", "Fval", "Ival", "Value", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

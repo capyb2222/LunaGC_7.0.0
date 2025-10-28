@@ -93,10 +93,6 @@ public final class AvatarTeamAllDataNotifyOuterClass {
     int getCurAvatarTeamId();
   }
   /**
-   * <pre>
-   * CmdId: 3118
-   * </pre>
-   *
    * Protobuf type {@code AvatarTeamAllDataNotify}
    */
   public static final class AvatarTeamAllDataNotify extends
@@ -635,10 +631,6 @@ public final class AvatarTeamAllDataNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 3118
-     * </pre>
-     *
      * Protobuf type {@code AvatarTeamAllDataNotify}
      */
     public static final class Builder extends

@@ -85,10 +85,6 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     int getCurAvatarEntityId();
   }
   /**
-   * <pre>
-   * CmdId: 26925
-   * </pre>
-   *
    * Protobuf type {@code PlayerEnterSceneInfoNotify}
    */
   public static final class PlayerEnterSceneInfoNotify extends
@@ -541,10 +537,6 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 26925
-     * </pre>
-     *
      * Protobuf type {@code PlayerEnterSceneInfoNotify}
      */
     public static final class Builder extends
@@ -1375,9 +1367,9 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n PlayerEnterSceneInfoNotify.proto\032\032Avat" +
-      "arEnterSceneInfo.proto\032\027MPLevelEntityInf" +
-      "o.proto\032\030TeamEnterSceneInfo.proto\"\347\001\n\032Pl" +
+      "\n PlayerEnterSceneInfoNotify.proto\032\030Team" +
+      "EnterSceneInfo.proto\032\032AvatarEnterSceneIn" +
+      "fo.proto\032\027MPLevelEntityInfo.proto\"\347\001\n\032Pl" +
       "ayerEnterSceneInfoNotify\022,\n\017team_enter_i" +
       "nfo\030\016 \001(\0132\023.TeamEnterSceneInfo\0220\n\021avatar" +
       "_enter_info\030\t \003(\0132\025.AvatarEnterSceneInfo" +
@@ -1389,9 +1381,9 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.AvatarEnterSceneInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.getDescriptor(),
         });
     internal_static_PlayerEnterSceneInfoNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1399,9 +1391,9 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerEnterSceneInfoNotify_descriptor,
         new java.lang.String[] { "TeamEnterInfo", "AvatarEnterInfo", "MpLevelEntityInfo", "EnterSceneToken", "CurAvatarEntityId", });
+    emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.AvatarEnterSceneInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

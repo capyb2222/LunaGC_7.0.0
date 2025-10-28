@@ -19,16 +19,16 @@ public final class GadgetCrucibleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 mp_play_id = 1;</code>
-     * @return The mpPlayId.
-     */
-    int getMpPlayId();
-
-    /**
      * <code>uint32 prepare_end_time = 2;</code>
      * @return The prepareEndTime.
      */
     int getPrepareEndTime();
+
+    /**
+     * <code>uint32 mp_play_id = 1;</code>
+     * @return The mpPlayId.
+     */
+    int getMpPlayId();
   }
   /**
    * Protobuf type {@code GadgetCrucibleInfo}
@@ -117,17 +117,6 @@ public final class GadgetCrucibleInfoOuterClass {
               emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo.class, emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo.Builder.class);
     }
 
-    public static final int MP_PLAY_ID_FIELD_NUMBER = 1;
-    private int mpPlayId_;
-    /**
-     * <code>uint32 mp_play_id = 1;</code>
-     * @return The mpPlayId.
-     */
-    @java.lang.Override
-    public int getMpPlayId() {
-      return mpPlayId_;
-    }
-
     public static final int PREPARE_END_TIME_FIELD_NUMBER = 2;
     private int prepareEndTime_;
     /**
@@ -137,6 +126,17 @@ public final class GadgetCrucibleInfoOuterClass {
     @java.lang.Override
     public int getPrepareEndTime() {
       return prepareEndTime_;
+    }
+
+    public static final int MP_PLAY_ID_FIELD_NUMBER = 1;
+    private int mpPlayId_;
+    /**
+     * <code>uint32 mp_play_id = 1;</code>
+     * @return The mpPlayId.
+     */
+    @java.lang.Override
+    public int getMpPlayId() {
+      return mpPlayId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -191,10 +191,10 @@ public final class GadgetCrucibleInfoOuterClass {
       }
       emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo other = (emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo) obj;
 
-      if (getMpPlayId()
-          != other.getMpPlayId()) return false;
       if (getPrepareEndTime()
           != other.getPrepareEndTime()) return false;
+      if (getMpPlayId()
+          != other.getMpPlayId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +206,10 @@ public final class GadgetCrucibleInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + MP_PLAY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getMpPlayId();
       hash = (37 * hash) + PREPARE_END_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getPrepareEndTime();
+      hash = (37 * hash) + MP_PLAY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getMpPlayId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -343,9 +343,9 @@ public final class GadgetCrucibleInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        mpPlayId_ = 0;
-
         prepareEndTime_ = 0;
+
+        mpPlayId_ = 0;
 
         return this;
       }
@@ -373,8 +373,8 @@ public final class GadgetCrucibleInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo buildPartial() {
         emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo result = new emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo(this);
-        result.mpPlayId_ = mpPlayId_;
         result.prepareEndTime_ = prepareEndTime_;
+        result.mpPlayId_ = mpPlayId_;
         onBuilt();
         return result;
       }
@@ -423,11 +423,11 @@ public final class GadgetCrucibleInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo other) {
         if (other == emu.grasscutter.net.proto.GadgetCrucibleInfoOuterClass.GadgetCrucibleInfo.getDefaultInstance()) return this;
-        if (other.getMpPlayId() != 0) {
-          setMpPlayId(other.getMpPlayId());
-        }
         if (other.getPrepareEndTime() != 0) {
           setPrepareEndTime(other.getPrepareEndTime());
+        }
+        if (other.getMpPlayId() != 0) {
+          setMpPlayId(other.getMpPlayId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,37 +458,6 @@ public final class GadgetCrucibleInfoOuterClass {
         return this;
       }
 
-      private int mpPlayId_ ;
-      /**
-       * <code>uint32 mp_play_id = 1;</code>
-       * @return The mpPlayId.
-       */
-      @java.lang.Override
-      public int getMpPlayId() {
-        return mpPlayId_;
-      }
-      /**
-       * <code>uint32 mp_play_id = 1;</code>
-       * @param value The mpPlayId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMpPlayId(int value) {
-        
-        mpPlayId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 mp_play_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMpPlayId() {
-        
-        mpPlayId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int prepareEndTime_ ;
       /**
        * <code>uint32 prepare_end_time = 2;</code>
@@ -516,6 +485,37 @@ public final class GadgetCrucibleInfoOuterClass {
       public Builder clearPrepareEndTime() {
         
         prepareEndTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int mpPlayId_ ;
+      /**
+       * <code>uint32 mp_play_id = 1;</code>
+       * @return The mpPlayId.
+       */
+      @java.lang.Override
+      public int getMpPlayId() {
+        return mpPlayId_;
+      }
+      /**
+       * <code>uint32 mp_play_id = 1;</code>
+       * @param value The mpPlayId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMpPlayId(int value) {
+        
+        mpPlayId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 mp_play_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMpPlayId() {
+        
+        mpPlayId_ = 0;
         onChanged();
         return this;
       }
@@ -587,8 +587,8 @@ public final class GadgetCrucibleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030GadgetCrucibleInfo.proto\"B\n\022GadgetCruc" +
-      "ibleInfo\022\022\n\nmp_play_id\030\001 \001(\r\022\030\n\020prepare_" +
-      "end_time\030\002 \001(\rB\033\n\031emu.grasscutter.net.pr" +
+      "ibleInfo\022\030\n\020prepare_end_time\030\002 \001(\r\022\022\n\nmp" +
+      "_play_id\030\001 \001(\rB\033\n\031emu.grasscutter.net.pr" +
       "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -600,7 +600,7 @@ public final class GadgetCrucibleInfoOuterClass {
     internal_static_GadgetCrucibleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GadgetCrucibleInfo_descriptor,
-        new java.lang.String[] { "MpPlayId", "PrepareEndTime", });
+        new java.lang.String[] { "PrepareEndTime", "MpPlayId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

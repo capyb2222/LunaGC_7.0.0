@@ -452,9 +452,17 @@ public final class MotionStateOuterClass {
      */
     MOTION_STATE_NATSAURUS_ENTERING(107),
     /**
-     * <code>MOTION_STATE_NUM = 108;</code>
+     * <code>MOTION_STATE_MAGLEV = 108;</code>
      */
-    MOTION_STATE_NUM(108),
+    MOTION_STATE_MAGLEV(108),
+    /**
+     * <code>MOTION_STATE_MAGLEV_SAFE = 109;</code>
+     */
+    MOTION_STATE_MAGLEV_SAFE(109),
+    /**
+     * <code>MOTION_STATE_NUM = 110;</code>
+     */
+    MOTION_STATE_NUM(110),
     UNRECOGNIZED(-1),
     ;
 
@@ -891,9 +899,17 @@ public final class MotionStateOuterClass {
      */
     public static final int MOTION_STATE_NATSAURUS_ENTERING_VALUE = 107;
     /**
-     * <code>MOTION_STATE_NUM = 108;</code>
+     * <code>MOTION_STATE_MAGLEV = 108;</code>
      */
-    public static final int MOTION_STATE_NUM_VALUE = 108;
+    public static final int MOTION_STATE_MAGLEV_VALUE = 108;
+    /**
+     * <code>MOTION_STATE_MAGLEV_SAFE = 109;</code>
+     */
+    public static final int MOTION_STATE_MAGLEV_SAFE_VALUE = 109;
+    /**
+     * <code>MOTION_STATE_NUM = 110;</code>
+     */
+    public static final int MOTION_STATE_NUM_VALUE = 110;
 
 
     public final int getNumber() {
@@ -1028,7 +1044,9 @@ public final class MotionStateOuterClass {
         case 105: return MOTION_STATE_VEHICLE_FOLLOW_CURVE_ROUTE;
         case 106: return MOTION_STATE_NATSAURUS_NORMAL;
         case 107: return MOTION_STATE_NATSAURUS_ENTERING;
-        case 108: return MOTION_STATE_NUM;
+        case 108: return MOTION_STATE_MAGLEV;
+        case 109: return MOTION_STATE_MAGLEV_SAFE;
+        case 110: return MOTION_STATE_NUM;
         default: return null;
       }
     }
@@ -1094,7 +1112,7 @@ public final class MotionStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MotionState.proto*\310\033\n\013MotionState\022\025\n\021M" +
+      "\n\021MotionState.proto*\377\033\n\013MotionState\022\025\n\021M" +
       "OTION_STATE_NONE\020\000\022\026\n\022MOTION_STATE_RESET" +
       "\020\001\022\030\n\024MOTION_STATE_STANDBY\020\002\022\035\n\031MOTION_S" +
       "TATE_STANDBY_MOVE\020\003\022\025\n\021MOTION_STATE_WALK" +
@@ -1182,8 +1200,10 @@ public final class MotionStateOuterClass {
       "RVE_ROUTE\020h\022+\n\'MOTION_STATE_VEHICLE_FOLL" +
       "OW_CURVE_ROUTE\020i\022!\n\035MOTION_STATE_NATSAUR" +
       "US_NORMAL\020j\022#\n\037MOTION_STATE_NATSAURUS_EN" +
-      "TERING\020k\022\024\n\020MOTION_STATE_NUM\020lB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "TERING\020k\022\027\n\023MOTION_STATE_MAGLEV\020l\022\034\n\030MOT" +
+      "ION_STATE_MAGLEV_SAFE\020m\022\024\n\020MOTION_STATE_" +
+      "NUM\020nB\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
