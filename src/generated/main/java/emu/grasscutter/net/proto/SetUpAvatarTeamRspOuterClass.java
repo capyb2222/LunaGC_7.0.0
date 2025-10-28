@@ -42,20 +42,20 @@ public final class SetUpAvatarTeamRspOuterClass {
     int getTeamId();
 
     /**
-     * <code>int32 retcode = 13;</code>
+     * <code>int32 retcode = 5;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <code>uint64 cur_avatar_guid = 11;</code>
+     * <code>uint64 cur_avatar_guid = 6;</code>
      * @return The curAvatarGuid.
      */
     long getCurAvatarGuid();
   }
   /**
    * <pre>
-   * CmdId: 7846
+   * CmdId: 3704
    * </pre>
    *
    * Protobuf type {@code SetUpAvatarTeamRsp}
@@ -109,14 +109,14 @@ public final class SetUpAvatarTeamRspOuterClass {
               teamId_ = input.readUInt32();
               break;
             }
-            case 88: {
-
-              curAvatarGuid_ = input.readUInt64();
-              break;
-            }
-            case 104: {
+            case 40: {
 
               retcode_ = input.readInt32();
+              break;
+            }
+            case 48: {
+
+              curAvatarGuid_ = input.readUInt64();
               break;
             }
             case 112: {
@@ -214,10 +214,10 @@ public final class SetUpAvatarTeamRspOuterClass {
       return teamId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 5;
     private int retcode_;
     /**
-     * <code>int32 retcode = 13;</code>
+     * <code>int32 retcode = 5;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -225,10 +225,10 @@ public final class SetUpAvatarTeamRspOuterClass {
       return retcode_;
     }
 
-    public static final int CUR_AVATAR_GUID_FIELD_NUMBER = 11;
+    public static final int CUR_AVATAR_GUID_FIELD_NUMBER = 6;
     private long curAvatarGuid_;
     /**
-     * <code>uint64 cur_avatar_guid = 11;</code>
+     * <code>uint64 cur_avatar_guid = 6;</code>
      * @return The curAvatarGuid.
      */
     @java.lang.Override
@@ -254,11 +254,11 @@ public final class SetUpAvatarTeamRspOuterClass {
       if (teamId_ != 0) {
         output.writeUInt32(2, teamId_);
       }
-      if (curAvatarGuid_ != 0L) {
-        output.writeUInt64(11, curAvatarGuid_);
-      }
       if (retcode_ != 0) {
-        output.writeInt32(13, retcode_);
+        output.writeInt32(5, retcode_);
+      }
+      if (curAvatarGuid_ != 0L) {
+        output.writeUInt64(6, curAvatarGuid_);
       }
       if (getAvatarTeamGuidListList().size() > 0) {
         output.writeUInt32NoTag(114);
@@ -280,13 +280,13 @@ public final class SetUpAvatarTeamRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, teamId_);
       }
-      if (curAvatarGuid_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(11, curAvatarGuid_);
-      }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, retcode_);
+          .computeInt32Size(5, retcode_);
+      }
+      if (curAvatarGuid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(6, curAvatarGuid_);
       }
       {
         int dataSize = 0;
@@ -444,7 +444,7 @@ public final class SetUpAvatarTeamRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 7846
+     * CmdId: 3704
      * </pre>
      *
      * Protobuf type {@code SetUpAvatarTeamRsp}
@@ -736,7 +736,7 @@ public final class SetUpAvatarTeamRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 13;</code>
+       * <code>int32 retcode = 5;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -744,7 +744,7 @@ public final class SetUpAvatarTeamRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 13;</code>
+       * <code>int32 retcode = 5;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -755,7 +755,7 @@ public final class SetUpAvatarTeamRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 13;</code>
+       * <code>int32 retcode = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -767,7 +767,7 @@ public final class SetUpAvatarTeamRspOuterClass {
 
       private long curAvatarGuid_ ;
       /**
-       * <code>uint64 cur_avatar_guid = 11;</code>
+       * <code>uint64 cur_avatar_guid = 6;</code>
        * @return The curAvatarGuid.
        */
       @java.lang.Override
@@ -775,7 +775,7 @@ public final class SetUpAvatarTeamRspOuterClass {
         return curAvatarGuid_;
       }
       /**
-       * <code>uint64 cur_avatar_guid = 11;</code>
+       * <code>uint64 cur_avatar_guid = 6;</code>
        * @param value The curAvatarGuid to set.
        * @return This builder for chaining.
        */
@@ -786,7 +786,7 @@ public final class SetUpAvatarTeamRspOuterClass {
         return this;
       }
       /**
-       * <code>uint64 cur_avatar_guid = 11;</code>
+       * <code>uint64 cur_avatar_guid = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearCurAvatarGuid() {
@@ -864,8 +864,8 @@ public final class SetUpAvatarTeamRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030SetUpAvatarTeamRsp.proto\"n\n\022SetUpAvata" +
       "rTeamRsp\022\035\n\025avatar_team_guid_list\030\016 \003(\004\022" +
-      "\017\n\007team_id\030\002 \001(\r\022\017\n\007retcode\030\r \001(\005\022\027\n\017cur" +
-      "_avatar_guid\030\013 \001(\004B\033\n\031emu.grasscutter.ne" +
+      "\017\n\007team_id\030\002 \001(\r\022\017\n\007retcode\030\005 \001(\005\022\027\n\017cur" +
+      "_avatar_guid\030\006 \001(\004B\033\n\031emu.grasscutter.ne" +
       "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -103,12 +103,12 @@ public final class PacketOpcodes {
     public static final int ChangeAvatarRsp = 5642;
     public static final int PlayerSetPauseReq = 2586;
     public static final int HostPlayerNotify = 20494;
-    public static final int ChangeTeamNameReq = 1;
-	public static final int ChangeTeamNameRsp = 1;
-    public static final int ChooseCurAvatarTeamReq = 1;
-	public static final int ChooseCurAvatarTeamRsp = 1;
-	public static final int SetUpAvatarTeamReq = 1; 
-	public static final int SetUpAvatarTeamRsp = 1;
+    public static final int ChangeTeamNameReq = 6341;
+	public static final int ChangeTeamNameRsp = 20545;
+    public static final int ChooseCurAvatarTeamReq = 23016;
+	public static final int ChooseCurAvatarTeamRsp = 20453;
+	public static final int SetUpAvatarTeamReq = 5311;
+	public static final int SetUpAvatarTeamRsp = 3704;
     // Player - Inventory/Items
     public static final int PlayerStoreNotify = 26192;
 	public static final int StoreItemChangeNotify = 1; 
