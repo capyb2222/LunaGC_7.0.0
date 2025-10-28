@@ -1,5 +1,4 @@
 # LunaGC-6.1.0 VERY WIP
-# Very buggy, not recommended at all to play now (can't even walk - will fix soon)
 
 ## Updated version of Grasscutters, with some new features implemented.
 Old Discord for LunaGC https://discord.gg/7D5gkyJR5Y (don't ask for support there, instead create an issue in this repository)
@@ -8,12 +7,6 @@ Features and functionality of the ps is not guaranteed, try it yourself to see w
 This is possibly the only public PS with updated mob and gadget spawns! (Up to Version 5.4)
 
 Contribute if you want/can...
-
-# Outstanding bug(s) hall of fame:
-- everything (for now)
-
-# Outstanding critical stuff that does not work hall of fame:
-- Lauma and Flins (bad res)
 
 # Read the [handbook](handbook.md)!
 
