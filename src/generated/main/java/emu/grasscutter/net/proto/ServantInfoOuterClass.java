@@ -19,16 +19,16 @@ public final class ServantInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 born_slot_index = 2;</code>
-     * @return The bornSlotIndex.
-     */
-    int getBornSlotIndex();
-
-    /**
      * <code>uint32 master_entity_id = 1;</code>
      * @return The masterEntityId.
      */
     int getMasterEntityId();
+
+    /**
+     * <code>uint32 born_slot_index = 2;</code>
+     * @return The bornSlotIndex.
+     */
+    int getBornSlotIndex();
   }
   /**
    * Protobuf type {@code ServantInfo}
@@ -117,17 +117,6 @@ public final class ServantInfoOuterClass {
               emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo.class, emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo.Builder.class);
     }
 
-    public static final int BORN_SLOT_INDEX_FIELD_NUMBER = 2;
-    private int bornSlotIndex_;
-    /**
-     * <code>uint32 born_slot_index = 2;</code>
-     * @return The bornSlotIndex.
-     */
-    @java.lang.Override
-    public int getBornSlotIndex() {
-      return bornSlotIndex_;
-    }
-
     public static final int MASTER_ENTITY_ID_FIELD_NUMBER = 1;
     private int masterEntityId_;
     /**
@@ -137,6 +126,17 @@ public final class ServantInfoOuterClass {
     @java.lang.Override
     public int getMasterEntityId() {
       return masterEntityId_;
+    }
+
+    public static final int BORN_SLOT_INDEX_FIELD_NUMBER = 2;
+    private int bornSlotIndex_;
+    /**
+     * <code>uint32 born_slot_index = 2;</code>
+     * @return The bornSlotIndex.
+     */
+    @java.lang.Override
+    public int getBornSlotIndex() {
+      return bornSlotIndex_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -191,10 +191,10 @@ public final class ServantInfoOuterClass {
       }
       emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo other = (emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo) obj;
 
-      if (getBornSlotIndex()
-          != other.getBornSlotIndex()) return false;
       if (getMasterEntityId()
           != other.getMasterEntityId()) return false;
+      if (getBornSlotIndex()
+          != other.getBornSlotIndex()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +206,10 @@ public final class ServantInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + BORN_SLOT_INDEX_FIELD_NUMBER;
-      hash = (53 * hash) + getBornSlotIndex();
       hash = (37 * hash) + MASTER_ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getMasterEntityId();
+      hash = (37 * hash) + BORN_SLOT_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getBornSlotIndex();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -343,9 +343,9 @@ public final class ServantInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        bornSlotIndex_ = 0;
-
         masterEntityId_ = 0;
+
+        bornSlotIndex_ = 0;
 
         return this;
       }
@@ -373,8 +373,8 @@ public final class ServantInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo buildPartial() {
         emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo result = new emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo(this);
-        result.bornSlotIndex_ = bornSlotIndex_;
         result.masterEntityId_ = masterEntityId_;
+        result.bornSlotIndex_ = bornSlotIndex_;
         onBuilt();
         return result;
       }
@@ -423,11 +423,11 @@ public final class ServantInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo other) {
         if (other == emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo.getDefaultInstance()) return this;
-        if (other.getBornSlotIndex() != 0) {
-          setBornSlotIndex(other.getBornSlotIndex());
-        }
         if (other.getMasterEntityId() != 0) {
           setMasterEntityId(other.getMasterEntityId());
+        }
+        if (other.getBornSlotIndex() != 0) {
+          setBornSlotIndex(other.getBornSlotIndex());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,37 +458,6 @@ public final class ServantInfoOuterClass {
         return this;
       }
 
-      private int bornSlotIndex_ ;
-      /**
-       * <code>uint32 born_slot_index = 2;</code>
-       * @return The bornSlotIndex.
-       */
-      @java.lang.Override
-      public int getBornSlotIndex() {
-        return bornSlotIndex_;
-      }
-      /**
-       * <code>uint32 born_slot_index = 2;</code>
-       * @param value The bornSlotIndex to set.
-       * @return This builder for chaining.
-       */
-      public Builder setBornSlotIndex(int value) {
-        
-        bornSlotIndex_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 born_slot_index = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearBornSlotIndex() {
-        
-        bornSlotIndex_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int masterEntityId_ ;
       /**
        * <code>uint32 master_entity_id = 1;</code>
@@ -516,6 +485,37 @@ public final class ServantInfoOuterClass {
       public Builder clearMasterEntityId() {
         
         masterEntityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int bornSlotIndex_ ;
+      /**
+       * <code>uint32 born_slot_index = 2;</code>
+       * @return The bornSlotIndex.
+       */
+      @java.lang.Override
+      public int getBornSlotIndex() {
+        return bornSlotIndex_;
+      }
+      /**
+       * <code>uint32 born_slot_index = 2;</code>
+       * @param value The bornSlotIndex to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBornSlotIndex(int value) {
+        
+        bornSlotIndex_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 born_slot_index = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBornSlotIndex() {
+        
+        bornSlotIndex_ = 0;
         onChanged();
         return this;
       }
@@ -586,9 +586,9 @@ public final class ServantInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021ServantInfo.proto\"@\n\013ServantInfo\022\027\n\017bo" +
-      "rn_slot_index\030\002 \001(\r\022\030\n\020master_entity_id\030" +
-      "\001 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
+      "\n\021ServantInfo.proto\"@\n\013ServantInfo\022\030\n\020ma" +
+      "ster_entity_id\030\001 \001(\r\022\027\n\017born_slot_index\030" +
+      "\002 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
       "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -600,7 +600,7 @@ public final class ServantInfoOuterClass {
     internal_static_ServantInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ServantInfo_descriptor,
-        new java.lang.String[] { "BornSlotIndex", "MasterEntityId", });
+        new java.lang.String[] { "MasterEntityId", "BornSlotIndex", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

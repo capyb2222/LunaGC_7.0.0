@@ -25,16 +25,16 @@ public final class CityInfoOuterClass {
     int getCityId();
 
     /**
-     * <code>uint32 crystal_num = 3;</code>
-     * @return The crystalNum.
-     */
-    int getCrystalNum();
-
-    /**
      * <code>uint32 level = 1;</code>
      * @return The level.
      */
     int getLevel();
+
+    /**
+     * <code>uint32 crystal_num = 3;</code>
+     * @return The crystalNum.
+     */
+    int getCrystalNum();
   }
   /**
    * Protobuf type {@code CityInfo}
@@ -139,17 +139,6 @@ public final class CityInfoOuterClass {
       return cityId_;
     }
 
-    public static final int CRYSTAL_NUM_FIELD_NUMBER = 3;
-    private int crystalNum_;
-    /**
-     * <code>uint32 crystal_num = 3;</code>
-     * @return The crystalNum.
-     */
-    @java.lang.Override
-    public int getCrystalNum() {
-      return crystalNum_;
-    }
-
     public static final int LEVEL_FIELD_NUMBER = 1;
     private int level_;
     /**
@@ -159,6 +148,17 @@ public final class CityInfoOuterClass {
     @java.lang.Override
     public int getLevel() {
       return level_;
+    }
+
+    public static final int CRYSTAL_NUM_FIELD_NUMBER = 3;
+    private int crystalNum_;
+    /**
+     * <code>uint32 crystal_num = 3;</code>
+     * @return The crystalNum.
+     */
+    @java.lang.Override
+    public int getCrystalNum() {
+      return crystalNum_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -222,10 +222,10 @@ public final class CityInfoOuterClass {
 
       if (getCityId()
           != other.getCityId()) return false;
-      if (getCrystalNum()
-          != other.getCrystalNum()) return false;
       if (getLevel()
           != other.getLevel()) return false;
+      if (getCrystalNum()
+          != other.getCrystalNum()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -239,10 +239,10 @@ public final class CityInfoOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + CITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCityId();
-      hash = (37 * hash) + CRYSTAL_NUM_FIELD_NUMBER;
-      hash = (53 * hash) + getCrystalNum();
       hash = (37 * hash) + LEVEL_FIELD_NUMBER;
       hash = (53 * hash) + getLevel();
+      hash = (37 * hash) + CRYSTAL_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getCrystalNum();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -378,9 +378,9 @@ public final class CityInfoOuterClass {
         super.clear();
         cityId_ = 0;
 
-        crystalNum_ = 0;
-
         level_ = 0;
+
+        crystalNum_ = 0;
 
         return this;
       }
@@ -409,8 +409,8 @@ public final class CityInfoOuterClass {
       public emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo buildPartial() {
         emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo result = new emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo(this);
         result.cityId_ = cityId_;
-        result.crystalNum_ = crystalNum_;
         result.level_ = level_;
+        result.crystalNum_ = crystalNum_;
         onBuilt();
         return result;
       }
@@ -462,11 +462,11 @@ public final class CityInfoOuterClass {
         if (other.getCityId() != 0) {
           setCityId(other.getCityId());
         }
-        if (other.getCrystalNum() != 0) {
-          setCrystalNum(other.getCrystalNum());
-        }
         if (other.getLevel() != 0) {
           setLevel(other.getLevel());
+        }
+        if (other.getCrystalNum() != 0) {
+          setCrystalNum(other.getCrystalNum());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -528,37 +528,6 @@ public final class CityInfoOuterClass {
         return this;
       }
 
-      private int crystalNum_ ;
-      /**
-       * <code>uint32 crystal_num = 3;</code>
-       * @return The crystalNum.
-       */
-      @java.lang.Override
-      public int getCrystalNum() {
-        return crystalNum_;
-      }
-      /**
-       * <code>uint32 crystal_num = 3;</code>
-       * @param value The crystalNum to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCrystalNum(int value) {
-        
-        crystalNum_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 crystal_num = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCrystalNum() {
-        
-        crystalNum_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int level_ ;
       /**
        * <code>uint32 level = 1;</code>
@@ -586,6 +555,37 @@ public final class CityInfoOuterClass {
       public Builder clearLevel() {
         
         level_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int crystalNum_ ;
+      /**
+       * <code>uint32 crystal_num = 3;</code>
+       * @return The crystalNum.
+       */
+      @java.lang.Override
+      public int getCrystalNum() {
+        return crystalNum_;
+      }
+      /**
+       * <code>uint32 crystal_num = 3;</code>
+       * @param value The crystalNum to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCrystalNum(int value) {
+        
+        crystalNum_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 crystal_num = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCrystalNum() {
+        
+        crystalNum_ = 0;
         onChanged();
         return this;
       }
@@ -657,7 +657,7 @@ public final class CityInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\016CityInfo.proto\"?\n\010CityInfo\022\017\n\007city_id\030" +
-      "\010 \001(\r\022\023\n\013crystal_num\030\003 \001(\r\022\r\n\005level\030\001 \001(" +
+      "\010 \001(\r\022\r\n\005level\030\001 \001(\r\022\023\n\013crystal_num\030\003 \001(" +
       "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -669,7 +669,7 @@ public final class CityInfoOuterClass {
     internal_static_CityInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CityInfo_descriptor,
-        new java.lang.String[] { "CityId", "CrystalNum", "Level", });
+        new java.lang.String[] { "CityId", "Level", "CrystalNum", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

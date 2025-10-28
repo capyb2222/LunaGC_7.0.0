@@ -19,70 +19,70 @@ public final class WorldPlayerDieNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.AbilityString DFBLAMGEEGI = 14;</code>
-     * @return Whether the dFBLAMGEEGI field is set.
+     * <code>.AbilityString ECDDNPKOJMF = 9;</code>
+     * @return Whether the eCDDNPKOJMF field is set.
      */
-    boolean hasDFBLAMGEEGI();
+    boolean hasECDDNPKOJMF();
     /**
-     * <code>.AbilityString DFBLAMGEEGI = 14;</code>
-     * @return The dFBLAMGEEGI.
+     * <code>.AbilityString ECDDNPKOJMF = 9;</code>
+     * @return The eCDDNPKOJMF.
      */
-    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getDFBLAMGEEGI();
+    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getECDDNPKOJMF();
     /**
-     * <code>.AbilityString DFBLAMGEEGI = 14;</code>
+     * <code>.AbilityString ECDDNPKOJMF = 9;</code>
      */
-    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getDFBLAMGEEGIOrBuilder();
+    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getECDDNPKOJMFOrBuilder();
 
     /**
-     * <code>uint32 JAEGIGEBDID = 9;</code>
-     * @return The jAEGIGEBDID.
+     * <code>uint32 JEPKPFIPGAN = 6;</code>
+     * @return The jEPKPFIPGAN.
      */
-    int getJAEGIGEBDID();
+    int getJEPKPFIPGAN();
 
     /**
-     * <code>.PlayerDieType die_type = 15;</code>
+     * <code>.PlayerDieType die_type = 12;</code>
      * @return The enum numeric value on the wire for dieType.
      */
     int getDieTypeValue();
     /**
-     * <code>.PlayerDieType die_type = 15;</code>
+     * <code>.PlayerDieType die_type = 12;</code>
      * @return The dieType.
      */
     emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType getDieType();
 
     /**
-     * <code>uint32 POCEPONJILN = 2;</code>
-     * @return The pOCEPONJILN.
+     * <code>uint32 JLIKFFBNBKG = 15;</code>
+     * @return The jLIKFFBNBKG.
      */
-    int getPOCEPONJILN();
+    int getJLIKFFBNBKG();
 
     /**
-     * <code>uint32 gadget_id = 7;</code>
-     * @return Whether the gadgetId field is set.
-     */
-    boolean hasGadgetId();
-    /**
-     * <code>uint32 gadget_id = 7;</code>
-     * @return The gadgetId.
-     */
-    int getGadgetId();
-
-    /**
-     * <code>uint32 monster_id = 10;</code>
+     * <code>uint32 monster_id = 7;</code>
      * @return Whether the monsterId field is set.
      */
     boolean hasMonsterId();
     /**
-     * <code>uint32 monster_id = 10;</code>
+     * <code>uint32 monster_id = 7;</code>
      * @return The monsterId.
      */
     int getMonsterId();
+
+    /**
+     * <code>uint32 gadget_id = 11;</code>
+     * @return Whether the gadgetId field is set.
+     */
+    boolean hasGadgetId();
+    /**
+     * <code>uint32 gadget_id = 11;</code>
+     * @return The gadgetId.
+     */
+    int getGadgetId();
 
     public emu.grasscutter.net.proto.WorldPlayerDieNotifyOuterClass.WorldPlayerDieNotify.EntityCase getEntityCase();
   }
   /**
    * <pre>
-   * CmdID: 27388
+   * CmdId: 3326
    * </pre>
    *
    * Protobuf type {@code WorldPlayerDieNotify}
@@ -130,9 +130,9 @@ public final class WorldPlayerDieNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
-              pOCEPONJILN_ = input.readUInt32();
+              jEPKPFIPGAN_ = input.readUInt32();
               break;
             }
             case 56: {
@@ -140,33 +140,33 @@ public final class WorldPlayerDieNotifyOuterClass {
               entity_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 74: {
+              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder subBuilder = null;
+              if (eCDDNPKOJMF_ != null) {
+                subBuilder = eCDDNPKOJMF_.toBuilder();
+              }
+              eCDDNPKOJMF_ = input.readMessage(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(eCDDNPKOJMF_);
+                eCDDNPKOJMF_ = subBuilder.buildPartial();
+              }
 
-              jAEGIGEBDID_ = input.readUInt32();
               break;
             }
-            case 80: {
-              entityCase_ = 10;
+            case 88: {
+              entityCase_ = 11;
               entity_ = input.readUInt32();
               break;
             }
-            case 114: {
-              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder subBuilder = null;
-              if (dFBLAMGEEGI_ != null) {
-                subBuilder = dFBLAMGEEGI_.toBuilder();
-              }
-              dFBLAMGEEGI_ = input.readMessage(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(dFBLAMGEEGI_);
-                dFBLAMGEEGI_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 120: {
+            case 96: {
               int rawValue = input.readEnum();
 
               dieType_ = rawValue;
+              break;
+            }
+            case 120: {
+
+              jLIKFFBNBKG_ = input.readUInt32();
               break;
             }
             default: {
@@ -206,8 +206,8 @@ public final class WorldPlayerDieNotifyOuterClass {
     public enum EntityCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      GADGET_ID(7),
-      MONSTER_ID(10),
+      MONSTER_ID(7),
+      GADGET_ID(11),
       ENTITY_NOT_SET(0);
       private final int value;
       private EntityCase(int value) {
@@ -225,8 +225,8 @@ public final class WorldPlayerDieNotifyOuterClass {
 
       public static EntityCase forNumber(int value) {
         switch (value) {
-          case 7: return GADGET_ID;
-          case 10: return MONSTER_ID;
+          case 7: return MONSTER_ID;
+          case 11: return GADGET_ID;
           case 0: return ENTITY_NOT_SET;
           default: return null;
         }
@@ -242,54 +242,54 @@ public final class WorldPlayerDieNotifyOuterClass {
           entityCase_);
     }
 
-    public static final int DFBLAMGEEGI_FIELD_NUMBER = 14;
-    private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString dFBLAMGEEGI_;
+    public static final int ECDDNPKOJMF_FIELD_NUMBER = 9;
+    private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString eCDDNPKOJMF_;
     /**
-     * <code>.AbilityString DFBLAMGEEGI = 14;</code>
-     * @return Whether the dFBLAMGEEGI field is set.
+     * <code>.AbilityString ECDDNPKOJMF = 9;</code>
+     * @return Whether the eCDDNPKOJMF field is set.
      */
     @java.lang.Override
-    public boolean hasDFBLAMGEEGI() {
-      return dFBLAMGEEGI_ != null;
+    public boolean hasECDDNPKOJMF() {
+      return eCDDNPKOJMF_ != null;
     }
     /**
-     * <code>.AbilityString DFBLAMGEEGI = 14;</code>
-     * @return The dFBLAMGEEGI.
+     * <code>.AbilityString ECDDNPKOJMF = 9;</code>
+     * @return The eCDDNPKOJMF.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getDFBLAMGEEGI() {
-      return dFBLAMGEEGI_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : dFBLAMGEEGI_;
+    public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getECDDNPKOJMF() {
+      return eCDDNPKOJMF_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : eCDDNPKOJMF_;
     }
     /**
-     * <code>.AbilityString DFBLAMGEEGI = 14;</code>
+     * <code>.AbilityString ECDDNPKOJMF = 9;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getDFBLAMGEEGIOrBuilder() {
-      return getDFBLAMGEEGI();
-    }
-
-    public static final int JAEGIGEBDID_FIELD_NUMBER = 9;
-    private int jAEGIGEBDID_;
-    /**
-     * <code>uint32 JAEGIGEBDID = 9;</code>
-     * @return The jAEGIGEBDID.
-     */
-    @java.lang.Override
-    public int getJAEGIGEBDID() {
-      return jAEGIGEBDID_;
+    public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getECDDNPKOJMFOrBuilder() {
+      return getECDDNPKOJMF();
     }
 
-    public static final int DIE_TYPE_FIELD_NUMBER = 15;
+    public static final int JEPKPFIPGAN_FIELD_NUMBER = 6;
+    private int jEPKPFIPGAN_;
+    /**
+     * <code>uint32 JEPKPFIPGAN = 6;</code>
+     * @return The jEPKPFIPGAN.
+     */
+    @java.lang.Override
+    public int getJEPKPFIPGAN() {
+      return jEPKPFIPGAN_;
+    }
+
+    public static final int DIE_TYPE_FIELD_NUMBER = 12;
     private int dieType_;
     /**
-     * <code>.PlayerDieType die_type = 15;</code>
+     * <code>.PlayerDieType die_type = 12;</code>
      * @return The enum numeric value on the wire for dieType.
      */
     @java.lang.Override public int getDieTypeValue() {
       return dieType_;
     }
     /**
-     * <code>.PlayerDieType die_type = 15;</code>
+     * <code>.PlayerDieType die_type = 12;</code>
      * @return The dieType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType getDieType() {
@@ -298,54 +298,54 @@ public final class WorldPlayerDieNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType.UNRECOGNIZED : result;
     }
 
-    public static final int POCEPONJILN_FIELD_NUMBER = 2;
-    private int pOCEPONJILN_;
+    public static final int JLIKFFBNBKG_FIELD_NUMBER = 15;
+    private int jLIKFFBNBKG_;
     /**
-     * <code>uint32 POCEPONJILN = 2;</code>
-     * @return The pOCEPONJILN.
+     * <code>uint32 JLIKFFBNBKG = 15;</code>
+     * @return The jLIKFFBNBKG.
      */
     @java.lang.Override
-    public int getPOCEPONJILN() {
-      return pOCEPONJILN_;
+    public int getJLIKFFBNBKG() {
+      return jLIKFFBNBKG_;
     }
 
-    public static final int GADGET_ID_FIELD_NUMBER = 7;
+    public static final int MONSTER_ID_FIELD_NUMBER = 7;
     /**
-     * <code>uint32 gadget_id = 7;</code>
-     * @return Whether the gadgetId field is set.
+     * <code>uint32 monster_id = 7;</code>
+     * @return Whether the monsterId field is set.
      */
     @java.lang.Override
-    public boolean hasGadgetId() {
+    public boolean hasMonsterId() {
       return entityCase_ == 7;
     }
     /**
-     * <code>uint32 gadget_id = 7;</code>
-     * @return The gadgetId.
+     * <code>uint32 monster_id = 7;</code>
+     * @return The monsterId.
      */
     @java.lang.Override
-    public int getGadgetId() {
+    public int getMonsterId() {
       if (entityCase_ == 7) {
         return (java.lang.Integer) entity_;
       }
       return 0;
     }
 
-    public static final int MONSTER_ID_FIELD_NUMBER = 10;
+    public static final int GADGET_ID_FIELD_NUMBER = 11;
     /**
-     * <code>uint32 monster_id = 10;</code>
-     * @return Whether the monsterId field is set.
+     * <code>uint32 gadget_id = 11;</code>
+     * @return Whether the gadgetId field is set.
      */
     @java.lang.Override
-    public boolean hasMonsterId() {
-      return entityCase_ == 10;
+    public boolean hasGadgetId() {
+      return entityCase_ == 11;
     }
     /**
-     * <code>uint32 monster_id = 10;</code>
-     * @return The monsterId.
+     * <code>uint32 gadget_id = 11;</code>
+     * @return The gadgetId.
      */
     @java.lang.Override
-    public int getMonsterId() {
-      if (entityCase_ == 10) {
+    public int getGadgetId() {
+      if (entityCase_ == 11) {
         return (java.lang.Integer) entity_;
       }
       return 0;
@@ -365,25 +365,25 @@ public final class WorldPlayerDieNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pOCEPONJILN_ != 0) {
-        output.writeUInt32(2, pOCEPONJILN_);
+      if (jEPKPFIPGAN_ != 0) {
+        output.writeUInt32(6, jEPKPFIPGAN_);
       }
       if (entityCase_ == 7) {
         output.writeUInt32(
             7, (int)((java.lang.Integer) entity_));
       }
-      if (jAEGIGEBDID_ != 0) {
-        output.writeUInt32(9, jAEGIGEBDID_);
+      if (eCDDNPKOJMF_ != null) {
+        output.writeMessage(9, getECDDNPKOJMF());
       }
-      if (entityCase_ == 10) {
+      if (entityCase_ == 11) {
         output.writeUInt32(
-            10, (int)((java.lang.Integer) entity_));
-      }
-      if (dFBLAMGEEGI_ != null) {
-        output.writeMessage(14, getDFBLAMGEEGI());
+            11, (int)((java.lang.Integer) entity_));
       }
       if (dieType_ != emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType.PLAYER_DIE_TYPE_NONE.getNumber()) {
-        output.writeEnum(15, dieType_);
+        output.writeEnum(12, dieType_);
+      }
+      if (jLIKFFBNBKG_ != 0) {
+        output.writeUInt32(15, jLIKFFBNBKG_);
       }
       unknownFields.writeTo(output);
     }
@@ -394,31 +394,31 @@ public final class WorldPlayerDieNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pOCEPONJILN_ != 0) {
+      if (jEPKPFIPGAN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, pOCEPONJILN_);
+          .computeUInt32Size(6, jEPKPFIPGAN_);
       }
       if (entityCase_ == 7) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(
               7, (int)((java.lang.Integer) entity_));
       }
-      if (jAEGIGEBDID_ != 0) {
+      if (eCDDNPKOJMF_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, jAEGIGEBDID_);
+          .computeMessageSize(9, getECDDNPKOJMF());
       }
-      if (entityCase_ == 10) {
+      if (entityCase_ == 11) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(
-              10, (int)((java.lang.Integer) entity_));
-      }
-      if (dFBLAMGEEGI_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, getDFBLAMGEEGI());
+              11, (int)((java.lang.Integer) entity_));
       }
       if (dieType_ != emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType.PLAYER_DIE_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(15, dieType_);
+          .computeEnumSize(12, dieType_);
+      }
+      if (jLIKFFBNBKG_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, jLIKFFBNBKG_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -435,25 +435,25 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       emu.grasscutter.net.proto.WorldPlayerDieNotifyOuterClass.WorldPlayerDieNotify other = (emu.grasscutter.net.proto.WorldPlayerDieNotifyOuterClass.WorldPlayerDieNotify) obj;
 
-      if (hasDFBLAMGEEGI() != other.hasDFBLAMGEEGI()) return false;
-      if (hasDFBLAMGEEGI()) {
-        if (!getDFBLAMGEEGI()
-            .equals(other.getDFBLAMGEEGI())) return false;
+      if (hasECDDNPKOJMF() != other.hasECDDNPKOJMF()) return false;
+      if (hasECDDNPKOJMF()) {
+        if (!getECDDNPKOJMF()
+            .equals(other.getECDDNPKOJMF())) return false;
       }
-      if (getJAEGIGEBDID()
-          != other.getJAEGIGEBDID()) return false;
+      if (getJEPKPFIPGAN()
+          != other.getJEPKPFIPGAN()) return false;
       if (dieType_ != other.dieType_) return false;
-      if (getPOCEPONJILN()
-          != other.getPOCEPONJILN()) return false;
+      if (getJLIKFFBNBKG()
+          != other.getJLIKFFBNBKG()) return false;
       if (!getEntityCase().equals(other.getEntityCase())) return false;
       switch (entityCase_) {
         case 7:
-          if (getGadgetId()
-              != other.getGadgetId()) return false;
-          break;
-        case 10:
           if (getMonsterId()
               != other.getMonsterId()) return false;
+          break;
+        case 11:
+          if (getGadgetId()
+              != other.getGadgetId()) return false;
           break;
         case 0:
         default:
@@ -469,24 +469,24 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasDFBLAMGEEGI()) {
-        hash = (37 * hash) + DFBLAMGEEGI_FIELD_NUMBER;
-        hash = (53 * hash) + getDFBLAMGEEGI().hashCode();
+      if (hasECDDNPKOJMF()) {
+        hash = (37 * hash) + ECDDNPKOJMF_FIELD_NUMBER;
+        hash = (53 * hash) + getECDDNPKOJMF().hashCode();
       }
-      hash = (37 * hash) + JAEGIGEBDID_FIELD_NUMBER;
-      hash = (53 * hash) + getJAEGIGEBDID();
+      hash = (37 * hash) + JEPKPFIPGAN_FIELD_NUMBER;
+      hash = (53 * hash) + getJEPKPFIPGAN();
       hash = (37 * hash) + DIE_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + dieType_;
-      hash = (37 * hash) + POCEPONJILN_FIELD_NUMBER;
-      hash = (53 * hash) + getPOCEPONJILN();
+      hash = (37 * hash) + JLIKFFBNBKG_FIELD_NUMBER;
+      hash = (53 * hash) + getJLIKFFBNBKG();
       switch (entityCase_) {
         case 7:
-          hash = (37 * hash) + GADGET_ID_FIELD_NUMBER;
-          hash = (53 * hash) + getGadgetId();
-          break;
-        case 10:
           hash = (37 * hash) + MONSTER_ID_FIELD_NUMBER;
           hash = (53 * hash) + getMonsterId();
+          break;
+        case 11:
+          hash = (37 * hash) + GADGET_ID_FIELD_NUMBER;
+          hash = (53 * hash) + getGadgetId();
           break;
         case 0:
         default:
@@ -588,7 +588,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdID: 27388
+     * CmdId: 3326
      * </pre>
      *
      * Protobuf type {@code WorldPlayerDieNotify}
@@ -628,17 +628,17 @@ public final class WorldPlayerDieNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (dFBLAMGEEGIBuilder_ == null) {
-          dFBLAMGEEGI_ = null;
+        if (eCDDNPKOJMFBuilder_ == null) {
+          eCDDNPKOJMF_ = null;
         } else {
-          dFBLAMGEEGI_ = null;
-          dFBLAMGEEGIBuilder_ = null;
+          eCDDNPKOJMF_ = null;
+          eCDDNPKOJMFBuilder_ = null;
         }
-        jAEGIGEBDID_ = 0;
+        jEPKPFIPGAN_ = 0;
 
         dieType_ = 0;
 
-        pOCEPONJILN_ = 0;
+        jLIKFFBNBKG_ = 0;
 
         entityCase_ = 0;
         entity_ = null;
@@ -668,18 +668,18 @@ public final class WorldPlayerDieNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.WorldPlayerDieNotifyOuterClass.WorldPlayerDieNotify buildPartial() {
         emu.grasscutter.net.proto.WorldPlayerDieNotifyOuterClass.WorldPlayerDieNotify result = new emu.grasscutter.net.proto.WorldPlayerDieNotifyOuterClass.WorldPlayerDieNotify(this);
-        if (dFBLAMGEEGIBuilder_ == null) {
-          result.dFBLAMGEEGI_ = dFBLAMGEEGI_;
+        if (eCDDNPKOJMFBuilder_ == null) {
+          result.eCDDNPKOJMF_ = eCDDNPKOJMF_;
         } else {
-          result.dFBLAMGEEGI_ = dFBLAMGEEGIBuilder_.build();
+          result.eCDDNPKOJMF_ = eCDDNPKOJMFBuilder_.build();
         }
-        result.jAEGIGEBDID_ = jAEGIGEBDID_;
+        result.jEPKPFIPGAN_ = jEPKPFIPGAN_;
         result.dieType_ = dieType_;
-        result.pOCEPONJILN_ = pOCEPONJILN_;
+        result.jLIKFFBNBKG_ = jLIKFFBNBKG_;
         if (entityCase_ == 7) {
           result.entity_ = entity_;
         }
-        if (entityCase_ == 10) {
+        if (entityCase_ == 11) {
           result.entity_ = entity_;
         }
         result.entityCase_ = entityCase_;
@@ -731,25 +731,25 @@ public final class WorldPlayerDieNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.WorldPlayerDieNotifyOuterClass.WorldPlayerDieNotify other) {
         if (other == emu.grasscutter.net.proto.WorldPlayerDieNotifyOuterClass.WorldPlayerDieNotify.getDefaultInstance()) return this;
-        if (other.hasDFBLAMGEEGI()) {
-          mergeDFBLAMGEEGI(other.getDFBLAMGEEGI());
+        if (other.hasECDDNPKOJMF()) {
+          mergeECDDNPKOJMF(other.getECDDNPKOJMF());
         }
-        if (other.getJAEGIGEBDID() != 0) {
-          setJAEGIGEBDID(other.getJAEGIGEBDID());
+        if (other.getJEPKPFIPGAN() != 0) {
+          setJEPKPFIPGAN(other.getJEPKPFIPGAN());
         }
         if (other.dieType_ != 0) {
           setDieTypeValue(other.getDieTypeValue());
         }
-        if (other.getPOCEPONJILN() != 0) {
-          setPOCEPONJILN(other.getPOCEPONJILN());
+        if (other.getJLIKFFBNBKG() != 0) {
+          setJLIKFFBNBKG(other.getJLIKFFBNBKG());
         }
         switch (other.getEntityCase()) {
-          case GADGET_ID: {
-            setGadgetId(other.getGadgetId());
-            break;
-          }
           case MONSTER_ID: {
             setMonsterId(other.getMonsterId());
+            break;
+          }
+          case GADGET_ID: {
+            setGadgetId(other.getGadgetId());
             break;
           }
           case ENTITY_NOT_SET: {
@@ -800,166 +800,166 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
 
 
-      private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString dFBLAMGEEGI_;
+      private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString eCDDNPKOJMF_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> dFBLAMGEEGIBuilder_;
+          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> eCDDNPKOJMFBuilder_;
       /**
-       * <code>.AbilityString DFBLAMGEEGI = 14;</code>
-       * @return Whether the dFBLAMGEEGI field is set.
+       * <code>.AbilityString ECDDNPKOJMF = 9;</code>
+       * @return Whether the eCDDNPKOJMF field is set.
        */
-      public boolean hasDFBLAMGEEGI() {
-        return dFBLAMGEEGIBuilder_ != null || dFBLAMGEEGI_ != null;
+      public boolean hasECDDNPKOJMF() {
+        return eCDDNPKOJMFBuilder_ != null || eCDDNPKOJMF_ != null;
       }
       /**
-       * <code>.AbilityString DFBLAMGEEGI = 14;</code>
-       * @return The dFBLAMGEEGI.
+       * <code>.AbilityString ECDDNPKOJMF = 9;</code>
+       * @return The eCDDNPKOJMF.
        */
-      public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getDFBLAMGEEGI() {
-        if (dFBLAMGEEGIBuilder_ == null) {
-          return dFBLAMGEEGI_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : dFBLAMGEEGI_;
+      public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getECDDNPKOJMF() {
+        if (eCDDNPKOJMFBuilder_ == null) {
+          return eCDDNPKOJMF_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : eCDDNPKOJMF_;
         } else {
-          return dFBLAMGEEGIBuilder_.getMessage();
+          return eCDDNPKOJMFBuilder_.getMessage();
         }
       }
       /**
-       * <code>.AbilityString DFBLAMGEEGI = 14;</code>
+       * <code>.AbilityString ECDDNPKOJMF = 9;</code>
        */
-      public Builder setDFBLAMGEEGI(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
-        if (dFBLAMGEEGIBuilder_ == null) {
+      public Builder setECDDNPKOJMF(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
+        if (eCDDNPKOJMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          dFBLAMGEEGI_ = value;
+          eCDDNPKOJMF_ = value;
           onChanged();
         } else {
-          dFBLAMGEEGIBuilder_.setMessage(value);
+          eCDDNPKOJMFBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.AbilityString DFBLAMGEEGI = 14;</code>
+       * <code>.AbilityString ECDDNPKOJMF = 9;</code>
        */
-      public Builder setDFBLAMGEEGI(
+      public Builder setECDDNPKOJMF(
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder builderForValue) {
-        if (dFBLAMGEEGIBuilder_ == null) {
-          dFBLAMGEEGI_ = builderForValue.build();
+        if (eCDDNPKOJMFBuilder_ == null) {
+          eCDDNPKOJMF_ = builderForValue.build();
           onChanged();
         } else {
-          dFBLAMGEEGIBuilder_.setMessage(builderForValue.build());
+          eCDDNPKOJMFBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.AbilityString DFBLAMGEEGI = 14;</code>
+       * <code>.AbilityString ECDDNPKOJMF = 9;</code>
        */
-      public Builder mergeDFBLAMGEEGI(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
-        if (dFBLAMGEEGIBuilder_ == null) {
-          if (dFBLAMGEEGI_ != null) {
-            dFBLAMGEEGI_ =
-              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.newBuilder(dFBLAMGEEGI_).mergeFrom(value).buildPartial();
+      public Builder mergeECDDNPKOJMF(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
+        if (eCDDNPKOJMFBuilder_ == null) {
+          if (eCDDNPKOJMF_ != null) {
+            eCDDNPKOJMF_ =
+              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.newBuilder(eCDDNPKOJMF_).mergeFrom(value).buildPartial();
           } else {
-            dFBLAMGEEGI_ = value;
+            eCDDNPKOJMF_ = value;
           }
           onChanged();
         } else {
-          dFBLAMGEEGIBuilder_.mergeFrom(value);
+          eCDDNPKOJMFBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.AbilityString DFBLAMGEEGI = 14;</code>
+       * <code>.AbilityString ECDDNPKOJMF = 9;</code>
        */
-      public Builder clearDFBLAMGEEGI() {
-        if (dFBLAMGEEGIBuilder_ == null) {
-          dFBLAMGEEGI_ = null;
+      public Builder clearECDDNPKOJMF() {
+        if (eCDDNPKOJMFBuilder_ == null) {
+          eCDDNPKOJMF_ = null;
           onChanged();
         } else {
-          dFBLAMGEEGI_ = null;
-          dFBLAMGEEGIBuilder_ = null;
+          eCDDNPKOJMF_ = null;
+          eCDDNPKOJMFBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.AbilityString DFBLAMGEEGI = 14;</code>
+       * <code>.AbilityString ECDDNPKOJMF = 9;</code>
        */
-      public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getDFBLAMGEEGIBuilder() {
+      public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getECDDNPKOJMFBuilder() {
         
         onChanged();
-        return getDFBLAMGEEGIFieldBuilder().getBuilder();
+        return getECDDNPKOJMFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.AbilityString DFBLAMGEEGI = 14;</code>
+       * <code>.AbilityString ECDDNPKOJMF = 9;</code>
        */
-      public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getDFBLAMGEEGIOrBuilder() {
-        if (dFBLAMGEEGIBuilder_ != null) {
-          return dFBLAMGEEGIBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getECDDNPKOJMFOrBuilder() {
+        if (eCDDNPKOJMFBuilder_ != null) {
+          return eCDDNPKOJMFBuilder_.getMessageOrBuilder();
         } else {
-          return dFBLAMGEEGI_ == null ?
-              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : dFBLAMGEEGI_;
+          return eCDDNPKOJMF_ == null ?
+              emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : eCDDNPKOJMF_;
         }
       }
       /**
-       * <code>.AbilityString DFBLAMGEEGI = 14;</code>
+       * <code>.AbilityString ECDDNPKOJMF = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> 
-          getDFBLAMGEEGIFieldBuilder() {
-        if (dFBLAMGEEGIBuilder_ == null) {
-          dFBLAMGEEGIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getECDDNPKOJMFFieldBuilder() {
+        if (eCDDNPKOJMFBuilder_ == null) {
+          eCDDNPKOJMFBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder>(
-                  getDFBLAMGEEGI(),
+                  getECDDNPKOJMF(),
                   getParentForChildren(),
                   isClean());
-          dFBLAMGEEGI_ = null;
+          eCDDNPKOJMF_ = null;
         }
-        return dFBLAMGEEGIBuilder_;
+        return eCDDNPKOJMFBuilder_;
       }
 
-      private int jAEGIGEBDID_ ;
+      private int jEPKPFIPGAN_ ;
       /**
-       * <code>uint32 JAEGIGEBDID = 9;</code>
-       * @return The jAEGIGEBDID.
+       * <code>uint32 JEPKPFIPGAN = 6;</code>
+       * @return The jEPKPFIPGAN.
        */
       @java.lang.Override
-      public int getJAEGIGEBDID() {
-        return jAEGIGEBDID_;
+      public int getJEPKPFIPGAN() {
+        return jEPKPFIPGAN_;
       }
       /**
-       * <code>uint32 JAEGIGEBDID = 9;</code>
-       * @param value The jAEGIGEBDID to set.
+       * <code>uint32 JEPKPFIPGAN = 6;</code>
+       * @param value The jEPKPFIPGAN to set.
        * @return This builder for chaining.
        */
-      public Builder setJAEGIGEBDID(int value) {
+      public Builder setJEPKPFIPGAN(int value) {
         
-        jAEGIGEBDID_ = value;
+        jEPKPFIPGAN_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 JAEGIGEBDID = 9;</code>
+       * <code>uint32 JEPKPFIPGAN = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJAEGIGEBDID() {
+      public Builder clearJEPKPFIPGAN() {
         
-        jAEGIGEBDID_ = 0;
+        jEPKPFIPGAN_ = 0;
         onChanged();
         return this;
       }
 
       private int dieType_ = 0;
       /**
-       * <code>.PlayerDieType die_type = 15;</code>
+       * <code>.PlayerDieType die_type = 12;</code>
        * @return The enum numeric value on the wire for dieType.
        */
       @java.lang.Override public int getDieTypeValue() {
         return dieType_;
       }
       /**
-       * <code>.PlayerDieType die_type = 15;</code>
+       * <code>.PlayerDieType die_type = 12;</code>
        * @param value The enum numeric value on the wire for dieType to set.
        * @return This builder for chaining.
        */
@@ -970,7 +970,7 @@ public final class WorldPlayerDieNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.PlayerDieType die_type = 15;</code>
+       * <code>.PlayerDieType die_type = 12;</code>
        * @return The dieType.
        */
       @java.lang.Override
@@ -980,7 +980,7 @@ public final class WorldPlayerDieNotifyOuterClass {
         return result == null ? emu.grasscutter.net.proto.PlayerDieTypeOuterClass.PlayerDieType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.PlayerDieType die_type = 15;</code>
+       * <code>.PlayerDieType die_type = 12;</code>
        * @param value The dieType to set.
        * @return This builder for chaining.
        */
@@ -994,7 +994,7 @@ public final class WorldPlayerDieNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.PlayerDieType die_type = 15;</code>
+       * <code>.PlayerDieType die_type = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearDieType() {
@@ -1004,70 +1004,70 @@ public final class WorldPlayerDieNotifyOuterClass {
         return this;
       }
 
-      private int pOCEPONJILN_ ;
+      private int jLIKFFBNBKG_ ;
       /**
-       * <code>uint32 POCEPONJILN = 2;</code>
-       * @return The pOCEPONJILN.
+       * <code>uint32 JLIKFFBNBKG = 15;</code>
+       * @return The jLIKFFBNBKG.
        */
       @java.lang.Override
-      public int getPOCEPONJILN() {
-        return pOCEPONJILN_;
+      public int getJLIKFFBNBKG() {
+        return jLIKFFBNBKG_;
       }
       /**
-       * <code>uint32 POCEPONJILN = 2;</code>
-       * @param value The pOCEPONJILN to set.
+       * <code>uint32 JLIKFFBNBKG = 15;</code>
+       * @param value The jLIKFFBNBKG to set.
        * @return This builder for chaining.
        */
-      public Builder setPOCEPONJILN(int value) {
+      public Builder setJLIKFFBNBKG(int value) {
         
-        pOCEPONJILN_ = value;
+        jLIKFFBNBKG_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 POCEPONJILN = 2;</code>
+       * <code>uint32 JLIKFFBNBKG = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPOCEPONJILN() {
+      public Builder clearJLIKFFBNBKG() {
         
-        pOCEPONJILN_ = 0;
+        jLIKFFBNBKG_ = 0;
         onChanged();
         return this;
       }
 
       /**
-       * <code>uint32 gadget_id = 7;</code>
-       * @return Whether the gadgetId field is set.
+       * <code>uint32 monster_id = 7;</code>
+       * @return Whether the monsterId field is set.
        */
-      public boolean hasGadgetId() {
+      public boolean hasMonsterId() {
         return entityCase_ == 7;
       }
       /**
-       * <code>uint32 gadget_id = 7;</code>
-       * @return The gadgetId.
+       * <code>uint32 monster_id = 7;</code>
+       * @return The monsterId.
        */
-      public int getGadgetId() {
+      public int getMonsterId() {
         if (entityCase_ == 7) {
           return (java.lang.Integer) entity_;
         }
         return 0;
       }
       /**
-       * <code>uint32 gadget_id = 7;</code>
-       * @param value The gadgetId to set.
+       * <code>uint32 monster_id = 7;</code>
+       * @param value The monsterId to set.
        * @return This builder for chaining.
        */
-      public Builder setGadgetId(int value) {
+      public Builder setMonsterId(int value) {
         entityCase_ = 7;
         entity_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 gadget_id = 7;</code>
+       * <code>uint32 monster_id = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGadgetId() {
+      public Builder clearMonsterId() {
         if (entityCase_ == 7) {
           entityCase_ = 0;
           entity_ = null;
@@ -1077,39 +1077,39 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
 
       /**
-       * <code>uint32 monster_id = 10;</code>
-       * @return Whether the monsterId field is set.
+       * <code>uint32 gadget_id = 11;</code>
+       * @return Whether the gadgetId field is set.
        */
-      public boolean hasMonsterId() {
-        return entityCase_ == 10;
+      public boolean hasGadgetId() {
+        return entityCase_ == 11;
       }
       /**
-       * <code>uint32 monster_id = 10;</code>
-       * @return The monsterId.
+       * <code>uint32 gadget_id = 11;</code>
+       * @return The gadgetId.
        */
-      public int getMonsterId() {
-        if (entityCase_ == 10) {
+      public int getGadgetId() {
+        if (entityCase_ == 11) {
           return (java.lang.Integer) entity_;
         }
         return 0;
       }
       /**
-       * <code>uint32 monster_id = 10;</code>
-       * @param value The monsterId to set.
+       * <code>uint32 gadget_id = 11;</code>
+       * @param value The gadgetId to set.
        * @return This builder for chaining.
        */
-      public Builder setMonsterId(int value) {
-        entityCase_ = 10;
+      public Builder setGadgetId(int value) {
+        entityCase_ = 11;
         entity_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 monster_id = 10;</code>
+       * <code>uint32 gadget_id = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMonsterId() {
-        if (entityCase_ == 10) {
+      public Builder clearGadgetId() {
+        if (entityCase_ == 11) {
           entityCase_ = 0;
           entity_ = null;
           onChanged();
@@ -1185,11 +1185,11 @@ public final class WorldPlayerDieNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032WorldPlayerDieNotify.proto\032\023AbilityStr" +
       "ing.proto\032\023PlayerDieType.proto\"\274\001\n\024World" +
-      "PlayerDieNotify\022#\n\013DFBLAMGEEGI\030\016 \001(\0132\016.A" +
-      "bilityString\022\023\n\013JAEGIGEBDID\030\t \001(\r\022 \n\010die" +
-      "_type\030\017 \001(\0162\016.PlayerDieType\022\023\n\013POCEPONJI" +
-      "LN\030\002 \001(\r\022\023\n\tgadget_id\030\007 \001(\rH\000\022\024\n\nmonster" +
-      "_id\030\n \001(\rH\000B\010\n\006entityB\033\n\031emu.grasscutter" +
+      "PlayerDieNotify\022#\n\013ECDDNPKOJMF\030\t \001(\0132\016.A" +
+      "bilityString\022\023\n\013JEPKPFIPGAN\030\006 \001(\r\022 \n\010die" +
+      "_type\030\014 \001(\0162\016.PlayerDieType\022\023\n\013JLIKFFBNB" +
+      "KG\030\017 \001(\r\022\024\n\nmonster_id\030\007 \001(\rH\000\022\023\n\tgadget" +
+      "_id\030\013 \001(\rH\000B\010\n\006entityB\033\n\031emu.grasscutter" +
       ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1203,7 +1203,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     internal_static_WorldPlayerDieNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WorldPlayerDieNotify_descriptor,
-        new java.lang.String[] { "DFBLAMGEEGI", "JAEGIGEBDID", "DieType", "POCEPONJILN", "GadgetId", "MonsterId", "Entity", });
+        new java.lang.String[] { "ECDDNPKOJMF", "JEPKPFIPGAN", "DieType", "JLIKFFBNBKG", "MonsterId", "GadgetId", "Entity", });
     emu.grasscutter.net.proto.AbilityStringOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PlayerDieTypeOuterClass.getDescriptor();
   }

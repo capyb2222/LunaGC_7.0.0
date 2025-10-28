@@ -19,18 +19,6 @@ public final class AvatarFetterInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 exp_number = 1;</code>
-     * @return The expNumber.
-     */
-    int getExpNumber();
-
-    /**
-     * <code>uint32 exp_level = 2;</code>
-     * @return The expLevel.
-     */
-    int getExpLevel();
-
-    /**
      * <code>repeated uint32 open_id_list = 3;</code>
      * @return A list containing the openIdList.
      */
@@ -104,6 +92,18 @@ public final class AvatarFetterInfoOuterClass {
      */
     emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder getFetterListOrBuilder(
         int index);
+
+    /**
+     * <code>uint32 exp_number = 1;</code>
+     * @return The expNumber.
+     */
+    int getExpNumber();
+
+    /**
+     * <code>uint32 exp_level = 2;</code>
+     * @return The expLevel.
+     */
+    int getExpLevel();
   }
   /**
    * Protobuf type {@code AvatarFetterInfo}
@@ -281,28 +281,6 @@ public final class AvatarFetterInfoOuterClass {
               emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo.class, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo.Builder.class);
     }
 
-    public static final int EXP_NUMBER_FIELD_NUMBER = 1;
-    private int expNumber_;
-    /**
-     * <code>uint32 exp_number = 1;</code>
-     * @return The expNumber.
-     */
-    @java.lang.Override
-    public int getExpNumber() {
-      return expNumber_;
-    }
-
-    public static final int EXP_LEVEL_FIELD_NUMBER = 2;
-    private int expLevel_;
-    /**
-     * <code>uint32 exp_level = 2;</code>
-     * @return The expLevel.
-     */
-    @java.lang.Override
-    public int getExpLevel() {
-      return expLevel_;
-    }
-
     public static final int OPEN_ID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList openIdList_;
     /**
@@ -425,6 +403,28 @@ public final class AvatarFetterInfoOuterClass {
     public emu.grasscutter.net.proto.FetterDataOuterClass.FetterDataOrBuilder getFetterListOrBuilder(
         int index) {
       return fetterList_.get(index);
+    }
+
+    public static final int EXP_NUMBER_FIELD_NUMBER = 1;
+    private int expNumber_;
+    /**
+     * <code>uint32 exp_number = 1;</code>
+     * @return The expNumber.
+     */
+    @java.lang.Override
+    public int getExpNumber() {
+      return expNumber_;
+    }
+
+    public static final int EXP_LEVEL_FIELD_NUMBER = 2;
+    private int expLevel_;
+    /**
+     * <code>uint32 exp_level = 2;</code>
+     * @return The expLevel.
+     */
+    @java.lang.Override
+    public int getExpLevel() {
+      return expLevel_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -550,10 +550,6 @@ public final class AvatarFetterInfoOuterClass {
       }
       emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo other = (emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo) obj;
 
-      if (getExpNumber()
-          != other.getExpNumber()) return false;
-      if (getExpLevel()
-          != other.getExpLevel()) return false;
       if (!getOpenIdListList()
           .equals(other.getOpenIdListList())) return false;
       if (!getFinishIdListList()
@@ -562,6 +558,10 @@ public final class AvatarFetterInfoOuterClass {
           .equals(other.getRewardedFetterLevelListList())) return false;
       if (!getFetterListList()
           .equals(other.getFetterListList())) return false;
+      if (getExpNumber()
+          != other.getExpNumber()) return false;
+      if (getExpLevel()
+          != other.getExpLevel()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -573,10 +573,6 @@ public final class AvatarFetterInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + EXP_NUMBER_FIELD_NUMBER;
-      hash = (53 * hash) + getExpNumber();
-      hash = (37 * hash) + EXP_LEVEL_FIELD_NUMBER;
-      hash = (53 * hash) + getExpLevel();
       if (getOpenIdListCount() > 0) {
         hash = (37 * hash) + OPEN_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getOpenIdListList().hashCode();
@@ -593,6 +589,10 @@ public final class AvatarFetterInfoOuterClass {
         hash = (37 * hash) + FETTER_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getFetterListList().hashCode();
       }
+      hash = (37 * hash) + EXP_NUMBER_FIELD_NUMBER;
+      hash = (53 * hash) + getExpNumber();
+      hash = (37 * hash) + EXP_LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getExpLevel();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -727,10 +727,6 @@ public final class AvatarFetterInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        expNumber_ = 0;
-
-        expLevel_ = 0;
-
         openIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         finishIdList_ = emptyIntList();
@@ -743,6 +739,10 @@ public final class AvatarFetterInfoOuterClass {
         } else {
           fetterListBuilder_.clear();
         }
+        expNumber_ = 0;
+
+        expLevel_ = 0;
+
         return this;
       }
 
@@ -770,8 +770,6 @@ public final class AvatarFetterInfoOuterClass {
       public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo buildPartial() {
         emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo result = new emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo(this);
         int from_bitField0_ = bitField0_;
-        result.expNumber_ = expNumber_;
-        result.expLevel_ = expLevel_;
         if (((bitField0_ & 0x00000001) != 0)) {
           openIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
@@ -796,6 +794,8 @@ public final class AvatarFetterInfoOuterClass {
         } else {
           result.fetterList_ = fetterListBuilder_.build();
         }
+        result.expNumber_ = expNumber_;
+        result.expLevel_ = expLevel_;
         onBuilt();
         return result;
       }
@@ -844,12 +844,6 @@ public final class AvatarFetterInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo other) {
         if (other == emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo.getDefaultInstance()) return this;
-        if (other.getExpNumber() != 0) {
-          setExpNumber(other.getExpNumber());
-        }
-        if (other.getExpLevel() != 0) {
-          setExpLevel(other.getExpLevel());
-        }
         if (!other.openIdList_.isEmpty()) {
           if (openIdList_.isEmpty()) {
             openIdList_ = other.openIdList_;
@@ -906,6 +900,12 @@ public final class AvatarFetterInfoOuterClass {
             }
           }
         }
+        if (other.getExpNumber() != 0) {
+          setExpNumber(other.getExpNumber());
+        }
+        if (other.getExpLevel() != 0) {
+          setExpLevel(other.getExpLevel());
+        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -935,68 +935,6 @@ public final class AvatarFetterInfoOuterClass {
         return this;
       }
       private int bitField0_;
-
-      private int expNumber_ ;
-      /**
-       * <code>uint32 exp_number = 1;</code>
-       * @return The expNumber.
-       */
-      @java.lang.Override
-      public int getExpNumber() {
-        return expNumber_;
-      }
-      /**
-       * <code>uint32 exp_number = 1;</code>
-       * @param value The expNumber to set.
-       * @return This builder for chaining.
-       */
-      public Builder setExpNumber(int value) {
-        
-        expNumber_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 exp_number = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearExpNumber() {
-        
-        expNumber_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int expLevel_ ;
-      /**
-       * <code>uint32 exp_level = 2;</code>
-       * @return The expLevel.
-       */
-      @java.lang.Override
-      public int getExpLevel() {
-        return expLevel_;
-      }
-      /**
-       * <code>uint32 exp_level = 2;</code>
-       * @param value The expLevel to set.
-       * @return This builder for chaining.
-       */
-      public Builder setExpLevel(int value) {
-        
-        expLevel_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 exp_level = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearExpLevel() {
-        
-        expLevel_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.Internal.IntList openIdList_ = emptyIntList();
       private void ensureOpenIdListIsMutable() {
@@ -1474,6 +1412,68 @@ public final class AvatarFetterInfoOuterClass {
         }
         return fetterListBuilder_;
       }
+
+      private int expNumber_ ;
+      /**
+       * <code>uint32 exp_number = 1;</code>
+       * @return The expNumber.
+       */
+      @java.lang.Override
+      public int getExpNumber() {
+        return expNumber_;
+      }
+      /**
+       * <code>uint32 exp_number = 1;</code>
+       * @param value The expNumber to set.
+       * @return This builder for chaining.
+       */
+      public Builder setExpNumber(int value) {
+        
+        expNumber_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 exp_number = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearExpNumber() {
+        
+        expNumber_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int expLevel_ ;
+      /**
+       * <code>uint32 exp_level = 2;</code>
+       * @return The expLevel.
+       */
+      @java.lang.Override
+      public int getExpLevel() {
+        return expLevel_;
+      }
+      /**
+       * <code>uint32 exp_level = 2;</code>
+       * @param value The expLevel to set.
+       * @return This builder for chaining.
+       */
+      public Builder setExpLevel(int value) {
+        
+        expLevel_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 exp_level = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearExpLevel() {
+        
+        expLevel_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1542,11 +1542,11 @@ public final class AvatarFetterInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026AvatarFetterInfo.proto\032\020FetterData.pro" +
-      "to\"\255\001\n\020AvatarFetterInfo\022\022\n\nexp_number\030\001 " +
-      "\001(\r\022\021\n\texp_level\030\002 \001(\r\022\024\n\014open_id_list\030\003" +
-      " \003(\r\022\026\n\016finish_id_list\030\004 \003(\r\022\"\n\032rewarded" +
-      "_fetter_level_list\030\005 \003(\r\022 \n\013fetter_list\030" +
-      "\006 \003(\0132\013.FetterDataB\033\n\031emu.grasscutter.ne" +
+      "to\"\255\001\n\020AvatarFetterInfo\022\024\n\014open_id_list\030" +
+      "\003 \003(\r\022\026\n\016finish_id_list\030\004 \003(\r\022\"\n\032rewarde" +
+      "d_fetter_level_list\030\005 \003(\r\022 \n\013fetter_list" +
+      "\030\006 \003(\0132\013.FetterData\022\022\n\nexp_number\030\001 \001(\r\022" +
+      "\021\n\texp_level\030\002 \001(\rB\033\n\031emu.grasscutter.ne" +
       "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1559,7 +1559,7 @@ public final class AvatarFetterInfoOuterClass {
     internal_static_AvatarFetterInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarFetterInfo_descriptor,
-        new java.lang.String[] { "ExpNumber", "ExpLevel", "OpenIdList", "FinishIdList", "RewardedFetterLevelList", "FetterList", });
+        new java.lang.String[] { "OpenIdList", "FinishIdList", "RewardedFetterLevelList", "FetterList", "ExpNumber", "ExpLevel", });
     emu.grasscutter.net.proto.FetterDataOuterClass.getDescriptor();
   }
 

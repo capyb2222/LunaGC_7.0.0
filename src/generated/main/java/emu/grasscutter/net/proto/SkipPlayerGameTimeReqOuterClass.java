@@ -19,26 +19,26 @@ public final class SkipPlayerGameTimeReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_force_set = 3;</code>
-     * @return The isForceSet.
-     */
-    boolean getIsForceSet();
-
-    /**
      * <code>uint32 game_time = 1;</code>
      * @return The gameTime.
      */
     int getGameTime();
 
     /**
-     * <code>uint32 client_game_time = 12;</code>
+     * <code>bool is_force_set = 8;</code>
+     * @return The isForceSet.
+     */
+    boolean getIsForceSet();
+
+    /**
+     * <code>uint32 client_game_time = 3;</code>
      * @return The clientGameTime.
      */
     int getClientGameTime();
   }
   /**
    * <pre>
-   * CmdId: 8018
+   * CmdId: 142
    * </pre>
    *
    * Protobuf type {@code SkipPlayerGameTimeReq}
@@ -92,12 +92,12 @@ public final class SkipPlayerGameTimeReqOuterClass {
             }
             case 24: {
 
-              isForceSet_ = input.readBool();
+              clientGameTime_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 64: {
 
-              clientGameTime_ = input.readUInt32();
+              isForceSet_ = input.readBool();
               break;
             }
             default: {
@@ -132,17 +132,6 @@ public final class SkipPlayerGameTimeReqOuterClass {
               emu.grasscutter.net.proto.SkipPlayerGameTimeReqOuterClass.SkipPlayerGameTimeReq.class, emu.grasscutter.net.proto.SkipPlayerGameTimeReqOuterClass.SkipPlayerGameTimeReq.Builder.class);
     }
 
-    public static final int IS_FORCE_SET_FIELD_NUMBER = 3;
-    private boolean isForceSet_;
-    /**
-     * <code>bool is_force_set = 3;</code>
-     * @return The isForceSet.
-     */
-    @java.lang.Override
-    public boolean getIsForceSet() {
-      return isForceSet_;
-    }
-
     public static final int GAME_TIME_FIELD_NUMBER = 1;
     private int gameTime_;
     /**
@@ -154,10 +143,21 @@ public final class SkipPlayerGameTimeReqOuterClass {
       return gameTime_;
     }
 
-    public static final int CLIENT_GAME_TIME_FIELD_NUMBER = 12;
+    public static final int IS_FORCE_SET_FIELD_NUMBER = 8;
+    private boolean isForceSet_;
+    /**
+     * <code>bool is_force_set = 8;</code>
+     * @return The isForceSet.
+     */
+    @java.lang.Override
+    public boolean getIsForceSet() {
+      return isForceSet_;
+    }
+
+    public static final int CLIENT_GAME_TIME_FIELD_NUMBER = 3;
     private int clientGameTime_;
     /**
-     * <code>uint32 client_game_time = 12;</code>
+     * <code>uint32 client_game_time = 3;</code>
      * @return The clientGameTime.
      */
     @java.lang.Override
@@ -182,11 +182,11 @@ public final class SkipPlayerGameTimeReqOuterClass {
       if (gameTime_ != 0) {
         output.writeUInt32(1, gameTime_);
       }
-      if (isForceSet_ != false) {
-        output.writeBool(3, isForceSet_);
-      }
       if (clientGameTime_ != 0) {
-        output.writeUInt32(12, clientGameTime_);
+        output.writeUInt32(3, clientGameTime_);
+      }
+      if (isForceSet_ != false) {
+        output.writeBool(8, isForceSet_);
       }
       unknownFields.writeTo(output);
     }
@@ -201,13 +201,13 @@ public final class SkipPlayerGameTimeReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, gameTime_);
       }
-      if (isForceSet_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isForceSet_);
-      }
       if (clientGameTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, clientGameTime_);
+          .computeUInt32Size(3, clientGameTime_);
+      }
+      if (isForceSet_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(8, isForceSet_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -224,10 +224,10 @@ public final class SkipPlayerGameTimeReqOuterClass {
       }
       emu.grasscutter.net.proto.SkipPlayerGameTimeReqOuterClass.SkipPlayerGameTimeReq other = (emu.grasscutter.net.proto.SkipPlayerGameTimeReqOuterClass.SkipPlayerGameTimeReq) obj;
 
-      if (getIsForceSet()
-          != other.getIsForceSet()) return false;
       if (getGameTime()
           != other.getGameTime()) return false;
+      if (getIsForceSet()
+          != other.getIsForceSet()) return false;
       if (getClientGameTime()
           != other.getClientGameTime()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -241,11 +241,11 @@ public final class SkipPlayerGameTimeReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + GAME_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getGameTime();
       hash = (37 * hash) + IS_FORCE_SET_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsForceSet());
-      hash = (37 * hash) + GAME_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getGameTime();
       hash = (37 * hash) + CLIENT_GAME_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getClientGameTime();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -345,7 +345,7 @@ public final class SkipPlayerGameTimeReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 8018
+     * CmdId: 142
      * </pre>
      *
      * Protobuf type {@code SkipPlayerGameTimeReq}
@@ -385,9 +385,9 @@ public final class SkipPlayerGameTimeReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        isForceSet_ = false;
-
         gameTime_ = 0;
+
+        isForceSet_ = false;
 
         clientGameTime_ = 0;
 
@@ -417,8 +417,8 @@ public final class SkipPlayerGameTimeReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.SkipPlayerGameTimeReqOuterClass.SkipPlayerGameTimeReq buildPartial() {
         emu.grasscutter.net.proto.SkipPlayerGameTimeReqOuterClass.SkipPlayerGameTimeReq result = new emu.grasscutter.net.proto.SkipPlayerGameTimeReqOuterClass.SkipPlayerGameTimeReq(this);
-        result.isForceSet_ = isForceSet_;
         result.gameTime_ = gameTime_;
+        result.isForceSet_ = isForceSet_;
         result.clientGameTime_ = clientGameTime_;
         onBuilt();
         return result;
@@ -468,11 +468,11 @@ public final class SkipPlayerGameTimeReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.SkipPlayerGameTimeReqOuterClass.SkipPlayerGameTimeReq other) {
         if (other == emu.grasscutter.net.proto.SkipPlayerGameTimeReqOuterClass.SkipPlayerGameTimeReq.getDefaultInstance()) return this;
-        if (other.getIsForceSet() != false) {
-          setIsForceSet(other.getIsForceSet());
-        }
         if (other.getGameTime() != 0) {
           setGameTime(other.getGameTime());
+        }
+        if (other.getIsForceSet() != false) {
+          setIsForceSet(other.getIsForceSet());
         }
         if (other.getClientGameTime() != 0) {
           setClientGameTime(other.getClientGameTime());
@@ -503,37 +503,6 @@ public final class SkipPlayerGameTimeReqOuterClass {
             mergeFrom(parsedMessage);
           }
         }
-        return this;
-      }
-
-      private boolean isForceSet_ ;
-      /**
-       * <code>bool is_force_set = 3;</code>
-       * @return The isForceSet.
-       */
-      @java.lang.Override
-      public boolean getIsForceSet() {
-        return isForceSet_;
-      }
-      /**
-       * <code>bool is_force_set = 3;</code>
-       * @param value The isForceSet to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsForceSet(boolean value) {
-        
-        isForceSet_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_force_set = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsForceSet() {
-        
-        isForceSet_ = false;
-        onChanged();
         return this;
       }
 
@@ -568,9 +537,40 @@ public final class SkipPlayerGameTimeReqOuterClass {
         return this;
       }
 
+      private boolean isForceSet_ ;
+      /**
+       * <code>bool is_force_set = 8;</code>
+       * @return The isForceSet.
+       */
+      @java.lang.Override
+      public boolean getIsForceSet() {
+        return isForceSet_;
+      }
+      /**
+       * <code>bool is_force_set = 8;</code>
+       * @param value The isForceSet to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsForceSet(boolean value) {
+        
+        isForceSet_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_force_set = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsForceSet() {
+        
+        isForceSet_ = false;
+        onChanged();
+        return this;
+      }
+
       private int clientGameTime_ ;
       /**
-       * <code>uint32 client_game_time = 12;</code>
+       * <code>uint32 client_game_time = 3;</code>
        * @return The clientGameTime.
        */
       @java.lang.Override
@@ -578,7 +578,7 @@ public final class SkipPlayerGameTimeReqOuterClass {
         return clientGameTime_;
       }
       /**
-       * <code>uint32 client_game_time = 12;</code>
+       * <code>uint32 client_game_time = 3;</code>
        * @param value The clientGameTime to set.
        * @return This builder for chaining.
        */
@@ -589,7 +589,7 @@ public final class SkipPlayerGameTimeReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 client_game_time = 12;</code>
+       * <code>uint32 client_game_time = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearClientGameTime() {
@@ -666,8 +666,8 @@ public final class SkipPlayerGameTimeReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033SkipPlayerGameTimeReq.proto\"Z\n\025SkipPla" +
-      "yerGameTimeReq\022\024\n\014is_force_set\030\003 \001(\010\022\021\n\t" +
-      "game_time\030\001 \001(\r\022\030\n\020client_game_time\030\014 \001(" +
+      "yerGameTimeReq\022\021\n\tgame_time\030\001 \001(\r\022\024\n\014is_" +
+      "force_set\030\010 \001(\010\022\030\n\020client_game_time\030\003 \001(" +
       "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -679,7 +679,7 @@ public final class SkipPlayerGameTimeReqOuterClass {
     internal_static_SkipPlayerGameTimeReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SkipPlayerGameTimeReq_descriptor,
-        new java.lang.String[] { "IsForceSet", "GameTime", "ClientGameTime", });
+        new java.lang.String[] { "GameTime", "IsForceSet", "ClientGameTime", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

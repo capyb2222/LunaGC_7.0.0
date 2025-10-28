@@ -43,10 +43,10 @@ public final class VehicleInfoOuterClass {
         int index);
 
     /**
-     * <code>uint32 owner_uid = 2;</code>
-     * @return The ownerUid.
+     * <code>float cur_phlogiston = 5;</code>
+     * @return The curPhlogiston.
      */
-    int getOwnerUid();
+    float getCurPhlogiston();
 
     /**
      * <code>float cur_stamina = 3;</code>
@@ -61,10 +61,10 @@ public final class VehicleInfoOuterClass {
     int getTransformEntityId();
 
     /**
-     * <code>float cur_phlogiston = 5;</code>
-     * @return The curPhlogiston.
+     * <code>uint32 owner_uid = 2;</code>
+     * @return The ownerUid.
      */
-    float getCurPhlogiston();
+    int getOwnerUid();
 
     /**
      * <code>uint32 anim_hash = 6;</code>
@@ -228,15 +228,15 @@ public final class VehicleInfoOuterClass {
       return memberList_.get(index);
     }
 
-    public static final int OWNER_UID_FIELD_NUMBER = 2;
-    private int ownerUid_;
+    public static final int CUR_PHLOGISTON_FIELD_NUMBER = 5;
+    private float curPhlogiston_;
     /**
-     * <code>uint32 owner_uid = 2;</code>
-     * @return The ownerUid.
+     * <code>float cur_phlogiston = 5;</code>
+     * @return The curPhlogiston.
      */
     @java.lang.Override
-    public int getOwnerUid() {
-      return ownerUid_;
+    public float getCurPhlogiston() {
+      return curPhlogiston_;
     }
 
     public static final int CUR_STAMINA_FIELD_NUMBER = 3;
@@ -261,15 +261,15 @@ public final class VehicleInfoOuterClass {
       return transformEntityId_;
     }
 
-    public static final int CUR_PHLOGISTON_FIELD_NUMBER = 5;
-    private float curPhlogiston_;
+    public static final int OWNER_UID_FIELD_NUMBER = 2;
+    private int ownerUid_;
     /**
-     * <code>float cur_phlogiston = 5;</code>
-     * @return The curPhlogiston.
+     * <code>uint32 owner_uid = 2;</code>
+     * @return The ownerUid.
      */
     @java.lang.Override
-    public float getCurPhlogiston() {
-      return curPhlogiston_;
+    public int getOwnerUid() {
+      return ownerUid_;
     }
 
     public static final int ANIM_HASH_FIELD_NUMBER = 6;
@@ -365,16 +365,16 @@ public final class VehicleInfoOuterClass {
 
       if (!getMemberListList()
           .equals(other.getMemberListList())) return false;
-      if (getOwnerUid()
-          != other.getOwnerUid()) return false;
+      if (java.lang.Float.floatToIntBits(getCurPhlogiston())
+          != java.lang.Float.floatToIntBits(
+              other.getCurPhlogiston())) return false;
       if (java.lang.Float.floatToIntBits(getCurStamina())
           != java.lang.Float.floatToIntBits(
               other.getCurStamina())) return false;
       if (getTransformEntityId()
           != other.getTransformEntityId()) return false;
-      if (java.lang.Float.floatToIntBits(getCurPhlogiston())
-          != java.lang.Float.floatToIntBits(
-              other.getCurPhlogiston())) return false;
+      if (getOwnerUid()
+          != other.getOwnerUid()) return false;
       if (getAnimHash()
           != other.getAnimHash()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -392,16 +392,16 @@ public final class VehicleInfoOuterClass {
         hash = (37 * hash) + MEMBER_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getMemberListList().hashCode();
       }
-      hash = (37 * hash) + OWNER_UID_FIELD_NUMBER;
-      hash = (53 * hash) + getOwnerUid();
+      hash = (37 * hash) + CUR_PHLOGISTON_FIELD_NUMBER;
+      hash = (53 * hash) + java.lang.Float.floatToIntBits(
+          getCurPhlogiston());
       hash = (37 * hash) + CUR_STAMINA_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
           getCurStamina());
       hash = (37 * hash) + TRANSFORM_ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTransformEntityId();
-      hash = (37 * hash) + CUR_PHLOGISTON_FIELD_NUMBER;
-      hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getCurPhlogiston());
+      hash = (37 * hash) + OWNER_UID_FIELD_NUMBER;
+      hash = (53 * hash) + getOwnerUid();
       hash = (37 * hash) + ANIM_HASH_FIELD_NUMBER;
       hash = (53 * hash) + getAnimHash();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -544,13 +544,13 @@ public final class VehicleInfoOuterClass {
         } else {
           memberListBuilder_.clear();
         }
-        ownerUid_ = 0;
+        curPhlogiston_ = 0F;
 
         curStamina_ = 0F;
 
         transformEntityId_ = 0;
 
-        curPhlogiston_ = 0F;
+        ownerUid_ = 0;
 
         animHash_ = 0;
 
@@ -590,10 +590,10 @@ public final class VehicleInfoOuterClass {
         } else {
           result.memberList_ = memberListBuilder_.build();
         }
-        result.ownerUid_ = ownerUid_;
+        result.curPhlogiston_ = curPhlogiston_;
         result.curStamina_ = curStamina_;
         result.transformEntityId_ = transformEntityId_;
-        result.curPhlogiston_ = curPhlogiston_;
+        result.ownerUid_ = ownerUid_;
         result.animHash_ = animHash_;
         onBuilt();
         return result;
@@ -669,8 +669,8 @@ public final class VehicleInfoOuterClass {
             }
           }
         }
-        if (other.getOwnerUid() != 0) {
-          setOwnerUid(other.getOwnerUid());
+        if (other.getCurPhlogiston() != 0F) {
+          setCurPhlogiston(other.getCurPhlogiston());
         }
         if (other.getCurStamina() != 0F) {
           setCurStamina(other.getCurStamina());
@@ -678,8 +678,8 @@ public final class VehicleInfoOuterClass {
         if (other.getTransformEntityId() != 0) {
           setTransformEntityId(other.getTransformEntityId());
         }
-        if (other.getCurPhlogiston() != 0F) {
-          setCurPhlogiston(other.getCurPhlogiston());
+        if (other.getOwnerUid() != 0) {
+          setOwnerUid(other.getOwnerUid());
         }
         if (other.getAnimHash() != 0) {
           setAnimHash(other.getAnimHash());
@@ -954,33 +954,33 @@ public final class VehicleInfoOuterClass {
         return memberListBuilder_;
       }
 
-      private int ownerUid_ ;
+      private float curPhlogiston_ ;
       /**
-       * <code>uint32 owner_uid = 2;</code>
-       * @return The ownerUid.
+       * <code>float cur_phlogiston = 5;</code>
+       * @return The curPhlogiston.
        */
       @java.lang.Override
-      public int getOwnerUid() {
-        return ownerUid_;
+      public float getCurPhlogiston() {
+        return curPhlogiston_;
       }
       /**
-       * <code>uint32 owner_uid = 2;</code>
-       * @param value The ownerUid to set.
+       * <code>float cur_phlogiston = 5;</code>
+       * @param value The curPhlogiston to set.
        * @return This builder for chaining.
        */
-      public Builder setOwnerUid(int value) {
+      public Builder setCurPhlogiston(float value) {
         
-        ownerUid_ = value;
+        curPhlogiston_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 owner_uid = 2;</code>
+       * <code>float cur_phlogiston = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOwnerUid() {
+      public Builder clearCurPhlogiston() {
         
-        ownerUid_ = 0;
+        curPhlogiston_ = 0F;
         onChanged();
         return this;
       }
@@ -1047,33 +1047,33 @@ public final class VehicleInfoOuterClass {
         return this;
       }
 
-      private float curPhlogiston_ ;
+      private int ownerUid_ ;
       /**
-       * <code>float cur_phlogiston = 5;</code>
-       * @return The curPhlogiston.
+       * <code>uint32 owner_uid = 2;</code>
+       * @return The ownerUid.
        */
       @java.lang.Override
-      public float getCurPhlogiston() {
-        return curPhlogiston_;
+      public int getOwnerUid() {
+        return ownerUid_;
       }
       /**
-       * <code>float cur_phlogiston = 5;</code>
-       * @param value The curPhlogiston to set.
+       * <code>uint32 owner_uid = 2;</code>
+       * @param value The ownerUid to set.
        * @return This builder for chaining.
        */
-      public Builder setCurPhlogiston(float value) {
+      public Builder setOwnerUid(int value) {
         
-        curPhlogiston_ = value;
+        ownerUid_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float cur_phlogiston = 5;</code>
+       * <code>uint32 owner_uid = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCurPhlogiston() {
+      public Builder clearOwnerUid() {
         
-        curPhlogiston_ = 0F;
+        ownerUid_ = 0;
         onChanged();
         return this;
       }
@@ -1177,9 +1177,9 @@ public final class VehicleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021VehicleInfo.proto\032\023VehicleMember.proto" +
       "\"\242\001\n\013VehicleInfo\022#\n\013member_list\030\001 \003(\0132\016." +
-      "VehicleMember\022\021\n\towner_uid\030\002 \001(\r\022\023\n\013cur_" +
-      "stamina\030\003 \001(\002\022\033\n\023transform_entity_id\030\004 \001" +
-      "(\r\022\026\n\016cur_phlogiston\030\005 \001(\002\022\021\n\tanim_hash\030" +
+      "VehicleMember\022\026\n\016cur_phlogiston\030\005 \001(\002\022\023\n" +
+      "\013cur_stamina\030\003 \001(\002\022\033\n\023transform_entity_i" +
+      "d\030\004 \001(\r\022\021\n\towner_uid\030\002 \001(\r\022\021\n\tanim_hash\030" +
       "\006 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
       "o3"
     };
@@ -1193,7 +1193,7 @@ public final class VehicleInfoOuterClass {
     internal_static_VehicleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_VehicleInfo_descriptor,
-        new java.lang.String[] { "MemberList", "OwnerUid", "CurStamina", "TransformEntityId", "CurPhlogiston", "AnimHash", });
+        new java.lang.String[] { "MemberList", "CurPhlogiston", "CurStamina", "TransformEntityId", "OwnerUid", "AnimHash", });
     emu.grasscutter.net.proto.VehicleMemberOuterClass.getDescriptor();
   }
 

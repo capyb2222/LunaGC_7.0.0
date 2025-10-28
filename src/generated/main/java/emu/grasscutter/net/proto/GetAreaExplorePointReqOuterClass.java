@@ -19,17 +19,17 @@ public final class GetAreaExplorePointReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 13;</code>
      * @return A list containing the areaIdList.
      */
     java.util.List<java.lang.Integer> getAreaIdListList();
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 13;</code>
      * @return The count of areaIdList.
      */
     int getAreaIdListCount();
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 13;</code>
      * @param index The index of the element to return.
      * @return The areaIdList at the given index.
      */
@@ -37,7 +37,7 @@ public final class GetAreaExplorePointReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 7663
+   * CmdId: 1598
    * </pre>
    *
    * Protobuf type {@code GetAreaExplorePointReq}
@@ -86,7 +86,7 @@ public final class GetAreaExplorePointReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 areaIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -94,7 +94,7 @@ public final class GetAreaExplorePointReqOuterClass {
               areaIdList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -142,10 +142,10 @@ public final class GetAreaExplorePointReqOuterClass {
               emu.grasscutter.net.proto.GetAreaExplorePointReqOuterClass.GetAreaExplorePointReq.class, emu.grasscutter.net.proto.GetAreaExplorePointReqOuterClass.GetAreaExplorePointReq.Builder.class);
     }
 
-    public static final int AREA_ID_LIST_FIELD_NUMBER = 3;
+    public static final int AREA_ID_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList areaIdList_;
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 13;</code>
      * @return A list containing the areaIdList.
      */
     @java.lang.Override
@@ -154,14 +154,14 @@ public final class GetAreaExplorePointReqOuterClass {
       return areaIdList_;
     }
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 13;</code>
      * @return The count of areaIdList.
      */
     public int getAreaIdListCount() {
       return areaIdList_.size();
     }
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 13;</code>
      * @param index The index of the element to return.
      * @return The areaIdList at the given index.
      */
@@ -186,7 +186,7 @@ public final class GetAreaExplorePointReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAreaIdListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(areaIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < areaIdList_.size(); i++) {
@@ -344,7 +344,7 @@ public final class GetAreaExplorePointReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 7663
+     * CmdId: 1598
      * </pre>
      *
      * Protobuf type {@code GetAreaExplorePointReq}
@@ -514,7 +514,7 @@ public final class GetAreaExplorePointReqOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 13;</code>
        * @return A list containing the areaIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -523,14 +523,14 @@ public final class GetAreaExplorePointReqOuterClass {
                  java.util.Collections.unmodifiableList(areaIdList_) : areaIdList_;
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 13;</code>
        * @return The count of areaIdList.
        */
       public int getAreaIdListCount() {
         return areaIdList_.size();
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 13;</code>
        * @param index The index of the element to return.
        * @return The areaIdList at the given index.
        */
@@ -538,7 +538,7 @@ public final class GetAreaExplorePointReqOuterClass {
         return areaIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 13;</code>
        * @param index The index to set the value at.
        * @param value The areaIdList to set.
        * @return This builder for chaining.
@@ -551,7 +551,7 @@ public final class GetAreaExplorePointReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 13;</code>
        * @param value The areaIdList to add.
        * @return This builder for chaining.
        */
@@ -562,7 +562,7 @@ public final class GetAreaExplorePointReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 13;</code>
        * @param values The areaIdList to add.
        * @return This builder for chaining.
        */
@@ -575,7 +575,7 @@ public final class GetAreaExplorePointReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearAreaIdList() {
@@ -652,7 +652,7 @@ public final class GetAreaExplorePointReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034GetAreaExplorePointReq.proto\".\n\026GetAre" +
-      "aExplorePointReq\022\024\n\014area_id_list\030\003 \003(\rB\033" +
+      "aExplorePointReq\022\024\n\014area_id_list\030\r \003(\rB\033" +
       "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

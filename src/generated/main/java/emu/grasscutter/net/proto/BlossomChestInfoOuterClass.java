@@ -19,23 +19,6 @@ public final class BlossomChestInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 remain_uid_list = 3;</code>
-     * @return A list containing the remainUidList.
-     */
-    java.util.List<java.lang.Integer> getRemainUidListList();
-    /**
-     * <code>repeated uint32 remain_uid_list = 3;</code>
-     * @return The count of remainUidList.
-     */
-    int getRemainUidListCount();
-    /**
-     * <code>repeated uint32 remain_uid_list = 3;</code>
-     * @param index The index of the element to return.
-     * @return The remainUidList at the given index.
-     */
-    int getRemainUidList(int index);
-
-    /**
      * <code>repeated uint32 qualify_uid_list = 2;</code>
      * @return A list containing the qualifyUidList.
      */
@@ -53,16 +36,33 @@ public final class BlossomChestInfoOuterClass {
     int getQualifyUidList(int index);
 
     /**
+     * <code>repeated uint32 remain_uid_list = 3;</code>
+     * @return A list containing the remainUidList.
+     */
+    java.util.List<java.lang.Integer> getRemainUidListList();
+    /**
+     * <code>repeated uint32 remain_uid_list = 3;</code>
+     * @return The count of remainUidList.
+     */
+    int getRemainUidListCount();
+    /**
+     * <code>repeated uint32 remain_uid_list = 3;</code>
+     * @param index The index of the element to return.
+     * @return The remainUidList at the given index.
+     */
+    int getRemainUidList(int index);
+
+    /**
+     * <code>uint32 refresh_id = 6;</code>
+     * @return The refreshId.
+     */
+    int getRefreshId();
+
+    /**
      * <code>uint32 blossom_refresh_type = 5;</code>
      * @return The blossomRefreshType.
      */
     int getBlossomRefreshType();
-
-    /**
-     * <code>uint32 resin = 1;</code>
-     * @return The resin.
-     */
-    int getResin();
 
     /**
      * <code>uint32 dead_time = 4;</code>
@@ -71,10 +71,10 @@ public final class BlossomChestInfoOuterClass {
     int getDeadTime();
 
     /**
-     * <code>uint32 refresh_id = 6;</code>
-     * @return The refreshId.
+     * <code>uint32 resin = 1;</code>
+     * @return The resin.
      */
-    int getRefreshId();
+    int getResin();
   }
   /**
    * Protobuf type {@code BlossomChestInfo}
@@ -89,8 +89,8 @@ public final class BlossomChestInfoOuterClass {
       super(builder);
     }
     private BlossomChestInfo() {
-      remainUidList_ = emptyIntList();
       qualifyUidList_ = emptyIntList();
+      remainUidList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -130,9 +130,9 @@ public final class BlossomChestInfoOuterClass {
               break;
             }
             case 16: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 qualifyUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               qualifyUidList_.addInt(input.readUInt32());
               break;
@@ -140,9 +140,9 @@ public final class BlossomChestInfoOuterClass {
             case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
                 qualifyUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
                 qualifyUidList_.addInt(input.readUInt32());
@@ -151,9 +151,9 @@ public final class BlossomChestInfoOuterClass {
               break;
             }
             case 24: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 remainUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               remainUidList_.addInt(input.readUInt32());
               break;
@@ -161,9 +161,9 @@ public final class BlossomChestInfoOuterClass {
             case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
                 remainUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
                 remainUidList_.addInt(input.readUInt32());
@@ -201,10 +201,10 @@ public final class BlossomChestInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           qualifyUidList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           remainUidList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
@@ -223,34 +223,6 @@ public final class BlossomChestInfoOuterClass {
           .ensureFieldAccessorsInitialized(
               emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo.class, emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo.Builder.class);
     }
-
-    public static final int REMAIN_UID_LIST_FIELD_NUMBER = 3;
-    private com.google.protobuf.Internal.IntList remainUidList_;
-    /**
-     * <code>repeated uint32 remain_uid_list = 3;</code>
-     * @return A list containing the remainUidList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getRemainUidListList() {
-      return remainUidList_;
-    }
-    /**
-     * <code>repeated uint32 remain_uid_list = 3;</code>
-     * @return The count of remainUidList.
-     */
-    public int getRemainUidListCount() {
-      return remainUidList_.size();
-    }
-    /**
-     * <code>repeated uint32 remain_uid_list = 3;</code>
-     * @param index The index of the element to return.
-     * @return The remainUidList at the given index.
-     */
-    public int getRemainUidList(int index) {
-      return remainUidList_.getInt(index);
-    }
-    private int remainUidListMemoizedSerializedSize = -1;
 
     public static final int QUALIFY_UID_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList qualifyUidList_;
@@ -280,6 +252,45 @@ public final class BlossomChestInfoOuterClass {
     }
     private int qualifyUidListMemoizedSerializedSize = -1;
 
+    public static final int REMAIN_UID_LIST_FIELD_NUMBER = 3;
+    private com.google.protobuf.Internal.IntList remainUidList_;
+    /**
+     * <code>repeated uint32 remain_uid_list = 3;</code>
+     * @return A list containing the remainUidList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getRemainUidListList() {
+      return remainUidList_;
+    }
+    /**
+     * <code>repeated uint32 remain_uid_list = 3;</code>
+     * @return The count of remainUidList.
+     */
+    public int getRemainUidListCount() {
+      return remainUidList_.size();
+    }
+    /**
+     * <code>repeated uint32 remain_uid_list = 3;</code>
+     * @param index The index of the element to return.
+     * @return The remainUidList at the given index.
+     */
+    public int getRemainUidList(int index) {
+      return remainUidList_.getInt(index);
+    }
+    private int remainUidListMemoizedSerializedSize = -1;
+
+    public static final int REFRESH_ID_FIELD_NUMBER = 6;
+    private int refreshId_;
+    /**
+     * <code>uint32 refresh_id = 6;</code>
+     * @return The refreshId.
+     */
+    @java.lang.Override
+    public int getRefreshId() {
+      return refreshId_;
+    }
+
     public static final int BLOSSOM_REFRESH_TYPE_FIELD_NUMBER = 5;
     private int blossomRefreshType_;
     /**
@@ -289,17 +300,6 @@ public final class BlossomChestInfoOuterClass {
     @java.lang.Override
     public int getBlossomRefreshType() {
       return blossomRefreshType_;
-    }
-
-    public static final int RESIN_FIELD_NUMBER = 1;
-    private int resin_;
-    /**
-     * <code>uint32 resin = 1;</code>
-     * @return The resin.
-     */
-    @java.lang.Override
-    public int getResin() {
-      return resin_;
     }
 
     public static final int DEAD_TIME_FIELD_NUMBER = 4;
@@ -313,15 +313,15 @@ public final class BlossomChestInfoOuterClass {
       return deadTime_;
     }
 
-    public static final int REFRESH_ID_FIELD_NUMBER = 6;
-    private int refreshId_;
+    public static final int RESIN_FIELD_NUMBER = 1;
+    private int resin_;
     /**
-     * <code>uint32 refresh_id = 6;</code>
-     * @return The refreshId.
+     * <code>uint32 resin = 1;</code>
+     * @return The resin.
      */
     @java.lang.Override
-    public int getRefreshId() {
-      return refreshId_;
+    public int getResin() {
+      return resin_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -433,18 +433,18 @@ public final class BlossomChestInfoOuterClass {
       }
       emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo other = (emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo) obj;
 
-      if (!getRemainUidListList()
-          .equals(other.getRemainUidListList())) return false;
       if (!getQualifyUidListList()
           .equals(other.getQualifyUidListList())) return false;
-      if (getBlossomRefreshType()
-          != other.getBlossomRefreshType()) return false;
-      if (getResin()
-          != other.getResin()) return false;
-      if (getDeadTime()
-          != other.getDeadTime()) return false;
+      if (!getRemainUidListList()
+          .equals(other.getRemainUidListList())) return false;
       if (getRefreshId()
           != other.getRefreshId()) return false;
+      if (getBlossomRefreshType()
+          != other.getBlossomRefreshType()) return false;
+      if (getDeadTime()
+          != other.getDeadTime()) return false;
+      if (getResin()
+          != other.getResin()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -456,22 +456,22 @@ public final class BlossomChestInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getRemainUidListCount() > 0) {
-        hash = (37 * hash) + REMAIN_UID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getRemainUidListList().hashCode();
-      }
       if (getQualifyUidListCount() > 0) {
         hash = (37 * hash) + QUALIFY_UID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getQualifyUidListList().hashCode();
       }
-      hash = (37 * hash) + BLOSSOM_REFRESH_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getBlossomRefreshType();
-      hash = (37 * hash) + RESIN_FIELD_NUMBER;
-      hash = (53 * hash) + getResin();
-      hash = (37 * hash) + DEAD_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getDeadTime();
+      if (getRemainUidListCount() > 0) {
+        hash = (37 * hash) + REMAIN_UID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getRemainUidListList().hashCode();
+      }
       hash = (37 * hash) + REFRESH_ID_FIELD_NUMBER;
       hash = (53 * hash) + getRefreshId();
+      hash = (37 * hash) + BLOSSOM_REFRESH_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getBlossomRefreshType();
+      hash = (37 * hash) + DEAD_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getDeadTime();
+      hash = (37 * hash) + RESIN_FIELD_NUMBER;
+      hash = (53 * hash) + getResin();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -605,17 +605,17 @@ public final class BlossomChestInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        remainUidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
         qualifyUidList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        remainUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        blossomRefreshType_ = 0;
+        refreshId_ = 0;
 
-        resin_ = 0;
+        blossomRefreshType_ = 0;
 
         deadTime_ = 0;
 
-        refreshId_ = 0;
+        resin_ = 0;
 
         return this;
       }
@@ -645,19 +645,19 @@ public final class BlossomChestInfoOuterClass {
         emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo result = new emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          remainUidList_.makeImmutable();
+          qualifyUidList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.remainUidList_ = remainUidList_;
+        result.qualifyUidList_ = qualifyUidList_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          qualifyUidList_.makeImmutable();
+          remainUidList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.qualifyUidList_ = qualifyUidList_;
-        result.blossomRefreshType_ = blossomRefreshType_;
-        result.resin_ = resin_;
-        result.deadTime_ = deadTime_;
+        result.remainUidList_ = remainUidList_;
         result.refreshId_ = refreshId_;
+        result.blossomRefreshType_ = blossomRefreshType_;
+        result.deadTime_ = deadTime_;
+        result.resin_ = resin_;
         onBuilt();
         return result;
       }
@@ -706,37 +706,37 @@ public final class BlossomChestInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo other) {
         if (other == emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo.getDefaultInstance()) return this;
-        if (!other.remainUidList_.isEmpty()) {
-          if (remainUidList_.isEmpty()) {
-            remainUidList_ = other.remainUidList_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureRemainUidListIsMutable();
-            remainUidList_.addAll(other.remainUidList_);
-          }
-          onChanged();
-        }
         if (!other.qualifyUidList_.isEmpty()) {
           if (qualifyUidList_.isEmpty()) {
             qualifyUidList_ = other.qualifyUidList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           } else {
             ensureQualifyUidListIsMutable();
             qualifyUidList_.addAll(other.qualifyUidList_);
           }
           onChanged();
         }
+        if (!other.remainUidList_.isEmpty()) {
+          if (remainUidList_.isEmpty()) {
+            remainUidList_ = other.remainUidList_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureRemainUidListIsMutable();
+            remainUidList_.addAll(other.remainUidList_);
+          }
+          onChanged();
+        }
+        if (other.getRefreshId() != 0) {
+          setRefreshId(other.getRefreshId());
+        }
         if (other.getBlossomRefreshType() != 0) {
           setBlossomRefreshType(other.getBlossomRefreshType());
-        }
-        if (other.getResin() != 0) {
-          setResin(other.getResin());
         }
         if (other.getDeadTime() != 0) {
           setDeadTime(other.getDeadTime());
         }
-        if (other.getRefreshId() != 0) {
-          setRefreshId(other.getRefreshId());
+        if (other.getResin() != 0) {
+          setResin(other.getResin());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -768,90 +768,11 @@ public final class BlossomChestInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList remainUidList_ = emptyIntList();
-      private void ensureRemainUidListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          remainUidList_ = mutableCopy(remainUidList_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 3;</code>
-       * @return A list containing the remainUidList.
-       */
-      public java.util.List<java.lang.Integer>
-          getRemainUidListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(remainUidList_) : remainUidList_;
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 3;</code>
-       * @return The count of remainUidList.
-       */
-      public int getRemainUidListCount() {
-        return remainUidList_.size();
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 3;</code>
-       * @param index The index of the element to return.
-       * @return The remainUidList at the given index.
-       */
-      public int getRemainUidList(int index) {
-        return remainUidList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 3;</code>
-       * @param index The index to set the value at.
-       * @param value The remainUidList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRemainUidList(
-          int index, int value) {
-        ensureRemainUidListIsMutable();
-        remainUidList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 3;</code>
-       * @param value The remainUidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addRemainUidList(int value) {
-        ensureRemainUidListIsMutable();
-        remainUidList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 3;</code>
-       * @param values The remainUidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllRemainUidList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureRemainUidListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, remainUidList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRemainUidList() {
-        remainUidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
       private com.google.protobuf.Internal.IntList qualifyUidList_ = emptyIntList();
       private void ensureQualifyUidListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
+        if (!((bitField0_ & 0x00000001) != 0)) {
           qualifyUidList_ = mutableCopy(qualifyUidList_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
       /**
@@ -860,7 +781,7 @@ public final class BlossomChestInfoOuterClass {
        */
       public java.util.List<java.lang.Integer>
           getQualifyUidListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
+        return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(qualifyUidList_) : qualifyUidList_;
       }
       /**
@@ -921,7 +842,117 @@ public final class BlossomChestInfoOuterClass {
        */
       public Builder clearQualifyUidList() {
         qualifyUidList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList remainUidList_ = emptyIntList();
+      private void ensureRemainUidListIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          remainUidList_ = mutableCopy(remainUidList_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <code>repeated uint32 remain_uid_list = 3;</code>
+       * @return A list containing the remainUidList.
+       */
+      public java.util.List<java.lang.Integer>
+          getRemainUidListList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(remainUidList_) : remainUidList_;
+      }
+      /**
+       * <code>repeated uint32 remain_uid_list = 3;</code>
+       * @return The count of remainUidList.
+       */
+      public int getRemainUidListCount() {
+        return remainUidList_.size();
+      }
+      /**
+       * <code>repeated uint32 remain_uid_list = 3;</code>
+       * @param index The index of the element to return.
+       * @return The remainUidList at the given index.
+       */
+      public int getRemainUidList(int index) {
+        return remainUidList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 remain_uid_list = 3;</code>
+       * @param index The index to set the value at.
+       * @param value The remainUidList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRemainUidList(
+          int index, int value) {
+        ensureRemainUidListIsMutable();
+        remainUidList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 remain_uid_list = 3;</code>
+       * @param value The remainUidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addRemainUidList(int value) {
+        ensureRemainUidListIsMutable();
+        remainUidList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 remain_uid_list = 3;</code>
+       * @param values The remainUidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllRemainUidList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureRemainUidListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, remainUidList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 remain_uid_list = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRemainUidList() {
+        remainUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
+        return this;
+      }
+
+      private int refreshId_ ;
+      /**
+       * <code>uint32 refresh_id = 6;</code>
+       * @return The refreshId.
+       */
+      @java.lang.Override
+      public int getRefreshId() {
+        return refreshId_;
+      }
+      /**
+       * <code>uint32 refresh_id = 6;</code>
+       * @param value The refreshId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRefreshId(int value) {
+        
+        refreshId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 refresh_id = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRefreshId() {
+        
+        refreshId_ = 0;
         onChanged();
         return this;
       }
@@ -957,37 +988,6 @@ public final class BlossomChestInfoOuterClass {
         return this;
       }
 
-      private int resin_ ;
-      /**
-       * <code>uint32 resin = 1;</code>
-       * @return The resin.
-       */
-      @java.lang.Override
-      public int getResin() {
-        return resin_;
-      }
-      /**
-       * <code>uint32 resin = 1;</code>
-       * @param value The resin to set.
-       * @return This builder for chaining.
-       */
-      public Builder setResin(int value) {
-        
-        resin_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 resin = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearResin() {
-        
-        resin_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int deadTime_ ;
       /**
        * <code>uint32 dead_time = 4;</code>
@@ -1019,33 +1019,33 @@ public final class BlossomChestInfoOuterClass {
         return this;
       }
 
-      private int refreshId_ ;
+      private int resin_ ;
       /**
-       * <code>uint32 refresh_id = 6;</code>
-       * @return The refreshId.
+       * <code>uint32 resin = 1;</code>
+       * @return The resin.
        */
       @java.lang.Override
-      public int getRefreshId() {
-        return refreshId_;
+      public int getResin() {
+        return resin_;
       }
       /**
-       * <code>uint32 refresh_id = 6;</code>
-       * @param value The refreshId to set.
+       * <code>uint32 resin = 1;</code>
+       * @param value The resin to set.
        * @return This builder for chaining.
        */
-      public Builder setRefreshId(int value) {
+      public Builder setResin(int value) {
         
-        refreshId_ = value;
+        resin_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 refresh_id = 6;</code>
+       * <code>uint32 resin = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearRefreshId() {
+      public Builder clearResin() {
         
-        refreshId_ = 0;
+        resin_ = 0;
         onChanged();
         return this;
       }
@@ -1117,10 +1117,10 @@ public final class BlossomChestInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026BlossomChestInfo.proto\"\231\001\n\020BlossomChes" +
-      "tInfo\022\027\n\017remain_uid_list\030\003 \003(\r\022\030\n\020qualif" +
-      "y_uid_list\030\002 \003(\r\022\034\n\024blossom_refresh_type" +
-      "\030\005 \001(\r\022\r\n\005resin\030\001 \001(\r\022\021\n\tdead_time\030\004 \001(\r" +
-      "\022\022\n\nrefresh_id\030\006 \001(\rB\033\n\031emu.grasscutter." +
+      "tInfo\022\030\n\020qualify_uid_list\030\002 \003(\r\022\027\n\017remai" +
+      "n_uid_list\030\003 \003(\r\022\022\n\nrefresh_id\030\006 \001(\r\022\034\n\024" +
+      "blossom_refresh_type\030\005 \001(\r\022\021\n\tdead_time\030" +
+      "\004 \001(\r\022\r\n\005resin\030\001 \001(\rB\033\n\031emu.grasscutter." +
       "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1132,7 +1132,7 @@ public final class BlossomChestInfoOuterClass {
     internal_static_BlossomChestInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BlossomChestInfo_descriptor,
-        new java.lang.String[] { "RemainUidList", "QualifyUidList", "BlossomRefreshType", "Resin", "DeadTime", "RefreshId", });
+        new java.lang.String[] { "QualifyUidList", "RemainUidList", "RefreshId", "BlossomRefreshType", "DeadTime", "Resin", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

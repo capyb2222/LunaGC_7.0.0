@@ -36,16 +36,16 @@ public final class AvatarSkillInfoOuterClass {
     int getFullCdTimeList(int index);
 
     /**
-     * <code>uint32 max_charge_count = 3;</code>
-     * @return The maxChargeCount.
-     */
-    int getMaxChargeCount();
-
-    /**
      * <code>uint32 pass_cd_time = 1;</code>
      * @return The passCdTime.
      */
     int getPassCdTime();
+
+    /**
+     * <code>uint32 max_charge_count = 3;</code>
+     * @return The maxChargeCount.
+     */
+    int getMaxChargeCount();
   }
   /**
    * Protobuf type {@code AvatarSkillInfo}
@@ -188,17 +188,6 @@ public final class AvatarSkillInfoOuterClass {
     }
     private int fullCdTimeListMemoizedSerializedSize = -1;
 
-    public static final int MAX_CHARGE_COUNT_FIELD_NUMBER = 3;
-    private int maxChargeCount_;
-    /**
-     * <code>uint32 max_charge_count = 3;</code>
-     * @return The maxChargeCount.
-     */
-    @java.lang.Override
-    public int getMaxChargeCount() {
-      return maxChargeCount_;
-    }
-
     public static final int PASS_CD_TIME_FIELD_NUMBER = 1;
     private int passCdTime_;
     /**
@@ -208,6 +197,17 @@ public final class AvatarSkillInfoOuterClass {
     @java.lang.Override
     public int getPassCdTime() {
       return passCdTime_;
+    }
+
+    public static final int MAX_CHARGE_COUNT_FIELD_NUMBER = 3;
+    private int maxChargeCount_;
+    /**
+     * <code>uint32 max_charge_count = 3;</code>
+     * @return The maxChargeCount.
+     */
+    @java.lang.Override
+    public int getMaxChargeCount() {
+      return maxChargeCount_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -286,10 +286,10 @@ public final class AvatarSkillInfoOuterClass {
 
       if (!getFullCdTimeListList()
           .equals(other.getFullCdTimeListList())) return false;
-      if (getMaxChargeCount()
-          != other.getMaxChargeCount()) return false;
       if (getPassCdTime()
           != other.getPassCdTime()) return false;
+      if (getMaxChargeCount()
+          != other.getMaxChargeCount()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -305,10 +305,10 @@ public final class AvatarSkillInfoOuterClass {
         hash = (37 * hash) + FULL_CD_TIME_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getFullCdTimeListList().hashCode();
       }
-      hash = (37 * hash) + MAX_CHARGE_COUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getMaxChargeCount();
       hash = (37 * hash) + PASS_CD_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getPassCdTime();
+      hash = (37 * hash) + MAX_CHARGE_COUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxChargeCount();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -444,9 +444,9 @@ public final class AvatarSkillInfoOuterClass {
         super.clear();
         fullCdTimeList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        maxChargeCount_ = 0;
-
         passCdTime_ = 0;
+
+        maxChargeCount_ = 0;
 
         return this;
       }
@@ -480,8 +480,8 @@ public final class AvatarSkillInfoOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.fullCdTimeList_ = fullCdTimeList_;
-        result.maxChargeCount_ = maxChargeCount_;
         result.passCdTime_ = passCdTime_;
+        result.maxChargeCount_ = maxChargeCount_;
         onBuilt();
         return result;
       }
@@ -540,11 +540,11 @@ public final class AvatarSkillInfoOuterClass {
           }
           onChanged();
         }
-        if (other.getMaxChargeCount() != 0) {
-          setMaxChargeCount(other.getMaxChargeCount());
-        }
         if (other.getPassCdTime() != 0) {
           setPassCdTime(other.getPassCdTime());
+        }
+        if (other.getMaxChargeCount() != 0) {
+          setMaxChargeCount(other.getMaxChargeCount());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -655,37 +655,6 @@ public final class AvatarSkillInfoOuterClass {
         return this;
       }
 
-      private int maxChargeCount_ ;
-      /**
-       * <code>uint32 max_charge_count = 3;</code>
-       * @return The maxChargeCount.
-       */
-      @java.lang.Override
-      public int getMaxChargeCount() {
-        return maxChargeCount_;
-      }
-      /**
-       * <code>uint32 max_charge_count = 3;</code>
-       * @param value The maxChargeCount to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMaxChargeCount(int value) {
-        
-        maxChargeCount_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 max_charge_count = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMaxChargeCount() {
-        
-        maxChargeCount_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int passCdTime_ ;
       /**
        * <code>uint32 pass_cd_time = 1;</code>
@@ -713,6 +682,37 @@ public final class AvatarSkillInfoOuterClass {
       public Builder clearPassCdTime() {
         
         passCdTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int maxChargeCount_ ;
+      /**
+       * <code>uint32 max_charge_count = 3;</code>
+       * @return The maxChargeCount.
+       */
+      @java.lang.Override
+      public int getMaxChargeCount() {
+        return maxChargeCount_;
+      }
+      /**
+       * <code>uint32 max_charge_count = 3;</code>
+       * @param value The maxChargeCount to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMaxChargeCount(int value) {
+        
+        maxChargeCount_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 max_charge_count = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMaxChargeCount() {
+        
+        maxChargeCount_ = 0;
         onChanged();
         return this;
       }
@@ -784,8 +784,8 @@ public final class AvatarSkillInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025AvatarSkillInfo.proto\"\\\n\017AvatarSkillIn" +
-      "fo\022\031\n\021full_cd_time_list\030\002 \003(\r\022\030\n\020max_cha" +
-      "rge_count\030\003 \001(\r\022\024\n\014pass_cd_time\030\001 \001(\rB\033\n" +
+      "fo\022\031\n\021full_cd_time_list\030\002 \003(\r\022\024\n\014pass_cd" +
+      "_time\030\001 \001(\r\022\030\n\020max_charge_count\030\003 \001(\rB\033\n" +
       "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -797,7 +797,7 @@ public final class AvatarSkillInfoOuterClass {
     internal_static_AvatarSkillInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarSkillInfo_descriptor,
-        new java.lang.String[] { "FullCdTimeList", "MaxChargeCount", "PassCdTime", });
+        new java.lang.String[] { "FullCdTimeList", "PassCdTime", "MaxChargeCount", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
