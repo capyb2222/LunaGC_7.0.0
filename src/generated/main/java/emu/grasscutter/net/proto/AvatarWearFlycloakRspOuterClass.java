@@ -19,21 +19,38 @@ public final class AvatarWearFlycloakRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <code>repeated uint64 avatar_guid_list = 1;</code>
      * @return A list containing the avatarGuidList.
      */
     java.util.List<java.lang.Long> getAvatarGuidListList();
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <code>repeated uint64 avatar_guid_list = 1;</code>
      * @return The count of avatarGuidList.
      */
     int getAvatarGuidListCount();
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <code>repeated uint64 avatar_guid_list = 1;</code>
      * @param index The index of the element to return.
      * @return The avatarGuidList at the given index.
      */
     long getAvatarGuidList(int index);
+
+    /**
+     * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+     * @return A list containing the dINEJPLIFDH.
+     */
+    java.util.List<java.lang.Long> getDINEJPLIFDHList();
+    /**
+     * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+     * @return The count of dINEJPLIFDH.
+     */
+    int getDINEJPLIFDHCount();
+    /**
+     * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+     * @param index The index of the element to return.
+     * @return The dINEJPLIFDH at the given index.
+     */
+    long getDINEJPLIFDH(int index);
 
     /**
      * <code>uint32 flycloak_id = 13;</code>
@@ -42,14 +59,14 @@ public final class AvatarWearFlycloakRspOuterClass {
     int getFlycloakId();
 
     /**
-     * <code>int32 retcode = 9;</code>
+     * <code>int32 retcode = 14;</code>
      * @return The retcode.
      */
     int getRetcode();
   }
   /**
    * <pre>
-   * CmdId: 1860
+   * CmdId: 24318
    * </pre>
    *
    * Protobuf type {@code AvatarWearFlycloakRsp}
@@ -65,6 +82,7 @@ public final class AvatarWearFlycloakRspOuterClass {
     }
     private AvatarWearFlycloakRsp() {
       avatarGuidList_ = emptyLongList();
+      dINEJPLIFDH_ = emptyLongList();
     }
 
     @java.lang.Override
@@ -98,7 +116,7 @@ public final class AvatarWearFlycloakRspOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -106,7 +124,7 @@ public final class AvatarWearFlycloakRspOuterClass {
               avatarGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 58: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -119,14 +137,35 @@ public final class AvatarWearFlycloakRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 72: {
-
-              retcode_ = input.readInt32();
+            case 48: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                dINEJPLIFDH_ = newLongList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              dINEJPLIFDH_.addLong(input.readUInt64());
+              break;
+            }
+            case 50: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                dINEJPLIFDH_ = newLongList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                dINEJPLIFDH_.addLong(input.readUInt64());
+              }
+              input.popLimit(limit);
               break;
             }
             case 104: {
 
               flycloakId_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -147,6 +186,9 @@ public final class AvatarWearFlycloakRspOuterClass {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           avatarGuidList_.makeImmutable(); // C
         }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          dINEJPLIFDH_.makeImmutable(); // C
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -164,10 +206,10 @@ public final class AvatarWearFlycloakRspOuterClass {
               emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp.class, emu.grasscutter.net.proto.AvatarWearFlycloakRspOuterClass.AvatarWearFlycloakRsp.Builder.class);
     }
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 7;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <code>repeated uint64 avatar_guid_list = 1;</code>
      * @return A list containing the avatarGuidList.
      */
     @java.lang.Override
@@ -176,14 +218,14 @@ public final class AvatarWearFlycloakRspOuterClass {
       return avatarGuidList_;
     }
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <code>repeated uint64 avatar_guid_list = 1;</code>
      * @return The count of avatarGuidList.
      */
     public int getAvatarGuidListCount() {
       return avatarGuidList_.size();
     }
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <code>repeated uint64 avatar_guid_list = 1;</code>
      * @param index The index of the element to return.
      * @return The avatarGuidList at the given index.
      */
@@ -191,6 +233,34 @@ public final class AvatarWearFlycloakRspOuterClass {
       return avatarGuidList_.getLong(index);
     }
     private int avatarGuidListMemoizedSerializedSize = -1;
+
+    public static final int DINEJPLIFDH_FIELD_NUMBER = 6;
+    private com.google.protobuf.Internal.LongList dINEJPLIFDH_;
+    /**
+     * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+     * @return A list containing the dINEJPLIFDH.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Long>
+        getDINEJPLIFDHList() {
+      return dINEJPLIFDH_;
+    }
+    /**
+     * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+     * @return The count of dINEJPLIFDH.
+     */
+    public int getDINEJPLIFDHCount() {
+      return dINEJPLIFDH_.size();
+    }
+    /**
+     * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+     * @param index The index of the element to return.
+     * @return The dINEJPLIFDH at the given index.
+     */
+    public long getDINEJPLIFDH(int index) {
+      return dINEJPLIFDH_.getLong(index);
+    }
+    private int dINEJPLIFDHMemoizedSerializedSize = -1;
 
     public static final int FLYCLOAK_ID_FIELD_NUMBER = 13;
     private int flycloakId_;
@@ -203,10 +273,10 @@ public final class AvatarWearFlycloakRspOuterClass {
       return flycloakId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 9;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
     /**
-     * <code>int32 retcode = 9;</code>
+     * <code>int32 retcode = 14;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -230,17 +300,24 @@ public final class AvatarWearFlycloakRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(10);
         output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarGuidList_.size(); i++) {
         output.writeUInt64NoTag(avatarGuidList_.getLong(i));
       }
-      if (retcode_ != 0) {
-        output.writeInt32(9, retcode_);
+      if (getDINEJPLIFDHList().size() > 0) {
+        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(dINEJPLIFDHMemoizedSerializedSize);
+      }
+      for (int i = 0; i < dINEJPLIFDH_.size(); i++) {
+        output.writeUInt64NoTag(dINEJPLIFDH_.getLong(i));
       }
       if (flycloakId_ != 0) {
         output.writeUInt32(13, flycloakId_);
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -265,13 +342,27 @@ public final class AvatarWearFlycloakRspOuterClass {
         }
         avatarGuidListMemoizedSerializedSize = dataSize;
       }
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(9, retcode_);
+      {
+        int dataSize = 0;
+        for (int i = 0; i < dINEJPLIFDH_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt64SizeNoTag(dINEJPLIFDH_.getLong(i));
+        }
+        size += dataSize;
+        if (!getDINEJPLIFDHList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        dINEJPLIFDHMemoizedSerializedSize = dataSize;
       }
       if (flycloakId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, flycloakId_);
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -290,6 +381,8 @@ public final class AvatarWearFlycloakRspOuterClass {
 
       if (!getAvatarGuidListList()
           .equals(other.getAvatarGuidListList())) return false;
+      if (!getDINEJPLIFDHList()
+          .equals(other.getDINEJPLIFDHList())) return false;
       if (getFlycloakId()
           != other.getFlycloakId()) return false;
       if (getRetcode()
@@ -308,6 +401,10 @@ public final class AvatarWearFlycloakRspOuterClass {
       if (getAvatarGuidListCount() > 0) {
         hash = (37 * hash) + AVATAR_GUID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getAvatarGuidListList().hashCode();
+      }
+      if (getDINEJPLIFDHCount() > 0) {
+        hash = (37 * hash) + DINEJPLIFDH_FIELD_NUMBER;
+        hash = (53 * hash) + getDINEJPLIFDHList().hashCode();
       }
       hash = (37 * hash) + FLYCLOAK_ID_FIELD_NUMBER;
       hash = (53 * hash) + getFlycloakId();
@@ -410,7 +507,7 @@ public final class AvatarWearFlycloakRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 1860
+     * CmdId: 24318
      * </pre>
      *
      * Protobuf type {@code AvatarWearFlycloakRsp}
@@ -452,6 +549,8 @@ public final class AvatarWearFlycloakRspOuterClass {
         super.clear();
         avatarGuidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000001);
+        dINEJPLIFDH_ = emptyLongList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         flycloakId_ = 0;
 
         retcode_ = 0;
@@ -488,6 +587,11 @@ public final class AvatarWearFlycloakRspOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.avatarGuidList_ = avatarGuidList_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          dINEJPLIFDH_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.dINEJPLIFDH_ = dINEJPLIFDH_;
         result.flycloakId_ = flycloakId_;
         result.retcode_ = retcode_;
         onBuilt();
@@ -548,6 +652,16 @@ public final class AvatarWearFlycloakRspOuterClass {
           }
           onChanged();
         }
+        if (!other.dINEJPLIFDH_.isEmpty()) {
+          if (dINEJPLIFDH_.isEmpty()) {
+            dINEJPLIFDH_ = other.dINEJPLIFDH_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureDINEJPLIFDHIsMutable();
+            dINEJPLIFDH_.addAll(other.dINEJPLIFDH_);
+          }
+          onChanged();
+        }
         if (other.getFlycloakId() != 0) {
           setFlycloakId(other.getFlycloakId());
         }
@@ -592,7 +706,7 @@ public final class AvatarWearFlycloakRspOuterClass {
          }
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <code>repeated uint64 avatar_guid_list = 1;</code>
        * @return A list containing the avatarGuidList.
        */
       public java.util.List<java.lang.Long>
@@ -601,14 +715,14 @@ public final class AvatarWearFlycloakRspOuterClass {
                  java.util.Collections.unmodifiableList(avatarGuidList_) : avatarGuidList_;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <code>repeated uint64 avatar_guid_list = 1;</code>
        * @return The count of avatarGuidList.
        */
       public int getAvatarGuidListCount() {
         return avatarGuidList_.size();
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <code>repeated uint64 avatar_guid_list = 1;</code>
        * @param index The index of the element to return.
        * @return The avatarGuidList at the given index.
        */
@@ -616,7 +730,7 @@ public final class AvatarWearFlycloakRspOuterClass {
         return avatarGuidList_.getLong(index);
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <code>repeated uint64 avatar_guid_list = 1;</code>
        * @param index The index to set the value at.
        * @param value The avatarGuidList to set.
        * @return This builder for chaining.
@@ -629,7 +743,7 @@ public final class AvatarWearFlycloakRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <code>repeated uint64 avatar_guid_list = 1;</code>
        * @param value The avatarGuidList to add.
        * @return This builder for chaining.
        */
@@ -640,7 +754,7 @@ public final class AvatarWearFlycloakRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <code>repeated uint64 avatar_guid_list = 1;</code>
        * @param values The avatarGuidList to add.
        * @return This builder for chaining.
        */
@@ -653,12 +767,91 @@ public final class AvatarWearFlycloakRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <code>repeated uint64 avatar_guid_list = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuidList() {
         avatarGuidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.LongList dINEJPLIFDH_ = emptyLongList();
+      private void ensureDINEJPLIFDHIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          dINEJPLIFDH_ = mutableCopy(dINEJPLIFDH_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+       * @return A list containing the dINEJPLIFDH.
+       */
+      public java.util.List<java.lang.Long>
+          getDINEJPLIFDHList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(dINEJPLIFDH_) : dINEJPLIFDH_;
+      }
+      /**
+       * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+       * @return The count of dINEJPLIFDH.
+       */
+      public int getDINEJPLIFDHCount() {
+        return dINEJPLIFDH_.size();
+      }
+      /**
+       * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+       * @param index The index of the element to return.
+       * @return The dINEJPLIFDH at the given index.
+       */
+      public long getDINEJPLIFDH(int index) {
+        return dINEJPLIFDH_.getLong(index);
+      }
+      /**
+       * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+       * @param index The index to set the value at.
+       * @param value The dINEJPLIFDH to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDINEJPLIFDH(
+          int index, long value) {
+        ensureDINEJPLIFDHIsMutable();
+        dINEJPLIFDH_.setLong(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+       * @param value The dINEJPLIFDH to add.
+       * @return This builder for chaining.
+       */
+      public Builder addDINEJPLIFDH(long value) {
+        ensureDINEJPLIFDHIsMutable();
+        dINEJPLIFDH_.addLong(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+       * @param values The dINEJPLIFDH to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllDINEJPLIFDH(
+          java.lang.Iterable<? extends java.lang.Long> values) {
+        ensureDINEJPLIFDHIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, dINEJPLIFDH_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint64 DINEJPLIFDH = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDINEJPLIFDH() {
+        dINEJPLIFDH_ = emptyLongList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
@@ -696,7 +889,7 @@ public final class AvatarWearFlycloakRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 9;</code>
+       * <code>int32 retcode = 14;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -704,7 +897,7 @@ public final class AvatarWearFlycloakRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 9;</code>
+       * <code>int32 retcode = 14;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -715,7 +908,7 @@ public final class AvatarWearFlycloakRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 9;</code>
+       * <code>int32 retcode = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -791,10 +984,11 @@ public final class AvatarWearFlycloakRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033AvatarWearFlycloakRsp.proto\"W\n\025AvatarW" +
-      "earFlycloakRsp\022\030\n\020avatar_guid_list\030\007 \003(\004" +
-      "\022\023\n\013flycloak_id\030\r \001(\r\022\017\n\007retcode\030\t \001(\005B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\033AvatarWearFlycloakRsp.proto\"l\n\025AvatarW" +
+      "earFlycloakRsp\022\030\n\020avatar_guid_list\030\001 \003(\004" +
+      "\022\023\n\013DINEJPLIFDH\030\006 \003(\004\022\023\n\013flycloak_id\030\r \001" +
+      "(\r\022\017\n\007retcode\030\016 \001(\005B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -805,7 +999,7 @@ public final class AvatarWearFlycloakRspOuterClass {
     internal_static_AvatarWearFlycloakRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarWearFlycloakRsp_descriptor,
-        new java.lang.String[] { "AvatarGuidList", "FlycloakId", "Retcode", });
+        new java.lang.String[] { "AvatarGuidList", "DINEJPLIFDH", "FlycloakId", "Retcode", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

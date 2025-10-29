@@ -154,18 +154,18 @@ public final class PacketOpcodes {
     public static final int CalcWeaponUpgradeReturnItemsReq = 9177;
     public static final int CalcWeaponUpgradeReturnItemsRsp = 7394;
     // Player - Cosmetic
-    public static final int AvatarGainTraceEffectNotify = 1;
-    public static final int AvatarChangeTraceEffectReq = 1;
-	public static final int AvatarChangeTraceEffectRsp = 1;
-    public static final int AvatarTraceEffectChangeNotify = 1;
-    public static final int AvatarGainCostumeNotify = 1;
-	public static final int AvatarChangeCostumeReq = 1; 
-	public static final int AvatarChangeCostumeRsp = 1;
-    public static final int AvatarChangeCostumeNotify = 1;  
-    public static final int AvatarGainFlycloakNotify = 1;
-    public static final int AvatarWearFlycloakReq = 1;
-	public static final int AvatarWearFlycloakRsp = 1;
-	public static final int AvatarFlycloakChangeNotify = 1;
+    public static final int AvatarGainTraceEffectNotify = 29281;
+    public static final int AvatarChangeTraceEffectReq = 4397;
+	public static final int AvatarChangeTraceEffectRsp = 6457;
+    public static final int AvatarTraceEffectChangeNotify = 8116;
+    public static final int AvatarGainCostumeNotify = 6537;
+	public static final int AvatarChangeCostumeReq = 25566;
+	public static final int AvatarChangeCostumeRsp = 6523;
+    public static final int AvatarChangeCostumeNotify = 6537;
+    public static final int AvatarGainFlycloakNotify = 20356;
+    public static final int AvatarWearFlycloakReq = 21345;
+	public static final int AvatarWearFlycloakRsp = 24318;
+	public static final int AvatarFlycloakChangeNotify = 7898;
     // Player - Ability/Combat etc.
     public static final int AvatarPropNotify = 26131;
     public static final int PlayerPropChangeNotify = 27276;

@@ -19,12 +19,6 @@ public final class AvatarWearFlycloakReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 flycloak_id = 1;</code>
-     * @return The flycloakId.
-     */
-    int getFlycloakId();
-
-    /**
      * <code>repeated uint64 avatar_guid_list = 7;</code>
      * @return A list containing the avatarGuidList.
      */
@@ -40,10 +34,16 @@ public final class AvatarWearFlycloakReqOuterClass {
      * @return The avatarGuidList at the given index.
      */
     long getAvatarGuidList(int index);
+
+    /**
+     * <code>uint32 flycloak_id = 5;</code>
+     * @return The flycloakId.
+     */
+    int getFlycloakId();
   }
   /**
    * <pre>
-   * CmdId: 9611
+   * CmdId: 21345
    * </pre>
    *
    * Protobuf type {@code AvatarWearFlycloakReq}
@@ -92,7 +92,7 @@ public final class AvatarWearFlycloakReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 40: {
 
               flycloakId_ = input.readUInt32();
               break;
@@ -153,17 +153,6 @@ public final class AvatarWearFlycloakReqOuterClass {
               emu.grasscutter.net.proto.AvatarWearFlycloakReqOuterClass.AvatarWearFlycloakReq.class, emu.grasscutter.net.proto.AvatarWearFlycloakReqOuterClass.AvatarWearFlycloakReq.Builder.class);
     }
 
-    public static final int FLYCLOAK_ID_FIELD_NUMBER = 1;
-    private int flycloakId_;
-    /**
-     * <code>uint32 flycloak_id = 1;</code>
-     * @return The flycloakId.
-     */
-    @java.lang.Override
-    public int getFlycloakId() {
-      return flycloakId_;
-    }
-
     public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
@@ -192,6 +181,17 @@ public final class AvatarWearFlycloakReqOuterClass {
     }
     private int avatarGuidListMemoizedSerializedSize = -1;
 
+    public static final int FLYCLOAK_ID_FIELD_NUMBER = 5;
+    private int flycloakId_;
+    /**
+     * <code>uint32 flycloak_id = 5;</code>
+     * @return The flycloakId.
+     */
+    @java.lang.Override
+    public int getFlycloakId() {
+      return flycloakId_;
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -208,7 +208,7 @@ public final class AvatarWearFlycloakReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (flycloakId_ != 0) {
-        output.writeUInt32(1, flycloakId_);
+        output.writeUInt32(5, flycloakId_);
       }
       if (getAvatarGuidListList().size() > 0) {
         output.writeUInt32NoTag(58);
@@ -228,7 +228,7 @@ public final class AvatarWearFlycloakReqOuterClass {
       size = 0;
       if (flycloakId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, flycloakId_);
+          .computeUInt32Size(5, flycloakId_);
       }
       {
         int dataSize = 0;
@@ -259,10 +259,10 @@ public final class AvatarWearFlycloakReqOuterClass {
       }
       emu.grasscutter.net.proto.AvatarWearFlycloakReqOuterClass.AvatarWearFlycloakReq other = (emu.grasscutter.net.proto.AvatarWearFlycloakReqOuterClass.AvatarWearFlycloakReq) obj;
 
-      if (getFlycloakId()
-          != other.getFlycloakId()) return false;
       if (!getAvatarGuidListList()
           .equals(other.getAvatarGuidListList())) return false;
+      if (getFlycloakId()
+          != other.getFlycloakId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -274,12 +274,12 @@ public final class AvatarWearFlycloakReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + FLYCLOAK_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getFlycloakId();
       if (getAvatarGuidListCount() > 0) {
         hash = (37 * hash) + AVATAR_GUID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getAvatarGuidListList().hashCode();
       }
+      hash = (37 * hash) + FLYCLOAK_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getFlycloakId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -377,7 +377,7 @@ public final class AvatarWearFlycloakReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 9611
+     * CmdId: 21345
      * </pre>
      *
      * Protobuf type {@code AvatarWearFlycloakReq}
@@ -417,10 +417,10 @@ public final class AvatarWearFlycloakReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        flycloakId_ = 0;
-
         avatarGuidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000001);
+        flycloakId_ = 0;
+
         return this;
       }
 
@@ -448,12 +448,12 @@ public final class AvatarWearFlycloakReqOuterClass {
       public emu.grasscutter.net.proto.AvatarWearFlycloakReqOuterClass.AvatarWearFlycloakReq buildPartial() {
         emu.grasscutter.net.proto.AvatarWearFlycloakReqOuterClass.AvatarWearFlycloakReq result = new emu.grasscutter.net.proto.AvatarWearFlycloakReqOuterClass.AvatarWearFlycloakReq(this);
         int from_bitField0_ = bitField0_;
-        result.flycloakId_ = flycloakId_;
         if (((bitField0_ & 0x00000001) != 0)) {
           avatarGuidList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.avatarGuidList_ = avatarGuidList_;
+        result.flycloakId_ = flycloakId_;
         onBuilt();
         return result;
       }
@@ -502,9 +502,6 @@ public final class AvatarWearFlycloakReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarWearFlycloakReqOuterClass.AvatarWearFlycloakReq other) {
         if (other == emu.grasscutter.net.proto.AvatarWearFlycloakReqOuterClass.AvatarWearFlycloakReq.getDefaultInstance()) return this;
-        if (other.getFlycloakId() != 0) {
-          setFlycloakId(other.getFlycloakId());
-        }
         if (!other.avatarGuidList_.isEmpty()) {
           if (avatarGuidList_.isEmpty()) {
             avatarGuidList_ = other.avatarGuidList_;
@@ -514,6 +511,9 @@ public final class AvatarWearFlycloakReqOuterClass {
             avatarGuidList_.addAll(other.avatarGuidList_);
           }
           onChanged();
+        }
+        if (other.getFlycloakId() != 0) {
+          setFlycloakId(other.getFlycloakId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -544,37 +544,6 @@ public final class AvatarWearFlycloakReqOuterClass {
         return this;
       }
       private int bitField0_;
-
-      private int flycloakId_ ;
-      /**
-       * <code>uint32 flycloak_id = 1;</code>
-       * @return The flycloakId.
-       */
-      @java.lang.Override
-      public int getFlycloakId() {
-        return flycloakId_;
-      }
-      /**
-       * <code>uint32 flycloak_id = 1;</code>
-       * @param value The flycloakId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setFlycloakId(int value) {
-        
-        flycloakId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 flycloak_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearFlycloakId() {
-        
-        flycloakId_ = 0;
-        onChanged();
-        return this;
-      }
 
       private com.google.protobuf.Internal.LongList avatarGuidList_ = emptyLongList();
       private void ensureAvatarGuidListIsMutable() {
@@ -654,6 +623,37 @@ public final class AvatarWearFlycloakReqOuterClass {
         onChanged();
         return this;
       }
+
+      private int flycloakId_ ;
+      /**
+       * <code>uint32 flycloak_id = 5;</code>
+       * @return The flycloakId.
+       */
+      @java.lang.Override
+      public int getFlycloakId() {
+        return flycloakId_;
+      }
+      /**
+       * <code>uint32 flycloak_id = 5;</code>
+       * @param value The flycloakId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setFlycloakId(int value) {
+        
+        flycloakId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 flycloak_id = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearFlycloakId() {
+        
+        flycloakId_ = 0;
+        onChanged();
+        return this;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -722,8 +722,8 @@ public final class AvatarWearFlycloakReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033AvatarWearFlycloakReq.proto\"F\n\025AvatarW" +
-      "earFlycloakReq\022\023\n\013flycloak_id\030\001 \001(\r\022\030\n\020a" +
-      "vatar_guid_list\030\007 \003(\004B\033\n\031emu.grasscutter" +
+      "earFlycloakReq\022\030\n\020avatar_guid_list\030\007 \003(\004" +
+      "\022\023\n\013flycloak_id\030\005 \001(\rB\033\n\031emu.grasscutter" +
       ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -735,7 +735,7 @@ public final class AvatarWearFlycloakReqOuterClass {
     internal_static_AvatarWearFlycloakReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarWearFlycloakReq_descriptor,
-        new java.lang.String[] { "FlycloakId", "AvatarGuidList", });
+        new java.lang.String[] { "AvatarGuidList", "FlycloakId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

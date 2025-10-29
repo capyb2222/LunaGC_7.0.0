@@ -19,20 +19,12 @@ public final class WeaponPromoteRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     * placeholder
-     * </pre>
-     *
      * <code>uint32 cur_promote_level = 9;</code>
      * @return The curPromoteLevel.
      */
     int getCurPromoteLevel();
 
     /**
-     * <pre>
-     * placeholder
-     * </pre>
-     *
      * <code>uint32 old_promote_level = 13;</code>
      * @return The oldPromoteLevel.
      */
@@ -154,10 +146,6 @@ public final class WeaponPromoteRspOuterClass {
     public static final int CUR_PROMOTE_LEVEL_FIELD_NUMBER = 9;
     private int curPromoteLevel_;
     /**
-     * <pre>
-     * placeholder
-     * </pre>
-     *
      * <code>uint32 cur_promote_level = 9;</code>
      * @return The curPromoteLevel.
      */
@@ -169,10 +157,6 @@ public final class WeaponPromoteRspOuterClass {
     public static final int OLD_PROMOTE_LEVEL_FIELD_NUMBER = 13;
     private int oldPromoteLevel_;
     /**
-     * <pre>
-     * placeholder
-     * </pre>
-     *
      * <code>uint32 old_promote_level = 13;</code>
      * @return The oldPromoteLevel.
      */
@@ -563,10 +547,6 @@ public final class WeaponPromoteRspOuterClass {
 
       private int curPromoteLevel_ ;
       /**
-       * <pre>
-       * placeholder
-       * </pre>
-       *
        * <code>uint32 cur_promote_level = 9;</code>
        * @return The curPromoteLevel.
        */
@@ -575,10 +555,6 @@ public final class WeaponPromoteRspOuterClass {
         return curPromoteLevel_;
       }
       /**
-       * <pre>
-       * placeholder
-       * </pre>
-       *
        * <code>uint32 cur_promote_level = 9;</code>
        * @param value The curPromoteLevel to set.
        * @return This builder for chaining.
@@ -590,10 +566,6 @@ public final class WeaponPromoteRspOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * placeholder
-       * </pre>
-       *
        * <code>uint32 cur_promote_level = 9;</code>
        * @return This builder for chaining.
        */
@@ -606,10 +578,6 @@ public final class WeaponPromoteRspOuterClass {
 
       private int oldPromoteLevel_ ;
       /**
-       * <pre>
-       * placeholder
-       * </pre>
-       *
        * <code>uint32 old_promote_level = 13;</code>
        * @return The oldPromoteLevel.
        */
@@ -618,10 +586,6 @@ public final class WeaponPromoteRspOuterClass {
         return oldPromoteLevel_;
       }
       /**
-       * <pre>
-       * placeholder
-       * </pre>
-       *
        * <code>uint32 old_promote_level = 13;</code>
        * @param value The oldPromoteLevel to set.
        * @return This builder for chaining.
@@ -633,10 +597,6 @@ public final class WeaponPromoteRspOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * placeholder
-       * </pre>
-       *
        * <code>uint32 old_promote_level = 13;</code>
        * @return This builder for chaining.
        */
