@@ -19,21 +19,21 @@ public final class ClientDetectorResultOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
-     * @return A list containing the nIDLMFKDEOE.
+     * <code>repeated uint32 PBPGDEHABLG = 11;</code>
+     * @return A list containing the pBPGDEHABLG.
      */
-    java.util.List<java.lang.Integer> getNIDLMFKDEOEList();
+    java.util.List<java.lang.Integer> getPBPGDEHABLGList();
     /**
-     * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
-     * @return The count of nIDLMFKDEOE.
+     * <code>repeated uint32 PBPGDEHABLG = 11;</code>
+     * @return The count of pBPGDEHABLG.
      */
-    int getNIDLMFKDEOECount();
+    int getPBPGDEHABLGCount();
     /**
-     * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
+     * <code>repeated uint32 PBPGDEHABLG = 11;</code>
      * @param index The index of the element to return.
-     * @return The nIDLMFKDEOE at the given index.
+     * @return The pBPGDEHABLG at the given index.
      */
-    int getNIDLMFKDEOE(int index);
+    int getPBPGDEHABLG(int index);
   }
   /**
    * Protobuf type {@code ClientDetectorResult}
@@ -48,7 +48,7 @@ public final class ClientDetectorResultOuterClass {
       super(builder);
     }
     private ClientDetectorResult() {
-      nIDLMFKDEOE_ = emptyIntList();
+      pBPGDEHABLG_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -82,23 +82,23 @@ public final class ClientDetectorResultOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                nIDLMFKDEOE_ = newIntList();
+                pBPGDEHABLG_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              nIDLMFKDEOE_.addInt(input.readUInt32());
+              pBPGDEHABLG_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                nIDLMFKDEOE_ = newIntList();
+                pBPGDEHABLG_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                nIDLMFKDEOE_.addInt(input.readUInt32());
+                pBPGDEHABLG_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -119,7 +119,7 @@ public final class ClientDetectorResultOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          nIDLMFKDEOE_.makeImmutable(); // C
+          pBPGDEHABLG_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -138,33 +138,33 @@ public final class ClientDetectorResultOuterClass {
               emu.grasscutter.net.proto.ClientDetectorResultOuterClass.ClientDetectorResult.class, emu.grasscutter.net.proto.ClientDetectorResultOuterClass.ClientDetectorResult.Builder.class);
     }
 
-    public static final int NIDLMFKDEOE_FIELD_NUMBER = 12;
-    private com.google.protobuf.Internal.IntList nIDLMFKDEOE_;
+    public static final int PBPGDEHABLG_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList pBPGDEHABLG_;
     /**
-     * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
-     * @return A list containing the nIDLMFKDEOE.
+     * <code>repeated uint32 PBPGDEHABLG = 11;</code>
+     * @return A list containing the pBPGDEHABLG.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getNIDLMFKDEOEList() {
-      return nIDLMFKDEOE_;
+        getPBPGDEHABLGList() {
+      return pBPGDEHABLG_;
     }
     /**
-     * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
-     * @return The count of nIDLMFKDEOE.
+     * <code>repeated uint32 PBPGDEHABLG = 11;</code>
+     * @return The count of pBPGDEHABLG.
      */
-    public int getNIDLMFKDEOECount() {
-      return nIDLMFKDEOE_.size();
+    public int getPBPGDEHABLGCount() {
+      return pBPGDEHABLG_.size();
     }
     /**
-     * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
+     * <code>repeated uint32 PBPGDEHABLG = 11;</code>
      * @param index The index of the element to return.
-     * @return The nIDLMFKDEOE at the given index.
+     * @return The pBPGDEHABLG at the given index.
      */
-    public int getNIDLMFKDEOE(int index) {
-      return nIDLMFKDEOE_.getInt(index);
+    public int getPBPGDEHABLG(int index) {
+      return pBPGDEHABLG_.getInt(index);
     }
-    private int nIDLMFKDEOEMemoizedSerializedSize = -1;
+    private int pBPGDEHABLGMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -181,12 +181,12 @@ public final class ClientDetectorResultOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getNIDLMFKDEOEList().size() > 0) {
-        output.writeUInt32NoTag(98);
-        output.writeUInt32NoTag(nIDLMFKDEOEMemoizedSerializedSize);
+      if (getPBPGDEHABLGList().size() > 0) {
+        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(pBPGDEHABLGMemoizedSerializedSize);
       }
-      for (int i = 0; i < nIDLMFKDEOE_.size(); i++) {
-        output.writeUInt32NoTag(nIDLMFKDEOE_.getInt(i));
+      for (int i = 0; i < pBPGDEHABLG_.size(); i++) {
+        output.writeUInt32NoTag(pBPGDEHABLG_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,17 +199,17 @@ public final class ClientDetectorResultOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < nIDLMFKDEOE_.size(); i++) {
+        for (int i = 0; i < pBPGDEHABLG_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(nIDLMFKDEOE_.getInt(i));
+            .computeUInt32SizeNoTag(pBPGDEHABLG_.getInt(i));
         }
         size += dataSize;
-        if (!getNIDLMFKDEOEList().isEmpty()) {
+        if (!getPBPGDEHABLGList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        nIDLMFKDEOEMemoizedSerializedSize = dataSize;
+        pBPGDEHABLGMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -226,8 +226,8 @@ public final class ClientDetectorResultOuterClass {
       }
       emu.grasscutter.net.proto.ClientDetectorResultOuterClass.ClientDetectorResult other = (emu.grasscutter.net.proto.ClientDetectorResultOuterClass.ClientDetectorResult) obj;
 
-      if (!getNIDLMFKDEOEList()
-          .equals(other.getNIDLMFKDEOEList())) return false;
+      if (!getPBPGDEHABLGList()
+          .equals(other.getPBPGDEHABLGList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -239,9 +239,9 @@ public final class ClientDetectorResultOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getNIDLMFKDEOECount() > 0) {
-        hash = (37 * hash) + NIDLMFKDEOE_FIELD_NUMBER;
-        hash = (53 * hash) + getNIDLMFKDEOEList().hashCode();
+      if (getPBPGDEHABLGCount() > 0) {
+        hash = (37 * hash) + PBPGDEHABLG_FIELD_NUMBER;
+        hash = (53 * hash) + getPBPGDEHABLGList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -376,7 +376,7 @@ public final class ClientDetectorResultOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        nIDLMFKDEOE_ = emptyIntList();
+        pBPGDEHABLG_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
@@ -406,10 +406,10 @@ public final class ClientDetectorResultOuterClass {
         emu.grasscutter.net.proto.ClientDetectorResultOuterClass.ClientDetectorResult result = new emu.grasscutter.net.proto.ClientDetectorResultOuterClass.ClientDetectorResult(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          nIDLMFKDEOE_.makeImmutable();
+          pBPGDEHABLG_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.nIDLMFKDEOE_ = nIDLMFKDEOE_;
+        result.pBPGDEHABLG_ = pBPGDEHABLG_;
         onBuilt();
         return result;
       }
@@ -458,13 +458,13 @@ public final class ClientDetectorResultOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ClientDetectorResultOuterClass.ClientDetectorResult other) {
         if (other == emu.grasscutter.net.proto.ClientDetectorResultOuterClass.ClientDetectorResult.getDefaultInstance()) return this;
-        if (!other.nIDLMFKDEOE_.isEmpty()) {
-          if (nIDLMFKDEOE_.isEmpty()) {
-            nIDLMFKDEOE_ = other.nIDLMFKDEOE_;
+        if (!other.pBPGDEHABLG_.isEmpty()) {
+          if (pBPGDEHABLG_.isEmpty()) {
+            pBPGDEHABLG_ = other.pBPGDEHABLG_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureNIDLMFKDEOEIsMutable();
-            nIDLMFKDEOE_.addAll(other.nIDLMFKDEOE_);
+            ensurePBPGDEHABLGIsMutable();
+            pBPGDEHABLG_.addAll(other.pBPGDEHABLG_);
           }
           onChanged();
         }
@@ -498,80 +498,80 @@ public final class ClientDetectorResultOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList nIDLMFKDEOE_ = emptyIntList();
-      private void ensureNIDLMFKDEOEIsMutable() {
+      private com.google.protobuf.Internal.IntList pBPGDEHABLG_ = emptyIntList();
+      private void ensurePBPGDEHABLGIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          nIDLMFKDEOE_ = mutableCopy(nIDLMFKDEOE_);
+          pBPGDEHABLG_ = mutableCopy(pBPGDEHABLG_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
-       * @return A list containing the nIDLMFKDEOE.
+       * <code>repeated uint32 PBPGDEHABLG = 11;</code>
+       * @return A list containing the pBPGDEHABLG.
        */
       public java.util.List<java.lang.Integer>
-          getNIDLMFKDEOEList() {
+          getPBPGDEHABLGList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(nIDLMFKDEOE_) : nIDLMFKDEOE_;
+                 java.util.Collections.unmodifiableList(pBPGDEHABLG_) : pBPGDEHABLG_;
       }
       /**
-       * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
-       * @return The count of nIDLMFKDEOE.
+       * <code>repeated uint32 PBPGDEHABLG = 11;</code>
+       * @return The count of pBPGDEHABLG.
        */
-      public int getNIDLMFKDEOECount() {
-        return nIDLMFKDEOE_.size();
+      public int getPBPGDEHABLGCount() {
+        return pBPGDEHABLG_.size();
       }
       /**
-       * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
+       * <code>repeated uint32 PBPGDEHABLG = 11;</code>
        * @param index The index of the element to return.
-       * @return The nIDLMFKDEOE at the given index.
+       * @return The pBPGDEHABLG at the given index.
        */
-      public int getNIDLMFKDEOE(int index) {
-        return nIDLMFKDEOE_.getInt(index);
+      public int getPBPGDEHABLG(int index) {
+        return pBPGDEHABLG_.getInt(index);
       }
       /**
-       * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
+       * <code>repeated uint32 PBPGDEHABLG = 11;</code>
        * @param index The index to set the value at.
-       * @param value The nIDLMFKDEOE to set.
+       * @param value The pBPGDEHABLG to set.
        * @return This builder for chaining.
        */
-      public Builder setNIDLMFKDEOE(
+      public Builder setPBPGDEHABLG(
           int index, int value) {
-        ensureNIDLMFKDEOEIsMutable();
-        nIDLMFKDEOE_.setInt(index, value);
+        ensurePBPGDEHABLGIsMutable();
+        pBPGDEHABLG_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
-       * @param value The nIDLMFKDEOE to add.
+       * <code>repeated uint32 PBPGDEHABLG = 11;</code>
+       * @param value The pBPGDEHABLG to add.
        * @return This builder for chaining.
        */
-      public Builder addNIDLMFKDEOE(int value) {
-        ensureNIDLMFKDEOEIsMutable();
-        nIDLMFKDEOE_.addInt(value);
+      public Builder addPBPGDEHABLG(int value) {
+        ensurePBPGDEHABLGIsMutable();
+        pBPGDEHABLG_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
-       * @param values The nIDLMFKDEOE to add.
+       * <code>repeated uint32 PBPGDEHABLG = 11;</code>
+       * @param values The pBPGDEHABLG to add.
        * @return This builder for chaining.
        */
-      public Builder addAllNIDLMFKDEOE(
+      public Builder addAllPBPGDEHABLG(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureNIDLMFKDEOEIsMutable();
+        ensurePBPGDEHABLGIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, nIDLMFKDEOE_);
+            values, pBPGDEHABLG_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 NIDLMFKDEOE = 12;</code>
+       * <code>repeated uint32 PBPGDEHABLG = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNIDLMFKDEOE() {
-        nIDLMFKDEOE_ = emptyIntList();
+      public Builder clearPBPGDEHABLG() {
+        pBPGDEHABLG_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class ClientDetectorResultOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032ClientDetectorResult.proto\"+\n\024ClientDe" +
-      "tectorResult\022\023\n\013NIDLMFKDEOE\030\014 \003(\rB\033\n\031emu" +
+      "tectorResult\022\023\n\013PBPGDEHABLG\030\013 \003(\rB\033\n\031emu" +
       ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -656,7 +656,7 @@ public final class ClientDetectorResultOuterClass {
     internal_static_ClientDetectorResult_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ClientDetectorResult_descriptor,
-        new java.lang.String[] { "NIDLMFKDEOE", });
+        new java.lang.String[] { "PBPGDEHABLG", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

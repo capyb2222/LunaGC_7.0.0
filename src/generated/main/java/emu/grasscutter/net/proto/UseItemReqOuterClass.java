@@ -19,55 +19,55 @@ public final class UseItemReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
-     * @return A list containing the aKCOAFJNBMI.
+     * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
+     * @return A list containing the oMAOMJNKHFI.
      */
-    java.util.List<java.lang.Integer> getAKCOAFJNBMIList();
+    java.util.List<java.lang.Integer> getOMAOMJNKHFIList();
     /**
-     * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
-     * @return The count of aKCOAFJNBMI.
+     * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
+     * @return The count of oMAOMJNKHFI.
      */
-    int getAKCOAFJNBMICount();
+    int getOMAOMJNKHFICount();
     /**
-     * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
+     * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
      * @param index The index of the element to return.
-     * @return The aKCOAFJNBMI at the given index.
+     * @return The oMAOMJNKHFI at the given index.
      */
-    int getAKCOAFJNBMI(int index);
+    int getOMAOMJNKHFI(int index);
 
     /**
-     * <code>uint32 count = 6;</code>
-     * @return The count.
-     */
-    int getCount();
-
-    /**
-     * <code>bool is_enter_mp_dungeon_team = 2;</code>
-     * @return The isEnterMpDungeonTeam.
-     */
-    boolean getIsEnterMpDungeonTeam();
-
-    /**
-     * <code>uint64 guid = 8;</code>
+     * <code>uint64 guid = 15;</code>
      * @return The guid.
      */
     long getGuid();
 
     /**
-     * <code>uint64 target_guid = 15;</code>
+     * <code>bool is_enter_mp_dungeon_team = 5;</code>
+     * @return The isEnterMpDungeonTeam.
+     */
+    boolean getIsEnterMpDungeonTeam();
+
+    /**
+     * <code>uint64 target_guid = 3;</code>
      * @return The targetGuid.
      */
     long getTargetGuid();
 
     /**
-     * <code>uint32 option_idx = 11;</code>
+     * <code>uint32 count = 13;</code>
+     * @return The count.
+     */
+    int getCount();
+
+    /**
+     * <code>uint32 option_idx = 12;</code>
      * @return The optionIdx.
      */
     int getOptionIdx();
   }
   /**
    * <pre>
-   * CmdId: 7190
+   * CmdId: 25114
    * </pre>
    *
    * Protobuf type {@code UseItemReq}
@@ -82,7 +82,7 @@ public final class UseItemReqOuterClass {
       super(builder);
     }
     private UseItemReq() {
-      aKCOAFJNBMI_ = emptyIntList();
+      oMAOMJNKHFI_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -116,50 +116,50 @@ public final class UseItemReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 24: {
+
+              targetGuid_ = input.readUInt64();
+              break;
+            }
+            case 40: {
 
               isEnterMpDungeonTeam_ = input.readBool();
               break;
             }
-            case 48: {
-
-              count_ = input.readUInt32();
-              break;
-            }
-            case 64: {
-
-              guid_ = input.readUInt64();
-              break;
-            }
-            case 80: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                aKCOAFJNBMI_ = newIntList();
+                oMAOMJNKHFI_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              aKCOAFJNBMI_.addInt(input.readUInt32());
+              oMAOMJNKHFI_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                aKCOAFJNBMI_ = newIntList();
+                oMAOMJNKHFI_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                aKCOAFJNBMI_.addInt(input.readUInt32());
+                oMAOMJNKHFI_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 88: {
+            case 96: {
 
               optionIdx_ = input.readUInt32();
               break;
             }
+            case 104: {
+
+              count_ = input.readUInt32();
+              break;
+            }
             case 120: {
 
-              targetGuid_ = input.readUInt64();
+              guid_ = input.readUInt64();
               break;
             }
             default: {
@@ -178,7 +178,7 @@ public final class UseItemReqOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          aKCOAFJNBMI_.makeImmutable(); // C
+          oMAOMJNKHFI_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -197,60 +197,38 @@ public final class UseItemReqOuterClass {
               emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq.class, emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq.Builder.class);
     }
 
-    public static final int AKCOAFJNBMI_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList aKCOAFJNBMI_;
+    public static final int OMAOMJNKHFI_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList oMAOMJNKHFI_;
     /**
-     * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
-     * @return A list containing the aKCOAFJNBMI.
+     * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
+     * @return A list containing the oMAOMJNKHFI.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getAKCOAFJNBMIList() {
-      return aKCOAFJNBMI_;
+        getOMAOMJNKHFIList() {
+      return oMAOMJNKHFI_;
     }
     /**
-     * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
-     * @return The count of aKCOAFJNBMI.
+     * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
+     * @return The count of oMAOMJNKHFI.
      */
-    public int getAKCOAFJNBMICount() {
-      return aKCOAFJNBMI_.size();
+    public int getOMAOMJNKHFICount() {
+      return oMAOMJNKHFI_.size();
     }
     /**
-     * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
+     * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
      * @param index The index of the element to return.
-     * @return The aKCOAFJNBMI at the given index.
+     * @return The oMAOMJNKHFI at the given index.
      */
-    public int getAKCOAFJNBMI(int index) {
-      return aKCOAFJNBMI_.getInt(index);
+    public int getOMAOMJNKHFI(int index) {
+      return oMAOMJNKHFI_.getInt(index);
     }
-    private int aKCOAFJNBMIMemoizedSerializedSize = -1;
+    private int oMAOMJNKHFIMemoizedSerializedSize = -1;
 
-    public static final int COUNT_FIELD_NUMBER = 6;
-    private int count_;
-    /**
-     * <code>uint32 count = 6;</code>
-     * @return The count.
-     */
-    @java.lang.Override
-    public int getCount() {
-      return count_;
-    }
-
-    public static final int IS_ENTER_MP_DUNGEON_TEAM_FIELD_NUMBER = 2;
-    private boolean isEnterMpDungeonTeam_;
-    /**
-     * <code>bool is_enter_mp_dungeon_team = 2;</code>
-     * @return The isEnterMpDungeonTeam.
-     */
-    @java.lang.Override
-    public boolean getIsEnterMpDungeonTeam() {
-      return isEnterMpDungeonTeam_;
-    }
-
-    public static final int GUID_FIELD_NUMBER = 8;
+    public static final int GUID_FIELD_NUMBER = 15;
     private long guid_;
     /**
-     * <code>uint64 guid = 8;</code>
+     * <code>uint64 guid = 15;</code>
      * @return The guid.
      */
     @java.lang.Override
@@ -258,10 +236,21 @@ public final class UseItemReqOuterClass {
       return guid_;
     }
 
-    public static final int TARGET_GUID_FIELD_NUMBER = 15;
+    public static final int IS_ENTER_MP_DUNGEON_TEAM_FIELD_NUMBER = 5;
+    private boolean isEnterMpDungeonTeam_;
+    /**
+     * <code>bool is_enter_mp_dungeon_team = 5;</code>
+     * @return The isEnterMpDungeonTeam.
+     */
+    @java.lang.Override
+    public boolean getIsEnterMpDungeonTeam() {
+      return isEnterMpDungeonTeam_;
+    }
+
+    public static final int TARGET_GUID_FIELD_NUMBER = 3;
     private long targetGuid_;
     /**
-     * <code>uint64 target_guid = 15;</code>
+     * <code>uint64 target_guid = 3;</code>
      * @return The targetGuid.
      */
     @java.lang.Override
@@ -269,10 +258,21 @@ public final class UseItemReqOuterClass {
       return targetGuid_;
     }
 
-    public static final int OPTION_IDX_FIELD_NUMBER = 11;
+    public static final int COUNT_FIELD_NUMBER = 13;
+    private int count_;
+    /**
+     * <code>uint32 count = 13;</code>
+     * @return The count.
+     */
+    @java.lang.Override
+    public int getCount() {
+      return count_;
+    }
+
+    public static final int OPTION_IDX_FIELD_NUMBER = 12;
     private int optionIdx_;
     /**
-     * <code>uint32 option_idx = 11;</code>
+     * <code>uint32 option_idx = 12;</code>
      * @return The optionIdx.
      */
     @java.lang.Override
@@ -295,27 +295,27 @@ public final class UseItemReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (targetGuid_ != 0L) {
+        output.writeUInt64(3, targetGuid_);
+      }
       if (isEnterMpDungeonTeam_ != false) {
-        output.writeBool(2, isEnterMpDungeonTeam_);
+        output.writeBool(5, isEnterMpDungeonTeam_);
       }
-      if (count_ != 0) {
-        output.writeUInt32(6, count_);
+      if (getOMAOMJNKHFIList().size() > 0) {
+        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(oMAOMJNKHFIMemoizedSerializedSize);
       }
-      if (guid_ != 0L) {
-        output.writeUInt64(8, guid_);
-      }
-      if (getAKCOAFJNBMIList().size() > 0) {
-        output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(aKCOAFJNBMIMemoizedSerializedSize);
-      }
-      for (int i = 0; i < aKCOAFJNBMI_.size(); i++) {
-        output.writeUInt32NoTag(aKCOAFJNBMI_.getInt(i));
+      for (int i = 0; i < oMAOMJNKHFI_.size(); i++) {
+        output.writeUInt32NoTag(oMAOMJNKHFI_.getInt(i));
       }
       if (optionIdx_ != 0) {
-        output.writeUInt32(11, optionIdx_);
+        output.writeUInt32(12, optionIdx_);
       }
-      if (targetGuid_ != 0L) {
-        output.writeUInt64(15, targetGuid_);
+      if (count_ != 0) {
+        output.writeUInt32(13, count_);
+      }
+      if (guid_ != 0L) {
+        output.writeUInt64(15, guid_);
       }
       unknownFields.writeTo(output);
     }
@@ -326,39 +326,39 @@ public final class UseItemReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (targetGuid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(3, targetGuid_);
+      }
       if (isEnterMpDungeonTeam_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isEnterMpDungeonTeam_);
-      }
-      if (count_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, count_);
-      }
-      if (guid_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(8, guid_);
+          .computeBoolSize(5, isEnterMpDungeonTeam_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < aKCOAFJNBMI_.size(); i++) {
+        for (int i = 0; i < oMAOMJNKHFI_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(aKCOAFJNBMI_.getInt(i));
+            .computeUInt32SizeNoTag(oMAOMJNKHFI_.getInt(i));
         }
         size += dataSize;
-        if (!getAKCOAFJNBMIList().isEmpty()) {
+        if (!getOMAOMJNKHFIList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        aKCOAFJNBMIMemoizedSerializedSize = dataSize;
+        oMAOMJNKHFIMemoizedSerializedSize = dataSize;
       }
       if (optionIdx_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, optionIdx_);
+          .computeUInt32Size(12, optionIdx_);
       }
-      if (targetGuid_ != 0L) {
+      if (count_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(15, targetGuid_);
+          .computeUInt32Size(13, count_);
+      }
+      if (guid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(15, guid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -375,16 +375,16 @@ public final class UseItemReqOuterClass {
       }
       emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq other = (emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq) obj;
 
-      if (!getAKCOAFJNBMIList()
-          .equals(other.getAKCOAFJNBMIList())) return false;
-      if (getCount()
-          != other.getCount()) return false;
-      if (getIsEnterMpDungeonTeam()
-          != other.getIsEnterMpDungeonTeam()) return false;
+      if (!getOMAOMJNKHFIList()
+          .equals(other.getOMAOMJNKHFIList())) return false;
       if (getGuid()
           != other.getGuid()) return false;
+      if (getIsEnterMpDungeonTeam()
+          != other.getIsEnterMpDungeonTeam()) return false;
       if (getTargetGuid()
           != other.getTargetGuid()) return false;
+      if (getCount()
+          != other.getCount()) return false;
       if (getOptionIdx()
           != other.getOptionIdx()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -398,21 +398,21 @@ public final class UseItemReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getAKCOAFJNBMICount() > 0) {
-        hash = (37 * hash) + AKCOAFJNBMI_FIELD_NUMBER;
-        hash = (53 * hash) + getAKCOAFJNBMIList().hashCode();
+      if (getOMAOMJNKHFICount() > 0) {
+        hash = (37 * hash) + OMAOMJNKHFI_FIELD_NUMBER;
+        hash = (53 * hash) + getOMAOMJNKHFIList().hashCode();
       }
-      hash = (37 * hash) + COUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getCount();
-      hash = (37 * hash) + IS_ENTER_MP_DUNGEON_TEAM_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsEnterMpDungeonTeam());
       hash = (37 * hash) + GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getGuid());
+      hash = (37 * hash) + IS_ENTER_MP_DUNGEON_TEAM_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsEnterMpDungeonTeam());
       hash = (37 * hash) + TARGET_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getTargetGuid());
+      hash = (37 * hash) + COUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getCount();
       hash = (37 * hash) + OPTION_IDX_FIELD_NUMBER;
       hash = (53 * hash) + getOptionIdx();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -512,7 +512,7 @@ public final class UseItemReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 7190
+     * CmdId: 25114
      * </pre>
      *
      * Protobuf type {@code UseItemReq}
@@ -552,15 +552,15 @@ public final class UseItemReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        aKCOAFJNBMI_ = emptyIntList();
+        oMAOMJNKHFI_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        count_ = 0;
+        guid_ = 0L;
 
         isEnterMpDungeonTeam_ = false;
 
-        guid_ = 0L;
-
         targetGuid_ = 0L;
+
+        count_ = 0;
 
         optionIdx_ = 0;
 
@@ -592,14 +592,14 @@ public final class UseItemReqOuterClass {
         emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq result = new emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          aKCOAFJNBMI_.makeImmutable();
+          oMAOMJNKHFI_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.aKCOAFJNBMI_ = aKCOAFJNBMI_;
-        result.count_ = count_;
-        result.isEnterMpDungeonTeam_ = isEnterMpDungeonTeam_;
+        result.oMAOMJNKHFI_ = oMAOMJNKHFI_;
         result.guid_ = guid_;
+        result.isEnterMpDungeonTeam_ = isEnterMpDungeonTeam_;
         result.targetGuid_ = targetGuid_;
+        result.count_ = count_;
         result.optionIdx_ = optionIdx_;
         onBuilt();
         return result;
@@ -649,27 +649,27 @@ public final class UseItemReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq other) {
         if (other == emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq.getDefaultInstance()) return this;
-        if (!other.aKCOAFJNBMI_.isEmpty()) {
-          if (aKCOAFJNBMI_.isEmpty()) {
-            aKCOAFJNBMI_ = other.aKCOAFJNBMI_;
+        if (!other.oMAOMJNKHFI_.isEmpty()) {
+          if (oMAOMJNKHFI_.isEmpty()) {
+            oMAOMJNKHFI_ = other.oMAOMJNKHFI_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureAKCOAFJNBMIIsMutable();
-            aKCOAFJNBMI_.addAll(other.aKCOAFJNBMI_);
+            ensureOMAOMJNKHFIIsMutable();
+            oMAOMJNKHFI_.addAll(other.oMAOMJNKHFI_);
           }
           onChanged();
-        }
-        if (other.getCount() != 0) {
-          setCount(other.getCount());
-        }
-        if (other.getIsEnterMpDungeonTeam() != false) {
-          setIsEnterMpDungeonTeam(other.getIsEnterMpDungeonTeam());
         }
         if (other.getGuid() != 0L) {
           setGuid(other.getGuid());
         }
+        if (other.getIsEnterMpDungeonTeam() != false) {
+          setIsEnterMpDungeonTeam(other.getIsEnterMpDungeonTeam());
+        }
         if (other.getTargetGuid() != 0L) {
           setTargetGuid(other.getTargetGuid());
+        }
+        if (other.getCount() != 0) {
+          setCount(other.getCount());
         }
         if (other.getOptionIdx() != 0) {
           setOptionIdx(other.getOptionIdx());
@@ -704,150 +704,88 @@ public final class UseItemReqOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList aKCOAFJNBMI_ = emptyIntList();
-      private void ensureAKCOAFJNBMIIsMutable() {
+      private com.google.protobuf.Internal.IntList oMAOMJNKHFI_ = emptyIntList();
+      private void ensureOMAOMJNKHFIIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          aKCOAFJNBMI_ = mutableCopy(aKCOAFJNBMI_);
+          oMAOMJNKHFI_ = mutableCopy(oMAOMJNKHFI_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
-       * @return A list containing the aKCOAFJNBMI.
+       * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
+       * @return A list containing the oMAOMJNKHFI.
        */
       public java.util.List<java.lang.Integer>
-          getAKCOAFJNBMIList() {
+          getOMAOMJNKHFIList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(aKCOAFJNBMI_) : aKCOAFJNBMI_;
+                 java.util.Collections.unmodifiableList(oMAOMJNKHFI_) : oMAOMJNKHFI_;
       }
       /**
-       * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
-       * @return The count of aKCOAFJNBMI.
+       * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
+       * @return The count of oMAOMJNKHFI.
        */
-      public int getAKCOAFJNBMICount() {
-        return aKCOAFJNBMI_.size();
+      public int getOMAOMJNKHFICount() {
+        return oMAOMJNKHFI_.size();
       }
       /**
-       * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
+       * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
        * @param index The index of the element to return.
-       * @return The aKCOAFJNBMI at the given index.
+       * @return The oMAOMJNKHFI at the given index.
        */
-      public int getAKCOAFJNBMI(int index) {
-        return aKCOAFJNBMI_.getInt(index);
+      public int getOMAOMJNKHFI(int index) {
+        return oMAOMJNKHFI_.getInt(index);
       }
       /**
-       * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
+       * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
        * @param index The index to set the value at.
-       * @param value The aKCOAFJNBMI to set.
+       * @param value The oMAOMJNKHFI to set.
        * @return This builder for chaining.
        */
-      public Builder setAKCOAFJNBMI(
+      public Builder setOMAOMJNKHFI(
           int index, int value) {
-        ensureAKCOAFJNBMIIsMutable();
-        aKCOAFJNBMI_.setInt(index, value);
+        ensureOMAOMJNKHFIIsMutable();
+        oMAOMJNKHFI_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
-       * @param value The aKCOAFJNBMI to add.
+       * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
+       * @param value The oMAOMJNKHFI to add.
        * @return This builder for chaining.
        */
-      public Builder addAKCOAFJNBMI(int value) {
-        ensureAKCOAFJNBMIIsMutable();
-        aKCOAFJNBMI_.addInt(value);
+      public Builder addOMAOMJNKHFI(int value) {
+        ensureOMAOMJNKHFIIsMutable();
+        oMAOMJNKHFI_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
-       * @param values The aKCOAFJNBMI to add.
+       * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
+       * @param values The oMAOMJNKHFI to add.
        * @return This builder for chaining.
        */
-      public Builder addAllAKCOAFJNBMI(
+      public Builder addAllOMAOMJNKHFI(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureAKCOAFJNBMIIsMutable();
+        ensureOMAOMJNKHFIIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, aKCOAFJNBMI_);
+            values, oMAOMJNKHFI_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 AKCOAFJNBMI = 10;</code>
+       * <code>repeated uint32 OMAOMJNKHFI = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAKCOAFJNBMI() {
-        aKCOAFJNBMI_ = emptyIntList();
+      public Builder clearOMAOMJNKHFI() {
+        oMAOMJNKHFI_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private int count_ ;
-      /**
-       * <code>uint32 count = 6;</code>
-       * @return The count.
-       */
-      @java.lang.Override
-      public int getCount() {
-        return count_;
-      }
-      /**
-       * <code>uint32 count = 6;</code>
-       * @param value The count to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCount(int value) {
-        
-        count_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 count = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCount() {
-        
-        count_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean isEnterMpDungeonTeam_ ;
-      /**
-       * <code>bool is_enter_mp_dungeon_team = 2;</code>
-       * @return The isEnterMpDungeonTeam.
-       */
-      @java.lang.Override
-      public boolean getIsEnterMpDungeonTeam() {
-        return isEnterMpDungeonTeam_;
-      }
-      /**
-       * <code>bool is_enter_mp_dungeon_team = 2;</code>
-       * @param value The isEnterMpDungeonTeam to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsEnterMpDungeonTeam(boolean value) {
-        
-        isEnterMpDungeonTeam_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_enter_mp_dungeon_team = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsEnterMpDungeonTeam() {
-        
-        isEnterMpDungeonTeam_ = false;
         onChanged();
         return this;
       }
 
       private long guid_ ;
       /**
-       * <code>uint64 guid = 8;</code>
+       * <code>uint64 guid = 15;</code>
        * @return The guid.
        */
       @java.lang.Override
@@ -855,7 +793,7 @@ public final class UseItemReqOuterClass {
         return guid_;
       }
       /**
-       * <code>uint64 guid = 8;</code>
+       * <code>uint64 guid = 15;</code>
        * @param value The guid to set.
        * @return This builder for chaining.
        */
@@ -866,7 +804,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>uint64 guid = 8;</code>
+       * <code>uint64 guid = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
@@ -876,9 +814,40 @@ public final class UseItemReqOuterClass {
         return this;
       }
 
+      private boolean isEnterMpDungeonTeam_ ;
+      /**
+       * <code>bool is_enter_mp_dungeon_team = 5;</code>
+       * @return The isEnterMpDungeonTeam.
+       */
+      @java.lang.Override
+      public boolean getIsEnterMpDungeonTeam() {
+        return isEnterMpDungeonTeam_;
+      }
+      /**
+       * <code>bool is_enter_mp_dungeon_team = 5;</code>
+       * @param value The isEnterMpDungeonTeam to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsEnterMpDungeonTeam(boolean value) {
+        
+        isEnterMpDungeonTeam_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_enter_mp_dungeon_team = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsEnterMpDungeonTeam() {
+        
+        isEnterMpDungeonTeam_ = false;
+        onChanged();
+        return this;
+      }
+
       private long targetGuid_ ;
       /**
-       * <code>uint64 target_guid = 15;</code>
+       * <code>uint64 target_guid = 3;</code>
        * @return The targetGuid.
        */
       @java.lang.Override
@@ -886,7 +855,7 @@ public final class UseItemReqOuterClass {
         return targetGuid_;
       }
       /**
-       * <code>uint64 target_guid = 15;</code>
+       * <code>uint64 target_guid = 3;</code>
        * @param value The targetGuid to set.
        * @return This builder for chaining.
        */
@@ -897,7 +866,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>uint64 target_guid = 15;</code>
+       * <code>uint64 target_guid = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearTargetGuid() {
@@ -907,9 +876,40 @@ public final class UseItemReqOuterClass {
         return this;
       }
 
+      private int count_ ;
+      /**
+       * <code>uint32 count = 13;</code>
+       * @return The count.
+       */
+      @java.lang.Override
+      public int getCount() {
+        return count_;
+      }
+      /**
+       * <code>uint32 count = 13;</code>
+       * @param value The count to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCount(int value) {
+        
+        count_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 count = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCount() {
+        
+        count_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int optionIdx_ ;
       /**
-       * <code>uint32 option_idx = 11;</code>
+       * <code>uint32 option_idx = 12;</code>
        * @return The optionIdx.
        */
       @java.lang.Override
@@ -917,7 +917,7 @@ public final class UseItemReqOuterClass {
         return optionIdx_;
       }
       /**
-       * <code>uint32 option_idx = 11;</code>
+       * <code>uint32 option_idx = 12;</code>
        * @param value The optionIdx to set.
        * @return This builder for chaining.
        */
@@ -928,7 +928,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 option_idx = 11;</code>
+       * <code>uint32 option_idx = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearOptionIdx() {
@@ -1004,10 +1004,10 @@ public final class UseItemReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020UseItemReq.proto\"\211\001\n\nUseItemReq\022\023\n\013AKC" +
-      "OAFJNBMI\030\n \003(\r\022\r\n\005count\030\006 \001(\r\022 \n\030is_ente" +
-      "r_mp_dungeon_team\030\002 \001(\010\022\014\n\004guid\030\010 \001(\004\022\023\n" +
-      "\013target_guid\030\017 \001(\004\022\022\n\noption_idx\030\013 \001(\rB\033" +
+      "\n\020UseItemReq.proto\"\211\001\n\nUseItemReq\022\023\n\013OMA" +
+      "OMJNKHFI\030\013 \003(\r\022\014\n\004guid\030\017 \001(\004\022 \n\030is_enter" +
+      "_mp_dungeon_team\030\005 \001(\010\022\023\n\013target_guid\030\003 " +
+      "\001(\004\022\r\n\005count\030\r \001(\r\022\022\n\noption_idx\030\014 \001(\rB\033" +
       "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1019,7 +1019,7 @@ public final class UseItemReqOuterClass {
     internal_static_UseItemReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UseItemReq_descriptor,
-        new java.lang.String[] { "AKCOAFJNBMI", "Count", "IsEnterMpDungeonTeam", "Guid", "TargetGuid", "OptionIdx", });
+        new java.lang.String[] { "OMAOMJNKHFI", "Guid", "IsEnterMpDungeonTeam", "TargetGuid", "Count", "OptionIdx", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -19,21 +19,21 @@ public final class WidgetClientDetectorInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 GHAKGGJLACH = 14;</code>
-     * @return A list containing the gHAKGGJLACH.
+     * <code>repeated uint32 MHMDOCDIELK = 6;</code>
+     * @return A list containing the mHMDOCDIELK.
      */
-    java.util.List<java.lang.Integer> getGHAKGGJLACHList();
+    java.util.List<java.lang.Integer> getMHMDOCDIELKList();
     /**
-     * <code>repeated uint32 GHAKGGJLACH = 14;</code>
-     * @return The count of gHAKGGJLACH.
+     * <code>repeated uint32 MHMDOCDIELK = 6;</code>
+     * @return The count of mHMDOCDIELK.
      */
-    int getGHAKGGJLACHCount();
+    int getMHMDOCDIELKCount();
     /**
-     * <code>repeated uint32 GHAKGGJLACH = 14;</code>
+     * <code>repeated uint32 MHMDOCDIELK = 6;</code>
      * @param index The index of the element to return.
-     * @return The gHAKGGJLACH at the given index.
+     * @return The mHMDOCDIELK at the given index.
      */
-    int getGHAKGGJLACH(int index);
+    int getMHMDOCDIELK(int index);
   }
   /**
    * Protobuf type {@code WidgetClientDetectorInfo}
@@ -48,7 +48,7 @@ public final class WidgetClientDetectorInfoOuterClass {
       super(builder);
     }
     private WidgetClientDetectorInfo() {
-      gHAKGGJLACH_ = emptyIntList();
+      mHMDOCDIELK_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -82,23 +82,23 @@ public final class WidgetClientDetectorInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                gHAKGGJLACH_ = newIntList();
+                mHMDOCDIELK_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              gHAKGGJLACH_.addInt(input.readUInt32());
+              mHMDOCDIELK_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                gHAKGGJLACH_ = newIntList();
+                mHMDOCDIELK_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                gHAKGGJLACH_.addInt(input.readUInt32());
+                mHMDOCDIELK_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -119,7 +119,7 @@ public final class WidgetClientDetectorInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          gHAKGGJLACH_.makeImmutable(); // C
+          mHMDOCDIELK_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -138,33 +138,33 @@ public final class WidgetClientDetectorInfoOuterClass {
               emu.grasscutter.net.proto.WidgetClientDetectorInfoOuterClass.WidgetClientDetectorInfo.class, emu.grasscutter.net.proto.WidgetClientDetectorInfoOuterClass.WidgetClientDetectorInfo.Builder.class);
     }
 
-    public static final int GHAKGGJLACH_FIELD_NUMBER = 14;
-    private com.google.protobuf.Internal.IntList gHAKGGJLACH_;
+    public static final int MHMDOCDIELK_FIELD_NUMBER = 6;
+    private com.google.protobuf.Internal.IntList mHMDOCDIELK_;
     /**
-     * <code>repeated uint32 GHAKGGJLACH = 14;</code>
-     * @return A list containing the gHAKGGJLACH.
+     * <code>repeated uint32 MHMDOCDIELK = 6;</code>
+     * @return A list containing the mHMDOCDIELK.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getGHAKGGJLACHList() {
-      return gHAKGGJLACH_;
+        getMHMDOCDIELKList() {
+      return mHMDOCDIELK_;
     }
     /**
-     * <code>repeated uint32 GHAKGGJLACH = 14;</code>
-     * @return The count of gHAKGGJLACH.
+     * <code>repeated uint32 MHMDOCDIELK = 6;</code>
+     * @return The count of mHMDOCDIELK.
      */
-    public int getGHAKGGJLACHCount() {
-      return gHAKGGJLACH_.size();
+    public int getMHMDOCDIELKCount() {
+      return mHMDOCDIELK_.size();
     }
     /**
-     * <code>repeated uint32 GHAKGGJLACH = 14;</code>
+     * <code>repeated uint32 MHMDOCDIELK = 6;</code>
      * @param index The index of the element to return.
-     * @return The gHAKGGJLACH at the given index.
+     * @return The mHMDOCDIELK at the given index.
      */
-    public int getGHAKGGJLACH(int index) {
-      return gHAKGGJLACH_.getInt(index);
+    public int getMHMDOCDIELK(int index) {
+      return mHMDOCDIELK_.getInt(index);
     }
-    private int gHAKGGJLACHMemoizedSerializedSize = -1;
+    private int mHMDOCDIELKMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -181,12 +181,12 @@ public final class WidgetClientDetectorInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getGHAKGGJLACHList().size() > 0) {
-        output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(gHAKGGJLACHMemoizedSerializedSize);
+      if (getMHMDOCDIELKList().size() > 0) {
+        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(mHMDOCDIELKMemoizedSerializedSize);
       }
-      for (int i = 0; i < gHAKGGJLACH_.size(); i++) {
-        output.writeUInt32NoTag(gHAKGGJLACH_.getInt(i));
+      for (int i = 0; i < mHMDOCDIELK_.size(); i++) {
+        output.writeUInt32NoTag(mHMDOCDIELK_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,17 +199,17 @@ public final class WidgetClientDetectorInfoOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < gHAKGGJLACH_.size(); i++) {
+        for (int i = 0; i < mHMDOCDIELK_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(gHAKGGJLACH_.getInt(i));
+            .computeUInt32SizeNoTag(mHMDOCDIELK_.getInt(i));
         }
         size += dataSize;
-        if (!getGHAKGGJLACHList().isEmpty()) {
+        if (!getMHMDOCDIELKList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        gHAKGGJLACHMemoizedSerializedSize = dataSize;
+        mHMDOCDIELKMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -226,8 +226,8 @@ public final class WidgetClientDetectorInfoOuterClass {
       }
       emu.grasscutter.net.proto.WidgetClientDetectorInfoOuterClass.WidgetClientDetectorInfo other = (emu.grasscutter.net.proto.WidgetClientDetectorInfoOuterClass.WidgetClientDetectorInfo) obj;
 
-      if (!getGHAKGGJLACHList()
-          .equals(other.getGHAKGGJLACHList())) return false;
+      if (!getMHMDOCDIELKList()
+          .equals(other.getMHMDOCDIELKList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -239,9 +239,9 @@ public final class WidgetClientDetectorInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getGHAKGGJLACHCount() > 0) {
-        hash = (37 * hash) + GHAKGGJLACH_FIELD_NUMBER;
-        hash = (53 * hash) + getGHAKGGJLACHList().hashCode();
+      if (getMHMDOCDIELKCount() > 0) {
+        hash = (37 * hash) + MHMDOCDIELK_FIELD_NUMBER;
+        hash = (53 * hash) + getMHMDOCDIELKList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -376,7 +376,7 @@ public final class WidgetClientDetectorInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        gHAKGGJLACH_ = emptyIntList();
+        mHMDOCDIELK_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
@@ -406,10 +406,10 @@ public final class WidgetClientDetectorInfoOuterClass {
         emu.grasscutter.net.proto.WidgetClientDetectorInfoOuterClass.WidgetClientDetectorInfo result = new emu.grasscutter.net.proto.WidgetClientDetectorInfoOuterClass.WidgetClientDetectorInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          gHAKGGJLACH_.makeImmutable();
+          mHMDOCDIELK_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.gHAKGGJLACH_ = gHAKGGJLACH_;
+        result.mHMDOCDIELK_ = mHMDOCDIELK_;
         onBuilt();
         return result;
       }
@@ -458,13 +458,13 @@ public final class WidgetClientDetectorInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.WidgetClientDetectorInfoOuterClass.WidgetClientDetectorInfo other) {
         if (other == emu.grasscutter.net.proto.WidgetClientDetectorInfoOuterClass.WidgetClientDetectorInfo.getDefaultInstance()) return this;
-        if (!other.gHAKGGJLACH_.isEmpty()) {
-          if (gHAKGGJLACH_.isEmpty()) {
-            gHAKGGJLACH_ = other.gHAKGGJLACH_;
+        if (!other.mHMDOCDIELK_.isEmpty()) {
+          if (mHMDOCDIELK_.isEmpty()) {
+            mHMDOCDIELK_ = other.mHMDOCDIELK_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureGHAKGGJLACHIsMutable();
-            gHAKGGJLACH_.addAll(other.gHAKGGJLACH_);
+            ensureMHMDOCDIELKIsMutable();
+            mHMDOCDIELK_.addAll(other.mHMDOCDIELK_);
           }
           onChanged();
         }
@@ -498,80 +498,80 @@ public final class WidgetClientDetectorInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList gHAKGGJLACH_ = emptyIntList();
-      private void ensureGHAKGGJLACHIsMutable() {
+      private com.google.protobuf.Internal.IntList mHMDOCDIELK_ = emptyIntList();
+      private void ensureMHMDOCDIELKIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          gHAKGGJLACH_ = mutableCopy(gHAKGGJLACH_);
+          mHMDOCDIELK_ = mutableCopy(mHMDOCDIELK_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 GHAKGGJLACH = 14;</code>
-       * @return A list containing the gHAKGGJLACH.
+       * <code>repeated uint32 MHMDOCDIELK = 6;</code>
+       * @return A list containing the mHMDOCDIELK.
        */
       public java.util.List<java.lang.Integer>
-          getGHAKGGJLACHList() {
+          getMHMDOCDIELKList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(gHAKGGJLACH_) : gHAKGGJLACH_;
+                 java.util.Collections.unmodifiableList(mHMDOCDIELK_) : mHMDOCDIELK_;
       }
       /**
-       * <code>repeated uint32 GHAKGGJLACH = 14;</code>
-       * @return The count of gHAKGGJLACH.
+       * <code>repeated uint32 MHMDOCDIELK = 6;</code>
+       * @return The count of mHMDOCDIELK.
        */
-      public int getGHAKGGJLACHCount() {
-        return gHAKGGJLACH_.size();
+      public int getMHMDOCDIELKCount() {
+        return mHMDOCDIELK_.size();
       }
       /**
-       * <code>repeated uint32 GHAKGGJLACH = 14;</code>
+       * <code>repeated uint32 MHMDOCDIELK = 6;</code>
        * @param index The index of the element to return.
-       * @return The gHAKGGJLACH at the given index.
+       * @return The mHMDOCDIELK at the given index.
        */
-      public int getGHAKGGJLACH(int index) {
-        return gHAKGGJLACH_.getInt(index);
+      public int getMHMDOCDIELK(int index) {
+        return mHMDOCDIELK_.getInt(index);
       }
       /**
-       * <code>repeated uint32 GHAKGGJLACH = 14;</code>
+       * <code>repeated uint32 MHMDOCDIELK = 6;</code>
        * @param index The index to set the value at.
-       * @param value The gHAKGGJLACH to set.
+       * @param value The mHMDOCDIELK to set.
        * @return This builder for chaining.
        */
-      public Builder setGHAKGGJLACH(
+      public Builder setMHMDOCDIELK(
           int index, int value) {
-        ensureGHAKGGJLACHIsMutable();
-        gHAKGGJLACH_.setInt(index, value);
+        ensureMHMDOCDIELKIsMutable();
+        mHMDOCDIELK_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 GHAKGGJLACH = 14;</code>
-       * @param value The gHAKGGJLACH to add.
+       * <code>repeated uint32 MHMDOCDIELK = 6;</code>
+       * @param value The mHMDOCDIELK to add.
        * @return This builder for chaining.
        */
-      public Builder addGHAKGGJLACH(int value) {
-        ensureGHAKGGJLACHIsMutable();
-        gHAKGGJLACH_.addInt(value);
+      public Builder addMHMDOCDIELK(int value) {
+        ensureMHMDOCDIELKIsMutable();
+        mHMDOCDIELK_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 GHAKGGJLACH = 14;</code>
-       * @param values The gHAKGGJLACH to add.
+       * <code>repeated uint32 MHMDOCDIELK = 6;</code>
+       * @param values The mHMDOCDIELK to add.
        * @return This builder for chaining.
        */
-      public Builder addAllGHAKGGJLACH(
+      public Builder addAllMHMDOCDIELK(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureGHAKGGJLACHIsMutable();
+        ensureMHMDOCDIELKIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, gHAKGGJLACH_);
+            values, mHMDOCDIELK_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 GHAKGGJLACH = 14;</code>
+       * <code>repeated uint32 MHMDOCDIELK = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGHAKGGJLACH() {
-        gHAKGGJLACH_ = emptyIntList();
+      public Builder clearMHMDOCDIELK() {
+        mHMDOCDIELK_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
@@ -644,7 +644,7 @@ public final class WidgetClientDetectorInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036WidgetClientDetectorInfo.proto\"/\n\030Widg" +
-      "etClientDetectorInfo\022\023\n\013GHAKGGJLACH\030\016 \003(" +
+      "etClientDetectorInfo\022\023\n\013MHMDOCDIELK\030\006 \003(" +
       "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -656,7 +656,7 @@ public final class WidgetClientDetectorInfoOuterClass {
     internal_static_WidgetClientDetectorInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WidgetClientDetectorInfo_descriptor,
-        new java.lang.String[] { "GHAKGGJLACH", });
+        new java.lang.String[] { "MHMDOCDIELK", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

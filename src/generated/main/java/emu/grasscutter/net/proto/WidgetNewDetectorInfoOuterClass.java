@@ -19,27 +19,27 @@ public final class WidgetNewDetectorInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 7;</code>
      * @return A list containing the areaIdList.
      */
     java.util.List<java.lang.Integer> getAreaIdListList();
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 7;</code>
      * @return The count of areaIdList.
      */
     int getAreaIdListCount();
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 7;</code>
      * @param index The index of the element to return.
      * @return The areaIdList at the given index.
      */
     int getAreaIdList(int index);
 
     /**
-     * <code>uint32 PCNPPJOIGBH = 2;</code>
-     * @return The pCNPPJOIGBH.
+     * <code>uint32 PGODNKAAENF = 13;</code>
+     * @return The pGODNKAAENF.
      */
-    int getPCNPPJOIGBH();
+    int getPGODNKAAENF();
   }
   /**
    * Protobuf type {@code WidgetNewDetectorInfo}
@@ -88,12 +88,7 @@ public final class WidgetNewDetectorInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              pCNPPJOIGBH_ = input.readUInt32();
-              break;
-            }
-            case 24: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 areaIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -101,7 +96,7 @@ public final class WidgetNewDetectorInfoOuterClass {
               areaIdList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -112,6 +107,11 @@ public final class WidgetNewDetectorInfoOuterClass {
                 areaIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 104: {
+
+              pGODNKAAENF_ = input.readUInt32();
               break;
             }
             default: {
@@ -149,10 +149,10 @@ public final class WidgetNewDetectorInfoOuterClass {
               emu.grasscutter.net.proto.WidgetNewDetectorInfoOuterClass.WidgetNewDetectorInfo.class, emu.grasscutter.net.proto.WidgetNewDetectorInfoOuterClass.WidgetNewDetectorInfo.Builder.class);
     }
 
-    public static final int AREA_ID_LIST_FIELD_NUMBER = 3;
+    public static final int AREA_ID_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList areaIdList_;
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 7;</code>
      * @return A list containing the areaIdList.
      */
     @java.lang.Override
@@ -161,14 +161,14 @@ public final class WidgetNewDetectorInfoOuterClass {
       return areaIdList_;
     }
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 7;</code>
      * @return The count of areaIdList.
      */
     public int getAreaIdListCount() {
       return areaIdList_.size();
     }
     /**
-     * <code>repeated uint32 area_id_list = 3;</code>
+     * <code>repeated uint32 area_id_list = 7;</code>
      * @param index The index of the element to return.
      * @return The areaIdList at the given index.
      */
@@ -177,15 +177,15 @@ public final class WidgetNewDetectorInfoOuterClass {
     }
     private int areaIdListMemoizedSerializedSize = -1;
 
-    public static final int PCNPPJOIGBH_FIELD_NUMBER = 2;
-    private int pCNPPJOIGBH_;
+    public static final int PGODNKAAENF_FIELD_NUMBER = 13;
+    private int pGODNKAAENF_;
     /**
-     * <code>uint32 PCNPPJOIGBH = 2;</code>
-     * @return The pCNPPJOIGBH.
+     * <code>uint32 PGODNKAAENF = 13;</code>
+     * @return The pGODNKAAENF.
      */
     @java.lang.Override
-    public int getPCNPPJOIGBH() {
-      return pCNPPJOIGBH_;
+    public int getPGODNKAAENF() {
+      return pGODNKAAENF_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -203,15 +203,15 @@ public final class WidgetNewDetectorInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (pCNPPJOIGBH_ != 0) {
-        output.writeUInt32(2, pCNPPJOIGBH_);
-      }
       if (getAreaIdListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(areaIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < areaIdList_.size(); i++) {
         output.writeUInt32NoTag(areaIdList_.getInt(i));
+      }
+      if (pGODNKAAENF_ != 0) {
+        output.writeUInt32(13, pGODNKAAENF_);
       }
       unknownFields.writeTo(output);
     }
@@ -222,10 +222,6 @@ public final class WidgetNewDetectorInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pCNPPJOIGBH_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, pCNPPJOIGBH_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < areaIdList_.size(); i++) {
@@ -239,6 +235,10 @@ public final class WidgetNewDetectorInfoOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         areaIdListMemoizedSerializedSize = dataSize;
+      }
+      if (pGODNKAAENF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, pGODNKAAENF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -257,8 +257,8 @@ public final class WidgetNewDetectorInfoOuterClass {
 
       if (!getAreaIdListList()
           .equals(other.getAreaIdListList())) return false;
-      if (getPCNPPJOIGBH()
-          != other.getPCNPPJOIGBH()) return false;
+      if (getPGODNKAAENF()
+          != other.getPGODNKAAENF()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -274,8 +274,8 @@ public final class WidgetNewDetectorInfoOuterClass {
         hash = (37 * hash) + AREA_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getAreaIdListList().hashCode();
       }
-      hash = (37 * hash) + PCNPPJOIGBH_FIELD_NUMBER;
-      hash = (53 * hash) + getPCNPPJOIGBH();
+      hash = (37 * hash) + PGODNKAAENF_FIELD_NUMBER;
+      hash = (53 * hash) + getPGODNKAAENF();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -411,7 +411,7 @@ public final class WidgetNewDetectorInfoOuterClass {
         super.clear();
         areaIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        pCNPPJOIGBH_ = 0;
+        pGODNKAAENF_ = 0;
 
         return this;
       }
@@ -445,7 +445,7 @@ public final class WidgetNewDetectorInfoOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.areaIdList_ = areaIdList_;
-        result.pCNPPJOIGBH_ = pCNPPJOIGBH_;
+        result.pGODNKAAENF_ = pGODNKAAENF_;
         onBuilt();
         return result;
       }
@@ -504,8 +504,8 @@ public final class WidgetNewDetectorInfoOuterClass {
           }
           onChanged();
         }
-        if (other.getPCNPPJOIGBH() != 0) {
-          setPCNPPJOIGBH(other.getPCNPPJOIGBH());
+        if (other.getPGODNKAAENF() != 0) {
+          setPGODNKAAENF(other.getPGODNKAAENF());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -545,7 +545,7 @@ public final class WidgetNewDetectorInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 7;</code>
        * @return A list containing the areaIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -554,14 +554,14 @@ public final class WidgetNewDetectorInfoOuterClass {
                  java.util.Collections.unmodifiableList(areaIdList_) : areaIdList_;
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 7;</code>
        * @return The count of areaIdList.
        */
       public int getAreaIdListCount() {
         return areaIdList_.size();
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 7;</code>
        * @param index The index of the element to return.
        * @return The areaIdList at the given index.
        */
@@ -569,7 +569,7 @@ public final class WidgetNewDetectorInfoOuterClass {
         return areaIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 7;</code>
        * @param index The index to set the value at.
        * @param value The areaIdList to set.
        * @return This builder for chaining.
@@ -582,7 +582,7 @@ public final class WidgetNewDetectorInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 7;</code>
        * @param value The areaIdList to add.
        * @return This builder for chaining.
        */
@@ -593,7 +593,7 @@ public final class WidgetNewDetectorInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 7;</code>
        * @param values The areaIdList to add.
        * @return This builder for chaining.
        */
@@ -606,7 +606,7 @@ public final class WidgetNewDetectorInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 area_id_list = 3;</code>
+       * <code>repeated uint32 area_id_list = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearAreaIdList() {
@@ -616,33 +616,33 @@ public final class WidgetNewDetectorInfoOuterClass {
         return this;
       }
 
-      private int pCNPPJOIGBH_ ;
+      private int pGODNKAAENF_ ;
       /**
-       * <code>uint32 PCNPPJOIGBH = 2;</code>
-       * @return The pCNPPJOIGBH.
+       * <code>uint32 PGODNKAAENF = 13;</code>
+       * @return The pGODNKAAENF.
        */
       @java.lang.Override
-      public int getPCNPPJOIGBH() {
-        return pCNPPJOIGBH_;
+      public int getPGODNKAAENF() {
+        return pGODNKAAENF_;
       }
       /**
-       * <code>uint32 PCNPPJOIGBH = 2;</code>
-       * @param value The pCNPPJOIGBH to set.
+       * <code>uint32 PGODNKAAENF = 13;</code>
+       * @param value The pGODNKAAENF to set.
        * @return This builder for chaining.
        */
-      public Builder setPCNPPJOIGBH(int value) {
+      public Builder setPGODNKAAENF(int value) {
         
-        pCNPPJOIGBH_ = value;
+        pGODNKAAENF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 PCNPPJOIGBH = 2;</code>
+       * <code>uint32 PGODNKAAENF = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPCNPPJOIGBH() {
+      public Builder clearPGODNKAAENF() {
         
-        pCNPPJOIGBH_ = 0;
+        pGODNKAAENF_ = 0;
         onChanged();
         return this;
       }
@@ -714,8 +714,8 @@ public final class WidgetNewDetectorInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033WidgetNewDetectorInfo.proto\"B\n\025WidgetN" +
-      "ewDetectorInfo\022\024\n\014area_id_list\030\003 \003(\r\022\023\n\013" +
-      "PCNPPJOIGBH\030\002 \001(\rB\033\n\031emu.grasscutter.net" +
+      "ewDetectorInfo\022\024\n\014area_id_list\030\007 \003(\r\022\023\n\013" +
+      "PGODNKAAENF\030\r \001(\rB\033\n\031emu.grasscutter.net" +
       ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -727,7 +727,7 @@ public final class WidgetNewDetectorInfoOuterClass {
     internal_static_WidgetNewDetectorInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WidgetNewDetectorInfo_descriptor,
-        new java.lang.String[] { "AreaIdList", "PCNPPJOIGBH", });
+        new java.lang.String[] { "AreaIdList", "PGODNKAAENF", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

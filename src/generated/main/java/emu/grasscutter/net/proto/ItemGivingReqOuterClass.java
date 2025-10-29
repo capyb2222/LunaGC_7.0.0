@@ -19,11 +19,11 @@ public final class ItemGivingReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
      */
     int getItemGuidCountMapCount();
     /**
-     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
      */
     boolean containsItemGuidCountMap(
         long key);
@@ -34,57 +34,57 @@ public final class ItemGivingReqOuterClass {
     java.util.Map<java.lang.Long, java.lang.Integer>
     getItemGuidCountMap();
     /**
-     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
      */
     java.util.Map<java.lang.Long, java.lang.Integer>
     getItemGuidCountMapMap();
     /**
-     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
      */
 
     int getItemGuidCountMapOrDefault(
         long key,
         int defaultValue);
     /**
-     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
      */
 
     int getItemGuidCountMapOrThrow(
         long key);
 
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
         getItemParamListList();
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index);
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     int getItemParamListCount();
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
         getItemParamListOrBuilderList();
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemParamListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 giving_id = 3;</code>
+     * <code>uint32 giving_id = 9;</code>
      * @return The givingId.
      */
     int getGivingId();
   }
   /**
    * <pre>
-   * CmdId: 5250
+   * CmdId: 5468
    * </pre>
    *
    * Protobuf type {@code ItemGivingReq}
@@ -133,12 +133,7 @@ public final class ItemGivingReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              givingId_ = input.readUInt32();
-              break;
-            }
-            case 74: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 itemParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000002;
@@ -147,7 +142,12 @@ public final class ItemGivingReqOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
-            case 98: {
+            case 72: {
+
+              givingId_ = input.readUInt32();
+              break;
+            }
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemGuidCountMap_ = com.google.protobuf.MapField.newMapField(
                     ItemGuidCountMapDefaultEntryHolder.defaultEntry);
@@ -192,7 +192,7 @@ public final class ItemGivingReqOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 12:
+        case 15:
           return internalGetItemGuidCountMap();
         default:
           throw new RuntimeException(
@@ -207,7 +207,7 @@ public final class ItemGivingReqOuterClass {
               emu.grasscutter.net.proto.ItemGivingReqOuterClass.ItemGivingReq.class, emu.grasscutter.net.proto.ItemGivingReqOuterClass.ItemGivingReq.Builder.class);
     }
 
-    public static final int ITEM_GUID_COUNT_MAP_FIELD_NUMBER = 12;
+    public static final int ITEM_GUID_COUNT_MAP_FIELD_NUMBER = 15;
     private static final class ItemGuidCountMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Long, java.lang.Integer> defaultEntry =
@@ -234,7 +234,7 @@ public final class ItemGivingReqOuterClass {
       return internalGetItemGuidCountMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
      */
 
     @java.lang.Override
@@ -252,7 +252,7 @@ public final class ItemGivingReqOuterClass {
       return getItemGuidCountMapMap();
     }
     /**
-     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
      */
     @java.lang.Override
 
@@ -260,7 +260,7 @@ public final class ItemGivingReqOuterClass {
       return internalGetItemGuidCountMap().getMap();
     }
     /**
-     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
      */
     @java.lang.Override
 
@@ -273,7 +273,7 @@ public final class ItemGivingReqOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+     * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
      */
     @java.lang.Override
 
@@ -288,17 +288,17 @@ public final class ItemGivingReqOuterClass {
       return map.get(key);
     }
 
-    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 9;
+    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getItemParamListList() {
       return itemParamList_;
     }
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
@@ -306,21 +306,21 @@ public final class ItemGivingReqOuterClass {
       return itemParamList_;
     }
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     @java.lang.Override
     public int getItemParamListCount() {
       return itemParamList_.size();
     }
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index) {
       return itemParamList_.get(index);
     }
     /**
-     * <code>repeated .ItemParam item_param_list = 9;</code>
+     * <code>repeated .ItemParam item_param_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemParamListOrBuilder(
@@ -328,10 +328,10 @@ public final class ItemGivingReqOuterClass {
       return itemParamList_.get(index);
     }
 
-    public static final int GIVING_ID_FIELD_NUMBER = 3;
+    public static final int GIVING_ID_FIELD_NUMBER = 9;
     private int givingId_;
     /**
-     * <code>uint32 giving_id = 3;</code>
+     * <code>uint32 giving_id = 9;</code>
      * @return The givingId.
      */
     @java.lang.Override
@@ -353,18 +353,18 @@ public final class ItemGivingReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (givingId_ != 0) {
-        output.writeUInt32(3, givingId_);
-      }
       for (int i = 0; i < itemParamList_.size(); i++) {
-        output.writeMessage(9, itemParamList_.get(i));
+        output.writeMessage(6, itemParamList_.get(i));
+      }
+      if (givingId_ != 0) {
+        output.writeUInt32(9, givingId_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeLongMapTo(
           output,
           internalGetItemGuidCountMap(),
           ItemGuidCountMapDefaultEntryHolder.defaultEntry,
-          12);
+          15);
       unknownFields.writeTo(output);
     }
 
@@ -374,13 +374,13 @@ public final class ItemGivingReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (givingId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, givingId_);
-      }
       for (int i = 0; i < itemParamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, itemParamList_.get(i));
+          .computeMessageSize(6, itemParamList_.get(i));
+      }
+      if (givingId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, givingId_);
       }
       for (java.util.Map.Entry<java.lang.Long, java.lang.Integer> entry
            : internalGetItemGuidCountMap().getMap().entrySet()) {
@@ -390,7 +390,7 @@ public final class ItemGivingReqOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(12, itemGuidCountMap__);
+            .computeMessageSize(15, itemGuidCountMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -531,7 +531,7 @@ public final class ItemGivingReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 5250
+     * CmdId: 5468
      * </pre>
      *
      * Protobuf type {@code ItemGivingReq}
@@ -549,7 +549,7 @@ public final class ItemGivingReqOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 12:
+          case 15:
             return internalGetItemGuidCountMap();
           default:
             throw new RuntimeException(
@@ -560,7 +560,7 @@ public final class ItemGivingReqOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 12:
+          case 15:
             return internalGetMutableItemGuidCountMap();
           default:
             throw new RuntimeException(
@@ -778,7 +778,7 @@ public final class ItemGivingReqOuterClass {
         return internalGetItemGuidCountMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
        */
 
       @java.lang.Override
@@ -796,7 +796,7 @@ public final class ItemGivingReqOuterClass {
         return getItemGuidCountMapMap();
       }
       /**
-       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
        */
       @java.lang.Override
 
@@ -804,7 +804,7 @@ public final class ItemGivingReqOuterClass {
         return internalGetItemGuidCountMap().getMap();
       }
       /**
-       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
        */
       @java.lang.Override
 
@@ -817,7 +817,7 @@ public final class ItemGivingReqOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
        */
       @java.lang.Override
 
@@ -838,7 +838,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
        */
 
       public Builder removeItemGuidCountMap(
@@ -857,7 +857,7 @@ public final class ItemGivingReqOuterClass {
         return internalGetMutableItemGuidCountMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
        */
       public Builder putItemGuidCountMap(
           long key,
@@ -869,7 +869,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 12;</code>
+       * <code>map&lt;uint64, uint32&gt; item_guid_count_map = 15;</code>
        */
 
       public Builder putAllItemGuidCountMap(
@@ -892,7 +892,7 @@ public final class ItemGivingReqOuterClass {
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> itemParamListBuilder_;
 
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getItemParamListList() {
         if (itemParamListBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class ItemGivingReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public int getItemParamListCount() {
         if (itemParamListBuilder_ == null) {
@@ -912,7 +912,7 @@ public final class ItemGivingReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index) {
         if (itemParamListBuilder_ == null) {
@@ -922,7 +922,7 @@ public final class ItemGivingReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public Builder setItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -939,7 +939,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public Builder setItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -953,7 +953,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public Builder addItemParamList(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (itemParamListBuilder_ == null) {
@@ -969,7 +969,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public Builder addItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -986,7 +986,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public Builder addItemParamList(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1000,7 +1000,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public Builder addItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1014,7 +1014,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public Builder addAllItemParamList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
@@ -1029,7 +1029,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public Builder clearItemParamList() {
         if (itemParamListBuilder_ == null) {
@@ -1042,7 +1042,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public Builder removeItemParamList(int index) {
         if (itemParamListBuilder_ == null) {
@@ -1055,14 +1055,14 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getItemParamListBuilder(
           int index) {
         return getItemParamListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemParamListOrBuilder(
           int index) {
@@ -1072,7 +1072,7 @@ public final class ItemGivingReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
            getItemParamListOrBuilderList() {
@@ -1083,14 +1083,14 @@ public final class ItemGivingReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addItemParamListBuilder() {
         return getItemParamListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addItemParamListBuilder(
           int index) {
@@ -1098,7 +1098,7 @@ public final class ItemGivingReqOuterClass {
             index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 9;</code>
+       * <code>repeated .ItemParam item_param_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
            getItemParamListBuilderList() {
@@ -1121,7 +1121,7 @@ public final class ItemGivingReqOuterClass {
 
       private int givingId_ ;
       /**
-       * <code>uint32 giving_id = 3;</code>
+       * <code>uint32 giving_id = 9;</code>
        * @return The givingId.
        */
       @java.lang.Override
@@ -1129,7 +1129,7 @@ public final class ItemGivingReqOuterClass {
         return givingId_;
       }
       /**
-       * <code>uint32 giving_id = 3;</code>
+       * <code>uint32 giving_id = 9;</code>
        * @param value The givingId to set.
        * @return This builder for chaining.
        */
@@ -1140,7 +1140,7 @@ public final class ItemGivingReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 giving_id = 3;</code>
+       * <code>uint32 giving_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearGivingId() {
@@ -1223,9 +1223,9 @@ public final class ItemGivingReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023ItemGivingReq.proto\032\017ItemParam.proto\"\303" +
       "\001\n\rItemGivingReq\022A\n\023item_guid_count_map\030" +
-      "\014 \003(\0132$.ItemGivingReq.ItemGuidCountMapEn" +
-      "try\022#\n\017item_param_list\030\t \003(\0132\n.ItemParam" +
-      "\022\021\n\tgiving_id\030\003 \001(\r\0327\n\025ItemGuidCountMapE" +
+      "\017 \003(\0132$.ItemGivingReq.ItemGuidCountMapEn" +
+      "try\022#\n\017item_param_list\030\006 \003(\0132\n.ItemParam" +
+      "\022\021\n\tgiving_id\030\t \001(\r\0327\n\025ItemGuidCountMapE" +
       "ntry\022\013\n\003key\030\001 \001(\004\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031" +
       "emu.grasscutter.net.protob\006proto3"
     };
