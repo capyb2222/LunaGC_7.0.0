@@ -19,28 +19,35 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 ready_player_uid = 2;</code>
-     * @return A list containing the readyPlayerUid.
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
      */
-    java.util.List<java.lang.Integer> getReadyPlayerUidList();
+    java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> 
+        getAvatarListList();
     /**
-     * <code>repeated uint32 ready_player_uid = 2;</code>
-     * @return The count of readyPlayerUid.
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
      */
-    int getReadyPlayerUidCount();
+    emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar getAvatarList(int index);
     /**
-     * <code>repeated uint32 ready_player_uid = 2;</code>
-     * @param index The index of the element to return.
-     * @return The readyPlayerUid at the given index.
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
      */
-    int getReadyPlayerUid(int index);
+    int getAvatarListCount();
+    /**
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> 
+        getAvatarListOrBuilderList();
+    /**
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+     */
+    emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder getAvatarListOrBuilder(
+        int index);
 
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     int getPlayerStateMapCount();
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     boolean containsPlayerStateMap(
         int key);
@@ -51,18 +58,18 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.DungeonCandidateTeamPlayerState>
     getPlayerStateMap();
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.DungeonCandidateTeamPlayerState>
     getPlayerStateMapMap();
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.DungeonCandidateTeamPlayerState getPlayerStateMapOrDefault(
         int key,
         emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.DungeonCandidateTeamPlayerState defaultValue);
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.DungeonCandidateTeamPlayerState getPlayerStateMapOrThrow(
         int key);
@@ -73,63 +80,71 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getPlayerStateMapValue();
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getPlayerStateMapValueMap();
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
 
     int getPlayerStateMapValueOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
 
     int getPlayerStateMapValueOrThrow(
         int key);
 
     /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+     * <code>repeated uint32 ready_player_uid = 7;</code>
+     * @return A list containing the readyPlayerUid.
      */
-    java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> 
-        getAvatarListList();
+    java.util.List<java.lang.Integer> getReadyPlayerUidList();
     /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+     * <code>repeated uint32 ready_player_uid = 7;</code>
+     * @return The count of readyPlayerUid.
      */
-    emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar getAvatarList(int index);
+    int getReadyPlayerUidCount();
     /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+     * <code>repeated uint32 ready_player_uid = 7;</code>
+     * @param index The index of the element to return.
+     * @return The readyPlayerUid at the given index.
      */
-    int getAvatarListCount();
-    /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> 
-        getAvatarListOrBuilderList();
-    /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-     */
-    emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder getAvatarListOrBuilder(
-        int index);
+    int getReadyPlayerUid(int index);
 
     /**
-     * <code>uint32 dungeon_id = 9;</code>
+     * <code>uint32 dungeon_id = 1;</code>
      * @return The dungeonId.
      */
     int getDungeonId();
 
     /**
-     * <code>uint32 match_type = 6;</code>
+     * <code>uint32 match_type = 8;</code>
      * @return The matchType.
      */
     int getMatchType();
+
+    /**
+     * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+     * @return Whether the ugcTeamInfo field is set.
+     */
+    boolean hasUgcTeamInfo();
+    /**
+     * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+     * @return The ugcTeamInfo.
+     */
+    emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo getUgcTeamInfo();
+    /**
+     * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+     */
+    emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfoOrBuilder getUgcTeamInfoOrBuilder();
   }
   /**
    * <pre>
-   * CmdId: 4343
+   * CmdId: 22768
    * </pre>
    *
    * Protobuf type {@code DungeonCandidateTeamInfoNotify}
@@ -144,8 +159,8 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       super(builder);
     }
     private DungeonCandidateTeamInfoNotify() {
-      readyPlayerUid_ = emptyIntList();
       avatarList_ = java.util.Collections.emptyList();
+      readyPlayerUid_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -179,20 +194,25 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+            case 8: {
+
+              dungeonId_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 readyPlayerUid_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000004;
               }
               readyPlayerUid_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
                 readyPlayerUid_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000004;
               }
               while (input.getBytesUntilLimit() > 0) {
                 readyPlayerUid_.addInt(input.readUInt32());
@@ -200,7 +220,21 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 26: {
+            case 64: {
+
+              matchType_ = input.readUInt32();
+              break;
+            }
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              avatarList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.parser(), extensionRegistry));
+              break;
+            }
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 playerStateMap_ = com.google.protobuf.MapField.newMapField(
                     PlayerStateMapDefaultEntryHolder.defaultEntry);
@@ -213,23 +247,17 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
                   playerStateMap__.getKey(), playerStateMap__.getValue());
               break;
             }
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar>();
-                mutable_bitField0_ |= 0x00000004;
+            case 14066: {
+              emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.Builder subBuilder = null;
+              if (ugcTeamInfo_ != null) {
+                subBuilder = ugcTeamInfo_.toBuilder();
               }
-              avatarList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.parser(), extensionRegistry));
-              break;
-            }
-            case 48: {
+              ugcTeamInfo_ = input.readMessage(emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(ugcTeamInfo_);
+                ugcTeamInfo_ = subBuilder.buildPartial();
+              }
 
-              matchType_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              dungeonId_ = input.readUInt32();
               break;
             }
             default: {
@@ -247,10 +275,10 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
           readyPlayerUid_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           avatarList_ = java.util.Collections.unmodifiableList(avatarList_);
         }
         this.unknownFields = unknownFields.build();
@@ -267,7 +295,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 3:
+        case 13:
           return internalGetPlayerStateMap();
         default:
           throw new RuntimeException(
@@ -282,35 +310,47 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
               emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify.class, emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify.Builder.class);
     }
 
-    public static final int READY_PLAYER_UID_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.IntList readyPlayerUid_;
+    public static final int AVATAR_LIST_FIELD_NUMBER = 9;
+    private java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> avatarList_;
     /**
-     * <code>repeated uint32 ready_player_uid = 2;</code>
-     * @return A list containing the readyPlayerUid.
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getReadyPlayerUidList() {
-      return readyPlayerUid_;
+    public java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> getAvatarListList() {
+      return avatarList_;
     }
     /**
-     * <code>repeated uint32 ready_player_uid = 2;</code>
-     * @return The count of readyPlayerUid.
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
      */
-    public int getReadyPlayerUidCount() {
-      return readyPlayerUid_.size();
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> 
+        getAvatarListOrBuilderList() {
+      return avatarList_;
     }
     /**
-     * <code>repeated uint32 ready_player_uid = 2;</code>
-     * @param index The index of the element to return.
-     * @return The readyPlayerUid at the given index.
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
      */
-    public int getReadyPlayerUid(int index) {
-      return readyPlayerUid_.getInt(index);
+    @java.lang.Override
+    public int getAvatarListCount() {
+      return avatarList_.size();
     }
-    private int readyPlayerUidMemoizedSerializedSize = -1;
+    /**
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar getAvatarList(int index) {
+      return avatarList_.get(index);
+    }
+    /**
+     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder getAvatarListOrBuilder(
+        int index) {
+      return avatarList_.get(index);
+    }
 
-    public static final int PLAYER_STATE_MAP_FIELD_NUMBER = 3;
+    public static final int PLAYER_STATE_MAP_FIELD_NUMBER = 13;
     private static final class PlayerStateMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -350,7 +390,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       return internalGetPlayerStateMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
 
     @java.lang.Override
@@ -369,7 +409,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       return getPlayerStateMapMap();
     }
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     @java.lang.Override
 
@@ -378,7 +418,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       return internalGetAdaptedPlayerStateMapMap(
           internalGetPlayerStateMap().getMap());}
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     @java.lang.Override
 
@@ -393,7 +433,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
              : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     @java.lang.Override
 
@@ -417,7 +457,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       return getPlayerStateMapValueMap();
     }
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     @java.lang.Override
 
@@ -426,7 +466,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       return internalGetPlayerStateMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     @java.lang.Override
 
@@ -439,7 +479,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+     * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
      */
     @java.lang.Override
 
@@ -454,50 +494,38 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       return map.get(key);
     }
 
-    public static final int AVATAR_LIST_FIELD_NUMBER = 5;
-    private java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> avatarList_;
+    public static final int READY_PLAYER_UID_FIELD_NUMBER = 7;
+    private com.google.protobuf.Internal.IntList readyPlayerUid_;
     /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+     * <code>repeated uint32 ready_player_uid = 7;</code>
+     * @return A list containing the readyPlayerUid.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> getAvatarListList() {
-      return avatarList_;
+    public java.util.List<java.lang.Integer>
+        getReadyPlayerUidList() {
+      return readyPlayerUid_;
     }
     /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+     * <code>repeated uint32 ready_player_uid = 7;</code>
+     * @return The count of readyPlayerUid.
      */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> 
-        getAvatarListOrBuilderList() {
-      return avatarList_;
+    public int getReadyPlayerUidCount() {
+      return readyPlayerUid_.size();
     }
     /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+     * <code>repeated uint32 ready_player_uid = 7;</code>
+     * @param index The index of the element to return.
+     * @return The readyPlayerUid at the given index.
      */
-    @java.lang.Override
-    public int getAvatarListCount() {
-      return avatarList_.size();
+    public int getReadyPlayerUid(int index) {
+      return readyPlayerUid_.getInt(index);
     }
-    /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar getAvatarList(int index) {
-      return avatarList_.get(index);
-    }
-    /**
-     * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder getAvatarListOrBuilder(
-        int index) {
-      return avatarList_.get(index);
-    }
+    private int readyPlayerUidMemoizedSerializedSize = -1;
 
-    public static final int DUNGEON_ID_FIELD_NUMBER = 9;
+    public static final int DUNGEON_ID_FIELD_NUMBER = 1;
     private int dungeonId_;
     /**
-     * <code>uint32 dungeon_id = 9;</code>
+     * <code>uint32 dungeon_id = 1;</code>
      * @return The dungeonId.
      */
     @java.lang.Override
@@ -505,15 +533,41 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       return dungeonId_;
     }
 
-    public static final int MATCH_TYPE_FIELD_NUMBER = 6;
+    public static final int MATCH_TYPE_FIELD_NUMBER = 8;
     private int matchType_;
     /**
-     * <code>uint32 match_type = 6;</code>
+     * <code>uint32 match_type = 8;</code>
      * @return The matchType.
      */
     @java.lang.Override
     public int getMatchType() {
       return matchType_;
+    }
+
+    public static final int UGC_TEAM_INFO_FIELD_NUMBER = 1758;
+    private emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo ugcTeamInfo_;
+    /**
+     * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+     * @return Whether the ugcTeamInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasUgcTeamInfo() {
+      return ugcTeamInfo_ != null;
+    }
+    /**
+     * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+     * @return The ugcTeamInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo getUgcTeamInfo() {
+      return ugcTeamInfo_ == null ? emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.getDefaultInstance() : ugcTeamInfo_;
+    }
+    /**
+     * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfoOrBuilder getUgcTeamInfoOrBuilder() {
+      return getUgcTeamInfo();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -531,27 +585,30 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (dungeonId_ != 0) {
+        output.writeUInt32(1, dungeonId_);
+      }
       if (getReadyPlayerUidList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(readyPlayerUidMemoizedSerializedSize);
       }
       for (int i = 0; i < readyPlayerUid_.size(); i++) {
         output.writeUInt32NoTag(readyPlayerUid_.getInt(i));
+      }
+      if (matchType_ != 0) {
+        output.writeUInt32(8, matchType_);
+      }
+      for (int i = 0; i < avatarList_.size(); i++) {
+        output.writeMessage(9, avatarList_.get(i));
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetPlayerStateMap(),
           PlayerStateMapDefaultEntryHolder.defaultEntry,
-          3);
-      for (int i = 0; i < avatarList_.size(); i++) {
-        output.writeMessage(5, avatarList_.get(i));
-      }
-      if (matchType_ != 0) {
-        output.writeUInt32(6, matchType_);
-      }
-      if (dungeonId_ != 0) {
-        output.writeUInt32(9, dungeonId_);
+          13);
+      if (ugcTeamInfo_ != null) {
+        output.writeMessage(1758, getUgcTeamInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -562,6 +619,10 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (dungeonId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, dungeonId_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < readyPlayerUid_.size(); i++) {
@@ -576,6 +637,14 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         }
         readyPlayerUidMemoizedSerializedSize = dataSize;
       }
+      if (matchType_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, matchType_);
+      }
+      for (int i = 0; i < avatarList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, avatarList_.get(i));
+      }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetPlayerStateMap().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
@@ -584,19 +653,11 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(3, playerStateMap__);
+            .computeMessageSize(13, playerStateMap__);
       }
-      for (int i = 0; i < avatarList_.size(); i++) {
+      if (ugcTeamInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, avatarList_.get(i));
-      }
-      if (matchType_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, matchType_);
-      }
-      if (dungeonId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, dungeonId_);
+          .computeMessageSize(1758, getUgcTeamInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -613,16 +674,21 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       }
       emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify other = (emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify) obj;
 
-      if (!getReadyPlayerUidList()
-          .equals(other.getReadyPlayerUidList())) return false;
-      if (!internalGetPlayerStateMap().equals(
-          other.internalGetPlayerStateMap())) return false;
       if (!getAvatarListList()
           .equals(other.getAvatarListList())) return false;
+      if (!internalGetPlayerStateMap().equals(
+          other.internalGetPlayerStateMap())) return false;
+      if (!getReadyPlayerUidList()
+          .equals(other.getReadyPlayerUidList())) return false;
       if (getDungeonId()
           != other.getDungeonId()) return false;
       if (getMatchType()
           != other.getMatchType()) return false;
+      if (hasUgcTeamInfo() != other.hasUgcTeamInfo()) return false;
+      if (hasUgcTeamInfo()) {
+        if (!getUgcTeamInfo()
+            .equals(other.getUgcTeamInfo())) return false;
+      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -634,22 +700,26 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getReadyPlayerUidCount() > 0) {
-        hash = (37 * hash) + READY_PLAYER_UID_FIELD_NUMBER;
-        hash = (53 * hash) + getReadyPlayerUidList().hashCode();
+      if (getAvatarListCount() > 0) {
+        hash = (37 * hash) + AVATAR_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getAvatarListList().hashCode();
       }
       if (!internalGetPlayerStateMap().getMap().isEmpty()) {
         hash = (37 * hash) + PLAYER_STATE_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetPlayerStateMap().hashCode();
       }
-      if (getAvatarListCount() > 0) {
-        hash = (37 * hash) + AVATAR_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getAvatarListList().hashCode();
+      if (getReadyPlayerUidCount() > 0) {
+        hash = (37 * hash) + READY_PLAYER_UID_FIELD_NUMBER;
+        hash = (53 * hash) + getReadyPlayerUidList().hashCode();
       }
       hash = (37 * hash) + DUNGEON_ID_FIELD_NUMBER;
       hash = (53 * hash) + getDungeonId();
       hash = (37 * hash) + MATCH_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getMatchType();
+      if (hasUgcTeamInfo()) {
+        hash = (37 * hash) + UGC_TEAM_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getUgcTeamInfo().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -747,7 +817,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 4343
+     * CmdId: 22768
      * </pre>
      *
      * Protobuf type {@code DungeonCandidateTeamInfoNotify}
@@ -765,7 +835,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 3:
+          case 13:
             return internalGetPlayerStateMap();
           default:
             throw new RuntimeException(
@@ -776,7 +846,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 3:
+          case 13:
             return internalGetMutablePlayerStateMap();
           default:
             throw new RuntimeException(
@@ -810,19 +880,25 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        readyPlayerUid_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        internalGetMutablePlayerStateMap().clear();
         if (avatarListBuilder_ == null) {
           avatarList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           avatarListBuilder_.clear();
         }
+        internalGetMutablePlayerStateMap().clear();
+        readyPlayerUid_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000004);
         dungeonId_ = 0;
 
         matchType_ = 0;
 
+        if (ugcTeamInfoBuilder_ == null) {
+          ugcTeamInfo_ = null;
+        } else {
+          ugcTeamInfo_ = null;
+          ugcTeamInfoBuilder_ = null;
+        }
         return this;
       }
 
@@ -850,24 +926,29 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       public emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify buildPartial() {
         emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify result = new emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify(this);
         int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) != 0)) {
-          readyPlayerUid_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.readyPlayerUid_ = readyPlayerUid_;
-        result.playerStateMap_ = internalGetPlayerStateMap();
-        result.playerStateMap_.makeImmutable();
         if (avatarListBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) != 0)) {
+          if (((bitField0_ & 0x00000001) != 0)) {
             avatarList_ = java.util.Collections.unmodifiableList(avatarList_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.avatarList_ = avatarList_;
         } else {
           result.avatarList_ = avatarListBuilder_.build();
         }
+        result.playerStateMap_ = internalGetPlayerStateMap();
+        result.playerStateMap_.makeImmutable();
+        if (((bitField0_ & 0x00000004) != 0)) {
+          readyPlayerUid_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000004);
+        }
+        result.readyPlayerUid_ = readyPlayerUid_;
         result.dungeonId_ = dungeonId_;
         result.matchType_ = matchType_;
+        if (ugcTeamInfoBuilder_ == null) {
+          result.ugcTeamInfo_ = ugcTeamInfo_;
+        } else {
+          result.ugcTeamInfo_ = ugcTeamInfoBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -916,23 +997,11 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify other) {
         if (other == emu.grasscutter.net.proto.DungeonCandidateTeamInfoNotifyOuterClass.DungeonCandidateTeamInfoNotify.getDefaultInstance()) return this;
-        if (!other.readyPlayerUid_.isEmpty()) {
-          if (readyPlayerUid_.isEmpty()) {
-            readyPlayerUid_ = other.readyPlayerUid_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureReadyPlayerUidIsMutable();
-            readyPlayerUid_.addAll(other.readyPlayerUid_);
-          }
-          onChanged();
-        }
-        internalGetMutablePlayerStateMap().mergeFrom(
-            other.internalGetPlayerStateMap());
         if (avatarListBuilder_ == null) {
           if (!other.avatarList_.isEmpty()) {
             if (avatarList_.isEmpty()) {
               avatarList_ = other.avatarList_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureAvatarListIsMutable();
               avatarList_.addAll(other.avatarList_);
@@ -945,7 +1014,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
               avatarListBuilder_.dispose();
               avatarListBuilder_ = null;
               avatarList_ = other.avatarList_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000001);
               avatarListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAvatarListFieldBuilder() : null;
@@ -954,11 +1023,26 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
             }
           }
         }
+        internalGetMutablePlayerStateMap().mergeFrom(
+            other.internalGetPlayerStateMap());
+        if (!other.readyPlayerUid_.isEmpty()) {
+          if (readyPlayerUid_.isEmpty()) {
+            readyPlayerUid_ = other.readyPlayerUid_;
+            bitField0_ = (bitField0_ & ~0x00000004);
+          } else {
+            ensureReadyPlayerUidIsMutable();
+            readyPlayerUid_.addAll(other.readyPlayerUid_);
+          }
+          onChanged();
+        }
         if (other.getDungeonId() != 0) {
           setDungeonId(other.getDungeonId());
         }
         if (other.getMatchType() != 0) {
           setMatchType(other.getMatchType());
+        }
+        if (other.hasUgcTeamInfo()) {
+          mergeUgcTeamInfo(other.getUgcTeamInfo());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -990,83 +1074,244 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList readyPlayerUid_ = emptyIntList();
-      private void ensureReadyPlayerUidIsMutable() {
+      private java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> avatarList_ =
+        java.util.Collections.emptyList();
+      private void ensureAvatarListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          readyPlayerUid_ = mutableCopy(readyPlayerUid_);
+          avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar>(avatarList_);
           bitField0_ |= 0x00000001;
          }
       }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> avatarListBuilder_;
+
       /**
-       * <code>repeated uint32 ready_player_uid = 2;</code>
-       * @return A list containing the readyPlayerUid.
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
        */
-      public java.util.List<java.lang.Integer>
-          getReadyPlayerUidList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(readyPlayerUid_) : readyPlayerUid_;
+      public java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> getAvatarListList() {
+        if (avatarListBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(avatarList_);
+        } else {
+          return avatarListBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>repeated uint32 ready_player_uid = 2;</code>
-       * @return The count of readyPlayerUid.
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
        */
-      public int getReadyPlayerUidCount() {
-        return readyPlayerUid_.size();
+      public int getAvatarListCount() {
+        if (avatarListBuilder_ == null) {
+          return avatarList_.size();
+        } else {
+          return avatarListBuilder_.getCount();
+        }
       }
       /**
-       * <code>repeated uint32 ready_player_uid = 2;</code>
-       * @param index The index of the element to return.
-       * @return The readyPlayerUid at the given index.
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
        */
-      public int getReadyPlayerUid(int index) {
-        return readyPlayerUid_.getInt(index);
+      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar getAvatarList(int index) {
+        if (avatarListBuilder_ == null) {
+          return avatarList_.get(index);
+        } else {
+          return avatarListBuilder_.getMessage(index);
+        }
       }
       /**
-       * <code>repeated uint32 ready_player_uid = 2;</code>
-       * @param index The index to set the value at.
-       * @param value The readyPlayerUid to set.
-       * @return This builder for chaining.
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
        */
-      public Builder setReadyPlayerUid(
-          int index, int value) {
-        ensureReadyPlayerUidIsMutable();
-        readyPlayerUid_.setInt(index, value);
-        onChanged();
+      public Builder setAvatarList(
+          int index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar value) {
+        if (avatarListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAvatarListIsMutable();
+          avatarList_.set(index, value);
+          onChanged();
+        } else {
+          avatarListBuilder_.setMessage(index, value);
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 ready_player_uid = 2;</code>
-       * @param value The readyPlayerUid to add.
-       * @return This builder for chaining.
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
        */
-      public Builder addReadyPlayerUid(int value) {
-        ensureReadyPlayerUidIsMutable();
-        readyPlayerUid_.addInt(value);
-        onChanged();
+      public Builder setAvatarList(
+          int index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder builderForValue) {
+        if (avatarListBuilder_ == null) {
+          ensureAvatarListIsMutable();
+          avatarList_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          avatarListBuilder_.setMessage(index, builderForValue.build());
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 ready_player_uid = 2;</code>
-       * @param values The readyPlayerUid to add.
-       * @return This builder for chaining.
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
        */
-      public Builder addAllReadyPlayerUid(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureReadyPlayerUidIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, readyPlayerUid_);
-        onChanged();
+      public Builder addAvatarList(emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar value) {
+        if (avatarListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAvatarListIsMutable();
+          avatarList_.add(value);
+          onChanged();
+        } else {
+          avatarListBuilder_.addMessage(value);
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 ready_player_uid = 2;</code>
-       * @return This builder for chaining.
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
        */
-      public Builder clearReadyPlayerUid() {
-        readyPlayerUid_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
+      public Builder addAvatarList(
+          int index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar value) {
+        if (avatarListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAvatarListIsMutable();
+          avatarList_.add(index, value);
+          onChanged();
+        } else {
+          avatarListBuilder_.addMessage(index, value);
+        }
         return this;
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public Builder addAvatarList(
+          emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder builderForValue) {
+        if (avatarListBuilder_ == null) {
+          ensureAvatarListIsMutable();
+          avatarList_.add(builderForValue.build());
+          onChanged();
+        } else {
+          avatarListBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public Builder addAvatarList(
+          int index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder builderForValue) {
+        if (avatarListBuilder_ == null) {
+          ensureAvatarListIsMutable();
+          avatarList_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          avatarListBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public Builder addAllAvatarList(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> values) {
+        if (avatarListBuilder_ == null) {
+          ensureAvatarListIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, avatarList_);
+          onChanged();
+        } else {
+          avatarListBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public Builder clearAvatarList() {
+        if (avatarListBuilder_ == null) {
+          avatarList_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          avatarListBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public Builder removeAvatarList(int index) {
+        if (avatarListBuilder_ == null) {
+          ensureAvatarListIsMutable();
+          avatarList_.remove(index);
+          onChanged();
+        } else {
+          avatarListBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder getAvatarListBuilder(
+          int index) {
+        return getAvatarListFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder getAvatarListOrBuilder(
+          int index) {
+        if (avatarListBuilder_ == null) {
+          return avatarList_.get(index);  } else {
+          return avatarListBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> 
+           getAvatarListOrBuilderList() {
+        if (avatarListBuilder_ != null) {
+          return avatarListBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(avatarList_);
+        }
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder addAvatarListBuilder() {
+        return getAvatarListFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder addAvatarListBuilder(
+          int index) {
+        return getAvatarListFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 9;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder> 
+           getAvatarListBuilderList() {
+        return getAvatarListFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> 
+          getAvatarListFieldBuilder() {
+        if (avatarListBuilder_ == null) {
+          avatarListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder>(
+                  avatarList_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          avatarList_ = null;
+        }
+        return avatarListBuilder_;
       }
 
       private com.google.protobuf.MapField<
@@ -1096,7 +1341,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return internalGetPlayerStateMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
 
       @java.lang.Override
@@ -1115,7 +1360,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return getPlayerStateMapMap();
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       @java.lang.Override
 
@@ -1124,7 +1369,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return internalGetAdaptedPlayerStateMapMap(
             internalGetPlayerStateMap().getMap());}
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       @java.lang.Override
 
@@ -1139,7 +1384,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
                : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       @java.lang.Override
 
@@ -1163,7 +1408,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return getPlayerStateMapValueMap();
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       @java.lang.Override
 
@@ -1172,7 +1417,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return internalGetPlayerStateMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       @java.lang.Override
 
@@ -1185,7 +1430,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       @java.lang.Override
 
@@ -1206,7 +1451,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
 
       public Builder removePlayerStateMap(
@@ -1226,7 +1471,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
              internalGetMutablePlayerStateMap().getMutableMap());
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       public Builder putPlayerStateMap(
           int key,
@@ -1238,7 +1483,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       public Builder putAllPlayerStateMap(
           java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.DungeonCandidateTeamPlayerState> values) {
@@ -1256,7 +1501,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return internalGetMutablePlayerStateMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       public Builder putPlayerStateMapValue(
           int key,
@@ -1267,7 +1512,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 3;</code>
+       * <code>map&lt;uint32, .DungeonCandidateTeamPlayerState&gt; player_state_map = 13;</code>
        */
       public Builder putAllPlayerStateMapValue(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -1276,249 +1521,88 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> avatarList_ =
-        java.util.Collections.emptyList();
-      private void ensureAvatarListIsMutable() {
+      private com.google.protobuf.Internal.IntList readyPlayerUid_ = emptyIntList();
+      private void ensureReadyPlayerUidIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar>(avatarList_);
+          readyPlayerUid_ = mutableCopy(readyPlayerUid_);
           bitField0_ |= 0x00000004;
          }
       }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> avatarListBuilder_;
-
       /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+       * <code>repeated uint32 ready_player_uid = 7;</code>
+       * @return A list containing the readyPlayerUid.
        */
-      public java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> getAvatarListList() {
-        if (avatarListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(avatarList_);
-        } else {
-          return avatarListBuilder_.getMessageList();
-        }
+      public java.util.List<java.lang.Integer>
+          getReadyPlayerUidList() {
+        return ((bitField0_ & 0x00000004) != 0) ?
+                 java.util.Collections.unmodifiableList(readyPlayerUid_) : readyPlayerUid_;
       }
       /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+       * <code>repeated uint32 ready_player_uid = 7;</code>
+       * @return The count of readyPlayerUid.
        */
-      public int getAvatarListCount() {
-        if (avatarListBuilder_ == null) {
-          return avatarList_.size();
-        } else {
-          return avatarListBuilder_.getCount();
-        }
+      public int getReadyPlayerUidCount() {
+        return readyPlayerUid_.size();
       }
       /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+       * <code>repeated uint32 ready_player_uid = 7;</code>
+       * @param index The index of the element to return.
+       * @return The readyPlayerUid at the given index.
        */
-      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar getAvatarList(int index) {
-        if (avatarListBuilder_ == null) {
-          return avatarList_.get(index);
-        } else {
-          return avatarListBuilder_.getMessage(index);
-        }
+      public int getReadyPlayerUid(int index) {
+        return readyPlayerUid_.getInt(index);
       }
       /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+       * <code>repeated uint32 ready_player_uid = 7;</code>
+       * @param index The index to set the value at.
+       * @param value The readyPlayerUid to set.
+       * @return This builder for chaining.
        */
-      public Builder setAvatarList(
-          int index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar value) {
-        if (avatarListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureAvatarListIsMutable();
-          avatarList_.set(index, value);
-          onChanged();
-        } else {
-          avatarListBuilder_.setMessage(index, value);
-        }
+      public Builder setReadyPlayerUid(
+          int index, int value) {
+        ensureReadyPlayerUidIsMutable();
+        readyPlayerUid_.setInt(index, value);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+       * <code>repeated uint32 ready_player_uid = 7;</code>
+       * @param value The readyPlayerUid to add.
+       * @return This builder for chaining.
        */
-      public Builder setAvatarList(
-          int index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder builderForValue) {
-        if (avatarListBuilder_ == null) {
-          ensureAvatarListIsMutable();
-          avatarList_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          avatarListBuilder_.setMessage(index, builderForValue.build());
-        }
+      public Builder addReadyPlayerUid(int value) {
+        ensureReadyPlayerUidIsMutable();
+        readyPlayerUid_.addInt(value);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+       * <code>repeated uint32 ready_player_uid = 7;</code>
+       * @param values The readyPlayerUid to add.
+       * @return This builder for chaining.
        */
-      public Builder addAvatarList(emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar value) {
-        if (avatarListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureAvatarListIsMutable();
-          avatarList_.add(value);
-          onChanged();
-        } else {
-          avatarListBuilder_.addMessage(value);
-        }
+      public Builder addAllReadyPlayerUid(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureReadyPlayerUidIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, readyPlayerUid_);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
+       * <code>repeated uint32 ready_player_uid = 7;</code>
+       * @return This builder for chaining.
        */
-      public Builder addAvatarList(
-          int index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar value) {
-        if (avatarListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureAvatarListIsMutable();
-          avatarList_.add(index, value);
-          onChanged();
-        } else {
-          avatarListBuilder_.addMessage(index, value);
-        }
+      public Builder clearReadyPlayerUid() {
+        readyPlayerUid_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000004);
+        onChanged();
         return this;
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public Builder addAvatarList(
-          emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder builderForValue) {
-        if (avatarListBuilder_ == null) {
-          ensureAvatarListIsMutable();
-          avatarList_.add(builderForValue.build());
-          onChanged();
-        } else {
-          avatarListBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public Builder addAvatarList(
-          int index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder builderForValue) {
-        if (avatarListBuilder_ == null) {
-          ensureAvatarListIsMutable();
-          avatarList_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          avatarListBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public Builder addAllAvatarList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar> values) {
-        if (avatarListBuilder_ == null) {
-          ensureAvatarListIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, avatarList_);
-          onChanged();
-        } else {
-          avatarListBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public Builder clearAvatarList() {
-        if (avatarListBuilder_ == null) {
-          avatarList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
-          onChanged();
-        } else {
-          avatarListBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public Builder removeAvatarList(int index) {
-        if (avatarListBuilder_ == null) {
-          ensureAvatarListIsMutable();
-          avatarList_.remove(index);
-          onChanged();
-        } else {
-          avatarListBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder getAvatarListBuilder(
-          int index) {
-        return getAvatarListFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder getAvatarListOrBuilder(
-          int index) {
-        if (avatarListBuilder_ == null) {
-          return avatarList_.get(index);  } else {
-          return avatarListBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> 
-           getAvatarListOrBuilderList() {
-        if (avatarListBuilder_ != null) {
-          return avatarListBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(avatarList_);
-        }
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder addAvatarListBuilder() {
-        return getAvatarListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder addAvatarListBuilder(
-          int index) {
-        return getAvatarListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .DungeonCandidateTeamAvatar avatar_list = 5;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder> 
-           getAvatarListBuilderList() {
-        return getAvatarListFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder> 
-          getAvatarListFieldBuilder() {
-        if (avatarListBuilder_ == null) {
-          avatarListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatar.Builder, emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.DungeonCandidateTeamAvatarOrBuilder>(
-                  avatarList_,
-                  ((bitField0_ & 0x00000004) != 0),
-                  getParentForChildren(),
-                  isClean());
-          avatarList_ = null;
-        }
-        return avatarListBuilder_;
       }
 
       private int dungeonId_ ;
       /**
-       * <code>uint32 dungeon_id = 9;</code>
+       * <code>uint32 dungeon_id = 1;</code>
        * @return The dungeonId.
        */
       @java.lang.Override
@@ -1526,7 +1610,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return dungeonId_;
       }
       /**
-       * <code>uint32 dungeon_id = 9;</code>
+       * <code>uint32 dungeon_id = 1;</code>
        * @param value The dungeonId to set.
        * @return This builder for chaining.
        */
@@ -1537,7 +1621,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 dungeon_id = 9;</code>
+       * <code>uint32 dungeon_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearDungeonId() {
@@ -1549,7 +1633,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
 
       private int matchType_ ;
       /**
-       * <code>uint32 match_type = 6;</code>
+       * <code>uint32 match_type = 8;</code>
        * @return The matchType.
        */
       @java.lang.Override
@@ -1557,7 +1641,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return matchType_;
       }
       /**
-       * <code>uint32 match_type = 6;</code>
+       * <code>uint32 match_type = 8;</code>
        * @param value The matchType to set.
        * @return This builder for chaining.
        */
@@ -1568,7 +1652,7 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 match_type = 6;</code>
+       * <code>uint32 match_type = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearMatchType() {
@@ -1576,6 +1660,125 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
         matchType_ = 0;
         onChanged();
         return this;
+      }
+
+      private emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo ugcTeamInfo_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.Builder, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfoOrBuilder> ugcTeamInfoBuilder_;
+      /**
+       * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+       * @return Whether the ugcTeamInfo field is set.
+       */
+      public boolean hasUgcTeamInfo() {
+        return ugcTeamInfoBuilder_ != null || ugcTeamInfo_ != null;
+      }
+      /**
+       * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+       * @return The ugcTeamInfo.
+       */
+      public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo getUgcTeamInfo() {
+        if (ugcTeamInfoBuilder_ == null) {
+          return ugcTeamInfo_ == null ? emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.getDefaultInstance() : ugcTeamInfo_;
+        } else {
+          return ugcTeamInfoBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+       */
+      public Builder setUgcTeamInfo(emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo value) {
+        if (ugcTeamInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ugcTeamInfo_ = value;
+          onChanged();
+        } else {
+          ugcTeamInfoBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+       */
+      public Builder setUgcTeamInfo(
+          emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.Builder builderForValue) {
+        if (ugcTeamInfoBuilder_ == null) {
+          ugcTeamInfo_ = builderForValue.build();
+          onChanged();
+        } else {
+          ugcTeamInfoBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+       */
+      public Builder mergeUgcTeamInfo(emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo value) {
+        if (ugcTeamInfoBuilder_ == null) {
+          if (ugcTeamInfo_ != null) {
+            ugcTeamInfo_ =
+              emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.newBuilder(ugcTeamInfo_).mergeFrom(value).buildPartial();
+          } else {
+            ugcTeamInfo_ = value;
+          }
+          onChanged();
+        } else {
+          ugcTeamInfoBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+       */
+      public Builder clearUgcTeamInfo() {
+        if (ugcTeamInfoBuilder_ == null) {
+          ugcTeamInfo_ = null;
+          onChanged();
+        } else {
+          ugcTeamInfo_ = null;
+          ugcTeamInfoBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+       */
+      public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.Builder getUgcTeamInfoBuilder() {
+        
+        onChanged();
+        return getUgcTeamInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+       */
+      public emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfoOrBuilder getUgcTeamInfoOrBuilder() {
+        if (ugcTeamInfoBuilder_ != null) {
+          return ugcTeamInfoBuilder_.getMessageOrBuilder();
+        } else {
+          return ugcTeamInfo_ == null ?
+              emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.getDefaultInstance() : ugcTeamInfo_;
+        }
+      }
+      /**
+       * <code>.UgcDungeonCandidateTeamInfo ugc_team_info = 1758;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.Builder, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfoOrBuilder> 
+          getUgcTeamInfoFieldBuilder() {
+        if (ugcTeamInfoBuilder_ == null) {
+          ugcTeamInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfo.Builder, emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.UgcDungeonCandidateTeamInfoOrBuilder>(
+                  getUgcTeamInfo(),
+                  getParentForChildren(),
+                  isClean());
+          ugcTeamInfo_ = null;
+        }
+        return ugcTeamInfoBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -1649,39 +1852,43 @@ public final class DungeonCandidateTeamInfoNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n$DungeonCandidateTeamInfoNotify.proto\032%" +
-      "DungeonCandidateTeamPlayerState.proto\032 D" +
-      "ungeonCandidateTeamAvatar.proto\"\274\002\n\036Dung" +
-      "eonCandidateTeamInfoNotify\022\030\n\020ready_play" +
-      "er_uid\030\002 \003(\r\022M\n\020player_state_map\030\003 \003(\01323" +
-      ".DungeonCandidateTeamInfoNotify.PlayerSt" +
-      "ateMapEntry\0220\n\013avatar_list\030\005 \003(\0132\033.Dunge" +
-      "onCandidateTeamAvatar\022\022\n\ndungeon_id\030\t \001(" +
-      "\r\022\022\n\nmatch_type\030\006 \001(\r\032W\n\023PlayerStateMapE" +
-      "ntry\022\013\n\003key\030\001 \001(\r\022/\n\005value\030\002 \001(\0162 .Dunge" +
-      "onCandidateTeamPlayerState:\0028\001B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n$DungeonCandidateTeamInfoNotify.proto\032 " +
+      "DungeonCandidateTeamAvatar.proto\032%Dungeo" +
+      "nCandidateTeamPlayerState.proto\032!UgcDung" +
+      "eonCandidateTeamInfo.proto\"\362\002\n\036DungeonCa" +
+      "ndidateTeamInfoNotify\0220\n\013avatar_list\030\t \003" +
+      "(\0132\033.DungeonCandidateTeamAvatar\022M\n\020playe" +
+      "r_state_map\030\r \003(\01323.DungeonCandidateTeam" +
+      "InfoNotify.PlayerStateMapEntry\022\030\n\020ready_" +
+      "player_uid\030\007 \003(\r\022\022\n\ndungeon_id\030\001 \001(\r\022\022\n\n" +
+      "match_type\030\010 \001(\r\0224\n\rugc_team_info\030\336\r \001(\013" +
+      "2\034.UgcDungeonCandidateTeamInfo\032W\n\023Player" +
+      "StateMapEntry\022\013\n\003key\030\001 \001(\r\022/\n\005value\030\002 \001(" +
+      "\0162 .DungeonCandidateTeamPlayerState:\0028\001B" +
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.getDescriptor(),
         });
     internal_static_DungeonCandidateTeamInfoNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_DungeonCandidateTeamInfoNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DungeonCandidateTeamInfoNotify_descriptor,
-        new java.lang.String[] { "ReadyPlayerUid", "PlayerStateMap", "AvatarList", "DungeonId", "MatchType", });
+        new java.lang.String[] { "AvatarList", "PlayerStateMap", "ReadyPlayerUid", "DungeonId", "MatchType", "UgcTeamInfo", });
     internal_static_DungeonCandidateTeamInfoNotify_PlayerStateMapEntry_descriptor =
       internal_static_DungeonCandidateTeamInfoNotify_descriptor.getNestedTypes().get(0);
     internal_static_DungeonCandidateTeamInfoNotify_PlayerStateMapEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DungeonCandidateTeamInfoNotify_PlayerStateMapEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.getDescriptor();
     emu.grasscutter.net.proto.DungeonCandidateTeamAvatarOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.DungeonCandidateTeamPlayerStateOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.UgcDungeonCandidateTeamInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

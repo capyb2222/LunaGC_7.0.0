@@ -295,31 +295,31 @@ public final class PacketOpcodes {
 
     // Dungeon
     public static final int WorktopOptionNotify = 9948;
-    public static final int SelectWorktopOptionReq = 1;
-    public static final int SelectWorktopOptionRsp = 1;
-    public static final int PlayerQuitDungeonReq = 1;
-	public static final int PlayerQuitDungeonRsp = 1;
-    public static final int DungeonCandidateTeamDismissNotify = 1;
-	public static final int DungeonCandidateTeamInfoNotify = 1;
-	public static final int DungeonCandidateTeamInviteNotify = 1;
-	public static final int DungeonCandidateTeamPlayerLeaveNotify = 1;
-	public static final int DungeonChallengeBeginNotify = 1; 
-	public static final int DungeonChallengeFinishNotify = 1; 
-    public static final int DungeonDieOptionReq = 1;
-	public static final int DungeonDieOptionRsp = 1; 
-	public static final int DungeonEntryInfoReq = 1; 
-	public static final int DungeonEntryInfoRsp = 1; 
-	public static final int DungeonPlayerDieNotify = 1; 
-	public static final int DungeonRestartInviteNotify = 1;
-	public static final int DungeonRestartInviteReplyNotify = 1;
-	public static final int DungeonSettleNotify = 1;
-    public static final int DungeonRestartReq = 1;
-    public static final int DungeonRestartRsp = 1;
-    public static final int PlayerEnterDungeonReq = 1;
-    public static final int PlayerEnterDungeonRsp = 1;
-    public static final int DungeonPlayerDieReq = 1;
-    public static final int DungeonPlayerDieRsp = 1;
-    public static final int DungeonPreloadMonsterNotify = 1;
+    public static final int SelectWorktopOptionReq = 6594;
+    public static final int SelectWorktopOptionRsp = 26444;
+    public static final int PlayerQuitDungeonReq = 5864;
+	public static final int PlayerQuitDungeonRsp = 25094;
+    public static final int DungeonCandidateTeamDismissNotify = 26466;
+	public static final int DungeonCandidateTeamInfoNotify = 22768;
+	public static final int DungeonCandidateTeamInviteNotify = 29759;
+	public static final int DungeonCandidateTeamPlayerLeaveNotify = 5568;
+	public static final int DungeonChallengeBeginNotify = 20139;
+	public static final int DungeonChallengeFinishNotify = 1; // it really is 1
+    public static final int DungeonDieOptionReq = 9426;
+	public static final int DungeonDieOptionRsp = 22538;
+	public static final int DungeonEntryInfoReq = 20087;
+	public static final int DungeonEntryInfoRsp = 9385;
+	public static final int DungeonPlayerDieNotify = 1089;
+	public static final int DungeonRestartInviteNotify = 25597;
+	public static final int DungeonRestartInviteReplyNotify = 36;
+	public static final int DungeonSettleNotify = 20442;
+    public static final int DungeonRestartReq = 8501;
+    public static final int DungeonRestartRsp = 7902;
+    public static final int PlayerEnterDungeonReq = 3459;
+    public static final int PlayerEnterDungeonRsp = 20476;
+    public static final int DungeonPlayerDieReq = 5273;
+    public static final int DungeonPlayerDieRsp = 1; // ?
+    public static final int DungeonPreloadMonsterNotify = 4622;
 
     // MP / co-op / online features etc.
     public static final int GetPlayerSocialDetailReq = 4270;
