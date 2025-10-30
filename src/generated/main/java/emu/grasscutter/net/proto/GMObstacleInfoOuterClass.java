@@ -365,7 +365,7 @@ public final class GMObstacleInfoOuterClass {
       if (rotation_ != null) {
         output.writeMessage(10, getRotation());
       }
-      if (shape_ != emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.ShapeType.OBSTACLE_SHAPE_CAPSULE.getNumber()) {
+      if (shape_ != emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.ShapeType.SHAPE_TYPE_OBSTACLE_SHAPE_CAPSULE.getNumber()) {
         output.writeEnum(11, shape_);
       }
       if (timestamp_ != 0L) {
@@ -395,7 +395,7 @@ public final class GMObstacleInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(10, getRotation());
       }
-      if (shape_ != emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.ShapeType.OBSTACLE_SHAPE_CAPSULE.getNumber()) {
+      if (shape_ != emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo.ShapeType.SHAPE_TYPE_OBSTACLE_SHAPE_CAPSULE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(11, shape_);
       }

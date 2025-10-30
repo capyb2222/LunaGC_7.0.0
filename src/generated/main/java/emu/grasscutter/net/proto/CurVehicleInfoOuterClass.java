@@ -19,34 +19,34 @@ public final class CurVehicleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector pre_enter_rot = 6;</code>
-     * @return Whether the preEnterRot field is set.
+     * <code>.Vector vehicle_rot = 6;</code>
+     * @return Whether the vehicleRot field is set.
      */
-    boolean hasPreEnterRot();
+    boolean hasVehicleRot();
     /**
-     * <code>.Vector pre_enter_rot = 6;</code>
-     * @return The preEnterRot.
+     * <code>.Vector vehicle_rot = 6;</code>
+     * @return The vehicleRot.
      */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getPreEnterRot();
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getVehicleRot();
     /**
-     * <code>.Vector pre_enter_rot = 6;</code>
+     * <code>.Vector vehicle_rot = 6;</code>
      */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPreEnterRotOrBuilder();
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getVehicleRotOrBuilder();
 
     /**
-     * <code>.Vector pre_enter_pos = 4;</code>
-     * @return Whether the preEnterPos field is set.
+     * <code>.Vector vehicle_pos = 4;</code>
+     * @return Whether the vehiclePos field is set.
      */
-    boolean hasPreEnterPos();
+    boolean hasVehiclePos();
     /**
-     * <code>.Vector pre_enter_pos = 4;</code>
-     * @return The preEnterPos.
+     * <code>.Vector vehicle_pos = 4;</code>
+     * @return The vehiclePos.
      */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getPreEnterPos();
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getVehiclePos();
     /**
-     * <code>.Vector pre_enter_pos = 4;</code>
+     * <code>.Vector vehicle_pos = 4;</code>
      */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPreEnterPosOrBuilder();
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getVehiclePosOrBuilder();
 
     /**
      * <code>uint32 vehicle_type = 5;</code>
@@ -134,13 +134,13 @@ public final class CurVehicleInfoOuterClass {
             }
             case 34: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
-              if (preEnterPos_ != null) {
-                subBuilder = preEnterPos_.toBuilder();
+              if (vehiclePos_ != null) {
+                subBuilder = vehiclePos_.toBuilder();
               }
-              preEnterPos_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
+              vehiclePos_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(preEnterPos_);
-                preEnterPos_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(vehiclePos_);
+                vehiclePos_ = subBuilder.buildPartial();
               }
 
               break;
@@ -152,13 +152,13 @@ public final class CurVehicleInfoOuterClass {
             }
             case 50: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
-              if (preEnterRot_ != null) {
-                subBuilder = preEnterRot_.toBuilder();
+              if (vehicleRot_ != null) {
+                subBuilder = vehicleRot_.toBuilder();
               }
-              preEnterRot_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
+              vehicleRot_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(preEnterRot_);
-                preEnterRot_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(vehicleRot_);
+                vehicleRot_ = subBuilder.buildPartial();
               }
 
               break;
@@ -195,56 +195,56 @@ public final class CurVehicleInfoOuterClass {
               emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.class, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.Builder.class);
     }
 
-    public static final int PRE_ENTER_ROT_FIELD_NUMBER = 6;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector preEnterRot_;
+    public static final int VEHICLE_ROT_FIELD_NUMBER = 6;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector vehicleRot_;
     /**
-     * <code>.Vector pre_enter_rot = 6;</code>
-     * @return Whether the preEnterRot field is set.
+     * <code>.Vector vehicle_rot = 6;</code>
+     * @return Whether the vehicleRot field is set.
      */
     @java.lang.Override
-    public boolean hasPreEnterRot() {
-      return preEnterRot_ != null;
+    public boolean hasVehicleRot() {
+      return vehicleRot_ != null;
     }
     /**
-     * <code>.Vector pre_enter_rot = 6;</code>
-     * @return The preEnterRot.
+     * <code>.Vector vehicle_rot = 6;</code>
+     * @return The vehicleRot.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getPreEnterRot() {
-      return preEnterRot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : preEnterRot_;
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getVehicleRot() {
+      return vehicleRot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : vehicleRot_;
     }
     /**
-     * <code>.Vector pre_enter_rot = 6;</code>
+     * <code>.Vector vehicle_rot = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPreEnterRotOrBuilder() {
-      return getPreEnterRot();
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getVehicleRotOrBuilder() {
+      return getVehicleRot();
     }
 
-    public static final int PRE_ENTER_POS_FIELD_NUMBER = 4;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector preEnterPos_;
+    public static final int VEHICLE_POS_FIELD_NUMBER = 4;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector vehiclePos_;
     /**
-     * <code>.Vector pre_enter_pos = 4;</code>
-     * @return Whether the preEnterPos field is set.
+     * <code>.Vector vehicle_pos = 4;</code>
+     * @return Whether the vehiclePos field is set.
      */
     @java.lang.Override
-    public boolean hasPreEnterPos() {
-      return preEnterPos_ != null;
+    public boolean hasVehiclePos() {
+      return vehiclePos_ != null;
     }
     /**
-     * <code>.Vector pre_enter_pos = 4;</code>
-     * @return The preEnterPos.
+     * <code>.Vector vehicle_pos = 4;</code>
+     * @return The vehiclePos.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getPreEnterPos() {
-      return preEnterPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : preEnterPos_;
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getVehiclePos() {
+      return vehiclePos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : vehiclePos_;
     }
     /**
-     * <code>.Vector pre_enter_pos = 4;</code>
+     * <code>.Vector vehicle_pos = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPreEnterPosOrBuilder() {
-      return getPreEnterPos();
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getVehiclePosOrBuilder() {
+      return getVehiclePos();
     }
 
     public static final int VEHICLE_TYPE_FIELD_NUMBER = 5;
@@ -314,14 +314,14 @@ public final class CurVehicleInfoOuterClass {
       if (gadgetId_ != 0) {
         output.writeUInt32(3, gadgetId_);
       }
-      if (preEnterPos_ != null) {
-        output.writeMessage(4, getPreEnterPos());
+      if (vehiclePos_ != null) {
+        output.writeMessage(4, getVehiclePos());
       }
       if (vehicleType_ != 0) {
         output.writeUInt32(5, vehicleType_);
       }
-      if (preEnterRot_ != null) {
-        output.writeMessage(6, getPreEnterRot());
+      if (vehicleRot_ != null) {
+        output.writeMessage(6, getVehicleRot());
       }
       unknownFields.writeTo(output);
     }
@@ -344,17 +344,17 @@ public final class CurVehicleInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(3, gadgetId_);
       }
-      if (preEnterPos_ != null) {
+      if (vehiclePos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getPreEnterPos());
+          .computeMessageSize(4, getVehiclePos());
       }
       if (vehicleType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(5, vehicleType_);
       }
-      if (preEnterRot_ != null) {
+      if (vehicleRot_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getPreEnterRot());
+          .computeMessageSize(6, getVehicleRot());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -371,15 +371,15 @@ public final class CurVehicleInfoOuterClass {
       }
       emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo other = (emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo) obj;
 
-      if (hasPreEnterRot() != other.hasPreEnterRot()) return false;
-      if (hasPreEnterRot()) {
-        if (!getPreEnterRot()
-            .equals(other.getPreEnterRot())) return false;
+      if (hasVehicleRot() != other.hasVehicleRot()) return false;
+      if (hasVehicleRot()) {
+        if (!getVehicleRot()
+            .equals(other.getVehicleRot())) return false;
       }
-      if (hasPreEnterPos() != other.hasPreEnterPos()) return false;
-      if (hasPreEnterPos()) {
-        if (!getPreEnterPos()
-            .equals(other.getPreEnterPos())) return false;
+      if (hasVehiclePos() != other.hasVehiclePos()) return false;
+      if (hasVehiclePos()) {
+        if (!getVehiclePos()
+            .equals(other.getVehiclePos())) return false;
       }
       if (getVehicleType()
           != other.getVehicleType()) return false;
@@ -400,13 +400,13 @@ public final class CurVehicleInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasPreEnterRot()) {
-        hash = (37 * hash) + PRE_ENTER_ROT_FIELD_NUMBER;
-        hash = (53 * hash) + getPreEnterRot().hashCode();
+      if (hasVehicleRot()) {
+        hash = (37 * hash) + VEHICLE_ROT_FIELD_NUMBER;
+        hash = (53 * hash) + getVehicleRot().hashCode();
       }
-      if (hasPreEnterPos()) {
-        hash = (37 * hash) + PRE_ENTER_POS_FIELD_NUMBER;
-        hash = (53 * hash) + getPreEnterPos().hashCode();
+      if (hasVehiclePos()) {
+        hash = (37 * hash) + VEHICLE_POS_FIELD_NUMBER;
+        hash = (53 * hash) + getVehiclePos().hashCode();
       }
       hash = (37 * hash) + VEHICLE_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getVehicleType();
@@ -549,17 +549,17 @@ public final class CurVehicleInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (preEnterRotBuilder_ == null) {
-          preEnterRot_ = null;
+        if (vehicleRotBuilder_ == null) {
+          vehicleRot_ = null;
         } else {
-          preEnterRot_ = null;
-          preEnterRotBuilder_ = null;
+          vehicleRot_ = null;
+          vehicleRotBuilder_ = null;
         }
-        if (preEnterPosBuilder_ == null) {
-          preEnterPos_ = null;
+        if (vehiclePosBuilder_ == null) {
+          vehiclePos_ = null;
         } else {
-          preEnterPos_ = null;
-          preEnterPosBuilder_ = null;
+          vehiclePos_ = null;
+          vehiclePosBuilder_ = null;
         }
         vehicleType_ = 0;
 
@@ -595,15 +595,15 @@ public final class CurVehicleInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo buildPartial() {
         emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo result = new emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo(this);
-        if (preEnterRotBuilder_ == null) {
-          result.preEnterRot_ = preEnterRot_;
+        if (vehicleRotBuilder_ == null) {
+          result.vehicleRot_ = vehicleRot_;
         } else {
-          result.preEnterRot_ = preEnterRotBuilder_.build();
+          result.vehicleRot_ = vehicleRotBuilder_.build();
         }
-        if (preEnterPosBuilder_ == null) {
-          result.preEnterPos_ = preEnterPos_;
+        if (vehiclePosBuilder_ == null) {
+          result.vehiclePos_ = vehiclePos_;
         } else {
-          result.preEnterPos_ = preEnterPosBuilder_.build();
+          result.vehiclePos_ = vehiclePosBuilder_.build();
         }
         result.vehicleType_ = vehicleType_;
         result.entityId_ = entityId_;
@@ -657,11 +657,11 @@ public final class CurVehicleInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo other) {
         if (other == emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.getDefaultInstance()) return this;
-        if (other.hasPreEnterRot()) {
-          mergePreEnterRot(other.getPreEnterRot());
+        if (other.hasVehicleRot()) {
+          mergeVehicleRot(other.getVehicleRot());
         }
-        if (other.hasPreEnterPos()) {
-          mergePreEnterPos(other.getPreEnterPos());
+        if (other.hasVehiclePos()) {
+          mergeVehiclePos(other.getVehiclePos());
         }
         if (other.getVehicleType() != 0) {
           setVehicleType(other.getVehicleType());
@@ -704,242 +704,242 @@ public final class CurVehicleInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.VectorOuterClass.Vector preEnterRot_;
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector vehicleRot_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> preEnterRotBuilder_;
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> vehicleRotBuilder_;
       /**
-       * <code>.Vector pre_enter_rot = 6;</code>
-       * @return Whether the preEnterRot field is set.
+       * <code>.Vector vehicle_rot = 6;</code>
+       * @return Whether the vehicleRot field is set.
        */
-      public boolean hasPreEnterRot() {
-        return preEnterRotBuilder_ != null || preEnterRot_ != null;
+      public boolean hasVehicleRot() {
+        return vehicleRotBuilder_ != null || vehicleRot_ != null;
       }
       /**
-       * <code>.Vector pre_enter_rot = 6;</code>
-       * @return The preEnterRot.
+       * <code>.Vector vehicle_rot = 6;</code>
+       * @return The vehicleRot.
        */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector getPreEnterRot() {
-        if (preEnterRotBuilder_ == null) {
-          return preEnterRot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : preEnterRot_;
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getVehicleRot() {
+        if (vehicleRotBuilder_ == null) {
+          return vehicleRot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : vehicleRot_;
         } else {
-          return preEnterRotBuilder_.getMessage();
+          return vehicleRotBuilder_.getMessage();
         }
       }
       /**
-       * <code>.Vector pre_enter_rot = 6;</code>
+       * <code>.Vector vehicle_rot = 6;</code>
        */
-      public Builder setPreEnterRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (preEnterRotBuilder_ == null) {
+      public Builder setVehicleRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (vehicleRotBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          preEnterRot_ = value;
+          vehicleRot_ = value;
           onChanged();
         } else {
-          preEnterRotBuilder_.setMessage(value);
+          vehicleRotBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.Vector pre_enter_rot = 6;</code>
+       * <code>.Vector vehicle_rot = 6;</code>
        */
-      public Builder setPreEnterRot(
+      public Builder setVehicleRot(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
-        if (preEnterRotBuilder_ == null) {
-          preEnterRot_ = builderForValue.build();
+        if (vehicleRotBuilder_ == null) {
+          vehicleRot_ = builderForValue.build();
           onChanged();
         } else {
-          preEnterRotBuilder_.setMessage(builderForValue.build());
+          vehicleRotBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.Vector pre_enter_rot = 6;</code>
+       * <code>.Vector vehicle_rot = 6;</code>
        */
-      public Builder mergePreEnterRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (preEnterRotBuilder_ == null) {
-          if (preEnterRot_ != null) {
-            preEnterRot_ =
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(preEnterRot_).mergeFrom(value).buildPartial();
+      public Builder mergeVehicleRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (vehicleRotBuilder_ == null) {
+          if (vehicleRot_ != null) {
+            vehicleRot_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(vehicleRot_).mergeFrom(value).buildPartial();
           } else {
-            preEnterRot_ = value;
+            vehicleRot_ = value;
           }
           onChanged();
         } else {
-          preEnterRotBuilder_.mergeFrom(value);
+          vehicleRotBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.Vector pre_enter_rot = 6;</code>
+       * <code>.Vector vehicle_rot = 6;</code>
        */
-      public Builder clearPreEnterRot() {
-        if (preEnterRotBuilder_ == null) {
-          preEnterRot_ = null;
+      public Builder clearVehicleRot() {
+        if (vehicleRotBuilder_ == null) {
+          vehicleRot_ = null;
           onChanged();
         } else {
-          preEnterRot_ = null;
-          preEnterRotBuilder_ = null;
+          vehicleRot_ = null;
+          vehicleRotBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.Vector pre_enter_rot = 6;</code>
+       * <code>.Vector vehicle_rot = 6;</code>
        */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPreEnterRotBuilder() {
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getVehicleRotBuilder() {
         
         onChanged();
-        return getPreEnterRotFieldBuilder().getBuilder();
+        return getVehicleRotFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector pre_enter_rot = 6;</code>
+       * <code>.Vector vehicle_rot = 6;</code>
        */
-      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPreEnterRotOrBuilder() {
-        if (preEnterRotBuilder_ != null) {
-          return preEnterRotBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getVehicleRotOrBuilder() {
+        if (vehicleRotBuilder_ != null) {
+          return vehicleRotBuilder_.getMessageOrBuilder();
         } else {
-          return preEnterRot_ == null ?
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : preEnterRot_;
+          return vehicleRot_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : vehicleRot_;
         }
       }
       /**
-       * <code>.Vector pre_enter_rot = 6;</code>
+       * <code>.Vector vehicle_rot = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
-          getPreEnterRotFieldBuilder() {
-        if (preEnterRotBuilder_ == null) {
-          preEnterRotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getVehicleRotFieldBuilder() {
+        if (vehicleRotBuilder_ == null) {
+          vehicleRotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
-                  getPreEnterRot(),
+                  getVehicleRot(),
                   getParentForChildren(),
                   isClean());
-          preEnterRot_ = null;
+          vehicleRot_ = null;
         }
-        return preEnterRotBuilder_;
+        return vehicleRotBuilder_;
       }
 
-      private emu.grasscutter.net.proto.VectorOuterClass.Vector preEnterPos_;
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector vehiclePos_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> preEnterPosBuilder_;
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> vehiclePosBuilder_;
       /**
-       * <code>.Vector pre_enter_pos = 4;</code>
-       * @return Whether the preEnterPos field is set.
+       * <code>.Vector vehicle_pos = 4;</code>
+       * @return Whether the vehiclePos field is set.
        */
-      public boolean hasPreEnterPos() {
-        return preEnterPosBuilder_ != null || preEnterPos_ != null;
+      public boolean hasVehiclePos() {
+        return vehiclePosBuilder_ != null || vehiclePos_ != null;
       }
       /**
-       * <code>.Vector pre_enter_pos = 4;</code>
-       * @return The preEnterPos.
+       * <code>.Vector vehicle_pos = 4;</code>
+       * @return The vehiclePos.
        */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector getPreEnterPos() {
-        if (preEnterPosBuilder_ == null) {
-          return preEnterPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : preEnterPos_;
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getVehiclePos() {
+        if (vehiclePosBuilder_ == null) {
+          return vehiclePos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : vehiclePos_;
         } else {
-          return preEnterPosBuilder_.getMessage();
+          return vehiclePosBuilder_.getMessage();
         }
       }
       /**
-       * <code>.Vector pre_enter_pos = 4;</code>
+       * <code>.Vector vehicle_pos = 4;</code>
        */
-      public Builder setPreEnterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (preEnterPosBuilder_ == null) {
+      public Builder setVehiclePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (vehiclePosBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          preEnterPos_ = value;
+          vehiclePos_ = value;
           onChanged();
         } else {
-          preEnterPosBuilder_.setMessage(value);
+          vehiclePosBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.Vector pre_enter_pos = 4;</code>
+       * <code>.Vector vehicle_pos = 4;</code>
        */
-      public Builder setPreEnterPos(
+      public Builder setVehiclePos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
-        if (preEnterPosBuilder_ == null) {
-          preEnterPos_ = builderForValue.build();
+        if (vehiclePosBuilder_ == null) {
+          vehiclePos_ = builderForValue.build();
           onChanged();
         } else {
-          preEnterPosBuilder_.setMessage(builderForValue.build());
+          vehiclePosBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.Vector pre_enter_pos = 4;</code>
+       * <code>.Vector vehicle_pos = 4;</code>
        */
-      public Builder mergePreEnterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (preEnterPosBuilder_ == null) {
-          if (preEnterPos_ != null) {
-            preEnterPos_ =
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(preEnterPos_).mergeFrom(value).buildPartial();
+      public Builder mergeVehiclePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (vehiclePosBuilder_ == null) {
+          if (vehiclePos_ != null) {
+            vehiclePos_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(vehiclePos_).mergeFrom(value).buildPartial();
           } else {
-            preEnterPos_ = value;
+            vehiclePos_ = value;
           }
           onChanged();
         } else {
-          preEnterPosBuilder_.mergeFrom(value);
+          vehiclePosBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.Vector pre_enter_pos = 4;</code>
+       * <code>.Vector vehicle_pos = 4;</code>
        */
-      public Builder clearPreEnterPos() {
-        if (preEnterPosBuilder_ == null) {
-          preEnterPos_ = null;
+      public Builder clearVehiclePos() {
+        if (vehiclePosBuilder_ == null) {
+          vehiclePos_ = null;
           onChanged();
         } else {
-          preEnterPos_ = null;
-          preEnterPosBuilder_ = null;
+          vehiclePos_ = null;
+          vehiclePosBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.Vector pre_enter_pos = 4;</code>
+       * <code>.Vector vehicle_pos = 4;</code>
        */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPreEnterPosBuilder() {
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getVehiclePosBuilder() {
         
         onChanged();
-        return getPreEnterPosFieldBuilder().getBuilder();
+        return getVehiclePosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector pre_enter_pos = 4;</code>
+       * <code>.Vector vehicle_pos = 4;</code>
        */
-      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPreEnterPosOrBuilder() {
-        if (preEnterPosBuilder_ != null) {
-          return preEnterPosBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getVehiclePosOrBuilder() {
+        if (vehiclePosBuilder_ != null) {
+          return vehiclePosBuilder_.getMessageOrBuilder();
         } else {
-          return preEnterPos_ == null ?
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : preEnterPos_;
+          return vehiclePos_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : vehiclePos_;
         }
       }
       /**
-       * <code>.Vector pre_enter_pos = 4;</code>
+       * <code>.Vector vehicle_pos = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
-          getPreEnterPosFieldBuilder() {
-        if (preEnterPosBuilder_ == null) {
-          preEnterPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getVehiclePosFieldBuilder() {
+        if (vehiclePosBuilder_ == null) {
+          vehiclePosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
-                  getPreEnterPos(),
+                  getVehiclePos(),
                   getParentForChildren(),
                   isClean());
-          preEnterPos_ = null;
+          vehiclePos_ = null;
         }
-        return preEnterPosBuilder_;
+        return vehiclePosBuilder_;
       }
 
       private int vehicleType_ ;
@@ -1132,12 +1132,12 @@ public final class CurVehicleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024CurVehicleInfo.proto\032\014Vector.proto\"\231\001\n" +
-      "\016CurVehicleInfo\022\036\n\rpre_enter_rot\030\006 \001(\0132\007" +
-      ".Vector\022\036\n\rpre_enter_pos\030\004 \001(\0132\007.Vector\022" +
-      "\024\n\014vehicle_type\030\005 \001(\r\022\021\n\tentity_id\030\001 \001(\r" +
-      "\022\021\n\tgadget_id\030\003 \001(\r\022\013\n\003pos\030\002 \001(\rB\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\n\024CurVehicleInfo.proto\032\014Vector.proto\"\225\001\n" +
+      "\016CurVehicleInfo\022\034\n\013vehicle_rot\030\006 \001(\0132\007.V" +
+      "ector\022\034\n\013vehicle_pos\030\004 \001(\0132\007.Vector\022\024\n\014v" +
+      "ehicle_type\030\005 \001(\r\022\021\n\tentity_id\030\001 \001(\r\022\021\n\t" +
+      "gadget_id\030\003 \001(\r\022\013\n\003pos\030\002 \001(\rB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1149,7 +1149,7 @@ public final class CurVehicleInfoOuterClass {
     internal_static_CurVehicleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CurVehicleInfo_descriptor,
-        new java.lang.String[] { "PreEnterRot", "PreEnterPos", "VehicleType", "EntityId", "GadgetId", "Pos", });
+        new java.lang.String[] { "VehicleRot", "VehiclePos", "VehicleType", "EntityId", "GadgetId", "Pos", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

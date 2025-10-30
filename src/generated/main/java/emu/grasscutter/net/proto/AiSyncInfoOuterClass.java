@@ -19,22 +19,22 @@ public final class AiSyncInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool has_path_to_target = 10;</code>
+     * <code>uint32 entity_id = 4;</code>
+     * @return The entityId.
+     */
+    int getEntityId();
+
+    /**
+     * <code>bool has_path_to_target = 8;</code>
      * @return The hasPathToTarget.
      */
     boolean getHasPathToTarget();
 
     /**
-     * <code>bool is_self_killing = 6;</code>
-     * @return The isSelfKilling.
+     * <code>bool JMICLCPBPIO = 15;</code>
+     * @return The jMICLCPBPIO.
      */
-    boolean getIsSelfKilling();
-
-    /**
-     * <code>uint32 entity_id = 7;</code>
-     * @return The entityId.
-     */
-    int getEntityId();
+    boolean getJMICLCPBPIO();
   }
   /**
    * Protobuf type {@code AiSyncInfo}
@@ -81,19 +81,19 @@ public final class AiSyncInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
-
-              isSelfKilling_ = input.readBool();
-              break;
-            }
-            case 56: {
+            case 32: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 64: {
 
               hasPathToTarget_ = input.readBool();
+              break;
+            }
+            case 120: {
+
+              jMICLCPBPIO_ = input.readBool();
               break;
             }
             default: {
@@ -128,10 +128,21 @@ public final class AiSyncInfoOuterClass {
               emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.class, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder.class);
     }
 
-    public static final int HAS_PATH_TO_TARGET_FIELD_NUMBER = 10;
+    public static final int ENTITY_ID_FIELD_NUMBER = 4;
+    private int entityId_;
+    /**
+     * <code>uint32 entity_id = 4;</code>
+     * @return The entityId.
+     */
+    @java.lang.Override
+    public int getEntityId() {
+      return entityId_;
+    }
+
+    public static final int HAS_PATH_TO_TARGET_FIELD_NUMBER = 8;
     private boolean hasPathToTarget_;
     /**
-     * <code>bool has_path_to_target = 10;</code>
+     * <code>bool has_path_to_target = 8;</code>
      * @return The hasPathToTarget.
      */
     @java.lang.Override
@@ -139,26 +150,15 @@ public final class AiSyncInfoOuterClass {
       return hasPathToTarget_;
     }
 
-    public static final int IS_SELF_KILLING_FIELD_NUMBER = 6;
-    private boolean isSelfKilling_;
+    public static final int JMICLCPBPIO_FIELD_NUMBER = 15;
+    private boolean jMICLCPBPIO_;
     /**
-     * <code>bool is_self_killing = 6;</code>
-     * @return The isSelfKilling.
+     * <code>bool JMICLCPBPIO = 15;</code>
+     * @return The jMICLCPBPIO.
      */
     @java.lang.Override
-    public boolean getIsSelfKilling() {
-      return isSelfKilling_;
-    }
-
-    public static final int ENTITY_ID_FIELD_NUMBER = 7;
-    private int entityId_;
-    /**
-     * <code>uint32 entity_id = 7;</code>
-     * @return The entityId.
-     */
-    @java.lang.Override
-    public int getEntityId() {
-      return entityId_;
+    public boolean getJMICLCPBPIO() {
+      return jMICLCPBPIO_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -175,14 +175,14 @@ public final class AiSyncInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isSelfKilling_ != false) {
-        output.writeBool(6, isSelfKilling_);
-      }
       if (entityId_ != 0) {
-        output.writeUInt32(7, entityId_);
+        output.writeUInt32(4, entityId_);
       }
       if (hasPathToTarget_ != false) {
-        output.writeBool(10, hasPathToTarget_);
+        output.writeBool(8, hasPathToTarget_);
+      }
+      if (jMICLCPBPIO_ != false) {
+        output.writeBool(15, jMICLCPBPIO_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class AiSyncInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isSelfKilling_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isSelfKilling_);
-      }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, entityId_);
+          .computeUInt32Size(4, entityId_);
       }
       if (hasPathToTarget_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, hasPathToTarget_);
+          .computeBoolSize(8, hasPathToTarget_);
+      }
+      if (jMICLCPBPIO_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(15, jMICLCPBPIO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -220,12 +220,12 @@ public final class AiSyncInfoOuterClass {
       }
       emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo other = (emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo) obj;
 
-      if (getHasPathToTarget()
-          != other.getHasPathToTarget()) return false;
-      if (getIsSelfKilling()
-          != other.getIsSelfKilling()) return false;
       if (getEntityId()
           != other.getEntityId()) return false;
+      if (getHasPathToTarget()
+          != other.getHasPathToTarget()) return false;
+      if (getJMICLCPBPIO()
+          != other.getJMICLCPBPIO()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -237,14 +237,14 @@ public final class AiSyncInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getEntityId();
       hash = (37 * hash) + HAS_PATH_TO_TARGET_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getHasPathToTarget());
-      hash = (37 * hash) + IS_SELF_KILLING_FIELD_NUMBER;
+      hash = (37 * hash) + JMICLCPBPIO_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsSelfKilling());
-      hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getEntityId();
+          getJMICLCPBPIO());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -378,11 +378,11 @@ public final class AiSyncInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        entityId_ = 0;
+
         hasPathToTarget_ = false;
 
-        isSelfKilling_ = false;
-
-        entityId_ = 0;
+        jMICLCPBPIO_ = false;
 
         return this;
       }
@@ -410,9 +410,9 @@ public final class AiSyncInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo buildPartial() {
         emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo result = new emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo(this);
-        result.hasPathToTarget_ = hasPathToTarget_;
-        result.isSelfKilling_ = isSelfKilling_;
         result.entityId_ = entityId_;
+        result.hasPathToTarget_ = hasPathToTarget_;
+        result.jMICLCPBPIO_ = jMICLCPBPIO_;
         onBuilt();
         return result;
       }
@@ -461,14 +461,14 @@ public final class AiSyncInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo other) {
         if (other == emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.getDefaultInstance()) return this;
+        if (other.getEntityId() != 0) {
+          setEntityId(other.getEntityId());
+        }
         if (other.getHasPathToTarget() != false) {
           setHasPathToTarget(other.getHasPathToTarget());
         }
-        if (other.getIsSelfKilling() != false) {
-          setIsSelfKilling(other.getIsSelfKilling());
-        }
-        if (other.getEntityId() != 0) {
-          setEntityId(other.getEntityId());
+        if (other.getJMICLCPBPIO() != false) {
+          setJMICLCPBPIO(other.getJMICLCPBPIO());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -499,71 +499,9 @@ public final class AiSyncInfoOuterClass {
         return this;
       }
 
-      private boolean hasPathToTarget_ ;
-      /**
-       * <code>bool has_path_to_target = 10;</code>
-       * @return The hasPathToTarget.
-       */
-      @java.lang.Override
-      public boolean getHasPathToTarget() {
-        return hasPathToTarget_;
-      }
-      /**
-       * <code>bool has_path_to_target = 10;</code>
-       * @param value The hasPathToTarget to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHasPathToTarget(boolean value) {
-        
-        hasPathToTarget_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool has_path_to_target = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHasPathToTarget() {
-        
-        hasPathToTarget_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean isSelfKilling_ ;
-      /**
-       * <code>bool is_self_killing = 6;</code>
-       * @return The isSelfKilling.
-       */
-      @java.lang.Override
-      public boolean getIsSelfKilling() {
-        return isSelfKilling_;
-      }
-      /**
-       * <code>bool is_self_killing = 6;</code>
-       * @param value The isSelfKilling to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsSelfKilling(boolean value) {
-        
-        isSelfKilling_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_self_killing = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsSelfKilling() {
-        
-        isSelfKilling_ = false;
-        onChanged();
-        return this;
-      }
-
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 7;</code>
+       * <code>uint32 entity_id = 4;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -571,7 +509,7 @@ public final class AiSyncInfoOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 7;</code>
+       * <code>uint32 entity_id = 4;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -582,12 +520,74 @@ public final class AiSyncInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 entity_id = 7;</code>
+       * <code>uint32 entity_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
         
         entityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean hasPathToTarget_ ;
+      /**
+       * <code>bool has_path_to_target = 8;</code>
+       * @return The hasPathToTarget.
+       */
+      @java.lang.Override
+      public boolean getHasPathToTarget() {
+        return hasPathToTarget_;
+      }
+      /**
+       * <code>bool has_path_to_target = 8;</code>
+       * @param value The hasPathToTarget to set.
+       * @return This builder for chaining.
+       */
+      public Builder setHasPathToTarget(boolean value) {
+        
+        hasPathToTarget_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool has_path_to_target = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearHasPathToTarget() {
+        
+        hasPathToTarget_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean jMICLCPBPIO_ ;
+      /**
+       * <code>bool JMICLCPBPIO = 15;</code>
+       * @return The jMICLCPBPIO.
+       */
+      @java.lang.Override
+      public boolean getJMICLCPBPIO() {
+        return jMICLCPBPIO_;
+      }
+      /**
+       * <code>bool JMICLCPBPIO = 15;</code>
+       * @param value The jMICLCPBPIO to set.
+       * @return This builder for chaining.
+       */
+      public Builder setJMICLCPBPIO(boolean value) {
+        
+        jMICLCPBPIO_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool JMICLCPBPIO = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearJMICLCPBPIO() {
+        
+        jMICLCPBPIO_ = false;
         onChanged();
         return this;
       }
@@ -658,10 +658,10 @@ public final class AiSyncInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020AiSyncInfo.proto\"T\n\nAiSyncInfo\022\032\n\022has_" +
-      "path_to_target\030\n \001(\010\022\027\n\017is_self_killing\030" +
-      "\006 \001(\010\022\021\n\tentity_id\030\007 \001(\rB\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\n\020AiSyncInfo.proto\"P\n\nAiSyncInfo\022\021\n\tenti" +
+      "ty_id\030\004 \001(\r\022\032\n\022has_path_to_target\030\010 \001(\010\022" +
+      "\023\n\013JMICLCPBPIO\030\017 \001(\010B\033\n\031emu.grasscutter." +
+      "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -672,7 +672,7 @@ public final class AiSyncInfoOuterClass {
     internal_static_AiSyncInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AiSyncInfo_descriptor,
-        new java.lang.String[] { "HasPathToTarget", "IsSelfKilling", "EntityId", });
+        new java.lang.String[] { "EntityId", "HasPathToTarget", "JMICLCPBPIO", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

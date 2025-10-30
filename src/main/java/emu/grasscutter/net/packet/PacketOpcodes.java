@@ -255,27 +255,27 @@ public final class PacketOpcodes {
     public static final int BossChestActivateNotify = 1249;
     
     // Scene Entities
-    public static final int EvtAiSyncCombatThreatInfoNotify = 1;
-    public static final int EvtEntityRenderersChangedNotify = 1;
-    public static final int EvtAiSyncSkillCdNotify = 1;
-	public static final int EntityForceSyncReq = 1;
-	public static final int EntityForceSyncRsp = 1;
-	public static final int EntityJumpNotify = 1;
-	public static final int EntityPropNotify = 1;
-	public static final int EntityTagChangeNotify = 1;
-    public static final int EntityAiSyncNotify = 1;
-    public static final int MassiveEntityElementOpBatchNotify = 1;
-	public static final int VehicleInteractReq = 1; 
-	public static final int VehicleInteractRsp = 1; 
-	public static final int VehicleStaminaNotify = 1; 
-    public static final int VehiclePhlogistonPointsNotify = 1; 
-    public static final int ClientAIStateNotify = 1;
-	public static final int NpcTalkReq = 1; 
-	public static final int NpcTalkRsp = 1; 
-	public static final int SeeMonsterReq = 1;
+    public static final int EvtAiSyncCombatThreatInfoNotify = 6689;
+    public static final int EvtEntityRenderersChangedNotify = 29422;
+    public static final int EvtAiSyncSkillCdNotify = 2237;
+	public static final int EntityForceSyncReq = 8517;
+	public static final int EntityForceSyncRsp = 2581;
+	public static final int EntityJumpNotify = 20474;
+	public static final int EntityPropNotify = 29956;
+	public static final int EntityTagChangeNotify = 29692;
+    public static final int EntityAiSyncNotify = 6225;
+    public static final int MassiveEntityElementOpBatchNotify = 7323;
+	public static final int VehicleInteractReq = 24184;
+	public static final int VehicleInteractRsp = 22190;
+	public static final int VehicleStaminaNotify = 1705;
+    public static final int VehiclePhlogistonPointsNotify = 8373;
+    public static final int ClientAIStateNotify = 21994;
+	public static final int NpcTalkReq = 25460;
+	public static final int NpcTalkRsp = 5891;
+	public static final int SeeMonsterReq = 20978;
     public static final int SeeMonsterRsp = 1;
-    public static final int ObstacleModifyNotify = 1;
-    public static final int EntityAuthorityChangeNotify = 1;
+    public static final int ObstacleModifyNotify = 2329;
+    public static final int EntityAuthorityChangeNotify = 28433;
 
     // Scene Gadgets
 	public static final int ExecuteGadgetLuaReq = 1;
