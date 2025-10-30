@@ -43,6 +43,18 @@ public final class ResinCostTypeOuterClass {
      * <code>RESIN_COST_TYPE_MATERIAL = 5;</code>
      */
     RESIN_COST_TYPE_MATERIAL(5),
+    /**
+     * <code>RESIN_COST_TYPE_FRAGILE = 6;</code>
+     */
+    RESIN_COST_TYPE_FRAGILE(6),
+    /**
+     * <code>RESIN_COST_TYPE_TIMING = 7;</code>
+     */
+    RESIN_COST_TYPE_TIMING(7),
+    /**
+     * <code>RESIN_COST_TYPE_HCOIN = 8;</code>
+     */
+    RESIN_COST_TYPE_HCOIN(8),
     UNRECOGNIZED(-1),
     ;
 
@@ -70,6 +82,18 @@ public final class ResinCostTypeOuterClass {
      * <code>RESIN_COST_TYPE_MATERIAL = 5;</code>
      */
     public static final int RESIN_COST_TYPE_MATERIAL_VALUE = 5;
+    /**
+     * <code>RESIN_COST_TYPE_FRAGILE = 6;</code>
+     */
+    public static final int RESIN_COST_TYPE_FRAGILE_VALUE = 6;
+    /**
+     * <code>RESIN_COST_TYPE_TIMING = 7;</code>
+     */
+    public static final int RESIN_COST_TYPE_TIMING_VALUE = 7;
+    /**
+     * <code>RESIN_COST_TYPE_HCOIN = 8;</code>
+     */
+    public static final int RESIN_COST_TYPE_HCOIN_VALUE = 8;
 
 
     public final int getNumber() {
@@ -102,6 +126,9 @@ public final class ResinCostTypeOuterClass {
         case 3: return RESIN_COST_TYPE_REUNION_PRIVILEGE;
         case 4: return RESIN_COST_TYPE_OP_ACTIVITY;
         case 5: return RESIN_COST_TYPE_MATERIAL;
+        case 6: return RESIN_COST_TYPE_FRAGILE;
+        case 7: return RESIN_COST_TYPE_TIMING;
+        case 8: return RESIN_COST_TYPE_HCOIN;
         default: return null;
       }
     }
@@ -167,13 +194,15 @@ public final class ResinCostTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023ResinCostType.proto*\311\001\n\rResinCostType\022" +
+      "\n\023ResinCostType.proto*\235\002\n\rResinCostType\022" +
       "\030\n\024RESIN_COST_TYPE_NONE\020\000\022\032\n\026RESIN_COST_" +
       "TYPE_NORMAL\020\001\022\034\n\030RESIN_COST_TYPE_CONDENS" +
       "E\020\002\022%\n!RESIN_COST_TYPE_REUNION_PRIVILEGE" +
       "\020\003\022\037\n\033RESIN_COST_TYPE_OP_ACTIVITY\020\004\022\034\n\030R" +
-      "ESIN_COST_TYPE_MATERIAL\020\005B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "ESIN_COST_TYPE_MATERIAL\020\005\022\033\n\027RESIN_COST_" +
+      "TYPE_FRAGILE\020\006\022\032\n\026RESIN_COST_TYPE_TIMING" +
+      "\020\007\022\031\n\025RESIN_COST_TYPE_HCOIN\020\010B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

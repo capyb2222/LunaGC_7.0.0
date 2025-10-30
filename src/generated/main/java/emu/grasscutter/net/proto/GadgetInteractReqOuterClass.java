@@ -19,68 +19,88 @@ public final class GadgetInteractReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.InterOpType op_type = 12;</code>
-     * @return The enum numeric value on the wire for opType.
+     * <code>.ResinCostType resin_cost_type = 2;</code>
+     * @return The enum numeric value on the wire for resinCostType.
      */
-    int getOpTypeValue();
+    int getResinCostTypeValue();
     /**
-     * <code>.InterOpType op_type = 12;</code>
-     * @return The opType.
+     * <code>.ResinCostType resin_cost_type = 2;</code>
+     * @return The resinCostType.
      */
-    emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType();
+    emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType getResinCostType();
 
     /**
-     * <code>uint32 gadget_id = 4;</code>
+     * <code>uint32 gadget_id = 3;</code>
      * @return The gadgetId.
      */
     int getGadgetId();
 
     /**
-     * <code>uint32 gadget_entity_id = 11;</code>
+     * <code>.InterOpType op_type = 13;</code>
+     * @return The enum numeric value on the wire for opType.
+     */
+    int getOpTypeValue();
+    /**
+     * <code>.InterOpType op_type = 13;</code>
+     * @return The opType.
+     */
+    emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType();
+
+    /**
+     * <code>uint32 EMGMMBLGFBF = 4;</code>
+     * @return The eMGMMBLGFBF.
+     */
+    int getEMGMMBLGFBF();
+
+    /**
+     * <code>uint32 PMDPNLJAFJG = 5;</code>
+     * @return The pMDPNLJAFJG.
+     */
+    int getPMDPNLJAFJG();
+
+    /**
+     * <code>bool ACJFOKDKMNE = 9;</code>
+     * @return The aCJFOKDKMNE.
+     */
+    boolean getACJFOKDKMNE();
+
+    /**
+     * <code>bool is_use_condense_resin = 10;</code>
+     * @return The isUseCondenseResin.
+     */
+    boolean getIsUseCondenseResin();
+
+    /**
+     * <code>bool ACFOLALHCNO = 14;</code>
+     * @return The aCFOLALHCNO.
+     */
+    boolean getACFOLALHCNO();
+
+    /**
+     * <code>bool KGIODNAGDCI = 12;</code>
+     * @return The kGIODNAGDCI.
+     */
+    boolean getKGIODNAGDCI();
+
+    /**
+     * <code>uint32 gadget_entity_id = 8;</code>
      * @return The gadgetEntityId.
      */
     int getGadgetEntityId();
 
     /**
      * <pre>
-     * dk
+     * ?
      * </pre>
      *
-     * <code>bool is_use_condense_resin = 9;</code>
-     * @return The isUseCondenseResin.
-     */
-    boolean getIsUseCondenseResin();
-
-    /**
-     * <code>.ResinCostType resin_cost_type = 7;</code>
-     * @return The enum numeric value on the wire for resinCostType.
-     */
-    int getResinCostTypeValue();
-    /**
-     * <code>.ResinCostType resin_cost_type = 7;</code>
-     * @return The resinCostType.
-     */
-    emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType getResinCostType();
-
-    /**
-     * <pre>
-     * dk
-     * </pre>
-     *
-     * <code>uint32 ui_interact_id = 5;</code>
+     * <code>uint32 ui_interact_id = 7;</code>
      * @return The uiInteractId.
      */
     int getUiInteractId();
-
-    /**
-     * <code>uint32 JOHEMFBCEEG = 14;</code>
-     * @return The jOHEMFBCEEG.
-     */
-    int getJOHEMFBCEEG();
   }
   /**
    * <pre>
-   * CmdId: 27227
+   * CmdId: 29784
    * </pre>
    *
    * Protobuf type {@code GadgetInteractReq}
@@ -95,8 +115,8 @@ public final class GadgetInteractReqOuterClass {
       super(builder);
     }
     private GadgetInteractReq() {
-      opType_ = 0;
       resinCostType_ = 0;
+      opType_ = 0;
     }
 
     @java.lang.Override
@@ -129,33 +149,53 @@ public final class GadgetInteractReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              gadgetId_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              uiInteractId_ = input.readUInt32();
-              break;
-            }
-            case 56: {
+            case 16: {
               int rawValue = input.readEnum();
 
               resinCostType_ = rawValue;
               break;
             }
-            case 72: {
+            case 24: {
 
-              isUseCondenseResin_ = input.readBool();
+              gadgetId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 32: {
+
+              eMGMMBLGFBF_ = input.readUInt32();
+              break;
+            }
+            case 40: {
+
+              pMDPNLJAFJG_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              uiInteractId_ = input.readUInt32();
+              break;
+            }
+            case 64: {
 
               gadgetEntityId_ = input.readUInt32();
               break;
             }
+            case 72: {
+
+              aCJFOKDKMNE_ = input.readBool();
+              break;
+            }
+            case 80: {
+
+              isUseCondenseResin_ = input.readBool();
+              break;
+            }
             case 96: {
+
+              kGIODNAGDCI_ = input.readBool();
+              break;
+            }
+            case 104: {
               int rawValue = input.readEnum();
 
               opType_ = rawValue;
@@ -163,7 +203,7 @@ public final class GadgetInteractReqOuterClass {
             }
             case 112: {
 
-              jOHEMFBCEEG_ = input.readUInt32();
+              aCFOLALHCNO_ = input.readBool();
               break;
             }
             default: {
@@ -198,73 +238,17 @@ public final class GadgetInteractReqOuterClass {
               emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq.class, emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq.Builder.class);
     }
 
-    public static final int OP_TYPE_FIELD_NUMBER = 12;
-    private int opType_;
-    /**
-     * <code>.InterOpType op_type = 12;</code>
-     * @return The enum numeric value on the wire for opType.
-     */
-    @java.lang.Override public int getOpTypeValue() {
-      return opType_;
-    }
-    /**
-     * <code>.InterOpType op_type = 12;</code>
-     * @return The opType.
-     */
-    @java.lang.Override public emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType() {
-      @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType result = emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.valueOf(opType_);
-      return result == null ? emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.UNRECOGNIZED : result;
-    }
-
-    public static final int GADGET_ID_FIELD_NUMBER = 4;
-    private int gadgetId_;
-    /**
-     * <code>uint32 gadget_id = 4;</code>
-     * @return The gadgetId.
-     */
-    @java.lang.Override
-    public int getGadgetId() {
-      return gadgetId_;
-    }
-
-    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 11;
-    private int gadgetEntityId_;
-    /**
-     * <code>uint32 gadget_entity_id = 11;</code>
-     * @return The gadgetEntityId.
-     */
-    @java.lang.Override
-    public int getGadgetEntityId() {
-      return gadgetEntityId_;
-    }
-
-    public static final int IS_USE_CONDENSE_RESIN_FIELD_NUMBER = 9;
-    private boolean isUseCondenseResin_;
-    /**
-     * <pre>
-     * dk
-     * </pre>
-     *
-     * <code>bool is_use_condense_resin = 9;</code>
-     * @return The isUseCondenseResin.
-     */
-    @java.lang.Override
-    public boolean getIsUseCondenseResin() {
-      return isUseCondenseResin_;
-    }
-
-    public static final int RESIN_COST_TYPE_FIELD_NUMBER = 7;
+    public static final int RESIN_COST_TYPE_FIELD_NUMBER = 2;
     private int resinCostType_;
     /**
-     * <code>.ResinCostType resin_cost_type = 7;</code>
+     * <code>.ResinCostType resin_cost_type = 2;</code>
      * @return The enum numeric value on the wire for resinCostType.
      */
     @java.lang.Override public int getResinCostTypeValue() {
       return resinCostType_;
     }
     /**
-     * <code>.ResinCostType resin_cost_type = 7;</code>
+     * <code>.ResinCostType resin_cost_type = 2;</code>
      * @return The resinCostType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType getResinCostType() {
@@ -273,30 +257,126 @@ public final class GadgetInteractReqOuterClass {
       return result == null ? emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.UNRECOGNIZED : result;
     }
 
-    public static final int UI_INTERACT_ID_FIELD_NUMBER = 5;
+    public static final int GADGET_ID_FIELD_NUMBER = 3;
+    private int gadgetId_;
+    /**
+     * <code>uint32 gadget_id = 3;</code>
+     * @return The gadgetId.
+     */
+    @java.lang.Override
+    public int getGadgetId() {
+      return gadgetId_;
+    }
+
+    public static final int OP_TYPE_FIELD_NUMBER = 13;
+    private int opType_;
+    /**
+     * <code>.InterOpType op_type = 13;</code>
+     * @return The enum numeric value on the wire for opType.
+     */
+    @java.lang.Override public int getOpTypeValue() {
+      return opType_;
+    }
+    /**
+     * <code>.InterOpType op_type = 13;</code>
+     * @return The opType.
+     */
+    @java.lang.Override public emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType() {
+      @SuppressWarnings("deprecation")
+      emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType result = emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.valueOf(opType_);
+      return result == null ? emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.UNRECOGNIZED : result;
+    }
+
+    public static final int EMGMMBLGFBF_FIELD_NUMBER = 4;
+    private int eMGMMBLGFBF_;
+    /**
+     * <code>uint32 EMGMMBLGFBF = 4;</code>
+     * @return The eMGMMBLGFBF.
+     */
+    @java.lang.Override
+    public int getEMGMMBLGFBF() {
+      return eMGMMBLGFBF_;
+    }
+
+    public static final int PMDPNLJAFJG_FIELD_NUMBER = 5;
+    private int pMDPNLJAFJG_;
+    /**
+     * <code>uint32 PMDPNLJAFJG = 5;</code>
+     * @return The pMDPNLJAFJG.
+     */
+    @java.lang.Override
+    public int getPMDPNLJAFJG() {
+      return pMDPNLJAFJG_;
+    }
+
+    public static final int ACJFOKDKMNE_FIELD_NUMBER = 9;
+    private boolean aCJFOKDKMNE_;
+    /**
+     * <code>bool ACJFOKDKMNE = 9;</code>
+     * @return The aCJFOKDKMNE.
+     */
+    @java.lang.Override
+    public boolean getACJFOKDKMNE() {
+      return aCJFOKDKMNE_;
+    }
+
+    public static final int IS_USE_CONDENSE_RESIN_FIELD_NUMBER = 10;
+    private boolean isUseCondenseResin_;
+    /**
+     * <code>bool is_use_condense_resin = 10;</code>
+     * @return The isUseCondenseResin.
+     */
+    @java.lang.Override
+    public boolean getIsUseCondenseResin() {
+      return isUseCondenseResin_;
+    }
+
+    public static final int ACFOLALHCNO_FIELD_NUMBER = 14;
+    private boolean aCFOLALHCNO_;
+    /**
+     * <code>bool ACFOLALHCNO = 14;</code>
+     * @return The aCFOLALHCNO.
+     */
+    @java.lang.Override
+    public boolean getACFOLALHCNO() {
+      return aCFOLALHCNO_;
+    }
+
+    public static final int KGIODNAGDCI_FIELD_NUMBER = 12;
+    private boolean kGIODNAGDCI_;
+    /**
+     * <code>bool KGIODNAGDCI = 12;</code>
+     * @return The kGIODNAGDCI.
+     */
+    @java.lang.Override
+    public boolean getKGIODNAGDCI() {
+      return kGIODNAGDCI_;
+    }
+
+    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 8;
+    private int gadgetEntityId_;
+    /**
+     * <code>uint32 gadget_entity_id = 8;</code>
+     * @return The gadgetEntityId.
+     */
+    @java.lang.Override
+    public int getGadgetEntityId() {
+      return gadgetEntityId_;
+    }
+
+    public static final int UI_INTERACT_ID_FIELD_NUMBER = 7;
     private int uiInteractId_;
     /**
      * <pre>
-     * dk
+     * ?
      * </pre>
      *
-     * <code>uint32 ui_interact_id = 5;</code>
+     * <code>uint32 ui_interact_id = 7;</code>
      * @return The uiInteractId.
      */
     @java.lang.Override
     public int getUiInteractId() {
       return uiInteractId_;
-    }
-
-    public static final int JOHEMFBCEEG_FIELD_NUMBER = 14;
-    private int jOHEMFBCEEG_;
-    /**
-     * <code>uint32 JOHEMFBCEEG = 14;</code>
-     * @return The jOHEMFBCEEG.
-     */
-    @java.lang.Override
-    public int getJOHEMFBCEEG() {
-      return jOHEMFBCEEG_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -313,26 +393,38 @@ public final class GadgetInteractReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (resinCostType_ != emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.RESIN_COST_TYPE_NONE.getNumber()) {
+        output.writeEnum(2, resinCostType_);
+      }
       if (gadgetId_ != 0) {
-        output.writeUInt32(4, gadgetId_);
+        output.writeUInt32(3, gadgetId_);
+      }
+      if (eMGMMBLGFBF_ != 0) {
+        output.writeUInt32(4, eMGMMBLGFBF_);
+      }
+      if (pMDPNLJAFJG_ != 0) {
+        output.writeUInt32(5, pMDPNLJAFJG_);
       }
       if (uiInteractId_ != 0) {
-        output.writeUInt32(5, uiInteractId_);
-      }
-      if (resinCostType_ != emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.RESIN_COST_TYPE_NONE.getNumber()) {
-        output.writeEnum(7, resinCostType_);
-      }
-      if (isUseCondenseResin_ != false) {
-        output.writeBool(9, isUseCondenseResin_);
+        output.writeUInt32(7, uiInteractId_);
       }
       if (gadgetEntityId_ != 0) {
-        output.writeUInt32(11, gadgetEntityId_);
+        output.writeUInt32(8, gadgetEntityId_);
+      }
+      if (aCJFOKDKMNE_ != false) {
+        output.writeBool(9, aCJFOKDKMNE_);
+      }
+      if (isUseCondenseResin_ != false) {
+        output.writeBool(10, isUseCondenseResin_);
+      }
+      if (kGIODNAGDCI_ != false) {
+        output.writeBool(12, kGIODNAGDCI_);
       }
       if (opType_ != emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.INTER_OP_TYPE_FINISH.getNumber()) {
-        output.writeEnum(12, opType_);
+        output.writeEnum(13, opType_);
       }
-      if (jOHEMFBCEEG_ != 0) {
-        output.writeUInt32(14, jOHEMFBCEEG_);
+      if (aCFOLALHCNO_ != false) {
+        output.writeBool(14, aCFOLALHCNO_);
       }
       unknownFields.writeTo(output);
     }
@@ -343,33 +435,49 @@ public final class GadgetInteractReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (resinCostType_ != emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.RESIN_COST_TYPE_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(2, resinCostType_);
+      }
       if (gadgetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, gadgetId_);
+          .computeUInt32Size(3, gadgetId_);
+      }
+      if (eMGMMBLGFBF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, eMGMMBLGFBF_);
+      }
+      if (pMDPNLJAFJG_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, pMDPNLJAFJG_);
       }
       if (uiInteractId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, uiInteractId_);
-      }
-      if (resinCostType_ != emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.RESIN_COST_TYPE_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(7, resinCostType_);
-      }
-      if (isUseCondenseResin_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isUseCondenseResin_);
+          .computeUInt32Size(7, uiInteractId_);
       }
       if (gadgetEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, gadgetEntityId_);
+          .computeUInt32Size(8, gadgetEntityId_);
+      }
+      if (aCJFOKDKMNE_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, aCJFOKDKMNE_);
+      }
+      if (isUseCondenseResin_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(10, isUseCondenseResin_);
+      }
+      if (kGIODNAGDCI_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(12, kGIODNAGDCI_);
       }
       if (opType_ != emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.INTER_OP_TYPE_FINISH.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(12, opType_);
+          .computeEnumSize(13, opType_);
       }
-      if (jOHEMFBCEEG_ != 0) {
+      if (aCFOLALHCNO_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, jOHEMFBCEEG_);
+          .computeBoolSize(14, aCFOLALHCNO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -386,18 +494,26 @@ public final class GadgetInteractReqOuterClass {
       }
       emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq other = (emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq) obj;
 
-      if (opType_ != other.opType_) return false;
+      if (resinCostType_ != other.resinCostType_) return false;
       if (getGadgetId()
           != other.getGadgetId()) return false;
-      if (getGadgetEntityId()
-          != other.getGadgetEntityId()) return false;
+      if (opType_ != other.opType_) return false;
+      if (getEMGMMBLGFBF()
+          != other.getEMGMMBLGFBF()) return false;
+      if (getPMDPNLJAFJG()
+          != other.getPMDPNLJAFJG()) return false;
+      if (getACJFOKDKMNE()
+          != other.getACJFOKDKMNE()) return false;
       if (getIsUseCondenseResin()
           != other.getIsUseCondenseResin()) return false;
-      if (resinCostType_ != other.resinCostType_) return false;
+      if (getACFOLALHCNO()
+          != other.getACFOLALHCNO()) return false;
+      if (getKGIODNAGDCI()
+          != other.getKGIODNAGDCI()) return false;
+      if (getGadgetEntityId()
+          != other.getGadgetEntityId()) return false;
       if (getUiInteractId()
           != other.getUiInteractId()) return false;
-      if (getJOHEMFBCEEG()
-          != other.getJOHEMFBCEEG()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -409,21 +525,32 @@ public final class GadgetInteractReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + OP_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + opType_;
+      hash = (37 * hash) + RESIN_COST_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + resinCostType_;
       hash = (37 * hash) + GADGET_ID_FIELD_NUMBER;
       hash = (53 * hash) + getGadgetId();
-      hash = (37 * hash) + GADGET_ENTITY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getGadgetEntityId();
+      hash = (37 * hash) + OP_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + opType_;
+      hash = (37 * hash) + EMGMMBLGFBF_FIELD_NUMBER;
+      hash = (53 * hash) + getEMGMMBLGFBF();
+      hash = (37 * hash) + PMDPNLJAFJG_FIELD_NUMBER;
+      hash = (53 * hash) + getPMDPNLJAFJG();
+      hash = (37 * hash) + ACJFOKDKMNE_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getACJFOKDKMNE());
       hash = (37 * hash) + IS_USE_CONDENSE_RESIN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsUseCondenseResin());
-      hash = (37 * hash) + RESIN_COST_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + resinCostType_;
+      hash = (37 * hash) + ACFOLALHCNO_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getACFOLALHCNO());
+      hash = (37 * hash) + KGIODNAGDCI_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getKGIODNAGDCI());
+      hash = (37 * hash) + GADGET_ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getGadgetEntityId();
       hash = (37 * hash) + UI_INTERACT_ID_FIELD_NUMBER;
       hash = (53 * hash) + getUiInteractId();
-      hash = (37 * hash) + JOHEMFBCEEG_FIELD_NUMBER;
-      hash = (53 * hash) + getJOHEMFBCEEG();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -521,7 +648,7 @@ public final class GadgetInteractReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 27227
+     * CmdId: 29784
      * </pre>
      *
      * Protobuf type {@code GadgetInteractReq}
@@ -561,19 +688,27 @@ public final class GadgetInteractReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        opType_ = 0;
+        resinCostType_ = 0;
 
         gadgetId_ = 0;
 
-        gadgetEntityId_ = 0;
+        opType_ = 0;
+
+        eMGMMBLGFBF_ = 0;
+
+        pMDPNLJAFJG_ = 0;
+
+        aCJFOKDKMNE_ = false;
 
         isUseCondenseResin_ = false;
 
-        resinCostType_ = 0;
+        aCFOLALHCNO_ = false;
+
+        kGIODNAGDCI_ = false;
+
+        gadgetEntityId_ = 0;
 
         uiInteractId_ = 0;
-
-        jOHEMFBCEEG_ = 0;
 
         return this;
       }
@@ -601,13 +736,17 @@ public final class GadgetInteractReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq buildPartial() {
         emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq result = new emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq(this);
-        result.opType_ = opType_;
-        result.gadgetId_ = gadgetId_;
-        result.gadgetEntityId_ = gadgetEntityId_;
-        result.isUseCondenseResin_ = isUseCondenseResin_;
         result.resinCostType_ = resinCostType_;
+        result.gadgetId_ = gadgetId_;
+        result.opType_ = opType_;
+        result.eMGMMBLGFBF_ = eMGMMBLGFBF_;
+        result.pMDPNLJAFJG_ = pMDPNLJAFJG_;
+        result.aCJFOKDKMNE_ = aCJFOKDKMNE_;
+        result.isUseCondenseResin_ = isUseCondenseResin_;
+        result.aCFOLALHCNO_ = aCFOLALHCNO_;
+        result.kGIODNAGDCI_ = kGIODNAGDCI_;
+        result.gadgetEntityId_ = gadgetEntityId_;
         result.uiInteractId_ = uiInteractId_;
-        result.jOHEMFBCEEG_ = jOHEMFBCEEG_;
         onBuilt();
         return result;
       }
@@ -656,26 +795,38 @@ public final class GadgetInteractReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq other) {
         if (other == emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq.getDefaultInstance()) return this;
-        if (other.opType_ != 0) {
-          setOpTypeValue(other.getOpTypeValue());
+        if (other.resinCostType_ != 0) {
+          setResinCostTypeValue(other.getResinCostTypeValue());
         }
         if (other.getGadgetId() != 0) {
           setGadgetId(other.getGadgetId());
         }
-        if (other.getGadgetEntityId() != 0) {
-          setGadgetEntityId(other.getGadgetEntityId());
+        if (other.opType_ != 0) {
+          setOpTypeValue(other.getOpTypeValue());
+        }
+        if (other.getEMGMMBLGFBF() != 0) {
+          setEMGMMBLGFBF(other.getEMGMMBLGFBF());
+        }
+        if (other.getPMDPNLJAFJG() != 0) {
+          setPMDPNLJAFJG(other.getPMDPNLJAFJG());
+        }
+        if (other.getACJFOKDKMNE() != false) {
+          setACJFOKDKMNE(other.getACJFOKDKMNE());
         }
         if (other.getIsUseCondenseResin() != false) {
           setIsUseCondenseResin(other.getIsUseCondenseResin());
         }
-        if (other.resinCostType_ != 0) {
-          setResinCostTypeValue(other.getResinCostTypeValue());
+        if (other.getACFOLALHCNO() != false) {
+          setACFOLALHCNO(other.getACFOLALHCNO());
+        }
+        if (other.getKGIODNAGDCI() != false) {
+          setKGIODNAGDCI(other.getKGIODNAGDCI());
+        }
+        if (other.getGadgetEntityId() != 0) {
+          setGadgetEntityId(other.getGadgetEntityId());
         }
         if (other.getUiInteractId() != 0) {
           setUiInteractId(other.getUiInteractId());
-        }
-        if (other.getJOHEMFBCEEG() != 0) {
-          setJOHEMFBCEEG(other.getJOHEMFBCEEG());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -706,175 +857,16 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
 
-      private int opType_ = 0;
-      /**
-       * <code>.InterOpType op_type = 12;</code>
-       * @return The enum numeric value on the wire for opType.
-       */
-      @java.lang.Override public int getOpTypeValue() {
-        return opType_;
-      }
-      /**
-       * <code>.InterOpType op_type = 12;</code>
-       * @param value The enum numeric value on the wire for opType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOpTypeValue(int value) {
-        
-        opType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>.InterOpType op_type = 12;</code>
-       * @return The opType.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType() {
-        @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType result = emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.valueOf(opType_);
-        return result == null ? emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.UNRECOGNIZED : result;
-      }
-      /**
-       * <code>.InterOpType op_type = 12;</code>
-       * @param value The opType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOpType(emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        
-        opType_ = value.getNumber();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>.InterOpType op_type = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOpType() {
-        
-        opType_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int gadgetId_ ;
-      /**
-       * <code>uint32 gadget_id = 4;</code>
-       * @return The gadgetId.
-       */
-      @java.lang.Override
-      public int getGadgetId() {
-        return gadgetId_;
-      }
-      /**
-       * <code>uint32 gadget_id = 4;</code>
-       * @param value The gadgetId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGadgetId(int value) {
-        
-        gadgetId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 gadget_id = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGadgetId() {
-        
-        gadgetId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int gadgetEntityId_ ;
-      /**
-       * <code>uint32 gadget_entity_id = 11;</code>
-       * @return The gadgetEntityId.
-       */
-      @java.lang.Override
-      public int getGadgetEntityId() {
-        return gadgetEntityId_;
-      }
-      /**
-       * <code>uint32 gadget_entity_id = 11;</code>
-       * @param value The gadgetEntityId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGadgetEntityId(int value) {
-        
-        gadgetEntityId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 gadget_entity_id = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGadgetEntityId() {
-        
-        gadgetEntityId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean isUseCondenseResin_ ;
-      /**
-       * <pre>
-       * dk
-       * </pre>
-       *
-       * <code>bool is_use_condense_resin = 9;</code>
-       * @return The isUseCondenseResin.
-       */
-      @java.lang.Override
-      public boolean getIsUseCondenseResin() {
-        return isUseCondenseResin_;
-      }
-      /**
-       * <pre>
-       * dk
-       * </pre>
-       *
-       * <code>bool is_use_condense_resin = 9;</code>
-       * @param value The isUseCondenseResin to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsUseCondenseResin(boolean value) {
-        
-        isUseCondenseResin_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <pre>
-       * dk
-       * </pre>
-       *
-       * <code>bool is_use_condense_resin = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsUseCondenseResin() {
-        
-        isUseCondenseResin_ = false;
-        onChanged();
-        return this;
-      }
-
       private int resinCostType_ = 0;
       /**
-       * <code>.ResinCostType resin_cost_type = 7;</code>
+       * <code>.ResinCostType resin_cost_type = 2;</code>
        * @return The enum numeric value on the wire for resinCostType.
        */
       @java.lang.Override public int getResinCostTypeValue() {
         return resinCostType_;
       }
       /**
-       * <code>.ResinCostType resin_cost_type = 7;</code>
+       * <code>.ResinCostType resin_cost_type = 2;</code>
        * @param value The enum numeric value on the wire for resinCostType to set.
        * @return This builder for chaining.
        */
@@ -885,7 +877,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>.ResinCostType resin_cost_type = 7;</code>
+       * <code>.ResinCostType resin_cost_type = 2;</code>
        * @return The resinCostType.
        */
       @java.lang.Override
@@ -895,7 +887,7 @@ public final class GadgetInteractReqOuterClass {
         return result == null ? emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.ResinCostType resin_cost_type = 7;</code>
+       * <code>.ResinCostType resin_cost_type = 2;</code>
        * @param value The resinCostType to set.
        * @return This builder for chaining.
        */
@@ -909,7 +901,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>.ResinCostType resin_cost_type = 7;</code>
+       * <code>.ResinCostType resin_cost_type = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearResinCostType() {
@@ -919,13 +911,315 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
 
+      private int gadgetId_ ;
+      /**
+       * <code>uint32 gadget_id = 3;</code>
+       * @return The gadgetId.
+       */
+      @java.lang.Override
+      public int getGadgetId() {
+        return gadgetId_;
+      }
+      /**
+       * <code>uint32 gadget_id = 3;</code>
+       * @param value The gadgetId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGadgetId(int value) {
+        
+        gadgetId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 gadget_id = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGadgetId() {
+        
+        gadgetId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int opType_ = 0;
+      /**
+       * <code>.InterOpType op_type = 13;</code>
+       * @return The enum numeric value on the wire for opType.
+       */
+      @java.lang.Override public int getOpTypeValue() {
+        return opType_;
+      }
+      /**
+       * <code>.InterOpType op_type = 13;</code>
+       * @param value The enum numeric value on the wire for opType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOpTypeValue(int value) {
+        
+        opType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>.InterOpType op_type = 13;</code>
+       * @return The opType.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType() {
+        @SuppressWarnings("deprecation")
+        emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType result = emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.valueOf(opType_);
+        return result == null ? emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.UNRECOGNIZED : result;
+      }
+      /**
+       * <code>.InterOpType op_type = 13;</code>
+       * @param value The opType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOpType(emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType value) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        
+        opType_ = value.getNumber();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>.InterOpType op_type = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOpType() {
+        
+        opType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int eMGMMBLGFBF_ ;
+      /**
+       * <code>uint32 EMGMMBLGFBF = 4;</code>
+       * @return The eMGMMBLGFBF.
+       */
+      @java.lang.Override
+      public int getEMGMMBLGFBF() {
+        return eMGMMBLGFBF_;
+      }
+      /**
+       * <code>uint32 EMGMMBLGFBF = 4;</code>
+       * @param value The eMGMMBLGFBF to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEMGMMBLGFBF(int value) {
+        
+        eMGMMBLGFBF_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 EMGMMBLGFBF = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEMGMMBLGFBF() {
+        
+        eMGMMBLGFBF_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int pMDPNLJAFJG_ ;
+      /**
+       * <code>uint32 PMDPNLJAFJG = 5;</code>
+       * @return The pMDPNLJAFJG.
+       */
+      @java.lang.Override
+      public int getPMDPNLJAFJG() {
+        return pMDPNLJAFJG_;
+      }
+      /**
+       * <code>uint32 PMDPNLJAFJG = 5;</code>
+       * @param value The pMDPNLJAFJG to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPMDPNLJAFJG(int value) {
+        
+        pMDPNLJAFJG_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 PMDPNLJAFJG = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPMDPNLJAFJG() {
+        
+        pMDPNLJAFJG_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean aCJFOKDKMNE_ ;
+      /**
+       * <code>bool ACJFOKDKMNE = 9;</code>
+       * @return The aCJFOKDKMNE.
+       */
+      @java.lang.Override
+      public boolean getACJFOKDKMNE() {
+        return aCJFOKDKMNE_;
+      }
+      /**
+       * <code>bool ACJFOKDKMNE = 9;</code>
+       * @param value The aCJFOKDKMNE to set.
+       * @return This builder for chaining.
+       */
+      public Builder setACJFOKDKMNE(boolean value) {
+        
+        aCJFOKDKMNE_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool ACJFOKDKMNE = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearACJFOKDKMNE() {
+        
+        aCJFOKDKMNE_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean isUseCondenseResin_ ;
+      /**
+       * <code>bool is_use_condense_resin = 10;</code>
+       * @return The isUseCondenseResin.
+       */
+      @java.lang.Override
+      public boolean getIsUseCondenseResin() {
+        return isUseCondenseResin_;
+      }
+      /**
+       * <code>bool is_use_condense_resin = 10;</code>
+       * @param value The isUseCondenseResin to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsUseCondenseResin(boolean value) {
+        
+        isUseCondenseResin_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_use_condense_resin = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsUseCondenseResin() {
+        
+        isUseCondenseResin_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean aCFOLALHCNO_ ;
+      /**
+       * <code>bool ACFOLALHCNO = 14;</code>
+       * @return The aCFOLALHCNO.
+       */
+      @java.lang.Override
+      public boolean getACFOLALHCNO() {
+        return aCFOLALHCNO_;
+      }
+      /**
+       * <code>bool ACFOLALHCNO = 14;</code>
+       * @param value The aCFOLALHCNO to set.
+       * @return This builder for chaining.
+       */
+      public Builder setACFOLALHCNO(boolean value) {
+        
+        aCFOLALHCNO_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool ACFOLALHCNO = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearACFOLALHCNO() {
+        
+        aCFOLALHCNO_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean kGIODNAGDCI_ ;
+      /**
+       * <code>bool KGIODNAGDCI = 12;</code>
+       * @return The kGIODNAGDCI.
+       */
+      @java.lang.Override
+      public boolean getKGIODNAGDCI() {
+        return kGIODNAGDCI_;
+      }
+      /**
+       * <code>bool KGIODNAGDCI = 12;</code>
+       * @param value The kGIODNAGDCI to set.
+       * @return This builder for chaining.
+       */
+      public Builder setKGIODNAGDCI(boolean value) {
+        
+        kGIODNAGDCI_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool KGIODNAGDCI = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearKGIODNAGDCI() {
+        
+        kGIODNAGDCI_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int gadgetEntityId_ ;
+      /**
+       * <code>uint32 gadget_entity_id = 8;</code>
+       * @return The gadgetEntityId.
+       */
+      @java.lang.Override
+      public int getGadgetEntityId() {
+        return gadgetEntityId_;
+      }
+      /**
+       * <code>uint32 gadget_entity_id = 8;</code>
+       * @param value The gadgetEntityId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGadgetEntityId(int value) {
+        
+        gadgetEntityId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 gadget_entity_id = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGadgetEntityId() {
+        
+        gadgetEntityId_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int uiInteractId_ ;
       /**
        * <pre>
-       * dk
+       * ?
        * </pre>
        *
-       * <code>uint32 ui_interact_id = 5;</code>
+       * <code>uint32 ui_interact_id = 7;</code>
        * @return The uiInteractId.
        */
       @java.lang.Override
@@ -934,10 +1228,10 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       * dk
+       * ?
        * </pre>
        *
-       * <code>uint32 ui_interact_id = 5;</code>
+       * <code>uint32 ui_interact_id = 7;</code>
        * @param value The uiInteractId to set.
        * @return This builder for chaining.
        */
@@ -949,46 +1243,15 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       * dk
+       * ?
        * </pre>
        *
-       * <code>uint32 ui_interact_id = 5;</code>
+       * <code>uint32 ui_interact_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearUiInteractId() {
         
         uiInteractId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int jOHEMFBCEEG_ ;
-      /**
-       * <code>uint32 JOHEMFBCEEG = 14;</code>
-       * @return The jOHEMFBCEEG.
-       */
-      @java.lang.Override
-      public int getJOHEMFBCEEG() {
-        return jOHEMFBCEEG_;
-      }
-      /**
-       * <code>uint32 JOHEMFBCEEG = 14;</code>
-       * @param value The jOHEMFBCEEG to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJOHEMFBCEEG(int value) {
-        
-        jOHEMFBCEEG_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 JOHEMFBCEEG = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJOHEMFBCEEG() {
-        
-        jOHEMFBCEEG_ = 0;
         onChanged();
         return this;
       }
@@ -1059,29 +1322,32 @@ public final class GadgetInteractReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027GadgetInteractReq.proto\032\021InterOpType.p" +
-      "roto\032\023ResinCostType.proto\"\324\001\n\021GadgetInte" +
-      "ractReq\022\035\n\007op_type\030\014 \001(\0162\014.InterOpType\022\021" +
-      "\n\tgadget_id\030\004 \001(\r\022\030\n\020gadget_entity_id\030\013 " +
-      "\001(\r\022\035\n\025is_use_condense_resin\030\t \001(\010\022\'\n\017re" +
-      "sin_cost_type\030\007 \001(\0162\016.ResinCostType\022\026\n\016u" +
-      "i_interact_id\030\005 \001(\r\022\023\n\013JOHEMFBCEEG\030\016 \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\027GadgetInteractReq.proto\032\023ResinCostType" +
+      ".proto\032\021InterOpType.proto\"\250\002\n\021GadgetInte" +
+      "ractReq\022\'\n\017resin_cost_type\030\002 \001(\0162\016.Resin" +
+      "CostType\022\021\n\tgadget_id\030\003 \001(\r\022\035\n\007op_type\030\r" +
+      " \001(\0162\014.InterOpType\022\023\n\013EMGMMBLGFBF\030\004 \001(\r\022" +
+      "\023\n\013PMDPNLJAFJG\030\005 \001(\r\022\023\n\013ACJFOKDKMNE\030\t \001(" +
+      "\010\022\035\n\025is_use_condense_resin\030\n \001(\010\022\023\n\013ACFO" +
+      "LALHCNO\030\016 \001(\010\022\023\n\013KGIODNAGDCI\030\014 \001(\010\022\030\n\020ga" +
+      "dget_entity_id\030\010 \001(\r\022\026\n\016ui_interact_id\030\007" +
+      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.InterOpTypeOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ResinCostTypeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.InterOpTypeOuterClass.getDescriptor(),
         });
     internal_static_GadgetInteractReq_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_GadgetInteractReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GadgetInteractReq_descriptor,
-        new java.lang.String[] { "OpType", "GadgetId", "GadgetEntityId", "IsUseCondenseResin", "ResinCostType", "UiInteractId", "JOHEMFBCEEG", });
-    emu.grasscutter.net.proto.InterOpTypeOuterClass.getDescriptor();
+        new java.lang.String[] { "ResinCostType", "GadgetId", "OpType", "EMGMMBLGFBF", "PMDPNLJAFJG", "ACJFOKDKMNE", "IsUseCondenseResin", "ACFOLALHCNO", "KGIODNAGDCI", "GadgetEntityId", "UiInteractId", });
     emu.grasscutter.net.proto.ResinCostTypeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.InterOpTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

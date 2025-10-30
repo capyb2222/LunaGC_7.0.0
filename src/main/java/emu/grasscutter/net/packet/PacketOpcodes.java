@@ -278,14 +278,15 @@ public final class PacketOpcodes {
     public static final int EntityAuthorityChangeNotify = 28433;
 
     // Scene Gadgets
-	public static final int ExecuteGadgetLuaReq = 1;
-	public static final int ExecuteGroupTriggerReq = 1;
-	public static final int GadgetInteractReq = 1;
-	public static final int GadgetInteractRsp = 1;
-	public static final int GadgetPlayDataNotify = 1;
-	public static final int GadgetPlayStartNotify = 1;
-	public static final int GadgetPlayUidOpNotify = 1;
-	public static final int GadgetStateNotify = 1;
+	public static final int ExecuteGadgetLuaReq = 5381;
+	public static final int ExecuteGroupTriggerReq = 7031;
+	public static final int GadgetInteractReq = 29784;
+	public static final int GadgetInteractRsp = 25504;
+	public static final int GadgetPlayDataNotify = 22859;
+	public static final int GadgetPlayStartNotify = 22429;
+    public static final int GadgetPlayStopNotify = 7578;
+	public static final int GadgetPlayUidOpNotify = 25614;
+	public static final int GadgetStateNotify = 25000;
 
     // BP
     public static final int BattlePassAllDataNotify = 21438;

@@ -19,72 +19,72 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 uid_list = 10;</code>
-     * @return A list containing the uidList.
-     */
-    java.util.List<java.lang.Integer> getUidListList();
-    /**
-     * <code>repeated uint32 uid_list = 10;</code>
-     * @return The count of uidList.
-     */
-    int getUidListCount();
-    /**
-     * <code>repeated uint32 uid_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The uidList at the given index.
-     */
-    int getUidList(int index);
-
-    /**
-     * <code>repeated uint32 param_list = 4;</code>
+     * <code>repeated uint32 param_list = 9;</code>
      * @return A list containing the paramList.
      */
     java.util.List<java.lang.Integer> getParamListList();
     /**
-     * <code>repeated uint32 param_list = 4;</code>
+     * <code>repeated uint32 param_list = 9;</code>
      * @return The count of paramList.
      */
     int getParamListCount();
     /**
-     * <code>repeated uint32 param_list = 4;</code>
+     * <code>repeated uint32 param_list = 9;</code>
      * @param index The index of the element to return.
      * @return The paramList at the given index.
      */
     int getParamList(int index);
 
     /**
-     * <code>string param_str = 11;</code>
+     * <code>string param_str = 13;</code>
      * @return The paramStr.
      */
     java.lang.String getParamStr();
     /**
-     * <code>string param_str = 11;</code>
+     * <code>string param_str = 13;</code>
      * @return The bytes for paramStr.
      */
     com.google.protobuf.ByteString
         getParamStrBytes();
 
     /**
-     * <code>uint32 op = 14;</code>
+     * <code>repeated uint32 uid_list = 11;</code>
+     * @return A list containing the uidList.
+     */
+    java.util.List<java.lang.Integer> getUidListList();
+    /**
+     * <code>repeated uint32 uid_list = 11;</code>
+     * @return The count of uidList.
+     */
+    int getUidListCount();
+    /**
+     * <code>repeated uint32 uid_list = 11;</code>
+     * @param index The index of the element to return.
+     * @return The uidList at the given index.
+     */
+    int getUidList(int index);
+
+    /**
+     * <code>uint32 op = 1;</code>
      * @return The op.
      */
     int getOp();
 
     /**
-     * <code>uint32 play_type = 3;</code>
-     * @return The playType.
-     */
-    int getPlayType();
-
-    /**
-     * <code>uint32 entity_id = 1;</code>
+     * <code>uint32 entity_id = 14;</code>
      * @return The entityId.
      */
     int getEntityId();
+
+    /**
+     * <code>uint32 play_type = 10;</code>
+     * @return The playType.
+     */
+    int getPlayType();
   }
   /**
    * <pre>
-   * CmdId: 29021
+   * CmdId: 25614
    * </pre>
    *
    * Protobuf type {@code GadgetPlayUidOpNotify}
@@ -99,9 +99,9 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       super(builder);
     }
     private GadgetPlayUidOpNotify() {
-      uidList_ = emptyIntList();
       paramList_ = emptyIntList();
       paramStr_ = "";
+      uidList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -137,28 +137,23 @@ public final class GadgetPlayUidOpNotifyOuterClass {
               break;
             case 8: {
 
-              entityId_ = input.readUInt32();
+              op_ = input.readUInt32();
               break;
             }
-            case 24: {
-
-              playType_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+            case 72: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 paramList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               paramList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
                 paramList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
                 paramList_.addInt(input.readUInt32());
@@ -167,19 +162,24 @@ public final class GadgetPlayUidOpNotifyOuterClass {
               break;
             }
             case 80: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+
+              playType_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 uidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               uidList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
                 uidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
                 uidList_.addInt(input.readUInt32());
@@ -187,7 +187,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 90: {
+            case 106: {
               java.lang.String s = input.readStringRequireUtf8();
 
               paramStr_ = s;
@@ -195,7 +195,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
             }
             case 112: {
 
-              op_ = input.readUInt32();
+              entityId_ = input.readUInt32();
               break;
             }
             default: {
@@ -213,10 +213,10 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           paramList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           uidList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
@@ -236,38 +236,10 @@ public final class GadgetPlayUidOpNotifyOuterClass {
               emu.grasscutter.net.proto.GadgetPlayUidOpNotifyOuterClass.GadgetPlayUidOpNotify.class, emu.grasscutter.net.proto.GadgetPlayUidOpNotifyOuterClass.GadgetPlayUidOpNotify.Builder.class);
     }
 
-    public static final int UID_LIST_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList uidList_;
-    /**
-     * <code>repeated uint32 uid_list = 10;</code>
-     * @return A list containing the uidList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getUidListList() {
-      return uidList_;
-    }
-    /**
-     * <code>repeated uint32 uid_list = 10;</code>
-     * @return The count of uidList.
-     */
-    public int getUidListCount() {
-      return uidList_.size();
-    }
-    /**
-     * <code>repeated uint32 uid_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The uidList at the given index.
-     */
-    public int getUidList(int index) {
-      return uidList_.getInt(index);
-    }
-    private int uidListMemoizedSerializedSize = -1;
-
-    public static final int PARAM_LIST_FIELD_NUMBER = 4;
+    public static final int PARAM_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList paramList_;
     /**
-     * <code>repeated uint32 param_list = 4;</code>
+     * <code>repeated uint32 param_list = 9;</code>
      * @return A list containing the paramList.
      */
     @java.lang.Override
@@ -276,14 +248,14 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       return paramList_;
     }
     /**
-     * <code>repeated uint32 param_list = 4;</code>
+     * <code>repeated uint32 param_list = 9;</code>
      * @return The count of paramList.
      */
     public int getParamListCount() {
       return paramList_.size();
     }
     /**
-     * <code>repeated uint32 param_list = 4;</code>
+     * <code>repeated uint32 param_list = 9;</code>
      * @param index The index of the element to return.
      * @return The paramList at the given index.
      */
@@ -292,10 +264,10 @@ public final class GadgetPlayUidOpNotifyOuterClass {
     }
     private int paramListMemoizedSerializedSize = -1;
 
-    public static final int PARAM_STR_FIELD_NUMBER = 11;
+    public static final int PARAM_STR_FIELD_NUMBER = 13;
     private volatile java.lang.Object paramStr_;
     /**
-     * <code>string param_str = 11;</code>
+     * <code>string param_str = 13;</code>
      * @return The paramStr.
      */
     @java.lang.Override
@@ -312,7 +284,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       }
     }
     /**
-     * <code>string param_str = 11;</code>
+     * <code>string param_str = 13;</code>
      * @return The bytes for paramStr.
      */
     @java.lang.Override
@@ -330,10 +302,38 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       }
     }
 
-    public static final int OP_FIELD_NUMBER = 14;
+    public static final int UID_LIST_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList uidList_;
+    /**
+     * <code>repeated uint32 uid_list = 11;</code>
+     * @return A list containing the uidList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getUidListList() {
+      return uidList_;
+    }
+    /**
+     * <code>repeated uint32 uid_list = 11;</code>
+     * @return The count of uidList.
+     */
+    public int getUidListCount() {
+      return uidList_.size();
+    }
+    /**
+     * <code>repeated uint32 uid_list = 11;</code>
+     * @param index The index of the element to return.
+     * @return The uidList at the given index.
+     */
+    public int getUidList(int index) {
+      return uidList_.getInt(index);
+    }
+    private int uidListMemoizedSerializedSize = -1;
+
+    public static final int OP_FIELD_NUMBER = 1;
     private int op_;
     /**
-     * <code>uint32 op = 14;</code>
+     * <code>uint32 op = 1;</code>
      * @return The op.
      */
     @java.lang.Override
@@ -341,26 +341,26 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       return op_;
     }
 
-    public static final int PLAY_TYPE_FIELD_NUMBER = 3;
-    private int playType_;
-    /**
-     * <code>uint32 play_type = 3;</code>
-     * @return The playType.
-     */
-    @java.lang.Override
-    public int getPlayType() {
-      return playType_;
-    }
-
-    public static final int ENTITY_ID_FIELD_NUMBER = 1;
+    public static final int ENTITY_ID_FIELD_NUMBER = 14;
     private int entityId_;
     /**
-     * <code>uint32 entity_id = 1;</code>
+     * <code>uint32 entity_id = 14;</code>
      * @return The entityId.
      */
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
+    }
+
+    public static final int PLAY_TYPE_FIELD_NUMBER = 10;
+    private int playType_;
+    /**
+     * <code>uint32 play_type = 10;</code>
+     * @return The playType.
+     */
+    @java.lang.Override
+    public int getPlayType() {
+      return playType_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -378,31 +378,31 @@ public final class GadgetPlayUidOpNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (entityId_ != 0) {
-        output.writeUInt32(1, entityId_);
-      }
-      if (playType_ != 0) {
-        output.writeUInt32(3, playType_);
+      if (op_ != 0) {
+        output.writeUInt32(1, op_);
       }
       if (getParamListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(paramListMemoizedSerializedSize);
       }
       for (int i = 0; i < paramList_.size(); i++) {
         output.writeUInt32NoTag(paramList_.getInt(i));
       }
+      if (playType_ != 0) {
+        output.writeUInt32(10, playType_);
+      }
       if (getUidListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(uidListMemoizedSerializedSize);
       }
       for (int i = 0; i < uidList_.size(); i++) {
         output.writeUInt32NoTag(uidList_.getInt(i));
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(paramStr_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 11, paramStr_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, paramStr_);
       }
-      if (op_ != 0) {
-        output.writeUInt32(14, op_);
+      if (entityId_ != 0) {
+        output.writeUInt32(14, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -413,13 +413,9 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (entityId_ != 0) {
+      if (op_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, entityId_);
-      }
-      if (playType_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, playType_);
+          .computeUInt32Size(1, op_);
       }
       {
         int dataSize = 0;
@@ -434,6 +430,10 @@ public final class GadgetPlayUidOpNotifyOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         paramListMemoizedSerializedSize = dataSize;
+      }
+      if (playType_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, playType_);
       }
       {
         int dataSize = 0;
@@ -450,11 +450,11 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         uidListMemoizedSerializedSize = dataSize;
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(paramStr_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(11, paramStr_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, paramStr_);
       }
-      if (op_ != 0) {
+      if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, op_);
+          .computeUInt32Size(14, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -471,18 +471,18 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       }
       emu.grasscutter.net.proto.GadgetPlayUidOpNotifyOuterClass.GadgetPlayUidOpNotify other = (emu.grasscutter.net.proto.GadgetPlayUidOpNotifyOuterClass.GadgetPlayUidOpNotify) obj;
 
-      if (!getUidListList()
-          .equals(other.getUidListList())) return false;
       if (!getParamListList()
           .equals(other.getParamListList())) return false;
       if (!getParamStr()
           .equals(other.getParamStr())) return false;
+      if (!getUidListList()
+          .equals(other.getUidListList())) return false;
       if (getOp()
           != other.getOp()) return false;
-      if (getPlayType()
-          != other.getPlayType()) return false;
       if (getEntityId()
           != other.getEntityId()) return false;
+      if (getPlayType()
+          != other.getPlayType()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -494,22 +494,22 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getUidListCount() > 0) {
-        hash = (37 * hash) + UID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getUidListList().hashCode();
-      }
       if (getParamListCount() > 0) {
         hash = (37 * hash) + PARAM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getParamListList().hashCode();
       }
       hash = (37 * hash) + PARAM_STR_FIELD_NUMBER;
       hash = (53 * hash) + getParamStr().hashCode();
+      if (getUidListCount() > 0) {
+        hash = (37 * hash) + UID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getUidListList().hashCode();
+      }
       hash = (37 * hash) + OP_FIELD_NUMBER;
       hash = (53 * hash) + getOp();
-      hash = (37 * hash) + PLAY_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getPlayType();
       hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getEntityId();
+      hash = (37 * hash) + PLAY_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getPlayType();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -607,7 +607,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 29021
+     * CmdId: 25614
      * </pre>
      *
      * Protobuf type {@code GadgetPlayUidOpNotify}
@@ -647,17 +647,17 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        uidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
         paramList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
+        bitField0_ = (bitField0_ & ~0x00000001);
         paramStr_ = "";
 
+        uidList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         op_ = 0;
 
-        playType_ = 0;
-
         entityId_ = 0;
+
+        playType_ = 0;
 
         return this;
       }
@@ -687,19 +687,19 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         emu.grasscutter.net.proto.GadgetPlayUidOpNotifyOuterClass.GadgetPlayUidOpNotify result = new emu.grasscutter.net.proto.GadgetPlayUidOpNotifyOuterClass.GadgetPlayUidOpNotify(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          uidList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.uidList_ = uidList_;
-        if (((bitField0_ & 0x00000002) != 0)) {
           paramList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.paramList_ = paramList_;
         result.paramStr_ = paramStr_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          uidList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.uidList_ = uidList_;
         result.op_ = op_;
-        result.playType_ = playType_;
         result.entityId_ = entityId_;
+        result.playType_ = playType_;
         onBuilt();
         return result;
       }
@@ -748,20 +748,10 @@ public final class GadgetPlayUidOpNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GadgetPlayUidOpNotifyOuterClass.GadgetPlayUidOpNotify other) {
         if (other == emu.grasscutter.net.proto.GadgetPlayUidOpNotifyOuterClass.GadgetPlayUidOpNotify.getDefaultInstance()) return this;
-        if (!other.uidList_.isEmpty()) {
-          if (uidList_.isEmpty()) {
-            uidList_ = other.uidList_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureUidListIsMutable();
-            uidList_.addAll(other.uidList_);
-          }
-          onChanged();
-        }
         if (!other.paramList_.isEmpty()) {
           if (paramList_.isEmpty()) {
             paramList_ = other.paramList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           } else {
             ensureParamListIsMutable();
             paramList_.addAll(other.paramList_);
@@ -772,14 +762,24 @@ public final class GadgetPlayUidOpNotifyOuterClass {
           paramStr_ = other.paramStr_;
           onChanged();
         }
+        if (!other.uidList_.isEmpty()) {
+          if (uidList_.isEmpty()) {
+            uidList_ = other.uidList_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureUidListIsMutable();
+            uidList_.addAll(other.uidList_);
+          }
+          onChanged();
+        }
         if (other.getOp() != 0) {
           setOp(other.getOp());
         }
-        if (other.getPlayType() != 0) {
-          setPlayType(other.getPlayType());
-        }
         if (other.getEntityId() != 0) {
           setEntityId(other.getEntityId());
+        }
+        if (other.getPlayType() != 0) {
+          setPlayType(other.getPlayType());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -811,110 +811,31 @@ public final class GadgetPlayUidOpNotifyOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList uidList_ = emptyIntList();
-      private void ensureUidListIsMutable() {
+      private com.google.protobuf.Internal.IntList paramList_ = emptyIntList();
+      private void ensureParamListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          uidList_ = mutableCopy(uidList_);
+          paramList_ = mutableCopy(paramList_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 uid_list = 10;</code>
-       * @return A list containing the uidList.
-       */
-      public java.util.List<java.lang.Integer>
-          getUidListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(uidList_) : uidList_;
-      }
-      /**
-       * <code>repeated uint32 uid_list = 10;</code>
-       * @return The count of uidList.
-       */
-      public int getUidListCount() {
-        return uidList_.size();
-      }
-      /**
-       * <code>repeated uint32 uid_list = 10;</code>
-       * @param index The index of the element to return.
-       * @return The uidList at the given index.
-       */
-      public int getUidList(int index) {
-        return uidList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 uid_list = 10;</code>
-       * @param index The index to set the value at.
-       * @param value The uidList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setUidList(
-          int index, int value) {
-        ensureUidListIsMutable();
-        uidList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 uid_list = 10;</code>
-       * @param value The uidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addUidList(int value) {
-        ensureUidListIsMutable();
-        uidList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 uid_list = 10;</code>
-       * @param values The uidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllUidList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUidListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, uidList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 uid_list = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearUidList() {
-        uidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList paramList_ = emptyIntList();
-      private void ensureParamListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          paramList_ = mutableCopy(paramList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 param_list = 4;</code>
+       * <code>repeated uint32 param_list = 9;</code>
        * @return A list containing the paramList.
        */
       public java.util.List<java.lang.Integer>
           getParamListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
+        return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(paramList_) : paramList_;
       }
       /**
-       * <code>repeated uint32 param_list = 4;</code>
+       * <code>repeated uint32 param_list = 9;</code>
        * @return The count of paramList.
        */
       public int getParamListCount() {
         return paramList_.size();
       }
       /**
-       * <code>repeated uint32 param_list = 4;</code>
+       * <code>repeated uint32 param_list = 9;</code>
        * @param index The index of the element to return.
        * @return The paramList at the given index.
        */
@@ -922,7 +843,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return paramList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 param_list = 4;</code>
+       * <code>repeated uint32 param_list = 9;</code>
        * @param index The index to set the value at.
        * @param value The paramList to set.
        * @return This builder for chaining.
@@ -935,7 +856,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 param_list = 4;</code>
+       * <code>repeated uint32 param_list = 9;</code>
        * @param value The paramList to add.
        * @return This builder for chaining.
        */
@@ -946,7 +867,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 param_list = 4;</code>
+       * <code>repeated uint32 param_list = 9;</code>
        * @param values The paramList to add.
        * @return This builder for chaining.
        */
@@ -959,19 +880,19 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 param_list = 4;</code>
+       * <code>repeated uint32 param_list = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearParamList() {
         paramList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
+        bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
       private java.lang.Object paramStr_ = "";
       /**
-       * <code>string param_str = 11;</code>
+       * <code>string param_str = 13;</code>
        * @return The paramStr.
        */
       public java.lang.String getParamStr() {
@@ -987,7 +908,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         }
       }
       /**
-       * <code>string param_str = 11;</code>
+       * <code>string param_str = 13;</code>
        * @return The bytes for paramStr.
        */
       public com.google.protobuf.ByteString
@@ -1004,7 +925,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         }
       }
       /**
-       * <code>string param_str = 11;</code>
+       * <code>string param_str = 13;</code>
        * @param value The paramStr to set.
        * @return This builder for chaining.
        */
@@ -1019,7 +940,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return this;
       }
       /**
-       * <code>string param_str = 11;</code>
+       * <code>string param_str = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearParamStr() {
@@ -1029,7 +950,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return this;
       }
       /**
-       * <code>string param_str = 11;</code>
+       * <code>string param_str = 13;</code>
        * @param value The bytes for paramStr to set.
        * @return This builder for chaining.
        */
@@ -1045,9 +966,88 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return this;
       }
 
+      private com.google.protobuf.Internal.IntList uidList_ = emptyIntList();
+      private void ensureUidListIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          uidList_ = mutableCopy(uidList_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <code>repeated uint32 uid_list = 11;</code>
+       * @return A list containing the uidList.
+       */
+      public java.util.List<java.lang.Integer>
+          getUidListList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(uidList_) : uidList_;
+      }
+      /**
+       * <code>repeated uint32 uid_list = 11;</code>
+       * @return The count of uidList.
+       */
+      public int getUidListCount() {
+        return uidList_.size();
+      }
+      /**
+       * <code>repeated uint32 uid_list = 11;</code>
+       * @param index The index of the element to return.
+       * @return The uidList at the given index.
+       */
+      public int getUidList(int index) {
+        return uidList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 uid_list = 11;</code>
+       * @param index The index to set the value at.
+       * @param value The uidList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setUidList(
+          int index, int value) {
+        ensureUidListIsMutable();
+        uidList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 uid_list = 11;</code>
+       * @param value The uidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addUidList(int value) {
+        ensureUidListIsMutable();
+        uidList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 uid_list = 11;</code>
+       * @param values The uidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllUidList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureUidListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, uidList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 uid_list = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearUidList() {
+        uidList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
+        return this;
+      }
+
       private int op_ ;
       /**
-       * <code>uint32 op = 14;</code>
+       * <code>uint32 op = 1;</code>
        * @return The op.
        */
       @java.lang.Override
@@ -1055,7 +1055,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return op_;
       }
       /**
-       * <code>uint32 op = 14;</code>
+       * <code>uint32 op = 1;</code>
        * @param value The op to set.
        * @return This builder for chaining.
        */
@@ -1066,7 +1066,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 op = 14;</code>
+       * <code>uint32 op = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearOp() {
@@ -1076,40 +1076,9 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return this;
       }
 
-      private int playType_ ;
-      /**
-       * <code>uint32 play_type = 3;</code>
-       * @return The playType.
-       */
-      @java.lang.Override
-      public int getPlayType() {
-        return playType_;
-      }
-      /**
-       * <code>uint32 play_type = 3;</code>
-       * @param value The playType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPlayType(int value) {
-        
-        playType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 play_type = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPlayType() {
-        
-        playType_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 1;</code>
+       * <code>uint32 entity_id = 14;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -1117,7 +1086,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 1;</code>
+       * <code>uint32 entity_id = 14;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -1128,12 +1097,43 @@ public final class GadgetPlayUidOpNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 entity_id = 1;</code>
+       * <code>uint32 entity_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
         
         entityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int playType_ ;
+      /**
+       * <code>uint32 play_type = 10;</code>
+       * @return The playType.
+       */
+      @java.lang.Override
+      public int getPlayType() {
+        return playType_;
+      }
+      /**
+       * <code>uint32 play_type = 10;</code>
+       * @param value The playType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPlayType(int value) {
+        
+        playType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 play_type = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPlayType() {
+        
+        playType_ = 0;
         onChanged();
         return this;
       }
@@ -1205,9 +1205,9 @@ public final class GadgetPlayUidOpNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033GadgetPlayUidOpNotify.proto\"\202\001\n\025Gadget" +
-      "PlayUidOpNotify\022\020\n\010uid_list\030\n \003(\r\022\022\n\npar" +
-      "am_list\030\004 \003(\r\022\021\n\tparam_str\030\013 \001(\t\022\n\n\002op\030\016" +
-      " \001(\r\022\021\n\tplay_type\030\003 \001(\r\022\021\n\tentity_id\030\001 \001" +
+      "PlayUidOpNotify\022\022\n\nparam_list\030\t \003(\r\022\021\n\tp" +
+      "aram_str\030\r \001(\t\022\020\n\010uid_list\030\013 \003(\r\022\n\n\002op\030\001" +
+      " \001(\r\022\021\n\tentity_id\030\016 \001(\r\022\021\n\tplay_type\030\n \001" +
       "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1219,7 +1219,7 @@ public final class GadgetPlayUidOpNotifyOuterClass {
     internal_static_GadgetPlayUidOpNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GadgetPlayUidOpNotify_descriptor,
-        new java.lang.String[] { "UidList", "ParamList", "ParamStr", "Op", "PlayType", "EntityId", });
+        new java.lang.String[] { "ParamList", "ParamStr", "UidList", "Op", "EntityId", "PlayType", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
