@@ -19,31 +19,37 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 die_state_flag = 6;</code>
-     * @return The dieStateFlag.
+     * <code>uint32 entity_id = 6;</code>
+     * @return The entityId.
      */
-    int getDieStateFlag();
+    int getEntityId();
 
     /**
-     * <code>.ForwardType forward_type = 4;</code>
+     * <code>.ForwardType forward_type = 8;</code>
      * @return The enum numeric value on the wire for forwardType.
      */
     int getForwardTypeValue();
     /**
-     * <code>.ForwardType forward_type = 4;</code>
+     * <code>.ForwardType forward_type = 8;</code>
      * @return The forwardType.
      */
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
 
     /**
-     * <code>uint32 entity_id = 2;</code>
-     * @return The entityId.
+     * <code>uint32 die_state_flag = 13;</code>
+     * @return The dieStateFlag.
      */
-    int getEntityId();
+    int getDieStateFlag();
+
+    /**
+     * <code>bool immediately = 9;</code>
+     * @return The immediately.
+     */
+    boolean getImmediately();
   }
   /**
    * <pre>
-   * CmdId: 5768
+   * CmdId: 1317
    * </pre>
    *
    * Protobuf type {@code EvtEntityStartDieEndNotify}
@@ -91,18 +97,23 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 64: {
               int rawValue = input.readEnum();
 
               forwardType_ = rawValue;
               break;
             }
-            case 48: {
+            case 72: {
+
+              immediately_ = input.readBool();
+              break;
+            }
+            case 104: {
 
               dieStateFlag_ = input.readUInt32();
               break;
@@ -139,28 +150,28 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
               emu.grasscutter.net.proto.EvtEntityStartDieEndNotifyOuterClass.EvtEntityStartDieEndNotify.class, emu.grasscutter.net.proto.EvtEntityStartDieEndNotifyOuterClass.EvtEntityStartDieEndNotify.Builder.class);
     }
 
-    public static final int DIE_STATE_FLAG_FIELD_NUMBER = 6;
-    private int dieStateFlag_;
+    public static final int ENTITY_ID_FIELD_NUMBER = 6;
+    private int entityId_;
     /**
-     * <code>uint32 die_state_flag = 6;</code>
-     * @return The dieStateFlag.
+     * <code>uint32 entity_id = 6;</code>
+     * @return The entityId.
      */
     @java.lang.Override
-    public int getDieStateFlag() {
-      return dieStateFlag_;
+    public int getEntityId() {
+      return entityId_;
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 4;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 8;
     private int forwardType_;
     /**
-     * <code>.ForwardType forward_type = 4;</code>
+     * <code>.ForwardType forward_type = 8;</code>
      * @return The enum numeric value on the wire for forwardType.
      */
     @java.lang.Override public int getForwardTypeValue() {
       return forwardType_;
     }
     /**
-     * <code>.ForwardType forward_type = 4;</code>
+     * <code>.ForwardType forward_type = 8;</code>
      * @return The forwardType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
@@ -169,15 +180,26 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 2;
-    private int entityId_;
+    public static final int DIE_STATE_FLAG_FIELD_NUMBER = 13;
+    private int dieStateFlag_;
     /**
-     * <code>uint32 entity_id = 2;</code>
-     * @return The entityId.
+     * <code>uint32 die_state_flag = 13;</code>
+     * @return The dieStateFlag.
      */
     @java.lang.Override
-    public int getEntityId() {
-      return entityId_;
+    public int getDieStateFlag() {
+      return dieStateFlag_;
+    }
+
+    public static final int IMMEDIATELY_FIELD_NUMBER = 9;
+    private boolean immediately_;
+    /**
+     * <code>bool immediately = 9;</code>
+     * @return The immediately.
+     */
+    @java.lang.Override
+    public boolean getImmediately() {
+      return immediately_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -195,13 +217,16 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(2, entityId_);
+        output.writeUInt32(6, entityId_);
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.FORWARD_TYPE_LOCAL.getNumber()) {
-        output.writeEnum(4, forwardType_);
+        output.writeEnum(8, forwardType_);
+      }
+      if (immediately_ != false) {
+        output.writeBool(9, immediately_);
       }
       if (dieStateFlag_ != 0) {
-        output.writeUInt32(6, dieStateFlag_);
+        output.writeUInt32(13, dieStateFlag_);
       }
       unknownFields.writeTo(output);
     }
@@ -214,15 +239,19 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, entityId_);
+          .computeUInt32Size(6, entityId_);
       }
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.FORWARD_TYPE_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, forwardType_);
+          .computeEnumSize(8, forwardType_);
+      }
+      if (immediately_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, immediately_);
       }
       if (dieStateFlag_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, dieStateFlag_);
+          .computeUInt32Size(13, dieStateFlag_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -239,11 +268,13 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
       }
       emu.grasscutter.net.proto.EvtEntityStartDieEndNotifyOuterClass.EvtEntityStartDieEndNotify other = (emu.grasscutter.net.proto.EvtEntityStartDieEndNotifyOuterClass.EvtEntityStartDieEndNotify) obj;
 
-      if (getDieStateFlag()
-          != other.getDieStateFlag()) return false;
-      if (forwardType_ != other.forwardType_) return false;
       if (getEntityId()
           != other.getEntityId()) return false;
+      if (forwardType_ != other.forwardType_) return false;
+      if (getDieStateFlag()
+          != other.getDieStateFlag()) return false;
+      if (getImmediately()
+          != other.getImmediately()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -255,12 +286,15 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + DIE_STATE_FLAG_FIELD_NUMBER;
-      hash = (53 * hash) + getDieStateFlag();
-      hash = (37 * hash) + FORWARD_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + forwardType_;
       hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getEntityId();
+      hash = (37 * hash) + FORWARD_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + forwardType_;
+      hash = (37 * hash) + DIE_STATE_FLAG_FIELD_NUMBER;
+      hash = (53 * hash) + getDieStateFlag();
+      hash = (37 * hash) + IMMEDIATELY_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getImmediately());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -358,7 +392,7 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 5768
+     * CmdId: 1317
      * </pre>
      *
      * Protobuf type {@code EvtEntityStartDieEndNotify}
@@ -398,11 +432,13 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        dieStateFlag_ = 0;
+        entityId_ = 0;
 
         forwardType_ = 0;
 
-        entityId_ = 0;
+        dieStateFlag_ = 0;
+
+        immediately_ = false;
 
         return this;
       }
@@ -430,9 +466,10 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.EvtEntityStartDieEndNotifyOuterClass.EvtEntityStartDieEndNotify buildPartial() {
         emu.grasscutter.net.proto.EvtEntityStartDieEndNotifyOuterClass.EvtEntityStartDieEndNotify result = new emu.grasscutter.net.proto.EvtEntityStartDieEndNotifyOuterClass.EvtEntityStartDieEndNotify(this);
-        result.dieStateFlag_ = dieStateFlag_;
-        result.forwardType_ = forwardType_;
         result.entityId_ = entityId_;
+        result.forwardType_ = forwardType_;
+        result.dieStateFlag_ = dieStateFlag_;
+        result.immediately_ = immediately_;
         onBuilt();
         return result;
       }
@@ -481,14 +518,17 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EvtEntityStartDieEndNotifyOuterClass.EvtEntityStartDieEndNotify other) {
         if (other == emu.grasscutter.net.proto.EvtEntityStartDieEndNotifyOuterClass.EvtEntityStartDieEndNotify.getDefaultInstance()) return this;
-        if (other.getDieStateFlag() != 0) {
-          setDieStateFlag(other.getDieStateFlag());
+        if (other.getEntityId() != 0) {
+          setEntityId(other.getEntityId());
         }
         if (other.forwardType_ != 0) {
           setForwardTypeValue(other.getForwardTypeValue());
         }
-        if (other.getEntityId() != 0) {
-          setEntityId(other.getEntityId());
+        if (other.getDieStateFlag() != 0) {
+          setDieStateFlag(other.getDieStateFlag());
+        }
+        if (other.getImmediately() != false) {
+          setImmediately(other.getImmediately());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -519,47 +559,47 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
         return this;
       }
 
-      private int dieStateFlag_ ;
+      private int entityId_ ;
       /**
-       * <code>uint32 die_state_flag = 6;</code>
-       * @return The dieStateFlag.
+       * <code>uint32 entity_id = 6;</code>
+       * @return The entityId.
        */
       @java.lang.Override
-      public int getDieStateFlag() {
-        return dieStateFlag_;
+      public int getEntityId() {
+        return entityId_;
       }
       /**
-       * <code>uint32 die_state_flag = 6;</code>
-       * @param value The dieStateFlag to set.
+       * <code>uint32 entity_id = 6;</code>
+       * @param value The entityId to set.
        * @return This builder for chaining.
        */
-      public Builder setDieStateFlag(int value) {
+      public Builder setEntityId(int value) {
         
-        dieStateFlag_ = value;
+        entityId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 die_state_flag = 6;</code>
+       * <code>uint32 entity_id = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDieStateFlag() {
+      public Builder clearEntityId() {
         
-        dieStateFlag_ = 0;
+        entityId_ = 0;
         onChanged();
         return this;
       }
 
       private int forwardType_ = 0;
       /**
-       * <code>.ForwardType forward_type = 4;</code>
+       * <code>.ForwardType forward_type = 8;</code>
        * @return The enum numeric value on the wire for forwardType.
        */
       @java.lang.Override public int getForwardTypeValue() {
         return forwardType_;
       }
       /**
-       * <code>.ForwardType forward_type = 4;</code>
+       * <code>.ForwardType forward_type = 8;</code>
        * @param value The enum numeric value on the wire for forwardType to set.
        * @return This builder for chaining.
        */
@@ -570,7 +610,7 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ForwardType forward_type = 4;</code>
+       * <code>.ForwardType forward_type = 8;</code>
        * @return The forwardType.
        */
       @java.lang.Override
@@ -580,7 +620,7 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
         return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.ForwardType forward_type = 4;</code>
+       * <code>.ForwardType forward_type = 8;</code>
        * @param value The forwardType to set.
        * @return This builder for chaining.
        */
@@ -594,7 +634,7 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ForwardType forward_type = 4;</code>
+       * <code>.ForwardType forward_type = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
@@ -604,33 +644,64 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
         return this;
       }
 
-      private int entityId_ ;
+      private int dieStateFlag_ ;
       /**
-       * <code>uint32 entity_id = 2;</code>
-       * @return The entityId.
+       * <code>uint32 die_state_flag = 13;</code>
+       * @return The dieStateFlag.
        */
       @java.lang.Override
-      public int getEntityId() {
-        return entityId_;
+      public int getDieStateFlag() {
+        return dieStateFlag_;
       }
       /**
-       * <code>uint32 entity_id = 2;</code>
-       * @param value The entityId to set.
+       * <code>uint32 die_state_flag = 13;</code>
+       * @param value The dieStateFlag to set.
        * @return This builder for chaining.
        */
-      public Builder setEntityId(int value) {
+      public Builder setDieStateFlag(int value) {
         
-        entityId_ = value;
+        dieStateFlag_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 entity_id = 2;</code>
+       * <code>uint32 die_state_flag = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEntityId() {
+      public Builder clearDieStateFlag() {
         
-        entityId_ = 0;
+        dieStateFlag_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean immediately_ ;
+      /**
+       * <code>bool immediately = 9;</code>
+       * @return The immediately.
+       */
+      @java.lang.Override
+      public boolean getImmediately() {
+        return immediately_;
+      }
+      /**
+       * <code>bool immediately = 9;</code>
+       * @param value The immediately to set.
+       * @return This builder for chaining.
+       */
+      public Builder setImmediately(boolean value) {
+        
+        immediately_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool immediately = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearImmediately() {
+        
+        immediately_ = false;
         onChanged();
         return this;
       }
@@ -702,10 +773,11 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n EvtEntityStartDieEndNotify.proto\032\021Forw" +
-      "ardType.proto\"k\n\032EvtEntityStartDieEndNot" +
-      "ify\022\026\n\016die_state_flag\030\006 \001(\r\022\"\n\014forward_t" +
-      "ype\030\004 \001(\0162\014.ForwardType\022\021\n\tentity_id\030\002 \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "ardType.proto\"\200\001\n\032EvtEntityStartDieEndNo" +
+      "tify\022\021\n\tentity_id\030\006 \001(\r\022\"\n\014forward_type\030" +
+      "\010 \001(\0162\014.ForwardType\022\026\n\016die_state_flag\030\r " +
+      "\001(\r\022\023\n\013immediately\030\t \001(\010B\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -717,7 +789,7 @@ public final class EvtEntityStartDieEndNotifyOuterClass {
     internal_static_EvtEntityStartDieEndNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EvtEntityStartDieEndNotify_descriptor,
-        new java.lang.String[] { "DieStateFlag", "ForwardType", "EntityId", });
+        new java.lang.String[] { "EntityId", "ForwardType", "DieStateFlag", "Immediately", });
     emu.grasscutter.net.proto.ForwardTypeOuterClass.getDescriptor();
   }
 

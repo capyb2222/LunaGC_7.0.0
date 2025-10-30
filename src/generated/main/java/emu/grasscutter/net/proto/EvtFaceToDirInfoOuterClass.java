@@ -19,22 +19,22 @@ public final class EvtFaceToDirInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector face_dir = 1;</code>
+     * <code>.Vector face_dir = 7;</code>
      * @return Whether the faceDir field is set.
      */
     boolean hasFaceDir();
     /**
-     * <code>.Vector face_dir = 1;</code>
+     * <code>.Vector face_dir = 7;</code>
      * @return The faceDir.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getFaceDir();
     /**
-     * <code>.Vector face_dir = 1;</code>
+     * <code>.Vector face_dir = 7;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFaceDirOrBuilder();
 
     /**
-     * <code>uint32 entity_id = 10;</code>
+     * <code>uint32 entity_id = 5;</code>
      * @return The entityId.
      */
     int getEntityId();
@@ -84,7 +84,12 @@ public final class EvtFaceToDirInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 40: {
+
+              entityId_ = input.readUInt32();
+              break;
+            }
+            case 58: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (faceDir_ != null) {
                 subBuilder = faceDir_.toBuilder();
@@ -95,11 +100,6 @@ public final class EvtFaceToDirInfoOuterClass {
                 faceDir_ = subBuilder.buildPartial();
               }
 
-              break;
-            }
-            case 80: {
-
-              entityId_ = input.readUInt32();
               break;
             }
             default: {
@@ -134,10 +134,10 @@ public final class EvtFaceToDirInfoOuterClass {
               emu.grasscutter.net.proto.EvtFaceToDirInfoOuterClass.EvtFaceToDirInfo.class, emu.grasscutter.net.proto.EvtFaceToDirInfoOuterClass.EvtFaceToDirInfo.Builder.class);
     }
 
-    public static final int FACE_DIR_FIELD_NUMBER = 1;
+    public static final int FACE_DIR_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector faceDir_;
     /**
-     * <code>.Vector face_dir = 1;</code>
+     * <code>.Vector face_dir = 7;</code>
      * @return Whether the faceDir field is set.
      */
     @java.lang.Override
@@ -145,7 +145,7 @@ public final class EvtFaceToDirInfoOuterClass {
       return faceDir_ != null;
     }
     /**
-     * <code>.Vector face_dir = 1;</code>
+     * <code>.Vector face_dir = 7;</code>
      * @return The faceDir.
      */
     @java.lang.Override
@@ -153,17 +153,17 @@ public final class EvtFaceToDirInfoOuterClass {
       return faceDir_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : faceDir_;
     }
     /**
-     * <code>.Vector face_dir = 1;</code>
+     * <code>.Vector face_dir = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFaceDirOrBuilder() {
       return getFaceDir();
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 10;
+    public static final int ENTITY_ID_FIELD_NUMBER = 5;
     private int entityId_;
     /**
-     * <code>uint32 entity_id = 10;</code>
+     * <code>uint32 entity_id = 5;</code>
      * @return The entityId.
      */
     @java.lang.Override
@@ -185,11 +185,11 @@ public final class EvtFaceToDirInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (faceDir_ != null) {
-        output.writeMessage(1, getFaceDir());
-      }
       if (entityId_ != 0) {
-        output.writeUInt32(10, entityId_);
+        output.writeUInt32(5, entityId_);
+      }
+      if (faceDir_ != null) {
+        output.writeMessage(7, getFaceDir());
       }
       unknownFields.writeTo(output);
     }
@@ -200,13 +200,13 @@ public final class EvtFaceToDirInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (faceDir_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getFaceDir());
-      }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, entityId_);
+          .computeUInt32Size(5, entityId_);
+      }
+      if (faceDir_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(7, getFaceDir());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -507,14 +507,14 @@ public final class EvtFaceToDirInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> faceDirBuilder_;
       /**
-       * <code>.Vector face_dir = 1;</code>
+       * <code>.Vector face_dir = 7;</code>
        * @return Whether the faceDir field is set.
        */
       public boolean hasFaceDir() {
         return faceDirBuilder_ != null || faceDir_ != null;
       }
       /**
-       * <code>.Vector face_dir = 1;</code>
+       * <code>.Vector face_dir = 7;</code>
        * @return The faceDir.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getFaceDir() {
@@ -525,7 +525,7 @@ public final class EvtFaceToDirInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector face_dir = 1;</code>
+       * <code>.Vector face_dir = 7;</code>
        */
       public Builder setFaceDir(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (faceDirBuilder_ == null) {
@@ -541,7 +541,7 @@ public final class EvtFaceToDirInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector face_dir = 1;</code>
+       * <code>.Vector face_dir = 7;</code>
        */
       public Builder setFaceDir(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -555,7 +555,7 @@ public final class EvtFaceToDirInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector face_dir = 1;</code>
+       * <code>.Vector face_dir = 7;</code>
        */
       public Builder mergeFaceDir(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (faceDirBuilder_ == null) {
@@ -573,7 +573,7 @@ public final class EvtFaceToDirInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector face_dir = 1;</code>
+       * <code>.Vector face_dir = 7;</code>
        */
       public Builder clearFaceDir() {
         if (faceDirBuilder_ == null) {
@@ -587,7 +587,7 @@ public final class EvtFaceToDirInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector face_dir = 1;</code>
+       * <code>.Vector face_dir = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getFaceDirBuilder() {
         
@@ -595,7 +595,7 @@ public final class EvtFaceToDirInfoOuterClass {
         return getFaceDirFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector face_dir = 1;</code>
+       * <code>.Vector face_dir = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFaceDirOrBuilder() {
         if (faceDirBuilder_ != null) {
@@ -606,7 +606,7 @@ public final class EvtFaceToDirInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector face_dir = 1;</code>
+       * <code>.Vector face_dir = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -624,7 +624,7 @@ public final class EvtFaceToDirInfoOuterClass {
 
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 10;</code>
+       * <code>uint32 entity_id = 5;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -632,7 +632,7 @@ public final class EvtFaceToDirInfoOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 10;</code>
+       * <code>uint32 entity_id = 5;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -643,7 +643,7 @@ public final class EvtFaceToDirInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 entity_id = 10;</code>
+       * <code>uint32 entity_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
@@ -720,8 +720,8 @@ public final class EvtFaceToDirInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026EvtFaceToDirInfo.proto\032\014Vector.proto\"@" +
-      "\n\020EvtFaceToDirInfo\022\031\n\010face_dir\030\001 \001(\0132\007.V" +
-      "ector\022\021\n\tentity_id\030\n \001(\rB\033\n\031emu.grasscut" +
+      "\n\020EvtFaceToDirInfo\022\031\n\010face_dir\030\007 \001(\0132\007.V" +
+      "ector\022\021\n\tentity_id\030\005 \001(\rB\033\n\031emu.grasscut" +
       "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
