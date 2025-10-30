@@ -217,7 +217,7 @@ public final class PacketOpcodes {
     public static final int EvtAnimatorParameterNotify = 28190;
     public static final int EvtAnimatorStateChangedNotify = 3032;
     public static final int EvtAvatarEnterFocusNotify = 29028;
-    public static final int EvtAvatarExitFocusNotify = 26824; // t
+    public static final int EvtAvatarExitFocusNotify = 26824;
     public static final int EvtAvatarUpdateFocusNotify = 27814;
     public static final int EvtBulletDeactiveNotify = 1; // t
     public static final int EvtBulletMoveNotify = 4418;
@@ -227,32 +227,32 @@ public final class PacketOpcodes {
     public static final int EvtRushMoveNotify = 23888;
     public static final int EvtSetAttackTargetNotify = 24448;
     // Player - Misc
-    public static final int AvatarChangeAnimHashReq = 1;
-	public static final int AvatarChangeAnimHashRsp = 1;
-    public static final int PlayerLogoutReq = 1;
-    public static final int AvatarDieAnimationEndReq = 1;
-    public static final int AvatarDieAnimationEndRsp = 1;
-    public static final int AvatarChangeElementTypeReq = 1;
+    public static final int AvatarChangeAnimHashReq = 25322;
+	public static final int AvatarChangeAnimHashRsp = 26243;
+    public static final int PlayerLogoutReq = 1941;
+    public static final int AvatarDieAnimationEndReq = 23969;
+    public static final int AvatarDieAnimationEndRsp = 24078;
+    public static final int AvatarChangeElementTypeReq = 21805;
     public static final int AvatarChangeElementTypeRsp = 1;
-    public static final int AvatarEnterElementViewNotify = 1;
-    public static final int AvatarFetterDataNotify = 1;
-    public static final int DelMailReq = 1;
-    public static final int DelMailRsp = 1;
-    public static final int GetAllMailNotify = 1;
-    public static final int ChangeMailStarNotify = 1;
-    public static final int GetAllMailReq = 1;
-    public static final int GetAllMailRsp = 1;
-    public static final int GetAllMailResultNotify = 1;
-    public static final int ReadMailNotify = 1;
-    public static final int GetMailItemReq = 1;
-    public static final int GetMailItemRsp = 1;
-    public static final int MailChangeNotify = 1;
-    public static final int AchievementAllDataNotify = 1;
-    public static final int AchievementUpdateNotify = 1;
-    public static final int SetPlayerPropReq = 1;
+    public static final int AvatarEnterElementViewNotify = 8839;
+    public static final int AvatarFetterDataNotify = 7267;
+    public static final int DelMailReq = 26066;
+    public static final int DelMailRsp = 26606;
+    public static final int GetAllMailNotify = 976;
+    public static final int ChangeMailStarNotify = 27799;
+    public static final int GetAllMailReq = 23867;
+    public static final int GetAllMailRsp = 6615;
+    public static final int GetAllMailResultNotify = 3819;
+    public static final int ReadMailNotify = 4523;
+    public static final int GetMailItemReq = 26774;
+    public static final int GetMailItemRsp = 28599;
+    public static final int MailChangeNotify = 23015;
+    public static final int AchievementAllDataNotify = 8231;
+    public static final int AchievementUpdateNotify = 3766;
+    public static final int SetPlayerPropReq = 20287;
 
     // Combat misc
-    public static final int BossChestActivateNotify = 1;
+    public static final int BossChestActivateNotify = 1249;
     
     // Scene Entities
     public static final int EvtAiSyncCombatThreatInfoNotify = 1;

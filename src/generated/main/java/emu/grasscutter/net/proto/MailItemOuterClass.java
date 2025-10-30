@@ -852,8 +852,8 @@ public final class MailItemOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016MailItem.proto\032\020EquipParam.proto\032\030Mate" +
-      "rialDeleteInfo.proto\"V\n\010MailItem\022(\n\013dele" +
+      "\n\016MailItem.proto\032\030MaterialDeleteInfo.pro" +
+      "to\032\020EquipParam.proto\"V\n\010MailItem\022(\n\013dele" +
       "te_info\030\002 \001(\0132\023.MaterialDeleteInfo\022 \n\013eq" +
       "uip_param\030\001 \001(\0132\013.EquipParamB\033\n\031emu.gras" +
       "scutter.net.protob\006proto3"
@@ -861,8 +861,8 @@ public final class MailItemOuterClass {
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.EquipParamOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.EquipParamOuterClass.getDescriptor(),
         });
     internal_static_MailItem_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -870,8 +870,8 @@ public final class MailItemOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MailItem_descriptor,
         new java.lang.String[] { "DeleteInfo", "EquipParam", });
-    emu.grasscutter.net.proto.EquipParamOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.EquipParamOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

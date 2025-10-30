@@ -19,64 +19,64 @@ public final class GetAllMailResultNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData> 
         getMailListList();
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     emu.grasscutter.net.proto.MailDataOuterClass.MailData getMailList(int index);
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     int getMailListCount();
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder> 
         getMailListOrBuilderList();
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder getMailListOrBuilder(
         int index);
 
     /**
-     * <code>string transaction = 13;</code>
+     * <code>string transaction = 12;</code>
      * @return The transaction.
      */
     java.lang.String getTransaction();
     /**
-     * <code>string transaction = 13;</code>
+     * <code>string transaction = 12;</code>
      * @return The bytes for transaction.
      */
     com.google.protobuf.ByteString
         getTransactionBytes();
 
     /**
-     * <code>uint32 page_index = 6;</code>
-     * @return The pageIndex.
-     */
-    int getPageIndex();
-
-    /**
-     * <code>bool is_collected = 3;</code>
-     * @return The isCollected.
-     */
-    boolean getIsCollected();
-
-    /**
-     * <code>int32 retcode = 8;</code>
+     * <code>int32 retcode = 2;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <code>uint32 total_page_count = 4;</code>
-     * @return The totalPageCount.
+     * <code>uint32 OKMDNJELKJP = 3;</code>
+     * @return The oKMDNJELKJP.
      */
-    int getTotalPageCount();
+    int getOKMDNJELKJP();
+
+    /**
+     * <code>bool is_collected = 5;</code>
+     * @return The isCollected.
+     */
+    boolean getIsCollected();
+
+    /**
+     * <code>uint32 EGDDPFHKBOC = 10;</code>
+     * @return The eGDDPFHKBOC.
+     */
+    int getEGDDPFHKBOC();
 
     /**
      * <pre>
@@ -100,7 +100,7 @@ public final class GetAllMailResultNotifyOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 24703
+   * CmdId: 3819
    * </pre>
    *
    * Protobuf type {@code GetAllMailResultNotify}
@@ -150,7 +150,22 @@ public final class GetAllMailResultNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 16: {
+
+              retcode_ = input.readInt32();
+              break;
+            }
+            case 24: {
+
+              oKMDNJELKJP_ = input.readUInt32();
+              break;
+            }
+            case 40: {
+
+              isCollected_ = input.readBool();
+              break;
+            }
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mailList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MailDataOuterClass.MailData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -159,27 +174,12 @@ public final class GetAllMailResultNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.MailDataOuterClass.MailData.parser(), extensionRegistry));
               break;
             }
-            case 24: {
+            case 80: {
 
-              isCollected_ = input.readBool();
+              eGDDPFHKBOC_ = input.readUInt32();
               break;
             }
-            case 32: {
-
-              totalPageCount_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              pageIndex_ = input.readUInt32();
-              break;
-            }
-            case 64: {
-
-              retcode_ = input.readInt32();
-              break;
-            }
-            case 106: {
+            case 98: {
               java.lang.String s = input.readStringRequireUtf8();
 
               transaction_ = s;
@@ -230,17 +230,17 @@ public final class GetAllMailResultNotifyOuterClass {
               emu.grasscutter.net.proto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify.class, emu.grasscutter.net.proto.GetAllMailResultNotifyOuterClass.GetAllMailResultNotify.Builder.class);
     }
 
-    public static final int MAIL_LIST_FIELD_NUMBER = 1;
+    public static final int MAIL_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData> mailList_;
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData> getMailListList() {
       return mailList_;
     }
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder> 
@@ -248,21 +248,21 @@ public final class GetAllMailResultNotifyOuterClass {
       return mailList_;
     }
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     @java.lang.Override
     public int getMailListCount() {
       return mailList_.size();
     }
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MailDataOuterClass.MailData getMailList(int index) {
       return mailList_.get(index);
     }
     /**
-     * <code>repeated .MailData mail_list = 1;</code>
+     * <code>repeated .MailData mail_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder getMailListOrBuilder(
@@ -270,10 +270,10 @@ public final class GetAllMailResultNotifyOuterClass {
       return mailList_.get(index);
     }
 
-    public static final int TRANSACTION_FIELD_NUMBER = 13;
+    public static final int TRANSACTION_FIELD_NUMBER = 12;
     private volatile java.lang.Object transaction_;
     /**
-     * <code>string transaction = 13;</code>
+     * <code>string transaction = 12;</code>
      * @return The transaction.
      */
     @java.lang.Override
@@ -290,7 +290,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
     }
     /**
-     * <code>string transaction = 13;</code>
+     * <code>string transaction = 12;</code>
      * @return The bytes for transaction.
      */
     @java.lang.Override
@@ -308,32 +308,10 @@ public final class GetAllMailResultNotifyOuterClass {
       }
     }
 
-    public static final int PAGE_INDEX_FIELD_NUMBER = 6;
-    private int pageIndex_;
-    /**
-     * <code>uint32 page_index = 6;</code>
-     * @return The pageIndex.
-     */
-    @java.lang.Override
-    public int getPageIndex() {
-      return pageIndex_;
-    }
-
-    public static final int IS_COLLECTED_FIELD_NUMBER = 3;
-    private boolean isCollected_;
-    /**
-     * <code>bool is_collected = 3;</code>
-     * @return The isCollected.
-     */
-    @java.lang.Override
-    public boolean getIsCollected() {
-      return isCollected_;
-    }
-
-    public static final int RETCODE_FIELD_NUMBER = 8;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
     /**
-     * <code>int32 retcode = 8;</code>
+     * <code>int32 retcode = 2;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -341,15 +319,37 @@ public final class GetAllMailResultNotifyOuterClass {
       return retcode_;
     }
 
-    public static final int TOTAL_PAGE_COUNT_FIELD_NUMBER = 4;
-    private int totalPageCount_;
+    public static final int OKMDNJELKJP_FIELD_NUMBER = 3;
+    private int oKMDNJELKJP_;
     /**
-     * <code>uint32 total_page_count = 4;</code>
-     * @return The totalPageCount.
+     * <code>uint32 OKMDNJELKJP = 3;</code>
+     * @return The oKMDNJELKJP.
      */
     @java.lang.Override
-    public int getTotalPageCount() {
-      return totalPageCount_;
+    public int getOKMDNJELKJP() {
+      return oKMDNJELKJP_;
+    }
+
+    public static final int IS_COLLECTED_FIELD_NUMBER = 5;
+    private boolean isCollected_;
+    /**
+     * <code>bool is_collected = 5;</code>
+     * @return The isCollected.
+     */
+    @java.lang.Override
+    public boolean getIsCollected() {
+      return isCollected_;
+    }
+
+    public static final int EGDDPFHKBOC_FIELD_NUMBER = 10;
+    private int eGDDPFHKBOC_;
+    /**
+     * <code>uint32 EGDDPFHKBOC = 10;</code>
+     * @return The eGDDPFHKBOC.
+     */
+    @java.lang.Override
+    public int getEGDDPFHKBOC() {
+      return eGDDPFHKBOC_;
     }
 
     public static final int PACKET_BE_SENT_NUM_FIELD_NUMBER = 3131;
@@ -396,23 +396,23 @@ public final class GetAllMailResultNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < mailList_.size(); i++) {
-        output.writeMessage(1, mailList_.get(i));
+      if (retcode_ != 0) {
+        output.writeInt32(2, retcode_);
+      }
+      if (oKMDNJELKJP_ != 0) {
+        output.writeUInt32(3, oKMDNJELKJP_);
       }
       if (isCollected_ != false) {
-        output.writeBool(3, isCollected_);
+        output.writeBool(5, isCollected_);
       }
-      if (totalPageCount_ != 0) {
-        output.writeUInt32(4, totalPageCount_);
+      for (int i = 0; i < mailList_.size(); i++) {
+        output.writeMessage(8, mailList_.get(i));
       }
-      if (pageIndex_ != 0) {
-        output.writeUInt32(6, pageIndex_);
-      }
-      if (retcode_ != 0) {
-        output.writeInt32(8, retcode_);
+      if (eGDDPFHKBOC_ != 0) {
+        output.writeUInt32(10, eGDDPFHKBOC_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(transaction_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, transaction_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, transaction_);
       }
       if (packetNum_ != 0) {
         output.writeUInt32(31, packetNum_);
@@ -429,28 +429,28 @@ public final class GetAllMailResultNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < mailList_.size(); i++) {
+      if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, mailList_.get(i));
+          .computeInt32Size(2, retcode_);
+      }
+      if (oKMDNJELKJP_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, oKMDNJELKJP_);
       }
       if (isCollected_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isCollected_);
+          .computeBoolSize(5, isCollected_);
       }
-      if (totalPageCount_ != 0) {
+      for (int i = 0; i < mailList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, totalPageCount_);
+          .computeMessageSize(8, mailList_.get(i));
       }
-      if (pageIndex_ != 0) {
+      if (eGDDPFHKBOC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, pageIndex_);
-      }
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, retcode_);
+          .computeUInt32Size(10, eGDDPFHKBOC_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(transaction_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, transaction_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, transaction_);
       }
       if (packetNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -479,14 +479,14 @@ public final class GetAllMailResultNotifyOuterClass {
           .equals(other.getMailListList())) return false;
       if (!getTransaction()
           .equals(other.getTransaction())) return false;
-      if (getPageIndex()
-          != other.getPageIndex()) return false;
-      if (getIsCollected()
-          != other.getIsCollected()) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
-      if (getTotalPageCount()
-          != other.getTotalPageCount()) return false;
+      if (getOKMDNJELKJP()
+          != other.getOKMDNJELKJP()) return false;
+      if (getIsCollected()
+          != other.getIsCollected()) return false;
+      if (getEGDDPFHKBOC()
+          != other.getEGDDPFHKBOC()) return false;
       if (getPacketBeSentNum()
           != other.getPacketBeSentNum()) return false;
       if (getPacketNum()
@@ -508,15 +508,15 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       hash = (37 * hash) + TRANSACTION_FIELD_NUMBER;
       hash = (53 * hash) + getTransaction().hashCode();
-      hash = (37 * hash) + PAGE_INDEX_FIELD_NUMBER;
-      hash = (53 * hash) + getPageIndex();
+      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getRetcode();
+      hash = (37 * hash) + OKMDNJELKJP_FIELD_NUMBER;
+      hash = (53 * hash) + getOKMDNJELKJP();
       hash = (37 * hash) + IS_COLLECTED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsCollected());
-      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getRetcode();
-      hash = (37 * hash) + TOTAL_PAGE_COUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getTotalPageCount();
+      hash = (37 * hash) + EGDDPFHKBOC_FIELD_NUMBER;
+      hash = (53 * hash) + getEGDDPFHKBOC();
       hash = (37 * hash) + PACKET_BE_SENT_NUM_FIELD_NUMBER;
       hash = (53 * hash) + getPacketBeSentNum();
       hash = (37 * hash) + PACKET_NUM_FIELD_NUMBER;
@@ -618,7 +618,7 @@ public final class GetAllMailResultNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 24703
+     * CmdId: 3819
      * </pre>
      *
      * Protobuf type {@code GetAllMailResultNotify}
@@ -667,13 +667,13 @@ public final class GetAllMailResultNotifyOuterClass {
         }
         transaction_ = "";
 
-        pageIndex_ = 0;
+        retcode_ = 0;
+
+        oKMDNJELKJP_ = 0;
 
         isCollected_ = false;
 
-        retcode_ = 0;
-
-        totalPageCount_ = 0;
+        eGDDPFHKBOC_ = 0;
 
         packetBeSentNum_ = 0;
 
@@ -716,10 +716,10 @@ public final class GetAllMailResultNotifyOuterClass {
           result.mailList_ = mailListBuilder_.build();
         }
         result.transaction_ = transaction_;
-        result.pageIndex_ = pageIndex_;
-        result.isCollected_ = isCollected_;
         result.retcode_ = retcode_;
-        result.totalPageCount_ = totalPageCount_;
+        result.oKMDNJELKJP_ = oKMDNJELKJP_;
+        result.isCollected_ = isCollected_;
+        result.eGDDPFHKBOC_ = eGDDPFHKBOC_;
         result.packetBeSentNum_ = packetBeSentNum_;
         result.packetNum_ = packetNum_;
         onBuilt();
@@ -800,17 +800,17 @@ public final class GetAllMailResultNotifyOuterClass {
           transaction_ = other.transaction_;
           onChanged();
         }
-        if (other.getPageIndex() != 0) {
-          setPageIndex(other.getPageIndex());
+        if (other.getRetcode() != 0) {
+          setRetcode(other.getRetcode());
+        }
+        if (other.getOKMDNJELKJP() != 0) {
+          setOKMDNJELKJP(other.getOKMDNJELKJP());
         }
         if (other.getIsCollected() != false) {
           setIsCollected(other.getIsCollected());
         }
-        if (other.getRetcode() != 0) {
-          setRetcode(other.getRetcode());
-        }
-        if (other.getTotalPageCount() != 0) {
-          setTotalPageCount(other.getTotalPageCount());
+        if (other.getEGDDPFHKBOC() != 0) {
+          setEGDDPFHKBOC(other.getEGDDPFHKBOC());
         }
         if (other.getPacketBeSentNum() != 0) {
           setPacketBeSentNum(other.getPacketBeSentNum());
@@ -861,7 +861,7 @@ public final class GetAllMailResultNotifyOuterClass {
           emu.grasscutter.net.proto.MailDataOuterClass.MailData, emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder, emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder> mailListBuilder_;
 
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData> getMailListList() {
         if (mailListBuilder_ == null) {
@@ -871,7 +871,7 @@ public final class GetAllMailResultNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public int getMailListCount() {
         if (mailListBuilder_ == null) {
@@ -881,7 +881,7 @@ public final class GetAllMailResultNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public emu.grasscutter.net.proto.MailDataOuterClass.MailData getMailList(int index) {
         if (mailListBuilder_ == null) {
@@ -891,7 +891,7 @@ public final class GetAllMailResultNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public Builder setMailList(
           int index, emu.grasscutter.net.proto.MailDataOuterClass.MailData value) {
@@ -908,7 +908,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public Builder setMailList(
           int index, emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder builderForValue) {
@@ -922,7 +922,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public Builder addMailList(emu.grasscutter.net.proto.MailDataOuterClass.MailData value) {
         if (mailListBuilder_ == null) {
@@ -938,7 +938,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public Builder addMailList(
           int index, emu.grasscutter.net.proto.MailDataOuterClass.MailData value) {
@@ -955,7 +955,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public Builder addMailList(
           emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder builderForValue) {
@@ -969,7 +969,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public Builder addMailList(
           int index, emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder builderForValue) {
@@ -983,7 +983,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public Builder addAllMailList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailData> values) {
@@ -998,7 +998,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public Builder clearMailList() {
         if (mailListBuilder_ == null) {
@@ -1011,7 +1011,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public Builder removeMailList(int index) {
         if (mailListBuilder_ == null) {
@@ -1024,14 +1024,14 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder getMailListBuilder(
           int index) {
         return getMailListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder getMailListOrBuilder(
           int index) {
@@ -1041,7 +1041,7 @@ public final class GetAllMailResultNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.MailDataOuterClass.MailDataOrBuilder> 
            getMailListOrBuilderList() {
@@ -1052,14 +1052,14 @@ public final class GetAllMailResultNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder addMailListBuilder() {
         return getMailListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.MailDataOuterClass.MailData.getDefaultInstance());
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder addMailListBuilder(
           int index) {
@@ -1067,7 +1067,7 @@ public final class GetAllMailResultNotifyOuterClass {
             index, emu.grasscutter.net.proto.MailDataOuterClass.MailData.getDefaultInstance());
       }
       /**
-       * <code>repeated .MailData mail_list = 1;</code>
+       * <code>repeated .MailData mail_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData.Builder> 
            getMailListBuilderList() {
@@ -1090,7 +1090,7 @@ public final class GetAllMailResultNotifyOuterClass {
 
       private java.lang.Object transaction_ = "";
       /**
-       * <code>string transaction = 13;</code>
+       * <code>string transaction = 12;</code>
        * @return The transaction.
        */
       public java.lang.String getTransaction() {
@@ -1106,7 +1106,7 @@ public final class GetAllMailResultNotifyOuterClass {
         }
       }
       /**
-       * <code>string transaction = 13;</code>
+       * <code>string transaction = 12;</code>
        * @return The bytes for transaction.
        */
       public com.google.protobuf.ByteString
@@ -1123,7 +1123,7 @@ public final class GetAllMailResultNotifyOuterClass {
         }
       }
       /**
-       * <code>string transaction = 13;</code>
+       * <code>string transaction = 12;</code>
        * @param value The transaction to set.
        * @return This builder for chaining.
        */
@@ -1138,7 +1138,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>string transaction = 13;</code>
+       * <code>string transaction = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearTransaction() {
@@ -1148,7 +1148,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>string transaction = 13;</code>
+       * <code>string transaction = 12;</code>
        * @param value The bytes for transaction to set.
        * @return This builder for chaining.
        */
@@ -1164,71 +1164,9 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
 
-      private int pageIndex_ ;
-      /**
-       * <code>uint32 page_index = 6;</code>
-       * @return The pageIndex.
-       */
-      @java.lang.Override
-      public int getPageIndex() {
-        return pageIndex_;
-      }
-      /**
-       * <code>uint32 page_index = 6;</code>
-       * @param value The pageIndex to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPageIndex(int value) {
-        
-        pageIndex_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 page_index = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPageIndex() {
-        
-        pageIndex_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean isCollected_ ;
-      /**
-       * <code>bool is_collected = 3;</code>
-       * @return The isCollected.
-       */
-      @java.lang.Override
-      public boolean getIsCollected() {
-        return isCollected_;
-      }
-      /**
-       * <code>bool is_collected = 3;</code>
-       * @param value The isCollected to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsCollected(boolean value) {
-        
-        isCollected_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_collected = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsCollected() {
-        
-        isCollected_ = false;
-        onChanged();
-        return this;
-      }
-
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 2;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -1236,7 +1174,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 2;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -1247,7 +1185,7 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -1257,33 +1195,95 @@ public final class GetAllMailResultNotifyOuterClass {
         return this;
       }
 
-      private int totalPageCount_ ;
+      private int oKMDNJELKJP_ ;
       /**
-       * <code>uint32 total_page_count = 4;</code>
-       * @return The totalPageCount.
+       * <code>uint32 OKMDNJELKJP = 3;</code>
+       * @return The oKMDNJELKJP.
        */
       @java.lang.Override
-      public int getTotalPageCount() {
-        return totalPageCount_;
+      public int getOKMDNJELKJP() {
+        return oKMDNJELKJP_;
       }
       /**
-       * <code>uint32 total_page_count = 4;</code>
-       * @param value The totalPageCount to set.
+       * <code>uint32 OKMDNJELKJP = 3;</code>
+       * @param value The oKMDNJELKJP to set.
        * @return This builder for chaining.
        */
-      public Builder setTotalPageCount(int value) {
+      public Builder setOKMDNJELKJP(int value) {
         
-        totalPageCount_ = value;
+        oKMDNJELKJP_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 total_page_count = 4;</code>
+       * <code>uint32 OKMDNJELKJP = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearTotalPageCount() {
+      public Builder clearOKMDNJELKJP() {
         
-        totalPageCount_ = 0;
+        oKMDNJELKJP_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean isCollected_ ;
+      /**
+       * <code>bool is_collected = 5;</code>
+       * @return The isCollected.
+       */
+      @java.lang.Override
+      public boolean getIsCollected() {
+        return isCollected_;
+      }
+      /**
+       * <code>bool is_collected = 5;</code>
+       * @param value The isCollected to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsCollected(boolean value) {
+        
+        isCollected_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_collected = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsCollected() {
+        
+        isCollected_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int eGDDPFHKBOC_ ;
+      /**
+       * <code>uint32 EGDDPFHKBOC = 10;</code>
+       * @return The eGDDPFHKBOC.
+       */
+      @java.lang.Override
+      public int getEGDDPFHKBOC() {
+        return eGDDPFHKBOC_;
+      }
+      /**
+       * <code>uint32 EGDDPFHKBOC = 10;</code>
+       * @param value The eGDDPFHKBOC to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEGDDPFHKBOC(int value) {
+        
+        eGDDPFHKBOC_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 EGDDPFHKBOC = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEGDDPFHKBOC() {
+        
+        eGDDPFHKBOC_ = 0;
         onChanged();
         return this;
       }
@@ -1441,13 +1441,13 @@ public final class GetAllMailResultNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034GetAllMailResultNotify.proto\032\016MailData" +
-      ".proto\"\321\001\n\026GetAllMailResultNotify\022\034\n\tmai" +
-      "l_list\030\001 \003(\0132\t.MailData\022\023\n\013transaction\030\r" +
-      " \001(\t\022\022\n\npage_index\030\006 \001(\r\022\024\n\014is_collected" +
-      "\030\003 \001(\010\022\017\n\007retcode\030\010 \001(\005\022\030\n\020total_page_co" +
-      "unt\030\004 \001(\r\022\033\n\022packet_be_sent_num\030\273\030 \001(\r\022\022" +
-      "\n\npacket_num\030\037 \001(\rB\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      ".proto\"\315\001\n\026GetAllMailResultNotify\022\034\n\tmai" +
+      "l_list\030\010 \003(\0132\t.MailData\022\023\n\013transaction\030\014" +
+      " \001(\t\022\017\n\007retcode\030\002 \001(\005\022\023\n\013OKMDNJELKJP\030\003 \001" +
+      "(\r\022\024\n\014is_collected\030\005 \001(\010\022\023\n\013EGDDPFHKBOC\030" +
+      "\n \001(\r\022\033\n\022packet_be_sent_num\030\273\030 \001(\r\022\022\n\npa" +
+      "cket_num\030\037 \001(\rB\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1459,7 +1459,7 @@ public final class GetAllMailResultNotifyOuterClass {
     internal_static_GetAllMailResultNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetAllMailResultNotify_descriptor,
-        new java.lang.String[] { "MailList", "Transaction", "PageIndex", "IsCollected", "Retcode", "TotalPageCount", "PacketBeSentNum", "PacketNum", });
+        new java.lang.String[] { "MailList", "Transaction", "Retcode", "OKMDNJELKJP", "IsCollected", "EGDDPFHKBOC", "PacketBeSentNum", "PacketNum", });
     emu.grasscutter.net.proto.MailDataOuterClass.getDescriptor();
   }
 

@@ -19,16 +19,16 @@ public final class MailTextContentOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string sender = 3;</code>
-     * @return The sender.
+     * <code>string content = 2;</code>
+     * @return The content.
      */
-    java.lang.String getSender();
+    java.lang.String getContent();
     /**
-     * <code>string sender = 3;</code>
-     * @return The bytes for sender.
+     * <code>string content = 2;</code>
+     * @return The bytes for content.
      */
     com.google.protobuf.ByteString
-        getSenderBytes();
+        getContentBytes();
 
     /**
      * <code>string title = 1;</code>
@@ -43,16 +43,16 @@ public final class MailTextContentOuterClass {
         getTitleBytes();
 
     /**
-     * <code>string content = 2;</code>
-     * @return The content.
+     * <code>string sender = 3;</code>
+     * @return The sender.
      */
-    java.lang.String getContent();
+    java.lang.String getSender();
     /**
-     * <code>string content = 2;</code>
-     * @return The bytes for content.
+     * <code>string sender = 3;</code>
+     * @return The bytes for sender.
      */
     com.google.protobuf.ByteString
-        getContentBytes();
+        getSenderBytes();
   }
   /**
    * Protobuf type {@code MailTextContent}
@@ -67,9 +67,9 @@ public final class MailTextContentOuterClass {
       super(builder);
     }
     private MailTextContent() {
-      sender_ = "";
-      title_ = "";
       content_ = "";
+      title_ = "";
+      sender_ = "";
     }
 
     @java.lang.Override
@@ -152,38 +152,38 @@ public final class MailTextContentOuterClass {
               emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent.class, emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent.Builder.class);
     }
 
-    public static final int SENDER_FIELD_NUMBER = 3;
-    private volatile java.lang.Object sender_;
+    public static final int CONTENT_FIELD_NUMBER = 2;
+    private volatile java.lang.Object content_;
     /**
-     * <code>string sender = 3;</code>
-     * @return The sender.
+     * <code>string content = 2;</code>
+     * @return The content.
      */
     @java.lang.Override
-    public java.lang.String getSender() {
-      java.lang.Object ref = sender_;
+    public java.lang.String getContent() {
+      java.lang.Object ref = content_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        sender_ = s;
+        content_ = s;
         return s;
       }
     }
     /**
-     * <code>string sender = 3;</code>
-     * @return The bytes for sender.
+     * <code>string content = 2;</code>
+     * @return The bytes for content.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getSenderBytes() {
-      java.lang.Object ref = sender_;
+        getContentBytes() {
+      java.lang.Object ref = content_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        sender_ = b;
+        content_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -228,38 +228,38 @@ public final class MailTextContentOuterClass {
       }
     }
 
-    public static final int CONTENT_FIELD_NUMBER = 2;
-    private volatile java.lang.Object content_;
+    public static final int SENDER_FIELD_NUMBER = 3;
+    private volatile java.lang.Object sender_;
     /**
-     * <code>string content = 2;</code>
-     * @return The content.
+     * <code>string sender = 3;</code>
+     * @return The sender.
      */
     @java.lang.Override
-    public java.lang.String getContent() {
-      java.lang.Object ref = content_;
+    public java.lang.String getSender() {
+      java.lang.Object ref = sender_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        content_ = s;
+        sender_ = s;
         return s;
       }
     }
     /**
-     * <code>string content = 2;</code>
-     * @return The bytes for content.
+     * <code>string sender = 3;</code>
+     * @return The bytes for sender.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getContentBytes() {
-      java.lang.Object ref = content_;
+        getSenderBytes() {
+      java.lang.Object ref = sender_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        content_ = b;
+        sender_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -322,12 +322,12 @@ public final class MailTextContentOuterClass {
       }
       emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent other = (emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent) obj;
 
-      if (!getSender()
-          .equals(other.getSender())) return false;
-      if (!getTitle()
-          .equals(other.getTitle())) return false;
       if (!getContent()
           .equals(other.getContent())) return false;
+      if (!getTitle()
+          .equals(other.getTitle())) return false;
+      if (!getSender()
+          .equals(other.getSender())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -339,12 +339,12 @@ public final class MailTextContentOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + SENDER_FIELD_NUMBER;
-      hash = (53 * hash) + getSender().hashCode();
-      hash = (37 * hash) + TITLE_FIELD_NUMBER;
-      hash = (53 * hash) + getTitle().hashCode();
       hash = (37 * hash) + CONTENT_FIELD_NUMBER;
       hash = (53 * hash) + getContent().hashCode();
+      hash = (37 * hash) + TITLE_FIELD_NUMBER;
+      hash = (53 * hash) + getTitle().hashCode();
+      hash = (37 * hash) + SENDER_FIELD_NUMBER;
+      hash = (53 * hash) + getSender().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -478,11 +478,11 @@ public final class MailTextContentOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        sender_ = "";
+        content_ = "";
 
         title_ = "";
 
-        content_ = "";
+        sender_ = "";
 
         return this;
       }
@@ -510,9 +510,9 @@ public final class MailTextContentOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent buildPartial() {
         emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent result = new emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent(this);
-        result.sender_ = sender_;
-        result.title_ = title_;
         result.content_ = content_;
+        result.title_ = title_;
+        result.sender_ = sender_;
         onBuilt();
         return result;
       }
@@ -561,16 +561,16 @@ public final class MailTextContentOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent other) {
         if (other == emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent.getDefaultInstance()) return this;
-        if (!other.getSender().isEmpty()) {
-          sender_ = other.sender_;
+        if (!other.getContent().isEmpty()) {
+          content_ = other.content_;
           onChanged();
         }
         if (!other.getTitle().isEmpty()) {
           title_ = other.title_;
           onChanged();
         }
-        if (!other.getContent().isEmpty()) {
-          content_ = other.content_;
+        if (!other.getSender().isEmpty()) {
+          sender_ = other.sender_;
           onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
@@ -602,78 +602,78 @@ public final class MailTextContentOuterClass {
         return this;
       }
 
-      private java.lang.Object sender_ = "";
+      private java.lang.Object content_ = "";
       /**
-       * <code>string sender = 3;</code>
-       * @return The sender.
+       * <code>string content = 2;</code>
+       * @return The content.
        */
-      public java.lang.String getSender() {
-        java.lang.Object ref = sender_;
+      public java.lang.String getContent() {
+        java.lang.Object ref = content_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          sender_ = s;
+          content_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string sender = 3;</code>
-       * @return The bytes for sender.
+       * <code>string content = 2;</code>
+       * @return The bytes for content.
        */
       public com.google.protobuf.ByteString
-          getSenderBytes() {
-        java.lang.Object ref = sender_;
+          getContentBytes() {
+        java.lang.Object ref = content_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          sender_ = b;
+          content_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string sender = 3;</code>
-       * @param value The sender to set.
+       * <code>string content = 2;</code>
+       * @param value The content to set.
        * @return This builder for chaining.
        */
-      public Builder setSender(
+      public Builder setContent(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        sender_ = value;
+        content_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string sender = 3;</code>
+       * <code>string content = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearSender() {
+      public Builder clearContent() {
         
-        sender_ = getDefaultInstance().getSender();
+        content_ = getDefaultInstance().getContent();
         onChanged();
         return this;
       }
       /**
-       * <code>string sender = 3;</code>
-       * @param value The bytes for sender to set.
+       * <code>string content = 2;</code>
+       * @param value The bytes for content to set.
        * @return This builder for chaining.
        */
-      public Builder setSenderBytes(
+      public Builder setContentBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        sender_ = value;
+        content_ = value;
         onChanged();
         return this;
       }
@@ -754,78 +754,78 @@ public final class MailTextContentOuterClass {
         return this;
       }
 
-      private java.lang.Object content_ = "";
+      private java.lang.Object sender_ = "";
       /**
-       * <code>string content = 2;</code>
-       * @return The content.
+       * <code>string sender = 3;</code>
+       * @return The sender.
        */
-      public java.lang.String getContent() {
-        java.lang.Object ref = content_;
+      public java.lang.String getSender() {
+        java.lang.Object ref = sender_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          content_ = s;
+          sender_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string content = 2;</code>
-       * @return The bytes for content.
+       * <code>string sender = 3;</code>
+       * @return The bytes for sender.
        */
       public com.google.protobuf.ByteString
-          getContentBytes() {
-        java.lang.Object ref = content_;
+          getSenderBytes() {
+        java.lang.Object ref = sender_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          content_ = b;
+          sender_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string content = 2;</code>
-       * @param value The content to set.
+       * <code>string sender = 3;</code>
+       * @param value The sender to set.
        * @return This builder for chaining.
        */
-      public Builder setContent(
+      public Builder setSender(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        content_ = value;
+        sender_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string content = 2;</code>
+       * <code>string sender = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearContent() {
+      public Builder clearSender() {
         
-        content_ = getDefaultInstance().getContent();
+        sender_ = getDefaultInstance().getSender();
         onChanged();
         return this;
       }
       /**
-       * <code>string content = 2;</code>
-       * @param value The bytes for content to set.
+       * <code>string sender = 3;</code>
+       * @param value The bytes for sender to set.
        * @return This builder for chaining.
        */
-      public Builder setContentBytes(
+      public Builder setSenderBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        content_ = value;
+        sender_ = value;
         onChanged();
         return this;
       }
@@ -897,8 +897,8 @@ public final class MailTextContentOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025MailTextContent.proto\"A\n\017MailTextConte" +
-      "nt\022\016\n\006sender\030\003 \001(\t\022\r\n\005title\030\001 \001(\t\022\017\n\007con" +
-      "tent\030\002 \001(\tB\033\n\031emu.grasscutter.net.protob" +
+      "nt\022\017\n\007content\030\002 \001(\t\022\r\n\005title\030\001 \001(\t\022\016\n\006se" +
+      "nder\030\003 \001(\tB\033\n\031emu.grasscutter.net.protob" +
       "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -910,7 +910,7 @@ public final class MailTextContentOuterClass {
     internal_static_MailTextContent_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MailTextContent_descriptor,
-        new java.lang.String[] { "Sender", "Title", "Content", });
+        new java.lang.String[] { "Content", "Title", "Sender", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

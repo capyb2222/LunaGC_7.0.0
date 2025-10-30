@@ -19,6 +19,23 @@ public final class AchievementAllDataNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+     * @return A list containing the rewardTakenGoalIdList.
+     */
+    java.util.List<java.lang.Integer> getRewardTakenGoalIdListList();
+    /**
+     * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+     * @return The count of rewardTakenGoalIdList.
+     */
+    int getRewardTakenGoalIdListCount();
+    /**
+     * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+     * @param index The index of the element to return.
+     * @return The rewardTakenGoalIdList at the given index.
+     */
+    int getRewardTakenGoalIdList(int index);
+
+    /**
      * <code>repeated .Achievement achievement_list = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.AchievementOuterClass.Achievement> 
@@ -41,27 +58,10 @@ public final class AchievementAllDataNotifyOuterClass {
      */
     emu.grasscutter.net.proto.AchievementOuterClass.AchievementOrBuilder getAchievementListOrBuilder(
         int index);
-
-    /**
-     * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-     * @return A list containing the rewardTakenGoalIdList.
-     */
-    java.util.List<java.lang.Integer> getRewardTakenGoalIdListList();
-    /**
-     * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-     * @return The count of rewardTakenGoalIdList.
-     */
-    int getRewardTakenGoalIdListCount();
-    /**
-     * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-     * @param index The index of the element to return.
-     * @return The rewardTakenGoalIdList at the given index.
-     */
-    int getRewardTakenGoalIdList(int index);
   }
   /**
    * <pre>
-   * CmdId: 26391
+   * CmdId: 8231
    * </pre>
    *
    * Protobuf type {@code AchievementAllDataNotify}
@@ -76,8 +76,8 @@ public final class AchievementAllDataNotifyOuterClass {
       super(builder);
     }
     private AchievementAllDataNotify() {
-      achievementList_ = java.util.Collections.emptyList();
       rewardTakenGoalIdList_ = emptyIntList();
+      achievementList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -111,34 +111,34 @@ public final class AchievementAllDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                achievementList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AchievementOuterClass.Achievement>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              achievementList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.AchievementOuterClass.Achievement.parser(), extensionRegistry));
-              break;
-            }
-            case 104: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 rewardTakenGoalIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               rewardTakenGoalIdList_.addInt(input.readUInt32());
               break;
             }
-            case 106: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
                 rewardTakenGoalIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
                 rewardTakenGoalIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 66: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                achievementList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AchievementOuterClass.Achievement>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              achievementList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.AchievementOuterClass.Achievement.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -157,10 +157,10 @@ public final class AchievementAllDataNotifyOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          achievementList_ = java.util.Collections.unmodifiableList(achievementList_);
+          rewardTakenGoalIdList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          rewardTakenGoalIdList_.makeImmutable(); // C
+          achievementList_ = java.util.Collections.unmodifiableList(achievementList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -178,6 +178,34 @@ public final class AchievementAllDataNotifyOuterClass {
           .ensureFieldAccessorsInitialized(
               emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify.class, emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify.Builder.class);
     }
+
+    public static final int REWARD_TAKEN_GOAL_ID_LIST_FIELD_NUMBER = 3;
+    private com.google.protobuf.Internal.IntList rewardTakenGoalIdList_;
+    /**
+     * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+     * @return A list containing the rewardTakenGoalIdList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getRewardTakenGoalIdListList() {
+      return rewardTakenGoalIdList_;
+    }
+    /**
+     * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+     * @return The count of rewardTakenGoalIdList.
+     */
+    public int getRewardTakenGoalIdListCount() {
+      return rewardTakenGoalIdList_.size();
+    }
+    /**
+     * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+     * @param index The index of the element to return.
+     * @return The rewardTakenGoalIdList at the given index.
+     */
+    public int getRewardTakenGoalIdList(int index) {
+      return rewardTakenGoalIdList_.getInt(index);
+    }
+    private int rewardTakenGoalIdListMemoizedSerializedSize = -1;
 
     public static final int ACHIEVEMENT_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.AchievementOuterClass.Achievement> achievementList_;
@@ -219,34 +247,6 @@ public final class AchievementAllDataNotifyOuterClass {
       return achievementList_.get(index);
     }
 
-    public static final int REWARD_TAKEN_GOAL_ID_LIST_FIELD_NUMBER = 13;
-    private com.google.protobuf.Internal.IntList rewardTakenGoalIdList_;
-    /**
-     * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-     * @return A list containing the rewardTakenGoalIdList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getRewardTakenGoalIdListList() {
-      return rewardTakenGoalIdList_;
-    }
-    /**
-     * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-     * @return The count of rewardTakenGoalIdList.
-     */
-    public int getRewardTakenGoalIdListCount() {
-      return rewardTakenGoalIdList_.size();
-    }
-    /**
-     * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-     * @param index The index of the element to return.
-     * @return The rewardTakenGoalIdList at the given index.
-     */
-    public int getRewardTakenGoalIdList(int index) {
-      return rewardTakenGoalIdList_.getInt(index);
-    }
-    private int rewardTakenGoalIdListMemoizedSerializedSize = -1;
-
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -262,15 +262,15 @@ public final class AchievementAllDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      for (int i = 0; i < achievementList_.size(); i++) {
-        output.writeMessage(8, achievementList_.get(i));
-      }
       if (getRewardTakenGoalIdListList().size() > 0) {
-        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(rewardTakenGoalIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < rewardTakenGoalIdList_.size(); i++) {
         output.writeUInt32NoTag(rewardTakenGoalIdList_.getInt(i));
+      }
+      for (int i = 0; i < achievementList_.size(); i++) {
+        output.writeMessage(8, achievementList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -281,10 +281,6 @@ public final class AchievementAllDataNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < achievementList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, achievementList_.get(i));
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < rewardTakenGoalIdList_.size(); i++) {
@@ -298,6 +294,10 @@ public final class AchievementAllDataNotifyOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         rewardTakenGoalIdListMemoizedSerializedSize = dataSize;
+      }
+      for (int i = 0; i < achievementList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(8, achievementList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -314,10 +314,10 @@ public final class AchievementAllDataNotifyOuterClass {
       }
       emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify other = (emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify) obj;
 
-      if (!getAchievementListList()
-          .equals(other.getAchievementListList())) return false;
       if (!getRewardTakenGoalIdListList()
           .equals(other.getRewardTakenGoalIdListList())) return false;
+      if (!getAchievementListList()
+          .equals(other.getAchievementListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -329,13 +329,13 @@ public final class AchievementAllDataNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getAchievementListCount() > 0) {
-        hash = (37 * hash) + ACHIEVEMENT_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getAchievementListList().hashCode();
-      }
       if (getRewardTakenGoalIdListCount() > 0) {
         hash = (37 * hash) + REWARD_TAKEN_GOAL_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getRewardTakenGoalIdListList().hashCode();
+      }
+      if (getAchievementListCount() > 0) {
+        hash = (37 * hash) + ACHIEVEMENT_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getAchievementListList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -434,7 +434,7 @@ public final class AchievementAllDataNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 26391
+     * CmdId: 8231
      * </pre>
      *
      * Protobuf type {@code AchievementAllDataNotify}
@@ -475,14 +475,14 @@ public final class AchievementAllDataNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        rewardTakenGoalIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         if (achievementListBuilder_ == null) {
           achievementList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           achievementListBuilder_.clear();
         }
-        rewardTakenGoalIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
 
@@ -510,20 +510,20 @@ public final class AchievementAllDataNotifyOuterClass {
       public emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify buildPartial() {
         emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify result = new emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify(this);
         int from_bitField0_ = bitField0_;
+        if (((bitField0_ & 0x00000001) != 0)) {
+          rewardTakenGoalIdList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.rewardTakenGoalIdList_ = rewardTakenGoalIdList_;
         if (achievementListBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
+          if (((bitField0_ & 0x00000002) != 0)) {
             achievementList_ = java.util.Collections.unmodifiableList(achievementList_);
-            bitField0_ = (bitField0_ & ~0x00000001);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.achievementList_ = achievementList_;
         } else {
           result.achievementList_ = achievementListBuilder_.build();
         }
-        if (((bitField0_ & 0x00000002) != 0)) {
-          rewardTakenGoalIdList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.rewardTakenGoalIdList_ = rewardTakenGoalIdList_;
         onBuilt();
         return result;
       }
@@ -572,11 +572,21 @@ public final class AchievementAllDataNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify other) {
         if (other == emu.grasscutter.net.proto.AchievementAllDataNotifyOuterClass.AchievementAllDataNotify.getDefaultInstance()) return this;
+        if (!other.rewardTakenGoalIdList_.isEmpty()) {
+          if (rewardTakenGoalIdList_.isEmpty()) {
+            rewardTakenGoalIdList_ = other.rewardTakenGoalIdList_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureRewardTakenGoalIdListIsMutable();
+            rewardTakenGoalIdList_.addAll(other.rewardTakenGoalIdList_);
+          }
+          onChanged();
+        }
         if (achievementListBuilder_ == null) {
           if (!other.achievementList_.isEmpty()) {
             if (achievementList_.isEmpty()) {
               achievementList_ = other.achievementList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureAchievementListIsMutable();
               achievementList_.addAll(other.achievementList_);
@@ -589,7 +599,7 @@ public final class AchievementAllDataNotifyOuterClass {
               achievementListBuilder_.dispose();
               achievementListBuilder_ = null;
               achievementList_ = other.achievementList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000002);
               achievementListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAchievementListFieldBuilder() : null;
@@ -597,16 +607,6 @@ public final class AchievementAllDataNotifyOuterClass {
               achievementListBuilder_.addAllMessages(other.achievementList_);
             }
           }
-        }
-        if (!other.rewardTakenGoalIdList_.isEmpty()) {
-          if (rewardTakenGoalIdList_.isEmpty()) {
-            rewardTakenGoalIdList_ = other.rewardTakenGoalIdList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureRewardTakenGoalIdListIsMutable();
-            rewardTakenGoalIdList_.addAll(other.rewardTakenGoalIdList_);
-          }
-          onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -638,12 +638,91 @@ public final class AchievementAllDataNotifyOuterClass {
       }
       private int bitField0_;
 
+      private com.google.protobuf.Internal.IntList rewardTakenGoalIdList_ = emptyIntList();
+      private void ensureRewardTakenGoalIdListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          rewardTakenGoalIdList_ = mutableCopy(rewardTakenGoalIdList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+       * @return A list containing the rewardTakenGoalIdList.
+       */
+      public java.util.List<java.lang.Integer>
+          getRewardTakenGoalIdListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(rewardTakenGoalIdList_) : rewardTakenGoalIdList_;
+      }
+      /**
+       * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+       * @return The count of rewardTakenGoalIdList.
+       */
+      public int getRewardTakenGoalIdListCount() {
+        return rewardTakenGoalIdList_.size();
+      }
+      /**
+       * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+       * @param index The index of the element to return.
+       * @return The rewardTakenGoalIdList at the given index.
+       */
+      public int getRewardTakenGoalIdList(int index) {
+        return rewardTakenGoalIdList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+       * @param index The index to set the value at.
+       * @param value The rewardTakenGoalIdList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRewardTakenGoalIdList(
+          int index, int value) {
+        ensureRewardTakenGoalIdListIsMutable();
+        rewardTakenGoalIdList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+       * @param value The rewardTakenGoalIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addRewardTakenGoalIdList(int value) {
+        ensureRewardTakenGoalIdListIsMutable();
+        rewardTakenGoalIdList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+       * @param values The rewardTakenGoalIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllRewardTakenGoalIdList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureRewardTakenGoalIdListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, rewardTakenGoalIdList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 reward_taken_goal_id_list = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRewardTakenGoalIdList() {
+        rewardTakenGoalIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
       private java.util.List<emu.grasscutter.net.proto.AchievementOuterClass.Achievement> achievementList_ =
         java.util.Collections.emptyList();
       private void ensureAchievementListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
+        if (!((bitField0_ & 0x00000002) != 0)) {
           achievementList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AchievementOuterClass.Achievement>(achievementList_);
-          bitField0_ |= 0x00000001;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -793,7 +872,7 @@ public final class AchievementAllDataNotifyOuterClass {
       public Builder clearAchievementList() {
         if (achievementListBuilder_ == null) {
           achievementList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           achievementListBuilder_.clear();
@@ -870,91 +949,12 @@ public final class AchievementAllDataNotifyOuterClass {
           achievementListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.AchievementOuterClass.Achievement, emu.grasscutter.net.proto.AchievementOuterClass.Achievement.Builder, emu.grasscutter.net.proto.AchievementOuterClass.AchievementOrBuilder>(
                   achievementList_,
-                  ((bitField0_ & 0x00000001) != 0),
+                  ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
                   isClean());
           achievementList_ = null;
         }
         return achievementListBuilder_;
-      }
-
-      private com.google.protobuf.Internal.IntList rewardTakenGoalIdList_ = emptyIntList();
-      private void ensureRewardTakenGoalIdListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          rewardTakenGoalIdList_ = mutableCopy(rewardTakenGoalIdList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-       * @return A list containing the rewardTakenGoalIdList.
-       */
-      public java.util.List<java.lang.Integer>
-          getRewardTakenGoalIdListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(rewardTakenGoalIdList_) : rewardTakenGoalIdList_;
-      }
-      /**
-       * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-       * @return The count of rewardTakenGoalIdList.
-       */
-      public int getRewardTakenGoalIdListCount() {
-        return rewardTakenGoalIdList_.size();
-      }
-      /**
-       * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-       * @param index The index of the element to return.
-       * @return The rewardTakenGoalIdList at the given index.
-       */
-      public int getRewardTakenGoalIdList(int index) {
-        return rewardTakenGoalIdList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-       * @param index The index to set the value at.
-       * @param value The rewardTakenGoalIdList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRewardTakenGoalIdList(
-          int index, int value) {
-        ensureRewardTakenGoalIdListIsMutable();
-        rewardTakenGoalIdList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-       * @param value The rewardTakenGoalIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addRewardTakenGoalIdList(int value) {
-        ensureRewardTakenGoalIdListIsMutable();
-        rewardTakenGoalIdList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-       * @param values The rewardTakenGoalIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllRewardTakenGoalIdList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureRewardTakenGoalIdListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, rewardTakenGoalIdList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 reward_taken_goal_id_list = 13;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRewardTakenGoalIdList() {
-        rewardTakenGoalIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
-        return this;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -1025,8 +1025,8 @@ public final class AchievementAllDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036AchievementAllDataNotify.proto\032\021Achiev" +
       "ement.proto\"e\n\030AchievementAllDataNotify\022" +
-      "&\n\020achievement_list\030\010 \003(\0132\014.Achievement\022" +
-      "!\n\031reward_taken_goal_id_list\030\r \003(\rB\033\n\031em" +
+      "!\n\031reward_taken_goal_id_list\030\003 \003(\r\022&\n\020ac" +
+      "hievement_list\030\010 \003(\0132\014.AchievementB\033\n\031em" +
       "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1039,7 +1039,7 @@ public final class AchievementAllDataNotifyOuterClass {
     internal_static_AchievementAllDataNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AchievementAllDataNotify_descriptor,
-        new java.lang.String[] { "AchievementList", "RewardTakenGoalIdList", });
+        new java.lang.String[] { "RewardTakenGoalIdList", "AchievementList", });
     emu.grasscutter.net.proto.AchievementOuterClass.getDescriptor();
   }
 

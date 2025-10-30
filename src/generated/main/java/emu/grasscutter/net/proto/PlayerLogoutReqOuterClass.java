@@ -19,19 +19,19 @@ public final class PlayerLogoutReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.PlayerLogoutReq.Reason reason = 12;</code>
+     * <code>.PlayerLogoutReq.Reason reason = 6;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.PlayerLogoutReq.Reason reason = 12;</code>
+     * <code>.PlayerLogoutReq.Reason reason = 6;</code>
      * @return The reason.
      */
     emu.grasscutter.net.proto.PlayerLogoutReqOuterClass.PlayerLogoutReq.Reason getReason();
   }
   /**
    * <pre>
-   * CmdId: 9839
+   * CmdId: 1941
    * </pre>
    *
    * Protobuf type {@code PlayerLogoutReq}
@@ -79,7 +79,7 @@ public final class PlayerLogoutReqOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 48: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
@@ -288,17 +288,17 @@ public final class PlayerLogoutReqOuterClass {
       // @@protoc_insertion_point(enum_scope:PlayerLogoutReq.Reason)
     }
 
-    public static final int REASON_FIELD_NUMBER = 12;
+    public static final int REASON_FIELD_NUMBER = 6;
     private int reason_;
     /**
-     * <code>.PlayerLogoutReq.Reason reason = 12;</code>
+     * <code>.PlayerLogoutReq.Reason reason = 6;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.PlayerLogoutReq.Reason reason = 12;</code>
+     * <code>.PlayerLogoutReq.Reason reason = 6;</code>
      * @return The reason.
      */
     @java.lang.Override public emu.grasscutter.net.proto.PlayerLogoutReqOuterClass.PlayerLogoutReq.Reason getReason() {
@@ -322,7 +322,7 @@ public final class PlayerLogoutReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (reason_ != emu.grasscutter.net.proto.PlayerLogoutReqOuterClass.PlayerLogoutReq.Reason.REASON_DISCONNECT.getNumber()) {
-        output.writeEnum(12, reason_);
+        output.writeEnum(6, reason_);
       }
       unknownFields.writeTo(output);
     }
@@ -335,7 +335,7 @@ public final class PlayerLogoutReqOuterClass {
       size = 0;
       if (reason_ != emu.grasscutter.net.proto.PlayerLogoutReqOuterClass.PlayerLogoutReq.Reason.REASON_DISCONNECT.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(12, reason_);
+          .computeEnumSize(6, reason_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -463,7 +463,7 @@ public final class PlayerLogoutReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 9839
+     * CmdId: 1941
      * </pre>
      *
      * Protobuf type {@code PlayerLogoutReq}
@@ -614,14 +614,14 @@ public final class PlayerLogoutReqOuterClass {
 
       private int reason_ = 0;
       /**
-       * <code>.PlayerLogoutReq.Reason reason = 12;</code>
+       * <code>.PlayerLogoutReq.Reason reason = 6;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.PlayerLogoutReq.Reason reason = 12;</code>
+       * <code>.PlayerLogoutReq.Reason reason = 6;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -632,7 +632,7 @@ public final class PlayerLogoutReqOuterClass {
         return this;
       }
       /**
-       * <code>.PlayerLogoutReq.Reason reason = 12;</code>
+       * <code>.PlayerLogoutReq.Reason reason = 6;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -642,7 +642,7 @@ public final class PlayerLogoutReqOuterClass {
         return result == null ? emu.grasscutter.net.proto.PlayerLogoutReqOuterClass.PlayerLogoutReq.Reason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.PlayerLogoutReq.Reason reason = 12;</code>
+       * <code>.PlayerLogoutReq.Reason reason = 6;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -656,7 +656,7 @@ public final class PlayerLogoutReqOuterClass {
         return this;
       }
       /**
-       * <code>.PlayerLogoutReq.Reason reason = 12;</code>
+       * <code>.PlayerLogoutReq.Reason reason = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -733,7 +733,7 @@ public final class PlayerLogoutReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025PlayerLogoutReq.proto\"\253\002\n\017PlayerLogout" +
-      "Req\022\'\n\006reason\030\014 \001(\0162\027.PlayerLogoutReq.Re" +
+      "Req\022\'\n\006reason\030\006 \001(\0162\027.PlayerLogoutReq.Re" +
       "ason\"\356\001\n\006Reason\022\025\n\021REASON_DISCONNECT\020\000\022\025" +
       "\n\021REASON_CLIENT_REQ\020\001\022\022\n\016REASON_TIMEOUT\020" +
       "\002\022\024\n\020REASON_ADMIN_REQ\020\003\022\027\n\023REASON_SERVER" +
