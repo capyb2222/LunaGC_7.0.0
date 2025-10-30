@@ -19,31 +19,37 @@ public final class DetailAbilityInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.AbilityString parent_ability_name = 11;</code>
+     * <code>.AbilityString parent_ability_name = 12;</code>
      * @return Whether the parentAbilityName field is set.
      */
     boolean hasParentAbilityName();
     /**
-     * <code>.AbilityString parent_ability_name = 11;</code>
+     * <code>.AbilityString parent_ability_name = 12;</code>
      * @return The parentAbilityName.
      */
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getParentAbilityName();
     /**
-     * <code>.AbilityString parent_ability_name = 11;</code>
+     * <code>.AbilityString parent_ability_name = 12;</code>
      */
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getParentAbilityNameOrBuilder();
 
     /**
-     * <code>uint32 instancedModifierId = 12;</code>
+     * <code>uint32 instanced_modifier_id = 13;</code>
      * @return The instancedModifierId.
      */
     int getInstancedModifierId();
 
     /**
-     * <code>int32 localId = 3;</code>
-     * @return The localId.
+     * <code>uint32 caster_id = 7;</code>
+     * @return The casterId.
      */
-    int getLocalId();
+    int getCasterId();
+
+    /**
+     * <code>int32 modifier_local_id = 10;</code>
+     * @return The modifierLocalId.
+     */
+    int getModifierLocalId();
 
     /**
      * <code>uint32 instanced_ability_id = 4;</code>
@@ -52,16 +58,10 @@ public final class DetailAbilityInfoOuterClass {
     int getInstancedAbilityId();
 
     /**
-     * <code>int32 modifier_local_id = 6;</code>
-     * @return The modifierLocalId.
+     * <code>int32 local_id = 14;</code>
+     * @return The localId.
      */
-    int getModifierLocalId();
-
-    /**
-     * <code>uint32 caster_id = 14;</code>
-     * @return The casterId.
-     */
-    int getCasterId();
+    int getLocalId();
   }
   /**
    * Protobuf type {@code DetailAbilityInfo}
@@ -108,22 +108,22 @@ public final class DetailAbilityInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              localId_ = input.readInt32();
-              break;
-            }
             case 32: {
 
               instancedAbilityId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 56: {
+
+              casterId_ = input.readUInt32();
+              break;
+            }
+            case 80: {
 
               modifierLocalId_ = input.readInt32();
               break;
             }
-            case 90: {
+            case 98: {
               emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder subBuilder = null;
               if (parentAbilityName_ != null) {
                 subBuilder = parentAbilityName_.toBuilder();
@@ -136,14 +136,14 @@ public final class DetailAbilityInfoOuterClass {
 
               break;
             }
-            case 96: {
+            case 104: {
 
               instancedModifierId_ = input.readUInt32();
               break;
             }
             case 112: {
 
-              casterId_ = input.readUInt32();
+              localId_ = input.readInt32();
               break;
             }
             default: {
@@ -178,10 +178,10 @@ public final class DetailAbilityInfoOuterClass {
               emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.class, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder.class);
     }
 
-    public static final int PARENT_ABILITY_NAME_FIELD_NUMBER = 11;
+    public static final int PARENT_ABILITY_NAME_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString parentAbilityName_;
     /**
-     * <code>.AbilityString parent_ability_name = 11;</code>
+     * <code>.AbilityString parent_ability_name = 12;</code>
      * @return Whether the parentAbilityName field is set.
      */
     @java.lang.Override
@@ -189,7 +189,7 @@ public final class DetailAbilityInfoOuterClass {
       return parentAbilityName_ != null;
     }
     /**
-     * <code>.AbilityString parent_ability_name = 11;</code>
+     * <code>.AbilityString parent_ability_name = 12;</code>
      * @return The parentAbilityName.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class DetailAbilityInfoOuterClass {
       return parentAbilityName_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : parentAbilityName_;
     }
     /**
-     * <code>.AbilityString parent_ability_name = 11;</code>
+     * <code>.AbilityString parent_ability_name = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getParentAbilityNameOrBuilder() {
       return getParentAbilityName();
     }
 
-    public static final int INSTANCEDMODIFIERID_FIELD_NUMBER = 12;
+    public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 13;
     private int instancedModifierId_;
     /**
-     * <code>uint32 instancedModifierId = 12;</code>
+     * <code>uint32 instanced_modifier_id = 13;</code>
      * @return The instancedModifierId.
      */
     @java.lang.Override
@@ -215,15 +215,26 @@ public final class DetailAbilityInfoOuterClass {
       return instancedModifierId_;
     }
 
-    public static final int LOCALID_FIELD_NUMBER = 3;
-    private int localId_;
+    public static final int CASTER_ID_FIELD_NUMBER = 7;
+    private int casterId_;
     /**
-     * <code>int32 localId = 3;</code>
-     * @return The localId.
+     * <code>uint32 caster_id = 7;</code>
+     * @return The casterId.
      */
     @java.lang.Override
-    public int getLocalId() {
-      return localId_;
+    public int getCasterId() {
+      return casterId_;
+    }
+
+    public static final int MODIFIER_LOCAL_ID_FIELD_NUMBER = 10;
+    private int modifierLocalId_;
+    /**
+     * <code>int32 modifier_local_id = 10;</code>
+     * @return The modifierLocalId.
+     */
+    @java.lang.Override
+    public int getModifierLocalId() {
+      return modifierLocalId_;
     }
 
     public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 4;
@@ -237,26 +248,15 @@ public final class DetailAbilityInfoOuterClass {
       return instancedAbilityId_;
     }
 
-    public static final int MODIFIER_LOCAL_ID_FIELD_NUMBER = 6;
-    private int modifierLocalId_;
+    public static final int LOCAL_ID_FIELD_NUMBER = 14;
+    private int localId_;
     /**
-     * <code>int32 modifier_local_id = 6;</code>
-     * @return The modifierLocalId.
+     * <code>int32 local_id = 14;</code>
+     * @return The localId.
      */
     @java.lang.Override
-    public int getModifierLocalId() {
-      return modifierLocalId_;
-    }
-
-    public static final int CASTER_ID_FIELD_NUMBER = 14;
-    private int casterId_;
-    /**
-     * <code>uint32 caster_id = 14;</code>
-     * @return The casterId.
-     */
-    @java.lang.Override
-    public int getCasterId() {
-      return casterId_;
+    public int getLocalId() {
+      return localId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -273,23 +273,23 @@ public final class DetailAbilityInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (localId_ != 0) {
-        output.writeInt32(3, localId_);
-      }
       if (instancedAbilityId_ != 0) {
         output.writeUInt32(4, instancedAbilityId_);
       }
+      if (casterId_ != 0) {
+        output.writeUInt32(7, casterId_);
+      }
       if (modifierLocalId_ != 0) {
-        output.writeInt32(6, modifierLocalId_);
+        output.writeInt32(10, modifierLocalId_);
       }
       if (parentAbilityName_ != null) {
-        output.writeMessage(11, getParentAbilityName());
+        output.writeMessage(12, getParentAbilityName());
       }
       if (instancedModifierId_ != 0) {
-        output.writeUInt32(12, instancedModifierId_);
+        output.writeUInt32(13, instancedModifierId_);
       }
-      if (casterId_ != 0) {
-        output.writeUInt32(14, casterId_);
+      if (localId_ != 0) {
+        output.writeInt32(14, localId_);
       }
       unknownFields.writeTo(output);
     }
@@ -300,29 +300,29 @@ public final class DetailAbilityInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (localId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, localId_);
-      }
       if (instancedAbilityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, instancedAbilityId_);
       }
+      if (casterId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, casterId_);
+      }
       if (modifierLocalId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, modifierLocalId_);
+          .computeInt32Size(10, modifierLocalId_);
       }
       if (parentAbilityName_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getParentAbilityName());
+          .computeMessageSize(12, getParentAbilityName());
       }
       if (instancedModifierId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, instancedModifierId_);
+          .computeUInt32Size(13, instancedModifierId_);
       }
-      if (casterId_ != 0) {
+      if (localId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, casterId_);
+          .computeInt32Size(14, localId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -346,14 +346,14 @@ public final class DetailAbilityInfoOuterClass {
       }
       if (getInstancedModifierId()
           != other.getInstancedModifierId()) return false;
-      if (getLocalId()
-          != other.getLocalId()) return false;
-      if (getInstancedAbilityId()
-          != other.getInstancedAbilityId()) return false;
-      if (getModifierLocalId()
-          != other.getModifierLocalId()) return false;
       if (getCasterId()
           != other.getCasterId()) return false;
+      if (getModifierLocalId()
+          != other.getModifierLocalId()) return false;
+      if (getInstancedAbilityId()
+          != other.getInstancedAbilityId()) return false;
+      if (getLocalId()
+          != other.getLocalId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -369,16 +369,16 @@ public final class DetailAbilityInfoOuterClass {
         hash = (37 * hash) + PARENT_ABILITY_NAME_FIELD_NUMBER;
         hash = (53 * hash) + getParentAbilityName().hashCode();
       }
-      hash = (37 * hash) + INSTANCEDMODIFIERID_FIELD_NUMBER;
+      hash = (37 * hash) + INSTANCED_MODIFIER_ID_FIELD_NUMBER;
       hash = (53 * hash) + getInstancedModifierId();
-      hash = (37 * hash) + LOCALID_FIELD_NUMBER;
-      hash = (53 * hash) + getLocalId();
-      hash = (37 * hash) + INSTANCED_ABILITY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getInstancedAbilityId();
-      hash = (37 * hash) + MODIFIER_LOCAL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getModifierLocalId();
       hash = (37 * hash) + CASTER_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCasterId();
+      hash = (37 * hash) + MODIFIER_LOCAL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getModifierLocalId();
+      hash = (37 * hash) + INSTANCED_ABILITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getInstancedAbilityId();
+      hash = (37 * hash) + LOCAL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLocalId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -520,13 +520,13 @@ public final class DetailAbilityInfoOuterClass {
         }
         instancedModifierId_ = 0;
 
-        localId_ = 0;
-
-        instancedAbilityId_ = 0;
+        casterId_ = 0;
 
         modifierLocalId_ = 0;
 
-        casterId_ = 0;
+        instancedAbilityId_ = 0;
+
+        localId_ = 0;
 
         return this;
       }
@@ -560,10 +560,10 @@ public final class DetailAbilityInfoOuterClass {
           result.parentAbilityName_ = parentAbilityNameBuilder_.build();
         }
         result.instancedModifierId_ = instancedModifierId_;
-        result.localId_ = localId_;
-        result.instancedAbilityId_ = instancedAbilityId_;
-        result.modifierLocalId_ = modifierLocalId_;
         result.casterId_ = casterId_;
+        result.modifierLocalId_ = modifierLocalId_;
+        result.instancedAbilityId_ = instancedAbilityId_;
+        result.localId_ = localId_;
         onBuilt();
         return result;
       }
@@ -618,17 +618,17 @@ public final class DetailAbilityInfoOuterClass {
         if (other.getInstancedModifierId() != 0) {
           setInstancedModifierId(other.getInstancedModifierId());
         }
-        if (other.getLocalId() != 0) {
-          setLocalId(other.getLocalId());
-        }
-        if (other.getInstancedAbilityId() != 0) {
-          setInstancedAbilityId(other.getInstancedAbilityId());
+        if (other.getCasterId() != 0) {
+          setCasterId(other.getCasterId());
         }
         if (other.getModifierLocalId() != 0) {
           setModifierLocalId(other.getModifierLocalId());
         }
-        if (other.getCasterId() != 0) {
-          setCasterId(other.getCasterId());
+        if (other.getInstancedAbilityId() != 0) {
+          setInstancedAbilityId(other.getInstancedAbilityId());
+        }
+        if (other.getLocalId() != 0) {
+          setLocalId(other.getLocalId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -663,14 +663,14 @@ public final class DetailAbilityInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> parentAbilityNameBuilder_;
       /**
-       * <code>.AbilityString parent_ability_name = 11;</code>
+       * <code>.AbilityString parent_ability_name = 12;</code>
        * @return Whether the parentAbilityName field is set.
        */
       public boolean hasParentAbilityName() {
         return parentAbilityNameBuilder_ != null || parentAbilityName_ != null;
       }
       /**
-       * <code>.AbilityString parent_ability_name = 11;</code>
+       * <code>.AbilityString parent_ability_name = 12;</code>
        * @return The parentAbilityName.
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getParentAbilityName() {
@@ -681,7 +681,7 @@ public final class DetailAbilityInfoOuterClass {
         }
       }
       /**
-       * <code>.AbilityString parent_ability_name = 11;</code>
+       * <code>.AbilityString parent_ability_name = 12;</code>
        */
       public Builder setParentAbilityName(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (parentAbilityNameBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class DetailAbilityInfoOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString parent_ability_name = 11;</code>
+       * <code>.AbilityString parent_ability_name = 12;</code>
        */
       public Builder setParentAbilityName(
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder builderForValue) {
@@ -711,7 +711,7 @@ public final class DetailAbilityInfoOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString parent_ability_name = 11;</code>
+       * <code>.AbilityString parent_ability_name = 12;</code>
        */
       public Builder mergeParentAbilityName(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (parentAbilityNameBuilder_ == null) {
@@ -729,7 +729,7 @@ public final class DetailAbilityInfoOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString parent_ability_name = 11;</code>
+       * <code>.AbilityString parent_ability_name = 12;</code>
        */
       public Builder clearParentAbilityName() {
         if (parentAbilityNameBuilder_ == null) {
@@ -743,7 +743,7 @@ public final class DetailAbilityInfoOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString parent_ability_name = 11;</code>
+       * <code>.AbilityString parent_ability_name = 12;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getParentAbilityNameBuilder() {
         
@@ -751,7 +751,7 @@ public final class DetailAbilityInfoOuterClass {
         return getParentAbilityNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>.AbilityString parent_ability_name = 11;</code>
+       * <code>.AbilityString parent_ability_name = 12;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getParentAbilityNameOrBuilder() {
         if (parentAbilityNameBuilder_ != null) {
@@ -762,7 +762,7 @@ public final class DetailAbilityInfoOuterClass {
         }
       }
       /**
-       * <code>.AbilityString parent_ability_name = 11;</code>
+       * <code>.AbilityString parent_ability_name = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> 
@@ -780,7 +780,7 @@ public final class DetailAbilityInfoOuterClass {
 
       private int instancedModifierId_ ;
       /**
-       * <code>uint32 instancedModifierId = 12;</code>
+       * <code>uint32 instanced_modifier_id = 13;</code>
        * @return The instancedModifierId.
        */
       @java.lang.Override
@@ -788,7 +788,7 @@ public final class DetailAbilityInfoOuterClass {
         return instancedModifierId_;
       }
       /**
-       * <code>uint32 instancedModifierId = 12;</code>
+       * <code>uint32 instanced_modifier_id = 13;</code>
        * @param value The instancedModifierId to set.
        * @return This builder for chaining.
        */
@@ -799,7 +799,7 @@ public final class DetailAbilityInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 instancedModifierId = 12;</code>
+       * <code>uint32 instanced_modifier_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearInstancedModifierId() {
@@ -809,33 +809,64 @@ public final class DetailAbilityInfoOuterClass {
         return this;
       }
 
-      private int localId_ ;
+      private int casterId_ ;
       /**
-       * <code>int32 localId = 3;</code>
-       * @return The localId.
+       * <code>uint32 caster_id = 7;</code>
+       * @return The casterId.
        */
       @java.lang.Override
-      public int getLocalId() {
-        return localId_;
+      public int getCasterId() {
+        return casterId_;
       }
       /**
-       * <code>int32 localId = 3;</code>
-       * @param value The localId to set.
+       * <code>uint32 caster_id = 7;</code>
+       * @param value The casterId to set.
        * @return This builder for chaining.
        */
-      public Builder setLocalId(int value) {
+      public Builder setCasterId(int value) {
         
-        localId_ = value;
+        casterId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>int32 localId = 3;</code>
+       * <code>uint32 caster_id = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLocalId() {
+      public Builder clearCasterId() {
         
-        localId_ = 0;
+        casterId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int modifierLocalId_ ;
+      /**
+       * <code>int32 modifier_local_id = 10;</code>
+       * @return The modifierLocalId.
+       */
+      @java.lang.Override
+      public int getModifierLocalId() {
+        return modifierLocalId_;
+      }
+      /**
+       * <code>int32 modifier_local_id = 10;</code>
+       * @param value The modifierLocalId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setModifierLocalId(int value) {
+        
+        modifierLocalId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 modifier_local_id = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearModifierLocalId() {
+        
+        modifierLocalId_ = 0;
         onChanged();
         return this;
       }
@@ -871,64 +902,33 @@ public final class DetailAbilityInfoOuterClass {
         return this;
       }
 
-      private int modifierLocalId_ ;
+      private int localId_ ;
       /**
-       * <code>int32 modifier_local_id = 6;</code>
-       * @return The modifierLocalId.
+       * <code>int32 local_id = 14;</code>
+       * @return The localId.
        */
       @java.lang.Override
-      public int getModifierLocalId() {
-        return modifierLocalId_;
+      public int getLocalId() {
+        return localId_;
       }
       /**
-       * <code>int32 modifier_local_id = 6;</code>
-       * @param value The modifierLocalId to set.
+       * <code>int32 local_id = 14;</code>
+       * @param value The localId to set.
        * @return This builder for chaining.
        */
-      public Builder setModifierLocalId(int value) {
+      public Builder setLocalId(int value) {
         
-        modifierLocalId_ = value;
+        localId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>int32 modifier_local_id = 6;</code>
+       * <code>int32 local_id = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearModifierLocalId() {
+      public Builder clearLocalId() {
         
-        modifierLocalId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int casterId_ ;
-      /**
-       * <code>uint32 caster_id = 14;</code>
-       * @return The casterId.
-       */
-      @java.lang.Override
-      public int getCasterId() {
-        return casterId_;
-      }
-      /**
-       * <code>uint32 caster_id = 14;</code>
-       * @param value The casterId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCasterId(int value) {
-        
-        casterId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 caster_id = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCasterId() {
-        
-        casterId_ = 0;
+        localId_ = 0;
         onChanged();
         return this;
       }
@@ -1000,12 +1000,12 @@ public final class DetailAbilityInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027DetailAbilityInfo.proto\032\023AbilityString" +
-      ".proto\"\272\001\n\021DetailAbilityInfo\022+\n\023parent_a" +
-      "bility_name\030\013 \001(\0132\016.AbilityString\022\033\n\023ins" +
-      "tancedModifierId\030\014 \001(\r\022\017\n\007localId\030\003 \001(\005\022" +
-      "\034\n\024instanced_ability_id\030\004 \001(\r\022\031\n\021modifie" +
-      "r_local_id\030\006 \001(\005\022\021\n\tcaster_id\030\016 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      ".proto\"\275\001\n\021DetailAbilityInfo\022+\n\023parent_a" +
+      "bility_name\030\014 \001(\0132\016.AbilityString\022\035\n\025ins" +
+      "tanced_modifier_id\030\r \001(\r\022\021\n\tcaster_id\030\007 " +
+      "\001(\r\022\031\n\021modifier_local_id\030\n \001(\005\022\034\n\024instan" +
+      "ced_ability_id\030\004 \001(\r\022\020\n\010local_id\030\016 \001(\005B\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1017,7 +1017,7 @@ public final class DetailAbilityInfoOuterClass {
     internal_static_DetailAbilityInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DetailAbilityInfo_descriptor,
-        new java.lang.String[] { "ParentAbilityName", "InstancedModifierId", "LocalId", "InstancedAbilityId", "ModifierLocalId", "CasterId", });
+        new java.lang.String[] { "ParentAbilityName", "InstancedModifierId", "CasterId", "ModifierLocalId", "InstancedAbilityId", "LocalId", });
     emu.grasscutter.net.proto.AbilityStringOuterClass.getDescriptor();
   }
 

@@ -246,25 +246,25 @@ public class GameSession implements GameSessionManager.KcpChannel {
         }
     }
 
-    @Override
-    public void handleClose() {
-        setState(SessionState.INACTIVE);
-        // send disconnection pack in case of reconnection
-        Grasscutter.getLogger()
-                .info(translate("messages.game.disconnect", this.getAddress().toString()));
-        // Save after disconnecting
-        if (this.isLoggedIn()) {
-            Player player = getPlayer();
-            // Call logout event.
-            player.onLogout();
+        @Override
+        public void handleClose() {
+            setState(SessionState.INACTIVE);
+            // send disconnection pack in case of reconnection
+            Grasscutter.getLogger()
+                    .info(translate("messages.game.disconnect", this.getAddress().toString()));
+            // Save after disconnecting
+            if (this.isLoggedIn()) {
+                Player player = getPlayer();
+                // Call logout event.
+                player.onLogout();
+            }
+            try {
+                send(new BasePacket(PacketOpcodes.ServerDisconnectClientNotify));
+            } catch (Throwable ignore) {
+                Grasscutter.getLogger().warn("closing {} error", getAddress().getAddress().getHostAddress());
+            }
+            tunnel = null;
         }
-        try {
-            send(new BasePacket(PacketOpcodes.ServerDisconnectClientNotify));
-        } catch (Throwable ignore) {
-            Grasscutter.getLogger().warn("closing {} error", getAddress().getAddress().getHostAddress());
-        }
-        tunnel = null;
-    }
 
     public void close() {
         tunnel.close();

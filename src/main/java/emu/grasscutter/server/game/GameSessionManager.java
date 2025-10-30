@@ -14,52 +14,55 @@ public class GameSessionManager {
     private static final ConcurrentHashMap<Ukcp, GameSession> sessions = new ConcurrentHashMap<>();
     private static final KcpListener listener =
             new KcpListener() {
-                @Override
-                public void onConnected(Ukcp ukcp) {
-                    int times = 0;
-                    GameServer server = Grasscutter.getGameServer();
-                    while (server == null) { // Waiting server to establish
-                        try {
-                            Thread.sleep(1000);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                            ukcp.close();
-                            return;
-                        }
-                        if (times++ > 5) {
-                            Grasscutter.getLogger().error("Service is not available!");
-                            ukcp.close();
-                            return;
-                        }
-                        server = Grasscutter.getGameServer();
+            @Override
+            public void onConnected(Ukcp ukcp) {
+                int times = 0;
+                GameServer server = Grasscutter.getGameServer();
+                while (server == null) {
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                        ukcp.close();
+                        return;
                     }
-                    GameSession conversation = new GameSession(server);
-                    conversation.onConnected(
-                            new KcpTunnel() {
-                                @Override
-                                public InetSocketAddress getAddress() {
-                                    return ukcp.user().getRemoteAddress();
-                                }
-
-                                @Override
-                                public void writeData(byte[] bytes) {
-                                    ByteBuf buf = Unpooled.wrappedBuffer(bytes);
-                                    ukcp.write(buf);
-                                    buf.release();
-                                }
-
-                                @Override
-                                public void close() {
-                                    ukcp.close();
-                                }
-
-                                @Override
-                                public int getSrtt() {
-                                    return ukcp.srtt();
-                                }
-                            });
-                    sessions.put(ukcp, conversation);
+                    if (times++ > 5) {
+                        Grasscutter.getLogger().error("Service is not available!");
+                        ukcp.close();
+                        return;
+                    }
+                    server = Grasscutter.getGameServer();
                 }
+
+                GameSession conversation = new GameSession(server);
+
+                sessions.put(ukcp, conversation);
+
+                conversation.onConnected(
+                        new KcpTunnel() {
+                            @Override
+                            public InetSocketAddress getAddress() {
+                                return ukcp.user().getRemoteAddress();
+                            }
+
+                            @Override
+                            public void writeData(byte[] bytes) {
+                                ByteBuf buf = Unpooled.wrappedBuffer(bytes);
+                                ukcp.write(buf);
+                                buf.release();
+                            }
+
+                            @Override
+                            public void close() {
+                                ukcp.close();
+                            }
+
+                            @Override
+                            public int getSrtt() {
+                                return ukcp.srtt();
+                            }
+                        });
+            }
 
                 @Override
                 public void handleReceive(ByteBuf buf, Ukcp kcp) {
@@ -84,8 +87,15 @@ public class GameSessionManager {
                 public void handleClose(Ukcp ukcp) {
                     GameSession conversation = sessions.get(ukcp);
                     if (conversation != null) {
-                        conversation.handleClose();
                         sessions.remove(ukcp);
+
+                        logicThread.execute(() -> {
+                            try {
+                                conversation.handleClose();
+                            } catch (Exception e) {
+                                Grasscutter.getLogger().error("Error during session cleanup", e);
+                            }
+                        });
                     }
                 }
             };

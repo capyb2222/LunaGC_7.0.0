@@ -15,10 +15,6 @@ public final class ChangeEnergyReasonOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   *obf: DIBAILDCPJF
-   * </pre>
-   *
    * Protobuf enum {@code ChangeEnergyReason}
    */
   public enum ChangeEnergyReason
@@ -51,6 +47,10 @@ public final class ChangeEnergyReasonOuterClass {
      * <code>CHANGE_ENERGY_REASON_SKILL_DEPOT = 6;</code>
      */
     CHANGE_ENERGY_REASON_SKILL_DEPOT(6),
+    /**
+     * <code>CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT = 7;</code>
+     */
+    CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT(7),
     UNRECOGNIZED(-1),
     ;
 
@@ -82,6 +82,10 @@ public final class ChangeEnergyReasonOuterClass {
      * <code>CHANGE_ENERGY_REASON_SKILL_DEPOT = 6;</code>
      */
     public static final int CHANGE_ENERGY_REASON_SKILL_DEPOT_VALUE = 6;
+    /**
+     * <code>CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT = 7;</code>
+     */
+    public static final int CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT_VALUE = 7;
 
 
     public final int getNumber() {
@@ -115,6 +119,7 @@ public final class ChangeEnergyReasonOuterClass {
         case 4: return CHANGE_ENERGY_REASON_ABILITY;
         case 5: return CHANGE_ENERGY_REASON_DIE;
         case 6: return CHANGE_ENERGY_REASON_SKILL_DEPOT;
+        case 7: return CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT;
         default: return null;
       }
     }
@@ -180,14 +185,16 @@ public final class ChangeEnergyReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030ChangeEnergyReason.proto*\376\001\n\022ChangeEne" +
+      "\n\030ChangeEnergyReason.proto*\251\002\n\022ChangeEne" +
       "rgyReason\022\035\n\031CHANGE_ENERGY_REASON_NONE\020\000" +
       "\022$\n CHANGE_ENERGY_REASON_SKILL_START\020\001\022\035" +
       "\n\031CHANGE_ENERGY_REASON_BALL\020\002\022\036\n\032CHANGE_" +
       "ENERGY_REASON_QUEST\020\003\022 \n\034CHANGE_ENERGY_R" +
       "EASON_ABILITY\020\004\022\034\n\030CHANGE_ENERGY_REASON_" +
       "DIE\020\005\022$\n CHANGE_ENERGY_REASON_SKILL_DEPO" +
-      "T\020\006B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "T\020\006\022)\n%CHANGE_ENERGY_REASON_BEYOND_BLUEP" +
+      "RINT\020\007B\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

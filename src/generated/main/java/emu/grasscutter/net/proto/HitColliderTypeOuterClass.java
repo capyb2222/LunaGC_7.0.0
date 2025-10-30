@@ -15,10 +15,6 @@ public final class HitColliderTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   *obf: LPNDGGEHLED
-   * </pre>
-   *
    * Protobuf enum {@code HitColliderType}
    */
   public enum HitColliderType
@@ -39,10 +35,6 @@ public final class HitColliderTypeOuterClass {
      * <code>HIT_COLLIDER_TYPE_HEAD_BOX = 3;</code>
      */
     HIT_COLLIDER_TYPE_HEAD_BOX(3),
-    /**
-     * <code>HIT_COLLIDER_INVALID = 4;</code>
-     */
-    HIT_COLLIDER_INVALID(4),
     UNRECOGNIZED(-1),
     ;
 
@@ -62,10 +54,6 @@ public final class HitColliderTypeOuterClass {
      * <code>HIT_COLLIDER_TYPE_HEAD_BOX = 3;</code>
      */
     public static final int HIT_COLLIDER_TYPE_HEAD_BOX_VALUE = 3;
-    /**
-     * <code>HIT_COLLIDER_INVALID = 4;</code>
-     */
-    public static final int HIT_COLLIDER_INVALID_VALUE = 4;
 
 
     public final int getNumber() {
@@ -96,7 +84,6 @@ public final class HitColliderTypeOuterClass {
         case 1: return HIT_COLLIDER_TYPE_HIT_BOX;
         case 2: return HIT_COLLIDER_TYPE_WET_HIT_BOX;
         case 3: return HIT_COLLIDER_TYPE_HEAD_BOX;
-        case 4: return HIT_COLLIDER_INVALID;
         default: return null;
       }
     }
@@ -162,12 +149,12 @@ public final class HitColliderTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025HitColliderType.proto*\254\001\n\017HitColliderT" +
+      "\n\025HitColliderType.proto*\222\001\n\017HitColliderT" +
       "ype\022\035\n\031HIT_COLLIDER_TYPE_INVALID\020\000\022\035\n\031HI" +
       "T_COLLIDER_TYPE_HIT_BOX\020\001\022!\n\035HIT_COLLIDE" +
       "R_TYPE_WET_HIT_BOX\020\002\022\036\n\032HIT_COLLIDER_TYP" +
-      "E_HEAD_BOX\020\003\022\030\n\024HIT_COLLIDER_INVALID\020\004B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "E_HEAD_BOX\020\003B\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

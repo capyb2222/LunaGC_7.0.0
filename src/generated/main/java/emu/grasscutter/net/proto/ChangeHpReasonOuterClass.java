@@ -15,10 +15,6 @@ public final class ChangeHpReasonOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   *obf: MKHKMLCFAAJ
-   * </pre>
-   *
    * Protobuf enum {@code ChangeHpReason}
    */
   public enum ChangeHpReason
@@ -124,13 +120,25 @@ public final class ChangeHpReasonOuterClass {
      */
     CHANGE_HP_REASON_SUB_LIQUID_PHLOGISTON(24),
     /**
+     * <code>CHANGE_HP_REASON_SUB_LEVEL_FORCE_DIE = 25;</code>
+     */
+    CHANGE_HP_REASON_SUB_LEVEL_FORCE_DIE(25),
+    /**
+     * <code>CHANGE_HP_REASON_SUB_HEART_BLOOD_USED_OUT = 26;</code>
+     */
+    CHANGE_HP_REASON_SUB_HEART_BLOOD_USED_OUT(26),
+    /**
+     * <code>CHANGE_HP_REASON_SUB_BEYOND_BL_UEPRINT = 27;</code>
+     */
+    CHANGE_HP_REASON_SUB_BEYOND_BL_UEPRINT(27),
+    /**
      * <code>CHANGE_HP_REASON_BY_LUA = 51;</code>
      */
     CHANGE_HP_REASON_BY_LUA(51),
     /**
-     * <code>CHANGE_HP_REASON_ADD_ABILITY = 101;</code>
+     * <code>CHANGE_HP_ADD_ABILITY = 101;</code>
      */
-    CHANGE_HP_REASON_ADD_ABILITY(101),
+    CHANGE_HP_ADD_ABILITY(101),
     /**
      * <code>CHANGE_HP_REASON_ADD_ITEM = 102;</code>
      */
@@ -144,9 +152,9 @@ public final class ChangeHpReasonOuterClass {
      */
     CHANGE_HP_REASON_ADD_UPGRADE(104),
     /**
-     * <code>CHANGE_HP_REASON_ADD_STATUE = 105;</code>
+     * <code>CHANGE_HP_ADD_STATUE = 105;</code>
      */
-    CHANGE_HP_REASON_ADD_STATUE(105),
+    CHANGE_HP_ADD_STATUE(105),
     /**
      * <code>CHANGE_HP_REASON_ADD_BACKGROUND = 106;</code>
      */
@@ -168,13 +176,9 @@ public final class ChangeHpReasonOuterClass {
      */
     CHANGE_HP_REASON_ADD_EFFIGY_CHALLENGE_V_5(110),
     /**
-     * <code>CHANGE_HP_ADD_STATUE = 111;</code>
+     * <code>CHANGE_HP_REASON_ADD_BEYOND_BLUEPRINT = 111;</code>
      */
-    CHANGE_HP_ADD_STATUE(111),
-    /**
-     * <code>CHANGE_HP_ADD_ABILITY = 112;</code>
-     */
-    CHANGE_HP_ADD_ABILITY(112),
+    CHANGE_HP_REASON_ADD_BEYOND_BLUEPRINT(111),
     UNRECOGNIZED(-1),
     ;
 
@@ -279,13 +283,25 @@ public final class ChangeHpReasonOuterClass {
      */
     public static final int CHANGE_HP_REASON_SUB_LIQUID_PHLOGISTON_VALUE = 24;
     /**
+     * <code>CHANGE_HP_REASON_SUB_LEVEL_FORCE_DIE = 25;</code>
+     */
+    public static final int CHANGE_HP_REASON_SUB_LEVEL_FORCE_DIE_VALUE = 25;
+    /**
+     * <code>CHANGE_HP_REASON_SUB_HEART_BLOOD_USED_OUT = 26;</code>
+     */
+    public static final int CHANGE_HP_REASON_SUB_HEART_BLOOD_USED_OUT_VALUE = 26;
+    /**
+     * <code>CHANGE_HP_REASON_SUB_BEYOND_BL_UEPRINT = 27;</code>
+     */
+    public static final int CHANGE_HP_REASON_SUB_BEYOND_BL_UEPRINT_VALUE = 27;
+    /**
      * <code>CHANGE_HP_REASON_BY_LUA = 51;</code>
      */
     public static final int CHANGE_HP_REASON_BY_LUA_VALUE = 51;
     /**
-     * <code>CHANGE_HP_REASON_ADD_ABILITY = 101;</code>
+     * <code>CHANGE_HP_ADD_ABILITY = 101;</code>
      */
-    public static final int CHANGE_HP_REASON_ADD_ABILITY_VALUE = 101;
+    public static final int CHANGE_HP_ADD_ABILITY_VALUE = 101;
     /**
      * <code>CHANGE_HP_REASON_ADD_ITEM = 102;</code>
      */
@@ -299,9 +315,9 @@ public final class ChangeHpReasonOuterClass {
      */
     public static final int CHANGE_HP_REASON_ADD_UPGRADE_VALUE = 104;
     /**
-     * <code>CHANGE_HP_REASON_ADD_STATUE = 105;</code>
+     * <code>CHANGE_HP_ADD_STATUE = 105;</code>
      */
-    public static final int CHANGE_HP_REASON_ADD_STATUE_VALUE = 105;
+    public static final int CHANGE_HP_ADD_STATUE_VALUE = 105;
     /**
      * <code>CHANGE_HP_REASON_ADD_BACKGROUND = 106;</code>
      */
@@ -323,13 +339,9 @@ public final class ChangeHpReasonOuterClass {
      */
     public static final int CHANGE_HP_REASON_ADD_EFFIGY_CHALLENGE_V_5_VALUE = 110;
     /**
-     * <code>CHANGE_HP_ADD_STATUE = 111;</code>
+     * <code>CHANGE_HP_REASON_ADD_BEYOND_BLUEPRINT = 111;</code>
      */
-    public static final int CHANGE_HP_ADD_STATUE_VALUE = 111;
-    /**
-     * <code>CHANGE_HP_ADD_ABILITY = 112;</code>
-     */
-    public static final int CHANGE_HP_ADD_ABILITY_VALUE = 112;
+    public static final int CHANGE_HP_REASON_ADD_BEYOND_BLUEPRINT_VALUE = 111;
 
 
     public final int getNumber() {
@@ -381,19 +393,21 @@ public final class ChangeHpReasonOuterClass {
         case 22: return CHANGE_HP_REASON_SUB_DIRTY_WATER_EROSION;
         case 23: return CHANGE_HP_REASON_SUB_DESTROY_SELF;
         case 24: return CHANGE_HP_REASON_SUB_LIQUID_PHLOGISTON;
+        case 25: return CHANGE_HP_REASON_SUB_LEVEL_FORCE_DIE;
+        case 26: return CHANGE_HP_REASON_SUB_HEART_BLOOD_USED_OUT;
+        case 27: return CHANGE_HP_REASON_SUB_BEYOND_BL_UEPRINT;
         case 51: return CHANGE_HP_REASON_BY_LUA;
-        case 101: return CHANGE_HP_REASON_ADD_ABILITY;
+        case 101: return CHANGE_HP_ADD_ABILITY;
         case 102: return CHANGE_HP_REASON_ADD_ITEM;
         case 103: return CHANGE_HP_REASON_ADD_REVIVE;
         case 104: return CHANGE_HP_REASON_ADD_UPGRADE;
-        case 105: return CHANGE_HP_REASON_ADD_STATUE;
+        case 105: return CHANGE_HP_ADD_STATUE;
         case 106: return CHANGE_HP_REASON_ADD_BACKGROUND;
         case 107: return CHANGE_HP_REASON_ADD_GM;
         case 108: return CHANGE_HP_REASON_ADD_TRIAL_AVATAR_ACTIVITY;
         case 109: return CHANGE_HP_REASON_ADD_ROUGUELIKE_SPRING;
         case 110: return CHANGE_HP_REASON_ADD_EFFIGY_CHALLENGE_V_5;
-        case 111: return CHANGE_HP_ADD_STATUE;
-        case 112: return CHANGE_HP_ADD_ABILITY;
+        case 111: return CHANGE_HP_REASON_ADD_BEYOND_BLUEPRINT;
         default: return null;
       }
     }
@@ -459,7 +473,7 @@ public final class ChangeHpReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024ChangeHpReason.proto*\320\n\n\016ChangeHpReaso" +
+      "\n\024ChangeHpReason.proto*\275\013\n\016ChangeHpReaso" +
       "n\022\031\n\025CHANGE_HP_REASON_NONE\020\000\022\037\n\033CHANGE_H" +
       "P_REASON_SUB_AVATAR\020\001\022 \n\034CHANGE_HP_REASO" +
       "N_SUB_MONSTER\020\002\022\035\n\031CHANGE_HP_REASON_SUB_" +
@@ -482,19 +496,22 @@ public final class ChangeHpReasonOuterClass {
       "GC\020\025\022,\n(CHANGE_HP_REASON_SUB_DIRTY_WATER" +
       "_EROSION\020\026\022%\n!CHANGE_HP_REASON_SUB_DESTR" +
       "OY_SELF\020\027\022*\n&CHANGE_HP_REASON_SUB_LIQUID" +
-      "_PHLOGISTON\020\030\022\033\n\027CHANGE_HP_REASON_BY_LUA" +
-      "\0203\022 \n\034CHANGE_HP_REASON_ADD_ABILITY\020e\022\035\n\031" +
-      "CHANGE_HP_REASON_ADD_ITEM\020f\022\037\n\033CHANGE_HP" +
-      "_REASON_ADD_REVIVE\020g\022 \n\034CHANGE_HP_REASON" +
-      "_ADD_UPGRADE\020h\022\037\n\033CHANGE_HP_REASON_ADD_S" +
-      "TATUE\020i\022#\n\037CHANGE_HP_REASON_ADD_BACKGROU" +
-      "ND\020j\022\033\n\027CHANGE_HP_REASON_ADD_GM\020k\022.\n*CHA" +
-      "NGE_HP_REASON_ADD_TRIAL_AVATAR_ACTIVITY\020" +
-      "l\022*\n&CHANGE_HP_REASON_ADD_ROUGUELIKE_SPR" +
-      "ING\020m\022-\n)CHANGE_HP_REASON_ADD_EFFIGY_CHA" +
-      "LLENGE_V_5\020n\022\030\n\024CHANGE_HP_ADD_STATUE\020o\022\031" +
-      "\n\025CHANGE_HP_ADD_ABILITY\020pB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "_PHLOGISTON\020\030\022(\n$CHANGE_HP_REASON_SUB_LE" +
+      "VEL_FORCE_DIE\020\031\022-\n)CHANGE_HP_REASON_SUB_" +
+      "HEART_BLOOD_USED_OUT\020\032\022*\n&CHANGE_HP_REAS" +
+      "ON_SUB_BEYOND_BL_UEPRINT\020\033\022\033\n\027CHANGE_HP_" +
+      "REASON_BY_LUA\0203\022\031\n\025CHANGE_HP_ADD_ABILITY" +
+      "\020e\022\035\n\031CHANGE_HP_REASON_ADD_ITEM\020f\022\037\n\033CHA" +
+      "NGE_HP_REASON_ADD_REVIVE\020g\022 \n\034CHANGE_HP_" +
+      "REASON_ADD_UPGRADE\020h\022\030\n\024CHANGE_HP_ADD_ST" +
+      "ATUE\020i\022#\n\037CHANGE_HP_REASON_ADD_BACKGROUN" +
+      "D\020j\022\033\n\027CHANGE_HP_REASON_ADD_GM\020k\022.\n*CHAN" +
+      "GE_HP_REASON_ADD_TRIAL_AVATAR_ACTIVITY\020l" +
+      "\022*\n&CHANGE_HP_REASON_ADD_ROUGUELIKE_SPRI" +
+      "NG\020m\022-\n)CHANGE_HP_REASON_ADD_EFFIGY_CHAL" +
+      "LENGE_V_5\020n\022)\n%CHANGE_HP_REASON_ADD_BEYO" +
+      "ND_BLUEPRINT\020oB\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

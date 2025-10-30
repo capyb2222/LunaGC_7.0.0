@@ -34,26 +34,26 @@ public final class AbilityInvocationFailNotifyOuterClass {
     emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder getInvokeOrBuilder();
 
     /**
-     * <code>string reason = 10;</code>
+     * <code>string reason = 7;</code>
      * @return The reason.
      */
     java.lang.String getReason();
     /**
-     * <code>string reason = 10;</code>
+     * <code>string reason = 7;</code>
      * @return The bytes for reason.
      */
     com.google.protobuf.ByteString
         getReasonBytes();
 
     /**
-     * <code>uint32 entity_id = 1;</code>
+     * <code>uint32 entity_id = 9;</code>
      * @return The entityId.
      */
     int getEntityId();
   }
   /**
    * <pre>
-   * CmdId: 2833
+   * CmdId: 3294
    * </pre>
    *
    * Protobuf type {@code AbilityInvocationFailNotify}
@@ -101,15 +101,15 @@ public final class AbilityInvocationFailNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              entityId_ = input.readUInt32();
-              break;
-            }
-            case 82: {
+            case 58: {
               java.lang.String s = input.readStringRequireUtf8();
 
               reason_ = s;
+              break;
+            }
+            case 72: {
+
+              entityId_ = input.readUInt32();
               break;
             }
             case 122: {
@@ -183,10 +183,10 @@ public final class AbilityInvocationFailNotifyOuterClass {
       return getInvoke();
     }
 
-    public static final int REASON_FIELD_NUMBER = 10;
+    public static final int REASON_FIELD_NUMBER = 7;
     private volatile java.lang.Object reason_;
     /**
-     * <code>string reason = 10;</code>
+     * <code>string reason = 7;</code>
      * @return The reason.
      */
     @java.lang.Override
@@ -203,7 +203,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
     }
     /**
-     * <code>string reason = 10;</code>
+     * <code>string reason = 7;</code>
      * @return The bytes for reason.
      */
     @java.lang.Override
@@ -221,10 +221,10 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 1;
+    public static final int ENTITY_ID_FIELD_NUMBER = 9;
     private int entityId_;
     /**
-     * <code>uint32 entity_id = 1;</code>
+     * <code>uint32 entity_id = 9;</code>
      * @return The entityId.
      */
     @java.lang.Override
@@ -246,11 +246,11 @@ public final class AbilityInvocationFailNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (entityId_ != 0) {
-        output.writeUInt32(1, entityId_);
-      }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(reason_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, reason_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, reason_);
+      }
+      if (entityId_ != 0) {
+        output.writeUInt32(9, entityId_);
       }
       if (invoke_ != null) {
         output.writeMessage(15, getInvoke());
@@ -264,12 +264,12 @@ public final class AbilityInvocationFailNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(reason_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, reason_);
+      }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, entityId_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(reason_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, reason_);
+          .computeUInt32Size(9, entityId_);
       }
       if (invoke_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -415,7 +415,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 2833
+     * CmdId: 3294
      * </pre>
      *
      * Protobuf type {@code AbilityInvocationFailNotify}
@@ -706,7 +706,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
 
       private java.lang.Object reason_ = "";
       /**
-       * <code>string reason = 10;</code>
+       * <code>string reason = 7;</code>
        * @return The reason.
        */
       public java.lang.String getReason() {
@@ -722,7 +722,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
         }
       }
       /**
-       * <code>string reason = 10;</code>
+       * <code>string reason = 7;</code>
        * @return The bytes for reason.
        */
       public com.google.protobuf.ByteString
@@ -739,7 +739,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
         }
       }
       /**
-       * <code>string reason = 10;</code>
+       * <code>string reason = 7;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -754,7 +754,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
         return this;
       }
       /**
-       * <code>string reason = 10;</code>
+       * <code>string reason = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -764,7 +764,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
         return this;
       }
       /**
-       * <code>string reason = 10;</code>
+       * <code>string reason = 7;</code>
        * @param value The bytes for reason to set.
        * @return This builder for chaining.
        */
@@ -782,7 +782,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
 
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 1;</code>
+       * <code>uint32 entity_id = 9;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -790,7 +790,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 1;</code>
+       * <code>uint32 entity_id = 9;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -801,7 +801,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 entity_id = 1;</code>
+       * <code>uint32 entity_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
@@ -880,7 +880,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       "\n!AbilityInvocationFailNotify.proto\032\030Abi" +
       "lityInvokeEntry.proto\"e\n\033AbilityInvocati" +
       "onFailNotify\022#\n\006invoke\030\017 \001(\0132\023.AbilityIn" +
-      "vokeEntry\022\016\n\006reason\030\n \001(\t\022\021\n\tentity_id\030\001" +
+      "vokeEntry\022\016\n\006reason\030\007 \001(\t\022\021\n\tentity_id\030\t" +
       " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
       "3"
     };
