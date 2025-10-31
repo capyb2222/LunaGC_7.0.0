@@ -19,62 +19,11 @@ public final class MainCoopOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 save_point_id_list = 10;</code>
-     * @return A list containing the savePointIdList.
-     */
-    java.util.List<java.lang.Integer> getSavePointIdListList();
-    /**
-     * <code>repeated uint32 save_point_id_list = 10;</code>
-     * @return The count of savePointIdList.
-     */
-    int getSavePointIdListCount();
-    /**
-     * <code>repeated uint32 save_point_id_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The savePointIdList at the given index.
-     */
-    int getSavePointIdList(int index);
-
-    /**
-     * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-     */
-    int getNormalVarMapCount();
-    /**
-     * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-     */
-    boolean containsNormalVarMap(
-        int key);
-    /**
-     * Use {@link #getNormalVarMapMap()} instead.
-     */
-    @java.lang.Deprecated
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getNormalVarMap();
-    /**
-     * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-     */
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getNormalVarMapMap();
-    /**
-     * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-     */
-
-    int getNormalVarMapOrDefault(
-        int key,
-        int defaultValue);
-    /**
-     * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-     */
-
-    int getNormalVarMapOrThrow(
-        int key);
-
-    /**
-     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
      */
     int getSeenEndingMapCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
      */
     boolean containsSeenEndingMap(
         int key);
@@ -85,80 +34,131 @@ public final class MainCoopOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSeenEndingMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSeenEndingMapMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
      */
 
     int getSeenEndingMapOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
      */
 
     int getSeenEndingMapOrThrow(
         int key);
 
     /**
-     * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+     * <code>repeated uint32 save_point_id_list = 11;</code>
+     * @return A list containing the savePointIdList.
      */
-    int getTempVarMapCount();
+    java.util.List<java.lang.Integer> getSavePointIdListList();
     /**
-     * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+     * <code>repeated uint32 save_point_id_list = 11;</code>
+     * @return The count of savePointIdList.
      */
-    boolean containsTempVarMap(
+    int getSavePointIdListCount();
+    /**
+     * <code>repeated uint32 save_point_id_list = 11;</code>
+     * @param index The index of the element to return.
+     * @return The savePointIdList at the given index.
+     */
+    int getSavePointIdList(int index);
+
+    /**
+     * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
+     */
+    int getNKFPLIFLABMCount();
+    /**
+     * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
+     */
+    boolean containsNKFPLIFLABM(
         int key);
     /**
-     * Use {@link #getTempVarMapMap()} instead.
+     * Use {@link #getNKFPLIFLABMMap()} instead.
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getTempVarMap();
+    getNKFPLIFLABM();
     /**
-     * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+     * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getTempVarMapMap();
+    getNKFPLIFLABMMap();
     /**
-     * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+     * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
      */
 
-    int getTempVarMapOrDefault(
+    int getNKFPLIFLABMOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+     * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
      */
 
-    int getTempVarMapOrThrow(
+    int getNKFPLIFLABMOrThrow(
         int key);
 
     /**
-     * <code>.MainCoop.Status status = 9;</code>
-     * @return The enum numeric value on the wire for status.
+     * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
      */
-    int getStatusValue();
+    int getBEBGFMAFJBBCount();
     /**
-     * <code>.MainCoop.Status status = 9;</code>
-     * @return The status.
+     * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
      */
-    emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status getStatus();
+    boolean containsBEBGFMAFJBB(
+        int key);
+    /**
+     * Use {@link #getBEBGFMAFJBBMap()} instead.
+     */
+    @java.lang.Deprecated
+    java.util.Map<java.lang.Integer, java.lang.Integer>
+    getBEBGFMAFJBB();
+    /**
+     * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+     */
+    java.util.Map<java.lang.Integer, java.lang.Integer>
+    getBEBGFMAFJBBMap();
+    /**
+     * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+     */
+
+    int getBEBGFMAFJBBOrDefault(
+        int key,
+        int defaultValue);
+    /**
+     * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+     */
+
+    int getBEBGFMAFJBBOrThrow(
+        int key);
 
     /**
-     * <code>uint32 id = 1;</code>
+     * <code>uint32 id = 8;</code>
      * @return The id.
      */
     int getId();
 
     /**
-     * <code>uint32 self_confidence = 2;</code>
+     * <code>uint32 self_confidence = 4;</code>
      * @return The selfConfidence.
      */
     int getSelfConfidence();
+
+    /**
+     * <code>.MainCoop.Status status = 3;</code>
+     * @return The enum numeric value on the wire for status.
+     */
+    int getStatusValue();
+    /**
+     * <code>.MainCoop.Status status = 3;</code>
+     * @return The status.
+     */
+    emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status getStatus();
   }
   /**
    * Protobuf type {@code MainCoop}
@@ -208,49 +208,49 @@ public final class MainCoopOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              id_ = input.readUInt32();
-              break;
-            }
-            case 16: {
-
-              selfConfidence_ = input.readUInt32();
-              break;
-            }
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                normalVarMap_ = com.google.protobuf.MapField.newMapField(
-                    NormalVarMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000002;
-              }
-              com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              normalVarMap__ = input.readMessage(
-                  NormalVarMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              normalVarMap_.getMutableMap().put(
-                  normalVarMap__.getKey(), normalVarMap__.getValue());
-              break;
-            }
-            case 72: {
+            case 24: {
               int rawValue = input.readEnum();
 
               status_ = rawValue;
               break;
             }
-            case 80: {
+            case 32: {
+
+              selfConfidence_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              id_ = input.readUInt32();
+              break;
+            }
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                savePointIdList_ = newIntList();
+                seenEndingMap_ = com.google.protobuf.MapField.newMapField(
+                    SeenEndingMapDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000001;
+              }
+              com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
+              seenEndingMap__ = input.readMessage(
+                  SeenEndingMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              seenEndingMap_.getMutableMap().put(
+                  seenEndingMap__.getKey(), seenEndingMap__.getValue());
+              break;
+            }
+            case 88: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                savePointIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
               }
               savePointIdList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
                 savePointIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
                 savePointIdList_.addInt(input.readUInt32());
@@ -258,30 +258,30 @@ public final class MainCoopOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 90: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                tempVarMap_ = com.google.protobuf.MapField.newMapField(
-                    TempVarMapDefaultEntryHolder.defaultEntry);
+                bEBGFMAFJBB_ = com.google.protobuf.MapField.newMapField(
+                    BEBGFMAFJBBDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000008;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              tempVarMap__ = input.readMessage(
-                  TempVarMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              tempVarMap_.getMutableMap().put(
-                  tempVarMap__.getKey(), tempVarMap__.getValue());
+              bEBGFMAFJBB__ = input.readMessage(
+                  BEBGFMAFJBBDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              bEBGFMAFJBB_.getMutableMap().put(
+                  bEBGFMAFJBB__.getKey(), bEBGFMAFJBB__.getValue());
               break;
             }
-            case 106: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                seenEndingMap_ = com.google.protobuf.MapField.newMapField(
-                    SeenEndingMapDefaultEntryHolder.defaultEntry);
+                nKFPLIFLABM_ = com.google.protobuf.MapField.newMapField(
+                    NKFPLIFLABMDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000004;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              seenEndingMap__ = input.readMessage(
-                  SeenEndingMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              seenEndingMap_.getMutableMap().put(
-                  seenEndingMap__.getKey(), seenEndingMap__.getValue());
+              nKFPLIFLABM__ = input.readMessage(
+                  NKFPLIFLABMDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              nKFPLIFLABM_.getMutableMap().put(
+                  nKFPLIFLABM__.getKey(), nKFPLIFLABM__.getValue());
               break;
             }
             default: {
@@ -299,7 +299,7 @@ public final class MainCoopOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           savePointIdList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
@@ -316,12 +316,12 @@ public final class MainCoopOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 5:
-          return internalGetNormalVarMap();
-        case 13:
+        case 10:
           return internalGetSeenEndingMap();
-        case 11:
-          return internalGetTempVarMap();
+        case 15:
+          return internalGetNKFPLIFLABM();
+        case 13:
+          return internalGetBEBGFMAFJBB();
         default:
           throw new RuntimeException(
               "Invalid map field number: " + number);
@@ -452,116 +452,7 @@ public final class MainCoopOuterClass {
       // @@protoc_insertion_point(enum_scope:MainCoop.Status)
     }
 
-    public static final int SAVE_POINT_ID_LIST_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList savePointIdList_;
-    /**
-     * <code>repeated uint32 save_point_id_list = 10;</code>
-     * @return A list containing the savePointIdList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getSavePointIdListList() {
-      return savePointIdList_;
-    }
-    /**
-     * <code>repeated uint32 save_point_id_list = 10;</code>
-     * @return The count of savePointIdList.
-     */
-    public int getSavePointIdListCount() {
-      return savePointIdList_.size();
-    }
-    /**
-     * <code>repeated uint32 save_point_id_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The savePointIdList at the given index.
-     */
-    public int getSavePointIdList(int index) {
-      return savePointIdList_.getInt(index);
-    }
-    private int savePointIdListMemoizedSerializedSize = -1;
-
-    public static final int NORMAL_VAR_MAP_FIELD_NUMBER = 5;
-    private static final class NormalVarMapDefaultEntryHolder {
-      static final com.google.protobuf.MapEntry<
-          java.lang.Integer, java.lang.Integer> defaultEntry =
-              com.google.protobuf.MapEntry
-              .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.MainCoopOuterClass.internal_static_MainCoop_NormalVarMapEntry_descriptor, 
-                  com.google.protobuf.WireFormat.FieldType.UINT32,
-                  0,
-                  com.google.protobuf.WireFormat.FieldType.INT32,
-                  0);
-    }
-    private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> normalVarMap_;
-    private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetNormalVarMap() {
-      if (normalVarMap_ == null) {
-        return com.google.protobuf.MapField.emptyMapField(
-            NormalVarMapDefaultEntryHolder.defaultEntry);
-      }
-      return normalVarMap_;
-    }
-
-    public int getNormalVarMapCount() {
-      return internalGetNormalVarMap().getMap().size();
-    }
-    /**
-     * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-     */
-
-    @java.lang.Override
-    public boolean containsNormalVarMap(
-        int key) {
-      
-      return internalGetNormalVarMap().getMap().containsKey(key);
-    }
-    /**
-     * Use {@link #getNormalVarMapMap()} instead.
-     */
-    @java.lang.Override
-    @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getNormalVarMap() {
-      return getNormalVarMapMap();
-    }
-    /**
-     * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-     */
-    @java.lang.Override
-
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getNormalVarMapMap() {
-      return internalGetNormalVarMap().getMap();
-    }
-    /**
-     * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-     */
-    @java.lang.Override
-
-    public int getNormalVarMapOrDefault(
-        int key,
-        int defaultValue) {
-      
-      java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetNormalVarMap().getMap();
-      return map.containsKey(key) ? map.get(key) : defaultValue;
-    }
-    /**
-     * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-     */
-    @java.lang.Override
-
-    public int getNormalVarMapOrThrow(
-        int key) {
-      
-      java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetNormalVarMap().getMap();
-      if (!map.containsKey(key)) {
-        throw new java.lang.IllegalArgumentException();
-      }
-      return map.get(key);
-    }
-
-    public static final int SEEN_ENDING_MAP_FIELD_NUMBER = 13;
+    public static final int SEEN_ENDING_MAP_FIELD_NUMBER = 10;
     private static final class SeenEndingMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -588,7 +479,7 @@ public final class MainCoopOuterClass {
       return internalGetSeenEndingMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
      */
 
     @java.lang.Override
@@ -606,7 +497,7 @@ public final class MainCoopOuterClass {
       return getSeenEndingMapMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
      */
     @java.lang.Override
 
@@ -614,7 +505,7 @@ public final class MainCoopOuterClass {
       return internalGetSeenEndingMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
      */
     @java.lang.Override
 
@@ -627,7 +518,7 @@ public final class MainCoopOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
      */
     @java.lang.Override
 
@@ -642,110 +533,200 @@ public final class MainCoopOuterClass {
       return map.get(key);
     }
 
-    public static final int TEMP_VAR_MAP_FIELD_NUMBER = 11;
-    private static final class TempVarMapDefaultEntryHolder {
+    public static final int SAVE_POINT_ID_LIST_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList savePointIdList_;
+    /**
+     * <code>repeated uint32 save_point_id_list = 11;</code>
+     * @return A list containing the savePointIdList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getSavePointIdListList() {
+      return savePointIdList_;
+    }
+    /**
+     * <code>repeated uint32 save_point_id_list = 11;</code>
+     * @return The count of savePointIdList.
+     */
+    public int getSavePointIdListCount() {
+      return savePointIdList_.size();
+    }
+    /**
+     * <code>repeated uint32 save_point_id_list = 11;</code>
+     * @param index The index of the element to return.
+     * @return The savePointIdList at the given index.
+     */
+    public int getSavePointIdList(int index) {
+      return savePointIdList_.getInt(index);
+    }
+    private int savePointIdListMemoizedSerializedSize = -1;
+
+    public static final int NKFPLIFLABM_FIELD_NUMBER = 15;
+    private static final class NKFPLIFLABMDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.MainCoopOuterClass.internal_static_MainCoop_TempVarMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.MainCoopOuterClass.internal_static_MainCoop_NKFPLIFLABMEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.INT32,
                   0);
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> tempVarMap_;
+        java.lang.Integer, java.lang.Integer> nKFPLIFLABM_;
     private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetTempVarMap() {
-      if (tempVarMap_ == null) {
+    internalGetNKFPLIFLABM() {
+      if (nKFPLIFLABM_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            TempVarMapDefaultEntryHolder.defaultEntry);
+            NKFPLIFLABMDefaultEntryHolder.defaultEntry);
       }
-      return tempVarMap_;
+      return nKFPLIFLABM_;
     }
 
-    public int getTempVarMapCount() {
-      return internalGetTempVarMap().getMap().size();
+    public int getNKFPLIFLABMCount() {
+      return internalGetNKFPLIFLABM().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+     * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
      */
 
     @java.lang.Override
-    public boolean containsTempVarMap(
+    public boolean containsNKFPLIFLABM(
         int key) {
       
-      return internalGetTempVarMap().getMap().containsKey(key);
+      return internalGetNKFPLIFLABM().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getTempVarMapMap()} instead.
+     * Use {@link #getNKFPLIFLABMMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getTempVarMap() {
-      return getTempVarMapMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getNKFPLIFLABM() {
+      return getNKFPLIFLABMMap();
     }
     /**
-     * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+     * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getTempVarMapMap() {
-      return internalGetTempVarMap().getMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getNKFPLIFLABMMap() {
+      return internalGetNKFPLIFLABM().getMap();
     }
     /**
-     * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+     * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
      */
     @java.lang.Override
 
-    public int getTempVarMapOrDefault(
+    public int getNKFPLIFLABMOrDefault(
         int key,
         int defaultValue) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetTempVarMap().getMap();
+          internalGetNKFPLIFLABM().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+     * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
      */
     @java.lang.Override
 
-    public int getTempVarMapOrThrow(
+    public int getNKFPLIFLABMOrThrow(
         int key) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetTempVarMap().getMap();
+          internalGetNKFPLIFLABM().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
 
-    public static final int STATUS_FIELD_NUMBER = 9;
-    private int status_;
-    /**
-     * <code>.MainCoop.Status status = 9;</code>
-     * @return The enum numeric value on the wire for status.
-     */
-    @java.lang.Override public int getStatusValue() {
-      return status_;
+    public static final int BEBGFMAFJBB_FIELD_NUMBER = 13;
+    private static final class BEBGFMAFJBBDefaultEntryHolder {
+      static final com.google.protobuf.MapEntry<
+          java.lang.Integer, java.lang.Integer> defaultEntry =
+              com.google.protobuf.MapEntry
+              .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
+                  emu.grasscutter.net.proto.MainCoopOuterClass.internal_static_MainCoop_BEBGFMAFJBBEntry_descriptor, 
+                  com.google.protobuf.WireFormat.FieldType.UINT32,
+                  0,
+                  com.google.protobuf.WireFormat.FieldType.INT32,
+                  0);
     }
-    /**
-     * <code>.MainCoop.Status status = 9;</code>
-     * @return The status.
-     */
-    @java.lang.Override public emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status getStatus() {
-      @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status result = emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.valueOf(status_);
-      return result == null ? emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.UNRECOGNIZED : result;
+    private com.google.protobuf.MapField<
+        java.lang.Integer, java.lang.Integer> bEBGFMAFJBB_;
+    private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+    internalGetBEBGFMAFJBB() {
+      if (bEBGFMAFJBB_ == null) {
+        return com.google.protobuf.MapField.emptyMapField(
+            BEBGFMAFJBBDefaultEntryHolder.defaultEntry);
+      }
+      return bEBGFMAFJBB_;
     }
 
-    public static final int ID_FIELD_NUMBER = 1;
+    public int getBEBGFMAFJBBCount() {
+      return internalGetBEBGFMAFJBB().getMap().size();
+    }
+    /**
+     * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+     */
+
+    @java.lang.Override
+    public boolean containsBEBGFMAFJBB(
+        int key) {
+      
+      return internalGetBEBGFMAFJBB().getMap().containsKey(key);
+    }
+    /**
+     * Use {@link #getBEBGFMAFJBBMap()} instead.
+     */
+    @java.lang.Override
+    @java.lang.Deprecated
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getBEBGFMAFJBB() {
+      return getBEBGFMAFJBBMap();
+    }
+    /**
+     * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+     */
+    @java.lang.Override
+
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getBEBGFMAFJBBMap() {
+      return internalGetBEBGFMAFJBB().getMap();
+    }
+    /**
+     * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+     */
+    @java.lang.Override
+
+    public int getBEBGFMAFJBBOrDefault(
+        int key,
+        int defaultValue) {
+      
+      java.util.Map<java.lang.Integer, java.lang.Integer> map =
+          internalGetBEBGFMAFJBB().getMap();
+      return map.containsKey(key) ? map.get(key) : defaultValue;
+    }
+    /**
+     * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+     */
+    @java.lang.Override
+
+    public int getBEBGFMAFJBBOrThrow(
+        int key) {
+      
+      java.util.Map<java.lang.Integer, java.lang.Integer> map =
+          internalGetBEBGFMAFJBB().getMap();
+      if (!map.containsKey(key)) {
+        throw new java.lang.IllegalArgumentException();
+      }
+      return map.get(key);
+    }
+
+    public static final int ID_FIELD_NUMBER = 8;
     private int id_;
     /**
-     * <code>uint32 id = 1;</code>
+     * <code>uint32 id = 8;</code>
      * @return The id.
      */
     @java.lang.Override
@@ -753,15 +734,34 @@ public final class MainCoopOuterClass {
       return id_;
     }
 
-    public static final int SELF_CONFIDENCE_FIELD_NUMBER = 2;
+    public static final int SELF_CONFIDENCE_FIELD_NUMBER = 4;
     private int selfConfidence_;
     /**
-     * <code>uint32 self_confidence = 2;</code>
+     * <code>uint32 self_confidence = 4;</code>
      * @return The selfConfidence.
      */
     @java.lang.Override
     public int getSelfConfidence() {
       return selfConfidence_;
+    }
+
+    public static final int STATUS_FIELD_NUMBER = 3;
+    private int status_;
+    /**
+     * <code>.MainCoop.Status status = 3;</code>
+     * @return The enum numeric value on the wire for status.
+     */
+    @java.lang.Override public int getStatusValue() {
+      return status_;
+    }
+    /**
+     * <code>.MainCoop.Status status = 3;</code>
+     * @return The status.
+     */
+    @java.lang.Override public emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status getStatus() {
+      @SuppressWarnings("deprecation")
+      emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status result = emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.valueOf(status_);
+      return result == null ? emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -779,23 +779,23 @@ public final class MainCoopOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (id_ != 0) {
-        output.writeUInt32(1, id_);
+      if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.STATUS_INVALID.getNumber()) {
+        output.writeEnum(3, status_);
       }
       if (selfConfidence_ != 0) {
-        output.writeUInt32(2, selfConfidence_);
+        output.writeUInt32(4, selfConfidence_);
+      }
+      if (id_ != 0) {
+        output.writeUInt32(8, id_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetNormalVarMap(),
-          NormalVarMapDefaultEntryHolder.defaultEntry,
-          5);
-      if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.STATUS_INVALID.getNumber()) {
-        output.writeEnum(9, status_);
-      }
+          internalGetSeenEndingMap(),
+          SeenEndingMapDefaultEntryHolder.defaultEntry,
+          10);
       if (getSavePointIdListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(savePointIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < savePointIdList_.size(); i++) {
@@ -804,15 +804,15 @@ public final class MainCoopOuterClass {
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetTempVarMap(),
-          TempVarMapDefaultEntryHolder.defaultEntry,
-          11);
+          internalGetBEBGFMAFJBB(),
+          BEBGFMAFJBBDefaultEntryHolder.defaultEntry,
+          13);
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetSeenEndingMap(),
-          SeenEndingMapDefaultEntryHolder.defaultEntry,
-          13);
+          internalGetNKFPLIFLABM(),
+          NKFPLIFLABMDefaultEntryHolder.defaultEntry,
+          15);
       unknownFields.writeTo(output);
     }
 
@@ -822,27 +822,27 @@ public final class MainCoopOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (id_ != 0) {
+      if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.STATUS_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, id_);
+          .computeEnumSize(3, status_);
       }
       if (selfConfidence_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, selfConfidence_);
+          .computeUInt32Size(4, selfConfidence_);
+      }
+      if (id_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, id_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetNormalVarMap().getMap().entrySet()) {
+           : internalGetSeenEndingMap().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        normalVarMap__ = NormalVarMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+        seenEndingMap__ = SeenEndingMapDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(5, normalVarMap__);
-      }
-      if (status_ != emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.STATUS_INVALID.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(9, status_);
+            .computeMessageSize(10, seenEndingMap__);
       }
       {
         int dataSize = 0;
@@ -859,24 +859,24 @@ public final class MainCoopOuterClass {
         savePointIdListMemoizedSerializedSize = dataSize;
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetTempVarMap().getMap().entrySet()) {
+           : internalGetBEBGFMAFJBB().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        tempVarMap__ = TempVarMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+        bEBGFMAFJBB__ = BEBGFMAFJBBDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(11, tempVarMap__);
+            .computeMessageSize(13, bEBGFMAFJBB__);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetSeenEndingMap().getMap().entrySet()) {
+           : internalGetNKFPLIFLABM().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        seenEndingMap__ = SeenEndingMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+        nKFPLIFLABM__ = NKFPLIFLABMDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(13, seenEndingMap__);
+            .computeMessageSize(15, nKFPLIFLABM__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -893,19 +893,19 @@ public final class MainCoopOuterClass {
       }
       emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop other = (emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop) obj;
 
-      if (!getSavePointIdListList()
-          .equals(other.getSavePointIdListList())) return false;
-      if (!internalGetNormalVarMap().equals(
-          other.internalGetNormalVarMap())) return false;
       if (!internalGetSeenEndingMap().equals(
           other.internalGetSeenEndingMap())) return false;
-      if (!internalGetTempVarMap().equals(
-          other.internalGetTempVarMap())) return false;
-      if (status_ != other.status_) return false;
+      if (!getSavePointIdListList()
+          .equals(other.getSavePointIdListList())) return false;
+      if (!internalGetNKFPLIFLABM().equals(
+          other.internalGetNKFPLIFLABM())) return false;
+      if (!internalGetBEBGFMAFJBB().equals(
+          other.internalGetBEBGFMAFJBB())) return false;
       if (getId()
           != other.getId()) return false;
       if (getSelfConfidence()
           != other.getSelfConfidence()) return false;
+      if (status_ != other.status_) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -917,28 +917,28 @@ public final class MainCoopOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getSavePointIdListCount() > 0) {
-        hash = (37 * hash) + SAVE_POINT_ID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getSavePointIdListList().hashCode();
-      }
-      if (!internalGetNormalVarMap().getMap().isEmpty()) {
-        hash = (37 * hash) + NORMAL_VAR_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetNormalVarMap().hashCode();
-      }
       if (!internalGetSeenEndingMap().getMap().isEmpty()) {
         hash = (37 * hash) + SEEN_ENDING_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetSeenEndingMap().hashCode();
       }
-      if (!internalGetTempVarMap().getMap().isEmpty()) {
-        hash = (37 * hash) + TEMP_VAR_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetTempVarMap().hashCode();
+      if (getSavePointIdListCount() > 0) {
+        hash = (37 * hash) + SAVE_POINT_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getSavePointIdListList().hashCode();
       }
-      hash = (37 * hash) + STATUS_FIELD_NUMBER;
-      hash = (53 * hash) + status_;
+      if (!internalGetNKFPLIFLABM().getMap().isEmpty()) {
+        hash = (37 * hash) + NKFPLIFLABM_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetNKFPLIFLABM().hashCode();
+      }
+      if (!internalGetBEBGFMAFJBB().getMap().isEmpty()) {
+        hash = (37 * hash) + BEBGFMAFJBB_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetBEBGFMAFJBB().hashCode();
+      }
       hash = (37 * hash) + ID_FIELD_NUMBER;
       hash = (53 * hash) + getId();
       hash = (37 * hash) + SELF_CONFIDENCE_FIELD_NUMBER;
       hash = (53 * hash) + getSelfConfidence();
+      hash = (37 * hash) + STATUS_FIELD_NUMBER;
+      hash = (53 * hash) + status_;
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -1050,12 +1050,12 @@ public final class MainCoopOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 5:
-            return internalGetNormalVarMap();
-          case 13:
+          case 10:
             return internalGetSeenEndingMap();
-          case 11:
-            return internalGetTempVarMap();
+          case 15:
+            return internalGetNKFPLIFLABM();
+          case 13:
+            return internalGetBEBGFMAFJBB();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -1065,12 +1065,12 @@ public final class MainCoopOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 5:
-            return internalGetMutableNormalVarMap();
-          case 13:
+          case 10:
             return internalGetMutableSeenEndingMap();
-          case 11:
-            return internalGetMutableTempVarMap();
+          case 15:
+            return internalGetMutableNKFPLIFLABM();
+          case 13:
+            return internalGetMutableBEBGFMAFJBB();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -1102,16 +1102,16 @@ public final class MainCoopOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        savePointIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        internalGetMutableNormalVarMap().clear();
         internalGetMutableSeenEndingMap().clear();
-        internalGetMutableTempVarMap().clear();
-        status_ = 0;
-
+        savePointIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        internalGetMutableNKFPLIFLABM().clear();
+        internalGetMutableBEBGFMAFJBB().clear();
         id_ = 0;
 
         selfConfidence_ = 0;
+
+        status_ = 0;
 
         return this;
       }
@@ -1140,20 +1140,20 @@ public final class MainCoopOuterClass {
       public emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop buildPartial() {
         emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop result = new emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop(this);
         int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) != 0)) {
-          savePointIdList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.savePointIdList_ = savePointIdList_;
-        result.normalVarMap_ = internalGetNormalVarMap();
-        result.normalVarMap_.makeImmutable();
         result.seenEndingMap_ = internalGetSeenEndingMap();
         result.seenEndingMap_.makeImmutable();
-        result.tempVarMap_ = internalGetTempVarMap();
-        result.tempVarMap_.makeImmutable();
-        result.status_ = status_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          savePointIdList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.savePointIdList_ = savePointIdList_;
+        result.nKFPLIFLABM_ = internalGetNKFPLIFLABM();
+        result.nKFPLIFLABM_.makeImmutable();
+        result.bEBGFMAFJBB_ = internalGetBEBGFMAFJBB();
+        result.bEBGFMAFJBB_.makeImmutable();
         result.id_ = id_;
         result.selfConfidence_ = selfConfidence_;
+        result.status_ = status_;
         onBuilt();
         return result;
       }
@@ -1202,30 +1202,30 @@ public final class MainCoopOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop other) {
         if (other == emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.getDefaultInstance()) return this;
+        internalGetMutableSeenEndingMap().mergeFrom(
+            other.internalGetSeenEndingMap());
         if (!other.savePointIdList_.isEmpty()) {
           if (savePointIdList_.isEmpty()) {
             savePointIdList_ = other.savePointIdList_;
-            bitField0_ = (bitField0_ & ~0x00000001);
+            bitField0_ = (bitField0_ & ~0x00000002);
           } else {
             ensureSavePointIdListIsMutable();
             savePointIdList_.addAll(other.savePointIdList_);
           }
           onChanged();
         }
-        internalGetMutableNormalVarMap().mergeFrom(
-            other.internalGetNormalVarMap());
-        internalGetMutableSeenEndingMap().mergeFrom(
-            other.internalGetSeenEndingMap());
-        internalGetMutableTempVarMap().mergeFrom(
-            other.internalGetTempVarMap());
-        if (other.status_ != 0) {
-          setStatusValue(other.getStatusValue());
-        }
+        internalGetMutableNKFPLIFLABM().mergeFrom(
+            other.internalGetNKFPLIFLABM());
+        internalGetMutableBEBGFMAFJBB().mergeFrom(
+            other.internalGetBEBGFMAFJBB());
         if (other.getId() != 0) {
           setId(other.getId());
         }
         if (other.getSelfConfidence() != 0) {
           setSelfConfidence(other.getSelfConfidence());
+        }
+        if (other.status_ != 0) {
+          setStatusValue(other.getStatusValue());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1257,213 +1257,6 @@ public final class MainCoopOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList savePointIdList_ = emptyIntList();
-      private void ensureSavePointIdListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          savePointIdList_ = mutableCopy(savePointIdList_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated uint32 save_point_id_list = 10;</code>
-       * @return A list containing the savePointIdList.
-       */
-      public java.util.List<java.lang.Integer>
-          getSavePointIdListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(savePointIdList_) : savePointIdList_;
-      }
-      /**
-       * <code>repeated uint32 save_point_id_list = 10;</code>
-       * @return The count of savePointIdList.
-       */
-      public int getSavePointIdListCount() {
-        return savePointIdList_.size();
-      }
-      /**
-       * <code>repeated uint32 save_point_id_list = 10;</code>
-       * @param index The index of the element to return.
-       * @return The savePointIdList at the given index.
-       */
-      public int getSavePointIdList(int index) {
-        return savePointIdList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 save_point_id_list = 10;</code>
-       * @param index The index to set the value at.
-       * @param value The savePointIdList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSavePointIdList(
-          int index, int value) {
-        ensureSavePointIdListIsMutable();
-        savePointIdList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 save_point_id_list = 10;</code>
-       * @param value The savePointIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addSavePointIdList(int value) {
-        ensureSavePointIdListIsMutable();
-        savePointIdList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 save_point_id_list = 10;</code>
-       * @param values The savePointIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllSavePointIdList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureSavePointIdListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, savePointIdList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 save_point_id_list = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSavePointIdList() {
-        savePointIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> normalVarMap_;
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetNormalVarMap() {
-        if (normalVarMap_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              NormalVarMapDefaultEntryHolder.defaultEntry);
-        }
-        return normalVarMap_;
-      }
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableNormalVarMap() {
-        onChanged();;
-        if (normalVarMap_ == null) {
-          normalVarMap_ = com.google.protobuf.MapField.newMapField(
-              NormalVarMapDefaultEntryHolder.defaultEntry);
-        }
-        if (!normalVarMap_.isMutable()) {
-          normalVarMap_ = normalVarMap_.copy();
-        }
-        return normalVarMap_;
-      }
-
-      public int getNormalVarMapCount() {
-        return internalGetNormalVarMap().getMap().size();
-      }
-      /**
-       * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-       */
-
-      @java.lang.Override
-      public boolean containsNormalVarMap(
-          int key) {
-        
-        return internalGetNormalVarMap().getMap().containsKey(key);
-      }
-      /**
-       * Use {@link #getNormalVarMapMap()} instead.
-       */
-      @java.lang.Override
-      @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getNormalVarMap() {
-        return getNormalVarMapMap();
-      }
-      /**
-       * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-       */
-      @java.lang.Override
-
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getNormalVarMapMap() {
-        return internalGetNormalVarMap().getMap();
-      }
-      /**
-       * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-       */
-      @java.lang.Override
-
-      public int getNormalVarMapOrDefault(
-          int key,
-          int defaultValue) {
-        
-        java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetNormalVarMap().getMap();
-        return map.containsKey(key) ? map.get(key) : defaultValue;
-      }
-      /**
-       * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-       */
-      @java.lang.Override
-
-      public int getNormalVarMapOrThrow(
-          int key) {
-        
-        java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetNormalVarMap().getMap();
-        if (!map.containsKey(key)) {
-          throw new java.lang.IllegalArgumentException();
-        }
-        return map.get(key);
-      }
-
-      public Builder clearNormalVarMap() {
-        internalGetMutableNormalVarMap().getMutableMap()
-            .clear();
-        return this;
-      }
-      /**
-       * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-       */
-
-      public Builder removeNormalVarMap(
-          int key) {
-        
-        internalGetMutableNormalVarMap().getMutableMap()
-            .remove(key);
-        return this;
-      }
-      /**
-       * Use alternate mutation accessors instead.
-       */
-      @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableNormalVarMap() {
-        return internalGetMutableNormalVarMap().getMutableMap();
-      }
-      /**
-       * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-       */
-      public Builder putNormalVarMap(
-          int key,
-          int value) {
-        
-        
-        internalGetMutableNormalVarMap().getMutableMap()
-            .put(key, value);
-        return this;
-      }
-      /**
-       * <code>map&lt;uint32, int32&gt; normal_var_map = 5;</code>
-       */
-
-      public Builder putAllNormalVarMap(
-          java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableNormalVarMap().getMutableMap()
-            .putAll(values);
-        return this;
-      }
-
       private com.google.protobuf.MapField<
           java.lang.Integer, java.lang.Integer> seenEndingMap_;
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
@@ -1491,7 +1284,7 @@ public final class MainCoopOuterClass {
         return internalGetSeenEndingMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
        */
 
       @java.lang.Override
@@ -1509,7 +1302,7 @@ public final class MainCoopOuterClass {
         return getSeenEndingMapMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
        */
       @java.lang.Override
 
@@ -1517,7 +1310,7 @@ public final class MainCoopOuterClass {
         return internalGetSeenEndingMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
        */
       @java.lang.Override
 
@@ -1530,7 +1323,7 @@ public final class MainCoopOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
        */
       @java.lang.Override
 
@@ -1551,7 +1344,7 @@ public final class MainCoopOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
        */
 
       public Builder removeSeenEndingMap(
@@ -1570,7 +1363,7 @@ public final class MainCoopOuterClass {
         return internalGetMutableSeenEndingMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
        */
       public Builder putSeenEndingMap(
           int key,
@@ -1582,7 +1375,7 @@ public final class MainCoopOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; seen_ending_map = 10;</code>
        */
 
       public Builder putAllSeenEndingMap(
@@ -1592,100 +1385,179 @@ public final class MainCoopOuterClass {
         return this;
       }
 
-      private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> tempVarMap_;
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetTempVarMap() {
-        if (tempVarMap_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              TempVarMapDefaultEntryHolder.defaultEntry);
-        }
-        return tempVarMap_;
-      }
-      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableTempVarMap() {
-        onChanged();;
-        if (tempVarMap_ == null) {
-          tempVarMap_ = com.google.protobuf.MapField.newMapField(
-              TempVarMapDefaultEntryHolder.defaultEntry);
-        }
-        if (!tempVarMap_.isMutable()) {
-          tempVarMap_ = tempVarMap_.copy();
-        }
-        return tempVarMap_;
-      }
-
-      public int getTempVarMapCount() {
-        return internalGetTempVarMap().getMap().size();
+      private com.google.protobuf.Internal.IntList savePointIdList_ = emptyIntList();
+      private void ensureSavePointIdListIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          savePointIdList_ = mutableCopy(savePointIdList_);
+          bitField0_ |= 0x00000002;
+         }
       }
       /**
-       * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+       * <code>repeated uint32 save_point_id_list = 11;</code>
+       * @return A list containing the savePointIdList.
+       */
+      public java.util.List<java.lang.Integer>
+          getSavePointIdListList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(savePointIdList_) : savePointIdList_;
+      }
+      /**
+       * <code>repeated uint32 save_point_id_list = 11;</code>
+       * @return The count of savePointIdList.
+       */
+      public int getSavePointIdListCount() {
+        return savePointIdList_.size();
+      }
+      /**
+       * <code>repeated uint32 save_point_id_list = 11;</code>
+       * @param index The index of the element to return.
+       * @return The savePointIdList at the given index.
+       */
+      public int getSavePointIdList(int index) {
+        return savePointIdList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 save_point_id_list = 11;</code>
+       * @param index The index to set the value at.
+       * @param value The savePointIdList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSavePointIdList(
+          int index, int value) {
+        ensureSavePointIdListIsMutable();
+        savePointIdList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 save_point_id_list = 11;</code>
+       * @param value The savePointIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addSavePointIdList(int value) {
+        ensureSavePointIdListIsMutable();
+        savePointIdList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 save_point_id_list = 11;</code>
+       * @param values The savePointIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllSavePointIdList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureSavePointIdListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, savePointIdList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 save_point_id_list = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSavePointIdList() {
+        savePointIdList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.MapField<
+          java.lang.Integer, java.lang.Integer> nKFPLIFLABM_;
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetNKFPLIFLABM() {
+        if (nKFPLIFLABM_ == null) {
+          return com.google.protobuf.MapField.emptyMapField(
+              NKFPLIFLABMDefaultEntryHolder.defaultEntry);
+        }
+        return nKFPLIFLABM_;
+      }
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetMutableNKFPLIFLABM() {
+        onChanged();;
+        if (nKFPLIFLABM_ == null) {
+          nKFPLIFLABM_ = com.google.protobuf.MapField.newMapField(
+              NKFPLIFLABMDefaultEntryHolder.defaultEntry);
+        }
+        if (!nKFPLIFLABM_.isMutable()) {
+          nKFPLIFLABM_ = nKFPLIFLABM_.copy();
+        }
+        return nKFPLIFLABM_;
+      }
+
+      public int getNKFPLIFLABMCount() {
+        return internalGetNKFPLIFLABM().getMap().size();
+      }
+      /**
+       * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
        */
 
       @java.lang.Override
-      public boolean containsTempVarMap(
+      public boolean containsNKFPLIFLABM(
           int key) {
         
-        return internalGetTempVarMap().getMap().containsKey(key);
+        return internalGetNKFPLIFLABM().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getTempVarMapMap()} instead.
+       * Use {@link #getNKFPLIFLABMMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getTempVarMap() {
-        return getTempVarMapMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getNKFPLIFLABM() {
+        return getNKFPLIFLABMMap();
       }
       /**
-       * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+       * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getTempVarMapMap() {
-        return internalGetTempVarMap().getMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getNKFPLIFLABMMap() {
+        return internalGetNKFPLIFLABM().getMap();
       }
       /**
-       * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+       * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
        */
       @java.lang.Override
 
-      public int getTempVarMapOrDefault(
+      public int getNKFPLIFLABMOrDefault(
           int key,
           int defaultValue) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetTempVarMap().getMap();
+            internalGetNKFPLIFLABM().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+       * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
        */
       @java.lang.Override
 
-      public int getTempVarMapOrThrow(
+      public int getNKFPLIFLABMOrThrow(
           int key) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetTempVarMap().getMap();
+            internalGetNKFPLIFLABM().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearTempVarMap() {
-        internalGetMutableTempVarMap().getMutableMap()
+      public Builder clearNKFPLIFLABM() {
+        internalGetMutableNKFPLIFLABM().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+       * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
        */
 
-      public Builder removeTempVarMap(
+      public Builder removeNKFPLIFLABM(
           int key) {
         
-        internalGetMutableTempVarMap().getMutableMap()
+        internalGetMutableNKFPLIFLABM().getMutableMap()
             .remove(key);
         return this;
       }
@@ -1694,42 +1566,232 @@ public final class MainCoopOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableTempVarMap() {
-        return internalGetMutableTempVarMap().getMutableMap();
+      getMutableNKFPLIFLABM() {
+        return internalGetMutableNKFPLIFLABM().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+       * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
        */
-      public Builder putTempVarMap(
+      public Builder putNKFPLIFLABM(
           int key,
           int value) {
         
         
-        internalGetMutableTempVarMap().getMutableMap()
+        internalGetMutableNKFPLIFLABM().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, int32&gt; temp_var_map = 11;</code>
+       * <code>map&lt;uint32, int32&gt; NKFPLIFLABM = 15;</code>
        */
 
-      public Builder putAllTempVarMap(
+      public Builder putAllNKFPLIFLABM(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableTempVarMap().getMutableMap()
+        internalGetMutableNKFPLIFLABM().getMutableMap()
             .putAll(values);
+        return this;
+      }
+
+      private com.google.protobuf.MapField<
+          java.lang.Integer, java.lang.Integer> bEBGFMAFJBB_;
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetBEBGFMAFJBB() {
+        if (bEBGFMAFJBB_ == null) {
+          return com.google.protobuf.MapField.emptyMapField(
+              BEBGFMAFJBBDefaultEntryHolder.defaultEntry);
+        }
+        return bEBGFMAFJBB_;
+      }
+      private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
+      internalGetMutableBEBGFMAFJBB() {
+        onChanged();;
+        if (bEBGFMAFJBB_ == null) {
+          bEBGFMAFJBB_ = com.google.protobuf.MapField.newMapField(
+              BEBGFMAFJBBDefaultEntryHolder.defaultEntry);
+        }
+        if (!bEBGFMAFJBB_.isMutable()) {
+          bEBGFMAFJBB_ = bEBGFMAFJBB_.copy();
+        }
+        return bEBGFMAFJBB_;
+      }
+
+      public int getBEBGFMAFJBBCount() {
+        return internalGetBEBGFMAFJBB().getMap().size();
+      }
+      /**
+       * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+       */
+
+      @java.lang.Override
+      public boolean containsBEBGFMAFJBB(
+          int key) {
+        
+        return internalGetBEBGFMAFJBB().getMap().containsKey(key);
+      }
+      /**
+       * Use {@link #getBEBGFMAFJBBMap()} instead.
+       */
+      @java.lang.Override
+      @java.lang.Deprecated
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getBEBGFMAFJBB() {
+        return getBEBGFMAFJBBMap();
+      }
+      /**
+       * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+       */
+      @java.lang.Override
+
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getBEBGFMAFJBBMap() {
+        return internalGetBEBGFMAFJBB().getMap();
+      }
+      /**
+       * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+       */
+      @java.lang.Override
+
+      public int getBEBGFMAFJBBOrDefault(
+          int key,
+          int defaultValue) {
+        
+        java.util.Map<java.lang.Integer, java.lang.Integer> map =
+            internalGetBEBGFMAFJBB().getMap();
+        return map.containsKey(key) ? map.get(key) : defaultValue;
+      }
+      /**
+       * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+       */
+      @java.lang.Override
+
+      public int getBEBGFMAFJBBOrThrow(
+          int key) {
+        
+        java.util.Map<java.lang.Integer, java.lang.Integer> map =
+            internalGetBEBGFMAFJBB().getMap();
+        if (!map.containsKey(key)) {
+          throw new java.lang.IllegalArgumentException();
+        }
+        return map.get(key);
+      }
+
+      public Builder clearBEBGFMAFJBB() {
+        internalGetMutableBEBGFMAFJBB().getMutableMap()
+            .clear();
+        return this;
+      }
+      /**
+       * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+       */
+
+      public Builder removeBEBGFMAFJBB(
+          int key) {
+        
+        internalGetMutableBEBGFMAFJBB().getMutableMap()
+            .remove(key);
+        return this;
+      }
+      /**
+       * Use alternate mutation accessors instead.
+       */
+      @java.lang.Deprecated
+      public java.util.Map<java.lang.Integer, java.lang.Integer>
+      getMutableBEBGFMAFJBB() {
+        return internalGetMutableBEBGFMAFJBB().getMutableMap();
+      }
+      /**
+       * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+       */
+      public Builder putBEBGFMAFJBB(
+          int key,
+          int value) {
+        
+        
+        internalGetMutableBEBGFMAFJBB().getMutableMap()
+            .put(key, value);
+        return this;
+      }
+      /**
+       * <code>map&lt;uint32, int32&gt; BEBGFMAFJBB = 13;</code>
+       */
+
+      public Builder putAllBEBGFMAFJBB(
+          java.util.Map<java.lang.Integer, java.lang.Integer> values) {
+        internalGetMutableBEBGFMAFJBB().getMutableMap()
+            .putAll(values);
+        return this;
+      }
+
+      private int id_ ;
+      /**
+       * <code>uint32 id = 8;</code>
+       * @return The id.
+       */
+      @java.lang.Override
+      public int getId() {
+        return id_;
+      }
+      /**
+       * <code>uint32 id = 8;</code>
+       * @param value The id to set.
+       * @return This builder for chaining.
+       */
+      public Builder setId(int value) {
+        
+        id_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 id = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearId() {
+        
+        id_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int selfConfidence_ ;
+      /**
+       * <code>uint32 self_confidence = 4;</code>
+       * @return The selfConfidence.
+       */
+      @java.lang.Override
+      public int getSelfConfidence() {
+        return selfConfidence_;
+      }
+      /**
+       * <code>uint32 self_confidence = 4;</code>
+       * @param value The selfConfidence to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSelfConfidence(int value) {
+        
+        selfConfidence_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 self_confidence = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSelfConfidence() {
+        
+        selfConfidence_ = 0;
+        onChanged();
         return this;
       }
 
       private int status_ = 0;
       /**
-       * <code>.MainCoop.Status status = 9;</code>
+       * <code>.MainCoop.Status status = 3;</code>
        * @return The enum numeric value on the wire for status.
        */
       @java.lang.Override public int getStatusValue() {
         return status_;
       }
       /**
-       * <code>.MainCoop.Status status = 9;</code>
+       * <code>.MainCoop.Status status = 3;</code>
        * @param value The enum numeric value on the wire for status to set.
        * @return This builder for chaining.
        */
@@ -1740,7 +1802,7 @@ public final class MainCoopOuterClass {
         return this;
       }
       /**
-       * <code>.MainCoop.Status status = 9;</code>
+       * <code>.MainCoop.Status status = 3;</code>
        * @return The status.
        */
       @java.lang.Override
@@ -1750,7 +1812,7 @@ public final class MainCoopOuterClass {
         return result == null ? emu.grasscutter.net.proto.MainCoopOuterClass.MainCoop.Status.UNRECOGNIZED : result;
       }
       /**
-       * <code>.MainCoop.Status status = 9;</code>
+       * <code>.MainCoop.Status status = 3;</code>
        * @param value The status to set.
        * @return This builder for chaining.
        */
@@ -1764,74 +1826,12 @@ public final class MainCoopOuterClass {
         return this;
       }
       /**
-       * <code>.MainCoop.Status status = 9;</code>
+       * <code>.MainCoop.Status status = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearStatus() {
         
         status_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int id_ ;
-      /**
-       * <code>uint32 id = 1;</code>
-       * @return The id.
-       */
-      @java.lang.Override
-      public int getId() {
-        return id_;
-      }
-      /**
-       * <code>uint32 id = 1;</code>
-       * @param value The id to set.
-       * @return This builder for chaining.
-       */
-      public Builder setId(int value) {
-        
-        id_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearId() {
-        
-        id_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int selfConfidence_ ;
-      /**
-       * <code>uint32 self_confidence = 2;</code>
-       * @return The selfConfidence.
-       */
-      @java.lang.Override
-      public int getSelfConfidence() {
-        return selfConfidence_;
-      }
-      /**
-       * <code>uint32 self_confidence = 2;</code>
-       * @param value The selfConfidence to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSelfConfidence(int value) {
-        
-        selfConfidence_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 self_confidence = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSelfConfidence() {
-        
-        selfConfidence_ = 0;
         onChanged();
         return this;
       }
@@ -1894,20 +1894,20 @@ public final class MainCoopOuterClass {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MainCoop_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_MainCoop_NormalVarMapEntry_descriptor;
-  private static final 
-    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_MainCoop_NormalVarMapEntry_fieldAccessorTable;
-  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MainCoop_SeenEndingMapEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MainCoop_SeenEndingMapEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_MainCoop_TempVarMapEntry_descriptor;
+    internal_static_MainCoop_NKFPLIFLABMEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_MainCoop_TempVarMapEntry_fieldAccessorTable;
+      internal_static_MainCoop_NKFPLIFLABMEntry_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_MainCoop_BEBGFMAFJBBEntry_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_MainCoop_BEBGFMAFJBBEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1917,20 +1917,20 @@ public final class MainCoopOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016MainCoop.proto\"\357\003\n\010MainCoop\022\032\n\022save_po" +
-      "int_id_list\030\n \003(\r\0223\n\016normal_var_map\030\005 \003(" +
-      "\0132\033.MainCoop.NormalVarMapEntry\0225\n\017seen_e" +
-      "nding_map\030\r \003(\0132\034.MainCoop.SeenEndingMap" +
-      "Entry\022/\n\014temp_var_map\030\013 \003(\0132\031.MainCoop.T" +
-      "empVarMapEntry\022 \n\006status\030\t \001(\0162\020.MainCoo" +
-      "p.Status\022\n\n\002id\030\001 \001(\r\022\027\n\017self_confidence\030" +
-      "\002 \001(\r\0323\n\021NormalVarMapEntry\022\013\n\003key\030\001 \001(\r\022" +
-      "\r\n\005value\030\002 \001(\005:\0028\001\0324\n\022SeenEndingMapEntry" +
-      "\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\0321\n\017Temp" +
-      "VarMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\005:" +
-      "\0028\001\"E\n\006Status\022\022\n\016STATUS_INVALID\020\000\022\022\n\016STA" +
-      "TUS_RUNNING\020\001\022\023\n\017STATUS_FINISHED\020\002B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\016MainCoop.proto\"\353\003\n\010MainCoop\0225\n\017seen_en" +
+      "ding_map\030\n \003(\0132\034.MainCoop.SeenEndingMapE" +
+      "ntry\022\032\n\022save_point_id_list\030\013 \003(\r\022/\n\013NKFP" +
+      "LIFLABM\030\017 \003(\0132\032.MainCoop.NKFPLIFLABMEntr" +
+      "y\022/\n\013BEBGFMAFJBB\030\r \003(\0132\032.MainCoop.BEBGFM" +
+      "AFJBBEntry\022\n\n\002id\030\010 \001(\r\022\027\n\017self_confidenc" +
+      "e\030\004 \001(\r\022 \n\006status\030\003 \001(\0162\020.MainCoop.Statu" +
+      "s\0324\n\022SeenEndingMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005" +
+      "value\030\002 \001(\r:\0028\001\0322\n\020NKFPLIFLABMEntry\022\013\n\003k" +
+      "ey\030\001 \001(\r\022\r\n\005value\030\002 \001(\005:\0028\001\0322\n\020BEBGFMAFJ" +
+      "BBEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\005:\0028\001\"" +
+      "E\n\006Status\022\022\n\016STATUS_INVALID\020\000\022\022\n\016STATUS_" +
+      "RUNNING\020\001\022\023\n\017STATUS_FINISHED\020\002B\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1941,24 +1941,24 @@ public final class MainCoopOuterClass {
     internal_static_MainCoop_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MainCoop_descriptor,
-        new java.lang.String[] { "SavePointIdList", "NormalVarMap", "SeenEndingMap", "TempVarMap", "Status", "Id", "SelfConfidence", });
-    internal_static_MainCoop_NormalVarMapEntry_descriptor =
-      internal_static_MainCoop_descriptor.getNestedTypes().get(0);
-    internal_static_MainCoop_NormalVarMapEntry_fieldAccessorTable = new
-      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_MainCoop_NormalVarMapEntry_descriptor,
-        new java.lang.String[] { "Key", "Value", });
+        new java.lang.String[] { "SeenEndingMap", "SavePointIdList", "NKFPLIFLABM", "BEBGFMAFJBB", "Id", "SelfConfidence", "Status", });
     internal_static_MainCoop_SeenEndingMapEntry_descriptor =
-      internal_static_MainCoop_descriptor.getNestedTypes().get(1);
+      internal_static_MainCoop_descriptor.getNestedTypes().get(0);
     internal_static_MainCoop_SeenEndingMapEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MainCoop_SeenEndingMapEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    internal_static_MainCoop_TempVarMapEntry_descriptor =
-      internal_static_MainCoop_descriptor.getNestedTypes().get(2);
-    internal_static_MainCoop_TempVarMapEntry_fieldAccessorTable = new
+    internal_static_MainCoop_NKFPLIFLABMEntry_descriptor =
+      internal_static_MainCoop_descriptor.getNestedTypes().get(1);
+    internal_static_MainCoop_NKFPLIFLABMEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_MainCoop_TempVarMapEntry_descriptor,
+        internal_static_MainCoop_NKFPLIFLABMEntry_descriptor,
+        new java.lang.String[] { "Key", "Value", });
+    internal_static_MainCoop_BEBGFMAFJBBEntry_descriptor =
+      internal_static_MainCoop_descriptor.getNestedTypes().get(2);
+    internal_static_MainCoop_BEBGFMAFJBBEntry_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_MainCoop_BEBGFMAFJBBEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
   }
 
