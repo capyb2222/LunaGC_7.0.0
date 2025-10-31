@@ -1389,7 +1389,6 @@ public final class PacketOpcodes {
     public static final int GadgetChangeLevelTagRsp = 1;
     public static final int GadgetCustomTreeInfoNotify = 1;
     public static final int GadgetGeneralRewardInfoNotify = 1;
-    public static final int GadgetPlayStopNotify = 1;
     public static final int GadgetTalkChangeNotify = 1;
     public static final int GalleryBalloonScoreNotify = 1;
     public static final int GalleryBalloonShootNotify = 1;
