@@ -1962,7 +1962,6 @@ public final class PacketOpcodes {
     public static final int PotionRestartDungeonRsp = 1;
     public static final int PotionSaveDungeonResultReq = 1;
     public static final int PotionSaveDungeonResultRsp = 1;
-    public static final int PrivateChatRsp = 1;
     public static final int ProfilePictureChangeNotify = 1;
     public static final int ProfilePictureUpdateNotify = 1;
     public static final int ProjectorOptionReq = 1;
