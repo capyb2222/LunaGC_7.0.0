@@ -92,7 +92,7 @@ public final class PacketOpcodes {
     // Player - Avatar/Team
 	public static final int AvatarTeamAllDataNotify = 3118;
 	public static final int AvatarTeamUpdateNotify = 29192;
-    public static final int PlayerDataNotify = 27728;
+    public static final int PlayerDataNotify = 20241;
     public static final int AvatarDataNotify = 27728;
     public static final int AvatarAddNotify = 24215;
     public static final int AvatarEquipChangeNotify = 27906;
