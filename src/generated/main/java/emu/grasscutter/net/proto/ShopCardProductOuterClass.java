@@ -43,16 +43,10 @@ public final class ShopCardProductOuterClass {
         getPriceTierBytes();
 
     /**
-     * <code>uint32 card_product_type = 7;</code>
-     * @return The cardProductType.
+     * <code>uint32 hcoin_per_day = 4;</code>
+     * @return The hcoinPerDay.
      */
-    int getCardProductType();
-
-    /**
-     * <code>uint32 days = 5;</code>
-     * @return The days.
-     */
-    int getDays();
+    int getHcoinPerDay();
 
     /**
      * <code>uint32 remain_reward_days = 6;</code>
@@ -61,16 +55,22 @@ public final class ShopCardProductOuterClass {
     int getRemainRewardDays();
 
     /**
-     * <code>uint32 hcoin_per_day = 4;</code>
-     * @return The hcoinPerDay.
-     */
-    int getHcoinPerDay();
-
-    /**
      * <code>uint32 mcoin_base = 3;</code>
      * @return The mcoinBase.
      */
     int getMcoinBase();
+
+    /**
+     * <code>uint32 days = 5;</code>
+     * @return The days.
+     */
+    int getDays();
+
+    /**
+     * <code>uint32 card_product_type = 7;</code>
+     * @return The cardProductType.
+     */
+    int getCardProductType();
 
     /**
      * <code>.ShopCardProduct.ResinCard resin_card = 101;</code>
@@ -224,30 +224,6 @@ public final class ShopCardProductOuterClass {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
-          getBaseItemListList();
-      /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getBaseItemList(int index);
-      /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      int getBaseItemListCount();
-      /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
-          getBaseItemListOrBuilderList();
-      /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getBaseItemListOrBuilder(
-          int index);
-
-      /**
        * <code>repeated .ItemParam per_day_item_list = 2;</code>
        */
       java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
@@ -270,6 +246,30 @@ public final class ShopCardProductOuterClass {
        */
       emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getPerDayItemListOrBuilder(
           int index);
+
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
+          getBaseItemListList();
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getBaseItemList(int index);
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      int getBaseItemListCount();
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          getBaseItemListOrBuilderList();
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getBaseItemListOrBuilder(
+          int index);
     }
     /**
      * Protobuf type {@code ShopCardProduct.ResinCard}
@@ -284,8 +284,8 @@ public final class ShopCardProductOuterClass {
         super(builder);
       }
       private ResinCard() {
-        baseItemList_ = java.util.Collections.emptyList();
         perDayItemList_ = java.util.Collections.emptyList();
+        baseItemList_ = java.util.Collections.emptyList();
       }
 
       @java.lang.Override
@@ -320,18 +320,18 @@ public final class ShopCardProductOuterClass {
                 done = true;
                 break;
               case 10: {
-                if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                   baseItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
-                  mutable_bitField0_ |= 0x00000001;
+                  mutable_bitField0_ |= 0x00000002;
                 }
                 baseItemList_.add(
                     input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
                 break;
               }
               case 18: {
-                if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                   perDayItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
-                  mutable_bitField0_ |= 0x00000002;
+                  mutable_bitField0_ |= 0x00000001;
                 }
                 perDayItemList_.add(
                     input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
@@ -352,10 +352,10 @@ public final class ShopCardProductOuterClass {
           throw new com.google.protobuf.InvalidProtocolBufferException(
               e).setUnfinishedMessage(this);
         } finally {
-          if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          if (((mutable_bitField0_ & 0x00000002) != 0)) {
             baseItemList_ = java.util.Collections.unmodifiableList(baseItemList_);
           }
-          if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          if (((mutable_bitField0_ & 0x00000001) != 0)) {
             perDayItemList_ = java.util.Collections.unmodifiableList(perDayItemList_);
           }
           this.unknownFields = unknownFields.build();
@@ -373,46 +373,6 @@ public final class ShopCardProductOuterClass {
         return emu.grasscutter.net.proto.ShopCardProductOuterClass.internal_static_ShopCardProduct_ResinCard_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.ResinCard.class, emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.ResinCard.Builder.class);
-      }
-
-      public static final int BASE_ITEM_LIST_FIELD_NUMBER = 1;
-      private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> baseItemList_;
-      /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      @java.lang.Override
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getBaseItemListList() {
-        return baseItemList_;
-      }
-      /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      @java.lang.Override
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
-          getBaseItemListOrBuilderList() {
-        return baseItemList_;
-      }
-      /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      @java.lang.Override
-      public int getBaseItemListCount() {
-        return baseItemList_.size();
-      }
-      /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getBaseItemList(int index) {
-        return baseItemList_.get(index);
-      }
-      /**
-       * <code>repeated .ItemParam base_item_list = 1;</code>
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getBaseItemListOrBuilder(
-          int index) {
-        return baseItemList_.get(index);
       }
 
       public static final int PER_DAY_ITEM_LIST_FIELD_NUMBER = 2;
@@ -453,6 +413,46 @@ public final class ShopCardProductOuterClass {
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getPerDayItemListOrBuilder(
           int index) {
         return perDayItemList_.get(index);
+      }
+
+      public static final int BASE_ITEM_LIST_FIELD_NUMBER = 1;
+      private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> baseItemList_;
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      @java.lang.Override
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getBaseItemListList() {
+        return baseItemList_;
+      }
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      @java.lang.Override
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          getBaseItemListOrBuilderList() {
+        return baseItemList_;
+      }
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      @java.lang.Override
+      public int getBaseItemListCount() {
+        return baseItemList_.size();
+      }
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getBaseItemList(int index) {
+        return baseItemList_.get(index);
+      }
+      /**
+       * <code>repeated .ItemParam base_item_list = 1;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getBaseItemListOrBuilder(
+          int index) {
+        return baseItemList_.get(index);
       }
 
       private byte memoizedIsInitialized = -1;
@@ -507,10 +507,10 @@ public final class ShopCardProductOuterClass {
         }
         emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.ResinCard other = (emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.ResinCard) obj;
 
-        if (!getBaseItemListList()
-            .equals(other.getBaseItemListList())) return false;
         if (!getPerDayItemListList()
             .equals(other.getPerDayItemListList())) return false;
+        if (!getBaseItemListList()
+            .equals(other.getBaseItemListList())) return false;
         if (!unknownFields.equals(other.unknownFields)) return false;
         return true;
       }
@@ -522,13 +522,13 @@ public final class ShopCardProductOuterClass {
         }
         int hash = 41;
         hash = (19 * hash) + getDescriptor().hashCode();
-        if (getBaseItemListCount() > 0) {
-          hash = (37 * hash) + BASE_ITEM_LIST_FIELD_NUMBER;
-          hash = (53 * hash) + getBaseItemListList().hashCode();
-        }
         if (getPerDayItemListCount() > 0) {
           hash = (37 * hash) + PER_DAY_ITEM_LIST_FIELD_NUMBER;
           hash = (53 * hash) + getPerDayItemListList().hashCode();
+        }
+        if (getBaseItemListCount() > 0) {
+          hash = (37 * hash) + BASE_ITEM_LIST_FIELD_NUMBER;
+          hash = (53 * hash) + getBaseItemListList().hashCode();
         }
         hash = (29 * hash) + unknownFields.hashCode();
         memoizedHashCode = hash;
@@ -658,24 +658,24 @@ public final class ShopCardProductOuterClass {
         private void maybeForceBuilderInitialization() {
           if (com.google.protobuf.GeneratedMessageV3
                   .alwaysUseFieldBuilders) {
-            getBaseItemListFieldBuilder();
             getPerDayItemListFieldBuilder();
+            getBaseItemListFieldBuilder();
           }
         }
         @java.lang.Override
         public Builder clear() {
           super.clear();
-          if (baseItemListBuilder_ == null) {
-            baseItemList_ = java.util.Collections.emptyList();
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            baseItemListBuilder_.clear();
-          }
           if (perDayItemListBuilder_ == null) {
             perDayItemList_ = java.util.Collections.emptyList();
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           } else {
             perDayItemListBuilder_.clear();
+          }
+          if (baseItemListBuilder_ == null) {
+            baseItemList_ = java.util.Collections.emptyList();
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            baseItemListBuilder_.clear();
           }
           return this;
         }
@@ -704,23 +704,23 @@ public final class ShopCardProductOuterClass {
         public emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.ResinCard buildPartial() {
           emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.ResinCard result = new emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.ResinCard(this);
           int from_bitField0_ = bitField0_;
-          if (baseItemListBuilder_ == null) {
-            if (((bitField0_ & 0x00000001) != 0)) {
-              baseItemList_ = java.util.Collections.unmodifiableList(baseItemList_);
-              bitField0_ = (bitField0_ & ~0x00000001);
-            }
-            result.baseItemList_ = baseItemList_;
-          } else {
-            result.baseItemList_ = baseItemListBuilder_.build();
-          }
           if (perDayItemListBuilder_ == null) {
-            if (((bitField0_ & 0x00000002) != 0)) {
+            if (((bitField0_ & 0x00000001) != 0)) {
               perDayItemList_ = java.util.Collections.unmodifiableList(perDayItemList_);
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             }
             result.perDayItemList_ = perDayItemList_;
           } else {
             result.perDayItemList_ = perDayItemListBuilder_.build();
+          }
+          if (baseItemListBuilder_ == null) {
+            if (((bitField0_ & 0x00000002) != 0)) {
+              baseItemList_ = java.util.Collections.unmodifiableList(baseItemList_);
+              bitField0_ = (bitField0_ & ~0x00000002);
+            }
+            result.baseItemList_ = baseItemList_;
+          } else {
+            result.baseItemList_ = baseItemListBuilder_.build();
           }
           onBuilt();
           return result;
@@ -770,37 +770,11 @@ public final class ShopCardProductOuterClass {
 
         public Builder mergeFrom(emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.ResinCard other) {
           if (other == emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct.ResinCard.getDefaultInstance()) return this;
-          if (baseItemListBuilder_ == null) {
-            if (!other.baseItemList_.isEmpty()) {
-              if (baseItemList_.isEmpty()) {
-                baseItemList_ = other.baseItemList_;
-                bitField0_ = (bitField0_ & ~0x00000001);
-              } else {
-                ensureBaseItemListIsMutable();
-                baseItemList_.addAll(other.baseItemList_);
-              }
-              onChanged();
-            }
-          } else {
-            if (!other.baseItemList_.isEmpty()) {
-              if (baseItemListBuilder_.isEmpty()) {
-                baseItemListBuilder_.dispose();
-                baseItemListBuilder_ = null;
-                baseItemList_ = other.baseItemList_;
-                bitField0_ = (bitField0_ & ~0x00000001);
-                baseItemListBuilder_ = 
-                  com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                     getBaseItemListFieldBuilder() : null;
-              } else {
-                baseItemListBuilder_.addAllMessages(other.baseItemList_);
-              }
-            }
-          }
           if (perDayItemListBuilder_ == null) {
             if (!other.perDayItemList_.isEmpty()) {
               if (perDayItemList_.isEmpty()) {
                 perDayItemList_ = other.perDayItemList_;
-                bitField0_ = (bitField0_ & ~0x00000002);
+                bitField0_ = (bitField0_ & ~0x00000001);
               } else {
                 ensurePerDayItemListIsMutable();
                 perDayItemList_.addAll(other.perDayItemList_);
@@ -813,12 +787,38 @@ public final class ShopCardProductOuterClass {
                 perDayItemListBuilder_.dispose();
                 perDayItemListBuilder_ = null;
                 perDayItemList_ = other.perDayItemList_;
-                bitField0_ = (bitField0_ & ~0x00000002);
+                bitField0_ = (bitField0_ & ~0x00000001);
                 perDayItemListBuilder_ = 
                   com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                      getPerDayItemListFieldBuilder() : null;
               } else {
                 perDayItemListBuilder_.addAllMessages(other.perDayItemList_);
+              }
+            }
+          }
+          if (baseItemListBuilder_ == null) {
+            if (!other.baseItemList_.isEmpty()) {
+              if (baseItemList_.isEmpty()) {
+                baseItemList_ = other.baseItemList_;
+                bitField0_ = (bitField0_ & ~0x00000002);
+              } else {
+                ensureBaseItemListIsMutable();
+                baseItemList_.addAll(other.baseItemList_);
+              }
+              onChanged();
+            }
+          } else {
+            if (!other.baseItemList_.isEmpty()) {
+              if (baseItemListBuilder_.isEmpty()) {
+                baseItemListBuilder_.dispose();
+                baseItemListBuilder_ = null;
+                baseItemList_ = other.baseItemList_;
+                bitField0_ = (bitField0_ & ~0x00000002);
+                baseItemListBuilder_ = 
+                  com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
+                     getBaseItemListFieldBuilder() : null;
+              } else {
+                baseItemListBuilder_.addAllMessages(other.baseItemList_);
               }
             }
           }
@@ -852,252 +852,12 @@ public final class ShopCardProductOuterClass {
         }
         private int bitField0_;
 
-        private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> baseItemList_ =
-          java.util.Collections.emptyList();
-        private void ensureBaseItemListIsMutable() {
-          if (!((bitField0_ & 0x00000001) != 0)) {
-            baseItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>(baseItemList_);
-            bitField0_ |= 0x00000001;
-           }
-        }
-
-        private com.google.protobuf.RepeatedFieldBuilderV3<
-            emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> baseItemListBuilder_;
-
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getBaseItemListList() {
-          if (baseItemListBuilder_ == null) {
-            return java.util.Collections.unmodifiableList(baseItemList_);
-          } else {
-            return baseItemListBuilder_.getMessageList();
-          }
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public int getBaseItemListCount() {
-          if (baseItemListBuilder_ == null) {
-            return baseItemList_.size();
-          } else {
-            return baseItemListBuilder_.getCount();
-          }
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getBaseItemList(int index) {
-          if (baseItemListBuilder_ == null) {
-            return baseItemList_.get(index);
-          } else {
-            return baseItemListBuilder_.getMessage(index);
-          }
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public Builder setBaseItemList(
-            int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
-          if (baseItemListBuilder_ == null) {
-            if (value == null) {
-              throw new NullPointerException();
-            }
-            ensureBaseItemListIsMutable();
-            baseItemList_.set(index, value);
-            onChanged();
-          } else {
-            baseItemListBuilder_.setMessage(index, value);
-          }
-          return this;
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public Builder setBaseItemList(
-            int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
-          if (baseItemListBuilder_ == null) {
-            ensureBaseItemListIsMutable();
-            baseItemList_.set(index, builderForValue.build());
-            onChanged();
-          } else {
-            baseItemListBuilder_.setMessage(index, builderForValue.build());
-          }
-          return this;
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public Builder addBaseItemList(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
-          if (baseItemListBuilder_ == null) {
-            if (value == null) {
-              throw new NullPointerException();
-            }
-            ensureBaseItemListIsMutable();
-            baseItemList_.add(value);
-            onChanged();
-          } else {
-            baseItemListBuilder_.addMessage(value);
-          }
-          return this;
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public Builder addBaseItemList(
-            int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
-          if (baseItemListBuilder_ == null) {
-            if (value == null) {
-              throw new NullPointerException();
-            }
-            ensureBaseItemListIsMutable();
-            baseItemList_.add(index, value);
-            onChanged();
-          } else {
-            baseItemListBuilder_.addMessage(index, value);
-          }
-          return this;
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public Builder addBaseItemList(
-            emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
-          if (baseItemListBuilder_ == null) {
-            ensureBaseItemListIsMutable();
-            baseItemList_.add(builderForValue.build());
-            onChanged();
-          } else {
-            baseItemListBuilder_.addMessage(builderForValue.build());
-          }
-          return this;
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public Builder addBaseItemList(
-            int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
-          if (baseItemListBuilder_ == null) {
-            ensureBaseItemListIsMutable();
-            baseItemList_.add(index, builderForValue.build());
-            onChanged();
-          } else {
-            baseItemListBuilder_.addMessage(index, builderForValue.build());
-          }
-          return this;
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public Builder addAllBaseItemList(
-            java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
-          if (baseItemListBuilder_ == null) {
-            ensureBaseItemListIsMutable();
-            com.google.protobuf.AbstractMessageLite.Builder.addAll(
-                values, baseItemList_);
-            onChanged();
-          } else {
-            baseItemListBuilder_.addAllMessages(values);
-          }
-          return this;
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public Builder clearBaseItemList() {
-          if (baseItemListBuilder_ == null) {
-            baseItemList_ = java.util.Collections.emptyList();
-            bitField0_ = (bitField0_ & ~0x00000001);
-            onChanged();
-          } else {
-            baseItemListBuilder_.clear();
-          }
-          return this;
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public Builder removeBaseItemList(int index) {
-          if (baseItemListBuilder_ == null) {
-            ensureBaseItemListIsMutable();
-            baseItemList_.remove(index);
-            onChanged();
-          } else {
-            baseItemListBuilder_.remove(index);
-          }
-          return this;
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getBaseItemListBuilder(
-            int index) {
-          return getBaseItemListFieldBuilder().getBuilder(index);
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getBaseItemListOrBuilder(
-            int index) {
-          if (baseItemListBuilder_ == null) {
-            return baseItemList_.get(index);  } else {
-            return baseItemListBuilder_.getMessageOrBuilder(index);
-          }
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
-             getBaseItemListOrBuilderList() {
-          if (baseItemListBuilder_ != null) {
-            return baseItemListBuilder_.getMessageOrBuilderList();
-          } else {
-            return java.util.Collections.unmodifiableList(baseItemList_);
-          }
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addBaseItemListBuilder() {
-          return getBaseItemListFieldBuilder().addBuilder(
-              emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addBaseItemListBuilder(
-            int index) {
-          return getBaseItemListFieldBuilder().addBuilder(
-              index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
-        }
-        /**
-         * <code>repeated .ItemParam base_item_list = 1;</code>
-         */
-        public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
-             getBaseItemListBuilderList() {
-          return getBaseItemListFieldBuilder().getBuilderList();
-        }
-        private com.google.protobuf.RepeatedFieldBuilderV3<
-            emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
-            getBaseItemListFieldBuilder() {
-          if (baseItemListBuilder_ == null) {
-            baseItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-                emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>(
-                    baseItemList_,
-                    ((bitField0_ & 0x00000001) != 0),
-                    getParentForChildren(),
-                    isClean());
-            baseItemList_ = null;
-          }
-          return baseItemListBuilder_;
-        }
-
         private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> perDayItemList_ =
           java.util.Collections.emptyList();
         private void ensurePerDayItemListIsMutable() {
-          if (!((bitField0_ & 0x00000002) != 0)) {
+          if (!((bitField0_ & 0x00000001) != 0)) {
             perDayItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>(perDayItemList_);
-            bitField0_ |= 0x00000002;
+            bitField0_ |= 0x00000001;
            }
         }
 
@@ -1247,7 +1007,7 @@ public final class ShopCardProductOuterClass {
         public Builder clearPerDayItemList() {
           if (perDayItemListBuilder_ == null) {
             perDayItemList_ = java.util.Collections.emptyList();
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
             onChanged();
           } else {
             perDayItemListBuilder_.clear();
@@ -1324,12 +1084,252 @@ public final class ShopCardProductOuterClass {
             perDayItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
                 emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>(
                     perDayItemList_,
-                    ((bitField0_ & 0x00000002) != 0),
+                    ((bitField0_ & 0x00000001) != 0),
                     getParentForChildren(),
                     isClean());
             perDayItemList_ = null;
           }
           return perDayItemListBuilder_;
+        }
+
+        private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> baseItemList_ =
+          java.util.Collections.emptyList();
+        private void ensureBaseItemListIsMutable() {
+          if (!((bitField0_ & 0x00000002) != 0)) {
+            baseItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>(baseItemList_);
+            bitField0_ |= 0x00000002;
+           }
+        }
+
+        private com.google.protobuf.RepeatedFieldBuilderV3<
+            emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> baseItemListBuilder_;
+
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getBaseItemListList() {
+          if (baseItemListBuilder_ == null) {
+            return java.util.Collections.unmodifiableList(baseItemList_);
+          } else {
+            return baseItemListBuilder_.getMessageList();
+          }
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public int getBaseItemListCount() {
+          if (baseItemListBuilder_ == null) {
+            return baseItemList_.size();
+          } else {
+            return baseItemListBuilder_.getCount();
+          }
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getBaseItemList(int index) {
+          if (baseItemListBuilder_ == null) {
+            return baseItemList_.get(index);
+          } else {
+            return baseItemListBuilder_.getMessage(index);
+          }
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public Builder setBaseItemList(
+            int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
+          if (baseItemListBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            ensureBaseItemListIsMutable();
+            baseItemList_.set(index, value);
+            onChanged();
+          } else {
+            baseItemListBuilder_.setMessage(index, value);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public Builder setBaseItemList(
+            int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
+          if (baseItemListBuilder_ == null) {
+            ensureBaseItemListIsMutable();
+            baseItemList_.set(index, builderForValue.build());
+            onChanged();
+          } else {
+            baseItemListBuilder_.setMessage(index, builderForValue.build());
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public Builder addBaseItemList(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
+          if (baseItemListBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            ensureBaseItemListIsMutable();
+            baseItemList_.add(value);
+            onChanged();
+          } else {
+            baseItemListBuilder_.addMessage(value);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public Builder addBaseItemList(
+            int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
+          if (baseItemListBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            ensureBaseItemListIsMutable();
+            baseItemList_.add(index, value);
+            onChanged();
+          } else {
+            baseItemListBuilder_.addMessage(index, value);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public Builder addBaseItemList(
+            emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
+          if (baseItemListBuilder_ == null) {
+            ensureBaseItemListIsMutable();
+            baseItemList_.add(builderForValue.build());
+            onChanged();
+          } else {
+            baseItemListBuilder_.addMessage(builderForValue.build());
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public Builder addBaseItemList(
+            int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
+          if (baseItemListBuilder_ == null) {
+            ensureBaseItemListIsMutable();
+            baseItemList_.add(index, builderForValue.build());
+            onChanged();
+          } else {
+            baseItemListBuilder_.addMessage(index, builderForValue.build());
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public Builder addAllBaseItemList(
+            java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
+          if (baseItemListBuilder_ == null) {
+            ensureBaseItemListIsMutable();
+            com.google.protobuf.AbstractMessageLite.Builder.addAll(
+                values, baseItemList_);
+            onChanged();
+          } else {
+            baseItemListBuilder_.addAllMessages(values);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public Builder clearBaseItemList() {
+          if (baseItemListBuilder_ == null) {
+            baseItemList_ = java.util.Collections.emptyList();
+            bitField0_ = (bitField0_ & ~0x00000002);
+            onChanged();
+          } else {
+            baseItemListBuilder_.clear();
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public Builder removeBaseItemList(int index) {
+          if (baseItemListBuilder_ == null) {
+            ensureBaseItemListIsMutable();
+            baseItemList_.remove(index);
+            onChanged();
+          } else {
+            baseItemListBuilder_.remove(index);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getBaseItemListBuilder(
+            int index) {
+          return getBaseItemListFieldBuilder().getBuilder(index);
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getBaseItemListOrBuilder(
+            int index) {
+          if (baseItemListBuilder_ == null) {
+            return baseItemList_.get(index);  } else {
+            return baseItemListBuilder_.getMessageOrBuilder(index);
+          }
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+             getBaseItemListOrBuilderList() {
+          if (baseItemListBuilder_ != null) {
+            return baseItemListBuilder_.getMessageOrBuilderList();
+          } else {
+            return java.util.Collections.unmodifiableList(baseItemList_);
+          }
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addBaseItemListBuilder() {
+          return getBaseItemListFieldBuilder().addBuilder(
+              emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addBaseItemListBuilder(
+            int index) {
+          return getBaseItemListFieldBuilder().addBuilder(
+              index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
+        }
+        /**
+         * <code>repeated .ItemParam base_item_list = 1;</code>
+         */
+        public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+             getBaseItemListBuilderList() {
+          return getBaseItemListFieldBuilder().getBuilderList();
+        }
+        private com.google.protobuf.RepeatedFieldBuilderV3<
+            emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+            getBaseItemListFieldBuilder() {
+          if (baseItemListBuilder_ == null) {
+            baseItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+                emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>(
+                    baseItemList_,
+                    ((bitField0_ & 0x00000002) != 0),
+                    getParentForChildren(),
+                    isClean());
+            baseItemList_ = null;
+          }
+          return baseItemListBuilder_;
         }
         @java.lang.Override
         public final Builder setUnknownFields(
@@ -1499,26 +1499,15 @@ public final class ShopCardProductOuterClass {
       }
     }
 
-    public static final int CARD_PRODUCT_TYPE_FIELD_NUMBER = 7;
-    private int cardProductType_;
+    public static final int HCOIN_PER_DAY_FIELD_NUMBER = 4;
+    private int hcoinPerDay_;
     /**
-     * <code>uint32 card_product_type = 7;</code>
-     * @return The cardProductType.
+     * <code>uint32 hcoin_per_day = 4;</code>
+     * @return The hcoinPerDay.
      */
     @java.lang.Override
-    public int getCardProductType() {
-      return cardProductType_;
-    }
-
-    public static final int DAYS_FIELD_NUMBER = 5;
-    private int days_;
-    /**
-     * <code>uint32 days = 5;</code>
-     * @return The days.
-     */
-    @java.lang.Override
-    public int getDays() {
-      return days_;
+    public int getHcoinPerDay() {
+      return hcoinPerDay_;
     }
 
     public static final int REMAIN_REWARD_DAYS_FIELD_NUMBER = 6;
@@ -1532,17 +1521,6 @@ public final class ShopCardProductOuterClass {
       return remainRewardDays_;
     }
 
-    public static final int HCOIN_PER_DAY_FIELD_NUMBER = 4;
-    private int hcoinPerDay_;
-    /**
-     * <code>uint32 hcoin_per_day = 4;</code>
-     * @return The hcoinPerDay.
-     */
-    @java.lang.Override
-    public int getHcoinPerDay() {
-      return hcoinPerDay_;
-    }
-
     public static final int MCOIN_BASE_FIELD_NUMBER = 3;
     private int mcoinBase_;
     /**
@@ -1552,6 +1530,28 @@ public final class ShopCardProductOuterClass {
     @java.lang.Override
     public int getMcoinBase() {
       return mcoinBase_;
+    }
+
+    public static final int DAYS_FIELD_NUMBER = 5;
+    private int days_;
+    /**
+     * <code>uint32 days = 5;</code>
+     * @return The days.
+     */
+    @java.lang.Override
+    public int getDays() {
+      return days_;
+    }
+
+    public static final int CARD_PRODUCT_TYPE_FIELD_NUMBER = 7;
+    private int cardProductType_;
+    /**
+     * <code>uint32 card_product_type = 7;</code>
+     * @return The cardProductType.
+     */
+    @java.lang.Override
+    public int getCardProductType() {
+      return cardProductType_;
     }
 
     public static final int RESIN_CARD_FIELD_NUMBER = 101;
@@ -1681,16 +1681,16 @@ public final class ShopCardProductOuterClass {
           .equals(other.getProductId())) return false;
       if (!getPriceTier()
           .equals(other.getPriceTier())) return false;
-      if (getCardProductType()
-          != other.getCardProductType()) return false;
-      if (getDays()
-          != other.getDays()) return false;
-      if (getRemainRewardDays()
-          != other.getRemainRewardDays()) return false;
       if (getHcoinPerDay()
           != other.getHcoinPerDay()) return false;
+      if (getRemainRewardDays()
+          != other.getRemainRewardDays()) return false;
       if (getMcoinBase()
           != other.getMcoinBase()) return false;
+      if (getDays()
+          != other.getDays()) return false;
+      if (getCardProductType()
+          != other.getCardProductType()) return false;
       if (!getExtraCardDataCase().equals(other.getExtraCardDataCase())) return false;
       switch (extraCardDataCase_) {
         case 101:
@@ -1715,16 +1715,16 @@ public final class ShopCardProductOuterClass {
       hash = (53 * hash) + getProductId().hashCode();
       hash = (37 * hash) + PRICE_TIER_FIELD_NUMBER;
       hash = (53 * hash) + getPriceTier().hashCode();
-      hash = (37 * hash) + CARD_PRODUCT_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getCardProductType();
-      hash = (37 * hash) + DAYS_FIELD_NUMBER;
-      hash = (53 * hash) + getDays();
-      hash = (37 * hash) + REMAIN_REWARD_DAYS_FIELD_NUMBER;
-      hash = (53 * hash) + getRemainRewardDays();
       hash = (37 * hash) + HCOIN_PER_DAY_FIELD_NUMBER;
       hash = (53 * hash) + getHcoinPerDay();
+      hash = (37 * hash) + REMAIN_REWARD_DAYS_FIELD_NUMBER;
+      hash = (53 * hash) + getRemainRewardDays();
       hash = (37 * hash) + MCOIN_BASE_FIELD_NUMBER;
       hash = (53 * hash) + getMcoinBase();
+      hash = (37 * hash) + DAYS_FIELD_NUMBER;
+      hash = (53 * hash) + getDays();
+      hash = (37 * hash) + CARD_PRODUCT_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getCardProductType();
       switch (extraCardDataCase_) {
         case 101:
           hash = (37 * hash) + RESIN_CARD_FIELD_NUMBER;
@@ -1870,15 +1870,15 @@ public final class ShopCardProductOuterClass {
 
         priceTier_ = "";
 
-        cardProductType_ = 0;
-
-        days_ = 0;
+        hcoinPerDay_ = 0;
 
         remainRewardDays_ = 0;
 
-        hcoinPerDay_ = 0;
-
         mcoinBase_ = 0;
+
+        days_ = 0;
+
+        cardProductType_ = 0;
 
         extraCardDataCase_ = 0;
         extraCardData_ = null;
@@ -1910,11 +1910,11 @@ public final class ShopCardProductOuterClass {
         emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct result = new emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct(this);
         result.productId_ = productId_;
         result.priceTier_ = priceTier_;
-        result.cardProductType_ = cardProductType_;
-        result.days_ = days_;
-        result.remainRewardDays_ = remainRewardDays_;
         result.hcoinPerDay_ = hcoinPerDay_;
+        result.remainRewardDays_ = remainRewardDays_;
         result.mcoinBase_ = mcoinBase_;
+        result.days_ = days_;
+        result.cardProductType_ = cardProductType_;
         if (extraCardDataCase_ == 101) {
           if (resinCardBuilder_ == null) {
             result.extraCardData_ = extraCardData_;
@@ -1979,20 +1979,20 @@ public final class ShopCardProductOuterClass {
           priceTier_ = other.priceTier_;
           onChanged();
         }
-        if (other.getCardProductType() != 0) {
-          setCardProductType(other.getCardProductType());
-        }
-        if (other.getDays() != 0) {
-          setDays(other.getDays());
+        if (other.getHcoinPerDay() != 0) {
+          setHcoinPerDay(other.getHcoinPerDay());
         }
         if (other.getRemainRewardDays() != 0) {
           setRemainRewardDays(other.getRemainRewardDays());
         }
-        if (other.getHcoinPerDay() != 0) {
-          setHcoinPerDay(other.getHcoinPerDay());
-        }
         if (other.getMcoinBase() != 0) {
           setMcoinBase(other.getMcoinBase());
+        }
+        if (other.getDays() != 0) {
+          setDays(other.getDays());
+        }
+        if (other.getCardProductType() != 0) {
+          setCardProductType(other.getCardProductType());
         }
         switch (other.getExtraCardDataCase()) {
           case RESIN_CARD: {
@@ -2199,64 +2199,33 @@ public final class ShopCardProductOuterClass {
         return this;
       }
 
-      private int cardProductType_ ;
+      private int hcoinPerDay_ ;
       /**
-       * <code>uint32 card_product_type = 7;</code>
-       * @return The cardProductType.
+       * <code>uint32 hcoin_per_day = 4;</code>
+       * @return The hcoinPerDay.
        */
       @java.lang.Override
-      public int getCardProductType() {
-        return cardProductType_;
+      public int getHcoinPerDay() {
+        return hcoinPerDay_;
       }
       /**
-       * <code>uint32 card_product_type = 7;</code>
-       * @param value The cardProductType to set.
+       * <code>uint32 hcoin_per_day = 4;</code>
+       * @param value The hcoinPerDay to set.
        * @return This builder for chaining.
        */
-      public Builder setCardProductType(int value) {
+      public Builder setHcoinPerDay(int value) {
         
-        cardProductType_ = value;
+        hcoinPerDay_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 card_product_type = 7;</code>
+       * <code>uint32 hcoin_per_day = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCardProductType() {
+      public Builder clearHcoinPerDay() {
         
-        cardProductType_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int days_ ;
-      /**
-       * <code>uint32 days = 5;</code>
-       * @return The days.
-       */
-      @java.lang.Override
-      public int getDays() {
-        return days_;
-      }
-      /**
-       * <code>uint32 days = 5;</code>
-       * @param value The days to set.
-       * @return This builder for chaining.
-       */
-      public Builder setDays(int value) {
-        
-        days_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 days = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearDays() {
-        
-        days_ = 0;
+        hcoinPerDay_ = 0;
         onChanged();
         return this;
       }
@@ -2292,37 +2261,6 @@ public final class ShopCardProductOuterClass {
         return this;
       }
 
-      private int hcoinPerDay_ ;
-      /**
-       * <code>uint32 hcoin_per_day = 4;</code>
-       * @return The hcoinPerDay.
-       */
-      @java.lang.Override
-      public int getHcoinPerDay() {
-        return hcoinPerDay_;
-      }
-      /**
-       * <code>uint32 hcoin_per_day = 4;</code>
-       * @param value The hcoinPerDay to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHcoinPerDay(int value) {
-        
-        hcoinPerDay_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 hcoin_per_day = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHcoinPerDay() {
-        
-        hcoinPerDay_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int mcoinBase_ ;
       /**
        * <code>uint32 mcoin_base = 3;</code>
@@ -2350,6 +2288,68 @@ public final class ShopCardProductOuterClass {
       public Builder clearMcoinBase() {
         
         mcoinBase_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int days_ ;
+      /**
+       * <code>uint32 days = 5;</code>
+       * @return The days.
+       */
+      @java.lang.Override
+      public int getDays() {
+        return days_;
+      }
+      /**
+       * <code>uint32 days = 5;</code>
+       * @param value The days to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDays(int value) {
+        
+        days_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 days = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDays() {
+        
+        days_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int cardProductType_ ;
+      /**
+       * <code>uint32 card_product_type = 7;</code>
+       * @return The cardProductType.
+       */
+      @java.lang.Override
+      public int getCardProductType() {
+        return cardProductType_;
+      }
+      /**
+       * <code>uint32 card_product_type = 7;</code>
+       * @param value The cardProductType to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCardProductType(int value) {
+        
+        cardProductType_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 card_product_type = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCardProductType() {
+        
+        cardProductType_ = 0;
         onChanged();
         return this;
       }
@@ -2568,13 +2568,13 @@ public final class ShopCardProductOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025ShopCardProduct.proto\032\017ItemParam.proto" +
       "\"\306\002\n\017ShopCardProduct\022\022\n\nproduct_id\030\001 \001(\t" +
-      "\022\022\n\nprice_tier\030\002 \001(\t\022\031\n\021card_product_typ" +
-      "e\030\007 \001(\r\022\014\n\004days\030\005 \001(\r\022\032\n\022remain_reward_d" +
-      "ays\030\006 \001(\r\022\025\n\rhcoin_per_day\030\004 \001(\r\022\022\n\nmcoi" +
-      "n_base\030\003 \001(\r\0220\n\nresin_card\030e \001(\0132\032.ShopC" +
-      "ardProduct.ResinCardH\000\032V\n\tResinCard\022\"\n\016b" +
-      "ase_item_list\030\001 \003(\0132\n.ItemParam\022%\n\021per_d" +
-      "ay_item_list\030\002 \003(\0132\n.ItemParamB\021\n\017extra_" +
+      "\022\022\n\nprice_tier\030\002 \001(\t\022\025\n\rhcoin_per_day\030\004 " +
+      "\001(\r\022\032\n\022remain_reward_days\030\006 \001(\r\022\022\n\nmcoin" +
+      "_base\030\003 \001(\r\022\014\n\004days\030\005 \001(\r\022\031\n\021card_produc" +
+      "t_type\030\007 \001(\r\0220\n\nresin_card\030e \001(\0132\032.ShopC" +
+      "ardProduct.ResinCardH\000\032V\n\tResinCard\022%\n\021p" +
+      "er_day_item_list\030\002 \003(\0132\n.ItemParam\022\"\n\016ba" +
+      "se_item_list\030\001 \003(\0132\n.ItemParamB\021\n\017extra_" +
       "card_dataB\033\n\031emu.grasscutter.net.protob\006" +
       "proto3"
     };
@@ -2588,13 +2588,13 @@ public final class ShopCardProductOuterClass {
     internal_static_ShopCardProduct_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ShopCardProduct_descriptor,
-        new java.lang.String[] { "ProductId", "PriceTier", "CardProductType", "Days", "RemainRewardDays", "HcoinPerDay", "McoinBase", "ResinCard", "ExtraCardData", });
+        new java.lang.String[] { "ProductId", "PriceTier", "HcoinPerDay", "RemainRewardDays", "McoinBase", "Days", "CardProductType", "ResinCard", "ExtraCardData", });
     internal_static_ShopCardProduct_ResinCard_descriptor =
       internal_static_ShopCardProduct_descriptor.getNestedTypes().get(0);
     internal_static_ShopCardProduct_ResinCard_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ShopCardProduct_ResinCard_descriptor,
-        new java.lang.String[] { "BaseItemList", "PerDayItemList", });
+        new java.lang.String[] { "PerDayItemList", "BaseItemList", });
     emu.grasscutter.net.proto.ItemParamOuterClass.getDescriptor();
   }
 

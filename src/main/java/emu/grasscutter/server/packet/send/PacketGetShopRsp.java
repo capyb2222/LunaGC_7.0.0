@@ -12,10 +12,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class PacketGetShopRsp extends BasePacket {
-    public PacketGetShopRsp(Player inv, int shopType) {
+    public PacketGetShopRsp(Player player, int shopType) {
         super(PacketOpcodes.GetShopRsp);
 
-        // TODO: CityReputationLevel
         Shop.Builder shop =
                 Shop.newBuilder()
                         .setShopType(shopType)
@@ -26,6 +25,7 @@ public class PacketGetShopRsp extends BasePacket {
         if (manager.getShopData().get(shopType) != null) {
             List<ShopInfo> list = manager.getShopData().get(shopType);
             List<ShopGoods> goodsList = new ArrayList<>();
+            
             for (ShopInfo info : list) {
                 ShopGoods.Builder goods =
                         ShopGoods.newBuilder()
@@ -42,47 +42,48 @@ public class PacketGetShopRsp extends BasePacket {
                                 .setEndTime(info.getEndTime())
                                 .setMinLevel(info.getMinLevel())
                                 .setMaxLevel(info.getMaxLevel())
-                                .setMcoin(info.getMcoin());
+                                .setMcoin(info.getMcoin())
+                                .setDisableType(info.getDisableType())
+                                .setLKICBMCBHMH(true);
 
-                // These fields are deprecated as of REL3.7
-                // .setDisableType(info.getDisableType())
-                // .setSecondarySheetId(info.getSecondarySheetId());
                 if (info.getCostItemList() != null) {
                     goods.addAllCostItemList(
                             info.getCostItemList().stream()
-                                    .map(
-                                            x ->
-                                                    ItemParamOuterClass.ItemParam.newBuilder()
-                                                            .setItemId(x.getId())
-                                                            .setCount(x.getCount())
-                                                            .build())
+                                    .map(x ->
+                                            ItemParamOuterClass.ItemParam.newBuilder()
+                                                    .setItemId(x.getId())
+                                                    .setCount(x.getCount())
+                                                    .build())
                                     .collect(Collectors.toList()));
                 }
+                
                 if (info.getPreGoodsIdList() != null) {
                     goods.addAllPreGoodsIdList(info.getPreGoodsIdList());
                 }
 
                 int currentTs = Utils.getCurrentSeconds();
-                ShopLimit currentShopLimit = inv.getGoodsLimit(info.getGoodsId());
+                ShopLimit currentShopLimit = player.getGoodsLimit(info.getGoodsId());
                 int nextRefreshTime = ShopSystem.getShopNextRefreshTime(info);
+                
                 if (currentShopLimit != null) {
-                    if (currentShopLimit.getNextRefreshTime() < currentTs) { // second game day
+                    if (currentShopLimit.getNextRefreshTime() < currentTs) {
                         currentShopLimit.setHasBoughtInPeriod(0);
                         currentShopLimit.setNextRefreshTime(nextRefreshTime);
                     }
                     goods.setBoughtNum(currentShopLimit.getHasBoughtInPeriod());
                     goods.setNextRefreshTime(currentShopLimit.getNextRefreshTime());
                 } else {
-                    inv.addShopLimit(goods.getGoodsId(), 0, nextRefreshTime); // save generated refresh time
+                    player.addShopLimit(goods.getGoodsId(), 0, nextRefreshTime);
                     goods.setNextRefreshTime(nextRefreshTime);
                 }
 
                 goodsList.add(goods.build());
             }
+            
             shop.addAllGoodsList(goodsList);
         }
 
-        inv.save();
+        player.save();
         this.setData(GetShopRspOuterClass.GetShopRsp.newBuilder().setShop(shop).build());
     }
 }

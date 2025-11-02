@@ -19,18 +19,6 @@ public final class ShopConcertProductOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string price_tier = 2;</code>
-     * @return The priceTier.
-     */
-    java.lang.String getPriceTier();
-    /**
-     * <code>string price_tier = 2;</code>
-     * @return The bytes for priceTier.
-     */
-    com.google.protobuf.ByteString
-        getPriceTierBytes();
-
-    /**
      * <code>string product_id = 1;</code>
      * @return The productId.
      */
@@ -43,10 +31,16 @@ public final class ShopConcertProductOuterClass {
         getProductIdBytes();
 
     /**
-     * <code>uint32 obtain_limit = 4;</code>
-     * @return The obtainLimit.
+     * <code>string price_tier = 2;</code>
+     * @return The priceTier.
      */
-    int getObtainLimit();
+    java.lang.String getPriceTier();
+    /**
+     * <code>string price_tier = 2;</code>
+     * @return The bytes for priceTier.
+     */
+    com.google.protobuf.ByteString
+        getPriceTierBytes();
 
     /**
      * <code>uint32 buy_times = 7;</code>
@@ -61,16 +55,22 @@ public final class ShopConcertProductOuterClass {
     int getBeginTime();
 
     /**
-     * <code>uint32 end_time = 6;</code>
-     * @return The endTime.
-     */
-    int getEndTime();
-
-    /**
      * <code>uint32 obtain_count = 3;</code>
      * @return The obtainCount.
      */
     int getObtainCount();
+
+    /**
+     * <code>uint32 obtain_limit = 4;</code>
+     * @return The obtainLimit.
+     */
+    int getObtainLimit();
+
+    /**
+     * <code>uint32 end_time = 6;</code>
+     * @return The endTime.
+     */
+    int getEndTime();
   }
   /**
    * Protobuf type {@code ShopConcertProduct}
@@ -85,8 +85,8 @@ public final class ShopConcertProductOuterClass {
       super(builder);
     }
     private ShopConcertProduct() {
-      priceTier_ = "";
       productId_ = "";
+      priceTier_ = "";
     }
 
     @java.lang.Override
@@ -188,44 +188,6 @@ public final class ShopConcertProductOuterClass {
               emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct.class, emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct.Builder.class);
     }
 
-    public static final int PRICE_TIER_FIELD_NUMBER = 2;
-    private volatile java.lang.Object priceTier_;
-    /**
-     * <code>string price_tier = 2;</code>
-     * @return The priceTier.
-     */
-    @java.lang.Override
-    public java.lang.String getPriceTier() {
-      java.lang.Object ref = priceTier_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        priceTier_ = s;
-        return s;
-      }
-    }
-    /**
-     * <code>string price_tier = 2;</code>
-     * @return The bytes for priceTier.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString
-        getPriceTierBytes() {
-      java.lang.Object ref = priceTier_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        priceTier_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
-    }
-
     public static final int PRODUCT_ID_FIELD_NUMBER = 1;
     private volatile java.lang.Object productId_;
     /**
@@ -264,15 +226,42 @@ public final class ShopConcertProductOuterClass {
       }
     }
 
-    public static final int OBTAIN_LIMIT_FIELD_NUMBER = 4;
-    private int obtainLimit_;
+    public static final int PRICE_TIER_FIELD_NUMBER = 2;
+    private volatile java.lang.Object priceTier_;
     /**
-     * <code>uint32 obtain_limit = 4;</code>
-     * @return The obtainLimit.
+     * <code>string price_tier = 2;</code>
+     * @return The priceTier.
      */
     @java.lang.Override
-    public int getObtainLimit() {
-      return obtainLimit_;
+    public java.lang.String getPriceTier() {
+      java.lang.Object ref = priceTier_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        priceTier_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>string price_tier = 2;</code>
+     * @return The bytes for priceTier.
+     */
+    @java.lang.Override
+    public com.google.protobuf.ByteString
+        getPriceTierBytes() {
+      java.lang.Object ref = priceTier_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        priceTier_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
     }
 
     public static final int BUY_TIMES_FIELD_NUMBER = 7;
@@ -297,17 +286,6 @@ public final class ShopConcertProductOuterClass {
       return beginTime_;
     }
 
-    public static final int END_TIME_FIELD_NUMBER = 6;
-    private int endTime_;
-    /**
-     * <code>uint32 end_time = 6;</code>
-     * @return The endTime.
-     */
-    @java.lang.Override
-    public int getEndTime() {
-      return endTime_;
-    }
-
     public static final int OBTAIN_COUNT_FIELD_NUMBER = 3;
     private int obtainCount_;
     /**
@@ -317,6 +295,28 @@ public final class ShopConcertProductOuterClass {
     @java.lang.Override
     public int getObtainCount() {
       return obtainCount_;
+    }
+
+    public static final int OBTAIN_LIMIT_FIELD_NUMBER = 4;
+    private int obtainLimit_;
+    /**
+     * <code>uint32 obtain_limit = 4;</code>
+     * @return The obtainLimit.
+     */
+    @java.lang.Override
+    public int getObtainLimit() {
+      return obtainLimit_;
+    }
+
+    public static final int END_TIME_FIELD_NUMBER = 6;
+    private int endTime_;
+    /**
+     * <code>uint32 end_time = 6;</code>
+     * @return The endTime.
+     */
+    @java.lang.Override
+    public int getEndTime() {
+      return endTime_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -404,20 +404,20 @@ public final class ShopConcertProductOuterClass {
       }
       emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct other = (emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct) obj;
 
-      if (!getPriceTier()
-          .equals(other.getPriceTier())) return false;
       if (!getProductId()
           .equals(other.getProductId())) return false;
-      if (getObtainLimit()
-          != other.getObtainLimit()) return false;
+      if (!getPriceTier()
+          .equals(other.getPriceTier())) return false;
       if (getBuyTimes()
           != other.getBuyTimes()) return false;
       if (getBeginTime()
           != other.getBeginTime()) return false;
-      if (getEndTime()
-          != other.getEndTime()) return false;
       if (getObtainCount()
           != other.getObtainCount()) return false;
+      if (getObtainLimit()
+          != other.getObtainLimit()) return false;
+      if (getEndTime()
+          != other.getEndTime()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -429,20 +429,20 @@ public final class ShopConcertProductOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + PRICE_TIER_FIELD_NUMBER;
-      hash = (53 * hash) + getPriceTier().hashCode();
       hash = (37 * hash) + PRODUCT_ID_FIELD_NUMBER;
       hash = (53 * hash) + getProductId().hashCode();
-      hash = (37 * hash) + OBTAIN_LIMIT_FIELD_NUMBER;
-      hash = (53 * hash) + getObtainLimit();
+      hash = (37 * hash) + PRICE_TIER_FIELD_NUMBER;
+      hash = (53 * hash) + getPriceTier().hashCode();
       hash = (37 * hash) + BUY_TIMES_FIELD_NUMBER;
       hash = (53 * hash) + getBuyTimes();
       hash = (37 * hash) + BEGIN_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getBeginTime();
-      hash = (37 * hash) + END_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getEndTime();
       hash = (37 * hash) + OBTAIN_COUNT_FIELD_NUMBER;
       hash = (53 * hash) + getObtainCount();
+      hash = (37 * hash) + OBTAIN_LIMIT_FIELD_NUMBER;
+      hash = (53 * hash) + getObtainLimit();
+      hash = (37 * hash) + END_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getEndTime();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -576,19 +576,19 @@ public final class ShopConcertProductOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        priceTier_ = "";
-
         productId_ = "";
 
-        obtainLimit_ = 0;
+        priceTier_ = "";
 
         buyTimes_ = 0;
 
         beginTime_ = 0;
 
-        endTime_ = 0;
-
         obtainCount_ = 0;
+
+        obtainLimit_ = 0;
+
+        endTime_ = 0;
 
         return this;
       }
@@ -616,13 +616,13 @@ public final class ShopConcertProductOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct buildPartial() {
         emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct result = new emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct(this);
-        result.priceTier_ = priceTier_;
         result.productId_ = productId_;
-        result.obtainLimit_ = obtainLimit_;
+        result.priceTier_ = priceTier_;
         result.buyTimes_ = buyTimes_;
         result.beginTime_ = beginTime_;
-        result.endTime_ = endTime_;
         result.obtainCount_ = obtainCount_;
+        result.obtainLimit_ = obtainLimit_;
+        result.endTime_ = endTime_;
         onBuilt();
         return result;
       }
@@ -671,16 +671,13 @@ public final class ShopConcertProductOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct other) {
         if (other == emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct.getDefaultInstance()) return this;
-        if (!other.getPriceTier().isEmpty()) {
-          priceTier_ = other.priceTier_;
-          onChanged();
-        }
         if (!other.getProductId().isEmpty()) {
           productId_ = other.productId_;
           onChanged();
         }
-        if (other.getObtainLimit() != 0) {
-          setObtainLimit(other.getObtainLimit());
+        if (!other.getPriceTier().isEmpty()) {
+          priceTier_ = other.priceTier_;
+          onChanged();
         }
         if (other.getBuyTimes() != 0) {
           setBuyTimes(other.getBuyTimes());
@@ -688,11 +685,14 @@ public final class ShopConcertProductOuterClass {
         if (other.getBeginTime() != 0) {
           setBeginTime(other.getBeginTime());
         }
-        if (other.getEndTime() != 0) {
-          setEndTime(other.getEndTime());
-        }
         if (other.getObtainCount() != 0) {
           setObtainCount(other.getObtainCount());
+        }
+        if (other.getObtainLimit() != 0) {
+          setObtainLimit(other.getObtainLimit());
+        }
+        if (other.getEndTime() != 0) {
+          setEndTime(other.getEndTime());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -720,82 +720,6 @@ public final class ShopConcertProductOuterClass {
             mergeFrom(parsedMessage);
           }
         }
-        return this;
-      }
-
-      private java.lang.Object priceTier_ = "";
-      /**
-       * <code>string price_tier = 2;</code>
-       * @return The priceTier.
-       */
-      public java.lang.String getPriceTier() {
-        java.lang.Object ref = priceTier_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          priceTier_ = s;
-          return s;
-        } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>string price_tier = 2;</code>
-       * @return The bytes for priceTier.
-       */
-      public com.google.protobuf.ByteString
-          getPriceTierBytes() {
-        java.lang.Object ref = priceTier_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          priceTier_ = b;
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
-        }
-      }
-      /**
-       * <code>string price_tier = 2;</code>
-       * @param value The priceTier to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPriceTier(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        priceTier_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string price_tier = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPriceTier() {
-        
-        priceTier_ = getDefaultInstance().getPriceTier();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>string price_tier = 2;</code>
-       * @param value The bytes for priceTier to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPriceTierBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        priceTier_ = value;
-        onChanged();
         return this;
       }
 
@@ -875,33 +799,78 @@ public final class ShopConcertProductOuterClass {
         return this;
       }
 
-      private int obtainLimit_ ;
+      private java.lang.Object priceTier_ = "";
       /**
-       * <code>uint32 obtain_limit = 4;</code>
-       * @return The obtainLimit.
+       * <code>string price_tier = 2;</code>
+       * @return The priceTier.
        */
-      @java.lang.Override
-      public int getObtainLimit() {
-        return obtainLimit_;
+      public java.lang.String getPriceTier() {
+        java.lang.Object ref = priceTier_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          priceTier_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
       }
       /**
-       * <code>uint32 obtain_limit = 4;</code>
-       * @param value The obtainLimit to set.
+       * <code>string price_tier = 2;</code>
+       * @return The bytes for priceTier.
+       */
+      public com.google.protobuf.ByteString
+          getPriceTierBytes() {
+        java.lang.Object ref = priceTier_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          priceTier_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>string price_tier = 2;</code>
+       * @param value The priceTier to set.
        * @return This builder for chaining.
        */
-      public Builder setObtainLimit(int value) {
-        
-        obtainLimit_ = value;
+      public Builder setPriceTier(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        priceTier_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 obtain_limit = 4;</code>
+       * <code>string price_tier = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearObtainLimit() {
+      public Builder clearPriceTier() {
         
-        obtainLimit_ = 0;
+        priceTier_ = getDefaultInstance().getPriceTier();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>string price_tier = 2;</code>
+       * @param value The bytes for priceTier to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPriceTierBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        priceTier_ = value;
         onChanged();
         return this;
       }
@@ -968,37 +937,6 @@ public final class ShopConcertProductOuterClass {
         return this;
       }
 
-      private int endTime_ ;
-      /**
-       * <code>uint32 end_time = 6;</code>
-       * @return The endTime.
-       */
-      @java.lang.Override
-      public int getEndTime() {
-        return endTime_;
-      }
-      /**
-       * <code>uint32 end_time = 6;</code>
-       * @param value The endTime to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEndTime(int value) {
-        
-        endTime_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 end_time = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEndTime() {
-        
-        endTime_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int obtainCount_ ;
       /**
        * <code>uint32 obtain_count = 3;</code>
@@ -1026,6 +964,68 @@ public final class ShopConcertProductOuterClass {
       public Builder clearObtainCount() {
         
         obtainCount_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int obtainLimit_ ;
+      /**
+       * <code>uint32 obtain_limit = 4;</code>
+       * @return The obtainLimit.
+       */
+      @java.lang.Override
+      public int getObtainLimit() {
+        return obtainLimit_;
+      }
+      /**
+       * <code>uint32 obtain_limit = 4;</code>
+       * @param value The obtainLimit to set.
+       * @return This builder for chaining.
+       */
+      public Builder setObtainLimit(int value) {
+        
+        obtainLimit_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 obtain_limit = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearObtainLimit() {
+        
+        obtainLimit_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int endTime_ ;
+      /**
+       * <code>uint32 end_time = 6;</code>
+       * @return The endTime.
+       */
+      @java.lang.Override
+      public int getEndTime() {
+        return endTime_;
+      }
+      /**
+       * <code>uint32 end_time = 6;</code>
+       * @param value The endTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEndTime(int value) {
+        
+        endTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 end_time = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEndTime() {
+        
+        endTime_ = 0;
         onChanged();
         return this;
       }
@@ -1097,10 +1097,10 @@ public final class ShopConcertProductOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030ShopConcertProduct.proto\"\241\001\n\022ShopConce" +
-      "rtProduct\022\022\n\nprice_tier\030\002 \001(\t\022\022\n\nproduct" +
-      "_id\030\001 \001(\t\022\024\n\014obtain_limit\030\004 \001(\r\022\021\n\tbuy_t" +
-      "imes\030\007 \001(\r\022\022\n\nbegin_time\030\005 \001(\r\022\020\n\010end_ti" +
-      "me\030\006 \001(\r\022\024\n\014obtain_count\030\003 \001(\rB\033\n\031emu.gr" +
+      "rtProduct\022\022\n\nproduct_id\030\001 \001(\t\022\022\n\nprice_t" +
+      "ier\030\002 \001(\t\022\021\n\tbuy_times\030\007 \001(\r\022\022\n\nbegin_ti" +
+      "me\030\005 \001(\r\022\024\n\014obtain_count\030\003 \001(\r\022\024\n\014obtain" +
+      "_limit\030\004 \001(\r\022\020\n\010end_time\030\006 \001(\rB\033\n\031emu.gr" +
       "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1112,7 +1112,7 @@ public final class ShopConcertProductOuterClass {
     internal_static_ShopConcertProduct_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ShopConcertProduct_descriptor,
-        new java.lang.String[] { "PriceTier", "ProductId", "ObtainLimit", "BuyTimes", "BeginTime", "EndTime", "ObtainCount", });
+        new java.lang.String[] { "ProductId", "PriceTier", "BuyTimes", "BeginTime", "ObtainCount", "ObtainLimit", "EndTime", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

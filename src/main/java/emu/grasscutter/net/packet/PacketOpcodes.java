@@ -87,6 +87,7 @@ public final class PacketOpcodes {
     public static final int ScenePlayerLocationNotify = 24707;
     public static final int MapAreaChangeNotify = 6014;
     public static final int MarkNewNotify = 1; // t
+    public static final int SceneAreaUnlockNotify = 20867;
 
     // Player
     // Player - Avatar/Team
@@ -199,7 +200,7 @@ public final class PacketOpcodes {
 	public static final int AvatarSkillUpgradeRsp = 28248;
     public static final int ProudSkillChangeNotify = 8445;
     public static final int AvatarUpgradeReq = 29540;
-	public static final int AvatarUpgradeRsp = 24094;
+	public static final int AvatarUpgradeRsp = 24904;
     public static final int CanUseSkillNotify = 1;
     // Player - Events
 	public static final int EvtAvatarLockChairReq = 22780;
@@ -250,6 +251,8 @@ public final class PacketOpcodes {
     public static final int AchievementAllDataNotify = 8231;
     public static final int AchievementUpdateNotify = 3766;
     public static final int SetPlayerPropReq = 20287;
+    public static final int WorldPlayerReviveReq = 22119;
+    public static final int WorldPlayerReviveRsp = 27782;
 
     // Combat misc
     public static final int BossChestActivateNotify = 1249;
@@ -372,7 +375,7 @@ public final class PacketOpcodes {
 	public static final int PrivateChatReq = 29302;
     public static final int PrivateChatRsp = 22411;
 	public static final int PullPrivateChatReq = 29421;
-	public static final int PullPrivateChatRsp = 1; // t
+	public static final int PullPrivateChatRsp = 28282;
 	public static final int PullRecentChatReq = 27037;
 	public static final int PullRecentChatRsp = 23274;
     public static final int PlayerChatNotify = 1; // t
@@ -398,22 +401,24 @@ public final class PacketOpcodes {
     public static final int SetNameCardRsp = 7047;
 
     // Gacha / Shop
-    public static final int DoGachaReq = 1; 
-    public static final int DoGachaRsp = 1;
-    public static final int GetGachaInfoReq = 1;
-	public static final int GetGachaInfoRsp = 1;
-	public static final int GachaWishReq = 1;
-    public static final int GachaWishRsp = 1;
-    public static final int GachaOpenWishNotify = 1;
-    public static final int GachaSimpleInfoNotify = 1;
-	public static final int GetShopReq = 1;
-	public static final int GetShopRsp = 1;
-    public static final int GetShopmallDataReq = 1;
-	public static final int GetShopmallDataRsp = 1;
-    public static final int BatchBuyGoodsReq = 1;
-    public static final int BatchBuyGoodsRsp = 1;
-    public static final int BuyGoodsReq = 1;
-    public static final int BuyGoodsRsp = 1;
+    public static final int DoGachaReq = 22390;
+    public static final int DoGachaRsp = 22457;
+    public static final int GetGachaInfoReq = 490;
+	public static final int GetGachaInfoRsp = 25921;
+	public static final int GachaWishReq = 6382;
+    public static final int GachaWishRsp = 4513;
+    public static final int GachaOpenWishNotify = 1; // wont fix
+    public static final int GachaSimpleInfoNotify = 1; // wont fix
+	public static final int GetShopReq = 25227;
+	public static final int GetShopRsp = 23691;
+    public static final int GetShopReqNew = 8110;
+    public static final int GetShopRspNew = 22981;
+    public static final int GetShopmallDataReq = 1; // t
+	public static final int GetShopmallDataRsp = 1; // t
+    public static final int BatchBuyGoodsReq = 406;
+    public static final int BatchBuyGoodsRsp = 3488;
+    public static final int BuyGoodsReq = 22973;
+    public static final int BuyGoodsRsp = 25554;
 
     // "Teapot"
     public static final int HomeMarkPointNotify = 26533;
@@ -2090,7 +2095,6 @@ public final class PacketOpcodes {
     public static final int SaveUgcDungeonDeploymentReq = 1;
     public static final int SaveUgcDungeonDeploymentRsp = 1;
     public static final int SaveUgcRsp = 1;
-    public static final int SceneAreaUnlockNotify = 1;
     public static final int SceneDestroyEntityReq = 1;
     public static final int SceneDestroyEntityRsp = 1;
     public static final int SceneEntitiesMoveCombineNotify = 1;
@@ -2510,8 +2514,6 @@ public final class PacketOpcodes {
     public static final int WorldPlayerInfoNotify = 1;
     public static final int WorldPlayerLocationNotify = 1;
     public static final int WorldPlayerRTTNotify = 1;
-    public static final int WorldPlayerReviveReq = 1;
-    public static final int WorldPlayerReviveRsp = 1;
     public static final int WorldRoutineChangeNotify = 1;
     public static final int WorldRoutineTypeCloseNotify = 1;
     public static final int WorldRoutineTypeRefreshNotify = 1;
