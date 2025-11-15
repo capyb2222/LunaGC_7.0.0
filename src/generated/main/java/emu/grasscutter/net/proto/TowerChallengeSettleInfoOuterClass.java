@@ -19,16 +19,28 @@ public final class TowerChallengeSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 6;</code>
-     * @return The levelId.
-     */
-    int getLevelId();
-
-    /**
-     * <code>uint32 finish_time = 11;</code>
+     * <code>uint32 finish_time = 2;</code>
      * @return The finishTime.
      */
     int getFinishTime();
+
+    /**
+     * <code>uint32 MDKIMCKPFJL = 7;</code>
+     * @return The mDKIMCKPFJL.
+     */
+    int getMDKIMCKPFJL();
+
+    /**
+     * <code>uint32 CMGCCGACAFK = 6;</code>
+     * @return The cMGCCGACAFK.
+     */
+    int getCMGCCGACAFK();
+
+    /**
+     * <code>uint32 level_id = 5;</code>
+     * @return The levelId.
+     */
+    int getLevelId();
   }
   /**
    * Protobuf type {@code TowerChallengeSettleInfo}
@@ -75,14 +87,24 @@ public final class TowerChallengeSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 16: {
+
+              finishTime_ = input.readUInt32();
+              break;
+            }
+            case 40: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 48: {
 
-              finishTime_ = input.readUInt32();
+              cMGCCGACAFK_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              mDKIMCKPFJL_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,26 +139,48 @@ public final class TowerChallengeSettleInfoOuterClass {
               emu.grasscutter.net.proto.TowerChallengeSettleInfoOuterClass.TowerChallengeSettleInfo.class, emu.grasscutter.net.proto.TowerChallengeSettleInfoOuterClass.TowerChallengeSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 6;
-    private int levelId_;
-    /**
-     * <code>uint32 level_id = 6;</code>
-     * @return The levelId.
-     */
-    @java.lang.Override
-    public int getLevelId() {
-      return levelId_;
-    }
-
-    public static final int FINISH_TIME_FIELD_NUMBER = 11;
+    public static final int FINISH_TIME_FIELD_NUMBER = 2;
     private int finishTime_;
     /**
-     * <code>uint32 finish_time = 11;</code>
+     * <code>uint32 finish_time = 2;</code>
      * @return The finishTime.
      */
     @java.lang.Override
     public int getFinishTime() {
       return finishTime_;
+    }
+
+    public static final int MDKIMCKPFJL_FIELD_NUMBER = 7;
+    private int mDKIMCKPFJL_;
+    /**
+     * <code>uint32 MDKIMCKPFJL = 7;</code>
+     * @return The mDKIMCKPFJL.
+     */
+    @java.lang.Override
+    public int getMDKIMCKPFJL() {
+      return mDKIMCKPFJL_;
+    }
+
+    public static final int CMGCCGACAFK_FIELD_NUMBER = 6;
+    private int cMGCCGACAFK_;
+    /**
+     * <code>uint32 CMGCCGACAFK = 6;</code>
+     * @return The cMGCCGACAFK.
+     */
+    @java.lang.Override
+    public int getCMGCCGACAFK() {
+      return cMGCCGACAFK_;
+    }
+
+    public static final int LEVEL_ID_FIELD_NUMBER = 5;
+    private int levelId_;
+    /**
+     * <code>uint32 level_id = 5;</code>
+     * @return The levelId.
+     */
+    @java.lang.Override
+    public int getLevelId() {
+      return levelId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -153,11 +197,17 @@ public final class TowerChallengeSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(6, levelId_);
-      }
       if (finishTime_ != 0) {
-        output.writeUInt32(11, finishTime_);
+        output.writeUInt32(2, finishTime_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(5, levelId_);
+      }
+      if (cMGCCGACAFK_ != 0) {
+        output.writeUInt32(6, cMGCCGACAFK_);
+      }
+      if (mDKIMCKPFJL_ != 0) {
+        output.writeUInt32(7, mDKIMCKPFJL_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +218,21 @@ public final class TowerChallengeSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, levelId_);
-      }
       if (finishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, finishTime_);
+          .computeUInt32Size(2, finishTime_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, levelId_);
+      }
+      if (cMGCCGACAFK_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, cMGCCGACAFK_);
+      }
+      if (mDKIMCKPFJL_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, mDKIMCKPFJL_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -191,10 +249,14 @@ public final class TowerChallengeSettleInfoOuterClass {
       }
       emu.grasscutter.net.proto.TowerChallengeSettleInfoOuterClass.TowerChallengeSettleInfo other = (emu.grasscutter.net.proto.TowerChallengeSettleInfoOuterClass.TowerChallengeSettleInfo) obj;
 
-      if (getLevelId()
-          != other.getLevelId()) return false;
       if (getFinishTime()
           != other.getFinishTime()) return false;
+      if (getMDKIMCKPFJL()
+          != other.getMDKIMCKPFJL()) return false;
+      if (getCMGCCGACAFK()
+          != other.getCMGCCGACAFK()) return false;
+      if (getLevelId()
+          != other.getLevelId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +268,14 @@ public final class TowerChallengeSettleInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getLevelId();
       hash = (37 * hash) + FINISH_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getFinishTime();
+      hash = (37 * hash) + MDKIMCKPFJL_FIELD_NUMBER;
+      hash = (53 * hash) + getMDKIMCKPFJL();
+      hash = (37 * hash) + CMGCCGACAFK_FIELD_NUMBER;
+      hash = (53 * hash) + getCMGCCGACAFK();
+      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLevelId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -343,9 +409,13 @@ public final class TowerChallengeSettleInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        levelId_ = 0;
-
         finishTime_ = 0;
+
+        mDKIMCKPFJL_ = 0;
+
+        cMGCCGACAFK_ = 0;
+
+        levelId_ = 0;
 
         return this;
       }
@@ -373,8 +443,10 @@ public final class TowerChallengeSettleInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.TowerChallengeSettleInfoOuterClass.TowerChallengeSettleInfo buildPartial() {
         emu.grasscutter.net.proto.TowerChallengeSettleInfoOuterClass.TowerChallengeSettleInfo result = new emu.grasscutter.net.proto.TowerChallengeSettleInfoOuterClass.TowerChallengeSettleInfo(this);
-        result.levelId_ = levelId_;
         result.finishTime_ = finishTime_;
+        result.mDKIMCKPFJL_ = mDKIMCKPFJL_;
+        result.cMGCCGACAFK_ = cMGCCGACAFK_;
+        result.levelId_ = levelId_;
         onBuilt();
         return result;
       }
@@ -423,11 +495,17 @@ public final class TowerChallengeSettleInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TowerChallengeSettleInfoOuterClass.TowerChallengeSettleInfo other) {
         if (other == emu.grasscutter.net.proto.TowerChallengeSettleInfoOuterClass.TowerChallengeSettleInfo.getDefaultInstance()) return this;
-        if (other.getLevelId() != 0) {
-          setLevelId(other.getLevelId());
-        }
         if (other.getFinishTime() != 0) {
           setFinishTime(other.getFinishTime());
+        }
+        if (other.getMDKIMCKPFJL() != 0) {
+          setMDKIMCKPFJL(other.getMDKIMCKPFJL());
+        }
+        if (other.getCMGCCGACAFK() != 0) {
+          setCMGCCGACAFK(other.getCMGCCGACAFK());
+        }
+        if (other.getLevelId() != 0) {
+          setLevelId(other.getLevelId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,40 +536,9 @@ public final class TowerChallengeSettleInfoOuterClass {
         return this;
       }
 
-      private int levelId_ ;
-      /**
-       * <code>uint32 level_id = 6;</code>
-       * @return The levelId.
-       */
-      @java.lang.Override
-      public int getLevelId() {
-        return levelId_;
-      }
-      /**
-       * <code>uint32 level_id = 6;</code>
-       * @param value The levelId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLevelId(int value) {
-        
-        levelId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 level_id = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLevelId() {
-        
-        levelId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int finishTime_ ;
       /**
-       * <code>uint32 finish_time = 11;</code>
+       * <code>uint32 finish_time = 2;</code>
        * @return The finishTime.
        */
       @java.lang.Override
@@ -499,7 +546,7 @@ public final class TowerChallengeSettleInfoOuterClass {
         return finishTime_;
       }
       /**
-       * <code>uint32 finish_time = 11;</code>
+       * <code>uint32 finish_time = 2;</code>
        * @param value The finishTime to set.
        * @return This builder for chaining.
        */
@@ -510,12 +557,105 @@ public final class TowerChallengeSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 finish_time = 11;</code>
+       * <code>uint32 finish_time = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearFinishTime() {
         
         finishTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int mDKIMCKPFJL_ ;
+      /**
+       * <code>uint32 MDKIMCKPFJL = 7;</code>
+       * @return The mDKIMCKPFJL.
+       */
+      @java.lang.Override
+      public int getMDKIMCKPFJL() {
+        return mDKIMCKPFJL_;
+      }
+      /**
+       * <code>uint32 MDKIMCKPFJL = 7;</code>
+       * @param value The mDKIMCKPFJL to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMDKIMCKPFJL(int value) {
+        
+        mDKIMCKPFJL_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 MDKIMCKPFJL = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMDKIMCKPFJL() {
+        
+        mDKIMCKPFJL_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int cMGCCGACAFK_ ;
+      /**
+       * <code>uint32 CMGCCGACAFK = 6;</code>
+       * @return The cMGCCGACAFK.
+       */
+      @java.lang.Override
+      public int getCMGCCGACAFK() {
+        return cMGCCGACAFK_;
+      }
+      /**
+       * <code>uint32 CMGCCGACAFK = 6;</code>
+       * @param value The cMGCCGACAFK to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCMGCCGACAFK(int value) {
+        
+        cMGCCGACAFK_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 CMGCCGACAFK = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCMGCCGACAFK() {
+        
+        cMGCCGACAFK_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int levelId_ ;
+      /**
+       * <code>uint32 level_id = 5;</code>
+       * @return The levelId.
+       */
+      @java.lang.Override
+      public int getLevelId() {
+        return levelId_;
+      }
+      /**
+       * <code>uint32 level_id = 5;</code>
+       * @param value The levelId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLevelId(int value) {
+        
+        levelId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 level_id = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLevelId() {
+        
+        levelId_ = 0;
         onChanged();
         return this;
       }
@@ -586,10 +726,11 @@ public final class TowerChallengeSettleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036TowerChallengeSettleInfo.proto\"A\n\030Towe" +
-      "rChallengeSettleInfo\022\020\n\010level_id\030\006 \001(\r\022\023" +
-      "\n\013finish_time\030\013 \001(\rB\033\n\031emu.grasscutter.n" +
-      "et.protob\006proto3"
+      "\n\036TowerChallengeSettleInfo.proto\"k\n\030Towe" +
+      "rChallengeSettleInfo\022\023\n\013finish_time\030\002 \001(" +
+      "\r\022\023\n\013MDKIMCKPFJL\030\007 \001(\r\022\023\n\013CMGCCGACAFK\030\006 " +
+      "\001(\r\022\020\n\010level_id\030\005 \001(\rB\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -600,7 +741,7 @@ public final class TowerChallengeSettleInfoOuterClass {
     internal_static_TowerChallengeSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TowerChallengeSettleInfo_descriptor,
-        new java.lang.String[] { "LevelId", "FinishTime", });
+        new java.lang.String[] { "FinishTime", "MDKIMCKPFJL", "CMGCCGACAFK", "LevelId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

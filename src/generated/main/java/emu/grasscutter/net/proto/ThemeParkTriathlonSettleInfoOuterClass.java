@@ -19,16 +19,16 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 12;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool POGDOAPCHFC = 7;</code>
-     * @return The pOGDOAPCHFC.
+     * <code>bool HJOMILMLFNM = 2;</code>
+     * @return The hJOMILMLFNM.
      */
-    boolean getPOGDOAPCHFC();
+    boolean getHJOMILMLFNM();
   }
   /**
    * Protobuf type {@code ThemeParkTriathlonSettleInfo}
@@ -75,14 +75,14 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
-
-              pOGDOAPCHFC_ = input.readBool();
-              break;
-            }
-            case 96: {
+            case 8: {
 
               levelId_ = input.readUInt32();
+              break;
+            }
+            case 16: {
+
+              hJOMILMLFNM_ = input.readBool();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
               emu.grasscutter.net.proto.ThemeParkTriathlonSettleInfoOuterClass.ThemeParkTriathlonSettleInfo.class, emu.grasscutter.net.proto.ThemeParkTriathlonSettleInfoOuterClass.ThemeParkTriathlonSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 12;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 12;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -128,15 +128,15 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int POGDOAPCHFC_FIELD_NUMBER = 7;
-    private boolean pOGDOAPCHFC_;
+    public static final int HJOMILMLFNM_FIELD_NUMBER = 2;
+    private boolean hJOMILMLFNM_;
     /**
-     * <code>bool POGDOAPCHFC = 7;</code>
-     * @return The pOGDOAPCHFC.
+     * <code>bool HJOMILMLFNM = 2;</code>
+     * @return The hJOMILMLFNM.
      */
     @java.lang.Override
-    public boolean getPOGDOAPCHFC() {
-      return pOGDOAPCHFC_;
+    public boolean getHJOMILMLFNM() {
+      return hJOMILMLFNM_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -153,11 +153,11 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pOGDOAPCHFC_ != false) {
-        output.writeBool(7, pOGDOAPCHFC_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(12, levelId_);
+        output.writeUInt32(1, levelId_);
+      }
+      if (hJOMILMLFNM_ != false) {
+        output.writeBool(2, hJOMILMLFNM_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pOGDOAPCHFC_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, pOGDOAPCHFC_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, levelId_);
+          .computeUInt32Size(1, levelId_);
+      }
+      if (hJOMILMLFNM_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(2, hJOMILMLFNM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -193,8 +193,8 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
 
       if (getLevelId()
           != other.getLevelId()) return false;
-      if (getPOGDOAPCHFC()
-          != other.getPOGDOAPCHFC()) return false;
+      if (getHJOMILMLFNM()
+          != other.getHJOMILMLFNM()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -208,9 +208,9 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
-      hash = (37 * hash) + POGDOAPCHFC_FIELD_NUMBER;
+      hash = (37 * hash) + HJOMILMLFNM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getPOGDOAPCHFC());
+          getHJOMILMLFNM());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -346,7 +346,7 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
         super.clear();
         levelId_ = 0;
 
-        pOGDOAPCHFC_ = false;
+        hJOMILMLFNM_ = false;
 
         return this;
       }
@@ -375,7 +375,7 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
       public emu.grasscutter.net.proto.ThemeParkTriathlonSettleInfoOuterClass.ThemeParkTriathlonSettleInfo buildPartial() {
         emu.grasscutter.net.proto.ThemeParkTriathlonSettleInfoOuterClass.ThemeParkTriathlonSettleInfo result = new emu.grasscutter.net.proto.ThemeParkTriathlonSettleInfoOuterClass.ThemeParkTriathlonSettleInfo(this);
         result.levelId_ = levelId_;
-        result.pOGDOAPCHFC_ = pOGDOAPCHFC_;
+        result.hJOMILMLFNM_ = hJOMILMLFNM_;
         onBuilt();
         return result;
       }
@@ -427,8 +427,8 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
         }
-        if (other.getPOGDOAPCHFC() != false) {
-          setPOGDOAPCHFC(other.getPOGDOAPCHFC());
+        if (other.getHJOMILMLFNM() != false) {
+          setHJOMILMLFNM(other.getHJOMILMLFNM());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -461,7 +461,7 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 12;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -469,7 +469,7 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 12;</code>
+       * <code>uint32 level_id = 1;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -480,7 +480,7 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 12;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -490,33 +490,33 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
         return this;
       }
 
-      private boolean pOGDOAPCHFC_ ;
+      private boolean hJOMILMLFNM_ ;
       /**
-       * <code>bool POGDOAPCHFC = 7;</code>
-       * @return The pOGDOAPCHFC.
+       * <code>bool HJOMILMLFNM = 2;</code>
+       * @return The hJOMILMLFNM.
        */
       @java.lang.Override
-      public boolean getPOGDOAPCHFC() {
-        return pOGDOAPCHFC_;
+      public boolean getHJOMILMLFNM() {
+        return hJOMILMLFNM_;
       }
       /**
-       * <code>bool POGDOAPCHFC = 7;</code>
-       * @param value The pOGDOAPCHFC to set.
+       * <code>bool HJOMILMLFNM = 2;</code>
+       * @param value The hJOMILMLFNM to set.
        * @return This builder for chaining.
        */
-      public Builder setPOGDOAPCHFC(boolean value) {
+      public Builder setHJOMILMLFNM(boolean value) {
         
-        pOGDOAPCHFC_ = value;
+        hJOMILMLFNM_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool POGDOAPCHFC = 7;</code>
+       * <code>bool HJOMILMLFNM = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPOGDOAPCHFC() {
+      public Builder clearHJOMILMLFNM() {
         
-        pOGDOAPCHFC_ = false;
+        hJOMILMLFNM_ = false;
         onChanged();
         return this;
       }
@@ -589,7 +589,7 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"ThemeParkTriathlonSettleInfo.proto\"E\n\034" +
       "ThemeParkTriathlonSettleInfo\022\020\n\010level_id" +
-      "\030\014 \001(\r\022\023\n\013POGDOAPCHFC\030\007 \001(\010B\033\n\031emu.grass" +
+      "\030\001 \001(\r\022\023\n\013HJOMILMLFNM\030\002 \001(\010B\033\n\031emu.grass" +
       "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -601,7 +601,7 @@ public final class ThemeParkTriathlonSettleInfoOuterClass {
     internal_static_ThemeParkTriathlonSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ThemeParkTriathlonSettleInfo_descriptor,
-        new java.lang.String[] { "LevelId", "POGDOAPCHFC", });
+        new java.lang.String[] { "LevelId", "HJOMILMLFNM", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -19,46 +19,46 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 after_watcher_id_list = 14;</code>
-     * @return A list containing the afterWatcherIdList.
+     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+     * @return A list containing the lFMCEAKLMBJ.
      */
-    java.util.List<java.lang.Integer> getAfterWatcherIdListList();
+    java.util.List<java.lang.Integer> getLFMCEAKLMBJList();
     /**
-     * <code>repeated uint32 after_watcher_id_list = 14;</code>
-     * @return The count of afterWatcherIdList.
+     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+     * @return The count of lFMCEAKLMBJ.
      */
-    int getAfterWatcherIdListCount();
+    int getLFMCEAKLMBJCount();
     /**
-     * <code>repeated uint32 after_watcher_id_list = 14;</code>
+     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
      * @param index The index of the element to return.
-     * @return The afterWatcherIdList at the given index.
+     * @return The lFMCEAKLMBJ at the given index.
      */
-    int getAfterWatcherIdList(int index);
+    int getLFMCEAKLMBJ(int index);
 
     /**
-     * <code>repeated uint32 before_watcher_id_list = 10;</code>
-     * @return A list containing the beforeWatcherIdList.
+     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
+     * @return A list containing the pNKMMNAKKAE.
      */
-    java.util.List<java.lang.Integer> getBeforeWatcherIdListList();
+    java.util.List<java.lang.Integer> getPNKMMNAKKAEList();
     /**
-     * <code>repeated uint32 before_watcher_id_list = 10;</code>
-     * @return The count of beforeWatcherIdList.
+     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
+     * @return The count of pNKMMNAKKAE.
      */
-    int getBeforeWatcherIdListCount();
+    int getPNKMMNAKKAECount();
     /**
-     * <code>repeated uint32 before_watcher_id_list = 10;</code>
+     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
      * @param index The index of the element to return.
-     * @return The beforeWatcherIdList at the given index.
+     * @return The pNKMMNAKKAE at the given index.
      */
-    int getBeforeWatcherIdList(int index);
+    int getPNKMMNAKKAE(int index);
 
     /**
-     * <code>.WindFieldDungeonFailReason fail_reason = 9;</code>
+     * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
      * @return The enum numeric value on the wire for failReason.
      */
     int getFailReasonValue();
     /**
-     * <code>.WindFieldDungeonFailReason fail_reason = 9;</code>
+     * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
      * @return The failReason.
      */
     emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason getFailReason();
@@ -76,8 +76,8 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       super(builder);
     }
     private WindFieldDungeonSettleInfo() {
-      afterWatcherIdList_ = emptyIntList();
-      beforeWatcherIdList_ = emptyIntList();
+      lFMCEAKLMBJ_ = emptyIntList();
+      pNKMMNAKKAE_ = emptyIntList();
       failReason_ = 0;
     }
 
@@ -112,50 +112,50 @@ public final class WindFieldDungeonSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 24: {
               int rawValue = input.readEnum();
 
               failReason_ = rawValue;
               break;
             }
-            case 80: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                beforeWatcherIdList_ = newIntList();
+                pNKMMNAKKAE_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
-              beforeWatcherIdList_.addInt(input.readUInt32());
+              pNKMMNAKKAE_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                beforeWatcherIdList_ = newIntList();
+                pNKMMNAKKAE_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                beforeWatcherIdList_.addInt(input.readUInt32());
+                pNKMMNAKKAE_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 112: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                afterWatcherIdList_ = newIntList();
+                lFMCEAKLMBJ_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              afterWatcherIdList_.addInt(input.readUInt32());
+              lFMCEAKLMBJ_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                afterWatcherIdList_ = newIntList();
+                lFMCEAKLMBJ_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                afterWatcherIdList_.addInt(input.readUInt32());
+                lFMCEAKLMBJ_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -176,10 +176,10 @@ public final class WindFieldDungeonSettleInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          beforeWatcherIdList_.makeImmutable(); // C
+          pNKMMNAKKAE_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          afterWatcherIdList_.makeImmutable(); // C
+          lFMCEAKLMBJ_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -198,73 +198,73 @@ public final class WindFieldDungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo.class, emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo.Builder.class);
     }
 
-    public static final int AFTER_WATCHER_ID_LIST_FIELD_NUMBER = 14;
-    private com.google.protobuf.Internal.IntList afterWatcherIdList_;
+    public static final int LFMCEAKLMBJ_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList lFMCEAKLMBJ_;
     /**
-     * <code>repeated uint32 after_watcher_id_list = 14;</code>
-     * @return A list containing the afterWatcherIdList.
+     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+     * @return A list containing the lFMCEAKLMBJ.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getAfterWatcherIdListList() {
-      return afterWatcherIdList_;
+        getLFMCEAKLMBJList() {
+      return lFMCEAKLMBJ_;
     }
     /**
-     * <code>repeated uint32 after_watcher_id_list = 14;</code>
-     * @return The count of afterWatcherIdList.
+     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+     * @return The count of lFMCEAKLMBJ.
      */
-    public int getAfterWatcherIdListCount() {
-      return afterWatcherIdList_.size();
+    public int getLFMCEAKLMBJCount() {
+      return lFMCEAKLMBJ_.size();
     }
     /**
-     * <code>repeated uint32 after_watcher_id_list = 14;</code>
+     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
      * @param index The index of the element to return.
-     * @return The afterWatcherIdList at the given index.
+     * @return The lFMCEAKLMBJ at the given index.
      */
-    public int getAfterWatcherIdList(int index) {
-      return afterWatcherIdList_.getInt(index);
+    public int getLFMCEAKLMBJ(int index) {
+      return lFMCEAKLMBJ_.getInt(index);
     }
-    private int afterWatcherIdListMemoizedSerializedSize = -1;
+    private int lFMCEAKLMBJMemoizedSerializedSize = -1;
 
-    public static final int BEFORE_WATCHER_ID_LIST_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList beforeWatcherIdList_;
+    public static final int PNKMMNAKKAE_FIELD_NUMBER = 9;
+    private com.google.protobuf.Internal.IntList pNKMMNAKKAE_;
     /**
-     * <code>repeated uint32 before_watcher_id_list = 10;</code>
-     * @return A list containing the beforeWatcherIdList.
+     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
+     * @return A list containing the pNKMMNAKKAE.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getBeforeWatcherIdListList() {
-      return beforeWatcherIdList_;
+        getPNKMMNAKKAEList() {
+      return pNKMMNAKKAE_;
     }
     /**
-     * <code>repeated uint32 before_watcher_id_list = 10;</code>
-     * @return The count of beforeWatcherIdList.
+     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
+     * @return The count of pNKMMNAKKAE.
      */
-    public int getBeforeWatcherIdListCount() {
-      return beforeWatcherIdList_.size();
+    public int getPNKMMNAKKAECount() {
+      return pNKMMNAKKAE_.size();
     }
     /**
-     * <code>repeated uint32 before_watcher_id_list = 10;</code>
+     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
      * @param index The index of the element to return.
-     * @return The beforeWatcherIdList at the given index.
+     * @return The pNKMMNAKKAE at the given index.
      */
-    public int getBeforeWatcherIdList(int index) {
-      return beforeWatcherIdList_.getInt(index);
+    public int getPNKMMNAKKAE(int index) {
+      return pNKMMNAKKAE_.getInt(index);
     }
-    private int beforeWatcherIdListMemoizedSerializedSize = -1;
+    private int pNKMMNAKKAEMemoizedSerializedSize = -1;
 
-    public static final int FAIL_REASON_FIELD_NUMBER = 9;
+    public static final int FAIL_REASON_FIELD_NUMBER = 3;
     private int failReason_;
     /**
-     * <code>.WindFieldDungeonFailReason fail_reason = 9;</code>
+     * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
      * @return The enum numeric value on the wire for failReason.
      */
     @java.lang.Override public int getFailReasonValue() {
       return failReason_;
     }
     /**
-     * <code>.WindFieldDungeonFailReason fail_reason = 9;</code>
+     * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
      * @return The failReason.
      */
     @java.lang.Override public emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason getFailReason() {
@@ -289,21 +289,21 @@ public final class WindFieldDungeonSettleInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WIND_FIELD_DUNGEON_FAIL_REASON_NONE.getNumber()) {
-        output.writeEnum(9, failReason_);
+        output.writeEnum(3, failReason_);
       }
-      if (getBeforeWatcherIdListList().size() > 0) {
-        output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(beforeWatcherIdListMemoizedSerializedSize);
+      if (getPNKMMNAKKAEList().size() > 0) {
+        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(pNKMMNAKKAEMemoizedSerializedSize);
       }
-      for (int i = 0; i < beforeWatcherIdList_.size(); i++) {
-        output.writeUInt32NoTag(beforeWatcherIdList_.getInt(i));
+      for (int i = 0; i < pNKMMNAKKAE_.size(); i++) {
+        output.writeUInt32NoTag(pNKMMNAKKAE_.getInt(i));
       }
-      if (getAfterWatcherIdListList().size() > 0) {
-        output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(afterWatcherIdListMemoizedSerializedSize);
+      if (getLFMCEAKLMBJList().size() > 0) {
+        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(lFMCEAKLMBJMemoizedSerializedSize);
       }
-      for (int i = 0; i < afterWatcherIdList_.size(); i++) {
-        output.writeUInt32NoTag(afterWatcherIdList_.getInt(i));
+      for (int i = 0; i < lFMCEAKLMBJ_.size(); i++) {
+        output.writeUInt32NoTag(lFMCEAKLMBJ_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -316,35 +316,35 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       size = 0;
       if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WIND_FIELD_DUNGEON_FAIL_REASON_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(9, failReason_);
+          .computeEnumSize(3, failReason_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < beforeWatcherIdList_.size(); i++) {
+        for (int i = 0; i < pNKMMNAKKAE_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(beforeWatcherIdList_.getInt(i));
+            .computeUInt32SizeNoTag(pNKMMNAKKAE_.getInt(i));
         }
         size += dataSize;
-        if (!getBeforeWatcherIdListList().isEmpty()) {
+        if (!getPNKMMNAKKAEList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        beforeWatcherIdListMemoizedSerializedSize = dataSize;
+        pNKMMNAKKAEMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < afterWatcherIdList_.size(); i++) {
+        for (int i = 0; i < lFMCEAKLMBJ_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(afterWatcherIdList_.getInt(i));
+            .computeUInt32SizeNoTag(lFMCEAKLMBJ_.getInt(i));
         }
         size += dataSize;
-        if (!getAfterWatcherIdListList().isEmpty()) {
+        if (!getLFMCEAKLMBJList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        afterWatcherIdListMemoizedSerializedSize = dataSize;
+        lFMCEAKLMBJMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -361,10 +361,10 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       }
       emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo other = (emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo) obj;
 
-      if (!getAfterWatcherIdListList()
-          .equals(other.getAfterWatcherIdListList())) return false;
-      if (!getBeforeWatcherIdListList()
-          .equals(other.getBeforeWatcherIdListList())) return false;
+      if (!getLFMCEAKLMBJList()
+          .equals(other.getLFMCEAKLMBJList())) return false;
+      if (!getPNKMMNAKKAEList()
+          .equals(other.getPNKMMNAKKAEList())) return false;
       if (failReason_ != other.failReason_) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
@@ -377,13 +377,13 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getAfterWatcherIdListCount() > 0) {
-        hash = (37 * hash) + AFTER_WATCHER_ID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getAfterWatcherIdListList().hashCode();
+      if (getLFMCEAKLMBJCount() > 0) {
+        hash = (37 * hash) + LFMCEAKLMBJ_FIELD_NUMBER;
+        hash = (53 * hash) + getLFMCEAKLMBJList().hashCode();
       }
-      if (getBeforeWatcherIdListCount() > 0) {
-        hash = (37 * hash) + BEFORE_WATCHER_ID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getBeforeWatcherIdListList().hashCode();
+      if (getPNKMMNAKKAECount() > 0) {
+        hash = (37 * hash) + PNKMMNAKKAE_FIELD_NUMBER;
+        hash = (53 * hash) + getPNKMMNAKKAEList().hashCode();
       }
       hash = (37 * hash) + FAIL_REASON_FIELD_NUMBER;
       hash = (53 * hash) + failReason_;
@@ -520,9 +520,9 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        afterWatcherIdList_ = emptyIntList();
+        lFMCEAKLMBJ_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        beforeWatcherIdList_ = emptyIntList();
+        pNKMMNAKKAE_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         failReason_ = 0;
 
@@ -554,15 +554,15 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo result = new emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          afterWatcherIdList_.makeImmutable();
+          lFMCEAKLMBJ_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.afterWatcherIdList_ = afterWatcherIdList_;
+        result.lFMCEAKLMBJ_ = lFMCEAKLMBJ_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          beforeWatcherIdList_.makeImmutable();
+          pNKMMNAKKAE_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.beforeWatcherIdList_ = beforeWatcherIdList_;
+        result.pNKMMNAKKAE_ = pNKMMNAKKAE_;
         result.failReason_ = failReason_;
         onBuilt();
         return result;
@@ -612,23 +612,23 @@ public final class WindFieldDungeonSettleInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo other) {
         if (other == emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo.getDefaultInstance()) return this;
-        if (!other.afterWatcherIdList_.isEmpty()) {
-          if (afterWatcherIdList_.isEmpty()) {
-            afterWatcherIdList_ = other.afterWatcherIdList_;
+        if (!other.lFMCEAKLMBJ_.isEmpty()) {
+          if (lFMCEAKLMBJ_.isEmpty()) {
+            lFMCEAKLMBJ_ = other.lFMCEAKLMBJ_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureAfterWatcherIdListIsMutable();
-            afterWatcherIdList_.addAll(other.afterWatcherIdList_);
+            ensureLFMCEAKLMBJIsMutable();
+            lFMCEAKLMBJ_.addAll(other.lFMCEAKLMBJ_);
           }
           onChanged();
         }
-        if (!other.beforeWatcherIdList_.isEmpty()) {
-          if (beforeWatcherIdList_.isEmpty()) {
-            beforeWatcherIdList_ = other.beforeWatcherIdList_;
+        if (!other.pNKMMNAKKAE_.isEmpty()) {
+          if (pNKMMNAKKAE_.isEmpty()) {
+            pNKMMNAKKAE_ = other.pNKMMNAKKAE_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureBeforeWatcherIdListIsMutable();
-            beforeWatcherIdList_.addAll(other.beforeWatcherIdList_);
+            ensurePNKMMNAKKAEIsMutable();
+            pNKMMNAKKAE_.addAll(other.pNKMMNAKKAE_);
           }
           onChanged();
         }
@@ -665,159 +665,159 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList afterWatcherIdList_ = emptyIntList();
-      private void ensureAfterWatcherIdListIsMutable() {
+      private com.google.protobuf.Internal.IntList lFMCEAKLMBJ_ = emptyIntList();
+      private void ensureLFMCEAKLMBJIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          afterWatcherIdList_ = mutableCopy(afterWatcherIdList_);
+          lFMCEAKLMBJ_ = mutableCopy(lFMCEAKLMBJ_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 after_watcher_id_list = 14;</code>
-       * @return A list containing the afterWatcherIdList.
+       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+       * @return A list containing the lFMCEAKLMBJ.
        */
       public java.util.List<java.lang.Integer>
-          getAfterWatcherIdListList() {
+          getLFMCEAKLMBJList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(afterWatcherIdList_) : afterWatcherIdList_;
+                 java.util.Collections.unmodifiableList(lFMCEAKLMBJ_) : lFMCEAKLMBJ_;
       }
       /**
-       * <code>repeated uint32 after_watcher_id_list = 14;</code>
-       * @return The count of afterWatcherIdList.
+       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+       * @return The count of lFMCEAKLMBJ.
        */
-      public int getAfterWatcherIdListCount() {
-        return afterWatcherIdList_.size();
+      public int getLFMCEAKLMBJCount() {
+        return lFMCEAKLMBJ_.size();
       }
       /**
-       * <code>repeated uint32 after_watcher_id_list = 14;</code>
+       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
        * @param index The index of the element to return.
-       * @return The afterWatcherIdList at the given index.
+       * @return The lFMCEAKLMBJ at the given index.
        */
-      public int getAfterWatcherIdList(int index) {
-        return afterWatcherIdList_.getInt(index);
+      public int getLFMCEAKLMBJ(int index) {
+        return lFMCEAKLMBJ_.getInt(index);
       }
       /**
-       * <code>repeated uint32 after_watcher_id_list = 14;</code>
+       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
        * @param index The index to set the value at.
-       * @param value The afterWatcherIdList to set.
+       * @param value The lFMCEAKLMBJ to set.
        * @return This builder for chaining.
        */
-      public Builder setAfterWatcherIdList(
+      public Builder setLFMCEAKLMBJ(
           int index, int value) {
-        ensureAfterWatcherIdListIsMutable();
-        afterWatcherIdList_.setInt(index, value);
+        ensureLFMCEAKLMBJIsMutable();
+        lFMCEAKLMBJ_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 after_watcher_id_list = 14;</code>
-       * @param value The afterWatcherIdList to add.
+       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+       * @param value The lFMCEAKLMBJ to add.
        * @return This builder for chaining.
        */
-      public Builder addAfterWatcherIdList(int value) {
-        ensureAfterWatcherIdListIsMutable();
-        afterWatcherIdList_.addInt(value);
+      public Builder addLFMCEAKLMBJ(int value) {
+        ensureLFMCEAKLMBJIsMutable();
+        lFMCEAKLMBJ_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 after_watcher_id_list = 14;</code>
-       * @param values The afterWatcherIdList to add.
+       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+       * @param values The lFMCEAKLMBJ to add.
        * @return This builder for chaining.
        */
-      public Builder addAllAfterWatcherIdList(
+      public Builder addAllLFMCEAKLMBJ(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureAfterWatcherIdListIsMutable();
+        ensureLFMCEAKLMBJIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, afterWatcherIdList_);
+            values, lFMCEAKLMBJ_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 after_watcher_id_list = 14;</code>
+       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAfterWatcherIdList() {
-        afterWatcherIdList_ = emptyIntList();
+      public Builder clearLFMCEAKLMBJ() {
+        lFMCEAKLMBJ_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList beforeWatcherIdList_ = emptyIntList();
-      private void ensureBeforeWatcherIdListIsMutable() {
+      private com.google.protobuf.Internal.IntList pNKMMNAKKAE_ = emptyIntList();
+      private void ensurePNKMMNAKKAEIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          beforeWatcherIdList_ = mutableCopy(beforeWatcherIdList_);
+          pNKMMNAKKAE_ = mutableCopy(pNKMMNAKKAE_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 before_watcher_id_list = 10;</code>
-       * @return A list containing the beforeWatcherIdList.
+       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
+       * @return A list containing the pNKMMNAKKAE.
        */
       public java.util.List<java.lang.Integer>
-          getBeforeWatcherIdListList() {
+          getPNKMMNAKKAEList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(beforeWatcherIdList_) : beforeWatcherIdList_;
+                 java.util.Collections.unmodifiableList(pNKMMNAKKAE_) : pNKMMNAKKAE_;
       }
       /**
-       * <code>repeated uint32 before_watcher_id_list = 10;</code>
-       * @return The count of beforeWatcherIdList.
+       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
+       * @return The count of pNKMMNAKKAE.
        */
-      public int getBeforeWatcherIdListCount() {
-        return beforeWatcherIdList_.size();
+      public int getPNKMMNAKKAECount() {
+        return pNKMMNAKKAE_.size();
       }
       /**
-       * <code>repeated uint32 before_watcher_id_list = 10;</code>
+       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
        * @param index The index of the element to return.
-       * @return The beforeWatcherIdList at the given index.
+       * @return The pNKMMNAKKAE at the given index.
        */
-      public int getBeforeWatcherIdList(int index) {
-        return beforeWatcherIdList_.getInt(index);
+      public int getPNKMMNAKKAE(int index) {
+        return pNKMMNAKKAE_.getInt(index);
       }
       /**
-       * <code>repeated uint32 before_watcher_id_list = 10;</code>
+       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
        * @param index The index to set the value at.
-       * @param value The beforeWatcherIdList to set.
+       * @param value The pNKMMNAKKAE to set.
        * @return This builder for chaining.
        */
-      public Builder setBeforeWatcherIdList(
+      public Builder setPNKMMNAKKAE(
           int index, int value) {
-        ensureBeforeWatcherIdListIsMutable();
-        beforeWatcherIdList_.setInt(index, value);
+        ensurePNKMMNAKKAEIsMutable();
+        pNKMMNAKKAE_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 before_watcher_id_list = 10;</code>
-       * @param value The beforeWatcherIdList to add.
+       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
+       * @param value The pNKMMNAKKAE to add.
        * @return This builder for chaining.
        */
-      public Builder addBeforeWatcherIdList(int value) {
-        ensureBeforeWatcherIdListIsMutable();
-        beforeWatcherIdList_.addInt(value);
+      public Builder addPNKMMNAKKAE(int value) {
+        ensurePNKMMNAKKAEIsMutable();
+        pNKMMNAKKAE_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 before_watcher_id_list = 10;</code>
-       * @param values The beforeWatcherIdList to add.
+       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
+       * @param values The pNKMMNAKKAE to add.
        * @return This builder for chaining.
        */
-      public Builder addAllBeforeWatcherIdList(
+      public Builder addAllPNKMMNAKKAE(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureBeforeWatcherIdListIsMutable();
+        ensurePNKMMNAKKAEIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, beforeWatcherIdList_);
+            values, pNKMMNAKKAE_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 before_watcher_id_list = 10;</code>
+       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBeforeWatcherIdList() {
-        beforeWatcherIdList_ = emptyIntList();
+      public Builder clearPNKMMNAKKAE() {
+        pNKMMNAKKAE_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
@@ -825,14 +825,14 @@ public final class WindFieldDungeonSettleInfoOuterClass {
 
       private int failReason_ = 0;
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 9;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
        * @return The enum numeric value on the wire for failReason.
        */
       @java.lang.Override public int getFailReasonValue() {
         return failReason_;
       }
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 9;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
        * @param value The enum numeric value on the wire for failReason to set.
        * @return This builder for chaining.
        */
@@ -843,7 +843,7 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 9;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
        * @return The failReason.
        */
       @java.lang.Override
@@ -853,7 +853,7 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 9;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
        * @param value The failReason to set.
        * @return This builder for chaining.
        */
@@ -867,7 +867,7 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 9;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearFailReason() {
@@ -944,12 +944,11 @@ public final class WindFieldDungeonSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n WindFieldDungeonSettleInfo.proto\032 Wind" +
-      "FieldDungeonFailReason.proto\"\215\001\n\032WindFie" +
-      "ldDungeonSettleInfo\022\035\n\025after_watcher_id_" +
-      "list\030\016 \003(\r\022\036\n\026before_watcher_id_list\030\n \003" +
-      "(\r\0220\n\013fail_reason\030\t \001(\0162\033.WindFieldDunge" +
-      "onFailReasonB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "FieldDungeonFailReason.proto\"x\n\032WindFiel" +
+      "dDungeonSettleInfo\022\023\n\013LFMCEAKLMBJ\030\013 \003(\r\022" +
+      "\023\n\013PNKMMNAKKAE\030\t \003(\r\0220\n\013fail_reason\030\003 \001(" +
+      "\0162\033.WindFieldDungeonFailReasonB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -961,7 +960,7 @@ public final class WindFieldDungeonSettleInfoOuterClass {
     internal_static_WindFieldDungeonSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WindFieldDungeonSettleInfo_descriptor,
-        new java.lang.String[] { "AfterWatcherIdList", "BeforeWatcherIdList", "FailReason", });
+        new java.lang.String[] { "LFMCEAKLMBJ", "PNKMMNAKKAE", "FailReason", });
     emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.getDescriptor();
   }
 

@@ -19,57 +19,57 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 FFBEJCLLPFL = 2;</code>
-     * @return The fFBEJCLLPFL.
+     * <code>uint32 BMPFEGOOFMH = 1;</code>
+     * @return The bMPFEGOOFMH.
      */
-    int getFFBEJCLLPFL();
+    int getBMPFEGOOFMH();
 
     /**
-     * <code>.GalleryStopReason reason = 11;</code>
+     * <code>.GalleryStopReason reason = 14;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.GalleryStopReason reason = 11;</code>
+     * <code>.GalleryStopReason reason = 14;</code>
      * @return The reason.
      */
     emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason();
 
     /**
-     * <code>uint32 score = 10;</code>
-     * @return The score.
+     * <code>uint32 BHHIPOHPHBL = 9;</code>
+     * @return The bHHIPOHPHBL.
      */
-    int getScore();
+    int getBHHIPOHPHBL();
 
     /**
-     * <code>bool is_new_record = 15;</code>
+     * <code>uint32 MCAKGHGLKNK = 11;</code>
+     * @return The mCAKGHGLKNK.
+     */
+    int getMCAKGHGLKNK();
+
+    /**
+     * <code>bool is_new_record = 4;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 EMLMOMFOHDB = 3;</code>
-     * @return The eMLMOMFOHDB.
+     * <code>uint32 score = 6;</code>
+     * @return The score.
      */
-    int getEMLMOMFOHDB();
+    int getScore();
 
     /**
-     * <code>uint32 use_time = 6;</code>
+     * <code>uint32 use_time = 8;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>uint32 GJOJOOOCNIE = 5;</code>
-     * @return The gJOJOOOCNIE.
+     * <code>uint32 JFIIDLBJFKI = 10;</code>
+     * @return The jFIIDLBJFKI.
      */
-    int getGJOJOOOCNIE();
-
-    /**
-     * <code>uint32 IMOPOGMECOI = 12;</code>
-     * @return The iMOPOGMECOI.
-     */
-    int getIMOPOGMECOI();
+    int getJFIIDLBJFKI();
   }
   /**
    * Protobuf type {@code NodkraiTourParkourSettleInfo}
@@ -117,45 +117,45 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
 
-              fFBEJCLLPFL_ = input.readUInt32();
+              bMPFEGOOFMH_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 32: {
 
-              eMLMOMFOHDB_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              gJOJOOOCNIE_ = input.readUInt32();
+              isNewRecord_ = input.readBool();
               break;
             }
             case 48: {
 
+              score_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
               useTime_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              bHHIPOHPHBL_ = input.readUInt32();
               break;
             }
             case 80: {
 
-              score_ = input.readUInt32();
+              jFIIDLBJFKI_ = input.readUInt32();
               break;
             }
             case 88: {
+
+              mCAKGHGLKNK_ = input.readUInt32();
+              break;
+            }
+            case 112: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
-              break;
-            }
-            case 96: {
-
-              iMOPOGMECOI_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-
-              isNewRecord_ = input.readBool();
               break;
             }
             default: {
@@ -190,28 +190,28 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
               emu.grasscutter.net.proto.NodkraiTourParkourSettleInfoOuterClass.NodkraiTourParkourSettleInfo.class, emu.grasscutter.net.proto.NodkraiTourParkourSettleInfoOuterClass.NodkraiTourParkourSettleInfo.Builder.class);
     }
 
-    public static final int FFBEJCLLPFL_FIELD_NUMBER = 2;
-    private int fFBEJCLLPFL_;
+    public static final int BMPFEGOOFMH_FIELD_NUMBER = 1;
+    private int bMPFEGOOFMH_;
     /**
-     * <code>uint32 FFBEJCLLPFL = 2;</code>
-     * @return The fFBEJCLLPFL.
+     * <code>uint32 BMPFEGOOFMH = 1;</code>
+     * @return The bMPFEGOOFMH.
      */
     @java.lang.Override
-    public int getFFBEJCLLPFL() {
-      return fFBEJCLLPFL_;
+    public int getBMPFEGOOFMH() {
+      return bMPFEGOOFMH_;
     }
 
-    public static final int REASON_FIELD_NUMBER = 11;
+    public static final int REASON_FIELD_NUMBER = 14;
     private int reason_;
     /**
-     * <code>.GalleryStopReason reason = 11;</code>
+     * <code>.GalleryStopReason reason = 14;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.GalleryStopReason reason = 11;</code>
+     * <code>.GalleryStopReason reason = 14;</code>
      * @return The reason.
      */
     @java.lang.Override public emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason() {
@@ -220,21 +220,32 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 10;
-    private int score_;
+    public static final int BHHIPOHPHBL_FIELD_NUMBER = 9;
+    private int bHHIPOHPHBL_;
     /**
-     * <code>uint32 score = 10;</code>
-     * @return The score.
+     * <code>uint32 BHHIPOHPHBL = 9;</code>
+     * @return The bHHIPOHPHBL.
      */
     @java.lang.Override
-    public int getScore() {
-      return score_;
+    public int getBHHIPOHPHBL() {
+      return bHHIPOHPHBL_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 15;
+    public static final int MCAKGHGLKNK_FIELD_NUMBER = 11;
+    private int mCAKGHGLKNK_;
+    /**
+     * <code>uint32 MCAKGHGLKNK = 11;</code>
+     * @return The mCAKGHGLKNK.
+     */
+    @java.lang.Override
+    public int getMCAKGHGLKNK() {
+      return mCAKGHGLKNK_;
+    }
+
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 4;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 15;</code>
+     * <code>bool is_new_record = 4;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -242,21 +253,21 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int EMLMOMFOHDB_FIELD_NUMBER = 3;
-    private int eMLMOMFOHDB_;
+    public static final int SCORE_FIELD_NUMBER = 6;
+    private int score_;
     /**
-     * <code>uint32 EMLMOMFOHDB = 3;</code>
-     * @return The eMLMOMFOHDB.
+     * <code>uint32 score = 6;</code>
+     * @return The score.
      */
     @java.lang.Override
-    public int getEMLMOMFOHDB() {
-      return eMLMOMFOHDB_;
+    public int getScore() {
+      return score_;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 6;
+    public static final int USE_TIME_FIELD_NUMBER = 8;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 6;</code>
+     * <code>uint32 use_time = 8;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -264,26 +275,15 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int GJOJOOOCNIE_FIELD_NUMBER = 5;
-    private int gJOJOOOCNIE_;
+    public static final int JFIIDLBJFKI_FIELD_NUMBER = 10;
+    private int jFIIDLBJFKI_;
     /**
-     * <code>uint32 GJOJOOOCNIE = 5;</code>
-     * @return The gJOJOOOCNIE.
+     * <code>uint32 JFIIDLBJFKI = 10;</code>
+     * @return The jFIIDLBJFKI.
      */
     @java.lang.Override
-    public int getGJOJOOOCNIE() {
-      return gJOJOOOCNIE_;
-    }
-
-    public static final int IMOPOGMECOI_FIELD_NUMBER = 12;
-    private int iMOPOGMECOI_;
-    /**
-     * <code>uint32 IMOPOGMECOI = 12;</code>
-     * @return The iMOPOGMECOI.
-     */
-    @java.lang.Override
-    public int getIMOPOGMECOI() {
-      return iMOPOGMECOI_;
+    public int getJFIIDLBJFKI() {
+      return jFIIDLBJFKI_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -300,29 +300,29 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (fFBEJCLLPFL_ != 0) {
-        output.writeUInt32(2, fFBEJCLLPFL_);
-      }
-      if (eMLMOMFOHDB_ != 0) {
-        output.writeUInt32(3, eMLMOMFOHDB_);
-      }
-      if (gJOJOOOCNIE_ != 0) {
-        output.writeUInt32(5, gJOJOOOCNIE_);
-      }
-      if (useTime_ != 0) {
-        output.writeUInt32(6, useTime_);
-      }
-      if (score_ != 0) {
-        output.writeUInt32(10, score_);
-      }
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GALLERY_STOP_REASON_NONE.getNumber()) {
-        output.writeEnum(11, reason_);
-      }
-      if (iMOPOGMECOI_ != 0) {
-        output.writeUInt32(12, iMOPOGMECOI_);
+      if (bMPFEGOOFMH_ != 0) {
+        output.writeUInt32(1, bMPFEGOOFMH_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(15, isNewRecord_);
+        output.writeBool(4, isNewRecord_);
+      }
+      if (score_ != 0) {
+        output.writeUInt32(6, score_);
+      }
+      if (useTime_ != 0) {
+        output.writeUInt32(8, useTime_);
+      }
+      if (bHHIPOHPHBL_ != 0) {
+        output.writeUInt32(9, bHHIPOHPHBL_);
+      }
+      if (jFIIDLBJFKI_ != 0) {
+        output.writeUInt32(10, jFIIDLBJFKI_);
+      }
+      if (mCAKGHGLKNK_ != 0) {
+        output.writeUInt32(11, mCAKGHGLKNK_);
+      }
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GALLERY_STOP_REASON_NONE.getNumber()) {
+        output.writeEnum(14, reason_);
       }
       unknownFields.writeTo(output);
     }
@@ -333,37 +333,37 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (fFBEJCLLPFL_ != 0) {
+      if (bMPFEGOOFMH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, fFBEJCLLPFL_);
-      }
-      if (eMLMOMFOHDB_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, eMLMOMFOHDB_);
-      }
-      if (gJOJOOOCNIE_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, gJOJOOOCNIE_);
-      }
-      if (useTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, useTime_);
-      }
-      if (score_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, score_);
-      }
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GALLERY_STOP_REASON_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(11, reason_);
-      }
-      if (iMOPOGMECOI_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, iMOPOGMECOI_);
+          .computeUInt32Size(1, bMPFEGOOFMH_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isNewRecord_);
+          .computeBoolSize(4, isNewRecord_);
+      }
+      if (score_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, score_);
+      }
+      if (useTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, useTime_);
+      }
+      if (bHHIPOHPHBL_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, bHHIPOHPHBL_);
+      }
+      if (jFIIDLBJFKI_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, jFIIDLBJFKI_);
+      }
+      if (mCAKGHGLKNK_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, mCAKGHGLKNK_);
+      }
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GALLERY_STOP_REASON_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(14, reason_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -380,21 +380,21 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
       }
       emu.grasscutter.net.proto.NodkraiTourParkourSettleInfoOuterClass.NodkraiTourParkourSettleInfo other = (emu.grasscutter.net.proto.NodkraiTourParkourSettleInfoOuterClass.NodkraiTourParkourSettleInfo) obj;
 
-      if (getFFBEJCLLPFL()
-          != other.getFFBEJCLLPFL()) return false;
+      if (getBMPFEGOOFMH()
+          != other.getBMPFEGOOFMH()) return false;
       if (reason_ != other.reason_) return false;
-      if (getScore()
-          != other.getScore()) return false;
+      if (getBHHIPOHPHBL()
+          != other.getBHHIPOHPHBL()) return false;
+      if (getMCAKGHGLKNK()
+          != other.getMCAKGHGLKNK()) return false;
       if (getIsNewRecord()
           != other.getIsNewRecord()) return false;
-      if (getEMLMOMFOHDB()
-          != other.getEMLMOMFOHDB()) return false;
+      if (getScore()
+          != other.getScore()) return false;
       if (getUseTime()
           != other.getUseTime()) return false;
-      if (getGJOJOOOCNIE()
-          != other.getGJOJOOOCNIE()) return false;
-      if (getIMOPOGMECOI()
-          != other.getIMOPOGMECOI()) return false;
+      if (getJFIIDLBJFKI()
+          != other.getJFIIDLBJFKI()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -406,23 +406,23 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + FFBEJCLLPFL_FIELD_NUMBER;
-      hash = (53 * hash) + getFFBEJCLLPFL();
+      hash = (37 * hash) + BMPFEGOOFMH_FIELD_NUMBER;
+      hash = (53 * hash) + getBMPFEGOOFMH();
       hash = (37 * hash) + REASON_FIELD_NUMBER;
       hash = (53 * hash) + reason_;
-      hash = (37 * hash) + SCORE_FIELD_NUMBER;
-      hash = (53 * hash) + getScore();
+      hash = (37 * hash) + BHHIPOHPHBL_FIELD_NUMBER;
+      hash = (53 * hash) + getBHHIPOHPHBL();
+      hash = (37 * hash) + MCAKGHGLKNK_FIELD_NUMBER;
+      hash = (53 * hash) + getMCAKGHGLKNK();
       hash = (37 * hash) + IS_NEW_RECORD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsNewRecord());
-      hash = (37 * hash) + EMLMOMFOHDB_FIELD_NUMBER;
-      hash = (53 * hash) + getEMLMOMFOHDB();
+      hash = (37 * hash) + SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getScore();
       hash = (37 * hash) + USE_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getUseTime();
-      hash = (37 * hash) + GJOJOOOCNIE_FIELD_NUMBER;
-      hash = (53 * hash) + getGJOJOOOCNIE();
-      hash = (37 * hash) + IMOPOGMECOI_FIELD_NUMBER;
-      hash = (53 * hash) + getIMOPOGMECOI();
+      hash = (37 * hash) + JFIIDLBJFKI_FIELD_NUMBER;
+      hash = (53 * hash) + getJFIIDLBJFKI();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -556,21 +556,21 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        fFBEJCLLPFL_ = 0;
+        bMPFEGOOFMH_ = 0;
 
         reason_ = 0;
 
-        score_ = 0;
+        bHHIPOHPHBL_ = 0;
+
+        mCAKGHGLKNK_ = 0;
 
         isNewRecord_ = false;
 
-        eMLMOMFOHDB_ = 0;
+        score_ = 0;
 
         useTime_ = 0;
 
-        gJOJOOOCNIE_ = 0;
-
-        iMOPOGMECOI_ = 0;
+        jFIIDLBJFKI_ = 0;
 
         return this;
       }
@@ -598,14 +598,14 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.NodkraiTourParkourSettleInfoOuterClass.NodkraiTourParkourSettleInfo buildPartial() {
         emu.grasscutter.net.proto.NodkraiTourParkourSettleInfoOuterClass.NodkraiTourParkourSettleInfo result = new emu.grasscutter.net.proto.NodkraiTourParkourSettleInfoOuterClass.NodkraiTourParkourSettleInfo(this);
-        result.fFBEJCLLPFL_ = fFBEJCLLPFL_;
+        result.bMPFEGOOFMH_ = bMPFEGOOFMH_;
         result.reason_ = reason_;
-        result.score_ = score_;
+        result.bHHIPOHPHBL_ = bHHIPOHPHBL_;
+        result.mCAKGHGLKNK_ = mCAKGHGLKNK_;
         result.isNewRecord_ = isNewRecord_;
-        result.eMLMOMFOHDB_ = eMLMOMFOHDB_;
+        result.score_ = score_;
         result.useTime_ = useTime_;
-        result.gJOJOOOCNIE_ = gJOJOOOCNIE_;
-        result.iMOPOGMECOI_ = iMOPOGMECOI_;
+        result.jFIIDLBJFKI_ = jFIIDLBJFKI_;
         onBuilt();
         return result;
       }
@@ -654,29 +654,29 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.NodkraiTourParkourSettleInfoOuterClass.NodkraiTourParkourSettleInfo other) {
         if (other == emu.grasscutter.net.proto.NodkraiTourParkourSettleInfoOuterClass.NodkraiTourParkourSettleInfo.getDefaultInstance()) return this;
-        if (other.getFFBEJCLLPFL() != 0) {
-          setFFBEJCLLPFL(other.getFFBEJCLLPFL());
+        if (other.getBMPFEGOOFMH() != 0) {
+          setBMPFEGOOFMH(other.getBMPFEGOOFMH());
         }
         if (other.reason_ != 0) {
           setReasonValue(other.getReasonValue());
         }
-        if (other.getScore() != 0) {
-          setScore(other.getScore());
+        if (other.getBHHIPOHPHBL() != 0) {
+          setBHHIPOHPHBL(other.getBHHIPOHPHBL());
+        }
+        if (other.getMCAKGHGLKNK() != 0) {
+          setMCAKGHGLKNK(other.getMCAKGHGLKNK());
         }
         if (other.getIsNewRecord() != false) {
           setIsNewRecord(other.getIsNewRecord());
         }
-        if (other.getEMLMOMFOHDB() != 0) {
-          setEMLMOMFOHDB(other.getEMLMOMFOHDB());
+        if (other.getScore() != 0) {
+          setScore(other.getScore());
         }
         if (other.getUseTime() != 0) {
           setUseTime(other.getUseTime());
         }
-        if (other.getGJOJOOOCNIE() != 0) {
-          setGJOJOOOCNIE(other.getGJOJOOOCNIE());
-        }
-        if (other.getIMOPOGMECOI() != 0) {
-          setIMOPOGMECOI(other.getIMOPOGMECOI());
+        if (other.getJFIIDLBJFKI() != 0) {
+          setJFIIDLBJFKI(other.getJFIIDLBJFKI());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -707,47 +707,47 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
 
-      private int fFBEJCLLPFL_ ;
+      private int bMPFEGOOFMH_ ;
       /**
-       * <code>uint32 FFBEJCLLPFL = 2;</code>
-       * @return The fFBEJCLLPFL.
+       * <code>uint32 BMPFEGOOFMH = 1;</code>
+       * @return The bMPFEGOOFMH.
        */
       @java.lang.Override
-      public int getFFBEJCLLPFL() {
-        return fFBEJCLLPFL_;
+      public int getBMPFEGOOFMH() {
+        return bMPFEGOOFMH_;
       }
       /**
-       * <code>uint32 FFBEJCLLPFL = 2;</code>
-       * @param value The fFBEJCLLPFL to set.
+       * <code>uint32 BMPFEGOOFMH = 1;</code>
+       * @param value The bMPFEGOOFMH to set.
        * @return This builder for chaining.
        */
-      public Builder setFFBEJCLLPFL(int value) {
+      public Builder setBMPFEGOOFMH(int value) {
         
-        fFBEJCLLPFL_ = value;
+        bMPFEGOOFMH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 FFBEJCLLPFL = 2;</code>
+       * <code>uint32 BMPFEGOOFMH = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFFBEJCLLPFL() {
+      public Builder clearBMPFEGOOFMH() {
         
-        fFBEJCLLPFL_ = 0;
+        bMPFEGOOFMH_ = 0;
         onChanged();
         return this;
       }
 
       private int reason_ = 0;
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 14;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 14;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -758,7 +758,7 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 14;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -768,7 +768,7 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 14;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -782,7 +782,7 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -792,40 +792,71 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
 
-      private int score_ ;
+      private int bHHIPOHPHBL_ ;
       /**
-       * <code>uint32 score = 10;</code>
-       * @return The score.
+       * <code>uint32 BHHIPOHPHBL = 9;</code>
+       * @return The bHHIPOHPHBL.
        */
       @java.lang.Override
-      public int getScore() {
-        return score_;
+      public int getBHHIPOHPHBL() {
+        return bHHIPOHPHBL_;
       }
       /**
-       * <code>uint32 score = 10;</code>
-       * @param value The score to set.
+       * <code>uint32 BHHIPOHPHBL = 9;</code>
+       * @param value The bHHIPOHPHBL to set.
        * @return This builder for chaining.
        */
-      public Builder setScore(int value) {
+      public Builder setBHHIPOHPHBL(int value) {
         
-        score_ = value;
+        bHHIPOHPHBL_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 score = 10;</code>
+       * <code>uint32 BHHIPOHPHBL = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearScore() {
+      public Builder clearBHHIPOHPHBL() {
         
-        score_ = 0;
+        bHHIPOHPHBL_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int mCAKGHGLKNK_ ;
+      /**
+       * <code>uint32 MCAKGHGLKNK = 11;</code>
+       * @return The mCAKGHGLKNK.
+       */
+      @java.lang.Override
+      public int getMCAKGHGLKNK() {
+        return mCAKGHGLKNK_;
+      }
+      /**
+       * <code>uint32 MCAKGHGLKNK = 11;</code>
+       * @param value The mCAKGHGLKNK to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMCAKGHGLKNK(int value) {
+        
+        mCAKGHGLKNK_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 MCAKGHGLKNK = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMCAKGHGLKNK() {
+        
+        mCAKGHGLKNK_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 15;</code>
+       * <code>bool is_new_record = 4;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -833,7 +864,7 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 15;</code>
+       * <code>bool is_new_record = 4;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -844,7 +875,7 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 15;</code>
+       * <code>bool is_new_record = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -854,40 +885,40 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
 
-      private int eMLMOMFOHDB_ ;
+      private int score_ ;
       /**
-       * <code>uint32 EMLMOMFOHDB = 3;</code>
-       * @return The eMLMOMFOHDB.
+       * <code>uint32 score = 6;</code>
+       * @return The score.
        */
       @java.lang.Override
-      public int getEMLMOMFOHDB() {
-        return eMLMOMFOHDB_;
+      public int getScore() {
+        return score_;
       }
       /**
-       * <code>uint32 EMLMOMFOHDB = 3;</code>
-       * @param value The eMLMOMFOHDB to set.
+       * <code>uint32 score = 6;</code>
+       * @param value The score to set.
        * @return This builder for chaining.
        */
-      public Builder setEMLMOMFOHDB(int value) {
+      public Builder setScore(int value) {
         
-        eMLMOMFOHDB_ = value;
+        score_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 EMLMOMFOHDB = 3;</code>
+       * <code>uint32 score = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEMLMOMFOHDB() {
+      public Builder clearScore() {
         
-        eMLMOMFOHDB_ = 0;
+        score_ = 0;
         onChanged();
         return this;
       }
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 6;</code>
+       * <code>uint32 use_time = 8;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -895,7 +926,7 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 6;</code>
+       * <code>uint32 use_time = 8;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -906,7 +937,7 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 6;</code>
+       * <code>uint32 use_time = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -916,64 +947,33 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
 
-      private int gJOJOOOCNIE_ ;
+      private int jFIIDLBJFKI_ ;
       /**
-       * <code>uint32 GJOJOOOCNIE = 5;</code>
-       * @return The gJOJOOOCNIE.
+       * <code>uint32 JFIIDLBJFKI = 10;</code>
+       * @return The jFIIDLBJFKI.
        */
       @java.lang.Override
-      public int getGJOJOOOCNIE() {
-        return gJOJOOOCNIE_;
+      public int getJFIIDLBJFKI() {
+        return jFIIDLBJFKI_;
       }
       /**
-       * <code>uint32 GJOJOOOCNIE = 5;</code>
-       * @param value The gJOJOOOCNIE to set.
+       * <code>uint32 JFIIDLBJFKI = 10;</code>
+       * @param value The jFIIDLBJFKI to set.
        * @return This builder for chaining.
        */
-      public Builder setGJOJOOOCNIE(int value) {
+      public Builder setJFIIDLBJFKI(int value) {
         
-        gJOJOOOCNIE_ = value;
+        jFIIDLBJFKI_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 GJOJOOOCNIE = 5;</code>
+       * <code>uint32 JFIIDLBJFKI = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGJOJOOOCNIE() {
+      public Builder clearJFIIDLBJFKI() {
         
-        gJOJOOOCNIE_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int iMOPOGMECOI_ ;
-      /**
-       * <code>uint32 IMOPOGMECOI = 12;</code>
-       * @return The iMOPOGMECOI.
-       */
-      @java.lang.Override
-      public int getIMOPOGMECOI() {
-        return iMOPOGMECOI_;
-      }
-      /**
-       * <code>uint32 IMOPOGMECOI = 12;</code>
-       * @param value The iMOPOGMECOI to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIMOPOGMECOI(int value) {
-        
-        iMOPOGMECOI_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 IMOPOGMECOI = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIMOPOGMECOI() {
-        
-        iMOPOGMECOI_ = 0;
+        jFIIDLBJFKI_ = 0;
         onChanged();
         return this;
       }
@@ -1046,11 +1046,11 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"NodkraiTourParkourSettleInfo.proto\032\027Ga" +
       "lleryStopReason.proto\"\316\001\n\034NodkraiTourPar" +
-      "kourSettleInfo\022\023\n\013FFBEJCLLPFL\030\002 \001(\r\022\"\n\006r" +
-      "eason\030\013 \001(\0162\022.GalleryStopReason\022\r\n\005score" +
-      "\030\n \001(\r\022\025\n\ris_new_record\030\017 \001(\010\022\023\n\013EMLMOMF" +
-      "OHDB\030\003 \001(\r\022\020\n\010use_time\030\006 \001(\r\022\023\n\013GJOJOOOC" +
-      "NIE\030\005 \001(\r\022\023\n\013IMOPOGMECOI\030\014 \001(\rB\033\n\031emu.gr" +
+      "kourSettleInfo\022\023\n\013BMPFEGOOFMH\030\001 \001(\r\022\"\n\006r" +
+      "eason\030\016 \001(\0162\022.GalleryStopReason\022\023\n\013BHHIP" +
+      "OHPHBL\030\t \001(\r\022\023\n\013MCAKGHGLKNK\030\013 \001(\r\022\025\n\ris_" +
+      "new_record\030\004 \001(\010\022\r\n\005score\030\006 \001(\r\022\020\n\010use_t" +
+      "ime\030\010 \001(\r\022\023\n\013JFIIDLBJFKI\030\n \001(\rB\033\n\031emu.gr" +
       "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1063,7 +1063,7 @@ public final class NodkraiTourParkourSettleInfoOuterClass {
     internal_static_NodkraiTourParkourSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_NodkraiTourParkourSettleInfo_descriptor,
-        new java.lang.String[] { "FFBEJCLLPFL", "Reason", "Score", "IsNewRecord", "EMLMOMFOHDB", "UseTime", "GJOJOOOCNIE", "IMOPOGMECOI", });
+        new java.lang.String[] { "BMPFEGOOFMH", "Reason", "BHHIPOHPHBL", "MCAKGHGLKNK", "IsNewRecord", "Score", "UseTime", "JFIIDLBJFKI", });
     emu.grasscutter.net.proto.GalleryStopReasonOuterClass.getDescriptor();
   }
 

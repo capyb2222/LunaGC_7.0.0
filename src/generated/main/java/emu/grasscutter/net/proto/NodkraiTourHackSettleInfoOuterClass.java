@@ -19,22 +19,28 @@ public final class NodkraiTourHackSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_new_record = 7;</code>
+     * <code>uint32 GGAMPHLDEMO = 9;</code>
+     * @return The gGAMPHLDEMO.
+     */
+    int getGGAMPHLDEMO();
+
+    /**
+     * <code>bool is_new_record = 10;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 use_time = 14;</code>
+     * <code>uint32 use_time = 11;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>uint32 hit_point = 9;</code>
-     * @return The hitPoint.
+     * <code>uint32 BHHIPOHPHBL = 6;</code>
+     * @return The bHHIPOHPHBL.
      */
-    int getHitPoint();
+    int getBHHIPOHPHBL();
   }
   /**
    * Protobuf type {@code NodkraiTourHackSettleInfo}
@@ -81,17 +87,22 @@ public final class NodkraiTourHackSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 48: {
 
-              isNewRecord_ = input.readBool();
+              bHHIPOHPHBL_ = input.readUInt32();
               break;
             }
             case 72: {
 
-              hitPoint_ = input.readUInt32();
+              gGAMPHLDEMO_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 80: {
+
+              isNewRecord_ = input.readBool();
+              break;
+            }
+            case 88: {
 
               useTime_ = input.readUInt32();
               break;
@@ -128,10 +139,21 @@ public final class NodkraiTourHackSettleInfoOuterClass {
               emu.grasscutter.net.proto.NodkraiTourHackSettleInfoOuterClass.NodkraiTourHackSettleInfo.class, emu.grasscutter.net.proto.NodkraiTourHackSettleInfoOuterClass.NodkraiTourHackSettleInfo.Builder.class);
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 7;
+    public static final int GGAMPHLDEMO_FIELD_NUMBER = 9;
+    private int gGAMPHLDEMO_;
+    /**
+     * <code>uint32 GGAMPHLDEMO = 9;</code>
+     * @return The gGAMPHLDEMO.
+     */
+    @java.lang.Override
+    public int getGGAMPHLDEMO() {
+      return gGAMPHLDEMO_;
+    }
+
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 10;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 7;</code>
+     * <code>bool is_new_record = 10;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -139,10 +161,10 @@ public final class NodkraiTourHackSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 14;
+    public static final int USE_TIME_FIELD_NUMBER = 11;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 14;</code>
+     * <code>uint32 use_time = 11;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -150,15 +172,15 @@ public final class NodkraiTourHackSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int HIT_POINT_FIELD_NUMBER = 9;
-    private int hitPoint_;
+    public static final int BHHIPOHPHBL_FIELD_NUMBER = 6;
+    private int bHHIPOHPHBL_;
     /**
-     * <code>uint32 hit_point = 9;</code>
-     * @return The hitPoint.
+     * <code>uint32 BHHIPOHPHBL = 6;</code>
+     * @return The bHHIPOHPHBL.
      */
     @java.lang.Override
-    public int getHitPoint() {
-      return hitPoint_;
+    public int getBHHIPOHPHBL() {
+      return bHHIPOHPHBL_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -175,14 +197,17 @@ public final class NodkraiTourHackSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isNewRecord_ != false) {
-        output.writeBool(7, isNewRecord_);
+      if (bHHIPOHPHBL_ != 0) {
+        output.writeUInt32(6, bHHIPOHPHBL_);
       }
-      if (hitPoint_ != 0) {
-        output.writeUInt32(9, hitPoint_);
+      if (gGAMPHLDEMO_ != 0) {
+        output.writeUInt32(9, gGAMPHLDEMO_);
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(10, isNewRecord_);
       }
       if (useTime_ != 0) {
-        output.writeUInt32(14, useTime_);
+        output.writeUInt32(11, useTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +218,21 @@ public final class NodkraiTourHackSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (bHHIPOHPHBL_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, bHHIPOHPHBL_);
+      }
+      if (gGAMPHLDEMO_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, gGAMPHLDEMO_);
+      }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isNewRecord_);
-      }
-      if (hitPoint_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, hitPoint_);
+          .computeBoolSize(10, isNewRecord_);
       }
       if (useTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, useTime_);
+          .computeUInt32Size(11, useTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -220,12 +249,14 @@ public final class NodkraiTourHackSettleInfoOuterClass {
       }
       emu.grasscutter.net.proto.NodkraiTourHackSettleInfoOuterClass.NodkraiTourHackSettleInfo other = (emu.grasscutter.net.proto.NodkraiTourHackSettleInfoOuterClass.NodkraiTourHackSettleInfo) obj;
 
+      if (getGGAMPHLDEMO()
+          != other.getGGAMPHLDEMO()) return false;
       if (getIsNewRecord()
           != other.getIsNewRecord()) return false;
       if (getUseTime()
           != other.getUseTime()) return false;
-      if (getHitPoint()
-          != other.getHitPoint()) return false;
+      if (getBHHIPOHPHBL()
+          != other.getBHHIPOHPHBL()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -237,13 +268,15 @@ public final class NodkraiTourHackSettleInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + GGAMPHLDEMO_FIELD_NUMBER;
+      hash = (53 * hash) + getGGAMPHLDEMO();
       hash = (37 * hash) + IS_NEW_RECORD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsNewRecord());
       hash = (37 * hash) + USE_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getUseTime();
-      hash = (37 * hash) + HIT_POINT_FIELD_NUMBER;
-      hash = (53 * hash) + getHitPoint();
+      hash = (37 * hash) + BHHIPOHPHBL_FIELD_NUMBER;
+      hash = (53 * hash) + getBHHIPOHPHBL();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -377,11 +410,13 @@ public final class NodkraiTourHackSettleInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        gGAMPHLDEMO_ = 0;
+
         isNewRecord_ = false;
 
         useTime_ = 0;
 
-        hitPoint_ = 0;
+        bHHIPOHPHBL_ = 0;
 
         return this;
       }
@@ -409,9 +444,10 @@ public final class NodkraiTourHackSettleInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.NodkraiTourHackSettleInfoOuterClass.NodkraiTourHackSettleInfo buildPartial() {
         emu.grasscutter.net.proto.NodkraiTourHackSettleInfoOuterClass.NodkraiTourHackSettleInfo result = new emu.grasscutter.net.proto.NodkraiTourHackSettleInfoOuterClass.NodkraiTourHackSettleInfo(this);
+        result.gGAMPHLDEMO_ = gGAMPHLDEMO_;
         result.isNewRecord_ = isNewRecord_;
         result.useTime_ = useTime_;
-        result.hitPoint_ = hitPoint_;
+        result.bHHIPOHPHBL_ = bHHIPOHPHBL_;
         onBuilt();
         return result;
       }
@@ -460,14 +496,17 @@ public final class NodkraiTourHackSettleInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.NodkraiTourHackSettleInfoOuterClass.NodkraiTourHackSettleInfo other) {
         if (other == emu.grasscutter.net.proto.NodkraiTourHackSettleInfoOuterClass.NodkraiTourHackSettleInfo.getDefaultInstance()) return this;
+        if (other.getGGAMPHLDEMO() != 0) {
+          setGGAMPHLDEMO(other.getGGAMPHLDEMO());
+        }
         if (other.getIsNewRecord() != false) {
           setIsNewRecord(other.getIsNewRecord());
         }
         if (other.getUseTime() != 0) {
           setUseTime(other.getUseTime());
         }
-        if (other.getHitPoint() != 0) {
-          setHitPoint(other.getHitPoint());
+        if (other.getBHHIPOHPHBL() != 0) {
+          setBHHIPOHPHBL(other.getBHHIPOHPHBL());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -498,9 +537,40 @@ public final class NodkraiTourHackSettleInfoOuterClass {
         return this;
       }
 
+      private int gGAMPHLDEMO_ ;
+      /**
+       * <code>uint32 GGAMPHLDEMO = 9;</code>
+       * @return The gGAMPHLDEMO.
+       */
+      @java.lang.Override
+      public int getGGAMPHLDEMO() {
+        return gGAMPHLDEMO_;
+      }
+      /**
+       * <code>uint32 GGAMPHLDEMO = 9;</code>
+       * @param value The gGAMPHLDEMO to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGGAMPHLDEMO(int value) {
+        
+        gGAMPHLDEMO_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 GGAMPHLDEMO = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGGAMPHLDEMO() {
+        
+        gGAMPHLDEMO_ = 0;
+        onChanged();
+        return this;
+      }
+
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 7;</code>
+       * <code>bool is_new_record = 10;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -508,7 +578,7 @@ public final class NodkraiTourHackSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 7;</code>
+       * <code>bool is_new_record = 10;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -519,7 +589,7 @@ public final class NodkraiTourHackSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 7;</code>
+       * <code>bool is_new_record = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -531,7 +601,7 @@ public final class NodkraiTourHackSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 14;</code>
+       * <code>uint32 use_time = 11;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -539,7 +609,7 @@ public final class NodkraiTourHackSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 14;</code>
+       * <code>uint32 use_time = 11;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -550,7 +620,7 @@ public final class NodkraiTourHackSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 14;</code>
+       * <code>uint32 use_time = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -560,33 +630,33 @@ public final class NodkraiTourHackSettleInfoOuterClass {
         return this;
       }
 
-      private int hitPoint_ ;
+      private int bHHIPOHPHBL_ ;
       /**
-       * <code>uint32 hit_point = 9;</code>
-       * @return The hitPoint.
+       * <code>uint32 BHHIPOHPHBL = 6;</code>
+       * @return The bHHIPOHPHBL.
        */
       @java.lang.Override
-      public int getHitPoint() {
-        return hitPoint_;
+      public int getBHHIPOHPHBL() {
+        return bHHIPOHPHBL_;
       }
       /**
-       * <code>uint32 hit_point = 9;</code>
-       * @param value The hitPoint to set.
+       * <code>uint32 BHHIPOHPHBL = 6;</code>
+       * @param value The bHHIPOHPHBL to set.
        * @return This builder for chaining.
        */
-      public Builder setHitPoint(int value) {
+      public Builder setBHHIPOHPHBL(int value) {
         
-        hitPoint_ = value;
+        bHHIPOHPHBL_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 hit_point = 9;</code>
+       * <code>uint32 BHHIPOHPHBL = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearHitPoint() {
+      public Builder clearBHHIPOHPHBL() {
         
-        hitPoint_ = 0;
+        bHHIPOHPHBL_ = 0;
         onChanged();
         return this;
       }
@@ -657,10 +727,11 @@ public final class NodkraiTourHackSettleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037NodkraiTourHackSettleInfo.proto\"W\n\031Nod" +
-      "kraiTourHackSettleInfo\022\025\n\ris_new_record\030" +
-      "\007 \001(\010\022\020\n\010use_time\030\016 \001(\r\022\021\n\thit_point\030\t \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\037NodkraiTourHackSettleInfo.proto\"n\n\031Nod" +
+      "kraiTourHackSettleInfo\022\023\n\013GGAMPHLDEMO\030\t " +
+      "\001(\r\022\025\n\ris_new_record\030\n \001(\010\022\020\n\010use_time\030\013" +
+      " \001(\r\022\023\n\013BHHIPOHPHBL\030\006 \001(\rB\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -671,7 +742,7 @@ public final class NodkraiTourHackSettleInfoOuterClass {
     internal_static_NodkraiTourHackSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_NodkraiTourHackSettleInfo_descriptor,
-        new java.lang.String[] { "IsNewRecord", "UseTime", "HitPoint", });
+        new java.lang.String[] { "GGAMPHLDEMO", "IsNewRecord", "UseTime", "BHHIPOHPHBL", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -19,16 +19,16 @@ public final class ThemeParkParkourSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 9;</code>
+     * <code>uint32 level_id = 3;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool POGDOAPCHFC = 6;</code>
-     * @return The pOGDOAPCHFC.
+     * <code>bool HJOMILMLFNM = 13;</code>
+     * @return The hJOMILMLFNM.
      */
-    boolean getPOGDOAPCHFC();
+    boolean getHJOMILMLFNM();
   }
   /**
    * Protobuf type {@code ThemeParkParkourSettleInfo}
@@ -75,14 +75,14 @@ public final class ThemeParkParkourSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
-
-              pOGDOAPCHFC_ = input.readBool();
-              break;
-            }
-            case 72: {
+            case 24: {
 
               levelId_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              hJOMILMLFNM_ = input.readBool();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class ThemeParkParkourSettleInfoOuterClass {
               emu.grasscutter.net.proto.ThemeParkParkourSettleInfoOuterClass.ThemeParkParkourSettleInfo.class, emu.grasscutter.net.proto.ThemeParkParkourSettleInfoOuterClass.ThemeParkParkourSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 9;
+    public static final int LEVEL_ID_FIELD_NUMBER = 3;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 9;</code>
+     * <code>uint32 level_id = 3;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -128,15 +128,15 @@ public final class ThemeParkParkourSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int POGDOAPCHFC_FIELD_NUMBER = 6;
-    private boolean pOGDOAPCHFC_;
+    public static final int HJOMILMLFNM_FIELD_NUMBER = 13;
+    private boolean hJOMILMLFNM_;
     /**
-     * <code>bool POGDOAPCHFC = 6;</code>
-     * @return The pOGDOAPCHFC.
+     * <code>bool HJOMILMLFNM = 13;</code>
+     * @return The hJOMILMLFNM.
      */
     @java.lang.Override
-    public boolean getPOGDOAPCHFC() {
-      return pOGDOAPCHFC_;
+    public boolean getHJOMILMLFNM() {
+      return hJOMILMLFNM_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -153,11 +153,11 @@ public final class ThemeParkParkourSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pOGDOAPCHFC_ != false) {
-        output.writeBool(6, pOGDOAPCHFC_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(9, levelId_);
+        output.writeUInt32(3, levelId_);
+      }
+      if (hJOMILMLFNM_ != false) {
+        output.writeBool(13, hJOMILMLFNM_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class ThemeParkParkourSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pOGDOAPCHFC_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, pOGDOAPCHFC_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, levelId_);
+          .computeUInt32Size(3, levelId_);
+      }
+      if (hJOMILMLFNM_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(13, hJOMILMLFNM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -193,8 +193,8 @@ public final class ThemeParkParkourSettleInfoOuterClass {
 
       if (getLevelId()
           != other.getLevelId()) return false;
-      if (getPOGDOAPCHFC()
-          != other.getPOGDOAPCHFC()) return false;
+      if (getHJOMILMLFNM()
+          != other.getHJOMILMLFNM()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -208,9 +208,9 @@ public final class ThemeParkParkourSettleInfoOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
-      hash = (37 * hash) + POGDOAPCHFC_FIELD_NUMBER;
+      hash = (37 * hash) + HJOMILMLFNM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getPOGDOAPCHFC());
+          getHJOMILMLFNM());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -346,7 +346,7 @@ public final class ThemeParkParkourSettleInfoOuterClass {
         super.clear();
         levelId_ = 0;
 
-        pOGDOAPCHFC_ = false;
+        hJOMILMLFNM_ = false;
 
         return this;
       }
@@ -375,7 +375,7 @@ public final class ThemeParkParkourSettleInfoOuterClass {
       public emu.grasscutter.net.proto.ThemeParkParkourSettleInfoOuterClass.ThemeParkParkourSettleInfo buildPartial() {
         emu.grasscutter.net.proto.ThemeParkParkourSettleInfoOuterClass.ThemeParkParkourSettleInfo result = new emu.grasscutter.net.proto.ThemeParkParkourSettleInfoOuterClass.ThemeParkParkourSettleInfo(this);
         result.levelId_ = levelId_;
-        result.pOGDOAPCHFC_ = pOGDOAPCHFC_;
+        result.hJOMILMLFNM_ = hJOMILMLFNM_;
         onBuilt();
         return result;
       }
@@ -427,8 +427,8 @@ public final class ThemeParkParkourSettleInfoOuterClass {
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
         }
-        if (other.getPOGDOAPCHFC() != false) {
-          setPOGDOAPCHFC(other.getPOGDOAPCHFC());
+        if (other.getHJOMILMLFNM() != false) {
+          setHJOMILMLFNM(other.getHJOMILMLFNM());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -461,7 +461,7 @@ public final class ThemeParkParkourSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 9;</code>
+       * <code>uint32 level_id = 3;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -469,7 +469,7 @@ public final class ThemeParkParkourSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 9;</code>
+       * <code>uint32 level_id = 3;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -480,7 +480,7 @@ public final class ThemeParkParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 9;</code>
+       * <code>uint32 level_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -490,33 +490,33 @@ public final class ThemeParkParkourSettleInfoOuterClass {
         return this;
       }
 
-      private boolean pOGDOAPCHFC_ ;
+      private boolean hJOMILMLFNM_ ;
       /**
-       * <code>bool POGDOAPCHFC = 6;</code>
-       * @return The pOGDOAPCHFC.
+       * <code>bool HJOMILMLFNM = 13;</code>
+       * @return The hJOMILMLFNM.
        */
       @java.lang.Override
-      public boolean getPOGDOAPCHFC() {
-        return pOGDOAPCHFC_;
+      public boolean getHJOMILMLFNM() {
+        return hJOMILMLFNM_;
       }
       /**
-       * <code>bool POGDOAPCHFC = 6;</code>
-       * @param value The pOGDOAPCHFC to set.
+       * <code>bool HJOMILMLFNM = 13;</code>
+       * @param value The hJOMILMLFNM to set.
        * @return This builder for chaining.
        */
-      public Builder setPOGDOAPCHFC(boolean value) {
+      public Builder setHJOMILMLFNM(boolean value) {
         
-        pOGDOAPCHFC_ = value;
+        hJOMILMLFNM_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool POGDOAPCHFC = 6;</code>
+       * <code>bool HJOMILMLFNM = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPOGDOAPCHFC() {
+      public Builder clearHJOMILMLFNM() {
         
-        pOGDOAPCHFC_ = false;
+        hJOMILMLFNM_ = false;
         onChanged();
         return this;
       }
@@ -588,8 +588,8 @@ public final class ThemeParkParkourSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n ThemeParkParkourSettleInfo.proto\"C\n\032Th" +
-      "emeParkParkourSettleInfo\022\020\n\010level_id\030\t \001" +
-      "(\r\022\023\n\013POGDOAPCHFC\030\006 \001(\010B\033\n\031emu.grasscutt" +
+      "emeParkParkourSettleInfo\022\020\n\010level_id\030\003 \001" +
+      "(\r\022\023\n\013HJOMILMLFNM\030\r \001(\010B\033\n\031emu.grasscutt" +
       "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -601,7 +601,7 @@ public final class ThemeParkParkourSettleInfoOuterClass {
     internal_static_ThemeParkParkourSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ThemeParkParkourSettleInfo_descriptor,
-        new java.lang.String[] { "LevelId", "POGDOAPCHFC", });
+        new java.lang.String[] { "LevelId", "HJOMILMLFNM", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

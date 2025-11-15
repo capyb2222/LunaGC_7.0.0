@@ -15,11 +15,6 @@ public final class DungeonEntryBlockReasonOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * 4.7.0
-   * Obf: ENGIGHOJALO
-   * </pre>
-   *
    * Protobuf enum {@code DungeonEntryBlockReason}
    */
   public enum DungeonEntryBlockReason
