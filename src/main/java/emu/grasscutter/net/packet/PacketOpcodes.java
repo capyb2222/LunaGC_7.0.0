@@ -425,9 +425,9 @@ public final class PacketOpcodes {
     public static final int PlayerHomeCompInfoNotify = 29390;
     public static final int HomeBasicInfoNotify = 6485;
     public static final int GetHomeExchangeWoodInfoReq = 31313131;
-    public static final int PlayerQuitFromHomeNotify = 31313131;
-	public static final int TryEnterHomeReq = 31313131;
-	public static final int TryEnterHomeRsp = 31313131;
+    public static final int PlayerQuitFromHomeNotify = 4018;
+	public static final int TryEnterHomeReq = 6021;
+	public static final int TryEnterHomeRsp = 23779;
 
     // Events
     public static final int ActivityScheduleInfoNotify = 3215;

@@ -19,16 +19,16 @@ public final class HomeMarkPointNPCDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 avatar_id = 1;</code>
-     * @return The avatarId.
-     */
-    int getAvatarId();
-
-    /**
      * <code>uint32 costume_id = 2;</code>
      * @return The costumeId.
      */
     int getCostumeId();
+
+    /**
+     * <code>uint32 avatar_id = 1;</code>
+     * @return The avatarId.
+     */
+    int getAvatarId();
   }
   /**
    * Protobuf type {@code HomeMarkPointNPCData}
@@ -117,17 +117,6 @@ public final class HomeMarkPointNPCDataOuterClass {
               emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData.class, emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData.Builder.class);
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 1;
-    private int avatarId_;
-    /**
-     * <code>uint32 avatar_id = 1;</code>
-     * @return The avatarId.
-     */
-    @java.lang.Override
-    public int getAvatarId() {
-      return avatarId_;
-    }
-
     public static final int COSTUME_ID_FIELD_NUMBER = 2;
     private int costumeId_;
     /**
@@ -137,6 +126,17 @@ public final class HomeMarkPointNPCDataOuterClass {
     @java.lang.Override
     public int getCostumeId() {
       return costumeId_;
+    }
+
+    public static final int AVATAR_ID_FIELD_NUMBER = 1;
+    private int avatarId_;
+    /**
+     * <code>uint32 avatar_id = 1;</code>
+     * @return The avatarId.
+     */
+    @java.lang.Override
+    public int getAvatarId() {
+      return avatarId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -191,10 +191,10 @@ public final class HomeMarkPointNPCDataOuterClass {
       }
       emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData other = (emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData) obj;
 
-      if (getAvatarId()
-          != other.getAvatarId()) return false;
       if (getCostumeId()
           != other.getCostumeId()) return false;
+      if (getAvatarId()
+          != other.getAvatarId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +206,10 @@ public final class HomeMarkPointNPCDataOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + AVATAR_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getAvatarId();
       hash = (37 * hash) + COSTUME_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCostumeId();
+      hash = (37 * hash) + AVATAR_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getAvatarId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -343,9 +343,9 @@ public final class HomeMarkPointNPCDataOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        avatarId_ = 0;
-
         costumeId_ = 0;
+
+        avatarId_ = 0;
 
         return this;
       }
@@ -373,8 +373,8 @@ public final class HomeMarkPointNPCDataOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData buildPartial() {
         emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData result = new emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData(this);
-        result.avatarId_ = avatarId_;
         result.costumeId_ = costumeId_;
+        result.avatarId_ = avatarId_;
         onBuilt();
         return result;
       }
@@ -423,11 +423,11 @@ public final class HomeMarkPointNPCDataOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData other) {
         if (other == emu.grasscutter.net.proto.HomeMarkPointNPCDataOuterClass.HomeMarkPointNPCData.getDefaultInstance()) return this;
-        if (other.getAvatarId() != 0) {
-          setAvatarId(other.getAvatarId());
-        }
         if (other.getCostumeId() != 0) {
           setCostumeId(other.getCostumeId());
+        }
+        if (other.getAvatarId() != 0) {
+          setAvatarId(other.getAvatarId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,37 +458,6 @@ public final class HomeMarkPointNPCDataOuterClass {
         return this;
       }
 
-      private int avatarId_ ;
-      /**
-       * <code>uint32 avatar_id = 1;</code>
-       * @return The avatarId.
-       */
-      @java.lang.Override
-      public int getAvatarId() {
-        return avatarId_;
-      }
-      /**
-       * <code>uint32 avatar_id = 1;</code>
-       * @param value The avatarId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAvatarId(int value) {
-        
-        avatarId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 avatar_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAvatarId() {
-        
-        avatarId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int costumeId_ ;
       /**
        * <code>uint32 costume_id = 2;</code>
@@ -516,6 +485,37 @@ public final class HomeMarkPointNPCDataOuterClass {
       public Builder clearCostumeId() {
         
         costumeId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int avatarId_ ;
+      /**
+       * <code>uint32 avatar_id = 1;</code>
+       * @return The avatarId.
+       */
+      @java.lang.Override
+      public int getAvatarId() {
+        return avatarId_;
+      }
+      /**
+       * <code>uint32 avatar_id = 1;</code>
+       * @param value The avatarId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAvatarId(int value) {
+        
+        avatarId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 avatar_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAvatarId() {
+        
+        avatarId_ = 0;
         onChanged();
         return this;
       }
@@ -587,8 +587,8 @@ public final class HomeMarkPointNPCDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032HomeMarkPointNPCData.proto\"=\n\024HomeMark" +
-      "PointNPCData\022\021\n\tavatar_id\030\001 \001(\r\022\022\n\ncostu" +
-      "me_id\030\002 \001(\rB\033\n\031emu.grasscutter.net.proto" +
+      "PointNPCData\022\022\n\ncostume_id\030\002 \001(\r\022\021\n\tavat" +
+      "ar_id\030\001 \001(\rB\033\n\031emu.grasscutter.net.proto" +
       "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -600,7 +600,7 @@ public final class HomeMarkPointNPCDataOuterClass {
     internal_static_HomeMarkPointNPCData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HomeMarkPointNPCData_descriptor,
-        new java.lang.String[] { "AvatarId", "CostumeId", });
+        new java.lang.String[] { "CostumeId", "AvatarId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
