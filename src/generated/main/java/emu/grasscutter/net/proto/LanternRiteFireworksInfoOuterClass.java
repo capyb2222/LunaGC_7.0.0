@@ -19,25 +19,25 @@ public final class LanternRiteFireworksInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo> 
         getStageInfoListList();
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo getStageInfoList(int index);
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfoOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfoOrBuilder getStageInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class LanternRiteFireworksInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class LanternRiteFireworksInfoOuterClass {
               emu.grasscutter.net.proto.LanternRiteFireworksInfoOuterClass.LanternRiteFireworksInfo.class, emu.grasscutter.net.proto.LanternRiteFireworksInfoOuterClass.LanternRiteFireworksInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 7;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo> stageInfoList_;
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class LanternRiteFireworksInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+     * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfoOrBuilder getStageInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class LanternRiteFireworksInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(7, stageInfoList_.get(i));
+        output.writeMessage(8, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class LanternRiteFireworksInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, stageInfoList_.get(i));
+          .computeMessageSize(8, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class LanternRiteFireworksInfoOuterClass {
           emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo, emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.Builder, emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfoOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo value) {
@@ -575,7 +575,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo value) {
         if (stageInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo value) {
@@ -622,7 +622,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo> values) {
@@ -665,7 +665,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class LanternRiteFireworksInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfoOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class LanternRiteFireworksInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfoOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class LanternRiteFireworksInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.Builder addStageInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class LanternRiteFireworksInfoOuterClass {
             index, emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 7;</code>
+       * <code>repeated .LanternRiteFireworksStageInfo stage_info_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LanternRiteFireworksStageInfoOuterClass.LanternRiteFireworksStageInfo.Builder> 
            getStageInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class LanternRiteFireworksInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036LanternRiteFireworksInfo.proto\032#Lanter" +
       "nRiteFireworksStageInfo.proto\"S\n\030Lantern" +
-      "RiteFireworksInfo\0227\n\017stage_info_list\030\007 \003" +
+      "RiteFireworksInfo\0227\n\017stage_info_list\030\010 \003" +
       "(\0132\036.LanternRiteFireworksStageInfoB\033\n\031em" +
       "u.grasscutter.net.protob\006proto3"
     };

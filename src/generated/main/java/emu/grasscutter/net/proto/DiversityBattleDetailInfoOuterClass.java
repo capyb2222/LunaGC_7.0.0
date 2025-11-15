@@ -19,7 +19,7 @@ public final class DiversityBattleDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 last_difficulty_id = 15;</code>
+     * <code>uint32 last_difficulty_id = 7;</code>
      * @return The lastDifficultyId.
      */
     int getLastDifficultyId();
@@ -69,7 +69,7 @@ public final class DiversityBattleDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 120: {
+            case 56: {
 
               lastDifficultyId_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class DiversityBattleDetailInfoOuterClass {
               emu.grasscutter.net.proto.DiversityBattleDetailInfoOuterClass.DiversityBattleDetailInfo.class, emu.grasscutter.net.proto.DiversityBattleDetailInfoOuterClass.DiversityBattleDetailInfo.Builder.class);
     }
 
-    public static final int LAST_DIFFICULTY_ID_FIELD_NUMBER = 15;
+    public static final int LAST_DIFFICULTY_ID_FIELD_NUMBER = 7;
     private int lastDifficultyId_;
     /**
-     * <code>uint32 last_difficulty_id = 15;</code>
+     * <code>uint32 last_difficulty_id = 7;</code>
      * @return The lastDifficultyId.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class DiversityBattleDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (lastDifficultyId_ != 0) {
-        output.writeUInt32(15, lastDifficultyId_);
+        output.writeUInt32(7, lastDifficultyId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class DiversityBattleDetailInfoOuterClass {
       size = 0;
       if (lastDifficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, lastDifficultyId_);
+          .computeUInt32Size(7, lastDifficultyId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class DiversityBattleDetailInfoOuterClass {
 
       private int lastDifficultyId_ ;
       /**
-       * <code>uint32 last_difficulty_id = 15;</code>
+       * <code>uint32 last_difficulty_id = 7;</code>
        * @return The lastDifficultyId.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class DiversityBattleDetailInfoOuterClass {
         return lastDifficultyId_;
       }
       /**
-       * <code>uint32 last_difficulty_id = 15;</code>
+       * <code>uint32 last_difficulty_id = 7;</code>
        * @param value The lastDifficultyId to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class DiversityBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 last_difficulty_id = 15;</code>
+       * <code>uint32 last_difficulty_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLastDifficultyId() {
@@ -518,7 +518,7 @@ public final class DiversityBattleDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037DiversityBattleDetailInfo.proto\"7\n\031Div" +
       "ersityBattleDetailInfo\022\032\n\022last_difficult" +
-      "y_id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "y_id\030\007 \001(\rB\033\n\031emu.grasscutter.net.protob" +
       "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -19,56 +19,56 @@ public final class WeekActiveDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
-     * @return A list containing the pFHNMIBBOOH.
+     * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
+     * @return A list containing the gLGBLGBKLLH.
      */
-    java.util.List<java.lang.Integer> getPFHNMIBBOOHList();
+    java.util.List<java.lang.Integer> getGLGBLGBKLLHList();
     /**
-     * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
-     * @return The count of pFHNMIBBOOH.
+     * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
+     * @return The count of gLGBLGBKLLH.
      */
-    int getPFHNMIBBOOHCount();
+    int getGLGBLGBKLLHCount();
     /**
-     * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
+     * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
      * @param index The index of the element to return.
-     * @return The pFHNMIBBOOH at the given index.
+     * @return The gLGBLGBKLLH at the given index.
      */
-    int getPFHNMIBBOOH(int index);
+    int getGLGBLGBKLLH(int index);
 
     /**
-     * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
-     * @return A list containing the gIMLJBBLDDF.
+     * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
+     * @return A list containing the gJPHIEGNKJL.
      */
-    java.util.List<java.lang.Integer> getGIMLJBBLDDFList();
+    java.util.List<java.lang.Integer> getGJPHIEGNKJLList();
     /**
-     * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
-     * @return The count of gIMLJBBLDDF.
+     * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
+     * @return The count of gJPHIEGNKJL.
      */
-    int getGIMLJBBLDDFCount();
+    int getGJPHIEGNKJLCount();
     /**
-     * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
+     * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
      * @param index The index of the element to return.
-     * @return The gIMLJBBLDDF at the given index.
+     * @return The gJPHIEGNKJL at the given index.
      */
-    int getGIMLJBBLDDF(int index);
+    int getGJPHIEGNKJL(int index);
 
     /**
-     * <code>uint32 progress = 15;</code>
-     * @return The progress.
-     */
-    int getProgress();
-
-    /**
-     * <code>uint32 avatar_id = 1;</code>
+     * <code>uint32 avatar_id = 3;</code>
      * @return The avatarId.
      */
     int getAvatarId();
 
     /**
-     * <code>bool NDHHKKCDMMO = 13;</code>
-     * @return The nDHHKKCDMMO.
+     * <code>uint32 progress = 6;</code>
+     * @return The progress.
      */
-    boolean getNDHHKKCDMMO();
+    int getProgress();
+
+    /**
+     * <code>bool KAPHFHDIBCA = 11;</code>
+     * @return The kAPHFHDIBCA.
+     */
+    boolean getKAPHFHDIBCA();
   }
   /**
    * Protobuf type {@code WeekActiveDetailInfo}
@@ -83,8 +83,8 @@ public final class WeekActiveDetailInfoOuterClass {
       super(builder);
     }
     private WeekActiveDetailInfo() {
-      pFHNMIBBOOH_ = emptyIntList();
-      gIMLJBBLDDF_ = emptyIntList();
+      gLGBLGBKLLH_ = emptyIntList();
+      gJPHIEGNKJL_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -118,61 +118,61 @@ public final class WeekActiveDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 24: {
 
               avatarId_ = input.readUInt32();
               break;
             }
-            case 16: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                gIMLJBBLDDF_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              gIMLJBBLDDF_.addInt(input.readUInt32());
+            case 48: {
+
+              progress_ = input.readUInt32();
               break;
             }
-            case 18: {
+            case 64: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                gJPHIEGNKJL_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              gJPHIEGNKJL_.addInt(input.readUInt32());
+              break;
+            }
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                gIMLJBBLDDF_ = newIntList();
+                gJPHIEGNKJL_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                gIMLJBBLDDF_.addInt(input.readUInt32());
+                gJPHIEGNKJL_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 32: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pFHNMIBBOOH_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              pFHNMIBBOOH_.addInt(input.readUInt32());
-              break;
-            }
-            case 34: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                pFHNMIBBOOH_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                pFHNMIBBOOH_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
+            case 88: {
+
+              kAPHFHDIBCA_ = input.readBool();
               break;
             }
             case 104: {
-
-              nDHHKKCDMMO_ = input.readBool();
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                gLGBLGBKLLH_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              gLGBLGBKLLH_.addInt(input.readUInt32());
               break;
             }
-            case 120: {
-
-              progress_ = input.readUInt32();
+            case 106: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                gLGBLGBKLLH_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                gLGBLGBKLLH_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
               break;
             }
             default: {
@@ -191,10 +191,10 @@ public final class WeekActiveDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          gIMLJBBLDDF_.makeImmutable(); // C
+          gJPHIEGNKJL_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          pFHNMIBBOOH_.makeImmutable(); // C
+          gLGBLGBKLLH_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -213,77 +213,66 @@ public final class WeekActiveDetailInfoOuterClass {
               emu.grasscutter.net.proto.WeekActiveDetailInfoOuterClass.WeekActiveDetailInfo.class, emu.grasscutter.net.proto.WeekActiveDetailInfoOuterClass.WeekActiveDetailInfo.Builder.class);
     }
 
-    public static final int PFHNMIBBOOH_FIELD_NUMBER = 4;
-    private com.google.protobuf.Internal.IntList pFHNMIBBOOH_;
+    public static final int GLGBLGBKLLH_FIELD_NUMBER = 13;
+    private com.google.protobuf.Internal.IntList gLGBLGBKLLH_;
     /**
-     * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
-     * @return A list containing the pFHNMIBBOOH.
+     * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
+     * @return A list containing the gLGBLGBKLLH.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getPFHNMIBBOOHList() {
-      return pFHNMIBBOOH_;
+        getGLGBLGBKLLHList() {
+      return gLGBLGBKLLH_;
     }
     /**
-     * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
-     * @return The count of pFHNMIBBOOH.
+     * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
+     * @return The count of gLGBLGBKLLH.
      */
-    public int getPFHNMIBBOOHCount() {
-      return pFHNMIBBOOH_.size();
+    public int getGLGBLGBKLLHCount() {
+      return gLGBLGBKLLH_.size();
     }
     /**
-     * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
+     * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
      * @param index The index of the element to return.
-     * @return The pFHNMIBBOOH at the given index.
+     * @return The gLGBLGBKLLH at the given index.
      */
-    public int getPFHNMIBBOOH(int index) {
-      return pFHNMIBBOOH_.getInt(index);
+    public int getGLGBLGBKLLH(int index) {
+      return gLGBLGBKLLH_.getInt(index);
     }
-    private int pFHNMIBBOOHMemoizedSerializedSize = -1;
+    private int gLGBLGBKLLHMemoizedSerializedSize = -1;
 
-    public static final int GIMLJBBLDDF_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.IntList gIMLJBBLDDF_;
+    public static final int GJPHIEGNKJL_FIELD_NUMBER = 8;
+    private com.google.protobuf.Internal.IntList gJPHIEGNKJL_;
     /**
-     * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
-     * @return A list containing the gIMLJBBLDDF.
+     * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
+     * @return A list containing the gJPHIEGNKJL.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getGIMLJBBLDDFList() {
-      return gIMLJBBLDDF_;
+        getGJPHIEGNKJLList() {
+      return gJPHIEGNKJL_;
     }
     /**
-     * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
-     * @return The count of gIMLJBBLDDF.
+     * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
+     * @return The count of gJPHIEGNKJL.
      */
-    public int getGIMLJBBLDDFCount() {
-      return gIMLJBBLDDF_.size();
+    public int getGJPHIEGNKJLCount() {
+      return gJPHIEGNKJL_.size();
     }
     /**
-     * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
+     * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
      * @param index The index of the element to return.
-     * @return The gIMLJBBLDDF at the given index.
+     * @return The gJPHIEGNKJL at the given index.
      */
-    public int getGIMLJBBLDDF(int index) {
-      return gIMLJBBLDDF_.getInt(index);
+    public int getGJPHIEGNKJL(int index) {
+      return gJPHIEGNKJL_.getInt(index);
     }
-    private int gIMLJBBLDDFMemoizedSerializedSize = -1;
+    private int gJPHIEGNKJLMemoizedSerializedSize = -1;
 
-    public static final int PROGRESS_FIELD_NUMBER = 15;
-    private int progress_;
-    /**
-     * <code>uint32 progress = 15;</code>
-     * @return The progress.
-     */
-    @java.lang.Override
-    public int getProgress() {
-      return progress_;
-    }
-
-    public static final int AVATAR_ID_FIELD_NUMBER = 1;
+    public static final int AVATAR_ID_FIELD_NUMBER = 3;
     private int avatarId_;
     /**
-     * <code>uint32 avatar_id = 1;</code>
+     * <code>uint32 avatar_id = 3;</code>
      * @return The avatarId.
      */
     @java.lang.Override
@@ -291,15 +280,26 @@ public final class WeekActiveDetailInfoOuterClass {
       return avatarId_;
     }
 
-    public static final int NDHHKKCDMMO_FIELD_NUMBER = 13;
-    private boolean nDHHKKCDMMO_;
+    public static final int PROGRESS_FIELD_NUMBER = 6;
+    private int progress_;
     /**
-     * <code>bool NDHHKKCDMMO = 13;</code>
-     * @return The nDHHKKCDMMO.
+     * <code>uint32 progress = 6;</code>
+     * @return The progress.
      */
     @java.lang.Override
-    public boolean getNDHHKKCDMMO() {
-      return nDHHKKCDMMO_;
+    public int getProgress() {
+      return progress_;
+    }
+
+    public static final int KAPHFHDIBCA_FIELD_NUMBER = 11;
+    private boolean kAPHFHDIBCA_;
+    /**
+     * <code>bool KAPHFHDIBCA = 11;</code>
+     * @return The kAPHFHDIBCA.
+     */
+    @java.lang.Override
+    public boolean getKAPHFHDIBCA() {
+      return kAPHFHDIBCA_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -318,27 +318,27 @@ public final class WeekActiveDetailInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (avatarId_ != 0) {
-        output.writeUInt32(1, avatarId_);
-      }
-      if (getGIMLJBBLDDFList().size() > 0) {
-        output.writeUInt32NoTag(18);
-        output.writeUInt32NoTag(gIMLJBBLDDFMemoizedSerializedSize);
-      }
-      for (int i = 0; i < gIMLJBBLDDF_.size(); i++) {
-        output.writeUInt32NoTag(gIMLJBBLDDF_.getInt(i));
-      }
-      if (getPFHNMIBBOOHList().size() > 0) {
-        output.writeUInt32NoTag(34);
-        output.writeUInt32NoTag(pFHNMIBBOOHMemoizedSerializedSize);
-      }
-      for (int i = 0; i < pFHNMIBBOOH_.size(); i++) {
-        output.writeUInt32NoTag(pFHNMIBBOOH_.getInt(i));
-      }
-      if (nDHHKKCDMMO_ != false) {
-        output.writeBool(13, nDHHKKCDMMO_);
+        output.writeUInt32(3, avatarId_);
       }
       if (progress_ != 0) {
-        output.writeUInt32(15, progress_);
+        output.writeUInt32(6, progress_);
+      }
+      if (getGJPHIEGNKJLList().size() > 0) {
+        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(gJPHIEGNKJLMemoizedSerializedSize);
+      }
+      for (int i = 0; i < gJPHIEGNKJL_.size(); i++) {
+        output.writeUInt32NoTag(gJPHIEGNKJL_.getInt(i));
+      }
+      if (kAPHFHDIBCA_ != false) {
+        output.writeBool(11, kAPHFHDIBCA_);
+      }
+      if (getGLGBLGBKLLHList().size() > 0) {
+        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(gLGBLGBKLLHMemoizedSerializedSize);
+      }
+      for (int i = 0; i < gLGBLGBKLLH_.size(); i++) {
+        output.writeUInt32NoTag(gLGBLGBKLLH_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -351,43 +351,43 @@ public final class WeekActiveDetailInfoOuterClass {
       size = 0;
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, avatarId_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < gIMLJBBLDDF_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(gIMLJBBLDDF_.getInt(i));
-        }
-        size += dataSize;
-        if (!getGIMLJBBLDDFList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        gIMLJBBLDDFMemoizedSerializedSize = dataSize;
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < pFHNMIBBOOH_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(pFHNMIBBOOH_.getInt(i));
-        }
-        size += dataSize;
-        if (!getPFHNMIBBOOHList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        pFHNMIBBOOHMemoizedSerializedSize = dataSize;
-      }
-      if (nDHHKKCDMMO_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, nDHHKKCDMMO_);
+          .computeUInt32Size(3, avatarId_);
       }
       if (progress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, progress_);
+          .computeUInt32Size(6, progress_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < gJPHIEGNKJL_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(gJPHIEGNKJL_.getInt(i));
+        }
+        size += dataSize;
+        if (!getGJPHIEGNKJLList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        gJPHIEGNKJLMemoizedSerializedSize = dataSize;
+      }
+      if (kAPHFHDIBCA_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(11, kAPHFHDIBCA_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < gLGBLGBKLLH_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(gLGBLGBKLLH_.getInt(i));
+        }
+        size += dataSize;
+        if (!getGLGBLGBKLLHList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        gLGBLGBKLLHMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -404,16 +404,16 @@ public final class WeekActiveDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.WeekActiveDetailInfoOuterClass.WeekActiveDetailInfo other = (emu.grasscutter.net.proto.WeekActiveDetailInfoOuterClass.WeekActiveDetailInfo) obj;
 
-      if (!getPFHNMIBBOOHList()
-          .equals(other.getPFHNMIBBOOHList())) return false;
-      if (!getGIMLJBBLDDFList()
-          .equals(other.getGIMLJBBLDDFList())) return false;
-      if (getProgress()
-          != other.getProgress()) return false;
+      if (!getGLGBLGBKLLHList()
+          .equals(other.getGLGBLGBKLLHList())) return false;
+      if (!getGJPHIEGNKJLList()
+          .equals(other.getGJPHIEGNKJLList())) return false;
       if (getAvatarId()
           != other.getAvatarId()) return false;
-      if (getNDHHKKCDMMO()
-          != other.getNDHHKKCDMMO()) return false;
+      if (getProgress()
+          != other.getProgress()) return false;
+      if (getKAPHFHDIBCA()
+          != other.getKAPHFHDIBCA()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -425,21 +425,21 @@ public final class WeekActiveDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getPFHNMIBBOOHCount() > 0) {
-        hash = (37 * hash) + PFHNMIBBOOH_FIELD_NUMBER;
-        hash = (53 * hash) + getPFHNMIBBOOHList().hashCode();
+      if (getGLGBLGBKLLHCount() > 0) {
+        hash = (37 * hash) + GLGBLGBKLLH_FIELD_NUMBER;
+        hash = (53 * hash) + getGLGBLGBKLLHList().hashCode();
       }
-      if (getGIMLJBBLDDFCount() > 0) {
-        hash = (37 * hash) + GIMLJBBLDDF_FIELD_NUMBER;
-        hash = (53 * hash) + getGIMLJBBLDDFList().hashCode();
+      if (getGJPHIEGNKJLCount() > 0) {
+        hash = (37 * hash) + GJPHIEGNKJL_FIELD_NUMBER;
+        hash = (53 * hash) + getGJPHIEGNKJLList().hashCode();
       }
-      hash = (37 * hash) + PROGRESS_FIELD_NUMBER;
-      hash = (53 * hash) + getProgress();
       hash = (37 * hash) + AVATAR_ID_FIELD_NUMBER;
       hash = (53 * hash) + getAvatarId();
-      hash = (37 * hash) + NDHHKKCDMMO_FIELD_NUMBER;
+      hash = (37 * hash) + PROGRESS_FIELD_NUMBER;
+      hash = (53 * hash) + getProgress();
+      hash = (37 * hash) + KAPHFHDIBCA_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getNDHHKKCDMMO());
+          getKAPHFHDIBCA());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -573,15 +573,15 @@ public final class WeekActiveDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        pFHNMIBBOOH_ = emptyIntList();
+        gLGBLGBKLLH_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        gIMLJBBLDDF_ = emptyIntList();
+        gJPHIEGNKJL_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        progress_ = 0;
-
         avatarId_ = 0;
 
-        nDHHKKCDMMO_ = false;
+        progress_ = 0;
+
+        kAPHFHDIBCA_ = false;
 
         return this;
       }
@@ -611,18 +611,18 @@ public final class WeekActiveDetailInfoOuterClass {
         emu.grasscutter.net.proto.WeekActiveDetailInfoOuterClass.WeekActiveDetailInfo result = new emu.grasscutter.net.proto.WeekActiveDetailInfoOuterClass.WeekActiveDetailInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          pFHNMIBBOOH_.makeImmutable();
+          gLGBLGBKLLH_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.pFHNMIBBOOH_ = pFHNMIBBOOH_;
+        result.gLGBLGBKLLH_ = gLGBLGBKLLH_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          gIMLJBBLDDF_.makeImmutable();
+          gJPHIEGNKJL_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.gIMLJBBLDDF_ = gIMLJBBLDDF_;
-        result.progress_ = progress_;
+        result.gJPHIEGNKJL_ = gJPHIEGNKJL_;
         result.avatarId_ = avatarId_;
-        result.nDHHKKCDMMO_ = nDHHKKCDMMO_;
+        result.progress_ = progress_;
+        result.kAPHFHDIBCA_ = kAPHFHDIBCA_;
         onBuilt();
         return result;
       }
@@ -671,34 +671,34 @@ public final class WeekActiveDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.WeekActiveDetailInfoOuterClass.WeekActiveDetailInfo other) {
         if (other == emu.grasscutter.net.proto.WeekActiveDetailInfoOuterClass.WeekActiveDetailInfo.getDefaultInstance()) return this;
-        if (!other.pFHNMIBBOOH_.isEmpty()) {
-          if (pFHNMIBBOOH_.isEmpty()) {
-            pFHNMIBBOOH_ = other.pFHNMIBBOOH_;
+        if (!other.gLGBLGBKLLH_.isEmpty()) {
+          if (gLGBLGBKLLH_.isEmpty()) {
+            gLGBLGBKLLH_ = other.gLGBLGBKLLH_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensurePFHNMIBBOOHIsMutable();
-            pFHNMIBBOOH_.addAll(other.pFHNMIBBOOH_);
+            ensureGLGBLGBKLLHIsMutable();
+            gLGBLGBKLLH_.addAll(other.gLGBLGBKLLH_);
           }
           onChanged();
         }
-        if (!other.gIMLJBBLDDF_.isEmpty()) {
-          if (gIMLJBBLDDF_.isEmpty()) {
-            gIMLJBBLDDF_ = other.gIMLJBBLDDF_;
+        if (!other.gJPHIEGNKJL_.isEmpty()) {
+          if (gJPHIEGNKJL_.isEmpty()) {
+            gJPHIEGNKJL_ = other.gJPHIEGNKJL_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureGIMLJBBLDDFIsMutable();
-            gIMLJBBLDDF_.addAll(other.gIMLJBBLDDF_);
+            ensureGJPHIEGNKJLIsMutable();
+            gJPHIEGNKJL_.addAll(other.gJPHIEGNKJL_);
           }
           onChanged();
-        }
-        if (other.getProgress() != 0) {
-          setProgress(other.getProgress());
         }
         if (other.getAvatarId() != 0) {
           setAvatarId(other.getAvatarId());
         }
-        if (other.getNDHHKKCDMMO() != false) {
-          setNDHHKKCDMMO(other.getNDHHKKCDMMO());
+        if (other.getProgress() != 0) {
+          setProgress(other.getProgress());
+        }
+        if (other.getKAPHFHDIBCA() != false) {
+          setKAPHFHDIBCA(other.getKAPHFHDIBCA());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -730,198 +730,167 @@ public final class WeekActiveDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList pFHNMIBBOOH_ = emptyIntList();
-      private void ensurePFHNMIBBOOHIsMutable() {
+      private com.google.protobuf.Internal.IntList gLGBLGBKLLH_ = emptyIntList();
+      private void ensureGLGBLGBKLLHIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          pFHNMIBBOOH_ = mutableCopy(pFHNMIBBOOH_);
+          gLGBLGBKLLH_ = mutableCopy(gLGBLGBKLLH_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
-       * @return A list containing the pFHNMIBBOOH.
+       * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
+       * @return A list containing the gLGBLGBKLLH.
        */
       public java.util.List<java.lang.Integer>
-          getPFHNMIBBOOHList() {
+          getGLGBLGBKLLHList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(pFHNMIBBOOH_) : pFHNMIBBOOH_;
+                 java.util.Collections.unmodifiableList(gLGBLGBKLLH_) : gLGBLGBKLLH_;
       }
       /**
-       * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
-       * @return The count of pFHNMIBBOOH.
+       * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
+       * @return The count of gLGBLGBKLLH.
        */
-      public int getPFHNMIBBOOHCount() {
-        return pFHNMIBBOOH_.size();
+      public int getGLGBLGBKLLHCount() {
+        return gLGBLGBKLLH_.size();
       }
       /**
-       * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
+       * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
        * @param index The index of the element to return.
-       * @return The pFHNMIBBOOH at the given index.
+       * @return The gLGBLGBKLLH at the given index.
        */
-      public int getPFHNMIBBOOH(int index) {
-        return pFHNMIBBOOH_.getInt(index);
+      public int getGLGBLGBKLLH(int index) {
+        return gLGBLGBKLLH_.getInt(index);
       }
       /**
-       * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
+       * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
        * @param index The index to set the value at.
-       * @param value The pFHNMIBBOOH to set.
+       * @param value The gLGBLGBKLLH to set.
        * @return This builder for chaining.
        */
-      public Builder setPFHNMIBBOOH(
+      public Builder setGLGBLGBKLLH(
           int index, int value) {
-        ensurePFHNMIBBOOHIsMutable();
-        pFHNMIBBOOH_.setInt(index, value);
+        ensureGLGBLGBKLLHIsMutable();
+        gLGBLGBKLLH_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
-       * @param value The pFHNMIBBOOH to add.
+       * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
+       * @param value The gLGBLGBKLLH to add.
        * @return This builder for chaining.
        */
-      public Builder addPFHNMIBBOOH(int value) {
-        ensurePFHNMIBBOOHIsMutable();
-        pFHNMIBBOOH_.addInt(value);
+      public Builder addGLGBLGBKLLH(int value) {
+        ensureGLGBLGBKLLHIsMutable();
+        gLGBLGBKLLH_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
-       * @param values The pFHNMIBBOOH to add.
+       * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
+       * @param values The gLGBLGBKLLH to add.
        * @return This builder for chaining.
        */
-      public Builder addAllPFHNMIBBOOH(
+      public Builder addAllGLGBLGBKLLH(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensurePFHNMIBBOOHIsMutable();
+        ensureGLGBLGBKLLHIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, pFHNMIBBOOH_);
+            values, gLGBLGBKLLH_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 PFHNMIBBOOH = 4;</code>
+       * <code>repeated uint32 GLGBLGBKLLH = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPFHNMIBBOOH() {
-        pFHNMIBBOOH_ = emptyIntList();
+      public Builder clearGLGBLGBKLLH() {
+        gLGBLGBKLLH_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList gIMLJBBLDDF_ = emptyIntList();
-      private void ensureGIMLJBBLDDFIsMutable() {
+      private com.google.protobuf.Internal.IntList gJPHIEGNKJL_ = emptyIntList();
+      private void ensureGJPHIEGNKJLIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          gIMLJBBLDDF_ = mutableCopy(gIMLJBBLDDF_);
+          gJPHIEGNKJL_ = mutableCopy(gJPHIEGNKJL_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
-       * @return A list containing the gIMLJBBLDDF.
+       * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
+       * @return A list containing the gJPHIEGNKJL.
        */
       public java.util.List<java.lang.Integer>
-          getGIMLJBBLDDFList() {
+          getGJPHIEGNKJLList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(gIMLJBBLDDF_) : gIMLJBBLDDF_;
+                 java.util.Collections.unmodifiableList(gJPHIEGNKJL_) : gJPHIEGNKJL_;
       }
       /**
-       * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
-       * @return The count of gIMLJBBLDDF.
+       * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
+       * @return The count of gJPHIEGNKJL.
        */
-      public int getGIMLJBBLDDFCount() {
-        return gIMLJBBLDDF_.size();
+      public int getGJPHIEGNKJLCount() {
+        return gJPHIEGNKJL_.size();
       }
       /**
-       * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
+       * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
        * @param index The index of the element to return.
-       * @return The gIMLJBBLDDF at the given index.
+       * @return The gJPHIEGNKJL at the given index.
        */
-      public int getGIMLJBBLDDF(int index) {
-        return gIMLJBBLDDF_.getInt(index);
+      public int getGJPHIEGNKJL(int index) {
+        return gJPHIEGNKJL_.getInt(index);
       }
       /**
-       * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
+       * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
        * @param index The index to set the value at.
-       * @param value The gIMLJBBLDDF to set.
+       * @param value The gJPHIEGNKJL to set.
        * @return This builder for chaining.
        */
-      public Builder setGIMLJBBLDDF(
+      public Builder setGJPHIEGNKJL(
           int index, int value) {
-        ensureGIMLJBBLDDFIsMutable();
-        gIMLJBBLDDF_.setInt(index, value);
+        ensureGJPHIEGNKJLIsMutable();
+        gJPHIEGNKJL_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
-       * @param value The gIMLJBBLDDF to add.
+       * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
+       * @param value The gJPHIEGNKJL to add.
        * @return This builder for chaining.
        */
-      public Builder addGIMLJBBLDDF(int value) {
-        ensureGIMLJBBLDDFIsMutable();
-        gIMLJBBLDDF_.addInt(value);
+      public Builder addGJPHIEGNKJL(int value) {
+        ensureGJPHIEGNKJLIsMutable();
+        gJPHIEGNKJL_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
-       * @param values The gIMLJBBLDDF to add.
+       * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
+       * @param values The gJPHIEGNKJL to add.
        * @return This builder for chaining.
        */
-      public Builder addAllGIMLJBBLDDF(
+      public Builder addAllGJPHIEGNKJL(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureGIMLJBBLDDFIsMutable();
+        ensureGJPHIEGNKJLIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, gIMLJBBLDDF_);
+            values, gJPHIEGNKJL_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 GIMLJBBLDDF = 2;</code>
+       * <code>repeated uint32 GJPHIEGNKJL = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGIMLJBBLDDF() {
-        gIMLJBBLDDF_ = emptyIntList();
+      public Builder clearGJPHIEGNKJL() {
+        gJPHIEGNKJL_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
-        return this;
-      }
-
-      private int progress_ ;
-      /**
-       * <code>uint32 progress = 15;</code>
-       * @return The progress.
-       */
-      @java.lang.Override
-      public int getProgress() {
-        return progress_;
-      }
-      /**
-       * <code>uint32 progress = 15;</code>
-       * @param value The progress to set.
-       * @return This builder for chaining.
-       */
-      public Builder setProgress(int value) {
-        
-        progress_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 progress = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearProgress() {
-        
-        progress_ = 0;
         onChanged();
         return this;
       }
 
       private int avatarId_ ;
       /**
-       * <code>uint32 avatar_id = 1;</code>
+       * <code>uint32 avatar_id = 3;</code>
        * @return The avatarId.
        */
       @java.lang.Override
@@ -929,7 +898,7 @@ public final class WeekActiveDetailInfoOuterClass {
         return avatarId_;
       }
       /**
-       * <code>uint32 avatar_id = 1;</code>
+       * <code>uint32 avatar_id = 3;</code>
        * @param value The avatarId to set.
        * @return This builder for chaining.
        */
@@ -940,7 +909,7 @@ public final class WeekActiveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 avatar_id = 1;</code>
+       * <code>uint32 avatar_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
@@ -950,33 +919,64 @@ public final class WeekActiveDetailInfoOuterClass {
         return this;
       }
 
-      private boolean nDHHKKCDMMO_ ;
+      private int progress_ ;
       /**
-       * <code>bool NDHHKKCDMMO = 13;</code>
-       * @return The nDHHKKCDMMO.
+       * <code>uint32 progress = 6;</code>
+       * @return The progress.
        */
       @java.lang.Override
-      public boolean getNDHHKKCDMMO() {
-        return nDHHKKCDMMO_;
+      public int getProgress() {
+        return progress_;
       }
       /**
-       * <code>bool NDHHKKCDMMO = 13;</code>
-       * @param value The nDHHKKCDMMO to set.
+       * <code>uint32 progress = 6;</code>
+       * @param value The progress to set.
        * @return This builder for chaining.
        */
-      public Builder setNDHHKKCDMMO(boolean value) {
+      public Builder setProgress(int value) {
         
-        nDHHKKCDMMO_ = value;
+        progress_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool NDHHKKCDMMO = 13;</code>
+       * <code>uint32 progress = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNDHHKKCDMMO() {
+      public Builder clearProgress() {
         
-        nDHHKKCDMMO_ = false;
+        progress_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean kAPHFHDIBCA_ ;
+      /**
+       * <code>bool KAPHFHDIBCA = 11;</code>
+       * @return The kAPHFHDIBCA.
+       */
+      @java.lang.Override
+      public boolean getKAPHFHDIBCA() {
+        return kAPHFHDIBCA_;
+      }
+      /**
+       * <code>bool KAPHFHDIBCA = 11;</code>
+       * @param value The kAPHFHDIBCA to set.
+       * @return This builder for chaining.
+       */
+      public Builder setKAPHFHDIBCA(boolean value) {
+        
+        kAPHFHDIBCA_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool KAPHFHDIBCA = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearKAPHFHDIBCA() {
+        
+        kAPHFHDIBCA_ = false;
         onChanged();
         return this;
       }
@@ -1048,9 +1048,9 @@ public final class WeekActiveDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032WeekActiveDetailInfo.proto\"z\n\024WeekActi" +
-      "veDetailInfo\022\023\n\013PFHNMIBBOOH\030\004 \003(\r\022\023\n\013GIM" +
-      "LJBBLDDF\030\002 \003(\r\022\020\n\010progress\030\017 \001(\r\022\021\n\tavat" +
-      "ar_id\030\001 \001(\r\022\023\n\013NDHHKKCDMMO\030\r \001(\010B\033\n\031emu." +
+      "veDetailInfo\022\023\n\013GLGBLGBKLLH\030\r \003(\r\022\023\n\013GJP" +
+      "HIEGNKJL\030\010 \003(\r\022\021\n\tavatar_id\030\003 \001(\r\022\020\n\010pro" +
+      "gress\030\006 \001(\r\022\023\n\013KAPHFHDIBCA\030\013 \001(\010B\033\n\031emu." +
       "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1062,7 +1062,7 @@ public final class WeekActiveDetailInfoOuterClass {
     internal_static_WeekActiveDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WeekActiveDetailInfo_descriptor,
-        new java.lang.String[] { "PFHNMIBBOOH", "GIMLJBBLDDF", "Progress", "AvatarId", "NDHHKKCDMMO", });
+        new java.lang.String[] { "GLGBLGBKLLH", "GJPHIEGNKJL", "AvatarId", "Progress", "KAPHFHDIBCA", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

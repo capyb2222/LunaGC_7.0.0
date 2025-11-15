@@ -17,14 +17,53 @@ public final class FleurFairV2DetailInfoOuterClass {
   public interface FleurFairV2DetailInfoOrBuilder extends
       // @@protoc_insertion_point(interface_extends:FleurFairV2DetailInfo)
       com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+     * @return Whether the eFLCLJMLBON field is set.
+     */
+    boolean hasEFLCLJMLBON();
+    /**
+     * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+     * @return The eFLCLJMLBON.
+     */
+    emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO getEFLCLJMLBON();
+    /**
+     * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+     */
+    emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNOOrBuilder getEFLCLJMLBONOrBuilder();
+
+    /**
+     * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+     * @return Whether the musicGameInfo field is set.
+     */
+    boolean hasMusicGameInfo();
+    /**
+     * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+     * @return The musicGameInfo.
+     */
+    emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo getMusicGameInfo();
+    /**
+     * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+     */
+    emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfoOrBuilder getMusicGameInfoOrBuilder();
+
+    /**
+     * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+     * @return Whether the photoInfo field is set.
+     */
+    boolean hasPhotoInfo();
+    /**
+     * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+     * @return The photoInfo.
+     */
+    emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo getPhotoInfo();
+    /**
+     * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+     */
+    emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfoOrBuilder getPhotoInfoOrBuilder();
   }
   /**
-   * <pre>
-   *	NLNBGIKPDCB CDJFEKMNEIE = 7;
-   *	KBKBJCHNAKC photo_info = 4;
-   *	GDDFAHOGBHM JOJKNGADPJP = 6;
-   * </pre>
-   *
    * Protobuf type {@code FleurFairV2DetailInfo}
    */
   public static final class FleurFairV2DetailInfo extends
@@ -69,6 +108,45 @@ public final class FleurFairV2DetailInfoOuterClass {
             case 0:
               done = true;
               break;
+            case 18: {
+              emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.Builder subBuilder = null;
+              if (photoInfo_ != null) {
+                subBuilder = photoInfo_.toBuilder();
+              }
+              photoInfo_ = input.readMessage(emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(photoInfo_);
+                photoInfo_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 34: {
+              emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.Builder subBuilder = null;
+              if (eFLCLJMLBON_ != null) {
+                subBuilder = eFLCLJMLBON_.toBuilder();
+              }
+              eFLCLJMLBON_ = input.readMessage(emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(eFLCLJMLBON_);
+                eFLCLJMLBON_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 90: {
+              emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.Builder subBuilder = null;
+              if (musicGameInfo_ != null) {
+                subBuilder = musicGameInfo_.toBuilder();
+              }
+              musicGameInfo_ = input.readMessage(emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(musicGameInfo_);
+                musicGameInfo_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -101,6 +179,84 @@ public final class FleurFairV2DetailInfoOuterClass {
               emu.grasscutter.net.proto.FleurFairV2DetailInfoOuterClass.FleurFairV2DetailInfo.class, emu.grasscutter.net.proto.FleurFairV2DetailInfoOuterClass.FleurFairV2DetailInfo.Builder.class);
     }
 
+    public static final int EFLCLJMLBON_FIELD_NUMBER = 4;
+    private emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO eFLCLJMLBON_;
+    /**
+     * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+     * @return Whether the eFLCLJMLBON field is set.
+     */
+    @java.lang.Override
+    public boolean hasEFLCLJMLBON() {
+      return eFLCLJMLBON_ != null;
+    }
+    /**
+     * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+     * @return The eFLCLJMLBON.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO getEFLCLJMLBON() {
+      return eFLCLJMLBON_ == null ? emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.getDefaultInstance() : eFLCLJMLBON_;
+    }
+    /**
+     * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNOOrBuilder getEFLCLJMLBONOrBuilder() {
+      return getEFLCLJMLBON();
+    }
+
+    public static final int MUSIC_GAME_INFO_FIELD_NUMBER = 11;
+    private emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo musicGameInfo_;
+    /**
+     * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+     * @return Whether the musicGameInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasMusicGameInfo() {
+      return musicGameInfo_ != null;
+    }
+    /**
+     * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+     * @return The musicGameInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo getMusicGameInfo() {
+      return musicGameInfo_ == null ? emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.getDefaultInstance() : musicGameInfo_;
+    }
+    /**
+     * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfoOrBuilder getMusicGameInfoOrBuilder() {
+      return getMusicGameInfo();
+    }
+
+    public static final int PHOTO_INFO_FIELD_NUMBER = 2;
+    private emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo photoInfo_;
+    /**
+     * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+     * @return Whether the photoInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasPhotoInfo() {
+      return photoInfo_ != null;
+    }
+    /**
+     * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+     * @return The photoInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo getPhotoInfo() {
+      return photoInfo_ == null ? emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.getDefaultInstance() : photoInfo_;
+    }
+    /**
+     * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfoOrBuilder getPhotoInfoOrBuilder() {
+      return getPhotoInfo();
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -115,6 +271,15 @@ public final class FleurFairV2DetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (photoInfo_ != null) {
+        output.writeMessage(2, getPhotoInfo());
+      }
+      if (eFLCLJMLBON_ != null) {
+        output.writeMessage(4, getEFLCLJMLBON());
+      }
+      if (musicGameInfo_ != null) {
+        output.writeMessage(11, getMusicGameInfo());
+      }
       unknownFields.writeTo(output);
     }
 
@@ -124,6 +289,18 @@ public final class FleurFairV2DetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (photoInfo_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getPhotoInfo());
+      }
+      if (eFLCLJMLBON_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, getEFLCLJMLBON());
+      }
+      if (musicGameInfo_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, getMusicGameInfo());
+      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -139,6 +316,21 @@ public final class FleurFairV2DetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.FleurFairV2DetailInfoOuterClass.FleurFairV2DetailInfo other = (emu.grasscutter.net.proto.FleurFairV2DetailInfoOuterClass.FleurFairV2DetailInfo) obj;
 
+      if (hasEFLCLJMLBON() != other.hasEFLCLJMLBON()) return false;
+      if (hasEFLCLJMLBON()) {
+        if (!getEFLCLJMLBON()
+            .equals(other.getEFLCLJMLBON())) return false;
+      }
+      if (hasMusicGameInfo() != other.hasMusicGameInfo()) return false;
+      if (hasMusicGameInfo()) {
+        if (!getMusicGameInfo()
+            .equals(other.getMusicGameInfo())) return false;
+      }
+      if (hasPhotoInfo() != other.hasPhotoInfo()) return false;
+      if (hasPhotoInfo()) {
+        if (!getPhotoInfo()
+            .equals(other.getPhotoInfo())) return false;
+      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -150,6 +342,18 @@ public final class FleurFairV2DetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (hasEFLCLJMLBON()) {
+        hash = (37 * hash) + EFLCLJMLBON_FIELD_NUMBER;
+        hash = (53 * hash) + getEFLCLJMLBON().hashCode();
+      }
+      if (hasMusicGameInfo()) {
+        hash = (37 * hash) + MUSIC_GAME_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getMusicGameInfo().hashCode();
+      }
+      if (hasPhotoInfo()) {
+        hash = (37 * hash) + PHOTO_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getPhotoInfo().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -246,12 +450,6 @@ public final class FleurFairV2DetailInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     *	NLNBGIKPDCB CDJFEKMNEIE = 7;
-     *	KBKBJCHNAKC photo_info = 4;
-     *	GDDFAHOGBHM JOJKNGADPJP = 6;
-     * </pre>
-     *
      * Protobuf type {@code FleurFairV2DetailInfo}
      */
     public static final class Builder extends
@@ -289,6 +487,24 @@ public final class FleurFairV2DetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (eFLCLJMLBONBuilder_ == null) {
+          eFLCLJMLBON_ = null;
+        } else {
+          eFLCLJMLBON_ = null;
+          eFLCLJMLBONBuilder_ = null;
+        }
+        if (musicGameInfoBuilder_ == null) {
+          musicGameInfo_ = null;
+        } else {
+          musicGameInfo_ = null;
+          musicGameInfoBuilder_ = null;
+        }
+        if (photoInfoBuilder_ == null) {
+          photoInfo_ = null;
+        } else {
+          photoInfo_ = null;
+          photoInfoBuilder_ = null;
+        }
         return this;
       }
 
@@ -315,6 +531,21 @@ public final class FleurFairV2DetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FleurFairV2DetailInfoOuterClass.FleurFairV2DetailInfo buildPartial() {
         emu.grasscutter.net.proto.FleurFairV2DetailInfoOuterClass.FleurFairV2DetailInfo result = new emu.grasscutter.net.proto.FleurFairV2DetailInfoOuterClass.FleurFairV2DetailInfo(this);
+        if (eFLCLJMLBONBuilder_ == null) {
+          result.eFLCLJMLBON_ = eFLCLJMLBON_;
+        } else {
+          result.eFLCLJMLBON_ = eFLCLJMLBONBuilder_.build();
+        }
+        if (musicGameInfoBuilder_ == null) {
+          result.musicGameInfo_ = musicGameInfo_;
+        } else {
+          result.musicGameInfo_ = musicGameInfoBuilder_.build();
+        }
+        if (photoInfoBuilder_ == null) {
+          result.photoInfo_ = photoInfo_;
+        } else {
+          result.photoInfo_ = photoInfoBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -363,6 +594,15 @@ public final class FleurFairV2DetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FleurFairV2DetailInfoOuterClass.FleurFairV2DetailInfo other) {
         if (other == emu.grasscutter.net.proto.FleurFairV2DetailInfoOuterClass.FleurFairV2DetailInfo.getDefaultInstance()) return this;
+        if (other.hasEFLCLJMLBON()) {
+          mergeEFLCLJMLBON(other.getEFLCLJMLBON());
+        }
+        if (other.hasMusicGameInfo()) {
+          mergeMusicGameInfo(other.getMusicGameInfo());
+        }
+        if (other.hasPhotoInfo()) {
+          mergePhotoInfo(other.getPhotoInfo());
+        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -390,6 +630,363 @@ public final class FleurFairV2DetailInfoOuterClass {
           }
         }
         return this;
+      }
+
+      private emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO eFLCLJMLBON_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO, emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.Builder, emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNOOrBuilder> eFLCLJMLBONBuilder_;
+      /**
+       * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+       * @return Whether the eFLCLJMLBON field is set.
+       */
+      public boolean hasEFLCLJMLBON() {
+        return eFLCLJMLBONBuilder_ != null || eFLCLJMLBON_ != null;
+      }
+      /**
+       * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+       * @return The eFLCLJMLBON.
+       */
+      public emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO getEFLCLJMLBON() {
+        if (eFLCLJMLBONBuilder_ == null) {
+          return eFLCLJMLBON_ == null ? emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.getDefaultInstance() : eFLCLJMLBON_;
+        } else {
+          return eFLCLJMLBONBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+       */
+      public Builder setEFLCLJMLBON(emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO value) {
+        if (eFLCLJMLBONBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          eFLCLJMLBON_ = value;
+          onChanged();
+        } else {
+          eFLCLJMLBONBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+       */
+      public Builder setEFLCLJMLBON(
+          emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.Builder builderForValue) {
+        if (eFLCLJMLBONBuilder_ == null) {
+          eFLCLJMLBON_ = builderForValue.build();
+          onChanged();
+        } else {
+          eFLCLJMLBONBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+       */
+      public Builder mergeEFLCLJMLBON(emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO value) {
+        if (eFLCLJMLBONBuilder_ == null) {
+          if (eFLCLJMLBON_ != null) {
+            eFLCLJMLBON_ =
+              emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.newBuilder(eFLCLJMLBON_).mergeFrom(value).buildPartial();
+          } else {
+            eFLCLJMLBON_ = value;
+          }
+          onChanged();
+        } else {
+          eFLCLJMLBONBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+       */
+      public Builder clearEFLCLJMLBON() {
+        if (eFLCLJMLBONBuilder_ == null) {
+          eFLCLJMLBON_ = null;
+          onChanged();
+        } else {
+          eFLCLJMLBON_ = null;
+          eFLCLJMLBONBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+       */
+      public emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.Builder getEFLCLJMLBONBuilder() {
+        
+        onChanged();
+        return getEFLCLJMLBONFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+       */
+      public emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNOOrBuilder getEFLCLJMLBONOrBuilder() {
+        if (eFLCLJMLBONBuilder_ != null) {
+          return eFLCLJMLBONBuilder_.getMessageOrBuilder();
+        } else {
+          return eFLCLJMLBON_ == null ?
+              emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.getDefaultInstance() : eFLCLJMLBON_;
+        }
+      }
+      /**
+       * <code>.IMFKNEHNFNO EFLCLJMLBON = 4;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO, emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.Builder, emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNOOrBuilder> 
+          getEFLCLJMLBONFieldBuilder() {
+        if (eFLCLJMLBONBuilder_ == null) {
+          eFLCLJMLBONBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO, emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNO.Builder, emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.IMFKNEHNFNOOrBuilder>(
+                  getEFLCLJMLBON(),
+                  getParentForChildren(),
+                  isClean());
+          eFLCLJMLBON_ = null;
+        }
+        return eFLCLJMLBONBuilder_;
+      }
+
+      private emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo musicGameInfo_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo, emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.Builder, emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfoOrBuilder> musicGameInfoBuilder_;
+      /**
+       * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+       * @return Whether the musicGameInfo field is set.
+       */
+      public boolean hasMusicGameInfo() {
+        return musicGameInfoBuilder_ != null || musicGameInfo_ != null;
+      }
+      /**
+       * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+       * @return The musicGameInfo.
+       */
+      public emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo getMusicGameInfo() {
+        if (musicGameInfoBuilder_ == null) {
+          return musicGameInfo_ == null ? emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.getDefaultInstance() : musicGameInfo_;
+        } else {
+          return musicGameInfoBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+       */
+      public Builder setMusicGameInfo(emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo value) {
+        if (musicGameInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          musicGameInfo_ = value;
+          onChanged();
+        } else {
+          musicGameInfoBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+       */
+      public Builder setMusicGameInfo(
+          emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.Builder builderForValue) {
+        if (musicGameInfoBuilder_ == null) {
+          musicGameInfo_ = builderForValue.build();
+          onChanged();
+        } else {
+          musicGameInfoBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+       */
+      public Builder mergeMusicGameInfo(emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo value) {
+        if (musicGameInfoBuilder_ == null) {
+          if (musicGameInfo_ != null) {
+            musicGameInfo_ =
+              emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.newBuilder(musicGameInfo_).mergeFrom(value).buildPartial();
+          } else {
+            musicGameInfo_ = value;
+          }
+          onChanged();
+        } else {
+          musicGameInfoBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+       */
+      public Builder clearMusicGameInfo() {
+        if (musicGameInfoBuilder_ == null) {
+          musicGameInfo_ = null;
+          onChanged();
+        } else {
+          musicGameInfo_ = null;
+          musicGameInfoBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+       */
+      public emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.Builder getMusicGameInfoBuilder() {
+        
+        onChanged();
+        return getMusicGameInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+       */
+      public emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfoOrBuilder getMusicGameInfoOrBuilder() {
+        if (musicGameInfoBuilder_ != null) {
+          return musicGameInfoBuilder_.getMessageOrBuilder();
+        } else {
+          return musicGameInfo_ == null ?
+              emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.getDefaultInstance() : musicGameInfo_;
+        }
+      }
+      /**
+       * <code>.FleurFairV2MusicGameInfo music_game_info = 11;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo, emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.Builder, emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfoOrBuilder> 
+          getMusicGameInfoFieldBuilder() {
+        if (musicGameInfoBuilder_ == null) {
+          musicGameInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo, emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfo.Builder, emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.FleurFairV2MusicGameInfoOrBuilder>(
+                  getMusicGameInfo(),
+                  getParentForChildren(),
+                  isClean());
+          musicGameInfo_ = null;
+        }
+        return musicGameInfoBuilder_;
+      }
+
+      private emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo photoInfo_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo, emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.Builder, emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfoOrBuilder> photoInfoBuilder_;
+      /**
+       * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+       * @return Whether the photoInfo field is set.
+       */
+      public boolean hasPhotoInfo() {
+        return photoInfoBuilder_ != null || photoInfo_ != null;
+      }
+      /**
+       * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+       * @return The photoInfo.
+       */
+      public emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo getPhotoInfo() {
+        if (photoInfoBuilder_ == null) {
+          return photoInfo_ == null ? emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.getDefaultInstance() : photoInfo_;
+        } else {
+          return photoInfoBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+       */
+      public Builder setPhotoInfo(emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo value) {
+        if (photoInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          photoInfo_ = value;
+          onChanged();
+        } else {
+          photoInfoBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+       */
+      public Builder setPhotoInfo(
+          emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.Builder builderForValue) {
+        if (photoInfoBuilder_ == null) {
+          photoInfo_ = builderForValue.build();
+          onChanged();
+        } else {
+          photoInfoBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+       */
+      public Builder mergePhotoInfo(emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo value) {
+        if (photoInfoBuilder_ == null) {
+          if (photoInfo_ != null) {
+            photoInfo_ =
+              emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.newBuilder(photoInfo_).mergeFrom(value).buildPartial();
+          } else {
+            photoInfo_ = value;
+          }
+          onChanged();
+        } else {
+          photoInfoBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+       */
+      public Builder clearPhotoInfo() {
+        if (photoInfoBuilder_ == null) {
+          photoInfo_ = null;
+          onChanged();
+        } else {
+          photoInfo_ = null;
+          photoInfoBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+       */
+      public emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.Builder getPhotoInfoBuilder() {
+        
+        onChanged();
+        return getPhotoInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+       */
+      public emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfoOrBuilder getPhotoInfoOrBuilder() {
+        if (photoInfoBuilder_ != null) {
+          return photoInfoBuilder_.getMessageOrBuilder();
+        } else {
+          return photoInfo_ == null ?
+              emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.getDefaultInstance() : photoInfo_;
+        }
+      }
+      /**
+       * <code>.FleurFairV2PhotoGameInfo photo_info = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo, emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.Builder, emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfoOrBuilder> 
+          getPhotoInfoFieldBuilder() {
+        if (photoInfoBuilder_ == null) {
+          photoInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo, emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfo.Builder, emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.FleurFairV2PhotoGameInfoOrBuilder>(
+                  getPhotoInfo(),
+                  getParentForChildren(),
+                  isClean());
+          photoInfo_ = null;
+        }
+        return photoInfoBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -458,20 +1055,31 @@ public final class FleurFairV2DetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033FleurFairV2DetailInfo.proto\"\027\n\025FleurFa" +
-      "irV2DetailInfoB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\n\033FleurFairV2DetailInfo.proto\032\021IMFKNEHNF" +
+      "NO.proto\032\036FleurFairV2MusicGameInfo.proto" +
+      "\032\036FleurFairV2PhotoGameInfo.proto\"\235\001\n\025Fle" +
+      "urFairV2DetailInfo\022!\n\013EFLCLJMLBON\030\004 \001(\0132" +
+      "\014.IMFKNEHNFNO\0222\n\017music_game_info\030\013 \001(\0132\031" +
+      ".FleurFairV2MusicGameInfo\022-\n\nphoto_info\030" +
+      "\002 \001(\0132\031.FleurFairV2PhotoGameInfoB\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.getDescriptor(),
         });
     internal_static_FleurFairV2DetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_FleurFairV2DetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FleurFairV2DetailInfo_descriptor,
-        new java.lang.String[] { });
+        new java.lang.String[] { "EFLCLJMLBON", "MusicGameInfo", "PhotoInfo", });
+    emu.grasscutter.net.proto.IMFKNEHNFNOOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.FleurFairV2MusicGameInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.FleurFairV2PhotoGameInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

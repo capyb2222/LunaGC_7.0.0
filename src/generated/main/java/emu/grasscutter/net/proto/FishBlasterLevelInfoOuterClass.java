@@ -19,28 +19,28 @@ public final class FishBlasterLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 13;</code>
-     * @return The levelId.
-     */
-    int getLevelId();
-
-    /**
-     * <code>uint32 max_score = 10;</code>
+     * <code>uint32 max_score = 9;</code>
      * @return The maxScore.
      */
     int getMaxScore();
 
     /**
-     * <code>bool is_finished = 1;</code>
-     * @return The isFinished.
+     * <code>uint32 level_id = 3;</code>
+     * @return The levelId.
      */
-    boolean getIsFinished();
+    int getLevelId();
 
     /**
-     * <code>bool is_level_open = 15;</code>
+     * <code>bool is_level_open = 12;</code>
      * @return The isLevelOpen.
      */
     boolean getIsLevelOpen();
+
+    /**
+     * <code>bool is_finished = 2;</code>
+     * @return The isFinished.
+     */
+    boolean getIsFinished();
   }
   /**
    * Protobuf type {@code FishBlasterLevelInfo}
@@ -87,22 +87,22 @@ public final class FishBlasterLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
               isFinished_ = input.readBool();
               break;
             }
-            case 80: {
-
-              maxScore_ = input.readUInt32();
-              break;
-            }
-            case 104: {
+            case 24: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 72: {
+
+              maxScore_ = input.readUInt32();
+              break;
+            }
+            case 96: {
 
               isLevelOpen_ = input.readBool();
               break;
@@ -139,21 +139,10 @@ public final class FishBlasterLevelInfoOuterClass {
               emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.class, emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 13;
-    private int levelId_;
-    /**
-     * <code>uint32 level_id = 13;</code>
-     * @return The levelId.
-     */
-    @java.lang.Override
-    public int getLevelId() {
-      return levelId_;
-    }
-
-    public static final int MAX_SCORE_FIELD_NUMBER = 10;
+    public static final int MAX_SCORE_FIELD_NUMBER = 9;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 10;</code>
+     * <code>uint32 max_score = 9;</code>
      * @return The maxScore.
      */
     @java.lang.Override
@@ -161,26 +150,37 @@ public final class FishBlasterLevelInfoOuterClass {
       return maxScore_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 1;
-    private boolean isFinished_;
+    public static final int LEVEL_ID_FIELD_NUMBER = 3;
+    private int levelId_;
     /**
-     * <code>bool is_finished = 1;</code>
-     * @return The isFinished.
+     * <code>uint32 level_id = 3;</code>
+     * @return The levelId.
      */
     @java.lang.Override
-    public boolean getIsFinished() {
-      return isFinished_;
+    public int getLevelId() {
+      return levelId_;
     }
 
-    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 15;
+    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 12;
     private boolean isLevelOpen_;
     /**
-     * <code>bool is_level_open = 15;</code>
+     * <code>bool is_level_open = 12;</code>
      * @return The isLevelOpen.
      */
     @java.lang.Override
     public boolean getIsLevelOpen() {
       return isLevelOpen_;
+    }
+
+    public static final int IS_FINISHED_FIELD_NUMBER = 2;
+    private boolean isFinished_;
+    /**
+     * <code>bool is_finished = 2;</code>
+     * @return The isFinished.
+     */
+    @java.lang.Override
+    public boolean getIsFinished() {
+      return isFinished_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -198,16 +198,16 @@ public final class FishBlasterLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isFinished_ != false) {
-        output.writeBool(1, isFinished_);
-      }
-      if (maxScore_ != 0) {
-        output.writeUInt32(10, maxScore_);
+        output.writeBool(2, isFinished_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(13, levelId_);
+        output.writeUInt32(3, levelId_);
+      }
+      if (maxScore_ != 0) {
+        output.writeUInt32(9, maxScore_);
       }
       if (isLevelOpen_ != false) {
-        output.writeBool(15, isLevelOpen_);
+        output.writeBool(12, isLevelOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -220,19 +220,19 @@ public final class FishBlasterLevelInfoOuterClass {
       size = 0;
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, isFinished_);
-      }
-      if (maxScore_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, maxScore_);
+          .computeBoolSize(2, isFinished_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, levelId_);
+          .computeUInt32Size(3, levelId_);
+      }
+      if (maxScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, maxScore_);
       }
       if (isLevelOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isLevelOpen_);
+          .computeBoolSize(12, isLevelOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -249,14 +249,14 @@ public final class FishBlasterLevelInfoOuterClass {
       }
       emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo other = (emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo) obj;
 
-      if (getLevelId()
-          != other.getLevelId()) return false;
       if (getMaxScore()
           != other.getMaxScore()) return false;
-      if (getIsFinished()
-          != other.getIsFinished()) return false;
+      if (getLevelId()
+          != other.getLevelId()) return false;
       if (getIsLevelOpen()
           != other.getIsLevelOpen()) return false;
+      if (getIsFinished()
+          != other.getIsFinished()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -268,16 +268,16 @@ public final class FishBlasterLevelInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getLevelId();
       hash = (37 * hash) + MAX_SCORE_FIELD_NUMBER;
       hash = (53 * hash) + getMaxScore();
-      hash = (37 * hash) + IS_FINISHED_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsFinished());
+      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLevelId();
       hash = (37 * hash) + IS_LEVEL_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsLevelOpen());
+      hash = (37 * hash) + IS_FINISHED_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsFinished());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -411,13 +411,13 @@ public final class FishBlasterLevelInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        levelId_ = 0;
-
         maxScore_ = 0;
 
-        isFinished_ = false;
+        levelId_ = 0;
 
         isLevelOpen_ = false;
+
+        isFinished_ = false;
 
         return this;
       }
@@ -445,10 +445,10 @@ public final class FishBlasterLevelInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo buildPartial() {
         emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo result = new emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo(this);
-        result.levelId_ = levelId_;
         result.maxScore_ = maxScore_;
-        result.isFinished_ = isFinished_;
+        result.levelId_ = levelId_;
         result.isLevelOpen_ = isLevelOpen_;
+        result.isFinished_ = isFinished_;
         onBuilt();
         return result;
       }
@@ -497,17 +497,17 @@ public final class FishBlasterLevelInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo other) {
         if (other == emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.getDefaultInstance()) return this;
-        if (other.getLevelId() != 0) {
-          setLevelId(other.getLevelId());
-        }
         if (other.getMaxScore() != 0) {
           setMaxScore(other.getMaxScore());
         }
-        if (other.getIsFinished() != false) {
-          setIsFinished(other.getIsFinished());
+        if (other.getLevelId() != 0) {
+          setLevelId(other.getLevelId());
         }
         if (other.getIsLevelOpen() != false) {
           setIsLevelOpen(other.getIsLevelOpen());
+        }
+        if (other.getIsFinished() != false) {
+          setIsFinished(other.getIsFinished());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -538,40 +538,9 @@ public final class FishBlasterLevelInfoOuterClass {
         return this;
       }
 
-      private int levelId_ ;
-      /**
-       * <code>uint32 level_id = 13;</code>
-       * @return The levelId.
-       */
-      @java.lang.Override
-      public int getLevelId() {
-        return levelId_;
-      }
-      /**
-       * <code>uint32 level_id = 13;</code>
-       * @param value The levelId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLevelId(int value) {
-        
-        levelId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 level_id = 13;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLevelId() {
-        
-        levelId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 10;</code>
+       * <code>uint32 max_score = 9;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -579,7 +548,7 @@ public final class FishBlasterLevelInfoOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 10;</code>
+       * <code>uint32 max_score = 9;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -590,7 +559,7 @@ public final class FishBlasterLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 10;</code>
+       * <code>uint32 max_score = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
@@ -600,40 +569,40 @@ public final class FishBlasterLevelInfoOuterClass {
         return this;
       }
 
-      private boolean isFinished_ ;
+      private int levelId_ ;
       /**
-       * <code>bool is_finished = 1;</code>
-       * @return The isFinished.
+       * <code>uint32 level_id = 3;</code>
+       * @return The levelId.
        */
       @java.lang.Override
-      public boolean getIsFinished() {
-        return isFinished_;
+      public int getLevelId() {
+        return levelId_;
       }
       /**
-       * <code>bool is_finished = 1;</code>
-       * @param value The isFinished to set.
+       * <code>uint32 level_id = 3;</code>
+       * @param value The levelId to set.
        * @return This builder for chaining.
        */
-      public Builder setIsFinished(boolean value) {
+      public Builder setLevelId(int value) {
         
-        isFinished_ = value;
+        levelId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_finished = 1;</code>
+       * <code>uint32 level_id = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsFinished() {
+      public Builder clearLevelId() {
         
-        isFinished_ = false;
+        levelId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isLevelOpen_ ;
       /**
-       * <code>bool is_level_open = 15;</code>
+       * <code>bool is_level_open = 12;</code>
        * @return The isLevelOpen.
        */
       @java.lang.Override
@@ -641,7 +610,7 @@ public final class FishBlasterLevelInfoOuterClass {
         return isLevelOpen_;
       }
       /**
-       * <code>bool is_level_open = 15;</code>
+       * <code>bool is_level_open = 12;</code>
        * @param value The isLevelOpen to set.
        * @return This builder for chaining.
        */
@@ -652,12 +621,43 @@ public final class FishBlasterLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_level_open = 15;</code>
+       * <code>bool is_level_open = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsLevelOpen() {
         
         isLevelOpen_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean isFinished_ ;
+      /**
+       * <code>bool is_finished = 2;</code>
+       * @return The isFinished.
+       */
+      @java.lang.Override
+      public boolean getIsFinished() {
+        return isFinished_;
+      }
+      /**
+       * <code>bool is_finished = 2;</code>
+       * @param value The isFinished to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsFinished(boolean value) {
+        
+        isFinished_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_finished = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsFinished() {
+        
+        isFinished_ = false;
         onChanged();
         return this;
       }
@@ -729,9 +729,9 @@ public final class FishBlasterLevelInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032FishBlasterLevelInfo.proto\"g\n\024FishBlas" +
-      "terLevelInfo\022\020\n\010level_id\030\r \001(\r\022\021\n\tmax_sc" +
-      "ore\030\n \001(\r\022\023\n\013is_finished\030\001 \001(\010\022\025\n\ris_lev" +
-      "el_open\030\017 \001(\010B\033\n\031emu.grasscutter.net.pro" +
+      "terLevelInfo\022\021\n\tmax_score\030\t \001(\r\022\020\n\010level" +
+      "_id\030\003 \001(\r\022\025\n\ris_level_open\030\014 \001(\010\022\023\n\013is_f" +
+      "inished\030\002 \001(\010B\033\n\031emu.grasscutter.net.pro" +
       "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -743,7 +743,7 @@ public final class FishBlasterLevelInfoOuterClass {
     internal_static_FishBlasterLevelInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FishBlasterLevelInfo_descriptor,
-        new java.lang.String[] { "LevelId", "MaxScore", "IsFinished", "IsLevelOpen", });
+        new java.lang.String[] { "MaxScore", "LevelId", "IsLevelOpen", "IsFinished", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

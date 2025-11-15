@@ -19,10 +19,10 @@ public final class HolidayResortDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 resort_info = 1;</code>
-     * @return The resortInfo.
+     * <code>uint32 LPPAEEHFMMC = 8;</code>
+     * @return The lPPAEEHFMMC.
      */
-    int getResortInfo();
+    int getLPPAEEHFMMC();
   }
   /**
    * Protobuf type {@code HolidayResortDetailInfo}
@@ -69,9 +69,9 @@ public final class HolidayResortDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 64: {
 
-              resortInfo_ = input.readUInt32();
+              lPPAEEHFMMC_ = input.readUInt32();
               break;
             }
             default: {
@@ -106,15 +106,15 @@ public final class HolidayResortDetailInfoOuterClass {
               emu.grasscutter.net.proto.HolidayResortDetailInfoOuterClass.HolidayResortDetailInfo.class, emu.grasscutter.net.proto.HolidayResortDetailInfoOuterClass.HolidayResortDetailInfo.Builder.class);
     }
 
-    public static final int RESORT_INFO_FIELD_NUMBER = 1;
-    private int resortInfo_;
+    public static final int LPPAEEHFMMC_FIELD_NUMBER = 8;
+    private int lPPAEEHFMMC_;
     /**
-     * <code>uint32 resort_info = 1;</code>
-     * @return The resortInfo.
+     * <code>uint32 LPPAEEHFMMC = 8;</code>
+     * @return The lPPAEEHFMMC.
      */
     @java.lang.Override
-    public int getResortInfo() {
-      return resortInfo_;
+    public int getLPPAEEHFMMC() {
+      return lPPAEEHFMMC_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -131,8 +131,8 @@ public final class HolidayResortDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (resortInfo_ != 0) {
-        output.writeUInt32(1, resortInfo_);
+      if (lPPAEEHFMMC_ != 0) {
+        output.writeUInt32(8, lPPAEEHFMMC_);
       }
       unknownFields.writeTo(output);
     }
@@ -143,9 +143,9 @@ public final class HolidayResortDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (resortInfo_ != 0) {
+      if (lPPAEEHFMMC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, resortInfo_);
+          .computeUInt32Size(8, lPPAEEHFMMC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -162,8 +162,8 @@ public final class HolidayResortDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.HolidayResortDetailInfoOuterClass.HolidayResortDetailInfo other = (emu.grasscutter.net.proto.HolidayResortDetailInfoOuterClass.HolidayResortDetailInfo) obj;
 
-      if (getResortInfo()
-          != other.getResortInfo()) return false;
+      if (getLPPAEEHFMMC()
+          != other.getLPPAEEHFMMC()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -175,8 +175,8 @@ public final class HolidayResortDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + RESORT_INFO_FIELD_NUMBER;
-      hash = (53 * hash) + getResortInfo();
+      hash = (37 * hash) + LPPAEEHFMMC_FIELD_NUMBER;
+      hash = (53 * hash) + getLPPAEEHFMMC();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -310,7 +310,7 @@ public final class HolidayResortDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        resortInfo_ = 0;
+        lPPAEEHFMMC_ = 0;
 
         return this;
       }
@@ -338,7 +338,7 @@ public final class HolidayResortDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.HolidayResortDetailInfoOuterClass.HolidayResortDetailInfo buildPartial() {
         emu.grasscutter.net.proto.HolidayResortDetailInfoOuterClass.HolidayResortDetailInfo result = new emu.grasscutter.net.proto.HolidayResortDetailInfoOuterClass.HolidayResortDetailInfo(this);
-        result.resortInfo_ = resortInfo_;
+        result.lPPAEEHFMMC_ = lPPAEEHFMMC_;
         onBuilt();
         return result;
       }
@@ -387,8 +387,8 @@ public final class HolidayResortDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.HolidayResortDetailInfoOuterClass.HolidayResortDetailInfo other) {
         if (other == emu.grasscutter.net.proto.HolidayResortDetailInfoOuterClass.HolidayResortDetailInfo.getDefaultInstance()) return this;
-        if (other.getResortInfo() != 0) {
-          setResortInfo(other.getResortInfo());
+        if (other.getLPPAEEHFMMC() != 0) {
+          setLPPAEEHFMMC(other.getLPPAEEHFMMC());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -419,33 +419,33 @@ public final class HolidayResortDetailInfoOuterClass {
         return this;
       }
 
-      private int resortInfo_ ;
+      private int lPPAEEHFMMC_ ;
       /**
-       * <code>uint32 resort_info = 1;</code>
-       * @return The resortInfo.
+       * <code>uint32 LPPAEEHFMMC = 8;</code>
+       * @return The lPPAEEHFMMC.
        */
       @java.lang.Override
-      public int getResortInfo() {
-        return resortInfo_;
+      public int getLPPAEEHFMMC() {
+        return lPPAEEHFMMC_;
       }
       /**
-       * <code>uint32 resort_info = 1;</code>
-       * @param value The resortInfo to set.
+       * <code>uint32 LPPAEEHFMMC = 8;</code>
+       * @param value The lPPAEEHFMMC to set.
        * @return This builder for chaining.
        */
-      public Builder setResortInfo(int value) {
+      public Builder setLPPAEEHFMMC(int value) {
         
-        resortInfo_ = value;
+        lPPAEEHFMMC_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 resort_info = 1;</code>
+       * <code>uint32 LPPAEEHFMMC = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearResortInfo() {
+      public Builder clearLPPAEEHFMMC() {
         
-        resortInfo_ = 0;
+        lPPAEEHFMMC_ = 0;
         onChanged();
         return this;
       }
@@ -517,7 +517,7 @@ public final class HolidayResortDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035HolidayResortDetailInfo.proto\".\n\027Holid" +
-      "ayResortDetailInfo\022\023\n\013resort_info\030\001 \001(\rB" +
+      "ayResortDetailInfo\022\023\n\013LPPAEEHFMMC\030\010 \001(\rB" +
       "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -529,7 +529,7 @@ public final class HolidayResortDetailInfoOuterClass {
     internal_static_HolidayResortDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HolidayResortDetailInfo_descriptor,
-        new java.lang.String[] { "ResortInfo", });
+        new java.lang.String[] { "LPPAEEHFMMC", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

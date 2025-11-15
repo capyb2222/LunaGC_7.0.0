@@ -43,19 +43,19 @@ public final class InstableSprayStageInfoOuterClass {
         int index);
 
     /**
+     * <code>uint32 max_score = 5;</code>
+     * @return The maxScore.
+     */
+    int getMaxScore();
+
+    /**
      * <code>bool is_finished = 6;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
 
     /**
-     * <code>uint32 max_score = 2;</code>
-     * @return The maxScore.
-     */
-    int getMaxScore();
-
-    /**
-     * <code>uint32 stage_id = 11;</code>
+     * <code>uint32 stage_id = 3;</code>
      * @return The stageId.
      */
     int getStageId();
@@ -107,7 +107,12 @@ public final class InstableSprayStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 24: {
+
+              stageId_ = input.readUInt32();
+              break;
+            }
+            case 40: {
 
               maxScore_ = input.readUInt32();
               break;
@@ -115,11 +120,6 @@ public final class InstableSprayStageInfoOuterClass {
             case 48: {
 
               isFinished_ = input.readBool();
-              break;
-            }
-            case 88: {
-
-              stageId_ = input.readUInt32();
               break;
             }
             case 98: {
@@ -206,6 +206,17 @@ public final class InstableSprayStageInfoOuterClass {
       return teamInfoList_.get(index);
     }
 
+    public static final int MAX_SCORE_FIELD_NUMBER = 5;
+    private int maxScore_;
+    /**
+     * <code>uint32 max_score = 5;</code>
+     * @return The maxScore.
+     */
+    @java.lang.Override
+    public int getMaxScore() {
+      return maxScore_;
+    }
+
     public static final int IS_FINISHED_FIELD_NUMBER = 6;
     private boolean isFinished_;
     /**
@@ -217,21 +228,10 @@ public final class InstableSprayStageInfoOuterClass {
       return isFinished_;
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 2;
-    private int maxScore_;
-    /**
-     * <code>uint32 max_score = 2;</code>
-     * @return The maxScore.
-     */
-    @java.lang.Override
-    public int getMaxScore() {
-      return maxScore_;
-    }
-
-    public static final int STAGE_ID_FIELD_NUMBER = 11;
+    public static final int STAGE_ID_FIELD_NUMBER = 3;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 11;</code>
+     * <code>uint32 stage_id = 3;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -253,14 +253,14 @@ public final class InstableSprayStageInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (stageId_ != 0) {
+        output.writeUInt32(3, stageId_);
+      }
       if (maxScore_ != 0) {
-        output.writeUInt32(2, maxScore_);
+        output.writeUInt32(5, maxScore_);
       }
       if (isFinished_ != false) {
         output.writeBool(6, isFinished_);
-      }
-      if (stageId_ != 0) {
-        output.writeUInt32(11, stageId_);
       }
       for (int i = 0; i < teamInfoList_.size(); i++) {
         output.writeMessage(12, teamInfoList_.get(i));
@@ -274,17 +274,17 @@ public final class InstableSprayStageInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (stageId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, stageId_);
+      }
       if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, maxScore_);
+          .computeUInt32Size(5, maxScore_);
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(6, isFinished_);
-      }
-      if (stageId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, stageId_);
       }
       for (int i = 0; i < teamInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -307,10 +307,10 @@ public final class InstableSprayStageInfoOuterClass {
 
       if (!getTeamInfoListList()
           .equals(other.getTeamInfoListList())) return false;
-      if (getIsFinished()
-          != other.getIsFinished()) return false;
       if (getMaxScore()
           != other.getMaxScore()) return false;
+      if (getIsFinished()
+          != other.getIsFinished()) return false;
       if (getStageId()
           != other.getStageId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -328,11 +328,11 @@ public final class InstableSprayStageInfoOuterClass {
         hash = (37 * hash) + TEAM_INFO_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getTeamInfoListList().hashCode();
       }
+      hash = (37 * hash) + MAX_SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxScore();
       hash = (37 * hash) + IS_FINISHED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinished());
-      hash = (37 * hash) + MAX_SCORE_FIELD_NUMBER;
-      hash = (53 * hash) + getMaxScore();
       hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getStageId();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -475,9 +475,9 @@ public final class InstableSprayStageInfoOuterClass {
         } else {
           teamInfoListBuilder_.clear();
         }
-        isFinished_ = false;
-
         maxScore_ = 0;
+
+        isFinished_ = false;
 
         stageId_ = 0;
 
@@ -517,8 +517,8 @@ public final class InstableSprayStageInfoOuterClass {
         } else {
           result.teamInfoList_ = teamInfoListBuilder_.build();
         }
-        result.isFinished_ = isFinished_;
         result.maxScore_ = maxScore_;
+        result.isFinished_ = isFinished_;
         result.stageId_ = stageId_;
         onBuilt();
         return result;
@@ -594,11 +594,11 @@ public final class InstableSprayStageInfoOuterClass {
             }
           }
         }
-        if (other.getIsFinished() != false) {
-          setIsFinished(other.getIsFinished());
-        }
         if (other.getMaxScore() != 0) {
           setMaxScore(other.getMaxScore());
+        }
+        if (other.getIsFinished() != false) {
+          setIsFinished(other.getIsFinished());
         }
         if (other.getStageId() != 0) {
           setStageId(other.getStageId());
@@ -873,6 +873,37 @@ public final class InstableSprayStageInfoOuterClass {
         return teamInfoListBuilder_;
       }
 
+      private int maxScore_ ;
+      /**
+       * <code>uint32 max_score = 5;</code>
+       * @return The maxScore.
+       */
+      @java.lang.Override
+      public int getMaxScore() {
+        return maxScore_;
+      }
+      /**
+       * <code>uint32 max_score = 5;</code>
+       * @param value The maxScore to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMaxScore(int value) {
+        
+        maxScore_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 max_score = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMaxScore() {
+        
+        maxScore_ = 0;
+        onChanged();
+        return this;
+      }
+
       private boolean isFinished_ ;
       /**
        * <code>bool is_finished = 6;</code>
@@ -904,40 +935,9 @@ public final class InstableSprayStageInfoOuterClass {
         return this;
       }
 
-      private int maxScore_ ;
-      /**
-       * <code>uint32 max_score = 2;</code>
-       * @return The maxScore.
-       */
-      @java.lang.Override
-      public int getMaxScore() {
-        return maxScore_;
-      }
-      /**
-       * <code>uint32 max_score = 2;</code>
-       * @param value The maxScore to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMaxScore(int value) {
-        
-        maxScore_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 max_score = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMaxScore() {
-        
-        maxScore_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 11;</code>
+       * <code>uint32 stage_id = 3;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -945,7 +945,7 @@ public final class InstableSprayStageInfoOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 11;</code>
+       * <code>uint32 stage_id = 3;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -956,7 +956,7 @@ public final class InstableSprayStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 11;</code>
+       * <code>uint32 stage_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -1035,8 +1035,8 @@ public final class InstableSprayStageInfoOuterClass {
       "\n\034InstableSprayStageInfo.proto\032\033Instable" +
       "SprayTeamInfo.proto\"\202\001\n\026InstableSpraySta" +
       "geInfo\022.\n\016team_info_list\030\014 \003(\0132\026.Instabl" +
-      "eSprayTeamInfo\022\023\n\013is_finished\030\006 \001(\010\022\021\n\tm" +
-      "ax_score\030\002 \001(\r\022\020\n\010stage_id\030\013 \001(\rB\033\n\031emu." +
+      "eSprayTeamInfo\022\021\n\tmax_score\030\005 \001(\r\022\023\n\013is_" +
+      "finished\030\006 \001(\010\022\020\n\010stage_id\030\003 \001(\rB\033\n\031emu." +
       "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1049,7 +1049,7 @@ public final class InstableSprayStageInfoOuterClass {
     internal_static_InstableSprayStageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_InstableSprayStageInfo_descriptor,
-        new java.lang.String[] { "TeamInfoList", "IsFinished", "MaxScore", "StageId", });
+        new java.lang.String[] { "TeamInfoList", "MaxScore", "IsFinished", "StageId", });
     emu.grasscutter.net.proto.InstableSprayTeamInfoOuterClass.getDescriptor();
   }
 

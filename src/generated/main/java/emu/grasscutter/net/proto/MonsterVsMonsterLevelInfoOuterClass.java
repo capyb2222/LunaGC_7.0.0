@@ -19,63 +19,63 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
-     * @return A list containing the eFJHEBEBHKP.
+     * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
+     * @return A list containing the aMNMAGDLPPF.
      */
-    java.util.List<java.lang.Integer> getEFJHEBEBHKPList();
+    java.util.List<java.lang.Integer> getAMNMAGDLPPFList();
     /**
-     * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
-     * @return The count of eFJHEBEBHKP.
+     * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
+     * @return The count of aMNMAGDLPPF.
      */
-    int getEFJHEBEBHKPCount();
+    int getAMNMAGDLPPFCount();
     /**
-     * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
+     * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
      * @param index The index of the element to return.
-     * @return The eFJHEBEBHKP at the given index.
+     * @return The aMNMAGDLPPF at the given index.
      */
-    int getEFJHEBEBHKP(int index);
+    int getAMNMAGDLPPF(int index);
 
     /**
-     * <code>bool is_unlock = 4;</code>
-     * @return The isUnlock.
+     * <code>uint32 ALKBDFNFAHH = 12;</code>
+     * @return The aLKBDFNFAHH.
      */
-    boolean getIsUnlock();
+    int getALKBDFNFAHH();
 
     /**
-     * <code>bool is_finished = 15;</code>
-     * @return The isFinished.
-     */
-    boolean getIsFinished();
-
-    /**
-     * <code>bool KCGBCNFNGAE = 1;</code>
-     * @return The kCGBCNFNGAE.
-     */
-    boolean getKCGBCNFNGAE();
-
-    /**
-     * <code>uint32 POBEIPHOAMB = 5;</code>
-     * @return The pOBEIPHOAMB.
-     */
-    int getPOBEIPHOAMB();
-
-    /**
-     * <code>uint32 level_id = 12;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 LMFBBHEJDNM = 3;</code>
-     * @return The lMFBBHEJDNM.
+     * <code>uint32 GFGFBFFJHKA = 15;</code>
+     * @return The gFGFBFFJHKA.
      */
-    int getLMFBBHEJDNM();
+    int getGFGFBFFJHKA();
 
     /**
-     * <code>uint32 OMJMMEOMNBI = 8;</code>
-     * @return The oMJMMEOMNBI.
+     * <code>uint32 JKNAIKCGDFN = 4;</code>
+     * @return The jKNAIKCGDFN.
      */
-    int getOMJMMEOMNBI();
+    int getJKNAIKCGDFN();
+
+    /**
+     * <code>bool ICGFHPJKALD = 7;</code>
+     * @return The iCGFHPJKALD.
+     */
+    boolean getICGFHPJKALD();
+
+    /**
+     * <code>bool is_unlock = 6;</code>
+     * @return The isUnlock.
+     */
+    boolean getIsUnlock();
+
+    /**
+     * <code>bool is_finished = 3;</code>
+     * @return The isFinished.
+     */
+    boolean getIsFinished();
   }
   /**
    * Protobuf type {@code MonsterVsMonsterLevelInfo}
@@ -90,7 +90,7 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
       super(builder);
     }
     private MonsterVsMonsterLevelInfo() {
-      eFJHEBEBHKP_ = emptyIntList();
+      aMNMAGDLPPF_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -125,59 +125,59 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
               done = true;
               break;
             case 8: {
-
-              kCGBCNFNGAE_ = input.readBool();
-              break;
-            }
-            case 24: {
-
-              lMFBBHEJDNM_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              isUnlock_ = input.readBool();
-              break;
-            }
-            case 40: {
-
-              pOBEIPHOAMB_ = input.readUInt32();
-              break;
-            }
-            case 64: {
-
-              oMJMMEOMNBI_ = input.readUInt32();
-              break;
-            }
-            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                eFJHEBEBHKP_ = newIntList();
+                aMNMAGDLPPF_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              eFJHEBEBHKP_.addInt(input.readUInt32());
+              aMNMAGDLPPF_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                eFJHEBEBHKP_ = newIntList();
+                aMNMAGDLPPF_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                eFJHEBEBHKP_.addInt(input.readUInt32());
+                aMNMAGDLPPF_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 96: {
+            case 24: {
+
+              isFinished_ = input.readBool();
+              break;
+            }
+            case 32: {
+
+              jKNAIKCGDFN_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              isUnlock_ = input.readBool();
+              break;
+            }
+            case 56: {
+
+              iCGFHPJKALD_ = input.readBool();
+              break;
+            }
+            case 72: {
 
               levelId_ = input.readUInt32();
               break;
             }
+            case 96: {
+
+              aLKBDFNFAHH_ = input.readUInt32();
+              break;
+            }
             case 120: {
 
-              isFinished_ = input.readBool();
+              gFGFBFFJHKA_ = input.readUInt32();
               break;
             }
             default: {
@@ -196,7 +196,7 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          eFJHEBEBHKP_.makeImmutable(); // C
+          aMNMAGDLPPF_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -215,82 +215,49 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
               emu.grasscutter.net.proto.MonsterVsMonsterLevelInfoOuterClass.MonsterVsMonsterLevelInfo.class, emu.grasscutter.net.proto.MonsterVsMonsterLevelInfoOuterClass.MonsterVsMonsterLevelInfo.Builder.class);
     }
 
-    public static final int EFJHEBEBHKP_FIELD_NUMBER = 11;
-    private com.google.protobuf.Internal.IntList eFJHEBEBHKP_;
+    public static final int AMNMAGDLPPF_FIELD_NUMBER = 1;
+    private com.google.protobuf.Internal.IntList aMNMAGDLPPF_;
     /**
-     * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
-     * @return A list containing the eFJHEBEBHKP.
+     * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
+     * @return A list containing the aMNMAGDLPPF.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getEFJHEBEBHKPList() {
-      return eFJHEBEBHKP_;
+        getAMNMAGDLPPFList() {
+      return aMNMAGDLPPF_;
     }
     /**
-     * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
-     * @return The count of eFJHEBEBHKP.
+     * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
+     * @return The count of aMNMAGDLPPF.
      */
-    public int getEFJHEBEBHKPCount() {
-      return eFJHEBEBHKP_.size();
+    public int getAMNMAGDLPPFCount() {
+      return aMNMAGDLPPF_.size();
     }
     /**
-     * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
+     * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
      * @param index The index of the element to return.
-     * @return The eFJHEBEBHKP at the given index.
+     * @return The aMNMAGDLPPF at the given index.
      */
-    public int getEFJHEBEBHKP(int index) {
-      return eFJHEBEBHKP_.getInt(index);
+    public int getAMNMAGDLPPF(int index) {
+      return aMNMAGDLPPF_.getInt(index);
     }
-    private int eFJHEBEBHKPMemoizedSerializedSize = -1;
+    private int aMNMAGDLPPFMemoizedSerializedSize = -1;
 
-    public static final int IS_UNLOCK_FIELD_NUMBER = 4;
-    private boolean isUnlock_;
+    public static final int ALKBDFNFAHH_FIELD_NUMBER = 12;
+    private int aLKBDFNFAHH_;
     /**
-     * <code>bool is_unlock = 4;</code>
-     * @return The isUnlock.
+     * <code>uint32 ALKBDFNFAHH = 12;</code>
+     * @return The aLKBDFNFAHH.
      */
     @java.lang.Override
-    public boolean getIsUnlock() {
-      return isUnlock_;
+    public int getALKBDFNFAHH() {
+      return aLKBDFNFAHH_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 15;
-    private boolean isFinished_;
-    /**
-     * <code>bool is_finished = 15;</code>
-     * @return The isFinished.
-     */
-    @java.lang.Override
-    public boolean getIsFinished() {
-      return isFinished_;
-    }
-
-    public static final int KCGBCNFNGAE_FIELD_NUMBER = 1;
-    private boolean kCGBCNFNGAE_;
-    /**
-     * <code>bool KCGBCNFNGAE = 1;</code>
-     * @return The kCGBCNFNGAE.
-     */
-    @java.lang.Override
-    public boolean getKCGBCNFNGAE() {
-      return kCGBCNFNGAE_;
-    }
-
-    public static final int POBEIPHOAMB_FIELD_NUMBER = 5;
-    private int pOBEIPHOAMB_;
-    /**
-     * <code>uint32 POBEIPHOAMB = 5;</code>
-     * @return The pOBEIPHOAMB.
-     */
-    @java.lang.Override
-    public int getPOBEIPHOAMB() {
-      return pOBEIPHOAMB_;
-    }
-
-    public static final int LEVEL_ID_FIELD_NUMBER = 12;
+    public static final int LEVEL_ID_FIELD_NUMBER = 9;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 12;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -298,26 +265,59 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
       return levelId_;
     }
 
-    public static final int LMFBBHEJDNM_FIELD_NUMBER = 3;
-    private int lMFBBHEJDNM_;
+    public static final int GFGFBFFJHKA_FIELD_NUMBER = 15;
+    private int gFGFBFFJHKA_;
     /**
-     * <code>uint32 LMFBBHEJDNM = 3;</code>
-     * @return The lMFBBHEJDNM.
+     * <code>uint32 GFGFBFFJHKA = 15;</code>
+     * @return The gFGFBFFJHKA.
      */
     @java.lang.Override
-    public int getLMFBBHEJDNM() {
-      return lMFBBHEJDNM_;
+    public int getGFGFBFFJHKA() {
+      return gFGFBFFJHKA_;
     }
 
-    public static final int OMJMMEOMNBI_FIELD_NUMBER = 8;
-    private int oMJMMEOMNBI_;
+    public static final int JKNAIKCGDFN_FIELD_NUMBER = 4;
+    private int jKNAIKCGDFN_;
     /**
-     * <code>uint32 OMJMMEOMNBI = 8;</code>
-     * @return The oMJMMEOMNBI.
+     * <code>uint32 JKNAIKCGDFN = 4;</code>
+     * @return The jKNAIKCGDFN.
      */
     @java.lang.Override
-    public int getOMJMMEOMNBI() {
-      return oMJMMEOMNBI_;
+    public int getJKNAIKCGDFN() {
+      return jKNAIKCGDFN_;
+    }
+
+    public static final int ICGFHPJKALD_FIELD_NUMBER = 7;
+    private boolean iCGFHPJKALD_;
+    /**
+     * <code>bool ICGFHPJKALD = 7;</code>
+     * @return The iCGFHPJKALD.
+     */
+    @java.lang.Override
+    public boolean getICGFHPJKALD() {
+      return iCGFHPJKALD_;
+    }
+
+    public static final int IS_UNLOCK_FIELD_NUMBER = 6;
+    private boolean isUnlock_;
+    /**
+     * <code>bool is_unlock = 6;</code>
+     * @return The isUnlock.
+     */
+    @java.lang.Override
+    public boolean getIsUnlock() {
+      return isUnlock_;
+    }
+
+    public static final int IS_FINISHED_FIELD_NUMBER = 3;
+    private boolean isFinished_;
+    /**
+     * <code>bool is_finished = 3;</code>
+     * @return The isFinished.
+     */
+    @java.lang.Override
+    public boolean getIsFinished() {
+      return isFinished_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -335,33 +335,33 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (kCGBCNFNGAE_ != false) {
-        output.writeBool(1, kCGBCNFNGAE_);
+      if (getAMNMAGDLPPFList().size() > 0) {
+        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(aMNMAGDLPPFMemoizedSerializedSize);
       }
-      if (lMFBBHEJDNM_ != 0) {
-        output.writeUInt32(3, lMFBBHEJDNM_);
-      }
-      if (isUnlock_ != false) {
-        output.writeBool(4, isUnlock_);
-      }
-      if (pOBEIPHOAMB_ != 0) {
-        output.writeUInt32(5, pOBEIPHOAMB_);
-      }
-      if (oMJMMEOMNBI_ != 0) {
-        output.writeUInt32(8, oMJMMEOMNBI_);
-      }
-      if (getEFJHEBEBHKPList().size() > 0) {
-        output.writeUInt32NoTag(90);
-        output.writeUInt32NoTag(eFJHEBEBHKPMemoizedSerializedSize);
-      }
-      for (int i = 0; i < eFJHEBEBHKP_.size(); i++) {
-        output.writeUInt32NoTag(eFJHEBEBHKP_.getInt(i));
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(12, levelId_);
+      for (int i = 0; i < aMNMAGDLPPF_.size(); i++) {
+        output.writeUInt32NoTag(aMNMAGDLPPF_.getInt(i));
       }
       if (isFinished_ != false) {
-        output.writeBool(15, isFinished_);
+        output.writeBool(3, isFinished_);
+      }
+      if (jKNAIKCGDFN_ != 0) {
+        output.writeUInt32(4, jKNAIKCGDFN_);
+      }
+      if (isUnlock_ != false) {
+        output.writeBool(6, isUnlock_);
+      }
+      if (iCGFHPJKALD_ != false) {
+        output.writeBool(7, iCGFHPJKALD_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(9, levelId_);
+      }
+      if (aLKBDFNFAHH_ != 0) {
+        output.writeUInt32(12, aLKBDFNFAHH_);
+      }
+      if (gFGFBFFJHKA_ != 0) {
+        output.writeUInt32(15, gFGFBFFJHKA_);
       }
       unknownFields.writeTo(output);
     }
@@ -372,47 +372,47 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (kCGBCNFNGAE_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, kCGBCNFNGAE_);
-      }
-      if (lMFBBHEJDNM_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, lMFBBHEJDNM_);
-      }
-      if (isUnlock_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isUnlock_);
-      }
-      if (pOBEIPHOAMB_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, pOBEIPHOAMB_);
-      }
-      if (oMJMMEOMNBI_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, oMJMMEOMNBI_);
-      }
       {
         int dataSize = 0;
-        for (int i = 0; i < eFJHEBEBHKP_.size(); i++) {
+        for (int i = 0; i < aMNMAGDLPPF_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(eFJHEBEBHKP_.getInt(i));
+            .computeUInt32SizeNoTag(aMNMAGDLPPF_.getInt(i));
         }
         size += dataSize;
-        if (!getEFJHEBEBHKPList().isEmpty()) {
+        if (!getAMNMAGDLPPFList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        eFJHEBEBHKPMemoizedSerializedSize = dataSize;
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, levelId_);
+        aMNMAGDLPPFMemoizedSerializedSize = dataSize;
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isFinished_);
+          .computeBoolSize(3, isFinished_);
+      }
+      if (jKNAIKCGDFN_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, jKNAIKCGDFN_);
+      }
+      if (isUnlock_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isUnlock_);
+      }
+      if (iCGFHPJKALD_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(7, iCGFHPJKALD_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, levelId_);
+      }
+      if (aLKBDFNFAHH_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, aLKBDFNFAHH_);
+      }
+      if (gFGFBFFJHKA_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, gFGFBFFJHKA_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -429,22 +429,22 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
       }
       emu.grasscutter.net.proto.MonsterVsMonsterLevelInfoOuterClass.MonsterVsMonsterLevelInfo other = (emu.grasscutter.net.proto.MonsterVsMonsterLevelInfoOuterClass.MonsterVsMonsterLevelInfo) obj;
 
-      if (!getEFJHEBEBHKPList()
-          .equals(other.getEFJHEBEBHKPList())) return false;
+      if (!getAMNMAGDLPPFList()
+          .equals(other.getAMNMAGDLPPFList())) return false;
+      if (getALKBDFNFAHH()
+          != other.getALKBDFNFAHH()) return false;
+      if (getLevelId()
+          != other.getLevelId()) return false;
+      if (getGFGFBFFJHKA()
+          != other.getGFGFBFFJHKA()) return false;
+      if (getJKNAIKCGDFN()
+          != other.getJKNAIKCGDFN()) return false;
+      if (getICGFHPJKALD()
+          != other.getICGFHPJKALD()) return false;
       if (getIsUnlock()
           != other.getIsUnlock()) return false;
       if (getIsFinished()
           != other.getIsFinished()) return false;
-      if (getKCGBCNFNGAE()
-          != other.getKCGBCNFNGAE()) return false;
-      if (getPOBEIPHOAMB()
-          != other.getPOBEIPHOAMB()) return false;
-      if (getLevelId()
-          != other.getLevelId()) return false;
-      if (getLMFBBHEJDNM()
-          != other.getLMFBBHEJDNM()) return false;
-      if (getOMJMMEOMNBI()
-          != other.getOMJMMEOMNBI()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -456,27 +456,27 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getEFJHEBEBHKPCount() > 0) {
-        hash = (37 * hash) + EFJHEBEBHKP_FIELD_NUMBER;
-        hash = (53 * hash) + getEFJHEBEBHKPList().hashCode();
+      if (getAMNMAGDLPPFCount() > 0) {
+        hash = (37 * hash) + AMNMAGDLPPF_FIELD_NUMBER;
+        hash = (53 * hash) + getAMNMAGDLPPFList().hashCode();
       }
+      hash = (37 * hash) + ALKBDFNFAHH_FIELD_NUMBER;
+      hash = (53 * hash) + getALKBDFNFAHH();
+      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLevelId();
+      hash = (37 * hash) + GFGFBFFJHKA_FIELD_NUMBER;
+      hash = (53 * hash) + getGFGFBFFJHKA();
+      hash = (37 * hash) + JKNAIKCGDFN_FIELD_NUMBER;
+      hash = (53 * hash) + getJKNAIKCGDFN();
+      hash = (37 * hash) + ICGFHPJKALD_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getICGFHPJKALD());
       hash = (37 * hash) + IS_UNLOCK_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsUnlock());
       hash = (37 * hash) + IS_FINISHED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinished());
-      hash = (37 * hash) + KCGBCNFNGAE_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getKCGBCNFNGAE());
-      hash = (37 * hash) + POBEIPHOAMB_FIELD_NUMBER;
-      hash = (53 * hash) + getPOBEIPHOAMB();
-      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getLevelId();
-      hash = (37 * hash) + LMFBBHEJDNM_FIELD_NUMBER;
-      hash = (53 * hash) + getLMFBBHEJDNM();
-      hash = (37 * hash) + OMJMMEOMNBI_FIELD_NUMBER;
-      hash = (53 * hash) + getOMJMMEOMNBI();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -610,21 +610,21 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        eFJHEBEBHKP_ = emptyIntList();
+        aMNMAGDLPPF_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        isUnlock_ = false;
-
-        isFinished_ = false;
-
-        kCGBCNFNGAE_ = false;
-
-        pOBEIPHOAMB_ = 0;
+        aLKBDFNFAHH_ = 0;
 
         levelId_ = 0;
 
-        lMFBBHEJDNM_ = 0;
+        gFGFBFFJHKA_ = 0;
 
-        oMJMMEOMNBI_ = 0;
+        jKNAIKCGDFN_ = 0;
+
+        iCGFHPJKALD_ = false;
+
+        isUnlock_ = false;
+
+        isFinished_ = false;
 
         return this;
       }
@@ -654,17 +654,17 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
         emu.grasscutter.net.proto.MonsterVsMonsterLevelInfoOuterClass.MonsterVsMonsterLevelInfo result = new emu.grasscutter.net.proto.MonsterVsMonsterLevelInfoOuterClass.MonsterVsMonsterLevelInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          eFJHEBEBHKP_.makeImmutable();
+          aMNMAGDLPPF_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.eFJHEBEBHKP_ = eFJHEBEBHKP_;
+        result.aMNMAGDLPPF_ = aMNMAGDLPPF_;
+        result.aLKBDFNFAHH_ = aLKBDFNFAHH_;
+        result.levelId_ = levelId_;
+        result.gFGFBFFJHKA_ = gFGFBFFJHKA_;
+        result.jKNAIKCGDFN_ = jKNAIKCGDFN_;
+        result.iCGFHPJKALD_ = iCGFHPJKALD_;
         result.isUnlock_ = isUnlock_;
         result.isFinished_ = isFinished_;
-        result.kCGBCNFNGAE_ = kCGBCNFNGAE_;
-        result.pOBEIPHOAMB_ = pOBEIPHOAMB_;
-        result.levelId_ = levelId_;
-        result.lMFBBHEJDNM_ = lMFBBHEJDNM_;
-        result.oMJMMEOMNBI_ = oMJMMEOMNBI_;
         onBuilt();
         return result;
       }
@@ -713,36 +713,36 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MonsterVsMonsterLevelInfoOuterClass.MonsterVsMonsterLevelInfo other) {
         if (other == emu.grasscutter.net.proto.MonsterVsMonsterLevelInfoOuterClass.MonsterVsMonsterLevelInfo.getDefaultInstance()) return this;
-        if (!other.eFJHEBEBHKP_.isEmpty()) {
-          if (eFJHEBEBHKP_.isEmpty()) {
-            eFJHEBEBHKP_ = other.eFJHEBEBHKP_;
+        if (!other.aMNMAGDLPPF_.isEmpty()) {
+          if (aMNMAGDLPPF_.isEmpty()) {
+            aMNMAGDLPPF_ = other.aMNMAGDLPPF_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureEFJHEBEBHKPIsMutable();
-            eFJHEBEBHKP_.addAll(other.eFJHEBEBHKP_);
+            ensureAMNMAGDLPPFIsMutable();
+            aMNMAGDLPPF_.addAll(other.aMNMAGDLPPF_);
           }
           onChanged();
+        }
+        if (other.getALKBDFNFAHH() != 0) {
+          setALKBDFNFAHH(other.getALKBDFNFAHH());
+        }
+        if (other.getLevelId() != 0) {
+          setLevelId(other.getLevelId());
+        }
+        if (other.getGFGFBFFJHKA() != 0) {
+          setGFGFBFFJHKA(other.getGFGFBFFJHKA());
+        }
+        if (other.getJKNAIKCGDFN() != 0) {
+          setJKNAIKCGDFN(other.getJKNAIKCGDFN());
+        }
+        if (other.getICGFHPJKALD() != false) {
+          setICGFHPJKALD(other.getICGFHPJKALD());
         }
         if (other.getIsUnlock() != false) {
           setIsUnlock(other.getIsUnlock());
         }
         if (other.getIsFinished() != false) {
           setIsFinished(other.getIsFinished());
-        }
-        if (other.getKCGBCNFNGAE() != false) {
-          setKCGBCNFNGAE(other.getKCGBCNFNGAE());
-        }
-        if (other.getPOBEIPHOAMB() != 0) {
-          setPOBEIPHOAMB(other.getPOBEIPHOAMB());
-        }
-        if (other.getLevelId() != 0) {
-          setLevelId(other.getLevelId());
-        }
-        if (other.getLMFBBHEJDNM() != 0) {
-          setLMFBBHEJDNM(other.getLMFBBHEJDNM());
-        }
-        if (other.getOMJMMEOMNBI() != 0) {
-          setOMJMMEOMNBI(other.getOMJMMEOMNBI());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -774,88 +774,243 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList eFJHEBEBHKP_ = emptyIntList();
-      private void ensureEFJHEBEBHKPIsMutable() {
+      private com.google.protobuf.Internal.IntList aMNMAGDLPPF_ = emptyIntList();
+      private void ensureAMNMAGDLPPFIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          eFJHEBEBHKP_ = mutableCopy(eFJHEBEBHKP_);
+          aMNMAGDLPPF_ = mutableCopy(aMNMAGDLPPF_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
-       * @return A list containing the eFJHEBEBHKP.
+       * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
+       * @return A list containing the aMNMAGDLPPF.
        */
       public java.util.List<java.lang.Integer>
-          getEFJHEBEBHKPList() {
+          getAMNMAGDLPPFList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(eFJHEBEBHKP_) : eFJHEBEBHKP_;
+                 java.util.Collections.unmodifiableList(aMNMAGDLPPF_) : aMNMAGDLPPF_;
       }
       /**
-       * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
-       * @return The count of eFJHEBEBHKP.
+       * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
+       * @return The count of aMNMAGDLPPF.
        */
-      public int getEFJHEBEBHKPCount() {
-        return eFJHEBEBHKP_.size();
+      public int getAMNMAGDLPPFCount() {
+        return aMNMAGDLPPF_.size();
       }
       /**
-       * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
+       * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
        * @param index The index of the element to return.
-       * @return The eFJHEBEBHKP at the given index.
+       * @return The aMNMAGDLPPF at the given index.
        */
-      public int getEFJHEBEBHKP(int index) {
-        return eFJHEBEBHKP_.getInt(index);
+      public int getAMNMAGDLPPF(int index) {
+        return aMNMAGDLPPF_.getInt(index);
       }
       /**
-       * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
+       * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
        * @param index The index to set the value at.
-       * @param value The eFJHEBEBHKP to set.
+       * @param value The aMNMAGDLPPF to set.
        * @return This builder for chaining.
        */
-      public Builder setEFJHEBEBHKP(
+      public Builder setAMNMAGDLPPF(
           int index, int value) {
-        ensureEFJHEBEBHKPIsMutable();
-        eFJHEBEBHKP_.setInt(index, value);
+        ensureAMNMAGDLPPFIsMutable();
+        aMNMAGDLPPF_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
-       * @param value The eFJHEBEBHKP to add.
+       * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
+       * @param value The aMNMAGDLPPF to add.
        * @return This builder for chaining.
        */
-      public Builder addEFJHEBEBHKP(int value) {
-        ensureEFJHEBEBHKPIsMutable();
-        eFJHEBEBHKP_.addInt(value);
+      public Builder addAMNMAGDLPPF(int value) {
+        ensureAMNMAGDLPPFIsMutable();
+        aMNMAGDLPPF_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
-       * @param values The eFJHEBEBHKP to add.
+       * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
+       * @param values The aMNMAGDLPPF to add.
        * @return This builder for chaining.
        */
-      public Builder addAllEFJHEBEBHKP(
+      public Builder addAllAMNMAGDLPPF(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureEFJHEBEBHKPIsMutable();
+        ensureAMNMAGDLPPFIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, eFJHEBEBHKP_);
+            values, aMNMAGDLPPF_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 EFJHEBEBHKP = 11;</code>
+       * <code>repeated uint32 AMNMAGDLPPF = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEFJHEBEBHKP() {
-        eFJHEBEBHKP_ = emptyIntList();
+      public Builder clearAMNMAGDLPPF() {
+        aMNMAGDLPPF_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private int aLKBDFNFAHH_ ;
+      /**
+       * <code>uint32 ALKBDFNFAHH = 12;</code>
+       * @return The aLKBDFNFAHH.
+       */
+      @java.lang.Override
+      public int getALKBDFNFAHH() {
+        return aLKBDFNFAHH_;
+      }
+      /**
+       * <code>uint32 ALKBDFNFAHH = 12;</code>
+       * @param value The aLKBDFNFAHH to set.
+       * @return This builder for chaining.
+       */
+      public Builder setALKBDFNFAHH(int value) {
+        
+        aLKBDFNFAHH_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 ALKBDFNFAHH = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearALKBDFNFAHH() {
+        
+        aLKBDFNFAHH_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int levelId_ ;
+      /**
+       * <code>uint32 level_id = 9;</code>
+       * @return The levelId.
+       */
+      @java.lang.Override
+      public int getLevelId() {
+        return levelId_;
+      }
+      /**
+       * <code>uint32 level_id = 9;</code>
+       * @param value The levelId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLevelId(int value) {
+        
+        levelId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 level_id = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLevelId() {
+        
+        levelId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int gFGFBFFJHKA_ ;
+      /**
+       * <code>uint32 GFGFBFFJHKA = 15;</code>
+       * @return The gFGFBFFJHKA.
+       */
+      @java.lang.Override
+      public int getGFGFBFFJHKA() {
+        return gFGFBFFJHKA_;
+      }
+      /**
+       * <code>uint32 GFGFBFFJHKA = 15;</code>
+       * @param value The gFGFBFFJHKA to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGFGFBFFJHKA(int value) {
+        
+        gFGFBFFJHKA_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 GFGFBFFJHKA = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGFGFBFFJHKA() {
+        
+        gFGFBFFJHKA_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int jKNAIKCGDFN_ ;
+      /**
+       * <code>uint32 JKNAIKCGDFN = 4;</code>
+       * @return The jKNAIKCGDFN.
+       */
+      @java.lang.Override
+      public int getJKNAIKCGDFN() {
+        return jKNAIKCGDFN_;
+      }
+      /**
+       * <code>uint32 JKNAIKCGDFN = 4;</code>
+       * @param value The jKNAIKCGDFN to set.
+       * @return This builder for chaining.
+       */
+      public Builder setJKNAIKCGDFN(int value) {
+        
+        jKNAIKCGDFN_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 JKNAIKCGDFN = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearJKNAIKCGDFN() {
+        
+        jKNAIKCGDFN_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean iCGFHPJKALD_ ;
+      /**
+       * <code>bool ICGFHPJKALD = 7;</code>
+       * @return The iCGFHPJKALD.
+       */
+      @java.lang.Override
+      public boolean getICGFHPJKALD() {
+        return iCGFHPJKALD_;
+      }
+      /**
+       * <code>bool ICGFHPJKALD = 7;</code>
+       * @param value The iCGFHPJKALD to set.
+       * @return This builder for chaining.
+       */
+      public Builder setICGFHPJKALD(boolean value) {
+        
+        iCGFHPJKALD_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool ICGFHPJKALD = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearICGFHPJKALD() {
+        
+        iCGFHPJKALD_ = false;
         onChanged();
         return this;
       }
 
       private boolean isUnlock_ ;
       /**
-       * <code>bool is_unlock = 4;</code>
+       * <code>bool is_unlock = 6;</code>
        * @return The isUnlock.
        */
       @java.lang.Override
@@ -863,7 +1018,7 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
         return isUnlock_;
       }
       /**
-       * <code>bool is_unlock = 4;</code>
+       * <code>bool is_unlock = 6;</code>
        * @param value The isUnlock to set.
        * @return This builder for chaining.
        */
@@ -874,7 +1029,7 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_unlock = 4;</code>
+       * <code>bool is_unlock = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsUnlock() {
@@ -886,7 +1041,7 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 15;</code>
+       * <code>bool is_finished = 3;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -894,7 +1049,7 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 15;</code>
+       * <code>bool is_finished = 3;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -905,167 +1060,12 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 15;</code>
+       * <code>bool is_finished = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
         
         isFinished_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean kCGBCNFNGAE_ ;
-      /**
-       * <code>bool KCGBCNFNGAE = 1;</code>
-       * @return The kCGBCNFNGAE.
-       */
-      @java.lang.Override
-      public boolean getKCGBCNFNGAE() {
-        return kCGBCNFNGAE_;
-      }
-      /**
-       * <code>bool KCGBCNFNGAE = 1;</code>
-       * @param value The kCGBCNFNGAE to set.
-       * @return This builder for chaining.
-       */
-      public Builder setKCGBCNFNGAE(boolean value) {
-        
-        kCGBCNFNGAE_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool KCGBCNFNGAE = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearKCGBCNFNGAE() {
-        
-        kCGBCNFNGAE_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int pOBEIPHOAMB_ ;
-      /**
-       * <code>uint32 POBEIPHOAMB = 5;</code>
-       * @return The pOBEIPHOAMB.
-       */
-      @java.lang.Override
-      public int getPOBEIPHOAMB() {
-        return pOBEIPHOAMB_;
-      }
-      /**
-       * <code>uint32 POBEIPHOAMB = 5;</code>
-       * @param value The pOBEIPHOAMB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPOBEIPHOAMB(int value) {
-        
-        pOBEIPHOAMB_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 POBEIPHOAMB = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPOBEIPHOAMB() {
-        
-        pOBEIPHOAMB_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int levelId_ ;
-      /**
-       * <code>uint32 level_id = 12;</code>
-       * @return The levelId.
-       */
-      @java.lang.Override
-      public int getLevelId() {
-        return levelId_;
-      }
-      /**
-       * <code>uint32 level_id = 12;</code>
-       * @param value The levelId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLevelId(int value) {
-        
-        levelId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 level_id = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLevelId() {
-        
-        levelId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int lMFBBHEJDNM_ ;
-      /**
-       * <code>uint32 LMFBBHEJDNM = 3;</code>
-       * @return The lMFBBHEJDNM.
-       */
-      @java.lang.Override
-      public int getLMFBBHEJDNM() {
-        return lMFBBHEJDNM_;
-      }
-      /**
-       * <code>uint32 LMFBBHEJDNM = 3;</code>
-       * @param value The lMFBBHEJDNM to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLMFBBHEJDNM(int value) {
-        
-        lMFBBHEJDNM_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 LMFBBHEJDNM = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLMFBBHEJDNM() {
-        
-        lMFBBHEJDNM_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int oMJMMEOMNBI_ ;
-      /**
-       * <code>uint32 OMJMMEOMNBI = 8;</code>
-       * @return The oMJMMEOMNBI.
-       */
-      @java.lang.Override
-      public int getOMJMMEOMNBI() {
-        return oMJMMEOMNBI_;
-      }
-      /**
-       * <code>uint32 OMJMMEOMNBI = 8;</code>
-       * @param value The oMJMMEOMNBI to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOMJMMEOMNBI(int value) {
-        
-        oMJMMEOMNBI_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 OMJMMEOMNBI = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOMJMMEOMNBI() {
-        
-        oMJMMEOMNBI_ = 0;
         onChanged();
         return this;
       }
@@ -1137,11 +1137,11 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037MonsterVsMonsterLevelInfo.proto\"\276\001\n\031Mo" +
-      "nsterVsMonsterLevelInfo\022\023\n\013EFJHEBEBHKP\030\013" +
-      " \003(\r\022\021\n\tis_unlock\030\004 \001(\010\022\023\n\013is_finished\030\017" +
-      " \001(\010\022\023\n\013KCGBCNFNGAE\030\001 \001(\010\022\023\n\013POBEIPHOAMB" +
-      "\030\005 \001(\r\022\020\n\010level_id\030\014 \001(\r\022\023\n\013LMFBBHEJDNM\030" +
-      "\003 \001(\r\022\023\n\013OMJMMEOMNBI\030\010 \001(\rB\033\n\031emu.grassc" +
+      "nsterVsMonsterLevelInfo\022\023\n\013AMNMAGDLPPF\030\001" +
+      " \003(\r\022\023\n\013ALKBDFNFAHH\030\014 \001(\r\022\020\n\010level_id\030\t " +
+      "\001(\r\022\023\n\013GFGFBFFJHKA\030\017 \001(\r\022\023\n\013JKNAIKCGDFN\030" +
+      "\004 \001(\r\022\023\n\013ICGFHPJKALD\030\007 \001(\010\022\021\n\tis_unlock\030" +
+      "\006 \001(\010\022\023\n\013is_finished\030\003 \001(\010B\033\n\031emu.grassc" +
       "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1153,7 +1153,7 @@ public final class MonsterVsMonsterLevelInfoOuterClass {
     internal_static_MonsterVsMonsterLevelInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MonsterVsMonsterLevelInfo_descriptor,
-        new java.lang.String[] { "EFJHEBEBHKP", "IsUnlock", "IsFinished", "KCGBCNFNGAE", "POBEIPHOAMB", "LevelId", "LMFBBHEJDNM", "OMJMMEOMNBI", });
+        new java.lang.String[] { "AMNMAGDLPPF", "ALKBDFNFAHH", "LevelId", "GFGFBFFJHKA", "JKNAIKCGDFN", "ICGFHPJKALD", "IsUnlock", "IsFinished", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

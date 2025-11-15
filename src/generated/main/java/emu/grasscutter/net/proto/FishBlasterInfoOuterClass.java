@@ -19,25 +19,25 @@ public final class FishBlasterInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo> 
         getLevelInfoListList();
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo getLevelInfoList(int index);
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfoOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfoOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class FishBlasterInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 74: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class FishBlasterInfoOuterClass {
               emu.grasscutter.net.proto.FishBlasterInfoOuterClass.FishBlasterInfo.class, emu.grasscutter.net.proto.FishBlasterInfoOuterClass.FishBlasterInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 9;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo> levelInfoList_;
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class FishBlasterInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+     * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfoOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class FishBlasterInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(9, levelInfoList_.get(i));
+        output.writeMessage(11, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class FishBlasterInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, levelInfoList_.get(i));
+          .computeMessageSize(11, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class FishBlasterInfoOuterClass {
           emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo, emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.Builder, emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfoOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class FishBlasterInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class FishBlasterInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class FishBlasterInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo value) {
@@ -575,7 +575,7 @@ public final class FishBlasterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class FishBlasterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class FishBlasterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo value) {
@@ -622,7 +622,7 @@ public final class FishBlasterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class FishBlasterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class FishBlasterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo> values) {
@@ -665,7 +665,7 @@ public final class FishBlasterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class FishBlasterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class FishBlasterInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfoOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class FishBlasterInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfoOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class FishBlasterInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class FishBlasterInfoOuterClass {
             index, emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .FishBlasterLevelInfo level_info_list = 9;</code>
+       * <code>repeated .FishBlasterLevelInfo level_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FishBlasterLevelInfoOuterClass.FishBlasterLevelInfo.Builder> 
            getLevelInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class FishBlasterInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025FishBlasterInfo.proto\032\032FishBlasterLeve" +
       "lInfo.proto\"A\n\017FishBlasterInfo\022.\n\017level_" +
-      "info_list\030\t \003(\0132\025.FishBlasterLevelInfoB\033" +
+      "info_list\030\013 \003(\0132\025.FishBlasterLevelInfoB\033" +
       "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

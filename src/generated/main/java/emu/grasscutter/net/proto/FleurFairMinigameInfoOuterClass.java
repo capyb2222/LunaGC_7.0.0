@@ -19,65 +19,65 @@ public final class FleurFairMinigameInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 open_time = 12;</code>
-     * @return The openTime.
-     */
-    int getOpenTime();
-
-    /**
-     * <code>uint32 minigame_id = 9;</code>
-     * @return The minigameId.
-     */
-    int getMinigameId();
-
-    /**
      * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-     * @return Whether the balloonInfo field is set.
+     * <code>uint32 open_time = 3;</code>
+     * @return The openTime.
      */
-    boolean hasBalloonInfo();
-    /**
-     * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-     * @return The balloonInfo.
-     */
-    emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo getBalloonInfo();
-    /**
-     * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-     */
-    emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder getBalloonInfoOrBuilder();
+    int getOpenTime();
 
     /**
-     * <code>.FleurFairFallInfo fall_info = 3;</code>
+     * <code>uint32 minigame_id = 5;</code>
+     * @return The minigameId.
+     */
+    int getMinigameId();
+
+    /**
+     * <code>.FleurFairFallInfo fall_info = 10;</code>
      * @return Whether the fallInfo field is set.
      */
     boolean hasFallInfo();
     /**
-     * <code>.FleurFairFallInfo fall_info = 3;</code>
+     * <code>.FleurFairFallInfo fall_info = 10;</code>
      * @return The fallInfo.
      */
     emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo getFallInfo();
     /**
-     * <code>.FleurFairFallInfo fall_info = 3;</code>
+     * <code>.FleurFairFallInfo fall_info = 10;</code>
      */
     emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfoOrBuilder getFallInfoOrBuilder();
 
     /**
-     * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+     * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+     * @return Whether the balloonInfo field is set.
+     */
+    boolean hasBalloonInfo();
+    /**
+     * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+     * @return The balloonInfo.
+     */
+    emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo getBalloonInfo();
+    /**
+     * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+     */
+    emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder getBalloonInfoOrBuilder();
+
+    /**
+     * <code>.FleurFairMusicGameInfo music_info = 4;</code>
      * @return Whether the musicInfo field is set.
      */
     boolean hasMusicInfo();
     /**
-     * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+     * <code>.FleurFairMusicGameInfo music_info = 4;</code>
      * @return The musicInfo.
      */
     emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo getMusicInfo();
     /**
-     * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+     * <code>.FleurFairMusicGameInfo music_info = 4;</code>
      */
     emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfoOrBuilder getMusicInfoOrBuilder();
 
@@ -128,52 +128,14 @@ public final class FleurFairMinigameInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
-              emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.Builder subBuilder = null;
-              if (detailCase_ == 3) {
-                subBuilder = ((emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 3;
-              break;
-            }
-            case 56: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 72: {
-
-              minigameId_ = input.readUInt32();
-              break;
-            }
-            case 90: {
-              emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder subBuilder = null;
-              if (detailCase_ == 11) {
-                subBuilder = ((emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 11;
-              break;
-            }
-            case 96: {
+            case 24: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 106: {
+            case 34: {
               emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.Builder subBuilder = null;
-              if (detailCase_ == 13) {
+              if (detailCase_ == 4) {
                 subBuilder = ((emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_).toBuilder();
               }
               detail_ =
@@ -182,7 +144,45 @@ public final class FleurFairMinigameInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 13;
+              detailCase_ = 4;
+              break;
+            }
+            case 40: {
+
+              minigameId_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 82: {
+              emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.Builder subBuilder = null;
+              if (detailCase_ == 10) {
+                subBuilder = ((emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 10;
+              break;
+            }
+            case 98: {
+              emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder subBuilder = null;
+              if (detailCase_ == 12) {
+                subBuilder = ((emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 12;
               break;
             }
             default: {
@@ -222,9 +222,9 @@ public final class FleurFairMinigameInfoOuterClass {
     public enum DetailCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      BALLOON_INFO(11),
-      FALL_INFO(3),
-      MUSIC_INFO(13),
+      FALL_INFO(10),
+      BALLOON_INFO(12),
+      MUSIC_INFO(4),
       DETAIL_NOT_SET(0);
       private final int value;
       private DetailCase(int value) {
@@ -242,9 +242,9 @@ public final class FleurFairMinigameInfoOuterClass {
 
       public static DetailCase forNumber(int value) {
         switch (value) {
-          case 11: return BALLOON_INFO;
-          case 3: return FALL_INFO;
-          case 13: return MUSIC_INFO;
+          case 10: return FALL_INFO;
+          case 12: return BALLOON_INFO;
+          case 4: return MUSIC_INFO;
           case 0: return DETAIL_NOT_SET;
           default: return null;
         }
@@ -260,28 +260,6 @@ public final class FleurFairMinigameInfoOuterClass {
           detailCase_);
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 12;
-    private int openTime_;
-    /**
-     * <code>uint32 open_time = 12;</code>
-     * @return The openTime.
-     */
-    @java.lang.Override
-    public int getOpenTime() {
-      return openTime_;
-    }
-
-    public static final int MINIGAME_ID_FIELD_NUMBER = 9;
-    private int minigameId_;
-    /**
-     * <code>uint32 minigame_id = 9;</code>
-     * @return The minigameId.
-     */
-    @java.lang.Override
-    public int getMinigameId() {
-      return minigameId_;
-    }
-
     public static final int IS_OPEN_FIELD_NUMBER = 7;
     private boolean isOpen_;
     /**
@@ -293,94 +271,116 @@ public final class FleurFairMinigameInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int BALLOON_INFO_FIELD_NUMBER = 11;
+    public static final int OPEN_TIME_FIELD_NUMBER = 3;
+    private int openTime_;
     /**
-     * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-     * @return Whether the balloonInfo field is set.
+     * <code>uint32 open_time = 3;</code>
+     * @return The openTime.
      */
     @java.lang.Override
-    public boolean hasBalloonInfo() {
-      return detailCase_ == 11;
-    }
-    /**
-     * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-     * @return The balloonInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo getBalloonInfo() {
-      if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_;
-      }
-      return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
-    }
-    /**
-     * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder getBalloonInfoOrBuilder() {
-      if (detailCase_ == 11) {
-         return (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_;
-      }
-      return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
+    public int getOpenTime() {
+      return openTime_;
     }
 
-    public static final int FALL_INFO_FIELD_NUMBER = 3;
+    public static final int MINIGAME_ID_FIELD_NUMBER = 5;
+    private int minigameId_;
     /**
-     * <code>.FleurFairFallInfo fall_info = 3;</code>
+     * <code>uint32 minigame_id = 5;</code>
+     * @return The minigameId.
+     */
+    @java.lang.Override
+    public int getMinigameId() {
+      return minigameId_;
+    }
+
+    public static final int FALL_INFO_FIELD_NUMBER = 10;
+    /**
+     * <code>.FleurFairFallInfo fall_info = 10;</code>
      * @return Whether the fallInfo field is set.
      */
     @java.lang.Override
     public boolean hasFallInfo() {
-      return detailCase_ == 3;
+      return detailCase_ == 10;
     }
     /**
-     * <code>.FleurFairFallInfo fall_info = 3;</code>
+     * <code>.FleurFairFallInfo fall_info = 10;</code>
      * @return The fallInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo getFallInfo() {
-      if (detailCase_ == 3) {
+      if (detailCase_ == 10) {
          return (emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_;
       }
       return emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.getDefaultInstance();
     }
     /**
-     * <code>.FleurFairFallInfo fall_info = 3;</code>
+     * <code>.FleurFairFallInfo fall_info = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfoOrBuilder getFallInfoOrBuilder() {
-      if (detailCase_ == 3) {
+      if (detailCase_ == 10) {
          return (emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_;
       }
       return emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.getDefaultInstance();
     }
 
-    public static final int MUSIC_INFO_FIELD_NUMBER = 13;
+    public static final int BALLOON_INFO_FIELD_NUMBER = 12;
     /**
-     * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+     * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+     * @return Whether the balloonInfo field is set.
+     */
+    @java.lang.Override
+    public boolean hasBalloonInfo() {
+      return detailCase_ == 12;
+    }
+    /**
+     * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+     * @return The balloonInfo.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo getBalloonInfo() {
+      if (detailCase_ == 12) {
+         return (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_;
+      }
+      return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
+    }
+    /**
+     * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder getBalloonInfoOrBuilder() {
+      if (detailCase_ == 12) {
+         return (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_;
+      }
+      return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
+    }
+
+    public static final int MUSIC_INFO_FIELD_NUMBER = 4;
+    /**
+     * <code>.FleurFairMusicGameInfo music_info = 4;</code>
      * @return Whether the musicInfo field is set.
      */
     @java.lang.Override
     public boolean hasMusicInfo() {
-      return detailCase_ == 13;
+      return detailCase_ == 4;
     }
     /**
-     * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+     * <code>.FleurFairMusicGameInfo music_info = 4;</code>
      * @return The musicInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo getMusicInfo() {
-      if (detailCase_ == 13) {
+      if (detailCase_ == 4) {
          return (emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_;
       }
       return emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.getDefaultInstance();
     }
     /**
-     * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+     * <code>.FleurFairMusicGameInfo music_info = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfoOrBuilder getMusicInfoOrBuilder() {
-      if (detailCase_ == 13) {
+      if (detailCase_ == 4) {
          return (emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_;
       }
       return emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.getDefaultInstance();
@@ -400,23 +400,23 @@ public final class FleurFairMinigameInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (detailCase_ == 3) {
-        output.writeMessage(3, (emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_);
+      if (openTime_ != 0) {
+        output.writeUInt32(3, openTime_);
+      }
+      if (detailCase_ == 4) {
+        output.writeMessage(4, (emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_);
+      }
+      if (minigameId_ != 0) {
+        output.writeUInt32(5, minigameId_);
       }
       if (isOpen_ != false) {
         output.writeBool(7, isOpen_);
       }
-      if (minigameId_ != 0) {
-        output.writeUInt32(9, minigameId_);
+      if (detailCase_ == 10) {
+        output.writeMessage(10, (emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_);
       }
-      if (detailCase_ == 11) {
-        output.writeMessage(11, (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_);
-      }
-      if (openTime_ != 0) {
-        output.writeUInt32(12, openTime_);
-      }
-      if (detailCase_ == 13) {
-        output.writeMessage(13, (emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_);
+      if (detailCase_ == 12) {
+        output.writeMessage(12, (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -427,29 +427,29 @@ public final class FleurFairMinigameInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (detailCase_ == 3) {
+      if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, (emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_);
+          .computeUInt32Size(3, openTime_);
+      }
+      if (detailCase_ == 4) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, (emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_);
+      }
+      if (minigameId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, minigameId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(7, isOpen_);
       }
-      if (minigameId_ != 0) {
+      if (detailCase_ == 10) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, minigameId_);
+          .computeMessageSize(10, (emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_);
       }
-      if (detailCase_ == 11) {
+      if (detailCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_);
-      }
-      if (openTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, openTime_);
-      }
-      if (detailCase_ == 13) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, (emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -466,23 +466,23 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo other = (emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo) obj;
 
+      if (getIsOpen()
+          != other.getIsOpen()) return false;
       if (getOpenTime()
           != other.getOpenTime()) return false;
       if (getMinigameId()
           != other.getMinigameId()) return false;
-      if (getIsOpen()
-          != other.getIsOpen()) return false;
       if (!getDetailCase().equals(other.getDetailCase())) return false;
       switch (detailCase_) {
-        case 11:
-          if (!getBalloonInfo()
-              .equals(other.getBalloonInfo())) return false;
-          break;
-        case 3:
+        case 10:
           if (!getFallInfo()
               .equals(other.getFallInfo())) return false;
           break;
-        case 13:
+        case 12:
+          if (!getBalloonInfo()
+              .equals(other.getBalloonInfo())) return false;
+          break;
+        case 4:
           if (!getMusicInfo()
               .equals(other.getMusicInfo())) return false;
           break;
@@ -500,23 +500,23 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsOpen());
       hash = (37 * hash) + OPEN_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getOpenTime();
       hash = (37 * hash) + MINIGAME_ID_FIELD_NUMBER;
       hash = (53 * hash) + getMinigameId();
-      hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsOpen());
       switch (detailCase_) {
-        case 11:
-          hash = (37 * hash) + BALLOON_INFO_FIELD_NUMBER;
-          hash = (53 * hash) + getBalloonInfo().hashCode();
-          break;
-        case 3:
+        case 10:
           hash = (37 * hash) + FALL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getFallInfo().hashCode();
           break;
-        case 13:
+        case 12:
+          hash = (37 * hash) + BALLOON_INFO_FIELD_NUMBER;
+          hash = (53 * hash) + getBalloonInfo().hashCode();
+          break;
+        case 4:
           hash = (37 * hash) + MUSIC_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getMusicInfo().hashCode();
           break;
@@ -656,11 +656,11 @@ public final class FleurFairMinigameInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        isOpen_ = false;
+
         openTime_ = 0;
 
         minigameId_ = 0;
-
-        isOpen_ = false;
 
         detailCase_ = 0;
         detail_ = null;
@@ -690,24 +690,24 @@ public final class FleurFairMinigameInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo buildPartial() {
         emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo result = new emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo(this);
+        result.isOpen_ = isOpen_;
         result.openTime_ = openTime_;
         result.minigameId_ = minigameId_;
-        result.isOpen_ = isOpen_;
-        if (detailCase_ == 11) {
-          if (balloonInfoBuilder_ == null) {
-            result.detail_ = detail_;
-          } else {
-            result.detail_ = balloonInfoBuilder_.build();
-          }
-        }
-        if (detailCase_ == 3) {
+        if (detailCase_ == 10) {
           if (fallInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = fallInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 13) {
+        if (detailCase_ == 12) {
+          if (balloonInfoBuilder_ == null) {
+            result.detail_ = detail_;
+          } else {
+            result.detail_ = balloonInfoBuilder_.build();
+          }
+        }
+        if (detailCase_ == 4) {
           if (musicInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
@@ -763,22 +763,22 @@ public final class FleurFairMinigameInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo other) {
         if (other == emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo.getDefaultInstance()) return this;
+        if (other.getIsOpen() != false) {
+          setIsOpen(other.getIsOpen());
+        }
         if (other.getOpenTime() != 0) {
           setOpenTime(other.getOpenTime());
         }
         if (other.getMinigameId() != 0) {
           setMinigameId(other.getMinigameId());
         }
-        if (other.getIsOpen() != false) {
-          setIsOpen(other.getIsOpen());
-        }
         switch (other.getDetailCase()) {
-          case BALLOON_INFO: {
-            mergeBalloonInfo(other.getBalloonInfo());
-            break;
-          }
           case FALL_INFO: {
             mergeFallInfo(other.getFallInfo());
+            break;
+          }
+          case BALLOON_INFO: {
+            mergeBalloonInfo(other.getBalloonInfo());
             break;
           }
           case MUSIC_INFO: {
@@ -833,68 +833,6 @@ public final class FleurFairMinigameInfoOuterClass {
       }
 
 
-      private int openTime_ ;
-      /**
-       * <code>uint32 open_time = 12;</code>
-       * @return The openTime.
-       */
-      @java.lang.Override
-      public int getOpenTime() {
-        return openTime_;
-      }
-      /**
-       * <code>uint32 open_time = 12;</code>
-       * @param value The openTime to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOpenTime(int value) {
-        
-        openTime_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 open_time = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOpenTime() {
-        
-        openTime_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int minigameId_ ;
-      /**
-       * <code>uint32 minigame_id = 9;</code>
-       * @return The minigameId.
-       */
-      @java.lang.Override
-      public int getMinigameId() {
-        return minigameId_;
-      }
-      /**
-       * <code>uint32 minigame_id = 9;</code>
-       * @param value The minigameId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMinigameId(int value) {
-        
-        minigameId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 minigame_id = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMinigameId() {
-        
-        minigameId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private boolean isOpen_ ;
       /**
        * <code>bool is_open = 7;</code>
@@ -926,177 +864,98 @@ public final class FleurFairMinigameInfoOuterClass {
         return this;
       }
 
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder> balloonInfoBuilder_;
+      private int openTime_ ;
       /**
-       * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-       * @return Whether the balloonInfo field is set.
+       * <code>uint32 open_time = 3;</code>
+       * @return The openTime.
        */
       @java.lang.Override
-      public boolean hasBalloonInfo() {
-        return detailCase_ == 11;
+      public int getOpenTime() {
+        return openTime_;
       }
       /**
-       * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-       * @return The balloonInfo.
+       * <code>uint32 open_time = 3;</code>
+       * @param value The openTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOpenTime(int value) {
+        
+        openTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 open_time = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOpenTime() {
+        
+        openTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int minigameId_ ;
+      /**
+       * <code>uint32 minigame_id = 5;</code>
+       * @return The minigameId.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo getBalloonInfo() {
-        if (balloonInfoBuilder_ == null) {
-          if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_;
-          }
-          return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
-        } else {
-          if (detailCase_ == 11) {
-            return balloonInfoBuilder_.getMessage();
-          }
-          return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
-        }
+      public int getMinigameId() {
+        return minigameId_;
       }
       /**
-       * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
+       * <code>uint32 minigame_id = 5;</code>
+       * @param value The minigameId to set.
+       * @return This builder for chaining.
        */
-      public Builder setBalloonInfo(emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo value) {
-        if (balloonInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          detail_ = value;
-          onChanged();
-        } else {
-          balloonInfoBuilder_.setMessage(value);
-        }
-        detailCase_ = 11;
+      public Builder setMinigameId(int value) {
+        
+        minigameId_ = value;
+        onChanged();
         return this;
       }
       /**
-       * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
+       * <code>uint32 minigame_id = 5;</code>
+       * @return This builder for chaining.
        */
-      public Builder setBalloonInfo(
-          emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder builderForValue) {
-        if (balloonInfoBuilder_ == null) {
-          detail_ = builderForValue.build();
-          onChanged();
-        } else {
-          balloonInfoBuilder_.setMessage(builderForValue.build());
-        }
-        detailCase_ = 11;
+      public Builder clearMinigameId() {
+        
+        minigameId_ = 0;
+        onChanged();
         return this;
-      }
-      /**
-       * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-       */
-      public Builder mergeBalloonInfo(emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo value) {
-        if (balloonInfoBuilder_ == null) {
-          if (detailCase_ == 11 &&
-              detail_ != emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.newBuilder((emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_)
-                .mergeFrom(value).buildPartial();
-          } else {
-            detail_ = value;
-          }
-          onChanged();
-        } else {
-          if (detailCase_ == 11) {
-            balloonInfoBuilder_.mergeFrom(value);
-          }
-          balloonInfoBuilder_.setMessage(value);
-        }
-        detailCase_ = 11;
-        return this;
-      }
-      /**
-       * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-       */
-      public Builder clearBalloonInfo() {
-        if (balloonInfoBuilder_ == null) {
-          if (detailCase_ == 11) {
-            detailCase_ = 0;
-            detail_ = null;
-            onChanged();
-          }
-        } else {
-          if (detailCase_ == 11) {
-            detailCase_ = 0;
-            detail_ = null;
-          }
-          balloonInfoBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-       */
-      public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder getBalloonInfoBuilder() {
-        return getBalloonInfoFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder getBalloonInfoOrBuilder() {
-        if ((detailCase_ == 11) && (balloonInfoBuilder_ != null)) {
-          return balloonInfoBuilder_.getMessageOrBuilder();
-        } else {
-          if (detailCase_ == 11) {
-            return (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_;
-          }
-          return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
-        }
-      }
-      /**
-       * <code>.FleurFairBalloonInfo balloon_info = 11;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder> 
-          getBalloonInfoFieldBuilder() {
-        if (balloonInfoBuilder_ == null) {
-          if (!(detailCase_ == 11)) {
-            detail_ = emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
-          }
-          balloonInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_,
-                  getParentForChildren(),
-                  isClean());
-          detail_ = null;
-        }
-        detailCase_ = 11;
-        onChanged();;
-        return balloonInfoBuilder_;
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo, emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.Builder, emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfoOrBuilder> fallInfoBuilder_;
       /**
-       * <code>.FleurFairFallInfo fall_info = 3;</code>
+       * <code>.FleurFairFallInfo fall_info = 10;</code>
        * @return Whether the fallInfo field is set.
        */
       @java.lang.Override
       public boolean hasFallInfo() {
-        return detailCase_ == 3;
+        return detailCase_ == 10;
       }
       /**
-       * <code>.FleurFairFallInfo fall_info = 3;</code>
+       * <code>.FleurFairFallInfo fall_info = 10;</code>
        * @return The fallInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo getFallInfo() {
         if (fallInfoBuilder_ == null) {
-          if (detailCase_ == 3) {
+          if (detailCase_ == 10) {
             return (emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_;
           }
           return emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 3) {
+          if (detailCase_ == 10) {
             return fallInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.FleurFairFallInfo fall_info = 3;</code>
+       * <code>.FleurFairFallInfo fall_info = 10;</code>
        */
       public Builder setFallInfo(emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo value) {
         if (fallInfoBuilder_ == null) {
@@ -1108,11 +967,11 @@ public final class FleurFairMinigameInfoOuterClass {
         } else {
           fallInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 3;
+        detailCase_ = 10;
         return this;
       }
       /**
-       * <code>.FleurFairFallInfo fall_info = 3;</code>
+       * <code>.FleurFairFallInfo fall_info = 10;</code>
        */
       public Builder setFallInfo(
           emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.Builder builderForValue) {
@@ -1122,15 +981,15 @@ public final class FleurFairMinigameInfoOuterClass {
         } else {
           fallInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 3;
+        detailCase_ = 10;
         return this;
       }
       /**
-       * <code>.FleurFairFallInfo fall_info = 3;</code>
+       * <code>.FleurFairFallInfo fall_info = 10;</code>
        */
       public Builder mergeFallInfo(emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo value) {
         if (fallInfoBuilder_ == null) {
-          if (detailCase_ == 3 &&
+          if (detailCase_ == 10 &&
               detail_ != emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.newBuilder((emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -1139,26 +998,26 @@ public final class FleurFairMinigameInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 3) {
+          if (detailCase_ == 10) {
             fallInfoBuilder_.mergeFrom(value);
           }
           fallInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 3;
+        detailCase_ = 10;
         return this;
       }
       /**
-       * <code>.FleurFairFallInfo fall_info = 3;</code>
+       * <code>.FleurFairFallInfo fall_info = 10;</code>
        */
       public Builder clearFallInfo() {
         if (fallInfoBuilder_ == null) {
-          if (detailCase_ == 3) {
+          if (detailCase_ == 10) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 3) {
+          if (detailCase_ == 10) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -1167,33 +1026,33 @@ public final class FleurFairMinigameInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FleurFairFallInfo fall_info = 3;</code>
+       * <code>.FleurFairFallInfo fall_info = 10;</code>
        */
       public emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.Builder getFallInfoBuilder() {
         return getFallInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.FleurFairFallInfo fall_info = 3;</code>
+       * <code>.FleurFairFallInfo fall_info = 10;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfoOrBuilder getFallInfoOrBuilder() {
-        if ((detailCase_ == 3) && (fallInfoBuilder_ != null)) {
+        if ((detailCase_ == 10) && (fallInfoBuilder_ != null)) {
           return fallInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 3) {
+          if (detailCase_ == 10) {
             return (emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo) detail_;
           }
           return emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.FleurFairFallInfo fall_info = 3;</code>
+       * <code>.FleurFairFallInfo fall_info = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo, emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.Builder, emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfoOrBuilder> 
           getFallInfoFieldBuilder() {
         if (fallInfoBuilder_ == null) {
-          if (!(detailCase_ == 3)) {
+          if (!(detailCase_ == 10)) {
             detail_ = emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.getDefaultInstance();
           }
           fallInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1203,41 +1062,182 @@ public final class FleurFairMinigameInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 3;
+        detailCase_ = 10;
         onChanged();;
         return fallInfoBuilder_;
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder> balloonInfoBuilder_;
+      /**
+       * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+       * @return Whether the balloonInfo field is set.
+       */
+      @java.lang.Override
+      public boolean hasBalloonInfo() {
+        return detailCase_ == 12;
+      }
+      /**
+       * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+       * @return The balloonInfo.
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo getBalloonInfo() {
+        if (balloonInfoBuilder_ == null) {
+          if (detailCase_ == 12) {
+            return (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_;
+          }
+          return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
+        } else {
+          if (detailCase_ == 12) {
+            return balloonInfoBuilder_.getMessage();
+          }
+          return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+       */
+      public Builder setBalloonInfo(emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo value) {
+        if (balloonInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          detail_ = value;
+          onChanged();
+        } else {
+          balloonInfoBuilder_.setMessage(value);
+        }
+        detailCase_ = 12;
+        return this;
+      }
+      /**
+       * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+       */
+      public Builder setBalloonInfo(
+          emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder builderForValue) {
+        if (balloonInfoBuilder_ == null) {
+          detail_ = builderForValue.build();
+          onChanged();
+        } else {
+          balloonInfoBuilder_.setMessage(builderForValue.build());
+        }
+        detailCase_ = 12;
+        return this;
+      }
+      /**
+       * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+       */
+      public Builder mergeBalloonInfo(emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo value) {
+        if (balloonInfoBuilder_ == null) {
+          if (detailCase_ == 12 &&
+              detail_ != emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.newBuilder((emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            detail_ = value;
+          }
+          onChanged();
+        } else {
+          if (detailCase_ == 12) {
+            balloonInfoBuilder_.mergeFrom(value);
+          }
+          balloonInfoBuilder_.setMessage(value);
+        }
+        detailCase_ = 12;
+        return this;
+      }
+      /**
+       * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+       */
+      public Builder clearBalloonInfo() {
+        if (balloonInfoBuilder_ == null) {
+          if (detailCase_ == 12) {
+            detailCase_ = 0;
+            detail_ = null;
+            onChanged();
+          }
+        } else {
+          if (detailCase_ == 12) {
+            detailCase_ = 0;
+            detail_ = null;
+          }
+          balloonInfoBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+       */
+      public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder getBalloonInfoBuilder() {
+        return getBalloonInfoFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+       */
+      @java.lang.Override
+      public emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder getBalloonInfoOrBuilder() {
+        if ((detailCase_ == 12) && (balloonInfoBuilder_ != null)) {
+          return balloonInfoBuilder_.getMessageOrBuilder();
+        } else {
+          if (detailCase_ == 12) {
+            return (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_;
+          }
+          return emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>.FleurFairBalloonInfo balloon_info = 12;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder> 
+          getBalloonInfoFieldBuilder() {
+        if (balloonInfoBuilder_ == null) {
+          if (!(detailCase_ == 12)) {
+            detail_ = emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.getDefaultInstance();
+          }
+          balloonInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo) detail_,
+                  getParentForChildren(),
+                  isClean());
+          detail_ = null;
+        }
+        detailCase_ = 12;
+        onChanged();;
+        return balloonInfoBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo, emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.Builder, emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfoOrBuilder> musicInfoBuilder_;
       /**
-       * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+       * <code>.FleurFairMusicGameInfo music_info = 4;</code>
        * @return Whether the musicInfo field is set.
        */
       @java.lang.Override
       public boolean hasMusicInfo() {
-        return detailCase_ == 13;
+        return detailCase_ == 4;
       }
       /**
-       * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+       * <code>.FleurFairMusicGameInfo music_info = 4;</code>
        * @return The musicInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo getMusicInfo() {
         if (musicInfoBuilder_ == null) {
-          if (detailCase_ == 13) {
+          if (detailCase_ == 4) {
             return (emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_;
           }
           return emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 13) {
+          if (detailCase_ == 4) {
             return musicInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+       * <code>.FleurFairMusicGameInfo music_info = 4;</code>
        */
       public Builder setMusicInfo(emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo value) {
         if (musicInfoBuilder_ == null) {
@@ -1249,11 +1249,11 @@ public final class FleurFairMinigameInfoOuterClass {
         } else {
           musicInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 13;
+        detailCase_ = 4;
         return this;
       }
       /**
-       * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+       * <code>.FleurFairMusicGameInfo music_info = 4;</code>
        */
       public Builder setMusicInfo(
           emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.Builder builderForValue) {
@@ -1263,15 +1263,15 @@ public final class FleurFairMinigameInfoOuterClass {
         } else {
           musicInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 13;
+        detailCase_ = 4;
         return this;
       }
       /**
-       * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+       * <code>.FleurFairMusicGameInfo music_info = 4;</code>
        */
       public Builder mergeMusicInfo(emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo value) {
         if (musicInfoBuilder_ == null) {
-          if (detailCase_ == 13 &&
+          if (detailCase_ == 4 &&
               detail_ != emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.newBuilder((emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -1280,26 +1280,26 @@ public final class FleurFairMinigameInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 13) {
+          if (detailCase_ == 4) {
             musicInfoBuilder_.mergeFrom(value);
           }
           musicInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 13;
+        detailCase_ = 4;
         return this;
       }
       /**
-       * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+       * <code>.FleurFairMusicGameInfo music_info = 4;</code>
        */
       public Builder clearMusicInfo() {
         if (musicInfoBuilder_ == null) {
-          if (detailCase_ == 13) {
+          if (detailCase_ == 4) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 13) {
+          if (detailCase_ == 4) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -1308,33 +1308,33 @@ public final class FleurFairMinigameInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+       * <code>.FleurFairMusicGameInfo music_info = 4;</code>
        */
       public emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.Builder getMusicInfoBuilder() {
         return getMusicInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+       * <code>.FleurFairMusicGameInfo music_info = 4;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfoOrBuilder getMusicInfoOrBuilder() {
-        if ((detailCase_ == 13) && (musicInfoBuilder_ != null)) {
+        if ((detailCase_ == 4) && (musicInfoBuilder_ != null)) {
           return musicInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 13) {
+          if (detailCase_ == 4) {
             return (emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo) detail_;
           }
           return emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.FleurFairMusicGameInfo music_info = 13;</code>
+       * <code>.FleurFairMusicGameInfo music_info = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo, emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.Builder, emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfoOrBuilder> 
           getMusicInfoFieldBuilder() {
         if (musicInfoBuilder_ == null) {
-          if (!(detailCase_ == 13)) {
+          if (!(detailCase_ == 4)) {
             detail_ = emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.getDefaultInstance();
           }
           musicInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1344,7 +1344,7 @@ public final class FleurFairMinigameInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 13;
+        detailCase_ = 4;
         onChanged();;
         return musicInfoBuilder_;
       }
@@ -1415,22 +1415,22 @@ public final class FleurFairMinigameInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033FleurFairMinigameInfo.proto\032\032FleurFair" +
-      "BalloonInfo.proto\032\027FleurFairFallInfo.pro" +
+      "\n\033FleurFairMinigameInfo.proto\032\027FleurFair" +
+      "FallInfo.proto\032\032FleurFairBalloonInfo.pro" +
       "to\032\034FleurFairMusicGameInfo.proto\"\341\001\n\025Fle" +
-      "urFairMinigameInfo\022\021\n\topen_time\030\014 \001(\r\022\023\n" +
-      "\013minigame_id\030\t \001(\r\022\017\n\007is_open\030\007 \001(\010\022-\n\014b" +
-      "alloon_info\030\013 \001(\0132\025.FleurFairBalloonInfo" +
-      "H\000\022\'\n\tfall_info\030\003 \001(\0132\022.FleurFairFallInf" +
-      "oH\000\022-\n\nmusic_info\030\r \001(\0132\027.FleurFairMusic" +
+      "urFairMinigameInfo\022\017\n\007is_open\030\007 \001(\010\022\021\n\to" +
+      "pen_time\030\003 \001(\r\022\023\n\013minigame_id\030\005 \001(\r\022\'\n\tf" +
+      "all_info\030\n \001(\0132\022.FleurFairFallInfoH\000\022-\n\014" +
+      "balloon_info\030\014 \001(\0132\025.FleurFairBalloonInf" +
+      "oH\000\022-\n\nmusic_info\030\004 \001(\0132\027.FleurFairMusic" +
       "GameInfoH\000B\010\n\006detailB\033\n\031emu.grasscutter." +
       "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.getDescriptor(),
         });
     internal_static_FleurFairMinigameInfo_descriptor =
@@ -1438,9 +1438,9 @@ public final class FleurFairMinigameInfoOuterClass {
     internal_static_FleurFairMinigameInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FleurFairMinigameInfo_descriptor,
-        new java.lang.String[] { "OpenTime", "MinigameId", "IsOpen", "BalloonInfo", "FallInfo", "MusicInfo", "Detail", });
-    emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "IsOpen", "OpenTime", "MinigameId", "FallInfo", "BalloonInfo", "MusicInfo", "Detail", });
     emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.getDescriptor();
   }
 

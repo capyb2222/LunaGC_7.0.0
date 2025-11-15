@@ -19,45 +19,25 @@ public final class TowerChallengeDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo> 
         getLevelInfoListList();
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo getLevelInfoList(int index);
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfoOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfoOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -109,7 +89,7 @@ public final class TowerChallengeDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -153,25 +133,17 @@ public final class TowerChallengeDetailInfoOuterClass {
               emu.grasscutter.net.proto.TowerChallengeDetailInfoOuterClass.TowerChallengeDetailInfo.class, emu.grasscutter.net.proto.TowerChallengeDetailInfoOuterClass.TowerChallengeDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo> levelInfoList_;
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfoOrBuilder> 
@@ -179,33 +151,21 @@ public final class TowerChallengeDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+     * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfoOrBuilder getLevelInfoListOrBuilder(
@@ -228,7 +188,7 @@ public final class TowerChallengeDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(15, levelInfoList_.get(i));
+        output.writeMessage(8, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -241,7 +201,7 @@ public final class TowerChallengeDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, levelInfoList_.get(i));
+          .computeMessageSize(8, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -568,11 +528,7 @@ public final class TowerChallengeDetailInfoOuterClass {
           emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo, emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.Builder, emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfoOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -582,11 +538,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -596,11 +548,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -610,11 +558,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo value) {
@@ -631,11 +575,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.Builder builderForValue) {
@@ -649,11 +589,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo value) {
         if (levelInfoListBuilder_ == null) {
@@ -669,11 +605,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo value) {
@@ -690,11 +622,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.Builder builderForValue) {
@@ -708,11 +636,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.Builder builderForValue) {
@@ -726,11 +650,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo> values) {
@@ -745,11 +665,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -762,11 +678,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -779,22 +691,14 @@ public final class TowerChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfoOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -804,11 +708,7 @@ public final class TowerChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfoOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -819,22 +719,14 @@ public final class TowerChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.getDefaultInstance());
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.Builder addLevelInfoListBuilder(
           int index) {
@@ -842,11 +734,7 @@ public final class TowerChallengeDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.getDefaultInstance());
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .TowerChallengeLevelInfo level_info_list = 15;</code>
+       * <code>repeated .TowerChallengeLevelInfo level_info_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.TowerChallengeLevelInfoOuterClass.TowerChallengeLevelInfo.Builder> 
            getLevelInfoListBuilderList() {
@@ -935,7 +823,7 @@ public final class TowerChallengeDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036TowerChallengeDetailInfo.proto\032\035TowerC" +
       "hallengeLevelInfo.proto\"M\n\030TowerChalleng" +
-      "eDetailInfo\0221\n\017level_info_list\030\017 \003(\0132\030.T" +
+      "eDetailInfo\0221\n\017level_info_list\030\010 \003(\0132\030.T" +
       "owerChallengeLevelInfoB\033\n\031emu.grasscutte" +
       "r.net.protob\006proto3"
     };

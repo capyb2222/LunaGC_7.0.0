@@ -19,13 +19,13 @@ public final class ArenaChallengeMonsterLevelOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 arena_challenge_id = 6;</code>
+     * <code>uint32 arena_challenge_id = 9;</code>
      * @return The arenaChallengeId.
      */
     int getArenaChallengeId();
 
     /**
-     * <code>uint32 arena_challenge_level = 13;</code>
+     * <code>uint32 arena_challenge_level = 6;</code>
      * @return The arenaChallengeLevel.
      */
     int getArenaChallengeLevel();
@@ -77,12 +77,12 @@ public final class ArenaChallengeMonsterLevelOuterClass {
               break;
             case 48: {
 
-              arenaChallengeId_ = input.readUInt32();
+              arenaChallengeLevel_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 72: {
 
-              arenaChallengeLevel_ = input.readUInt32();
+              arenaChallengeId_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class ArenaChallengeMonsterLevelOuterClass {
               emu.grasscutter.net.proto.ArenaChallengeMonsterLevelOuterClass.ArenaChallengeMonsterLevel.class, emu.grasscutter.net.proto.ArenaChallengeMonsterLevelOuterClass.ArenaChallengeMonsterLevel.Builder.class);
     }
 
-    public static final int ARENA_CHALLENGE_ID_FIELD_NUMBER = 6;
+    public static final int ARENA_CHALLENGE_ID_FIELD_NUMBER = 9;
     private int arenaChallengeId_;
     /**
-     * <code>uint32 arena_challenge_id = 6;</code>
+     * <code>uint32 arena_challenge_id = 9;</code>
      * @return The arenaChallengeId.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class ArenaChallengeMonsterLevelOuterClass {
       return arenaChallengeId_;
     }
 
-    public static final int ARENA_CHALLENGE_LEVEL_FIELD_NUMBER = 13;
+    public static final int ARENA_CHALLENGE_LEVEL_FIELD_NUMBER = 6;
     private int arenaChallengeLevel_;
     /**
-     * <code>uint32 arena_challenge_level = 13;</code>
+     * <code>uint32 arena_challenge_level = 6;</code>
      * @return The arenaChallengeLevel.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class ArenaChallengeMonsterLevelOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (arenaChallengeId_ != 0) {
-        output.writeUInt32(6, arenaChallengeId_);
-      }
       if (arenaChallengeLevel_ != 0) {
-        output.writeUInt32(13, arenaChallengeLevel_);
+        output.writeUInt32(6, arenaChallengeLevel_);
+      }
+      if (arenaChallengeId_ != 0) {
+        output.writeUInt32(9, arenaChallengeId_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class ArenaChallengeMonsterLevelOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (arenaChallengeId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, arenaChallengeId_);
-      }
       if (arenaChallengeLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, arenaChallengeLevel_);
+          .computeUInt32Size(6, arenaChallengeLevel_);
+      }
+      if (arenaChallengeId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, arenaChallengeId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
 
       private int arenaChallengeId_ ;
       /**
-       * <code>uint32 arena_challenge_id = 6;</code>
+       * <code>uint32 arena_challenge_id = 9;</code>
        * @return The arenaChallengeId.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
         return arenaChallengeId_;
       }
       /**
-       * <code>uint32 arena_challenge_id = 6;</code>
+       * <code>uint32 arena_challenge_id = 9;</code>
        * @param value The arenaChallengeId to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
         return this;
       }
       /**
-       * <code>uint32 arena_challenge_id = 6;</code>
+       * <code>uint32 arena_challenge_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearArenaChallengeId() {
@@ -491,7 +491,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
 
       private int arenaChallengeLevel_ ;
       /**
-       * <code>uint32 arena_challenge_level = 13;</code>
+       * <code>uint32 arena_challenge_level = 6;</code>
        * @return The arenaChallengeLevel.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
         return arenaChallengeLevel_;
       }
       /**
-       * <code>uint32 arena_challenge_level = 13;</code>
+       * <code>uint32 arena_challenge_level = 6;</code>
        * @param value The arenaChallengeLevel to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
         return this;
       }
       /**
-       * <code>uint32 arena_challenge_level = 13;</code>
+       * <code>uint32 arena_challenge_level = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearArenaChallengeLevel() {
@@ -588,7 +588,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
     java.lang.String[] descriptorData = {
       "\n ArenaChallengeMonsterLevel.proto\"W\n\032Ar" +
       "enaChallengeMonsterLevel\022\032\n\022arena_challe" +
-      "nge_id\030\006 \001(\r\022\035\n\025arena_challenge_level\030\r " +
+      "nge_id\030\t \001(\r\022\035\n\025arena_challenge_level\030\006 " +
       "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

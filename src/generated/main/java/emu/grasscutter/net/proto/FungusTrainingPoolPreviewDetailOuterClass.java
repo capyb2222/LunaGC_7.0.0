@@ -43,7 +43,7 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
         int index);
 
     /**
-     * <code>uint32 pool_id = 7;</code>
+     * <code>uint32 pool_id = 5;</code>
      * @return The poolId.
      */
     int getPoolId();
@@ -95,7 +95,7 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 40: {
 
               poolId_ = input.readUInt32();
               break;
@@ -184,10 +184,10 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
       return monsterPreviewDetailList_.get(index);
     }
 
-    public static final int POOL_ID_FIELD_NUMBER = 7;
+    public static final int POOL_ID_FIELD_NUMBER = 5;
     private int poolId_;
     /**
-     * <code>uint32 pool_id = 7;</code>
+     * <code>uint32 pool_id = 5;</code>
      * @return The poolId.
      */
     @java.lang.Override
@@ -210,7 +210,7 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (poolId_ != 0) {
-        output.writeUInt32(7, poolId_);
+        output.writeUInt32(5, poolId_);
       }
       for (int i = 0; i < monsterPreviewDetailList_.size(); i++) {
         output.writeMessage(8, monsterPreviewDetailList_.get(i));
@@ -226,7 +226,7 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
       size = 0;
       if (poolId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, poolId_);
+          .computeUInt32Size(5, poolId_);
       }
       for (int i = 0; i < monsterPreviewDetailList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -796,7 +796,7 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
 
       private int poolId_ ;
       /**
-       * <code>uint32 pool_id = 7;</code>
+       * <code>uint32 pool_id = 5;</code>
        * @return The poolId.
        */
       @java.lang.Override
@@ -804,7 +804,7 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
         return poolId_;
       }
       /**
-       * <code>uint32 pool_id = 7;</code>
+       * <code>uint32 pool_id = 5;</code>
        * @param value The poolId to set.
        * @return This builder for chaining.
        */
@@ -815,7 +815,7 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 pool_id = 7;</code>
+       * <code>uint32 pool_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearPoolId() {
@@ -896,7 +896,7 @@ public final class FungusTrainingPoolPreviewDetailOuterClass {
       "o\"|\n\037FungusTrainingPoolPreviewDetail\022H\n\033" +
       "monster_preview_detail_list\030\010 \003(\0132#.Fung" +
       "usTrainingMonsterPreviewDetail\022\017\n\007pool_i" +
-      "d\030\007 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
+      "d\030\005 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
       "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

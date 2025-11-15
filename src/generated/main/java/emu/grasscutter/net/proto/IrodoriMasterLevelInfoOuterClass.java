@@ -43,7 +43,7 @@ public final class IrodoriMasterLevelInfoOuterClass {
         int index);
 
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -104,7 +104,7 @@ public final class IrodoriMasterLevelInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.IrodoriMasterLevelDetailInfoOuterClass.IrodoriMasterLevelDetailInfo.parser(), extensionRegistry));
               break;
             }
-            case 112: {
+            case 120: {
 
               levelId_ = input.readUInt32();
               break;
@@ -184,10 +184,10 @@ public final class IrodoriMasterLevelInfoOuterClass {
       return detailInfo_.get(index);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 14;
+    public static final int LEVEL_ID_FIELD_NUMBER = 15;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -213,7 +213,7 @@ public final class IrodoriMasterLevelInfoOuterClass {
         output.writeMessage(13, detailInfo_.get(i));
       }
       if (levelId_ != 0) {
-        output.writeUInt32(14, levelId_);
+        output.writeUInt32(15, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -230,7 +230,7 @@ public final class IrodoriMasterLevelInfoOuterClass {
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, levelId_);
+          .computeUInt32Size(15, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -796,7 +796,7 @@ public final class IrodoriMasterLevelInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -804,7 +804,7 @@ public final class IrodoriMasterLevelInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 15;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -815,7 +815,7 @@ public final class IrodoriMasterLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -894,7 +894,7 @@ public final class IrodoriMasterLevelInfoOuterClass {
       "\n\034IrodoriMasterLevelInfo.proto\032\"IrodoriM" +
       "asterLevelDetailInfo.proto\"^\n\026IrodoriMas" +
       "terLevelInfo\0222\n\013detail_info\030\r \003(\0132\035.Irod" +
-      "oriMasterLevelDetailInfo\022\020\n\010level_id\030\016 \001" +
+      "oriMasterLevelDetailInfo\022\020\n\010level_id\030\017 \001" +
       "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

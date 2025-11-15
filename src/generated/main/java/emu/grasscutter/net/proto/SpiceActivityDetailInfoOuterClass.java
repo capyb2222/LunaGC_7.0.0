@@ -19,40 +19,40 @@ public final class SpiceActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData> 
         getSpiceStageDataListList();
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData getSpiceStageDataList(int index);
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     int getSpiceStageDataListCount();
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageDataOrBuilder> 
         getSpiceStageDataListOrBuilderList();
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageDataOrBuilder getSpiceStageDataListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 CMGNCELCJLP = 13;</code>
-     * @return The cMGNCELCJLP.
+     * <code>uint32 JNMFMFAKDBH = 6;</code>
+     * @return The jNMFMFAKDBH.
      */
-    int getCMGNCELCJLP();
+    int getJNMFMFAKDBH();
 
     /**
-     * <code>uint32 NMPHLLMFFOP = 1;</code>
-     * @return The nMPHLLMFFOP.
+     * <code>uint32 PONJJEOPLPD = 13;</code>
+     * @return The pONJJEOPLPD.
      */
-    int getNMPHLLMFFOP();
+    int getPONJJEOPLPD();
   }
   /**
    * Protobuf type {@code SpiceActivityDetailInfo}
@@ -101,12 +101,12 @@ public final class SpiceActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 48: {
 
-              nMPHLLMFFOP_ = input.readUInt32();
+              jNMFMFAKDBH_ = input.readUInt32();
               break;
             }
-            case 66: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 spiceStageDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -117,7 +117,7 @@ public final class SpiceActivityDetailInfoOuterClass {
             }
             case 104: {
 
-              cMGNCELCJLP_ = input.readUInt32();
+              pONJJEOPLPD_ = input.readUInt32();
               break;
             }
             default: {
@@ -155,17 +155,17 @@ public final class SpiceActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.SpiceActivityDetailInfoOuterClass.SpiceActivityDetailInfo.class, emu.grasscutter.net.proto.SpiceActivityDetailInfoOuterClass.SpiceActivityDetailInfo.Builder.class);
     }
 
-    public static final int SPICE_STAGE_DATA_LIST_FIELD_NUMBER = 8;
+    public static final int SPICE_STAGE_DATA_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData> spiceStageDataList_;
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData> getSpiceStageDataListList() {
       return spiceStageDataList_;
     }
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageDataOrBuilder> 
@@ -173,21 +173,21 @@ public final class SpiceActivityDetailInfoOuterClass {
       return spiceStageDataList_;
     }
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     @java.lang.Override
     public int getSpiceStageDataListCount() {
       return spiceStageDataList_.size();
     }
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData getSpiceStageDataList(int index) {
       return spiceStageDataList_.get(index);
     }
     /**
-     * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+     * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageDataOrBuilder getSpiceStageDataListOrBuilder(
@@ -195,26 +195,26 @@ public final class SpiceActivityDetailInfoOuterClass {
       return spiceStageDataList_.get(index);
     }
 
-    public static final int CMGNCELCJLP_FIELD_NUMBER = 13;
-    private int cMGNCELCJLP_;
+    public static final int JNMFMFAKDBH_FIELD_NUMBER = 6;
+    private int jNMFMFAKDBH_;
     /**
-     * <code>uint32 CMGNCELCJLP = 13;</code>
-     * @return The cMGNCELCJLP.
+     * <code>uint32 JNMFMFAKDBH = 6;</code>
+     * @return The jNMFMFAKDBH.
      */
     @java.lang.Override
-    public int getCMGNCELCJLP() {
-      return cMGNCELCJLP_;
+    public int getJNMFMFAKDBH() {
+      return jNMFMFAKDBH_;
     }
 
-    public static final int NMPHLLMFFOP_FIELD_NUMBER = 1;
-    private int nMPHLLMFFOP_;
+    public static final int PONJJEOPLPD_FIELD_NUMBER = 13;
+    private int pONJJEOPLPD_;
     /**
-     * <code>uint32 NMPHLLMFFOP = 1;</code>
-     * @return The nMPHLLMFFOP.
+     * <code>uint32 PONJJEOPLPD = 13;</code>
+     * @return The pONJJEOPLPD.
      */
     @java.lang.Override
-    public int getNMPHLLMFFOP() {
-      return nMPHLLMFFOP_;
+    public int getPONJJEOPLPD() {
+      return pONJJEOPLPD_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -231,14 +231,14 @@ public final class SpiceActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (nMPHLLMFFOP_ != 0) {
-        output.writeUInt32(1, nMPHLLMFFOP_);
+      if (jNMFMFAKDBH_ != 0) {
+        output.writeUInt32(6, jNMFMFAKDBH_);
       }
       for (int i = 0; i < spiceStageDataList_.size(); i++) {
-        output.writeMessage(8, spiceStageDataList_.get(i));
+        output.writeMessage(10, spiceStageDataList_.get(i));
       }
-      if (cMGNCELCJLP_ != 0) {
-        output.writeUInt32(13, cMGNCELCJLP_);
+      if (pONJJEOPLPD_ != 0) {
+        output.writeUInt32(13, pONJJEOPLPD_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,17 +249,17 @@ public final class SpiceActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (nMPHLLMFFOP_ != 0) {
+      if (jNMFMFAKDBH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, nMPHLLMFFOP_);
+          .computeUInt32Size(6, jNMFMFAKDBH_);
       }
       for (int i = 0; i < spiceStageDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, spiceStageDataList_.get(i));
+          .computeMessageSize(10, spiceStageDataList_.get(i));
       }
-      if (cMGNCELCJLP_ != 0) {
+      if (pONJJEOPLPD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, cMGNCELCJLP_);
+          .computeUInt32Size(13, pONJJEOPLPD_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,10 +278,10 @@ public final class SpiceActivityDetailInfoOuterClass {
 
       if (!getSpiceStageDataListList()
           .equals(other.getSpiceStageDataListList())) return false;
-      if (getCMGNCELCJLP()
-          != other.getCMGNCELCJLP()) return false;
-      if (getNMPHLLMFFOP()
-          != other.getNMPHLLMFFOP()) return false;
+      if (getJNMFMFAKDBH()
+          != other.getJNMFMFAKDBH()) return false;
+      if (getPONJJEOPLPD()
+          != other.getPONJJEOPLPD()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -297,10 +297,10 @@ public final class SpiceActivityDetailInfoOuterClass {
         hash = (37 * hash) + SPICE_STAGE_DATA_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getSpiceStageDataListList().hashCode();
       }
-      hash = (37 * hash) + CMGNCELCJLP_FIELD_NUMBER;
-      hash = (53 * hash) + getCMGNCELCJLP();
-      hash = (37 * hash) + NMPHLLMFFOP_FIELD_NUMBER;
-      hash = (53 * hash) + getNMPHLLMFFOP();
+      hash = (37 * hash) + JNMFMFAKDBH_FIELD_NUMBER;
+      hash = (53 * hash) + getJNMFMFAKDBH();
+      hash = (37 * hash) + PONJJEOPLPD_FIELD_NUMBER;
+      hash = (53 * hash) + getPONJJEOPLPD();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -441,9 +441,9 @@ public final class SpiceActivityDetailInfoOuterClass {
         } else {
           spiceStageDataListBuilder_.clear();
         }
-        cMGNCELCJLP_ = 0;
+        jNMFMFAKDBH_ = 0;
 
-        nMPHLLMFFOP_ = 0;
+        pONJJEOPLPD_ = 0;
 
         return this;
       }
@@ -481,8 +481,8 @@ public final class SpiceActivityDetailInfoOuterClass {
         } else {
           result.spiceStageDataList_ = spiceStageDataListBuilder_.build();
         }
-        result.cMGNCELCJLP_ = cMGNCELCJLP_;
-        result.nMPHLLMFFOP_ = nMPHLLMFFOP_;
+        result.jNMFMFAKDBH_ = jNMFMFAKDBH_;
+        result.pONJJEOPLPD_ = pONJJEOPLPD_;
         onBuilt();
         return result;
       }
@@ -557,11 +557,11 @@ public final class SpiceActivityDetailInfoOuterClass {
             }
           }
         }
-        if (other.getCMGNCELCJLP() != 0) {
-          setCMGNCELCJLP(other.getCMGNCELCJLP());
+        if (other.getJNMFMFAKDBH() != 0) {
+          setJNMFMFAKDBH(other.getJNMFMFAKDBH());
         }
-        if (other.getNMPHLLMFFOP() != 0) {
-          setNMPHLLMFFOP(other.getNMPHLLMFFOP());
+        if (other.getPONJJEOPLPD() != 0) {
+          setPONJJEOPLPD(other.getPONJJEOPLPD());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -606,7 +606,7 @@ public final class SpiceActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData, emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.Builder, emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageDataOrBuilder> spiceStageDataListBuilder_;
 
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData> getSpiceStageDataListList() {
         if (spiceStageDataListBuilder_ == null) {
@@ -616,7 +616,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public int getSpiceStageDataListCount() {
         if (spiceStageDataListBuilder_ == null) {
@@ -626,7 +626,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData getSpiceStageDataList(int index) {
         if (spiceStageDataListBuilder_ == null) {
@@ -636,7 +636,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public Builder setSpiceStageDataList(
           int index, emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData value) {
@@ -653,7 +653,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public Builder setSpiceStageDataList(
           int index, emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.Builder builderForValue) {
@@ -667,7 +667,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public Builder addSpiceStageDataList(emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData value) {
         if (spiceStageDataListBuilder_ == null) {
@@ -683,7 +683,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public Builder addSpiceStageDataList(
           int index, emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData value) {
@@ -700,7 +700,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public Builder addSpiceStageDataList(
           emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.Builder builderForValue) {
@@ -714,7 +714,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public Builder addSpiceStageDataList(
           int index, emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.Builder builderForValue) {
@@ -728,7 +728,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public Builder addAllSpiceStageDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData> values) {
@@ -743,7 +743,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public Builder clearSpiceStageDataList() {
         if (spiceStageDataListBuilder_ == null) {
@@ -756,7 +756,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public Builder removeSpiceStageDataList(int index) {
         if (spiceStageDataListBuilder_ == null) {
@@ -769,14 +769,14 @@ public final class SpiceActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.Builder getSpiceStageDataListBuilder(
           int index) {
         return getSpiceStageDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageDataOrBuilder getSpiceStageDataListOrBuilder(
           int index) {
@@ -786,7 +786,7 @@ public final class SpiceActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageDataOrBuilder> 
            getSpiceStageDataListOrBuilderList() {
@@ -797,14 +797,14 @@ public final class SpiceActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.Builder addSpiceStageDataListBuilder() {
         return getSpiceStageDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.getDefaultInstance());
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.Builder addSpiceStageDataListBuilder(
           int index) {
@@ -812,7 +812,7 @@ public final class SpiceActivityDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.getDefaultInstance());
       }
       /**
-       * <code>repeated .SpiceStageData spice_stage_data_list = 8;</code>
+       * <code>repeated .SpiceStageData spice_stage_data_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.Builder> 
            getSpiceStageDataListBuilderList() {
@@ -833,64 +833,64 @@ public final class SpiceActivityDetailInfoOuterClass {
         return spiceStageDataListBuilder_;
       }
 
-      private int cMGNCELCJLP_ ;
+      private int jNMFMFAKDBH_ ;
       /**
-       * <code>uint32 CMGNCELCJLP = 13;</code>
-       * @return The cMGNCELCJLP.
+       * <code>uint32 JNMFMFAKDBH = 6;</code>
+       * @return The jNMFMFAKDBH.
        */
       @java.lang.Override
-      public int getCMGNCELCJLP() {
-        return cMGNCELCJLP_;
+      public int getJNMFMFAKDBH() {
+        return jNMFMFAKDBH_;
       }
       /**
-       * <code>uint32 CMGNCELCJLP = 13;</code>
-       * @param value The cMGNCELCJLP to set.
+       * <code>uint32 JNMFMFAKDBH = 6;</code>
+       * @param value The jNMFMFAKDBH to set.
        * @return This builder for chaining.
        */
-      public Builder setCMGNCELCJLP(int value) {
+      public Builder setJNMFMFAKDBH(int value) {
         
-        cMGNCELCJLP_ = value;
+        jNMFMFAKDBH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 CMGNCELCJLP = 13;</code>
+       * <code>uint32 JNMFMFAKDBH = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCMGNCELCJLP() {
+      public Builder clearJNMFMFAKDBH() {
         
-        cMGNCELCJLP_ = 0;
+        jNMFMFAKDBH_ = 0;
         onChanged();
         return this;
       }
 
-      private int nMPHLLMFFOP_ ;
+      private int pONJJEOPLPD_ ;
       /**
-       * <code>uint32 NMPHLLMFFOP = 1;</code>
-       * @return The nMPHLLMFFOP.
+       * <code>uint32 PONJJEOPLPD = 13;</code>
+       * @return The pONJJEOPLPD.
        */
       @java.lang.Override
-      public int getNMPHLLMFFOP() {
-        return nMPHLLMFFOP_;
+      public int getPONJJEOPLPD() {
+        return pONJJEOPLPD_;
       }
       /**
-       * <code>uint32 NMPHLLMFFOP = 1;</code>
-       * @param value The nMPHLLMFFOP to set.
+       * <code>uint32 PONJJEOPLPD = 13;</code>
+       * @param value The pONJJEOPLPD to set.
        * @return This builder for chaining.
        */
-      public Builder setNMPHLLMFFOP(int value) {
+      public Builder setPONJJEOPLPD(int value) {
         
-        nMPHLLMFFOP_ = value;
+        pONJJEOPLPD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 NMPHLLMFFOP = 1;</code>
+       * <code>uint32 PONJJEOPLPD = 13;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNMPHLLMFFOP() {
+      public Builder clearPONJJEOPLPD() {
         
-        nMPHLLMFFOP_ = 0;
+        pONJJEOPLPD_ = 0;
         onChanged();
         return this;
       }
@@ -963,9 +963,9 @@ public final class SpiceActivityDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035SpiceActivityDetailInfo.proto\032\024SpiceSt" +
       "ageData.proto\"s\n\027SpiceActivityDetailInfo" +
-      "\022.\n\025spice_stage_data_list\030\010 \003(\0132\017.SpiceS" +
-      "tageData\022\023\n\013CMGNCELCJLP\030\r \001(\r\022\023\n\013NMPHLLM" +
-      "FFOP\030\001 \001(\rB\033\n\031emu.grasscutter.net.protob" +
+      "\022.\n\025spice_stage_data_list\030\n \003(\0132\017.SpiceS" +
+      "tageData\022\023\n\013JNMFMFAKDBH\030\006 \001(\r\022\023\n\013PONJJEO" +
+      "PLPD\030\r \001(\rB\033\n\031emu.grasscutter.net.protob" +
       "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -978,7 +978,7 @@ public final class SpiceActivityDetailInfoOuterClass {
     internal_static_SpiceActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SpiceActivityDetailInfo_descriptor,
-        new java.lang.String[] { "SpiceStageDataList", "CMGNCELCJLP", "NMPHLLMFFOP", });
+        new java.lang.String[] { "SpiceStageDataList", "JNMFMFAKDBH", "PONJJEOPLPD", });
     emu.grasscutter.net.proto.SpiceStageDataOuterClass.getDescriptor();
   }
 

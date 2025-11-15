@@ -19,7 +19,13 @@ public final class CollectUnderwaterLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 11;</code>
+     * <code>uint32 FFJODAJJEMP = 7;</code>
+     * @return The fFJODAJJEMP.
+     */
+    int getFFJODAJJEMP();
+
+    /**
+     * <code>uint32 level_id = 10;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -31,16 +37,10 @@ public final class CollectUnderwaterLevelInfoOuterClass {
     boolean getIsFinished();
 
     /**
-     * <code>bool is_level_open = 14;</code>
+     * <code>bool is_level_open = 9;</code>
      * @return The isLevelOpen.
      */
     boolean getIsLevelOpen();
-
-    /**
-     * <code>uint32 OIKLMEFNDCM = 8;</code>
-     * @return The oIKLMEFNDCM.
-     */
-    int getOIKLMEFNDCM();
   }
   /**
    * Protobuf type {@code CollectUnderwaterLevelInfo}
@@ -92,19 +92,19 @@ public final class CollectUnderwaterLevelInfoOuterClass {
               isFinished_ = input.readBool();
               break;
             }
-            case 64: {
+            case 56: {
 
-              oIKLMEFNDCM_ = input.readUInt32();
+              fFJODAJJEMP_ = input.readUInt32();
               break;
             }
-            case 88: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 72: {
 
               isLevelOpen_ = input.readBool();
+              break;
+            }
+            case 80: {
+
+              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +139,21 @@ public final class CollectUnderwaterLevelInfoOuterClass {
               emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.class, emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 11;
+    public static final int FFJODAJJEMP_FIELD_NUMBER = 7;
+    private int fFJODAJJEMP_;
+    /**
+     * <code>uint32 FFJODAJJEMP = 7;</code>
+     * @return The fFJODAJJEMP.
+     */
+    @java.lang.Override
+    public int getFFJODAJJEMP() {
+      return fFJODAJJEMP_;
+    }
+
+    public static final int LEVEL_ID_FIELD_NUMBER = 10;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 11;</code>
+     * <code>uint32 level_id = 10;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -161,26 +172,15 @@ public final class CollectUnderwaterLevelInfoOuterClass {
       return isFinished_;
     }
 
-    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 14;
+    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 9;
     private boolean isLevelOpen_;
     /**
-     * <code>bool is_level_open = 14;</code>
+     * <code>bool is_level_open = 9;</code>
      * @return The isLevelOpen.
      */
     @java.lang.Override
     public boolean getIsLevelOpen() {
       return isLevelOpen_;
-    }
-
-    public static final int OIKLMEFNDCM_FIELD_NUMBER = 8;
-    private int oIKLMEFNDCM_;
-    /**
-     * <code>uint32 OIKLMEFNDCM = 8;</code>
-     * @return The oIKLMEFNDCM.
-     */
-    @java.lang.Override
-    public int getOIKLMEFNDCM() {
-      return oIKLMEFNDCM_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -200,14 +200,14 @@ public final class CollectUnderwaterLevelInfoOuterClass {
       if (isFinished_ != false) {
         output.writeBool(2, isFinished_);
       }
-      if (oIKLMEFNDCM_ != 0) {
-        output.writeUInt32(8, oIKLMEFNDCM_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(11, levelId_);
+      if (fFJODAJJEMP_ != 0) {
+        output.writeUInt32(7, fFJODAJJEMP_);
       }
       if (isLevelOpen_ != false) {
-        output.writeBool(14, isLevelOpen_);
+        output.writeBool(9, isLevelOpen_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(10, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -222,17 +222,17 @@ public final class CollectUnderwaterLevelInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(2, isFinished_);
       }
-      if (oIKLMEFNDCM_ != 0) {
+      if (fFJODAJJEMP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, oIKLMEFNDCM_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, levelId_);
+          .computeUInt32Size(7, fFJODAJJEMP_);
       }
       if (isLevelOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isLevelOpen_);
+          .computeBoolSize(9, isLevelOpen_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -249,14 +249,14 @@ public final class CollectUnderwaterLevelInfoOuterClass {
       }
       emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo other = (emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo) obj;
 
+      if (getFFJODAJJEMP()
+          != other.getFFJODAJJEMP()) return false;
       if (getLevelId()
           != other.getLevelId()) return false;
       if (getIsFinished()
           != other.getIsFinished()) return false;
       if (getIsLevelOpen()
           != other.getIsLevelOpen()) return false;
-      if (getOIKLMEFNDCM()
-          != other.getOIKLMEFNDCM()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -268,6 +268,8 @@ public final class CollectUnderwaterLevelInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + FFJODAJJEMP_FIELD_NUMBER;
+      hash = (53 * hash) + getFFJODAJJEMP();
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
       hash = (37 * hash) + IS_FINISHED_FIELD_NUMBER;
@@ -276,8 +278,6 @@ public final class CollectUnderwaterLevelInfoOuterClass {
       hash = (37 * hash) + IS_LEVEL_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsLevelOpen());
-      hash = (37 * hash) + OIKLMEFNDCM_FIELD_NUMBER;
-      hash = (53 * hash) + getOIKLMEFNDCM();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -411,13 +411,13 @@ public final class CollectUnderwaterLevelInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        fFJODAJJEMP_ = 0;
+
         levelId_ = 0;
 
         isFinished_ = false;
 
         isLevelOpen_ = false;
-
-        oIKLMEFNDCM_ = 0;
 
         return this;
       }
@@ -445,10 +445,10 @@ public final class CollectUnderwaterLevelInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo buildPartial() {
         emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo result = new emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo(this);
+        result.fFJODAJJEMP_ = fFJODAJJEMP_;
         result.levelId_ = levelId_;
         result.isFinished_ = isFinished_;
         result.isLevelOpen_ = isLevelOpen_;
-        result.oIKLMEFNDCM_ = oIKLMEFNDCM_;
         onBuilt();
         return result;
       }
@@ -497,6 +497,9 @@ public final class CollectUnderwaterLevelInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo other) {
         if (other == emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.getDefaultInstance()) return this;
+        if (other.getFFJODAJJEMP() != 0) {
+          setFFJODAJJEMP(other.getFFJODAJJEMP());
+        }
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
         }
@@ -505,9 +508,6 @@ public final class CollectUnderwaterLevelInfoOuterClass {
         }
         if (other.getIsLevelOpen() != false) {
           setIsLevelOpen(other.getIsLevelOpen());
-        }
-        if (other.getOIKLMEFNDCM() != 0) {
-          setOIKLMEFNDCM(other.getOIKLMEFNDCM());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -538,9 +538,40 @@ public final class CollectUnderwaterLevelInfoOuterClass {
         return this;
       }
 
+      private int fFJODAJJEMP_ ;
+      /**
+       * <code>uint32 FFJODAJJEMP = 7;</code>
+       * @return The fFJODAJJEMP.
+       */
+      @java.lang.Override
+      public int getFFJODAJJEMP() {
+        return fFJODAJJEMP_;
+      }
+      /**
+       * <code>uint32 FFJODAJJEMP = 7;</code>
+       * @param value The fFJODAJJEMP to set.
+       * @return This builder for chaining.
+       */
+      public Builder setFFJODAJJEMP(int value) {
+        
+        fFJODAJJEMP_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 FFJODAJJEMP = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearFFJODAJJEMP() {
+        
+        fFJODAJJEMP_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <code>uint32 level_id = 10;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -548,7 +579,7 @@ public final class CollectUnderwaterLevelInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <code>uint32 level_id = 10;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -559,7 +590,7 @@ public final class CollectUnderwaterLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <code>uint32 level_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -602,7 +633,7 @@ public final class CollectUnderwaterLevelInfoOuterClass {
 
       private boolean isLevelOpen_ ;
       /**
-       * <code>bool is_level_open = 14;</code>
+       * <code>bool is_level_open = 9;</code>
        * @return The isLevelOpen.
        */
       @java.lang.Override
@@ -610,7 +641,7 @@ public final class CollectUnderwaterLevelInfoOuterClass {
         return isLevelOpen_;
       }
       /**
-       * <code>bool is_level_open = 14;</code>
+       * <code>bool is_level_open = 9;</code>
        * @param value The isLevelOpen to set.
        * @return This builder for chaining.
        */
@@ -621,43 +652,12 @@ public final class CollectUnderwaterLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_level_open = 14;</code>
+       * <code>bool is_level_open = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsLevelOpen() {
         
         isLevelOpen_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int oIKLMEFNDCM_ ;
-      /**
-       * <code>uint32 OIKLMEFNDCM = 8;</code>
-       * @return The oIKLMEFNDCM.
-       */
-      @java.lang.Override
-      public int getOIKLMEFNDCM() {
-        return oIKLMEFNDCM_;
-      }
-      /**
-       * <code>uint32 OIKLMEFNDCM = 8;</code>
-       * @param value The oIKLMEFNDCM to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOIKLMEFNDCM(int value) {
-        
-        oIKLMEFNDCM_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 OIKLMEFNDCM = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOIKLMEFNDCM() {
-        
-        oIKLMEFNDCM_ = 0;
         onChanged();
         return this;
       }
@@ -729,9 +729,9 @@ public final class CollectUnderwaterLevelInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n CollectUnderwaterLevelInfo.proto\"o\n\032Co" +
-      "llectUnderwaterLevelInfo\022\020\n\010level_id\030\013 \001" +
-      "(\r\022\023\n\013is_finished\030\002 \001(\010\022\025\n\ris_level_open" +
-      "\030\016 \001(\010\022\023\n\013OIKLMEFNDCM\030\010 \001(\rB\033\n\031emu.grass" +
+      "llectUnderwaterLevelInfo\022\023\n\013FFJODAJJEMP\030" +
+      "\007 \001(\r\022\020\n\010level_id\030\n \001(\r\022\023\n\013is_finished\030\002" +
+      " \001(\010\022\025\n\ris_level_open\030\t \001(\010B\033\n\031emu.grass" +
       "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -743,7 +743,7 @@ public final class CollectUnderwaterLevelInfoOuterClass {
     internal_static_CollectUnderwaterLevelInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CollectUnderwaterLevelInfo_descriptor,
-        new java.lang.String[] { "LevelId", "IsFinished", "IsLevelOpen", "OIKLMEFNDCM", });
+        new java.lang.String[] { "FFJODAJJEMP", "LevelId", "IsFinished", "IsLevelOpen", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

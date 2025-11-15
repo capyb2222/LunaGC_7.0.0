@@ -19,45 +19,45 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo> 
-        getLevelInfoListList();
-    /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo getLevelInfoList(int index);
-    /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    int getLevelInfoListCount();
-    /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder> 
-        getLevelInfoListOrBuilderList();
-    /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder getLevelInfoListOrBuilder(
-        int index);
-
-    /**
-     * <code>repeated uint32 open_stage_list = 8;</code>
+     * <code>repeated uint32 open_stage_list = 11;</code>
      * @return A list containing the openStageList.
      */
     java.util.List<java.lang.Integer> getOpenStageListList();
     /**
-     * <code>repeated uint32 open_stage_list = 8;</code>
+     * <code>repeated uint32 open_stage_list = 11;</code>
      * @return The count of openStageList.
      */
     int getOpenStageListCount();
     /**
-     * <code>repeated uint32 open_stage_list = 8;</code>
+     * <code>repeated uint32 open_stage_list = 11;</code>
      * @param index The index of the element to return.
      * @return The openStageList at the given index.
      */
     int getOpenStageList(int index);
+
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo> 
+        getLevelInfoListList();
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo getLevelInfoList(int index);
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    int getLevelInfoListCount();
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder> 
+        getLevelInfoListOrBuilderList();
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder getLevelInfoListOrBuilder(
+        int index);
   }
   /**
    * Protobuf type {@code ElectroherculesBattleV3DetailInfo}
@@ -72,8 +72,8 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       super(builder);
     }
     private ElectroherculesBattleV3DetailInfo() {
-      levelInfoList_ = java.util.Collections.emptyList();
       openStageList_ = emptyIntList();
+      levelInfoList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -107,34 +107,34 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              levelInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 64: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 openStageList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               openStageList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
                 openStageList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
                 openStageList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 98: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              levelInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -153,10 +153,10 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
+          openStageList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          openStageList_.makeImmutable(); // C
+          levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -175,50 +175,10 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
               emu.grasscutter.net.proto.ElectroherculesBattleV3DetailInfoOuterClass.ElectroherculesBattleV3DetailInfo.class, emu.grasscutter.net.proto.ElectroherculesBattleV3DetailInfoOuterClass.ElectroherculesBattleV3DetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 4;
-    private java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo> levelInfoList_;
-    /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo> getLevelInfoListList() {
-      return levelInfoList_;
-    }
-    /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder> 
-        getLevelInfoListOrBuilderList() {
-      return levelInfoList_;
-    }
-    /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    @java.lang.Override
-    public int getLevelInfoListCount() {
-      return levelInfoList_.size();
-    }
-    /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo getLevelInfoList(int index) {
-      return levelInfoList_.get(index);
-    }
-    /**
-     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder getLevelInfoListOrBuilder(
-        int index) {
-      return levelInfoList_.get(index);
-    }
-
-    public static final int OPEN_STAGE_LIST_FIELD_NUMBER = 8;
+    public static final int OPEN_STAGE_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList openStageList_;
     /**
-     * <code>repeated uint32 open_stage_list = 8;</code>
+     * <code>repeated uint32 open_stage_list = 11;</code>
      * @return A list containing the openStageList.
      */
     @java.lang.Override
@@ -227,14 +187,14 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       return openStageList_;
     }
     /**
-     * <code>repeated uint32 open_stage_list = 8;</code>
+     * <code>repeated uint32 open_stage_list = 11;</code>
      * @return The count of openStageList.
      */
     public int getOpenStageListCount() {
       return openStageList_.size();
     }
     /**
-     * <code>repeated uint32 open_stage_list = 8;</code>
+     * <code>repeated uint32 open_stage_list = 11;</code>
      * @param index The index of the element to return.
      * @return The openStageList at the given index.
      */
@@ -242,6 +202,46 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       return openStageList_.getInt(index);
     }
     private int openStageListMemoizedSerializedSize = -1;
+
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 12;
+    private java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo> levelInfoList_;
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo> getLevelInfoListList() {
+      return levelInfoList_;
+    }
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder> 
+        getLevelInfoListOrBuilderList() {
+      return levelInfoList_;
+    }
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    @java.lang.Override
+    public int getLevelInfoListCount() {
+      return levelInfoList_.size();
+    }
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo getLevelInfoList(int index) {
+      return levelInfoList_.get(index);
+    }
+    /**
+     * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder getLevelInfoListOrBuilder(
+        int index) {
+      return levelInfoList_.get(index);
+    }
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -258,15 +258,15 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(4, levelInfoList_.get(i));
-      }
       if (getOpenStageListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(openStageListMemoizedSerializedSize);
       }
       for (int i = 0; i < openStageList_.size(); i++) {
         output.writeUInt32NoTag(openStageList_.getInt(i));
+      }
+      for (int i = 0; i < levelInfoList_.size(); i++) {
+        output.writeMessage(12, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -277,10 +277,6 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < levelInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, levelInfoList_.get(i));
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < openStageList_.size(); i++) {
@@ -294,6 +290,10 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         openStageListMemoizedSerializedSize = dataSize;
+      }
+      for (int i = 0; i < levelInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -310,10 +310,10 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.ElectroherculesBattleV3DetailInfoOuterClass.ElectroherculesBattleV3DetailInfo other = (emu.grasscutter.net.proto.ElectroherculesBattleV3DetailInfoOuterClass.ElectroherculesBattleV3DetailInfo) obj;
 
-      if (!getLevelInfoListList()
-          .equals(other.getLevelInfoListList())) return false;
       if (!getOpenStageListList()
           .equals(other.getOpenStageListList())) return false;
+      if (!getLevelInfoListList()
+          .equals(other.getLevelInfoListList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -325,13 +325,13 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getLevelInfoListCount() > 0) {
-        hash = (37 * hash) + LEVEL_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getLevelInfoListList().hashCode();
-      }
       if (getOpenStageListCount() > 0) {
         hash = (37 * hash) + OPEN_STAGE_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getOpenStageListList().hashCode();
+      }
+      if (getLevelInfoListCount() > 0) {
+        hash = (37 * hash) + LEVEL_INFO_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getLevelInfoListList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -467,14 +467,14 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        openStageList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
         if (levelInfoListBuilder_ == null) {
           levelInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000002);
         } else {
           levelInfoListBuilder_.clear();
         }
-        openStageList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
 
@@ -502,20 +502,20 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       public emu.grasscutter.net.proto.ElectroherculesBattleV3DetailInfoOuterClass.ElectroherculesBattleV3DetailInfo buildPartial() {
         emu.grasscutter.net.proto.ElectroherculesBattleV3DetailInfoOuterClass.ElectroherculesBattleV3DetailInfo result = new emu.grasscutter.net.proto.ElectroherculesBattleV3DetailInfoOuterClass.ElectroherculesBattleV3DetailInfo(this);
         int from_bitField0_ = bitField0_;
+        if (((bitField0_ & 0x00000001) != 0)) {
+          openStageList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.openStageList_ = openStageList_;
         if (levelInfoListBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
+          if (((bitField0_ & 0x00000002) != 0)) {
             levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
-            bitField0_ = (bitField0_ & ~0x00000001);
+            bitField0_ = (bitField0_ & ~0x00000002);
           }
           result.levelInfoList_ = levelInfoList_;
         } else {
           result.levelInfoList_ = levelInfoListBuilder_.build();
         }
-        if (((bitField0_ & 0x00000002) != 0)) {
-          openStageList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.openStageList_ = openStageList_;
         onBuilt();
         return result;
       }
@@ -564,11 +564,21 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ElectroherculesBattleV3DetailInfoOuterClass.ElectroherculesBattleV3DetailInfo other) {
         if (other == emu.grasscutter.net.proto.ElectroherculesBattleV3DetailInfoOuterClass.ElectroherculesBattleV3DetailInfo.getDefaultInstance()) return this;
+        if (!other.openStageList_.isEmpty()) {
+          if (openStageList_.isEmpty()) {
+            openStageList_ = other.openStageList_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureOpenStageListIsMutable();
+            openStageList_.addAll(other.openStageList_);
+          }
+          onChanged();
+        }
         if (levelInfoListBuilder_ == null) {
           if (!other.levelInfoList_.isEmpty()) {
             if (levelInfoList_.isEmpty()) {
               levelInfoList_ = other.levelInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
               ensureLevelInfoListIsMutable();
               levelInfoList_.addAll(other.levelInfoList_);
@@ -581,7 +591,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
               levelInfoListBuilder_.dispose();
               levelInfoListBuilder_ = null;
               levelInfoList_ = other.levelInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000002);
               levelInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getLevelInfoListFieldBuilder() : null;
@@ -589,16 +599,6 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
               levelInfoListBuilder_.addAllMessages(other.levelInfoList_);
             }
           }
-        }
-        if (!other.openStageList_.isEmpty()) {
-          if (openStageList_.isEmpty()) {
-            openStageList_ = other.openStageList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureOpenStageListIsMutable();
-            openStageList_.addAll(other.openStageList_);
-          }
-          onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -630,12 +630,91 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
       }
       private int bitField0_;
 
+      private com.google.protobuf.Internal.IntList openStageList_ = emptyIntList();
+      private void ensureOpenStageListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          openStageList_ = mutableCopy(openStageList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 open_stage_list = 11;</code>
+       * @return A list containing the openStageList.
+       */
+      public java.util.List<java.lang.Integer>
+          getOpenStageListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(openStageList_) : openStageList_;
+      }
+      /**
+       * <code>repeated uint32 open_stage_list = 11;</code>
+       * @return The count of openStageList.
+       */
+      public int getOpenStageListCount() {
+        return openStageList_.size();
+      }
+      /**
+       * <code>repeated uint32 open_stage_list = 11;</code>
+       * @param index The index of the element to return.
+       * @return The openStageList at the given index.
+       */
+      public int getOpenStageList(int index) {
+        return openStageList_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 open_stage_list = 11;</code>
+       * @param index The index to set the value at.
+       * @param value The openStageList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOpenStageList(
+          int index, int value) {
+        ensureOpenStageListIsMutable();
+        openStageList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 open_stage_list = 11;</code>
+       * @param value The openStageList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addOpenStageList(int value) {
+        ensureOpenStageListIsMutable();
+        openStageList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 open_stage_list = 11;</code>
+       * @param values The openStageList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllOpenStageList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureOpenStageListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, openStageList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 open_stage_list = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOpenStageList() {
+        openStageList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
       private java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo> levelInfoList_ =
         java.util.Collections.emptyList();
       private void ensureLevelInfoListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
+        if (!((bitField0_ & 0x00000002) != 0)) {
           levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo>(levelInfoList_);
-          bitField0_ |= 0x00000001;
+          bitField0_ |= 0x00000002;
          }
       }
 
@@ -643,7 +722,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
           emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo, emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.Builder, emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -653,7 +732,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -663,7 +742,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -673,7 +752,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo value) {
@@ -690,7 +769,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.Builder builderForValue) {
@@ -704,7 +783,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo value) {
         if (levelInfoListBuilder_ == null) {
@@ -720,7 +799,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo value) {
@@ -737,7 +816,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.Builder builderForValue) {
@@ -751,7 +830,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.Builder builderForValue) {
@@ -765,7 +844,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo> values) {
@@ -780,12 +859,12 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
           levelInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
           levelInfoListBuilder_.clear();
@@ -793,7 +872,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -806,14 +885,14 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -823,7 +902,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -834,14 +913,14 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.Builder addLevelInfoListBuilder(
           int index) {
@@ -849,7 +928,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
             index, emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 4;</code>
+       * <code>repeated .ElectroherculesBattleV3LevelInfo level_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.Builder> 
            getLevelInfoListBuilderList() {
@@ -862,91 +941,12 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
           levelInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo, emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfo.Builder, emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.ElectroherculesBattleV3LevelInfoOrBuilder>(
                   levelInfoList_,
-                  ((bitField0_ & 0x00000001) != 0),
+                  ((bitField0_ & 0x00000002) != 0),
                   getParentForChildren(),
                   isClean());
           levelInfoList_ = null;
         }
         return levelInfoListBuilder_;
-      }
-
-      private com.google.protobuf.Internal.IntList openStageList_ = emptyIntList();
-      private void ensureOpenStageListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          openStageList_ = mutableCopy(openStageList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 open_stage_list = 8;</code>
-       * @return A list containing the openStageList.
-       */
-      public java.util.List<java.lang.Integer>
-          getOpenStageListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(openStageList_) : openStageList_;
-      }
-      /**
-       * <code>repeated uint32 open_stage_list = 8;</code>
-       * @return The count of openStageList.
-       */
-      public int getOpenStageListCount() {
-        return openStageList_.size();
-      }
-      /**
-       * <code>repeated uint32 open_stage_list = 8;</code>
-       * @param index The index of the element to return.
-       * @return The openStageList at the given index.
-       */
-      public int getOpenStageList(int index) {
-        return openStageList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 open_stage_list = 8;</code>
-       * @param index The index to set the value at.
-       * @param value The openStageList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOpenStageList(
-          int index, int value) {
-        ensureOpenStageListIsMutable();
-        openStageList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 open_stage_list = 8;</code>
-       * @param value The openStageList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addOpenStageList(int value) {
-        ensureOpenStageListIsMutable();
-        openStageList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 open_stage_list = 8;</code>
-       * @param values The openStageList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllOpenStageList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureOpenStageListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, openStageList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 open_stage_list = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOpenStageList() {
-        openStageList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
-        return this;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -1017,10 +1017,10 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\'ElectroherculesBattleV3DetailInfo.prot" +
       "o\032&ElectroherculesBattleV3LevelInfo.prot" +
-      "o\"x\n!ElectroherculesBattleV3DetailInfo\022:" +
-      "\n\017level_info_list\030\004 \003(\0132!.Electrohercule" +
-      "sBattleV3LevelInfo\022\027\n\017open_stage_list\030\010 " +
-      "\003(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "o\"x\n!ElectroherculesBattleV3DetailInfo\022\027" +
+      "\n\017open_stage_list\030\013 \003(\r\022:\n\017level_info_li" +
+      "st\030\014 \003(\0132!.ElectroherculesBattleV3LevelI" +
+      "nfoB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1032,7 +1032,7 @@ public final class ElectroherculesBattleV3DetailInfoOuterClass {
     internal_static_ElectroherculesBattleV3DetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ElectroherculesBattleV3DetailInfo_descriptor,
-        new java.lang.String[] { "LevelInfoList", "OpenStageList", });
+        new java.lang.String[] { "OpenStageList", "LevelInfoList", });
     emu.grasscutter.net.proto.ElectroherculesBattleV3LevelInfoOuterClass.getDescriptor();
   }
 

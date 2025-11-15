@@ -19,25 +19,25 @@ public final class BulletHellLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 10;</code>
-     * @return The levelId.
-     */
-    int getLevelId();
-
-    /**
-     * <code>bool is_finish = 7;</code>
-     * @return The isFinish.
-     */
-    boolean getIsFinish();
-
-    /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>uint32 score = 15;</code>
+     * <code>bool is_finish = 13;</code>
+     * @return The isFinish.
+     */
+    boolean getIsFinish();
+
+    /**
+     * <code>uint32 level_id = 5;</code>
+     * @return The levelId.
+     */
+    int getLevelId();
+
+    /**
+     * <code>uint32 score = 9;</code>
      * @return The score.
      */
     int getScore();
@@ -87,24 +87,24 @@ public final class BulletHellLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
-
-              isFinish_ = input.readBool();
-              break;
-            }
-            case 80: {
+            case 40: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 56: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 120: {
+            case 72: {
 
               score_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              isFinish_ = input.readBool();
               break;
             }
             default: {
@@ -139,32 +139,10 @@ public final class BulletHellLevelInfoOuterClass {
               emu.grasscutter.net.proto.BulletHellLevelInfoOuterClass.BulletHellLevelInfo.class, emu.grasscutter.net.proto.BulletHellLevelInfoOuterClass.BulletHellLevelInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 10;
-    private int levelId_;
-    /**
-     * <code>uint32 level_id = 10;</code>
-     * @return The levelId.
-     */
-    @java.lang.Override
-    public int getLevelId() {
-      return levelId_;
-    }
-
-    public static final int IS_FINISH_FIELD_NUMBER = 7;
-    private boolean isFinish_;
-    /**
-     * <code>bool is_finish = 7;</code>
-     * @return The isFinish.
-     */
-    @java.lang.Override
-    public boolean getIsFinish() {
-      return isFinish_;
-    }
-
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 7;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -172,10 +150,32 @@ public final class BulletHellLevelInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 15;
+    public static final int IS_FINISH_FIELD_NUMBER = 13;
+    private boolean isFinish_;
+    /**
+     * <code>bool is_finish = 13;</code>
+     * @return The isFinish.
+     */
+    @java.lang.Override
+    public boolean getIsFinish() {
+      return isFinish_;
+    }
+
+    public static final int LEVEL_ID_FIELD_NUMBER = 5;
+    private int levelId_;
+    /**
+     * <code>uint32 level_id = 5;</code>
+     * @return The levelId.
+     */
+    @java.lang.Override
+    public int getLevelId() {
+      return levelId_;
+    }
+
+    public static final int SCORE_FIELD_NUMBER = 9;
     private int score_;
     /**
-     * <code>uint32 score = 15;</code>
+     * <code>uint32 score = 9;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class BulletHellLevelInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isFinish_ != false) {
-        output.writeBool(7, isFinish_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(10, levelId_);
+        output.writeUInt32(5, levelId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(7, isOpen_);
       }
       if (score_ != 0) {
-        output.writeUInt32(15, score_);
+        output.writeUInt32(9, score_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(13, isFinish_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class BulletHellLevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isFinish_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isFinish_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, levelId_);
+          .computeUInt32Size(5, levelId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(7, isOpen_);
       }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, score_);
+          .computeUInt32Size(9, score_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(13, isFinish_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -249,12 +249,12 @@ public final class BulletHellLevelInfoOuterClass {
       }
       emu.grasscutter.net.proto.BulletHellLevelInfoOuterClass.BulletHellLevelInfo other = (emu.grasscutter.net.proto.BulletHellLevelInfoOuterClass.BulletHellLevelInfo) obj;
 
-      if (getLevelId()
-          != other.getLevelId()) return false;
-      if (getIsFinish()
-          != other.getIsFinish()) return false;
       if (getIsOpen()
           != other.getIsOpen()) return false;
+      if (getIsFinish()
+          != other.getIsFinish()) return false;
+      if (getLevelId()
+          != other.getLevelId()) return false;
       if (getScore()
           != other.getScore()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -268,14 +268,14 @@ public final class BulletHellLevelInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getLevelId();
-      hash = (37 * hash) + IS_FINISH_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsFinish());
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
+      hash = (37 * hash) + IS_FINISH_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsFinish());
+      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLevelId();
       hash = (37 * hash) + SCORE_FIELD_NUMBER;
       hash = (53 * hash) + getScore();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -411,11 +411,11 @@ public final class BulletHellLevelInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        levelId_ = 0;
+        isOpen_ = false;
 
         isFinish_ = false;
 
-        isOpen_ = false;
+        levelId_ = 0;
 
         score_ = 0;
 
@@ -445,9 +445,9 @@ public final class BulletHellLevelInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.BulletHellLevelInfoOuterClass.BulletHellLevelInfo buildPartial() {
         emu.grasscutter.net.proto.BulletHellLevelInfoOuterClass.BulletHellLevelInfo result = new emu.grasscutter.net.proto.BulletHellLevelInfoOuterClass.BulletHellLevelInfo(this);
-        result.levelId_ = levelId_;
-        result.isFinish_ = isFinish_;
         result.isOpen_ = isOpen_;
+        result.isFinish_ = isFinish_;
+        result.levelId_ = levelId_;
         result.score_ = score_;
         onBuilt();
         return result;
@@ -497,14 +497,14 @@ public final class BulletHellLevelInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.BulletHellLevelInfoOuterClass.BulletHellLevelInfo other) {
         if (other == emu.grasscutter.net.proto.BulletHellLevelInfoOuterClass.BulletHellLevelInfo.getDefaultInstance()) return this;
-        if (other.getLevelId() != 0) {
-          setLevelId(other.getLevelId());
+        if (other.getIsOpen() != false) {
+          setIsOpen(other.getIsOpen());
         }
         if (other.getIsFinish() != false) {
           setIsFinish(other.getIsFinish());
         }
-        if (other.getIsOpen() != false) {
-          setIsOpen(other.getIsOpen());
+        if (other.getLevelId() != 0) {
+          setLevelId(other.getLevelId());
         }
         if (other.getScore() != 0) {
           setScore(other.getScore());
@@ -538,71 +538,9 @@ public final class BulletHellLevelInfoOuterClass {
         return this;
       }
 
-      private int levelId_ ;
-      /**
-       * <code>uint32 level_id = 10;</code>
-       * @return The levelId.
-       */
-      @java.lang.Override
-      public int getLevelId() {
-        return levelId_;
-      }
-      /**
-       * <code>uint32 level_id = 10;</code>
-       * @param value The levelId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLevelId(int value) {
-        
-        levelId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 level_id = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLevelId() {
-        
-        levelId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean isFinish_ ;
-      /**
-       * <code>bool is_finish = 7;</code>
-       * @return The isFinish.
-       */
-      @java.lang.Override
-      public boolean getIsFinish() {
-        return isFinish_;
-      }
-      /**
-       * <code>bool is_finish = 7;</code>
-       * @param value The isFinish to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsFinish(boolean value) {
-        
-        isFinish_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_finish = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsFinish() {
-        
-        isFinish_ = false;
-        onChanged();
-        return this;
-      }
-
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 7;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -610,7 +548,7 @@ public final class BulletHellLevelInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 7;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -621,7 +559,7 @@ public final class BulletHellLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -631,9 +569,71 @@ public final class BulletHellLevelInfoOuterClass {
         return this;
       }
 
+      private boolean isFinish_ ;
+      /**
+       * <code>bool is_finish = 13;</code>
+       * @return The isFinish.
+       */
+      @java.lang.Override
+      public boolean getIsFinish() {
+        return isFinish_;
+      }
+      /**
+       * <code>bool is_finish = 13;</code>
+       * @param value The isFinish to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsFinish(boolean value) {
+        
+        isFinish_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_finish = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsFinish() {
+        
+        isFinish_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int levelId_ ;
+      /**
+       * <code>uint32 level_id = 5;</code>
+       * @return The levelId.
+       */
+      @java.lang.Override
+      public int getLevelId() {
+        return levelId_;
+      }
+      /**
+       * <code>uint32 level_id = 5;</code>
+       * @param value The levelId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLevelId(int value) {
+        
+        levelId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 level_id = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLevelId() {
+        
+        levelId_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int score_ ;
       /**
-       * <code>uint32 score = 15;</code>
+       * <code>uint32 score = 9;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class BulletHellLevelInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 15;</code>
+       * <code>uint32 score = 9;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class BulletHellLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 15;</code>
+       * <code>uint32 score = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -729,8 +729,8 @@ public final class BulletHellLevelInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031BulletHellLevelInfo.proto\"Z\n\023BulletHel" +
-      "lLevelInfo\022\020\n\010level_id\030\n \001(\r\022\021\n\tis_finis" +
-      "h\030\007 \001(\010\022\017\n\007is_open\030\014 \001(\010\022\r\n\005score\030\017 \001(\rB" +
+      "lLevelInfo\022\017\n\007is_open\030\007 \001(\010\022\021\n\tis_finish" +
+      "\030\r \001(\010\022\020\n\010level_id\030\005 \001(\r\022\r\n\005score\030\t \001(\rB" +
       "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -742,7 +742,7 @@ public final class BulletHellLevelInfoOuterClass {
     internal_static_BulletHellLevelInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BulletHellLevelInfo_descriptor,
-        new java.lang.String[] { "LevelId", "IsFinish", "IsOpen", "Score", });
+        new java.lang.String[] { "IsOpen", "IsFinish", "LevelId", "Score", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

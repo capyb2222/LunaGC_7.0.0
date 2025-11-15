@@ -19,25 +19,25 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> 
         getMuqadasPotionLevelDataListList();
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData getMuqadasPotionLevelDataList(int index);
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     int getMuqadasPotionLevelDataListCount();
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder> 
         getMuqadasPotionLevelDataListOrBuilderList();
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder getMuqadasPotionLevelDataListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 muqadasPotionLevelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo.class, emu.grasscutter.net.proto.MuqadasPotionActivityDetailInfoOuterClass.MuqadasPotionActivityDetailInfo.Builder.class);
     }
 
-    public static final int MUQADAS_POTION_LEVEL_DATA_LIST_FIELD_NUMBER = 15;
+    public static final int MUQADAS_POTION_LEVEL_DATA_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> muqadasPotionLevelDataList_;
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> getMuqadasPotionLevelDataListList() {
       return muqadasPotionLevelDataList_;
     }
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder> 
@@ -151,21 +151,21 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       return muqadasPotionLevelDataList_;
     }
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     @java.lang.Override
     public int getMuqadasPotionLevelDataListCount() {
       return muqadasPotionLevelDataList_.size();
     }
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData getMuqadasPotionLevelDataList(int index) {
       return muqadasPotionLevelDataList_.get(index);
     }
     /**
-     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+     * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder getMuqadasPotionLevelDataListOrBuilder(
@@ -188,7 +188,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < muqadasPotionLevelDataList_.size(); i++) {
-        output.writeMessage(15, muqadasPotionLevelDataList_.get(i));
+        output.writeMessage(12, muqadasPotionLevelDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < muqadasPotionLevelDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, muqadasPotionLevelDataList_.get(i));
+          .computeMessageSize(12, muqadasPotionLevelDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder> muqadasPotionLevelDataListBuilder_;
 
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> getMuqadasPotionLevelDataListList() {
         if (muqadasPotionLevelDataListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public int getMuqadasPotionLevelDataListCount() {
         if (muqadasPotionLevelDataListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData getMuqadasPotionLevelDataList(int index) {
         if (muqadasPotionLevelDataListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public Builder setMuqadasPotionLevelDataList(
           int index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData value) {
@@ -575,7 +575,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public Builder setMuqadasPotionLevelDataList(
           int index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public Builder addMuqadasPotionLevelDataList(emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData value) {
         if (muqadasPotionLevelDataListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public Builder addMuqadasPotionLevelDataList(
           int index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData value) {
@@ -622,7 +622,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public Builder addMuqadasPotionLevelDataList(
           emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public Builder addMuqadasPotionLevelDataList(
           int index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public Builder addAllMuqadasPotionLevelDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData> values) {
@@ -665,7 +665,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public Builder clearMuqadasPotionLevelDataList() {
         if (muqadasPotionLevelDataListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public Builder removeMuqadasPotionLevelDataList(int index) {
         if (muqadasPotionLevelDataListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder getMuqadasPotionLevelDataListBuilder(
           int index) {
         return getMuqadasPotionLevelDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder getMuqadasPotionLevelDataListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelDataOrBuilder> 
            getMuqadasPotionLevelDataListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder addMuqadasPotionLevelDataListBuilder() {
         return getMuqadasPotionLevelDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder addMuqadasPotionLevelDataListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 15;</code>
+       * <code>repeated .MuqadasPotionLevelData muqadas_potion_level_data_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.MuqadasPotionLevelDataOuterClass.MuqadasPotionLevelData.Builder> 
            getMuqadasPotionLevelDataListBuilderList() {
@@ -824,7 +824,7 @@ public final class MuqadasPotionActivityDetailInfoOuterClass {
       "\n%MuqadasPotionActivityDetailInfo.proto\032" +
       "\034MuqadasPotionLevelData.proto\"b\n\037Muqadas" +
       "PotionActivityDetailInfo\022?\n\036muqadas_poti" +
-      "on_level_data_list\030\017 \003(\0132\027.MuqadasPotion" +
+      "on_level_data_list\030\014 \003(\0132\027.MuqadasPotion" +
       "LevelDataB\033\n\031emu.grasscutter.net.protob\006" +
       "proto3"
     };

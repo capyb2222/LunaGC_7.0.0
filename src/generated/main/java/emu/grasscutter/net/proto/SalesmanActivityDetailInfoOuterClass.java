@@ -19,11 +19,11 @@ public final class SalesmanActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
      */
     int getSelectedRewardIdMapCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
      */
     boolean containsSelectedRewardIdMap(
         int key);
@@ -34,82 +34,82 @@ public final class SalesmanActivityDetailInfoOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSelectedRewardIdMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSelectedRewardIdMapMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
      */
 
     int getSelectedRewardIdMapOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
      */
 
     int getSelectedRewardIdMapOrThrow(
         int key);
 
     /**
-     * <code>uint32 day_index = 1;</code>
-     * @return The dayIndex.
+     * <code>uint32 LHCFHNEMGCE = 7;</code>
+     * @return The lHCFHNEMGCE.
      */
-    int getDayIndex();
+    int getLHCFHNEMGCE();
 
     /**
-     * <code>uint32 NFGHNNEKFPP = 5;</code>
-     * @return The nFGHNNEKFPP.
+     * <code>bool HIKELLJLLID = 10;</code>
+     * @return The hIKELLJLLID.
      */
-    int getNFGHNNEKFPP();
+    boolean getHIKELLJLLID();
 
     /**
-     * <code>uint32 day_reward_id = 2;</code>
-     * @return The dayRewardId.
+     * <code>bool PLFOHMJOFOG = 2;</code>
+     * @return The pLFOHMJOFOG.
      */
-    int getDayRewardId();
+    boolean getPLFOHMJOFOG();
 
     /**
-     * <code>uint32 BBNAJMMBONA = 10;</code>
-     * @return The bBNAJMMBONA.
+     * <code>uint32 BBBFJMPEFKL = 1;</code>
+     * @return The bBBFJMPEFKL.
      */
-    int getBBNAJMMBONA();
+    int getBBBFJMPEFKL();
 
     /**
-     * <code>uint32 OMELGFMLEGN = 8;</code>
-     * @return The oMELGFMLEGN.
+     * <code>uint32 BECKBGDNIDK = 15;</code>
+     * @return The bECKBGDNIDK.
      */
-    int getOMELGFMLEGN();
+    int getBECKBGDNIDK();
 
     /**
-     * <code>bool PDONAAPCAOF = 4;</code>
-     * @return The pDONAAPCAOF.
+     * <code>uint32 EACCODBDCNG = 12;</code>
+     * @return The eACCODBDCNG.
      */
-    boolean getPDONAAPCAOF();
+    int getEACCODBDCNG();
 
     /**
-     * <code>bool PEGBLDBBKBL = 6;</code>
-     * @return The pEGBLDBBKBL.
+     * <code>uint32 PNFPPJKKNJG = 4;</code>
+     * @return The pNFPPJKKNJG.
      */
-    boolean getPEGBLDBBKBL();
+    int getPNFPPJKKNJG();
 
     /**
-     * <code>uint32 NHNMFDBNDDK = 15;</code>
-     * @return The nHNMFDBNDDK.
-     */
-    int getNHNMFDBNDDK();
-
-    /**
-     * <code>.SalesmanStatusType status = 7;</code>
+     * <code>.SalesmanStatusType status = 11;</code>
      * @return The enum numeric value on the wire for status.
      */
     int getStatusValue();
     /**
-     * <code>.SalesmanStatusType status = 7;</code>
+     * <code>.SalesmanStatusType status = 11;</code>
      * @return The status.
      */
     emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType getStatus();
+
+    /**
+     * <code>uint32 day_index = 5;</code>
+     * @return The dayIndex.
+     */
+    int getDayIndex();
   }
   /**
    * Protobuf type {@code SalesmanActivityDetailInfo}
@@ -160,46 +160,46 @@ public final class SalesmanActivityDetailInfoOuterClass {
               break;
             case 8: {
 
-              dayIndex_ = input.readUInt32();
+              bBBFJMPEFKL_ = input.readUInt32();
               break;
             }
             case 16: {
 
-              dayRewardId_ = input.readUInt32();
+              pLFOHMJOFOG_ = input.readBool();
               break;
             }
             case 32: {
 
-              pDONAAPCAOF_ = input.readBool();
+              pNFPPJKKNJG_ = input.readUInt32();
               break;
             }
             case 40: {
 
-              nFGHNNEKFPP_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              pEGBLDBBKBL_ = input.readBool();
+              dayIndex_ = input.readUInt32();
               break;
             }
             case 56: {
+
+              lHCFHNEMGCE_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              hIKELLJLLID_ = input.readBool();
+              break;
+            }
+            case 88: {
               int rawValue = input.readEnum();
 
               status_ = rawValue;
               break;
             }
-            case 64: {
+            case 96: {
 
-              oMELGFMLEGN_ = input.readUInt32();
+              eACCODBDCNG_ = input.readUInt32();
               break;
             }
-            case 80: {
-
-              bBNAJMMBONA_ = input.readUInt32();
-              break;
-            }
-            case 106: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 selectedRewardIdMap_ = com.google.protobuf.MapField.newMapField(
                     SelectedRewardIdMapDefaultEntryHolder.defaultEntry);
@@ -214,7 +214,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
             }
             case 120: {
 
-              nHNMFDBNDDK_ = input.readUInt32();
+              bECKBGDNIDK_ = input.readUInt32();
               break;
             }
             default: {
@@ -246,7 +246,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 13:
+        case 14:
           return internalGetSelectedRewardIdMap();
         default:
           throw new RuntimeException(
@@ -261,7 +261,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.SalesmanActivityDetailInfoOuterClass.SalesmanActivityDetailInfo.class, emu.grasscutter.net.proto.SalesmanActivityDetailInfoOuterClass.SalesmanActivityDetailInfo.Builder.class);
     }
 
-    public static final int SELECTED_REWARD_ID_MAP_FIELD_NUMBER = 13;
+    public static final int SELECTED_REWARD_ID_MAP_FIELD_NUMBER = 14;
     private static final class SelectedRewardIdMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -288,7 +288,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       return internalGetSelectedRewardIdMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
      */
 
     @java.lang.Override
@@ -306,7 +306,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       return getSelectedRewardIdMapMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
      */
     @java.lang.Override
 
@@ -314,7 +314,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       return internalGetSelectedRewardIdMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
      */
     @java.lang.Override
 
@@ -327,7 +327,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
      */
     @java.lang.Override
 
@@ -342,111 +342,111 @@ public final class SalesmanActivityDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int DAY_INDEX_FIELD_NUMBER = 1;
-    private int dayIndex_;
+    public static final int LHCFHNEMGCE_FIELD_NUMBER = 7;
+    private int lHCFHNEMGCE_;
     /**
-     * <code>uint32 day_index = 1;</code>
-     * @return The dayIndex.
+     * <code>uint32 LHCFHNEMGCE = 7;</code>
+     * @return The lHCFHNEMGCE.
      */
     @java.lang.Override
-    public int getDayIndex() {
-      return dayIndex_;
+    public int getLHCFHNEMGCE() {
+      return lHCFHNEMGCE_;
     }
 
-    public static final int NFGHNNEKFPP_FIELD_NUMBER = 5;
-    private int nFGHNNEKFPP_;
+    public static final int HIKELLJLLID_FIELD_NUMBER = 10;
+    private boolean hIKELLJLLID_;
     /**
-     * <code>uint32 NFGHNNEKFPP = 5;</code>
-     * @return The nFGHNNEKFPP.
+     * <code>bool HIKELLJLLID = 10;</code>
+     * @return The hIKELLJLLID.
      */
     @java.lang.Override
-    public int getNFGHNNEKFPP() {
-      return nFGHNNEKFPP_;
+    public boolean getHIKELLJLLID() {
+      return hIKELLJLLID_;
     }
 
-    public static final int DAY_REWARD_ID_FIELD_NUMBER = 2;
-    private int dayRewardId_;
+    public static final int PLFOHMJOFOG_FIELD_NUMBER = 2;
+    private boolean pLFOHMJOFOG_;
     /**
-     * <code>uint32 day_reward_id = 2;</code>
-     * @return The dayRewardId.
+     * <code>bool PLFOHMJOFOG = 2;</code>
+     * @return The pLFOHMJOFOG.
      */
     @java.lang.Override
-    public int getDayRewardId() {
-      return dayRewardId_;
+    public boolean getPLFOHMJOFOG() {
+      return pLFOHMJOFOG_;
     }
 
-    public static final int BBNAJMMBONA_FIELD_NUMBER = 10;
-    private int bBNAJMMBONA_;
+    public static final int BBBFJMPEFKL_FIELD_NUMBER = 1;
+    private int bBBFJMPEFKL_;
     /**
-     * <code>uint32 BBNAJMMBONA = 10;</code>
-     * @return The bBNAJMMBONA.
+     * <code>uint32 BBBFJMPEFKL = 1;</code>
+     * @return The bBBFJMPEFKL.
      */
     @java.lang.Override
-    public int getBBNAJMMBONA() {
-      return bBNAJMMBONA_;
+    public int getBBBFJMPEFKL() {
+      return bBBFJMPEFKL_;
     }
 
-    public static final int OMELGFMLEGN_FIELD_NUMBER = 8;
-    private int oMELGFMLEGN_;
+    public static final int BECKBGDNIDK_FIELD_NUMBER = 15;
+    private int bECKBGDNIDK_;
     /**
-     * <code>uint32 OMELGFMLEGN = 8;</code>
-     * @return The oMELGFMLEGN.
+     * <code>uint32 BECKBGDNIDK = 15;</code>
+     * @return The bECKBGDNIDK.
      */
     @java.lang.Override
-    public int getOMELGFMLEGN() {
-      return oMELGFMLEGN_;
+    public int getBECKBGDNIDK() {
+      return bECKBGDNIDK_;
     }
 
-    public static final int PDONAAPCAOF_FIELD_NUMBER = 4;
-    private boolean pDONAAPCAOF_;
+    public static final int EACCODBDCNG_FIELD_NUMBER = 12;
+    private int eACCODBDCNG_;
     /**
-     * <code>bool PDONAAPCAOF = 4;</code>
-     * @return The pDONAAPCAOF.
+     * <code>uint32 EACCODBDCNG = 12;</code>
+     * @return The eACCODBDCNG.
      */
     @java.lang.Override
-    public boolean getPDONAAPCAOF() {
-      return pDONAAPCAOF_;
+    public int getEACCODBDCNG() {
+      return eACCODBDCNG_;
     }
 
-    public static final int PEGBLDBBKBL_FIELD_NUMBER = 6;
-    private boolean pEGBLDBBKBL_;
+    public static final int PNFPPJKKNJG_FIELD_NUMBER = 4;
+    private int pNFPPJKKNJG_;
     /**
-     * <code>bool PEGBLDBBKBL = 6;</code>
-     * @return The pEGBLDBBKBL.
+     * <code>uint32 PNFPPJKKNJG = 4;</code>
+     * @return The pNFPPJKKNJG.
      */
     @java.lang.Override
-    public boolean getPEGBLDBBKBL() {
-      return pEGBLDBBKBL_;
+    public int getPNFPPJKKNJG() {
+      return pNFPPJKKNJG_;
     }
 
-    public static final int NHNMFDBNDDK_FIELD_NUMBER = 15;
-    private int nHNMFDBNDDK_;
-    /**
-     * <code>uint32 NHNMFDBNDDK = 15;</code>
-     * @return The nHNMFDBNDDK.
-     */
-    @java.lang.Override
-    public int getNHNMFDBNDDK() {
-      return nHNMFDBNDDK_;
-    }
-
-    public static final int STATUS_FIELD_NUMBER = 7;
+    public static final int STATUS_FIELD_NUMBER = 11;
     private int status_;
     /**
-     * <code>.SalesmanStatusType status = 7;</code>
+     * <code>.SalesmanStatusType status = 11;</code>
      * @return The enum numeric value on the wire for status.
      */
     @java.lang.Override public int getStatusValue() {
       return status_;
     }
     /**
-     * <code>.SalesmanStatusType status = 7;</code>
+     * <code>.SalesmanStatusType status = 11;</code>
      * @return The status.
      */
     @java.lang.Override public emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType getStatus() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType result = emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType.valueOf(status_);
       return result == null ? emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType.UNRECOGNIZED : result;
+    }
+
+    public static final int DAY_INDEX_FIELD_NUMBER = 5;
+    private int dayIndex_;
+    /**
+     * <code>uint32 day_index = 5;</code>
+     * @return The dayIndex.
+     */
+    @java.lang.Override
+    public int getDayIndex() {
+      return dayIndex_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -463,38 +463,38 @@ public final class SalesmanActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (bBBFJMPEFKL_ != 0) {
+        output.writeUInt32(1, bBBFJMPEFKL_);
+      }
+      if (pLFOHMJOFOG_ != false) {
+        output.writeBool(2, pLFOHMJOFOG_);
+      }
+      if (pNFPPJKKNJG_ != 0) {
+        output.writeUInt32(4, pNFPPJKKNJG_);
+      }
       if (dayIndex_ != 0) {
-        output.writeUInt32(1, dayIndex_);
+        output.writeUInt32(5, dayIndex_);
       }
-      if (dayRewardId_ != 0) {
-        output.writeUInt32(2, dayRewardId_);
+      if (lHCFHNEMGCE_ != 0) {
+        output.writeUInt32(7, lHCFHNEMGCE_);
       }
-      if (pDONAAPCAOF_ != false) {
-        output.writeBool(4, pDONAAPCAOF_);
-      }
-      if (nFGHNNEKFPP_ != 0) {
-        output.writeUInt32(5, nFGHNNEKFPP_);
-      }
-      if (pEGBLDBBKBL_ != false) {
-        output.writeBool(6, pEGBLDBBKBL_);
+      if (hIKELLJLLID_ != false) {
+        output.writeBool(10, hIKELLJLLID_);
       }
       if (status_ != emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType.SALESMAN_STATUS_TYPE_NONE.getNumber()) {
-        output.writeEnum(7, status_);
+        output.writeEnum(11, status_);
       }
-      if (oMELGFMLEGN_ != 0) {
-        output.writeUInt32(8, oMELGFMLEGN_);
-      }
-      if (bBNAJMMBONA_ != 0) {
-        output.writeUInt32(10, bBNAJMMBONA_);
+      if (eACCODBDCNG_ != 0) {
+        output.writeUInt32(12, eACCODBDCNG_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetSelectedRewardIdMap(),
           SelectedRewardIdMapDefaultEntryHolder.defaultEntry,
-          13);
-      if (nHNMFDBNDDK_ != 0) {
-        output.writeUInt32(15, nHNMFDBNDDK_);
+          14);
+      if (bECKBGDNIDK_ != 0) {
+        output.writeUInt32(15, bECKBGDNIDK_);
       }
       unknownFields.writeTo(output);
     }
@@ -505,37 +505,37 @@ public final class SalesmanActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (bBBFJMPEFKL_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, bBBFJMPEFKL_);
+      }
+      if (pLFOHMJOFOG_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(2, pLFOHMJOFOG_);
+      }
+      if (pNFPPJKKNJG_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, pNFPPJKKNJG_);
+      }
       if (dayIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, dayIndex_);
+          .computeUInt32Size(5, dayIndex_);
       }
-      if (dayRewardId_ != 0) {
+      if (lHCFHNEMGCE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, dayRewardId_);
+          .computeUInt32Size(7, lHCFHNEMGCE_);
       }
-      if (pDONAAPCAOF_ != false) {
+      if (hIKELLJLLID_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, pDONAAPCAOF_);
-      }
-      if (nFGHNNEKFPP_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, nFGHNNEKFPP_);
-      }
-      if (pEGBLDBBKBL_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, pEGBLDBBKBL_);
+          .computeBoolSize(10, hIKELLJLLID_);
       }
       if (status_ != emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType.SALESMAN_STATUS_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(7, status_);
+          .computeEnumSize(11, status_);
       }
-      if (oMELGFMLEGN_ != 0) {
+      if (eACCODBDCNG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, oMELGFMLEGN_);
-      }
-      if (bBNAJMMBONA_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, bBNAJMMBONA_);
+          .computeUInt32Size(12, eACCODBDCNG_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetSelectedRewardIdMap().getMap().entrySet()) {
@@ -545,11 +545,11 @@ public final class SalesmanActivityDetailInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(13, selectedRewardIdMap__);
+            .computeMessageSize(14, selectedRewardIdMap__);
       }
-      if (nHNMFDBNDDK_ != 0) {
+      if (bECKBGDNIDK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, nHNMFDBNDDK_);
+          .computeUInt32Size(15, bECKBGDNIDK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -568,23 +568,23 @@ public final class SalesmanActivityDetailInfoOuterClass {
 
       if (!internalGetSelectedRewardIdMap().equals(
           other.internalGetSelectedRewardIdMap())) return false;
+      if (getLHCFHNEMGCE()
+          != other.getLHCFHNEMGCE()) return false;
+      if (getHIKELLJLLID()
+          != other.getHIKELLJLLID()) return false;
+      if (getPLFOHMJOFOG()
+          != other.getPLFOHMJOFOG()) return false;
+      if (getBBBFJMPEFKL()
+          != other.getBBBFJMPEFKL()) return false;
+      if (getBECKBGDNIDK()
+          != other.getBECKBGDNIDK()) return false;
+      if (getEACCODBDCNG()
+          != other.getEACCODBDCNG()) return false;
+      if (getPNFPPJKKNJG()
+          != other.getPNFPPJKKNJG()) return false;
+      if (status_ != other.status_) return false;
       if (getDayIndex()
           != other.getDayIndex()) return false;
-      if (getNFGHNNEKFPP()
-          != other.getNFGHNNEKFPP()) return false;
-      if (getDayRewardId()
-          != other.getDayRewardId()) return false;
-      if (getBBNAJMMBONA()
-          != other.getBBNAJMMBONA()) return false;
-      if (getOMELGFMLEGN()
-          != other.getOMELGFMLEGN()) return false;
-      if (getPDONAAPCAOF()
-          != other.getPDONAAPCAOF()) return false;
-      if (getPEGBLDBBKBL()
-          != other.getPEGBLDBBKBL()) return false;
-      if (getNHNMFDBNDDK()
-          != other.getNHNMFDBNDDK()) return false;
-      if (status_ != other.status_) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -600,26 +600,26 @@ public final class SalesmanActivityDetailInfoOuterClass {
         hash = (37 * hash) + SELECTED_REWARD_ID_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetSelectedRewardIdMap().hashCode();
       }
-      hash = (37 * hash) + DAY_INDEX_FIELD_NUMBER;
-      hash = (53 * hash) + getDayIndex();
-      hash = (37 * hash) + NFGHNNEKFPP_FIELD_NUMBER;
-      hash = (53 * hash) + getNFGHNNEKFPP();
-      hash = (37 * hash) + DAY_REWARD_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getDayRewardId();
-      hash = (37 * hash) + BBNAJMMBONA_FIELD_NUMBER;
-      hash = (53 * hash) + getBBNAJMMBONA();
-      hash = (37 * hash) + OMELGFMLEGN_FIELD_NUMBER;
-      hash = (53 * hash) + getOMELGFMLEGN();
-      hash = (37 * hash) + PDONAAPCAOF_FIELD_NUMBER;
+      hash = (37 * hash) + LHCFHNEMGCE_FIELD_NUMBER;
+      hash = (53 * hash) + getLHCFHNEMGCE();
+      hash = (37 * hash) + HIKELLJLLID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getPDONAAPCAOF());
-      hash = (37 * hash) + PEGBLDBBKBL_FIELD_NUMBER;
+          getHIKELLJLLID());
+      hash = (37 * hash) + PLFOHMJOFOG_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getPEGBLDBBKBL());
-      hash = (37 * hash) + NHNMFDBNDDK_FIELD_NUMBER;
-      hash = (53 * hash) + getNHNMFDBNDDK();
+          getPLFOHMJOFOG());
+      hash = (37 * hash) + BBBFJMPEFKL_FIELD_NUMBER;
+      hash = (53 * hash) + getBBBFJMPEFKL();
+      hash = (37 * hash) + BECKBGDNIDK_FIELD_NUMBER;
+      hash = (53 * hash) + getBECKBGDNIDK();
+      hash = (37 * hash) + EACCODBDCNG_FIELD_NUMBER;
+      hash = (53 * hash) + getEACCODBDCNG();
+      hash = (37 * hash) + PNFPPJKKNJG_FIELD_NUMBER;
+      hash = (53 * hash) + getPNFPPJKKNJG();
       hash = (37 * hash) + STATUS_FIELD_NUMBER;
       hash = (53 * hash) + status_;
+      hash = (37 * hash) + DAY_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getDayIndex();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -731,7 +731,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 13:
+          case 14:
             return internalGetSelectedRewardIdMap();
           default:
             throw new RuntimeException(
@@ -742,7 +742,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 13:
+          case 14:
             return internalGetMutableSelectedRewardIdMap();
           default:
             throw new RuntimeException(
@@ -776,23 +776,23 @@ public final class SalesmanActivityDetailInfoOuterClass {
       public Builder clear() {
         super.clear();
         internalGetMutableSelectedRewardIdMap().clear();
-        dayIndex_ = 0;
+        lHCFHNEMGCE_ = 0;
 
-        nFGHNNEKFPP_ = 0;
+        hIKELLJLLID_ = false;
 
-        dayRewardId_ = 0;
+        pLFOHMJOFOG_ = false;
 
-        bBNAJMMBONA_ = 0;
+        bBBFJMPEFKL_ = 0;
 
-        oMELGFMLEGN_ = 0;
+        bECKBGDNIDK_ = 0;
 
-        pDONAAPCAOF_ = false;
+        eACCODBDCNG_ = 0;
 
-        pEGBLDBBKBL_ = false;
-
-        nHNMFDBNDDK_ = 0;
+        pNFPPJKKNJG_ = 0;
 
         status_ = 0;
+
+        dayIndex_ = 0;
 
         return this;
       }
@@ -823,15 +823,15 @@ public final class SalesmanActivityDetailInfoOuterClass {
         int from_bitField0_ = bitField0_;
         result.selectedRewardIdMap_ = internalGetSelectedRewardIdMap();
         result.selectedRewardIdMap_.makeImmutable();
-        result.dayIndex_ = dayIndex_;
-        result.nFGHNNEKFPP_ = nFGHNNEKFPP_;
-        result.dayRewardId_ = dayRewardId_;
-        result.bBNAJMMBONA_ = bBNAJMMBONA_;
-        result.oMELGFMLEGN_ = oMELGFMLEGN_;
-        result.pDONAAPCAOF_ = pDONAAPCAOF_;
-        result.pEGBLDBBKBL_ = pEGBLDBBKBL_;
-        result.nHNMFDBNDDK_ = nHNMFDBNDDK_;
+        result.lHCFHNEMGCE_ = lHCFHNEMGCE_;
+        result.hIKELLJLLID_ = hIKELLJLLID_;
+        result.pLFOHMJOFOG_ = pLFOHMJOFOG_;
+        result.bBBFJMPEFKL_ = bBBFJMPEFKL_;
+        result.bECKBGDNIDK_ = bECKBGDNIDK_;
+        result.eACCODBDCNG_ = eACCODBDCNG_;
+        result.pNFPPJKKNJG_ = pNFPPJKKNJG_;
         result.status_ = status_;
+        result.dayIndex_ = dayIndex_;
         onBuilt();
         return result;
       }
@@ -882,32 +882,32 @@ public final class SalesmanActivityDetailInfoOuterClass {
         if (other == emu.grasscutter.net.proto.SalesmanActivityDetailInfoOuterClass.SalesmanActivityDetailInfo.getDefaultInstance()) return this;
         internalGetMutableSelectedRewardIdMap().mergeFrom(
             other.internalGetSelectedRewardIdMap());
-        if (other.getDayIndex() != 0) {
-          setDayIndex(other.getDayIndex());
+        if (other.getLHCFHNEMGCE() != 0) {
+          setLHCFHNEMGCE(other.getLHCFHNEMGCE());
         }
-        if (other.getNFGHNNEKFPP() != 0) {
-          setNFGHNNEKFPP(other.getNFGHNNEKFPP());
+        if (other.getHIKELLJLLID() != false) {
+          setHIKELLJLLID(other.getHIKELLJLLID());
         }
-        if (other.getDayRewardId() != 0) {
-          setDayRewardId(other.getDayRewardId());
+        if (other.getPLFOHMJOFOG() != false) {
+          setPLFOHMJOFOG(other.getPLFOHMJOFOG());
         }
-        if (other.getBBNAJMMBONA() != 0) {
-          setBBNAJMMBONA(other.getBBNAJMMBONA());
+        if (other.getBBBFJMPEFKL() != 0) {
+          setBBBFJMPEFKL(other.getBBBFJMPEFKL());
         }
-        if (other.getOMELGFMLEGN() != 0) {
-          setOMELGFMLEGN(other.getOMELGFMLEGN());
+        if (other.getBECKBGDNIDK() != 0) {
+          setBECKBGDNIDK(other.getBECKBGDNIDK());
         }
-        if (other.getPDONAAPCAOF() != false) {
-          setPDONAAPCAOF(other.getPDONAAPCAOF());
+        if (other.getEACCODBDCNG() != 0) {
+          setEACCODBDCNG(other.getEACCODBDCNG());
         }
-        if (other.getPEGBLDBBKBL() != false) {
-          setPEGBLDBBKBL(other.getPEGBLDBBKBL());
-        }
-        if (other.getNHNMFDBNDDK() != 0) {
-          setNHNMFDBNDDK(other.getNHNMFDBNDDK());
+        if (other.getPNFPPJKKNJG() != 0) {
+          setPNFPPJKKNJG(other.getPNFPPJKKNJG());
         }
         if (other.status_ != 0) {
           setStatusValue(other.getStatusValue());
+        }
+        if (other.getDayIndex() != 0) {
+          setDayIndex(other.getDayIndex());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -966,7 +966,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return internalGetSelectedRewardIdMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
        */
 
       @java.lang.Override
@@ -984,7 +984,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return getSelectedRewardIdMapMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
        */
       @java.lang.Override
 
@@ -992,7 +992,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return internalGetSelectedRewardIdMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
        */
       @java.lang.Override
 
@@ -1005,7 +1005,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
        */
       @java.lang.Override
 
@@ -1026,7 +1026,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
        */
 
       public Builder removeSelectedRewardIdMap(
@@ -1045,7 +1045,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return internalGetMutableSelectedRewardIdMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
        */
       public Builder putSelectedRewardIdMap(
           int key,
@@ -1057,7 +1057,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; selected_reward_id_map = 14;</code>
        */
 
       public Builder putAllSelectedRewardIdMap(
@@ -1067,264 +1067,233 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return this;
       }
 
-      private int dayIndex_ ;
+      private int lHCFHNEMGCE_ ;
       /**
-       * <code>uint32 day_index = 1;</code>
-       * @return The dayIndex.
+       * <code>uint32 LHCFHNEMGCE = 7;</code>
+       * @return The lHCFHNEMGCE.
        */
       @java.lang.Override
-      public int getDayIndex() {
-        return dayIndex_;
+      public int getLHCFHNEMGCE() {
+        return lHCFHNEMGCE_;
       }
       /**
-       * <code>uint32 day_index = 1;</code>
-       * @param value The dayIndex to set.
+       * <code>uint32 LHCFHNEMGCE = 7;</code>
+       * @param value The lHCFHNEMGCE to set.
        * @return This builder for chaining.
        */
-      public Builder setDayIndex(int value) {
+      public Builder setLHCFHNEMGCE(int value) {
         
-        dayIndex_ = value;
+        lHCFHNEMGCE_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 day_index = 1;</code>
+       * <code>uint32 LHCFHNEMGCE = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDayIndex() {
+      public Builder clearLHCFHNEMGCE() {
         
-        dayIndex_ = 0;
+        lHCFHNEMGCE_ = 0;
         onChanged();
         return this;
       }
 
-      private int nFGHNNEKFPP_ ;
+      private boolean hIKELLJLLID_ ;
       /**
-       * <code>uint32 NFGHNNEKFPP = 5;</code>
-       * @return The nFGHNNEKFPP.
+       * <code>bool HIKELLJLLID = 10;</code>
+       * @return The hIKELLJLLID.
        */
       @java.lang.Override
-      public int getNFGHNNEKFPP() {
-        return nFGHNNEKFPP_;
+      public boolean getHIKELLJLLID() {
+        return hIKELLJLLID_;
       }
       /**
-       * <code>uint32 NFGHNNEKFPP = 5;</code>
-       * @param value The nFGHNNEKFPP to set.
+       * <code>bool HIKELLJLLID = 10;</code>
+       * @param value The hIKELLJLLID to set.
        * @return This builder for chaining.
        */
-      public Builder setNFGHNNEKFPP(int value) {
+      public Builder setHIKELLJLLID(boolean value) {
         
-        nFGHNNEKFPP_ = value;
+        hIKELLJLLID_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 NFGHNNEKFPP = 5;</code>
+       * <code>bool HIKELLJLLID = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNFGHNNEKFPP() {
+      public Builder clearHIKELLJLLID() {
         
-        nFGHNNEKFPP_ = 0;
+        hIKELLJLLID_ = false;
         onChanged();
         return this;
       }
 
-      private int dayRewardId_ ;
+      private boolean pLFOHMJOFOG_ ;
       /**
-       * <code>uint32 day_reward_id = 2;</code>
-       * @return The dayRewardId.
+       * <code>bool PLFOHMJOFOG = 2;</code>
+       * @return The pLFOHMJOFOG.
        */
       @java.lang.Override
-      public int getDayRewardId() {
-        return dayRewardId_;
+      public boolean getPLFOHMJOFOG() {
+        return pLFOHMJOFOG_;
       }
       /**
-       * <code>uint32 day_reward_id = 2;</code>
-       * @param value The dayRewardId to set.
+       * <code>bool PLFOHMJOFOG = 2;</code>
+       * @param value The pLFOHMJOFOG to set.
        * @return This builder for chaining.
        */
-      public Builder setDayRewardId(int value) {
+      public Builder setPLFOHMJOFOG(boolean value) {
         
-        dayRewardId_ = value;
+        pLFOHMJOFOG_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 day_reward_id = 2;</code>
+       * <code>bool PLFOHMJOFOG = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDayRewardId() {
+      public Builder clearPLFOHMJOFOG() {
         
-        dayRewardId_ = 0;
+        pLFOHMJOFOG_ = false;
         onChanged();
         return this;
       }
 
-      private int bBNAJMMBONA_ ;
+      private int bBBFJMPEFKL_ ;
       /**
-       * <code>uint32 BBNAJMMBONA = 10;</code>
-       * @return The bBNAJMMBONA.
+       * <code>uint32 BBBFJMPEFKL = 1;</code>
+       * @return The bBBFJMPEFKL.
        */
       @java.lang.Override
-      public int getBBNAJMMBONA() {
-        return bBNAJMMBONA_;
+      public int getBBBFJMPEFKL() {
+        return bBBFJMPEFKL_;
       }
       /**
-       * <code>uint32 BBNAJMMBONA = 10;</code>
-       * @param value The bBNAJMMBONA to set.
+       * <code>uint32 BBBFJMPEFKL = 1;</code>
+       * @param value The bBBFJMPEFKL to set.
        * @return This builder for chaining.
        */
-      public Builder setBBNAJMMBONA(int value) {
+      public Builder setBBBFJMPEFKL(int value) {
         
-        bBNAJMMBONA_ = value;
+        bBBFJMPEFKL_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 BBNAJMMBONA = 10;</code>
+       * <code>uint32 BBBFJMPEFKL = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBBNAJMMBONA() {
+      public Builder clearBBBFJMPEFKL() {
         
-        bBNAJMMBONA_ = 0;
+        bBBFJMPEFKL_ = 0;
         onChanged();
         return this;
       }
 
-      private int oMELGFMLEGN_ ;
+      private int bECKBGDNIDK_ ;
       /**
-       * <code>uint32 OMELGFMLEGN = 8;</code>
-       * @return The oMELGFMLEGN.
+       * <code>uint32 BECKBGDNIDK = 15;</code>
+       * @return The bECKBGDNIDK.
        */
       @java.lang.Override
-      public int getOMELGFMLEGN() {
-        return oMELGFMLEGN_;
+      public int getBECKBGDNIDK() {
+        return bECKBGDNIDK_;
       }
       /**
-       * <code>uint32 OMELGFMLEGN = 8;</code>
-       * @param value The oMELGFMLEGN to set.
+       * <code>uint32 BECKBGDNIDK = 15;</code>
+       * @param value The bECKBGDNIDK to set.
        * @return This builder for chaining.
        */
-      public Builder setOMELGFMLEGN(int value) {
+      public Builder setBECKBGDNIDK(int value) {
         
-        oMELGFMLEGN_ = value;
+        bECKBGDNIDK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 OMELGFMLEGN = 8;</code>
+       * <code>uint32 BECKBGDNIDK = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOMELGFMLEGN() {
+      public Builder clearBECKBGDNIDK() {
         
-        oMELGFMLEGN_ = 0;
+        bECKBGDNIDK_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean pDONAAPCAOF_ ;
+      private int eACCODBDCNG_ ;
       /**
-       * <code>bool PDONAAPCAOF = 4;</code>
-       * @return The pDONAAPCAOF.
+       * <code>uint32 EACCODBDCNG = 12;</code>
+       * @return The eACCODBDCNG.
        */
       @java.lang.Override
-      public boolean getPDONAAPCAOF() {
-        return pDONAAPCAOF_;
+      public int getEACCODBDCNG() {
+        return eACCODBDCNG_;
       }
       /**
-       * <code>bool PDONAAPCAOF = 4;</code>
-       * @param value The pDONAAPCAOF to set.
+       * <code>uint32 EACCODBDCNG = 12;</code>
+       * @param value The eACCODBDCNG to set.
        * @return This builder for chaining.
        */
-      public Builder setPDONAAPCAOF(boolean value) {
+      public Builder setEACCODBDCNG(int value) {
         
-        pDONAAPCAOF_ = value;
+        eACCODBDCNG_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool PDONAAPCAOF = 4;</code>
+       * <code>uint32 EACCODBDCNG = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPDONAAPCAOF() {
+      public Builder clearEACCODBDCNG() {
         
-        pDONAAPCAOF_ = false;
+        eACCODBDCNG_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean pEGBLDBBKBL_ ;
+      private int pNFPPJKKNJG_ ;
       /**
-       * <code>bool PEGBLDBBKBL = 6;</code>
-       * @return The pEGBLDBBKBL.
+       * <code>uint32 PNFPPJKKNJG = 4;</code>
+       * @return The pNFPPJKKNJG.
        */
       @java.lang.Override
-      public boolean getPEGBLDBBKBL() {
-        return pEGBLDBBKBL_;
+      public int getPNFPPJKKNJG() {
+        return pNFPPJKKNJG_;
       }
       /**
-       * <code>bool PEGBLDBBKBL = 6;</code>
-       * @param value The pEGBLDBBKBL to set.
+       * <code>uint32 PNFPPJKKNJG = 4;</code>
+       * @param value The pNFPPJKKNJG to set.
        * @return This builder for chaining.
        */
-      public Builder setPEGBLDBBKBL(boolean value) {
+      public Builder setPNFPPJKKNJG(int value) {
         
-        pEGBLDBBKBL_ = value;
+        pNFPPJKKNJG_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool PEGBLDBBKBL = 6;</code>
+       * <code>uint32 PNFPPJKKNJG = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPEGBLDBBKBL() {
+      public Builder clearPNFPPJKKNJG() {
         
-        pEGBLDBBKBL_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int nHNMFDBNDDK_ ;
-      /**
-       * <code>uint32 NHNMFDBNDDK = 15;</code>
-       * @return The nHNMFDBNDDK.
-       */
-      @java.lang.Override
-      public int getNHNMFDBNDDK() {
-        return nHNMFDBNDDK_;
-      }
-      /**
-       * <code>uint32 NHNMFDBNDDK = 15;</code>
-       * @param value The nHNMFDBNDDK to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNHNMFDBNDDK(int value) {
-        
-        nHNMFDBNDDK_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 NHNMFDBNDDK = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNHNMFDBNDDK() {
-        
-        nHNMFDBNDDK_ = 0;
+        pNFPPJKKNJG_ = 0;
         onChanged();
         return this;
       }
 
       private int status_ = 0;
       /**
-       * <code>.SalesmanStatusType status = 7;</code>
+       * <code>.SalesmanStatusType status = 11;</code>
        * @return The enum numeric value on the wire for status.
        */
       @java.lang.Override public int getStatusValue() {
         return status_;
       }
       /**
-       * <code>.SalesmanStatusType status = 7;</code>
+       * <code>.SalesmanStatusType status = 11;</code>
        * @param value The enum numeric value on the wire for status to set.
        * @return This builder for chaining.
        */
@@ -1335,7 +1304,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.SalesmanStatusType status = 7;</code>
+       * <code>.SalesmanStatusType status = 11;</code>
        * @return The status.
        */
       @java.lang.Override
@@ -1345,7 +1314,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.SalesmanStatusTypeOuterClass.SalesmanStatusType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.SalesmanStatusType status = 7;</code>
+       * <code>.SalesmanStatusType status = 11;</code>
        * @param value The status to set.
        * @return This builder for chaining.
        */
@@ -1359,12 +1328,43 @@ public final class SalesmanActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.SalesmanStatusType status = 7;</code>
+       * <code>.SalesmanStatusType status = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearStatus() {
         
         status_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int dayIndex_ ;
+      /**
+       * <code>uint32 day_index = 5;</code>
+       * @return The dayIndex.
+       */
+      @java.lang.Override
+      public int getDayIndex() {
+        return dayIndex_;
+      }
+      /**
+       * <code>uint32 day_index = 5;</code>
+       * @param value The dayIndex to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDayIndex(int value) {
+        
+        dayIndex_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 day_index = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDayIndex() {
+        
+        dayIndex_ = 0;
         onChanged();
         return this;
       }
@@ -1441,17 +1441,17 @@ public final class SalesmanActivityDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n SalesmanActivityDetailInfo.proto\032\030Sale" +
-      "smanStatusType.proto\"\373\002\n\032SalesmanActivit" +
-      "yDetailInfo\022T\n\026selected_reward_id_map\030\r " +
+      "smanStatusType.proto\"\371\002\n\032SalesmanActivit" +
+      "yDetailInfo\022T\n\026selected_reward_id_map\030\016 " +
       "\003(\01324.SalesmanActivityDetailInfo.Selecte" +
-      "dRewardIdMapEntry\022\021\n\tday_index\030\001 \001(\r\022\023\n\013" +
-      "NFGHNNEKFPP\030\005 \001(\r\022\025\n\rday_reward_id\030\002 \001(\r" +
-      "\022\023\n\013BBNAJMMBONA\030\n \001(\r\022\023\n\013OMELGFMLEGN\030\010 \001" +
-      "(\r\022\023\n\013PDONAAPCAOF\030\004 \001(\010\022\023\n\013PEGBLDBBKBL\030\006" +
-      " \001(\010\022\023\n\013NHNMFDBNDDK\030\017 \001(\r\022#\n\006status\030\007 \001(" +
-      "\0162\023.SalesmanStatusType\032:\n\030SelectedReward" +
-      "IdMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\002" +
-      "8\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "dRewardIdMapEntry\022\023\n\013LHCFHNEMGCE\030\007 \001(\r\022\023" +
+      "\n\013HIKELLJLLID\030\n \001(\010\022\023\n\013PLFOHMJOFOG\030\002 \001(\010" +
+      "\022\023\n\013BBBFJMPEFKL\030\001 \001(\r\022\023\n\013BECKBGDNIDK\030\017 \001" +
+      "(\r\022\023\n\013EACCODBDCNG\030\014 \001(\r\022\023\n\013PNFPPJKKNJG\030\004" +
+      " \001(\r\022#\n\006status\030\013 \001(\0162\023.SalesmanStatusTyp" +
+      "e\022\021\n\tday_index\030\005 \001(\r\032:\n\030SelectedRewardId" +
+      "MapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001" +
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1463,7 +1463,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
     internal_static_SalesmanActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SalesmanActivityDetailInfo_descriptor,
-        new java.lang.String[] { "SelectedRewardIdMap", "DayIndex", "NFGHNNEKFPP", "DayRewardId", "BBNAJMMBONA", "OMELGFMLEGN", "PDONAAPCAOF", "PEGBLDBBKBL", "NHNMFDBNDDK", "Status", });
+        new java.lang.String[] { "SelectedRewardIdMap", "LHCFHNEMGCE", "HIKELLJLLID", "PLFOHMJOFOG", "BBBFJMPEFKL", "BECKBGDNIDK", "EACCODBDCNG", "PNFPPJKKNJG", "Status", "DayIndex", });
     internal_static_SalesmanActivityDetailInfo_SelectedRewardIdMapEntry_descriptor =
       internal_static_SalesmanActivityDetailInfo_descriptor.getNestedTypes().get(0);
     internal_static_SalesmanActivityDetailInfo_SelectedRewardIdMapEntry_fieldAccessorTable = new

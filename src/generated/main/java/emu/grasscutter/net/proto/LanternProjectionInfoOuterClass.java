@@ -19,103 +19,103 @@ public final class LanternProjectionInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 open_stage_list = 6;</code>
+     * <code>repeated uint32 open_stage_list = 10;</code>
      * @return A list containing the openStageList.
      */
     java.util.List<java.lang.Integer> getOpenStageListList();
     /**
-     * <code>repeated uint32 open_stage_list = 6;</code>
+     * <code>repeated uint32 open_stage_list = 10;</code>
      * @return The count of openStageList.
      */
     int getOpenStageListCount();
     /**
-     * <code>repeated uint32 open_stage_list = 6;</code>
+     * <code>repeated uint32 open_stage_list = 10;</code>
      * @param index The index of the element to return.
      * @return The openStageList at the given index.
      */
     int getOpenStageList(int index);
 
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @return A list containing the bGFFPOFHKLB.
+     */
+    java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getBGFFPOFHKLBList();
+    /**
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @return The count of bGFFPOFHKLB.
+     */
+    int getBGFFPOFHKLBCount();
+    /**
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @param index The index of the element to return.
+     * @return The bGFFPOFHKLB at the given index.
+     */
+    emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getBGFFPOFHKLB(int index);
+    /**
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @return A list containing the enum numeric values on the wire for bGFFPOFHKLB.
+     */
+    java.util.List<java.lang.Integer>
+    getBGFFPOFHKLBValueList();
+    /**
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @param index The index of the value to return.
+     * @return The enum numeric value on the wire of bGFFPOFHKLB at the given index.
+     */
+    int getBGFFPOFHKLBValue(int index);
+
+    /**
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo> 
         getLevelListList();
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo getLevelList(int index);
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     int getLevelListCount();
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfoOrBuilder> 
         getLevelListOrBuilderList();
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfoOrBuilder getLevelListOrBuilder(
         int index);
 
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-     * @return A list containing the nEBHDIAFDIB.
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+     * @return A list containing the oCBEIEKIMHE.
      */
-    java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getNEBHDIAFDIBList();
+    java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getOCBEIEKIMHEList();
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-     * @return The count of nEBHDIAFDIB.
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+     * @return The count of oCBEIEKIMHE.
      */
-    int getNEBHDIAFDIBCount();
+    int getOCBEIEKIMHECount();
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
      * @param index The index of the element to return.
-     * @return The nEBHDIAFDIB at the given index.
+     * @return The oCBEIEKIMHE at the given index.
      */
-    emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getNEBHDIAFDIB(int index);
+    emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getOCBEIEKIMHE(int index);
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-     * @return A list containing the enum numeric values on the wire for nEBHDIAFDIB.
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+     * @return A list containing the enum numeric values on the wire for oCBEIEKIMHE.
      */
     java.util.List<java.lang.Integer>
-    getNEBHDIAFDIBValueList();
+    getOCBEIEKIMHEValueList();
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
      * @param index The index of the value to return.
-     * @return The enum numeric value on the wire of nEBHDIAFDIB at the given index.
+     * @return The enum numeric value on the wire of oCBEIEKIMHE at the given index.
      */
-    int getNEBHDIAFDIBValue(int index);
-
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @return A list containing the iKPJOPGJAGF.
-     */
-    java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getIKPJOPGJAGFList();
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @return The count of iKPJOPGJAGF.
-     */
-    int getIKPJOPGJAGFCount();
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @param index The index of the element to return.
-     * @return The iKPJOPGJAGF at the given index.
-     */
-    emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getIKPJOPGJAGF(int index);
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @return A list containing the enum numeric values on the wire for iKPJOPGJAGF.
-     */
-    java.util.List<java.lang.Integer>
-    getIKPJOPGJAGFValueList();
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @param index The index of the value to return.
-     * @return The enum numeric value on the wire of iKPJOPGJAGF at the given index.
-     */
-    int getIKPJOPGJAGFValue(int index);
+    int getOCBEIEKIMHEValue(int index);
   }
   /**
    * Protobuf type {@code LanternProjectionInfo}
@@ -131,9 +131,9 @@ public final class LanternProjectionInfoOuterClass {
     }
     private LanternProjectionInfo() {
       openStageList_ = emptyIntList();
+      bGFFPOFHKLB_ = java.util.Collections.emptyList();
       levelList_ = java.util.Collections.emptyList();
-      nEBHDIAFDIB_ = java.util.Collections.emptyList();
-      iKPJOPGJAGF_ = java.util.Collections.emptyList();
+      oCBEIEKIMHE_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -167,30 +167,39 @@ public final class LanternProjectionInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-              int rawValue = input.readEnum();
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                iKPJOPGJAGF_ = new java.util.ArrayList<java.lang.Integer>();
-                mutable_bitField0_ |= 0x00000008;
+            case 50: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                levelList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo>();
+                mutable_bitField0_ |= 0x00000004;
               }
-              iKPJOPGJAGF_.add(rawValue);
+              levelList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.parser(), extensionRegistry));
               break;
             }
-            case 10: {
+            case 72: {
+              int rawValue = input.readEnum();
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                bGFFPOFHKLB_ = new java.util.ArrayList<java.lang.Integer>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              bGFFPOFHKLB_.add(rawValue);
+              break;
+            }
+            case 74: {
               int length = input.readRawVarint32();
               int oldLimit = input.pushLimit(length);
               while(input.getBytesUntilLimit() > 0) {
                 int rawValue = input.readEnum();
-                if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                  iKPJOPGJAGF_ = new java.util.ArrayList<java.lang.Integer>();
-                  mutable_bitField0_ |= 0x00000008;
+                if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                  bGFFPOFHKLB_ = new java.util.ArrayList<java.lang.Integer>();
+                  mutable_bitField0_ |= 0x00000002;
                 }
-                iKPJOPGJAGF_.add(rawValue);
+                bGFFPOFHKLB_.add(rawValue);
               }
               input.popLimit(oldLimit);
               break;
             }
-            case 48: {
+            case 80: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 openStageList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -198,7 +207,7 @@ public final class LanternProjectionInfoOuterClass {
               openStageList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -211,36 +220,27 @@ public final class LanternProjectionInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 112: {
+            case 96: {
               int rawValue = input.readEnum();
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                nEBHDIAFDIB_ = new java.util.ArrayList<java.lang.Integer>();
-                mutable_bitField0_ |= 0x00000004;
+              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+                oCBEIEKIMHE_ = new java.util.ArrayList<java.lang.Integer>();
+                mutable_bitField0_ |= 0x00000008;
               }
-              nEBHDIAFDIB_.add(rawValue);
+              oCBEIEKIMHE_.add(rawValue);
               break;
             }
-            case 114: {
+            case 98: {
               int length = input.readRawVarint32();
               int oldLimit = input.pushLimit(length);
               while(input.getBytesUntilLimit() > 0) {
                 int rawValue = input.readEnum();
-                if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                  nEBHDIAFDIB_ = new java.util.ArrayList<java.lang.Integer>();
-                  mutable_bitField0_ |= 0x00000004;
+                if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+                  oCBEIEKIMHE_ = new java.util.ArrayList<java.lang.Integer>();
+                  mutable_bitField0_ |= 0x00000008;
                 }
-                nEBHDIAFDIB_.add(rawValue);
+                oCBEIEKIMHE_.add(rawValue);
               }
               input.popLimit(oldLimit);
-              break;
-            }
-            case 122: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                levelList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              levelList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -258,17 +258,17 @@ public final class LanternProjectionInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          iKPJOPGJAGF_ = java.util.Collections.unmodifiableList(iKPJOPGJAGF_);
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          levelList_ = java.util.Collections.unmodifiableList(levelList_);
+        }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          bGFFPOFHKLB_ = java.util.Collections.unmodifiableList(bGFFPOFHKLB_);
         }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           openStageList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          nEBHDIAFDIB_ = java.util.Collections.unmodifiableList(nEBHDIAFDIB_);
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          levelList_ = java.util.Collections.unmodifiableList(levelList_);
+        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+          oCBEIEKIMHE_ = java.util.Collections.unmodifiableList(oCBEIEKIMHE_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -287,10 +287,10 @@ public final class LanternProjectionInfoOuterClass {
               emu.grasscutter.net.proto.LanternProjectionInfoOuterClass.LanternProjectionInfo.class, emu.grasscutter.net.proto.LanternProjectionInfoOuterClass.LanternProjectionInfo.Builder.class);
     }
 
-    public static final int OPEN_STAGE_LIST_FIELD_NUMBER = 6;
+    public static final int OPEN_STAGE_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList openStageList_;
     /**
-     * <code>repeated uint32 open_stage_list = 6;</code>
+     * <code>repeated uint32 open_stage_list = 10;</code>
      * @return A list containing the openStageList.
      */
     @java.lang.Override
@@ -299,14 +299,14 @@ public final class LanternProjectionInfoOuterClass {
       return openStageList_;
     }
     /**
-     * <code>repeated uint32 open_stage_list = 6;</code>
+     * <code>repeated uint32 open_stage_list = 10;</code>
      * @return The count of openStageList.
      */
     public int getOpenStageListCount() {
       return openStageList_.size();
     }
     /**
-     * <code>repeated uint32 open_stage_list = 6;</code>
+     * <code>repeated uint32 open_stage_list = 10;</code>
      * @param index The index of the element to return.
      * @return The openStageList at the given index.
      */
@@ -315,17 +315,75 @@ public final class LanternProjectionInfoOuterClass {
     }
     private int openStageListMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_LIST_FIELD_NUMBER = 15;
+    public static final int BGFFPOFHKLB_FIELD_NUMBER = 9;
+    private java.util.List<java.lang.Integer> bGFFPOFHKLB_;
+    private static final com.google.protobuf.Internal.ListAdapter.Converter<
+        java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> bGFFPOFHKLB_converter_ =
+            new com.google.protobuf.Internal.ListAdapter.Converter<
+                java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>() {
+              public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType convert(java.lang.Integer from) {
+                @SuppressWarnings("deprecation")
+                emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType result = emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType.valueOf(from);
+                return result == null ? emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType.UNRECOGNIZED : result;
+              }
+            };
+    /**
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @return A list containing the bGFFPOFHKLB.
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getBGFFPOFHKLBList() {
+      return new com.google.protobuf.Internal.ListAdapter<
+          java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>(bGFFPOFHKLB_, bGFFPOFHKLB_converter_);
+    }
+    /**
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @return The count of bGFFPOFHKLB.
+     */
+    @java.lang.Override
+    public int getBGFFPOFHKLBCount() {
+      return bGFFPOFHKLB_.size();
+    }
+    /**
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @param index The index of the element to return.
+     * @return The bGFFPOFHKLB at the given index.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getBGFFPOFHKLB(int index) {
+      return bGFFPOFHKLB_converter_.convert(bGFFPOFHKLB_.get(index));
+    }
+    /**
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @return A list containing the enum numeric values on the wire for bGFFPOFHKLB.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+    getBGFFPOFHKLBValueList() {
+      return bGFFPOFHKLB_;
+    }
+    /**
+     * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+     * @param index The index of the value to return.
+     * @return The enum numeric value on the wire of bGFFPOFHKLB at the given index.
+     */
+    @java.lang.Override
+    public int getBGFFPOFHKLBValue(int index) {
+      return bGFFPOFHKLB_.get(index);
+    }
+    private int bGFFPOFHKLBMemoizedSerializedSize;
+
+    public static final int LEVEL_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo> levelList_;
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo> getLevelListList() {
       return levelList_;
     }
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfoOrBuilder> 
@@ -333,21 +391,21 @@ public final class LanternProjectionInfoOuterClass {
       return levelList_;
     }
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     @java.lang.Override
     public int getLevelListCount() {
       return levelList_.size();
     }
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo getLevelList(int index) {
       return levelList_.get(index);
     }
     /**
-     * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+     * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfoOrBuilder getLevelListOrBuilder(
@@ -355,10 +413,10 @@ public final class LanternProjectionInfoOuterClass {
       return levelList_.get(index);
     }
 
-    public static final int NEBHDIAFDIB_FIELD_NUMBER = 14;
-    private java.util.List<java.lang.Integer> nEBHDIAFDIB_;
+    public static final int OCBEIEKIMHE_FIELD_NUMBER = 12;
+    private java.util.List<java.lang.Integer> oCBEIEKIMHE_;
     private static final com.google.protobuf.Internal.ListAdapter.Converter<
-        java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> nEBHDIAFDIB_converter_ =
+        java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> oCBEIEKIMHE_converter_ =
             new com.google.protobuf.Internal.ListAdapter.Converter<
                 java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>() {
               public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType convert(java.lang.Integer from) {
@@ -368,108 +426,50 @@ public final class LanternProjectionInfoOuterClass {
               }
             };
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-     * @return A list containing the nEBHDIAFDIB.
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+     * @return A list containing the oCBEIEKIMHE.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getNEBHDIAFDIBList() {
+    public java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getOCBEIEKIMHEList() {
       return new com.google.protobuf.Internal.ListAdapter<
-          java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>(nEBHDIAFDIB_, nEBHDIAFDIB_converter_);
+          java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>(oCBEIEKIMHE_, oCBEIEKIMHE_converter_);
     }
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-     * @return The count of nEBHDIAFDIB.
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+     * @return The count of oCBEIEKIMHE.
      */
     @java.lang.Override
-    public int getNEBHDIAFDIBCount() {
-      return nEBHDIAFDIB_.size();
+    public int getOCBEIEKIMHECount() {
+      return oCBEIEKIMHE_.size();
     }
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
      * @param index The index of the element to return.
-     * @return The nEBHDIAFDIB at the given index.
+     * @return The oCBEIEKIMHE at the given index.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getNEBHDIAFDIB(int index) {
-      return nEBHDIAFDIB_converter_.convert(nEBHDIAFDIB_.get(index));
+    public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getOCBEIEKIMHE(int index) {
+      return oCBEIEKIMHE_converter_.convert(oCBEIEKIMHE_.get(index));
     }
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-     * @return A list containing the enum numeric values on the wire for nEBHDIAFDIB.
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+     * @return A list containing the enum numeric values on the wire for oCBEIEKIMHE.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-    getNEBHDIAFDIBValueList() {
-      return nEBHDIAFDIB_;
+    getOCBEIEKIMHEValueList() {
+      return oCBEIEKIMHE_;
     }
     /**
-     * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
+     * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
      * @param index The index of the value to return.
-     * @return The enum numeric value on the wire of nEBHDIAFDIB at the given index.
+     * @return The enum numeric value on the wire of oCBEIEKIMHE at the given index.
      */
     @java.lang.Override
-    public int getNEBHDIAFDIBValue(int index) {
-      return nEBHDIAFDIB_.get(index);
+    public int getOCBEIEKIMHEValue(int index) {
+      return oCBEIEKIMHE_.get(index);
     }
-    private int nEBHDIAFDIBMemoizedSerializedSize;
-
-    public static final int IKPJOPGJAGF_FIELD_NUMBER = 1;
-    private java.util.List<java.lang.Integer> iKPJOPGJAGF_;
-    private static final com.google.protobuf.Internal.ListAdapter.Converter<
-        java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> iKPJOPGJAGF_converter_ =
-            new com.google.protobuf.Internal.ListAdapter.Converter<
-                java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>() {
-              public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType convert(java.lang.Integer from) {
-                @SuppressWarnings("deprecation")
-                emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType result = emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType.valueOf(from);
-                return result == null ? emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType.UNRECOGNIZED : result;
-              }
-            };
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @return A list containing the iKPJOPGJAGF.
-     */
-    @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getIKPJOPGJAGFList() {
-      return new com.google.protobuf.Internal.ListAdapter<
-          java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>(iKPJOPGJAGF_, iKPJOPGJAGF_converter_);
-    }
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @return The count of iKPJOPGJAGF.
-     */
-    @java.lang.Override
-    public int getIKPJOPGJAGFCount() {
-      return iKPJOPGJAGF_.size();
-    }
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @param index The index of the element to return.
-     * @return The iKPJOPGJAGF at the given index.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getIKPJOPGJAGF(int index) {
-      return iKPJOPGJAGF_converter_.convert(iKPJOPGJAGF_.get(index));
-    }
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @return A list containing the enum numeric values on the wire for iKPJOPGJAGF.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-    getIKPJOPGJAGFValueList() {
-      return iKPJOPGJAGF_;
-    }
-    /**
-     * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-     * @param index The index of the value to return.
-     * @return The enum numeric value on the wire of iKPJOPGJAGF at the given index.
-     */
-    @java.lang.Override
-    public int getIKPJOPGJAGFValue(int index) {
-      return iKPJOPGJAGF_.get(index);
-    }
-    private int iKPJOPGJAGFMemoizedSerializedSize;
+    private int oCBEIEKIMHEMemoizedSerializedSize;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -486,29 +486,29 @@ public final class LanternProjectionInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getIKPJOPGJAGFList().size() > 0) {
-        output.writeUInt32NoTag(10);
-        output.writeUInt32NoTag(iKPJOPGJAGFMemoizedSerializedSize);
+      for (int i = 0; i < levelList_.size(); i++) {
+        output.writeMessage(6, levelList_.get(i));
       }
-      for (int i = 0; i < iKPJOPGJAGF_.size(); i++) {
-        output.writeEnumNoTag(iKPJOPGJAGF_.get(i));
+      if (getBGFFPOFHKLBList().size() > 0) {
+        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(bGFFPOFHKLBMemoizedSerializedSize);
+      }
+      for (int i = 0; i < bGFFPOFHKLB_.size(); i++) {
+        output.writeEnumNoTag(bGFFPOFHKLB_.get(i));
       }
       if (getOpenStageListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(openStageListMemoizedSerializedSize);
       }
       for (int i = 0; i < openStageList_.size(); i++) {
         output.writeUInt32NoTag(openStageList_.getInt(i));
       }
-      if (getNEBHDIAFDIBList().size() > 0) {
-        output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(nEBHDIAFDIBMemoizedSerializedSize);
+      if (getOCBEIEKIMHEList().size() > 0) {
+        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(oCBEIEKIMHEMemoizedSerializedSize);
       }
-      for (int i = 0; i < nEBHDIAFDIB_.size(); i++) {
-        output.writeEnumNoTag(nEBHDIAFDIB_.get(i));
-      }
-      for (int i = 0; i < levelList_.size(); i++) {
-        output.writeMessage(15, levelList_.get(i));
+      for (int i = 0; i < oCBEIEKIMHE_.size(); i++) {
+        output.writeEnumNoTag(oCBEIEKIMHE_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -519,17 +519,21 @@ public final class LanternProjectionInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < levelList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, levelList_.get(i));
+      }
       {
         int dataSize = 0;
-        for (int i = 0; i < iKPJOPGJAGF_.size(); i++) {
+        for (int i = 0; i < bGFFPOFHKLB_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeEnumSizeNoTag(iKPJOPGJAGF_.get(i));
+            .computeEnumSizeNoTag(bGFFPOFHKLB_.get(i));
         }
         size += dataSize;
-        if (!getIKPJOPGJAGFList().isEmpty()) {  size += 1;
+        if (!getBGFFPOFHKLBList().isEmpty()) {  size += 1;
           size += com.google.protobuf.CodedOutputStream
             .computeUInt32SizeNoTag(dataSize);
-        }iKPJOPGJAGFMemoizedSerializedSize = dataSize;
+        }bGFFPOFHKLBMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -547,19 +551,15 @@ public final class LanternProjectionInfoOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < nEBHDIAFDIB_.size(); i++) {
+        for (int i = 0; i < oCBEIEKIMHE_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeEnumSizeNoTag(nEBHDIAFDIB_.get(i));
+            .computeEnumSizeNoTag(oCBEIEKIMHE_.get(i));
         }
         size += dataSize;
-        if (!getNEBHDIAFDIBList().isEmpty()) {  size += 1;
+        if (!getOCBEIEKIMHEList().isEmpty()) {  size += 1;
           size += com.google.protobuf.CodedOutputStream
             .computeUInt32SizeNoTag(dataSize);
-        }nEBHDIAFDIBMemoizedSerializedSize = dataSize;
-      }
-      for (int i = 0; i < levelList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, levelList_.get(i));
+        }oCBEIEKIMHEMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -578,10 +578,10 @@ public final class LanternProjectionInfoOuterClass {
 
       if (!getOpenStageListList()
           .equals(other.getOpenStageListList())) return false;
+      if (!bGFFPOFHKLB_.equals(other.bGFFPOFHKLB_)) return false;
       if (!getLevelListList()
           .equals(other.getLevelListList())) return false;
-      if (!nEBHDIAFDIB_.equals(other.nEBHDIAFDIB_)) return false;
-      if (!iKPJOPGJAGF_.equals(other.iKPJOPGJAGF_)) return false;
+      if (!oCBEIEKIMHE_.equals(other.oCBEIEKIMHE_)) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -597,17 +597,17 @@ public final class LanternProjectionInfoOuterClass {
         hash = (37 * hash) + OPEN_STAGE_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getOpenStageListList().hashCode();
       }
+      if (getBGFFPOFHKLBCount() > 0) {
+        hash = (37 * hash) + BGFFPOFHKLB_FIELD_NUMBER;
+        hash = (53 * hash) + bGFFPOFHKLB_.hashCode();
+      }
       if (getLevelListCount() > 0) {
         hash = (37 * hash) + LEVEL_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getLevelListList().hashCode();
       }
-      if (getNEBHDIAFDIBCount() > 0) {
-        hash = (37 * hash) + NEBHDIAFDIB_FIELD_NUMBER;
-        hash = (53 * hash) + nEBHDIAFDIB_.hashCode();
-      }
-      if (getIKPJOPGJAGFCount() > 0) {
-        hash = (37 * hash) + IKPJOPGJAGF_FIELD_NUMBER;
-        hash = (53 * hash) + iKPJOPGJAGF_.hashCode();
+      if (getOCBEIEKIMHECount() > 0) {
+        hash = (37 * hash) + OCBEIEKIMHE_FIELD_NUMBER;
+        hash = (53 * hash) + oCBEIEKIMHE_.hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -745,15 +745,15 @@ public final class LanternProjectionInfoOuterClass {
         super.clear();
         openStageList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
+        bGFFPOFHKLB_ = java.util.Collections.emptyList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         if (levelListBuilder_ == null) {
           levelList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           levelListBuilder_.clear();
         }
-        nEBHDIAFDIB_ = java.util.Collections.emptyList();
-        bitField0_ = (bitField0_ & ~0x00000004);
-        iKPJOPGJAGF_ = java.util.Collections.emptyList();
+        oCBEIEKIMHE_ = java.util.Collections.emptyList();
         bitField0_ = (bitField0_ & ~0x00000008);
         return this;
       }
@@ -787,25 +787,25 @@ public final class LanternProjectionInfoOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.openStageList_ = openStageList_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          bGFFPOFHKLB_ = java.util.Collections.unmodifiableList(bGFFPOFHKLB_);
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.bGFFPOFHKLB_ = bGFFPOFHKLB_;
         if (levelListBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
+          if (((bitField0_ & 0x00000004) != 0)) {
             levelList_ = java.util.Collections.unmodifiableList(levelList_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.levelList_ = levelList_;
         } else {
           result.levelList_ = levelListBuilder_.build();
         }
-        if (((bitField0_ & 0x00000004) != 0)) {
-          nEBHDIAFDIB_ = java.util.Collections.unmodifiableList(nEBHDIAFDIB_);
-          bitField0_ = (bitField0_ & ~0x00000004);
-        }
-        result.nEBHDIAFDIB_ = nEBHDIAFDIB_;
         if (((bitField0_ & 0x00000008) != 0)) {
-          iKPJOPGJAGF_ = java.util.Collections.unmodifiableList(iKPJOPGJAGF_);
+          oCBEIEKIMHE_ = java.util.Collections.unmodifiableList(oCBEIEKIMHE_);
           bitField0_ = (bitField0_ & ~0x00000008);
         }
-        result.iKPJOPGJAGF_ = iKPJOPGJAGF_;
+        result.oCBEIEKIMHE_ = oCBEIEKIMHE_;
         onBuilt();
         return result;
       }
@@ -864,11 +864,21 @@ public final class LanternProjectionInfoOuterClass {
           }
           onChanged();
         }
+        if (!other.bGFFPOFHKLB_.isEmpty()) {
+          if (bGFFPOFHKLB_.isEmpty()) {
+            bGFFPOFHKLB_ = other.bGFFPOFHKLB_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureBGFFPOFHKLBIsMutable();
+            bGFFPOFHKLB_.addAll(other.bGFFPOFHKLB_);
+          }
+          onChanged();
+        }
         if (levelListBuilder_ == null) {
           if (!other.levelList_.isEmpty()) {
             if (levelList_.isEmpty()) {
               levelList_ = other.levelList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureLevelListIsMutable();
               levelList_.addAll(other.levelList_);
@@ -881,7 +891,7 @@ public final class LanternProjectionInfoOuterClass {
               levelListBuilder_.dispose();
               levelListBuilder_ = null;
               levelList_ = other.levelList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000004);
               levelListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getLevelListFieldBuilder() : null;
@@ -890,23 +900,13 @@ public final class LanternProjectionInfoOuterClass {
             }
           }
         }
-        if (!other.nEBHDIAFDIB_.isEmpty()) {
-          if (nEBHDIAFDIB_.isEmpty()) {
-            nEBHDIAFDIB_ = other.nEBHDIAFDIB_;
-            bitField0_ = (bitField0_ & ~0x00000004);
-          } else {
-            ensureNEBHDIAFDIBIsMutable();
-            nEBHDIAFDIB_.addAll(other.nEBHDIAFDIB_);
-          }
-          onChanged();
-        }
-        if (!other.iKPJOPGJAGF_.isEmpty()) {
-          if (iKPJOPGJAGF_.isEmpty()) {
-            iKPJOPGJAGF_ = other.iKPJOPGJAGF_;
+        if (!other.oCBEIEKIMHE_.isEmpty()) {
+          if (oCBEIEKIMHE_.isEmpty()) {
+            oCBEIEKIMHE_ = other.oCBEIEKIMHE_;
             bitField0_ = (bitField0_ & ~0x00000008);
           } else {
-            ensureIKPJOPGJAGFIsMutable();
-            iKPJOPGJAGF_.addAll(other.iKPJOPGJAGF_);
+            ensureOCBEIEKIMHEIsMutable();
+            oCBEIEKIMHE_.addAll(other.oCBEIEKIMHE_);
           }
           onChanged();
         }
@@ -948,7 +948,7 @@ public final class LanternProjectionInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 open_stage_list = 6;</code>
+       * <code>repeated uint32 open_stage_list = 10;</code>
        * @return A list containing the openStageList.
        */
       public java.util.List<java.lang.Integer>
@@ -957,14 +957,14 @@ public final class LanternProjectionInfoOuterClass {
                  java.util.Collections.unmodifiableList(openStageList_) : openStageList_;
       }
       /**
-       * <code>repeated uint32 open_stage_list = 6;</code>
+       * <code>repeated uint32 open_stage_list = 10;</code>
        * @return The count of openStageList.
        */
       public int getOpenStageListCount() {
         return openStageList_.size();
       }
       /**
-       * <code>repeated uint32 open_stage_list = 6;</code>
+       * <code>repeated uint32 open_stage_list = 10;</code>
        * @param index The index of the element to return.
        * @return The openStageList at the given index.
        */
@@ -972,7 +972,7 @@ public final class LanternProjectionInfoOuterClass {
         return openStageList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 open_stage_list = 6;</code>
+       * <code>repeated uint32 open_stage_list = 10;</code>
        * @param index The index to set the value at.
        * @param value The openStageList to set.
        * @return This builder for chaining.
@@ -985,7 +985,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 open_stage_list = 6;</code>
+       * <code>repeated uint32 open_stage_list = 10;</code>
        * @param value The openStageList to add.
        * @return This builder for chaining.
        */
@@ -996,7 +996,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 open_stage_list = 6;</code>
+       * <code>repeated uint32 open_stage_list = 10;</code>
        * @param values The openStageList to add.
        * @return This builder for chaining.
        */
@@ -1009,7 +1009,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 open_stage_list = 6;</code>
+       * <code>repeated uint32 open_stage_list = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpenStageList() {
@@ -1019,12 +1019,152 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
 
+      private java.util.List<java.lang.Integer> bGFFPOFHKLB_ =
+        java.util.Collections.emptyList();
+      private void ensureBGFFPOFHKLBIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          bGFFPOFHKLB_ = new java.util.ArrayList<java.lang.Integer>(bGFFPOFHKLB_);
+          bitField0_ |= 0x00000002;
+        }
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @return A list containing the bGFFPOFHKLB.
+       */
+      public java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getBGFFPOFHKLBList() {
+        return new com.google.protobuf.Internal.ListAdapter<
+            java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>(bGFFPOFHKLB_, bGFFPOFHKLB_converter_);
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @return The count of bGFFPOFHKLB.
+       */
+      public int getBGFFPOFHKLBCount() {
+        return bGFFPOFHKLB_.size();
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @param index The index of the element to return.
+       * @return The bGFFPOFHKLB at the given index.
+       */
+      public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getBGFFPOFHKLB(int index) {
+        return bGFFPOFHKLB_converter_.convert(bGFFPOFHKLB_.get(index));
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @param index The index to set the value at.
+       * @param value The bGFFPOFHKLB to set.
+       * @return This builder for chaining.
+       */
+      public Builder setBGFFPOFHKLB(
+          int index, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        ensureBGFFPOFHKLBIsMutable();
+        bGFFPOFHKLB_.set(index, value.getNumber());
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @param value The bGFFPOFHKLB to add.
+       * @return This builder for chaining.
+       */
+      public Builder addBGFFPOFHKLB(emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        ensureBGFFPOFHKLBIsMutable();
+        bGFFPOFHKLB_.add(value.getNumber());
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @param values The bGFFPOFHKLB to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllBGFFPOFHKLB(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> values) {
+        ensureBGFFPOFHKLBIsMutable();
+        for (emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value : values) {
+          bGFFPOFHKLB_.add(value.getNumber());
+        }
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearBGFFPOFHKLB() {
+        bGFFPOFHKLB_ = java.util.Collections.emptyList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @return A list containing the enum numeric values on the wire for bGFFPOFHKLB.
+       */
+      public java.util.List<java.lang.Integer>
+      getBGFFPOFHKLBValueList() {
+        return java.util.Collections.unmodifiableList(bGFFPOFHKLB_);
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @param index The index of the value to return.
+       * @return The enum numeric value on the wire of bGFFPOFHKLB at the given index.
+       */
+      public int getBGFFPOFHKLBValue(int index) {
+        return bGFFPOFHKLB_.get(index);
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @param index The index of the value to return.
+       * @return The enum numeric value on the wire of bGFFPOFHKLB at the given index.
+       * @return This builder for chaining.
+       */
+      public Builder setBGFFPOFHKLBValue(
+          int index, int value) {
+        ensureBGFFPOFHKLBIsMutable();
+        bGFFPOFHKLB_.set(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @param value The enum numeric value on the wire for bGFFPOFHKLB to add.
+       * @return This builder for chaining.
+       */
+      public Builder addBGFFPOFHKLBValue(int value) {
+        ensureBGFFPOFHKLBIsMutable();
+        bGFFPOFHKLB_.add(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated .ClientInputType BGFFPOFHKLB = 9;</code>
+       * @param values The enum numeric values on the wire for bGFFPOFHKLB to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllBGFFPOFHKLBValue(
+          java.lang.Iterable<java.lang.Integer> values) {
+        ensureBGFFPOFHKLBIsMutable();
+        for (int value : values) {
+          bGFFPOFHKLB_.add(value);
+        }
+        onChanged();
+        return this;
+      }
+
       private java.util.List<emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo> levelList_ =
         java.util.Collections.emptyList();
       private void ensureLevelListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
+        if (!((bitField0_ & 0x00000004) != 0)) {
           levelList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo>(levelList_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -1032,7 +1172,7 @@ public final class LanternProjectionInfoOuterClass {
           emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo, emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.Builder, emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfoOrBuilder> levelListBuilder_;
 
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo> getLevelListList() {
         if (levelListBuilder_ == null) {
@@ -1042,7 +1182,7 @@ public final class LanternProjectionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public int getLevelListCount() {
         if (levelListBuilder_ == null) {
@@ -1052,7 +1192,7 @@ public final class LanternProjectionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo getLevelList(int index) {
         if (levelListBuilder_ == null) {
@@ -1062,7 +1202,7 @@ public final class LanternProjectionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public Builder setLevelList(
           int index, emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo value) {
@@ -1079,7 +1219,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public Builder setLevelList(
           int index, emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.Builder builderForValue) {
@@ -1093,7 +1233,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public Builder addLevelList(emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo value) {
         if (levelListBuilder_ == null) {
@@ -1109,7 +1249,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public Builder addLevelList(
           int index, emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo value) {
@@ -1126,7 +1266,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public Builder addLevelList(
           emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.Builder builderForValue) {
@@ -1140,7 +1280,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public Builder addLevelList(
           int index, emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.Builder builderForValue) {
@@ -1154,7 +1294,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public Builder addAllLevelList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo> values) {
@@ -1169,12 +1309,12 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public Builder clearLevelList() {
         if (levelListBuilder_ == null) {
           levelList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           levelListBuilder_.clear();
@@ -1182,7 +1322,7 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public Builder removeLevelList(int index) {
         if (levelListBuilder_ == null) {
@@ -1195,14 +1335,14 @@ public final class LanternProjectionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.Builder getLevelListBuilder(
           int index) {
         return getLevelListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfoOrBuilder getLevelListOrBuilder(
           int index) {
@@ -1212,7 +1352,7 @@ public final class LanternProjectionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfoOrBuilder> 
            getLevelListOrBuilderList() {
@@ -1223,14 +1363,14 @@ public final class LanternProjectionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.Builder addLevelListBuilder() {
         return getLevelListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.Builder addLevelListBuilder(
           int index) {
@@ -1238,7 +1378,7 @@ public final class LanternProjectionInfoOuterClass {
             index, emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .LanternProjectionLevelInfo level_list = 15;</code>
+       * <code>repeated .LanternProjectionLevelInfo level_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.Builder> 
            getLevelListBuilderList() {
@@ -1251,7 +1391,7 @@ public final class LanternProjectionInfoOuterClass {
           levelListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo, emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfo.Builder, emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.LanternProjectionLevelInfoOrBuilder>(
                   levelList_,
-                  ((bitField0_ & 0x00000002) != 0),
+                  ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
                   isClean());
           levelList_ = null;
@@ -1259,281 +1399,141 @@ public final class LanternProjectionInfoOuterClass {
         return levelListBuilder_;
       }
 
-      private java.util.List<java.lang.Integer> nEBHDIAFDIB_ =
+      private java.util.List<java.lang.Integer> oCBEIEKIMHE_ =
         java.util.Collections.emptyList();
-      private void ensureNEBHDIAFDIBIsMutable() {
-        if (!((bitField0_ & 0x00000004) != 0)) {
-          nEBHDIAFDIB_ = new java.util.ArrayList<java.lang.Integer>(nEBHDIAFDIB_);
-          bitField0_ |= 0x00000004;
-        }
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @return A list containing the nEBHDIAFDIB.
-       */
-      public java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getNEBHDIAFDIBList() {
-        return new com.google.protobuf.Internal.ListAdapter<
-            java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>(nEBHDIAFDIB_, nEBHDIAFDIB_converter_);
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @return The count of nEBHDIAFDIB.
-       */
-      public int getNEBHDIAFDIBCount() {
-        return nEBHDIAFDIB_.size();
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @param index The index of the element to return.
-       * @return The nEBHDIAFDIB at the given index.
-       */
-      public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getNEBHDIAFDIB(int index) {
-        return nEBHDIAFDIB_converter_.convert(nEBHDIAFDIB_.get(index));
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @param index The index to set the value at.
-       * @param value The nEBHDIAFDIB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNEBHDIAFDIB(
-          int index, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        ensureNEBHDIAFDIBIsMutable();
-        nEBHDIAFDIB_.set(index, value.getNumber());
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @param value The nEBHDIAFDIB to add.
-       * @return This builder for chaining.
-       */
-      public Builder addNEBHDIAFDIB(emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        ensureNEBHDIAFDIBIsMutable();
-        nEBHDIAFDIB_.add(value.getNumber());
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @param values The nEBHDIAFDIB to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllNEBHDIAFDIB(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> values) {
-        ensureNEBHDIAFDIBIsMutable();
-        for (emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value : values) {
-          nEBHDIAFDIB_.add(value.getNumber());
-        }
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNEBHDIAFDIB() {
-        nEBHDIAFDIB_ = java.util.Collections.emptyList();
-        bitField0_ = (bitField0_ & ~0x00000004);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @return A list containing the enum numeric values on the wire for nEBHDIAFDIB.
-       */
-      public java.util.List<java.lang.Integer>
-      getNEBHDIAFDIBValueList() {
-        return java.util.Collections.unmodifiableList(nEBHDIAFDIB_);
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @param index The index of the value to return.
-       * @return The enum numeric value on the wire of nEBHDIAFDIB at the given index.
-       */
-      public int getNEBHDIAFDIBValue(int index) {
-        return nEBHDIAFDIB_.get(index);
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @param index The index of the value to return.
-       * @return The enum numeric value on the wire of nEBHDIAFDIB at the given index.
-       * @return This builder for chaining.
-       */
-      public Builder setNEBHDIAFDIBValue(
-          int index, int value) {
-        ensureNEBHDIAFDIBIsMutable();
-        nEBHDIAFDIB_.set(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @param value The enum numeric value on the wire for nEBHDIAFDIB to add.
-       * @return This builder for chaining.
-       */
-      public Builder addNEBHDIAFDIBValue(int value) {
-        ensureNEBHDIAFDIBIsMutable();
-        nEBHDIAFDIB_.add(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated .ClientInputType NEBHDIAFDIB = 14;</code>
-       * @param values The enum numeric values on the wire for nEBHDIAFDIB to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllNEBHDIAFDIBValue(
-          java.lang.Iterable<java.lang.Integer> values) {
-        ensureNEBHDIAFDIBIsMutable();
-        for (int value : values) {
-          nEBHDIAFDIB_.add(value);
-        }
-        onChanged();
-        return this;
-      }
-
-      private java.util.List<java.lang.Integer> iKPJOPGJAGF_ =
-        java.util.Collections.emptyList();
-      private void ensureIKPJOPGJAGFIsMutable() {
+      private void ensureOCBEIEKIMHEIsMutable() {
         if (!((bitField0_ & 0x00000008) != 0)) {
-          iKPJOPGJAGF_ = new java.util.ArrayList<java.lang.Integer>(iKPJOPGJAGF_);
+          oCBEIEKIMHE_ = new java.util.ArrayList<java.lang.Integer>(oCBEIEKIMHE_);
           bitField0_ |= 0x00000008;
         }
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-       * @return A list containing the iKPJOPGJAGF.
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+       * @return A list containing the oCBEIEKIMHE.
        */
-      public java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getIKPJOPGJAGFList() {
+      public java.util.List<emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> getOCBEIEKIMHEList() {
         return new com.google.protobuf.Internal.ListAdapter<
-            java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>(iKPJOPGJAGF_, iKPJOPGJAGF_converter_);
+            java.lang.Integer, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType>(oCBEIEKIMHE_, oCBEIEKIMHE_converter_);
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-       * @return The count of iKPJOPGJAGF.
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+       * @return The count of oCBEIEKIMHE.
        */
-      public int getIKPJOPGJAGFCount() {
-        return iKPJOPGJAGF_.size();
+      public int getOCBEIEKIMHECount() {
+        return oCBEIEKIMHE_.size();
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
        * @param index The index of the element to return.
-       * @return The iKPJOPGJAGF at the given index.
+       * @return The oCBEIEKIMHE at the given index.
        */
-      public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getIKPJOPGJAGF(int index) {
-        return iKPJOPGJAGF_converter_.convert(iKPJOPGJAGF_.get(index));
+      public emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType getOCBEIEKIMHE(int index) {
+        return oCBEIEKIMHE_converter_.convert(oCBEIEKIMHE_.get(index));
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
        * @param index The index to set the value at.
-       * @param value The iKPJOPGJAGF to set.
+       * @param value The oCBEIEKIMHE to set.
        * @return This builder for chaining.
        */
-      public Builder setIKPJOPGJAGF(
+      public Builder setOCBEIEKIMHE(
           int index, emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        ensureIKPJOPGJAGFIsMutable();
-        iKPJOPGJAGF_.set(index, value.getNumber());
+        ensureOCBEIEKIMHEIsMutable();
+        oCBEIEKIMHE_.set(index, value.getNumber());
         onChanged();
         return this;
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-       * @param value The iKPJOPGJAGF to add.
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+       * @param value The oCBEIEKIMHE to add.
        * @return This builder for chaining.
        */
-      public Builder addIKPJOPGJAGF(emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value) {
+      public Builder addOCBEIEKIMHE(emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        ensureIKPJOPGJAGFIsMutable();
-        iKPJOPGJAGF_.add(value.getNumber());
+        ensureOCBEIEKIMHEIsMutable();
+        oCBEIEKIMHE_.add(value.getNumber());
         onChanged();
         return this;
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-       * @param values The iKPJOPGJAGF to add.
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+       * @param values The oCBEIEKIMHE to add.
        * @return This builder for chaining.
        */
-      public Builder addAllIKPJOPGJAGF(
+      public Builder addAllOCBEIEKIMHE(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType> values) {
-        ensureIKPJOPGJAGFIsMutable();
+        ensureOCBEIEKIMHEIsMutable();
         for (emu.grasscutter.net.proto.ClientInputTypeOuterClass.ClientInputType value : values) {
-          iKPJOPGJAGF_.add(value.getNumber());
+          oCBEIEKIMHE_.add(value.getNumber());
         }
         onChanged();
         return this;
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIKPJOPGJAGF() {
-        iKPJOPGJAGF_ = java.util.Collections.emptyList();
+      public Builder clearOCBEIEKIMHE() {
+        oCBEIEKIMHE_ = java.util.Collections.emptyList();
         bitField0_ = (bitField0_ & ~0x00000008);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-       * @return A list containing the enum numeric values on the wire for iKPJOPGJAGF.
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+       * @return A list containing the enum numeric values on the wire for oCBEIEKIMHE.
        */
       public java.util.List<java.lang.Integer>
-      getIKPJOPGJAGFValueList() {
-        return java.util.Collections.unmodifiableList(iKPJOPGJAGF_);
+      getOCBEIEKIMHEValueList() {
+        return java.util.Collections.unmodifiableList(oCBEIEKIMHE_);
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
        * @param index The index of the value to return.
-       * @return The enum numeric value on the wire of iKPJOPGJAGF at the given index.
+       * @return The enum numeric value on the wire of oCBEIEKIMHE at the given index.
        */
-      public int getIKPJOPGJAGFValue(int index) {
-        return iKPJOPGJAGF_.get(index);
+      public int getOCBEIEKIMHEValue(int index) {
+        return oCBEIEKIMHE_.get(index);
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
        * @param index The index of the value to return.
-       * @return The enum numeric value on the wire of iKPJOPGJAGF at the given index.
+       * @return The enum numeric value on the wire of oCBEIEKIMHE at the given index.
        * @return This builder for chaining.
        */
-      public Builder setIKPJOPGJAGFValue(
+      public Builder setOCBEIEKIMHEValue(
           int index, int value) {
-        ensureIKPJOPGJAGFIsMutable();
-        iKPJOPGJAGF_.set(index, value);
+        ensureOCBEIEKIMHEIsMutable();
+        oCBEIEKIMHE_.set(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-       * @param value The enum numeric value on the wire for iKPJOPGJAGF to add.
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+       * @param value The enum numeric value on the wire for oCBEIEKIMHE to add.
        * @return This builder for chaining.
        */
-      public Builder addIKPJOPGJAGFValue(int value) {
-        ensureIKPJOPGJAGFIsMutable();
-        iKPJOPGJAGF_.add(value);
+      public Builder addOCBEIEKIMHEValue(int value) {
+        ensureOCBEIEKIMHEIsMutable();
+        oCBEIEKIMHE_.add(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated .ClientInputType IKPJOPGJAGF = 1;</code>
-       * @param values The enum numeric values on the wire for iKPJOPGJAGF to add.
+       * <code>repeated .ClientInputType OCBEIEKIMHE = 12;</code>
+       * @param values The enum numeric values on the wire for oCBEIEKIMHE to add.
        * @return This builder for chaining.
        */
-      public Builder addAllIKPJOPGJAGFValue(
+      public Builder addAllOCBEIEKIMHEValue(
           java.lang.Iterable<java.lang.Integer> values) {
-        ensureIKPJOPGJAGFIsMutable();
+        ensureOCBEIEKIMHEIsMutable();
         for (int value : values) {
-          iKPJOPGJAGF_.add(value);
+          oCBEIEKIMHE_.add(value);
         }
         onChanged();
         return this;
@@ -1605,29 +1605,29 @@ public final class LanternProjectionInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033LanternProjectionInfo.proto\032 LanternPr" +
-      "ojectionLevelInfo.proto\032\025ClientInputType" +
+      "\n\033LanternProjectionInfo.proto\032\025ClientInp" +
+      "utType.proto\032 LanternProjectionLevelInfo" +
       ".proto\"\257\001\n\025LanternProjectionInfo\022\027\n\017open" +
-      "_stage_list\030\006 \003(\r\022/\n\nlevel_list\030\017 \003(\0132\033." +
-      "LanternProjectionLevelInfo\022%\n\013NEBHDIAFDI" +
-      "B\030\016 \003(\0162\020.ClientInputType\022%\n\013IKPJOPGJAGF" +
-      "\030\001 \003(\0162\020.ClientInputTypeB\033\n\031emu.grasscut" +
+      "_stage_list\030\n \003(\r\022%\n\013BGFFPOFHKLB\030\t \003(\0162\020" +
+      ".ClientInputType\022/\n\nlevel_list\030\006 \003(\0132\033.L" +
+      "anternProjectionLevelInfo\022%\n\013OCBEIEKIMHE" +
+      "\030\014 \003(\0162\020.ClientInputTypeB\033\n\031emu.grasscut" +
       "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ClientInputTypeOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.getDescriptor(),
         });
     internal_static_LanternProjectionInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_LanternProjectionInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_LanternProjectionInfo_descriptor,
-        new java.lang.String[] { "OpenStageList", "LevelList", "NEBHDIAFDIB", "IKPJOPGJAGF", });
-    emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "OpenStageList", "BGFFPOFHKLB", "LevelList", "OCBEIEKIMHE", });
     emu.grasscutter.net.proto.ClientInputTypeOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.LanternProjectionLevelInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

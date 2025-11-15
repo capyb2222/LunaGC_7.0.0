@@ -53,10 +53,6 @@ public final class FleurFairV2MusicGameInfoOuterClass {
         int key);
   }
   /**
-   * <pre>
-   * Obf: NFFIPPGMKMH
-   * </pre>
-   *
    * Protobuf type {@code FleurFairV2MusicGameInfo}
    */
   public static final class FleurFairV2MusicGameInfo extends
@@ -407,10 +403,6 @@ public final class FleurFairV2MusicGameInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: NFFIPPGMKMH
-     * </pre>
-     *
      * Protobuf type {@code FleurFairV2MusicGameInfo}
      */
     public static final class Builder extends

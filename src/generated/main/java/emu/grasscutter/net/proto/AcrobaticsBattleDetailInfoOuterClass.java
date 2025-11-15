@@ -19,25 +19,25 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> 
         getStageInfoListList();
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo getStageInfoList(int index);
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder getStageInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
               emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo.class, emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 3;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> stageInfoList_;
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder getStageInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(3, stageInfoList_.get(i));
+        output.writeMessage(14, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, stageInfoList_.get(i));
+          .computeMessageSize(14, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
           emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo value) {
@@ -575,7 +575,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo value) {
         if (stageInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo value) {
@@ -622,7 +622,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> values) {
@@ -665,7 +665,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder addStageInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 3;</code>
+       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder> 
            getStageInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n AcrobaticsBattleDetailInfo.proto\032\037Acro" +
       "baticsBattleStageInfo.proto\"Q\n\032Acrobatic" +
-      "sBattleDetailInfo\0223\n\017stage_info_list\030\003 \003" +
+      "sBattleDetailInfo\0223\n\017stage_info_list\030\016 \003" +
       "(\0132\032.AcrobaticsBattleStageInfoB\033\n\031emu.gr" +
       "asscutter.net.protob\006proto3"
     };

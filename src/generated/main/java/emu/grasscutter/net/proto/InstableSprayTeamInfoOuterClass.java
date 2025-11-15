@@ -19,25 +19,25 @@ public final class InstableSprayTeamInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo> 
         getAvatarInfoListList();
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo getAvatarInfoList(int index);
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     int getAvatarInfoListCount();
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfoOrBuilder> 
         getAvatarInfoListOrBuilderList();
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class InstableSprayTeamInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class InstableSprayTeamInfoOuterClass {
               emu.grasscutter.net.proto.InstableSprayTeamInfoOuterClass.InstableSprayTeamInfo.class, emu.grasscutter.net.proto.InstableSprayTeamInfoOuterClass.InstableSprayTeamInfo.Builder.class);
     }
 
-    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 14;
+    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo> avatarInfoList_;
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo> getAvatarInfoListList() {
       return avatarInfoList_;
     }
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class InstableSprayTeamInfoOuterClass {
       return avatarInfoList_;
     }
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     @java.lang.Override
     public int getAvatarInfoListCount() {
       return avatarInfoList_.size();
     }
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo getAvatarInfoList(int index) {
       return avatarInfoList_.get(index);
     }
     /**
-     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+     * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class InstableSprayTeamInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < avatarInfoList_.size(); i++) {
-        output.writeMessage(14, avatarInfoList_.get(i));
+        output.writeMessage(3, avatarInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class InstableSprayTeamInfoOuterClass {
       size = 0;
       for (int i = 0; i < avatarInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, avatarInfoList_.get(i));
+          .computeMessageSize(3, avatarInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class InstableSprayTeamInfoOuterClass {
           emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo, emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.Builder, emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfoOrBuilder> avatarInfoListBuilder_;
 
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo> getAvatarInfoListList() {
         if (avatarInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class InstableSprayTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public int getAvatarInfoListCount() {
         if (avatarInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class InstableSprayTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo getAvatarInfoList(int index) {
         if (avatarInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class InstableSprayTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public Builder setAvatarInfoList(
           int index, emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo value) {
@@ -575,7 +575,7 @@ public final class InstableSprayTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public Builder setAvatarInfoList(
           int index, emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class InstableSprayTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public Builder addAvatarInfoList(emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo value) {
         if (avatarInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class InstableSprayTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public Builder addAvatarInfoList(
           int index, emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo value) {
@@ -622,7 +622,7 @@ public final class InstableSprayTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public Builder addAvatarInfoList(
           emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class InstableSprayTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public Builder addAvatarInfoList(
           int index, emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class InstableSprayTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public Builder addAllAvatarInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo> values) {
@@ -665,7 +665,7 @@ public final class InstableSprayTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public Builder clearAvatarInfoList() {
         if (avatarInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class InstableSprayTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public Builder removeAvatarInfoList(int index) {
         if (avatarInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class InstableSprayTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.Builder getAvatarInfoListBuilder(
           int index) {
         return getAvatarInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class InstableSprayTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfoOrBuilder> 
            getAvatarInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class InstableSprayTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.Builder addAvatarInfoListBuilder() {
         return getAvatarInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.Builder addAvatarInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class InstableSprayTeamInfoOuterClass {
             index, emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 14;</code>
+       * <code>repeated .InstableSprayAvatarInfo avatar_info_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.InstableSprayAvatarInfoOuterClass.InstableSprayAvatarInfo.Builder> 
            getAvatarInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class InstableSprayTeamInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033InstableSprayTeamInfo.proto\032\035InstableS" +
       "prayAvatarInfo.proto\"K\n\025InstableSprayTea" +
-      "mInfo\0222\n\020avatar_info_list\030\016 \003(\0132\030.Instab" +
+      "mInfo\0222\n\020avatar_info_list\030\003 \003(\0132\030.Instab" +
       "leSprayAvatarInfoB\033\n\031emu.grasscutter.net" +
       ".protob\006proto3"
     };

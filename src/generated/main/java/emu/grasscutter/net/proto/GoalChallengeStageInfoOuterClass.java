@@ -19,25 +19,49 @@ public final class GoalChallengeStageInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_finish = 3;</code>
-     * @return The isFinish.
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
      */
-    boolean getIsFinish();
+    java.util.List<emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB> 
+        getNAIDENFDNBLList();
+    /**
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+     */
+    emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB getNAIDENFDNBL(int index);
+    /**
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+     */
+    int getNAIDENFDNBLCount();
+    /**
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNBOrBuilder> 
+        getNAIDENFDNBLOrBuilderList();
+    /**
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+     */
+    emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNBOrBuilder getNAIDENFDNBLOrBuilder(
+        int index);
 
     /**
-     * <code>bool is_open = 8;</code>
-     * @return The isOpen.
-     */
-    boolean getIsOpen();
-
-    /**
-     * <code>uint32 stage_id = 5;</code>
+     * <code>uint32 stage_id = 1;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>uint32 best_score = 11;</code>
+     * <code>bool is_finish = 11;</code>
+     * @return The isFinish.
+     */
+    boolean getIsFinish();
+
+    /**
+     * <code>bool is_open = 6;</code>
+     * @return The isOpen.
+     */
+    boolean getIsOpen();
+
+    /**
+     * <code>uint32 best_score = 9;</code>
      * @return The bestScore.
      */
     int getBestScore();
@@ -55,6 +79,7 @@ public final class GoalChallengeStageInfoOuterClass {
       super(builder);
     }
     private GoalChallengeStageInfo() {
+      nAIDENFDNBL_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -77,6 +102,7 @@ public final class GoalChallengeStageInfoOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -87,24 +113,33 @@ public final class GoalChallengeStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              isFinish_ = input.readBool();
-              break;
-            }
-            case 40: {
+            case 8: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 48: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 88: {
+            case 72: {
 
               bestScore_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+
+              isFinish_ = input.readBool();
+              break;
+            }
+            case 106: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                nAIDENFDNBL_ = new java.util.ArrayList<emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              nAIDENFDNBL_.add(
+                  input.readMessage(emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -122,6 +157,9 @@ public final class GoalChallengeStageInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          nAIDENFDNBL_ = java.util.Collections.unmodifiableList(nAIDENFDNBL_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -139,32 +177,50 @@ public final class GoalChallengeStageInfoOuterClass {
               emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.class, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder.class);
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 3;
-    private boolean isFinish_;
+    public static final int NAIDENFDNBL_FIELD_NUMBER = 13;
+    private java.util.List<emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB> nAIDENFDNBL_;
     /**
-     * <code>bool is_finish = 3;</code>
-     * @return The isFinish.
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
      */
     @java.lang.Override
-    public boolean getIsFinish() {
-      return isFinish_;
+    public java.util.List<emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB> getNAIDENFDNBLList() {
+      return nAIDENFDNBL_;
     }
-
-    public static final int IS_OPEN_FIELD_NUMBER = 8;
-    private boolean isOpen_;
     /**
-     * <code>bool is_open = 8;</code>
-     * @return The isOpen.
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
      */
     @java.lang.Override
-    public boolean getIsOpen() {
-      return isOpen_;
+    public java.util.List<? extends emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNBOrBuilder> 
+        getNAIDENFDNBLOrBuilderList() {
+      return nAIDENFDNBL_;
+    }
+    /**
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+     */
+    @java.lang.Override
+    public int getNAIDENFDNBLCount() {
+      return nAIDENFDNBL_.size();
+    }
+    /**
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB getNAIDENFDNBL(int index) {
+      return nAIDENFDNBL_.get(index);
+    }
+    /**
+     * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNBOrBuilder getNAIDENFDNBLOrBuilder(
+        int index) {
+      return nAIDENFDNBL_.get(index);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 5;
+    public static final int STAGE_ID_FIELD_NUMBER = 1;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 5;</code>
+     * <code>uint32 stage_id = 1;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -172,10 +228,32 @@ public final class GoalChallengeStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 11;
+    public static final int IS_FINISH_FIELD_NUMBER = 11;
+    private boolean isFinish_;
+    /**
+     * <code>bool is_finish = 11;</code>
+     * @return The isFinish.
+     */
+    @java.lang.Override
+    public boolean getIsFinish() {
+      return isFinish_;
+    }
+
+    public static final int IS_OPEN_FIELD_NUMBER = 6;
+    private boolean isOpen_;
+    /**
+     * <code>bool is_open = 6;</code>
+     * @return The isOpen.
+     */
+    @java.lang.Override
+    public boolean getIsOpen() {
+      return isOpen_;
+    }
+
+    public static final int BEST_SCORE_FIELD_NUMBER = 9;
     private int bestScore_;
     /**
-     * <code>uint32 best_score = 11;</code>
+     * <code>uint32 best_score = 9;</code>
      * @return The bestScore.
      */
     @java.lang.Override
@@ -197,17 +275,20 @@ public final class GoalChallengeStageInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isFinish_ != false) {
-        output.writeBool(3, isFinish_);
-      }
       if (stageId_ != 0) {
-        output.writeUInt32(5, stageId_);
+        output.writeUInt32(1, stageId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(8, isOpen_);
+        output.writeBool(6, isOpen_);
       }
       if (bestScore_ != 0) {
-        output.writeUInt32(11, bestScore_);
+        output.writeUInt32(9, bestScore_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(11, isFinish_);
+      }
+      for (int i = 0; i < nAIDENFDNBL_.size(); i++) {
+        output.writeMessage(13, nAIDENFDNBL_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +299,25 @@ public final class GoalChallengeStageInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isFinish_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isFinish_);
-      }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, stageId_);
+          .computeUInt32Size(1, stageId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isOpen_);
+          .computeBoolSize(6, isOpen_);
       }
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, bestScore_);
+          .computeUInt32Size(9, bestScore_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(11, isFinish_);
+      }
+      for (int i = 0; i < nAIDENFDNBL_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, nAIDENFDNBL_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -249,12 +334,14 @@ public final class GoalChallengeStageInfoOuterClass {
       }
       emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo other = (emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo) obj;
 
+      if (!getNAIDENFDNBLList()
+          .equals(other.getNAIDENFDNBLList())) return false;
+      if (getStageId()
+          != other.getStageId()) return false;
       if (getIsFinish()
           != other.getIsFinish()) return false;
       if (getIsOpen()
           != other.getIsOpen()) return false;
-      if (getStageId()
-          != other.getStageId()) return false;
       if (getBestScore()
           != other.getBestScore()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -268,14 +355,18 @@ public final class GoalChallengeStageInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (getNAIDENFDNBLCount() > 0) {
+        hash = (37 * hash) + NAIDENFDNBL_FIELD_NUMBER;
+        hash = (53 * hash) + getNAIDENFDNBLList().hashCode();
+      }
+      hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getStageId();
       hash = (37 * hash) + IS_FINISH_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinish());
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
-      hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getStageId();
       hash = (37 * hash) + BEST_SCORE_FIELD_NUMBER;
       hash = (53 * hash) + getBestScore();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -406,16 +497,23 @@ public final class GoalChallengeStageInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getNAIDENFDNBLFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (nAIDENFDNBLBuilder_ == null) {
+          nAIDENFDNBL_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          nAIDENFDNBLBuilder_.clear();
+        }
+        stageId_ = 0;
+
         isFinish_ = false;
 
         isOpen_ = false;
-
-        stageId_ = 0;
 
         bestScore_ = 0;
 
@@ -445,9 +543,19 @@ public final class GoalChallengeStageInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo buildPartial() {
         emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo result = new emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo(this);
+        int from_bitField0_ = bitField0_;
+        if (nAIDENFDNBLBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) != 0)) {
+            nAIDENFDNBL_ = java.util.Collections.unmodifiableList(nAIDENFDNBL_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.nAIDENFDNBL_ = nAIDENFDNBL_;
+        } else {
+          result.nAIDENFDNBL_ = nAIDENFDNBLBuilder_.build();
+        }
+        result.stageId_ = stageId_;
         result.isFinish_ = isFinish_;
         result.isOpen_ = isOpen_;
-        result.stageId_ = stageId_;
         result.bestScore_ = bestScore_;
         onBuilt();
         return result;
@@ -497,14 +605,40 @@ public final class GoalChallengeStageInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo other) {
         if (other == emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.getDefaultInstance()) return this;
+        if (nAIDENFDNBLBuilder_ == null) {
+          if (!other.nAIDENFDNBL_.isEmpty()) {
+            if (nAIDENFDNBL_.isEmpty()) {
+              nAIDENFDNBL_ = other.nAIDENFDNBL_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureNAIDENFDNBLIsMutable();
+              nAIDENFDNBL_.addAll(other.nAIDENFDNBL_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.nAIDENFDNBL_.isEmpty()) {
+            if (nAIDENFDNBLBuilder_.isEmpty()) {
+              nAIDENFDNBLBuilder_.dispose();
+              nAIDENFDNBLBuilder_ = null;
+              nAIDENFDNBL_ = other.nAIDENFDNBL_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              nAIDENFDNBLBuilder_ = 
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
+                   getNAIDENFDNBLFieldBuilder() : null;
+            } else {
+              nAIDENFDNBLBuilder_.addAllMessages(other.nAIDENFDNBL_);
+            }
+          }
+        }
+        if (other.getStageId() != 0) {
+          setStageId(other.getStageId());
+        }
         if (other.getIsFinish() != false) {
           setIsFinish(other.getIsFinish());
         }
         if (other.getIsOpen() != false) {
           setIsOpen(other.getIsOpen());
-        }
-        if (other.getStageId() != 0) {
-          setStageId(other.getStageId());
         }
         if (other.getBestScore() != 0) {
           setBestScore(other.getBestScore());
@@ -537,10 +671,282 @@ public final class GoalChallengeStageInfoOuterClass {
         }
         return this;
       }
+      private int bitField0_;
+
+      private java.util.List<emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB> nAIDENFDNBL_ =
+        java.util.Collections.emptyList();
+      private void ensureNAIDENFDNBLIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          nAIDENFDNBL_ = new java.util.ArrayList<emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB>(nAIDENFDNBL_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNBOrBuilder> nAIDENFDNBLBuilder_;
+
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB> getNAIDENFDNBLList() {
+        if (nAIDENFDNBLBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(nAIDENFDNBL_);
+        } else {
+          return nAIDENFDNBLBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public int getNAIDENFDNBLCount() {
+        if (nAIDENFDNBLBuilder_ == null) {
+          return nAIDENFDNBL_.size();
+        } else {
+          return nAIDENFDNBLBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB getNAIDENFDNBL(int index) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          return nAIDENFDNBL_.get(index);
+        } else {
+          return nAIDENFDNBLBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public Builder setNAIDENFDNBL(
+          int index, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB value) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureNAIDENFDNBLIsMutable();
+          nAIDENFDNBL_.set(index, value);
+          onChanged();
+        } else {
+          nAIDENFDNBLBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public Builder setNAIDENFDNBL(
+          int index, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder builderForValue) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          ensureNAIDENFDNBLIsMutable();
+          nAIDENFDNBL_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          nAIDENFDNBLBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public Builder addNAIDENFDNBL(emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB value) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureNAIDENFDNBLIsMutable();
+          nAIDENFDNBL_.add(value);
+          onChanged();
+        } else {
+          nAIDENFDNBLBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public Builder addNAIDENFDNBL(
+          int index, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB value) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureNAIDENFDNBLIsMutable();
+          nAIDENFDNBL_.add(index, value);
+          onChanged();
+        } else {
+          nAIDENFDNBLBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public Builder addNAIDENFDNBL(
+          emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder builderForValue) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          ensureNAIDENFDNBLIsMutable();
+          nAIDENFDNBL_.add(builderForValue.build());
+          onChanged();
+        } else {
+          nAIDENFDNBLBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public Builder addNAIDENFDNBL(
+          int index, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder builderForValue) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          ensureNAIDENFDNBLIsMutable();
+          nAIDENFDNBL_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          nAIDENFDNBLBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public Builder addAllNAIDENFDNBL(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB> values) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          ensureNAIDENFDNBLIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, nAIDENFDNBL_);
+          onChanged();
+        } else {
+          nAIDENFDNBLBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public Builder clearNAIDENFDNBL() {
+        if (nAIDENFDNBLBuilder_ == null) {
+          nAIDENFDNBL_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          nAIDENFDNBLBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public Builder removeNAIDENFDNBL(int index) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          ensureNAIDENFDNBLIsMutable();
+          nAIDENFDNBL_.remove(index);
+          onChanged();
+        } else {
+          nAIDENFDNBLBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder getNAIDENFDNBLBuilder(
+          int index) {
+        return getNAIDENFDNBLFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNBOrBuilder getNAIDENFDNBLOrBuilder(
+          int index) {
+        if (nAIDENFDNBLBuilder_ == null) {
+          return nAIDENFDNBL_.get(index);  } else {
+          return nAIDENFDNBLBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNBOrBuilder> 
+           getNAIDENFDNBLOrBuilderList() {
+        if (nAIDENFDNBLBuilder_ != null) {
+          return nAIDENFDNBLBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(nAIDENFDNBL_);
+        }
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder addNAIDENFDNBLBuilder() {
+        return getNAIDENFDNBLFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder addNAIDENFDNBLBuilder(
+          int index) {
+        return getNAIDENFDNBLFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .BPOLPADIKNB NAIDENFDNBL = 13;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder> 
+           getNAIDENFDNBLBuilderList() {
+        return getNAIDENFDNBLFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNBOrBuilder> 
+          getNAIDENFDNBLFieldBuilder() {
+        if (nAIDENFDNBLBuilder_ == null) {
+          nAIDENFDNBLBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNB.Builder, emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.BPOLPADIKNBOrBuilder>(
+                  nAIDENFDNBL_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          nAIDENFDNBL_ = null;
+        }
+        return nAIDENFDNBLBuilder_;
+      }
+
+      private int stageId_ ;
+      /**
+       * <code>uint32 stage_id = 1;</code>
+       * @return The stageId.
+       */
+      @java.lang.Override
+      public int getStageId() {
+        return stageId_;
+      }
+      /**
+       * <code>uint32 stage_id = 1;</code>
+       * @param value The stageId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setStageId(int value) {
+        
+        stageId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 stage_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearStageId() {
+        
+        stageId_ = 0;
+        onChanged();
+        return this;
+      }
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 3;</code>
+       * <code>bool is_finish = 11;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -548,7 +954,7 @@ public final class GoalChallengeStageInfoOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 3;</code>
+       * <code>bool is_finish = 11;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -559,7 +965,7 @@ public final class GoalChallengeStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 3;</code>
+       * <code>bool is_finish = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -571,7 +977,7 @@ public final class GoalChallengeStageInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 8;</code>
+       * <code>bool is_open = 6;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -579,7 +985,7 @@ public final class GoalChallengeStageInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 8;</code>
+       * <code>bool is_open = 6;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -590,7 +996,7 @@ public final class GoalChallengeStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 8;</code>
+       * <code>bool is_open = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -600,40 +1006,9 @@ public final class GoalChallengeStageInfoOuterClass {
         return this;
       }
 
-      private int stageId_ ;
-      /**
-       * <code>uint32 stage_id = 5;</code>
-       * @return The stageId.
-       */
-      @java.lang.Override
-      public int getStageId() {
-        return stageId_;
-      }
-      /**
-       * <code>uint32 stage_id = 5;</code>
-       * @param value The stageId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setStageId(int value) {
-        
-        stageId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 stage_id = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearStageId() {
-        
-        stageId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int bestScore_ ;
       /**
-       * <code>uint32 best_score = 11;</code>
+       * <code>uint32 best_score = 9;</code>
        * @return The bestScore.
        */
       @java.lang.Override
@@ -641,7 +1016,7 @@ public final class GoalChallengeStageInfoOuterClass {
         return bestScore_;
       }
       /**
-       * <code>uint32 best_score = 11;</code>
+       * <code>uint32 best_score = 9;</code>
        * @param value The bestScore to set.
        * @return This builder for chaining.
        */
@@ -652,7 +1027,7 @@ public final class GoalChallengeStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 best_score = 11;</code>
+       * <code>uint32 best_score = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearBestScore() {
@@ -728,22 +1103,25 @@ public final class GoalChallengeStageInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034GoalChallengeStageInfo.proto\"b\n\026GoalCh" +
-      "allengeStageInfo\022\021\n\tis_finish\030\003 \001(\010\022\017\n\007i" +
-      "s_open\030\010 \001(\010\022\020\n\010stage_id\030\005 \001(\r\022\022\n\nbest_s" +
-      "core\030\013 \001(\rB\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "\n\034GoalChallengeStageInfo.proto\032\021BPOLPADI" +
+      "KNB.proto\"\205\001\n\026GoalChallengeStageInfo\022!\n\013" +
+      "NAIDENFDNBL\030\r \003(\0132\014.BPOLPADIKNB\022\020\n\010stage" +
+      "_id\030\001 \001(\r\022\021\n\tis_finish\030\013 \001(\010\022\017\n\007is_open\030" +
+      "\006 \001(\010\022\022\n\nbest_score\030\t \001(\rB\033\n\031emu.grasscu" +
+      "tter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.getDescriptor(),
         });
     internal_static_GoalChallengeStageInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_GoalChallengeStageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GoalChallengeStageInfo_descriptor,
-        new java.lang.String[] { "IsFinish", "IsOpen", "StageId", "BestScore", });
+        new java.lang.String[] { "NAIDENFDNBL", "StageId", "IsFinish", "IsOpen", "BestScore", });
+    emu.grasscutter.net.proto.BPOLPADIKNBOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

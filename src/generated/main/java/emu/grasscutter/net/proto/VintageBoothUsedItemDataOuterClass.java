@@ -25,7 +25,7 @@ public final class VintageBoothUsedItemDataOuterClass {
     boolean getIsOpen();
 
     /**
-     * <code>uint32 gadget_id = 9;</code>
+     * <code>uint32 gadget_id = 15;</code>
      * @return The gadgetId.
      */
     int getGadgetId();
@@ -80,7 +80,7 @@ public final class VintageBoothUsedItemDataOuterClass {
               isOpen_ = input.readBool();
               break;
             }
-            case 72: {
+            case 120: {
 
               gadgetId_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class VintageBoothUsedItemDataOuterClass {
       return isOpen_;
     }
 
-    public static final int GADGET_ID_FIELD_NUMBER = 9;
+    public static final int GADGET_ID_FIELD_NUMBER = 15;
     private int gadgetId_;
     /**
-     * <code>uint32 gadget_id = 9;</code>
+     * <code>uint32 gadget_id = 15;</code>
      * @return The gadgetId.
      */
     @java.lang.Override
@@ -157,7 +157,7 @@ public final class VintageBoothUsedItemDataOuterClass {
         output.writeBool(8, isOpen_);
       }
       if (gadgetId_ != 0) {
-        output.writeUInt32(9, gadgetId_);
+        output.writeUInt32(15, gadgetId_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,7 +174,7 @@ public final class VintageBoothUsedItemDataOuterClass {
       }
       if (gadgetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, gadgetId_);
+          .computeUInt32Size(15, gadgetId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -492,7 +492,7 @@ public final class VintageBoothUsedItemDataOuterClass {
 
       private int gadgetId_ ;
       /**
-       * <code>uint32 gadget_id = 9;</code>
+       * <code>uint32 gadget_id = 15;</code>
        * @return The gadgetId.
        */
       @java.lang.Override
@@ -500,7 +500,7 @@ public final class VintageBoothUsedItemDataOuterClass {
         return gadgetId_;
       }
       /**
-       * <code>uint32 gadget_id = 9;</code>
+       * <code>uint32 gadget_id = 15;</code>
        * @param value The gadgetId to set.
        * @return This builder for chaining.
        */
@@ -511,7 +511,7 @@ public final class VintageBoothUsedItemDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 gadget_id = 9;</code>
+       * <code>uint32 gadget_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearGadgetId() {
@@ -589,7 +589,7 @@ public final class VintageBoothUsedItemDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036VintageBoothUsedItemData.proto\">\n\030Vint" +
       "ageBoothUsedItemData\022\017\n\007is_open\030\010 \001(\010\022\021\n" +
-      "\tgadget_id\030\t \001(\rB\033\n\031emu.grasscutter.net." +
+      "\tgadget_id\030\017 \001(\rB\033\n\031emu.grasscutter.net." +
       "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

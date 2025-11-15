@@ -19,10 +19,10 @@ public final class QuickTimeCombatStageInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool FPLPODGALIP = 6;</code>
-     * @return The fPLPODGALIP.
+     * <code>uint32 best_score = 14;</code>
+     * @return The bestScore.
      */
-    boolean getFPLPODGALIP();
+    int getBestScore();
 
     /**
      * <code>bool is_open = 2;</code>
@@ -31,13 +31,13 @@ public final class QuickTimeCombatStageInfoOuterClass {
     boolean getIsOpen();
 
     /**
-     * <code>uint32 best_score = 7;</code>
-     * @return The bestScore.
+     * <code>bool GCJFAEJEBFC = 11;</code>
+     * @return The gCJFAEJEBFC.
      */
-    int getBestScore();
+    boolean getGCJFAEJEBFC();
 
     /**
-     * <code>uint32 stage_id = 3;</code>
+     * <code>uint32 stage_id = 9;</code>
      * @return The stageId.
      */
     int getStageId();
@@ -92,17 +92,17 @@ public final class QuickTimeCombatStageInfoOuterClass {
               isOpen_ = input.readBool();
               break;
             }
-            case 24: {
+            case 72: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 88: {
 
-              fPLPODGALIP_ = input.readBool();
+              gCJFAEJEBFC_ = input.readBool();
               break;
             }
-            case 56: {
+            case 112: {
 
               bestScore_ = input.readUInt32();
               break;
@@ -139,15 +139,15 @@ public final class QuickTimeCombatStageInfoOuterClass {
               emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.class, emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.Builder.class);
     }
 
-    public static final int FPLPODGALIP_FIELD_NUMBER = 6;
-    private boolean fPLPODGALIP_;
+    public static final int BEST_SCORE_FIELD_NUMBER = 14;
+    private int bestScore_;
     /**
-     * <code>bool FPLPODGALIP = 6;</code>
-     * @return The fPLPODGALIP.
+     * <code>uint32 best_score = 14;</code>
+     * @return The bestScore.
      */
     @java.lang.Override
-    public boolean getFPLPODGALIP() {
-      return fPLPODGALIP_;
+    public int getBestScore() {
+      return bestScore_;
     }
 
     public static final int IS_OPEN_FIELD_NUMBER = 2;
@@ -161,21 +161,21 @@ public final class QuickTimeCombatStageInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 7;
-    private int bestScore_;
+    public static final int GCJFAEJEBFC_FIELD_NUMBER = 11;
+    private boolean gCJFAEJEBFC_;
     /**
-     * <code>uint32 best_score = 7;</code>
-     * @return The bestScore.
+     * <code>bool GCJFAEJEBFC = 11;</code>
+     * @return The gCJFAEJEBFC.
      */
     @java.lang.Override
-    public int getBestScore() {
-      return bestScore_;
+    public boolean getGCJFAEJEBFC() {
+      return gCJFAEJEBFC_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 3;
+    public static final int STAGE_ID_FIELD_NUMBER = 9;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 3;</code>
+     * <code>uint32 stage_id = 9;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -201,13 +201,13 @@ public final class QuickTimeCombatStageInfoOuterClass {
         output.writeBool(2, isOpen_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(3, stageId_);
+        output.writeUInt32(9, stageId_);
       }
-      if (fPLPODGALIP_ != false) {
-        output.writeBool(6, fPLPODGALIP_);
+      if (gCJFAEJEBFC_ != false) {
+        output.writeBool(11, gCJFAEJEBFC_);
       }
       if (bestScore_ != 0) {
-        output.writeUInt32(7, bestScore_);
+        output.writeUInt32(14, bestScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,15 +224,15 @@ public final class QuickTimeCombatStageInfoOuterClass {
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, stageId_);
+          .computeUInt32Size(9, stageId_);
       }
-      if (fPLPODGALIP_ != false) {
+      if (gCJFAEJEBFC_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, fPLPODGALIP_);
+          .computeBoolSize(11, gCJFAEJEBFC_);
       }
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, bestScore_);
+          .computeUInt32Size(14, bestScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -249,12 +249,12 @@ public final class QuickTimeCombatStageInfoOuterClass {
       }
       emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo other = (emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo) obj;
 
-      if (getFPLPODGALIP()
-          != other.getFPLPODGALIP()) return false;
-      if (getIsOpen()
-          != other.getIsOpen()) return false;
       if (getBestScore()
           != other.getBestScore()) return false;
+      if (getIsOpen()
+          != other.getIsOpen()) return false;
+      if (getGCJFAEJEBFC()
+          != other.getGCJFAEJEBFC()) return false;
       if (getStageId()
           != other.getStageId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -268,14 +268,14 @@ public final class QuickTimeCombatStageInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + FPLPODGALIP_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getFPLPODGALIP());
+      hash = (37 * hash) + BEST_SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getBestScore();
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
-      hash = (37 * hash) + BEST_SCORE_FIELD_NUMBER;
-      hash = (53 * hash) + getBestScore();
+      hash = (37 * hash) + GCJFAEJEBFC_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGCJFAEJEBFC());
       hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getStageId();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -411,11 +411,11 @@ public final class QuickTimeCombatStageInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        fPLPODGALIP_ = false;
+        bestScore_ = 0;
 
         isOpen_ = false;
 
-        bestScore_ = 0;
+        gCJFAEJEBFC_ = false;
 
         stageId_ = 0;
 
@@ -445,9 +445,9 @@ public final class QuickTimeCombatStageInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo buildPartial() {
         emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo result = new emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo(this);
-        result.fPLPODGALIP_ = fPLPODGALIP_;
-        result.isOpen_ = isOpen_;
         result.bestScore_ = bestScore_;
+        result.isOpen_ = isOpen_;
+        result.gCJFAEJEBFC_ = gCJFAEJEBFC_;
         result.stageId_ = stageId_;
         onBuilt();
         return result;
@@ -497,14 +497,14 @@ public final class QuickTimeCombatStageInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo other) {
         if (other == emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.getDefaultInstance()) return this;
-        if (other.getFPLPODGALIP() != false) {
-          setFPLPODGALIP(other.getFPLPODGALIP());
+        if (other.getBestScore() != 0) {
+          setBestScore(other.getBestScore());
         }
         if (other.getIsOpen() != false) {
           setIsOpen(other.getIsOpen());
         }
-        if (other.getBestScore() != 0) {
-          setBestScore(other.getBestScore());
+        if (other.getGCJFAEJEBFC() != false) {
+          setGCJFAEJEBFC(other.getGCJFAEJEBFC());
         }
         if (other.getStageId() != 0) {
           setStageId(other.getStageId());
@@ -538,33 +538,33 @@ public final class QuickTimeCombatStageInfoOuterClass {
         return this;
       }
 
-      private boolean fPLPODGALIP_ ;
+      private int bestScore_ ;
       /**
-       * <code>bool FPLPODGALIP = 6;</code>
-       * @return The fPLPODGALIP.
+       * <code>uint32 best_score = 14;</code>
+       * @return The bestScore.
        */
       @java.lang.Override
-      public boolean getFPLPODGALIP() {
-        return fPLPODGALIP_;
+      public int getBestScore() {
+        return bestScore_;
       }
       /**
-       * <code>bool FPLPODGALIP = 6;</code>
-       * @param value The fPLPODGALIP to set.
+       * <code>uint32 best_score = 14;</code>
+       * @param value The bestScore to set.
        * @return This builder for chaining.
        */
-      public Builder setFPLPODGALIP(boolean value) {
+      public Builder setBestScore(int value) {
         
-        fPLPODGALIP_ = value;
+        bestScore_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool FPLPODGALIP = 6;</code>
+       * <code>uint32 best_score = 14;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFPLPODGALIP() {
+      public Builder clearBestScore() {
         
-        fPLPODGALIP_ = false;
+        bestScore_ = 0;
         onChanged();
         return this;
       }
@@ -600,40 +600,40 @@ public final class QuickTimeCombatStageInfoOuterClass {
         return this;
       }
 
-      private int bestScore_ ;
+      private boolean gCJFAEJEBFC_ ;
       /**
-       * <code>uint32 best_score = 7;</code>
-       * @return The bestScore.
+       * <code>bool GCJFAEJEBFC = 11;</code>
+       * @return The gCJFAEJEBFC.
        */
       @java.lang.Override
-      public int getBestScore() {
-        return bestScore_;
+      public boolean getGCJFAEJEBFC() {
+        return gCJFAEJEBFC_;
       }
       /**
-       * <code>uint32 best_score = 7;</code>
-       * @param value The bestScore to set.
+       * <code>bool GCJFAEJEBFC = 11;</code>
+       * @param value The gCJFAEJEBFC to set.
        * @return This builder for chaining.
        */
-      public Builder setBestScore(int value) {
+      public Builder setGCJFAEJEBFC(boolean value) {
         
-        bestScore_ = value;
+        gCJFAEJEBFC_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 best_score = 7;</code>
+       * <code>bool GCJFAEJEBFC = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBestScore() {
+      public Builder clearGCJFAEJEBFC() {
         
-        bestScore_ = 0;
+        gCJFAEJEBFC_ = false;
         onChanged();
         return this;
       }
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 3;</code>
+       * <code>uint32 stage_id = 9;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class QuickTimeCombatStageInfoOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 3;</code>
+       * <code>uint32 stage_id = 9;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class QuickTimeCombatStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 3;</code>
+       * <code>uint32 stage_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -729,9 +729,9 @@ public final class QuickTimeCombatStageInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036QuickTimeCombatStageInfo.proto\"f\n\030Quic" +
-      "kTimeCombatStageInfo\022\023\n\013FPLPODGALIP\030\006 \001(" +
-      "\010\022\017\n\007is_open\030\002 \001(\010\022\022\n\nbest_score\030\007 \001(\r\022\020" +
-      "\n\010stage_id\030\003 \001(\rB\033\n\031emu.grasscutter.net." +
+      "kTimeCombatStageInfo\022\022\n\nbest_score\030\016 \001(\r" +
+      "\022\017\n\007is_open\030\002 \001(\010\022\023\n\013GCJFAEJEBFC\030\013 \001(\010\022\020" +
+      "\n\010stage_id\030\t \001(\rB\033\n\031emu.grasscutter.net." +
       "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -743,7 +743,7 @@ public final class QuickTimeCombatStageInfoOuterClass {
     internal_static_QuickTimeCombatStageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_QuickTimeCombatStageInfo_descriptor,
-        new java.lang.String[] { "FPLPODGALIP", "IsOpen", "BestScore", "StageId", });
+        new java.lang.String[] { "BestScore", "IsOpen", "GCJFAEJEBFC", "StageId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

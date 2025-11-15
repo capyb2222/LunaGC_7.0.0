@@ -19,34 +19,34 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty = 6;</code>
-     * @return The difficulty.
+     * <code>uint32 FCMIOKELKMF = 10;</code>
+     * @return The fCMIOKELKMF.
      */
-    int getDifficulty();
+    int getFCMIOKELKMF();
 
     /**
-     * <code>uint32 PKAOCFLFADE = 14;</code>
-     * @return The pKAOCFLFADE.
-     */
-    int getPKAOCFLFADE();
-
-    /**
-     * <code>uint32 stage_id = 7;</code>
-     * @return The stageId.
-     */
-    int getStageId();
-
-    /**
-     * <code>bool is_finished = 9;</code>
+     * <code>bool is_finished = 1;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
 
     /**
-     * <code>bool is_open = 2;</code>
+     * <code>bool is_open = 3;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
+
+    /**
+     * <code>uint32 difficulty = 12;</code>
+     * @return The difficulty.
+     */
+    int getDifficulty();
+
+    /**
+     * <code>uint32 stage_id = 13;</code>
+     * @return The stageId.
+     */
+    int getStageId();
   }
   /**
    * Protobuf type {@code ActivityMultiCharacterStageInfo}
@@ -93,29 +93,29 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 48: {
-
-              difficulty_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
-              stageId_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 8: {
 
               isFinished_ = input.readBool();
               break;
             }
-            case 112: {
+            case 24: {
 
-              pKAOCFLFADE_ = input.readUInt32();
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 80: {
+
+              fCMIOKELKMF_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+
+              difficulty_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              stageId_ = input.readUInt32();
               break;
             }
             default: {
@@ -150,43 +150,21 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
               emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.class, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder.class);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 6;
-    private int difficulty_;
+    public static final int FCMIOKELKMF_FIELD_NUMBER = 10;
+    private int fCMIOKELKMF_;
     /**
-     * <code>uint32 difficulty = 6;</code>
-     * @return The difficulty.
+     * <code>uint32 FCMIOKELKMF = 10;</code>
+     * @return The fCMIOKELKMF.
      */
     @java.lang.Override
-    public int getDifficulty() {
-      return difficulty_;
+    public int getFCMIOKELKMF() {
+      return fCMIOKELKMF_;
     }
 
-    public static final int PKAOCFLFADE_FIELD_NUMBER = 14;
-    private int pKAOCFLFADE_;
-    /**
-     * <code>uint32 PKAOCFLFADE = 14;</code>
-     * @return The pKAOCFLFADE.
-     */
-    @java.lang.Override
-    public int getPKAOCFLFADE() {
-      return pKAOCFLFADE_;
-    }
-
-    public static final int STAGE_ID_FIELD_NUMBER = 7;
-    private int stageId_;
-    /**
-     * <code>uint32 stage_id = 7;</code>
-     * @return The stageId.
-     */
-    @java.lang.Override
-    public int getStageId() {
-      return stageId_;
-    }
-
-    public static final int IS_FINISHED_FIELD_NUMBER = 9;
+    public static final int IS_FINISHED_FIELD_NUMBER = 1;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 9;</code>
+     * <code>bool is_finished = 1;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -194,15 +172,37 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
       return isFinished_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 2;
+    public static final int IS_OPEN_FIELD_NUMBER = 3;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 2;</code>
+     * <code>bool is_open = 3;</code>
      * @return The isOpen.
      */
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
+    }
+
+    public static final int DIFFICULTY_FIELD_NUMBER = 12;
+    private int difficulty_;
+    /**
+     * <code>uint32 difficulty = 12;</code>
+     * @return The difficulty.
+     */
+    @java.lang.Override
+    public int getDifficulty() {
+      return difficulty_;
+    }
+
+    public static final int STAGE_ID_FIELD_NUMBER = 13;
+    private int stageId_;
+    /**
+     * <code>uint32 stage_id = 13;</code>
+     * @return The stageId.
+     */
+    @java.lang.Override
+    public int getStageId() {
+      return stageId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -219,20 +219,20 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (isFinished_ != false) {
+        output.writeBool(1, isFinished_);
+      }
       if (isOpen_ != false) {
-        output.writeBool(2, isOpen_);
+        output.writeBool(3, isOpen_);
+      }
+      if (fCMIOKELKMF_ != 0) {
+        output.writeUInt32(10, fCMIOKELKMF_);
       }
       if (difficulty_ != 0) {
-        output.writeUInt32(6, difficulty_);
+        output.writeUInt32(12, difficulty_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(7, stageId_);
-      }
-      if (isFinished_ != false) {
-        output.writeBool(9, isFinished_);
-      }
-      if (pKAOCFLFADE_ != 0) {
-        output.writeUInt32(14, pKAOCFLFADE_);
+        output.writeUInt32(13, stageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -243,25 +243,25 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (isFinished_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1, isFinished_);
+      }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isOpen_);
+          .computeBoolSize(3, isOpen_);
+      }
+      if (fCMIOKELKMF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, fCMIOKELKMF_);
       }
       if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, difficulty_);
+          .computeUInt32Size(12, difficulty_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, stageId_);
-      }
-      if (isFinished_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isFinished_);
-      }
-      if (pKAOCFLFADE_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, pKAOCFLFADE_);
+          .computeUInt32Size(13, stageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,16 +278,16 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
       }
       emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo other = (emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo) obj;
 
-      if (getDifficulty()
-          != other.getDifficulty()) return false;
-      if (getPKAOCFLFADE()
-          != other.getPKAOCFLFADE()) return false;
-      if (getStageId()
-          != other.getStageId()) return false;
+      if (getFCMIOKELKMF()
+          != other.getFCMIOKELKMF()) return false;
       if (getIsFinished()
           != other.getIsFinished()) return false;
       if (getIsOpen()
           != other.getIsOpen()) return false;
+      if (getDifficulty()
+          != other.getDifficulty()) return false;
+      if (getStageId()
+          != other.getStageId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -299,18 +299,18 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + DIFFICULTY_FIELD_NUMBER;
-      hash = (53 * hash) + getDifficulty();
-      hash = (37 * hash) + PKAOCFLFADE_FIELD_NUMBER;
-      hash = (53 * hash) + getPKAOCFLFADE();
-      hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getStageId();
+      hash = (37 * hash) + FCMIOKELKMF_FIELD_NUMBER;
+      hash = (53 * hash) + getFCMIOKELKMF();
       hash = (37 * hash) + IS_FINISHED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinished());
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsOpen());
+      hash = (37 * hash) + DIFFICULTY_FIELD_NUMBER;
+      hash = (53 * hash) + getDifficulty();
+      hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getStageId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -444,15 +444,15 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        difficulty_ = 0;
-
-        pKAOCFLFADE_ = 0;
-
-        stageId_ = 0;
+        fCMIOKELKMF_ = 0;
 
         isFinished_ = false;
 
         isOpen_ = false;
+
+        difficulty_ = 0;
+
+        stageId_ = 0;
 
         return this;
       }
@@ -480,11 +480,11 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo buildPartial() {
         emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo result = new emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo(this);
-        result.difficulty_ = difficulty_;
-        result.pKAOCFLFADE_ = pKAOCFLFADE_;
-        result.stageId_ = stageId_;
+        result.fCMIOKELKMF_ = fCMIOKELKMF_;
         result.isFinished_ = isFinished_;
         result.isOpen_ = isOpen_;
+        result.difficulty_ = difficulty_;
+        result.stageId_ = stageId_;
         onBuilt();
         return result;
       }
@@ -533,20 +533,20 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo other) {
         if (other == emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.getDefaultInstance()) return this;
-        if (other.getDifficulty() != 0) {
-          setDifficulty(other.getDifficulty());
-        }
-        if (other.getPKAOCFLFADE() != 0) {
-          setPKAOCFLFADE(other.getPKAOCFLFADE());
-        }
-        if (other.getStageId() != 0) {
-          setStageId(other.getStageId());
+        if (other.getFCMIOKELKMF() != 0) {
+          setFCMIOKELKMF(other.getFCMIOKELKMF());
         }
         if (other.getIsFinished() != false) {
           setIsFinished(other.getIsFinished());
         }
         if (other.getIsOpen() != false) {
           setIsOpen(other.getIsOpen());
+        }
+        if (other.getDifficulty() != 0) {
+          setDifficulty(other.getDifficulty());
+        }
+        if (other.getStageId() != 0) {
+          setStageId(other.getStageId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -577,102 +577,40 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
         return this;
       }
 
-      private int difficulty_ ;
+      private int fCMIOKELKMF_ ;
       /**
-       * <code>uint32 difficulty = 6;</code>
-       * @return The difficulty.
+       * <code>uint32 FCMIOKELKMF = 10;</code>
+       * @return The fCMIOKELKMF.
        */
       @java.lang.Override
-      public int getDifficulty() {
-        return difficulty_;
+      public int getFCMIOKELKMF() {
+        return fCMIOKELKMF_;
       }
       /**
-       * <code>uint32 difficulty = 6;</code>
-       * @param value The difficulty to set.
+       * <code>uint32 FCMIOKELKMF = 10;</code>
+       * @param value The fCMIOKELKMF to set.
        * @return This builder for chaining.
        */
-      public Builder setDifficulty(int value) {
+      public Builder setFCMIOKELKMF(int value) {
         
-        difficulty_ = value;
+        fCMIOKELKMF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 difficulty = 6;</code>
+       * <code>uint32 FCMIOKELKMF = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDifficulty() {
+      public Builder clearFCMIOKELKMF() {
         
-        difficulty_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int pKAOCFLFADE_ ;
-      /**
-       * <code>uint32 PKAOCFLFADE = 14;</code>
-       * @return The pKAOCFLFADE.
-       */
-      @java.lang.Override
-      public int getPKAOCFLFADE() {
-        return pKAOCFLFADE_;
-      }
-      /**
-       * <code>uint32 PKAOCFLFADE = 14;</code>
-       * @param value The pKAOCFLFADE to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPKAOCFLFADE(int value) {
-        
-        pKAOCFLFADE_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 PKAOCFLFADE = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPKAOCFLFADE() {
-        
-        pKAOCFLFADE_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int stageId_ ;
-      /**
-       * <code>uint32 stage_id = 7;</code>
-       * @return The stageId.
-       */
-      @java.lang.Override
-      public int getStageId() {
-        return stageId_;
-      }
-      /**
-       * <code>uint32 stage_id = 7;</code>
-       * @param value The stageId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setStageId(int value) {
-        
-        stageId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 stage_id = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearStageId() {
-        
-        stageId_ = 0;
+        fCMIOKELKMF_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 9;</code>
+       * <code>bool is_finished = 1;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -680,7 +618,7 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 9;</code>
+       * <code>bool is_finished = 1;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -691,7 +629,7 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 9;</code>
+       * <code>bool is_finished = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -703,7 +641,7 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 2;</code>
+       * <code>bool is_open = 3;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -711,7 +649,7 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 2;</code>
+       * <code>bool is_open = 3;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -722,12 +660,74 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 2;</code>
+       * <code>bool is_open = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
         
         isOpen_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int difficulty_ ;
+      /**
+       * <code>uint32 difficulty = 12;</code>
+       * @return The difficulty.
+       */
+      @java.lang.Override
+      public int getDifficulty() {
+        return difficulty_;
+      }
+      /**
+       * <code>uint32 difficulty = 12;</code>
+       * @param value The difficulty to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDifficulty(int value) {
+        
+        difficulty_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 difficulty = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDifficulty() {
+        
+        difficulty_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int stageId_ ;
+      /**
+       * <code>uint32 stage_id = 13;</code>
+       * @return The stageId.
+       */
+      @java.lang.Override
+      public int getStageId() {
+        return stageId_;
+      }
+      /**
+       * <code>uint32 stage_id = 13;</code>
+       * @param value The stageId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setStageId(int value) {
+        
+        stageId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 stage_id = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearStageId() {
+        
+        stageId_ = 0;
         onChanged();
         return this;
       }
@@ -799,10 +799,10 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n%ActivityMultiCharacterStageInfo.proto\"" +
-      "\202\001\n\037ActivityMultiCharacterStageInfo\022\022\n\nd" +
-      "ifficulty\030\006 \001(\r\022\023\n\013PKAOCFLFADE\030\016 \001(\r\022\020\n\010" +
-      "stage_id\030\007 \001(\r\022\023\n\013is_finished\030\t \001(\010\022\017\n\007i" +
-      "s_open\030\002 \001(\010B\033\n\031emu.grasscutter.net.prot" +
+      "\202\001\n\037ActivityMultiCharacterStageInfo\022\023\n\013F" +
+      "CMIOKELKMF\030\n \001(\r\022\023\n\013is_finished\030\001 \001(\010\022\017\n" +
+      "\007is_open\030\003 \001(\010\022\022\n\ndifficulty\030\014 \001(\r\022\020\n\010st" +
+      "age_id\030\r \001(\rB\033\n\031emu.grasscutter.net.prot" +
       "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -814,7 +814,7 @@ public final class ActivityMultiCharacterStageInfoOuterClass {
     internal_static_ActivityMultiCharacterStageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ActivityMultiCharacterStageInfo_descriptor,
-        new java.lang.String[] { "Difficulty", "PKAOCFLFADE", "StageId", "IsFinished", "IsOpen", });
+        new java.lang.String[] { "FCMIOKELKMF", "IsFinished", "IsOpen", "Difficulty", "StageId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

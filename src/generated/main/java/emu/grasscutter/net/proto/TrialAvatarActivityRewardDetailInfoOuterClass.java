@@ -19,77 +19,77 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
-     * @return A list containing the lJMPEKNIBMI.
+     * <code>repeated uint32 DAPECHCACAH = 4;</code>
+     * @return A list containing the dAPECHCACAH.
      */
-    java.util.List<java.lang.Integer> getLJMPEKNIBMIList();
+    java.util.List<java.lang.Integer> getDAPECHCACAHList();
     /**
-     * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
-     * @return The count of lJMPEKNIBMI.
+     * <code>repeated uint32 DAPECHCACAH = 4;</code>
+     * @return The count of dAPECHCACAH.
      */
-    int getLJMPEKNIBMICount();
+    int getDAPECHCACAHCount();
     /**
-     * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
+     * <code>repeated uint32 DAPECHCACAH = 4;</code>
      * @param index The index of the element to return.
-     * @return The lJMPEKNIBMI at the given index.
+     * @return The dAPECHCACAH at the given index.
      */
-    int getLJMPEKNIBMI(int index);
+    int getDAPECHCACAH(int index);
 
     /**
-     * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
-     * @return A list containing the jJNALFDJDLJ.
+     * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
+     * @return A list containing the fLKBGBEFCHG.
      */
-    java.util.List<java.lang.Integer> getJJNALFDJDLJList();
+    java.util.List<java.lang.Integer> getFLKBGBEFCHGList();
     /**
-     * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
-     * @return The count of jJNALFDJDLJ.
+     * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
+     * @return The count of fLKBGBEFCHG.
      */
-    int getJJNALFDJDLJCount();
+    int getFLKBGBEFCHGCount();
     /**
-     * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
+     * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
      * @param index The index of the element to return.
-     * @return The jJNALFDJDLJ at the given index.
+     * @return The fLKBGBEFCHG at the given index.
      */
-    int getJJNALFDJDLJ(int index);
+    int getFLKBGBEFCHG(int index);
 
     /**
-     * <code>bool ALNNHAICMNB = 15;</code>
-     * @return The aLNNHAICMNB.
-     */
-    boolean getALNNHAICMNB();
-
-    /**
-     * <code>bool GCBMEICLECL = 14;</code>
-     * @return The gCBMEICLECL.
-     */
-    boolean getGCBMEICLECL();
-
-    /**
-     * <code>bool passed_dungeon = 12;</code>
+     * <code>bool passed_dungeon = 8;</code>
      * @return The passedDungeon.
      */
     boolean getPassedDungeon();
 
     /**
-     * <code>bool received_reward = 4;</code>
+     * <code>bool received_reward = 5;</code>
      * @return The receivedReward.
      */
     boolean getReceivedReward();
 
     /**
-     * <code>bool LHBEHBOHAMG = 6;</code>
-     * @return The lHBEHBOHAMG.
-     */
-    boolean getLHBEHBOHAMG();
-
-    /**
-     * <code>uint32 reward_id = 1;</code>
+     * <code>uint32 reward_id = 11;</code>
      * @return The rewardId.
      */
     int getRewardId();
 
     /**
-     * <code>uint32 trial_avatar_index_id = 10;</code>
+     * <code>bool KDFAFOBDFCJ = 1;</code>
+     * @return The kDFAFOBDFCJ.
+     */
+    boolean getKDFAFOBDFCJ();
+
+    /**
+     * <code>bool KHPBFCOFECF = 14;</code>
+     * @return The kHPBFCOFECF.
+     */
+    boolean getKHPBFCOFECF();
+
+    /**
+     * <code>bool OGJKGBKBHCN = 15;</code>
+     * @return The oGJKGBKBHCN.
+     */
+    boolean getOGJKGBKBHCN();
+
+    /**
+     * <code>uint32 trial_avatar_index_id = 2;</code>
      * @return The trialAvatarIndexId.
      */
     int getTrialAvatarIndexId();
@@ -107,8 +107,8 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       super(builder);
     }
     private TrialAvatarActivityRewardDetailInfo() {
-      lJMPEKNIBMI_ = emptyIntList();
-      jJNALFDJDLJ_ = emptyIntList();
+      dAPECHCACAH_ = emptyIntList();
+      fLKBGBEFCHG_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -144,79 +144,79 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
               break;
             case 8: {
 
-              rewardId_ = input.readUInt32();
+              kDFAFOBDFCJ_ = input.readBool();
               break;
             }
             case 16: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                lJMPEKNIBMI_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              lJMPEKNIBMI_.addInt(input.readUInt32());
-              break;
-            }
-            case 18: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                lJMPEKNIBMI_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                lJMPEKNIBMI_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 32: {
-
-              receivedReward_ = input.readBool();
-              break;
-            }
-            case 48: {
-
-              lHBEHBOHAMG_ = input.readBool();
-              break;
-            }
-            case 56: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                jJNALFDJDLJ_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              jJNALFDJDLJ_.addInt(input.readUInt32());
-              break;
-            }
-            case 58: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                jJNALFDJDLJ_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                jJNALFDJDLJ_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 80: {
 
               trialAvatarIndexId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 32: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                dAPECHCACAH_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              dAPECHCACAH_.addInt(input.readUInt32());
+              break;
+            }
+            case 34: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                dAPECHCACAH_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                dAPECHCACAH_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 40: {
+
+              receivedReward_ = input.readBool();
+              break;
+            }
+            case 64: {
 
               passedDungeon_ = input.readBool();
               break;
             }
+            case 88: {
+
+              rewardId_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                fLKBGBEFCHG_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              fLKBGBEFCHG_.addInt(input.readUInt32());
+              break;
+            }
+            case 98: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                fLKBGBEFCHG_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                fLKBGBEFCHG_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
             case 112: {
 
-              gCBMEICLECL_ = input.readBool();
+              kHPBFCOFECF_ = input.readBool();
               break;
             }
             case 120: {
 
-              aLNNHAICMNB_ = input.readBool();
+              oGJKGBKBHCN_ = input.readBool();
               break;
             }
             default: {
@@ -235,10 +235,10 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          lJMPEKNIBMI_.makeImmutable(); // C
+          dAPECHCACAH_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          jJNALFDJDLJ_.makeImmutable(); // C
+          fLKBGBEFCHG_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -257,88 +257,66 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
               emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.class, emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.Builder.class);
     }
 
-    public static final int LJMPEKNIBMI_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.IntList lJMPEKNIBMI_;
+    public static final int DAPECHCACAH_FIELD_NUMBER = 4;
+    private com.google.protobuf.Internal.IntList dAPECHCACAH_;
     /**
-     * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
-     * @return A list containing the lJMPEKNIBMI.
+     * <code>repeated uint32 DAPECHCACAH = 4;</code>
+     * @return A list containing the dAPECHCACAH.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getLJMPEKNIBMIList() {
-      return lJMPEKNIBMI_;
+        getDAPECHCACAHList() {
+      return dAPECHCACAH_;
     }
     /**
-     * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
-     * @return The count of lJMPEKNIBMI.
+     * <code>repeated uint32 DAPECHCACAH = 4;</code>
+     * @return The count of dAPECHCACAH.
      */
-    public int getLJMPEKNIBMICount() {
-      return lJMPEKNIBMI_.size();
+    public int getDAPECHCACAHCount() {
+      return dAPECHCACAH_.size();
     }
     /**
-     * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
+     * <code>repeated uint32 DAPECHCACAH = 4;</code>
      * @param index The index of the element to return.
-     * @return The lJMPEKNIBMI at the given index.
+     * @return The dAPECHCACAH at the given index.
      */
-    public int getLJMPEKNIBMI(int index) {
-      return lJMPEKNIBMI_.getInt(index);
+    public int getDAPECHCACAH(int index) {
+      return dAPECHCACAH_.getInt(index);
     }
-    private int lJMPEKNIBMIMemoizedSerializedSize = -1;
+    private int dAPECHCACAHMemoizedSerializedSize = -1;
 
-    public static final int JJNALFDJDLJ_FIELD_NUMBER = 7;
-    private com.google.protobuf.Internal.IntList jJNALFDJDLJ_;
+    public static final int FLKBGBEFCHG_FIELD_NUMBER = 12;
+    private com.google.protobuf.Internal.IntList fLKBGBEFCHG_;
     /**
-     * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
-     * @return A list containing the jJNALFDJDLJ.
+     * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
+     * @return A list containing the fLKBGBEFCHG.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getJJNALFDJDLJList() {
-      return jJNALFDJDLJ_;
+        getFLKBGBEFCHGList() {
+      return fLKBGBEFCHG_;
     }
     /**
-     * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
-     * @return The count of jJNALFDJDLJ.
+     * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
+     * @return The count of fLKBGBEFCHG.
      */
-    public int getJJNALFDJDLJCount() {
-      return jJNALFDJDLJ_.size();
+    public int getFLKBGBEFCHGCount() {
+      return fLKBGBEFCHG_.size();
     }
     /**
-     * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
+     * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
      * @param index The index of the element to return.
-     * @return The jJNALFDJDLJ at the given index.
+     * @return The fLKBGBEFCHG at the given index.
      */
-    public int getJJNALFDJDLJ(int index) {
-      return jJNALFDJDLJ_.getInt(index);
+    public int getFLKBGBEFCHG(int index) {
+      return fLKBGBEFCHG_.getInt(index);
     }
-    private int jJNALFDJDLJMemoizedSerializedSize = -1;
+    private int fLKBGBEFCHGMemoizedSerializedSize = -1;
 
-    public static final int ALNNHAICMNB_FIELD_NUMBER = 15;
-    private boolean aLNNHAICMNB_;
-    /**
-     * <code>bool ALNNHAICMNB = 15;</code>
-     * @return The aLNNHAICMNB.
-     */
-    @java.lang.Override
-    public boolean getALNNHAICMNB() {
-      return aLNNHAICMNB_;
-    }
-
-    public static final int GCBMEICLECL_FIELD_NUMBER = 14;
-    private boolean gCBMEICLECL_;
-    /**
-     * <code>bool GCBMEICLECL = 14;</code>
-     * @return The gCBMEICLECL.
-     */
-    @java.lang.Override
-    public boolean getGCBMEICLECL() {
-      return gCBMEICLECL_;
-    }
-
-    public static final int PASSED_DUNGEON_FIELD_NUMBER = 12;
+    public static final int PASSED_DUNGEON_FIELD_NUMBER = 8;
     private boolean passedDungeon_;
     /**
-     * <code>bool passed_dungeon = 12;</code>
+     * <code>bool passed_dungeon = 8;</code>
      * @return The passedDungeon.
      */
     @java.lang.Override
@@ -346,10 +324,10 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       return passedDungeon_;
     }
 
-    public static final int RECEIVED_REWARD_FIELD_NUMBER = 4;
+    public static final int RECEIVED_REWARD_FIELD_NUMBER = 5;
     private boolean receivedReward_;
     /**
-     * <code>bool received_reward = 4;</code>
+     * <code>bool received_reward = 5;</code>
      * @return The receivedReward.
      */
     @java.lang.Override
@@ -357,21 +335,10 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       return receivedReward_;
     }
 
-    public static final int LHBEHBOHAMG_FIELD_NUMBER = 6;
-    private boolean lHBEHBOHAMG_;
-    /**
-     * <code>bool LHBEHBOHAMG = 6;</code>
-     * @return The lHBEHBOHAMG.
-     */
-    @java.lang.Override
-    public boolean getLHBEHBOHAMG() {
-      return lHBEHBOHAMG_;
-    }
-
-    public static final int REWARD_ID_FIELD_NUMBER = 1;
+    public static final int REWARD_ID_FIELD_NUMBER = 11;
     private int rewardId_;
     /**
-     * <code>uint32 reward_id = 1;</code>
+     * <code>uint32 reward_id = 11;</code>
      * @return The rewardId.
      */
     @java.lang.Override
@@ -379,10 +346,43 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       return rewardId_;
     }
 
-    public static final int TRIAL_AVATAR_INDEX_ID_FIELD_NUMBER = 10;
+    public static final int KDFAFOBDFCJ_FIELD_NUMBER = 1;
+    private boolean kDFAFOBDFCJ_;
+    /**
+     * <code>bool KDFAFOBDFCJ = 1;</code>
+     * @return The kDFAFOBDFCJ.
+     */
+    @java.lang.Override
+    public boolean getKDFAFOBDFCJ() {
+      return kDFAFOBDFCJ_;
+    }
+
+    public static final int KHPBFCOFECF_FIELD_NUMBER = 14;
+    private boolean kHPBFCOFECF_;
+    /**
+     * <code>bool KHPBFCOFECF = 14;</code>
+     * @return The kHPBFCOFECF.
+     */
+    @java.lang.Override
+    public boolean getKHPBFCOFECF() {
+      return kHPBFCOFECF_;
+    }
+
+    public static final int OGJKGBKBHCN_FIELD_NUMBER = 15;
+    private boolean oGJKGBKBHCN_;
+    /**
+     * <code>bool OGJKGBKBHCN = 15;</code>
+     * @return The oGJKGBKBHCN.
+     */
+    @java.lang.Override
+    public boolean getOGJKGBKBHCN() {
+      return oGJKGBKBHCN_;
+    }
+
+    public static final int TRIAL_AVATAR_INDEX_ID_FIELD_NUMBER = 2;
     private int trialAvatarIndexId_;
     /**
-     * <code>uint32 trial_avatar_index_id = 10;</code>
+     * <code>uint32 trial_avatar_index_id = 2;</code>
      * @return The trialAvatarIndexId.
      */
     @java.lang.Override
@@ -405,40 +405,40 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (rewardId_ != 0) {
-        output.writeUInt32(1, rewardId_);
-      }
-      if (getLJMPEKNIBMIList().size() > 0) {
-        output.writeUInt32NoTag(18);
-        output.writeUInt32NoTag(lJMPEKNIBMIMemoizedSerializedSize);
-      }
-      for (int i = 0; i < lJMPEKNIBMI_.size(); i++) {
-        output.writeUInt32NoTag(lJMPEKNIBMI_.getInt(i));
-      }
-      if (receivedReward_ != false) {
-        output.writeBool(4, receivedReward_);
-      }
-      if (lHBEHBOHAMG_ != false) {
-        output.writeBool(6, lHBEHBOHAMG_);
-      }
-      if (getJJNALFDJDLJList().size() > 0) {
-        output.writeUInt32NoTag(58);
-        output.writeUInt32NoTag(jJNALFDJDLJMemoizedSerializedSize);
-      }
-      for (int i = 0; i < jJNALFDJDLJ_.size(); i++) {
-        output.writeUInt32NoTag(jJNALFDJDLJ_.getInt(i));
+      if (kDFAFOBDFCJ_ != false) {
+        output.writeBool(1, kDFAFOBDFCJ_);
       }
       if (trialAvatarIndexId_ != 0) {
-        output.writeUInt32(10, trialAvatarIndexId_);
+        output.writeUInt32(2, trialAvatarIndexId_);
+      }
+      if (getDAPECHCACAHList().size() > 0) {
+        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(dAPECHCACAHMemoizedSerializedSize);
+      }
+      for (int i = 0; i < dAPECHCACAH_.size(); i++) {
+        output.writeUInt32NoTag(dAPECHCACAH_.getInt(i));
+      }
+      if (receivedReward_ != false) {
+        output.writeBool(5, receivedReward_);
       }
       if (passedDungeon_ != false) {
-        output.writeBool(12, passedDungeon_);
+        output.writeBool(8, passedDungeon_);
       }
-      if (gCBMEICLECL_ != false) {
-        output.writeBool(14, gCBMEICLECL_);
+      if (rewardId_ != 0) {
+        output.writeUInt32(11, rewardId_);
       }
-      if (aLNNHAICMNB_ != false) {
-        output.writeBool(15, aLNNHAICMNB_);
+      if (getFLKBGBEFCHGList().size() > 0) {
+        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(fLKBGBEFCHGMemoizedSerializedSize);
+      }
+      for (int i = 0; i < fLKBGBEFCHG_.size(); i++) {
+        output.writeUInt32NoTag(fLKBGBEFCHG_.getInt(i));
+      }
+      if (kHPBFCOFECF_ != false) {
+        output.writeBool(14, kHPBFCOFECF_);
+      }
+      if (oGJKGBKBHCN_ != false) {
+        output.writeBool(15, oGJKGBKBHCN_);
       }
       unknownFields.writeTo(output);
     }
@@ -449,61 +449,61 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (rewardId_ != 0) {
+      if (kDFAFOBDFCJ_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, rewardId_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < lJMPEKNIBMI_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(lJMPEKNIBMI_.getInt(i));
-        }
-        size += dataSize;
-        if (!getLJMPEKNIBMIList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        lJMPEKNIBMIMemoizedSerializedSize = dataSize;
-      }
-      if (receivedReward_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, receivedReward_);
-      }
-      if (lHBEHBOHAMG_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, lHBEHBOHAMG_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < jJNALFDJDLJ_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(jJNALFDJDLJ_.getInt(i));
-        }
-        size += dataSize;
-        if (!getJJNALFDJDLJList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        jJNALFDJDLJMemoizedSerializedSize = dataSize;
+          .computeBoolSize(1, kDFAFOBDFCJ_);
       }
       if (trialAvatarIndexId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, trialAvatarIndexId_);
+          .computeUInt32Size(2, trialAvatarIndexId_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < dAPECHCACAH_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(dAPECHCACAH_.getInt(i));
+        }
+        size += dataSize;
+        if (!getDAPECHCACAHList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        dAPECHCACAHMemoizedSerializedSize = dataSize;
+      }
+      if (receivedReward_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(5, receivedReward_);
       }
       if (passedDungeon_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, passedDungeon_);
+          .computeBoolSize(8, passedDungeon_);
       }
-      if (gCBMEICLECL_ != false) {
+      if (rewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, gCBMEICLECL_);
+          .computeUInt32Size(11, rewardId_);
       }
-      if (aLNNHAICMNB_ != false) {
+      {
+        int dataSize = 0;
+        for (int i = 0; i < fLKBGBEFCHG_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(fLKBGBEFCHG_.getInt(i));
+        }
+        size += dataSize;
+        if (!getFLKBGBEFCHGList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        fLKBGBEFCHGMemoizedSerializedSize = dataSize;
+      }
+      if (kHPBFCOFECF_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, aLNNHAICMNB_);
+          .computeBoolSize(14, kHPBFCOFECF_);
+      }
+      if (oGJKGBKBHCN_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(15, oGJKGBKBHCN_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -520,22 +520,22 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo other = (emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo) obj;
 
-      if (!getLJMPEKNIBMIList()
-          .equals(other.getLJMPEKNIBMIList())) return false;
-      if (!getJJNALFDJDLJList()
-          .equals(other.getJJNALFDJDLJList())) return false;
-      if (getALNNHAICMNB()
-          != other.getALNNHAICMNB()) return false;
-      if (getGCBMEICLECL()
-          != other.getGCBMEICLECL()) return false;
+      if (!getDAPECHCACAHList()
+          .equals(other.getDAPECHCACAHList())) return false;
+      if (!getFLKBGBEFCHGList()
+          .equals(other.getFLKBGBEFCHGList())) return false;
       if (getPassedDungeon()
           != other.getPassedDungeon()) return false;
       if (getReceivedReward()
           != other.getReceivedReward()) return false;
-      if (getLHBEHBOHAMG()
-          != other.getLHBEHBOHAMG()) return false;
       if (getRewardId()
           != other.getRewardId()) return false;
+      if (getKDFAFOBDFCJ()
+          != other.getKDFAFOBDFCJ()) return false;
+      if (getKHPBFCOFECF()
+          != other.getKHPBFCOFECF()) return false;
+      if (getOGJKGBKBHCN()
+          != other.getOGJKGBKBHCN()) return false;
       if (getTrialAvatarIndexId()
           != other.getTrialAvatarIndexId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -549,31 +549,31 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getLJMPEKNIBMICount() > 0) {
-        hash = (37 * hash) + LJMPEKNIBMI_FIELD_NUMBER;
-        hash = (53 * hash) + getLJMPEKNIBMIList().hashCode();
+      if (getDAPECHCACAHCount() > 0) {
+        hash = (37 * hash) + DAPECHCACAH_FIELD_NUMBER;
+        hash = (53 * hash) + getDAPECHCACAHList().hashCode();
       }
-      if (getJJNALFDJDLJCount() > 0) {
-        hash = (37 * hash) + JJNALFDJDLJ_FIELD_NUMBER;
-        hash = (53 * hash) + getJJNALFDJDLJList().hashCode();
+      if (getFLKBGBEFCHGCount() > 0) {
+        hash = (37 * hash) + FLKBGBEFCHG_FIELD_NUMBER;
+        hash = (53 * hash) + getFLKBGBEFCHGList().hashCode();
       }
-      hash = (37 * hash) + ALNNHAICMNB_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getALNNHAICMNB());
-      hash = (37 * hash) + GCBMEICLECL_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getGCBMEICLECL());
       hash = (37 * hash) + PASSED_DUNGEON_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getPassedDungeon());
       hash = (37 * hash) + RECEIVED_REWARD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getReceivedReward());
-      hash = (37 * hash) + LHBEHBOHAMG_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getLHBEHBOHAMG());
       hash = (37 * hash) + REWARD_ID_FIELD_NUMBER;
       hash = (53 * hash) + getRewardId();
+      hash = (37 * hash) + KDFAFOBDFCJ_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getKDFAFOBDFCJ());
+      hash = (37 * hash) + KHPBFCOFECF_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getKHPBFCOFECF());
+      hash = (37 * hash) + OGJKGBKBHCN_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOGJKGBKBHCN());
       hash = (37 * hash) + TRIAL_AVATAR_INDEX_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTrialAvatarIndexId();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -709,21 +709,21 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        lJMPEKNIBMI_ = emptyIntList();
+        dAPECHCACAH_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        jJNALFDJDLJ_ = emptyIntList();
+        fLKBGBEFCHG_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        aLNNHAICMNB_ = false;
-
-        gCBMEICLECL_ = false;
-
         passedDungeon_ = false;
 
         receivedReward_ = false;
 
-        lHBEHBOHAMG_ = false;
-
         rewardId_ = 0;
+
+        kDFAFOBDFCJ_ = false;
+
+        kHPBFCOFECF_ = false;
+
+        oGJKGBKBHCN_ = false;
 
         trialAvatarIndexId_ = 0;
 
@@ -755,21 +755,21 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo result = new emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          lJMPEKNIBMI_.makeImmutable();
+          dAPECHCACAH_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.lJMPEKNIBMI_ = lJMPEKNIBMI_;
+        result.dAPECHCACAH_ = dAPECHCACAH_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          jJNALFDJDLJ_.makeImmutable();
+          fLKBGBEFCHG_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.jJNALFDJDLJ_ = jJNALFDJDLJ_;
-        result.aLNNHAICMNB_ = aLNNHAICMNB_;
-        result.gCBMEICLECL_ = gCBMEICLECL_;
+        result.fLKBGBEFCHG_ = fLKBGBEFCHG_;
         result.passedDungeon_ = passedDungeon_;
         result.receivedReward_ = receivedReward_;
-        result.lHBEHBOHAMG_ = lHBEHBOHAMG_;
         result.rewardId_ = rewardId_;
+        result.kDFAFOBDFCJ_ = kDFAFOBDFCJ_;
+        result.kHPBFCOFECF_ = kHPBFCOFECF_;
+        result.oGJKGBKBHCN_ = oGJKGBKBHCN_;
         result.trialAvatarIndexId_ = trialAvatarIndexId_;
         onBuilt();
         return result;
@@ -819,31 +819,25 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo other) {
         if (other == emu.grasscutter.net.proto.TrialAvatarActivityRewardDetailInfoOuterClass.TrialAvatarActivityRewardDetailInfo.getDefaultInstance()) return this;
-        if (!other.lJMPEKNIBMI_.isEmpty()) {
-          if (lJMPEKNIBMI_.isEmpty()) {
-            lJMPEKNIBMI_ = other.lJMPEKNIBMI_;
+        if (!other.dAPECHCACAH_.isEmpty()) {
+          if (dAPECHCACAH_.isEmpty()) {
+            dAPECHCACAH_ = other.dAPECHCACAH_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureLJMPEKNIBMIIsMutable();
-            lJMPEKNIBMI_.addAll(other.lJMPEKNIBMI_);
+            ensureDAPECHCACAHIsMutable();
+            dAPECHCACAH_.addAll(other.dAPECHCACAH_);
           }
           onChanged();
         }
-        if (!other.jJNALFDJDLJ_.isEmpty()) {
-          if (jJNALFDJDLJ_.isEmpty()) {
-            jJNALFDJDLJ_ = other.jJNALFDJDLJ_;
+        if (!other.fLKBGBEFCHG_.isEmpty()) {
+          if (fLKBGBEFCHG_.isEmpty()) {
+            fLKBGBEFCHG_ = other.fLKBGBEFCHG_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureJJNALFDJDLJIsMutable();
-            jJNALFDJDLJ_.addAll(other.jJNALFDJDLJ_);
+            ensureFLKBGBEFCHGIsMutable();
+            fLKBGBEFCHG_.addAll(other.fLKBGBEFCHG_);
           }
           onChanged();
-        }
-        if (other.getALNNHAICMNB() != false) {
-          setALNNHAICMNB(other.getALNNHAICMNB());
-        }
-        if (other.getGCBMEICLECL() != false) {
-          setGCBMEICLECL(other.getGCBMEICLECL());
         }
         if (other.getPassedDungeon() != false) {
           setPassedDungeon(other.getPassedDungeon());
@@ -851,11 +845,17 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         if (other.getReceivedReward() != false) {
           setReceivedReward(other.getReceivedReward());
         }
-        if (other.getLHBEHBOHAMG() != false) {
-          setLHBEHBOHAMG(other.getLHBEHBOHAMG());
-        }
         if (other.getRewardId() != 0) {
           setRewardId(other.getRewardId());
+        }
+        if (other.getKDFAFOBDFCJ() != false) {
+          setKDFAFOBDFCJ(other.getKDFAFOBDFCJ());
+        }
+        if (other.getKHPBFCOFECF() != false) {
+          setKHPBFCOFECF(other.getKHPBFCOFECF());
+        }
+        if (other.getOGJKGBKBHCN() != false) {
+          setOGJKGBKBHCN(other.getOGJKGBKBHCN());
         }
         if (other.getTrialAvatarIndexId() != 0) {
           setTrialAvatarIndexId(other.getTrialAvatarIndexId());
@@ -890,229 +890,167 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList lJMPEKNIBMI_ = emptyIntList();
-      private void ensureLJMPEKNIBMIIsMutable() {
+      private com.google.protobuf.Internal.IntList dAPECHCACAH_ = emptyIntList();
+      private void ensureDAPECHCACAHIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          lJMPEKNIBMI_ = mutableCopy(lJMPEKNIBMI_);
+          dAPECHCACAH_ = mutableCopy(dAPECHCACAH_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
-       * @return A list containing the lJMPEKNIBMI.
+       * <code>repeated uint32 DAPECHCACAH = 4;</code>
+       * @return A list containing the dAPECHCACAH.
        */
       public java.util.List<java.lang.Integer>
-          getLJMPEKNIBMIList() {
+          getDAPECHCACAHList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(lJMPEKNIBMI_) : lJMPEKNIBMI_;
+                 java.util.Collections.unmodifiableList(dAPECHCACAH_) : dAPECHCACAH_;
       }
       /**
-       * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
-       * @return The count of lJMPEKNIBMI.
+       * <code>repeated uint32 DAPECHCACAH = 4;</code>
+       * @return The count of dAPECHCACAH.
        */
-      public int getLJMPEKNIBMICount() {
-        return lJMPEKNIBMI_.size();
+      public int getDAPECHCACAHCount() {
+        return dAPECHCACAH_.size();
       }
       /**
-       * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
+       * <code>repeated uint32 DAPECHCACAH = 4;</code>
        * @param index The index of the element to return.
-       * @return The lJMPEKNIBMI at the given index.
+       * @return The dAPECHCACAH at the given index.
        */
-      public int getLJMPEKNIBMI(int index) {
-        return lJMPEKNIBMI_.getInt(index);
+      public int getDAPECHCACAH(int index) {
+        return dAPECHCACAH_.getInt(index);
       }
       /**
-       * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
+       * <code>repeated uint32 DAPECHCACAH = 4;</code>
        * @param index The index to set the value at.
-       * @param value The lJMPEKNIBMI to set.
+       * @param value The dAPECHCACAH to set.
        * @return This builder for chaining.
        */
-      public Builder setLJMPEKNIBMI(
+      public Builder setDAPECHCACAH(
           int index, int value) {
-        ensureLJMPEKNIBMIIsMutable();
-        lJMPEKNIBMI_.setInt(index, value);
+        ensureDAPECHCACAHIsMutable();
+        dAPECHCACAH_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
-       * @param value The lJMPEKNIBMI to add.
+       * <code>repeated uint32 DAPECHCACAH = 4;</code>
+       * @param value The dAPECHCACAH to add.
        * @return This builder for chaining.
        */
-      public Builder addLJMPEKNIBMI(int value) {
-        ensureLJMPEKNIBMIIsMutable();
-        lJMPEKNIBMI_.addInt(value);
+      public Builder addDAPECHCACAH(int value) {
+        ensureDAPECHCACAHIsMutable();
+        dAPECHCACAH_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
-       * @param values The lJMPEKNIBMI to add.
+       * <code>repeated uint32 DAPECHCACAH = 4;</code>
+       * @param values The dAPECHCACAH to add.
        * @return This builder for chaining.
        */
-      public Builder addAllLJMPEKNIBMI(
+      public Builder addAllDAPECHCACAH(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureLJMPEKNIBMIIsMutable();
+        ensureDAPECHCACAHIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, lJMPEKNIBMI_);
+            values, dAPECHCACAH_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LJMPEKNIBMI = 2;</code>
+       * <code>repeated uint32 DAPECHCACAH = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLJMPEKNIBMI() {
-        lJMPEKNIBMI_ = emptyIntList();
+      public Builder clearDAPECHCACAH() {
+        dAPECHCACAH_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList jJNALFDJDLJ_ = emptyIntList();
-      private void ensureJJNALFDJDLJIsMutable() {
+      private com.google.protobuf.Internal.IntList fLKBGBEFCHG_ = emptyIntList();
+      private void ensureFLKBGBEFCHGIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          jJNALFDJDLJ_ = mutableCopy(jJNALFDJDLJ_);
+          fLKBGBEFCHG_ = mutableCopy(fLKBGBEFCHG_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
-       * @return A list containing the jJNALFDJDLJ.
+       * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
+       * @return A list containing the fLKBGBEFCHG.
        */
       public java.util.List<java.lang.Integer>
-          getJJNALFDJDLJList() {
+          getFLKBGBEFCHGList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(jJNALFDJDLJ_) : jJNALFDJDLJ_;
+                 java.util.Collections.unmodifiableList(fLKBGBEFCHG_) : fLKBGBEFCHG_;
       }
       /**
-       * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
-       * @return The count of jJNALFDJDLJ.
+       * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
+       * @return The count of fLKBGBEFCHG.
        */
-      public int getJJNALFDJDLJCount() {
-        return jJNALFDJDLJ_.size();
+      public int getFLKBGBEFCHGCount() {
+        return fLKBGBEFCHG_.size();
       }
       /**
-       * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
+       * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
        * @param index The index of the element to return.
-       * @return The jJNALFDJDLJ at the given index.
+       * @return The fLKBGBEFCHG at the given index.
        */
-      public int getJJNALFDJDLJ(int index) {
-        return jJNALFDJDLJ_.getInt(index);
+      public int getFLKBGBEFCHG(int index) {
+        return fLKBGBEFCHG_.getInt(index);
       }
       /**
-       * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
+       * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
        * @param index The index to set the value at.
-       * @param value The jJNALFDJDLJ to set.
+       * @param value The fLKBGBEFCHG to set.
        * @return This builder for chaining.
        */
-      public Builder setJJNALFDJDLJ(
+      public Builder setFLKBGBEFCHG(
           int index, int value) {
-        ensureJJNALFDJDLJIsMutable();
-        jJNALFDJDLJ_.setInt(index, value);
+        ensureFLKBGBEFCHGIsMutable();
+        fLKBGBEFCHG_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
-       * @param value The jJNALFDJDLJ to add.
+       * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
+       * @param value The fLKBGBEFCHG to add.
        * @return This builder for chaining.
        */
-      public Builder addJJNALFDJDLJ(int value) {
-        ensureJJNALFDJDLJIsMutable();
-        jJNALFDJDLJ_.addInt(value);
+      public Builder addFLKBGBEFCHG(int value) {
+        ensureFLKBGBEFCHGIsMutable();
+        fLKBGBEFCHG_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
-       * @param values The jJNALFDJDLJ to add.
+       * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
+       * @param values The fLKBGBEFCHG to add.
        * @return This builder for chaining.
        */
-      public Builder addAllJJNALFDJDLJ(
+      public Builder addAllFLKBGBEFCHG(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureJJNALFDJDLJIsMutable();
+        ensureFLKBGBEFCHGIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, jJNALFDJDLJ_);
+            values, fLKBGBEFCHG_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 JJNALFDJDLJ = 7;</code>
+       * <code>repeated uint32 FLKBGBEFCHG = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJJNALFDJDLJ() {
-        jJNALFDJDLJ_ = emptyIntList();
+      public Builder clearFLKBGBEFCHG() {
+        fLKBGBEFCHG_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
-        return this;
-      }
-
-      private boolean aLNNHAICMNB_ ;
-      /**
-       * <code>bool ALNNHAICMNB = 15;</code>
-       * @return The aLNNHAICMNB.
-       */
-      @java.lang.Override
-      public boolean getALNNHAICMNB() {
-        return aLNNHAICMNB_;
-      }
-      /**
-       * <code>bool ALNNHAICMNB = 15;</code>
-       * @param value The aLNNHAICMNB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setALNNHAICMNB(boolean value) {
-        
-        aLNNHAICMNB_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool ALNNHAICMNB = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearALNNHAICMNB() {
-        
-        aLNNHAICMNB_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean gCBMEICLECL_ ;
-      /**
-       * <code>bool GCBMEICLECL = 14;</code>
-       * @return The gCBMEICLECL.
-       */
-      @java.lang.Override
-      public boolean getGCBMEICLECL() {
-        return gCBMEICLECL_;
-      }
-      /**
-       * <code>bool GCBMEICLECL = 14;</code>
-       * @param value The gCBMEICLECL to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGCBMEICLECL(boolean value) {
-        
-        gCBMEICLECL_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool GCBMEICLECL = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGCBMEICLECL() {
-        
-        gCBMEICLECL_ = false;
         onChanged();
         return this;
       }
 
       private boolean passedDungeon_ ;
       /**
-       * <code>bool passed_dungeon = 12;</code>
+       * <code>bool passed_dungeon = 8;</code>
        * @return The passedDungeon.
        */
       @java.lang.Override
@@ -1120,7 +1058,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return passedDungeon_;
       }
       /**
-       * <code>bool passed_dungeon = 12;</code>
+       * <code>bool passed_dungeon = 8;</code>
        * @param value The passedDungeon to set.
        * @return This builder for chaining.
        */
@@ -1131,7 +1069,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool passed_dungeon = 12;</code>
+       * <code>bool passed_dungeon = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearPassedDungeon() {
@@ -1143,7 +1081,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
 
       private boolean receivedReward_ ;
       /**
-       * <code>bool received_reward = 4;</code>
+       * <code>bool received_reward = 5;</code>
        * @return The receivedReward.
        */
       @java.lang.Override
@@ -1151,7 +1089,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return receivedReward_;
       }
       /**
-       * <code>bool received_reward = 4;</code>
+       * <code>bool received_reward = 5;</code>
        * @param value The receivedReward to set.
        * @return This builder for chaining.
        */
@@ -1162,7 +1100,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool received_reward = 4;</code>
+       * <code>bool received_reward = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearReceivedReward() {
@@ -1172,40 +1110,9 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return this;
       }
 
-      private boolean lHBEHBOHAMG_ ;
-      /**
-       * <code>bool LHBEHBOHAMG = 6;</code>
-       * @return The lHBEHBOHAMG.
-       */
-      @java.lang.Override
-      public boolean getLHBEHBOHAMG() {
-        return lHBEHBOHAMG_;
-      }
-      /**
-       * <code>bool LHBEHBOHAMG = 6;</code>
-       * @param value The lHBEHBOHAMG to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLHBEHBOHAMG(boolean value) {
-        
-        lHBEHBOHAMG_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool LHBEHBOHAMG = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLHBEHBOHAMG() {
-        
-        lHBEHBOHAMG_ = false;
-        onChanged();
-        return this;
-      }
-
       private int rewardId_ ;
       /**
-       * <code>uint32 reward_id = 1;</code>
+       * <code>uint32 reward_id = 11;</code>
        * @return The rewardId.
        */
       @java.lang.Override
@@ -1213,7 +1120,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return rewardId_;
       }
       /**
-       * <code>uint32 reward_id = 1;</code>
+       * <code>uint32 reward_id = 11;</code>
        * @param value The rewardId to set.
        * @return This builder for chaining.
        */
@@ -1224,7 +1131,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 reward_id = 1;</code>
+       * <code>uint32 reward_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearRewardId() {
@@ -1234,9 +1141,102 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return this;
       }
 
+      private boolean kDFAFOBDFCJ_ ;
+      /**
+       * <code>bool KDFAFOBDFCJ = 1;</code>
+       * @return The kDFAFOBDFCJ.
+       */
+      @java.lang.Override
+      public boolean getKDFAFOBDFCJ() {
+        return kDFAFOBDFCJ_;
+      }
+      /**
+       * <code>bool KDFAFOBDFCJ = 1;</code>
+       * @param value The kDFAFOBDFCJ to set.
+       * @return This builder for chaining.
+       */
+      public Builder setKDFAFOBDFCJ(boolean value) {
+        
+        kDFAFOBDFCJ_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool KDFAFOBDFCJ = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearKDFAFOBDFCJ() {
+        
+        kDFAFOBDFCJ_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean kHPBFCOFECF_ ;
+      /**
+       * <code>bool KHPBFCOFECF = 14;</code>
+       * @return The kHPBFCOFECF.
+       */
+      @java.lang.Override
+      public boolean getKHPBFCOFECF() {
+        return kHPBFCOFECF_;
+      }
+      /**
+       * <code>bool KHPBFCOFECF = 14;</code>
+       * @param value The kHPBFCOFECF to set.
+       * @return This builder for chaining.
+       */
+      public Builder setKHPBFCOFECF(boolean value) {
+        
+        kHPBFCOFECF_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool KHPBFCOFECF = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearKHPBFCOFECF() {
+        
+        kHPBFCOFECF_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean oGJKGBKBHCN_ ;
+      /**
+       * <code>bool OGJKGBKBHCN = 15;</code>
+       * @return The oGJKGBKBHCN.
+       */
+      @java.lang.Override
+      public boolean getOGJKGBKBHCN() {
+        return oGJKGBKBHCN_;
+      }
+      /**
+       * <code>bool OGJKGBKBHCN = 15;</code>
+       * @param value The oGJKGBKBHCN to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOGJKGBKBHCN(boolean value) {
+        
+        oGJKGBKBHCN_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool OGJKGBKBHCN = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOGJKGBKBHCN() {
+        
+        oGJKGBKBHCN_ = false;
+        onChanged();
+        return this;
+      }
+
       private int trialAvatarIndexId_ ;
       /**
-       * <code>uint32 trial_avatar_index_id = 10;</code>
+       * <code>uint32 trial_avatar_index_id = 2;</code>
        * @return The trialAvatarIndexId.
        */
       @java.lang.Override
@@ -1244,7 +1244,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return trialAvatarIndexId_;
       }
       /**
-       * <code>uint32 trial_avatar_index_id = 10;</code>
+       * <code>uint32 trial_avatar_index_id = 2;</code>
        * @param value The trialAvatarIndexId to set.
        * @return This builder for chaining.
        */
@@ -1255,7 +1255,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 trial_avatar_index_id = 10;</code>
+       * <code>uint32 trial_avatar_index_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearTrialAvatarIndexId() {
@@ -1333,12 +1333,12 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n)TrialAvatarActivityRewardDetailInfo.pr" +
       "oto\"\361\001\n#TrialAvatarActivityRewardDetailI" +
-      "nfo\022\023\n\013LJMPEKNIBMI\030\002 \003(\r\022\023\n\013JJNALFDJDLJ\030" +
-      "\007 \003(\r\022\023\n\013ALNNHAICMNB\030\017 \001(\010\022\023\n\013GCBMEICLEC" +
-      "L\030\016 \001(\010\022\026\n\016passed_dungeon\030\014 \001(\010\022\027\n\017recei" +
-      "ved_reward\030\004 \001(\010\022\023\n\013LHBEHBOHAMG\030\006 \001(\010\022\021\n" +
-      "\treward_id\030\001 \001(\r\022\035\n\025trial_avatar_index_i" +
-      "d\030\n \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
+      "nfo\022\023\n\013DAPECHCACAH\030\004 \003(\r\022\023\n\013FLKBGBEFCHG\030" +
+      "\014 \003(\r\022\026\n\016passed_dungeon\030\010 \001(\010\022\027\n\017receive" +
+      "d_reward\030\005 \001(\010\022\021\n\treward_id\030\013 \001(\r\022\023\n\013KDF" +
+      "AFOBDFCJ\030\001 \001(\010\022\023\n\013KHPBFCOFECF\030\016 \001(\010\022\023\n\013O" +
+      "GJKGBKBHCN\030\017 \001(\010\022\035\n\025trial_avatar_index_i" +
+      "d\030\002 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
       "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1350,7 +1350,7 @@ public final class TrialAvatarActivityRewardDetailInfoOuterClass {
     internal_static_TrialAvatarActivityRewardDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TrialAvatarActivityRewardDetailInfo_descriptor,
-        new java.lang.String[] { "LJMPEKNIBMI", "JJNALFDJDLJ", "ALNNHAICMNB", "GCBMEICLECL", "PassedDungeon", "ReceivedReward", "LHBEHBOHAMG", "RewardId", "TrialAvatarIndexId", });
+        new java.lang.String[] { "DAPECHCACAH", "FLKBGBEFCHG", "PassedDungeon", "ReceivedReward", "RewardId", "KDFAFOBDFCJ", "KHPBFCOFECF", "OGJKGBKBHCN", "TrialAvatarIndexId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

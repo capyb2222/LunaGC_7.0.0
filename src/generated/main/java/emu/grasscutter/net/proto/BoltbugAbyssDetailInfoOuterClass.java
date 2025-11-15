@@ -19,25 +19,25 @@ public final class BoltbugAbyssDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo> 
         getLevelInfoListList();
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo getLevelInfoList(int index);
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfoOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfoOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class BoltbugAbyssDetailInfoOuterClass {
               emu.grasscutter.net.proto.BoltbugAbyssDetailInfoOuterClass.BoltbugAbyssDetailInfo.class, emu.grasscutter.net.proto.BoltbugAbyssDetailInfoOuterClass.BoltbugAbyssDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 1;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo> levelInfoList_;
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class BoltbugAbyssDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+     * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfoOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(1, levelInfoList_.get(i));
+        output.writeMessage(3, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, levelInfoList_.get(i));
+          .computeMessageSize(3, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
           emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo, emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.Builder, emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfoOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo value) {
@@ -575,7 +575,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo value) {
@@ -622,7 +622,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo> values) {
@@ -665,7 +665,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfoOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfoOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 1;</code>
+       * <code>repeated .BoltbugAbyssLevelInfo level_info_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BoltbugAbyssLevelInfoOuterClass.BoltbugAbyssLevelInfo.Builder> 
            getLevelInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034BoltbugAbyssDetailInfo.proto\032\033BoltbugA" +
       "byssLevelInfo.proto\"I\n\026BoltbugAbyssDetai" +
-      "lInfo\022/\n\017level_info_list\030\001 \003(\0132\026.Boltbug" +
+      "lInfo\022/\n\017level_info_list\030\003 \003(\0132\026.Boltbug" +
       "AbyssLevelInfoB\033\n\031emu.grasscutter.net.pr" +
       "otob\006proto3"
     };

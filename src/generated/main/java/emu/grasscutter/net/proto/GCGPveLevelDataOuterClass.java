@@ -19,39 +19,39 @@ public final class GCGPveLevelDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 affix_list = 12;</code>
+     * <code>repeated uint32 affix_list = 14;</code>
      * @return A list containing the affixList.
      */
     java.util.List<java.lang.Integer> getAffixListList();
     /**
-     * <code>repeated uint32 affix_list = 12;</code>
+     * <code>repeated uint32 affix_list = 14;</code>
      * @return The count of affixList.
      */
     int getAffixListCount();
     /**
-     * <code>repeated uint32 affix_list = 12;</code>
+     * <code>repeated uint32 affix_list = 14;</code>
      * @param index The index of the element to return.
      * @return The affixList at the given index.
      */
     int getAffixList(int index);
 
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 10;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 game_id = 4;</code>
-     * @return The gameId.
-     */
-    int getGameId();
-
-    /**
-     * <code>uint32 max_score = 11;</code>
+     * <code>uint32 max_score = 15;</code>
      * @return The maxScore.
      */
     int getMaxScore();
+
+    /**
+     * <code>uint32 game_id = 5;</code>
+     * @return The gameId.
+     */
+    int getGameId();
   }
   /**
    * Protobuf type {@code GCGPveLevelData}
@@ -100,22 +100,17 @@ public final class GCGPveLevelDataOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            case 40: {
 
               gameId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 80: {
 
-              maxScore_ = input.readUInt32();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 affixList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -123,7 +118,7 @@ public final class GCGPveLevelDataOuterClass {
               affixList_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -134,6 +129,11 @@ public final class GCGPveLevelDataOuterClass {
                 affixList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 120: {
+
+              maxScore_ = input.readUInt32();
               break;
             }
             default: {
@@ -171,10 +171,10 @@ public final class GCGPveLevelDataOuterClass {
               emu.grasscutter.net.proto.GCGPveLevelDataOuterClass.GCGPveLevelData.class, emu.grasscutter.net.proto.GCGPveLevelDataOuterClass.GCGPveLevelData.Builder.class);
     }
 
-    public static final int AFFIX_LIST_FIELD_NUMBER = 12;
+    public static final int AFFIX_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList affixList_;
     /**
-     * <code>repeated uint32 affix_list = 12;</code>
+     * <code>repeated uint32 affix_list = 14;</code>
      * @return A list containing the affixList.
      */
     @java.lang.Override
@@ -183,14 +183,14 @@ public final class GCGPveLevelDataOuterClass {
       return affixList_;
     }
     /**
-     * <code>repeated uint32 affix_list = 12;</code>
+     * <code>repeated uint32 affix_list = 14;</code>
      * @return The count of affixList.
      */
     public int getAffixListCount() {
       return affixList_.size();
     }
     /**
-     * <code>repeated uint32 affix_list = 12;</code>
+     * <code>repeated uint32 affix_list = 14;</code>
      * @param index The index of the element to return.
      * @return The affixList at the given index.
      */
@@ -199,10 +199,10 @@ public final class GCGPveLevelDataOuterClass {
     }
     private int affixListMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 2;
+    public static final int LEVEL_ID_FIELD_NUMBER = 10;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 10;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -210,26 +210,26 @@ public final class GCGPveLevelDataOuterClass {
       return levelId_;
     }
 
-    public static final int GAME_ID_FIELD_NUMBER = 4;
-    private int gameId_;
-    /**
-     * <code>uint32 game_id = 4;</code>
-     * @return The gameId.
-     */
-    @java.lang.Override
-    public int getGameId() {
-      return gameId_;
-    }
-
-    public static final int MAX_SCORE_FIELD_NUMBER = 11;
+    public static final int MAX_SCORE_FIELD_NUMBER = 15;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 11;</code>
+     * <code>uint32 max_score = 15;</code>
      * @return The maxScore.
      */
     @java.lang.Override
     public int getMaxScore() {
       return maxScore_;
+    }
+
+    public static final int GAME_ID_FIELD_NUMBER = 5;
+    private int gameId_;
+    /**
+     * <code>uint32 game_id = 5;</code>
+     * @return The gameId.
+     */
+    @java.lang.Override
+    public int getGameId() {
+      return gameId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -247,21 +247,21 @@ public final class GCGPveLevelDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (levelId_ != 0) {
-        output.writeUInt32(2, levelId_);
-      }
       if (gameId_ != 0) {
-        output.writeUInt32(4, gameId_);
+        output.writeUInt32(5, gameId_);
       }
-      if (maxScore_ != 0) {
-        output.writeUInt32(11, maxScore_);
+      if (levelId_ != 0) {
+        output.writeUInt32(10, levelId_);
       }
       if (getAffixListList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(affixListMemoizedSerializedSize);
       }
       for (int i = 0; i < affixList_.size(); i++) {
         output.writeUInt32NoTag(affixList_.getInt(i));
+      }
+      if (maxScore_ != 0) {
+        output.writeUInt32(15, maxScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -272,17 +272,13 @@ public final class GCGPveLevelDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, levelId_);
-      }
       if (gameId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, gameId_);
+          .computeUInt32Size(5, gameId_);
       }
-      if (maxScore_ != 0) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, maxScore_);
+          .computeUInt32Size(10, levelId_);
       }
       {
         int dataSize = 0;
@@ -297,6 +293,10 @@ public final class GCGPveLevelDataOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         affixListMemoizedSerializedSize = dataSize;
+      }
+      if (maxScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, maxScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -317,10 +317,10 @@ public final class GCGPveLevelDataOuterClass {
           .equals(other.getAffixListList())) return false;
       if (getLevelId()
           != other.getLevelId()) return false;
-      if (getGameId()
-          != other.getGameId()) return false;
       if (getMaxScore()
           != other.getMaxScore()) return false;
+      if (getGameId()
+          != other.getGameId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -338,10 +338,10 @@ public final class GCGPveLevelDataOuterClass {
       }
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
-      hash = (37 * hash) + GAME_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getGameId();
       hash = (37 * hash) + MAX_SCORE_FIELD_NUMBER;
       hash = (53 * hash) + getMaxScore();
+      hash = (37 * hash) + GAME_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getGameId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -479,9 +479,9 @@ public final class GCGPveLevelDataOuterClass {
         bitField0_ = (bitField0_ & ~0x00000001);
         levelId_ = 0;
 
-        gameId_ = 0;
-
         maxScore_ = 0;
+
+        gameId_ = 0;
 
         return this;
       }
@@ -516,8 +516,8 @@ public final class GCGPveLevelDataOuterClass {
         }
         result.affixList_ = affixList_;
         result.levelId_ = levelId_;
-        result.gameId_ = gameId_;
         result.maxScore_ = maxScore_;
+        result.gameId_ = gameId_;
         onBuilt();
         return result;
       }
@@ -579,11 +579,11 @@ public final class GCGPveLevelDataOuterClass {
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
         }
-        if (other.getGameId() != 0) {
-          setGameId(other.getGameId());
-        }
         if (other.getMaxScore() != 0) {
           setMaxScore(other.getMaxScore());
+        }
+        if (other.getGameId() != 0) {
+          setGameId(other.getGameId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -623,7 +623,7 @@ public final class GCGPveLevelDataOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 affix_list = 12;</code>
+       * <code>repeated uint32 affix_list = 14;</code>
        * @return A list containing the affixList.
        */
       public java.util.List<java.lang.Integer>
@@ -632,14 +632,14 @@ public final class GCGPveLevelDataOuterClass {
                  java.util.Collections.unmodifiableList(affixList_) : affixList_;
       }
       /**
-       * <code>repeated uint32 affix_list = 12;</code>
+       * <code>repeated uint32 affix_list = 14;</code>
        * @return The count of affixList.
        */
       public int getAffixListCount() {
         return affixList_.size();
       }
       /**
-       * <code>repeated uint32 affix_list = 12;</code>
+       * <code>repeated uint32 affix_list = 14;</code>
        * @param index The index of the element to return.
        * @return The affixList at the given index.
        */
@@ -647,7 +647,7 @@ public final class GCGPveLevelDataOuterClass {
         return affixList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 affix_list = 12;</code>
+       * <code>repeated uint32 affix_list = 14;</code>
        * @param index The index to set the value at.
        * @param value The affixList to set.
        * @return This builder for chaining.
@@ -660,7 +660,7 @@ public final class GCGPveLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 affix_list = 12;</code>
+       * <code>repeated uint32 affix_list = 14;</code>
        * @param value The affixList to add.
        * @return This builder for chaining.
        */
@@ -671,7 +671,7 @@ public final class GCGPveLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 affix_list = 12;</code>
+       * <code>repeated uint32 affix_list = 14;</code>
        * @param values The affixList to add.
        * @return This builder for chaining.
        */
@@ -684,7 +684,7 @@ public final class GCGPveLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 affix_list = 12;</code>
+       * <code>repeated uint32 affix_list = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearAffixList() {
@@ -696,7 +696,7 @@ public final class GCGPveLevelDataOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 10;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -704,7 +704,7 @@ public final class GCGPveLevelDataOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 10;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -715,7 +715,7 @@ public final class GCGPveLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -725,40 +725,9 @@ public final class GCGPveLevelDataOuterClass {
         return this;
       }
 
-      private int gameId_ ;
-      /**
-       * <code>uint32 game_id = 4;</code>
-       * @return The gameId.
-       */
-      @java.lang.Override
-      public int getGameId() {
-        return gameId_;
-      }
-      /**
-       * <code>uint32 game_id = 4;</code>
-       * @param value The gameId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGameId(int value) {
-        
-        gameId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 game_id = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGameId() {
-        
-        gameId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 11;</code>
+       * <code>uint32 max_score = 15;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -766,7 +735,7 @@ public final class GCGPveLevelDataOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 11;</code>
+       * <code>uint32 max_score = 15;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -777,12 +746,43 @@ public final class GCGPveLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 11;</code>
+       * <code>uint32 max_score = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
         
         maxScore_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int gameId_ ;
+      /**
+       * <code>uint32 game_id = 5;</code>
+       * @return The gameId.
+       */
+      @java.lang.Override
+      public int getGameId() {
+        return gameId_;
+      }
+      /**
+       * <code>uint32 game_id = 5;</code>
+       * @param value The gameId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGameId(int value) {
+        
+        gameId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 game_id = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGameId() {
+        
+        gameId_ = 0;
         onChanged();
         return this;
       }
@@ -854,8 +854,8 @@ public final class GCGPveLevelDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025GCGPveLevelData.proto\"[\n\017GCGPveLevelDa" +
-      "ta\022\022\n\naffix_list\030\014 \003(\r\022\020\n\010level_id\030\002 \001(\r" +
-      "\022\017\n\007game_id\030\004 \001(\r\022\021\n\tmax_score\030\013 \001(\rB\033\n\031" +
+      "ta\022\022\n\naffix_list\030\016 \003(\r\022\020\n\010level_id\030\n \001(\r" +
+      "\022\021\n\tmax_score\030\017 \001(\r\022\017\n\007game_id\030\005 \001(\rB\033\n\031" +
       "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -867,7 +867,7 @@ public final class GCGPveLevelDataOuterClass {
     internal_static_GCGPveLevelData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGPveLevelData_descriptor,
-        new java.lang.String[] { "AffixList", "LevelId", "GameId", "MaxScore", });
+        new java.lang.String[] { "AffixList", "LevelId", "MaxScore", "GameId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

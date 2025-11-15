@@ -19,25 +19,49 @@ public final class AutoTimeStopLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 11;</code>
-     * @return The levelId.
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
      */
-    int getLevelId();
+    java.util.List<emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ> 
+        getPFIOIMHPIBMList();
+    /**
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+     */
+    emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ getPFIOIMHPIBM(int index);
+    /**
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+     */
+    int getPFIOIMHPIBMCount();
+    /**
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJOrBuilder> 
+        getPFIOIMHPIBMOrBuilderList();
+    /**
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+     */
+    emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJOrBuilder getPFIOIMHPIBMOrBuilder(
+        int index);
 
     /**
-     * <code>uint32 score = 7;</code>
+     * <code>uint32 score = 3;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>bool is_finish = 6;</code>
+     * <code>uint32 level_id = 1;</code>
+     * @return The levelId.
+     */
+    int getLevelId();
+
+    /**
+     * <code>bool is_finish = 9;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>bool is_open = 9;</code>
+     * <code>bool is_open = 10;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -55,6 +79,7 @@ public final class AutoTimeStopLevelInfoOuterClass {
       super(builder);
     }
     private AutoTimeStopLevelInfo() {
+      pFIOIMHPIBM_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -77,6 +102,7 @@ public final class AutoTimeStopLevelInfoOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -87,24 +113,33 @@ public final class AutoTimeStopLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 8: {
 
-              isFinish_ = input.readBool();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 24: {
 
               score_ = input.readUInt32();
               break;
             }
             case 72: {
 
+              isFinish_ = input.readBool();
+              break;
+            }
+            case 80: {
+
               isOpen_ = input.readBool();
               break;
             }
-            case 88: {
-
-              levelId_ = input.readUInt32();
+            case 90: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                pFIOIMHPIBM_ = new java.util.ArrayList<emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              pFIOIMHPIBM_.add(
+                  input.readMessage(emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -122,6 +157,9 @@ public final class AutoTimeStopLevelInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          pFIOIMHPIBM_ = java.util.Collections.unmodifiableList(pFIOIMHPIBM_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -139,21 +177,50 @@ public final class AutoTimeStopLevelInfoOuterClass {
               emu.grasscutter.net.proto.AutoTimeStopLevelInfoOuterClass.AutoTimeStopLevelInfo.class, emu.grasscutter.net.proto.AutoTimeStopLevelInfoOuterClass.AutoTimeStopLevelInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 11;
-    private int levelId_;
+    public static final int PFIOIMHPIBM_FIELD_NUMBER = 11;
+    private java.util.List<emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ> pFIOIMHPIBM_;
     /**
-     * <code>uint32 level_id = 11;</code>
-     * @return The levelId.
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
      */
     @java.lang.Override
-    public int getLevelId() {
-      return levelId_;
+    public java.util.List<emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ> getPFIOIMHPIBMList() {
+      return pFIOIMHPIBM_;
+    }
+    /**
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJOrBuilder> 
+        getPFIOIMHPIBMOrBuilderList() {
+      return pFIOIMHPIBM_;
+    }
+    /**
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+     */
+    @java.lang.Override
+    public int getPFIOIMHPIBMCount() {
+      return pFIOIMHPIBM_.size();
+    }
+    /**
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ getPFIOIMHPIBM(int index) {
+      return pFIOIMHPIBM_.get(index);
+    }
+    /**
+     * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJOrBuilder getPFIOIMHPIBMOrBuilder(
+        int index) {
+      return pFIOIMHPIBM_.get(index);
     }
 
-    public static final int SCORE_FIELD_NUMBER = 7;
+    public static final int SCORE_FIELD_NUMBER = 3;
     private int score_;
     /**
-     * <code>uint32 score = 7;</code>
+     * <code>uint32 score = 3;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -161,10 +228,21 @@ public final class AutoTimeStopLevelInfoOuterClass {
       return score_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 6;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
+    private int levelId_;
+    /**
+     * <code>uint32 level_id = 1;</code>
+     * @return The levelId.
+     */
+    @java.lang.Override
+    public int getLevelId() {
+      return levelId_;
+    }
+
+    public static final int IS_FINISH_FIELD_NUMBER = 9;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 6;</code>
+     * <code>bool is_finish = 9;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -172,10 +250,10 @@ public final class AutoTimeStopLevelInfoOuterClass {
       return isFinish_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 9;
+    public static final int IS_OPEN_FIELD_NUMBER = 10;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 9;</code>
+     * <code>bool is_open = 10;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -197,17 +275,20 @@ public final class AutoTimeStopLevelInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isFinish_ != false) {
-        output.writeBool(6, isFinish_);
+      if (levelId_ != 0) {
+        output.writeUInt32(1, levelId_);
       }
       if (score_ != 0) {
-        output.writeUInt32(7, score_);
+        output.writeUInt32(3, score_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(9, isFinish_);
       }
       if (isOpen_ != false) {
-        output.writeBool(9, isOpen_);
+        output.writeBool(10, isOpen_);
       }
-      if (levelId_ != 0) {
-        output.writeUInt32(11, levelId_);
+      for (int i = 0; i < pFIOIMHPIBM_.size(); i++) {
+        output.writeMessage(11, pFIOIMHPIBM_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +299,25 @@ public final class AutoTimeStopLevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isFinish_ != false) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isFinish_);
+          .computeUInt32Size(1, levelId_);
       }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, score_);
+          .computeUInt32Size(3, score_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, isFinish_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isOpen_);
+          .computeBoolSize(10, isOpen_);
       }
-      if (levelId_ != 0) {
+      for (int i = 0; i < pFIOIMHPIBM_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, levelId_);
+          .computeMessageSize(11, pFIOIMHPIBM_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -249,10 +334,12 @@ public final class AutoTimeStopLevelInfoOuterClass {
       }
       emu.grasscutter.net.proto.AutoTimeStopLevelInfoOuterClass.AutoTimeStopLevelInfo other = (emu.grasscutter.net.proto.AutoTimeStopLevelInfoOuterClass.AutoTimeStopLevelInfo) obj;
 
-      if (getLevelId()
-          != other.getLevelId()) return false;
+      if (!getPFIOIMHPIBMList()
+          .equals(other.getPFIOIMHPIBMList())) return false;
       if (getScore()
           != other.getScore()) return false;
+      if (getLevelId()
+          != other.getLevelId()) return false;
       if (getIsFinish()
           != other.getIsFinish()) return false;
       if (getIsOpen()
@@ -268,10 +355,14 @@ public final class AutoTimeStopLevelInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getLevelId();
+      if (getPFIOIMHPIBMCount() > 0) {
+        hash = (37 * hash) + PFIOIMHPIBM_FIELD_NUMBER;
+        hash = (53 * hash) + getPFIOIMHPIBMList().hashCode();
+      }
       hash = (37 * hash) + SCORE_FIELD_NUMBER;
       hash = (53 * hash) + getScore();
+      hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getLevelId();
       hash = (37 * hash) + IS_FINISH_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinish());
@@ -406,14 +497,21 @@ public final class AutoTimeStopLevelInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getPFIOIMHPIBMFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        levelId_ = 0;
-
+        if (pFIOIMHPIBMBuilder_ == null) {
+          pFIOIMHPIBM_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          pFIOIMHPIBMBuilder_.clear();
+        }
         score_ = 0;
+
+        levelId_ = 0;
 
         isFinish_ = false;
 
@@ -445,8 +543,18 @@ public final class AutoTimeStopLevelInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AutoTimeStopLevelInfoOuterClass.AutoTimeStopLevelInfo buildPartial() {
         emu.grasscutter.net.proto.AutoTimeStopLevelInfoOuterClass.AutoTimeStopLevelInfo result = new emu.grasscutter.net.proto.AutoTimeStopLevelInfoOuterClass.AutoTimeStopLevelInfo(this);
-        result.levelId_ = levelId_;
+        int from_bitField0_ = bitField0_;
+        if (pFIOIMHPIBMBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) != 0)) {
+            pFIOIMHPIBM_ = java.util.Collections.unmodifiableList(pFIOIMHPIBM_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.pFIOIMHPIBM_ = pFIOIMHPIBM_;
+        } else {
+          result.pFIOIMHPIBM_ = pFIOIMHPIBMBuilder_.build();
+        }
         result.score_ = score_;
+        result.levelId_ = levelId_;
         result.isFinish_ = isFinish_;
         result.isOpen_ = isOpen_;
         onBuilt();
@@ -497,11 +605,37 @@ public final class AutoTimeStopLevelInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AutoTimeStopLevelInfoOuterClass.AutoTimeStopLevelInfo other) {
         if (other == emu.grasscutter.net.proto.AutoTimeStopLevelInfoOuterClass.AutoTimeStopLevelInfo.getDefaultInstance()) return this;
-        if (other.getLevelId() != 0) {
-          setLevelId(other.getLevelId());
+        if (pFIOIMHPIBMBuilder_ == null) {
+          if (!other.pFIOIMHPIBM_.isEmpty()) {
+            if (pFIOIMHPIBM_.isEmpty()) {
+              pFIOIMHPIBM_ = other.pFIOIMHPIBM_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensurePFIOIMHPIBMIsMutable();
+              pFIOIMHPIBM_.addAll(other.pFIOIMHPIBM_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.pFIOIMHPIBM_.isEmpty()) {
+            if (pFIOIMHPIBMBuilder_.isEmpty()) {
+              pFIOIMHPIBMBuilder_.dispose();
+              pFIOIMHPIBMBuilder_ = null;
+              pFIOIMHPIBM_ = other.pFIOIMHPIBM_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              pFIOIMHPIBMBuilder_ = 
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
+                   getPFIOIMHPIBMFieldBuilder() : null;
+            } else {
+              pFIOIMHPIBMBuilder_.addAllMessages(other.pFIOIMHPIBM_);
+            }
+          }
         }
         if (other.getScore() != 0) {
           setScore(other.getScore());
+        }
+        if (other.getLevelId() != 0) {
+          setLevelId(other.getLevelId());
         }
         if (other.getIsFinish() != false) {
           setIsFinish(other.getIsFinish());
@@ -537,41 +671,251 @@ public final class AutoTimeStopLevelInfoOuterClass {
         }
         return this;
       }
+      private int bitField0_;
 
-      private int levelId_ ;
+      private java.util.List<emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ> pFIOIMHPIBM_ =
+        java.util.Collections.emptyList();
+      private void ensurePFIOIMHPIBMIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          pFIOIMHPIBM_ = new java.util.ArrayList<emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ>(pFIOIMHPIBM_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJOrBuilder> pFIOIMHPIBMBuilder_;
+
       /**
-       * <code>uint32 level_id = 11;</code>
-       * @return The levelId.
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
        */
-      @java.lang.Override
-      public int getLevelId() {
-        return levelId_;
+      public java.util.List<emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ> getPFIOIMHPIBMList() {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(pFIOIMHPIBM_);
+        } else {
+          return pFIOIMHPIBMBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>uint32 level_id = 11;</code>
-       * @param value The levelId to set.
-       * @return This builder for chaining.
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
        */
-      public Builder setLevelId(int value) {
-        
-        levelId_ = value;
-        onChanged();
+      public int getPFIOIMHPIBMCount() {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          return pFIOIMHPIBM_.size();
+        } else {
+          return pFIOIMHPIBMBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ getPFIOIMHPIBM(int index) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          return pFIOIMHPIBM_.get(index);
+        } else {
+          return pFIOIMHPIBMBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public Builder setPFIOIMHPIBM(
+          int index, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ value) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePFIOIMHPIBMIsMutable();
+          pFIOIMHPIBM_.set(index, value);
+          onChanged();
+        } else {
+          pFIOIMHPIBMBuilder_.setMessage(index, value);
+        }
         return this;
       }
       /**
-       * <code>uint32 level_id = 11;</code>
-       * @return This builder for chaining.
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
        */
-      public Builder clearLevelId() {
-        
-        levelId_ = 0;
-        onChanged();
+      public Builder setPFIOIMHPIBM(
+          int index, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder builderForValue) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          ensurePFIOIMHPIBMIsMutable();
+          pFIOIMHPIBM_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          pFIOIMHPIBMBuilder_.setMessage(index, builderForValue.build());
+        }
         return this;
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public Builder addPFIOIMHPIBM(emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ value) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePFIOIMHPIBMIsMutable();
+          pFIOIMHPIBM_.add(value);
+          onChanged();
+        } else {
+          pFIOIMHPIBMBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public Builder addPFIOIMHPIBM(
+          int index, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ value) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensurePFIOIMHPIBMIsMutable();
+          pFIOIMHPIBM_.add(index, value);
+          onChanged();
+        } else {
+          pFIOIMHPIBMBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public Builder addPFIOIMHPIBM(
+          emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder builderForValue) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          ensurePFIOIMHPIBMIsMutable();
+          pFIOIMHPIBM_.add(builderForValue.build());
+          onChanged();
+        } else {
+          pFIOIMHPIBMBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public Builder addPFIOIMHPIBM(
+          int index, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder builderForValue) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          ensurePFIOIMHPIBMIsMutable();
+          pFIOIMHPIBM_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          pFIOIMHPIBMBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public Builder addAllPFIOIMHPIBM(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ> values) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          ensurePFIOIMHPIBMIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, pFIOIMHPIBM_);
+          onChanged();
+        } else {
+          pFIOIMHPIBMBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public Builder clearPFIOIMHPIBM() {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          pFIOIMHPIBM_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          pFIOIMHPIBMBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public Builder removePFIOIMHPIBM(int index) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          ensurePFIOIMHPIBMIsMutable();
+          pFIOIMHPIBM_.remove(index);
+          onChanged();
+        } else {
+          pFIOIMHPIBMBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder getPFIOIMHPIBMBuilder(
+          int index) {
+        return getPFIOIMHPIBMFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJOrBuilder getPFIOIMHPIBMOrBuilder(
+          int index) {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          return pFIOIMHPIBM_.get(index);  } else {
+          return pFIOIMHPIBMBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJOrBuilder> 
+           getPFIOIMHPIBMOrBuilderList() {
+        if (pFIOIMHPIBMBuilder_ != null) {
+          return pFIOIMHPIBMBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(pFIOIMHPIBM_);
+        }
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder addPFIOIMHPIBMBuilder() {
+        return getPFIOIMHPIBMFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder addPFIOIMHPIBMBuilder(
+          int index) {
+        return getPFIOIMHPIBMFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .OBEFPBOGCJJ PFIOIMHPIBM = 11;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder> 
+           getPFIOIMHPIBMBuilderList() {
+        return getPFIOIMHPIBMFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJOrBuilder> 
+          getPFIOIMHPIBMFieldBuilder() {
+        if (pFIOIMHPIBMBuilder_ == null) {
+          pFIOIMHPIBMBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJ.Builder, emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.OBEFPBOGCJJOrBuilder>(
+                  pFIOIMHPIBM_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          pFIOIMHPIBM_ = null;
+        }
+        return pFIOIMHPIBMBuilder_;
       }
 
       private int score_ ;
       /**
-       * <code>uint32 score = 7;</code>
+       * <code>uint32 score = 3;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -579,7 +923,7 @@ public final class AutoTimeStopLevelInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 7;</code>
+       * <code>uint32 score = 3;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -590,7 +934,7 @@ public final class AutoTimeStopLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 7;</code>
+       * <code>uint32 score = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -600,9 +944,40 @@ public final class AutoTimeStopLevelInfoOuterClass {
         return this;
       }
 
+      private int levelId_ ;
+      /**
+       * <code>uint32 level_id = 1;</code>
+       * @return The levelId.
+       */
+      @java.lang.Override
+      public int getLevelId() {
+        return levelId_;
+      }
+      /**
+       * <code>uint32 level_id = 1;</code>
+       * @param value The levelId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLevelId(int value) {
+        
+        levelId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 level_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLevelId() {
+        
+        levelId_ = 0;
+        onChanged();
+        return this;
+      }
+
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 6;</code>
+       * <code>bool is_finish = 9;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -610,7 +985,7 @@ public final class AutoTimeStopLevelInfoOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 6;</code>
+       * <code>bool is_finish = 9;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -621,7 +996,7 @@ public final class AutoTimeStopLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 6;</code>
+       * <code>bool is_finish = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -633,7 +1008,7 @@ public final class AutoTimeStopLevelInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 9;</code>
+       * <code>bool is_open = 10;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -641,7 +1016,7 @@ public final class AutoTimeStopLevelInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 9;</code>
+       * <code>bool is_open = 10;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -652,7 +1027,7 @@ public final class AutoTimeStopLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 9;</code>
+       * <code>bool is_open = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -728,21 +1103,25 @@ public final class AutoTimeStopLevelInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033AutoTimeStopLevelInfo.proto\"\\\n\025AutoTim" +
-      "eStopLevelInfo\022\020\n\010level_id\030\013 \001(\r\022\r\n\005scor" +
-      "e\030\007 \001(\r\022\021\n\tis_finish\030\006 \001(\010\022\017\n\007is_open\030\t " +
-      "\001(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\033AutoTimeStopLevelInfo.proto\032\021OBEFPBOGC" +
+      "JJ.proto\"\177\n\025AutoTimeStopLevelInfo\022!\n\013PFI" +
+      "OIMHPIBM\030\013 \003(\0132\014.OBEFPBOGCJJ\022\r\n\005score\030\003 " +
+      "\001(\r\022\020\n\010level_id\030\001 \001(\r\022\021\n\tis_finish\030\t \001(\010" +
+      "\022\017\n\007is_open\030\n \001(\010B\033\n\031emu.grasscutter.net" +
+      ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.getDescriptor(),
         });
     internal_static_AutoTimeStopLevelInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_AutoTimeStopLevelInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AutoTimeStopLevelInfo_descriptor,
-        new java.lang.String[] { "LevelId", "Score", "IsFinish", "IsOpen", });
+        new java.lang.String[] { "PFIOIMHPIBM", "Score", "LevelId", "IsFinish", "IsOpen", });
+    emu.grasscutter.net.proto.OBEFPBOGCJJOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

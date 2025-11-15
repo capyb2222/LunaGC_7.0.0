@@ -19,19 +19,19 @@ public final class RogueAvatarInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_onstage = 7;</code>
+     * <code>bool is_onstage = 14;</code>
      * @return The isOnstage.
      */
     boolean getIsOnstage();
 
     /**
-     * <code>bool is_alive = 8;</code>
+     * <code>bool is_alive = 12;</code>
      * @return The isAlive.
      */
     boolean getIsAlive();
 
     /**
-     * <code>uint32 avatar_id = 6;</code>
+     * <code>uint32 avatar_id = 7;</code>
      * @return The avatarId.
      */
     int getAvatarId();
@@ -81,19 +81,19 @@ public final class RogueAvatarInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 56: {
 
               avatarId_ = input.readUInt32();
               break;
             }
-            case 56: {
-
-              isOnstage_ = input.readBool();
-              break;
-            }
-            case 64: {
+            case 96: {
 
               isAlive_ = input.readBool();
+              break;
+            }
+            case 112: {
+
+              isOnstage_ = input.readBool();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class RogueAvatarInfoOuterClass {
               emu.grasscutter.net.proto.RogueAvatarInfoOuterClass.RogueAvatarInfo.class, emu.grasscutter.net.proto.RogueAvatarInfoOuterClass.RogueAvatarInfo.Builder.class);
     }
 
-    public static final int IS_ONSTAGE_FIELD_NUMBER = 7;
+    public static final int IS_ONSTAGE_FIELD_NUMBER = 14;
     private boolean isOnstage_;
     /**
-     * <code>bool is_onstage = 7;</code>
+     * <code>bool is_onstage = 14;</code>
      * @return The isOnstage.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class RogueAvatarInfoOuterClass {
       return isOnstage_;
     }
 
-    public static final int IS_ALIVE_FIELD_NUMBER = 8;
+    public static final int IS_ALIVE_FIELD_NUMBER = 12;
     private boolean isAlive_;
     /**
-     * <code>bool is_alive = 8;</code>
+     * <code>bool is_alive = 12;</code>
      * @return The isAlive.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class RogueAvatarInfoOuterClass {
       return isAlive_;
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 6;
+    public static final int AVATAR_ID_FIELD_NUMBER = 7;
     private int avatarId_;
     /**
-     * <code>uint32 avatar_id = 6;</code>
+     * <code>uint32 avatar_id = 7;</code>
      * @return The avatarId.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class RogueAvatarInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarId_ != 0) {
-        output.writeUInt32(6, avatarId_);
-      }
-      if (isOnstage_ != false) {
-        output.writeBool(7, isOnstage_);
+        output.writeUInt32(7, avatarId_);
       }
       if (isAlive_ != false) {
-        output.writeBool(8, isAlive_);
+        output.writeBool(12, isAlive_);
+      }
+      if (isOnstage_ != false) {
+        output.writeBool(14, isOnstage_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +195,15 @@ public final class RogueAvatarInfoOuterClass {
       size = 0;
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, avatarId_);
-      }
-      if (isOnstage_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isOnstage_);
+          .computeUInt32Size(7, avatarId_);
       }
       if (isAlive_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isAlive_);
+          .computeBoolSize(12, isAlive_);
+      }
+      if (isOnstage_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, isOnstage_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -501,7 +501,7 @@ public final class RogueAvatarInfoOuterClass {
 
       private boolean isOnstage_ ;
       /**
-       * <code>bool is_onstage = 7;</code>
+       * <code>bool is_onstage = 14;</code>
        * @return The isOnstage.
        */
       @java.lang.Override
@@ -509,7 +509,7 @@ public final class RogueAvatarInfoOuterClass {
         return isOnstage_;
       }
       /**
-       * <code>bool is_onstage = 7;</code>
+       * <code>bool is_onstage = 14;</code>
        * @param value The isOnstage to set.
        * @return This builder for chaining.
        */
@@ -520,7 +520,7 @@ public final class RogueAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_onstage = 7;</code>
+       * <code>bool is_onstage = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOnstage() {
@@ -532,7 +532,7 @@ public final class RogueAvatarInfoOuterClass {
 
       private boolean isAlive_ ;
       /**
-       * <code>bool is_alive = 8;</code>
+       * <code>bool is_alive = 12;</code>
        * @return The isAlive.
        */
       @java.lang.Override
@@ -540,7 +540,7 @@ public final class RogueAvatarInfoOuterClass {
         return isAlive_;
       }
       /**
-       * <code>bool is_alive = 8;</code>
+       * <code>bool is_alive = 12;</code>
        * @param value The isAlive to set.
        * @return This builder for chaining.
        */
@@ -551,7 +551,7 @@ public final class RogueAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_alive = 8;</code>
+       * <code>bool is_alive = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsAlive() {
@@ -563,7 +563,7 @@ public final class RogueAvatarInfoOuterClass {
 
       private int avatarId_ ;
       /**
-       * <code>uint32 avatar_id = 6;</code>
+       * <code>uint32 avatar_id = 7;</code>
        * @return The avatarId.
        */
       @java.lang.Override
@@ -571,7 +571,7 @@ public final class RogueAvatarInfoOuterClass {
         return avatarId_;
       }
       /**
-       * <code>uint32 avatar_id = 6;</code>
+       * <code>uint32 avatar_id = 7;</code>
        * @param value The avatarId to set.
        * @return This builder for chaining.
        */
@@ -582,7 +582,7 @@ public final class RogueAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 avatar_id = 6;</code>
+       * <code>uint32 avatar_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
@@ -659,8 +659,8 @@ public final class RogueAvatarInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025RogueAvatarInfo.proto\"J\n\017RogueAvatarIn" +
-      "fo\022\022\n\nis_onstage\030\007 \001(\010\022\020\n\010is_alive\030\010 \001(\010" +
-      "\022\021\n\tavatar_id\030\006 \001(\rB\033\n\031emu.grasscutter.n" +
+      "fo\022\022\n\nis_onstage\030\016 \001(\010\022\020\n\010is_alive\030\014 \001(\010" +
+      "\022\021\n\tavatar_id\030\007 \001(\rB\033\n\031emu.grasscutter.n" +
       "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

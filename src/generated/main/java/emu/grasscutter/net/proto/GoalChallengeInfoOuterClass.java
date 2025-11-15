@@ -19,34 +19,34 @@ public final class GoalChallengeInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> 
         getStageInfoListList();
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo getStageInfoList(int index);
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder getStageInfoListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 AJLAFDNELNH = 3;</code>
-     * @return The aJLAFDNELNH.
+     * <code>uint32 MEJMFDDFNAH = 15;</code>
+     * @return The mEJMFDDFNAH.
      */
-    int getAJLAFDNELNH();
+    int getMEJMFDDFNAH();
   }
   /**
    * Protobuf type {@code GoalChallengeInfo}
@@ -95,18 +95,18 @@ public final class GoalChallengeInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              aJLAFDNELNH_ = input.readUInt32();
-              break;
-            }
-            case 122: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               stageInfoList_.add(
                   input.readMessage(emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 120: {
+
+              mEJMFDDFNAH_ = input.readUInt32();
               break;
             }
             default: {
@@ -144,17 +144,17 @@ public final class GoalChallengeInfoOuterClass {
               emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo.class, emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> stageInfoList_;
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder> 
@@ -162,21 +162,21 @@ public final class GoalChallengeInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder getStageInfoListOrBuilder(
@@ -184,15 +184,15 @@ public final class GoalChallengeInfoOuterClass {
       return stageInfoList_.get(index);
     }
 
-    public static final int AJLAFDNELNH_FIELD_NUMBER = 3;
-    private int aJLAFDNELNH_;
+    public static final int MEJMFDDFNAH_FIELD_NUMBER = 15;
+    private int mEJMFDDFNAH_;
     /**
-     * <code>uint32 AJLAFDNELNH = 3;</code>
-     * @return The aJLAFDNELNH.
+     * <code>uint32 MEJMFDDFNAH = 15;</code>
+     * @return The mEJMFDDFNAH.
      */
     @java.lang.Override
-    public int getAJLAFDNELNH() {
-      return aJLAFDNELNH_;
+    public int getMEJMFDDFNAH() {
+      return mEJMFDDFNAH_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -209,11 +209,11 @@ public final class GoalChallengeInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (aJLAFDNELNH_ != 0) {
-        output.writeUInt32(3, aJLAFDNELNH_);
-      }
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(15, stageInfoList_.get(i));
+        output.writeMessage(6, stageInfoList_.get(i));
+      }
+      if (mEJMFDDFNAH_ != 0) {
+        output.writeUInt32(15, mEJMFDDFNAH_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,13 +224,13 @@ public final class GoalChallengeInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (aJLAFDNELNH_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, aJLAFDNELNH_);
-      }
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, stageInfoList_.get(i));
+          .computeMessageSize(6, stageInfoList_.get(i));
+      }
+      if (mEJMFDDFNAH_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, mEJMFDDFNAH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -249,8 +249,8 @@ public final class GoalChallengeInfoOuterClass {
 
       if (!getStageInfoListList()
           .equals(other.getStageInfoListList())) return false;
-      if (getAJLAFDNELNH()
-          != other.getAJLAFDNELNH()) return false;
+      if (getMEJMFDDFNAH()
+          != other.getMEJMFDDFNAH()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -266,8 +266,8 @@ public final class GoalChallengeInfoOuterClass {
         hash = (37 * hash) + STAGE_INFO_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getStageInfoListList().hashCode();
       }
-      hash = (37 * hash) + AJLAFDNELNH_FIELD_NUMBER;
-      hash = (53 * hash) + getAJLAFDNELNH();
+      hash = (37 * hash) + MEJMFDDFNAH_FIELD_NUMBER;
+      hash = (53 * hash) + getMEJMFDDFNAH();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -408,7 +408,7 @@ public final class GoalChallengeInfoOuterClass {
         } else {
           stageInfoListBuilder_.clear();
         }
-        aJLAFDNELNH_ = 0;
+        mEJMFDDFNAH_ = 0;
 
         return this;
       }
@@ -446,7 +446,7 @@ public final class GoalChallengeInfoOuterClass {
         } else {
           result.stageInfoList_ = stageInfoListBuilder_.build();
         }
-        result.aJLAFDNELNH_ = aJLAFDNELNH_;
+        result.mEJMFDDFNAH_ = mEJMFDDFNAH_;
         onBuilt();
         return result;
       }
@@ -521,8 +521,8 @@ public final class GoalChallengeInfoOuterClass {
             }
           }
         }
-        if (other.getAJLAFDNELNH() != 0) {
-          setAJLAFDNELNH(other.getAJLAFDNELNH());
+        if (other.getMEJMFDDFNAH() != 0) {
+          setMEJMFDDFNAH(other.getMEJMFDDFNAH());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -567,7 +567,7 @@ public final class GoalChallengeInfoOuterClass {
           emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -577,7 +577,7 @@ public final class GoalChallengeInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -587,7 +587,7 @@ public final class GoalChallengeInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -597,7 +597,7 @@ public final class GoalChallengeInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo value) {
@@ -614,7 +614,7 @@ public final class GoalChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder builderForValue) {
@@ -628,7 +628,7 @@ public final class GoalChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo value) {
         if (stageInfoListBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class GoalChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo value) {
@@ -661,7 +661,7 @@ public final class GoalChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder builderForValue) {
@@ -675,7 +675,7 @@ public final class GoalChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder builderForValue) {
@@ -689,7 +689,7 @@ public final class GoalChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> values) {
@@ -704,7 +704,7 @@ public final class GoalChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -717,7 +717,7 @@ public final class GoalChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -730,14 +730,14 @@ public final class GoalChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -747,7 +747,7 @@ public final class GoalChallengeInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -758,14 +758,14 @@ public final class GoalChallengeInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder addStageInfoListBuilder(
           int index) {
@@ -773,7 +773,7 @@ public final class GoalChallengeInfoOuterClass {
             index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 15;</code>
+       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder> 
            getStageInfoListBuilderList() {
@@ -794,33 +794,33 @@ public final class GoalChallengeInfoOuterClass {
         return stageInfoListBuilder_;
       }
 
-      private int aJLAFDNELNH_ ;
+      private int mEJMFDDFNAH_ ;
       /**
-       * <code>uint32 AJLAFDNELNH = 3;</code>
-       * @return The aJLAFDNELNH.
+       * <code>uint32 MEJMFDDFNAH = 15;</code>
+       * @return The mEJMFDDFNAH.
        */
       @java.lang.Override
-      public int getAJLAFDNELNH() {
-        return aJLAFDNELNH_;
+      public int getMEJMFDDFNAH() {
+        return mEJMFDDFNAH_;
       }
       /**
-       * <code>uint32 AJLAFDNELNH = 3;</code>
-       * @param value The aJLAFDNELNH to set.
+       * <code>uint32 MEJMFDDFNAH = 15;</code>
+       * @param value The mEJMFDDFNAH to set.
        * @return This builder for chaining.
        */
-      public Builder setAJLAFDNELNH(int value) {
+      public Builder setMEJMFDDFNAH(int value) {
         
-        aJLAFDNELNH_ = value;
+        mEJMFDDFNAH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 AJLAFDNELNH = 3;</code>
+       * <code>uint32 MEJMFDDFNAH = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAJLAFDNELNH() {
+      public Builder clearMEJMFDDFNAH() {
         
-        aJLAFDNELNH_ = 0;
+        mEJMFDDFNAH_ = 0;
         onChanged();
         return this;
       }
@@ -893,8 +893,8 @@ public final class GoalChallengeInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027GoalChallengeInfo.proto\032\034GoalChallenge" +
       "StageInfo.proto\"Z\n\021GoalChallengeInfo\0220\n\017" +
-      "stage_info_list\030\017 \003(\0132\027.GoalChallengeSta" +
-      "geInfo\022\023\n\013AJLAFDNELNH\030\003 \001(\rB\033\n\031emu.grass" +
+      "stage_info_list\030\006 \003(\0132\027.GoalChallengeSta" +
+      "geInfo\022\023\n\013MEJMFDDFNAH\030\017 \001(\rB\033\n\031emu.grass" +
       "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -907,7 +907,7 @@ public final class GoalChallengeInfoOuterClass {
     internal_static_GoalChallengeInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GoalChallengeInfo_descriptor,
-        new java.lang.String[] { "StageInfoList", "AJLAFDNELNH", });
+        new java.lang.String[] { "StageInfoList", "MEJMFDDFNAH", });
     emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.getDescriptor();
   }
 

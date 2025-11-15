@@ -19,19 +19,43 @@ public final class FontainGatherStageInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 stage_id = 14;</code>
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN> 
+        getAOHBCJDOOOOList();
+    /**
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN getAOHBCJDOOOO(int index);
+    /**
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    int getAOHBCJDOOOOCount();
+    /**
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBINOrBuilder> 
+        getAOHBCJDOOOOOrBuilderList();
+    /**
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBINOrBuilder getAOHBCJDOOOOOrBuilder(
+        int index);
+
+    /**
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>bool is_open = 3;</code>
+     * <code>bool is_open = 2;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>bool is_finished = 11;</code>
+     * <code>bool is_finished = 12;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
@@ -49,6 +73,7 @@ public final class FontainGatherStageInfoOuterClass {
       super(builder);
     }
     private FontainGatherStageInfo() {
+      aOHBCJDOOOO_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -71,6 +96,7 @@ public final class FontainGatherStageInfoOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -81,19 +107,28 @@ public final class FontainGatherStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 16: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 88: {
-
-              isFinished_ = input.readBool();
+            case 42: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                aOHBCJDOOOO_ = new java.util.ArrayList<emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              aOHBCJDOOOO_.add(
+                  input.readMessage(emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.parser(), extensionRegistry));
               break;
             }
-            case 112: {
+            case 48: {
 
               stageId_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+
+              isFinished_ = input.readBool();
               break;
             }
             default: {
@@ -111,6 +146,9 @@ public final class FontainGatherStageInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          aOHBCJDOOOO_ = java.util.Collections.unmodifiableList(aOHBCJDOOOO_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -128,10 +166,50 @@ public final class FontainGatherStageInfoOuterClass {
               emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.class, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder.class);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 14;
+    public static final int AOHBCJDOOOO_FIELD_NUMBER = 5;
+    private java.util.List<emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN> aOHBCJDOOOO_;
+    /**
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN> getAOHBCJDOOOOList() {
+      return aOHBCJDOOOO_;
+    }
+    /**
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBINOrBuilder> 
+        getAOHBCJDOOOOOrBuilderList() {
+      return aOHBCJDOOOO_;
+    }
+    /**
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    @java.lang.Override
+    public int getAOHBCJDOOOOCount() {
+      return aOHBCJDOOOO_.size();
+    }
+    /**
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN getAOHBCJDOOOO(int index) {
+      return aOHBCJDOOOO_.get(index);
+    }
+    /**
+     * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBINOrBuilder getAOHBCJDOOOOOrBuilder(
+        int index) {
+      return aOHBCJDOOOO_.get(index);
+    }
+
+    public static final int STAGE_ID_FIELD_NUMBER = 6;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 14;</code>
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -139,10 +217,10 @@ public final class FontainGatherStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 3;
+    public static final int IS_OPEN_FIELD_NUMBER = 2;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 3;</code>
+     * <code>bool is_open = 2;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -150,10 +228,10 @@ public final class FontainGatherStageInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 11;
+    public static final int IS_FINISHED_FIELD_NUMBER = 12;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 11;</code>
+     * <code>bool is_finished = 12;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -176,13 +254,16 @@ public final class FontainGatherStageInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isOpen_ != false) {
-        output.writeBool(3, isOpen_);
+        output.writeBool(2, isOpen_);
       }
-      if (isFinished_ != false) {
-        output.writeBool(11, isFinished_);
+      for (int i = 0; i < aOHBCJDOOOO_.size(); i++) {
+        output.writeMessage(5, aOHBCJDOOOO_.get(i));
       }
       if (stageId_ != 0) {
-        output.writeUInt32(14, stageId_);
+        output.writeUInt32(6, stageId_);
+      }
+      if (isFinished_ != false) {
+        output.writeBool(12, isFinished_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +276,19 @@ public final class FontainGatherStageInfoOuterClass {
       size = 0;
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isOpen_);
+          .computeBoolSize(2, isOpen_);
       }
-      if (isFinished_ != false) {
+      for (int i = 0; i < aOHBCJDOOOO_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isFinished_);
+          .computeMessageSize(5, aOHBCJDOOOO_.get(i));
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, stageId_);
+          .computeUInt32Size(6, stageId_);
+      }
+      if (isFinished_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(12, isFinished_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -220,6 +305,8 @@ public final class FontainGatherStageInfoOuterClass {
       }
       emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo other = (emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo) obj;
 
+      if (!getAOHBCJDOOOOList()
+          .equals(other.getAOHBCJDOOOOList())) return false;
       if (getStageId()
           != other.getStageId()) return false;
       if (getIsOpen()
@@ -237,6 +324,10 @@ public final class FontainGatherStageInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (getAOHBCJDOOOOCount() > 0) {
+        hash = (37 * hash) + AOHBCJDOOOO_FIELD_NUMBER;
+        hash = (53 * hash) + getAOHBCJDOOOOList().hashCode();
+      }
       hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getStageId();
       hash = (37 * hash) + IS_OPEN_FIELD_NUMBER;
@@ -373,11 +464,18 @@ public final class FontainGatherStageInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getAOHBCJDOOOOFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (aOHBCJDOOOOBuilder_ == null) {
+          aOHBCJDOOOO_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          aOHBCJDOOOOBuilder_.clear();
+        }
         stageId_ = 0;
 
         isOpen_ = false;
@@ -410,6 +508,16 @@ public final class FontainGatherStageInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo buildPartial() {
         emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo result = new emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo(this);
+        int from_bitField0_ = bitField0_;
+        if (aOHBCJDOOOOBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) != 0)) {
+            aOHBCJDOOOO_ = java.util.Collections.unmodifiableList(aOHBCJDOOOO_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.aOHBCJDOOOO_ = aOHBCJDOOOO_;
+        } else {
+          result.aOHBCJDOOOO_ = aOHBCJDOOOOBuilder_.build();
+        }
         result.stageId_ = stageId_;
         result.isOpen_ = isOpen_;
         result.isFinished_ = isFinished_;
@@ -461,6 +569,32 @@ public final class FontainGatherStageInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo other) {
         if (other == emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.getDefaultInstance()) return this;
+        if (aOHBCJDOOOOBuilder_ == null) {
+          if (!other.aOHBCJDOOOO_.isEmpty()) {
+            if (aOHBCJDOOOO_.isEmpty()) {
+              aOHBCJDOOOO_ = other.aOHBCJDOOOO_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureAOHBCJDOOOOIsMutable();
+              aOHBCJDOOOO_.addAll(other.aOHBCJDOOOO_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.aOHBCJDOOOO_.isEmpty()) {
+            if (aOHBCJDOOOOBuilder_.isEmpty()) {
+              aOHBCJDOOOOBuilder_.dispose();
+              aOHBCJDOOOOBuilder_ = null;
+              aOHBCJDOOOO_ = other.aOHBCJDOOOO_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              aOHBCJDOOOOBuilder_ = 
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
+                   getAOHBCJDOOOOFieldBuilder() : null;
+            } else {
+              aOHBCJDOOOOBuilder_.addAllMessages(other.aOHBCJDOOOO_);
+            }
+          }
+        }
         if (other.getStageId() != 0) {
           setStageId(other.getStageId());
         }
@@ -498,10 +632,251 @@ public final class FontainGatherStageInfoOuterClass {
         }
         return this;
       }
+      private int bitField0_;
+
+      private java.util.List<emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN> aOHBCJDOOOO_ =
+        java.util.Collections.emptyList();
+      private void ensureAOHBCJDOOOOIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          aOHBCJDOOOO_ = new java.util.ArrayList<emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN>(aOHBCJDOOOO_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBINOrBuilder> aOHBCJDOOOOBuilder_;
+
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN> getAOHBCJDOOOOList() {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(aOHBCJDOOOO_);
+        } else {
+          return aOHBCJDOOOOBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public int getAOHBCJDOOOOCount() {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          return aOHBCJDOOOO_.size();
+        } else {
+          return aOHBCJDOOOOBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN getAOHBCJDOOOO(int index) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          return aOHBCJDOOOO_.get(index);
+        } else {
+          return aOHBCJDOOOOBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public Builder setAOHBCJDOOOO(
+          int index, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN value) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAOHBCJDOOOOIsMutable();
+          aOHBCJDOOOO_.set(index, value);
+          onChanged();
+        } else {
+          aOHBCJDOOOOBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public Builder setAOHBCJDOOOO(
+          int index, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder builderForValue) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          ensureAOHBCJDOOOOIsMutable();
+          aOHBCJDOOOO_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          aOHBCJDOOOOBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public Builder addAOHBCJDOOOO(emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN value) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAOHBCJDOOOOIsMutable();
+          aOHBCJDOOOO_.add(value);
+          onChanged();
+        } else {
+          aOHBCJDOOOOBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public Builder addAOHBCJDOOOO(
+          int index, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN value) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAOHBCJDOOOOIsMutable();
+          aOHBCJDOOOO_.add(index, value);
+          onChanged();
+        } else {
+          aOHBCJDOOOOBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public Builder addAOHBCJDOOOO(
+          emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder builderForValue) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          ensureAOHBCJDOOOOIsMutable();
+          aOHBCJDOOOO_.add(builderForValue.build());
+          onChanged();
+        } else {
+          aOHBCJDOOOOBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public Builder addAOHBCJDOOOO(
+          int index, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder builderForValue) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          ensureAOHBCJDOOOOIsMutable();
+          aOHBCJDOOOO_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          aOHBCJDOOOOBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public Builder addAllAOHBCJDOOOO(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN> values) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          ensureAOHBCJDOOOOIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, aOHBCJDOOOO_);
+          onChanged();
+        } else {
+          aOHBCJDOOOOBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public Builder clearAOHBCJDOOOO() {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          aOHBCJDOOOO_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          aOHBCJDOOOOBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public Builder removeAOHBCJDOOOO(int index) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          ensureAOHBCJDOOOOIsMutable();
+          aOHBCJDOOOO_.remove(index);
+          onChanged();
+        } else {
+          aOHBCJDOOOOBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder getAOHBCJDOOOOBuilder(
+          int index) {
+        return getAOHBCJDOOOOFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBINOrBuilder getAOHBCJDOOOOOrBuilder(
+          int index) {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          return aOHBCJDOOOO_.get(index);  } else {
+          return aOHBCJDOOOOBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBINOrBuilder> 
+           getAOHBCJDOOOOOrBuilderList() {
+        if (aOHBCJDOOOOBuilder_ != null) {
+          return aOHBCJDOOOOBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(aOHBCJDOOOO_);
+        }
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder addAOHBCJDOOOOBuilder() {
+        return getAOHBCJDOOOOFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder addAOHBCJDOOOOBuilder(
+          int index) {
+        return getAOHBCJDOOOOFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .MEGLMHIKBIN AOHBCJDOOOO = 5;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder> 
+           getAOHBCJDOOOOBuilderList() {
+        return getAOHBCJDOOOOFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBINOrBuilder> 
+          getAOHBCJDOOOOFieldBuilder() {
+        if (aOHBCJDOOOOBuilder_ == null) {
+          aOHBCJDOOOOBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBIN.Builder, emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.MEGLMHIKBINOrBuilder>(
+                  aOHBCJDOOOO_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          aOHBCJDOOOO_ = null;
+        }
+        return aOHBCJDOOOOBuilder_;
+      }
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 14;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -509,7 +884,7 @@ public final class FontainGatherStageInfoOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 14;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -520,7 +895,7 @@ public final class FontainGatherStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 14;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -532,7 +907,7 @@ public final class FontainGatherStageInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 3;</code>
+       * <code>bool is_open = 2;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -540,7 +915,7 @@ public final class FontainGatherStageInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 3;</code>
+       * <code>bool is_open = 2;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -551,7 +926,7 @@ public final class FontainGatherStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 3;</code>
+       * <code>bool is_open = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -563,7 +938,7 @@ public final class FontainGatherStageInfoOuterClass {
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 11;</code>
+       * <code>bool is_finished = 12;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -571,7 +946,7 @@ public final class FontainGatherStageInfoOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 11;</code>
+       * <code>bool is_finished = 12;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -582,7 +957,7 @@ public final class FontainGatherStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 11;</code>
+       * <code>bool is_finished = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -658,21 +1033,25 @@ public final class FontainGatherStageInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034FontainGatherStageInfo.proto\"P\n\026Fontai" +
-      "nGatherStageInfo\022\020\n\010stage_id\030\016 \001(\r\022\017\n\007is" +
-      "_open\030\003 \001(\010\022\023\n\013is_finished\030\013 \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\n\034FontainGatherStageInfo.proto\032\021MEGLMHIK" +
+      "BIN.proto\"s\n\026FontainGatherStageInfo\022!\n\013A" +
+      "OHBCJDOOOO\030\005 \003(\0132\014.MEGLMHIKBIN\022\020\n\010stage_" +
+      "id\030\006 \001(\r\022\017\n\007is_open\030\002 \001(\010\022\023\n\013is_finished" +
+      "\030\014 \001(\010B\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.getDescriptor(),
         });
     internal_static_FontainGatherStageInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_FontainGatherStageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FontainGatherStageInfo_descriptor,
-        new java.lang.String[] { "StageId", "IsOpen", "IsFinished", });
+        new java.lang.String[] { "AOHBCJDOOOO", "StageId", "IsOpen", "IsFinished", });
+    emu.grasscutter.net.proto.MEGLMHIKBINOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

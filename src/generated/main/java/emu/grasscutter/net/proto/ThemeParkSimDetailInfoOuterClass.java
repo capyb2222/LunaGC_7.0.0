@@ -17,6 +17,70 @@ public final class ThemeParkSimDetailInfoOuterClass {
   public interface ThemeParkSimDetailInfoOrBuilder extends
       // @@protoc_insertion_point(interface_extends:ThemeParkSimDetailInfo)
       com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+     * @return Whether the dDKOMDBJEMH field is set.
+     */
+    boolean hasDDKOMDBJEMH();
+    /**
+     * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+     * @return The dDKOMDBJEMH.
+     */
+    emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL getDDKOMDBJEMH();
+    /**
+     * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+     */
+    emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEILOrBuilder getDDKOMDBJEMHOrBuilder();
+
+    /**
+     * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+     * @return Whether the nBNCLEMFOHF field is set.
+     */
+    boolean hasNBNCLEMFOHF();
+    /**
+     * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+     * @return The nBNCLEMFOHF.
+     */
+    emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL getNBNCLEMFOHF();
+    /**
+     * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+     */
+    emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFILOrBuilder getNBNCLEMFOHFOrBuilder();
+
+    /**
+     * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+     * @return A list containing the eFBAPDMNPHL.
+     */
+    java.util.List<java.lang.Integer> getEFBAPDMNPHLList();
+    /**
+     * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+     * @return The count of eFBAPDMNPHL.
+     */
+    int getEFBAPDMNPHLCount();
+    /**
+     * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+     * @param index The index of the element to return.
+     * @return The eFBAPDMNPHL at the given index.
+     */
+    int getEFBAPDMNPHL(int index);
+
+    /**
+     * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+     * @return A list containing the fBIMBJHAOHC.
+     */
+    java.util.List<java.lang.Integer> getFBIMBJHAOHCList();
+    /**
+     * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+     * @return The count of fBIMBJHAOHC.
+     */
+    int getFBIMBJHAOHCCount();
+    /**
+     * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+     * @param index The index of the element to return.
+     * @return The fBIMBJHAOHC at the given index.
+     */
+    int getFBIMBJHAOHC(int index);
   }
   /**
    * Protobuf type {@code ThemeParkSimDetailInfo}
@@ -31,6 +95,8 @@ public final class ThemeParkSimDetailInfoOuterClass {
       super(builder);
     }
     private ThemeParkSimDetailInfo() {
+      eFBAPDMNPHL_ = emptyIntList();
+      fBIMBJHAOHC_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -53,6 +119,7 @@ public final class ThemeParkSimDetailInfoOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -63,6 +130,74 @@ public final class ThemeParkSimDetailInfoOuterClass {
             case 0:
               done = true;
               break;
+            case 8: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                fBIMBJHAOHC_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              fBIMBJHAOHC_.addInt(input.readUInt32());
+              break;
+            }
+            case 10: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                fBIMBJHAOHC_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                fBIMBJHAOHC_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 50: {
+              emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.Builder subBuilder = null;
+              if (dDKOMDBJEMH_ != null) {
+                subBuilder = dDKOMDBJEMH_.toBuilder();
+              }
+              dDKOMDBJEMH_ = input.readMessage(emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(dDKOMDBJEMH_);
+                dDKOMDBJEMH_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 64: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                eFBAPDMNPHL_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              eFBAPDMNPHL_.addInt(input.readUInt32());
+              break;
+            }
+            case 66: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                eFBAPDMNPHL_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                eFBAPDMNPHL_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 82: {
+              emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.Builder subBuilder = null;
+              if (nBNCLEMFOHF_ != null) {
+                subBuilder = nBNCLEMFOHF_.toBuilder();
+              }
+              nBNCLEMFOHF_ = input.readMessage(emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(nBNCLEMFOHF_);
+                nBNCLEMFOHF_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -78,6 +213,12 @@ public final class ThemeParkSimDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          fBIMBJHAOHC_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          eFBAPDMNPHL_.makeImmutable(); // C
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -95,6 +236,114 @@ public final class ThemeParkSimDetailInfoOuterClass {
               emu.grasscutter.net.proto.ThemeParkSimDetailInfoOuterClass.ThemeParkSimDetailInfo.class, emu.grasscutter.net.proto.ThemeParkSimDetailInfoOuterClass.ThemeParkSimDetailInfo.Builder.class);
     }
 
+    public static final int DDKOMDBJEMH_FIELD_NUMBER = 6;
+    private emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL dDKOMDBJEMH_;
+    /**
+     * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+     * @return Whether the dDKOMDBJEMH field is set.
+     */
+    @java.lang.Override
+    public boolean hasDDKOMDBJEMH() {
+      return dDKOMDBJEMH_ != null;
+    }
+    /**
+     * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+     * @return The dDKOMDBJEMH.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL getDDKOMDBJEMH() {
+      return dDKOMDBJEMH_ == null ? emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.getDefaultInstance() : dDKOMDBJEMH_;
+    }
+    /**
+     * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEILOrBuilder getDDKOMDBJEMHOrBuilder() {
+      return getDDKOMDBJEMH();
+    }
+
+    public static final int NBNCLEMFOHF_FIELD_NUMBER = 10;
+    private emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL nBNCLEMFOHF_;
+    /**
+     * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+     * @return Whether the nBNCLEMFOHF field is set.
+     */
+    @java.lang.Override
+    public boolean hasNBNCLEMFOHF() {
+      return nBNCLEMFOHF_ != null;
+    }
+    /**
+     * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+     * @return The nBNCLEMFOHF.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL getNBNCLEMFOHF() {
+      return nBNCLEMFOHF_ == null ? emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.getDefaultInstance() : nBNCLEMFOHF_;
+    }
+    /**
+     * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFILOrBuilder getNBNCLEMFOHFOrBuilder() {
+      return getNBNCLEMFOHF();
+    }
+
+    public static final int EFBAPDMNPHL_FIELD_NUMBER = 8;
+    private com.google.protobuf.Internal.IntList eFBAPDMNPHL_;
+    /**
+     * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+     * @return A list containing the eFBAPDMNPHL.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getEFBAPDMNPHLList() {
+      return eFBAPDMNPHL_;
+    }
+    /**
+     * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+     * @return The count of eFBAPDMNPHL.
+     */
+    public int getEFBAPDMNPHLCount() {
+      return eFBAPDMNPHL_.size();
+    }
+    /**
+     * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+     * @param index The index of the element to return.
+     * @return The eFBAPDMNPHL at the given index.
+     */
+    public int getEFBAPDMNPHL(int index) {
+      return eFBAPDMNPHL_.getInt(index);
+    }
+    private int eFBAPDMNPHLMemoizedSerializedSize = -1;
+
+    public static final int FBIMBJHAOHC_FIELD_NUMBER = 1;
+    private com.google.protobuf.Internal.IntList fBIMBJHAOHC_;
+    /**
+     * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+     * @return A list containing the fBIMBJHAOHC.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getFBIMBJHAOHCList() {
+      return fBIMBJHAOHC_;
+    }
+    /**
+     * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+     * @return The count of fBIMBJHAOHC.
+     */
+    public int getFBIMBJHAOHCCount() {
+      return fBIMBJHAOHC_.size();
+    }
+    /**
+     * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+     * @param index The index of the element to return.
+     * @return The fBIMBJHAOHC at the given index.
+     */
+    public int getFBIMBJHAOHC(int index) {
+      return fBIMBJHAOHC_.getInt(index);
+    }
+    private int fBIMBJHAOHCMemoizedSerializedSize = -1;
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -109,6 +358,27 @@ public final class ThemeParkSimDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      getSerializedSize();
+      if (getFBIMBJHAOHCList().size() > 0) {
+        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(fBIMBJHAOHCMemoizedSerializedSize);
+      }
+      for (int i = 0; i < fBIMBJHAOHC_.size(); i++) {
+        output.writeUInt32NoTag(fBIMBJHAOHC_.getInt(i));
+      }
+      if (dDKOMDBJEMH_ != null) {
+        output.writeMessage(6, getDDKOMDBJEMH());
+      }
+      if (getEFBAPDMNPHLList().size() > 0) {
+        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(eFBAPDMNPHLMemoizedSerializedSize);
+      }
+      for (int i = 0; i < eFBAPDMNPHL_.size(); i++) {
+        output.writeUInt32NoTag(eFBAPDMNPHL_.getInt(i));
+      }
+      if (nBNCLEMFOHF_ != null) {
+        output.writeMessage(10, getNBNCLEMFOHF());
+      }
       unknownFields.writeTo(output);
     }
 
@@ -118,6 +388,42 @@ public final class ThemeParkSimDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      {
+        int dataSize = 0;
+        for (int i = 0; i < fBIMBJHAOHC_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(fBIMBJHAOHC_.getInt(i));
+        }
+        size += dataSize;
+        if (!getFBIMBJHAOHCList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        fBIMBJHAOHCMemoizedSerializedSize = dataSize;
+      }
+      if (dDKOMDBJEMH_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getDDKOMDBJEMH());
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < eFBAPDMNPHL_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(eFBAPDMNPHL_.getInt(i));
+        }
+        size += dataSize;
+        if (!getEFBAPDMNPHLList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        eFBAPDMNPHLMemoizedSerializedSize = dataSize;
+      }
+      if (nBNCLEMFOHF_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, getNBNCLEMFOHF());
+      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -133,6 +439,20 @@ public final class ThemeParkSimDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.ThemeParkSimDetailInfoOuterClass.ThemeParkSimDetailInfo other = (emu.grasscutter.net.proto.ThemeParkSimDetailInfoOuterClass.ThemeParkSimDetailInfo) obj;
 
+      if (hasDDKOMDBJEMH() != other.hasDDKOMDBJEMH()) return false;
+      if (hasDDKOMDBJEMH()) {
+        if (!getDDKOMDBJEMH()
+            .equals(other.getDDKOMDBJEMH())) return false;
+      }
+      if (hasNBNCLEMFOHF() != other.hasNBNCLEMFOHF()) return false;
+      if (hasNBNCLEMFOHF()) {
+        if (!getNBNCLEMFOHF()
+            .equals(other.getNBNCLEMFOHF())) return false;
+      }
+      if (!getEFBAPDMNPHLList()
+          .equals(other.getEFBAPDMNPHLList())) return false;
+      if (!getFBIMBJHAOHCList()
+          .equals(other.getFBIMBJHAOHCList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -144,6 +464,22 @@ public final class ThemeParkSimDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (hasDDKOMDBJEMH()) {
+        hash = (37 * hash) + DDKOMDBJEMH_FIELD_NUMBER;
+        hash = (53 * hash) + getDDKOMDBJEMH().hashCode();
+      }
+      if (hasNBNCLEMFOHF()) {
+        hash = (37 * hash) + NBNCLEMFOHF_FIELD_NUMBER;
+        hash = (53 * hash) + getNBNCLEMFOHF().hashCode();
+      }
+      if (getEFBAPDMNPHLCount() > 0) {
+        hash = (37 * hash) + EFBAPDMNPHL_FIELD_NUMBER;
+        hash = (53 * hash) + getEFBAPDMNPHLList().hashCode();
+      }
+      if (getFBIMBJHAOHCCount() > 0) {
+        hash = (37 * hash) + FBIMBJHAOHC_FIELD_NUMBER;
+        hash = (53 * hash) + getFBIMBJHAOHCList().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -277,6 +613,22 @@ public final class ThemeParkSimDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (dDKOMDBJEMHBuilder_ == null) {
+          dDKOMDBJEMH_ = null;
+        } else {
+          dDKOMDBJEMH_ = null;
+          dDKOMDBJEMHBuilder_ = null;
+        }
+        if (nBNCLEMFOHFBuilder_ == null) {
+          nBNCLEMFOHF_ = null;
+        } else {
+          nBNCLEMFOHF_ = null;
+          nBNCLEMFOHFBuilder_ = null;
+        }
+        eFBAPDMNPHL_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        fBIMBJHAOHC_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
 
@@ -303,6 +655,27 @@ public final class ThemeParkSimDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ThemeParkSimDetailInfoOuterClass.ThemeParkSimDetailInfo buildPartial() {
         emu.grasscutter.net.proto.ThemeParkSimDetailInfoOuterClass.ThemeParkSimDetailInfo result = new emu.grasscutter.net.proto.ThemeParkSimDetailInfoOuterClass.ThemeParkSimDetailInfo(this);
+        int from_bitField0_ = bitField0_;
+        if (dDKOMDBJEMHBuilder_ == null) {
+          result.dDKOMDBJEMH_ = dDKOMDBJEMH_;
+        } else {
+          result.dDKOMDBJEMH_ = dDKOMDBJEMHBuilder_.build();
+        }
+        if (nBNCLEMFOHFBuilder_ == null) {
+          result.nBNCLEMFOHF_ = nBNCLEMFOHF_;
+        } else {
+          result.nBNCLEMFOHF_ = nBNCLEMFOHFBuilder_.build();
+        }
+        if (((bitField0_ & 0x00000001) != 0)) {
+          eFBAPDMNPHL_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.eFBAPDMNPHL_ = eFBAPDMNPHL_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          fBIMBJHAOHC_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.fBIMBJHAOHC_ = fBIMBJHAOHC_;
         onBuilt();
         return result;
       }
@@ -351,6 +724,32 @@ public final class ThemeParkSimDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ThemeParkSimDetailInfoOuterClass.ThemeParkSimDetailInfo other) {
         if (other == emu.grasscutter.net.proto.ThemeParkSimDetailInfoOuterClass.ThemeParkSimDetailInfo.getDefaultInstance()) return this;
+        if (other.hasDDKOMDBJEMH()) {
+          mergeDDKOMDBJEMH(other.getDDKOMDBJEMH());
+        }
+        if (other.hasNBNCLEMFOHF()) {
+          mergeNBNCLEMFOHF(other.getNBNCLEMFOHF());
+        }
+        if (!other.eFBAPDMNPHL_.isEmpty()) {
+          if (eFBAPDMNPHL_.isEmpty()) {
+            eFBAPDMNPHL_ = other.eFBAPDMNPHL_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureEFBAPDMNPHLIsMutable();
+            eFBAPDMNPHL_.addAll(other.eFBAPDMNPHL_);
+          }
+          onChanged();
+        }
+        if (!other.fBIMBJHAOHC_.isEmpty()) {
+          if (fBIMBJHAOHC_.isEmpty()) {
+            fBIMBJHAOHC_ = other.fBIMBJHAOHC_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureFBIMBJHAOHCIsMutable();
+            fBIMBJHAOHC_.addAll(other.fBIMBJHAOHC_);
+          }
+          onChanged();
+        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -377,6 +776,403 @@ public final class ThemeParkSimDetailInfoOuterClass {
             mergeFrom(parsedMessage);
           }
         }
+        return this;
+      }
+      private int bitField0_;
+
+      private emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL dDKOMDBJEMH_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL, emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.Builder, emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEILOrBuilder> dDKOMDBJEMHBuilder_;
+      /**
+       * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+       * @return Whether the dDKOMDBJEMH field is set.
+       */
+      public boolean hasDDKOMDBJEMH() {
+        return dDKOMDBJEMHBuilder_ != null || dDKOMDBJEMH_ != null;
+      }
+      /**
+       * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+       * @return The dDKOMDBJEMH.
+       */
+      public emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL getDDKOMDBJEMH() {
+        if (dDKOMDBJEMHBuilder_ == null) {
+          return dDKOMDBJEMH_ == null ? emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.getDefaultInstance() : dDKOMDBJEMH_;
+        } else {
+          return dDKOMDBJEMHBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+       */
+      public Builder setDDKOMDBJEMH(emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL value) {
+        if (dDKOMDBJEMHBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          dDKOMDBJEMH_ = value;
+          onChanged();
+        } else {
+          dDKOMDBJEMHBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+       */
+      public Builder setDDKOMDBJEMH(
+          emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.Builder builderForValue) {
+        if (dDKOMDBJEMHBuilder_ == null) {
+          dDKOMDBJEMH_ = builderForValue.build();
+          onChanged();
+        } else {
+          dDKOMDBJEMHBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+       */
+      public Builder mergeDDKOMDBJEMH(emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL value) {
+        if (dDKOMDBJEMHBuilder_ == null) {
+          if (dDKOMDBJEMH_ != null) {
+            dDKOMDBJEMH_ =
+              emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.newBuilder(dDKOMDBJEMH_).mergeFrom(value).buildPartial();
+          } else {
+            dDKOMDBJEMH_ = value;
+          }
+          onChanged();
+        } else {
+          dDKOMDBJEMHBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+       */
+      public Builder clearDDKOMDBJEMH() {
+        if (dDKOMDBJEMHBuilder_ == null) {
+          dDKOMDBJEMH_ = null;
+          onChanged();
+        } else {
+          dDKOMDBJEMH_ = null;
+          dDKOMDBJEMHBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+       */
+      public emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.Builder getDDKOMDBJEMHBuilder() {
+        
+        onChanged();
+        return getDDKOMDBJEMHFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+       */
+      public emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEILOrBuilder getDDKOMDBJEMHOrBuilder() {
+        if (dDKOMDBJEMHBuilder_ != null) {
+          return dDKOMDBJEMHBuilder_.getMessageOrBuilder();
+        } else {
+          return dDKOMDBJEMH_ == null ?
+              emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.getDefaultInstance() : dDKOMDBJEMH_;
+        }
+      }
+      /**
+       * <code>.EMJHFJGGEIL DDKOMDBJEMH = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL, emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.Builder, emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEILOrBuilder> 
+          getDDKOMDBJEMHFieldBuilder() {
+        if (dDKOMDBJEMHBuilder_ == null) {
+          dDKOMDBJEMHBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL, emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEIL.Builder, emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.EMJHFJGGEILOrBuilder>(
+                  getDDKOMDBJEMH(),
+                  getParentForChildren(),
+                  isClean());
+          dDKOMDBJEMH_ = null;
+        }
+        return dDKOMDBJEMHBuilder_;
+      }
+
+      private emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL nBNCLEMFOHF_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL, emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.Builder, emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFILOrBuilder> nBNCLEMFOHFBuilder_;
+      /**
+       * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+       * @return Whether the nBNCLEMFOHF field is set.
+       */
+      public boolean hasNBNCLEMFOHF() {
+        return nBNCLEMFOHFBuilder_ != null || nBNCLEMFOHF_ != null;
+      }
+      /**
+       * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+       * @return The nBNCLEMFOHF.
+       */
+      public emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL getNBNCLEMFOHF() {
+        if (nBNCLEMFOHFBuilder_ == null) {
+          return nBNCLEMFOHF_ == null ? emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.getDefaultInstance() : nBNCLEMFOHF_;
+        } else {
+          return nBNCLEMFOHFBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+       */
+      public Builder setNBNCLEMFOHF(emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL value) {
+        if (nBNCLEMFOHFBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          nBNCLEMFOHF_ = value;
+          onChanged();
+        } else {
+          nBNCLEMFOHFBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+       */
+      public Builder setNBNCLEMFOHF(
+          emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.Builder builderForValue) {
+        if (nBNCLEMFOHFBuilder_ == null) {
+          nBNCLEMFOHF_ = builderForValue.build();
+          onChanged();
+        } else {
+          nBNCLEMFOHFBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+       */
+      public Builder mergeNBNCLEMFOHF(emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL value) {
+        if (nBNCLEMFOHFBuilder_ == null) {
+          if (nBNCLEMFOHF_ != null) {
+            nBNCLEMFOHF_ =
+              emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.newBuilder(nBNCLEMFOHF_).mergeFrom(value).buildPartial();
+          } else {
+            nBNCLEMFOHF_ = value;
+          }
+          onChanged();
+        } else {
+          nBNCLEMFOHFBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+       */
+      public Builder clearNBNCLEMFOHF() {
+        if (nBNCLEMFOHFBuilder_ == null) {
+          nBNCLEMFOHF_ = null;
+          onChanged();
+        } else {
+          nBNCLEMFOHF_ = null;
+          nBNCLEMFOHFBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+       */
+      public emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.Builder getNBNCLEMFOHFBuilder() {
+        
+        onChanged();
+        return getNBNCLEMFOHFFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+       */
+      public emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFILOrBuilder getNBNCLEMFOHFOrBuilder() {
+        if (nBNCLEMFOHFBuilder_ != null) {
+          return nBNCLEMFOHFBuilder_.getMessageOrBuilder();
+        } else {
+          return nBNCLEMFOHF_ == null ?
+              emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.getDefaultInstance() : nBNCLEMFOHF_;
+        }
+      }
+      /**
+       * <code>.CPLJINHNFIL NBNCLEMFOHF = 10;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL, emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.Builder, emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFILOrBuilder> 
+          getNBNCLEMFOHFFieldBuilder() {
+        if (nBNCLEMFOHFBuilder_ == null) {
+          nBNCLEMFOHFBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL, emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFIL.Builder, emu.grasscutter.net.proto.CPLJINHNFILOuterClass.CPLJINHNFILOrBuilder>(
+                  getNBNCLEMFOHF(),
+                  getParentForChildren(),
+                  isClean());
+          nBNCLEMFOHF_ = null;
+        }
+        return nBNCLEMFOHFBuilder_;
+      }
+
+      private com.google.protobuf.Internal.IntList eFBAPDMNPHL_ = emptyIntList();
+      private void ensureEFBAPDMNPHLIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          eFBAPDMNPHL_ = mutableCopy(eFBAPDMNPHL_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+       * @return A list containing the eFBAPDMNPHL.
+       */
+      public java.util.List<java.lang.Integer>
+          getEFBAPDMNPHLList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(eFBAPDMNPHL_) : eFBAPDMNPHL_;
+      }
+      /**
+       * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+       * @return The count of eFBAPDMNPHL.
+       */
+      public int getEFBAPDMNPHLCount() {
+        return eFBAPDMNPHL_.size();
+      }
+      /**
+       * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+       * @param index The index of the element to return.
+       * @return The eFBAPDMNPHL at the given index.
+       */
+      public int getEFBAPDMNPHL(int index) {
+        return eFBAPDMNPHL_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+       * @param index The index to set the value at.
+       * @param value The eFBAPDMNPHL to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEFBAPDMNPHL(
+          int index, int value) {
+        ensureEFBAPDMNPHLIsMutable();
+        eFBAPDMNPHL_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+       * @param value The eFBAPDMNPHL to add.
+       * @return This builder for chaining.
+       */
+      public Builder addEFBAPDMNPHL(int value) {
+        ensureEFBAPDMNPHLIsMutable();
+        eFBAPDMNPHL_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+       * @param values The eFBAPDMNPHL to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllEFBAPDMNPHL(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureEFBAPDMNPHLIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, eFBAPDMNPHL_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 EFBAPDMNPHL = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEFBAPDMNPHL() {
+        eFBAPDMNPHL_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList fBIMBJHAOHC_ = emptyIntList();
+      private void ensureFBIMBJHAOHCIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          fBIMBJHAOHC_ = mutableCopy(fBIMBJHAOHC_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+       * @return A list containing the fBIMBJHAOHC.
+       */
+      public java.util.List<java.lang.Integer>
+          getFBIMBJHAOHCList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(fBIMBJHAOHC_) : fBIMBJHAOHC_;
+      }
+      /**
+       * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+       * @return The count of fBIMBJHAOHC.
+       */
+      public int getFBIMBJHAOHCCount() {
+        return fBIMBJHAOHC_.size();
+      }
+      /**
+       * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+       * @param index The index of the element to return.
+       * @return The fBIMBJHAOHC at the given index.
+       */
+      public int getFBIMBJHAOHC(int index) {
+        return fBIMBJHAOHC_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+       * @param index The index to set the value at.
+       * @param value The fBIMBJHAOHC to set.
+       * @return This builder for chaining.
+       */
+      public Builder setFBIMBJHAOHC(
+          int index, int value) {
+        ensureFBIMBJHAOHCIsMutable();
+        fBIMBJHAOHC_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+       * @param value The fBIMBJHAOHC to add.
+       * @return This builder for chaining.
+       */
+      public Builder addFBIMBJHAOHC(int value) {
+        ensureFBIMBJHAOHCIsMutable();
+        fBIMBJHAOHC_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+       * @param values The fBIMBJHAOHC to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllFBIMBJHAOHC(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureFBIMBJHAOHCIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, fBIMBJHAOHC_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 FBIMBJHAOHC = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearFBIMBJHAOHC() {
+        fBIMBJHAOHC_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
         return this;
       }
       @java.lang.Override
@@ -446,20 +1242,28 @@ public final class ThemeParkSimDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034ThemeParkSimDetailInfo.proto\"\030\n\026ThemeP" +
-      "arkSimDetailInfoB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\n\034ThemeParkSimDetailInfo.proto\032\021EMJHFJGG" +
+      "EIL.proto\032\021CPLJINHNFIL.proto\"\210\001\n\026ThemePa" +
+      "rkSimDetailInfo\022!\n\013DDKOMDBJEMH\030\006 \001(\0132\014.E" +
+      "MJHFJGGEIL\022!\n\013NBNCLEMFOHF\030\n \001(\0132\014.CPLJIN" +
+      "HNFIL\022\023\n\013EFBAPDMNPHL\030\010 \003(\r\022\023\n\013FBIMBJHAOH" +
+      "C\030\001 \003(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.CPLJINHNFILOuterClass.getDescriptor(),
         });
     internal_static_ThemeParkSimDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_ThemeParkSimDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ThemeParkSimDetailInfo_descriptor,
-        new java.lang.String[] { });
+        new java.lang.String[] { "DDKOMDBJEMH", "NBNCLEMFOHF", "EFBAPDMNPHL", "FBIMBJHAOHC", });
+    emu.grasscutter.net.proto.EMJHFJGGEILOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.CPLJINHNFILOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -19,13 +19,13 @@ public final class PhotoUnderseaObjectInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 finish_time = 2;</code>
+     * <code>uint32 finish_time = 7;</code>
      * @return The finishTime.
      */
     int getFinishTime();
 
     /**
-     * <code>uint32 object_id = 8;</code>
+     * <code>uint32 object_id = 10;</code>
      * @return The objectId.
      */
     int getObjectId();
@@ -75,12 +75,12 @@ public final class PhotoUnderseaObjectInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               finishTime_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 80: {
 
               objectId_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class PhotoUnderseaObjectInfoOuterClass {
               emu.grasscutter.net.proto.PhotoUnderseaObjectInfoOuterClass.PhotoUnderseaObjectInfo.class, emu.grasscutter.net.proto.PhotoUnderseaObjectInfoOuterClass.PhotoUnderseaObjectInfo.Builder.class);
     }
 
-    public static final int FINISH_TIME_FIELD_NUMBER = 2;
+    public static final int FINISH_TIME_FIELD_NUMBER = 7;
     private int finishTime_;
     /**
-     * <code>uint32 finish_time = 2;</code>
+     * <code>uint32 finish_time = 7;</code>
      * @return The finishTime.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class PhotoUnderseaObjectInfoOuterClass {
       return finishTime_;
     }
 
-    public static final int OBJECT_ID_FIELD_NUMBER = 8;
+    public static final int OBJECT_ID_FIELD_NUMBER = 10;
     private int objectId_;
     /**
-     * <code>uint32 object_id = 8;</code>
+     * <code>uint32 object_id = 10;</code>
      * @return The objectId.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class PhotoUnderseaObjectInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (finishTime_ != 0) {
-        output.writeUInt32(2, finishTime_);
+        output.writeUInt32(7, finishTime_);
       }
       if (objectId_ != 0) {
-        output.writeUInt32(8, objectId_);
+        output.writeUInt32(10, objectId_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class PhotoUnderseaObjectInfoOuterClass {
       size = 0;
       if (finishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, finishTime_);
+          .computeUInt32Size(7, finishTime_);
       }
       if (objectId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, objectId_);
+          .computeUInt32Size(10, objectId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class PhotoUnderseaObjectInfoOuterClass {
 
       private int finishTime_ ;
       /**
-       * <code>uint32 finish_time = 2;</code>
+       * <code>uint32 finish_time = 7;</code>
        * @return The finishTime.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class PhotoUnderseaObjectInfoOuterClass {
         return finishTime_;
       }
       /**
-       * <code>uint32 finish_time = 2;</code>
+       * <code>uint32 finish_time = 7;</code>
        * @param value The finishTime to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class PhotoUnderseaObjectInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 finish_time = 2;</code>
+       * <code>uint32 finish_time = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearFinishTime() {
@@ -491,7 +491,7 @@ public final class PhotoUnderseaObjectInfoOuterClass {
 
       private int objectId_ ;
       /**
-       * <code>uint32 object_id = 8;</code>
+       * <code>uint32 object_id = 10;</code>
        * @return The objectId.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class PhotoUnderseaObjectInfoOuterClass {
         return objectId_;
       }
       /**
-       * <code>uint32 object_id = 8;</code>
+       * <code>uint32 object_id = 10;</code>
        * @param value The objectId to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class PhotoUnderseaObjectInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 object_id = 8;</code>
+       * <code>uint32 object_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearObjectId() {
@@ -587,8 +587,8 @@ public final class PhotoUnderseaObjectInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035PhotoUnderseaObjectInfo.proto\"A\n\027Photo" +
-      "UnderseaObjectInfo\022\023\n\013finish_time\030\002 \001(\r\022" +
-      "\021\n\tobject_id\030\010 \001(\rB\033\n\031emu.grasscutter.ne" +
+      "UnderseaObjectInfo\022\023\n\013finish_time\030\007 \001(\r\022" +
+      "\021\n\tobject_id\030\n \001(\rB\033\n\031emu.grasscutter.ne" +
       "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

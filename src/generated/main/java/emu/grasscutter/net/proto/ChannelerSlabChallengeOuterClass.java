@@ -19,25 +19,25 @@ public final class ChannelerSlabChallengeOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp> 
         getCampListList();
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp getCampList(int index);
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     int getCampListCount();
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCampOrBuilder> 
         getCampListOrBuilderList();
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCampOrBuilder getCampListOrBuilder(
         int index);
@@ -100,7 +100,7 @@ public final class ChannelerSlabChallengeOuterClass {
               activeCampIndex_ = input.readUInt32();
               break;
             }
-            case 106: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 campList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp>();
                 mutable_bitField0_ |= 0x00000001;
@@ -144,17 +144,17 @@ public final class ChannelerSlabChallengeOuterClass {
               emu.grasscutter.net.proto.ChannelerSlabChallengeOuterClass.ChannelerSlabChallenge.class, emu.grasscutter.net.proto.ChannelerSlabChallengeOuterClass.ChannelerSlabChallenge.Builder.class);
     }
 
-    public static final int CAMP_LIST_FIELD_NUMBER = 13;
+    public static final int CAMP_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp> campList_;
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp> getCampListList() {
       return campList_;
     }
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCampOrBuilder> 
@@ -162,21 +162,21 @@ public final class ChannelerSlabChallengeOuterClass {
       return campList_;
     }
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     @java.lang.Override
     public int getCampListCount() {
       return campList_.size();
     }
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp getCampList(int index) {
       return campList_.get(index);
     }
     /**
-     * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+     * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCampOrBuilder getCampListOrBuilder(
@@ -213,7 +213,7 @@ public final class ChannelerSlabChallengeOuterClass {
         output.writeUInt32(3, activeCampIndex_);
       }
       for (int i = 0; i < campList_.size(); i++) {
-        output.writeMessage(13, campList_.get(i));
+        output.writeMessage(12, campList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -230,7 +230,7 @@ public final class ChannelerSlabChallengeOuterClass {
       }
       for (int i = 0; i < campList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, campList_.get(i));
+          .computeMessageSize(12, campList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -567,7 +567,7 @@ public final class ChannelerSlabChallengeOuterClass {
           emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp, emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.Builder, emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCampOrBuilder> campListBuilder_;
 
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp> getCampListList() {
         if (campListBuilder_ == null) {
@@ -577,7 +577,7 @@ public final class ChannelerSlabChallengeOuterClass {
         }
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public int getCampListCount() {
         if (campListBuilder_ == null) {
@@ -587,7 +587,7 @@ public final class ChannelerSlabChallengeOuterClass {
         }
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp getCampList(int index) {
         if (campListBuilder_ == null) {
@@ -597,7 +597,7 @@ public final class ChannelerSlabChallengeOuterClass {
         }
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public Builder setCampList(
           int index, emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp value) {
@@ -614,7 +614,7 @@ public final class ChannelerSlabChallengeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public Builder setCampList(
           int index, emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.Builder builderForValue) {
@@ -628,7 +628,7 @@ public final class ChannelerSlabChallengeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public Builder addCampList(emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp value) {
         if (campListBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class ChannelerSlabChallengeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public Builder addCampList(
           int index, emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp value) {
@@ -661,7 +661,7 @@ public final class ChannelerSlabChallengeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public Builder addCampList(
           emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.Builder builderForValue) {
@@ -675,7 +675,7 @@ public final class ChannelerSlabChallengeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public Builder addCampList(
           int index, emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.Builder builderForValue) {
@@ -689,7 +689,7 @@ public final class ChannelerSlabChallengeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public Builder addAllCampList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp> values) {
@@ -704,7 +704,7 @@ public final class ChannelerSlabChallengeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public Builder clearCampList() {
         if (campListBuilder_ == null) {
@@ -717,7 +717,7 @@ public final class ChannelerSlabChallengeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public Builder removeCampList(int index) {
         if (campListBuilder_ == null) {
@@ -730,14 +730,14 @@ public final class ChannelerSlabChallengeOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.Builder getCampListBuilder(
           int index) {
         return getCampListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCampOrBuilder getCampListOrBuilder(
           int index) {
@@ -747,7 +747,7 @@ public final class ChannelerSlabChallengeOuterClass {
         }
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCampOrBuilder> 
            getCampListOrBuilderList() {
@@ -758,14 +758,14 @@ public final class ChannelerSlabChallengeOuterClass {
         }
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.Builder addCampListBuilder() {
         return getCampListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.getDefaultInstance());
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.Builder addCampListBuilder(
           int index) {
@@ -773,7 +773,7 @@ public final class ChannelerSlabChallengeOuterClass {
             index, emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.getDefaultInstance());
       }
       /**
-       * <code>repeated .ChannelerSlabCamp camp_list = 13;</code>
+       * <code>repeated .ChannelerSlabCamp camp_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ChannelerSlabCampOuterClass.ChannelerSlabCamp.Builder> 
            getCampListBuilderList() {
@@ -893,7 +893,7 @@ public final class ChannelerSlabChallengeOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034ChannelerSlabChallenge.proto\032\027Channele" +
       "rSlabCamp.proto\"Z\n\026ChannelerSlabChalleng" +
-      "e\022%\n\tcamp_list\030\r \003(\0132\022.ChannelerSlabCamp" +
+      "e\022%\n\tcamp_list\030\014 \003(\0132\022.ChannelerSlabCamp" +
       "\022\031\n\021active_camp_index\030\003 \001(\rB\033\n\031emu.grass" +
       "cutter.net.protob\006proto3"
     };

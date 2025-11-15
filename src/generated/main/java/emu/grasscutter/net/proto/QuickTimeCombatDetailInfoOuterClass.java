@@ -19,25 +19,25 @@ public final class QuickTimeCombatDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     java.util.List<emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo> 
         getStageInfoListList();
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo getStageInfoList(int index);
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfoOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfoOrBuilder getStageInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class QuickTimeCombatDetailInfoOuterClass {
               emu.grasscutter.net.proto.QuickTimeCombatDetailInfoOuterClass.QuickTimeCombatDetailInfo.class, emu.grasscutter.net.proto.QuickTimeCombatDetailInfoOuterClass.QuickTimeCombatDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 12;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo> stageInfoList_;
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class QuickTimeCombatDetailInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+     * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfoOrBuilder getStageInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(12, stageInfoList_.get(i));
+        output.writeMessage(2, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, stageInfoList_.get(i));
+          .computeMessageSize(2, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
           emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo, emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.Builder, emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfoOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo value) {
@@ -575,7 +575,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo value) {
         if (stageInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo value) {
@@ -622,7 +622,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo> values) {
@@ -665,7 +665,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfoOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfoOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.Builder addStageInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 12;</code>
+       * <code>repeated .QuickTimeCombatStageInfo stage_info_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.QuickTimeCombatStageInfoOuterClass.QuickTimeCombatStageInfo.Builder> 
            getStageInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037QuickTimeCombatDetailInfo.proto\032\036Quick" +
       "TimeCombatStageInfo.proto\"O\n\031QuickTimeCo" +
-      "mbatDetailInfo\0222\n\017stage_info_list\030\014 \003(\0132" +
+      "mbatDetailInfo\0222\n\017stage_info_list\030\002 \003(\0132" +
       "\031.QuickTimeCombatStageInfoB\033\n\031emu.grassc" +
       "utter.net.protob\006proto3"
     };

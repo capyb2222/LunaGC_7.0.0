@@ -19,19 +19,19 @@ public final class FungusTrainingDungeonDetailOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 dungeon_id = 1;</code>
+     * <code>uint32 dungeon_id = 9;</code>
      * @return The dungeonId.
      */
     int getDungeonId();
 
     /**
-     * <code>bool is_open = 10;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>uint32 best_score = 7;</code>
+     * <code>uint32 best_score = 10;</code>
      * @return The bestScore.
      */
     int getBestScore();
@@ -81,19 +81,19 @@ public final class FungusTrainingDungeonDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 48: {
+
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 72: {
 
               dungeonId_ = input.readUInt32();
               break;
             }
-            case 56: {
-
-              bestScore_ = input.readUInt32();
-              break;
-            }
             case 80: {
 
-              isOpen_ = input.readBool();
+              bestScore_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class FungusTrainingDungeonDetailOuterClass {
               emu.grasscutter.net.proto.FungusTrainingDungeonDetailOuterClass.FungusTrainingDungeonDetail.class, emu.grasscutter.net.proto.FungusTrainingDungeonDetailOuterClass.FungusTrainingDungeonDetail.Builder.class);
     }
 
-    public static final int DUNGEON_ID_FIELD_NUMBER = 1;
+    public static final int DUNGEON_ID_FIELD_NUMBER = 9;
     private int dungeonId_;
     /**
-     * <code>uint32 dungeon_id = 1;</code>
+     * <code>uint32 dungeon_id = 9;</code>
      * @return The dungeonId.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class FungusTrainingDungeonDetailOuterClass {
       return dungeonId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 10;
+    public static final int IS_OPEN_FIELD_NUMBER = 6;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 10;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class FungusTrainingDungeonDetailOuterClass {
       return isOpen_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 7;
+    public static final int BEST_SCORE_FIELD_NUMBER = 10;
     private int bestScore_;
     /**
-     * <code>uint32 best_score = 7;</code>
+     * <code>uint32 best_score = 10;</code>
      * @return The bestScore.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class FungusTrainingDungeonDetailOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (isOpen_ != false) {
+        output.writeBool(6, isOpen_);
+      }
       if (dungeonId_ != 0) {
-        output.writeUInt32(1, dungeonId_);
+        output.writeUInt32(9, dungeonId_);
       }
       if (bestScore_ != 0) {
-        output.writeUInt32(7, bestScore_);
-      }
-      if (isOpen_ != false) {
-        output.writeBool(10, isOpen_);
+        output.writeUInt32(10, bestScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class FungusTrainingDungeonDetailOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isOpen_);
+      }
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, dungeonId_);
+          .computeUInt32Size(9, dungeonId_);
       }
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, bestScore_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isOpen_);
+          .computeUInt32Size(10, bestScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
 
       private int dungeonId_ ;
       /**
-       * <code>uint32 dungeon_id = 1;</code>
+       * <code>uint32 dungeon_id = 9;</code>
        * @return The dungeonId.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
         return dungeonId_;
       }
       /**
-       * <code>uint32 dungeon_id = 1;</code>
+       * <code>uint32 dungeon_id = 9;</code>
        * @param value The dungeonId to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 dungeon_id = 1;</code>
+       * <code>uint32 dungeon_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearDungeonId() {
@@ -531,7 +531,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 10;</code>
+       * <code>bool is_open = 6;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 10;</code>
+       * <code>bool is_open = 6;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 10;</code>
+       * <code>bool is_open = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -562,7 +562,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
 
       private int bestScore_ ;
       /**
-       * <code>uint32 best_score = 7;</code>
+       * <code>uint32 best_score = 10;</code>
        * @return The bestScore.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
         return bestScore_;
       }
       /**
-       * <code>uint32 best_score = 7;</code>
+       * <code>uint32 best_score = 10;</code>
        * @param value The bestScore to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 best_score = 7;</code>
+       * <code>uint32 best_score = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearBestScore() {
@@ -659,7 +659,7 @@ public final class FungusTrainingDungeonDetailOuterClass {
     java.lang.String[] descriptorData = {
       "\n!FungusTrainingDungeonDetail.proto\"V\n\033F" +
       "ungusTrainingDungeonDetail\022\022\n\ndungeon_id" +
-      "\030\001 \001(\r\022\017\n\007is_open\030\n \001(\010\022\022\n\nbest_score\030\007 " +
+      "\030\t \001(\r\022\017\n\007is_open\030\006 \001(\010\022\022\n\nbest_score\030\n " +
       "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

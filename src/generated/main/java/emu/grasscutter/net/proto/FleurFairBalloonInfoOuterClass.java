@@ -19,7 +19,7 @@ public final class FleurFairBalloonInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 best_score = 5;</code>
+     * <code>uint32 best_score = 1;</code>
      * @return The bestScore.
      */
     int getBestScore();
@@ -69,7 +69,7 @@ public final class FleurFairBalloonInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 8: {
 
               bestScore_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class FleurFairBalloonInfoOuterClass {
               emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.class, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder.class);
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 5;
+    public static final int BEST_SCORE_FIELD_NUMBER = 1;
     private int bestScore_;
     /**
-     * <code>uint32 best_score = 5;</code>
+     * <code>uint32 best_score = 1;</code>
      * @return The bestScore.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class FleurFairBalloonInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (bestScore_ != 0) {
-        output.writeUInt32(5, bestScore_);
+        output.writeUInt32(1, bestScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class FleurFairBalloonInfoOuterClass {
       size = 0;
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, bestScore_);
+          .computeUInt32Size(1, bestScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class FleurFairBalloonInfoOuterClass {
 
       private int bestScore_ ;
       /**
-       * <code>uint32 best_score = 5;</code>
+       * <code>uint32 best_score = 1;</code>
        * @return The bestScore.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class FleurFairBalloonInfoOuterClass {
         return bestScore_;
       }
       /**
-       * <code>uint32 best_score = 5;</code>
+       * <code>uint32 best_score = 1;</code>
        * @param value The bestScore to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class FleurFairBalloonInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 best_score = 5;</code>
+       * <code>uint32 best_score = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearBestScore() {
@@ -517,7 +517,7 @@ public final class FleurFairBalloonInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032FleurFairBalloonInfo.proto\"*\n\024FleurFai" +
-      "rBalloonInfo\022\022\n\nbest_score\030\005 \001(\rB\033\n\031emu." +
+      "rBalloonInfo\022\022\n\nbest_score\030\001 \001(\rB\033\n\031emu." +
       "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

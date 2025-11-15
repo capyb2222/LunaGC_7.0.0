@@ -19,34 +19,30 @@ public final class FontaineGatherInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN> 
+    java.util.List<emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo> 
         getStageInfoListList();
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
-    emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN getStageInfoList(int index);
+    emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo getStageInfoList(int index);
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCNOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfoOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
-    emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCNOrBuilder getStageInfoListOrBuilder(
+    emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfoOrBuilder getStageInfoListOrBuilder(
         int index);
   }
   /**
-   * <pre>
-   * Obf: GDCGBNJCIOE
-   * </pre>
-   *
    * Protobuf type {@code FontaineGatherInfo}
    */
   public static final class FontaineGatherInfo extends
@@ -93,13 +89,13 @@ public final class FontaineGatherInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN>();
+                stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               stageInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -137,42 +133,42 @@ public final class FontaineGatherInfoOuterClass {
               emu.grasscutter.net.proto.FontaineGatherInfoOuterClass.FontaineGatherInfo.class, emu.grasscutter.net.proto.FontaineGatherInfoOuterClass.FontaineGatherInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 15;
-    private java.util.List<emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN> stageInfoList_;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 3;
+    private java.util.List<emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo> stageInfoList_;
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN> getStageInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCNOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfoOrBuilder> 
         getStageInfoListOrBuilderList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN getStageInfoList(int index) {
+    public emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+     * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCNOrBuilder getStageInfoListOrBuilder(
+    public emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfoOrBuilder getStageInfoListOrBuilder(
         int index) {
       return stageInfoList_.get(index);
     }
@@ -192,7 +188,7 @@ public final class FontaineGatherInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(15, stageInfoList_.get(i));
+        output.writeMessage(3, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -205,7 +201,7 @@ public final class FontaineGatherInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, stageInfoList_.get(i));
+          .computeMessageSize(3, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -335,10 +331,6 @@ public final class FontaineGatherInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: GDCGBNJCIOE
-     * </pre>
-     *
      * Protobuf type {@code FontaineGatherInfo}
      */
     public static final class Builder extends
@@ -523,22 +515,22 @@ public final class FontaineGatherInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN> stageInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo> stageInfoList_ =
         java.util.Collections.emptyList();
       private void ensureStageInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN>(stageInfoList_);
+          stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo>(stageInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCNOrBuilder> stageInfoListBuilder_;
+          emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfoOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN> getStageInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(stageInfoList_);
         } else {
@@ -546,7 +538,7 @@ public final class FontaineGatherInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -556,9 +548,9 @@ public final class FontaineGatherInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN getStageInfoList(int index) {
+      public emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
           return stageInfoList_.get(index);
         } else {
@@ -566,10 +558,10 @@ public final class FontaineGatherInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
       public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN value) {
+          int index, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo value) {
         if (stageInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -583,10 +575,10 @@ public final class FontaineGatherInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
       public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder builderForValue) {
         if (stageInfoListBuilder_ == null) {
           ensureStageInfoListIsMutable();
           stageInfoList_.set(index, builderForValue.build());
@@ -597,9 +589,9 @@ public final class FontaineGatherInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
-      public Builder addStageInfoList(emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN value) {
+      public Builder addStageInfoList(emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo value) {
         if (stageInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -613,10 +605,10 @@ public final class FontaineGatherInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
       public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN value) {
+          int index, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo value) {
         if (stageInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -630,10 +622,10 @@ public final class FontaineGatherInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
       public Builder addStageInfoList(
-          emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder builderForValue) {
+          emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder builderForValue) {
         if (stageInfoListBuilder_ == null) {
           ensureStageInfoListIsMutable();
           stageInfoList_.add(builderForValue.build());
@@ -644,10 +636,10 @@ public final class FontaineGatherInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
       public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder builderForValue) {
         if (stageInfoListBuilder_ == null) {
           ensureStageInfoListIsMutable();
           stageInfoList_.add(index, builderForValue.build());
@@ -658,10 +650,10 @@ public final class FontaineGatherInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
       public Builder addAllStageInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo> values) {
         if (stageInfoListBuilder_ == null) {
           ensureStageInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -673,7 +665,7 @@ public final class FontaineGatherInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -686,7 +678,7 @@ public final class FontaineGatherInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -699,16 +691,16 @@ public final class FontaineGatherInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder getStageInfoListBuilder(
+      public emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCNOrBuilder getStageInfoListOrBuilder(
+      public emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfoOrBuilder getStageInfoListOrBuilder(
           int index) {
         if (stageInfoListBuilder_ == null) {
           return stageInfoList_.get(index);  } else {
@@ -716,9 +708,9 @@ public final class FontaineGatherInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCNOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfoOrBuilder> 
            getStageInfoListOrBuilderList() {
         if (stageInfoListBuilder_ != null) {
           return stageInfoListBuilder_.getMessageOrBuilderList();
@@ -727,33 +719,33 @@ public final class FontaineGatherInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder addStageInfoListBuilder() {
+      public emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.getDefaultInstance());
+            emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
-      public emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder addStageInfoListBuilder(
+      public emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder addStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.getDefaultInstance());
+            index, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .JFGKMCDLKCN stage_info_list = 15;</code>
+       * <code>repeated .FontainGatherStageInfo stage_info_list = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder> 
            getStageInfoListBuilderList() {
         return getStageInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCNOrBuilder> 
+          emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfoOrBuilder> 
           getStageInfoListFieldBuilder() {
         if (stageInfoListBuilder_ == null) {
           stageInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCN.Builder, emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.JFGKMCDLKCNOrBuilder>(
+              emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfo.Builder, emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.FontainGatherStageInfoOrBuilder>(
                   stageInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -829,15 +821,16 @@ public final class FontaineGatherInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030FontaineGatherInfo.proto\032\021JFGKMCDLKCN." +
-      "proto\";\n\022FontaineGatherInfo\022%\n\017stage_inf" +
-      "o_list\030\017 \003(\0132\014.JFGKMCDLKCNB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\n\030FontaineGatherInfo.proto\032\034FontainGathe" +
+      "rStageInfo.proto\"F\n\022FontaineGatherInfo\0220" +
+      "\n\017stage_info_list\030\003 \003(\0132\027.FontainGatherS" +
+      "tageInfoB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.getDescriptor(),
         });
     internal_static_FontaineGatherInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -845,7 +838,7 @@ public final class FontaineGatherInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FontaineGatherInfo_descriptor,
         new java.lang.String[] { "StageInfoList", });
-    emu.grasscutter.net.proto.JFGKMCDLKCNOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.FontainGatherStageInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

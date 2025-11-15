@@ -19,10 +19,10 @@ public final class GCGFestivalDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_gcg_festival_mode_open = 11;</code>
-     * @return The isGcgFestivalModeOpen.
+     * <code>bool KHDGFPKIFFE = 5;</code>
+     * @return The kHDGFPKIFFE.
      */
-    boolean getIsGcgFestivalModeOpen();
+    boolean getKHDGFPKIFFE();
   }
   /**
    * Protobuf type {@code GCGFestivalDetailInfo}
@@ -69,9 +69,9 @@ public final class GCGFestivalDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 40: {
 
-              isGcgFestivalModeOpen_ = input.readBool();
+              kHDGFPKIFFE_ = input.readBool();
               break;
             }
             default: {
@@ -106,15 +106,15 @@ public final class GCGFestivalDetailInfoOuterClass {
               emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo.class, emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo.Builder.class);
     }
 
-    public static final int IS_GCG_FESTIVAL_MODE_OPEN_FIELD_NUMBER = 11;
-    private boolean isGcgFestivalModeOpen_;
+    public static final int KHDGFPKIFFE_FIELD_NUMBER = 5;
+    private boolean kHDGFPKIFFE_;
     /**
-     * <code>bool is_gcg_festival_mode_open = 11;</code>
-     * @return The isGcgFestivalModeOpen.
+     * <code>bool KHDGFPKIFFE = 5;</code>
+     * @return The kHDGFPKIFFE.
      */
     @java.lang.Override
-    public boolean getIsGcgFestivalModeOpen() {
-      return isGcgFestivalModeOpen_;
+    public boolean getKHDGFPKIFFE() {
+      return kHDGFPKIFFE_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -131,8 +131,8 @@ public final class GCGFestivalDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isGcgFestivalModeOpen_ != false) {
-        output.writeBool(11, isGcgFestivalModeOpen_);
+      if (kHDGFPKIFFE_ != false) {
+        output.writeBool(5, kHDGFPKIFFE_);
       }
       unknownFields.writeTo(output);
     }
@@ -143,9 +143,9 @@ public final class GCGFestivalDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isGcgFestivalModeOpen_ != false) {
+      if (kHDGFPKIFFE_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isGcgFestivalModeOpen_);
+          .computeBoolSize(5, kHDGFPKIFFE_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -162,8 +162,8 @@ public final class GCGFestivalDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo other = (emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo) obj;
 
-      if (getIsGcgFestivalModeOpen()
-          != other.getIsGcgFestivalModeOpen()) return false;
+      if (getKHDGFPKIFFE()
+          != other.getKHDGFPKIFFE()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -175,9 +175,9 @@ public final class GCGFestivalDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + IS_GCG_FESTIVAL_MODE_OPEN_FIELD_NUMBER;
+      hash = (37 * hash) + KHDGFPKIFFE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsGcgFestivalModeOpen());
+          getKHDGFPKIFFE());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -311,7 +311,7 @@ public final class GCGFestivalDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        isGcgFestivalModeOpen_ = false;
+        kHDGFPKIFFE_ = false;
 
         return this;
       }
@@ -339,7 +339,7 @@ public final class GCGFestivalDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo buildPartial() {
         emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo result = new emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo(this);
-        result.isGcgFestivalModeOpen_ = isGcgFestivalModeOpen_;
+        result.kHDGFPKIFFE_ = kHDGFPKIFFE_;
         onBuilt();
         return result;
       }
@@ -388,8 +388,8 @@ public final class GCGFestivalDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo other) {
         if (other == emu.grasscutter.net.proto.GCGFestivalDetailInfoOuterClass.GCGFestivalDetailInfo.getDefaultInstance()) return this;
-        if (other.getIsGcgFestivalModeOpen() != false) {
-          setIsGcgFestivalModeOpen(other.getIsGcgFestivalModeOpen());
+        if (other.getKHDGFPKIFFE() != false) {
+          setKHDGFPKIFFE(other.getKHDGFPKIFFE());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -420,33 +420,33 @@ public final class GCGFestivalDetailInfoOuterClass {
         return this;
       }
 
-      private boolean isGcgFestivalModeOpen_ ;
+      private boolean kHDGFPKIFFE_ ;
       /**
-       * <code>bool is_gcg_festival_mode_open = 11;</code>
-       * @return The isGcgFestivalModeOpen.
+       * <code>bool KHDGFPKIFFE = 5;</code>
+       * @return The kHDGFPKIFFE.
        */
       @java.lang.Override
-      public boolean getIsGcgFestivalModeOpen() {
-        return isGcgFestivalModeOpen_;
+      public boolean getKHDGFPKIFFE() {
+        return kHDGFPKIFFE_;
       }
       /**
-       * <code>bool is_gcg_festival_mode_open = 11;</code>
-       * @param value The isGcgFestivalModeOpen to set.
+       * <code>bool KHDGFPKIFFE = 5;</code>
+       * @param value The kHDGFPKIFFE to set.
        * @return This builder for chaining.
        */
-      public Builder setIsGcgFestivalModeOpen(boolean value) {
+      public Builder setKHDGFPKIFFE(boolean value) {
         
-        isGcgFestivalModeOpen_ = value;
+        kHDGFPKIFFE_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_gcg_festival_mode_open = 11;</code>
+       * <code>bool KHDGFPKIFFE = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsGcgFestivalModeOpen() {
+      public Builder clearKHDGFPKIFFE() {
         
-        isGcgFestivalModeOpen_ = false;
+        kHDGFPKIFFE_ = false;
         onChanged();
         return this;
       }
@@ -517,10 +517,9 @@ public final class GCGFestivalDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033GCGFestivalDetailInfo.proto\":\n\025GCGFest" +
-      "ivalDetailInfo\022!\n\031is_gcg_festival_mode_o" +
-      "pen\030\013 \001(\010B\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "\n\033GCGFestivalDetailInfo.proto\",\n\025GCGFest" +
+      "ivalDetailInfo\022\023\n\013KHDGFPKIFFE\030\005 \001(\010B\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -531,7 +530,7 @@ public final class GCGFestivalDetailInfoOuterClass {
     internal_static_GCGFestivalDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGFestivalDetailInfo_descriptor,
-        new java.lang.String[] { "IsGcgFestivalModeOpen", });
+        new java.lang.String[] { "KHDGFPKIFFE", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

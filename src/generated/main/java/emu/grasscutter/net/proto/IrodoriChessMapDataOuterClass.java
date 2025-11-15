@@ -19,45 +19,45 @@ public final class IrodoriChessMapDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
      * @return Whether the entranceDetailInfo field is set.
      */
     boolean hasEntranceDetailInfo();
     /**
-     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
      * @return The entranceDetailInfo.
      */
     emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo getEntranceDetailInfo();
     /**
-     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
      */
     emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfoOrBuilder getEntranceDetailInfoOrBuilder();
 
     /**
-     * <code>repeated uint32 equiped_card_list = 14;</code>
+     * <code>repeated uint32 equiped_card_list = 9;</code>
      * @return A list containing the equipedCardList.
      */
     java.util.List<java.lang.Integer> getEquipedCardListList();
     /**
-     * <code>repeated uint32 equiped_card_list = 14;</code>
+     * <code>repeated uint32 equiped_card_list = 9;</code>
      * @return The count of equipedCardList.
      */
     int getEquipedCardListCount();
     /**
-     * <code>repeated uint32 equiped_card_list = 14;</code>
+     * <code>repeated uint32 equiped_card_list = 9;</code>
      * @param index The index of the element to return.
      * @return The equipedCardList at the given index.
      */
     int getEquipedCardList(int index);
 
     /**
-     * <code>uint32 map_id = 12;</code>
+     * <code>uint32 map_id = 8;</code>
      * @return The mapId.
      */
     int getMapId();
 
     /**
-     * <code>uint32 best_score = 13;</code>
+     * <code>uint32 best_score = 4;</code>
      * @return The bestScore.
      */
     int getBestScore();
@@ -109,30 +109,17 @@ public final class IrodoriChessMapDataOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
-              emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.Builder subBuilder = null;
-              if (entranceDetailInfo_ != null) {
-                subBuilder = entranceDetailInfo_.toBuilder();
-              }
-              entranceDetailInfo_ = input.readMessage(emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(entranceDetailInfo_);
-                entranceDetailInfo_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 96: {
-
-              mapId_ = input.readUInt32();
-              break;
-            }
-            case 104: {
+            case 32: {
 
               bestScore_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 64: {
+
+              mapId_ = input.readUInt32();
+              break;
+            }
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 equipedCardList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -140,7 +127,7 @@ public final class IrodoriChessMapDataOuterClass {
               equipedCardList_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -151,6 +138,19 @@ public final class IrodoriChessMapDataOuterClass {
                 equipedCardList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 106: {
+              emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.Builder subBuilder = null;
+              if (entranceDetailInfo_ != null) {
+                subBuilder = entranceDetailInfo_.toBuilder();
+              }
+              entranceDetailInfo_ = input.readMessage(emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(entranceDetailInfo_);
+                entranceDetailInfo_ = subBuilder.buildPartial();
+              }
+
               break;
             }
             default: {
@@ -188,10 +188,10 @@ public final class IrodoriChessMapDataOuterClass {
               emu.grasscutter.net.proto.IrodoriChessMapDataOuterClass.IrodoriChessMapData.class, emu.grasscutter.net.proto.IrodoriChessMapDataOuterClass.IrodoriChessMapData.Builder.class);
     }
 
-    public static final int ENTRANCE_DETAIL_INFO_FIELD_NUMBER = 3;
+    public static final int ENTRANCE_DETAIL_INFO_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo entranceDetailInfo_;
     /**
-     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
      * @return Whether the entranceDetailInfo field is set.
      */
     @java.lang.Override
@@ -199,7 +199,7 @@ public final class IrodoriChessMapDataOuterClass {
       return entranceDetailInfo_ != null;
     }
     /**
-     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
      * @return The entranceDetailInfo.
      */
     @java.lang.Override
@@ -207,17 +207,17 @@ public final class IrodoriChessMapDataOuterClass {
       return entranceDetailInfo_ == null ? emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.getDefaultInstance() : entranceDetailInfo_;
     }
     /**
-     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+     * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfoOrBuilder getEntranceDetailInfoOrBuilder() {
       return getEntranceDetailInfo();
     }
 
-    public static final int EQUIPED_CARD_LIST_FIELD_NUMBER = 14;
+    public static final int EQUIPED_CARD_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList equipedCardList_;
     /**
-     * <code>repeated uint32 equiped_card_list = 14;</code>
+     * <code>repeated uint32 equiped_card_list = 9;</code>
      * @return A list containing the equipedCardList.
      */
     @java.lang.Override
@@ -226,14 +226,14 @@ public final class IrodoriChessMapDataOuterClass {
       return equipedCardList_;
     }
     /**
-     * <code>repeated uint32 equiped_card_list = 14;</code>
+     * <code>repeated uint32 equiped_card_list = 9;</code>
      * @return The count of equipedCardList.
      */
     public int getEquipedCardListCount() {
       return equipedCardList_.size();
     }
     /**
-     * <code>repeated uint32 equiped_card_list = 14;</code>
+     * <code>repeated uint32 equiped_card_list = 9;</code>
      * @param index The index of the element to return.
      * @return The equipedCardList at the given index.
      */
@@ -242,10 +242,10 @@ public final class IrodoriChessMapDataOuterClass {
     }
     private int equipedCardListMemoizedSerializedSize = -1;
 
-    public static final int MAP_ID_FIELD_NUMBER = 12;
+    public static final int MAP_ID_FIELD_NUMBER = 8;
     private int mapId_;
     /**
-     * <code>uint32 map_id = 12;</code>
+     * <code>uint32 map_id = 8;</code>
      * @return The mapId.
      */
     @java.lang.Override
@@ -253,10 +253,10 @@ public final class IrodoriChessMapDataOuterClass {
       return mapId_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 13;
+    public static final int BEST_SCORE_FIELD_NUMBER = 4;
     private int bestScore_;
     /**
-     * <code>uint32 best_score = 13;</code>
+     * <code>uint32 best_score = 4;</code>
      * @return The bestScore.
      */
     @java.lang.Override
@@ -279,21 +279,21 @@ public final class IrodoriChessMapDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (entranceDetailInfo_ != null) {
-        output.writeMessage(3, getEntranceDetailInfo());
+      if (bestScore_ != 0) {
+        output.writeUInt32(4, bestScore_);
       }
       if (mapId_ != 0) {
-        output.writeUInt32(12, mapId_);
-      }
-      if (bestScore_ != 0) {
-        output.writeUInt32(13, bestScore_);
+        output.writeUInt32(8, mapId_);
       }
       if (getEquipedCardListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(equipedCardListMemoizedSerializedSize);
       }
       for (int i = 0; i < equipedCardList_.size(); i++) {
         output.writeUInt32NoTag(equipedCardList_.getInt(i));
+      }
+      if (entranceDetailInfo_ != null) {
+        output.writeMessage(13, getEntranceDetailInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -304,17 +304,13 @@ public final class IrodoriChessMapDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (entranceDetailInfo_ != null) {
+      if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getEntranceDetailInfo());
+          .computeUInt32Size(4, bestScore_);
       }
       if (mapId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, mapId_);
-      }
-      if (bestScore_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, bestScore_);
+          .computeUInt32Size(8, mapId_);
       }
       {
         int dataSize = 0;
@@ -329,6 +325,10 @@ public final class IrodoriChessMapDataOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         equipedCardListMemoizedSerializedSize = dataSize;
+      }
+      if (entranceDetailInfo_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, getEntranceDetailInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -664,14 +664,14 @@ public final class IrodoriChessMapDataOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo, emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.Builder, emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfoOrBuilder> entranceDetailInfoBuilder_;
       /**
-       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
        * @return Whether the entranceDetailInfo field is set.
        */
       public boolean hasEntranceDetailInfo() {
         return entranceDetailInfoBuilder_ != null || entranceDetailInfo_ != null;
       }
       /**
-       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
        * @return The entranceDetailInfo.
        */
       public emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo getEntranceDetailInfo() {
@@ -682,7 +682,7 @@ public final class IrodoriChessMapDataOuterClass {
         }
       }
       /**
-       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
        */
       public Builder setEntranceDetailInfo(emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo value) {
         if (entranceDetailInfoBuilder_ == null) {
@@ -698,7 +698,7 @@ public final class IrodoriChessMapDataOuterClass {
         return this;
       }
       /**
-       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
        */
       public Builder setEntranceDetailInfo(
           emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.Builder builderForValue) {
@@ -712,7 +712,7 @@ public final class IrodoriChessMapDataOuterClass {
         return this;
       }
       /**
-       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
        */
       public Builder mergeEntranceDetailInfo(emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo value) {
         if (entranceDetailInfoBuilder_ == null) {
@@ -730,7 +730,7 @@ public final class IrodoriChessMapDataOuterClass {
         return this;
       }
       /**
-       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
        */
       public Builder clearEntranceDetailInfo() {
         if (entranceDetailInfoBuilder_ == null) {
@@ -744,7 +744,7 @@ public final class IrodoriChessMapDataOuterClass {
         return this;
       }
       /**
-       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
        */
       public emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.Builder getEntranceDetailInfoBuilder() {
         
@@ -752,7 +752,7 @@ public final class IrodoriChessMapDataOuterClass {
         return getEntranceDetailInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
        */
       public emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfoOrBuilder getEntranceDetailInfoOrBuilder() {
         if (entranceDetailInfoBuilder_ != null) {
@@ -763,7 +763,7 @@ public final class IrodoriChessMapDataOuterClass {
         }
       }
       /**
-       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 3;</code>
+       * <code>.IrodoriChessEntranceDetailInfo entrance_detail_info = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo, emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfo.Builder, emu.grasscutter.net.proto.IrodoriChessEntranceDetailInfoOuterClass.IrodoriChessEntranceDetailInfoOrBuilder> 
@@ -787,7 +787,7 @@ public final class IrodoriChessMapDataOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 equiped_card_list = 14;</code>
+       * <code>repeated uint32 equiped_card_list = 9;</code>
        * @return A list containing the equipedCardList.
        */
       public java.util.List<java.lang.Integer>
@@ -796,14 +796,14 @@ public final class IrodoriChessMapDataOuterClass {
                  java.util.Collections.unmodifiableList(equipedCardList_) : equipedCardList_;
       }
       /**
-       * <code>repeated uint32 equiped_card_list = 14;</code>
+       * <code>repeated uint32 equiped_card_list = 9;</code>
        * @return The count of equipedCardList.
        */
       public int getEquipedCardListCount() {
         return equipedCardList_.size();
       }
       /**
-       * <code>repeated uint32 equiped_card_list = 14;</code>
+       * <code>repeated uint32 equiped_card_list = 9;</code>
        * @param index The index of the element to return.
        * @return The equipedCardList at the given index.
        */
@@ -811,7 +811,7 @@ public final class IrodoriChessMapDataOuterClass {
         return equipedCardList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 equiped_card_list = 14;</code>
+       * <code>repeated uint32 equiped_card_list = 9;</code>
        * @param index The index to set the value at.
        * @param value The equipedCardList to set.
        * @return This builder for chaining.
@@ -824,7 +824,7 @@ public final class IrodoriChessMapDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 equiped_card_list = 14;</code>
+       * <code>repeated uint32 equiped_card_list = 9;</code>
        * @param value The equipedCardList to add.
        * @return This builder for chaining.
        */
@@ -835,7 +835,7 @@ public final class IrodoriChessMapDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 equiped_card_list = 14;</code>
+       * <code>repeated uint32 equiped_card_list = 9;</code>
        * @param values The equipedCardList to add.
        * @return This builder for chaining.
        */
@@ -848,7 +848,7 @@ public final class IrodoriChessMapDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 equiped_card_list = 14;</code>
+       * <code>repeated uint32 equiped_card_list = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearEquipedCardList() {
@@ -860,7 +860,7 @@ public final class IrodoriChessMapDataOuterClass {
 
       private int mapId_ ;
       /**
-       * <code>uint32 map_id = 12;</code>
+       * <code>uint32 map_id = 8;</code>
        * @return The mapId.
        */
       @java.lang.Override
@@ -868,7 +868,7 @@ public final class IrodoriChessMapDataOuterClass {
         return mapId_;
       }
       /**
-       * <code>uint32 map_id = 12;</code>
+       * <code>uint32 map_id = 8;</code>
        * @param value The mapId to set.
        * @return This builder for chaining.
        */
@@ -879,7 +879,7 @@ public final class IrodoriChessMapDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 map_id = 12;</code>
+       * <code>uint32 map_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearMapId() {
@@ -891,7 +891,7 @@ public final class IrodoriChessMapDataOuterClass {
 
       private int bestScore_ ;
       /**
-       * <code>uint32 best_score = 13;</code>
+       * <code>uint32 best_score = 4;</code>
        * @return The bestScore.
        */
       @java.lang.Override
@@ -899,7 +899,7 @@ public final class IrodoriChessMapDataOuterClass {
         return bestScore_;
       }
       /**
-       * <code>uint32 best_score = 13;</code>
+       * <code>uint32 best_score = 4;</code>
        * @param value The bestScore to set.
        * @return This builder for chaining.
        */
@@ -910,7 +910,7 @@ public final class IrodoriChessMapDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 best_score = 13;</code>
+       * <code>uint32 best_score = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearBestScore() {
@@ -988,10 +988,10 @@ public final class IrodoriChessMapDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031IrodoriChessMapData.proto\032$IrodoriChes" +
       "sEntranceDetailInfo.proto\"\223\001\n\023IrodoriChe" +
-      "ssMapData\022=\n\024entrance_detail_info\030\003 \001(\0132" +
+      "ssMapData\022=\n\024entrance_detail_info\030\r \001(\0132" +
       "\037.IrodoriChessEntranceDetailInfo\022\031\n\021equi" +
-      "ped_card_list\030\016 \003(\r\022\016\n\006map_id\030\014 \001(\r\022\022\n\nb" +
-      "est_score\030\r \001(\rB\033\n\031emu.grasscutter.net.p" +
+      "ped_card_list\030\t \003(\r\022\016\n\006map_id\030\010 \001(\r\022\022\n\nb" +
+      "est_score\030\004 \001(\rB\033\n\031emu.grasscutter.net.p" +
       "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

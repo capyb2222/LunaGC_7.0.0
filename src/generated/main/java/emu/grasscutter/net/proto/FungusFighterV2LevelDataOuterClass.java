@@ -19,19 +19,19 @@ public final class FungusFighterV2LevelDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 OIKLMEFNDCM = 1;</code>
-     * @return The oIKLMEFNDCM.
+     * <code>uint32 FFJODAJJEMP = 12;</code>
+     * @return The fFJODAJJEMP.
      */
-    int getOIKLMEFNDCM();
+    int getFFJODAJJEMP();
 
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 2;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_level_open = 8;</code>
+     * <code>bool is_level_open = 5;</code>
      * @return The isLevelOpen.
      */
     boolean getIsLevelOpen();
@@ -81,19 +81,19 @@ public final class FungusFighterV2LevelDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
-              oIKLMEFNDCM_ = input.readUInt32();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 40: {
 
               isLevelOpen_ = input.readBool();
               break;
             }
-            case 112: {
+            case 96: {
 
-              levelId_ = input.readUInt32();
+              fFJODAJJEMP_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,21 +128,21 @@ public final class FungusFighterV2LevelDataOuterClass {
               emu.grasscutter.net.proto.FungusFighterV2LevelDataOuterClass.FungusFighterV2LevelData.class, emu.grasscutter.net.proto.FungusFighterV2LevelDataOuterClass.FungusFighterV2LevelData.Builder.class);
     }
 
-    public static final int OIKLMEFNDCM_FIELD_NUMBER = 1;
-    private int oIKLMEFNDCM_;
+    public static final int FFJODAJJEMP_FIELD_NUMBER = 12;
+    private int fFJODAJJEMP_;
     /**
-     * <code>uint32 OIKLMEFNDCM = 1;</code>
-     * @return The oIKLMEFNDCM.
+     * <code>uint32 FFJODAJJEMP = 12;</code>
+     * @return The fFJODAJJEMP.
      */
     @java.lang.Override
-    public int getOIKLMEFNDCM() {
-      return oIKLMEFNDCM_;
+    public int getFFJODAJJEMP() {
+      return fFJODAJJEMP_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 14;
+    public static final int LEVEL_ID_FIELD_NUMBER = 2;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 2;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class FungusFighterV2LevelDataOuterClass {
       return levelId_;
     }
 
-    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 8;
+    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 5;
     private boolean isLevelOpen_;
     /**
-     * <code>bool is_level_open = 8;</code>
+     * <code>bool is_level_open = 5;</code>
      * @return The isLevelOpen.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class FungusFighterV2LevelDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (oIKLMEFNDCM_ != 0) {
-        output.writeUInt32(1, oIKLMEFNDCM_);
+      if (levelId_ != 0) {
+        output.writeUInt32(2, levelId_);
       }
       if (isLevelOpen_ != false) {
-        output.writeBool(8, isLevelOpen_);
+        output.writeBool(5, isLevelOpen_);
       }
-      if (levelId_ != 0) {
-        output.writeUInt32(14, levelId_);
+      if (fFJODAJJEMP_ != 0) {
+        output.writeUInt32(12, fFJODAJJEMP_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class FungusFighterV2LevelDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (oIKLMEFNDCM_ != 0) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, oIKLMEFNDCM_);
+          .computeUInt32Size(2, levelId_);
       }
       if (isLevelOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isLevelOpen_);
+          .computeBoolSize(5, isLevelOpen_);
       }
-      if (levelId_ != 0) {
+      if (fFJODAJJEMP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, levelId_);
+          .computeUInt32Size(12, fFJODAJJEMP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -220,8 +220,8 @@ public final class FungusFighterV2LevelDataOuterClass {
       }
       emu.grasscutter.net.proto.FungusFighterV2LevelDataOuterClass.FungusFighterV2LevelData other = (emu.grasscutter.net.proto.FungusFighterV2LevelDataOuterClass.FungusFighterV2LevelData) obj;
 
-      if (getOIKLMEFNDCM()
-          != other.getOIKLMEFNDCM()) return false;
+      if (getFFJODAJJEMP()
+          != other.getFFJODAJJEMP()) return false;
       if (getLevelId()
           != other.getLevelId()) return false;
       if (getIsLevelOpen()
@@ -237,8 +237,8 @@ public final class FungusFighterV2LevelDataOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + OIKLMEFNDCM_FIELD_NUMBER;
-      hash = (53 * hash) + getOIKLMEFNDCM();
+      hash = (37 * hash) + FFJODAJJEMP_FIELD_NUMBER;
+      hash = (53 * hash) + getFFJODAJJEMP();
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
       hash = (37 * hash) + IS_LEVEL_OPEN_FIELD_NUMBER;
@@ -377,7 +377,7 @@ public final class FungusFighterV2LevelDataOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        oIKLMEFNDCM_ = 0;
+        fFJODAJJEMP_ = 0;
 
         levelId_ = 0;
 
@@ -409,7 +409,7 @@ public final class FungusFighterV2LevelDataOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FungusFighterV2LevelDataOuterClass.FungusFighterV2LevelData buildPartial() {
         emu.grasscutter.net.proto.FungusFighterV2LevelDataOuterClass.FungusFighterV2LevelData result = new emu.grasscutter.net.proto.FungusFighterV2LevelDataOuterClass.FungusFighterV2LevelData(this);
-        result.oIKLMEFNDCM_ = oIKLMEFNDCM_;
+        result.fFJODAJJEMP_ = fFJODAJJEMP_;
         result.levelId_ = levelId_;
         result.isLevelOpen_ = isLevelOpen_;
         onBuilt();
@@ -460,8 +460,8 @@ public final class FungusFighterV2LevelDataOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FungusFighterV2LevelDataOuterClass.FungusFighterV2LevelData other) {
         if (other == emu.grasscutter.net.proto.FungusFighterV2LevelDataOuterClass.FungusFighterV2LevelData.getDefaultInstance()) return this;
-        if (other.getOIKLMEFNDCM() != 0) {
-          setOIKLMEFNDCM(other.getOIKLMEFNDCM());
+        if (other.getFFJODAJJEMP() != 0) {
+          setFFJODAJJEMP(other.getFFJODAJJEMP());
         }
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
@@ -498,40 +498,40 @@ public final class FungusFighterV2LevelDataOuterClass {
         return this;
       }
 
-      private int oIKLMEFNDCM_ ;
+      private int fFJODAJJEMP_ ;
       /**
-       * <code>uint32 OIKLMEFNDCM = 1;</code>
-       * @return The oIKLMEFNDCM.
+       * <code>uint32 FFJODAJJEMP = 12;</code>
+       * @return The fFJODAJJEMP.
        */
       @java.lang.Override
-      public int getOIKLMEFNDCM() {
-        return oIKLMEFNDCM_;
+      public int getFFJODAJJEMP() {
+        return fFJODAJJEMP_;
       }
       /**
-       * <code>uint32 OIKLMEFNDCM = 1;</code>
-       * @param value The oIKLMEFNDCM to set.
+       * <code>uint32 FFJODAJJEMP = 12;</code>
+       * @param value The fFJODAJJEMP to set.
        * @return This builder for chaining.
        */
-      public Builder setOIKLMEFNDCM(int value) {
+      public Builder setFFJODAJJEMP(int value) {
         
-        oIKLMEFNDCM_ = value;
+        fFJODAJJEMP_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 OIKLMEFNDCM = 1;</code>
+       * <code>uint32 FFJODAJJEMP = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOIKLMEFNDCM() {
+      public Builder clearFFJODAJJEMP() {
         
-        oIKLMEFNDCM_ = 0;
+        fFJODAJJEMP_ = 0;
         onChanged();
         return this;
       }
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 2;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class FungusFighterV2LevelDataOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 2;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class FungusFighterV2LevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -562,7 +562,7 @@ public final class FungusFighterV2LevelDataOuterClass {
 
       private boolean isLevelOpen_ ;
       /**
-       * <code>bool is_level_open = 8;</code>
+       * <code>bool is_level_open = 5;</code>
        * @return The isLevelOpen.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class FungusFighterV2LevelDataOuterClass {
         return isLevelOpen_;
       }
       /**
-       * <code>bool is_level_open = 8;</code>
+       * <code>bool is_level_open = 5;</code>
        * @param value The isLevelOpen to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class FungusFighterV2LevelDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_level_open = 8;</code>
+       * <code>bool is_level_open = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsLevelOpen() {
@@ -658,8 +658,8 @@ public final class FungusFighterV2LevelDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036FungusFighterV2LevelData.proto\"X\n\030Fung" +
-      "usFighterV2LevelData\022\023\n\013OIKLMEFNDCM\030\001 \001(" +
-      "\r\022\020\n\010level_id\030\016 \001(\r\022\025\n\ris_level_open\030\010 \001" +
+      "usFighterV2LevelData\022\023\n\013FFJODAJJEMP\030\014 \001(" +
+      "\r\022\020\n\010level_id\030\002 \001(\r\022\025\n\ris_level_open\030\005 \001" +
       "(\010B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -671,7 +671,7 @@ public final class FungusFighterV2LevelDataOuterClass {
     internal_static_FungusFighterV2LevelData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FungusFighterV2LevelData_descriptor,
-        new java.lang.String[] { "OIKLMEFNDCM", "LevelId", "IsLevelOpen", });
+        new java.lang.String[] { "FFJODAJJEMP", "LevelId", "IsLevelOpen", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -43,52 +43,52 @@ public final class SeaLampActivityInfoOuterClass {
         int index);
 
     /**
-     * <code>uint32 OMOEFPDMPOJ = 12;</code>
-     * @return The oMOEFPDMPOJ.
-     */
-    int getOMOEFPDMPOJ();
-
-    /**
-     * <code>uint32 CBMLGBNKAPH = 6;</code>
-     * @return The cBMLGBNKAPH.
-     */
-    int getCBMLGBNKAPH();
-
-    /**
-     * <code>uint32 DHDNDJGEAME = 4;</code>
-     * @return The dHDNDJGEAME.
-     */
-    int getDHDNDJGEAME();
-
-    /**
-     * <code>bool is_content_closed = 3;</code>
-     * @return The isContentClosed.
-     */
-    boolean getIsContentClosed();
-
-    /**
-     * <code>bool AOIEINPFNCD = 5;</code>
-     * @return The aOIEINPFNCD.
-     */
-    boolean getAOIEINPFNCD();
-
-    /**
-     * <code>bool JOKNGPIPEPJ = 8;</code>
-     * @return The jOKNGPIPEPJ.
-     */
-    boolean getJOKNGPIPEPJ();
-
-    /**
-     * <code>uint32 day_index = 7;</code>
+     * <code>uint32 day_index = 1;</code>
      * @return The dayIndex.
      */
     int getDayIndex();
 
     /**
-     * <code>uint32 first_day_start_time = 1;</code>
-     * @return The firstDayStartTime.
+     * <code>uint32 FBJCFBCFKNJ = 12;</code>
+     * @return The fBJCFBCFKNJ.
      */
-    int getFirstDayStartTime();
+    int getFBJCFBCFKNJ();
+
+    /**
+     * <code>uint32 LHMPDPGLBBK = 9;</code>
+     * @return The lHMPDPGLBBK.
+     */
+    int getLHMPDPGLBBK();
+
+    /**
+     * <code>bool EBOIFEKCDNG = 3;</code>
+     * @return The eBOIFEKCDNG.
+     */
+    boolean getEBOIFEKCDNG();
+
+    /**
+     * <code>bool is_content_closed = 2;</code>
+     * @return The isContentClosed.
+     */
+    boolean getIsContentClosed();
+
+    /**
+     * <code>bool GHICFNGPIJE = 7;</code>
+     * @return The gHICFNGPIJE.
+     */
+    boolean getGHICFNGPIJE();
+
+    /**
+     * <code>uint32 LFLKBPJFDGG = 5;</code>
+     * @return The lFLKBPJFDGG.
+     */
+    int getLFLKBPJFDGG();
+
+    /**
+     * <code>uint32 OODELNLNBPF = 8;</code>
+     * @return The oODELNLNBPF.
+     */
+    int getOODELNLNBPF();
   }
   /**
    * Protobuf type {@code SeaLampActivityInfo}
@@ -139,37 +139,37 @@ public final class SeaLampActivityInfoOuterClass {
               break;
             case 8: {
 
-              firstDayStartTime_ = input.readUInt32();
+              dayIndex_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 16: {
 
               isContentClosed_ = input.readBool();
               break;
             }
-            case 32: {
+            case 24: {
 
-              dHDNDJGEAME_ = input.readUInt32();
+              eBOIFEKCDNG_ = input.readBool();
               break;
             }
             case 40: {
 
-              aOIEINPFNCD_ = input.readBool();
-              break;
-            }
-            case 48: {
-
-              cBMLGBNKAPH_ = input.readUInt32();
+              lFLKBPJFDGG_ = input.readUInt32();
               break;
             }
             case 56: {
 
-              dayIndex_ = input.readUInt32();
+              gHICFNGPIJE_ = input.readBool();
               break;
             }
             case 64: {
 
-              jOKNGPIPEPJ_ = input.readBool();
+              oODELNLNBPF_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              lHMPDPGLBBK_ = input.readUInt32();
               break;
             }
             case 82: {
@@ -183,7 +183,7 @@ public final class SeaLampActivityInfoOuterClass {
             }
             case 96: {
 
-              oMOEFPDMPOJ_ = input.readUInt32();
+              fBJCFBCFKNJ_ = input.readUInt32();
               break;
             }
             default: {
@@ -261,76 +261,10 @@ public final class SeaLampActivityInfoOuterClass {
       return sectionInfoList_.get(index);
     }
 
-    public static final int OMOEFPDMPOJ_FIELD_NUMBER = 12;
-    private int oMOEFPDMPOJ_;
-    /**
-     * <code>uint32 OMOEFPDMPOJ = 12;</code>
-     * @return The oMOEFPDMPOJ.
-     */
-    @java.lang.Override
-    public int getOMOEFPDMPOJ() {
-      return oMOEFPDMPOJ_;
-    }
-
-    public static final int CBMLGBNKAPH_FIELD_NUMBER = 6;
-    private int cBMLGBNKAPH_;
-    /**
-     * <code>uint32 CBMLGBNKAPH = 6;</code>
-     * @return The cBMLGBNKAPH.
-     */
-    @java.lang.Override
-    public int getCBMLGBNKAPH() {
-      return cBMLGBNKAPH_;
-    }
-
-    public static final int DHDNDJGEAME_FIELD_NUMBER = 4;
-    private int dHDNDJGEAME_;
-    /**
-     * <code>uint32 DHDNDJGEAME = 4;</code>
-     * @return The dHDNDJGEAME.
-     */
-    @java.lang.Override
-    public int getDHDNDJGEAME() {
-      return dHDNDJGEAME_;
-    }
-
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 3;
-    private boolean isContentClosed_;
-    /**
-     * <code>bool is_content_closed = 3;</code>
-     * @return The isContentClosed.
-     */
-    @java.lang.Override
-    public boolean getIsContentClosed() {
-      return isContentClosed_;
-    }
-
-    public static final int AOIEINPFNCD_FIELD_NUMBER = 5;
-    private boolean aOIEINPFNCD_;
-    /**
-     * <code>bool AOIEINPFNCD = 5;</code>
-     * @return The aOIEINPFNCD.
-     */
-    @java.lang.Override
-    public boolean getAOIEINPFNCD() {
-      return aOIEINPFNCD_;
-    }
-
-    public static final int JOKNGPIPEPJ_FIELD_NUMBER = 8;
-    private boolean jOKNGPIPEPJ_;
-    /**
-     * <code>bool JOKNGPIPEPJ = 8;</code>
-     * @return The jOKNGPIPEPJ.
-     */
-    @java.lang.Override
-    public boolean getJOKNGPIPEPJ() {
-      return jOKNGPIPEPJ_;
-    }
-
-    public static final int DAY_INDEX_FIELD_NUMBER = 7;
+    public static final int DAY_INDEX_FIELD_NUMBER = 1;
     private int dayIndex_;
     /**
-     * <code>uint32 day_index = 7;</code>
+     * <code>uint32 day_index = 1;</code>
      * @return The dayIndex.
      */
     @java.lang.Override
@@ -338,15 +272,81 @@ public final class SeaLampActivityInfoOuterClass {
       return dayIndex_;
     }
 
-    public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 1;
-    private int firstDayStartTime_;
+    public static final int FBJCFBCFKNJ_FIELD_NUMBER = 12;
+    private int fBJCFBCFKNJ_;
     /**
-     * <code>uint32 first_day_start_time = 1;</code>
-     * @return The firstDayStartTime.
+     * <code>uint32 FBJCFBCFKNJ = 12;</code>
+     * @return The fBJCFBCFKNJ.
      */
     @java.lang.Override
-    public int getFirstDayStartTime() {
-      return firstDayStartTime_;
+    public int getFBJCFBCFKNJ() {
+      return fBJCFBCFKNJ_;
+    }
+
+    public static final int LHMPDPGLBBK_FIELD_NUMBER = 9;
+    private int lHMPDPGLBBK_;
+    /**
+     * <code>uint32 LHMPDPGLBBK = 9;</code>
+     * @return The lHMPDPGLBBK.
+     */
+    @java.lang.Override
+    public int getLHMPDPGLBBK() {
+      return lHMPDPGLBBK_;
+    }
+
+    public static final int EBOIFEKCDNG_FIELD_NUMBER = 3;
+    private boolean eBOIFEKCDNG_;
+    /**
+     * <code>bool EBOIFEKCDNG = 3;</code>
+     * @return The eBOIFEKCDNG.
+     */
+    @java.lang.Override
+    public boolean getEBOIFEKCDNG() {
+      return eBOIFEKCDNG_;
+    }
+
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 2;
+    private boolean isContentClosed_;
+    /**
+     * <code>bool is_content_closed = 2;</code>
+     * @return The isContentClosed.
+     */
+    @java.lang.Override
+    public boolean getIsContentClosed() {
+      return isContentClosed_;
+    }
+
+    public static final int GHICFNGPIJE_FIELD_NUMBER = 7;
+    private boolean gHICFNGPIJE_;
+    /**
+     * <code>bool GHICFNGPIJE = 7;</code>
+     * @return The gHICFNGPIJE.
+     */
+    @java.lang.Override
+    public boolean getGHICFNGPIJE() {
+      return gHICFNGPIJE_;
+    }
+
+    public static final int LFLKBPJFDGG_FIELD_NUMBER = 5;
+    private int lFLKBPJFDGG_;
+    /**
+     * <code>uint32 LFLKBPJFDGG = 5;</code>
+     * @return The lFLKBPJFDGG.
+     */
+    @java.lang.Override
+    public int getLFLKBPJFDGG() {
+      return lFLKBPJFDGG_;
+    }
+
+    public static final int OODELNLNBPF_FIELD_NUMBER = 8;
+    private int oODELNLNBPF_;
+    /**
+     * <code>uint32 OODELNLNBPF = 8;</code>
+     * @return The oODELNLNBPF.
+     */
+    @java.lang.Override
+    public int getOODELNLNBPF() {
+      return oODELNLNBPF_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -363,32 +363,32 @@ public final class SeaLampActivityInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (firstDayStartTime_ != 0) {
-        output.writeUInt32(1, firstDayStartTime_);
+      if (dayIndex_ != 0) {
+        output.writeUInt32(1, dayIndex_);
       }
       if (isContentClosed_ != false) {
-        output.writeBool(3, isContentClosed_);
+        output.writeBool(2, isContentClosed_);
       }
-      if (dHDNDJGEAME_ != 0) {
-        output.writeUInt32(4, dHDNDJGEAME_);
+      if (eBOIFEKCDNG_ != false) {
+        output.writeBool(3, eBOIFEKCDNG_);
       }
-      if (aOIEINPFNCD_ != false) {
-        output.writeBool(5, aOIEINPFNCD_);
+      if (lFLKBPJFDGG_ != 0) {
+        output.writeUInt32(5, lFLKBPJFDGG_);
       }
-      if (cBMLGBNKAPH_ != 0) {
-        output.writeUInt32(6, cBMLGBNKAPH_);
+      if (gHICFNGPIJE_ != false) {
+        output.writeBool(7, gHICFNGPIJE_);
       }
-      if (dayIndex_ != 0) {
-        output.writeUInt32(7, dayIndex_);
+      if (oODELNLNBPF_ != 0) {
+        output.writeUInt32(8, oODELNLNBPF_);
       }
-      if (jOKNGPIPEPJ_ != false) {
-        output.writeBool(8, jOKNGPIPEPJ_);
+      if (lHMPDPGLBBK_ != 0) {
+        output.writeUInt32(9, lHMPDPGLBBK_);
       }
       for (int i = 0; i < sectionInfoList_.size(); i++) {
         output.writeMessage(10, sectionInfoList_.get(i));
       }
-      if (oMOEFPDMPOJ_ != 0) {
-        output.writeUInt32(12, oMOEFPDMPOJ_);
+      if (fBJCFBCFKNJ_ != 0) {
+        output.writeUInt32(12, fBJCFBCFKNJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -399,41 +399,41 @@ public final class SeaLampActivityInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (firstDayStartTime_ != 0) {
+      if (dayIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, firstDayStartTime_);
+          .computeUInt32Size(1, dayIndex_);
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isContentClosed_);
+          .computeBoolSize(2, isContentClosed_);
       }
-      if (dHDNDJGEAME_ != 0) {
+      if (eBOIFEKCDNG_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, dHDNDJGEAME_);
+          .computeBoolSize(3, eBOIFEKCDNG_);
       }
-      if (aOIEINPFNCD_ != false) {
+      if (lFLKBPJFDGG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, aOIEINPFNCD_);
+          .computeUInt32Size(5, lFLKBPJFDGG_);
       }
-      if (cBMLGBNKAPH_ != 0) {
+      if (gHICFNGPIJE_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, cBMLGBNKAPH_);
+          .computeBoolSize(7, gHICFNGPIJE_);
       }
-      if (dayIndex_ != 0) {
+      if (oODELNLNBPF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, dayIndex_);
+          .computeUInt32Size(8, oODELNLNBPF_);
       }
-      if (jOKNGPIPEPJ_ != false) {
+      if (lHMPDPGLBBK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, jOKNGPIPEPJ_);
+          .computeUInt32Size(9, lHMPDPGLBBK_);
       }
       for (int i = 0; i < sectionInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(10, sectionInfoList_.get(i));
       }
-      if (oMOEFPDMPOJ_ != 0) {
+      if (fBJCFBCFKNJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, oMOEFPDMPOJ_);
+          .computeUInt32Size(12, fBJCFBCFKNJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -452,22 +452,22 @@ public final class SeaLampActivityInfoOuterClass {
 
       if (!getSectionInfoListList()
           .equals(other.getSectionInfoListList())) return false;
-      if (getOMOEFPDMPOJ()
-          != other.getOMOEFPDMPOJ()) return false;
-      if (getCBMLGBNKAPH()
-          != other.getCBMLGBNKAPH()) return false;
-      if (getDHDNDJGEAME()
-          != other.getDHDNDJGEAME()) return false;
-      if (getIsContentClosed()
-          != other.getIsContentClosed()) return false;
-      if (getAOIEINPFNCD()
-          != other.getAOIEINPFNCD()) return false;
-      if (getJOKNGPIPEPJ()
-          != other.getJOKNGPIPEPJ()) return false;
       if (getDayIndex()
           != other.getDayIndex()) return false;
-      if (getFirstDayStartTime()
-          != other.getFirstDayStartTime()) return false;
+      if (getFBJCFBCFKNJ()
+          != other.getFBJCFBCFKNJ()) return false;
+      if (getLHMPDPGLBBK()
+          != other.getLHMPDPGLBBK()) return false;
+      if (getEBOIFEKCDNG()
+          != other.getEBOIFEKCDNG()) return false;
+      if (getIsContentClosed()
+          != other.getIsContentClosed()) return false;
+      if (getGHICFNGPIJE()
+          != other.getGHICFNGPIJE()) return false;
+      if (getLFLKBPJFDGG()
+          != other.getLFLKBPJFDGG()) return false;
+      if (getOODELNLNBPF()
+          != other.getOODELNLNBPF()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -483,25 +483,25 @@ public final class SeaLampActivityInfoOuterClass {
         hash = (37 * hash) + SECTION_INFO_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getSectionInfoListList().hashCode();
       }
-      hash = (37 * hash) + OMOEFPDMPOJ_FIELD_NUMBER;
-      hash = (53 * hash) + getOMOEFPDMPOJ();
-      hash = (37 * hash) + CBMLGBNKAPH_FIELD_NUMBER;
-      hash = (53 * hash) + getCBMLGBNKAPH();
-      hash = (37 * hash) + DHDNDJGEAME_FIELD_NUMBER;
-      hash = (53 * hash) + getDHDNDJGEAME();
+      hash = (37 * hash) + DAY_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getDayIndex();
+      hash = (37 * hash) + FBJCFBCFKNJ_FIELD_NUMBER;
+      hash = (53 * hash) + getFBJCFBCFKNJ();
+      hash = (37 * hash) + LHMPDPGLBBK_FIELD_NUMBER;
+      hash = (53 * hash) + getLHMPDPGLBBK();
+      hash = (37 * hash) + EBOIFEKCDNG_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getEBOIFEKCDNG());
       hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsContentClosed());
-      hash = (37 * hash) + AOIEINPFNCD_FIELD_NUMBER;
+      hash = (37 * hash) + GHICFNGPIJE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getAOIEINPFNCD());
-      hash = (37 * hash) + JOKNGPIPEPJ_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getJOKNGPIPEPJ());
-      hash = (37 * hash) + DAY_INDEX_FIELD_NUMBER;
-      hash = (53 * hash) + getDayIndex();
-      hash = (37 * hash) + FIRST_DAY_START_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getFirstDayStartTime();
+          getGHICFNGPIJE());
+      hash = (37 * hash) + LFLKBPJFDGG_FIELD_NUMBER;
+      hash = (53 * hash) + getLFLKBPJFDGG();
+      hash = (37 * hash) + OODELNLNBPF_FIELD_NUMBER;
+      hash = (53 * hash) + getOODELNLNBPF();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -642,21 +642,21 @@ public final class SeaLampActivityInfoOuterClass {
         } else {
           sectionInfoListBuilder_.clear();
         }
-        oMOEFPDMPOJ_ = 0;
+        dayIndex_ = 0;
 
-        cBMLGBNKAPH_ = 0;
+        fBJCFBCFKNJ_ = 0;
 
-        dHDNDJGEAME_ = 0;
+        lHMPDPGLBBK_ = 0;
+
+        eBOIFEKCDNG_ = false;
 
         isContentClosed_ = false;
 
-        aOIEINPFNCD_ = false;
+        gHICFNGPIJE_ = false;
 
-        jOKNGPIPEPJ_ = false;
+        lFLKBPJFDGG_ = 0;
 
-        dayIndex_ = 0;
-
-        firstDayStartTime_ = 0;
+        oODELNLNBPF_ = 0;
 
         return this;
       }
@@ -694,14 +694,14 @@ public final class SeaLampActivityInfoOuterClass {
         } else {
           result.sectionInfoList_ = sectionInfoListBuilder_.build();
         }
-        result.oMOEFPDMPOJ_ = oMOEFPDMPOJ_;
-        result.cBMLGBNKAPH_ = cBMLGBNKAPH_;
-        result.dHDNDJGEAME_ = dHDNDJGEAME_;
-        result.isContentClosed_ = isContentClosed_;
-        result.aOIEINPFNCD_ = aOIEINPFNCD_;
-        result.jOKNGPIPEPJ_ = jOKNGPIPEPJ_;
         result.dayIndex_ = dayIndex_;
-        result.firstDayStartTime_ = firstDayStartTime_;
+        result.fBJCFBCFKNJ_ = fBJCFBCFKNJ_;
+        result.lHMPDPGLBBK_ = lHMPDPGLBBK_;
+        result.eBOIFEKCDNG_ = eBOIFEKCDNG_;
+        result.isContentClosed_ = isContentClosed_;
+        result.gHICFNGPIJE_ = gHICFNGPIJE_;
+        result.lFLKBPJFDGG_ = lFLKBPJFDGG_;
+        result.oODELNLNBPF_ = oODELNLNBPF_;
         onBuilt();
         return result;
       }
@@ -776,29 +776,29 @@ public final class SeaLampActivityInfoOuterClass {
             }
           }
         }
-        if (other.getOMOEFPDMPOJ() != 0) {
-          setOMOEFPDMPOJ(other.getOMOEFPDMPOJ());
+        if (other.getDayIndex() != 0) {
+          setDayIndex(other.getDayIndex());
         }
-        if (other.getCBMLGBNKAPH() != 0) {
-          setCBMLGBNKAPH(other.getCBMLGBNKAPH());
+        if (other.getFBJCFBCFKNJ() != 0) {
+          setFBJCFBCFKNJ(other.getFBJCFBCFKNJ());
         }
-        if (other.getDHDNDJGEAME() != 0) {
-          setDHDNDJGEAME(other.getDHDNDJGEAME());
+        if (other.getLHMPDPGLBBK() != 0) {
+          setLHMPDPGLBBK(other.getLHMPDPGLBBK());
+        }
+        if (other.getEBOIFEKCDNG() != false) {
+          setEBOIFEKCDNG(other.getEBOIFEKCDNG());
         }
         if (other.getIsContentClosed() != false) {
           setIsContentClosed(other.getIsContentClosed());
         }
-        if (other.getAOIEINPFNCD() != false) {
-          setAOIEINPFNCD(other.getAOIEINPFNCD());
+        if (other.getGHICFNGPIJE() != false) {
+          setGHICFNGPIJE(other.getGHICFNGPIJE());
         }
-        if (other.getJOKNGPIPEPJ() != false) {
-          setJOKNGPIPEPJ(other.getJOKNGPIPEPJ());
+        if (other.getLFLKBPJFDGG() != 0) {
+          setLFLKBPJFDGG(other.getLFLKBPJFDGG());
         }
-        if (other.getDayIndex() != 0) {
-          setDayIndex(other.getDayIndex());
-        }
-        if (other.getFirstDayStartTime() != 0) {
-          setFirstDayStartTime(other.getFirstDayStartTime());
+        if (other.getOODELNLNBPF() != 0) {
+          setOODELNLNBPF(other.getOODELNLNBPF());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1070,195 +1070,9 @@ public final class SeaLampActivityInfoOuterClass {
         return sectionInfoListBuilder_;
       }
 
-      private int oMOEFPDMPOJ_ ;
-      /**
-       * <code>uint32 OMOEFPDMPOJ = 12;</code>
-       * @return The oMOEFPDMPOJ.
-       */
-      @java.lang.Override
-      public int getOMOEFPDMPOJ() {
-        return oMOEFPDMPOJ_;
-      }
-      /**
-       * <code>uint32 OMOEFPDMPOJ = 12;</code>
-       * @param value The oMOEFPDMPOJ to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOMOEFPDMPOJ(int value) {
-        
-        oMOEFPDMPOJ_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 OMOEFPDMPOJ = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOMOEFPDMPOJ() {
-        
-        oMOEFPDMPOJ_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int cBMLGBNKAPH_ ;
-      /**
-       * <code>uint32 CBMLGBNKAPH = 6;</code>
-       * @return The cBMLGBNKAPH.
-       */
-      @java.lang.Override
-      public int getCBMLGBNKAPH() {
-        return cBMLGBNKAPH_;
-      }
-      /**
-       * <code>uint32 CBMLGBNKAPH = 6;</code>
-       * @param value The cBMLGBNKAPH to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCBMLGBNKAPH(int value) {
-        
-        cBMLGBNKAPH_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 CBMLGBNKAPH = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCBMLGBNKAPH() {
-        
-        cBMLGBNKAPH_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int dHDNDJGEAME_ ;
-      /**
-       * <code>uint32 DHDNDJGEAME = 4;</code>
-       * @return The dHDNDJGEAME.
-       */
-      @java.lang.Override
-      public int getDHDNDJGEAME() {
-        return dHDNDJGEAME_;
-      }
-      /**
-       * <code>uint32 DHDNDJGEAME = 4;</code>
-       * @param value The dHDNDJGEAME to set.
-       * @return This builder for chaining.
-       */
-      public Builder setDHDNDJGEAME(int value) {
-        
-        dHDNDJGEAME_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 DHDNDJGEAME = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearDHDNDJGEAME() {
-        
-        dHDNDJGEAME_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean isContentClosed_ ;
-      /**
-       * <code>bool is_content_closed = 3;</code>
-       * @return The isContentClosed.
-       */
-      @java.lang.Override
-      public boolean getIsContentClosed() {
-        return isContentClosed_;
-      }
-      /**
-       * <code>bool is_content_closed = 3;</code>
-       * @param value The isContentClosed to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsContentClosed(boolean value) {
-        
-        isContentClosed_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_content_closed = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsContentClosed() {
-        
-        isContentClosed_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean aOIEINPFNCD_ ;
-      /**
-       * <code>bool AOIEINPFNCD = 5;</code>
-       * @return The aOIEINPFNCD.
-       */
-      @java.lang.Override
-      public boolean getAOIEINPFNCD() {
-        return aOIEINPFNCD_;
-      }
-      /**
-       * <code>bool AOIEINPFNCD = 5;</code>
-       * @param value The aOIEINPFNCD to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAOIEINPFNCD(boolean value) {
-        
-        aOIEINPFNCD_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool AOIEINPFNCD = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAOIEINPFNCD() {
-        
-        aOIEINPFNCD_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean jOKNGPIPEPJ_ ;
-      /**
-       * <code>bool JOKNGPIPEPJ = 8;</code>
-       * @return The jOKNGPIPEPJ.
-       */
-      @java.lang.Override
-      public boolean getJOKNGPIPEPJ() {
-        return jOKNGPIPEPJ_;
-      }
-      /**
-       * <code>bool JOKNGPIPEPJ = 8;</code>
-       * @param value The jOKNGPIPEPJ to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJOKNGPIPEPJ(boolean value) {
-        
-        jOKNGPIPEPJ_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool JOKNGPIPEPJ = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJOKNGPIPEPJ() {
-        
-        jOKNGPIPEPJ_ = false;
-        onChanged();
-        return this;
-      }
-
       private int dayIndex_ ;
       /**
-       * <code>uint32 day_index = 7;</code>
+       * <code>uint32 day_index = 1;</code>
        * @return The dayIndex.
        */
       @java.lang.Override
@@ -1266,7 +1080,7 @@ public final class SeaLampActivityInfoOuterClass {
         return dayIndex_;
       }
       /**
-       * <code>uint32 day_index = 7;</code>
+       * <code>uint32 day_index = 1;</code>
        * @param value The dayIndex to set.
        * @return This builder for chaining.
        */
@@ -1277,7 +1091,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 day_index = 7;</code>
+       * <code>uint32 day_index = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearDayIndex() {
@@ -1287,33 +1101,219 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
 
-      private int firstDayStartTime_ ;
+      private int fBJCFBCFKNJ_ ;
       /**
-       * <code>uint32 first_day_start_time = 1;</code>
-       * @return The firstDayStartTime.
+       * <code>uint32 FBJCFBCFKNJ = 12;</code>
+       * @return The fBJCFBCFKNJ.
        */
       @java.lang.Override
-      public int getFirstDayStartTime() {
-        return firstDayStartTime_;
+      public int getFBJCFBCFKNJ() {
+        return fBJCFBCFKNJ_;
       }
       /**
-       * <code>uint32 first_day_start_time = 1;</code>
-       * @param value The firstDayStartTime to set.
+       * <code>uint32 FBJCFBCFKNJ = 12;</code>
+       * @param value The fBJCFBCFKNJ to set.
        * @return This builder for chaining.
        */
-      public Builder setFirstDayStartTime(int value) {
+      public Builder setFBJCFBCFKNJ(int value) {
         
-        firstDayStartTime_ = value;
+        fBJCFBCFKNJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 first_day_start_time = 1;</code>
+       * <code>uint32 FBJCFBCFKNJ = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFirstDayStartTime() {
+      public Builder clearFBJCFBCFKNJ() {
         
-        firstDayStartTime_ = 0;
+        fBJCFBCFKNJ_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int lHMPDPGLBBK_ ;
+      /**
+       * <code>uint32 LHMPDPGLBBK = 9;</code>
+       * @return The lHMPDPGLBBK.
+       */
+      @java.lang.Override
+      public int getLHMPDPGLBBK() {
+        return lHMPDPGLBBK_;
+      }
+      /**
+       * <code>uint32 LHMPDPGLBBK = 9;</code>
+       * @param value The lHMPDPGLBBK to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLHMPDPGLBBK(int value) {
+        
+        lHMPDPGLBBK_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 LHMPDPGLBBK = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLHMPDPGLBBK() {
+        
+        lHMPDPGLBBK_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean eBOIFEKCDNG_ ;
+      /**
+       * <code>bool EBOIFEKCDNG = 3;</code>
+       * @return The eBOIFEKCDNG.
+       */
+      @java.lang.Override
+      public boolean getEBOIFEKCDNG() {
+        return eBOIFEKCDNG_;
+      }
+      /**
+       * <code>bool EBOIFEKCDNG = 3;</code>
+       * @param value The eBOIFEKCDNG to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEBOIFEKCDNG(boolean value) {
+        
+        eBOIFEKCDNG_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool EBOIFEKCDNG = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEBOIFEKCDNG() {
+        
+        eBOIFEKCDNG_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean isContentClosed_ ;
+      /**
+       * <code>bool is_content_closed = 2;</code>
+       * @return The isContentClosed.
+       */
+      @java.lang.Override
+      public boolean getIsContentClosed() {
+        return isContentClosed_;
+      }
+      /**
+       * <code>bool is_content_closed = 2;</code>
+       * @param value The isContentClosed to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsContentClosed(boolean value) {
+        
+        isContentClosed_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_content_closed = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsContentClosed() {
+        
+        isContentClosed_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean gHICFNGPIJE_ ;
+      /**
+       * <code>bool GHICFNGPIJE = 7;</code>
+       * @return The gHICFNGPIJE.
+       */
+      @java.lang.Override
+      public boolean getGHICFNGPIJE() {
+        return gHICFNGPIJE_;
+      }
+      /**
+       * <code>bool GHICFNGPIJE = 7;</code>
+       * @param value The gHICFNGPIJE to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGHICFNGPIJE(boolean value) {
+        
+        gHICFNGPIJE_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool GHICFNGPIJE = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGHICFNGPIJE() {
+        
+        gHICFNGPIJE_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int lFLKBPJFDGG_ ;
+      /**
+       * <code>uint32 LFLKBPJFDGG = 5;</code>
+       * @return The lFLKBPJFDGG.
+       */
+      @java.lang.Override
+      public int getLFLKBPJFDGG() {
+        return lFLKBPJFDGG_;
+      }
+      /**
+       * <code>uint32 LFLKBPJFDGG = 5;</code>
+       * @param value The lFLKBPJFDGG to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLFLKBPJFDGG(int value) {
+        
+        lFLKBPJFDGG_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 LFLKBPJFDGG = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLFLKBPJFDGG() {
+        
+        lFLKBPJFDGG_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int oODELNLNBPF_ ;
+      /**
+       * <code>uint32 OODELNLNBPF = 8;</code>
+       * @return The oODELNLNBPF.
+       */
+      @java.lang.Override
+      public int getOODELNLNBPF() {
+        return oODELNLNBPF_;
+      }
+      /**
+       * <code>uint32 OODELNLNBPF = 8;</code>
+       * @param value The oODELNLNBPF to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOODELNLNBPF(int value) {
+        
+        oODELNLNBPF_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 OODELNLNBPF = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOODELNLNBPF() {
+        
+        oODELNLNBPF_ = 0;
         onChanged();
         return this;
       }
@@ -1385,14 +1385,14 @@ public final class SeaLampActivityInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031SeaLampActivityInfo.proto\032\030SeaLampSect" +
-      "ionInfo.proto\"\372\001\n\023SeaLampActivityInfo\022.\n" +
+      "ionInfo.proto\"\361\001\n\023SeaLampActivityInfo\022.\n" +
       "\021section_info_list\030\n \003(\0132\023.SeaLampSectio" +
-      "nInfo\022\023\n\013OMOEFPDMPOJ\030\014 \001(\r\022\023\n\013CBMLGBNKAP" +
-      "H\030\006 \001(\r\022\023\n\013DHDNDJGEAME\030\004 \001(\r\022\031\n\021is_conte" +
-      "nt_closed\030\003 \001(\010\022\023\n\013AOIEINPFNCD\030\005 \001(\010\022\023\n\013" +
-      "JOKNGPIPEPJ\030\010 \001(\010\022\021\n\tday_index\030\007 \001(\r\022\034\n\024" +
-      "first_day_start_time\030\001 \001(\rB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "nInfo\022\021\n\tday_index\030\001 \001(\r\022\023\n\013FBJCFBCFKNJ\030" +
+      "\014 \001(\r\022\023\n\013LHMPDPGLBBK\030\t \001(\r\022\023\n\013EBOIFEKCDN" +
+      "G\030\003 \001(\010\022\031\n\021is_content_closed\030\002 \001(\010\022\023\n\013GH" +
+      "ICFNGPIJE\030\007 \001(\010\022\023\n\013LFLKBPJFDGG\030\005 \001(\r\022\023\n\013" +
+      "OODELNLNBPF\030\010 \001(\rB\033\n\031emu.grasscutter.net" +
+      ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1404,7 +1404,7 @@ public final class SeaLampActivityInfoOuterClass {
     internal_static_SeaLampActivityInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SeaLampActivityInfo_descriptor,
-        new java.lang.String[] { "SectionInfoList", "OMOEFPDMPOJ", "CBMLGBNKAPH", "DHDNDJGEAME", "IsContentClosed", "AOIEINPFNCD", "JOKNGPIPEPJ", "DayIndex", "FirstDayStartTime", });
+        new java.lang.String[] { "SectionInfoList", "DayIndex", "FBJCFBCFKNJ", "LHMPDPGLBBK", "EBOIFEKCDNG", "IsContentClosed", "GHICFNGPIJE", "LFLKBPJFDGG", "OODELNLNBPF", });
     emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.getDescriptor();
   }
 

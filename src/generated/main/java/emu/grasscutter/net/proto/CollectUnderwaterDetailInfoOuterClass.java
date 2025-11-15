@@ -19,25 +19,25 @@ public final class CollectUnderwaterDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo> 
         getLevelInfoListList();
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo getLevelInfoList(int index);
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfoOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfoOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 82: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class CollectUnderwaterDetailInfoOuterClass {
               emu.grasscutter.net.proto.CollectUnderwaterDetailInfoOuterClass.CollectUnderwaterDetailInfo.class, emu.grasscutter.net.proto.CollectUnderwaterDetailInfoOuterClass.CollectUnderwaterDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 10;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo> levelInfoList_;
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class CollectUnderwaterDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+     * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfoOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(10, levelInfoList_.get(i));
+        output.writeMessage(3, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, levelInfoList_.get(i));
+          .computeMessageSize(3, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
           emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo, emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.Builder, emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfoOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo value) {
@@ -575,7 +575,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo value) {
@@ -622,7 +622,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo> values) {
@@ -665,7 +665,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfoOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfoOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class CollectUnderwaterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 10;</code>
+       * <code>repeated .CollectUnderwaterLevelInfo level_info_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CollectUnderwaterLevelInfoOuterClass.CollectUnderwaterLevelInfo.Builder> 
            getLevelInfoListBuilderList() {
@@ -824,7 +824,7 @@ public final class CollectUnderwaterDetailInfoOuterClass {
       "\n!CollectUnderwaterDetailInfo.proto\032 Col" +
       "lectUnderwaterLevelInfo.proto\"S\n\033Collect" +
       "UnderwaterDetailInfo\0224\n\017level_info_list\030" +
-      "\n \003(\0132\033.CollectUnderwaterLevelInfoB\033\n\031em" +
+      "\003 \003(\0132\033.CollectUnderwaterLevelInfoB\033\n\031em" +
       "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

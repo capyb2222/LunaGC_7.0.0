@@ -19,51 +19,31 @@ public final class GainBuffDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo> 
+    java.util.List<emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN> 
         getLevelInfoListList();
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
-    emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo getLevelInfoList(int index);
+    emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN getLevelInfoList(int index);
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFNOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
-    emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfoOrBuilder getLevelInfoListOrBuilder(
+    emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFNOrBuilder getLevelInfoListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 difficulty = 9;</code>
+     * <code>uint32 difficulty = 14;</code>
      * @return The difficulty.
      */
     int getDifficulty();
@@ -115,18 +95,18 @@ public final class GainBuffDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
-
-              difficulty_ = input.readUInt32();
-              break;
-            }
-            case 90: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo>();
+                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN>();
                 mutable_bitField0_ |= 0x00000001;
               }
               levelInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.parser(), extensionRegistry));
+              break;
+            }
+            case 112: {
+
+              difficulty_ = input.readUInt32();
               break;
             }
             default: {
@@ -164,70 +144,50 @@ public final class GainBuffDetailInfoOuterClass {
               emu.grasscutter.net.proto.GainBuffDetailInfoOuterClass.GainBuffDetailInfo.class, emu.grasscutter.net.proto.GainBuffDetailInfoOuterClass.GainBuffDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 11;
-    private java.util.List<emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo> levelInfoList_;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 4;
+    private java.util.List<emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN> levelInfoList_;
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo> getLevelInfoListList() {
+    public java.util.List<emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFNOrBuilder> 
         getLevelInfoListOrBuilderList() {
       return levelInfoList_;
     }
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo getLevelInfoList(int index) {
+    public emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <pre>
-     * makeshift
-     * </pre>
-     *
-     * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+     * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfoOrBuilder getLevelInfoListOrBuilder(
+    public emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFNOrBuilder getLevelInfoListOrBuilder(
         int index) {
       return levelInfoList_.get(index);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 9;
+    public static final int DIFFICULTY_FIELD_NUMBER = 14;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 9;</code>
+     * <code>uint32 difficulty = 14;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -249,11 +209,11 @@ public final class GainBuffDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (difficulty_ != 0) {
-        output.writeUInt32(9, difficulty_);
-      }
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(11, levelInfoList_.get(i));
+        output.writeMessage(4, levelInfoList_.get(i));
+      }
+      if (difficulty_ != 0) {
+        output.writeUInt32(14, difficulty_);
       }
       unknownFields.writeTo(output);
     }
@@ -264,13 +224,13 @@ public final class GainBuffDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (difficulty_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, difficulty_);
-      }
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, levelInfoList_.get(i));
+          .computeMessageSize(4, levelInfoList_.get(i));
+      }
+      if (difficulty_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, difficulty_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -594,26 +554,22 @@ public final class GainBuffDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo> levelInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN> levelInfoList_ =
         java.util.Collections.emptyList();
       private void ensureLevelInfoListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo>(levelInfoList_);
+          levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN>(levelInfoList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfoOrBuilder> levelInfoListBuilder_;
+          emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFNOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo> getLevelInfoListList() {
+      public java.util.List<emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(levelInfoList_);
         } else {
@@ -621,11 +577,7 @@ public final class GainBuffDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -635,13 +587,9 @@ public final class GainBuffDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo getLevelInfoList(int index) {
+      public emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
           return levelInfoList_.get(index);
         } else {
@@ -649,14 +597,10 @@ public final class GainBuffDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
       public Builder setLevelInfoList(
-          int index, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo value) {
+          int index, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN value) {
         if (levelInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -670,14 +614,10 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
       public Builder setLevelInfoList(
-          int index, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder builderForValue) {
         if (levelInfoListBuilder_ == null) {
           ensureLevelInfoListIsMutable();
           levelInfoList_.set(index, builderForValue.build());
@@ -688,13 +628,9 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
-      public Builder addLevelInfoList(emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo value) {
+      public Builder addLevelInfoList(emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN value) {
         if (levelInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -708,14 +644,10 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
       public Builder addLevelInfoList(
-          int index, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo value) {
+          int index, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN value) {
         if (levelInfoListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -729,14 +661,10 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
       public Builder addLevelInfoList(
-          emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder builderForValue) {
         if (levelInfoListBuilder_ == null) {
           ensureLevelInfoListIsMutable();
           levelInfoList_.add(builderForValue.build());
@@ -747,14 +675,10 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
       public Builder addLevelInfoList(
-          int index, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder builderForValue) {
         if (levelInfoListBuilder_ == null) {
           ensureLevelInfoListIsMutable();
           levelInfoList_.add(index, builderForValue.build());
@@ -765,14 +689,10 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
       public Builder addAllLevelInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN> values) {
         if (levelInfoListBuilder_ == null) {
           ensureLevelInfoListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -784,11 +704,7 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -801,11 +717,7 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -818,24 +730,16 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder getLevelInfoListBuilder(
+      public emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfoOrBuilder getLevelInfoListOrBuilder(
+      public emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFNOrBuilder getLevelInfoListOrBuilder(
           int index) {
         if (levelInfoListBuilder_ == null) {
           return levelInfoList_.get(index);  } else {
@@ -843,13 +747,9 @@ public final class GainBuffDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFNOrBuilder> 
            getLevelInfoListOrBuilderList() {
         if (levelInfoListBuilder_ != null) {
           return levelInfoListBuilder_.getMessageOrBuilderList();
@@ -858,45 +758,33 @@ public final class GainBuffDetailInfoOuterClass {
         }
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder addLevelInfoListBuilder() {
+      public emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.getDefaultInstance());
+            emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.getDefaultInstance());
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
-      public emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder addLevelInfoListBuilder(
+      public emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder addLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.getDefaultInstance());
+            index, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.getDefaultInstance());
       }
       /**
-       * <pre>
-       * makeshift
-       * </pre>
-       *
-       * <code>repeated .GainBuffInfo level_info_list = 11;</code>
+       * <code>repeated .KOAIAGHHLFN level_info_list = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder> 
            getLevelInfoListBuilderList() {
         return getLevelInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfoOrBuilder> 
+          emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFNOrBuilder> 
           getLevelInfoListFieldBuilder() {
         if (levelInfoListBuilder_ == null) {
           levelInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfo.Builder, emu.grasscutter.net.proto.GainBuffInfoOuterClass.GainBuffInfoOrBuilder>(
+              emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFN.Builder, emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.KOAIAGHHLFNOrBuilder>(
                   levelInfoList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -908,7 +796,7 @@ public final class GainBuffDetailInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 9;</code>
+       * <code>uint32 difficulty = 14;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -916,7 +804,7 @@ public final class GainBuffDetailInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 9;</code>
+       * <code>uint32 difficulty = 14;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -927,7 +815,7 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 9;</code>
+       * <code>uint32 difficulty = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -1003,16 +891,16 @@ public final class GainBuffDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030GainBuffDetailInfo.proto\032\022GainBuffInfo" +
-      ".proto\"P\n\022GainBuffDetailInfo\022&\n\017level_in" +
-      "fo_list\030\013 \003(\0132\r.GainBuffInfo\022\022\n\ndifficul" +
-      "ty\030\t \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\n\030GainBuffDetailInfo.proto\032\021KOAIAGHHLFN." +
+      "proto\"O\n\022GainBuffDetailInfo\022%\n\017level_inf" +
+      "o_list\030\004 \003(\0132\014.KOAIAGHHLFN\022\022\n\ndifficulty" +
+      "\030\016 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.GainBuffInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.getDescriptor(),
         });
     internal_static_GainBuffDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1020,7 +908,7 @@ public final class GainBuffDetailInfoOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GainBuffDetailInfo_descriptor,
         new java.lang.String[] { "LevelInfoList", "Difficulty", });
-    emu.grasscutter.net.proto.GainBuffInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.KOAIAGHHLFNOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

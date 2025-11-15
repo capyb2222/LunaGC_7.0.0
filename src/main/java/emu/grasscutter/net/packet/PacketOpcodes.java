@@ -431,9 +431,9 @@ public final class PacketOpcodes {
 
     // Events
     public static final int ActivityScheduleInfoNotify = 3215;
-    public static final int GetActivityInfoReq = 31313131; 
-    public static final int GetActivityInfoRsp = 31313131;
-    public static final int ActivityInfoNotify = 31313131; 
+    public static final int GetActivityInfoReq = 941;
+    public static final int GetActivityInfoRsp = 4542;
+    public static final int ActivityInfoNotify = 23076;
 
     // Quests
     public static final int QueryCodexMonsterBeKilledNumReq = 22183;

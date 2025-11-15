@@ -19,72 +19,72 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 DOJCDELFPGM = 15;</code>
-     * @return A list containing the dOJCDELFPGM.
+     * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
+     * @return A list containing the cJBNAGIKPEO.
      */
-    java.util.List<java.lang.Integer> getDOJCDELFPGMList();
+    java.util.List<java.lang.Integer> getCJBNAGIKPEOList();
     /**
-     * <code>repeated uint32 DOJCDELFPGM = 15;</code>
-     * @return The count of dOJCDELFPGM.
+     * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
+     * @return The count of cJBNAGIKPEO.
      */
-    int getDOJCDELFPGMCount();
+    int getCJBNAGIKPEOCount();
     /**
-     * <code>repeated uint32 DOJCDELFPGM = 15;</code>
+     * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
      * @param index The index of the element to return.
-     * @return The dOJCDELFPGM at the given index.
+     * @return The cJBNAGIKPEO at the given index.
      */
-    int getDOJCDELFPGM(int index);
+    int getCJBNAGIKPEO(int index);
 
     /**
-     * <code>.Vector region_center_pos = 9;</code>
+     * <code>.Vector region_center_pos = 1;</code>
      * @return Whether the regionCenterPos field is set.
      */
     boolean hasRegionCenterPos();
     /**
-     * <code>.Vector region_center_pos = 9;</code>
+     * <code>.Vector region_center_pos = 1;</code>
      * @return The regionCenterPos.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos();
     /**
-     * <code>.Vector region_center_pos = 9;</code>
+     * <code>.Vector region_center_pos = 1;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder();
 
     /**
-     * <code>float region_radius = 3;</code>
-     * @return The regionRadius.
-     */
-    float getRegionRadius();
-
-    /**
-     * <code>uint32 open_time = 5;</code>
-     * @return The openTime.
-     */
-    int getOpenTime();
-
-    /**
-     * <code>bool is_finish = 11;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>uint32 scene_id = 10;</code>
+     * <code>uint32 scene_id = 3;</code>
      * @return The sceneId.
      */
     int getSceneId();
 
     /**
-     * <code>uint32 level_id = 6;</code>
+     * <code>float region_radius = 12;</code>
+     * @return The regionRadius.
+     */
+    float getRegionRadius();
+
+    /**
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     int getLevelId();
+
+    /**
+     * <code>uint32 open_time = 15;</code>
+     * @return The openTime.
+     */
+    int getOpenTime();
   }
   /**
    * Protobuf type {@code TreasureHuntV4LevelInfo}
@@ -99,7 +99,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       super(builder);
     }
     private TreasureHuntV4LevelInfo() {
-      dOJCDELFPGM_ = emptyIntList();
+      cJBNAGIKPEO_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -133,22 +133,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 29: {
-
-              regionRadius_ = input.readFloat();
-              break;
-            }
-            case 40: {
-
-              openTime_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 74: {
+            case 10: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (regionCenterPos_ != null) {
                 subBuilder = regionCenterPos_.toBuilder();
@@ -161,40 +146,55 @@ public final class TreasureHuntV4LevelInfoOuterClass {
 
               break;
             }
-            case 80: {
+            case 24: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 40: {
 
-              isFinish_ = input.readBool();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 48: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 120: {
+            case 80: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                dOJCDELFPGM_ = newIntList();
+                cJBNAGIKPEO_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              dOJCDELFPGM_.addInt(input.readUInt32());
+              cJBNAGIKPEO_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                dOJCDELFPGM_ = newIntList();
+                cJBNAGIKPEO_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                dOJCDELFPGM_.addInt(input.readUInt32());
+                cJBNAGIKPEO_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 101: {
+
+              regionRadius_ = input.readFloat();
+              break;
+            }
+            case 112: {
+
+              isFinish_ = input.readBool();
+              break;
+            }
+            case 120: {
+
+              openTime_ = input.readUInt32();
               break;
             }
             default: {
@@ -213,7 +213,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          dOJCDELFPGM_.makeImmutable(); // C
+          cJBNAGIKPEO_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -232,38 +232,38 @@ public final class TreasureHuntV4LevelInfoOuterClass {
               emu.grasscutter.net.proto.TreasureHuntV4LevelInfoOuterClass.TreasureHuntV4LevelInfo.class, emu.grasscutter.net.proto.TreasureHuntV4LevelInfoOuterClass.TreasureHuntV4LevelInfo.Builder.class);
     }
 
-    public static final int DOJCDELFPGM_FIELD_NUMBER = 15;
-    private com.google.protobuf.Internal.IntList dOJCDELFPGM_;
+    public static final int CJBNAGIKPEO_FIELD_NUMBER = 10;
+    private com.google.protobuf.Internal.IntList cJBNAGIKPEO_;
     /**
-     * <code>repeated uint32 DOJCDELFPGM = 15;</code>
-     * @return A list containing the dOJCDELFPGM.
+     * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
+     * @return A list containing the cJBNAGIKPEO.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getDOJCDELFPGMList() {
-      return dOJCDELFPGM_;
+        getCJBNAGIKPEOList() {
+      return cJBNAGIKPEO_;
     }
     /**
-     * <code>repeated uint32 DOJCDELFPGM = 15;</code>
-     * @return The count of dOJCDELFPGM.
+     * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
+     * @return The count of cJBNAGIKPEO.
      */
-    public int getDOJCDELFPGMCount() {
-      return dOJCDELFPGM_.size();
+    public int getCJBNAGIKPEOCount() {
+      return cJBNAGIKPEO_.size();
     }
     /**
-     * <code>repeated uint32 DOJCDELFPGM = 15;</code>
+     * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
      * @param index The index of the element to return.
-     * @return The dOJCDELFPGM at the given index.
+     * @return The cJBNAGIKPEO at the given index.
      */
-    public int getDOJCDELFPGM(int index) {
-      return dOJCDELFPGM_.getInt(index);
+    public int getCJBNAGIKPEO(int index) {
+      return cJBNAGIKPEO_.getInt(index);
     }
-    private int dOJCDELFPGMMemoizedSerializedSize = -1;
+    private int cJBNAGIKPEOMemoizedSerializedSize = -1;
 
-    public static final int REGION_CENTER_POS_FIELD_NUMBER = 9;
+    public static final int REGION_CENTER_POS_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector regionCenterPos_;
     /**
-     * <code>.Vector region_center_pos = 9;</code>
+     * <code>.Vector region_center_pos = 1;</code>
      * @return Whether the regionCenterPos field is set.
      */
     @java.lang.Override
@@ -271,7 +271,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       return regionCenterPos_ != null;
     }
     /**
-     * <code>.Vector region_center_pos = 9;</code>
+     * <code>.Vector region_center_pos = 1;</code>
      * @return The regionCenterPos.
      */
     @java.lang.Override
@@ -279,39 +279,17 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       return regionCenterPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : regionCenterPos_;
     }
     /**
-     * <code>.Vector region_center_pos = 9;</code>
+     * <code>.Vector region_center_pos = 1;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder() {
       return getRegionCenterPos();
     }
 
-    public static final int REGION_RADIUS_FIELD_NUMBER = 3;
-    private float regionRadius_;
-    /**
-     * <code>float region_radius = 3;</code>
-     * @return The regionRadius.
-     */
-    @java.lang.Override
-    public float getRegionRadius() {
-      return regionRadius_;
-    }
-
-    public static final int OPEN_TIME_FIELD_NUMBER = 5;
-    private int openTime_;
-    /**
-     * <code>uint32 open_time = 5;</code>
-     * @return The openTime.
-     */
-    @java.lang.Override
-    public int getOpenTime() {
-      return openTime_;
-    }
-
-    public static final int IS_FINISH_FIELD_NUMBER = 11;
+    public static final int IS_FINISH_FIELD_NUMBER = 14;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 11;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -319,10 +297,10 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       return isFinish_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 6;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -330,10 +308,10 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 10;
+    public static final int SCENE_ID_FIELD_NUMBER = 3;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 10;</code>
+     * <code>uint32 scene_id = 3;</code>
      * @return The sceneId.
      */
     @java.lang.Override
@@ -341,15 +319,37 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       return sceneId_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 6;
+    public static final int REGION_RADIUS_FIELD_NUMBER = 12;
+    private float regionRadius_;
+    /**
+     * <code>float region_radius = 12;</code>
+     * @return The regionRadius.
+     */
+    @java.lang.Override
+    public float getRegionRadius() {
+      return regionRadius_;
+    }
+
+    public static final int LEVEL_ID_FIELD_NUMBER = 5;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 6;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     @java.lang.Override
     public int getLevelId() {
       return levelId_;
+    }
+
+    public static final int OPEN_TIME_FIELD_NUMBER = 15;
+    private int openTime_;
+    /**
+     * <code>uint32 open_time = 15;</code>
+     * @return The openTime.
+     */
+    @java.lang.Override
+    public int getOpenTime() {
+      return openTime_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -367,33 +367,33 @@ public final class TreasureHuntV4LevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (regionRadius_ != 0F) {
-        output.writeFloat(3, regionRadius_);
-      }
-      if (openTime_ != 0) {
-        output.writeUInt32(5, openTime_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(6, levelId_);
-      }
       if (regionCenterPos_ != null) {
-        output.writeMessage(9, getRegionCenterPos());
+        output.writeMessage(1, getRegionCenterPos());
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(10, sceneId_);
+        output.writeUInt32(3, sceneId_);
       }
-      if (isFinish_ != false) {
-        output.writeBool(11, isFinish_);
+      if (levelId_ != 0) {
+        output.writeUInt32(5, levelId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(6, isOpen_);
       }
-      if (getDOJCDELFPGMList().size() > 0) {
-        output.writeUInt32NoTag(122);
-        output.writeUInt32NoTag(dOJCDELFPGMMemoizedSerializedSize);
+      if (getCJBNAGIKPEOList().size() > 0) {
+        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(cJBNAGIKPEOMemoizedSerializedSize);
       }
-      for (int i = 0; i < dOJCDELFPGM_.size(); i++) {
-        output.writeUInt32NoTag(dOJCDELFPGM_.getInt(i));
+      for (int i = 0; i < cJBNAGIKPEO_.size(); i++) {
+        output.writeUInt32NoTag(cJBNAGIKPEO_.getInt(i));
+      }
+      if (regionRadius_ != 0F) {
+        output.writeFloat(12, regionRadius_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(14, isFinish_);
+      }
+      if (openTime_ != 0) {
+        output.writeUInt32(15, openTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -404,47 +404,47 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (regionRadius_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(3, regionRadius_);
-      }
-      if (openTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, openTime_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, levelId_);
-      }
       if (regionCenterPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getRegionCenterPos());
+          .computeMessageSize(1, getRegionCenterPos());
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, sceneId_);
+          .computeUInt32Size(3, sceneId_);
       }
-      if (isFinish_ != false) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isFinish_);
+          .computeUInt32Size(5, levelId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(6, isOpen_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < dOJCDELFPGM_.size(); i++) {
+        for (int i = 0; i < cJBNAGIKPEO_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(dOJCDELFPGM_.getInt(i));
+            .computeUInt32SizeNoTag(cJBNAGIKPEO_.getInt(i));
         }
         size += dataSize;
-        if (!getDOJCDELFPGMList().isEmpty()) {
+        if (!getCJBNAGIKPEOList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        dOJCDELFPGMMemoizedSerializedSize = dataSize;
+        cJBNAGIKPEOMemoizedSerializedSize = dataSize;
+      }
+      if (regionRadius_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(12, regionRadius_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, isFinish_);
+      }
+      if (openTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, openTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -461,26 +461,26 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       }
       emu.grasscutter.net.proto.TreasureHuntV4LevelInfoOuterClass.TreasureHuntV4LevelInfo other = (emu.grasscutter.net.proto.TreasureHuntV4LevelInfoOuterClass.TreasureHuntV4LevelInfo) obj;
 
-      if (!getDOJCDELFPGMList()
-          .equals(other.getDOJCDELFPGMList())) return false;
+      if (!getCJBNAGIKPEOList()
+          .equals(other.getCJBNAGIKPEOList())) return false;
       if (hasRegionCenterPos() != other.hasRegionCenterPos()) return false;
       if (hasRegionCenterPos()) {
         if (!getRegionCenterPos()
             .equals(other.getRegionCenterPos())) return false;
       }
-      if (java.lang.Float.floatToIntBits(getRegionRadius())
-          != java.lang.Float.floatToIntBits(
-              other.getRegionRadius())) return false;
-      if (getOpenTime()
-          != other.getOpenTime()) return false;
       if (getIsFinish()
           != other.getIsFinish()) return false;
       if (getIsOpen()
           != other.getIsOpen()) return false;
       if (getSceneId()
           != other.getSceneId()) return false;
+      if (java.lang.Float.floatToIntBits(getRegionRadius())
+          != java.lang.Float.floatToIntBits(
+              other.getRegionRadius())) return false;
       if (getLevelId()
           != other.getLevelId()) return false;
+      if (getOpenTime()
+          != other.getOpenTime()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -492,19 +492,14 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getDOJCDELFPGMCount() > 0) {
-        hash = (37 * hash) + DOJCDELFPGM_FIELD_NUMBER;
-        hash = (53 * hash) + getDOJCDELFPGMList().hashCode();
+      if (getCJBNAGIKPEOCount() > 0) {
+        hash = (37 * hash) + CJBNAGIKPEO_FIELD_NUMBER;
+        hash = (53 * hash) + getCJBNAGIKPEOList().hashCode();
       }
       if (hasRegionCenterPos()) {
         hash = (37 * hash) + REGION_CENTER_POS_FIELD_NUMBER;
         hash = (53 * hash) + getRegionCenterPos().hashCode();
       }
-      hash = (37 * hash) + REGION_RADIUS_FIELD_NUMBER;
-      hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getRegionRadius());
-      hash = (37 * hash) + OPEN_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getOpenTime();
       hash = (37 * hash) + IS_FINISH_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinish());
@@ -513,8 +508,13 @@ public final class TreasureHuntV4LevelInfoOuterClass {
           getIsOpen());
       hash = (37 * hash) + SCENE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getSceneId();
+      hash = (37 * hash) + REGION_RADIUS_FIELD_NUMBER;
+      hash = (53 * hash) + java.lang.Float.floatToIntBits(
+          getRegionRadius());
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
+      hash = (37 * hash) + OPEN_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getOpenTime();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -648,7 +648,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        dOJCDELFPGM_ = emptyIntList();
+        cJBNAGIKPEO_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         if (regionCenterPosBuilder_ == null) {
           regionCenterPos_ = null;
@@ -656,17 +656,17 @@ public final class TreasureHuntV4LevelInfoOuterClass {
           regionCenterPos_ = null;
           regionCenterPosBuilder_ = null;
         }
-        regionRadius_ = 0F;
-
-        openTime_ = 0;
-
         isFinish_ = false;
 
         isOpen_ = false;
 
         sceneId_ = 0;
 
+        regionRadius_ = 0F;
+
         levelId_ = 0;
+
+        openTime_ = 0;
 
         return this;
       }
@@ -696,21 +696,21 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         emu.grasscutter.net.proto.TreasureHuntV4LevelInfoOuterClass.TreasureHuntV4LevelInfo result = new emu.grasscutter.net.proto.TreasureHuntV4LevelInfoOuterClass.TreasureHuntV4LevelInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          dOJCDELFPGM_.makeImmutable();
+          cJBNAGIKPEO_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.dOJCDELFPGM_ = dOJCDELFPGM_;
+        result.cJBNAGIKPEO_ = cJBNAGIKPEO_;
         if (regionCenterPosBuilder_ == null) {
           result.regionCenterPos_ = regionCenterPos_;
         } else {
           result.regionCenterPos_ = regionCenterPosBuilder_.build();
         }
-        result.regionRadius_ = regionRadius_;
-        result.openTime_ = openTime_;
         result.isFinish_ = isFinish_;
         result.isOpen_ = isOpen_;
         result.sceneId_ = sceneId_;
+        result.regionRadius_ = regionRadius_;
         result.levelId_ = levelId_;
+        result.openTime_ = openTime_;
         onBuilt();
         return result;
       }
@@ -759,24 +759,18 @@ public final class TreasureHuntV4LevelInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TreasureHuntV4LevelInfoOuterClass.TreasureHuntV4LevelInfo other) {
         if (other == emu.grasscutter.net.proto.TreasureHuntV4LevelInfoOuterClass.TreasureHuntV4LevelInfo.getDefaultInstance()) return this;
-        if (!other.dOJCDELFPGM_.isEmpty()) {
-          if (dOJCDELFPGM_.isEmpty()) {
-            dOJCDELFPGM_ = other.dOJCDELFPGM_;
+        if (!other.cJBNAGIKPEO_.isEmpty()) {
+          if (cJBNAGIKPEO_.isEmpty()) {
+            cJBNAGIKPEO_ = other.cJBNAGIKPEO_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureDOJCDELFPGMIsMutable();
-            dOJCDELFPGM_.addAll(other.dOJCDELFPGM_);
+            ensureCJBNAGIKPEOIsMutable();
+            cJBNAGIKPEO_.addAll(other.cJBNAGIKPEO_);
           }
           onChanged();
         }
         if (other.hasRegionCenterPos()) {
           mergeRegionCenterPos(other.getRegionCenterPos());
-        }
-        if (other.getRegionRadius() != 0F) {
-          setRegionRadius(other.getRegionRadius());
-        }
-        if (other.getOpenTime() != 0) {
-          setOpenTime(other.getOpenTime());
         }
         if (other.getIsFinish() != false) {
           setIsFinish(other.getIsFinish());
@@ -787,8 +781,14 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         if (other.getSceneId() != 0) {
           setSceneId(other.getSceneId());
         }
+        if (other.getRegionRadius() != 0F) {
+          setRegionRadius(other.getRegionRadius());
+        }
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
+        }
+        if (other.getOpenTime() != 0) {
+          setOpenTime(other.getOpenTime());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -820,80 +820,80 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList dOJCDELFPGM_ = emptyIntList();
-      private void ensureDOJCDELFPGMIsMutable() {
+      private com.google.protobuf.Internal.IntList cJBNAGIKPEO_ = emptyIntList();
+      private void ensureCJBNAGIKPEOIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          dOJCDELFPGM_ = mutableCopy(dOJCDELFPGM_);
+          cJBNAGIKPEO_ = mutableCopy(cJBNAGIKPEO_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 DOJCDELFPGM = 15;</code>
-       * @return A list containing the dOJCDELFPGM.
+       * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
+       * @return A list containing the cJBNAGIKPEO.
        */
       public java.util.List<java.lang.Integer>
-          getDOJCDELFPGMList() {
+          getCJBNAGIKPEOList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(dOJCDELFPGM_) : dOJCDELFPGM_;
+                 java.util.Collections.unmodifiableList(cJBNAGIKPEO_) : cJBNAGIKPEO_;
       }
       /**
-       * <code>repeated uint32 DOJCDELFPGM = 15;</code>
-       * @return The count of dOJCDELFPGM.
+       * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
+       * @return The count of cJBNAGIKPEO.
        */
-      public int getDOJCDELFPGMCount() {
-        return dOJCDELFPGM_.size();
+      public int getCJBNAGIKPEOCount() {
+        return cJBNAGIKPEO_.size();
       }
       /**
-       * <code>repeated uint32 DOJCDELFPGM = 15;</code>
+       * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
        * @param index The index of the element to return.
-       * @return The dOJCDELFPGM at the given index.
+       * @return The cJBNAGIKPEO at the given index.
        */
-      public int getDOJCDELFPGM(int index) {
-        return dOJCDELFPGM_.getInt(index);
+      public int getCJBNAGIKPEO(int index) {
+        return cJBNAGIKPEO_.getInt(index);
       }
       /**
-       * <code>repeated uint32 DOJCDELFPGM = 15;</code>
+       * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
        * @param index The index to set the value at.
-       * @param value The dOJCDELFPGM to set.
+       * @param value The cJBNAGIKPEO to set.
        * @return This builder for chaining.
        */
-      public Builder setDOJCDELFPGM(
+      public Builder setCJBNAGIKPEO(
           int index, int value) {
-        ensureDOJCDELFPGMIsMutable();
-        dOJCDELFPGM_.setInt(index, value);
+        ensureCJBNAGIKPEOIsMutable();
+        cJBNAGIKPEO_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 DOJCDELFPGM = 15;</code>
-       * @param value The dOJCDELFPGM to add.
+       * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
+       * @param value The cJBNAGIKPEO to add.
        * @return This builder for chaining.
        */
-      public Builder addDOJCDELFPGM(int value) {
-        ensureDOJCDELFPGMIsMutable();
-        dOJCDELFPGM_.addInt(value);
+      public Builder addCJBNAGIKPEO(int value) {
+        ensureCJBNAGIKPEOIsMutable();
+        cJBNAGIKPEO_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 DOJCDELFPGM = 15;</code>
-       * @param values The dOJCDELFPGM to add.
+       * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
+       * @param values The cJBNAGIKPEO to add.
        * @return This builder for chaining.
        */
-      public Builder addAllDOJCDELFPGM(
+      public Builder addAllCJBNAGIKPEO(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureDOJCDELFPGMIsMutable();
+        ensureCJBNAGIKPEOIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, dOJCDELFPGM_);
+            values, cJBNAGIKPEO_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 DOJCDELFPGM = 15;</code>
+       * <code>repeated uint32 CJBNAGIKPEO = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDOJCDELFPGM() {
-        dOJCDELFPGM_ = emptyIntList();
+      public Builder clearCJBNAGIKPEO() {
+        cJBNAGIKPEO_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
@@ -903,14 +903,14 @@ public final class TreasureHuntV4LevelInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> regionCenterPosBuilder_;
       /**
-       * <code>.Vector region_center_pos = 9;</code>
+       * <code>.Vector region_center_pos = 1;</code>
        * @return Whether the regionCenterPos field is set.
        */
       public boolean hasRegionCenterPos() {
         return regionCenterPosBuilder_ != null || regionCenterPos_ != null;
       }
       /**
-       * <code>.Vector region_center_pos = 9;</code>
+       * <code>.Vector region_center_pos = 1;</code>
        * @return The regionCenterPos.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos() {
@@ -921,7 +921,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector region_center_pos = 9;</code>
+       * <code>.Vector region_center_pos = 1;</code>
        */
       public Builder setRegionCenterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (regionCenterPosBuilder_ == null) {
@@ -937,7 +937,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector region_center_pos = 9;</code>
+       * <code>.Vector region_center_pos = 1;</code>
        */
       public Builder setRegionCenterPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -951,7 +951,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector region_center_pos = 9;</code>
+       * <code>.Vector region_center_pos = 1;</code>
        */
       public Builder mergeRegionCenterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (regionCenterPosBuilder_ == null) {
@@ -969,7 +969,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector region_center_pos = 9;</code>
+       * <code>.Vector region_center_pos = 1;</code>
        */
       public Builder clearRegionCenterPos() {
         if (regionCenterPosBuilder_ == null) {
@@ -983,7 +983,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector region_center_pos = 9;</code>
+       * <code>.Vector region_center_pos = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRegionCenterPosBuilder() {
         
@@ -991,7 +991,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return getRegionCenterPosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector region_center_pos = 9;</code>
+       * <code>.Vector region_center_pos = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder() {
         if (regionCenterPosBuilder_ != null) {
@@ -1002,7 +1002,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector region_center_pos = 9;</code>
+       * <code>.Vector region_center_pos = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -1018,71 +1018,9 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return regionCenterPosBuilder_;
       }
 
-      private float regionRadius_ ;
-      /**
-       * <code>float region_radius = 3;</code>
-       * @return The regionRadius.
-       */
-      @java.lang.Override
-      public float getRegionRadius() {
-        return regionRadius_;
-      }
-      /**
-       * <code>float region_radius = 3;</code>
-       * @param value The regionRadius to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRegionRadius(float value) {
-        
-        regionRadius_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>float region_radius = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRegionRadius() {
-        
-        regionRadius_ = 0F;
-        onChanged();
-        return this;
-      }
-
-      private int openTime_ ;
-      /**
-       * <code>uint32 open_time = 5;</code>
-       * @return The openTime.
-       */
-      @java.lang.Override
-      public int getOpenTime() {
-        return openTime_;
-      }
-      /**
-       * <code>uint32 open_time = 5;</code>
-       * @param value The openTime to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOpenTime(int value) {
-        
-        openTime_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 open_time = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOpenTime() {
-        
-        openTime_ = 0;
-        onChanged();
-        return this;
-      }
-
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 11;</code>
+       * <code>bool is_finish = 14;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -1090,7 +1028,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 11;</code>
+       * <code>bool is_finish = 14;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -1101,7 +1039,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 11;</code>
+       * <code>bool is_finish = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -1113,7 +1051,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 6;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -1121,7 +1059,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 6;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -1132,7 +1070,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -1144,7 +1082,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
 
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 10;</code>
+       * <code>uint32 scene_id = 3;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -1152,7 +1090,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 10;</code>
+       * <code>uint32 scene_id = 3;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -1163,7 +1101,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 10;</code>
+       * <code>uint32 scene_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
@@ -1173,9 +1111,40 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return this;
       }
 
+      private float regionRadius_ ;
+      /**
+       * <code>float region_radius = 12;</code>
+       * @return The regionRadius.
+       */
+      @java.lang.Override
+      public float getRegionRadius() {
+        return regionRadius_;
+      }
+      /**
+       * <code>float region_radius = 12;</code>
+       * @param value The regionRadius to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRegionRadius(float value) {
+        
+        regionRadius_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>float region_radius = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRegionRadius() {
+        
+        regionRadius_ = 0F;
+        onChanged();
+        return this;
+      }
+
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 6;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -1183,7 +1152,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 6;</code>
+       * <code>uint32 level_id = 5;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -1194,12 +1163,43 @@ public final class TreasureHuntV4LevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 6;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
         
         levelId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int openTime_ ;
+      /**
+       * <code>uint32 open_time = 15;</code>
+       * @return The openTime.
+       */
+      @java.lang.Override
+      public int getOpenTime() {
+        return openTime_;
+      }
+      /**
+       * <code>uint32 open_time = 15;</code>
+       * @param value The openTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOpenTime(int value) {
+        
+        openTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 open_time = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOpenTime() {
+        
+        openTime_ = 0;
         onChanged();
         return this;
       }
@@ -1271,11 +1271,11 @@ public final class TreasureHuntV4LevelInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035TreasureHuntV4LevelInfo.proto\032\014Vector." +
-      "proto\"\304\001\n\027TreasureHuntV4LevelInfo\022\023\n\013DOJ" +
-      "CDELFPGM\030\017 \003(\r\022\"\n\021region_center_pos\030\t \001(" +
-      "\0132\007.Vector\022\025\n\rregion_radius\030\003 \001(\002\022\021\n\tope" +
-      "n_time\030\005 \001(\r\022\021\n\tis_finish\030\013 \001(\010\022\017\n\007is_op" +
-      "en\030\014 \001(\010\022\020\n\010scene_id\030\n \001(\r\022\020\n\010level_id\030\006" +
+      "proto\"\304\001\n\027TreasureHuntV4LevelInfo\022\023\n\013CJB" +
+      "NAGIKPEO\030\n \003(\r\022\"\n\021region_center_pos\030\001 \001(" +
+      "\0132\007.Vector\022\021\n\tis_finish\030\016 \001(\010\022\017\n\007is_open" +
+      "\030\006 \001(\010\022\020\n\010scene_id\030\003 \001(\r\022\025\n\rregion_radiu" +
+      "s\030\014 \001(\002\022\020\n\010level_id\030\005 \001(\r\022\021\n\topen_time\030\017" +
       " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
       "3"
     };
@@ -1289,7 +1289,7 @@ public final class TreasureHuntV4LevelInfoOuterClass {
     internal_static_TreasureHuntV4LevelInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TreasureHuntV4LevelInfo_descriptor,
-        new java.lang.String[] { "DOJCDELFPGM", "RegionCenterPos", "RegionRadius", "OpenTime", "IsFinish", "IsOpen", "SceneId", "LevelId", });
+        new java.lang.String[] { "CJBNAGIKPEO", "RegionCenterPos", "IsFinish", "IsOpen", "SceneId", "RegionRadius", "LevelId", "OpenTime", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

@@ -43,7 +43,7 @@ public final class TeamChainDetailInfoOuterClass {
         int index);
 
     /**
-     * <code>bool is_token_costume_reward = 10;</code>
+     * <code>bool is_token_costume_reward = 14;</code>
      * @return The isTokenCostumeReward.
      */
     boolean getIsTokenCostumeReward();
@@ -104,7 +104,7 @@ public final class TeamChainDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.parser(), extensionRegistry));
               break;
             }
-            case 80: {
+            case 112: {
 
               isTokenCostumeReward_ = input.readBool();
               break;
@@ -184,10 +184,10 @@ public final class TeamChainDetailInfoOuterClass {
       return stageDataList_.get(index);
     }
 
-    public static final int IS_TOKEN_COSTUME_REWARD_FIELD_NUMBER = 10;
+    public static final int IS_TOKEN_COSTUME_REWARD_FIELD_NUMBER = 14;
     private boolean isTokenCostumeReward_;
     /**
-     * <code>bool is_token_costume_reward = 10;</code>
+     * <code>bool is_token_costume_reward = 14;</code>
      * @return The isTokenCostumeReward.
      */
     @java.lang.Override
@@ -213,7 +213,7 @@ public final class TeamChainDetailInfoOuterClass {
         output.writeMessage(1, stageDataList_.get(i));
       }
       if (isTokenCostumeReward_ != false) {
-        output.writeBool(10, isTokenCostumeReward_);
+        output.writeBool(14, isTokenCostumeReward_);
       }
       unknownFields.writeTo(output);
     }
@@ -230,7 +230,7 @@ public final class TeamChainDetailInfoOuterClass {
       }
       if (isTokenCostumeReward_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isTokenCostumeReward_);
+          .computeBoolSize(14, isTokenCostumeReward_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -797,7 +797,7 @@ public final class TeamChainDetailInfoOuterClass {
 
       private boolean isTokenCostumeReward_ ;
       /**
-       * <code>bool is_token_costume_reward = 10;</code>
+       * <code>bool is_token_costume_reward = 14;</code>
        * @return The isTokenCostumeReward.
        */
       @java.lang.Override
@@ -805,7 +805,7 @@ public final class TeamChainDetailInfoOuterClass {
         return isTokenCostumeReward_;
       }
       /**
-       * <code>bool is_token_costume_reward = 10;</code>
+       * <code>bool is_token_costume_reward = 14;</code>
        * @param value The isTokenCostumeReward to set.
        * @return This builder for chaining.
        */
@@ -816,7 +816,7 @@ public final class TeamChainDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_token_costume_reward = 10;</code>
+       * <code>bool is_token_costume_reward = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsTokenCostumeReward() {
@@ -895,7 +895,7 @@ public final class TeamChainDetailInfoOuterClass {
       "\n\031TeamChainDetailInfo.proto\032\030TeamChainSt" +
       "ageData.proto\"d\n\023TeamChainDetailInfo\022,\n\017" +
       "stage_data_list\030\001 \003(\0132\023.TeamChainStageDa" +
-      "ta\022\037\n\027is_token_costume_reward\030\n \001(\010B\033\n\031e" +
+      "ta\022\037\n\027is_token_costume_reward\030\016 \001(\010B\033\n\031e" +
       "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

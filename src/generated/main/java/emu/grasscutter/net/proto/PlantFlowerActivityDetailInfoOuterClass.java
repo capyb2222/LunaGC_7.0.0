@@ -19,96 +19,96 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+     * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
      */
-    int getCDPNICIGBBGCount();
+    int getBJAPIEMCPHDCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+     * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
      */
-    boolean containsCDPNICIGBBG(
+    boolean containsBJAPIEMCPHD(
         int key);
     /**
-     * Use {@link #getCDPNICIGBBGMap()} instead.
+     * Use {@link #getBJAPIEMCPHDMap()} instead.
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getCDPNICIGBBG();
+    getBJAPIEMCPHD();
     /**
-     * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+     * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getCDPNICIGBBGMap();
+    getBJAPIEMCPHDMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+     * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
      */
 
-    int getCDPNICIGBBGOrDefault(
+    int getBJAPIEMCPHDOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+     * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
      */
 
-    int getCDPNICIGBBGOrThrow(
+    int getBJAPIEMCPHDOrThrow(
         int key);
 
     /**
-     * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
      */
-    int getMDKDJEJNELOCount();
+    int getKFCBMMIENAKCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
      */
-    boolean containsMDKDJEJNELO(
+    boolean containsKFCBMMIENAK(
         int key);
     /**
-     * Use {@link #getMDKDJEJNELOMap()} instead.
+     * Use {@link #getKFCBMMIENAKMap()} instead.
      */
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getMDKDJEJNELO();
+    getKFCBMMIENAK();
     /**
-     * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
-    getMDKDJEJNELOMap();
+    getKFCBMMIENAKMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
      */
 
-    int getMDKDJEJNELOOrDefault(
+    int getKFCBMMIENAKOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
      */
 
-    int getMDKDJEJNELOOrThrow(
+    int getKFCBMMIENAKOrThrow(
         int key);
 
     /**
-     * <code>uint32 day_index = 15;</code>
-     * @return The dayIndex.
-     */
-    int getDayIndex();
-
-    /**
-     * <code>uint32 today_seed_reward_id = 2;</code>
+     * <code>uint32 today_seed_reward_id = 13;</code>
      * @return The todaySeedRewardId.
      */
     int getTodaySeedRewardId();
 
     /**
-     * <code>bool is_content_closed = 5;</code>
+     * <code>bool is_today_has_awarded = 10;</code>
+     * @return The isTodayHasAwarded.
+     */
+    boolean getIsTodayHasAwarded();
+
+    /**
+     * <code>bool is_content_closed = 12;</code>
      * @return The isContentClosed.
      */
     boolean getIsContentClosed();
 
     /**
-     * <code>bool is_today_has_awarded = 9;</code>
-     * @return The isTodayHasAwarded.
+     * <code>uint32 day_index = 4;</code>
+     * @return The dayIndex.
      */
-    boolean getIsTodayHasAwarded();
+    int getDayIndex();
   }
   /**
    * Protobuf type {@code PlantFlowerActivityDetailInfo}
@@ -156,50 +156,50 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              todaySeedRewardId_ = input.readUInt32();
-              break;
-            }
-            case 34: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                mDKDJEJNELO_ = com.google.protobuf.MapField.newMapField(
-                    MDKDJEJNELODefaultEntryHolder.defaultEntry);
+                kFCBMMIENAK_ = com.google.protobuf.MapField.newMapField(
+                    KFCBMMIENAKDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000002;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              mDKDJEJNELO__ = input.readMessage(
-                  MDKDJEJNELODefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              mDKDJEJNELO_.getMutableMap().put(
-                  mDKDJEJNELO__.getKey(), mDKDJEJNELO__.getValue());
+              kFCBMMIENAK__ = input.readMessage(
+                  KFCBMMIENAKDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              kFCBMMIENAK_.getMutableMap().put(
+                  kFCBMMIENAK__.getKey(), kFCBMMIENAK__.getValue());
               break;
             }
-            case 40: {
+            case 32: {
 
-              isContentClosed_ = input.readBool();
+              dayIndex_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 80: {
 
               isTodayHasAwarded_ = input.readBool();
               break;
             }
-            case 98: {
+            case 96: {
+
+              isContentClosed_ = input.readBool();
+              break;
+            }
+            case 104: {
+
+              todaySeedRewardId_ = input.readUInt32();
+              break;
+            }
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                cDPNICIGBBG_ = com.google.protobuf.MapField.newMapField(
-                    CDPNICIGBBGDefaultEntryHolder.defaultEntry);
+                bJAPIEMCPHD_ = com.google.protobuf.MapField.newMapField(
+                    BJAPIEMCPHDDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000001;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-              cDPNICIGBBG__ = input.readMessage(
-                  CDPNICIGBBGDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              cDPNICIGBBG_.getMutableMap().put(
-                  cDPNICIGBBG__.getKey(), cDPNICIGBBG__.getValue());
-              break;
-            }
-            case 120: {
-
-              dayIndex_ = input.readUInt32();
+              bJAPIEMCPHD__ = input.readMessage(
+                  BJAPIEMCPHDDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              bJAPIEMCPHD_.getMutableMap().put(
+                  bJAPIEMCPHD__.getKey(), bJAPIEMCPHD__.getValue());
               break;
             }
             default: {
@@ -231,10 +231,10 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 12:
-          return internalGetCDPNICIGBBG();
-        case 4:
-          return internalGetMDKDJEJNELO();
+        case 15:
+          return internalGetBJAPIEMCPHD();
+        case 2:
+          return internalGetKFCBMMIENAK();
         default:
           throw new RuntimeException(
               "Invalid map field number: " + number);
@@ -248,183 +248,172 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo.class, emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo.Builder.class);
     }
 
-    public static final int CDPNICIGBBG_FIELD_NUMBER = 12;
-    private static final class CDPNICIGBBGDefaultEntryHolder {
+    public static final int BJAPIEMCPHD_FIELD_NUMBER = 15;
+    private static final class BJAPIEMCPHDDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_CDPNICIGBBGEntry_descriptor, 
+                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_BJAPIEMCPHDEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0);
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> cDPNICIGBBG_;
+        java.lang.Integer, java.lang.Integer> bJAPIEMCPHD_;
     private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetCDPNICIGBBG() {
-      if (cDPNICIGBBG_ == null) {
+    internalGetBJAPIEMCPHD() {
+      if (bJAPIEMCPHD_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            CDPNICIGBBGDefaultEntryHolder.defaultEntry);
+            BJAPIEMCPHDDefaultEntryHolder.defaultEntry);
       }
-      return cDPNICIGBBG_;
+      return bJAPIEMCPHD_;
     }
 
-    public int getCDPNICIGBBGCount() {
-      return internalGetCDPNICIGBBG().getMap().size();
+    public int getBJAPIEMCPHDCount() {
+      return internalGetBJAPIEMCPHD().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+     * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
      */
 
     @java.lang.Override
-    public boolean containsCDPNICIGBBG(
+    public boolean containsBJAPIEMCPHD(
         int key) {
       
-      return internalGetCDPNICIGBBG().getMap().containsKey(key);
+      return internalGetBJAPIEMCPHD().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getCDPNICIGBBGMap()} instead.
+     * Use {@link #getBJAPIEMCPHDMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getCDPNICIGBBG() {
-      return getCDPNICIGBBGMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getBJAPIEMCPHD() {
+      return getBJAPIEMCPHDMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+     * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getCDPNICIGBBGMap() {
-      return internalGetCDPNICIGBBG().getMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getBJAPIEMCPHDMap() {
+      return internalGetBJAPIEMCPHD().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+     * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
      */
     @java.lang.Override
 
-    public int getCDPNICIGBBGOrDefault(
+    public int getBJAPIEMCPHDOrDefault(
         int key,
         int defaultValue) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetCDPNICIGBBG().getMap();
+          internalGetBJAPIEMCPHD().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+     * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
      */
     @java.lang.Override
 
-    public int getCDPNICIGBBGOrThrow(
+    public int getBJAPIEMCPHDOrThrow(
         int key) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetCDPNICIGBBG().getMap();
+          internalGetBJAPIEMCPHD().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
 
-    public static final int MDKDJEJNELO_FIELD_NUMBER = 4;
-    private static final class MDKDJEJNELODefaultEntryHolder {
+    public static final int KFCBMMIENAK_FIELD_NUMBER = 2;
+    private static final class KFCBMMIENAKDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_MDKDJEJNELOEntry_descriptor, 
+                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_KFCBMMIENAKEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0);
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, java.lang.Integer> mDKDJEJNELO_;
+        java.lang.Integer, java.lang.Integer> kFCBMMIENAK_;
     private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-    internalGetMDKDJEJNELO() {
-      if (mDKDJEJNELO_ == null) {
+    internalGetKFCBMMIENAK() {
+      if (kFCBMMIENAK_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            MDKDJEJNELODefaultEntryHolder.defaultEntry);
+            KFCBMMIENAKDefaultEntryHolder.defaultEntry);
       }
-      return mDKDJEJNELO_;
+      return kFCBMMIENAK_;
     }
 
-    public int getMDKDJEJNELOCount() {
-      return internalGetMDKDJEJNELO().getMap().size();
+    public int getKFCBMMIENAKCount() {
+      return internalGetKFCBMMIENAK().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
      */
 
     @java.lang.Override
-    public boolean containsMDKDJEJNELO(
+    public boolean containsKFCBMMIENAK(
         int key) {
       
-      return internalGetMDKDJEJNELO().getMap().containsKey(key);
+      return internalGetKFCBMMIENAK().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getMDKDJEJNELOMap()} instead.
+     * Use {@link #getKFCBMMIENAKMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getMDKDJEJNELO() {
-      return getMDKDJEJNELOMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getKFCBMMIENAK() {
+      return getKFCBMMIENAKMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, java.lang.Integer> getMDKDJEJNELOMap() {
-      return internalGetMDKDJEJNELO().getMap();
+    public java.util.Map<java.lang.Integer, java.lang.Integer> getKFCBMMIENAKMap() {
+      return internalGetKFCBMMIENAK().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
      */
     @java.lang.Override
 
-    public int getMDKDJEJNELOOrDefault(
+    public int getKFCBMMIENAKOrDefault(
         int key,
         int defaultValue) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetMDKDJEJNELO().getMap();
+          internalGetKFCBMMIENAK().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+     * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
      */
     @java.lang.Override
 
-    public int getMDKDJEJNELOOrThrow(
+    public int getKFCBMMIENAKOrThrow(
         int key) {
       
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
-          internalGetMDKDJEJNELO().getMap();
+          internalGetKFCBMMIENAK().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
 
-    public static final int DAY_INDEX_FIELD_NUMBER = 15;
-    private int dayIndex_;
-    /**
-     * <code>uint32 day_index = 15;</code>
-     * @return The dayIndex.
-     */
-    @java.lang.Override
-    public int getDayIndex() {
-      return dayIndex_;
-    }
-
-    public static final int TODAY_SEED_REWARD_ID_FIELD_NUMBER = 2;
+    public static final int TODAY_SEED_REWARD_ID_FIELD_NUMBER = 13;
     private int todaySeedRewardId_;
     /**
-     * <code>uint32 today_seed_reward_id = 2;</code>
+     * <code>uint32 today_seed_reward_id = 13;</code>
      * @return The todaySeedRewardId.
      */
     @java.lang.Override
@@ -432,10 +421,21 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       return todaySeedRewardId_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 5;
+    public static final int IS_TODAY_HAS_AWARDED_FIELD_NUMBER = 10;
+    private boolean isTodayHasAwarded_;
+    /**
+     * <code>bool is_today_has_awarded = 10;</code>
+     * @return The isTodayHasAwarded.
+     */
+    @java.lang.Override
+    public boolean getIsTodayHasAwarded() {
+      return isTodayHasAwarded_;
+    }
+
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 12;
     private boolean isContentClosed_;
     /**
-     * <code>bool is_content_closed = 5;</code>
+     * <code>bool is_content_closed = 12;</code>
      * @return The isContentClosed.
      */
     @java.lang.Override
@@ -443,15 +443,15 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       return isContentClosed_;
     }
 
-    public static final int IS_TODAY_HAS_AWARDED_FIELD_NUMBER = 9;
-    private boolean isTodayHasAwarded_;
+    public static final int DAY_INDEX_FIELD_NUMBER = 4;
+    private int dayIndex_;
     /**
-     * <code>bool is_today_has_awarded = 9;</code>
-     * @return The isTodayHasAwarded.
+     * <code>uint32 day_index = 4;</code>
+     * @return The dayIndex.
      */
     @java.lang.Override
-    public boolean getIsTodayHasAwarded() {
-      return isTodayHasAwarded_;
+    public int getDayIndex() {
+      return dayIndex_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -468,30 +468,30 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (todaySeedRewardId_ != 0) {
-        output.writeUInt32(2, todaySeedRewardId_);
-      }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetMDKDJEJNELO(),
-          MDKDJEJNELODefaultEntryHolder.defaultEntry,
-          4);
-      if (isContentClosed_ != false) {
-        output.writeBool(5, isContentClosed_);
+          internalGetKFCBMMIENAK(),
+          KFCBMMIENAKDefaultEntryHolder.defaultEntry,
+          2);
+      if (dayIndex_ != 0) {
+        output.writeUInt32(4, dayIndex_);
       }
       if (isTodayHasAwarded_ != false) {
-        output.writeBool(9, isTodayHasAwarded_);
+        output.writeBool(10, isTodayHasAwarded_);
+      }
+      if (isContentClosed_ != false) {
+        output.writeBool(12, isContentClosed_);
+      }
+      if (todaySeedRewardId_ != 0) {
+        output.writeUInt32(13, todaySeedRewardId_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetCDPNICIGBBG(),
-          CDPNICIGBBGDefaultEntryHolder.defaultEntry,
-          12);
-      if (dayIndex_ != 0) {
-        output.writeUInt32(15, dayIndex_);
-      }
+          internalGetBJAPIEMCPHD(),
+          BJAPIEMCPHDDefaultEntryHolder.defaultEntry,
+          15);
       unknownFields.writeTo(output);
     }
 
@@ -501,41 +501,41 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (todaySeedRewardId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, todaySeedRewardId_);
-      }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetMDKDJEJNELO().getMap().entrySet()) {
+           : internalGetKFCBMMIENAK().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        mDKDJEJNELO__ = MDKDJEJNELODefaultEntryHolder.defaultEntry.newBuilderForType()
+        kFCBMMIENAK__ = KFCBMMIENAKDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(4, mDKDJEJNELO__);
-      }
-      if (isContentClosed_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isContentClosed_);
-      }
-      if (isTodayHasAwarded_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isTodayHasAwarded_);
-      }
-      for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetCDPNICIGBBG().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        cDPNICIGBBG__ = CDPNICIGBBGDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(12, cDPNICIGBBG__);
+            .computeMessageSize(2, kFCBMMIENAK__);
       }
       if (dayIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, dayIndex_);
+          .computeUInt32Size(4, dayIndex_);
+      }
+      if (isTodayHasAwarded_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(10, isTodayHasAwarded_);
+      }
+      if (isContentClosed_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(12, isContentClosed_);
+      }
+      if (todaySeedRewardId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, todaySeedRewardId_);
+      }
+      for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
+           : internalGetBJAPIEMCPHD().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
+        bJAPIEMCPHD__ = BJAPIEMCPHDDefaultEntryHolder.defaultEntry.newBuilderForType()
+            .setKey(entry.getKey())
+            .setValue(entry.getValue())
+            .build();
+        size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(15, bJAPIEMCPHD__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -552,18 +552,18 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo other = (emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo) obj;
 
-      if (!internalGetCDPNICIGBBG().equals(
-          other.internalGetCDPNICIGBBG())) return false;
-      if (!internalGetMDKDJEJNELO().equals(
-          other.internalGetMDKDJEJNELO())) return false;
-      if (getDayIndex()
-          != other.getDayIndex()) return false;
+      if (!internalGetBJAPIEMCPHD().equals(
+          other.internalGetBJAPIEMCPHD())) return false;
+      if (!internalGetKFCBMMIENAK().equals(
+          other.internalGetKFCBMMIENAK())) return false;
       if (getTodaySeedRewardId()
           != other.getTodaySeedRewardId()) return false;
-      if (getIsContentClosed()
-          != other.getIsContentClosed()) return false;
       if (getIsTodayHasAwarded()
           != other.getIsTodayHasAwarded()) return false;
+      if (getIsContentClosed()
+          != other.getIsContentClosed()) return false;
+      if (getDayIndex()
+          != other.getDayIndex()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -575,24 +575,24 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (!internalGetCDPNICIGBBG().getMap().isEmpty()) {
-        hash = (37 * hash) + CDPNICIGBBG_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetCDPNICIGBBG().hashCode();
+      if (!internalGetBJAPIEMCPHD().getMap().isEmpty()) {
+        hash = (37 * hash) + BJAPIEMCPHD_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetBJAPIEMCPHD().hashCode();
       }
-      if (!internalGetMDKDJEJNELO().getMap().isEmpty()) {
-        hash = (37 * hash) + MDKDJEJNELO_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetMDKDJEJNELO().hashCode();
+      if (!internalGetKFCBMMIENAK().getMap().isEmpty()) {
+        hash = (37 * hash) + KFCBMMIENAK_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetKFCBMMIENAK().hashCode();
       }
-      hash = (37 * hash) + DAY_INDEX_FIELD_NUMBER;
-      hash = (53 * hash) + getDayIndex();
       hash = (37 * hash) + TODAY_SEED_REWARD_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTodaySeedRewardId();
-      hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsContentClosed());
       hash = (37 * hash) + IS_TODAY_HAS_AWARDED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsTodayHasAwarded());
+      hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsContentClosed());
+      hash = (37 * hash) + DAY_INDEX_FIELD_NUMBER;
+      hash = (53 * hash) + getDayIndex();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -704,10 +704,10 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 12:
-            return internalGetCDPNICIGBBG();
-          case 4:
-            return internalGetMDKDJEJNELO();
+          case 15:
+            return internalGetBJAPIEMCPHD();
+          case 2:
+            return internalGetKFCBMMIENAK();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -717,10 +717,10 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 12:
-            return internalGetMutableCDPNICIGBBG();
-          case 4:
-            return internalGetMutableMDKDJEJNELO();
+          case 15:
+            return internalGetMutableBJAPIEMCPHD();
+          case 2:
+            return internalGetMutableKFCBMMIENAK();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -752,15 +752,15 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        internalGetMutableCDPNICIGBBG().clear();
-        internalGetMutableMDKDJEJNELO().clear();
-        dayIndex_ = 0;
-
+        internalGetMutableBJAPIEMCPHD().clear();
+        internalGetMutableKFCBMMIENAK().clear();
         todaySeedRewardId_ = 0;
+
+        isTodayHasAwarded_ = false;
 
         isContentClosed_ = false;
 
-        isTodayHasAwarded_ = false;
+        dayIndex_ = 0;
 
         return this;
       }
@@ -789,14 +789,14 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo result = new emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        result.cDPNICIGBBG_ = internalGetCDPNICIGBBG();
-        result.cDPNICIGBBG_.makeImmutable();
-        result.mDKDJEJNELO_ = internalGetMDKDJEJNELO();
-        result.mDKDJEJNELO_.makeImmutable();
-        result.dayIndex_ = dayIndex_;
+        result.bJAPIEMCPHD_ = internalGetBJAPIEMCPHD();
+        result.bJAPIEMCPHD_.makeImmutable();
+        result.kFCBMMIENAK_ = internalGetKFCBMMIENAK();
+        result.kFCBMMIENAK_.makeImmutable();
         result.todaySeedRewardId_ = todaySeedRewardId_;
-        result.isContentClosed_ = isContentClosed_;
         result.isTodayHasAwarded_ = isTodayHasAwarded_;
+        result.isContentClosed_ = isContentClosed_;
+        result.dayIndex_ = dayIndex_;
         onBuilt();
         return result;
       }
@@ -845,21 +845,21 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.PlantFlowerActivityDetailInfo.getDefaultInstance()) return this;
-        internalGetMutableCDPNICIGBBG().mergeFrom(
-            other.internalGetCDPNICIGBBG());
-        internalGetMutableMDKDJEJNELO().mergeFrom(
-            other.internalGetMDKDJEJNELO());
-        if (other.getDayIndex() != 0) {
-          setDayIndex(other.getDayIndex());
-        }
+        internalGetMutableBJAPIEMCPHD().mergeFrom(
+            other.internalGetBJAPIEMCPHD());
+        internalGetMutableKFCBMMIENAK().mergeFrom(
+            other.internalGetKFCBMMIENAK());
         if (other.getTodaySeedRewardId() != 0) {
           setTodaySeedRewardId(other.getTodaySeedRewardId());
+        }
+        if (other.getIsTodayHasAwarded() != false) {
+          setIsTodayHasAwarded(other.getIsTodayHasAwarded());
         }
         if (other.getIsContentClosed() != false) {
           setIsContentClosed(other.getIsContentClosed());
         }
-        if (other.getIsTodayHasAwarded() != false) {
-          setIsTodayHasAwarded(other.getIsTodayHasAwarded());
+        if (other.getDayIndex() != 0) {
+          setDayIndex(other.getDayIndex());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -892,99 +892,99 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       private int bitField0_;
 
       private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> cDPNICIGBBG_;
+          java.lang.Integer, java.lang.Integer> bJAPIEMCPHD_;
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetCDPNICIGBBG() {
-        if (cDPNICIGBBG_ == null) {
+      internalGetBJAPIEMCPHD() {
+        if (bJAPIEMCPHD_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
-              CDPNICIGBBGDefaultEntryHolder.defaultEntry);
+              BJAPIEMCPHDDefaultEntryHolder.defaultEntry);
         }
-        return cDPNICIGBBG_;
+        return bJAPIEMCPHD_;
       }
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableCDPNICIGBBG() {
+      internalGetMutableBJAPIEMCPHD() {
         onChanged();;
-        if (cDPNICIGBBG_ == null) {
-          cDPNICIGBBG_ = com.google.protobuf.MapField.newMapField(
-              CDPNICIGBBGDefaultEntryHolder.defaultEntry);
+        if (bJAPIEMCPHD_ == null) {
+          bJAPIEMCPHD_ = com.google.protobuf.MapField.newMapField(
+              BJAPIEMCPHDDefaultEntryHolder.defaultEntry);
         }
-        if (!cDPNICIGBBG_.isMutable()) {
-          cDPNICIGBBG_ = cDPNICIGBBG_.copy();
+        if (!bJAPIEMCPHD_.isMutable()) {
+          bJAPIEMCPHD_ = bJAPIEMCPHD_.copy();
         }
-        return cDPNICIGBBG_;
+        return bJAPIEMCPHD_;
       }
 
-      public int getCDPNICIGBBGCount() {
-        return internalGetCDPNICIGBBG().getMap().size();
+      public int getBJAPIEMCPHDCount() {
+        return internalGetBJAPIEMCPHD().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+       * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
        */
 
       @java.lang.Override
-      public boolean containsCDPNICIGBBG(
+      public boolean containsBJAPIEMCPHD(
           int key) {
         
-        return internalGetCDPNICIGBBG().getMap().containsKey(key);
+        return internalGetBJAPIEMCPHD().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getCDPNICIGBBGMap()} instead.
+       * Use {@link #getBJAPIEMCPHDMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getCDPNICIGBBG() {
-        return getCDPNICIGBBGMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getBJAPIEMCPHD() {
+        return getBJAPIEMCPHDMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+       * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getCDPNICIGBBGMap() {
-        return internalGetCDPNICIGBBG().getMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getBJAPIEMCPHDMap() {
+        return internalGetBJAPIEMCPHD().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+       * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
        */
       @java.lang.Override
 
-      public int getCDPNICIGBBGOrDefault(
+      public int getBJAPIEMCPHDOrDefault(
           int key,
           int defaultValue) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetCDPNICIGBBG().getMap();
+            internalGetBJAPIEMCPHD().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+       * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
        */
       @java.lang.Override
 
-      public int getCDPNICIGBBGOrThrow(
+      public int getBJAPIEMCPHDOrThrow(
           int key) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetCDPNICIGBBG().getMap();
+            internalGetBJAPIEMCPHD().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearCDPNICIGBBG() {
-        internalGetMutableCDPNICIGBBG().getMutableMap()
+      public Builder clearBJAPIEMCPHD() {
+        internalGetMutableBJAPIEMCPHD().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+       * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
        */
 
-      public Builder removeCDPNICIGBBG(
+      public Builder removeBJAPIEMCPHD(
           int key) {
         
-        internalGetMutableCDPNICIGBBG().getMutableMap()
+        internalGetMutableBJAPIEMCPHD().getMutableMap()
             .remove(key);
         return this;
       }
@@ -993,126 +993,126 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableCDPNICIGBBG() {
-        return internalGetMutableCDPNICIGBBG().getMutableMap();
+      getMutableBJAPIEMCPHD() {
+        return internalGetMutableBJAPIEMCPHD().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+       * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
        */
-      public Builder putCDPNICIGBBG(
+      public Builder putBJAPIEMCPHD(
           int key,
           int value) {
         
         
-        internalGetMutableCDPNICIGBBG().getMutableMap()
+        internalGetMutableBJAPIEMCPHD().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; CDPNICIGBBG = 12;</code>
+       * <code>map&lt;uint32, uint32&gt; BJAPIEMCPHD = 15;</code>
        */
 
-      public Builder putAllCDPNICIGBBG(
+      public Builder putAllBJAPIEMCPHD(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableCDPNICIGBBG().getMutableMap()
+        internalGetMutableBJAPIEMCPHD().getMutableMap()
             .putAll(values);
         return this;
       }
 
       private com.google.protobuf.MapField<
-          java.lang.Integer, java.lang.Integer> mDKDJEJNELO_;
+          java.lang.Integer, java.lang.Integer> kFCBMMIENAK_;
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMDKDJEJNELO() {
-        if (mDKDJEJNELO_ == null) {
+      internalGetKFCBMMIENAK() {
+        if (kFCBMMIENAK_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
-              MDKDJEJNELODefaultEntryHolder.defaultEntry);
+              KFCBMMIENAKDefaultEntryHolder.defaultEntry);
         }
-        return mDKDJEJNELO_;
+        return kFCBMMIENAK_;
       }
       private com.google.protobuf.MapField<java.lang.Integer, java.lang.Integer>
-      internalGetMutableMDKDJEJNELO() {
+      internalGetMutableKFCBMMIENAK() {
         onChanged();;
-        if (mDKDJEJNELO_ == null) {
-          mDKDJEJNELO_ = com.google.protobuf.MapField.newMapField(
-              MDKDJEJNELODefaultEntryHolder.defaultEntry);
+        if (kFCBMMIENAK_ == null) {
+          kFCBMMIENAK_ = com.google.protobuf.MapField.newMapField(
+              KFCBMMIENAKDefaultEntryHolder.defaultEntry);
         }
-        if (!mDKDJEJNELO_.isMutable()) {
-          mDKDJEJNELO_ = mDKDJEJNELO_.copy();
+        if (!kFCBMMIENAK_.isMutable()) {
+          kFCBMMIENAK_ = kFCBMMIENAK_.copy();
         }
-        return mDKDJEJNELO_;
+        return kFCBMMIENAK_;
       }
 
-      public int getMDKDJEJNELOCount() {
-        return internalGetMDKDJEJNELO().getMap().size();
+      public int getKFCBMMIENAKCount() {
+        return internalGetKFCBMMIENAK().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
        */
 
       @java.lang.Override
-      public boolean containsMDKDJEJNELO(
+      public boolean containsKFCBMMIENAK(
           int key) {
         
-        return internalGetMDKDJEJNELO().getMap().containsKey(key);
+        return internalGetKFCBMMIENAK().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getMDKDJEJNELOMap()} instead.
+       * Use {@link #getKFCBMMIENAKMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getMDKDJEJNELO() {
-        return getMDKDJEJNELOMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getKFCBMMIENAK() {
+        return getKFCBMMIENAKMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, java.lang.Integer> getMDKDJEJNELOMap() {
-        return internalGetMDKDJEJNELO().getMap();
+      public java.util.Map<java.lang.Integer, java.lang.Integer> getKFCBMMIENAKMap() {
+        return internalGetKFCBMMIENAK().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
        */
       @java.lang.Override
 
-      public int getMDKDJEJNELOOrDefault(
+      public int getKFCBMMIENAKOrDefault(
           int key,
           int defaultValue) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetMDKDJEJNELO().getMap();
+            internalGetKFCBMMIENAK().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
        */
       @java.lang.Override
 
-      public int getMDKDJEJNELOOrThrow(
+      public int getKFCBMMIENAKOrThrow(
           int key) {
         
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
-            internalGetMDKDJEJNELO().getMap();
+            internalGetKFCBMMIENAK().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearMDKDJEJNELO() {
-        internalGetMutableMDKDJEJNELO().getMutableMap()
+      public Builder clearKFCBMMIENAK() {
+        internalGetMutableKFCBMMIENAK().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
        */
 
-      public Builder removeMDKDJEJNELO(
+      public Builder removeKFCBMMIENAK(
           int key) {
         
-        internalGetMutableMDKDJEJNELO().getMutableMap()
+        internalGetMutableKFCBMMIENAK().getMutableMap()
             .remove(key);
         return this;
       }
@@ -1121,66 +1121,35 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, java.lang.Integer>
-      getMutableMDKDJEJNELO() {
-        return internalGetMutableMDKDJEJNELO().getMutableMap();
+      getMutableKFCBMMIENAK() {
+        return internalGetMutableKFCBMMIENAK().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
        */
-      public Builder putMDKDJEJNELO(
+      public Builder putKFCBMMIENAK(
           int key,
           int value) {
         
         
-        internalGetMutableMDKDJEJNELO().getMutableMap()
+        internalGetMutableKFCBMMIENAK().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; MDKDJEJNELO = 4;</code>
+       * <code>map&lt;uint32, uint32&gt; KFCBMMIENAK = 2;</code>
        */
 
-      public Builder putAllMDKDJEJNELO(
+      public Builder putAllKFCBMMIENAK(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
-        internalGetMutableMDKDJEJNELO().getMutableMap()
+        internalGetMutableKFCBMMIENAK().getMutableMap()
             .putAll(values);
-        return this;
-      }
-
-      private int dayIndex_ ;
-      /**
-       * <code>uint32 day_index = 15;</code>
-       * @return The dayIndex.
-       */
-      @java.lang.Override
-      public int getDayIndex() {
-        return dayIndex_;
-      }
-      /**
-       * <code>uint32 day_index = 15;</code>
-       * @param value The dayIndex to set.
-       * @return This builder for chaining.
-       */
-      public Builder setDayIndex(int value) {
-        
-        dayIndex_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 day_index = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearDayIndex() {
-        
-        dayIndex_ = 0;
-        onChanged();
         return this;
       }
 
       private int todaySeedRewardId_ ;
       /**
-       * <code>uint32 today_seed_reward_id = 2;</code>
+       * <code>uint32 today_seed_reward_id = 13;</code>
        * @return The todaySeedRewardId.
        */
       @java.lang.Override
@@ -1188,7 +1157,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
         return todaySeedRewardId_;
       }
       /**
-       * <code>uint32 today_seed_reward_id = 2;</code>
+       * <code>uint32 today_seed_reward_id = 13;</code>
        * @param value The todaySeedRewardId to set.
        * @return This builder for chaining.
        */
@@ -1199,7 +1168,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 today_seed_reward_id = 2;</code>
+       * <code>uint32 today_seed_reward_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearTodaySeedRewardId() {
@@ -1209,40 +1178,9 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
         return this;
       }
 
-      private boolean isContentClosed_ ;
-      /**
-       * <code>bool is_content_closed = 5;</code>
-       * @return The isContentClosed.
-       */
-      @java.lang.Override
-      public boolean getIsContentClosed() {
-        return isContentClosed_;
-      }
-      /**
-       * <code>bool is_content_closed = 5;</code>
-       * @param value The isContentClosed to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsContentClosed(boolean value) {
-        
-        isContentClosed_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_content_closed = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsContentClosed() {
-        
-        isContentClosed_ = false;
-        onChanged();
-        return this;
-      }
-
       private boolean isTodayHasAwarded_ ;
       /**
-       * <code>bool is_today_has_awarded = 9;</code>
+       * <code>bool is_today_has_awarded = 10;</code>
        * @return The isTodayHasAwarded.
        */
       @java.lang.Override
@@ -1250,7 +1188,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
         return isTodayHasAwarded_;
       }
       /**
-       * <code>bool is_today_has_awarded = 9;</code>
+       * <code>bool is_today_has_awarded = 10;</code>
        * @param value The isTodayHasAwarded to set.
        * @return This builder for chaining.
        */
@@ -1261,12 +1199,74 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_today_has_awarded = 9;</code>
+       * <code>bool is_today_has_awarded = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsTodayHasAwarded() {
         
         isTodayHasAwarded_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean isContentClosed_ ;
+      /**
+       * <code>bool is_content_closed = 12;</code>
+       * @return The isContentClosed.
+       */
+      @java.lang.Override
+      public boolean getIsContentClosed() {
+        return isContentClosed_;
+      }
+      /**
+       * <code>bool is_content_closed = 12;</code>
+       * @param value The isContentClosed to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsContentClosed(boolean value) {
+        
+        isContentClosed_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_content_closed = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsContentClosed() {
+        
+        isContentClosed_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int dayIndex_ ;
+      /**
+       * <code>uint32 day_index = 4;</code>
+       * @return The dayIndex.
+       */
+      @java.lang.Override
+      public int getDayIndex() {
+        return dayIndex_;
+      }
+      /**
+       * <code>uint32 day_index = 4;</code>
+       * @param value The dayIndex to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDayIndex(int value) {
+        
+        dayIndex_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 day_index = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDayIndex() {
+        
+        dayIndex_ = 0;
         onChanged();
         return this;
       }
@@ -1329,15 +1329,15 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlantFlowerActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_PlantFlowerActivityDetailInfo_CDPNICIGBBGEntry_descriptor;
+    internal_static_PlantFlowerActivityDetailInfo_BJAPIEMCPHDEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_PlantFlowerActivityDetailInfo_CDPNICIGBBGEntry_fieldAccessorTable;
+      internal_static_PlantFlowerActivityDetailInfo_BJAPIEMCPHDEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_PlantFlowerActivityDetailInfo_MDKDJEJNELOEntry_descriptor;
+    internal_static_PlantFlowerActivityDetailInfo_KFCBMMIENAKEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_PlantFlowerActivityDetailInfo_MDKDJEJNELOEntry_fieldAccessorTable;
+      internal_static_PlantFlowerActivityDetailInfo_KFCBMMIENAKEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1348,15 +1348,15 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n#PlantFlowerActivityDetailInfo.proto\"\375\002" +
-      "\n\035PlantFlowerActivityDetailInfo\022D\n\013CDPNI" +
-      "CIGBBG\030\014 \003(\0132/.PlantFlowerActivityDetail" +
-      "Info.CDPNICIGBBGEntry\022D\n\013MDKDJEJNELO\030\004 \003" +
-      "(\0132/.PlantFlowerActivityDetailInfo.MDKDJ" +
-      "EJNELOEntry\022\021\n\tday_index\030\017 \001(\r\022\034\n\024today_" +
-      "seed_reward_id\030\002 \001(\r\022\031\n\021is_content_close" +
-      "d\030\005 \001(\010\022\034\n\024is_today_has_awarded\030\t \001(\010\0322\n" +
-      "\020CDPNICIGBBGEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030" +
-      "\002 \001(\r:\0028\001\0322\n\020MDKDJEJNELOEntry\022\013\n\003key\030\001 \001" +
+      "\n\035PlantFlowerActivityDetailInfo\022D\n\013BJAPI" +
+      "EMCPHD\030\017 \003(\0132/.PlantFlowerActivityDetail" +
+      "Info.BJAPIEMCPHDEntry\022D\n\013KFCBMMIENAK\030\002 \003" +
+      "(\0132/.PlantFlowerActivityDetailInfo.KFCBM" +
+      "MIENAKEntry\022\034\n\024today_seed_reward_id\030\r \001(" +
+      "\r\022\034\n\024is_today_has_awarded\030\n \001(\010\022\031\n\021is_co" +
+      "ntent_closed\030\014 \001(\010\022\021\n\tday_index\030\004 \001(\r\0322\n" +
+      "\020BJAPIEMCPHDEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030" +
+      "\002 \001(\r:\0028\001\0322\n\020KFCBMMIENAKEntry\022\013\n\003key\030\001 \001" +
       "(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033\n\031emu.grasscutter" +
       ".net.protob\006proto3"
     };
@@ -1369,18 +1369,18 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     internal_static_PlantFlowerActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlantFlowerActivityDetailInfo_descriptor,
-        new java.lang.String[] { "CDPNICIGBBG", "MDKDJEJNELO", "DayIndex", "TodaySeedRewardId", "IsContentClosed", "IsTodayHasAwarded", });
-    internal_static_PlantFlowerActivityDetailInfo_CDPNICIGBBGEntry_descriptor =
+        new java.lang.String[] { "BJAPIEMCPHD", "KFCBMMIENAK", "TodaySeedRewardId", "IsTodayHasAwarded", "IsContentClosed", "DayIndex", });
+    internal_static_PlantFlowerActivityDetailInfo_BJAPIEMCPHDEntry_descriptor =
       internal_static_PlantFlowerActivityDetailInfo_descriptor.getNestedTypes().get(0);
-    internal_static_PlantFlowerActivityDetailInfo_CDPNICIGBBGEntry_fieldAccessorTable = new
+    internal_static_PlantFlowerActivityDetailInfo_BJAPIEMCPHDEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_PlantFlowerActivityDetailInfo_CDPNICIGBBGEntry_descriptor,
+        internal_static_PlantFlowerActivityDetailInfo_BJAPIEMCPHDEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    internal_static_PlantFlowerActivityDetailInfo_MDKDJEJNELOEntry_descriptor =
+    internal_static_PlantFlowerActivityDetailInfo_KFCBMMIENAKEntry_descriptor =
       internal_static_PlantFlowerActivityDetailInfo_descriptor.getNestedTypes().get(1);
-    internal_static_PlantFlowerActivityDetailInfo_MDKDJEJNELOEntry_fieldAccessorTable = new
+    internal_static_PlantFlowerActivityDetailInfo_KFCBMMIENAKEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_PlantFlowerActivityDetailInfo_MDKDJEJNELOEntry_descriptor,
+        internal_static_PlantFlowerActivityDetailInfo_KFCBMMIENAKEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
   }
 

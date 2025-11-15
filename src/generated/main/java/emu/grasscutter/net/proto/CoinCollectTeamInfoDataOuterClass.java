@@ -19,73 +19,73 @@ public final class CoinCollectTeamInfoDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 5;</code>
      * @return A list containing the avatarIdList.
      */
     java.util.List<java.lang.Integer> getAvatarIdListList();
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 5;</code>
      * @return The count of avatarIdList.
      */
     int getAvatarIdListCount();
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 5;</code>
      * @param index The index of the element to return.
      * @return The avatarIdList at the given index.
      */
     int getAvatarIdList(int index);
 
     /**
-     * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
-     * @return A list containing the nFOJHFMLBNF.
+     * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
+     * @return A list containing the mEFAFPPEEOM.
      */
-    java.util.List<java.lang.Integer> getNFOJHFMLBNFList();
+    java.util.List<java.lang.Integer> getMEFAFPPEEOMList();
     /**
-     * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
-     * @return The count of nFOJHFMLBNF.
+     * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
+     * @return The count of mEFAFPPEEOM.
      */
-    int getNFOJHFMLBNFCount();
+    int getMEFAFPPEEOMCount();
     /**
-     * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
+     * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
      * @param index The index of the element to return.
-     * @return The nFOJHFMLBNF at the given index.
+     * @return The mEFAFPPEEOM at the given index.
      */
-    int getNFOJHFMLBNF(int index);
+    int getMEFAFPPEEOM(int index);
 
     /**
-     * <code>repeated uint32 EMGKIADHIDH = 9;</code>
-     * @return A list containing the eMGKIADHIDH.
+     * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
+     * @return A list containing the jGAGMFFLNBP.
      */
-    java.util.List<java.lang.Integer> getEMGKIADHIDHList();
+    java.util.List<java.lang.Integer> getJGAGMFFLNBPList();
     /**
-     * <code>repeated uint32 EMGKIADHIDH = 9;</code>
-     * @return The count of eMGKIADHIDH.
+     * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
+     * @return The count of jGAGMFFLNBP.
      */
-    int getEMGKIADHIDHCount();
+    int getJGAGMFFLNBPCount();
     /**
-     * <code>repeated uint32 EMGKIADHIDH = 9;</code>
+     * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
      * @param index The index of the element to return.
-     * @return The eMGKIADHIDH at the given index.
+     * @return The jGAGMFFLNBP at the given index.
      */
-    int getEMGKIADHIDH(int index);
+    int getJGAGMFFLNBP(int index);
 
     /**
-     * <code>bool is_host = 12;</code>
+     * <code>uint32 player_uid = 12;</code>
+     * @return The playerUid.
+     */
+    int getPlayerUid();
+
+    /**
+     * <code>bool is_host = 2;</code>
      * @return The isHost.
      */
     boolean getIsHost();
 
     /**
-     * <code>uint32 choose_skill_no = 3;</code>
+     * <code>uint32 choose_skill_no = 10;</code>
      * @return The chooseSkillNo.
      */
     int getChooseSkillNo();
-
-    /**
-     * <code>uint32 player_uid = 1;</code>
-     * @return The playerUid.
-     */
-    int getPlayerUid();
   }
   /**
    * Protobuf type {@code CoinCollectTeamInfoData}
@@ -101,8 +101,8 @@ public final class CoinCollectTeamInfoDataOuterClass {
     }
     private CoinCollectTeamInfoData() {
       avatarIdList_ = emptyIntList();
-      nFOJHFMLBNF_ = emptyIntList();
-      eMGKIADHIDH_ = emptyIntList();
+      mEFAFPPEEOM_ = emptyIntList();
+      jGAGMFFLNBP_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -137,58 +137,32 @@ public final class CoinCollectTeamInfoDataOuterClass {
               done = true;
               break;
             case 8: {
-
-              playerUid_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
-              chooseSkillNo_ = input.readUInt32();
-              break;
-            }
-            case 48: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                nFOJHFMLBNF_ = newIntList();
+                mEFAFPPEEOM_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
-              nFOJHFMLBNF_.addInt(input.readUInt32());
+              mEFAFPPEEOM_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                nFOJHFMLBNF_ = newIntList();
+                mEFAFPPEEOM_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                nFOJHFMLBNF_.addInt(input.readUInt32());
+                mEFAFPPEEOM_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 72: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                eMGKIADHIDH_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              eMGKIADHIDH_.addInt(input.readUInt32());
+            case 16: {
+
+              isHost_ = input.readBool();
               break;
             }
-            case 74: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                eMGKIADHIDH_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                eMGKIADHIDH_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 80: {
+            case 40: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -196,7 +170,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
               avatarIdList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 42: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -209,9 +183,35 @@ public final class CoinCollectTeamInfoDataOuterClass {
               input.popLimit(limit);
               break;
             }
+            case 80: {
+
+              chooseSkillNo_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                jGAGMFFLNBP_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              jGAGMFFLNBP_.addInt(input.readUInt32());
+              break;
+            }
+            case 90: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
+                jGAGMFFLNBP_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                jGAGMFFLNBP_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
             case 96: {
 
-              isHost_ = input.readBool();
+              playerUid_ = input.readUInt32();
               break;
             }
             default: {
@@ -230,13 +230,13 @@ public final class CoinCollectTeamInfoDataOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          nFOJHFMLBNF_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          eMGKIADHIDH_.makeImmutable(); // C
+          mEFAFPPEEOM_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           avatarIdList_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          jGAGMFFLNBP_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -255,10 +255,10 @@ public final class CoinCollectTeamInfoDataOuterClass {
               emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.class, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder.class);
     }
 
-    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 10;
+    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList avatarIdList_;
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 5;</code>
      * @return A list containing the avatarIdList.
      */
     @java.lang.Override
@@ -267,14 +267,14 @@ public final class CoinCollectTeamInfoDataOuterClass {
       return avatarIdList_;
     }
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 5;</code>
      * @return The count of avatarIdList.
      */
     public int getAvatarIdListCount() {
       return avatarIdList_.size();
     }
     /**
-     * <code>repeated uint32 avatar_id_list = 10;</code>
+     * <code>repeated uint32 avatar_id_list = 5;</code>
      * @param index The index of the element to return.
      * @return The avatarIdList at the given index.
      */
@@ -283,66 +283,77 @@ public final class CoinCollectTeamInfoDataOuterClass {
     }
     private int avatarIdListMemoizedSerializedSize = -1;
 
-    public static final int NFOJHFMLBNF_FIELD_NUMBER = 6;
-    private com.google.protobuf.Internal.IntList nFOJHFMLBNF_;
+    public static final int MEFAFPPEEOM_FIELD_NUMBER = 1;
+    private com.google.protobuf.Internal.IntList mEFAFPPEEOM_;
     /**
-     * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
-     * @return A list containing the nFOJHFMLBNF.
+     * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
+     * @return A list containing the mEFAFPPEEOM.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getNFOJHFMLBNFList() {
-      return nFOJHFMLBNF_;
+        getMEFAFPPEEOMList() {
+      return mEFAFPPEEOM_;
     }
     /**
-     * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
-     * @return The count of nFOJHFMLBNF.
+     * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
+     * @return The count of mEFAFPPEEOM.
      */
-    public int getNFOJHFMLBNFCount() {
-      return nFOJHFMLBNF_.size();
+    public int getMEFAFPPEEOMCount() {
+      return mEFAFPPEEOM_.size();
     }
     /**
-     * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
+     * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
      * @param index The index of the element to return.
-     * @return The nFOJHFMLBNF at the given index.
+     * @return The mEFAFPPEEOM at the given index.
      */
-    public int getNFOJHFMLBNF(int index) {
-      return nFOJHFMLBNF_.getInt(index);
+    public int getMEFAFPPEEOM(int index) {
+      return mEFAFPPEEOM_.getInt(index);
     }
-    private int nFOJHFMLBNFMemoizedSerializedSize = -1;
+    private int mEFAFPPEEOMMemoizedSerializedSize = -1;
 
-    public static final int EMGKIADHIDH_FIELD_NUMBER = 9;
-    private com.google.protobuf.Internal.IntList eMGKIADHIDH_;
+    public static final int JGAGMFFLNBP_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList jGAGMFFLNBP_;
     /**
-     * <code>repeated uint32 EMGKIADHIDH = 9;</code>
-     * @return A list containing the eMGKIADHIDH.
+     * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
+     * @return A list containing the jGAGMFFLNBP.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getEMGKIADHIDHList() {
-      return eMGKIADHIDH_;
+        getJGAGMFFLNBPList() {
+      return jGAGMFFLNBP_;
     }
     /**
-     * <code>repeated uint32 EMGKIADHIDH = 9;</code>
-     * @return The count of eMGKIADHIDH.
+     * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
+     * @return The count of jGAGMFFLNBP.
      */
-    public int getEMGKIADHIDHCount() {
-      return eMGKIADHIDH_.size();
+    public int getJGAGMFFLNBPCount() {
+      return jGAGMFFLNBP_.size();
     }
     /**
-     * <code>repeated uint32 EMGKIADHIDH = 9;</code>
+     * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
      * @param index The index of the element to return.
-     * @return The eMGKIADHIDH at the given index.
+     * @return The jGAGMFFLNBP at the given index.
      */
-    public int getEMGKIADHIDH(int index) {
-      return eMGKIADHIDH_.getInt(index);
+    public int getJGAGMFFLNBP(int index) {
+      return jGAGMFFLNBP_.getInt(index);
     }
-    private int eMGKIADHIDHMemoizedSerializedSize = -1;
+    private int jGAGMFFLNBPMemoizedSerializedSize = -1;
 
-    public static final int IS_HOST_FIELD_NUMBER = 12;
+    public static final int PLAYER_UID_FIELD_NUMBER = 12;
+    private int playerUid_;
+    /**
+     * <code>uint32 player_uid = 12;</code>
+     * @return The playerUid.
+     */
+    @java.lang.Override
+    public int getPlayerUid() {
+      return playerUid_;
+    }
+
+    public static final int IS_HOST_FIELD_NUMBER = 2;
     private boolean isHost_;
     /**
-     * <code>bool is_host = 12;</code>
+     * <code>bool is_host = 2;</code>
      * @return The isHost.
      */
     @java.lang.Override
@@ -350,26 +361,15 @@ public final class CoinCollectTeamInfoDataOuterClass {
       return isHost_;
     }
 
-    public static final int CHOOSE_SKILL_NO_FIELD_NUMBER = 3;
+    public static final int CHOOSE_SKILL_NO_FIELD_NUMBER = 10;
     private int chooseSkillNo_;
     /**
-     * <code>uint32 choose_skill_no = 3;</code>
+     * <code>uint32 choose_skill_no = 10;</code>
      * @return The chooseSkillNo.
      */
     @java.lang.Override
     public int getChooseSkillNo() {
       return chooseSkillNo_;
-    }
-
-    public static final int PLAYER_UID_FIELD_NUMBER = 1;
-    private int playerUid_;
-    /**
-     * <code>uint32 player_uid = 1;</code>
-     * @return The playerUid.
-     */
-    @java.lang.Override
-    public int getPlayerUid() {
-      return playerUid_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -387,35 +387,35 @@ public final class CoinCollectTeamInfoDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (playerUid_ != 0) {
-        output.writeUInt32(1, playerUid_);
+      if (getMEFAFPPEEOMList().size() > 0) {
+        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(mEFAFPPEEOMMemoizedSerializedSize);
       }
-      if (chooseSkillNo_ != 0) {
-        output.writeUInt32(3, chooseSkillNo_);
+      for (int i = 0; i < mEFAFPPEEOM_.size(); i++) {
+        output.writeUInt32NoTag(mEFAFPPEEOM_.getInt(i));
       }
-      if (getNFOJHFMLBNFList().size() > 0) {
-        output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(nFOJHFMLBNFMemoizedSerializedSize);
-      }
-      for (int i = 0; i < nFOJHFMLBNF_.size(); i++) {
-        output.writeUInt32NoTag(nFOJHFMLBNF_.getInt(i));
-      }
-      if (getEMGKIADHIDHList().size() > 0) {
-        output.writeUInt32NoTag(74);
-        output.writeUInt32NoTag(eMGKIADHIDHMemoizedSerializedSize);
-      }
-      for (int i = 0; i < eMGKIADHIDH_.size(); i++) {
-        output.writeUInt32NoTag(eMGKIADHIDH_.getInt(i));
+      if (isHost_ != false) {
+        output.writeBool(2, isHost_);
       }
       if (getAvatarIdListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(avatarIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarIdList_.size(); i++) {
         output.writeUInt32NoTag(avatarIdList_.getInt(i));
       }
-      if (isHost_ != false) {
-        output.writeBool(12, isHost_);
+      if (chooseSkillNo_ != 0) {
+        output.writeUInt32(10, chooseSkillNo_);
+      }
+      if (getJGAGMFFLNBPList().size() > 0) {
+        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(jGAGMFFLNBPMemoizedSerializedSize);
+      }
+      for (int i = 0; i < jGAGMFFLNBP_.size(); i++) {
+        output.writeUInt32NoTag(jGAGMFFLNBP_.getInt(i));
+      }
+      if (playerUid_ != 0) {
+        output.writeUInt32(12, playerUid_);
       }
       unknownFields.writeTo(output);
     }
@@ -426,41 +426,23 @@ public final class CoinCollectTeamInfoDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (playerUid_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, playerUid_);
-      }
-      if (chooseSkillNo_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, chooseSkillNo_);
-      }
       {
         int dataSize = 0;
-        for (int i = 0; i < nFOJHFMLBNF_.size(); i++) {
+        for (int i = 0; i < mEFAFPPEEOM_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(nFOJHFMLBNF_.getInt(i));
+            .computeUInt32SizeNoTag(mEFAFPPEEOM_.getInt(i));
         }
         size += dataSize;
-        if (!getNFOJHFMLBNFList().isEmpty()) {
+        if (!getMEFAFPPEEOMList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        nFOJHFMLBNFMemoizedSerializedSize = dataSize;
+        mEFAFPPEEOMMemoizedSerializedSize = dataSize;
       }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < eMGKIADHIDH_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(eMGKIADHIDH_.getInt(i));
-        }
-        size += dataSize;
-        if (!getEMGKIADHIDHList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        eMGKIADHIDHMemoizedSerializedSize = dataSize;
+      if (isHost_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(2, isHost_);
       }
       {
         int dataSize = 0;
@@ -476,9 +458,27 @@ public final class CoinCollectTeamInfoDataOuterClass {
         }
         avatarIdListMemoizedSerializedSize = dataSize;
       }
-      if (isHost_ != false) {
+      if (chooseSkillNo_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isHost_);
+          .computeUInt32Size(10, chooseSkillNo_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < jGAGMFFLNBP_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(jGAGMFFLNBP_.getInt(i));
+        }
+        size += dataSize;
+        if (!getJGAGMFFLNBPList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        jGAGMFFLNBPMemoizedSerializedSize = dataSize;
+      }
+      if (playerUid_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, playerUid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -497,16 +497,16 @@ public final class CoinCollectTeamInfoDataOuterClass {
 
       if (!getAvatarIdListList()
           .equals(other.getAvatarIdListList())) return false;
-      if (!getNFOJHFMLBNFList()
-          .equals(other.getNFOJHFMLBNFList())) return false;
-      if (!getEMGKIADHIDHList()
-          .equals(other.getEMGKIADHIDHList())) return false;
+      if (!getMEFAFPPEEOMList()
+          .equals(other.getMEFAFPPEEOMList())) return false;
+      if (!getJGAGMFFLNBPList()
+          .equals(other.getJGAGMFFLNBPList())) return false;
+      if (getPlayerUid()
+          != other.getPlayerUid()) return false;
       if (getIsHost()
           != other.getIsHost()) return false;
       if (getChooseSkillNo()
           != other.getChooseSkillNo()) return false;
-      if (getPlayerUid()
-          != other.getPlayerUid()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -522,21 +522,21 @@ public final class CoinCollectTeamInfoDataOuterClass {
         hash = (37 * hash) + AVATAR_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getAvatarIdListList().hashCode();
       }
-      if (getNFOJHFMLBNFCount() > 0) {
-        hash = (37 * hash) + NFOJHFMLBNF_FIELD_NUMBER;
-        hash = (53 * hash) + getNFOJHFMLBNFList().hashCode();
+      if (getMEFAFPPEEOMCount() > 0) {
+        hash = (37 * hash) + MEFAFPPEEOM_FIELD_NUMBER;
+        hash = (53 * hash) + getMEFAFPPEEOMList().hashCode();
       }
-      if (getEMGKIADHIDHCount() > 0) {
-        hash = (37 * hash) + EMGKIADHIDH_FIELD_NUMBER;
-        hash = (53 * hash) + getEMGKIADHIDHList().hashCode();
+      if (getJGAGMFFLNBPCount() > 0) {
+        hash = (37 * hash) + JGAGMFFLNBP_FIELD_NUMBER;
+        hash = (53 * hash) + getJGAGMFFLNBPList().hashCode();
       }
+      hash = (37 * hash) + PLAYER_UID_FIELD_NUMBER;
+      hash = (53 * hash) + getPlayerUid();
       hash = (37 * hash) + IS_HOST_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsHost());
       hash = (37 * hash) + CHOOSE_SKILL_NO_FIELD_NUMBER;
       hash = (53 * hash) + getChooseSkillNo();
-      hash = (37 * hash) + PLAYER_UID_FIELD_NUMBER;
-      hash = (53 * hash) + getPlayerUid();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -672,15 +672,15 @@ public final class CoinCollectTeamInfoDataOuterClass {
         super.clear();
         avatarIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        nFOJHFMLBNF_ = emptyIntList();
+        mEFAFPPEEOM_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        eMGKIADHIDH_ = emptyIntList();
+        jGAGMFFLNBP_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
+        playerUid_ = 0;
+
         isHost_ = false;
 
         chooseSkillNo_ = 0;
-
-        playerUid_ = 0;
 
         return this;
       }
@@ -715,18 +715,18 @@ public final class CoinCollectTeamInfoDataOuterClass {
         }
         result.avatarIdList_ = avatarIdList_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          nFOJHFMLBNF_.makeImmutable();
+          mEFAFPPEEOM_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.nFOJHFMLBNF_ = nFOJHFMLBNF_;
+        result.mEFAFPPEEOM_ = mEFAFPPEEOM_;
         if (((bitField0_ & 0x00000004) != 0)) {
-          eMGKIADHIDH_.makeImmutable();
+          jGAGMFFLNBP_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.eMGKIADHIDH_ = eMGKIADHIDH_;
+        result.jGAGMFFLNBP_ = jGAGMFFLNBP_;
+        result.playerUid_ = playerUid_;
         result.isHost_ = isHost_;
         result.chooseSkillNo_ = chooseSkillNo_;
-        result.playerUid_ = playerUid_;
         onBuilt();
         return result;
       }
@@ -785,34 +785,34 @@ public final class CoinCollectTeamInfoDataOuterClass {
           }
           onChanged();
         }
-        if (!other.nFOJHFMLBNF_.isEmpty()) {
-          if (nFOJHFMLBNF_.isEmpty()) {
-            nFOJHFMLBNF_ = other.nFOJHFMLBNF_;
+        if (!other.mEFAFPPEEOM_.isEmpty()) {
+          if (mEFAFPPEEOM_.isEmpty()) {
+            mEFAFPPEEOM_ = other.mEFAFPPEEOM_;
             bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureNFOJHFMLBNFIsMutable();
-            nFOJHFMLBNF_.addAll(other.nFOJHFMLBNF_);
+            ensureMEFAFPPEEOMIsMutable();
+            mEFAFPPEEOM_.addAll(other.mEFAFPPEEOM_);
           }
           onChanged();
         }
-        if (!other.eMGKIADHIDH_.isEmpty()) {
-          if (eMGKIADHIDH_.isEmpty()) {
-            eMGKIADHIDH_ = other.eMGKIADHIDH_;
+        if (!other.jGAGMFFLNBP_.isEmpty()) {
+          if (jGAGMFFLNBP_.isEmpty()) {
+            jGAGMFFLNBP_ = other.jGAGMFFLNBP_;
             bitField0_ = (bitField0_ & ~0x00000004);
           } else {
-            ensureEMGKIADHIDHIsMutable();
-            eMGKIADHIDH_.addAll(other.eMGKIADHIDH_);
+            ensureJGAGMFFLNBPIsMutable();
+            jGAGMFFLNBP_.addAll(other.jGAGMFFLNBP_);
           }
           onChanged();
+        }
+        if (other.getPlayerUid() != 0) {
+          setPlayerUid(other.getPlayerUid());
         }
         if (other.getIsHost() != false) {
           setIsHost(other.getIsHost());
         }
         if (other.getChooseSkillNo() != 0) {
           setChooseSkillNo(other.getChooseSkillNo());
-        }
-        if (other.getPlayerUid() != 0) {
-          setPlayerUid(other.getPlayerUid());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -852,7 +852,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 5;</code>
        * @return A list containing the avatarIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -861,14 +861,14 @@ public final class CoinCollectTeamInfoDataOuterClass {
                  java.util.Collections.unmodifiableList(avatarIdList_) : avatarIdList_;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 5;</code>
        * @return The count of avatarIdList.
        */
       public int getAvatarIdListCount() {
         return avatarIdList_.size();
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 5;</code>
        * @param index The index of the element to return.
        * @return The avatarIdList at the given index.
        */
@@ -876,7 +876,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
         return avatarIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 5;</code>
        * @param index The index to set the value at.
        * @param value The avatarIdList to set.
        * @return This builder for chaining.
@@ -889,7 +889,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 5;</code>
        * @param value The avatarIdList to add.
        * @return This builder for chaining.
        */
@@ -900,7 +900,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 5;</code>
        * @param values The avatarIdList to add.
        * @return This builder for chaining.
        */
@@ -913,7 +913,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 10;</code>
+       * <code>repeated uint32 avatar_id_list = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarIdList() {
@@ -923,167 +923,198 @@ public final class CoinCollectTeamInfoDataOuterClass {
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList nFOJHFMLBNF_ = emptyIntList();
-      private void ensureNFOJHFMLBNFIsMutable() {
+      private com.google.protobuf.Internal.IntList mEFAFPPEEOM_ = emptyIntList();
+      private void ensureMEFAFPPEEOMIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          nFOJHFMLBNF_ = mutableCopy(nFOJHFMLBNF_);
+          mEFAFPPEEOM_ = mutableCopy(mEFAFPPEEOM_);
           bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
-       * @return A list containing the nFOJHFMLBNF.
+       * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
+       * @return A list containing the mEFAFPPEEOM.
        */
       public java.util.List<java.lang.Integer>
-          getNFOJHFMLBNFList() {
+          getMEFAFPPEEOMList() {
         return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(nFOJHFMLBNF_) : nFOJHFMLBNF_;
+                 java.util.Collections.unmodifiableList(mEFAFPPEEOM_) : mEFAFPPEEOM_;
       }
       /**
-       * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
-       * @return The count of nFOJHFMLBNF.
+       * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
+       * @return The count of mEFAFPPEEOM.
        */
-      public int getNFOJHFMLBNFCount() {
-        return nFOJHFMLBNF_.size();
+      public int getMEFAFPPEEOMCount() {
+        return mEFAFPPEEOM_.size();
       }
       /**
-       * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
+       * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
        * @param index The index of the element to return.
-       * @return The nFOJHFMLBNF at the given index.
+       * @return The mEFAFPPEEOM at the given index.
        */
-      public int getNFOJHFMLBNF(int index) {
-        return nFOJHFMLBNF_.getInt(index);
+      public int getMEFAFPPEEOM(int index) {
+        return mEFAFPPEEOM_.getInt(index);
       }
       /**
-       * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
+       * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
        * @param index The index to set the value at.
-       * @param value The nFOJHFMLBNF to set.
+       * @param value The mEFAFPPEEOM to set.
        * @return This builder for chaining.
        */
-      public Builder setNFOJHFMLBNF(
+      public Builder setMEFAFPPEEOM(
           int index, int value) {
-        ensureNFOJHFMLBNFIsMutable();
-        nFOJHFMLBNF_.setInt(index, value);
+        ensureMEFAFPPEEOMIsMutable();
+        mEFAFPPEEOM_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
-       * @param value The nFOJHFMLBNF to add.
+       * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
+       * @param value The mEFAFPPEEOM to add.
        * @return This builder for chaining.
        */
-      public Builder addNFOJHFMLBNF(int value) {
-        ensureNFOJHFMLBNFIsMutable();
-        nFOJHFMLBNF_.addInt(value);
+      public Builder addMEFAFPPEEOM(int value) {
+        ensureMEFAFPPEEOMIsMutable();
+        mEFAFPPEEOM_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
-       * @param values The nFOJHFMLBNF to add.
+       * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
+       * @param values The mEFAFPPEEOM to add.
        * @return This builder for chaining.
        */
-      public Builder addAllNFOJHFMLBNF(
+      public Builder addAllMEFAFPPEEOM(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureNFOJHFMLBNFIsMutable();
+        ensureMEFAFPPEEOMIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, nFOJHFMLBNF_);
+            values, mEFAFPPEEOM_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 NFOJHFMLBNF = 6;</code>
+       * <code>repeated uint32 MEFAFPPEEOM = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNFOJHFMLBNF() {
-        nFOJHFMLBNF_ = emptyIntList();
+      public Builder clearMEFAFPPEEOM() {
+        mEFAFPPEEOM_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList eMGKIADHIDH_ = emptyIntList();
-      private void ensureEMGKIADHIDHIsMutable() {
+      private com.google.protobuf.Internal.IntList jGAGMFFLNBP_ = emptyIntList();
+      private void ensureJGAGMFFLNBPIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          eMGKIADHIDH_ = mutableCopy(eMGKIADHIDH_);
+          jGAGMFFLNBP_ = mutableCopy(jGAGMFFLNBP_);
           bitField0_ |= 0x00000004;
          }
       }
       /**
-       * <code>repeated uint32 EMGKIADHIDH = 9;</code>
-       * @return A list containing the eMGKIADHIDH.
+       * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
+       * @return A list containing the jGAGMFFLNBP.
        */
       public java.util.List<java.lang.Integer>
-          getEMGKIADHIDHList() {
+          getJGAGMFFLNBPList() {
         return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(eMGKIADHIDH_) : eMGKIADHIDH_;
+                 java.util.Collections.unmodifiableList(jGAGMFFLNBP_) : jGAGMFFLNBP_;
       }
       /**
-       * <code>repeated uint32 EMGKIADHIDH = 9;</code>
-       * @return The count of eMGKIADHIDH.
+       * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
+       * @return The count of jGAGMFFLNBP.
        */
-      public int getEMGKIADHIDHCount() {
-        return eMGKIADHIDH_.size();
+      public int getJGAGMFFLNBPCount() {
+        return jGAGMFFLNBP_.size();
       }
       /**
-       * <code>repeated uint32 EMGKIADHIDH = 9;</code>
+       * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
        * @param index The index of the element to return.
-       * @return The eMGKIADHIDH at the given index.
+       * @return The jGAGMFFLNBP at the given index.
        */
-      public int getEMGKIADHIDH(int index) {
-        return eMGKIADHIDH_.getInt(index);
+      public int getJGAGMFFLNBP(int index) {
+        return jGAGMFFLNBP_.getInt(index);
       }
       /**
-       * <code>repeated uint32 EMGKIADHIDH = 9;</code>
+       * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
        * @param index The index to set the value at.
-       * @param value The eMGKIADHIDH to set.
+       * @param value The jGAGMFFLNBP to set.
        * @return This builder for chaining.
        */
-      public Builder setEMGKIADHIDH(
+      public Builder setJGAGMFFLNBP(
           int index, int value) {
-        ensureEMGKIADHIDHIsMutable();
-        eMGKIADHIDH_.setInt(index, value);
+        ensureJGAGMFFLNBPIsMutable();
+        jGAGMFFLNBP_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 EMGKIADHIDH = 9;</code>
-       * @param value The eMGKIADHIDH to add.
+       * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
+       * @param value The jGAGMFFLNBP to add.
        * @return This builder for chaining.
        */
-      public Builder addEMGKIADHIDH(int value) {
-        ensureEMGKIADHIDHIsMutable();
-        eMGKIADHIDH_.addInt(value);
+      public Builder addJGAGMFFLNBP(int value) {
+        ensureJGAGMFFLNBPIsMutable();
+        jGAGMFFLNBP_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 EMGKIADHIDH = 9;</code>
-       * @param values The eMGKIADHIDH to add.
+       * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
+       * @param values The jGAGMFFLNBP to add.
        * @return This builder for chaining.
        */
-      public Builder addAllEMGKIADHIDH(
+      public Builder addAllJGAGMFFLNBP(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureEMGKIADHIDHIsMutable();
+        ensureJGAGMFFLNBPIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, eMGKIADHIDH_);
+            values, jGAGMFFLNBP_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 EMGKIADHIDH = 9;</code>
+       * <code>repeated uint32 JGAGMFFLNBP = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEMGKIADHIDH() {
-        eMGKIADHIDH_ = emptyIntList();
+      public Builder clearJGAGMFFLNBP() {
+        jGAGMFFLNBP_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
+        onChanged();
+        return this;
+      }
+
+      private int playerUid_ ;
+      /**
+       * <code>uint32 player_uid = 12;</code>
+       * @return The playerUid.
+       */
+      @java.lang.Override
+      public int getPlayerUid() {
+        return playerUid_;
+      }
+      /**
+       * <code>uint32 player_uid = 12;</code>
+       * @param value The playerUid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPlayerUid(int value) {
+        
+        playerUid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 player_uid = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPlayerUid() {
+        
+        playerUid_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isHost_ ;
       /**
-       * <code>bool is_host = 12;</code>
+       * <code>bool is_host = 2;</code>
        * @return The isHost.
        */
       @java.lang.Override
@@ -1091,7 +1122,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
         return isHost_;
       }
       /**
-       * <code>bool is_host = 12;</code>
+       * <code>bool is_host = 2;</code>
        * @param value The isHost to set.
        * @return This builder for chaining.
        */
@@ -1102,7 +1133,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_host = 12;</code>
+       * <code>bool is_host = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsHost() {
@@ -1114,7 +1145,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
 
       private int chooseSkillNo_ ;
       /**
-       * <code>uint32 choose_skill_no = 3;</code>
+       * <code>uint32 choose_skill_no = 10;</code>
        * @return The chooseSkillNo.
        */
       @java.lang.Override
@@ -1122,7 +1153,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
         return chooseSkillNo_;
       }
       /**
-       * <code>uint32 choose_skill_no = 3;</code>
+       * <code>uint32 choose_skill_no = 10;</code>
        * @param value The chooseSkillNo to set.
        * @return This builder for chaining.
        */
@@ -1133,43 +1164,12 @@ public final class CoinCollectTeamInfoDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 choose_skill_no = 3;</code>
+       * <code>uint32 choose_skill_no = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearChooseSkillNo() {
         
         chooseSkillNo_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int playerUid_ ;
-      /**
-       * <code>uint32 player_uid = 1;</code>
-       * @return The playerUid.
-       */
-      @java.lang.Override
-      public int getPlayerUid() {
-        return playerUid_;
-      }
-      /**
-       * <code>uint32 player_uid = 1;</code>
-       * @param value The playerUid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPlayerUid(int value) {
-        
-        playerUid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 player_uid = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPlayerUid() {
-        
-        playerUid_ = 0;
         onChanged();
         return this;
       }
@@ -1241,10 +1241,10 @@ public final class CoinCollectTeamInfoDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035CoinCollectTeamInfoData.proto\"\231\001\n\027Coin" +
-      "CollectTeamInfoData\022\026\n\016avatar_id_list\030\n " +
-      "\003(\r\022\023\n\013NFOJHFMLBNF\030\006 \003(\r\022\023\n\013EMGKIADHIDH\030" +
-      "\t \003(\r\022\017\n\007is_host\030\014 \001(\010\022\027\n\017choose_skill_n" +
-      "o\030\003 \001(\r\022\022\n\nplayer_uid\030\001 \001(\rB\033\n\031emu.grass" +
+      "CollectTeamInfoData\022\026\n\016avatar_id_list\030\005 " +
+      "\003(\r\022\023\n\013MEFAFPPEEOM\030\001 \003(\r\022\023\n\013JGAGMFFLNBP\030" +
+      "\013 \003(\r\022\022\n\nplayer_uid\030\014 \001(\r\022\017\n\007is_host\030\002 \001" +
+      "(\010\022\027\n\017choose_skill_no\030\n \001(\rB\033\n\031emu.grass" +
       "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1256,7 +1256,7 @@ public final class CoinCollectTeamInfoDataOuterClass {
     internal_static_CoinCollectTeamInfoData_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CoinCollectTeamInfoData_descriptor,
-        new java.lang.String[] { "AvatarIdList", "NFOJHFMLBNF", "EMGKIADHIDH", "IsHost", "ChooseSkillNo", "PlayerUid", });
+        new java.lang.String[] { "AvatarIdList", "MEFAFPPEEOM", "JGAGMFFLNBP", "PlayerUid", "IsHost", "ChooseSkillNo", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

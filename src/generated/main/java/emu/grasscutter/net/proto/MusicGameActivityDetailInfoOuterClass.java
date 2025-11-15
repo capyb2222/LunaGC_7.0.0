@@ -19,35 +19,11 @@ public final class MusicGameActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> 
-        getHGCIBAGOFHHList();
-    /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getHGCIBAGOFHH(int index);
-    /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    int getHGCIBAGOFHHCount();
-    /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
-        getHGCIBAGOFHHOrBuilderList();
-    /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getHGCIBAGOFHHOrBuilder(
-        int index);
-
-    /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     int getMusicGameRecordMapCount();
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     boolean containsMusicGameRecordMap(
         int key);
@@ -58,46 +34,70 @@ public final class MusicGameActivityDetailInfoOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
     getMusicGameRecordMap();
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
     getMusicGameRecordMapMap();
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
 
     emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrDefault(
         int key,
         emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord defaultValue);
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
 
     emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrThrow(
         int key);
 
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> 
-        getPIKDDGDIIHEList();
+        getLOJIHJDJLCIList();
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
-    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getPIKDDGDIIHE(int index);
+    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getLOJIHJDJLCI(int index);
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
-    int getPIKDDGDIIHECount();
+    int getLOJIHJDJLCICount();
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
-        getPIKDDGDIIHEOrBuilderList();
+        getLOJIHJDJLCIOrBuilderList();
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
-    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getPIKDDGDIIHEOrBuilder(
+    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getLOJIHJDJLCIOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> 
+        getDIIHNHMFIIGList();
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getDIIHNHMFIIG(int index);
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    int getDIIHNHMFIIGCount();
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+        getDIIHNHMFIIGOrBuilderList();
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getDIIHNHMFIIGOrBuilder(
         int index);
   }
   /**
@@ -113,8 +113,8 @@ public final class MusicGameActivityDetailInfoOuterClass {
       super(builder);
     }
     private MusicGameActivityDetailInfo() {
-      hGCIBAGOFHH_ = java.util.Collections.emptyList();
-      pIKDDGDIIHE_ = java.util.Collections.emptyList();
+      lOJIHJDJLCI_ = java.util.Collections.emptyList();
+      dIIHNHMFIIG_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -150,33 +150,33 @@ public final class MusicGameActivityDetailInfoOuterClass {
               break;
             case 26: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                lOJIHJDJLCI_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              lOJIHJDJLCI_.add(
+                  input.readMessage(emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                dIIHNHMFIIG_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              dIIHNHMFIIG_.add(
+                  input.readMessage(emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 90: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 musicGameRecordMap_ = com.google.protobuf.MapField.newMapField(
                     MusicGameRecordMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
               musicGameRecordMap__ = input.readMessage(
                   MusicGameRecordMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               musicGameRecordMap_.getMutableMap().put(
                   musicGameRecordMap__.getKey(), musicGameRecordMap__.getValue());
-              break;
-            }
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                pIKDDGDIIHE_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              pIKDDGDIIHE_.add(
-                  input.readMessage(emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 66: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                hGCIBAGOFHH_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              hGCIBAGOFHH_.add(
-                  input.readMessage(emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -194,11 +194,11 @@ public final class MusicGameActivityDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          pIKDDGDIIHE_ = java.util.Collections.unmodifiableList(pIKDDGDIIHE_);
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          lOJIHJDJLCI_ = java.util.Collections.unmodifiableList(lOJIHJDJLCI_);
         }
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          hGCIBAGOFHH_ = java.util.Collections.unmodifiableList(hGCIBAGOFHH_);
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          dIIHNHMFIIG_ = java.util.Collections.unmodifiableList(dIIHNHMFIIG_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -214,7 +214,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 3:
+        case 11:
           return internalGetMusicGameRecordMap();
         default:
           throw new RuntimeException(
@@ -229,47 +229,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.class, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder.class);
     }
 
-    public static final int HGCIBAGOFHH_FIELD_NUMBER = 8;
-    private java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> hGCIBAGOFHH_;
-    /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> getHGCIBAGOFHHList() {
-      return hGCIBAGOFHH_;
-    }
-    /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
-        getHGCIBAGOFHHOrBuilderList() {
-      return hGCIBAGOFHH_;
-    }
-    /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    @java.lang.Override
-    public int getHGCIBAGOFHHCount() {
-      return hGCIBAGOFHH_.size();
-    }
-    /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getHGCIBAGOFHH(int index) {
-      return hGCIBAGOFHH_.get(index);
-    }
-    /**
-     * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getHGCIBAGOFHHOrBuilder(
-        int index) {
-      return hGCIBAGOFHH_.get(index);
-    }
-
-    public static final int MUSIC_GAME_RECORD_MAP_FIELD_NUMBER = 3;
+    public static final int MUSIC_GAME_RECORD_MAP_FIELD_NUMBER = 11;
     private static final class MusicGameRecordMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> defaultEntry =
@@ -296,7 +256,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       return internalGetMusicGameRecordMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
 
     @java.lang.Override
@@ -314,7 +274,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       return getMusicGameRecordMapMap();
     }
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     @java.lang.Override
 
@@ -322,7 +282,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       return internalGetMusicGameRecordMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     @java.lang.Override
 
@@ -335,7 +295,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     @java.lang.Override
 
@@ -350,44 +310,84 @@ public final class MusicGameActivityDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int PIKDDGDIIHE_FIELD_NUMBER = 5;
-    private java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> pIKDDGDIIHE_;
+    public static final int LOJIHJDJLCI_FIELD_NUMBER = 3;
+    private java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> lOJIHJDJLCI_;
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> getPIKDDGDIIHEList() {
-      return pIKDDGDIIHE_;
+    public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> getLOJIHJDJLCIList() {
+      return lOJIHJDJLCI_;
     }
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
-        getPIKDDGDIIHEOrBuilderList() {
-      return pIKDDGDIIHE_;
+        getLOJIHJDJLCIOrBuilderList() {
+      return lOJIHJDJLCI_;
     }
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
     @java.lang.Override
-    public int getPIKDDGDIIHECount() {
-      return pIKDDGDIIHE_.size();
+    public int getLOJIHJDJLCICount() {
+      return lOJIHJDJLCI_.size();
     }
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getPIKDDGDIIHE(int index) {
-      return pIKDDGDIIHE_.get(index);
+    public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getLOJIHJDJLCI(int index) {
+      return lOJIHJDJLCI_.get(index);
     }
     /**
-     * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+     * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getPIKDDGDIIHEOrBuilder(
+    public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getLOJIHJDJLCIOrBuilder(
         int index) {
-      return pIKDDGDIIHE_.get(index);
+      return lOJIHJDJLCI_.get(index);
+    }
+
+    public static final int DIIHNHMFIIG_FIELD_NUMBER = 9;
+    private java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> dIIHNHMFIIG_;
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> getDIIHNHMFIIGList() {
+      return dIIHNHMFIIG_;
+    }
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+        getDIIHNHMFIIGOrBuilderList() {
+      return dIIHNHMFIIG_;
+    }
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    @java.lang.Override
+    public int getDIIHNHMFIIGCount() {
+      return dIIHNHMFIIG_.size();
+    }
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getDIIHNHMFIIG(int index) {
+      return dIIHNHMFIIG_.get(index);
+    }
+    /**
+     * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getDIIHNHMFIIGOrBuilder(
+        int index) {
+      return dIIHNHMFIIG_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -404,18 +404,18 @@ public final class MusicGameActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      for (int i = 0; i < lOJIHJDJLCI_.size(); i++) {
+        output.writeMessage(3, lOJIHJDJLCI_.get(i));
+      }
+      for (int i = 0; i < dIIHNHMFIIG_.size(); i++) {
+        output.writeMessage(9, dIIHNHMFIIG_.get(i));
+      }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetMusicGameRecordMap(),
           MusicGameRecordMapDefaultEntryHolder.defaultEntry,
-          3);
-      for (int i = 0; i < pIKDDGDIIHE_.size(); i++) {
-        output.writeMessage(5, pIKDDGDIIHE_.get(i));
-      }
-      for (int i = 0; i < hGCIBAGOFHH_.size(); i++) {
-        output.writeMessage(8, hGCIBAGOFHH_.get(i));
-      }
+          11);
       unknownFields.writeTo(output);
     }
 
@@ -425,6 +425,14 @@ public final class MusicGameActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < lOJIHJDJLCI_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, lOJIHJDJLCI_.get(i));
+      }
+      for (int i = 0; i < dIIHNHMFIIG_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, dIIHNHMFIIG_.get(i));
+      }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> entry
            : internalGetMusicGameRecordMap().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
@@ -433,15 +441,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(3, musicGameRecordMap__);
-      }
-      for (int i = 0; i < pIKDDGDIIHE_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, pIKDDGDIIHE_.get(i));
-      }
-      for (int i = 0; i < hGCIBAGOFHH_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, hGCIBAGOFHH_.get(i));
+            .computeMessageSize(11, musicGameRecordMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -458,12 +458,12 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo other = (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) obj;
 
-      if (!getHGCIBAGOFHHList()
-          .equals(other.getHGCIBAGOFHHList())) return false;
       if (!internalGetMusicGameRecordMap().equals(
           other.internalGetMusicGameRecordMap())) return false;
-      if (!getPIKDDGDIIHEList()
-          .equals(other.getPIKDDGDIIHEList())) return false;
+      if (!getLOJIHJDJLCIList()
+          .equals(other.getLOJIHJDJLCIList())) return false;
+      if (!getDIIHNHMFIIGList()
+          .equals(other.getDIIHNHMFIIGList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -475,17 +475,17 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getHGCIBAGOFHHCount() > 0) {
-        hash = (37 * hash) + HGCIBAGOFHH_FIELD_NUMBER;
-        hash = (53 * hash) + getHGCIBAGOFHHList().hashCode();
-      }
       if (!internalGetMusicGameRecordMap().getMap().isEmpty()) {
         hash = (37 * hash) + MUSIC_GAME_RECORD_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetMusicGameRecordMap().hashCode();
       }
-      if (getPIKDDGDIIHECount() > 0) {
-        hash = (37 * hash) + PIKDDGDIIHE_FIELD_NUMBER;
-        hash = (53 * hash) + getPIKDDGDIIHEList().hashCode();
+      if (getLOJIHJDJLCICount() > 0) {
+        hash = (37 * hash) + LOJIHJDJLCI_FIELD_NUMBER;
+        hash = (53 * hash) + getLOJIHJDJLCIList().hashCode();
+      }
+      if (getDIIHNHMFIIGCount() > 0) {
+        hash = (37 * hash) + DIIHNHMFIIG_FIELD_NUMBER;
+        hash = (53 * hash) + getDIIHNHMFIIGList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -598,7 +598,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 3:
+          case 11:
             return internalGetMusicGameRecordMap();
           default:
             throw new RuntimeException(
@@ -609,7 +609,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 3:
+          case 11:
             return internalGetMutableMusicGameRecordMap();
           default:
             throw new RuntimeException(
@@ -637,25 +637,25 @@ public final class MusicGameActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getHGCIBAGOFHHFieldBuilder();
-          getPIKDDGDIIHEFieldBuilder();
+          getLOJIHJDJLCIFieldBuilder();
+          getDIIHNHMFIIGFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (hGCIBAGOFHHBuilder_ == null) {
-          hGCIBAGOFHH_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        } else {
-          hGCIBAGOFHHBuilder_.clear();
-        }
         internalGetMutableMusicGameRecordMap().clear();
-        if (pIKDDGDIIHEBuilder_ == null) {
-          pIKDDGDIIHE_ = java.util.Collections.emptyList();
+        if (lOJIHJDJLCIBuilder_ == null) {
+          lOJIHJDJLCI_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          lOJIHJDJLCIBuilder_.clear();
+        }
+        if (dIIHNHMFIIGBuilder_ == null) {
+          dIIHNHMFIIG_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000004);
         } else {
-          pIKDDGDIIHEBuilder_.clear();
+          dIIHNHMFIIGBuilder_.clear();
         }
         return this;
       }
@@ -684,25 +684,25 @@ public final class MusicGameActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo result = new emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (hGCIBAGOFHHBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
-            hGCIBAGOFHH_ = java.util.Collections.unmodifiableList(hGCIBAGOFHH_);
-            bitField0_ = (bitField0_ & ~0x00000001);
-          }
-          result.hGCIBAGOFHH_ = hGCIBAGOFHH_;
-        } else {
-          result.hGCIBAGOFHH_ = hGCIBAGOFHHBuilder_.build();
-        }
         result.musicGameRecordMap_ = internalGetMusicGameRecordMap();
         result.musicGameRecordMap_.makeImmutable();
-        if (pIKDDGDIIHEBuilder_ == null) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          if (((bitField0_ & 0x00000002) != 0)) {
+            lOJIHJDJLCI_ = java.util.Collections.unmodifiableList(lOJIHJDJLCI_);
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.lOJIHJDJLCI_ = lOJIHJDJLCI_;
+        } else {
+          result.lOJIHJDJLCI_ = lOJIHJDJLCIBuilder_.build();
+        }
+        if (dIIHNHMFIIGBuilder_ == null) {
           if (((bitField0_ & 0x00000004) != 0)) {
-            pIKDDGDIIHE_ = java.util.Collections.unmodifiableList(pIKDDGDIIHE_);
+            dIIHNHMFIIG_ = java.util.Collections.unmodifiableList(dIIHNHMFIIG_);
             bitField0_ = (bitField0_ & ~0x00000004);
           }
-          result.pIKDDGDIIHE_ = pIKDDGDIIHE_;
+          result.dIIHNHMFIIG_ = dIIHNHMFIIG_;
         } else {
-          result.pIKDDGDIIHE_ = pIKDDGDIIHEBuilder_.build();
+          result.dIIHNHMFIIG_ = dIIHNHMFIIGBuilder_.build();
         }
         onBuilt();
         return result;
@@ -752,57 +752,57 @@ public final class MusicGameActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance()) return this;
-        if (hGCIBAGOFHHBuilder_ == null) {
-          if (!other.hGCIBAGOFHH_.isEmpty()) {
-            if (hGCIBAGOFHH_.isEmpty()) {
-              hGCIBAGOFHH_ = other.hGCIBAGOFHH_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+        internalGetMutableMusicGameRecordMap().mergeFrom(
+            other.internalGetMusicGameRecordMap());
+        if (lOJIHJDJLCIBuilder_ == null) {
+          if (!other.lOJIHJDJLCI_.isEmpty()) {
+            if (lOJIHJDJLCI_.isEmpty()) {
+              lOJIHJDJLCI_ = other.lOJIHJDJLCI_;
+              bitField0_ = (bitField0_ & ~0x00000002);
             } else {
-              ensureHGCIBAGOFHHIsMutable();
-              hGCIBAGOFHH_.addAll(other.hGCIBAGOFHH_);
+              ensureLOJIHJDJLCIIsMutable();
+              lOJIHJDJLCI_.addAll(other.lOJIHJDJLCI_);
             }
             onChanged();
           }
         } else {
-          if (!other.hGCIBAGOFHH_.isEmpty()) {
-            if (hGCIBAGOFHHBuilder_.isEmpty()) {
-              hGCIBAGOFHHBuilder_.dispose();
-              hGCIBAGOFHHBuilder_ = null;
-              hGCIBAGOFHH_ = other.hGCIBAGOFHH_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-              hGCIBAGOFHHBuilder_ = 
+          if (!other.lOJIHJDJLCI_.isEmpty()) {
+            if (lOJIHJDJLCIBuilder_.isEmpty()) {
+              lOJIHJDJLCIBuilder_.dispose();
+              lOJIHJDJLCIBuilder_ = null;
+              lOJIHJDJLCI_ = other.lOJIHJDJLCI_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              lOJIHJDJLCIBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getHGCIBAGOFHHFieldBuilder() : null;
+                   getLOJIHJDJLCIFieldBuilder() : null;
             } else {
-              hGCIBAGOFHHBuilder_.addAllMessages(other.hGCIBAGOFHH_);
+              lOJIHJDJLCIBuilder_.addAllMessages(other.lOJIHJDJLCI_);
             }
           }
         }
-        internalGetMutableMusicGameRecordMap().mergeFrom(
-            other.internalGetMusicGameRecordMap());
-        if (pIKDDGDIIHEBuilder_ == null) {
-          if (!other.pIKDDGDIIHE_.isEmpty()) {
-            if (pIKDDGDIIHE_.isEmpty()) {
-              pIKDDGDIIHE_ = other.pIKDDGDIIHE_;
+        if (dIIHNHMFIIGBuilder_ == null) {
+          if (!other.dIIHNHMFIIG_.isEmpty()) {
+            if (dIIHNHMFIIG_.isEmpty()) {
+              dIIHNHMFIIG_ = other.dIIHNHMFIIG_;
               bitField0_ = (bitField0_ & ~0x00000004);
             } else {
-              ensurePIKDDGDIIHEIsMutable();
-              pIKDDGDIIHE_.addAll(other.pIKDDGDIIHE_);
+              ensureDIIHNHMFIIGIsMutable();
+              dIIHNHMFIIG_.addAll(other.dIIHNHMFIIG_);
             }
             onChanged();
           }
         } else {
-          if (!other.pIKDDGDIIHE_.isEmpty()) {
-            if (pIKDDGDIIHEBuilder_.isEmpty()) {
-              pIKDDGDIIHEBuilder_.dispose();
-              pIKDDGDIIHEBuilder_ = null;
-              pIKDDGDIIHE_ = other.pIKDDGDIIHE_;
+          if (!other.dIIHNHMFIIG_.isEmpty()) {
+            if (dIIHNHMFIIGBuilder_.isEmpty()) {
+              dIIHNHMFIIGBuilder_.dispose();
+              dIIHNHMFIIGBuilder_ = null;
+              dIIHNHMFIIG_ = other.dIIHNHMFIIG_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              pIKDDGDIIHEBuilder_ = 
+              dIIHNHMFIIGBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getPIKDDGDIIHEFieldBuilder() : null;
+                   getDIIHNHMFIIGFieldBuilder() : null;
             } else {
-              pIKDDGDIIHEBuilder_.addAllMessages(other.pIKDDGDIIHE_);
+              dIIHNHMFIIGBuilder_.addAllMessages(other.dIIHNHMFIIG_);
             }
           }
         }
@@ -836,246 +836,6 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> hGCIBAGOFHH_ =
-        java.util.Collections.emptyList();
-      private void ensureHGCIBAGOFHHIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          hGCIBAGOFHH_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>(hGCIBAGOFHH_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> hGCIBAGOFHHBuilder_;
-
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> getHGCIBAGOFHHList() {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(hGCIBAGOFHH_);
-        } else {
-          return hGCIBAGOFHHBuilder_.getMessageList();
-        }
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public int getHGCIBAGOFHHCount() {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          return hGCIBAGOFHH_.size();
-        } else {
-          return hGCIBAGOFHHBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getHGCIBAGOFHH(int index) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          return hGCIBAGOFHH_.get(index);
-        } else {
-          return hGCIBAGOFHHBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public Builder setHGCIBAGOFHH(
-          int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureHGCIBAGOFHHIsMutable();
-          hGCIBAGOFHH_.set(index, value);
-          onChanged();
-        } else {
-          hGCIBAGOFHHBuilder_.setMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public Builder setHGCIBAGOFHH(
-          int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder builderForValue) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          ensureHGCIBAGOFHHIsMutable();
-          hGCIBAGOFHH_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          hGCIBAGOFHHBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public Builder addHGCIBAGOFHH(emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureHGCIBAGOFHHIsMutable();
-          hGCIBAGOFHH_.add(value);
-          onChanged();
-        } else {
-          hGCIBAGOFHHBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public Builder addHGCIBAGOFHH(
-          int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureHGCIBAGOFHHIsMutable();
-          hGCIBAGOFHH_.add(index, value);
-          onChanged();
-        } else {
-          hGCIBAGOFHHBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public Builder addHGCIBAGOFHH(
-          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder builderForValue) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          ensureHGCIBAGOFHHIsMutable();
-          hGCIBAGOFHH_.add(builderForValue.build());
-          onChanged();
-        } else {
-          hGCIBAGOFHHBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public Builder addHGCIBAGOFHH(
-          int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder builderForValue) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          ensureHGCIBAGOFHHIsMutable();
-          hGCIBAGOFHH_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          hGCIBAGOFHHBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public Builder addAllHGCIBAGOFHH(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> values) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          ensureHGCIBAGOFHHIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, hGCIBAGOFHH_);
-          onChanged();
-        } else {
-          hGCIBAGOFHHBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public Builder clearHGCIBAGOFHH() {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          hGCIBAGOFHH_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
-          onChanged();
-        } else {
-          hGCIBAGOFHHBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public Builder removeHGCIBAGOFHH(int index) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          ensureHGCIBAGOFHHIsMutable();
-          hGCIBAGOFHH_.remove(index);
-          onChanged();
-        } else {
-          hGCIBAGOFHHBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder getHGCIBAGOFHHBuilder(
-          int index) {
-        return getHGCIBAGOFHHFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getHGCIBAGOFHHOrBuilder(
-          int index) {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          return hGCIBAGOFHH_.get(index);  } else {
-          return hGCIBAGOFHHBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
-           getHGCIBAGOFHHOrBuilderList() {
-        if (hGCIBAGOFHHBuilder_ != null) {
-          return hGCIBAGOFHHBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(hGCIBAGOFHH_);
-        }
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder addHGCIBAGOFHHBuilder() {
-        return getHGCIBAGOFHHFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder addHGCIBAGOFHHBuilder(
-          int index) {
-        return getHGCIBAGOFHHFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .UgcMusicBriefInfo HGCIBAGOFHH = 8;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder> 
-           getHGCIBAGOFHHBuilderList() {
-        return getHGCIBAGOFHHFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
-          getHGCIBAGOFHHFieldBuilder() {
-        if (hGCIBAGOFHHBuilder_ == null) {
-          hGCIBAGOFHHBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>(
-                  hGCIBAGOFHH_,
-                  ((bitField0_ & 0x00000001) != 0),
-                  getParentForChildren(),
-                  isClean());
-          hGCIBAGOFHH_ = null;
-        }
-        return hGCIBAGOFHHBuilder_;
-      }
-
       private com.google.protobuf.MapField<
           java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> musicGameRecordMap_;
       private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
@@ -1103,7 +863,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
         return internalGetMusicGameRecordMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
 
       @java.lang.Override
@@ -1121,7 +881,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
         return getMusicGameRecordMapMap();
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
       @java.lang.Override
 
@@ -1129,7 +889,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
         return internalGetMusicGameRecordMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
       @java.lang.Override
 
@@ -1142,7 +902,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
       @java.lang.Override
 
@@ -1163,7 +923,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
 
       public Builder removeMusicGameRecordMap(
@@ -1182,7 +942,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
         return internalGetMutableMusicGameRecordMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
       public Builder putMusicGameRecordMap(
           int key,
@@ -1194,7 +954,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 3;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
 
       public Builder putAllMusicGameRecordMap(
@@ -1204,244 +964,484 @@ public final class MusicGameActivityDetailInfoOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> pIKDDGDIIHE_ =
+      private java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> lOJIHJDJLCI_ =
         java.util.Collections.emptyList();
-      private void ensurePIKDDGDIIHEIsMutable() {
+      private void ensureLOJIHJDJLCIIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          lOJIHJDJLCI_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>(lOJIHJDJLCI_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> lOJIHJDJLCIBuilder_;
+
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> getLOJIHJDJLCIList() {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(lOJIHJDJLCI_);
+        } else {
+          return lOJIHJDJLCIBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public int getLOJIHJDJLCICount() {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          return lOJIHJDJLCI_.size();
+        } else {
+          return lOJIHJDJLCIBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getLOJIHJDJLCI(int index) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          return lOJIHJDJLCI_.get(index);
+        } else {
+          return lOJIHJDJLCIBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public Builder setLOJIHJDJLCI(
+          int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureLOJIHJDJLCIIsMutable();
+          lOJIHJDJLCI_.set(index, value);
+          onChanged();
+        } else {
+          lOJIHJDJLCIBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public Builder setLOJIHJDJLCI(
+          int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder builderForValue) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          ensureLOJIHJDJLCIIsMutable();
+          lOJIHJDJLCI_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          lOJIHJDJLCIBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public Builder addLOJIHJDJLCI(emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureLOJIHJDJLCIIsMutable();
+          lOJIHJDJLCI_.add(value);
+          onChanged();
+        } else {
+          lOJIHJDJLCIBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public Builder addLOJIHJDJLCI(
+          int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureLOJIHJDJLCIIsMutable();
+          lOJIHJDJLCI_.add(index, value);
+          onChanged();
+        } else {
+          lOJIHJDJLCIBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public Builder addLOJIHJDJLCI(
+          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder builderForValue) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          ensureLOJIHJDJLCIIsMutable();
+          lOJIHJDJLCI_.add(builderForValue.build());
+          onChanged();
+        } else {
+          lOJIHJDJLCIBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public Builder addLOJIHJDJLCI(
+          int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder builderForValue) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          ensureLOJIHJDJLCIIsMutable();
+          lOJIHJDJLCI_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          lOJIHJDJLCIBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public Builder addAllLOJIHJDJLCI(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> values) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          ensureLOJIHJDJLCIIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, lOJIHJDJLCI_);
+          onChanged();
+        } else {
+          lOJIHJDJLCIBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public Builder clearLOJIHJDJLCI() {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          lOJIHJDJLCI_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          lOJIHJDJLCIBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public Builder removeLOJIHJDJLCI(int index) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          ensureLOJIHJDJLCIIsMutable();
+          lOJIHJDJLCI_.remove(index);
+          onChanged();
+        } else {
+          lOJIHJDJLCIBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder getLOJIHJDJLCIBuilder(
+          int index) {
+        return getLOJIHJDJLCIFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getLOJIHJDJLCIOrBuilder(
+          int index) {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          return lOJIHJDJLCI_.get(index);  } else {
+          return lOJIHJDJLCIBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+           getLOJIHJDJLCIOrBuilderList() {
+        if (lOJIHJDJLCIBuilder_ != null) {
+          return lOJIHJDJLCIBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(lOJIHJDJLCI_);
+        }
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder addLOJIHJDJLCIBuilder() {
+        return getLOJIHJDJLCIFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder addLOJIHJDJLCIBuilder(
+          int index) {
+        return getLOJIHJDJLCIFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .UgcMusicBriefInfo LOJIHJDJLCI = 3;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder> 
+           getLOJIHJDJLCIBuilderList() {
+        return getLOJIHJDJLCIFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+          getLOJIHJDJLCIFieldBuilder() {
+        if (lOJIHJDJLCIBuilder_ == null) {
+          lOJIHJDJLCIBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>(
+                  lOJIHJDJLCI_,
+                  ((bitField0_ & 0x00000002) != 0),
+                  getParentForChildren(),
+                  isClean());
+          lOJIHJDJLCI_ = null;
+        }
+        return lOJIHJDJLCIBuilder_;
+      }
+
+      private java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> dIIHNHMFIIG_ =
+        java.util.Collections.emptyList();
+      private void ensureDIIHNHMFIIGIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          pIKDDGDIIHE_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>(pIKDDGDIIHE_);
+          dIIHNHMFIIG_ = new java.util.ArrayList<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>(dIIHNHMFIIG_);
           bitField0_ |= 0x00000004;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> pIKDDGDIIHEBuilder_;
+          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> dIIHNHMFIIGBuilder_;
 
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> getPIKDDGDIIHEList() {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(pIKDDGDIIHE_);
+      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> getDIIHNHMFIIGList() {
+        if (dIIHNHMFIIGBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(dIIHNHMFIIG_);
         } else {
-          return pIKDDGDIIHEBuilder_.getMessageList();
+          return dIIHNHMFIIGBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public int getPIKDDGDIIHECount() {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          return pIKDDGDIIHE_.size();
+      public int getDIIHNHMFIIGCount() {
+        if (dIIHNHMFIIGBuilder_ == null) {
+          return dIIHNHMFIIG_.size();
         } else {
-          return pIKDDGDIIHEBuilder_.getCount();
+          return dIIHNHMFIIGBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getPIKDDGDIIHE(int index) {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          return pIKDDGDIIHE_.get(index);
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo getDIIHNHMFIIG(int index) {
+        if (dIIHNHMFIIGBuilder_ == null) {
+          return dIIHNHMFIIG_.get(index);
         } else {
-          return pIKDDGDIIHEBuilder_.getMessage(index);
+          return dIIHNHMFIIGBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public Builder setPIKDDGDIIHE(
+      public Builder setDIIHNHMFIIG(
           int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
-        if (pIKDDGDIIHEBuilder_ == null) {
+        if (dIIHNHMFIIGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensurePIKDDGDIIHEIsMutable();
-          pIKDDGDIIHE_.set(index, value);
+          ensureDIIHNHMFIIGIsMutable();
+          dIIHNHMFIIG_.set(index, value);
           onChanged();
         } else {
-          pIKDDGDIIHEBuilder_.setMessage(index, value);
+          dIIHNHMFIIGBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public Builder setPIKDDGDIIHE(
+      public Builder setDIIHNHMFIIG(
           int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder builderForValue) {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          ensurePIKDDGDIIHEIsMutable();
-          pIKDDGDIIHE_.set(index, builderForValue.build());
+        if (dIIHNHMFIIGBuilder_ == null) {
+          ensureDIIHNHMFIIGIsMutable();
+          dIIHNHMFIIG_.set(index, builderForValue.build());
           onChanged();
         } else {
-          pIKDDGDIIHEBuilder_.setMessage(index, builderForValue.build());
+          dIIHNHMFIIGBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public Builder addPIKDDGDIIHE(emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
-        if (pIKDDGDIIHEBuilder_ == null) {
+      public Builder addDIIHNHMFIIG(emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
+        if (dIIHNHMFIIGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensurePIKDDGDIIHEIsMutable();
-          pIKDDGDIIHE_.add(value);
+          ensureDIIHNHMFIIGIsMutable();
+          dIIHNHMFIIG_.add(value);
           onChanged();
         } else {
-          pIKDDGDIIHEBuilder_.addMessage(value);
+          dIIHNHMFIIGBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public Builder addPIKDDGDIIHE(
+      public Builder addDIIHNHMFIIG(
           int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo value) {
-        if (pIKDDGDIIHEBuilder_ == null) {
+        if (dIIHNHMFIIGBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensurePIKDDGDIIHEIsMutable();
-          pIKDDGDIIHE_.add(index, value);
+          ensureDIIHNHMFIIGIsMutable();
+          dIIHNHMFIIG_.add(index, value);
           onChanged();
         } else {
-          pIKDDGDIIHEBuilder_.addMessage(index, value);
+          dIIHNHMFIIGBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public Builder addPIKDDGDIIHE(
+      public Builder addDIIHNHMFIIG(
           emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder builderForValue) {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          ensurePIKDDGDIIHEIsMutable();
-          pIKDDGDIIHE_.add(builderForValue.build());
+        if (dIIHNHMFIIGBuilder_ == null) {
+          ensureDIIHNHMFIIGIsMutable();
+          dIIHNHMFIIG_.add(builderForValue.build());
           onChanged();
         } else {
-          pIKDDGDIIHEBuilder_.addMessage(builderForValue.build());
+          dIIHNHMFIIGBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public Builder addPIKDDGDIIHE(
+      public Builder addDIIHNHMFIIG(
           int index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder builderForValue) {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          ensurePIKDDGDIIHEIsMutable();
-          pIKDDGDIIHE_.add(index, builderForValue.build());
+        if (dIIHNHMFIIGBuilder_ == null) {
+          ensureDIIHNHMFIIGIsMutable();
+          dIIHNHMFIIG_.add(index, builderForValue.build());
           onChanged();
         } else {
-          pIKDDGDIIHEBuilder_.addMessage(index, builderForValue.build());
+          dIIHNHMFIIGBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public Builder addAllPIKDDGDIIHE(
+      public Builder addAllDIIHNHMFIIG(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> values) {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          ensurePIKDDGDIIHEIsMutable();
+        if (dIIHNHMFIIGBuilder_ == null) {
+          ensureDIIHNHMFIIGIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, pIKDDGDIIHE_);
+              values, dIIHNHMFIIG_);
           onChanged();
         } else {
-          pIKDDGDIIHEBuilder_.addAllMessages(values);
+          dIIHNHMFIIGBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public Builder clearPIKDDGDIIHE() {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          pIKDDGDIIHE_ = java.util.Collections.emptyList();
+      public Builder clearDIIHNHMFIIG() {
+        if (dIIHNHMFIIGBuilder_ == null) {
+          dIIHNHMFIIG_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
-          pIKDDGDIIHEBuilder_.clear();
+          dIIHNHMFIIGBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public Builder removePIKDDGDIIHE(int index) {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          ensurePIKDDGDIIHEIsMutable();
-          pIKDDGDIIHE_.remove(index);
+      public Builder removeDIIHNHMFIIG(int index) {
+        if (dIIHNHMFIIGBuilder_ == null) {
+          ensureDIIHNHMFIIGIsMutable();
+          dIIHNHMFIIG_.remove(index);
           onChanged();
         } else {
-          pIKDDGDIIHEBuilder_.remove(index);
+          dIIHNHMFIIGBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder getPIKDDGDIIHEBuilder(
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder getDIIHNHMFIIGBuilder(
           int index) {
-        return getPIKDDGDIIHEFieldBuilder().getBuilder(index);
+        return getDIIHNHMFIIGFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getPIKDDGDIIHEOrBuilder(
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder getDIIHNHMFIIGOrBuilder(
           int index) {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          return pIKDDGDIIHE_.get(index);  } else {
-          return pIKDDGDIIHEBuilder_.getMessageOrBuilder(index);
+        if (dIIHNHMFIIGBuilder_ == null) {
+          return dIIHNHMFIIG_.get(index);  } else {
+          return dIIHNHMFIIGBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
-           getPIKDDGDIIHEOrBuilderList() {
-        if (pIKDDGDIIHEBuilder_ != null) {
-          return pIKDDGDIIHEBuilder_.getMessageOrBuilderList();
+           getDIIHNHMFIIGOrBuilderList() {
+        if (dIIHNHMFIIGBuilder_ != null) {
+          return dIIHNHMFIIGBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(pIKDDGDIIHE_);
+          return java.util.Collections.unmodifiableList(dIIHNHMFIIG_);
         }
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder addPIKDDGDIIHEBuilder() {
-        return getPIKDDGDIIHEFieldBuilder().addBuilder(
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder addDIIHNHMFIIGBuilder() {
+        return getDIIHNHMFIIGFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
-      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder addPIKDDGDIIHEBuilder(
+      public emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder addDIIHNHMFIIGBuilder(
           int index) {
-        return getPIKDDGDIIHEFieldBuilder().addBuilder(
+        return getDIIHNHMFIIGFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .UgcMusicBriefInfo PIKDDGDIIHE = 5;</code>
+       * <code>repeated .UgcMusicBriefInfo DIIHNHMFIIG = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder> 
-           getPIKDDGDIIHEBuilderList() {
-        return getPIKDDGDIIHEFieldBuilder().getBuilderList();
+           getDIIHNHMFIIGBuilderList() {
+        return getDIIHNHMFIIGFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
-          getPIKDDGDIIHEFieldBuilder() {
-        if (pIKDDGDIIHEBuilder_ == null) {
-          pIKDDGDIIHEBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+          getDIIHNHMFIIGFieldBuilder() {
+        if (dIIHNHMFIIGBuilder_ == null) {
+          dIIHNHMFIIGBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>(
-                  pIKDDGDIIHE_,
+                  dIIHNHMFIIG_,
                   ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
                   isClean());
-          pIKDDGDIIHE_ = null;
+          dIIHNHMFIIG_ = null;
         }
-        return pIKDDGDIIHEBuilder_;
+        return dIIHNHMFIIGBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -1515,13 +1515,13 @@ public final class MusicGameActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n!MusicGameActivityDetailInfo.proto\032\027Ugc" +
-      "MusicBriefInfo.proto\032\025MusicGameRecord.pr" +
-      "oto\"\221\002\n\033MusicGameActivityDetailInfo\022\'\n\013H" +
-      "GCIBAGOFHH\030\010 \003(\0132\022.UgcMusicBriefInfo\022S\n\025" +
-      "music_game_record_map\030\003 \003(\01324.MusicGameA" +
-      "ctivityDetailInfo.MusicGameRecordMapEntr" +
-      "y\022\'\n\013PIKDDGDIIHE\030\005 \003(\0132\022.UgcMusicBriefIn" +
+      "\n!MusicGameActivityDetailInfo.proto\032\025Mus" +
+      "icGameRecord.proto\032\027UgcMusicBriefInfo.pr" +
+      "oto\"\221\002\n\033MusicGameActivityDetailInfo\022S\n\025m" +
+      "usic_game_record_map\030\013 \003(\01324.MusicGameAc" +
+      "tivityDetailInfo.MusicGameRecordMapEntry" +
+      "\022\'\n\013LOJIHJDJLCI\030\003 \003(\0132\022.UgcMusicBriefInf" +
+      "o\022\'\n\013DIIHNHMFIIG\030\t \003(\0132\022.UgcMusicBriefIn" +
       "fo\032K\n\027MusicGameRecordMapEntry\022\013\n\003key\030\001 \001" +
       "(\r\022\037\n\005value\030\002 \001(\0132\020.MusicGameRecord:\0028\001B" +
       "\033\n\031emu.grasscutter.net.protob\006proto3"
@@ -1529,23 +1529,23 @@ public final class MusicGameActivityDetailInfoOuterClass {
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MusicGameRecordOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.getDescriptor(),
         });
     internal_static_MusicGameActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_MusicGameActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MusicGameActivityDetailInfo_descriptor,
-        new java.lang.String[] { "HGCIBAGOFHH", "MusicGameRecordMap", "PIKDDGDIIHE", });
+        new java.lang.String[] { "MusicGameRecordMap", "LOJIHJDJLCI", "DIIHNHMFIIG", });
     internal_static_MusicGameActivityDetailInfo_MusicGameRecordMapEntry_descriptor =
       internal_static_MusicGameActivityDetailInfo_descriptor.getNestedTypes().get(0);
     internal_static_MusicGameActivityDetailInfo_MusicGameRecordMapEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MusicGameActivityDetailInfo_MusicGameRecordMapEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MusicGameRecordOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

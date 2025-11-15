@@ -19,25 +19,25 @@ public final class RogueDiaryDungeonRecordOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 max_round = 7;</code>
-     * @return The maxRound.
-     */
-    int getMaxRound();
-
-    /**
-     * <code>uint32 finish_time = 9;</code>
-     * @return The finishTime.
-     */
-    int getFinishTime();
-
-    /**
-     * <code>uint32 difficulty = 10;</code>
+     * <code>uint32 difficulty = 14;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>bool is_finish = 3;</code>
+     * <code>uint32 max_round = 15;</code>
+     * @return The maxRound.
+     */
+    int getMaxRound();
+
+    /**
+     * <code>uint32 finish_time = 2;</code>
+     * @return The finishTime.
+     */
+    int getFinishTime();
+
+    /**
+     * <code>bool is_finish = 11;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
@@ -87,24 +87,24 @@ public final class RogueDiaryDungeonRecordOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              isFinish_ = input.readBool();
-              break;
-            }
-            case 56: {
-
-              maxRound_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 16: {
 
               finishTime_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 88: {
+
+              isFinish_ = input.readBool();
+              break;
+            }
+            case 112: {
 
               difficulty_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              maxRound_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,32 +139,10 @@ public final class RogueDiaryDungeonRecordOuterClass {
               emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord.class, emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord.Builder.class);
     }
 
-    public static final int MAX_ROUND_FIELD_NUMBER = 7;
-    private int maxRound_;
-    /**
-     * <code>uint32 max_round = 7;</code>
-     * @return The maxRound.
-     */
-    @java.lang.Override
-    public int getMaxRound() {
-      return maxRound_;
-    }
-
-    public static final int FINISH_TIME_FIELD_NUMBER = 9;
-    private int finishTime_;
-    /**
-     * <code>uint32 finish_time = 9;</code>
-     * @return The finishTime.
-     */
-    @java.lang.Override
-    public int getFinishTime() {
-      return finishTime_;
-    }
-
-    public static final int DIFFICULTY_FIELD_NUMBER = 10;
+    public static final int DIFFICULTY_FIELD_NUMBER = 14;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 10;</code>
+     * <code>uint32 difficulty = 14;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -172,10 +150,32 @@ public final class RogueDiaryDungeonRecordOuterClass {
       return difficulty_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 3;
+    public static final int MAX_ROUND_FIELD_NUMBER = 15;
+    private int maxRound_;
+    /**
+     * <code>uint32 max_round = 15;</code>
+     * @return The maxRound.
+     */
+    @java.lang.Override
+    public int getMaxRound() {
+      return maxRound_;
+    }
+
+    public static final int FINISH_TIME_FIELD_NUMBER = 2;
+    private int finishTime_;
+    /**
+     * <code>uint32 finish_time = 2;</code>
+     * @return The finishTime.
+     */
+    @java.lang.Override
+    public int getFinishTime() {
+      return finishTime_;
+    }
+
+    public static final int IS_FINISH_FIELD_NUMBER = 11;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 3;</code>
+     * <code>bool is_finish = 11;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class RogueDiaryDungeonRecordOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isFinish_ != false) {
-        output.writeBool(3, isFinish_);
-      }
-      if (maxRound_ != 0) {
-        output.writeUInt32(7, maxRound_);
-      }
       if (finishTime_ != 0) {
-        output.writeUInt32(9, finishTime_);
+        output.writeUInt32(2, finishTime_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(11, isFinish_);
       }
       if (difficulty_ != 0) {
-        output.writeUInt32(10, difficulty_);
+        output.writeUInt32(14, difficulty_);
+      }
+      if (maxRound_ != 0) {
+        output.writeUInt32(15, maxRound_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class RogueDiaryDungeonRecordOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isFinish_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isFinish_);
-      }
-      if (maxRound_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, maxRound_);
-      }
       if (finishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, finishTime_);
+          .computeUInt32Size(2, finishTime_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(11, isFinish_);
       }
       if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, difficulty_);
+          .computeUInt32Size(14, difficulty_);
+      }
+      if (maxRound_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, maxRound_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -249,12 +249,12 @@ public final class RogueDiaryDungeonRecordOuterClass {
       }
       emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord other = (emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord) obj;
 
+      if (getDifficulty()
+          != other.getDifficulty()) return false;
       if (getMaxRound()
           != other.getMaxRound()) return false;
       if (getFinishTime()
           != other.getFinishTime()) return false;
-      if (getDifficulty()
-          != other.getDifficulty()) return false;
       if (getIsFinish()
           != other.getIsFinish()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -268,12 +268,12 @@ public final class RogueDiaryDungeonRecordOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + DIFFICULTY_FIELD_NUMBER;
+      hash = (53 * hash) + getDifficulty();
       hash = (37 * hash) + MAX_ROUND_FIELD_NUMBER;
       hash = (53 * hash) + getMaxRound();
       hash = (37 * hash) + FINISH_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getFinishTime();
-      hash = (37 * hash) + DIFFICULTY_FIELD_NUMBER;
-      hash = (53 * hash) + getDifficulty();
       hash = (37 * hash) + IS_FINISH_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinish());
@@ -410,11 +410,11 @@ public final class RogueDiaryDungeonRecordOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        difficulty_ = 0;
+
         maxRound_ = 0;
 
         finishTime_ = 0;
-
-        difficulty_ = 0;
 
         isFinish_ = false;
 
@@ -444,9 +444,9 @@ public final class RogueDiaryDungeonRecordOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord buildPartial() {
         emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord result = new emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord(this);
+        result.difficulty_ = difficulty_;
         result.maxRound_ = maxRound_;
         result.finishTime_ = finishTime_;
-        result.difficulty_ = difficulty_;
         result.isFinish_ = isFinish_;
         onBuilt();
         return result;
@@ -496,14 +496,14 @@ public final class RogueDiaryDungeonRecordOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord other) {
         if (other == emu.grasscutter.net.proto.RogueDiaryDungeonRecordOuterClass.RogueDiaryDungeonRecord.getDefaultInstance()) return this;
+        if (other.getDifficulty() != 0) {
+          setDifficulty(other.getDifficulty());
+        }
         if (other.getMaxRound() != 0) {
           setMaxRound(other.getMaxRound());
         }
         if (other.getFinishTime() != 0) {
           setFinishTime(other.getFinishTime());
-        }
-        if (other.getDifficulty() != 0) {
-          setDifficulty(other.getDifficulty());
         }
         if (other.getIsFinish() != false) {
           setIsFinish(other.getIsFinish());
@@ -537,9 +537,40 @@ public final class RogueDiaryDungeonRecordOuterClass {
         return this;
       }
 
+      private int difficulty_ ;
+      /**
+       * <code>uint32 difficulty = 14;</code>
+       * @return The difficulty.
+       */
+      @java.lang.Override
+      public int getDifficulty() {
+        return difficulty_;
+      }
+      /**
+       * <code>uint32 difficulty = 14;</code>
+       * @param value The difficulty to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDifficulty(int value) {
+        
+        difficulty_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 difficulty = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDifficulty() {
+        
+        difficulty_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int maxRound_ ;
       /**
-       * <code>uint32 max_round = 7;</code>
+       * <code>uint32 max_round = 15;</code>
        * @return The maxRound.
        */
       @java.lang.Override
@@ -547,7 +578,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
         return maxRound_;
       }
       /**
-       * <code>uint32 max_round = 7;</code>
+       * <code>uint32 max_round = 15;</code>
        * @param value The maxRound to set.
        * @return This builder for chaining.
        */
@@ -558,7 +589,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_round = 7;</code>
+       * <code>uint32 max_round = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxRound() {
@@ -570,7 +601,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
 
       private int finishTime_ ;
       /**
-       * <code>uint32 finish_time = 9;</code>
+       * <code>uint32 finish_time = 2;</code>
        * @return The finishTime.
        */
       @java.lang.Override
@@ -578,7 +609,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
         return finishTime_;
       }
       /**
-       * <code>uint32 finish_time = 9;</code>
+       * <code>uint32 finish_time = 2;</code>
        * @param value The finishTime to set.
        * @return This builder for chaining.
        */
@@ -589,7 +620,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
         return this;
       }
       /**
-       * <code>uint32 finish_time = 9;</code>
+       * <code>uint32 finish_time = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearFinishTime() {
@@ -599,40 +630,9 @@ public final class RogueDiaryDungeonRecordOuterClass {
         return this;
       }
 
-      private int difficulty_ ;
-      /**
-       * <code>uint32 difficulty = 10;</code>
-       * @return The difficulty.
-       */
-      @java.lang.Override
-      public int getDifficulty() {
-        return difficulty_;
-      }
-      /**
-       * <code>uint32 difficulty = 10;</code>
-       * @param value The difficulty to set.
-       * @return This builder for chaining.
-       */
-      public Builder setDifficulty(int value) {
-        
-        difficulty_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 difficulty = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearDifficulty() {
-        
-        difficulty_ = 0;
-        onChanged();
-        return this;
-      }
-
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 3;</code>
+       * <code>bool is_finish = 11;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -640,7 +640,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 3;</code>
+       * <code>bool is_finish = 11;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -651,7 +651,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 3;</code>
+       * <code>bool is_finish = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -728,9 +728,9 @@ public final class RogueDiaryDungeonRecordOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035RogueDiaryDungeonRecord.proto\"h\n\027Rogue" +
-      "DiaryDungeonRecord\022\021\n\tmax_round\030\007 \001(\r\022\023\n" +
-      "\013finish_time\030\t \001(\r\022\022\n\ndifficulty\030\n \001(\r\022\021" +
-      "\n\tis_finish\030\003 \001(\010B\033\n\031emu.grasscutter.net" +
+      "DiaryDungeonRecord\022\022\n\ndifficulty\030\016 \001(\r\022\021" +
+      "\n\tmax_round\030\017 \001(\r\022\023\n\013finish_time\030\002 \001(\r\022\021" +
+      "\n\tis_finish\030\013 \001(\010B\033\n\031emu.grasscutter.net" +
       ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -742,7 +742,7 @@ public final class RogueDiaryDungeonRecordOuterClass {
     internal_static_RogueDiaryDungeonRecord_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RogueDiaryDungeonRecord_descriptor,
-        new java.lang.String[] { "MaxRound", "FinishTime", "Difficulty", "IsFinish", });
+        new java.lang.String[] { "Difficulty", "MaxRound", "FinishTime", "IsFinish", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
