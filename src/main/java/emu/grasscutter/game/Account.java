@@ -3,6 +3,7 @@ package emu.grasscutter.game;
 import static emu.grasscutter.config.Configuration.*;
 
 import dev.morphia.annotations.*;
+import emu.grasscutter.Grasscutter;
 import emu.grasscutter.database.DatabaseHelper;
 import emu.grasscutter.utils.*;
 import java.util.*;
@@ -125,6 +126,19 @@ public class Account {
         this.sessionKey = Utils.bytesToHex(Crypto.createSessionKey(32));
         this.save();
         return this.sessionKey;
+    }
+
+    public String generateV2SessionKey() {
+        this.sessionKey = "v2_" + Utils.bytesToHex(Crypto.createSessionKey(32));
+        this.save();
+        return this.sessionKey;
+    }
+    
+    public boolean verifyPassword(String password) {
+        if (this.password == null || this.password.isEmpty()) {
+            return true;
+        }
+        return this.password.equals(password);
     }
 
     public Locale getLocale() {

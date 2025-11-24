@@ -4,6 +4,7 @@ import static emu.grasscutter.utils.lang.Language.translate;
 
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.auth.AuthenticationSystem;
+import emu.grasscutter.auth.MaPassportAuthenticator;
 import emu.grasscutter.auth.OAuthAuthenticator.ClientType;
 import emu.grasscutter.server.http.Router;
 import emu.grasscutter.server.http.objects.*;
@@ -89,6 +90,64 @@ public final class AuthenticationHandler implements Router {
                 .debug(translate("messages.dispatch.account.login_attempt", Utils.address(ctx)));
     }
 
+    /**
+     * @route /hk4e_global/account/ma-passport/api/appLoginByPassword
+     * @route /hk4e_cn/account/ma-passport/api/appLoginByPassword
+     */
+    private static void maPassportLogin(Context ctx) {
+        Grasscutter.getLogger().info("Ma-passport login request from: " + Utils.address(ctx));
+        
+        try {
+            String rawBodyData = ctx.body();
+            Grasscutter.getLogger().debug("Ma-passport request body: " + rawBodyData);
+            
+            var request = JsonUtils.decode(rawBodyData, LoginByPasswordRequestJson.class);
+            if (request == null) {
+                Grasscutter.getLogger().warn("Failed to parse Ma-Passport login request");
+                ctx.status(400).result("{\"retcode\":-1,\"message\":\"Invalid Request\",\"data\":null}");
+                return;
+            }
+            
+            var response = MaPassportAuthenticator.appLoginByPassword(request);
+            
+            ctx.json(response);
+            
+        } catch (Exception e) {
+            Grasscutter.getLogger().error("Error in Ma-Passport login", e);
+            e.printStackTrace();
+            ctx.status(500).result("{\"retcode\":-1,\"message\":\"Internal server error\",\"data\":null}");
+        }
+    }
+
+    /**
+     * @route /hk4e_global/account/ma-passport/token/verifySToken
+     * @route /hk4e_cn/account/ma-passport/token/verifySToken
+     */
+    private static void maPassportVerify(Context ctx) {
+        Grasscutter.getLogger().info("Ma-passport token verify request from: " + Utils.address(ctx));
+        
+        try {
+            String rawBodyData = ctx.body();
+            Grasscutter.getLogger().debug("Ma-passport verify body: " + rawBodyData);
+            
+            var request = JsonUtils.decode(rawBodyData, VerifySTokenRequestJson.class);
+            if (request == null) {
+                Grasscutter.getLogger().warn("Failed to parse Ma-Passport verify request");
+                ctx.status(400).result("{\"retcode\":-1,\"message\":\"Invalid Request\",\"data\":null}");
+                return;
+            }
+
+            var response = MaPassportAuthenticator.verifySToken(request);
+
+            ctx.json(response);
+            
+        } catch (Exception e) {
+            Grasscutter.getLogger().error("Error in Ma-Passport verify", e);
+            e.printStackTrace();
+            ctx.status(500).result("{\"retcode\":-1,\"message\":\"Internal server error\",\"data\":null}");
+        }
+    }
+
     @Override
     public void applyRoutes(Javalin javalin) {
         // OS
@@ -99,6 +158,9 @@ public final class AuthenticationHandler implements Router {
         // Combo token login (from session key).
         javalin.post(
                 "/hk4e_global/combo/granter/login/v2/login", AuthenticationHandler::sessionKeyLogin);
+        // ma-passport
+        javalin.post("/hk4e_global/account/ma-passport/api/appLoginByPassword", AuthenticationHandler::maPassportLogin);
+        javalin.post("/hk4e_global/account/ma-passport/token/verifySToken", AuthenticationHandler::maPassportVerify);
 
         // CN
         // Username & Password login (from client).
@@ -107,6 +169,9 @@ public final class AuthenticationHandler implements Router {
         javalin.post("/hk4e_cn/mdk/shield/api/verify", AuthenticationHandler::tokenLogin);
         // Combo token login (from session key).
         javalin.post("/hk4e_cn/combo/granter/login/v2/login", AuthenticationHandler::sessionKeyLogin);
+        // ma-passport
+        javalin.post("/hk4e_cn/account/ma-passport/api/appLoginByPassword", AuthenticationHandler::maPassportLogin);
+        javalin.post("/hk4e_cn/account/ma-passport/token/verifySToken", AuthenticationHandler::maPassportVerify);
 
         // External login (from other clients).
         javalin.get(
