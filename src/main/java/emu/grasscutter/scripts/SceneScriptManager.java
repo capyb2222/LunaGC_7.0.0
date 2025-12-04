@@ -699,12 +699,12 @@ public class SceneScriptManager {
             entities.forEach(region::addEntity);
 
             for (var targetId : enterEntities) {
-                if (EntityIdType.toEntityType(targetId >> 24).getValue() == 19) continue;
+                if (EntityIdType.toEntityType(targetId >> 22).getValue() == 19) continue;
                 Grasscutter.getLogger()
                         .trace("Call EVENT_ENTER_REGION_{}", region.getMetaRegion().config_id);
                 this.callEvent(
                         new ScriptArgs(region.getGroupId(), EventType.EVENT_ENTER_REGION, region.getConfigId())
-                                .setEventSource(EntityIdType.toEntityType(targetId >> 24).getValue())
+                                .setEventSource(EntityIdType.toEntityType(targetId >> 22).getValue())
                                 .setSourceEntityId(region.getId())
                                 .setTargetEntityId(targetId));
             }
@@ -717,10 +717,10 @@ public class SceneScriptManager {
             }
 
             for (var targetId : leaveEntities) {
-                if (EntityIdType.toEntityType(targetId >> 24).getValue() == 19) continue;
+                if (EntityIdType.toEntityType(targetId >> 22).getValue() == 19) continue;
                 this.callEvent(
                         new ScriptArgs(region.getGroupId(), EventType.EVENT_LEAVE_REGION, region.getConfigId())
-                                .setEventSource(EntityIdType.toEntityType(targetId >> 24).getValue())
+                                .setEventSource(EntityIdType.toEntityType(targetId >> 22).getValue())
                                 .setSourceEntityId(region.getId())
                                 .setTargetEntityId(targetId));
             }

@@ -994,7 +994,7 @@ public class ScriptLib {
         if (region == null) {
             return 0;
         }
-        return (int) region.getEntities().stream().filter(e -> e >> 24 == entityType).count();
+        return (int) region.getEntities().stream().filter(e -> e >> 22 == entityType).count();
     }
 
     // TODO: GetRogueCellState

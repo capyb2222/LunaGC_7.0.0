@@ -19,40 +19,36 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 IPMHLABHJOI = 5;</code>
-     * @return The iPMHLABHJOI.
+     * <code>uint32 AOOCOJGNEJI = 10;</code>
+     * @return The aOOCOJGNEJI.
      */
-    int getIPMHLABHJOI();
+    int getAOOCOJGNEJI();
 
     /**
-     * <code>uint32 trigger_entity_id = 2;</code>
+     * <code>int32 hit_index = 8;</code>
+     * @return The hitIndex.
+     */
+    int getHitIndex();
+
+    /**
+     * <code>uint32 CFNKAIJHKHM = 9;</code>
+     * @return The cFNKAIJHKHM.
+     */
+    int getCFNKAIJHKHM();
+
+    /**
+     * <code>uint32 trigger_entity_id = 4;</code>
      * @return The triggerEntityId.
      */
     int getTriggerEntityId();
 
     /**
-     * <code>uint32 JOGAEKDGFBH = 12;</code>
-     * @return The jOGAEKDGFBH.
+     * <code>uint32 KEFCCMOEELO = 11;</code>
+     * @return The kEFCCMOEELO.
      */
-    int getJOGAEKDGFBH();
-
-    /**
-     * <code>uint32 AFGOOBDJBGK = 6;</code>
-     * @return The aFGOOBDJBGK.
-     */
-    int getAFGOOBDJBGK();
-
-    /**
-     * <code>int32 hit_index = 3;</code>
-     * @return The hitIndex.
-     */
-    int getHitIndex();
+    int getKEFCCMOEELO();
   }
   /**
-   * <pre>
-   * Obf: CGLLCIMMIMJ
-   * </pre>
-   *
    * Protobuf type {@code AbilityMetaTriggerElementReaction}
    */
   public static final class AbilityMetaTriggerElementReaction extends
@@ -97,29 +93,29 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 32: {
 
               triggerEntityId_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 64: {
 
               hitIndex_ = input.readInt32();
               break;
             }
-            case 40: {
+            case 72: {
 
-              iPMHLABHJOI_ = input.readUInt32();
+              cFNKAIJHKHM_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 80: {
 
-              aFGOOBDJBGK_ = input.readUInt32();
+              aOOCOJGNEJI_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 88: {
 
-              jOGAEKDGFBH_ = input.readUInt32();
+              kEFCCMOEELO_ = input.readUInt32();
               break;
             }
             default: {
@@ -154,21 +150,43 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
               emu.grasscutter.net.proto.AbilityMetaTriggerElementReactionOuterClass.AbilityMetaTriggerElementReaction.class, emu.grasscutter.net.proto.AbilityMetaTriggerElementReactionOuterClass.AbilityMetaTriggerElementReaction.Builder.class);
     }
 
-    public static final int IPMHLABHJOI_FIELD_NUMBER = 5;
-    private int iPMHLABHJOI_;
+    public static final int AOOCOJGNEJI_FIELD_NUMBER = 10;
+    private int aOOCOJGNEJI_;
     /**
-     * <code>uint32 IPMHLABHJOI = 5;</code>
-     * @return The iPMHLABHJOI.
+     * <code>uint32 AOOCOJGNEJI = 10;</code>
+     * @return The aOOCOJGNEJI.
      */
     @java.lang.Override
-    public int getIPMHLABHJOI() {
-      return iPMHLABHJOI_;
+    public int getAOOCOJGNEJI() {
+      return aOOCOJGNEJI_;
     }
 
-    public static final int TRIGGER_ENTITY_ID_FIELD_NUMBER = 2;
+    public static final int HIT_INDEX_FIELD_NUMBER = 8;
+    private int hitIndex_;
+    /**
+     * <code>int32 hit_index = 8;</code>
+     * @return The hitIndex.
+     */
+    @java.lang.Override
+    public int getHitIndex() {
+      return hitIndex_;
+    }
+
+    public static final int CFNKAIJHKHM_FIELD_NUMBER = 9;
+    private int cFNKAIJHKHM_;
+    /**
+     * <code>uint32 CFNKAIJHKHM = 9;</code>
+     * @return The cFNKAIJHKHM.
+     */
+    @java.lang.Override
+    public int getCFNKAIJHKHM() {
+      return cFNKAIJHKHM_;
+    }
+
+    public static final int TRIGGER_ENTITY_ID_FIELD_NUMBER = 4;
     private int triggerEntityId_;
     /**
-     * <code>uint32 trigger_entity_id = 2;</code>
+     * <code>uint32 trigger_entity_id = 4;</code>
      * @return The triggerEntityId.
      */
     @java.lang.Override
@@ -176,37 +194,15 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
       return triggerEntityId_;
     }
 
-    public static final int JOGAEKDGFBH_FIELD_NUMBER = 12;
-    private int jOGAEKDGFBH_;
+    public static final int KEFCCMOEELO_FIELD_NUMBER = 11;
+    private int kEFCCMOEELO_;
     /**
-     * <code>uint32 JOGAEKDGFBH = 12;</code>
-     * @return The jOGAEKDGFBH.
+     * <code>uint32 KEFCCMOEELO = 11;</code>
+     * @return The kEFCCMOEELO.
      */
     @java.lang.Override
-    public int getJOGAEKDGFBH() {
-      return jOGAEKDGFBH_;
-    }
-
-    public static final int AFGOOBDJBGK_FIELD_NUMBER = 6;
-    private int aFGOOBDJBGK_;
-    /**
-     * <code>uint32 AFGOOBDJBGK = 6;</code>
-     * @return The aFGOOBDJBGK.
-     */
-    @java.lang.Override
-    public int getAFGOOBDJBGK() {
-      return aFGOOBDJBGK_;
-    }
-
-    public static final int HIT_INDEX_FIELD_NUMBER = 3;
-    private int hitIndex_;
-    /**
-     * <code>int32 hit_index = 3;</code>
-     * @return The hitIndex.
-     */
-    @java.lang.Override
-    public int getHitIndex() {
-      return hitIndex_;
+    public int getKEFCCMOEELO() {
+      return kEFCCMOEELO_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -224,19 +220,19 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (triggerEntityId_ != 0) {
-        output.writeUInt32(2, triggerEntityId_);
+        output.writeUInt32(4, triggerEntityId_);
       }
       if (hitIndex_ != 0) {
-        output.writeInt32(3, hitIndex_);
+        output.writeInt32(8, hitIndex_);
       }
-      if (iPMHLABHJOI_ != 0) {
-        output.writeUInt32(5, iPMHLABHJOI_);
+      if (cFNKAIJHKHM_ != 0) {
+        output.writeUInt32(9, cFNKAIJHKHM_);
       }
-      if (aFGOOBDJBGK_ != 0) {
-        output.writeUInt32(6, aFGOOBDJBGK_);
+      if (aOOCOJGNEJI_ != 0) {
+        output.writeUInt32(10, aOOCOJGNEJI_);
       }
-      if (jOGAEKDGFBH_ != 0) {
-        output.writeUInt32(12, jOGAEKDGFBH_);
+      if (kEFCCMOEELO_ != 0) {
+        output.writeUInt32(11, kEFCCMOEELO_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,23 +245,23 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
       size = 0;
       if (triggerEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, triggerEntityId_);
+          .computeUInt32Size(4, triggerEntityId_);
       }
       if (hitIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, hitIndex_);
+          .computeInt32Size(8, hitIndex_);
       }
-      if (iPMHLABHJOI_ != 0) {
+      if (cFNKAIJHKHM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, iPMHLABHJOI_);
+          .computeUInt32Size(9, cFNKAIJHKHM_);
       }
-      if (aFGOOBDJBGK_ != 0) {
+      if (aOOCOJGNEJI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, aFGOOBDJBGK_);
+          .computeUInt32Size(10, aOOCOJGNEJI_);
       }
-      if (jOGAEKDGFBH_ != 0) {
+      if (kEFCCMOEELO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, jOGAEKDGFBH_);
+          .computeUInt32Size(11, kEFCCMOEELO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -282,16 +278,16 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
       }
       emu.grasscutter.net.proto.AbilityMetaTriggerElementReactionOuterClass.AbilityMetaTriggerElementReaction other = (emu.grasscutter.net.proto.AbilityMetaTriggerElementReactionOuterClass.AbilityMetaTriggerElementReaction) obj;
 
-      if (getIPMHLABHJOI()
-          != other.getIPMHLABHJOI()) return false;
-      if (getTriggerEntityId()
-          != other.getTriggerEntityId()) return false;
-      if (getJOGAEKDGFBH()
-          != other.getJOGAEKDGFBH()) return false;
-      if (getAFGOOBDJBGK()
-          != other.getAFGOOBDJBGK()) return false;
+      if (getAOOCOJGNEJI()
+          != other.getAOOCOJGNEJI()) return false;
       if (getHitIndex()
           != other.getHitIndex()) return false;
+      if (getCFNKAIJHKHM()
+          != other.getCFNKAIJHKHM()) return false;
+      if (getTriggerEntityId()
+          != other.getTriggerEntityId()) return false;
+      if (getKEFCCMOEELO()
+          != other.getKEFCCMOEELO()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -303,16 +299,16 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + IPMHLABHJOI_FIELD_NUMBER;
-      hash = (53 * hash) + getIPMHLABHJOI();
-      hash = (37 * hash) + TRIGGER_ENTITY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getTriggerEntityId();
-      hash = (37 * hash) + JOGAEKDGFBH_FIELD_NUMBER;
-      hash = (53 * hash) + getJOGAEKDGFBH();
-      hash = (37 * hash) + AFGOOBDJBGK_FIELD_NUMBER;
-      hash = (53 * hash) + getAFGOOBDJBGK();
+      hash = (37 * hash) + AOOCOJGNEJI_FIELD_NUMBER;
+      hash = (53 * hash) + getAOOCOJGNEJI();
       hash = (37 * hash) + HIT_INDEX_FIELD_NUMBER;
       hash = (53 * hash) + getHitIndex();
+      hash = (37 * hash) + CFNKAIJHKHM_FIELD_NUMBER;
+      hash = (53 * hash) + getCFNKAIJHKHM();
+      hash = (37 * hash) + TRIGGER_ENTITY_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getTriggerEntityId();
+      hash = (37 * hash) + KEFCCMOEELO_FIELD_NUMBER;
+      hash = (53 * hash) + getKEFCCMOEELO();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -409,10 +405,6 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: CGLLCIMMIMJ
-     * </pre>
-     *
      * Protobuf type {@code AbilityMetaTriggerElementReaction}
      */
     public static final class Builder extends
@@ -450,15 +442,15 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        iPMHLABHJOI_ = 0;
+        aOOCOJGNEJI_ = 0;
+
+        hitIndex_ = 0;
+
+        cFNKAIJHKHM_ = 0;
 
         triggerEntityId_ = 0;
 
-        jOGAEKDGFBH_ = 0;
-
-        aFGOOBDJBGK_ = 0;
-
-        hitIndex_ = 0;
+        kEFCCMOEELO_ = 0;
 
         return this;
       }
@@ -486,11 +478,11 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AbilityMetaTriggerElementReactionOuterClass.AbilityMetaTriggerElementReaction buildPartial() {
         emu.grasscutter.net.proto.AbilityMetaTriggerElementReactionOuterClass.AbilityMetaTriggerElementReaction result = new emu.grasscutter.net.proto.AbilityMetaTriggerElementReactionOuterClass.AbilityMetaTriggerElementReaction(this);
-        result.iPMHLABHJOI_ = iPMHLABHJOI_;
-        result.triggerEntityId_ = triggerEntityId_;
-        result.jOGAEKDGFBH_ = jOGAEKDGFBH_;
-        result.aFGOOBDJBGK_ = aFGOOBDJBGK_;
+        result.aOOCOJGNEJI_ = aOOCOJGNEJI_;
         result.hitIndex_ = hitIndex_;
+        result.cFNKAIJHKHM_ = cFNKAIJHKHM_;
+        result.triggerEntityId_ = triggerEntityId_;
+        result.kEFCCMOEELO_ = kEFCCMOEELO_;
         onBuilt();
         return result;
       }
@@ -539,20 +531,20 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AbilityMetaTriggerElementReactionOuterClass.AbilityMetaTriggerElementReaction other) {
         if (other == emu.grasscutter.net.proto.AbilityMetaTriggerElementReactionOuterClass.AbilityMetaTriggerElementReaction.getDefaultInstance()) return this;
-        if (other.getIPMHLABHJOI() != 0) {
-          setIPMHLABHJOI(other.getIPMHLABHJOI());
+        if (other.getAOOCOJGNEJI() != 0) {
+          setAOOCOJGNEJI(other.getAOOCOJGNEJI());
+        }
+        if (other.getHitIndex() != 0) {
+          setHitIndex(other.getHitIndex());
+        }
+        if (other.getCFNKAIJHKHM() != 0) {
+          setCFNKAIJHKHM(other.getCFNKAIJHKHM());
         }
         if (other.getTriggerEntityId() != 0) {
           setTriggerEntityId(other.getTriggerEntityId());
         }
-        if (other.getJOGAEKDGFBH() != 0) {
-          setJOGAEKDGFBH(other.getJOGAEKDGFBH());
-        }
-        if (other.getAFGOOBDJBGK() != 0) {
-          setAFGOOBDJBGK(other.getAFGOOBDJBGK());
-        }
-        if (other.getHitIndex() != 0) {
-          setHitIndex(other.getHitIndex());
+        if (other.getKEFCCMOEELO() != 0) {
+          setKEFCCMOEELO(other.getKEFCCMOEELO());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -583,133 +575,40 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
         return this;
       }
 
-      private int iPMHLABHJOI_ ;
+      private int aOOCOJGNEJI_ ;
       /**
-       * <code>uint32 IPMHLABHJOI = 5;</code>
-       * @return The iPMHLABHJOI.
+       * <code>uint32 AOOCOJGNEJI = 10;</code>
+       * @return The aOOCOJGNEJI.
        */
       @java.lang.Override
-      public int getIPMHLABHJOI() {
-        return iPMHLABHJOI_;
+      public int getAOOCOJGNEJI() {
+        return aOOCOJGNEJI_;
       }
       /**
-       * <code>uint32 IPMHLABHJOI = 5;</code>
-       * @param value The iPMHLABHJOI to set.
+       * <code>uint32 AOOCOJGNEJI = 10;</code>
+       * @param value The aOOCOJGNEJI to set.
        * @return This builder for chaining.
        */
-      public Builder setIPMHLABHJOI(int value) {
+      public Builder setAOOCOJGNEJI(int value) {
         
-        iPMHLABHJOI_ = value;
+        aOOCOJGNEJI_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 IPMHLABHJOI = 5;</code>
+       * <code>uint32 AOOCOJGNEJI = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIPMHLABHJOI() {
+      public Builder clearAOOCOJGNEJI() {
         
-        iPMHLABHJOI_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int triggerEntityId_ ;
-      /**
-       * <code>uint32 trigger_entity_id = 2;</code>
-       * @return The triggerEntityId.
-       */
-      @java.lang.Override
-      public int getTriggerEntityId() {
-        return triggerEntityId_;
-      }
-      /**
-       * <code>uint32 trigger_entity_id = 2;</code>
-       * @param value The triggerEntityId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setTriggerEntityId(int value) {
-        
-        triggerEntityId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 trigger_entity_id = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearTriggerEntityId() {
-        
-        triggerEntityId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int jOGAEKDGFBH_ ;
-      /**
-       * <code>uint32 JOGAEKDGFBH = 12;</code>
-       * @return The jOGAEKDGFBH.
-       */
-      @java.lang.Override
-      public int getJOGAEKDGFBH() {
-        return jOGAEKDGFBH_;
-      }
-      /**
-       * <code>uint32 JOGAEKDGFBH = 12;</code>
-       * @param value The jOGAEKDGFBH to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJOGAEKDGFBH(int value) {
-        
-        jOGAEKDGFBH_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 JOGAEKDGFBH = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJOGAEKDGFBH() {
-        
-        jOGAEKDGFBH_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int aFGOOBDJBGK_ ;
-      /**
-       * <code>uint32 AFGOOBDJBGK = 6;</code>
-       * @return The aFGOOBDJBGK.
-       */
-      @java.lang.Override
-      public int getAFGOOBDJBGK() {
-        return aFGOOBDJBGK_;
-      }
-      /**
-       * <code>uint32 AFGOOBDJBGK = 6;</code>
-       * @param value The aFGOOBDJBGK to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAFGOOBDJBGK(int value) {
-        
-        aFGOOBDJBGK_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 AFGOOBDJBGK = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAFGOOBDJBGK() {
-        
-        aFGOOBDJBGK_ = 0;
+        aOOCOJGNEJI_ = 0;
         onChanged();
         return this;
       }
 
       private int hitIndex_ ;
       /**
-       * <code>int32 hit_index = 3;</code>
+       * <code>int32 hit_index = 8;</code>
        * @return The hitIndex.
        */
       @java.lang.Override
@@ -717,7 +616,7 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
         return hitIndex_;
       }
       /**
-       * <code>int32 hit_index = 3;</code>
+       * <code>int32 hit_index = 8;</code>
        * @param value The hitIndex to set.
        * @return This builder for chaining.
        */
@@ -728,12 +627,105 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
         return this;
       }
       /**
-       * <code>int32 hit_index = 3;</code>
+       * <code>int32 hit_index = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearHitIndex() {
         
         hitIndex_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int cFNKAIJHKHM_ ;
+      /**
+       * <code>uint32 CFNKAIJHKHM = 9;</code>
+       * @return The cFNKAIJHKHM.
+       */
+      @java.lang.Override
+      public int getCFNKAIJHKHM() {
+        return cFNKAIJHKHM_;
+      }
+      /**
+       * <code>uint32 CFNKAIJHKHM = 9;</code>
+       * @param value The cFNKAIJHKHM to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCFNKAIJHKHM(int value) {
+        
+        cFNKAIJHKHM_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 CFNKAIJHKHM = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCFNKAIJHKHM() {
+        
+        cFNKAIJHKHM_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int triggerEntityId_ ;
+      /**
+       * <code>uint32 trigger_entity_id = 4;</code>
+       * @return The triggerEntityId.
+       */
+      @java.lang.Override
+      public int getTriggerEntityId() {
+        return triggerEntityId_;
+      }
+      /**
+       * <code>uint32 trigger_entity_id = 4;</code>
+       * @param value The triggerEntityId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTriggerEntityId(int value) {
+        
+        triggerEntityId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 trigger_entity_id = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTriggerEntityId() {
+        
+        triggerEntityId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int kEFCCMOEELO_ ;
+      /**
+       * <code>uint32 KEFCCMOEELO = 11;</code>
+       * @return The kEFCCMOEELO.
+       */
+      @java.lang.Override
+      public int getKEFCCMOEELO() {
+        return kEFCCMOEELO_;
+      }
+      /**
+       * <code>uint32 KEFCCMOEELO = 11;</code>
+       * @param value The kEFCCMOEELO to set.
+       * @return This builder for chaining.
+       */
+      public Builder setKEFCCMOEELO(int value) {
+        
+        kEFCCMOEELO_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 KEFCCMOEELO = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearKEFCCMOEELO() {
+        
+        kEFCCMOEELO_ = 0;
         onChanged();
         return this;
       }
@@ -806,9 +798,9 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
     java.lang.String[] descriptorData = {
       "\n\'AbilityMetaTriggerElementReaction.prot" +
       "o\"\220\001\n!AbilityMetaTriggerElementReaction\022" +
-      "\023\n\013IPMHLABHJOI\030\005 \001(\r\022\031\n\021trigger_entity_i" +
-      "d\030\002 \001(\r\022\023\n\013JOGAEKDGFBH\030\014 \001(\r\022\023\n\013AFGOOBDJ" +
-      "BGK\030\006 \001(\r\022\021\n\thit_index\030\003 \001(\005B\033\n\031emu.gras" +
+      "\023\n\013AOOCOJGNEJI\030\n \001(\r\022\021\n\thit_index\030\010 \001(\005\022" +
+      "\023\n\013CFNKAIJHKHM\030\t \001(\r\022\031\n\021trigger_entity_i" +
+      "d\030\004 \001(\r\022\023\n\013KEFCCMOEELO\030\013 \001(\rB\033\n\031emu.gras" +
       "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -820,7 +812,7 @@ public final class AbilityMetaTriggerElementReactionOuterClass {
     internal_static_AbilityMetaTriggerElementReaction_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AbilityMetaTriggerElementReaction_descriptor,
-        new java.lang.String[] { "IPMHLABHJOI", "TriggerEntityId", "JOGAEKDGFBH", "AFGOOBDJBGK", "HitIndex", });
+        new java.lang.String[] { "AOOCOJGNEJI", "HitIndex", "CFNKAIJHKHM", "TriggerEntityId", "KEFCCMOEELO", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

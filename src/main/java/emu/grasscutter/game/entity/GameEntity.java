@@ -82,7 +82,7 @@ public abstract class GameEntity {
     public abstract void initAbilities();
 
     public EntityType getEntityType() {
-        return EntityIdType.toEntityType(this.getId() >> 24);
+        return EntityIdType.toEntityType(this.getId() >> 22);
     }
     public boolean isConvertToHpDebt() {
         return convertToHpDebt;

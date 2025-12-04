@@ -138,7 +138,7 @@ public class Scene {
         // Check for an avatar.
         var entity = this.entities.get(id);
         if (entity == null) entity = this.weaponEntities.get(id);
-        if (entity == null && (id >> 24) == EntityIdType.AVATAR.getId()) {
+        if (entity == null && (id >> 22) == EntityIdType.AVATAR.getId()) {
             for (var player : getPlayers()) {
                 for (var avatar : player.getTeamManager().getActiveTeam()) {
                     if (avatar.getId() == id) return avatar;
@@ -147,7 +147,7 @@ public class Scene {
         }
 
         // Check for a weapon.
-        if (entity == null && (id >> 24) == EntityIdType.WEAPON.getId()) {
+        if (entity == null && (id >> 22) == EntityIdType.WEAPON.getId()) {
             for (var player : this.getPlayers()) {
                 for (var avatar : player.getTeamManager().getActiveTeam()) {
                     if (avatar.getWeaponEntityId() == id) return avatar;
