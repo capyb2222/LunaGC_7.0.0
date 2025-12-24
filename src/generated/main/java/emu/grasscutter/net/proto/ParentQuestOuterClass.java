@@ -19,91 +19,91 @@ public final class ParentQuestOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.ParentQuestRandomInfo random_info = 8;</code>
+     * <code>.ParentQuestRandomInfo random_info = 15;</code>
      * @return Whether the randomInfo field is set.
      */
     boolean hasRandomInfo();
     /**
-     * <code>.ParentQuestRandomInfo random_info = 8;</code>
+     * <code>.ParentQuestRandomInfo random_info = 15;</code>
      * @return The randomInfo.
      */
     emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo getRandomInfo();
     /**
-     * <code>.ParentQuestRandomInfo random_info = 8;</code>
+     * <code>.ParentQuestRandomInfo random_info = 15;</code>
      */
     emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfoOrBuilder getRandomInfoOrBuilder();
 
     /**
-     * <code>repeated int32 quest_var = 3;</code>
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo> 
+        getInferencePageListList();
+    /**
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo getInferencePageList(int index);
+    /**
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    int getInferencePageListCount();
+    /**
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder> 
+        getInferencePageListOrBuilderList();
+    /**
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder getInferencePageListOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated int32 quest_var = 13;</code>
      * @return A list containing the questVar.
      */
     java.util.List<java.lang.Integer> getQuestVarList();
     /**
-     * <code>repeated int32 quest_var = 3;</code>
+     * <code>repeated int32 quest_var = 13;</code>
      * @return The count of questVar.
      */
     int getQuestVarCount();
     /**
-     * <code>repeated int32 quest_var = 3;</code>
+     * <code>repeated int32 quest_var = 13;</code>
      * @param index The index of the element to return.
      * @return The questVar at the given index.
      */
     int getQuestVar(int index);
 
     /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo> 
-        getInferencePageListList();
-    /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo getInferencePageList(int index);
-    /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    int getInferencePageListCount();
-    /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder> 
-        getInferencePageListOrBuilderList();
-    /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder getInferencePageListOrBuilder(
-        int index);
-
-    /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest> 
         getChildQuestListList();
     /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest getChildQuestList(int index);
     /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     int getChildQuestListCount();
     /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuestOrBuilder> 
         getChildQuestListOrBuilderList();
     /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuestOrBuilder getChildQuestListOrBuilder(
         int index);
 
     /**
-     * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+     * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
      */
     int getTimeVarMapCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+     * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
      */
     boolean containsTimeVarMap(
         int key);
@@ -114,62 +114,74 @@ public final class ParentQuestOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getTimeVarMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+     * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getTimeVarMapMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+     * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
      */
 
     int getTimeVarMapOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+     * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
      */
 
     int getTimeVarMapOrThrow(
         int key);
 
     /**
-     * <code>uint32 accept_time = 2;</code>
+     * <code>uint32 IFPDEFNHOMF = 10;</code>
+     * @return The iFPDEFNHOMF.
+     */
+    int getIFPDEFNHOMF();
+
+    /**
+     * <code>uint32 accept_time = 5;</code>
      * @return The acceptTime.
      */
     int getAcceptTime();
 
     /**
-     * <code>bool is_random = 7;</code>
-     * @return The isRandom.
-     */
-    boolean getIsRandom();
-
-    /**
-     * <code>bool is_finished = 14;</code>
+     * <code>bool is_finished = 2;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
 
     /**
-     * <code>uint32 parent_quest_id = 4;</code>
-     * @return The parentQuestId.
+     * <code>bool EPKKGEPFEBF = 1;</code>
+     * @return The ePKKGEPFEBF.
      */
-    int getParentQuestId();
+    boolean getEPKKGEPFEBF();
 
     /**
-     * <code>uint64 video_key = 15;</code>
+     * <code>bool OHGOGIJNBGH = 9;</code>
+     * @return The oHGOGIJNBGH.
+     */
+    boolean getOHGOGIJNBGH();
+
+    /**
+     * <code>bool is_random = 14;</code>
+     * @return The isRandom.
+     */
+    boolean getIsRandom();
+
+    /**
+     * <code>uint64 video_key = 6;</code>
      * @return The videoKey.
      */
     long getVideoKey();
 
     /**
-     * <code>uint32 quest_var_seq = 13;</code>
-     * @return The questVarSeq.
+     * <code>uint32 parent_quest_id = 8;</code>
+     * @return The parentQuestId.
      */
-    int getQuestVarSeq();
+    int getParentQuestId();
 
     /**
-     * <code>uint32 parent_quest_state = 11;</code>
+     * <code>uint32 parent_quest_state = 12;</code>
      * @return The parentQuestState.
      */
     int getParentQuestState();
@@ -187,8 +199,8 @@ public final class ParentQuestOuterClass {
       super(builder);
     }
     private ParentQuest() {
-      questVar_ = emptyIntList();
       inferencePageList_ = java.util.Collections.emptyList();
+      questVar_ = emptyIntList();
       childQuestList_ = java.util.Collections.emptyList();
     }
 
@@ -223,38 +235,26 @@ public final class ParentQuestOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
 
-              acceptTime_ = input.readUInt32();
+              ePKKGEPFEBF_ = input.readBool();
               break;
             }
-            case 24: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                questVar_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              questVar_.addInt(input.readInt32());
+            case 16: {
+
+              isFinished_ = input.readBool();
               break;
             }
             case 26: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                questVar_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                childQuestList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest>();
+                mutable_bitField0_ |= 0x00000004;
               }
-              while (input.getBytesUntilLimit() > 0) {
-                questVar_.addInt(input.readInt32());
-              }
-              input.popLimit(limit);
+              childQuestList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.parser(), extensionRegistry));
               break;
             }
-            case 32: {
-
-              parentQuestId_ = input.readUInt32();
-              break;
-            }
-            case 42: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 timeVarMap_ = com.google.protobuf.MapField.newMapField(
                     TimeVarMapDefaultEntryHolder.defaultEntry);
@@ -267,21 +267,72 @@ public final class ParentQuestOuterClass {
                   timeVarMap__.getKey(), timeVarMap__.getValue());
               break;
             }
-            case 50: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+            case 40: {
+
+              acceptTime_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              videoKey_ = input.readUInt64();
+              break;
+            }
+            case 64: {
+
+              parentQuestId_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              oHGOGIJNBGH_ = input.readBool();
+              break;
+            }
+            case 80: {
+
+              iFPDEFNHOMF_ = input.readUInt32();
+              break;
+            }
+            case 90: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 inferencePageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               inferencePageList_.add(
                   input.readMessage(emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.parser(), extensionRegistry));
               break;
             }
-            case 56: {
+            case 96: {
+
+              parentQuestState_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                questVar_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              questVar_.addInt(input.readInt32());
+              break;
+            }
+            case 106: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                questVar_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                questVar_.addInt(input.readInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 112: {
 
               isRandom_ = input.readBool();
               break;
             }
-            case 66: {
+            case 122: {
               emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo.Builder subBuilder = null;
               if (randomInfo_ != null) {
                 subBuilder = randomInfo_.toBuilder();
@@ -292,35 +343,6 @@ public final class ParentQuestOuterClass {
                 randomInfo_ = subBuilder.buildPartial();
               }
 
-              break;
-            }
-            case 88: {
-
-              parentQuestState_ = input.readUInt32();
-              break;
-            }
-            case 98: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                childQuestList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest>();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              childQuestList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.parser(), extensionRegistry));
-              break;
-            }
-            case 104: {
-
-              questVarSeq_ = input.readUInt32();
-              break;
-            }
-            case 112: {
-
-              isFinished_ = input.readBool();
-              break;
-            }
-            case 120: {
-
-              videoKey_ = input.readUInt64();
               break;
             }
             default: {
@@ -338,14 +360,14 @@ public final class ParentQuestOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          questVar_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          inferencePageList_ = java.util.Collections.unmodifiableList(inferencePageList_);
-        }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           childQuestList_ = java.util.Collections.unmodifiableList(childQuestList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          inferencePageList_ = java.util.Collections.unmodifiableList(inferencePageList_);
+        }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          questVar_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -361,7 +383,7 @@ public final class ParentQuestOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 5:
+        case 4:
           return internalGetTimeVarMap();
         default:
           throw new RuntimeException(
@@ -376,10 +398,10 @@ public final class ParentQuestOuterClass {
               emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest.class, emu.grasscutter.net.proto.ParentQuestOuterClass.ParentQuest.Builder.class);
     }
 
-    public static final int RANDOM_INFO_FIELD_NUMBER = 8;
+    public static final int RANDOM_INFO_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo randomInfo_;
     /**
-     * <code>.ParentQuestRandomInfo random_info = 8;</code>
+     * <code>.ParentQuestRandomInfo random_info = 15;</code>
      * @return Whether the randomInfo field is set.
      */
     @java.lang.Override
@@ -387,7 +409,7 @@ public final class ParentQuestOuterClass {
       return randomInfo_ != null;
     }
     /**
-     * <code>.ParentQuestRandomInfo random_info = 8;</code>
+     * <code>.ParentQuestRandomInfo random_info = 15;</code>
      * @return The randomInfo.
      */
     @java.lang.Override
@@ -395,17 +417,57 @@ public final class ParentQuestOuterClass {
       return randomInfo_ == null ? emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo.getDefaultInstance() : randomInfo_;
     }
     /**
-     * <code>.ParentQuestRandomInfo random_info = 8;</code>
+     * <code>.ParentQuestRandomInfo random_info = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfoOrBuilder getRandomInfoOrBuilder() {
       return getRandomInfo();
     }
 
-    public static final int QUEST_VAR_FIELD_NUMBER = 3;
+    public static final int INFERENCE_PAGE_LIST_FIELD_NUMBER = 11;
+    private java.util.List<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo> inferencePageList_;
+    /**
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo> getInferencePageListList() {
+      return inferencePageList_;
+    }
+    /**
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder> 
+        getInferencePageListOrBuilderList() {
+      return inferencePageList_;
+    }
+    /**
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    @java.lang.Override
+    public int getInferencePageListCount() {
+      return inferencePageList_.size();
+    }
+    /**
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo getInferencePageList(int index) {
+      return inferencePageList_.get(index);
+    }
+    /**
+     * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder getInferencePageListOrBuilder(
+        int index) {
+      return inferencePageList_.get(index);
+    }
+
+    public static final int QUEST_VAR_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList questVar_;
     /**
-     * <code>repeated int32 quest_var = 3;</code>
+     * <code>repeated int32 quest_var = 13;</code>
      * @return A list containing the questVar.
      */
     @java.lang.Override
@@ -414,14 +476,14 @@ public final class ParentQuestOuterClass {
       return questVar_;
     }
     /**
-     * <code>repeated int32 quest_var = 3;</code>
+     * <code>repeated int32 quest_var = 13;</code>
      * @return The count of questVar.
      */
     public int getQuestVarCount() {
       return questVar_.size();
     }
     /**
-     * <code>repeated int32 quest_var = 3;</code>
+     * <code>repeated int32 quest_var = 13;</code>
      * @param index The index of the element to return.
      * @return The questVar at the given index.
      */
@@ -430,57 +492,17 @@ public final class ParentQuestOuterClass {
     }
     private int questVarMemoizedSerializedSize = -1;
 
-    public static final int INFERENCE_PAGE_LIST_FIELD_NUMBER = 6;
-    private java.util.List<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo> inferencePageList_;
-    /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo> getInferencePageListList() {
-      return inferencePageList_;
-    }
-    /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder> 
-        getInferencePageListOrBuilderList() {
-      return inferencePageList_;
-    }
-    /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    @java.lang.Override
-    public int getInferencePageListCount() {
-      return inferencePageList_.size();
-    }
-    /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo getInferencePageList(int index) {
-      return inferencePageList_.get(index);
-    }
-    /**
-     * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder getInferencePageListOrBuilder(
-        int index) {
-      return inferencePageList_.get(index);
-    }
-
-    public static final int CHILD_QUEST_LIST_FIELD_NUMBER = 12;
+    public static final int CHILD_QUEST_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest> childQuestList_;
     /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest> getChildQuestListList() {
       return childQuestList_;
     }
     /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuestOrBuilder> 
@@ -488,21 +510,21 @@ public final class ParentQuestOuterClass {
       return childQuestList_;
     }
     /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     @java.lang.Override
     public int getChildQuestListCount() {
       return childQuestList_.size();
     }
     /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest getChildQuestList(int index) {
       return childQuestList_.get(index);
     }
     /**
-     * <code>repeated .ChildQuest child_quest_list = 12;</code>
+     * <code>repeated .ChildQuest child_quest_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuestOrBuilder getChildQuestListOrBuilder(
@@ -510,7 +532,7 @@ public final class ParentQuestOuterClass {
       return childQuestList_.get(index);
     }
 
-    public static final int TIME_VAR_MAP_FIELD_NUMBER = 5;
+    public static final int TIME_VAR_MAP_FIELD_NUMBER = 4;
     private static final class TimeVarMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -537,7 +559,7 @@ public final class ParentQuestOuterClass {
       return internalGetTimeVarMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+     * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
      */
 
     @java.lang.Override
@@ -555,7 +577,7 @@ public final class ParentQuestOuterClass {
       return getTimeVarMapMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+     * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
      */
     @java.lang.Override
 
@@ -563,7 +585,7 @@ public final class ParentQuestOuterClass {
       return internalGetTimeVarMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+     * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
      */
     @java.lang.Override
 
@@ -576,7 +598,7 @@ public final class ParentQuestOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+     * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
      */
     @java.lang.Override
 
@@ -591,10 +613,21 @@ public final class ParentQuestOuterClass {
       return map.get(key);
     }
 
-    public static final int ACCEPT_TIME_FIELD_NUMBER = 2;
+    public static final int IFPDEFNHOMF_FIELD_NUMBER = 10;
+    private int iFPDEFNHOMF_;
+    /**
+     * <code>uint32 IFPDEFNHOMF = 10;</code>
+     * @return The iFPDEFNHOMF.
+     */
+    @java.lang.Override
+    public int getIFPDEFNHOMF() {
+      return iFPDEFNHOMF_;
+    }
+
+    public static final int ACCEPT_TIME_FIELD_NUMBER = 5;
     private int acceptTime_;
     /**
-     * <code>uint32 accept_time = 2;</code>
+     * <code>uint32 accept_time = 5;</code>
      * @return The acceptTime.
      */
     @java.lang.Override
@@ -602,21 +635,10 @@ public final class ParentQuestOuterClass {
       return acceptTime_;
     }
 
-    public static final int IS_RANDOM_FIELD_NUMBER = 7;
-    private boolean isRandom_;
-    /**
-     * <code>bool is_random = 7;</code>
-     * @return The isRandom.
-     */
-    @java.lang.Override
-    public boolean getIsRandom() {
-      return isRandom_;
-    }
-
-    public static final int IS_FINISHED_FIELD_NUMBER = 14;
+    public static final int IS_FINISHED_FIELD_NUMBER = 2;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 14;</code>
+     * <code>bool is_finished = 2;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -624,21 +646,43 @@ public final class ParentQuestOuterClass {
       return isFinished_;
     }
 
-    public static final int PARENT_QUEST_ID_FIELD_NUMBER = 4;
-    private int parentQuestId_;
+    public static final int EPKKGEPFEBF_FIELD_NUMBER = 1;
+    private boolean ePKKGEPFEBF_;
     /**
-     * <code>uint32 parent_quest_id = 4;</code>
-     * @return The parentQuestId.
+     * <code>bool EPKKGEPFEBF = 1;</code>
+     * @return The ePKKGEPFEBF.
      */
     @java.lang.Override
-    public int getParentQuestId() {
-      return parentQuestId_;
+    public boolean getEPKKGEPFEBF() {
+      return ePKKGEPFEBF_;
     }
 
-    public static final int VIDEO_KEY_FIELD_NUMBER = 15;
+    public static final int OHGOGIJNBGH_FIELD_NUMBER = 9;
+    private boolean oHGOGIJNBGH_;
+    /**
+     * <code>bool OHGOGIJNBGH = 9;</code>
+     * @return The oHGOGIJNBGH.
+     */
+    @java.lang.Override
+    public boolean getOHGOGIJNBGH() {
+      return oHGOGIJNBGH_;
+    }
+
+    public static final int IS_RANDOM_FIELD_NUMBER = 14;
+    private boolean isRandom_;
+    /**
+     * <code>bool is_random = 14;</code>
+     * @return The isRandom.
+     */
+    @java.lang.Override
+    public boolean getIsRandom() {
+      return isRandom_;
+    }
+
+    public static final int VIDEO_KEY_FIELD_NUMBER = 6;
     private long videoKey_;
     /**
-     * <code>uint64 video_key = 15;</code>
+     * <code>uint64 video_key = 6;</code>
      * @return The videoKey.
      */
     @java.lang.Override
@@ -646,21 +690,21 @@ public final class ParentQuestOuterClass {
       return videoKey_;
     }
 
-    public static final int QUEST_VAR_SEQ_FIELD_NUMBER = 13;
-    private int questVarSeq_;
+    public static final int PARENT_QUEST_ID_FIELD_NUMBER = 8;
+    private int parentQuestId_;
     /**
-     * <code>uint32 quest_var_seq = 13;</code>
-     * @return The questVarSeq.
+     * <code>uint32 parent_quest_id = 8;</code>
+     * @return The parentQuestId.
      */
     @java.lang.Override
-    public int getQuestVarSeq() {
-      return questVarSeq_;
+    public int getParentQuestId() {
+      return parentQuestId_;
     }
 
-    public static final int PARENT_QUEST_STATE_FIELD_NUMBER = 11;
+    public static final int PARENT_QUEST_STATE_FIELD_NUMBER = 12;
     private int parentQuestState_;
     /**
-     * <code>uint32 parent_quest_state = 11;</code>
+     * <code>uint32 parent_quest_state = 12;</code>
      * @return The parentQuestState.
      */
     @java.lang.Override
@@ -683,48 +727,54 @@ public final class ParentQuestOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (acceptTime_ != 0) {
-        output.writeUInt32(2, acceptTime_);
+      if (ePKKGEPFEBF_ != false) {
+        output.writeBool(1, ePKKGEPFEBF_);
       }
-      if (getQuestVarList().size() > 0) {
-        output.writeUInt32NoTag(26);
-        output.writeUInt32NoTag(questVarMemoizedSerializedSize);
+      if (isFinished_ != false) {
+        output.writeBool(2, isFinished_);
       }
-      for (int i = 0; i < questVar_.size(); i++) {
-        output.writeInt32NoTag(questVar_.getInt(i));
-      }
-      if (parentQuestId_ != 0) {
-        output.writeUInt32(4, parentQuestId_);
+      for (int i = 0; i < childQuestList_.size(); i++) {
+        output.writeMessage(3, childQuestList_.get(i));
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetTimeVarMap(),
           TimeVarMapDefaultEntryHolder.defaultEntry,
-          5);
-      for (int i = 0; i < inferencePageList_.size(); i++) {
-        output.writeMessage(6, inferencePageList_.get(i));
-      }
-      if (isRandom_ != false) {
-        output.writeBool(7, isRandom_);
-      }
-      if (randomInfo_ != null) {
-        output.writeMessage(8, getRandomInfo());
-      }
-      if (parentQuestState_ != 0) {
-        output.writeUInt32(11, parentQuestState_);
-      }
-      for (int i = 0; i < childQuestList_.size(); i++) {
-        output.writeMessage(12, childQuestList_.get(i));
-      }
-      if (questVarSeq_ != 0) {
-        output.writeUInt32(13, questVarSeq_);
-      }
-      if (isFinished_ != false) {
-        output.writeBool(14, isFinished_);
+          4);
+      if (acceptTime_ != 0) {
+        output.writeUInt32(5, acceptTime_);
       }
       if (videoKey_ != 0L) {
-        output.writeUInt64(15, videoKey_);
+        output.writeUInt64(6, videoKey_);
+      }
+      if (parentQuestId_ != 0) {
+        output.writeUInt32(8, parentQuestId_);
+      }
+      if (oHGOGIJNBGH_ != false) {
+        output.writeBool(9, oHGOGIJNBGH_);
+      }
+      if (iFPDEFNHOMF_ != 0) {
+        output.writeUInt32(10, iFPDEFNHOMF_);
+      }
+      for (int i = 0; i < inferencePageList_.size(); i++) {
+        output.writeMessage(11, inferencePageList_.get(i));
+      }
+      if (parentQuestState_ != 0) {
+        output.writeUInt32(12, parentQuestState_);
+      }
+      if (getQuestVarList().size() > 0) {
+        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(questVarMemoizedSerializedSize);
+      }
+      for (int i = 0; i < questVar_.size(); i++) {
+        output.writeInt32NoTag(questVar_.getInt(i));
+      }
+      if (isRandom_ != false) {
+        output.writeBool(14, isRandom_);
+      }
+      if (randomInfo_ != null) {
+        output.writeMessage(15, getRandomInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -735,9 +785,55 @@ public final class ParentQuestOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (ePKKGEPFEBF_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1, ePKKGEPFEBF_);
+      }
+      if (isFinished_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(2, isFinished_);
+      }
+      for (int i = 0; i < childQuestList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, childQuestList_.get(i));
+      }
+      for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
+           : internalGetTimeVarMap().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
+        timeVarMap__ = TimeVarMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+            .setKey(entry.getKey())
+            .setValue(entry.getValue())
+            .build();
+        size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(4, timeVarMap__);
+      }
       if (acceptTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, acceptTime_);
+          .computeUInt32Size(5, acceptTime_);
+      }
+      if (videoKey_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(6, videoKey_);
+      }
+      if (parentQuestId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, parentQuestId_);
+      }
+      if (oHGOGIJNBGH_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, oHGOGIJNBGH_);
+      }
+      if (iFPDEFNHOMF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, iFPDEFNHOMF_);
+      }
+      for (int i = 0; i < inferencePageList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, inferencePageList_.get(i));
+      }
+      if (parentQuestState_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, parentQuestState_);
       }
       {
         int dataSize = 0;
@@ -753,51 +849,13 @@ public final class ParentQuestOuterClass {
         }
         questVarMemoizedSerializedSize = dataSize;
       }
-      if (parentQuestId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, parentQuestId_);
-      }
-      for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetTimeVarMap().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        timeVarMap__ = TimeVarMapDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(5, timeVarMap__);
-      }
-      for (int i = 0; i < inferencePageList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, inferencePageList_.get(i));
-      }
       if (isRandom_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isRandom_);
+          .computeBoolSize(14, isRandom_);
       }
       if (randomInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getRandomInfo());
-      }
-      if (parentQuestState_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, parentQuestState_);
-      }
-      for (int i = 0; i < childQuestList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, childQuestList_.get(i));
-      }
-      if (questVarSeq_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, questVarSeq_);
-      }
-      if (isFinished_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isFinished_);
-      }
-      if (videoKey_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(15, videoKey_);
+          .computeMessageSize(15, getRandomInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -819,26 +877,30 @@ public final class ParentQuestOuterClass {
         if (!getRandomInfo()
             .equals(other.getRandomInfo())) return false;
       }
-      if (!getQuestVarList()
-          .equals(other.getQuestVarList())) return false;
       if (!getInferencePageListList()
           .equals(other.getInferencePageListList())) return false;
+      if (!getQuestVarList()
+          .equals(other.getQuestVarList())) return false;
       if (!getChildQuestListList()
           .equals(other.getChildQuestListList())) return false;
       if (!internalGetTimeVarMap().equals(
           other.internalGetTimeVarMap())) return false;
+      if (getIFPDEFNHOMF()
+          != other.getIFPDEFNHOMF()) return false;
       if (getAcceptTime()
           != other.getAcceptTime()) return false;
-      if (getIsRandom()
-          != other.getIsRandom()) return false;
       if (getIsFinished()
           != other.getIsFinished()) return false;
-      if (getParentQuestId()
-          != other.getParentQuestId()) return false;
+      if (getEPKKGEPFEBF()
+          != other.getEPKKGEPFEBF()) return false;
+      if (getOHGOGIJNBGH()
+          != other.getOHGOGIJNBGH()) return false;
+      if (getIsRandom()
+          != other.getIsRandom()) return false;
       if (getVideoKey()
           != other.getVideoKey()) return false;
-      if (getQuestVarSeq()
-          != other.getQuestVarSeq()) return false;
+      if (getParentQuestId()
+          != other.getParentQuestId()) return false;
       if (getParentQuestState()
           != other.getParentQuestState()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -856,13 +918,13 @@ public final class ParentQuestOuterClass {
         hash = (37 * hash) + RANDOM_INFO_FIELD_NUMBER;
         hash = (53 * hash) + getRandomInfo().hashCode();
       }
-      if (getQuestVarCount() > 0) {
-        hash = (37 * hash) + QUEST_VAR_FIELD_NUMBER;
-        hash = (53 * hash) + getQuestVarList().hashCode();
-      }
       if (getInferencePageListCount() > 0) {
         hash = (37 * hash) + INFERENCE_PAGE_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getInferencePageListList().hashCode();
+      }
+      if (getQuestVarCount() > 0) {
+        hash = (37 * hash) + QUEST_VAR_FIELD_NUMBER;
+        hash = (53 * hash) + getQuestVarList().hashCode();
       }
       if (getChildQuestListCount() > 0) {
         hash = (37 * hash) + CHILD_QUEST_LIST_FIELD_NUMBER;
@@ -872,21 +934,27 @@ public final class ParentQuestOuterClass {
         hash = (37 * hash) + TIME_VAR_MAP_FIELD_NUMBER;
         hash = (53 * hash) + internalGetTimeVarMap().hashCode();
       }
+      hash = (37 * hash) + IFPDEFNHOMF_FIELD_NUMBER;
+      hash = (53 * hash) + getIFPDEFNHOMF();
       hash = (37 * hash) + ACCEPT_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getAcceptTime();
-      hash = (37 * hash) + IS_RANDOM_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsRandom());
       hash = (37 * hash) + IS_FINISHED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsFinished());
-      hash = (37 * hash) + PARENT_QUEST_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getParentQuestId();
+      hash = (37 * hash) + EPKKGEPFEBF_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getEPKKGEPFEBF());
+      hash = (37 * hash) + OHGOGIJNBGH_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getOHGOGIJNBGH());
+      hash = (37 * hash) + IS_RANDOM_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsRandom());
       hash = (37 * hash) + VIDEO_KEY_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getVideoKey());
-      hash = (37 * hash) + QUEST_VAR_SEQ_FIELD_NUMBER;
-      hash = (53 * hash) + getQuestVarSeq();
+      hash = (37 * hash) + PARENT_QUEST_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getParentQuestId();
       hash = (37 * hash) + PARENT_QUEST_STATE_FIELD_NUMBER;
       hash = (53 * hash) + getParentQuestState();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -1000,7 +1068,7 @@ public final class ParentQuestOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 5:
+          case 4:
             return internalGetTimeVarMap();
           default:
             throw new RuntimeException(
@@ -1011,7 +1079,7 @@ public final class ParentQuestOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 5:
+          case 4:
             return internalGetMutableTimeVarMap();
           default:
             throw new RuntimeException(
@@ -1052,14 +1120,14 @@ public final class ParentQuestOuterClass {
           randomInfo_ = null;
           randomInfoBuilder_ = null;
         }
-        questVar_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
         if (inferencePageListBuilder_ == null) {
           inferencePageList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
           inferencePageListBuilder_.clear();
         }
+        questVar_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         if (childQuestListBuilder_ == null) {
           childQuestList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000004);
@@ -1067,17 +1135,21 @@ public final class ParentQuestOuterClass {
           childQuestListBuilder_.clear();
         }
         internalGetMutableTimeVarMap().clear();
-        acceptTime_ = 0;
+        iFPDEFNHOMF_ = 0;
 
-        isRandom_ = false;
+        acceptTime_ = 0;
 
         isFinished_ = false;
 
-        parentQuestId_ = 0;
+        ePKKGEPFEBF_ = false;
+
+        oHGOGIJNBGH_ = false;
+
+        isRandom_ = false;
 
         videoKey_ = 0L;
 
-        questVarSeq_ = 0;
+        parentQuestId_ = 0;
 
         parentQuestState_ = 0;
 
@@ -1113,20 +1185,20 @@ public final class ParentQuestOuterClass {
         } else {
           result.randomInfo_ = randomInfoBuilder_.build();
         }
-        if (((bitField0_ & 0x00000001) != 0)) {
-          questVar_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.questVar_ = questVar_;
         if (inferencePageListBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
+          if (((bitField0_ & 0x00000001) != 0)) {
             inferencePageList_ = java.util.Collections.unmodifiableList(inferencePageList_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
           result.inferencePageList_ = inferencePageList_;
         } else {
           result.inferencePageList_ = inferencePageListBuilder_.build();
         }
+        if (((bitField0_ & 0x00000002) != 0)) {
+          questVar_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.questVar_ = questVar_;
         if (childQuestListBuilder_ == null) {
           if (((bitField0_ & 0x00000004) != 0)) {
             childQuestList_ = java.util.Collections.unmodifiableList(childQuestList_);
@@ -1138,12 +1210,14 @@ public final class ParentQuestOuterClass {
         }
         result.timeVarMap_ = internalGetTimeVarMap();
         result.timeVarMap_.makeImmutable();
+        result.iFPDEFNHOMF_ = iFPDEFNHOMF_;
         result.acceptTime_ = acceptTime_;
-        result.isRandom_ = isRandom_;
         result.isFinished_ = isFinished_;
-        result.parentQuestId_ = parentQuestId_;
+        result.ePKKGEPFEBF_ = ePKKGEPFEBF_;
+        result.oHGOGIJNBGH_ = oHGOGIJNBGH_;
+        result.isRandom_ = isRandom_;
         result.videoKey_ = videoKey_;
-        result.questVarSeq_ = questVarSeq_;
+        result.parentQuestId_ = parentQuestId_;
         result.parentQuestState_ = parentQuestState_;
         onBuilt();
         return result;
@@ -1196,21 +1270,11 @@ public final class ParentQuestOuterClass {
         if (other.hasRandomInfo()) {
           mergeRandomInfo(other.getRandomInfo());
         }
-        if (!other.questVar_.isEmpty()) {
-          if (questVar_.isEmpty()) {
-            questVar_ = other.questVar_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureQuestVarIsMutable();
-            questVar_.addAll(other.questVar_);
-          }
-          onChanged();
-        }
         if (inferencePageListBuilder_ == null) {
           if (!other.inferencePageList_.isEmpty()) {
             if (inferencePageList_.isEmpty()) {
               inferencePageList_ = other.inferencePageList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
               ensureInferencePageListIsMutable();
               inferencePageList_.addAll(other.inferencePageList_);
@@ -1223,7 +1287,7 @@ public final class ParentQuestOuterClass {
               inferencePageListBuilder_.dispose();
               inferencePageListBuilder_ = null;
               inferencePageList_ = other.inferencePageList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000001);
               inferencePageListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getInferencePageListFieldBuilder() : null;
@@ -1231,6 +1295,16 @@ public final class ParentQuestOuterClass {
               inferencePageListBuilder_.addAllMessages(other.inferencePageList_);
             }
           }
+        }
+        if (!other.questVar_.isEmpty()) {
+          if (questVar_.isEmpty()) {
+            questVar_ = other.questVar_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureQuestVarIsMutable();
+            questVar_.addAll(other.questVar_);
+          }
+          onChanged();
         }
         if (childQuestListBuilder_ == null) {
           if (!other.childQuestList_.isEmpty()) {
@@ -1260,23 +1334,29 @@ public final class ParentQuestOuterClass {
         }
         internalGetMutableTimeVarMap().mergeFrom(
             other.internalGetTimeVarMap());
+        if (other.getIFPDEFNHOMF() != 0) {
+          setIFPDEFNHOMF(other.getIFPDEFNHOMF());
+        }
         if (other.getAcceptTime() != 0) {
           setAcceptTime(other.getAcceptTime());
-        }
-        if (other.getIsRandom() != false) {
-          setIsRandom(other.getIsRandom());
         }
         if (other.getIsFinished() != false) {
           setIsFinished(other.getIsFinished());
         }
-        if (other.getParentQuestId() != 0) {
-          setParentQuestId(other.getParentQuestId());
+        if (other.getEPKKGEPFEBF() != false) {
+          setEPKKGEPFEBF(other.getEPKKGEPFEBF());
+        }
+        if (other.getOHGOGIJNBGH() != false) {
+          setOHGOGIJNBGH(other.getOHGOGIJNBGH());
+        }
+        if (other.getIsRandom() != false) {
+          setIsRandom(other.getIsRandom());
         }
         if (other.getVideoKey() != 0L) {
           setVideoKey(other.getVideoKey());
         }
-        if (other.getQuestVarSeq() != 0) {
-          setQuestVarSeq(other.getQuestVarSeq());
+        if (other.getParentQuestId() != 0) {
+          setParentQuestId(other.getParentQuestId());
         }
         if (other.getParentQuestState() != 0) {
           setParentQuestState(other.getParentQuestState());
@@ -1315,14 +1395,14 @@ public final class ParentQuestOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo, emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo.Builder, emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfoOrBuilder> randomInfoBuilder_;
       /**
-       * <code>.ParentQuestRandomInfo random_info = 8;</code>
+       * <code>.ParentQuestRandomInfo random_info = 15;</code>
        * @return Whether the randomInfo field is set.
        */
       public boolean hasRandomInfo() {
         return randomInfoBuilder_ != null || randomInfo_ != null;
       }
       /**
-       * <code>.ParentQuestRandomInfo random_info = 8;</code>
+       * <code>.ParentQuestRandomInfo random_info = 15;</code>
        * @return The randomInfo.
        */
       public emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo getRandomInfo() {
@@ -1333,7 +1413,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>.ParentQuestRandomInfo random_info = 8;</code>
+       * <code>.ParentQuestRandomInfo random_info = 15;</code>
        */
       public Builder setRandomInfo(emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo value) {
         if (randomInfoBuilder_ == null) {
@@ -1349,7 +1429,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>.ParentQuestRandomInfo random_info = 8;</code>
+       * <code>.ParentQuestRandomInfo random_info = 15;</code>
        */
       public Builder setRandomInfo(
           emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo.Builder builderForValue) {
@@ -1363,7 +1443,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>.ParentQuestRandomInfo random_info = 8;</code>
+       * <code>.ParentQuestRandomInfo random_info = 15;</code>
        */
       public Builder mergeRandomInfo(emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo value) {
         if (randomInfoBuilder_ == null) {
@@ -1381,7 +1461,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>.ParentQuestRandomInfo random_info = 8;</code>
+       * <code>.ParentQuestRandomInfo random_info = 15;</code>
        */
       public Builder clearRandomInfo() {
         if (randomInfoBuilder_ == null) {
@@ -1395,7 +1475,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>.ParentQuestRandomInfo random_info = 8;</code>
+       * <code>.ParentQuestRandomInfo random_info = 15;</code>
        */
       public emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo.Builder getRandomInfoBuilder() {
         
@@ -1403,7 +1483,7 @@ public final class ParentQuestOuterClass {
         return getRandomInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ParentQuestRandomInfo random_info = 8;</code>
+       * <code>.ParentQuestRandomInfo random_info = 15;</code>
        */
       public emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfoOrBuilder getRandomInfoOrBuilder() {
         if (randomInfoBuilder_ != null) {
@@ -1414,7 +1494,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>.ParentQuestRandomInfo random_info = 8;</code>
+       * <code>.ParentQuestRandomInfo random_info = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo, emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfo.Builder, emu.grasscutter.net.proto.ParentQuestRandomInfoOuterClass.ParentQuestRandomInfoOrBuilder> 
@@ -1430,91 +1510,12 @@ public final class ParentQuestOuterClass {
         return randomInfoBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList questVar_ = emptyIntList();
-      private void ensureQuestVarIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          questVar_ = mutableCopy(questVar_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated int32 quest_var = 3;</code>
-       * @return A list containing the questVar.
-       */
-      public java.util.List<java.lang.Integer>
-          getQuestVarList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(questVar_) : questVar_;
-      }
-      /**
-       * <code>repeated int32 quest_var = 3;</code>
-       * @return The count of questVar.
-       */
-      public int getQuestVarCount() {
-        return questVar_.size();
-      }
-      /**
-       * <code>repeated int32 quest_var = 3;</code>
-       * @param index The index of the element to return.
-       * @return The questVar at the given index.
-       */
-      public int getQuestVar(int index) {
-        return questVar_.getInt(index);
-      }
-      /**
-       * <code>repeated int32 quest_var = 3;</code>
-       * @param index The index to set the value at.
-       * @param value The questVar to set.
-       * @return This builder for chaining.
-       */
-      public Builder setQuestVar(
-          int index, int value) {
-        ensureQuestVarIsMutable();
-        questVar_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated int32 quest_var = 3;</code>
-       * @param value The questVar to add.
-       * @return This builder for chaining.
-       */
-      public Builder addQuestVar(int value) {
-        ensureQuestVarIsMutable();
-        questVar_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated int32 quest_var = 3;</code>
-       * @param values The questVar to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllQuestVar(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureQuestVarIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, questVar_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated int32 quest_var = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearQuestVar() {
-        questVar_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
       private java.util.List<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo> inferencePageList_ =
         java.util.Collections.emptyList();
       private void ensureInferencePageListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
+        if (!((bitField0_ & 0x00000001) != 0)) {
           inferencePageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo>(inferencePageList_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000001;
          }
       }
 
@@ -1522,7 +1523,7 @@ public final class ParentQuestOuterClass {
           emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo, emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.Builder, emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder> inferencePageListBuilder_;
 
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo> getInferencePageListList() {
         if (inferencePageListBuilder_ == null) {
@@ -1532,7 +1533,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public int getInferencePageListCount() {
         if (inferencePageListBuilder_ == null) {
@@ -1542,7 +1543,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo getInferencePageList(int index) {
         if (inferencePageListBuilder_ == null) {
@@ -1552,7 +1553,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public Builder setInferencePageList(
           int index, emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo value) {
@@ -1569,7 +1570,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public Builder setInferencePageList(
           int index, emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.Builder builderForValue) {
@@ -1583,7 +1584,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public Builder addInferencePageList(emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo value) {
         if (inferencePageListBuilder_ == null) {
@@ -1599,7 +1600,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public Builder addInferencePageList(
           int index, emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo value) {
@@ -1616,7 +1617,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public Builder addInferencePageList(
           emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.Builder builderForValue) {
@@ -1630,7 +1631,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public Builder addInferencePageList(
           int index, emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.Builder builderForValue) {
@@ -1644,7 +1645,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public Builder addAllInferencePageList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo> values) {
@@ -1659,12 +1660,12 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public Builder clearInferencePageList() {
         if (inferencePageListBuilder_ == null) {
           inferencePageList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
           inferencePageListBuilder_.clear();
@@ -1672,7 +1673,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public Builder removeInferencePageList(int index) {
         if (inferencePageListBuilder_ == null) {
@@ -1685,14 +1686,14 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.Builder getInferencePageListBuilder(
           int index) {
         return getInferencePageListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder getInferencePageListOrBuilder(
           int index) {
@@ -1702,7 +1703,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder> 
            getInferencePageListOrBuilderList() {
@@ -1713,14 +1714,14 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.Builder addInferencePageListBuilder() {
         return getInferencePageListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.Builder addInferencePageListBuilder(
           int index) {
@@ -1728,7 +1729,7 @@ public final class ParentQuestOuterClass {
             index, emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .InferencePageInfo inference_page_list = 6;</code>
+       * <code>repeated .InferencePageInfo inference_page_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.Builder> 
            getInferencePageListBuilderList() {
@@ -1741,12 +1742,91 @@ public final class ParentQuestOuterClass {
           inferencePageListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo, emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfo.Builder, emu.grasscutter.net.proto.InferencePageInfoOuterClass.InferencePageInfoOrBuilder>(
                   inferencePageList_,
-                  ((bitField0_ & 0x00000002) != 0),
+                  ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
           inferencePageList_ = null;
         }
         return inferencePageListBuilder_;
+      }
+
+      private com.google.protobuf.Internal.IntList questVar_ = emptyIntList();
+      private void ensureQuestVarIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          questVar_ = mutableCopy(questVar_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <code>repeated int32 quest_var = 13;</code>
+       * @return A list containing the questVar.
+       */
+      public java.util.List<java.lang.Integer>
+          getQuestVarList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(questVar_) : questVar_;
+      }
+      /**
+       * <code>repeated int32 quest_var = 13;</code>
+       * @return The count of questVar.
+       */
+      public int getQuestVarCount() {
+        return questVar_.size();
+      }
+      /**
+       * <code>repeated int32 quest_var = 13;</code>
+       * @param index The index of the element to return.
+       * @return The questVar at the given index.
+       */
+      public int getQuestVar(int index) {
+        return questVar_.getInt(index);
+      }
+      /**
+       * <code>repeated int32 quest_var = 13;</code>
+       * @param index The index to set the value at.
+       * @param value The questVar to set.
+       * @return This builder for chaining.
+       */
+      public Builder setQuestVar(
+          int index, int value) {
+        ensureQuestVarIsMutable();
+        questVar_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated int32 quest_var = 13;</code>
+       * @param value The questVar to add.
+       * @return This builder for chaining.
+       */
+      public Builder addQuestVar(int value) {
+        ensureQuestVarIsMutable();
+        questVar_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated int32 quest_var = 13;</code>
+       * @param values The questVar to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllQuestVar(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureQuestVarIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, questVar_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated int32 quest_var = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearQuestVar() {
+        questVar_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
+        return this;
       }
 
       private java.util.List<emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest> childQuestList_ =
@@ -1762,7 +1842,7 @@ public final class ParentQuestOuterClass {
           emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest, emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.Builder, emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuestOrBuilder> childQuestListBuilder_;
 
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest> getChildQuestListList() {
         if (childQuestListBuilder_ == null) {
@@ -1772,7 +1852,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public int getChildQuestListCount() {
         if (childQuestListBuilder_ == null) {
@@ -1782,7 +1862,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest getChildQuestList(int index) {
         if (childQuestListBuilder_ == null) {
@@ -1792,7 +1872,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public Builder setChildQuestList(
           int index, emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest value) {
@@ -1809,7 +1889,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public Builder setChildQuestList(
           int index, emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.Builder builderForValue) {
@@ -1823,7 +1903,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public Builder addChildQuestList(emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest value) {
         if (childQuestListBuilder_ == null) {
@@ -1839,7 +1919,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public Builder addChildQuestList(
           int index, emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest value) {
@@ -1856,7 +1936,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public Builder addChildQuestList(
           emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.Builder builderForValue) {
@@ -1870,7 +1950,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public Builder addChildQuestList(
           int index, emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.Builder builderForValue) {
@@ -1884,7 +1964,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public Builder addAllChildQuestList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest> values) {
@@ -1899,7 +1979,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public Builder clearChildQuestList() {
         if (childQuestListBuilder_ == null) {
@@ -1912,7 +1992,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public Builder removeChildQuestList(int index) {
         if (childQuestListBuilder_ == null) {
@@ -1925,14 +2005,14 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.Builder getChildQuestListBuilder(
           int index) {
         return getChildQuestListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuestOrBuilder getChildQuestListOrBuilder(
           int index) {
@@ -1942,7 +2022,7 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuestOrBuilder> 
            getChildQuestListOrBuilderList() {
@@ -1953,14 +2033,14 @@ public final class ParentQuestOuterClass {
         }
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.Builder addChildQuestListBuilder() {
         return getChildQuestListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.getDefaultInstance());
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.Builder addChildQuestListBuilder(
           int index) {
@@ -1968,7 +2048,7 @@ public final class ParentQuestOuterClass {
             index, emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.getDefaultInstance());
       }
       /**
-       * <code>repeated .ChildQuest child_quest_list = 12;</code>
+       * <code>repeated .ChildQuest child_quest_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ChildQuestOuterClass.ChildQuest.Builder> 
            getChildQuestListBuilderList() {
@@ -2016,7 +2096,7 @@ public final class ParentQuestOuterClass {
         return internalGetTimeVarMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+       * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
        */
 
       @java.lang.Override
@@ -2034,7 +2114,7 @@ public final class ParentQuestOuterClass {
         return getTimeVarMapMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+       * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
        */
       @java.lang.Override
 
@@ -2042,7 +2122,7 @@ public final class ParentQuestOuterClass {
         return internalGetTimeVarMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+       * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
        */
       @java.lang.Override
 
@@ -2055,7 +2135,7 @@ public final class ParentQuestOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+       * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
        */
       @java.lang.Override
 
@@ -2076,7 +2156,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+       * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
        */
 
       public Builder removeTimeVarMap(
@@ -2095,7 +2175,7 @@ public final class ParentQuestOuterClass {
         return internalGetMutableTimeVarMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+       * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
        */
       public Builder putTimeVarMap(
           int key,
@@ -2107,7 +2187,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; time_var_map = 5;</code>
+       * <code>map&lt;uint32, uint32&gt; time_var_map = 4;</code>
        */
 
       public Builder putAllTimeVarMap(
@@ -2117,9 +2197,40 @@ public final class ParentQuestOuterClass {
         return this;
       }
 
+      private int iFPDEFNHOMF_ ;
+      /**
+       * <code>uint32 IFPDEFNHOMF = 10;</code>
+       * @return The iFPDEFNHOMF.
+       */
+      @java.lang.Override
+      public int getIFPDEFNHOMF() {
+        return iFPDEFNHOMF_;
+      }
+      /**
+       * <code>uint32 IFPDEFNHOMF = 10;</code>
+       * @param value The iFPDEFNHOMF to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIFPDEFNHOMF(int value) {
+        
+        iFPDEFNHOMF_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 IFPDEFNHOMF = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIFPDEFNHOMF() {
+        
+        iFPDEFNHOMF_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int acceptTime_ ;
       /**
-       * <code>uint32 accept_time = 2;</code>
+       * <code>uint32 accept_time = 5;</code>
        * @return The acceptTime.
        */
       @java.lang.Override
@@ -2127,7 +2238,7 @@ public final class ParentQuestOuterClass {
         return acceptTime_;
       }
       /**
-       * <code>uint32 accept_time = 2;</code>
+       * <code>uint32 accept_time = 5;</code>
        * @param value The acceptTime to set.
        * @return This builder for chaining.
        */
@@ -2138,7 +2249,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>uint32 accept_time = 2;</code>
+       * <code>uint32 accept_time = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearAcceptTime() {
@@ -2148,40 +2259,9 @@ public final class ParentQuestOuterClass {
         return this;
       }
 
-      private boolean isRandom_ ;
-      /**
-       * <code>bool is_random = 7;</code>
-       * @return The isRandom.
-       */
-      @java.lang.Override
-      public boolean getIsRandom() {
-        return isRandom_;
-      }
-      /**
-       * <code>bool is_random = 7;</code>
-       * @param value The isRandom to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsRandom(boolean value) {
-        
-        isRandom_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_random = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsRandom() {
-        
-        isRandom_ = false;
-        onChanged();
-        return this;
-      }
-
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 14;</code>
+       * <code>bool is_finished = 2;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -2189,7 +2269,7 @@ public final class ParentQuestOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 14;</code>
+       * <code>bool is_finished = 2;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -2200,7 +2280,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 14;</code>
+       * <code>bool is_finished = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -2210,40 +2290,102 @@ public final class ParentQuestOuterClass {
         return this;
       }
 
-      private int parentQuestId_ ;
+      private boolean ePKKGEPFEBF_ ;
       /**
-       * <code>uint32 parent_quest_id = 4;</code>
-       * @return The parentQuestId.
+       * <code>bool EPKKGEPFEBF = 1;</code>
+       * @return The ePKKGEPFEBF.
        */
       @java.lang.Override
-      public int getParentQuestId() {
-        return parentQuestId_;
+      public boolean getEPKKGEPFEBF() {
+        return ePKKGEPFEBF_;
       }
       /**
-       * <code>uint32 parent_quest_id = 4;</code>
-       * @param value The parentQuestId to set.
+       * <code>bool EPKKGEPFEBF = 1;</code>
+       * @param value The ePKKGEPFEBF to set.
        * @return This builder for chaining.
        */
-      public Builder setParentQuestId(int value) {
+      public Builder setEPKKGEPFEBF(boolean value) {
         
-        parentQuestId_ = value;
+        ePKKGEPFEBF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 parent_quest_id = 4;</code>
+       * <code>bool EPKKGEPFEBF = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearParentQuestId() {
+      public Builder clearEPKKGEPFEBF() {
         
-        parentQuestId_ = 0;
+        ePKKGEPFEBF_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean oHGOGIJNBGH_ ;
+      /**
+       * <code>bool OHGOGIJNBGH = 9;</code>
+       * @return The oHGOGIJNBGH.
+       */
+      @java.lang.Override
+      public boolean getOHGOGIJNBGH() {
+        return oHGOGIJNBGH_;
+      }
+      /**
+       * <code>bool OHGOGIJNBGH = 9;</code>
+       * @param value The oHGOGIJNBGH to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOHGOGIJNBGH(boolean value) {
+        
+        oHGOGIJNBGH_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool OHGOGIJNBGH = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOHGOGIJNBGH() {
+        
+        oHGOGIJNBGH_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean isRandom_ ;
+      /**
+       * <code>bool is_random = 14;</code>
+       * @return The isRandom.
+       */
+      @java.lang.Override
+      public boolean getIsRandom() {
+        return isRandom_;
+      }
+      /**
+       * <code>bool is_random = 14;</code>
+       * @param value The isRandom to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsRandom(boolean value) {
+        
+        isRandom_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_random = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsRandom() {
+        
+        isRandom_ = false;
         onChanged();
         return this;
       }
 
       private long videoKey_ ;
       /**
-       * <code>uint64 video_key = 15;</code>
+       * <code>uint64 video_key = 6;</code>
        * @return The videoKey.
        */
       @java.lang.Override
@@ -2251,7 +2393,7 @@ public final class ParentQuestOuterClass {
         return videoKey_;
       }
       /**
-       * <code>uint64 video_key = 15;</code>
+       * <code>uint64 video_key = 6;</code>
        * @param value The videoKey to set.
        * @return This builder for chaining.
        */
@@ -2262,7 +2404,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>uint64 video_key = 15;</code>
+       * <code>uint64 video_key = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearVideoKey() {
@@ -2272,40 +2414,40 @@ public final class ParentQuestOuterClass {
         return this;
       }
 
-      private int questVarSeq_ ;
+      private int parentQuestId_ ;
       /**
-       * <code>uint32 quest_var_seq = 13;</code>
-       * @return The questVarSeq.
+       * <code>uint32 parent_quest_id = 8;</code>
+       * @return The parentQuestId.
        */
       @java.lang.Override
-      public int getQuestVarSeq() {
-        return questVarSeq_;
+      public int getParentQuestId() {
+        return parentQuestId_;
       }
       /**
-       * <code>uint32 quest_var_seq = 13;</code>
-       * @param value The questVarSeq to set.
+       * <code>uint32 parent_quest_id = 8;</code>
+       * @param value The parentQuestId to set.
        * @return This builder for chaining.
        */
-      public Builder setQuestVarSeq(int value) {
+      public Builder setParentQuestId(int value) {
         
-        questVarSeq_ = value;
+        parentQuestId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 quest_var_seq = 13;</code>
+       * <code>uint32 parent_quest_id = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearQuestVarSeq() {
+      public Builder clearParentQuestId() {
         
-        questVarSeq_ = 0;
+        parentQuestId_ = 0;
         onChanged();
         return this;
       }
 
       private int parentQuestState_ ;
       /**
-       * <code>uint32 parent_quest_state = 11;</code>
+       * <code>uint32 parent_quest_state = 12;</code>
        * @return The parentQuestState.
        */
       @java.lang.Override
@@ -2313,7 +2455,7 @@ public final class ParentQuestOuterClass {
         return parentQuestState_;
       }
       /**
-       * <code>uint32 parent_quest_state = 11;</code>
+       * <code>uint32 parent_quest_state = 12;</code>
        * @param value The parentQuestState to set.
        * @return This builder for chaining.
        */
@@ -2324,7 +2466,7 @@ public final class ParentQuestOuterClass {
         return this;
       }
       /**
-       * <code>uint32 parent_quest_state = 11;</code>
+       * <code>uint32 parent_quest_state = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearParentQuestState() {
@@ -2407,16 +2549,17 @@ public final class ParentQuestOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021ParentQuest.proto\032\033ParentQuestRandomIn" +
       "fo.proto\032\027InferencePageInfo.proto\032\020Child" +
-      "Quest.proto\"\250\003\n\013ParentQuest\022+\n\013random_in" +
-      "fo\030\010 \001(\0132\026.ParentQuestRandomInfo\022\021\n\tques" +
-      "t_var\030\003 \003(\005\022/\n\023inference_page_list\030\006 \003(\013" +
-      "2\022.InferencePageInfo\022%\n\020child_quest_list" +
-      "\030\014 \003(\0132\013.ChildQuest\0222\n\014time_var_map\030\005 \003(" +
-      "\0132\034.ParentQuest.TimeVarMapEntry\022\023\n\013accep" +
-      "t_time\030\002 \001(\r\022\021\n\tis_random\030\007 \001(\010\022\023\n\013is_fi" +
-      "nished\030\016 \001(\010\022\027\n\017parent_quest_id\030\004 \001(\r\022\021\n" +
-      "\tvideo_key\030\017 \001(\004\022\025\n\rquest_var_seq\030\r \001(\r\022" +
-      "\032\n\022parent_quest_state\030\013 \001(\r\0321\n\017TimeVarMa" +
+      "Quest.proto\"\320\003\n\013ParentQuest\022+\n\013random_in" +
+      "fo\030\017 \001(\0132\026.ParentQuestRandomInfo\022/\n\023infe" +
+      "rence_page_list\030\013 \003(\0132\022.InferencePageInf" +
+      "o\022\021\n\tquest_var\030\r \003(\005\022%\n\020child_quest_list" +
+      "\030\003 \003(\0132\013.ChildQuest\0222\n\014time_var_map\030\004 \003(" +
+      "\0132\034.ParentQuest.TimeVarMapEntry\022\023\n\013IFPDE" +
+      "FNHOMF\030\n \001(\r\022\023\n\013accept_time\030\005 \001(\r\022\023\n\013is_" +
+      "finished\030\002 \001(\010\022\023\n\013EPKKGEPFEBF\030\001 \001(\010\022\023\n\013O" +
+      "HGOGIJNBGH\030\t \001(\010\022\021\n\tis_random\030\016 \001(\010\022\021\n\tv" +
+      "ideo_key\030\006 \001(\004\022\027\n\017parent_quest_id\030\010 \001(\r\022" +
+      "\032\n\022parent_quest_state\030\014 \001(\r\0321\n\017TimeVarMa" +
       "pEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\033" +
       "\n\031emu.grasscutter.net.protob\006proto3"
     };
@@ -2432,7 +2575,7 @@ public final class ParentQuestOuterClass {
     internal_static_ParentQuest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ParentQuest_descriptor,
-        new java.lang.String[] { "RandomInfo", "QuestVar", "InferencePageList", "ChildQuestList", "TimeVarMap", "AcceptTime", "IsRandom", "IsFinished", "ParentQuestId", "VideoKey", "QuestVarSeq", "ParentQuestState", });
+        new java.lang.String[] { "RandomInfo", "InferencePageList", "QuestVar", "ChildQuestList", "TimeVarMap", "IFPDEFNHOMF", "AcceptTime", "IsFinished", "EPKKGEPFEBF", "OHGOGIJNBGH", "IsRandom", "VideoKey", "ParentQuestId", "ParentQuestState", });
     internal_static_ParentQuest_TimeVarMapEntry_descriptor =
       internal_static_ParentQuest_descriptor.getNestedTypes().get(0);
     internal_static_ParentQuest_TimeVarMapEntry_fieldAccessorTable = new
