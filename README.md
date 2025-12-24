@@ -1,4 +1,8 @@
-# LunaGC-6.1.0 VERY WIP
+# LunaGC-6.1.0 WIP
+
+# STATUS: Since 6.2 has started, I no longer have 6.1 client meaning I cannot test whatever I change and cannot fix stuff for example fishing which is just extremely and unnecesarily hard to fix without a packet log of said version (6.1). If there's anyone that is willing to put up with my testing requests, I will attempt to fix said issues, so let me know either through an issue/discord if you have my username.
+
+# ABOUT 6.2 (and beyond): I will not continue to update this ps to upcoming versions due to lack of motivation, time and other reasons, unless heavily and I mean heavily requested, I will attempt to make a minimal 6.2 ps but I don't think anyone would want to use it.
 
 ## Updated version of Grasscutters, with some new features implemented.
 Old Discord for LunaGC https://discord.gg/7D5gkyJR5Y (don't ask for support there, instead create an issue in this repository)
