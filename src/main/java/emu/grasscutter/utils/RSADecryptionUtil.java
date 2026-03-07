@@ -31,8 +31,8 @@ public class RSADecryptionUtil {
             KeyFactory keyFactory = KeyFactory.getInstance("RSA");
             privateKey = keyFactory.generatePrivate(spec);
             
-            Grasscutter.getLogger().info("Loaded RSA priv key");
-            Grasscutter.getLogger().info("Format: " + privateKey.getFormat());
+            Grasscutter.getLogger().debug("Loaded RSA priv key");
+            Grasscutter.getLogger().debug("Format: " + privateKey.getFormat());
             
         } catch (Exception e) {
             Grasscutter.getLogger().error("Unable to load RSA priv key", e);
