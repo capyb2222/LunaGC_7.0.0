@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class MaPassportAuthenticator {
         public static LoginByPasswordResponseJson appLoginByPassword(LoginByPasswordRequestJson request) {
-        Grasscutter.getLogger().info("ma-passport login req detected");
+        Grasscutter.getLogger().debug("ma-passport login req detected");
         
         if (request == null) {
             Grasscutter.getLogger().error("Request is null");
@@ -49,17 +49,17 @@ public class MaPassportAuthenticator {
             }
             
             if (!account.verifyPassword(password)) {
-                Grasscutter.getLogger().info("Password verification failed");
+                Grasscutter.getLogger().info("Password verification failed for: " + username);
                 return createLoginErrorResponse(-101, "Account or password error");
             }
             
             
-            Grasscutter.getLogger().info("Generating session key");
+            Grasscutter.getLogger().debug("Generating session key");
             String sessionKey = account.getSessionKey();
             if (sessionKey == null || !sessionKey.startsWith("v2_")) {
                 sessionKey = account.generateV2SessionKey();
             } else {
-                Grasscutter.getLogger().info("Using existing key");
+                Grasscutter.getLogger().debug("Using existing key");
             }
             
             Grasscutter.getLogger().info("User " + username + " has successfully logged in");
@@ -91,7 +91,7 @@ public class MaPassportAuthenticator {
                 return createTokenErrorResponse(-101, "For account safety, please log in again");
             }
             
-            Grasscutter.getLogger().info("Ma-Passport token verification successful for: " + account.getUsername());
+            Grasscutter.getLogger().debug("Ma-Passport token verification successful for: " + account.getUsername());
             return createTokenSuccessResponse(account);
             
         } catch (Exception e) {
