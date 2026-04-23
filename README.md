@@ -1,7 +1,7 @@
 # LunaGC-6.5.0 WIP
 
 ## Note from the mantainer
-Might update to latest occasionally, depends on how I'm feeling and my situation. Of course, I post the protocol buffer definitions on [GitLab](https://gitlab.com/kitkat-multiverse/genshin-protocol) and translations.
+Might update to latest occasionally, depends on how I'm feeling and my situation. Of course, I post the protocol buffer definitions on [GitLab](https://gitlab.com/kitkat-multiverse/genshin-protocol) and translations. Contact me at my [Discord](https://discord.gg/5Rfyjrt5aB)
 
 ## Updated version of Grasscutters, with some new features implemented.
 Old Discord for LunaGC https://discord.gg/7D5gkyJR5Y (don't ask for support there, instead create an issue in this repository)
@@ -21,25 +21,27 @@ Contribute if you want/can...
 - Get [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 - Get [NodeJS](https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi) (For handbook generation)
-- Get game version REL6.1.0 (pray you still have it)
+- Get game version REL6.5.0
 - Make sure to install java and set the environment variables.
 - Build the server (refer to "Compile the actual server" in this guide.)
-- Download the [Resources](https://github.com/pmagixc/LunaGC-res/tree/6.1.0), make a new folder called `resources` in the downloaded LunaGC folder and then extract the resources in that new folder.
+- Download the [Resources](https://github.com/kitkat033/LunaGC-Resources), make a new folder called `resources` in the downloaded LunaGC folder and then extract the resources in that new folder.
 - Set useEncryption, Questing and useInRouting to false (it should be false by default, if not then change it)
 - [Patch the game](#patching-the-game)
 - Start the server and the game, make sure to also create an account in the LunaGC console!
 - Have fun (or don't)
 
 ### Patching the game
-- Put [Astrolabe.dll](https://github.com/pmagixc/LunaGC/raw/6.1.0/patch/Astrolabe.dll) in the game directory
-- To "disable" the patch, just rename Astrolabe.dll to something else so it's not a DLL or don't name it Astrolabe (for example Astrolabe.deleleu / astrollable.dll)
+- Install [**Rust**](https://rust-lang.org/learn/get-started/) and **Cargo** (comes with rustup)
+- Go to the `patch/` folder (make sure you have cloned this repository with the `--recurse-submodules` flag)
+- Run `cargo build --release` to build the DLL at `target/release`
+- Inject the DLL into the game. You can do this by renaming the patch to `Astrolabe.dll` and putting it in the game folder at `GenshinImpact_Data/Plugins`. Make sure you back up the old `Astrolabe.dll` in the plugins folder.
 
 ### Getting started
 
 - Clone the repository (install [Git](https://git-scm.com) first )
 
   ```
-  git clone https://github.com/pmagixc/LunaGC.git -b 6.1.0
+  git clone --recurse-submodules https://github.com/kitkat033/LunaGC.git
   ```
 
 - Now you can continue with the steps below.
@@ -86,4 +88,4 @@ Contribute if you want/can...
 
 proto Repository [hk4e-protos](https://gitlab.com/kitkat-multiverse/genshin-protocol)
 
-patch Repository [hk4e-patch-universal](https://github.com/oureveryday/hk4e-patch-universal) (and credit to Hartie95 for fixing it)
+patch Repository [hk4e-patch-universal](https://github.com/kitkat033/hk4e-patch-universal)
