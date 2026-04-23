@@ -19,12 +19,20 @@ public final class BreakoutElementReactionCounterOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 count = 2;</code>
      * @return The count.
      */
     int getCount();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 element_reaction = 1;</code>
      * @return The elementReaction.
      */
@@ -120,6 +128,10 @@ public final class BreakoutElementReactionCounterOuterClass {
     public static final int COUNT_FIELD_NUMBER = 2;
     private int count_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 count = 2;</code>
      * @return The count.
      */
@@ -131,6 +143,10 @@ public final class BreakoutElementReactionCounterOuterClass {
     public static final int ELEMENT_REACTION_FIELD_NUMBER = 1;
     private int elementReaction_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 element_reaction = 1;</code>
      * @return The elementReaction.
      */
@@ -460,6 +476,10 @@ public final class BreakoutElementReactionCounterOuterClass {
 
       private int count_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 count = 2;</code>
        * @return The count.
        */
@@ -468,6 +488,10 @@ public final class BreakoutElementReactionCounterOuterClass {
         return count_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 count = 2;</code>
        * @param value The count to set.
        * @return This builder for chaining.
@@ -479,6 +503,10 @@ public final class BreakoutElementReactionCounterOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 count = 2;</code>
        * @return This builder for chaining.
        */
@@ -491,6 +519,10 @@ public final class BreakoutElementReactionCounterOuterClass {
 
       private int elementReaction_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 element_reaction = 1;</code>
        * @return The elementReaction.
        */
@@ -499,6 +531,10 @@ public final class BreakoutElementReactionCounterOuterClass {
         return elementReaction_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 element_reaction = 1;</code>
        * @param value The elementReaction to set.
        * @return This builder for chaining.
@@ -510,6 +546,10 @@ public final class BreakoutElementReactionCounterOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 element_reaction = 1;</code>
        * @return This builder for chaining.
        */

@@ -19,16 +19,28 @@ public final class BossChestInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
      * @return A list containing the qualifyUidList.
      */
     java.util.List<java.lang.Integer> getQualifyUidListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
      * @return The count of qualifyUidList.
      */
     int getQualifyUidListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
      * @param index The index of the element to return.
      * @return The qualifyUidList at the given index.
@@ -36,10 +48,18 @@ public final class BossChestInfoOuterClass {
     int getQualifyUidList(int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
     int getUidDiscountMapCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
     boolean containsUidDiscountMap(
@@ -51,11 +71,19 @@ public final class BossChestInfoOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo>
     getUidDiscountMap();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo>
     getUidDiscountMapMap();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
 
@@ -63,6 +91,10 @@ public final class BossChestInfoOuterClass {
         int key,
         emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo defaultValue);
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
 
@@ -70,16 +102,28 @@ public final class BossChestInfoOuterClass {
         int key);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 remain_uid_list = 3;</code>
      * @return A list containing the remainUidList.
      */
     java.util.List<java.lang.Integer> getRemainUidListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 remain_uid_list = 3;</code>
      * @return The count of remainUidList.
      */
     int getRemainUidListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 remain_uid_list = 3;</code>
      * @param index The index of the element to return.
      * @return The remainUidList at the given index.
@@ -87,12 +131,20 @@ public final class BossChestInfoOuterClass {
     int getRemainUidList(int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 monster_config_id = 1;</code>
      * @return The monsterConfigId.
      */
     int getMonsterConfigId();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 resin = 2;</code>
      * @return The resin.
      */
@@ -264,6 +316,10 @@ public final class BossChestInfoOuterClass {
     public static final int QUALIFY_UID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList qualifyUidList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
      * @return A list containing the qualifyUidList.
      */
@@ -273,6 +329,10 @@ public final class BossChestInfoOuterClass {
       return qualifyUidList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
      * @return The count of qualifyUidList.
      */
@@ -280,6 +340,10 @@ public final class BossChestInfoOuterClass {
       return qualifyUidList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
      * @param index The index of the element to return.
      * @return The qualifyUidList at the given index.
@@ -316,6 +380,10 @@ public final class BossChestInfoOuterClass {
       return internalGetUidDiscountMap().getMap().size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
 
@@ -334,6 +402,10 @@ public final class BossChestInfoOuterClass {
       return getUidDiscountMapMap();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
     @java.lang.Override
@@ -342,6 +414,10 @@ public final class BossChestInfoOuterClass {
       return internalGetUidDiscountMap().getMap();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
     @java.lang.Override
@@ -355,6 +431,10 @@ public final class BossChestInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
      */
     @java.lang.Override
@@ -373,6 +453,10 @@ public final class BossChestInfoOuterClass {
     public static final int REMAIN_UID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList remainUidList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 remain_uid_list = 3;</code>
      * @return A list containing the remainUidList.
      */
@@ -382,6 +466,10 @@ public final class BossChestInfoOuterClass {
       return remainUidList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 remain_uid_list = 3;</code>
      * @return The count of remainUidList.
      */
@@ -389,6 +477,10 @@ public final class BossChestInfoOuterClass {
       return remainUidList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 remain_uid_list = 3;</code>
      * @param index The index of the element to return.
      * @return The remainUidList at the given index.
@@ -401,6 +493,10 @@ public final class BossChestInfoOuterClass {
     public static final int MONSTER_CONFIG_ID_FIELD_NUMBER = 1;
     private int monsterConfigId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 monster_config_id = 1;</code>
      * @return The monsterConfigId.
      */
@@ -412,6 +508,10 @@ public final class BossChestInfoOuterClass {
     public static final int RESIN_FIELD_NUMBER = 2;
     private int resin_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 resin = 2;</code>
      * @return The resin.
      */
@@ -887,6 +987,10 @@ public final class BossChestInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
        * @return A list containing the qualifyUidList.
        */
@@ -896,6 +1000,10 @@ public final class BossChestInfoOuterClass {
                  java.util.Collections.unmodifiableList(qualifyUidList_) : qualifyUidList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
        * @return The count of qualifyUidList.
        */
@@ -903,6 +1011,10 @@ public final class BossChestInfoOuterClass {
         return qualifyUidList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
        * @param index The index of the element to return.
        * @return The qualifyUidList at the given index.
@@ -911,6 +1023,10 @@ public final class BossChestInfoOuterClass {
         return qualifyUidList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
        * @param index The index to set the value at.
        * @param value The qualifyUidList to set.
@@ -924,6 +1040,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
        * @param value The qualifyUidList to add.
        * @return This builder for chaining.
@@ -935,6 +1055,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
        * @param values The qualifyUidList to add.
        * @return This builder for chaining.
@@ -948,6 +1072,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
        * @return This builder for chaining.
        */
@@ -985,6 +1113,10 @@ public final class BossChestInfoOuterClass {
         return internalGetUidDiscountMap().getMap().size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
        */
 
@@ -1003,6 +1135,10 @@ public final class BossChestInfoOuterClass {
         return getUidDiscountMapMap();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
        */
       @java.lang.Override
@@ -1011,6 +1147,10 @@ public final class BossChestInfoOuterClass {
         return internalGetUidDiscountMap().getMap();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
        */
       @java.lang.Override
@@ -1024,6 +1164,10 @@ public final class BossChestInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
        */
       @java.lang.Override
@@ -1045,6 +1189,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
        */
 
@@ -1064,6 +1212,10 @@ public final class BossChestInfoOuterClass {
         return internalGetMutableUidDiscountMap().getMutableMap();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
        */
       public Builder putUidDiscountMap(
@@ -1076,6 +1228,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .WeeklyBossResinDiscountInfo&gt; uid_discount_map = 5;</code>
        */
 
@@ -1094,6 +1250,10 @@ public final class BossChestInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 remain_uid_list = 3;</code>
        * @return A list containing the remainUidList.
        */
@@ -1103,6 +1263,10 @@ public final class BossChestInfoOuterClass {
                  java.util.Collections.unmodifiableList(remainUidList_) : remainUidList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 remain_uid_list = 3;</code>
        * @return The count of remainUidList.
        */
@@ -1110,6 +1274,10 @@ public final class BossChestInfoOuterClass {
         return remainUidList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 remain_uid_list = 3;</code>
        * @param index The index of the element to return.
        * @return The remainUidList at the given index.
@@ -1118,6 +1286,10 @@ public final class BossChestInfoOuterClass {
         return remainUidList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 remain_uid_list = 3;</code>
        * @param index The index to set the value at.
        * @param value The remainUidList to set.
@@ -1131,6 +1303,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 remain_uid_list = 3;</code>
        * @param value The remainUidList to add.
        * @return This builder for chaining.
@@ -1142,6 +1318,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 remain_uid_list = 3;</code>
        * @param values The remainUidList to add.
        * @return This builder for chaining.
@@ -1155,6 +1335,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 remain_uid_list = 3;</code>
        * @return This builder for chaining.
        */
@@ -1167,6 +1351,10 @@ public final class BossChestInfoOuterClass {
 
       private int monsterConfigId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 monster_config_id = 1;</code>
        * @return The monsterConfigId.
        */
@@ -1175,6 +1363,10 @@ public final class BossChestInfoOuterClass {
         return monsterConfigId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 monster_config_id = 1;</code>
        * @param value The monsterConfigId to set.
        * @return This builder for chaining.
@@ -1186,6 +1378,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 monster_config_id = 1;</code>
        * @return This builder for chaining.
        */
@@ -1198,6 +1394,10 @@ public final class BossChestInfoOuterClass {
 
       private int resin_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 resin = 2;</code>
        * @return The resin.
        */
@@ -1206,6 +1406,10 @@ public final class BossChestInfoOuterClass {
         return resin_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 resin = 2;</code>
        * @param value The resin to set.
        * @return This builder for chaining.
@@ -1217,6 +1421,10 @@ public final class BossChestInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 resin = 2;</code>
        * @return This builder for chaining.
        */

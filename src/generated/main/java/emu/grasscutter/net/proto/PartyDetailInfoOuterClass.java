@@ -19,16 +19,16 @@ public final class PartyDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool LEKCDAMIBII = 6;</code>
-     * @return The lEKCDAMIBII.
+     * <code>bool JNODMGMBNCM = 3;</code>
+     * @return The jNODMGMBNCM.
      */
-    boolean getLEKCDAMIBII();
+    boolean getJNODMGMBNCM();
 
     /**
-     * <code>bool AHJACLBGKLN = 8;</code>
-     * @return The aHJACLBGKLN.
+     * <code>bool MOCLFELKKHB = 2;</code>
+     * @return The mOCLFELKKHB.
      */
-    boolean getAHJACLBGKLN();
+    boolean getMOCLFELKKHB();
   }
   /**
    * Protobuf type {@code PartyDetailInfo}
@@ -75,14 +75,14 @@ public final class PartyDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 16: {
 
-              lEKCDAMIBII_ = input.readBool();
+              mOCLFELKKHB_ = input.readBool();
               break;
             }
-            case 64: {
+            case 24: {
 
-              aHJACLBGKLN_ = input.readBool();
+              jNODMGMBNCM_ = input.readBool();
               break;
             }
             default: {
@@ -117,26 +117,26 @@ public final class PartyDetailInfoOuterClass {
               emu.grasscutter.net.proto.PartyDetailInfoOuterClass.PartyDetailInfo.class, emu.grasscutter.net.proto.PartyDetailInfoOuterClass.PartyDetailInfo.Builder.class);
     }
 
-    public static final int LEKCDAMIBII_FIELD_NUMBER = 6;
-    private boolean lEKCDAMIBII_;
+    public static final int JNODMGMBNCM_FIELD_NUMBER = 3;
+    private boolean jNODMGMBNCM_;
     /**
-     * <code>bool LEKCDAMIBII = 6;</code>
-     * @return The lEKCDAMIBII.
+     * <code>bool JNODMGMBNCM = 3;</code>
+     * @return The jNODMGMBNCM.
      */
     @java.lang.Override
-    public boolean getLEKCDAMIBII() {
-      return lEKCDAMIBII_;
+    public boolean getJNODMGMBNCM() {
+      return jNODMGMBNCM_;
     }
 
-    public static final int AHJACLBGKLN_FIELD_NUMBER = 8;
-    private boolean aHJACLBGKLN_;
+    public static final int MOCLFELKKHB_FIELD_NUMBER = 2;
+    private boolean mOCLFELKKHB_;
     /**
-     * <code>bool AHJACLBGKLN = 8;</code>
-     * @return The aHJACLBGKLN.
+     * <code>bool MOCLFELKKHB = 2;</code>
+     * @return The mOCLFELKKHB.
      */
     @java.lang.Override
-    public boolean getAHJACLBGKLN() {
-      return aHJACLBGKLN_;
+    public boolean getMOCLFELKKHB() {
+      return mOCLFELKKHB_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -153,11 +153,11 @@ public final class PartyDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (lEKCDAMIBII_ != false) {
-        output.writeBool(6, lEKCDAMIBII_);
+      if (mOCLFELKKHB_ != false) {
+        output.writeBool(2, mOCLFELKKHB_);
       }
-      if (aHJACLBGKLN_ != false) {
-        output.writeBool(8, aHJACLBGKLN_);
+      if (jNODMGMBNCM_ != false) {
+        output.writeBool(3, jNODMGMBNCM_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class PartyDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (lEKCDAMIBII_ != false) {
+      if (mOCLFELKKHB_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, lEKCDAMIBII_);
+          .computeBoolSize(2, mOCLFELKKHB_);
       }
-      if (aHJACLBGKLN_ != false) {
+      if (jNODMGMBNCM_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, aHJACLBGKLN_);
+          .computeBoolSize(3, jNODMGMBNCM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -191,10 +191,10 @@ public final class PartyDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.PartyDetailInfoOuterClass.PartyDetailInfo other = (emu.grasscutter.net.proto.PartyDetailInfoOuterClass.PartyDetailInfo) obj;
 
-      if (getLEKCDAMIBII()
-          != other.getLEKCDAMIBII()) return false;
-      if (getAHJACLBGKLN()
-          != other.getAHJACLBGKLN()) return false;
+      if (getJNODMGMBNCM()
+          != other.getJNODMGMBNCM()) return false;
+      if (getMOCLFELKKHB()
+          != other.getMOCLFELKKHB()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,12 +206,12 @@ public final class PartyDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + LEKCDAMIBII_FIELD_NUMBER;
+      hash = (37 * hash) + JNODMGMBNCM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getLEKCDAMIBII());
-      hash = (37 * hash) + AHJACLBGKLN_FIELD_NUMBER;
+          getJNODMGMBNCM());
+      hash = (37 * hash) + MOCLFELKKHB_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getAHJACLBGKLN());
+          getMOCLFELKKHB());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -345,9 +345,9 @@ public final class PartyDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        lEKCDAMIBII_ = false;
+        jNODMGMBNCM_ = false;
 
-        aHJACLBGKLN_ = false;
+        mOCLFELKKHB_ = false;
 
         return this;
       }
@@ -375,8 +375,8 @@ public final class PartyDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.PartyDetailInfoOuterClass.PartyDetailInfo buildPartial() {
         emu.grasscutter.net.proto.PartyDetailInfoOuterClass.PartyDetailInfo result = new emu.grasscutter.net.proto.PartyDetailInfoOuterClass.PartyDetailInfo(this);
-        result.lEKCDAMIBII_ = lEKCDAMIBII_;
-        result.aHJACLBGKLN_ = aHJACLBGKLN_;
+        result.jNODMGMBNCM_ = jNODMGMBNCM_;
+        result.mOCLFELKKHB_ = mOCLFELKKHB_;
         onBuilt();
         return result;
       }
@@ -425,11 +425,11 @@ public final class PartyDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.PartyDetailInfoOuterClass.PartyDetailInfo other) {
         if (other == emu.grasscutter.net.proto.PartyDetailInfoOuterClass.PartyDetailInfo.getDefaultInstance()) return this;
-        if (other.getLEKCDAMIBII() != false) {
-          setLEKCDAMIBII(other.getLEKCDAMIBII());
+        if (other.getJNODMGMBNCM() != false) {
+          setJNODMGMBNCM(other.getJNODMGMBNCM());
         }
-        if (other.getAHJACLBGKLN() != false) {
-          setAHJACLBGKLN(other.getAHJACLBGKLN());
+        if (other.getMOCLFELKKHB() != false) {
+          setMOCLFELKKHB(other.getMOCLFELKKHB());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -460,64 +460,64 @@ public final class PartyDetailInfoOuterClass {
         return this;
       }
 
-      private boolean lEKCDAMIBII_ ;
+      private boolean jNODMGMBNCM_ ;
       /**
-       * <code>bool LEKCDAMIBII = 6;</code>
-       * @return The lEKCDAMIBII.
+       * <code>bool JNODMGMBNCM = 3;</code>
+       * @return The jNODMGMBNCM.
        */
       @java.lang.Override
-      public boolean getLEKCDAMIBII() {
-        return lEKCDAMIBII_;
+      public boolean getJNODMGMBNCM() {
+        return jNODMGMBNCM_;
       }
       /**
-       * <code>bool LEKCDAMIBII = 6;</code>
-       * @param value The lEKCDAMIBII to set.
+       * <code>bool JNODMGMBNCM = 3;</code>
+       * @param value The jNODMGMBNCM to set.
        * @return This builder for chaining.
        */
-      public Builder setLEKCDAMIBII(boolean value) {
+      public Builder setJNODMGMBNCM(boolean value) {
         
-        lEKCDAMIBII_ = value;
+        jNODMGMBNCM_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool LEKCDAMIBII = 6;</code>
+       * <code>bool JNODMGMBNCM = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLEKCDAMIBII() {
+      public Builder clearJNODMGMBNCM() {
         
-        lEKCDAMIBII_ = false;
+        jNODMGMBNCM_ = false;
         onChanged();
         return this;
       }
 
-      private boolean aHJACLBGKLN_ ;
+      private boolean mOCLFELKKHB_ ;
       /**
-       * <code>bool AHJACLBGKLN = 8;</code>
-       * @return The aHJACLBGKLN.
+       * <code>bool MOCLFELKKHB = 2;</code>
+       * @return The mOCLFELKKHB.
        */
       @java.lang.Override
-      public boolean getAHJACLBGKLN() {
-        return aHJACLBGKLN_;
+      public boolean getMOCLFELKKHB() {
+        return mOCLFELKKHB_;
       }
       /**
-       * <code>bool AHJACLBGKLN = 8;</code>
-       * @param value The aHJACLBGKLN to set.
+       * <code>bool MOCLFELKKHB = 2;</code>
+       * @param value The mOCLFELKKHB to set.
        * @return This builder for chaining.
        */
-      public Builder setAHJACLBGKLN(boolean value) {
+      public Builder setMOCLFELKKHB(boolean value) {
         
-        aHJACLBGKLN_ = value;
+        mOCLFELKKHB_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool AHJACLBGKLN = 8;</code>
+       * <code>bool MOCLFELKKHB = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAHJACLBGKLN() {
+      public Builder clearMOCLFELKKHB() {
         
-        aHJACLBGKLN_ = false;
+        mOCLFELKKHB_ = false;
         onChanged();
         return this;
       }
@@ -589,7 +589,7 @@ public final class PartyDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025PartyDetailInfo.proto\";\n\017PartyDetailIn" +
-      "fo\022\023\n\013LEKCDAMIBII\030\006 \001(\010\022\023\n\013AHJACLBGKLN\030\010" +
+      "fo\022\023\n\013JNODMGMBNCM\030\003 \001(\010\022\023\n\013MOCLFELKKHB\030\002" +
       " \001(\010B\033\n\031emu.grasscutter.net.protob\006proto" +
       "3"
     };
@@ -602,7 +602,7 @@ public final class PartyDetailInfoOuterClass {
     internal_static_PartyDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PartyDetailInfo_descriptor,
-        new java.lang.String[] { "LEKCDAMIBII", "AHJACLBGKLN", });
+        new java.lang.String[] { "JNODMGMBNCM", "MOCLFELKKHB", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

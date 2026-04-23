@@ -32,6 +32,6 @@ public class ConfigRoute extends BaseRoute {
                 .setRouteId(this.routeId)
                 .setStartIndex(this.startIndex)
                 .setMovingPlatformType(
-                        MovingPlatformTypeOuterClass.MovingPlatformType.MOVING_PLATFORM_TYPE_USE_CONFIG);
+                        MovingPlatformTypeOuterClass.MovingPlatformType.MovingPlatformType_MOVING_PLATFORM_USE_CONFIG);
     }
 }

@@ -42,7 +42,7 @@ public class PacketCreateVehicleRsp extends BasePacket {
                                                                         ((EntityVehicle) entity),
                                                                         vehicleMember,
                                                                         VehicleInteractTypeOuterClass.VehicleInteractType
-                                                                                .VEHICLE_INTERACT_TYPE_OUT));
+                                                                                .VehicleInteractType_VEHICLE_INTERACT_OUT));
                                             });
 
                             player.getScene().killEntity(entity, 0);

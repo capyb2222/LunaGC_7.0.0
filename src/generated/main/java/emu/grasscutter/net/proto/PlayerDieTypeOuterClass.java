@@ -15,105 +15,109 @@ public final class PlayerDieTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * 4.6.0
-   * </pre>
-   *
    * Protobuf enum {@code PlayerDieType}
    */
   public enum PlayerDieType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>PLAYER_DIE_TYPE_NONE = 0;</code>
+     * <code>PlayerDieType_PLAYER_DIE_NONE = 0;</code>
      */
-    PLAYER_DIE_TYPE_NONE(0),
+    PlayerDieType_PLAYER_DIE_NONE(0),
     /**
-     * <code>PLAYER_DIE_TYPE_KILL_BY_MONSTER = 1;</code>
+     * <code>PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER = 1;</code>
      */
-    PLAYER_DIE_TYPE_KILL_BY_MONSTER(1),
+    PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER(1),
     /**
-     * <code>PLAYER_DIE_TYPE_KILL_BY_GEAR = 2;</code>
+     * <code>PlayerDieType_PLAYER_DIE_KILL_BY_GEAR = 2;</code>
      */
-    PLAYER_DIE_TYPE_KILL_BY_GEAR(2),
+    PlayerDieType_PLAYER_DIE_KILL_BY_GEAR(2),
     /**
-     * <code>PLAYER_DIE_TYPE_FALL = 3;</code>
+     * <code>PlayerDieType_PLAYER_DIE_FALL = 3;</code>
      */
-    PLAYER_DIE_TYPE_FALL(3),
+    PlayerDieType_PLAYER_DIE_FALL(3),
     /**
-     * <code>PLAYER_DIE_TYPE_DRAWN = 4;</code>
+     * <code>PlayerDieType_PLAYER_DIE_DRAWN = 4;</code>
      */
-    PLAYER_DIE_TYPE_DRAWN(4),
+    PlayerDieType_PLAYER_DIE_DRAWN(4),
     /**
-     * <code>PLAYER_DIE_TYPE_ABYSS = 5;</code>
+     * <code>PlayerDieType_PLAYER_DIE_ABYSS = 5;</code>
      */
-    PLAYER_DIE_TYPE_ABYSS(5),
+    PlayerDieType_PLAYER_DIE_ABYSS(5),
     /**
-     * <code>PLAYER_DIE_TYPE_GM = 6;</code>
+     * <code>PlayerDieType_PLAYER_DIE_GM = 6;</code>
      */
-    PLAYER_DIE_TYPE_GM(6),
+    PlayerDieType_PLAYER_DIE_GM(6),
     /**
-     * <code>PLAYER_DIE_TYPE_CLIMATE_COLD = 7;</code>
+     * <code>PlayerDieType_PLAYER_DIE_CLIMATE_COLD = 7;</code>
      */
-    PLAYER_DIE_TYPE_CLIMATE_COLD(7),
+    PlayerDieType_PLAYER_DIE_CLIMATE_COLD(7),
     /**
-     * <code>PLAYER_DIE_TYPE_STORM_LIGHTING = 8;</code>
+     * <code>PlayerDieType_PLAYER_DIE_STORM_LIGHTING = 8;</code>
      */
-    PLAYER_DIE_TYPE_STORM_LIGHTING(8),
+    PlayerDieType_PLAYER_DIE_STORM_LIGHTING(8),
     /**
-     * <code>PLAYER_DIE_TYPE_DIRTY_WATER_EROSION = 9;</code>
+     * <code>PlayerDieType_PLAYER_DIE_DIRTY_WATER_EROSION = 9;</code>
      */
-    PLAYER_DIE_TYPE_DIRTY_WATER_EROSION(9),
+    PlayerDieType_PLAYER_DIE_DIRTY_WATER_EROSION(9),
     /**
-     * <code>PLAYER_DIE_LIQUID_PHLOGISTON = 10;</code>
+     * <code>PlayerDieType_PLAYER_DIE_LIQUID_PHLOGISTON = 10;</code>
      */
-    PLAYER_DIE_LIQUID_PHLOGISTON(10),
+    PlayerDieType_PLAYER_DIE_LIQUID_PHLOGISTON(10),
+    /**
+     * <code>PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE = 11;</code>
+     */
+    PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE(11),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>PLAYER_DIE_TYPE_NONE = 0;</code>
+     * <code>PlayerDieType_PLAYER_DIE_NONE = 0;</code>
      */
-    public static final int PLAYER_DIE_TYPE_NONE_VALUE = 0;
+    public static final int PlayerDieType_PLAYER_DIE_NONE_VALUE = 0;
     /**
-     * <code>PLAYER_DIE_TYPE_KILL_BY_MONSTER = 1;</code>
+     * <code>PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER = 1;</code>
      */
-    public static final int PLAYER_DIE_TYPE_KILL_BY_MONSTER_VALUE = 1;
+    public static final int PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER_VALUE = 1;
     /**
-     * <code>PLAYER_DIE_TYPE_KILL_BY_GEAR = 2;</code>
+     * <code>PlayerDieType_PLAYER_DIE_KILL_BY_GEAR = 2;</code>
      */
-    public static final int PLAYER_DIE_TYPE_KILL_BY_GEAR_VALUE = 2;
+    public static final int PlayerDieType_PLAYER_DIE_KILL_BY_GEAR_VALUE = 2;
     /**
-     * <code>PLAYER_DIE_TYPE_FALL = 3;</code>
+     * <code>PlayerDieType_PLAYER_DIE_FALL = 3;</code>
      */
-    public static final int PLAYER_DIE_TYPE_FALL_VALUE = 3;
+    public static final int PlayerDieType_PLAYER_DIE_FALL_VALUE = 3;
     /**
-     * <code>PLAYER_DIE_TYPE_DRAWN = 4;</code>
+     * <code>PlayerDieType_PLAYER_DIE_DRAWN = 4;</code>
      */
-    public static final int PLAYER_DIE_TYPE_DRAWN_VALUE = 4;
+    public static final int PlayerDieType_PLAYER_DIE_DRAWN_VALUE = 4;
     /**
-     * <code>PLAYER_DIE_TYPE_ABYSS = 5;</code>
+     * <code>PlayerDieType_PLAYER_DIE_ABYSS = 5;</code>
      */
-    public static final int PLAYER_DIE_TYPE_ABYSS_VALUE = 5;
+    public static final int PlayerDieType_PLAYER_DIE_ABYSS_VALUE = 5;
     /**
-     * <code>PLAYER_DIE_TYPE_GM = 6;</code>
+     * <code>PlayerDieType_PLAYER_DIE_GM = 6;</code>
      */
-    public static final int PLAYER_DIE_TYPE_GM_VALUE = 6;
+    public static final int PlayerDieType_PLAYER_DIE_GM_VALUE = 6;
     /**
-     * <code>PLAYER_DIE_TYPE_CLIMATE_COLD = 7;</code>
+     * <code>PlayerDieType_PLAYER_DIE_CLIMATE_COLD = 7;</code>
      */
-    public static final int PLAYER_DIE_TYPE_CLIMATE_COLD_VALUE = 7;
+    public static final int PlayerDieType_PLAYER_DIE_CLIMATE_COLD_VALUE = 7;
     /**
-     * <code>PLAYER_DIE_TYPE_STORM_LIGHTING = 8;</code>
+     * <code>PlayerDieType_PLAYER_DIE_STORM_LIGHTING = 8;</code>
      */
-    public static final int PLAYER_DIE_TYPE_STORM_LIGHTING_VALUE = 8;
+    public static final int PlayerDieType_PLAYER_DIE_STORM_LIGHTING_VALUE = 8;
     /**
-     * <code>PLAYER_DIE_TYPE_DIRTY_WATER_EROSION = 9;</code>
+     * <code>PlayerDieType_PLAYER_DIE_DIRTY_WATER_EROSION = 9;</code>
      */
-    public static final int PLAYER_DIE_TYPE_DIRTY_WATER_EROSION_VALUE = 9;
+    public static final int PlayerDieType_PLAYER_DIE_DIRTY_WATER_EROSION_VALUE = 9;
     /**
-     * <code>PLAYER_DIE_LIQUID_PHLOGISTON = 10;</code>
+     * <code>PlayerDieType_PLAYER_DIE_LIQUID_PHLOGISTON = 10;</code>
      */
-    public static final int PLAYER_DIE_LIQUID_PHLOGISTON_VALUE = 10;
+    public static final int PlayerDieType_PLAYER_DIE_LIQUID_PHLOGISTON_VALUE = 10;
+    /**
+     * <code>PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE = 11;</code>
+     */
+    public static final int PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE_VALUE = 11;
 
 
     public final int getNumber() {
@@ -140,17 +144,18 @@ public final class PlayerDieTypeOuterClass {
      */
     public static PlayerDieType forNumber(int value) {
       switch (value) {
-        case 0: return PLAYER_DIE_TYPE_NONE;
-        case 1: return PLAYER_DIE_TYPE_KILL_BY_MONSTER;
-        case 2: return PLAYER_DIE_TYPE_KILL_BY_GEAR;
-        case 3: return PLAYER_DIE_TYPE_FALL;
-        case 4: return PLAYER_DIE_TYPE_DRAWN;
-        case 5: return PLAYER_DIE_TYPE_ABYSS;
-        case 6: return PLAYER_DIE_TYPE_GM;
-        case 7: return PLAYER_DIE_TYPE_CLIMATE_COLD;
-        case 8: return PLAYER_DIE_TYPE_STORM_LIGHTING;
-        case 9: return PLAYER_DIE_TYPE_DIRTY_WATER_EROSION;
-        case 10: return PLAYER_DIE_LIQUID_PHLOGISTON;
+        case 0: return PlayerDieType_PLAYER_DIE_NONE;
+        case 1: return PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER;
+        case 2: return PlayerDieType_PLAYER_DIE_KILL_BY_GEAR;
+        case 3: return PlayerDieType_PLAYER_DIE_FALL;
+        case 4: return PlayerDieType_PLAYER_DIE_DRAWN;
+        case 5: return PlayerDieType_PLAYER_DIE_ABYSS;
+        case 6: return PlayerDieType_PLAYER_DIE_GM;
+        case 7: return PlayerDieType_PLAYER_DIE_CLIMATE_COLD;
+        case 8: return PlayerDieType_PLAYER_DIE_STORM_LIGHTING;
+        case 9: return PlayerDieType_PLAYER_DIE_DIRTY_WATER_EROSION;
+        case 10: return PlayerDieType_PLAYER_DIE_LIQUID_PHLOGISTON;
+        case 11: return PlayerDieType_PLAYER_DIE_LEVEL_FORCE_DIE;
         default: return null;
       }
     }
@@ -216,17 +221,21 @@ public final class PlayerDieTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023PlayerDieType.proto*\351\002\n\rPlayerDieType\022" +
-      "\030\n\024PLAYER_DIE_TYPE_NONE\020\000\022#\n\037PLAYER_DIE_" +
-      "TYPE_KILL_BY_MONSTER\020\001\022 \n\034PLAYER_DIE_TYP" +
-      "E_KILL_BY_GEAR\020\002\022\030\n\024PLAYER_DIE_TYPE_FALL" +
-      "\020\003\022\031\n\025PLAYER_DIE_TYPE_DRAWN\020\004\022\031\n\025PLAYER_" +
-      "DIE_TYPE_ABYSS\020\005\022\026\n\022PLAYER_DIE_TYPE_GM\020\006" +
-      "\022 \n\034PLAYER_DIE_TYPE_CLIMATE_COLD\020\007\022\"\n\036PL" +
-      "AYER_DIE_TYPE_STORM_LIGHTING\020\010\022\'\n#PLAYER" +
-      "_DIE_TYPE_DIRTY_WATER_EROSION\020\t\022 \n\034PLAYE" +
-      "R_DIE_LIQUID_PHLOGISTON\020\nB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\n\023PlayerDieType.proto*\377\003\n\rPlayerDieType\022" +
+      "!\n\035PlayerDieType_PLAYER_DIE_NONE\020\000\022,\n(Pl" +
+      "ayerDieType_PLAYER_DIE_KILL_BY_MONSTER\020\001" +
+      "\022)\n%PlayerDieType_PLAYER_DIE_KILL_BY_GEA" +
+      "R\020\002\022!\n\035PlayerDieType_PLAYER_DIE_FALL\020\003\022\"" +
+      "\n\036PlayerDieType_PLAYER_DIE_DRAWN\020\004\022\"\n\036Pl" +
+      "ayerDieType_PLAYER_DIE_ABYSS\020\005\022\037\n\033Player" +
+      "DieType_PLAYER_DIE_GM\020\006\022)\n%PlayerDieType" +
+      "_PLAYER_DIE_CLIMATE_COLD\020\007\022+\n\'PlayerDieT" +
+      "ype_PLAYER_DIE_STORM_LIGHTING\020\010\0220\n,Playe" +
+      "rDieType_PLAYER_DIE_DIRTY_WATER_EROSION\020" +
+      "\t\022.\n*PlayerDieType_PLAYER_DIE_LIQUID_PHL" +
+      "OGISTON\020\n\022,\n(PlayerDieType_PLAYER_DIE_LE" +
+      "VEL_FORCE_DIE\020\013B\033\n\031emu.grasscutter.net.p" +
+      "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

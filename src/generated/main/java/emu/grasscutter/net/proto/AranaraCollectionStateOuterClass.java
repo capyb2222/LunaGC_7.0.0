@@ -15,49 +15,45 @@ public final class AranaraCollectionStateOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: KIGGNJOOMNG
-   * </pre>
-   *
    * Protobuf enum {@code AranaraCollectionState}
    */
   public enum AranaraCollectionState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>ARANARA_COLLECTION_STATE_NONE = 0;</code>
+     * <code>AranaraCollectionState_NONE = 0;</code>
      */
-    ARANARA_COLLECTION_STATE_NONE(0),
+    AranaraCollectionState_NONE(0),
     /**
-     * <code>ARANARA_COLLECTION_STATE_COLLECTABLE = 1;</code>
+     * <code>AranaraCollectionState_COLLECTABLE = 1;</code>
      */
-    ARANARA_COLLECTION_STATE_COLLECTABLE(1),
+    AranaraCollectionState_COLLECTABLE(1),
     /**
-     * <code>ARANARA_COLLECTION_STATE_COLLECTED = 2;</code>
+     * <code>AranaraCollectionState_COLLECTED = 2;</code>
      */
-    ARANARA_COLLECTION_STATE_COLLECTED(2),
+    AranaraCollectionState_COLLECTED(2),
     /**
-     * <code>ARANARA_COLLECTION_STATE_FINISHED = 3;</code>
+     * <code>AranaraCollectionState_FINISHED = 3;</code>
      */
-    ARANARA_COLLECTION_STATE_FINISHED(3),
+    AranaraCollectionState_FINISHED(3),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>ARANARA_COLLECTION_STATE_NONE = 0;</code>
+     * <code>AranaraCollectionState_NONE = 0;</code>
      */
-    public static final int ARANARA_COLLECTION_STATE_NONE_VALUE = 0;
+    public static final int AranaraCollectionState_NONE_VALUE = 0;
     /**
-     * <code>ARANARA_COLLECTION_STATE_COLLECTABLE = 1;</code>
+     * <code>AranaraCollectionState_COLLECTABLE = 1;</code>
      */
-    public static final int ARANARA_COLLECTION_STATE_COLLECTABLE_VALUE = 1;
+    public static final int AranaraCollectionState_COLLECTABLE_VALUE = 1;
     /**
-     * <code>ARANARA_COLLECTION_STATE_COLLECTED = 2;</code>
+     * <code>AranaraCollectionState_COLLECTED = 2;</code>
      */
-    public static final int ARANARA_COLLECTION_STATE_COLLECTED_VALUE = 2;
+    public static final int AranaraCollectionState_COLLECTED_VALUE = 2;
     /**
-     * <code>ARANARA_COLLECTION_STATE_FINISHED = 3;</code>
+     * <code>AranaraCollectionState_FINISHED = 3;</code>
      */
-    public static final int ARANARA_COLLECTION_STATE_FINISHED_VALUE = 3;
+    public static final int AranaraCollectionState_FINISHED_VALUE = 3;
 
 
     public final int getNumber() {
@@ -84,10 +80,10 @@ public final class AranaraCollectionStateOuterClass {
      */
     public static AranaraCollectionState forNumber(int value) {
       switch (value) {
-        case 0: return ARANARA_COLLECTION_STATE_NONE;
-        case 1: return ARANARA_COLLECTION_STATE_COLLECTABLE;
-        case 2: return ARANARA_COLLECTION_STATE_COLLECTED;
-        case 3: return ARANARA_COLLECTION_STATE_FINISHED;
+        case 0: return AranaraCollectionState_NONE;
+        case 1: return AranaraCollectionState_COLLECTABLE;
+        case 2: return AranaraCollectionState_COLLECTED;
+        case 3: return AranaraCollectionState_FINISHED;
         default: return null;
       }
     }
@@ -153,13 +149,13 @@ public final class AranaraCollectionStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034AranaraCollectionState.proto*\264\001\n\026Arana" +
-      "raCollectionState\022!\n\035ARANARA_COLLECTION_" +
-      "STATE_NONE\020\000\022(\n$ARANARA_COLLECTION_STATE" +
-      "_COLLECTABLE\020\001\022&\n\"ARANARA_COLLECTION_STA" +
-      "TE_COLLECTED\020\002\022%\n!ARANARA_COLLECTION_STA" +
-      "TE_FINISHED\020\003B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\n\034AranaraCollectionState.proto*\254\001\n\026Arana" +
+      "raCollectionState\022\037\n\033AranaraCollectionSt" +
+      "ate_NONE\020\000\022&\n\"AranaraCollectionState_COL" +
+      "LECTABLE\020\001\022$\n AranaraCollectionState_COL" +
+      "LECTED\020\002\022#\n\037AranaraCollectionState_FINIS" +
+      "HED\020\003B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

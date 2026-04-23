@@ -19,12 +19,20 @@ public final class ModifierDurabilityOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>float remaining_durability = 2;</code>
      * @return The remainingDurability.
      */
     float getRemainingDurability();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>float reduce_ratio = 1;</code>
      * @return The reduceRatio.
      */
@@ -120,6 +128,10 @@ public final class ModifierDurabilityOuterClass {
     public static final int REMAINING_DURABILITY_FIELD_NUMBER = 2;
     private float remainingDurability_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>float remaining_durability = 2;</code>
      * @return The remainingDurability.
      */
@@ -131,6 +143,10 @@ public final class ModifierDurabilityOuterClass {
     public static final int REDUCE_RATIO_FIELD_NUMBER = 1;
     private float reduceRatio_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>float reduce_ratio = 1;</code>
      * @return The reduceRatio.
      */
@@ -464,6 +480,10 @@ public final class ModifierDurabilityOuterClass {
 
       private float remainingDurability_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>float remaining_durability = 2;</code>
        * @return The remainingDurability.
        */
@@ -472,6 +492,10 @@ public final class ModifierDurabilityOuterClass {
         return remainingDurability_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>float remaining_durability = 2;</code>
        * @param value The remainingDurability to set.
        * @return This builder for chaining.
@@ -483,6 +507,10 @@ public final class ModifierDurabilityOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>float remaining_durability = 2;</code>
        * @return This builder for chaining.
        */
@@ -495,6 +523,10 @@ public final class ModifierDurabilityOuterClass {
 
       private float reduceRatio_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>float reduce_ratio = 1;</code>
        * @return The reduceRatio.
        */
@@ -503,6 +535,10 @@ public final class ModifierDurabilityOuterClass {
         return reduceRatio_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>float reduce_ratio = 1;</code>
        * @param value The reduceRatio to set.
        * @return This builder for chaining.
@@ -514,6 +550,10 @@ public final class ModifierDurabilityOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>float reduce_ratio = 1;</code>
        * @return This builder for chaining.
        */

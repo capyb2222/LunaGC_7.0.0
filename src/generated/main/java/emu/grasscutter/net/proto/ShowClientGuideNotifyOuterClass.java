@@ -31,6 +31,11 @@ public final class ShowClientGuideNotifyOuterClass {
         getGuideNameBytes();
   }
   /**
+   * <pre>
+   * CmdId: 8965
+   * Obf: LBKMGIHFFNI
+   * </pre>
+   *
    * Protobuf type {@code ShowClientGuideNotify}
    */
   public static final class ShowClientGuideNotify extends
@@ -307,6 +312,11 @@ public final class ShowClientGuideNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 8965
+     * Obf: LBKMGIHFFNI
+     * </pre>
+     *
      * Protobuf type {@code ShowClientGuideNotify}
      */
     public static final class Builder extends

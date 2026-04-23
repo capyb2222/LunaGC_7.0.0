@@ -19,19 +19,31 @@ public final class AvatarSatiationDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint64 avatar_guid = 13;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 4;</code>
      * @return The avatarGuid.
      */
     long getAvatarGuid();
 
     /**
-     * <code>float penalty_finish_time = 2;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float penalty_finish_time = 3;</code>
      * @return The penaltyFinishTime.
      */
     float getPenaltyFinishTime();
 
     /**
-     * <code>float finish_time = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float finish_time = 7;</code>
      * @return The finishTime.
      */
     float getFinishTime();
@@ -81,19 +93,19 @@ public final class AvatarSatiationDataOuterClass {
             case 0:
               done = true;
               break;
-            case 21: {
+            case 29: {
 
               penaltyFinishTime_ = input.readFloat();
               break;
             }
-            case 93: {
-
-              finishTime_ = input.readFloat();
-              break;
-            }
-            case 104: {
+            case 32: {
 
               avatarGuid_ = input.readUInt64();
+              break;
+            }
+            case 61: {
+
+              finishTime_ = input.readFloat();
               break;
             }
             default: {
@@ -128,10 +140,14 @@ public final class AvatarSatiationDataOuterClass {
               emu.grasscutter.net.proto.AvatarSatiationDataOuterClass.AvatarSatiationData.class, emu.grasscutter.net.proto.AvatarSatiationDataOuterClass.AvatarSatiationData.Builder.class);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 13;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 4;
     private long avatarGuid_;
     /**
-     * <code>uint64 avatar_guid = 13;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 avatar_guid = 4;</code>
      * @return The avatarGuid.
      */
     @java.lang.Override
@@ -139,10 +155,14 @@ public final class AvatarSatiationDataOuterClass {
       return avatarGuid_;
     }
 
-    public static final int PENALTY_FINISH_TIME_FIELD_NUMBER = 2;
+    public static final int PENALTY_FINISH_TIME_FIELD_NUMBER = 3;
     private float penaltyFinishTime_;
     /**
-     * <code>float penalty_finish_time = 2;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float penalty_finish_time = 3;</code>
      * @return The penaltyFinishTime.
      */
     @java.lang.Override
@@ -150,10 +170,14 @@ public final class AvatarSatiationDataOuterClass {
       return penaltyFinishTime_;
     }
 
-    public static final int FINISH_TIME_FIELD_NUMBER = 11;
+    public static final int FINISH_TIME_FIELD_NUMBER = 7;
     private float finishTime_;
     /**
-     * <code>float finish_time = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float finish_time = 7;</code>
      * @return The finishTime.
      */
     @java.lang.Override
@@ -176,13 +200,13 @@ public final class AvatarSatiationDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (penaltyFinishTime_ != 0F) {
-        output.writeFloat(2, penaltyFinishTime_);
-      }
-      if (finishTime_ != 0F) {
-        output.writeFloat(11, finishTime_);
+        output.writeFloat(3, penaltyFinishTime_);
       }
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(13, avatarGuid_);
+        output.writeUInt64(4, avatarGuid_);
+      }
+      if (finishTime_ != 0F) {
+        output.writeFloat(7, finishTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +219,15 @@ public final class AvatarSatiationDataOuterClass {
       size = 0;
       if (penaltyFinishTime_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(2, penaltyFinishTime_);
-      }
-      if (finishTime_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(11, finishTime_);
+          .computeFloatSize(3, penaltyFinishTime_);
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(13, avatarGuid_);
+          .computeUInt64Size(4, avatarGuid_);
+      }
+      if (finishTime_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(7, finishTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -504,7 +528,11 @@ public final class AvatarSatiationDataOuterClass {
 
       private long avatarGuid_ ;
       /**
-       * <code>uint64 avatar_guid = 13;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 4;</code>
        * @return The avatarGuid.
        */
       @java.lang.Override
@@ -512,7 +540,11 @@ public final class AvatarSatiationDataOuterClass {
         return avatarGuid_;
       }
       /**
-       * <code>uint64 avatar_guid = 13;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 4;</code>
        * @param value The avatarGuid to set.
        * @return This builder for chaining.
        */
@@ -523,7 +555,11 @@ public final class AvatarSatiationDataOuterClass {
         return this;
       }
       /**
-       * <code>uint64 avatar_guid = 13;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint64 avatar_guid = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
@@ -535,7 +571,11 @@ public final class AvatarSatiationDataOuterClass {
 
       private float penaltyFinishTime_ ;
       /**
-       * <code>float penalty_finish_time = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float penalty_finish_time = 3;</code>
        * @return The penaltyFinishTime.
        */
       @java.lang.Override
@@ -543,7 +583,11 @@ public final class AvatarSatiationDataOuterClass {
         return penaltyFinishTime_;
       }
       /**
-       * <code>float penalty_finish_time = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float penalty_finish_time = 3;</code>
        * @param value The penaltyFinishTime to set.
        * @return This builder for chaining.
        */
@@ -554,7 +598,11 @@ public final class AvatarSatiationDataOuterClass {
         return this;
       }
       /**
-       * <code>float penalty_finish_time = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float penalty_finish_time = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearPenaltyFinishTime() {
@@ -566,7 +614,11 @@ public final class AvatarSatiationDataOuterClass {
 
       private float finishTime_ ;
       /**
-       * <code>float finish_time = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float finish_time = 7;</code>
        * @return The finishTime.
        */
       @java.lang.Override
@@ -574,7 +626,11 @@ public final class AvatarSatiationDataOuterClass {
         return finishTime_;
       }
       /**
-       * <code>float finish_time = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float finish_time = 7;</code>
        * @param value The finishTime to set.
        * @return This builder for chaining.
        */
@@ -585,7 +641,11 @@ public final class AvatarSatiationDataOuterClass {
         return this;
       }
       /**
-       * <code>float finish_time = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float finish_time = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearFinishTime() {
@@ -662,8 +722,8 @@ public final class AvatarSatiationDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031AvatarSatiationData.proto\"\\\n\023AvatarSat" +
-      "iationData\022\023\n\013avatar_guid\030\r \001(\004\022\033\n\023penal" +
-      "ty_finish_time\030\002 \001(\002\022\023\n\013finish_time\030\013 \001(" +
+      "iationData\022\023\n\013avatar_guid\030\004 \001(\004\022\033\n\023penal" +
+      "ty_finish_time\030\003 \001(\002\022\023\n\013finish_time\030\007 \001(" +
       "\002B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

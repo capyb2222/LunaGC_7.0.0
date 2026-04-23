@@ -20,24 +20,24 @@ public final class FriendOnlineStateOuterClass {
   public enum FriendOnlineState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>FRIEND_ONLINE_STATE_DISCONNECT = 0;</code>
+     * <code>FriendOnlineState_FREIEND_DISCONNECT = 0;</code>
      */
-    FRIEND_ONLINE_STATE_DISCONNECT(0),
+    FriendOnlineState_FREIEND_DISCONNECT(0),
     /**
-     * <code>FRIEND_ONLINE_STATE_ONLINE = 1;</code>
+     * <code>FriendOnlineState_FRIEND_ONLINE = 1;</code>
      */
-    FRIEND_ONLINE_STATE_ONLINE(1),
+    FriendOnlineState_FRIEND_ONLINE(1),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>FRIEND_ONLINE_STATE_DISCONNECT = 0;</code>
+     * <code>FriendOnlineState_FREIEND_DISCONNECT = 0;</code>
      */
-    public static final int FRIEND_ONLINE_STATE_DISCONNECT_VALUE = 0;
+    public static final int FriendOnlineState_FREIEND_DISCONNECT_VALUE = 0;
     /**
-     * <code>FRIEND_ONLINE_STATE_ONLINE = 1;</code>
+     * <code>FriendOnlineState_FRIEND_ONLINE = 1;</code>
      */
-    public static final int FRIEND_ONLINE_STATE_ONLINE_VALUE = 1;
+    public static final int FriendOnlineState_FRIEND_ONLINE_VALUE = 1;
 
 
     public final int getNumber() {
@@ -64,8 +64,8 @@ public final class FriendOnlineStateOuterClass {
      */
     public static FriendOnlineState forNumber(int value) {
       switch (value) {
-        case 0: return FRIEND_ONLINE_STATE_DISCONNECT;
-        case 1: return FRIEND_ONLINE_STATE_ONLINE;
+        case 0: return FriendOnlineState_FREIEND_DISCONNECT;
+        case 1: return FriendOnlineState_FRIEND_ONLINE;
         default: return null;
       }
     }
@@ -131,10 +131,11 @@ public final class FriendOnlineStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027FriendOnlineState.proto*W\n\021FriendOnlin" +
-      "eState\022\"\n\036FRIEND_ONLINE_STATE_DISCONNECT" +
-      "\020\000\022\036\n\032FRIEND_ONLINE_STATE_ONLINE\020\001B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\027FriendOnlineState.proto*b\n\021FriendOnlin" +
+      "eState\022(\n$FriendOnlineState_FREIEND_DISC" +
+      "ONNECT\020\000\022#\n\037FriendOnlineState_FRIEND_ONL" +
+      "INE\020\001B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

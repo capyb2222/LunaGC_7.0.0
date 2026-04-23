@@ -218,7 +218,7 @@ public final class ForgingManager extends BasePlayerManager {
         this.player.sendPacket(
                 new PacketForgeQueueManipulateRsp(
                         Retcode.RET_SUCC,
-                        ForgeQueueManipulateType.FORGE_QUEUE_MANIPULATE_TYPE_RECEIVE_OUTPUT,
+                        ForgeQueueManipulateType.ForgeQueueManipulateType_RECEIVE_OUTPUT,
                         List.of(addItem),
                         List.of(),
                         List.of()));
@@ -271,7 +271,7 @@ public final class ForgingManager extends BasePlayerManager {
         this.player.sendPacket(
                 new PacketForgeQueueManipulateRsp(
                         Retcode.RET_SUCC,
-                        ForgeQueueManipulateType.FORGE_QUEUE_MANIPULATE_TYPE_STOP_FORGE,
+                        ForgeQueueManipulateType.ForgeQueueManipulateType_STOP_FORGE,
                         List.of(),
                         returnItems,
                         List.of()));
@@ -284,8 +284,8 @@ public final class ForgingManager extends BasePlayerManager {
 
         // Handle according to the manipulation type.
         switch (manipulateType) {
-            case FORGE_QUEUE_MANIPULATE_TYPE_RECEIVE_OUTPUT -> this.obtainItems(queueId);
-            case FORGE_QUEUE_MANIPULATE_TYPE_STOP_FORGE -> this.cancelForge(queueId);
+            case ForgeQueueManipulateType_RECEIVE_OUTPUT -> this.obtainItems(queueId);
+            case ForgeQueueManipulateType_STOP_FORGE -> this.cancelForge(queueId);
             default -> {} // Should never happen.
         }
     }

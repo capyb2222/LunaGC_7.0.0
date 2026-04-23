@@ -44,7 +44,7 @@ public class GadgetObject extends GadgetContent {
                 .getScene()
                 .broadcastPacket(
                         new PacketGadgetInteractRsp(
-                                getGadget(), InteractTypeOuterClass.InteractType.INTERACT_TYPE_GATHER));
+                                getGadget(), InteractTypeOuterClass.InteractType.InteractType_INTERACT_GATHER));
         return true;
     }
 

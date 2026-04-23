@@ -17,7 +17,7 @@ public class PacketStoreItemDelNotify extends BasePacket {
 
         StoreItemDelNotify.Builder proto =
                 StoreItemDelNotify.newBuilder()
-                        .setStoreType(StoreType.STORE_TYPE_PACK)
+                        .setStoreType(StoreType.StoreType_STORE_PACK)
                         .addGuidList(item.getGuid());
 
         this.setData(proto);
@@ -27,7 +27,7 @@ public class PacketStoreItemDelNotify extends BasePacket {
         this();
 
         StoreItemDelNotify.Builder proto =
-                StoreItemDelNotify.newBuilder().setStoreType(StoreType.STORE_TYPE_PACK);
+                StoreItemDelNotify.newBuilder().setStoreType(StoreType.StoreType_STORE_PACK);
 
         items.stream().forEach(item -> proto.addGuidList(item.getGuid()));
 

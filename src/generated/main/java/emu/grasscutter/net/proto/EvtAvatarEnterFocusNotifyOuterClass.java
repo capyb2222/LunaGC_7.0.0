@@ -19,106 +19,101 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector focus_forward = 14;</code>
+     * <code>.Vector focus_forward = 13;</code>
      * @return Whether the focusForward field is set.
      */
     boolean hasFocusForward();
     /**
-     * <code>.Vector focus_forward = 14;</code>
+     * <code>.Vector focus_forward = 13;</code>
      * @return The focusForward.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getFocusForward();
     /**
-     * <code>.Vector focus_forward = 14;</code>
+     * <code>.Vector focus_forward = 13;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFocusForwardOrBuilder();
 
     /**
-     * <code>bool KDPFLFOPIIJ = 11;</code>
-     * @return The kDPFLFOPIIJ.
-     */
-    boolean getKDPFLFOPIIJ();
-
-    /**
-     * <code>bool AKBIIAHOHLB = 7;</code>
-     * @return The aKBIIAHOHLB.
-     */
-    boolean getAKBIIAHOHLB();
-
-    /**
-     * <code>bool HGKPAMDOJFG = 10;</code>
-     * @return The hGKPAMDOJFG.
-     */
-    boolean getHGKPAMDOJFG();
-
-    /**
-     * <code>bool ECMCNFDKECN = 12;</code>
-     * @return The eCMCNFDKECN.
-     */
-    boolean getECMCNFDKECN();
-
-    /**
-     * <code>.ForwardType forward_type = 6;</code>
-     * @return The enum numeric value on the wire for forwardType.
+     * <code>.ForwardType forward_type = 3;</code>
+     * @return The enum numeric value on the wire for ForwardType.ForwardType_
      */
     int getForwardTypeValue();
     /**
-     * <code>.ForwardType forward_type = 6;</code>
-     * @return The forwardType.
+     * <code>.ForwardType forward_type = 3;</code>
+     * @return The ForwardType.ForwardType_
      */
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
 
     /**
-     * <code>int32 NOGNKKJAIJC = 3;</code>
-     * @return The nOGNKKJAIJC.
+     * <code>bool CCKKABKJJGP = 12;</code>
+     * @return The cCKKABKJJGP.
      */
-    int getNOGNKKJAIJC();
+    boolean getCCKKABKJJGP();
 
     /**
-     * <code>uint32 entity_id = 8;</code>
+     * <code>bool MDMOIMDCOPF = 7;</code>
+     * @return The mDMOIMDCOPF.
+     */
+    boolean getMDMOIMDCOPF();
+
+    /**
+     * <code>uint32 entity_id = 11;</code>
      * @return The entityId.
      */
     int getEntityId();
 
     /**
-     * <code>bool DJGHAHJAILG = 9;</code>
-     * @return The dJGHAHJAILG.
+     * <code>bool MCNECDNCLCJ = 1;</code>
+     * @return The mCNECDNCLCJ.
      */
-    boolean getDJGHAHJAILG();
+    boolean getMCNECDNCLCJ();
 
     /**
-     * <code>bool OOGEIOCDENJ = 2;</code>
-     * @return The oOGEIOCDENJ.
+     * <code>bool GMLEBIHPOKD = 5;</code>
+     * @return The gMLEBIHPOKD.
      */
-    boolean getOOGEIOCDENJ();
+    boolean getGMLEBIHPOKD();
 
     /**
-     * <code>bool CIHGJJLNFIN = 13;</code>
-     * @return The cIHGJJLNFIN.
+     * <code>bool OGOLKMLFFHE = 2;</code>
+     * @return The oGOLKMLFFHE.
      */
-    boolean getCIHGJJLNFIN();
+    boolean getOGOLKMLFFHE();
 
     /**
-     * <code>bool GBEEOHGICAN = 1;</code>
-     * @return The gBEEOHGICAN.
+     * <code>bool OEMKCENFMIM = 10;</code>
+     * @return The oEMKCENFMIM.
      */
-    boolean getGBEEOHGICAN();
+    boolean getOEMKCENFMIM();
 
     /**
-     * <code>bool GBNJBNONIGC = 15;</code>
-     * @return The gBNJBNONIGC.
+     * <code>bool DBPHFOKBNCP = 9;</code>
+     * @return The dBPHFOKBNCP.
      */
-    boolean getGBNJBNONIGC();
+    boolean getDBPHFOKBNCP();
 
     /**
-     * <code>bool MOIKANDJPMJ = 4;</code>
-     * @return The mOIKANDJPMJ.
+     * <code>bool PBHFFGHHPMA = 15;</code>
+     * @return The pBHFFGHHPMA.
      */
-    boolean getMOIKANDJPMJ();
+    boolean getPBHFFGHHPMA();
+
+    /**
+     * <code>bool EGBLCMOLOMC = 8;</code>
+     * @return The eGBLCMOLOMC.
+     */
+    boolean getEGBLCMOLOMC();
+
+    /**
+     * <code>bool NACMCGNGDLN = 6;</code>
+     * @return The nACMCGNGDLN.
+     */
+    boolean getNACMCGNGDLN();
   }
   /**
    * <pre>
-   * CmdId: 29028
+   * CmdId: 20643
+   * Obf: CMOGIHEMPNF
    * </pre>
    *
    * Protobuf type {@code EvtAvatarEnterFocusNotify}
@@ -168,66 +163,61 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
               break;
             case 8: {
 
-              gBEEOHGICAN_ = input.readBool();
+              mCNECDNCLCJ_ = input.readBool();
               break;
             }
             case 16: {
 
-              oOGEIOCDENJ_ = input.readBool();
+              oGOLKMLFFHE_ = input.readBool();
               break;
             }
             case 24: {
-
-              nOGNKKJAIJC_ = input.readInt32();
-              break;
-            }
-            case 32: {
-
-              mOIKANDJPMJ_ = input.readBool();
-              break;
-            }
-            case 48: {
               int rawValue = input.readEnum();
 
               forwardType_ = rawValue;
               break;
             }
+            case 40: {
+
+              gMLEBIHPOKD_ = input.readBool();
+              break;
+            }
+            case 48: {
+
+              nACMCGNGDLN_ = input.readBool();
+              break;
+            }
             case 56: {
 
-              aKBIIAHOHLB_ = input.readBool();
+              mDMOIMDCOPF_ = input.readBool();
               break;
             }
             case 64: {
 
-              entityId_ = input.readUInt32();
+              eGBLCMOLOMC_ = input.readBool();
               break;
             }
             case 72: {
 
-              dJGHAHJAILG_ = input.readBool();
+              dBPHFOKBNCP_ = input.readBool();
               break;
             }
             case 80: {
 
-              hGKPAMDOJFG_ = input.readBool();
+              oEMKCENFMIM_ = input.readBool();
               break;
             }
             case 88: {
 
-              kDPFLFOPIIJ_ = input.readBool();
+              entityId_ = input.readUInt32();
               break;
             }
             case 96: {
 
-              eCMCNFDKECN_ = input.readBool();
+              cCKKABKJJGP_ = input.readBool();
               break;
             }
-            case 104: {
-
-              cIHGJJLNFIN_ = input.readBool();
-              break;
-            }
-            case 114: {
+            case 106: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (focusForward_ != null) {
                 subBuilder = focusForward_.toBuilder();
@@ -242,7 +232,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
             }
             case 120: {
 
-              gBNJBNONIGC_ = input.readBool();
+              pBHFFGHHPMA_ = input.readBool();
               break;
             }
             default: {
@@ -277,10 +267,10 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
               emu.grasscutter.net.proto.EvtAvatarEnterFocusNotifyOuterClass.EvtAvatarEnterFocusNotify.class, emu.grasscutter.net.proto.EvtAvatarEnterFocusNotifyOuterClass.EvtAvatarEnterFocusNotify.Builder.class);
     }
 
-    public static final int FOCUS_FORWARD_FIELD_NUMBER = 14;
+    public static final int FOCUS_FORWARD_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector focusForward_;
     /**
-     * <code>.Vector focus_forward = 14;</code>
+     * <code>.Vector focus_forward = 13;</code>
      * @return Whether the focusForward field is set.
      */
     @java.lang.Override
@@ -288,7 +278,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       return focusForward_ != null;
     }
     /**
-     * <code>.Vector focus_forward = 14;</code>
+     * <code>.Vector focus_forward = 13;</code>
      * @return The focusForward.
      */
     @java.lang.Override
@@ -296,69 +286,25 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       return focusForward_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : focusForward_;
     }
     /**
-     * <code>.Vector focus_forward = 14;</code>
+     * <code>.Vector focus_forward = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFocusForwardOrBuilder() {
       return getFocusForward();
     }
 
-    public static final int KDPFLFOPIIJ_FIELD_NUMBER = 11;
-    private boolean kDPFLFOPIIJ_;
-    /**
-     * <code>bool KDPFLFOPIIJ = 11;</code>
-     * @return The kDPFLFOPIIJ.
-     */
-    @java.lang.Override
-    public boolean getKDPFLFOPIIJ() {
-      return kDPFLFOPIIJ_;
-    }
-
-    public static final int AKBIIAHOHLB_FIELD_NUMBER = 7;
-    private boolean aKBIIAHOHLB_;
-    /**
-     * <code>bool AKBIIAHOHLB = 7;</code>
-     * @return The aKBIIAHOHLB.
-     */
-    @java.lang.Override
-    public boolean getAKBIIAHOHLB() {
-      return aKBIIAHOHLB_;
-    }
-
-    public static final int HGKPAMDOJFG_FIELD_NUMBER = 10;
-    private boolean hGKPAMDOJFG_;
-    /**
-     * <code>bool HGKPAMDOJFG = 10;</code>
-     * @return The hGKPAMDOJFG.
-     */
-    @java.lang.Override
-    public boolean getHGKPAMDOJFG() {
-      return hGKPAMDOJFG_;
-    }
-
-    public static final int ECMCNFDKECN_FIELD_NUMBER = 12;
-    private boolean eCMCNFDKECN_;
-    /**
-     * <code>bool ECMCNFDKECN = 12;</code>
-     * @return The eCMCNFDKECN.
-     */
-    @java.lang.Override
-    public boolean getECMCNFDKECN() {
-      return eCMCNFDKECN_;
-    }
-
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 6;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 3;
     private int forwardType_;
     /**
-     * <code>.ForwardType forward_type = 6;</code>
-     * @return The enum numeric value on the wire for forwardType.
+     * <code>.ForwardType forward_type = 3;</code>
+     * @return The enum numeric value on the wire for ForwardType.ForwardType_
      */
     @java.lang.Override public int getForwardTypeValue() {
       return forwardType_;
     }
     /**
-     * <code>.ForwardType forward_type = 6;</code>
-     * @return The forwardType.
+     * <code>.ForwardType forward_type = 3;</code>
+     * @return The ForwardType.ForwardType_
      */
     @java.lang.Override public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
       @SuppressWarnings("deprecation")
@@ -366,21 +312,32 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
     }
 
-    public static final int NOGNKKJAIJC_FIELD_NUMBER = 3;
-    private int nOGNKKJAIJC_;
+    public static final int CCKKABKJJGP_FIELD_NUMBER = 12;
+    private boolean cCKKABKJJGP_;
     /**
-     * <code>int32 NOGNKKJAIJC = 3;</code>
-     * @return The nOGNKKJAIJC.
+     * <code>bool CCKKABKJJGP = 12;</code>
+     * @return The cCKKABKJJGP.
      */
     @java.lang.Override
-    public int getNOGNKKJAIJC() {
-      return nOGNKKJAIJC_;
+    public boolean getCCKKABKJJGP() {
+      return cCKKABKJJGP_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 8;
+    public static final int MDMOIMDCOPF_FIELD_NUMBER = 7;
+    private boolean mDMOIMDCOPF_;
+    /**
+     * <code>bool MDMOIMDCOPF = 7;</code>
+     * @return The mDMOIMDCOPF.
+     */
+    @java.lang.Override
+    public boolean getMDMOIMDCOPF() {
+      return mDMOIMDCOPF_;
+    }
+
+    public static final int ENTITY_ID_FIELD_NUMBER = 11;
     private int entityId_;
     /**
-     * <code>uint32 entity_id = 8;</code>
+     * <code>uint32 entity_id = 11;</code>
      * @return The entityId.
      */
     @java.lang.Override
@@ -388,70 +345,92 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int DJGHAHJAILG_FIELD_NUMBER = 9;
-    private boolean dJGHAHJAILG_;
+    public static final int MCNECDNCLCJ_FIELD_NUMBER = 1;
+    private boolean mCNECDNCLCJ_;
     /**
-     * <code>bool DJGHAHJAILG = 9;</code>
-     * @return The dJGHAHJAILG.
+     * <code>bool MCNECDNCLCJ = 1;</code>
+     * @return The mCNECDNCLCJ.
      */
     @java.lang.Override
-    public boolean getDJGHAHJAILG() {
-      return dJGHAHJAILG_;
+    public boolean getMCNECDNCLCJ() {
+      return mCNECDNCLCJ_;
     }
 
-    public static final int OOGEIOCDENJ_FIELD_NUMBER = 2;
-    private boolean oOGEIOCDENJ_;
+    public static final int GMLEBIHPOKD_FIELD_NUMBER = 5;
+    private boolean gMLEBIHPOKD_;
     /**
-     * <code>bool OOGEIOCDENJ = 2;</code>
-     * @return The oOGEIOCDENJ.
+     * <code>bool GMLEBIHPOKD = 5;</code>
+     * @return The gMLEBIHPOKD.
      */
     @java.lang.Override
-    public boolean getOOGEIOCDENJ() {
-      return oOGEIOCDENJ_;
+    public boolean getGMLEBIHPOKD() {
+      return gMLEBIHPOKD_;
     }
 
-    public static final int CIHGJJLNFIN_FIELD_NUMBER = 13;
-    private boolean cIHGJJLNFIN_;
+    public static final int OGOLKMLFFHE_FIELD_NUMBER = 2;
+    private boolean oGOLKMLFFHE_;
     /**
-     * <code>bool CIHGJJLNFIN = 13;</code>
-     * @return The cIHGJJLNFIN.
+     * <code>bool OGOLKMLFFHE = 2;</code>
+     * @return The oGOLKMLFFHE.
      */
     @java.lang.Override
-    public boolean getCIHGJJLNFIN() {
-      return cIHGJJLNFIN_;
+    public boolean getOGOLKMLFFHE() {
+      return oGOLKMLFFHE_;
     }
 
-    public static final int GBEEOHGICAN_FIELD_NUMBER = 1;
-    private boolean gBEEOHGICAN_;
+    public static final int OEMKCENFMIM_FIELD_NUMBER = 10;
+    private boolean oEMKCENFMIM_;
     /**
-     * <code>bool GBEEOHGICAN = 1;</code>
-     * @return The gBEEOHGICAN.
+     * <code>bool OEMKCENFMIM = 10;</code>
+     * @return The oEMKCENFMIM.
      */
     @java.lang.Override
-    public boolean getGBEEOHGICAN() {
-      return gBEEOHGICAN_;
+    public boolean getOEMKCENFMIM() {
+      return oEMKCENFMIM_;
     }
 
-    public static final int GBNJBNONIGC_FIELD_NUMBER = 15;
-    private boolean gBNJBNONIGC_;
+    public static final int DBPHFOKBNCP_FIELD_NUMBER = 9;
+    private boolean dBPHFOKBNCP_;
     /**
-     * <code>bool GBNJBNONIGC = 15;</code>
-     * @return The gBNJBNONIGC.
+     * <code>bool DBPHFOKBNCP = 9;</code>
+     * @return The dBPHFOKBNCP.
      */
     @java.lang.Override
-    public boolean getGBNJBNONIGC() {
-      return gBNJBNONIGC_;
+    public boolean getDBPHFOKBNCP() {
+      return dBPHFOKBNCP_;
     }
 
-    public static final int MOIKANDJPMJ_FIELD_NUMBER = 4;
-    private boolean mOIKANDJPMJ_;
+    public static final int PBHFFGHHPMA_FIELD_NUMBER = 15;
+    private boolean pBHFFGHHPMA_;
     /**
-     * <code>bool MOIKANDJPMJ = 4;</code>
-     * @return The mOIKANDJPMJ.
+     * <code>bool PBHFFGHHPMA = 15;</code>
+     * @return The pBHFFGHHPMA.
      */
     @java.lang.Override
-    public boolean getMOIKANDJPMJ() {
-      return mOIKANDJPMJ_;
+    public boolean getPBHFFGHHPMA() {
+      return pBHFFGHHPMA_;
+    }
+
+    public static final int EGBLCMOLOMC_FIELD_NUMBER = 8;
+    private boolean eGBLCMOLOMC_;
+    /**
+     * <code>bool EGBLCMOLOMC = 8;</code>
+     * @return The eGBLCMOLOMC.
+     */
+    @java.lang.Override
+    public boolean getEGBLCMOLOMC() {
+      return eGBLCMOLOMC_;
+    }
+
+    public static final int NACMCGNGDLN_FIELD_NUMBER = 6;
+    private boolean nACMCGNGDLN_;
+    /**
+     * <code>bool NACMCGNGDLN = 6;</code>
+     * @return The nACMCGNGDLN.
+     */
+    @java.lang.Override
+    public boolean getNACMCGNGDLN() {
+      return nACMCGNGDLN_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -468,47 +447,44 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (gBEEOHGICAN_ != false) {
-        output.writeBool(1, gBEEOHGICAN_);
+      if (mCNECDNCLCJ_ != false) {
+        output.writeBool(1, mCNECDNCLCJ_);
       }
-      if (oOGEIOCDENJ_ != false) {
-        output.writeBool(2, oOGEIOCDENJ_);
+      if (oGOLKMLFFHE_ != false) {
+        output.writeBool(2, oGOLKMLFFHE_);
       }
-      if (nOGNKKJAIJC_ != 0) {
-        output.writeInt32(3, nOGNKKJAIJC_);
+      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
+        output.writeEnum(3, forwardType_);
       }
-      if (mOIKANDJPMJ_ != false) {
-        output.writeBool(4, mOIKANDJPMJ_);
+      if (gMLEBIHPOKD_ != false) {
+        output.writeBool(5, gMLEBIHPOKD_);
       }
-      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.FORWARD_TYPE_LOCAL.getNumber()) {
-        output.writeEnum(6, forwardType_);
+      if (nACMCGNGDLN_ != false) {
+        output.writeBool(6, nACMCGNGDLN_);
       }
-      if (aKBIIAHOHLB_ != false) {
-        output.writeBool(7, aKBIIAHOHLB_);
+      if (mDMOIMDCOPF_ != false) {
+        output.writeBool(7, mDMOIMDCOPF_);
+      }
+      if (eGBLCMOLOMC_ != false) {
+        output.writeBool(8, eGBLCMOLOMC_);
+      }
+      if (dBPHFOKBNCP_ != false) {
+        output.writeBool(9, dBPHFOKBNCP_);
+      }
+      if (oEMKCENFMIM_ != false) {
+        output.writeBool(10, oEMKCENFMIM_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(8, entityId_);
+        output.writeUInt32(11, entityId_);
       }
-      if (dJGHAHJAILG_ != false) {
-        output.writeBool(9, dJGHAHJAILG_);
-      }
-      if (hGKPAMDOJFG_ != false) {
-        output.writeBool(10, hGKPAMDOJFG_);
-      }
-      if (kDPFLFOPIIJ_ != false) {
-        output.writeBool(11, kDPFLFOPIIJ_);
-      }
-      if (eCMCNFDKECN_ != false) {
-        output.writeBool(12, eCMCNFDKECN_);
-      }
-      if (cIHGJJLNFIN_ != false) {
-        output.writeBool(13, cIHGJJLNFIN_);
+      if (cCKKABKJJGP_ != false) {
+        output.writeBool(12, cCKKABKJJGP_);
       }
       if (focusForward_ != null) {
-        output.writeMessage(14, getFocusForward());
+        output.writeMessage(13, getFocusForward());
       }
-      if (gBNJBNONIGC_ != false) {
-        output.writeBool(15, gBNJBNONIGC_);
+      if (pBHFFGHHPMA_ != false) {
+        output.writeBool(15, pBHFFGHHPMA_);
       }
       unknownFields.writeTo(output);
     }
@@ -519,61 +495,57 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (gBEEOHGICAN_ != false) {
+      if (mCNECDNCLCJ_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, gBEEOHGICAN_);
+          .computeBoolSize(1, mCNECDNCLCJ_);
       }
-      if (oOGEIOCDENJ_ != false) {
+      if (oGOLKMLFFHE_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, oOGEIOCDENJ_);
+          .computeBoolSize(2, oGOLKMLFFHE_);
       }
-      if (nOGNKKJAIJC_ != 0) {
+      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, nOGNKKJAIJC_);
+          .computeEnumSize(3, forwardType_);
       }
-      if (mOIKANDJPMJ_ != false) {
+      if (gMLEBIHPOKD_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, mOIKANDJPMJ_);
+          .computeBoolSize(5, gMLEBIHPOKD_);
       }
-      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.FORWARD_TYPE_LOCAL.getNumber()) {
+      if (nACMCGNGDLN_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(6, forwardType_);
+          .computeBoolSize(6, nACMCGNGDLN_);
       }
-      if (aKBIIAHOHLB_ != false) {
+      if (mDMOIMDCOPF_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, aKBIIAHOHLB_);
+          .computeBoolSize(7, mDMOIMDCOPF_);
+      }
+      if (eGBLCMOLOMC_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(8, eGBLCMOLOMC_);
+      }
+      if (dBPHFOKBNCP_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, dBPHFOKBNCP_);
+      }
+      if (oEMKCENFMIM_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(10, oEMKCENFMIM_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, entityId_);
+          .computeUInt32Size(11, entityId_);
       }
-      if (dJGHAHJAILG_ != false) {
+      if (cCKKABKJJGP_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, dJGHAHJAILG_);
-      }
-      if (hGKPAMDOJFG_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, hGKPAMDOJFG_);
-      }
-      if (kDPFLFOPIIJ_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, kDPFLFOPIIJ_);
-      }
-      if (eCMCNFDKECN_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, eCMCNFDKECN_);
-      }
-      if (cIHGJJLNFIN_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, cIHGJJLNFIN_);
+          .computeBoolSize(12, cCKKABKJJGP_);
       }
       if (focusForward_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, getFocusForward());
+          .computeMessageSize(13, getFocusForward());
       }
-      if (gBNJBNONIGC_ != false) {
+      if (pBHFFGHHPMA_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, gBNJBNONIGC_);
+          .computeBoolSize(15, pBHFFGHHPMA_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -595,31 +567,29 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         if (!getFocusForward()
             .equals(other.getFocusForward())) return false;
       }
-      if (getKDPFLFOPIIJ()
-          != other.getKDPFLFOPIIJ()) return false;
-      if (getAKBIIAHOHLB()
-          != other.getAKBIIAHOHLB()) return false;
-      if (getHGKPAMDOJFG()
-          != other.getHGKPAMDOJFG()) return false;
-      if (getECMCNFDKECN()
-          != other.getECMCNFDKECN()) return false;
       if (forwardType_ != other.forwardType_) return false;
-      if (getNOGNKKJAIJC()
-          != other.getNOGNKKJAIJC()) return false;
+      if (getCCKKABKJJGP()
+          != other.getCCKKABKJJGP()) return false;
+      if (getMDMOIMDCOPF()
+          != other.getMDMOIMDCOPF()) return false;
       if (getEntityId()
           != other.getEntityId()) return false;
-      if (getDJGHAHJAILG()
-          != other.getDJGHAHJAILG()) return false;
-      if (getOOGEIOCDENJ()
-          != other.getOOGEIOCDENJ()) return false;
-      if (getCIHGJJLNFIN()
-          != other.getCIHGJJLNFIN()) return false;
-      if (getGBEEOHGICAN()
-          != other.getGBEEOHGICAN()) return false;
-      if (getGBNJBNONIGC()
-          != other.getGBNJBNONIGC()) return false;
-      if (getMOIKANDJPMJ()
-          != other.getMOIKANDJPMJ()) return false;
+      if (getMCNECDNCLCJ()
+          != other.getMCNECDNCLCJ()) return false;
+      if (getGMLEBIHPOKD()
+          != other.getGMLEBIHPOKD()) return false;
+      if (getOGOLKMLFFHE()
+          != other.getOGOLKMLFFHE()) return false;
+      if (getOEMKCENFMIM()
+          != other.getOEMKCENFMIM()) return false;
+      if (getDBPHFOKBNCP()
+          != other.getDBPHFOKBNCP()) return false;
+      if (getPBHFFGHHPMA()
+          != other.getPBHFFGHHPMA()) return false;
+      if (getEGBLCMOLOMC()
+          != other.getEGBLCMOLOMC()) return false;
+      if (getNACMCGNGDLN()
+          != other.getNACMCGNGDLN()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -635,42 +605,40 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         hash = (37 * hash) + FOCUS_FORWARD_FIELD_NUMBER;
         hash = (53 * hash) + getFocusForward().hashCode();
       }
-      hash = (37 * hash) + KDPFLFOPIIJ_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getKDPFLFOPIIJ());
-      hash = (37 * hash) + AKBIIAHOHLB_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getAKBIIAHOHLB());
-      hash = (37 * hash) + HGKPAMDOJFG_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getHGKPAMDOJFG());
-      hash = (37 * hash) + ECMCNFDKECN_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getECMCNFDKECN());
       hash = (37 * hash) + FORWARD_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + forwardType_;
-      hash = (37 * hash) + NOGNKKJAIJC_FIELD_NUMBER;
-      hash = (53 * hash) + getNOGNKKJAIJC();
+      hash = (37 * hash) + CCKKABKJJGP_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getCCKKABKJJGP());
+      hash = (37 * hash) + MDMOIMDCOPF_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getMDMOIMDCOPF());
       hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getEntityId();
-      hash = (37 * hash) + DJGHAHJAILG_FIELD_NUMBER;
+      hash = (37 * hash) + MCNECDNCLCJ_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getDJGHAHJAILG());
-      hash = (37 * hash) + OOGEIOCDENJ_FIELD_NUMBER;
+          getMCNECDNCLCJ());
+      hash = (37 * hash) + GMLEBIHPOKD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getOOGEIOCDENJ());
-      hash = (37 * hash) + CIHGJJLNFIN_FIELD_NUMBER;
+          getGMLEBIHPOKD());
+      hash = (37 * hash) + OGOLKMLFFHE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getCIHGJJLNFIN());
-      hash = (37 * hash) + GBEEOHGICAN_FIELD_NUMBER;
+          getOGOLKMLFFHE());
+      hash = (37 * hash) + OEMKCENFMIM_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getGBEEOHGICAN());
-      hash = (37 * hash) + GBNJBNONIGC_FIELD_NUMBER;
+          getOEMKCENFMIM());
+      hash = (37 * hash) + DBPHFOKBNCP_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getGBNJBNONIGC());
-      hash = (37 * hash) + MOIKANDJPMJ_FIELD_NUMBER;
+          getDBPHFOKBNCP());
+      hash = (37 * hash) + PBHFFGHHPMA_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getMOIKANDJPMJ());
+          getPBHFFGHHPMA());
+      hash = (37 * hash) + EGBLCMOLOMC_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getEGBLCMOLOMC());
+      hash = (37 * hash) + NACMCGNGDLN_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getNACMCGNGDLN());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -768,7 +736,8 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 29028
+     * CmdId: 20643
+     * Obf: CMOGIHEMPNF
      * </pre>
      *
      * Protobuf type {@code EvtAvatarEnterFocusNotify}
@@ -814,31 +783,29 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
           focusForward_ = null;
           focusForwardBuilder_ = null;
         }
-        kDPFLFOPIIJ_ = false;
-
-        aKBIIAHOHLB_ = false;
-
-        hGKPAMDOJFG_ = false;
-
-        eCMCNFDKECN_ = false;
-
         forwardType_ = 0;
 
-        nOGNKKJAIJC_ = 0;
+        cCKKABKJJGP_ = false;
+
+        mDMOIMDCOPF_ = false;
 
         entityId_ = 0;
 
-        dJGHAHJAILG_ = false;
+        mCNECDNCLCJ_ = false;
 
-        oOGEIOCDENJ_ = false;
+        gMLEBIHPOKD_ = false;
 
-        cIHGJJLNFIN_ = false;
+        oGOLKMLFFHE_ = false;
 
-        gBEEOHGICAN_ = false;
+        oEMKCENFMIM_ = false;
 
-        gBNJBNONIGC_ = false;
+        dBPHFOKBNCP_ = false;
 
-        mOIKANDJPMJ_ = false;
+        pBHFFGHHPMA_ = false;
+
+        eGBLCMOLOMC_ = false;
+
+        nACMCGNGDLN_ = false;
 
         return this;
       }
@@ -871,19 +838,18 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         } else {
           result.focusForward_ = focusForwardBuilder_.build();
         }
-        result.kDPFLFOPIIJ_ = kDPFLFOPIIJ_;
-        result.aKBIIAHOHLB_ = aKBIIAHOHLB_;
-        result.hGKPAMDOJFG_ = hGKPAMDOJFG_;
-        result.eCMCNFDKECN_ = eCMCNFDKECN_;
         result.forwardType_ = forwardType_;
-        result.nOGNKKJAIJC_ = nOGNKKJAIJC_;
+        result.cCKKABKJJGP_ = cCKKABKJJGP_;
+        result.mDMOIMDCOPF_ = mDMOIMDCOPF_;
         result.entityId_ = entityId_;
-        result.dJGHAHJAILG_ = dJGHAHJAILG_;
-        result.oOGEIOCDENJ_ = oOGEIOCDENJ_;
-        result.cIHGJJLNFIN_ = cIHGJJLNFIN_;
-        result.gBEEOHGICAN_ = gBEEOHGICAN_;
-        result.gBNJBNONIGC_ = gBNJBNONIGC_;
-        result.mOIKANDJPMJ_ = mOIKANDJPMJ_;
+        result.mCNECDNCLCJ_ = mCNECDNCLCJ_;
+        result.gMLEBIHPOKD_ = gMLEBIHPOKD_;
+        result.oGOLKMLFFHE_ = oGOLKMLFFHE_;
+        result.oEMKCENFMIM_ = oEMKCENFMIM_;
+        result.dBPHFOKBNCP_ = dBPHFOKBNCP_;
+        result.pBHFFGHHPMA_ = pBHFFGHHPMA_;
+        result.eGBLCMOLOMC_ = eGBLCMOLOMC_;
+        result.nACMCGNGDLN_ = nACMCGNGDLN_;
         onBuilt();
         return result;
       }
@@ -935,44 +901,41 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         if (other.hasFocusForward()) {
           mergeFocusForward(other.getFocusForward());
         }
-        if (other.getKDPFLFOPIIJ() != false) {
-          setKDPFLFOPIIJ(other.getKDPFLFOPIIJ());
-        }
-        if (other.getAKBIIAHOHLB() != false) {
-          setAKBIIAHOHLB(other.getAKBIIAHOHLB());
-        }
-        if (other.getHGKPAMDOJFG() != false) {
-          setHGKPAMDOJFG(other.getHGKPAMDOJFG());
-        }
-        if (other.getECMCNFDKECN() != false) {
-          setECMCNFDKECN(other.getECMCNFDKECN());
-        }
         if (other.forwardType_ != 0) {
           setForwardTypeValue(other.getForwardTypeValue());
         }
-        if (other.getNOGNKKJAIJC() != 0) {
-          setNOGNKKJAIJC(other.getNOGNKKJAIJC());
+        if (other.getCCKKABKJJGP() != false) {
+          setCCKKABKJJGP(other.getCCKKABKJJGP());
+        }
+        if (other.getMDMOIMDCOPF() != false) {
+          setMDMOIMDCOPF(other.getMDMOIMDCOPF());
         }
         if (other.getEntityId() != 0) {
           setEntityId(other.getEntityId());
         }
-        if (other.getDJGHAHJAILG() != false) {
-          setDJGHAHJAILG(other.getDJGHAHJAILG());
+        if (other.getMCNECDNCLCJ() != false) {
+          setMCNECDNCLCJ(other.getMCNECDNCLCJ());
         }
-        if (other.getOOGEIOCDENJ() != false) {
-          setOOGEIOCDENJ(other.getOOGEIOCDENJ());
+        if (other.getGMLEBIHPOKD() != false) {
+          setGMLEBIHPOKD(other.getGMLEBIHPOKD());
         }
-        if (other.getCIHGJJLNFIN() != false) {
-          setCIHGJJLNFIN(other.getCIHGJJLNFIN());
+        if (other.getOGOLKMLFFHE() != false) {
+          setOGOLKMLFFHE(other.getOGOLKMLFFHE());
         }
-        if (other.getGBEEOHGICAN() != false) {
-          setGBEEOHGICAN(other.getGBEEOHGICAN());
+        if (other.getOEMKCENFMIM() != false) {
+          setOEMKCENFMIM(other.getOEMKCENFMIM());
         }
-        if (other.getGBNJBNONIGC() != false) {
-          setGBNJBNONIGC(other.getGBNJBNONIGC());
+        if (other.getDBPHFOKBNCP() != false) {
+          setDBPHFOKBNCP(other.getDBPHFOKBNCP());
         }
-        if (other.getMOIKANDJPMJ() != false) {
-          setMOIKANDJPMJ(other.getMOIKANDJPMJ());
+        if (other.getPBHFFGHHPMA() != false) {
+          setPBHFFGHHPMA(other.getPBHFFGHHPMA());
+        }
+        if (other.getEGBLCMOLOMC() != false) {
+          setEGBLCMOLOMC(other.getEGBLCMOLOMC());
+        }
+        if (other.getNACMCGNGDLN() != false) {
+          setNACMCGNGDLN(other.getNACMCGNGDLN());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1007,14 +970,14 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> focusForwardBuilder_;
       /**
-       * <code>.Vector focus_forward = 14;</code>
+       * <code>.Vector focus_forward = 13;</code>
        * @return Whether the focusForward field is set.
        */
       public boolean hasFocusForward() {
         return focusForwardBuilder_ != null || focusForward_ != null;
       }
       /**
-       * <code>.Vector focus_forward = 14;</code>
+       * <code>.Vector focus_forward = 13;</code>
        * @return The focusForward.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getFocusForward() {
@@ -1025,7 +988,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         }
       }
       /**
-       * <code>.Vector focus_forward = 14;</code>
+       * <code>.Vector focus_forward = 13;</code>
        */
       public Builder setFocusForward(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (focusForwardBuilder_ == null) {
@@ -1041,7 +1004,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector focus_forward = 14;</code>
+       * <code>.Vector focus_forward = 13;</code>
        */
       public Builder setFocusForward(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -1055,7 +1018,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector focus_forward = 14;</code>
+       * <code>.Vector focus_forward = 13;</code>
        */
       public Builder mergeFocusForward(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (focusForwardBuilder_ == null) {
@@ -1073,7 +1036,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector focus_forward = 14;</code>
+       * <code>.Vector focus_forward = 13;</code>
        */
       public Builder clearFocusForward() {
         if (focusForwardBuilder_ == null) {
@@ -1087,15 +1050,15 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector focus_forward = 14;</code>
+       * <code>.Vector focus_forward = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getFocusForwardBuilder() {
-        
+
         onChanged();
         return getFocusForwardFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector focus_forward = 14;</code>
+       * <code>.Vector focus_forward = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFocusForwardOrBuilder() {
         if (focusForwardBuilder_ != null) {
@@ -1106,10 +1069,10 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         }
       }
       /**
-       * <code>.Vector focus_forward = 14;</code>
+       * <code>.Vector focus_forward = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getFocusForwardFieldBuilder() {
         if (focusForwardBuilder_ == null) {
           focusForwardBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1122,152 +1085,28 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         return focusForwardBuilder_;
       }
 
-      private boolean kDPFLFOPIIJ_ ;
-      /**
-       * <code>bool KDPFLFOPIIJ = 11;</code>
-       * @return The kDPFLFOPIIJ.
-       */
-      @java.lang.Override
-      public boolean getKDPFLFOPIIJ() {
-        return kDPFLFOPIIJ_;
-      }
-      /**
-       * <code>bool KDPFLFOPIIJ = 11;</code>
-       * @param value The kDPFLFOPIIJ to set.
-       * @return This builder for chaining.
-       */
-      public Builder setKDPFLFOPIIJ(boolean value) {
-        
-        kDPFLFOPIIJ_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool KDPFLFOPIIJ = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearKDPFLFOPIIJ() {
-        
-        kDPFLFOPIIJ_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean aKBIIAHOHLB_ ;
-      /**
-       * <code>bool AKBIIAHOHLB = 7;</code>
-       * @return The aKBIIAHOHLB.
-       */
-      @java.lang.Override
-      public boolean getAKBIIAHOHLB() {
-        return aKBIIAHOHLB_;
-      }
-      /**
-       * <code>bool AKBIIAHOHLB = 7;</code>
-       * @param value The aKBIIAHOHLB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAKBIIAHOHLB(boolean value) {
-        
-        aKBIIAHOHLB_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool AKBIIAHOHLB = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAKBIIAHOHLB() {
-        
-        aKBIIAHOHLB_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean hGKPAMDOJFG_ ;
-      /**
-       * <code>bool HGKPAMDOJFG = 10;</code>
-       * @return The hGKPAMDOJFG.
-       */
-      @java.lang.Override
-      public boolean getHGKPAMDOJFG() {
-        return hGKPAMDOJFG_;
-      }
-      /**
-       * <code>bool HGKPAMDOJFG = 10;</code>
-       * @param value The hGKPAMDOJFG to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHGKPAMDOJFG(boolean value) {
-        
-        hGKPAMDOJFG_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool HGKPAMDOJFG = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHGKPAMDOJFG() {
-        
-        hGKPAMDOJFG_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean eCMCNFDKECN_ ;
-      /**
-       * <code>bool ECMCNFDKECN = 12;</code>
-       * @return The eCMCNFDKECN.
-       */
-      @java.lang.Override
-      public boolean getECMCNFDKECN() {
-        return eCMCNFDKECN_;
-      }
-      /**
-       * <code>bool ECMCNFDKECN = 12;</code>
-       * @param value The eCMCNFDKECN to set.
-       * @return This builder for chaining.
-       */
-      public Builder setECMCNFDKECN(boolean value) {
-        
-        eCMCNFDKECN_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool ECMCNFDKECN = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearECMCNFDKECN() {
-        
-        eCMCNFDKECN_ = false;
-        onChanged();
-        return this;
-      }
-
       private int forwardType_ = 0;
       /**
-       * <code>.ForwardType forward_type = 6;</code>
-       * @return The enum numeric value on the wire for forwardType.
+       * <code>.ForwardType forward_type = 3;</code>
+       * @return The enum numeric value on the wire for ForwardType.ForwardType_
        */
       @java.lang.Override public int getForwardTypeValue() {
         return forwardType_;
       }
       /**
-       * <code>.ForwardType forward_type = 6;</code>
+       * <code>.ForwardType forward_type = 3;</code>
        * @param value The enum numeric value on the wire for forwardType to set.
        * @return This builder for chaining.
        */
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>.ForwardType forward_type = 6;</code>
-       * @return The forwardType.
+       * <code>.ForwardType forward_type = 3;</code>
+       * @return The ForwardType.ForwardType_
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
@@ -1276,7 +1115,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.ForwardType forward_type = 6;</code>
+       * <code>.ForwardType forward_type = 3;</code>
        * @param value The forwardType to set.
        * @return This builder for chaining.
        */
@@ -1284,56 +1123,87 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>.ForwardType forward_type = 6;</code>
+       * <code>.ForwardType forward_type = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
       }
 
-      private int nOGNKKJAIJC_ ;
+      private boolean cCKKABKJJGP_ ;
       /**
-       * <code>int32 NOGNKKJAIJC = 3;</code>
-       * @return The nOGNKKJAIJC.
+       * <code>bool CCKKABKJJGP = 12;</code>
+       * @return The cCKKABKJJGP.
        */
       @java.lang.Override
-      public int getNOGNKKJAIJC() {
-        return nOGNKKJAIJC_;
+      public boolean getCCKKABKJJGP() {
+        return cCKKABKJJGP_;
       }
       /**
-       * <code>int32 NOGNKKJAIJC = 3;</code>
-       * @param value The nOGNKKJAIJC to set.
+       * <code>bool CCKKABKJJGP = 12;</code>
+       * @param value The cCKKABKJJGP to set.
        * @return This builder for chaining.
        */
-      public Builder setNOGNKKJAIJC(int value) {
-        
-        nOGNKKJAIJC_ = value;
+      public Builder setCCKKABKJJGP(boolean value) {
+
+        cCKKABKJJGP_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>int32 NOGNKKJAIJC = 3;</code>
+       * <code>bool CCKKABKJJGP = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNOGNKKJAIJC() {
-        
-        nOGNKKJAIJC_ = 0;
+      public Builder clearCCKKABKJJGP() {
+
+        cCKKABKJJGP_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean mDMOIMDCOPF_ ;
+      /**
+       * <code>bool MDMOIMDCOPF = 7;</code>
+       * @return The mDMOIMDCOPF.
+       */
+      @java.lang.Override
+      public boolean getMDMOIMDCOPF() {
+        return mDMOIMDCOPF_;
+      }
+      /**
+       * <code>bool MDMOIMDCOPF = 7;</code>
+       * @param value The mDMOIMDCOPF to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMDMOIMDCOPF(boolean value) {
+
+        mDMOIMDCOPF_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool MDMOIMDCOPF = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMDMOIMDCOPF() {
+
+        mDMOIMDCOPF_ = false;
         onChanged();
         return this;
       }
 
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 8;</code>
+       * <code>uint32 entity_id = 11;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -1341,209 +1211,271 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 8;</code>
+       * <code>uint32 entity_id = 11;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 entity_id = 8;</code>
+       * <code>uint32 entity_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean dJGHAHJAILG_ ;
+      private boolean mCNECDNCLCJ_ ;
       /**
-       * <code>bool DJGHAHJAILG = 9;</code>
-       * @return The dJGHAHJAILG.
+       * <code>bool MCNECDNCLCJ = 1;</code>
+       * @return The mCNECDNCLCJ.
        */
       @java.lang.Override
-      public boolean getDJGHAHJAILG() {
-        return dJGHAHJAILG_;
+      public boolean getMCNECDNCLCJ() {
+        return mCNECDNCLCJ_;
       }
       /**
-       * <code>bool DJGHAHJAILG = 9;</code>
-       * @param value The dJGHAHJAILG to set.
+       * <code>bool MCNECDNCLCJ = 1;</code>
+       * @param value The mCNECDNCLCJ to set.
        * @return This builder for chaining.
        */
-      public Builder setDJGHAHJAILG(boolean value) {
-        
-        dJGHAHJAILG_ = value;
+      public Builder setMCNECDNCLCJ(boolean value) {
+
+        mCNECDNCLCJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool DJGHAHJAILG = 9;</code>
+       * <code>bool MCNECDNCLCJ = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDJGHAHJAILG() {
-        
-        dJGHAHJAILG_ = false;
+      public Builder clearMCNECDNCLCJ() {
+
+        mCNECDNCLCJ_ = false;
         onChanged();
         return this;
       }
 
-      private boolean oOGEIOCDENJ_ ;
+      private boolean gMLEBIHPOKD_ ;
       /**
-       * <code>bool OOGEIOCDENJ = 2;</code>
-       * @return The oOGEIOCDENJ.
+       * <code>bool GMLEBIHPOKD = 5;</code>
+       * @return The gMLEBIHPOKD.
        */
       @java.lang.Override
-      public boolean getOOGEIOCDENJ() {
-        return oOGEIOCDENJ_;
+      public boolean getGMLEBIHPOKD() {
+        return gMLEBIHPOKD_;
       }
       /**
-       * <code>bool OOGEIOCDENJ = 2;</code>
-       * @param value The oOGEIOCDENJ to set.
+       * <code>bool GMLEBIHPOKD = 5;</code>
+       * @param value The gMLEBIHPOKD to set.
        * @return This builder for chaining.
        */
-      public Builder setOOGEIOCDENJ(boolean value) {
-        
-        oOGEIOCDENJ_ = value;
+      public Builder setGMLEBIHPOKD(boolean value) {
+
+        gMLEBIHPOKD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool OOGEIOCDENJ = 2;</code>
+       * <code>bool GMLEBIHPOKD = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearOOGEIOCDENJ() {
-        
-        oOGEIOCDENJ_ = false;
+      public Builder clearGMLEBIHPOKD() {
+
+        gMLEBIHPOKD_ = false;
         onChanged();
         return this;
       }
 
-      private boolean cIHGJJLNFIN_ ;
+      private boolean oGOLKMLFFHE_ ;
       /**
-       * <code>bool CIHGJJLNFIN = 13;</code>
-       * @return The cIHGJJLNFIN.
+       * <code>bool OGOLKMLFFHE = 2;</code>
+       * @return The oGOLKMLFFHE.
        */
       @java.lang.Override
-      public boolean getCIHGJJLNFIN() {
-        return cIHGJJLNFIN_;
+      public boolean getOGOLKMLFFHE() {
+        return oGOLKMLFFHE_;
       }
       /**
-       * <code>bool CIHGJJLNFIN = 13;</code>
-       * @param value The cIHGJJLNFIN to set.
+       * <code>bool OGOLKMLFFHE = 2;</code>
+       * @param value The oGOLKMLFFHE to set.
        * @return This builder for chaining.
        */
-      public Builder setCIHGJJLNFIN(boolean value) {
-        
-        cIHGJJLNFIN_ = value;
+      public Builder setOGOLKMLFFHE(boolean value) {
+
+        oGOLKMLFFHE_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool CIHGJJLNFIN = 13;</code>
+       * <code>bool OGOLKMLFFHE = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCIHGJJLNFIN() {
-        
-        cIHGJJLNFIN_ = false;
+      public Builder clearOGOLKMLFFHE() {
+
+        oGOLKMLFFHE_ = false;
         onChanged();
         return this;
       }
 
-      private boolean gBEEOHGICAN_ ;
+      private boolean oEMKCENFMIM_ ;
       /**
-       * <code>bool GBEEOHGICAN = 1;</code>
-       * @return The gBEEOHGICAN.
+       * <code>bool OEMKCENFMIM = 10;</code>
+       * @return The oEMKCENFMIM.
        */
       @java.lang.Override
-      public boolean getGBEEOHGICAN() {
-        return gBEEOHGICAN_;
+      public boolean getOEMKCENFMIM() {
+        return oEMKCENFMIM_;
       }
       /**
-       * <code>bool GBEEOHGICAN = 1;</code>
-       * @param value The gBEEOHGICAN to set.
+       * <code>bool OEMKCENFMIM = 10;</code>
+       * @param value The oEMKCENFMIM to set.
        * @return This builder for chaining.
        */
-      public Builder setGBEEOHGICAN(boolean value) {
-        
-        gBEEOHGICAN_ = value;
+      public Builder setOEMKCENFMIM(boolean value) {
+
+        oEMKCENFMIM_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool GBEEOHGICAN = 1;</code>
+       * <code>bool OEMKCENFMIM = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGBEEOHGICAN() {
-        
-        gBEEOHGICAN_ = false;
+      public Builder clearOEMKCENFMIM() {
+
+        oEMKCENFMIM_ = false;
         onChanged();
         return this;
       }
 
-      private boolean gBNJBNONIGC_ ;
+      private boolean dBPHFOKBNCP_ ;
       /**
-       * <code>bool GBNJBNONIGC = 15;</code>
-       * @return The gBNJBNONIGC.
+       * <code>bool DBPHFOKBNCP = 9;</code>
+       * @return The dBPHFOKBNCP.
        */
       @java.lang.Override
-      public boolean getGBNJBNONIGC() {
-        return gBNJBNONIGC_;
+      public boolean getDBPHFOKBNCP() {
+        return dBPHFOKBNCP_;
       }
       /**
-       * <code>bool GBNJBNONIGC = 15;</code>
-       * @param value The gBNJBNONIGC to set.
+       * <code>bool DBPHFOKBNCP = 9;</code>
+       * @param value The dBPHFOKBNCP to set.
        * @return This builder for chaining.
        */
-      public Builder setGBNJBNONIGC(boolean value) {
-        
-        gBNJBNONIGC_ = value;
+      public Builder setDBPHFOKBNCP(boolean value) {
+
+        dBPHFOKBNCP_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool GBNJBNONIGC = 15;</code>
+       * <code>bool DBPHFOKBNCP = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGBNJBNONIGC() {
-        
-        gBNJBNONIGC_ = false;
+      public Builder clearDBPHFOKBNCP() {
+
+        dBPHFOKBNCP_ = false;
         onChanged();
         return this;
       }
 
-      private boolean mOIKANDJPMJ_ ;
+      private boolean pBHFFGHHPMA_ ;
       /**
-       * <code>bool MOIKANDJPMJ = 4;</code>
-       * @return The mOIKANDJPMJ.
+       * <code>bool PBHFFGHHPMA = 15;</code>
+       * @return The pBHFFGHHPMA.
        */
       @java.lang.Override
-      public boolean getMOIKANDJPMJ() {
-        return mOIKANDJPMJ_;
+      public boolean getPBHFFGHHPMA() {
+        return pBHFFGHHPMA_;
       }
       /**
-       * <code>bool MOIKANDJPMJ = 4;</code>
-       * @param value The mOIKANDJPMJ to set.
+       * <code>bool PBHFFGHHPMA = 15;</code>
+       * @param value The pBHFFGHHPMA to set.
        * @return This builder for chaining.
        */
-      public Builder setMOIKANDJPMJ(boolean value) {
-        
-        mOIKANDJPMJ_ = value;
+      public Builder setPBHFFGHHPMA(boolean value) {
+
+        pBHFFGHHPMA_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool MOIKANDJPMJ = 4;</code>
+       * <code>bool PBHFFGHHPMA = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMOIKANDJPMJ() {
-        
-        mOIKANDJPMJ_ = false;
+      public Builder clearPBHFFGHHPMA() {
+
+        pBHFFGHHPMA_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean eGBLCMOLOMC_ ;
+      /**
+       * <code>bool EGBLCMOLOMC = 8;</code>
+       * @return The eGBLCMOLOMC.
+       */
+      @java.lang.Override
+      public boolean getEGBLCMOLOMC() {
+        return eGBLCMOLOMC_;
+      }
+      /**
+       * <code>bool EGBLCMOLOMC = 8;</code>
+       * @param value The eGBLCMOLOMC to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEGBLCMOLOMC(boolean value) {
+
+        eGBLCMOLOMC_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool EGBLCMOLOMC = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEGBLCMOLOMC() {
+
+        eGBLCMOLOMC_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean nACMCGNGDLN_ ;
+      /**
+       * <code>bool NACMCGNGDLN = 6;</code>
+       * @return The nACMCGNGDLN.
+       */
+      @java.lang.Override
+      public boolean getNACMCGNGDLN() {
+        return nACMCGNGDLN_;
+      }
+      /**
+       * <code>bool NACMCGNGDLN = 6;</code>
+       * @param value The nACMCGNGDLN to set.
+       * @return This builder for chaining.
+       */
+      public Builder setNACMCGNGDLN(boolean value) {
+
+        nACMCGNGDLN_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool NACMCGNGDLN = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearNACMCGNGDLN() {
+
+        nACMCGNGDLN_ = false;
         onChanged();
         return this;
       }
@@ -1602,7 +1534,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtAvatarEnterFocusNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtAvatarEnterFocusNotify_fieldAccessorTable;
 
@@ -1615,17 +1547,16 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037EvtAvatarEnterFocusNotify.proto\032\014Vecto" +
-      "r.proto\032\021ForwardType.proto\"\331\002\n\031EvtAvatar" +
-      "EnterFocusNotify\022\036\n\rfocus_forward\030\016 \001(\0132" +
-      "\007.Vector\022\023\n\013KDPFLFOPIIJ\030\013 \001(\010\022\023\n\013AKBIIAH" +
-      "OHLB\030\007 \001(\010\022\023\n\013HGKPAMDOJFG\030\n \001(\010\022\023\n\013ECMCN" +
-      "FDKECN\030\014 \001(\010\022\"\n\014forward_type\030\006 \001(\0162\014.For" +
-      "wardType\022\023\n\013NOGNKKJAIJC\030\003 \001(\005\022\021\n\tentity_" +
-      "id\030\010 \001(\r\022\023\n\013DJGHAHJAILG\030\t \001(\010\022\023\n\013OOGEIOC" +
-      "DENJ\030\002 \001(\010\022\023\n\013CIHGJJLNFIN\030\r \001(\010\022\023\n\013GBEEO" +
-      "HGICAN\030\001 \001(\010\022\023\n\013GBNJBNONIGC\030\017 \001(\010\022\023\n\013MOI" +
-      "KANDJPMJ\030\004 \001(\010B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "r.proto\032\021ForwardType.ForwardType_proto\"\304\002\n\031EvtAvatar" +
+      "EnterFocusNotify\022\036\n\rfocus_forward\030\r \001(\0132" +
+      "\007.Vector\022\"\n\014forward_type\030\003 \001(\0162\014.Forward" +
+      "Type\022\023\n\013CCKKABKJJGP\030\014 \001(\010\022\023\n\013MDMOIMDCOPF" +
+      "\030\007 \001(\010\022\021\n\tentity_id\030\013 \001(\r\022\023\n\013MCNECDNCLCJ" +
+      "\030\001 \001(\010\022\023\n\013GMLEBIHPOKD\030\005 \001(\010\022\023\n\013OGOLKMLFF" +
+      "HE\030\002 \001(\010\022\023\n\013OEMKCENFMIM\030\n \001(\010\022\023\n\013DBPHFOK" +
+      "BNCP\030\t \001(\010\022\023\n\013PBHFFGHHPMA\030\017 \001(\010\022\023\n\013EGBLC" +
+      "MOLOMC\030\010 \001(\010\022\023\n\013NACMCGNGDLN\030\006 \001(\010B\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1638,7 +1569,7 @@ public final class EvtAvatarEnterFocusNotifyOuterClass {
     internal_static_EvtAvatarEnterFocusNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EvtAvatarEnterFocusNotify_descriptor,
-        new java.lang.String[] { "FocusForward", "KDPFLFOPIIJ", "AKBIIAHOHLB", "HGKPAMDOJFG", "ECMCNFDKECN", "ForwardType", "NOGNKKJAIJC", "EntityId", "DJGHAHJAILG", "OOGEIOCDENJ", "CIHGJJLNFIN", "GBEEOHGICAN", "GBNJBNONIGC", "MOIKANDJPMJ", });
+        new java.lang.String[] { "FocusForward", "ForwardType", "CCKKABKJJGP", "MDMOIMDCOPF", "EntityId", "MCNECDNCLCJ", "GMLEBIHPOKD", "OGOLKMLFFHE", "OEMKCENFMIM", "DBPHFOKBNCP", "PBHFFGHHPMA", "EGBLCMOLOMC", "NACMCGNGDLN", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ForwardTypeOuterClass.getDescriptor();
   }

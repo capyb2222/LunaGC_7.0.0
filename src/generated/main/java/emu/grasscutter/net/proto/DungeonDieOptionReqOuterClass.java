@@ -19,25 +19,26 @@ public final class DungeonDieOptionReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.PlayerDieOption die_option = 12;</code>
+     * <code>bool is_quit_immediately = 13;</code>
+     * @return The isQuitImmediately.
+     */
+    boolean getIsQuitImmediately();
+
+    /**
+     * <code>.PlayerDieOption die_option = 8;</code>
      * @return The enum numeric value on the wire for dieOption.
      */
     int getDieOptionValue();
     /**
-     * <code>.PlayerDieOption die_option = 12;</code>
+     * <code>.PlayerDieOption die_option = 8;</code>
      * @return The dieOption.
      */
     emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption getDieOption();
-
-    /**
-     * <code>bool is_quit_immediately = 11;</code>
-     * @return The isQuitImmediately.
-     */
-    boolean getIsQuitImmediately();
   }
   /**
    * <pre>
-   * CmdId: 9426
+   * CmdId: 3884
+   * Obf: MOHIGAEGAKN
    * </pre>
    *
    * Protobuf type {@code DungeonDieOptionReq}
@@ -85,15 +86,15 @@ public final class DungeonDieOptionReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
-
-              isQuitImmediately_ = input.readBool();
-              break;
-            }
-            case 96: {
+            case 64: {
               int rawValue = input.readEnum();
 
               dieOption_ = rawValue;
+              break;
+            }
+            case 104: {
+
+              isQuitImmediately_ = input.readBool();
               break;
             }
             default: {
@@ -128,34 +129,34 @@ public final class DungeonDieOptionReqOuterClass {
               emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq.class, emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq.Builder.class);
     }
 
-    public static final int DIE_OPTION_FIELD_NUMBER = 12;
+    public static final int IS_QUIT_IMMEDIATELY_FIELD_NUMBER = 13;
+    private boolean isQuitImmediately_;
+    /**
+     * <code>bool is_quit_immediately = 13;</code>
+     * @return The isQuitImmediately.
+     */
+    @java.lang.Override
+    public boolean getIsQuitImmediately() {
+      return isQuitImmediately_;
+    }
+
+    public static final int DIE_OPTION_FIELD_NUMBER = 8;
     private int dieOption_;
     /**
-     * <code>.PlayerDieOption die_option = 12;</code>
+     * <code>.PlayerDieOption die_option = 8;</code>
      * @return The enum numeric value on the wire for dieOption.
      */
     @java.lang.Override public int getDieOptionValue() {
       return dieOption_;
     }
     /**
-     * <code>.PlayerDieOption die_option = 12;</code>
+     * <code>.PlayerDieOption die_option = 8;</code>
      * @return The dieOption.
      */
     @java.lang.Override public emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption getDieOption() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption result = emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.valueOf(dieOption_);
       return result == null ? emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.UNRECOGNIZED : result;
-    }
-
-    public static final int IS_QUIT_IMMEDIATELY_FIELD_NUMBER = 11;
-    private boolean isQuitImmediately_;
-    /**
-     * <code>bool is_quit_immediately = 11;</code>
-     * @return The isQuitImmediately.
-     */
-    @java.lang.Override
-    public boolean getIsQuitImmediately() {
-      return isQuitImmediately_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -172,11 +173,11 @@ public final class DungeonDieOptionReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isQuitImmediately_ != false) {
-        output.writeBool(11, isQuitImmediately_);
+      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.DIE_OPT_NONE.getNumber()) {
+        output.writeEnum(8, dieOption_);
       }
-      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.PLAYER_DIE_OPTION_NONE.getNumber()) {
-        output.writeEnum(12, dieOption_);
+      if (isQuitImmediately_ != false) {
+        output.writeBool(13, isQuitImmediately_);
       }
       unknownFields.writeTo(output);
     }
@@ -187,13 +188,13 @@ public final class DungeonDieOptionReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.DIE_OPT_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(8, dieOption_);
+      }
       if (isQuitImmediately_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isQuitImmediately_);
-      }
-      if (dieOption_ != emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.PLAYER_DIE_OPTION_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(12, dieOption_);
+          .computeBoolSize(13, isQuitImmediately_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -210,9 +211,9 @@ public final class DungeonDieOptionReqOuterClass {
       }
       emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq other = (emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq) obj;
 
-      if (dieOption_ != other.dieOption_) return false;
       if (getIsQuitImmediately()
           != other.getIsQuitImmediately()) return false;
+      if (dieOption_ != other.dieOption_) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -224,11 +225,11 @@ public final class DungeonDieOptionReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + DIE_OPTION_FIELD_NUMBER;
-      hash = (53 * hash) + dieOption_;
       hash = (37 * hash) + IS_QUIT_IMMEDIATELY_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsQuitImmediately());
+      hash = (37 * hash) + DIE_OPTION_FIELD_NUMBER;
+      hash = (53 * hash) + dieOption_;
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -326,7 +327,8 @@ public final class DungeonDieOptionReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 9426
+     * CmdId: 3884
+     * Obf: MOHIGAEGAKN
      * </pre>
      *
      * Protobuf type {@code DungeonDieOptionReq}
@@ -366,9 +368,9 @@ public final class DungeonDieOptionReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        dieOption_ = 0;
-
         isQuitImmediately_ = false;
+
+        dieOption_ = 0;
 
         return this;
       }
@@ -396,8 +398,8 @@ public final class DungeonDieOptionReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq buildPartial() {
         emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq result = new emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq(this);
-        result.dieOption_ = dieOption_;
         result.isQuitImmediately_ = isQuitImmediately_;
+        result.dieOption_ = dieOption_;
         onBuilt();
         return result;
       }
@@ -446,11 +448,11 @@ public final class DungeonDieOptionReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq other) {
         if (other == emu.grasscutter.net.proto.DungeonDieOptionReqOuterClass.DungeonDieOptionReq.getDefaultInstance()) return this;
-        if (other.dieOption_ != 0) {
-          setDieOptionValue(other.getDieOptionValue());
-        }
         if (other.getIsQuitImmediately() != false) {
           setIsQuitImmediately(other.getIsQuitImmediately());
+        }
+        if (other.dieOption_ != 0) {
+          setDieOptionValue(other.getDieOptionValue());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -481,16 +483,47 @@ public final class DungeonDieOptionReqOuterClass {
         return this;
       }
 
+      private boolean isQuitImmediately_ ;
+      /**
+       * <code>bool is_quit_immediately = 13;</code>
+       * @return The isQuitImmediately.
+       */
+      @java.lang.Override
+      public boolean getIsQuitImmediately() {
+        return isQuitImmediately_;
+      }
+      /**
+       * <code>bool is_quit_immediately = 13;</code>
+       * @param value The isQuitImmediately to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsQuitImmediately(boolean value) {
+        
+        isQuitImmediately_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_quit_immediately = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsQuitImmediately() {
+        
+        isQuitImmediately_ = false;
+        onChanged();
+        return this;
+      }
+
       private int dieOption_ = 0;
       /**
-       * <code>.PlayerDieOption die_option = 12;</code>
+       * <code>.PlayerDieOption die_option = 8;</code>
        * @return The enum numeric value on the wire for dieOption.
        */
       @java.lang.Override public int getDieOptionValue() {
         return dieOption_;
       }
       /**
-       * <code>.PlayerDieOption die_option = 12;</code>
+       * <code>.PlayerDieOption die_option = 8;</code>
        * @param value The enum numeric value on the wire for dieOption to set.
        * @return This builder for chaining.
        */
@@ -501,7 +534,7 @@ public final class DungeonDieOptionReqOuterClass {
         return this;
       }
       /**
-       * <code>.PlayerDieOption die_option = 12;</code>
+       * <code>.PlayerDieOption die_option = 8;</code>
        * @return The dieOption.
        */
       @java.lang.Override
@@ -511,7 +544,7 @@ public final class DungeonDieOptionReqOuterClass {
         return result == null ? emu.grasscutter.net.proto.PlayerDieOptionOuterClass.PlayerDieOption.UNRECOGNIZED : result;
       }
       /**
-       * <code>.PlayerDieOption die_option = 12;</code>
+       * <code>.PlayerDieOption die_option = 8;</code>
        * @param value The dieOption to set.
        * @return This builder for chaining.
        */
@@ -525,43 +558,12 @@ public final class DungeonDieOptionReqOuterClass {
         return this;
       }
       /**
-       * <code>.PlayerDieOption die_option = 12;</code>
+       * <code>.PlayerDieOption die_option = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearDieOption() {
         
         dieOption_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean isQuitImmediately_ ;
-      /**
-       * <code>bool is_quit_immediately = 11;</code>
-       * @return The isQuitImmediately.
-       */
-      @java.lang.Override
-      public boolean getIsQuitImmediately() {
-        return isQuitImmediately_;
-      }
-      /**
-       * <code>bool is_quit_immediately = 11;</code>
-       * @param value The isQuitImmediately to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsQuitImmediately(boolean value) {
-        
-        isQuitImmediately_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_quit_immediately = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsQuitImmediately() {
-        
-        isQuitImmediately_ = false;
         onChanged();
         return this;
       }
@@ -633,9 +635,9 @@ public final class DungeonDieOptionReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031DungeonDieOptionReq.proto\032\025PlayerDieOp" +
-      "tion.proto\"X\n\023DungeonDieOptionReq\022$\n\ndie" +
-      "_option\030\014 \001(\0162\020.PlayerDieOption\022\033\n\023is_qu" +
-      "it_immediately\030\013 \001(\010B\033\n\031emu.grasscutter." +
+      "tion.proto\"X\n\023DungeonDieOptionReq\022\033\n\023is_" +
+      "quit_immediately\030\r \001(\010\022$\n\ndie_option\030\010 \001" +
+      "(\0162\020.PlayerDieOptionB\033\n\031emu.grasscutter." +
       "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -648,7 +650,7 @@ public final class DungeonDieOptionReqOuterClass {
     internal_static_DungeonDieOptionReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DungeonDieOptionReq_descriptor,
-        new java.lang.String[] { "DieOption", "IsQuitImmediately", });
+        new java.lang.String[] { "IsQuitImmediately", "DieOption", });
     emu.grasscutter.net.proto.PlayerDieOptionOuterClass.getDescriptor();
   }
 

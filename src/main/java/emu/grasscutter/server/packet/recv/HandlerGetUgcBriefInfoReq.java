@@ -14,7 +14,7 @@ public class HandlerGetUgcBriefInfoReq extends PacketHandler {
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         var req = GetUgcBriefInfoReqOuterClass.GetUgcBriefInfoReq.parseFrom(payload);
 
-        if (req.getUgcType() == UgcTypeOuterClass.UgcType.UGC_TYPE_MUSIC_GAME) {
+        if (req.getUgcType() == UgcTypeOuterClass.UgcType.UgcType_MUSIC_GAME) {
             var musicGameBeatmap = MusicGameBeatmap.getByShareId(req.getUgcGuid());
 
             if (musicGameBeatmap != null) {

@@ -196,7 +196,7 @@ public class EnergyManager extends BasePlayerManager {
 
         // If the player wins the roll, we increase the avatar's energy and reset the probability.
         if (roll < currentProbability) {
-            avatar.addEnergy(1.0f, PropChangeReason.PROP_CHANGE_REASON_ABILITY, true);
+            avatar.addEnergy(1.0f, PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, true);
             this.avatarNormalProbabilities.put(avatar, weaponType.getEnergyGainInitialProbability());
         }
         // Otherwise, we increase the probability for the next hit.
@@ -267,14 +267,14 @@ public class EnergyManager extends BasePlayerManager {
         if(avatar.getAvatarId()==10000106){
             Grasscutter.getLogger().info("Skill id: "+skillId);
             if(skillData.getSpecialEnergyMin() > 0){
-                avatar.getAsEntity().clearEnergy(ChangeEnergyReason.CHANGE_ENERGY_REASON_SKILL_START);
+                avatar.getAsEntity().clearEnergy(ChangeEnergyReason.ChangeEnergyReason_CHANGE_ENERGY_SKILL_START);
             }
         }
 
         // If the cast skill was a burst, consume energy.
         if ((avatar.getSkillDepot() != null && skillId == avatar.getSkillDepot().getEnergySkill())
                 || (skillData != null && (skillData.getCostElemVal() > 0 || skillData.getSpecialEnergyMin() > 0))) {
-            avatar.getAsEntity().clearEnergy(ChangeEnergyReason.CHANGE_ENERGY_REASON_SKILL_START);
+            avatar.getAsEntity().clearEnergy(ChangeEnergyReason.ChangeEnergyReason_CHANGE_ENERGY_SKILL_START);
         }
     }
 
@@ -418,7 +418,7 @@ public class EnergyManager extends BasePlayerManager {
     public void setEnergyUsage(boolean energyUsage) {
         this.energyUsage = energyUsage;
         if (!energyUsage) { // Refill team energy if usage is disabled
-            this.refillTeamEnergy(PropChangeReason.PROP_CHANGE_REASON_GM, true);
+            this.refillTeamEnergy(PropChangeReason.PropChangeReason_PROP_CHANGE_GM, true);
         }
     }
 }

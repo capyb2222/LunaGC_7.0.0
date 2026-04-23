@@ -24,6 +24,7 @@ import emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo;
 import emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo;
 import emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo;
 import emu.grasscutter.net.proto.FetterDataOuterClass.FetterData;
+import emu.grasscutter.net.proto.GrantReasonOuterClass;
 import emu.grasscutter.net.proto.ShowAvatarInfoOuterClass;
 import emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo;
 import emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip;
@@ -91,7 +92,7 @@ public class Avatar {
     @Getter @Setter private int trialAvatarId = 0;
     // cannot store to db if grant reason is not integer
     @Getter @Setter
-    private int grantReason = TrialAvatarGrantRecord.GrantReason.GRANT_REASON_INVALID.getNumber();
+    private int grantReason = GrantReasonOuterClass.GrantReason.GRANT_REASON_INVALID.getNumber();
 
     @Getter @Setter private int fromParentQuestId = 0;
     // so far no outer class or prop value has information of this, but from packet:
@@ -756,7 +757,7 @@ public class Avatar {
         this.setFightProperty(
                 FightProperty.FIGHT_PROP_CUR_HP_DEBTS,
                 hpDebt);
-                
+
 
 
         // Packet
@@ -1100,7 +1101,7 @@ public class Avatar {
 
         return avatarInfo.build();
     }
-    
+
 
     // used only in character showcase
     public ShowAvatarInfo toShowAvatarInfoProto() {
@@ -1165,7 +1166,7 @@ public class Avatar {
      * @param questId The ID of the quest that granted the avatar.
      */
     public void setTrialAvatarInfo(
-            int level, int avatarId, TrialAvatarGrantRecord.GrantReason grantReason, int questId) {
+        int level, int avatarId, GrantReasonOuterClass.GrantReason grantReason, int questId) {
         this.setLevel(level);
         this.setPromoteLevel(getMinPromoteLevel(level));
         this.setTrialAvatarId(avatarId);

@@ -9,7 +9,7 @@ import emu.grasscutter.game.dungeons.DungeonTrialTeam;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.*;
 import emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo;
-import emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.TrialAvatarGrantRecord.GrantReason;
+import emu.grasscutter.net.proto.GrantReasonOuterClass.GrantReason;
 import emu.grasscutter.server.packet.send.*;
 import emu.grasscutter.utils.JsonUtils;
 import java.util.*;

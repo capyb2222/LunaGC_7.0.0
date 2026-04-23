@@ -19,16 +19,28 @@ public final class ClientGadgetInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
      * @return A list containing the targetEntityIdList.
      */
     java.util.List<java.lang.Integer> getTargetEntityIdListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
      * @return The count of targetEntityIdList.
      */
     int getTargetEntityIdListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
      * @param index The index of the element to return.
      * @return The targetEntityIdList at the given index.
@@ -36,16 +48,28 @@ public final class ClientGadgetInfoOuterClass {
     int getTargetEntityIdList(int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
      * @return A list containing the targetLockPointIndexList.
      */
     java.util.List<java.lang.Integer> getTargetLockPointIndexListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
      * @return The count of targetLockPointIndexList.
      */
     int getTargetLockPointIndexListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
      * @param index The index of the element to return.
      * @return The targetLockPointIndexList at the given index.
@@ -53,52 +77,74 @@ public final class ClientGadgetInfoOuterClass {
     int getTargetLockPointIndexList(int index);
 
     /**
-     * <code>uint32 camp_id = 1;</code>
-     * @return The campId.
-     */
-    int getCampId();
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 target_entity_id = 5;</code>
      * @return The targetEntityId.
      */
     int getTargetEntityId();
 
     /**
-     * <code>uint32 camp_type = 2;</code>
-     * @return The campType.
-     */
-    int getCampType();
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 owner_entity_id = 4;</code>
      * @return The ownerEntityId.
      */
     int getOwnerEntityId();
 
     /**
-     * <code>uint32 DMGFKPAIINP = 11;</code>
-     * @return The dMGFKPAIINP.
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 camp_type = 2;</code>
+     * @return The campType.
      */
-    int getDMGFKPAIINP();
+    int getCampType();
 
     /**
-     * <code>bool is_peer_id_from_player = 7;</code>
-     * @return The isPeerIdFromPlayer.
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 camp_id = 1;</code>
+     * @return The campId.
      */
-    boolean getIsPeerIdFromPlayer();
+    int getCampId();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 3;</code>
+     * @return The guid.
+     */
+    long getGuid();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>bool async_load = 6;</code>
      * @return The asyncLoad.
      */
     boolean getAsyncLoad();
 
     /**
-     * <code>uint64 guid = 3;</code>
-     * @return The guid.
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>bool is_peer_id_from_player = 7;</code>
+     * @return The isPeerIdFromPlayer.
      */
-    long getGuid();
+    boolean getIsPeerIdFromPlayer();
   }
   /**
    * Protobuf type {@code ClientGadgetInfo}
@@ -225,11 +271,6 @@ public final class ClientGadgetInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 88: {
-
-              dMGFKPAIINP_ = input.readUInt32();
-              break;
-            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -271,6 +312,10 @@ public final class ClientGadgetInfoOuterClass {
     public static final int TARGET_ENTITY_ID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList targetEntityIdList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
      * @return A list containing the targetEntityIdList.
      */
@@ -280,6 +325,10 @@ public final class ClientGadgetInfoOuterClass {
       return targetEntityIdList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
      * @return The count of targetEntityIdList.
      */
@@ -287,6 +336,10 @@ public final class ClientGadgetInfoOuterClass {
       return targetEntityIdList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
      * @param index The index of the element to return.
      * @return The targetEntityIdList at the given index.
@@ -299,6 +352,10 @@ public final class ClientGadgetInfoOuterClass {
     public static final int TARGET_LOCK_POINT_INDEX_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList targetLockPointIndexList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
      * @return A list containing the targetLockPointIndexList.
      */
@@ -308,6 +365,10 @@ public final class ClientGadgetInfoOuterClass {
       return targetLockPointIndexList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
      * @return The count of targetLockPointIndexList.
      */
@@ -315,6 +376,10 @@ public final class ClientGadgetInfoOuterClass {
       return targetLockPointIndexList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
      * @param index The index of the element to return.
      * @return The targetLockPointIndexList at the given index.
@@ -324,20 +389,13 @@ public final class ClientGadgetInfoOuterClass {
     }
     private int targetLockPointIndexListMemoizedSerializedSize = -1;
 
-    public static final int CAMP_ID_FIELD_NUMBER = 1;
-    private int campId_;
-    /**
-     * <code>uint32 camp_id = 1;</code>
-     * @return The campId.
-     */
-    @java.lang.Override
-    public int getCampId() {
-      return campId_;
-    }
-
     public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 5;
     private int targetEntityId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 target_entity_id = 5;</code>
      * @return The targetEntityId.
      */
@@ -346,20 +404,13 @@ public final class ClientGadgetInfoOuterClass {
       return targetEntityId_;
     }
 
-    public static final int CAMP_TYPE_FIELD_NUMBER = 2;
-    private int campType_;
-    /**
-     * <code>uint32 camp_type = 2;</code>
-     * @return The campType.
-     */
-    @java.lang.Override
-    public int getCampType() {
-      return campType_;
-    }
-
     public static final int OWNER_ENTITY_ID_FIELD_NUMBER = 4;
     private int ownerEntityId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 owner_entity_id = 4;</code>
      * @return The ownerEntityId.
      */
@@ -368,31 +419,58 @@ public final class ClientGadgetInfoOuterClass {
       return ownerEntityId_;
     }
 
-    public static final int DMGFKPAIINP_FIELD_NUMBER = 11;
-    private int dMGFKPAIINP_;
+    public static final int CAMP_TYPE_FIELD_NUMBER = 2;
+    private int campType_;
     /**
-     * <code>uint32 DMGFKPAIINP = 11;</code>
-     * @return The dMGFKPAIINP.
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 camp_type = 2;</code>
+     * @return The campType.
      */
     @java.lang.Override
-    public int getDMGFKPAIINP() {
-      return dMGFKPAIINP_;
+    public int getCampType() {
+      return campType_;
     }
 
-    public static final int IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER = 7;
-    private boolean isPeerIdFromPlayer_;
+    public static final int CAMP_ID_FIELD_NUMBER = 1;
+    private int campId_;
     /**
-     * <code>bool is_peer_id_from_player = 7;</code>
-     * @return The isPeerIdFromPlayer.
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 camp_id = 1;</code>
+     * @return The campId.
      */
     @java.lang.Override
-    public boolean getIsPeerIdFromPlayer() {
-      return isPeerIdFromPlayer_;
+    public int getCampId() {
+      return campId_;
+    }
+
+    public static final int GUID_FIELD_NUMBER = 3;
+    private long guid_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint64 guid = 3;</code>
+     * @return The guid.
+     */
+    @java.lang.Override
+    public long getGuid() {
+      return guid_;
     }
 
     public static final int ASYNC_LOAD_FIELD_NUMBER = 6;
     private boolean asyncLoad_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>bool async_load = 6;</code>
      * @return The asyncLoad.
      */
@@ -401,15 +479,19 @@ public final class ClientGadgetInfoOuterClass {
       return asyncLoad_;
     }
 
-    public static final int GUID_FIELD_NUMBER = 3;
-    private long guid_;
+    public static final int IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER = 7;
+    private boolean isPeerIdFromPlayer_;
     /**
-     * <code>uint64 guid = 3;</code>
-     * @return The guid.
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>bool is_peer_id_from_player = 7;</code>
+     * @return The isPeerIdFromPlayer.
      */
     @java.lang.Override
-    public long getGuid() {
-      return guid_;
+    public boolean getIsPeerIdFromPlayer() {
+      return isPeerIdFromPlayer_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -461,9 +543,6 @@ public final class ClientGadgetInfoOuterClass {
       }
       for (int i = 0; i < targetLockPointIndexList_.size(); i++) {
         output.writeUInt32NoTag(targetLockPointIndexList_.getInt(i));
-      }
-      if (dMGFKPAIINP_ != 0) {
-        output.writeUInt32(11, dMGFKPAIINP_);
       }
       unknownFields.writeTo(output);
     }
@@ -530,10 +609,6 @@ public final class ClientGadgetInfoOuterClass {
         }
         targetLockPointIndexListMemoizedSerializedSize = dataSize;
       }
-      if (dMGFKPAIINP_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, dMGFKPAIINP_);
-      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -553,22 +628,20 @@ public final class ClientGadgetInfoOuterClass {
           .equals(other.getTargetEntityIdListList())) return false;
       if (!getTargetLockPointIndexListList()
           .equals(other.getTargetLockPointIndexListList())) return false;
-      if (getCampId()
-          != other.getCampId()) return false;
       if (getTargetEntityId()
           != other.getTargetEntityId()) return false;
-      if (getCampType()
-          != other.getCampType()) return false;
       if (getOwnerEntityId()
           != other.getOwnerEntityId()) return false;
-      if (getDMGFKPAIINP()
-          != other.getDMGFKPAIINP()) return false;
-      if (getIsPeerIdFromPlayer()
-          != other.getIsPeerIdFromPlayer()) return false;
-      if (getAsyncLoad()
-          != other.getAsyncLoad()) return false;
+      if (getCampType()
+          != other.getCampType()) return false;
+      if (getCampId()
+          != other.getCampId()) return false;
       if (getGuid()
           != other.getGuid()) return false;
+      if (getAsyncLoad()
+          != other.getAsyncLoad()) return false;
+      if (getIsPeerIdFromPlayer()
+          != other.getIsPeerIdFromPlayer()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -588,25 +661,23 @@ public final class ClientGadgetInfoOuterClass {
         hash = (37 * hash) + TARGET_LOCK_POINT_INDEX_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getTargetLockPointIndexListList().hashCode();
       }
-      hash = (37 * hash) + CAMP_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getCampId();
       hash = (37 * hash) + TARGET_ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getTargetEntityId();
-      hash = (37 * hash) + CAMP_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getCampType();
       hash = (37 * hash) + OWNER_ENTITY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerEntityId();
-      hash = (37 * hash) + DMGFKPAIINP_FIELD_NUMBER;
-      hash = (53 * hash) + getDMGFKPAIINP();
-      hash = (37 * hash) + IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsPeerIdFromPlayer());
-      hash = (37 * hash) + ASYNC_LOAD_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getAsyncLoad());
+      hash = (37 * hash) + CAMP_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getCampType();
+      hash = (37 * hash) + CAMP_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getCampId();
       hash = (37 * hash) + GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getGuid());
+      hash = (37 * hash) + ASYNC_LOAD_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getAsyncLoad());
+      hash = (37 * hash) + IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsPeerIdFromPlayer());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -744,21 +815,19 @@ public final class ClientGadgetInfoOuterClass {
         bitField0_ = (bitField0_ & ~0x00000001);
         targetLockPointIndexList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        campId_ = 0;
-
         targetEntityId_ = 0;
-
-        campType_ = 0;
 
         ownerEntityId_ = 0;
 
-        dMGFKPAIINP_ = 0;
+        campType_ = 0;
 
-        isPeerIdFromPlayer_ = false;
+        campId_ = 0;
+
+        guid_ = 0L;
 
         asyncLoad_ = false;
 
-        guid_ = 0L;
+        isPeerIdFromPlayer_ = false;
 
         return this;
       }
@@ -797,14 +866,13 @@ public final class ClientGadgetInfoOuterClass {
           bitField0_ = (bitField0_ & ~0x00000002);
         }
         result.targetLockPointIndexList_ = targetLockPointIndexList_;
-        result.campId_ = campId_;
         result.targetEntityId_ = targetEntityId_;
-        result.campType_ = campType_;
         result.ownerEntityId_ = ownerEntityId_;
-        result.dMGFKPAIINP_ = dMGFKPAIINP_;
-        result.isPeerIdFromPlayer_ = isPeerIdFromPlayer_;
-        result.asyncLoad_ = asyncLoad_;
+        result.campType_ = campType_;
+        result.campId_ = campId_;
         result.guid_ = guid_;
+        result.asyncLoad_ = asyncLoad_;
+        result.isPeerIdFromPlayer_ = isPeerIdFromPlayer_;
         onBuilt();
         return result;
       }
@@ -873,29 +941,26 @@ public final class ClientGadgetInfoOuterClass {
           }
           onChanged();
         }
-        if (other.getCampId() != 0) {
-          setCampId(other.getCampId());
-        }
         if (other.getTargetEntityId() != 0) {
           setTargetEntityId(other.getTargetEntityId());
-        }
-        if (other.getCampType() != 0) {
-          setCampType(other.getCampType());
         }
         if (other.getOwnerEntityId() != 0) {
           setOwnerEntityId(other.getOwnerEntityId());
         }
-        if (other.getDMGFKPAIINP() != 0) {
-          setDMGFKPAIINP(other.getDMGFKPAIINP());
+        if (other.getCampType() != 0) {
+          setCampType(other.getCampType());
         }
-        if (other.getIsPeerIdFromPlayer() != false) {
-          setIsPeerIdFromPlayer(other.getIsPeerIdFromPlayer());
+        if (other.getCampId() != 0) {
+          setCampId(other.getCampId());
+        }
+        if (other.getGuid() != 0L) {
+          setGuid(other.getGuid());
         }
         if (other.getAsyncLoad() != false) {
           setAsyncLoad(other.getAsyncLoad());
         }
-        if (other.getGuid() != 0L) {
-          setGuid(other.getGuid());
+        if (other.getIsPeerIdFromPlayer() != false) {
+          setIsPeerIdFromPlayer(other.getIsPeerIdFromPlayer());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -935,6 +1000,10 @@ public final class ClientGadgetInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
        * @return A list containing the targetEntityIdList.
        */
@@ -944,6 +1013,10 @@ public final class ClientGadgetInfoOuterClass {
                  java.util.Collections.unmodifiableList(targetEntityIdList_) : targetEntityIdList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
        * @return The count of targetEntityIdList.
        */
@@ -951,6 +1024,10 @@ public final class ClientGadgetInfoOuterClass {
         return targetEntityIdList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
        * @param index The index of the element to return.
        * @return The targetEntityIdList at the given index.
@@ -959,6 +1036,10 @@ public final class ClientGadgetInfoOuterClass {
         return targetEntityIdList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
        * @param index The index to set the value at.
        * @param value The targetEntityIdList to set.
@@ -972,6 +1053,10 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
        * @param value The targetEntityIdList to add.
        * @return This builder for chaining.
@@ -983,6 +1068,10 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
        * @param values The targetEntityIdList to add.
        * @return This builder for chaining.
@@ -996,6 +1085,10 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
        * @return This builder for chaining.
        */
@@ -1014,6 +1107,10 @@ public final class ClientGadgetInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
        * @return A list containing the targetLockPointIndexList.
        */
@@ -1023,6 +1120,10 @@ public final class ClientGadgetInfoOuterClass {
                  java.util.Collections.unmodifiableList(targetLockPointIndexList_) : targetLockPointIndexList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
        * @return The count of targetLockPointIndexList.
        */
@@ -1030,6 +1131,10 @@ public final class ClientGadgetInfoOuterClass {
         return targetLockPointIndexList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
        * @param index The index of the element to return.
        * @return The targetLockPointIndexList at the given index.
@@ -1038,6 +1143,10 @@ public final class ClientGadgetInfoOuterClass {
         return targetLockPointIndexList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
        * @param index The index to set the value at.
        * @param value The targetLockPointIndexList to set.
@@ -1051,6 +1160,10 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
        * @param value The targetLockPointIndexList to add.
        * @return This builder for chaining.
@@ -1062,6 +1175,10 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
        * @param values The targetLockPointIndexList to add.
        * @return This builder for chaining.
@@ -1075,6 +1192,10 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
        * @return This builder for chaining.
        */
@@ -1085,39 +1206,12 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
 
-      private int campId_ ;
-      /**
-       * <code>uint32 camp_id = 1;</code>
-       * @return The campId.
-       */
-      @java.lang.Override
-      public int getCampId() {
-        return campId_;
-      }
-      /**
-       * <code>uint32 camp_id = 1;</code>
-       * @param value The campId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCampId(int value) {
-        
-        campId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 camp_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCampId() {
-        
-        campId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int targetEntityId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 target_entity_id = 5;</code>
        * @return The targetEntityId.
        */
@@ -1126,6 +1220,10 @@ public final class ClientGadgetInfoOuterClass {
         return targetEntityId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 target_entity_id = 5;</code>
        * @param value The targetEntityId to set.
        * @return This builder for chaining.
@@ -1137,6 +1235,10 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 target_entity_id = 5;</code>
        * @return This builder for chaining.
        */
@@ -1147,39 +1249,12 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
 
-      private int campType_ ;
-      /**
-       * <code>uint32 camp_type = 2;</code>
-       * @return The campType.
-       */
-      @java.lang.Override
-      public int getCampType() {
-        return campType_;
-      }
-      /**
-       * <code>uint32 camp_type = 2;</code>
-       * @param value The campType to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCampType(int value) {
-        
-        campType_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 camp_type = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCampType() {
-        
-        campType_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int ownerEntityId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 owner_entity_id = 4;</code>
        * @return The ownerEntityId.
        */
@@ -1188,6 +1263,10 @@ public final class ClientGadgetInfoOuterClass {
         return ownerEntityId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 owner_entity_id = 4;</code>
        * @param value The ownerEntityId to set.
        * @return This builder for chaining.
@@ -1199,6 +1278,10 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 owner_entity_id = 4;</code>
        * @return This builder for chaining.
        */
@@ -1209,101 +1292,98 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
 
-      private int dMGFKPAIINP_ ;
+      private int campType_ ;
       /**
-       * <code>uint32 DMGFKPAIINP = 11;</code>
-       * @return The dMGFKPAIINP.
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_type = 2;</code>
+       * @return The campType.
        */
       @java.lang.Override
-      public int getDMGFKPAIINP() {
-        return dMGFKPAIINP_;
+      public int getCampType() {
+        return campType_;
       }
       /**
-       * <code>uint32 DMGFKPAIINP = 11;</code>
-       * @param value The dMGFKPAIINP to set.
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_type = 2;</code>
+       * @param value The campType to set.
        * @return This builder for chaining.
        */
-      public Builder setDMGFKPAIINP(int value) {
+      public Builder setCampType(int value) {
         
-        dMGFKPAIINP_ = value;
+        campType_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 DMGFKPAIINP = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_type = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDMGFKPAIINP() {
+      public Builder clearCampType() {
         
-        dMGFKPAIINP_ = 0;
+        campType_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean isPeerIdFromPlayer_ ;
+      private int campId_ ;
       /**
-       * <code>bool is_peer_id_from_player = 7;</code>
-       * @return The isPeerIdFromPlayer.
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_id = 1;</code>
+       * @return The campId.
        */
       @java.lang.Override
-      public boolean getIsPeerIdFromPlayer() {
-        return isPeerIdFromPlayer_;
+      public int getCampId() {
+        return campId_;
       }
       /**
-       * <code>bool is_peer_id_from_player = 7;</code>
-       * @param value The isPeerIdFromPlayer to set.
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_id = 1;</code>
+       * @param value The campId to set.
        * @return This builder for chaining.
        */
-      public Builder setIsPeerIdFromPlayer(boolean value) {
+      public Builder setCampId(int value) {
         
-        isPeerIdFromPlayer_ = value;
+        campId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_peer_id_from_player = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 camp_id = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsPeerIdFromPlayer() {
+      public Builder clearCampId() {
         
-        isPeerIdFromPlayer_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean asyncLoad_ ;
-      /**
-       * <code>bool async_load = 6;</code>
-       * @return The asyncLoad.
-       */
-      @java.lang.Override
-      public boolean getAsyncLoad() {
-        return asyncLoad_;
-      }
-      /**
-       * <code>bool async_load = 6;</code>
-       * @param value The asyncLoad to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAsyncLoad(boolean value) {
-        
-        asyncLoad_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool async_load = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAsyncLoad() {
-        
-        asyncLoad_ = false;
+        campId_ = 0;
         onChanged();
         return this;
       }
 
       private long guid_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint64 guid = 3;</code>
        * @return The guid.
        */
@@ -1312,6 +1392,10 @@ public final class ClientGadgetInfoOuterClass {
         return guid_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint64 guid = 3;</code>
        * @param value The guid to set.
        * @return This builder for chaining.
@@ -1323,12 +1407,102 @@ public final class ClientGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint64 guid = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
         
         guid_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private boolean asyncLoad_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool async_load = 6;</code>
+       * @return The asyncLoad.
+       */
+      @java.lang.Override
+      public boolean getAsyncLoad() {
+        return asyncLoad_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool async_load = 6;</code>
+       * @param value The asyncLoad to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAsyncLoad(boolean value) {
+        
+        asyncLoad_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool async_load = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAsyncLoad() {
+        
+        asyncLoad_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean isPeerIdFromPlayer_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool is_peer_id_from_player = 7;</code>
+       * @return The isPeerIdFromPlayer.
+       */
+      @java.lang.Override
+      public boolean getIsPeerIdFromPlayer() {
+        return isPeerIdFromPlayer_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool is_peer_id_from_player = 7;</code>
+       * @param value The isPeerIdFromPlayer to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsPeerIdFromPlayer(boolean value) {
+        
+        isPeerIdFromPlayer_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>bool is_peer_id_from_player = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsPeerIdFromPlayer() {
+        
+        isPeerIdFromPlayer_ = false;
         onChanged();
         return this;
       }
@@ -1399,15 +1573,14 @@ public final class ClientGadgetInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026ClientGadgetInfo.proto\"\205\002\n\020ClientGadge" +
+      "\n\026ClientGadgetInfo.proto\"\360\001\n\020ClientGadge" +
       "tInfo\022\035\n\025target_entity_id_list\030\010 \003(\r\022$\n\034" +
-      "target_lock_point_index_list\030\t \003(\r\022\017\n\007ca" +
-      "mp_id\030\001 \001(\r\022\030\n\020target_entity_id\030\005 \001(\r\022\021\n" +
-      "\tcamp_type\030\002 \001(\r\022\027\n\017owner_entity_id\030\004 \001(" +
-      "\r\022\023\n\013DMGFKPAIINP\030\013 \001(\r\022\036\n\026is_peer_id_fro" +
-      "m_player\030\007 \001(\010\022\022\n\nasync_load\030\006 \001(\010\022\014\n\004gu" +
-      "id\030\003 \001(\004B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "target_lock_point_index_list\030\t \003(\r\022\030\n\020ta" +
+      "rget_entity_id\030\005 \001(\r\022\027\n\017owner_entity_id\030" +
+      "\004 \001(\r\022\021\n\tcamp_type\030\002 \001(\r\022\017\n\007camp_id\030\001 \001(" +
+      "\r\022\014\n\004guid\030\003 \001(\004\022\022\n\nasync_load\030\006 \001(\010\022\036\n\026i" +
+      "s_peer_id_from_player\030\007 \001(\010B\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1418,7 +1591,7 @@ public final class ClientGadgetInfoOuterClass {
     internal_static_ClientGadgetInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ClientGadgetInfo_descriptor,
-        new java.lang.String[] { "TargetEntityIdList", "TargetLockPointIndexList", "CampId", "TargetEntityId", "CampType", "OwnerEntityId", "DMGFKPAIINP", "IsPeerIdFromPlayer", "AsyncLoad", "Guid", });
+        new java.lang.String[] { "TargetEntityIdList", "TargetLockPointIndexList", "TargetEntityId", "OwnerEntityId", "CampType", "CampId", "Guid", "AsyncLoad", "IsPeerIdFromPlayer", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

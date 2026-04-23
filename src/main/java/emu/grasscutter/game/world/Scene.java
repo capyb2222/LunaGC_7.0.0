@@ -48,6 +48,8 @@ import java.util.stream.Collectors;
 import javax.annotation.Nullable;
 import lombok.*;
 
+import static emu.grasscutter.GameConstants.ENTITY_ID_BIT_SHIFT;
+
 public class Scene {
     @Getter private final World world;
     @Getter private final SceneData sceneData;
@@ -138,7 +140,7 @@ public class Scene {
         // Check for an avatar.
         var entity = this.entities.get(id);
         if (entity == null) entity = this.weaponEntities.get(id);
-        if (entity == null && (id >> 22) == EntityIdType.AVATAR.getId()) {
+        if (entity == null && (id >> ENTITY_ID_BIT_SHIFT) == EntityIdType.AVATAR.getId()) {
             for (var player : getPlayers()) {
                 for (var avatar : player.getTeamManager().getActiveTeam()) {
                     if (avatar.getId() == id) return avatar;
@@ -147,7 +149,7 @@ public class Scene {
         }
 
         // Check for a weapon.
-        if (entity == null && (id >> 22) == EntityIdType.WEAPON.getId()) {
+        if (entity == null && (id >> ENTITY_ID_BIT_SHIFT) == EntityIdType.WEAPON.getId()) {
             for (var player : this.getPlayers()) {
                 for (var avatar : player.getTeamManager().getActiveTeam()) {
                     if (avatar.getWeaponEntityId() == id) return avatar;
@@ -271,7 +273,7 @@ public class Scene {
                 .filter(gameEntity -> gameEntity instanceof EntityVehicle)
                 .map(gameEntity -> (EntityVehicle) gameEntity)
                 .filter(entityVehicle -> entityVehicle.getOwner().equals(player))
-                .forEach(entityVehicle -> this.removeEntity(entityVehicle, VisionType.VISION_TYPE_REMOVE));
+                .forEach(entityVehicle -> this.removeEntity(entityVehicle, VisionType.VisionType_VISION_REMOVE));
 
         // Deregister scene if not in use
         if (this.getPlayerCount() <= 0 && !this.dontDestroyWhenEmpty) {
@@ -318,9 +320,9 @@ public class Scene {
 
     private synchronized void removePlayerAvatars(Player player) {
         var team = player.getTeamManager().getActiveTeam();
-        // removeEntities(team, VisionType.VISION_TYPE_REMOVE);  // List<SubType> isn't cool apparently
+        // removeEntities(team, VisionType.VisionType_VISION_REMOVE);  // List<SubType> isn't cool apparently
         // :(
-        team.forEach(e -> removeEntity(e, VisionType.VISION_TYPE_REMOVE));
+        team.forEach(e -> removeEntity(e, VisionType.VisionType_VISION_REMOVE));
         team.clear();
     }
 
@@ -384,7 +386,7 @@ public class Scene {
     }
 
     public void addEntities(Collection<? extends GameEntity> entities) {
-        addEntities(entities, VisionType.VISION_TYPE_BORN);
+        addEntities(entities, VisionType.VisionType_VISION_BORN);
     }
 
     public void updateEntity(GameEntity entity) {
@@ -428,7 +430,7 @@ public class Scene {
     }
 
     public void removeEntity(GameEntity entity) {
-        this.removeEntity(entity, VisionType.VISION_TYPE_DIE);
+        this.removeEntity(entity, VisionType.VisionType_VISION_DIE);
     }
 
     public synchronized void removeEntity(GameEntity entity, VisionType visionType) {
@@ -454,10 +456,10 @@ public class Scene {
         this.removeEntityDirectly(oldEntity);
         this.addEntityDirectly(newEntity);
         this.broadcastPacket(
-                new PacketSceneEntityDisappearNotify(oldEntity, VisionType.VISION_TYPE_REPLACE));
+                new PacketSceneEntityDisappearNotify(oldEntity, VisionType.VisionType_VISION_REPLACE));
         this.broadcastPacket(
                 new PacketSceneEntityAppearNotify(
-                        newEntity, VisionType.VISION_TYPE_REPLACE, oldEntity.getId()));
+                        newEntity, VisionType.VisionType_VISION_REPLACE, oldEntity.getId()));
     }
 
     public void showOtherEntities(Player player) {
@@ -470,7 +472,7 @@ public class Scene {
                                         !(gameEntity instanceof Rebornable rebornable) || !rebornable.isInCD())
                         .toList();
 
-        player.sendPacket(new PacketSceneEntityAppearNotify(entities, VisionType.VISION_TYPE_MEET));
+        player.sendPacket(new PacketSceneEntityAppearNotify(entities, VisionType.VisionType_VISION_MEET));
     }
 
     public void handleAttack(AttackResult result) {
@@ -697,7 +699,7 @@ public class Scene {
                         .teleportTo(targetPos)
                         .teleportRot(targetRot)
                         .teleportType(PlayerTeleportEvent.TeleportType.INTERNAL)
-                        .enterType(EnterTypeOuterClass.EnterType.ENTER_TYPE_GOTO)
+                        .enterType(EnterTypeOuterClass.EnterType.EnterType_ENTER_GOTO)
                         .enterReason(
                                 dungeonManager != null ? EnterReason.DungeonReviveOnWaypoint : EnterReason.Revival);
 
@@ -884,13 +886,13 @@ public class Scene {
 
         if (toAdd.size() > 0) {
             toAdd.forEach(this::addEntityDirectly);
-            this.broadcastPacket(new PacketSceneEntityAppearNotify(toAdd, VisionType.VISION_TYPE_BORN));
+            this.broadcastPacket(new PacketSceneEntityAppearNotify(toAdd, VisionType.VisionType_VISION_BORN));
         }
 
         if (toRemove.size() > 0) {
             toRemove.forEach(this::removeEntityDirectly);
             this.broadcastPacket(
-                    new PacketSceneEntityDisappearNotify(toRemove, VisionType.VISION_TYPE_REMOVE));
+                    new PacketSceneEntityDisappearNotify(toRemove, VisionType.VisionType_VISION_REMOVE));
             blossomManager.recycleGadgetEntity(toRemove);
         }
     }
@@ -1113,7 +1115,7 @@ public class Scene {
         if (toRemove.size() > 0) {
             toRemove.forEach(this::removeEntityDirectly);
             this.broadcastPacket(
-                    new PacketSceneEntityDisappearNotify(toRemove, VisionType.VISION_TYPE_REMOVE));
+                    new PacketSceneEntityDisappearNotify(toRemove, VisionType.VisionType_VISION_REMOVE));
         }
 
         var group = block.groups.get(group_id);
@@ -1176,7 +1178,7 @@ public class Scene {
 
         this.broadcastPacketToOthers(
                 gadget.getOwner(),
-                new PacketSceneEntityDisappearNotify(gadget, VisionType.VISION_TYPE_DIE));
+                new PacketSceneEntityDisappearNotify(gadget, VisionType.VisionType_VISION_DIE));
     }
 
     // Broadcasting
@@ -1313,7 +1315,7 @@ public class Scene {
             if (gadget.getContent() instanceof GadgetWorktop worktop) {
                 boolean shouldDelete = worktop.onSelectWorktopOption(req);
                 if (shouldDelete) {
-                    entity.getScene().removeEntity(entity, VisionType.VISION_TYPE_REMOVE);
+                    entity.getScene().removeEntity(entity, VisionType.VisionType_VISION_REMOVE);
                 }
             }
         }

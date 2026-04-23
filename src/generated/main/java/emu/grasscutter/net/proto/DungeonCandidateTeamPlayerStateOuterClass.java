@@ -20,32 +20,32 @@ public final class DungeonCandidateTeamPlayerStateOuterClass {
   public enum DungeonCandidateTeamPlayerState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_IDLE = 0;</code>
+     * <code>DungeonCandidateTeamPlayerState_IDLE = 0;</code>
      */
-    DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_IDLE(0),
+    DungeonCandidateTeamPlayerState_IDLE(0),
     /**
-     * <code>DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_CHANGING_AVATAR = 1;</code>
+     * <code>DungeonCandidateTeamPlayerState_CHANGING_AVATAR = 1;</code>
      */
-    DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_CHANGING_AVATAR(1),
+    DungeonCandidateTeamPlayerState_CHANGING_AVATAR(1),
     /**
-     * <code>DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_READY = 2;</code>
+     * <code>DungeonCandidateTeamPlayerState_READY = 2;</code>
      */
-    DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_READY(2),
+    DungeonCandidateTeamPlayerState_READY(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_IDLE = 0;</code>
+     * <code>DungeonCandidateTeamPlayerState_IDLE = 0;</code>
      */
-    public static final int DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_IDLE_VALUE = 0;
+    public static final int DungeonCandidateTeamPlayerState_IDLE_VALUE = 0;
     /**
-     * <code>DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_CHANGING_AVATAR = 1;</code>
+     * <code>DungeonCandidateTeamPlayerState_CHANGING_AVATAR = 1;</code>
      */
-    public static final int DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_CHANGING_AVATAR_VALUE = 1;
+    public static final int DungeonCandidateTeamPlayerState_CHANGING_AVATAR_VALUE = 1;
     /**
-     * <code>DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_READY = 2;</code>
+     * <code>DungeonCandidateTeamPlayerState_READY = 2;</code>
      */
-    public static final int DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_READY_VALUE = 2;
+    public static final int DungeonCandidateTeamPlayerState_READY_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class DungeonCandidateTeamPlayerStateOuterClass {
      */
     public static DungeonCandidateTeamPlayerState forNumber(int value) {
       switch (value) {
-        case 0: return DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_IDLE;
-        case 1: return DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_CHANGING_AVATAR;
-        case 2: return DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_READY;
+        case 0: return DungeonCandidateTeamPlayerState_IDLE;
+        case 1: return DungeonCandidateTeamPlayerState_CHANGING_AVATAR;
+        case 2: return DungeonCandidateTeamPlayerState_READY;
         default: return null;
       }
     }
@@ -141,12 +141,12 @@ public final class DungeonCandidateTeamPlayerStateOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n%DungeonCandidateTeamPlayerState.proto*" +
-      "\267\001\n\037DungeonCandidateTeamPlayerState\022,\n(D" +
-      "UNGEON_CANDIDATE_TEAM_PLAYER_STATE_IDLE\020" +
-      "\000\0227\n3DUNGEON_CANDIDATE_TEAM_PLAYER_STATE" +
-      "_CHANGING_AVATAR\020\001\022-\n)DUNGEON_CANDIDATE_" +
-      "TEAM_PLAYER_STATE_READY\020\002B\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\253\001\n\037DungeonCandidateTeamPlayerState\022(\n$D" +
+      "ungeonCandidateTeamPlayerState_IDLE\020\000\0223\n" +
+      "/DungeonCandidateTeamPlayerState_CHANGIN" +
+      "G_AVATAR\020\001\022)\n%DungeonCandidateTeamPlayer" +
+      "State_READY\020\002B\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

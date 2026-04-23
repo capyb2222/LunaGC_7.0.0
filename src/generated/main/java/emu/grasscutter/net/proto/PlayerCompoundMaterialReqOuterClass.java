@@ -19,7 +19,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 compound_id = 14;</code>
+     * <code>uint32 compound_id = 2;</code>
      * @return The compoundId.
      */
     int getCompoundId();
@@ -32,7 +32,8 @@ public final class PlayerCompoundMaterialReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 6730
+   * CmdId: 7541
+   * Obf: AILEMFGGGHN
    * </pre>
    *
    * Protobuf type {@code PlayerCompoundMaterialReq}
@@ -79,14 +80,14 @@ public final class PlayerCompoundMaterialReqOuterClass {
             case 0:
               done = true;
               break;
+            case 16: {
+
+              compoundId_ = input.readUInt32();
+              break;
+            }
             case 88: {
 
               count_ = input.readUInt32();
-              break;
-            }
-            case 112: {
-
-              compoundId_ = input.readUInt32();
               break;
             }
             default: {
@@ -121,10 +122,10 @@ public final class PlayerCompoundMaterialReqOuterClass {
               emu.grasscutter.net.proto.PlayerCompoundMaterialReqOuterClass.PlayerCompoundMaterialReq.class, emu.grasscutter.net.proto.PlayerCompoundMaterialReqOuterClass.PlayerCompoundMaterialReq.Builder.class);
     }
 
-    public static final int COMPOUND_ID_FIELD_NUMBER = 14;
+    public static final int COMPOUND_ID_FIELD_NUMBER = 2;
     private int compoundId_;
     /**
-     * <code>uint32 compound_id = 14;</code>
+     * <code>uint32 compound_id = 2;</code>
      * @return The compoundId.
      */
     @java.lang.Override
@@ -157,11 +158,11 @@ public final class PlayerCompoundMaterialReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (compoundId_ != 0) {
+        output.writeUInt32(2, compoundId_);
+      }
       if (count_ != 0) {
         output.writeUInt32(11, count_);
-      }
-      if (compoundId_ != 0) {
-        output.writeUInt32(14, compoundId_);
       }
       unknownFields.writeTo(output);
     }
@@ -172,13 +173,13 @@ public final class PlayerCompoundMaterialReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (compoundId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, compoundId_);
+      }
       if (count_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, count_);
-      }
-      if (compoundId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, compoundId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -311,7 +312,8 @@ public final class PlayerCompoundMaterialReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 6730
+     * CmdId: 7541
+     * Obf: AILEMFGGGHN
      * </pre>
      *
      * Protobuf type {@code PlayerCompoundMaterialReq}
@@ -468,7 +470,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
 
       private int compoundId_ ;
       /**
-       * <code>uint32 compound_id = 14;</code>
+       * <code>uint32 compound_id = 2;</code>
        * @return The compoundId.
        */
       @java.lang.Override
@@ -476,7 +478,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
         return compoundId_;
       }
       /**
-       * <code>uint32 compound_id = 14;</code>
+       * <code>uint32 compound_id = 2;</code>
        * @param value The compoundId to set.
        * @return This builder for chaining.
        */
@@ -487,7 +489,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 compound_id = 14;</code>
+       * <code>uint32 compound_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearCompoundId() {
@@ -595,7 +597,7 @@ public final class PlayerCompoundMaterialReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037PlayerCompoundMaterialReq.proto\"?\n\031Pla" +
-      "yerCompoundMaterialReq\022\023\n\013compound_id\030\016 " +
+      "yerCompoundMaterialReq\022\023\n\013compound_id\030\002 " +
       "\001(\r\022\r\n\005count\030\013 \001(\rB\033\n\031emu.grasscutter.ne" +
       "t.protob\006proto3"
     };

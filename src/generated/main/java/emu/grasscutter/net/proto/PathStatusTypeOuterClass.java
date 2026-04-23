@@ -20,32 +20,32 @@ public final class PathStatusTypeOuterClass {
   public enum PathStatusType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>PATH_STATUS_TYPE_FAIL = 0;</code>
+     * <code>PathStatusType_STATUS_FAIL = 0;</code>
      */
-    PATH_STATUS_TYPE_FAIL(0),
+    PathStatusType_STATUS_FAIL(0),
     /**
-     * <code>PATH_STATUS_TYPE_SUCC = 1;</code>
+     * <code>PathStatusType_STATUS_SUCC = 1;</code>
      */
-    PATH_STATUS_TYPE_SUCC(1),
+    PathStatusType_STATUS_SUCC(1),
     /**
-     * <code>PATH_STATUS_TYPE_PARTIAL = 2;</code>
+     * <code>PathStatusType_STATUS_PARTIAL = 2;</code>
      */
-    PATH_STATUS_TYPE_PARTIAL(2),
+    PathStatusType_STATUS_PARTIAL(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>PATH_STATUS_TYPE_FAIL = 0;</code>
+     * <code>PathStatusType_STATUS_FAIL = 0;</code>
      */
-    public static final int PATH_STATUS_TYPE_FAIL_VALUE = 0;
+    public static final int PathStatusType_STATUS_FAIL_VALUE = 0;
     /**
-     * <code>PATH_STATUS_TYPE_SUCC = 1;</code>
+     * <code>PathStatusType_STATUS_SUCC = 1;</code>
      */
-    public static final int PATH_STATUS_TYPE_SUCC_VALUE = 1;
+    public static final int PathStatusType_STATUS_SUCC_VALUE = 1;
     /**
-     * <code>PATH_STATUS_TYPE_PARTIAL = 2;</code>
+     * <code>PathStatusType_STATUS_PARTIAL = 2;</code>
      */
-    public static final int PATH_STATUS_TYPE_PARTIAL_VALUE = 2;
+    public static final int PathStatusType_STATUS_PARTIAL_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class PathStatusTypeOuterClass {
      */
     public static PathStatusType forNumber(int value) {
       switch (value) {
-        case 0: return PATH_STATUS_TYPE_FAIL;
-        case 1: return PATH_STATUS_TYPE_SUCC;
-        case 2: return PATH_STATUS_TYPE_PARTIAL;
+        case 0: return PathStatusType_STATUS_FAIL;
+        case 1: return PathStatusType_STATUS_SUCC;
+        case 2: return PathStatusType_STATUS_PARTIAL;
         default: return null;
       }
     }
@@ -140,11 +140,11 @@ public final class PathStatusTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024PathStatusType.proto*d\n\016PathStatusType" +
-      "\022\031\n\025PATH_STATUS_TYPE_FAIL\020\000\022\031\n\025PATH_STAT" +
-      "US_TYPE_SUCC\020\001\022\034\n\030PATH_STATUS_TYPE_PARTI" +
-      "AL\020\002B\033\n\031emu.grasscutter.net.protob\006proto" +
-      "3"
+      "\n\024PathStatusType.proto*s\n\016PathStatusType" +
+      "\022\036\n\032PathStatusType_STATUS_FAIL\020\000\022\036\n\032Path" +
+      "StatusType_STATUS_SUCC\020\001\022!\n\035PathStatusTy" +
+      "pe_STATUS_PARTIAL\020\002B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

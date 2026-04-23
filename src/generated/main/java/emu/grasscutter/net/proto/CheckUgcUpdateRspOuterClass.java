@@ -211,7 +211,7 @@ public final class CheckUgcUpdateRspOuterClass {
     }
     private int updateUgcGuidListMemoizedSerializedSize = -1;
 
-    public static final int UGC_TYPE_FIELD_NUMBER = 9;
+    public static final int UgcType_FIELD_NUMBER = 9;
     private int ugcType_;
     /**
      * <code>.UgcType ugc_type = 9;</code>
@@ -255,7 +255,7 @@ public final class CheckUgcUpdateRspOuterClass {
       if (retcode_ != 0) {
         output.writeInt32(6, retcode_);
       }
-      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UGC_TYPE_NONE.getNumber()) {
+      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         output.writeEnum(9, ugcType_);
       }
       unknownFields.writeTo(output);
@@ -285,7 +285,7 @@ public final class CheckUgcUpdateRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(6, retcode_);
       }
-      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UGC_TYPE_NONE.getNumber()) {
+      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, ugcType_);
       }
@@ -326,7 +326,7 @@ public final class CheckUgcUpdateRspOuterClass {
         hash = (37 * hash) + UPDATE_UGC_GUID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getUpdateUgcGuidListList().hashCode();
       }
-      hash = (37 * hash) + UGC_TYPE_FIELD_NUMBER;
+      hash = (37 * hash) + UgcType_FIELD_NUMBER;
       hash = (53 * hash) + ugcType_;
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -615,7 +615,7 @@ public final class CheckUgcUpdateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -625,7 +625,7 @@ public final class CheckUgcUpdateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -724,7 +724,7 @@ public final class CheckUgcUpdateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUgcTypeValue(int value) {
-        
+
         ugcType_ = value;
         onChanged();
         return this;
@@ -748,7 +748,7 @@ public final class CheckUgcUpdateRspOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         ugcType_ = value.getNumber();
         onChanged();
         return this;
@@ -758,7 +758,7 @@ public final class CheckUgcUpdateRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUgcType() {
-        
+
         ugcType_ = 0;
         onChanged();
         return this;
@@ -818,7 +818,7 @@ public final class CheckUgcUpdateRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CheckUgcUpdateRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CheckUgcUpdateRsp_fieldAccessorTable;
 

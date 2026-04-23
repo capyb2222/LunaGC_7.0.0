@@ -19,16 +19,12 @@ public final class ElectroherculesStartParamOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty = 10;</code>
-     * @return The difficulty.
+     * <code>uint32 LOHAJIABHDJ = 2;</code>
+     * @return The lOHAJIABHDJ.
      */
-    int getDifficulty();
+    int getLOHAJIABHDJ();
   }
   /**
-   * <pre>
-   * Obf: MPJHOAPGLOO
-   * </pre>
-   *
    * Protobuf type {@code ElectroherculesStartParam}
    */
   public static final class ElectroherculesStartParam extends
@@ -73,9 +69,9 @@ public final class ElectroherculesStartParamOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 16: {
 
-              difficulty_ = input.readUInt32();
+              lOHAJIABHDJ_ = input.readUInt32();
               break;
             }
             default: {
@@ -110,15 +106,15 @@ public final class ElectroherculesStartParamOuterClass {
               emu.grasscutter.net.proto.ElectroherculesStartParamOuterClass.ElectroherculesStartParam.class, emu.grasscutter.net.proto.ElectroherculesStartParamOuterClass.ElectroherculesStartParam.Builder.class);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 10;
-    private int difficulty_;
+    public static final int LOHAJIABHDJ_FIELD_NUMBER = 2;
+    private int lOHAJIABHDJ_;
     /**
-     * <code>uint32 difficulty = 10;</code>
-     * @return The difficulty.
+     * <code>uint32 LOHAJIABHDJ = 2;</code>
+     * @return The lOHAJIABHDJ.
      */
     @java.lang.Override
-    public int getDifficulty() {
-      return difficulty_;
+    public int getLOHAJIABHDJ() {
+      return lOHAJIABHDJ_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -135,8 +131,8 @@ public final class ElectroherculesStartParamOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (difficulty_ != 0) {
-        output.writeUInt32(10, difficulty_);
+      if (lOHAJIABHDJ_ != 0) {
+        output.writeUInt32(2, lOHAJIABHDJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -147,9 +143,9 @@ public final class ElectroherculesStartParamOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (difficulty_ != 0) {
+      if (lOHAJIABHDJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, difficulty_);
+          .computeUInt32Size(2, lOHAJIABHDJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -166,8 +162,8 @@ public final class ElectroherculesStartParamOuterClass {
       }
       emu.grasscutter.net.proto.ElectroherculesStartParamOuterClass.ElectroherculesStartParam other = (emu.grasscutter.net.proto.ElectroherculesStartParamOuterClass.ElectroherculesStartParam) obj;
 
-      if (getDifficulty()
-          != other.getDifficulty()) return false;
+      if (getLOHAJIABHDJ()
+          != other.getLOHAJIABHDJ()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -179,8 +175,8 @@ public final class ElectroherculesStartParamOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + DIFFICULTY_FIELD_NUMBER;
-      hash = (53 * hash) + getDifficulty();
+      hash = (37 * hash) + LOHAJIABHDJ_FIELD_NUMBER;
+      hash = (53 * hash) + getLOHAJIABHDJ();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -277,10 +273,6 @@ public final class ElectroherculesStartParamOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: MPJHOAPGLOO
-     * </pre>
-     *
      * Protobuf type {@code ElectroherculesStartParam}
      */
     public static final class Builder extends
@@ -318,7 +310,7 @@ public final class ElectroherculesStartParamOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        difficulty_ = 0;
+        lOHAJIABHDJ_ = 0;
 
         return this;
       }
@@ -346,7 +338,7 @@ public final class ElectroherculesStartParamOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ElectroherculesStartParamOuterClass.ElectroherculesStartParam buildPartial() {
         emu.grasscutter.net.proto.ElectroherculesStartParamOuterClass.ElectroherculesStartParam result = new emu.grasscutter.net.proto.ElectroherculesStartParamOuterClass.ElectroherculesStartParam(this);
-        result.difficulty_ = difficulty_;
+        result.lOHAJIABHDJ_ = lOHAJIABHDJ_;
         onBuilt();
         return result;
       }
@@ -395,8 +387,8 @@ public final class ElectroherculesStartParamOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ElectroherculesStartParamOuterClass.ElectroherculesStartParam other) {
         if (other == emu.grasscutter.net.proto.ElectroherculesStartParamOuterClass.ElectroherculesStartParam.getDefaultInstance()) return this;
-        if (other.getDifficulty() != 0) {
-          setDifficulty(other.getDifficulty());
+        if (other.getLOHAJIABHDJ() != 0) {
+          setLOHAJIABHDJ(other.getLOHAJIABHDJ());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -427,33 +419,33 @@ public final class ElectroherculesStartParamOuterClass {
         return this;
       }
 
-      private int difficulty_ ;
+      private int lOHAJIABHDJ_ ;
       /**
-       * <code>uint32 difficulty = 10;</code>
-       * @return The difficulty.
+       * <code>uint32 LOHAJIABHDJ = 2;</code>
+       * @return The lOHAJIABHDJ.
        */
       @java.lang.Override
-      public int getDifficulty() {
-        return difficulty_;
+      public int getLOHAJIABHDJ() {
+        return lOHAJIABHDJ_;
       }
       /**
-       * <code>uint32 difficulty = 10;</code>
-       * @param value The difficulty to set.
+       * <code>uint32 LOHAJIABHDJ = 2;</code>
+       * @param value The lOHAJIABHDJ to set.
        * @return This builder for chaining.
        */
-      public Builder setDifficulty(int value) {
+      public Builder setLOHAJIABHDJ(int value) {
         
-        difficulty_ = value;
+        lOHAJIABHDJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 difficulty = 10;</code>
+       * <code>uint32 LOHAJIABHDJ = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDifficulty() {
+      public Builder clearLOHAJIABHDJ() {
         
-        difficulty_ = 0;
+        lOHAJIABHDJ_ = 0;
         onChanged();
         return this;
       }
@@ -524,9 +516,9 @@ public final class ElectroherculesStartParamOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037ElectroherculesStartParam.proto\"/\n\031Ele" +
-      "ctroherculesStartParam\022\022\n\ndifficulty\030\n \001" +
-      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\037ElectroherculesStartParam.proto\"0\n\031Ele" +
+      "ctroherculesStartParam\022\023\n\013LOHAJIABHDJ\030\002 " +
+      "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -537,7 +529,7 @@ public final class ElectroherculesStartParamOuterClass {
     internal_static_ElectroherculesStartParam_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ElectroherculesStartParam_descriptor,
-        new java.lang.String[] { "Difficulty", });
+        new java.lang.String[] { "LOHAJIABHDJ", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -19,6 +19,10 @@ public final class DateTimeDeleteOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 delete_time = 1;</code>
      * @return The deleteTime.
      */
@@ -109,6 +113,10 @@ public final class DateTimeDeleteOuterClass {
     public static final int DELETE_TIME_FIELD_NUMBER = 1;
     private int deleteTime_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 delete_time = 1;</code>
      * @return The deleteTime.
      */
@@ -421,6 +429,10 @@ public final class DateTimeDeleteOuterClass {
 
       private int deleteTime_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 delete_time = 1;</code>
        * @return The deleteTime.
        */
@@ -429,6 +441,10 @@ public final class DateTimeDeleteOuterClass {
         return deleteTime_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 delete_time = 1;</code>
        * @param value The deleteTime to set.
        * @return This builder for chaining.
@@ -440,6 +456,10 @@ public final class DateTimeDeleteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 delete_time = 1;</code>
        * @return This builder for chaining.
        */

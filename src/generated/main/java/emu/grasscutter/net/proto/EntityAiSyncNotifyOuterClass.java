@@ -19,49 +19,81 @@ public final class EntityAiSyncNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
      * @return A list containing the localAvatarAlertedMonsterList.
      */
     java.util.List<java.lang.Integer> getLocalAvatarAlertedMonsterListList();
     /**
-     * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
      * @return The count of localAvatarAlertedMonsterList.
      */
     int getLocalAvatarAlertedMonsterListCount();
     /**
-     * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
      * @param index The index of the element to return.
      * @return The localAvatarAlertedMonsterList at the given index.
      */
     int getLocalAvatarAlertedMonsterList(int index);
 
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo> 
         getInfoListList();
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo getInfoList(int index);
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     int getInfoListCount();
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder> 
         getInfoListOrBuilderList();
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder getInfoListOrBuilder(
         int index);
   }
   /**
    * <pre>
-   * CmdId: 6225
+   * CmdId: 22883
    * </pre>
    *
    * Protobuf type {@code EntityAiSyncNotify}
@@ -111,7 +143,7 @@ public final class EntityAiSyncNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 localAvatarAlertedMonsterList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -119,7 +151,7 @@ public final class EntityAiSyncNotifyOuterClass {
               localAvatarAlertedMonsterList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -132,7 +164,7 @@ public final class EntityAiSyncNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 82: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 infoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo>();
                 mutable_bitField0_ |= 0x00000002;
@@ -179,10 +211,14 @@ public final class EntityAiSyncNotifyOuterClass {
               emu.grasscutter.net.proto.EntityAiSyncNotifyOuterClass.EntityAiSyncNotify.class, emu.grasscutter.net.proto.EntityAiSyncNotifyOuterClass.EntityAiSyncNotify.Builder.class);
     }
 
-    public static final int LOCAL_AVATAR_ALERTED_MONSTER_LIST_FIELD_NUMBER = 3;
+    public static final int LOCAL_AVATAR_ALERTED_MONSTER_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList localAvatarAlertedMonsterList_;
     /**
-     * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
      * @return A list containing the localAvatarAlertedMonsterList.
      */
     @java.lang.Override
@@ -191,14 +227,22 @@ public final class EntityAiSyncNotifyOuterClass {
       return localAvatarAlertedMonsterList_;
     }
     /**
-     * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
      * @return The count of localAvatarAlertedMonsterList.
      */
     public int getLocalAvatarAlertedMonsterListCount() {
       return localAvatarAlertedMonsterList_.size();
     }
     /**
-     * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
      * @param index The index of the element to return.
      * @return The localAvatarAlertedMonsterList at the given index.
      */
@@ -207,17 +251,25 @@ public final class EntityAiSyncNotifyOuterClass {
     }
     private int localAvatarAlertedMonsterListMemoizedSerializedSize = -1;
 
-    public static final int INFO_LIST_FIELD_NUMBER = 10;
+    public static final int INFO_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo> infoList_;
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo> getInfoListList() {
       return infoList_;
     }
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder> 
@@ -225,21 +277,33 @@ public final class EntityAiSyncNotifyOuterClass {
       return infoList_;
     }
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     @java.lang.Override
     public int getInfoListCount() {
       return infoList_.size();
     }
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo getInfoList(int index) {
       return infoList_.get(index);
     }
     /**
-     * <code>repeated .AiSyncInfo info_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated .AiSyncInfo info_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder getInfoListOrBuilder(
@@ -263,14 +327,14 @@ public final class EntityAiSyncNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getLocalAvatarAlertedMonsterListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(10);
         output.writeUInt32NoTag(localAvatarAlertedMonsterListMemoizedSerializedSize);
       }
       for (int i = 0; i < localAvatarAlertedMonsterList_.size(); i++) {
         output.writeUInt32NoTag(localAvatarAlertedMonsterList_.getInt(i));
       }
       for (int i = 0; i < infoList_.size(); i++) {
-        output.writeMessage(10, infoList_.get(i));
+        output.writeMessage(4, infoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -297,7 +361,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       for (int i = 0; i < infoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, infoList_.get(i));
+          .computeMessageSize(4, infoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -434,7 +498,7 @@ public final class EntityAiSyncNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 6225
+     * CmdId: 22883
      * </pre>
      *
      * Protobuf type {@code EntityAiSyncNotify}
@@ -646,7 +710,11 @@ public final class EntityAiSyncNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
        * @return A list containing the localAvatarAlertedMonsterList.
        */
       public java.util.List<java.lang.Integer>
@@ -655,14 +723,22 @@ public final class EntityAiSyncNotifyOuterClass {
                  java.util.Collections.unmodifiableList(localAvatarAlertedMonsterList_) : localAvatarAlertedMonsterList_;
       }
       /**
-       * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
        * @return The count of localAvatarAlertedMonsterList.
        */
       public int getLocalAvatarAlertedMonsterListCount() {
         return localAvatarAlertedMonsterList_.size();
       }
       /**
-       * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
        * @param index The index of the element to return.
        * @return The localAvatarAlertedMonsterList at the given index.
        */
@@ -670,7 +746,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return localAvatarAlertedMonsterList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
        * @param index The index to set the value at.
        * @param value The localAvatarAlertedMonsterList to set.
        * @return This builder for chaining.
@@ -683,7 +763,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
        * @param value The localAvatarAlertedMonsterList to add.
        * @return This builder for chaining.
        */
@@ -694,7 +778,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
        * @param values The localAvatarAlertedMonsterList to add.
        * @return This builder for chaining.
        */
@@ -707,7 +795,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 local_avatar_alerted_monster_list = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearLocalAvatarAlertedMonsterList() {
@@ -730,7 +822,11 @@ public final class EntityAiSyncNotifyOuterClass {
           emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder> infoListBuilder_;
 
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo> getInfoListList() {
         if (infoListBuilder_ == null) {
@@ -740,7 +836,11 @@ public final class EntityAiSyncNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public int getInfoListCount() {
         if (infoListBuilder_ == null) {
@@ -750,7 +850,11 @@ public final class EntityAiSyncNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo getInfoList(int index) {
         if (infoListBuilder_ == null) {
@@ -760,7 +864,11 @@ public final class EntityAiSyncNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public Builder setInfoList(
           int index, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo value) {
@@ -777,7 +885,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public Builder setInfoList(
           int index, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder builderForValue) {
@@ -791,7 +903,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public Builder addInfoList(emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo value) {
         if (infoListBuilder_ == null) {
@@ -807,7 +923,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public Builder addInfoList(
           int index, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo value) {
@@ -824,7 +944,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public Builder addInfoList(
           emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder builderForValue) {
@@ -838,7 +962,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public Builder addInfoList(
           int index, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder builderForValue) {
@@ -852,7 +980,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public Builder addAllInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo> values) {
@@ -867,7 +999,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public Builder clearInfoList() {
         if (infoListBuilder_ == null) {
@@ -880,7 +1016,11 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public Builder removeInfoList(int index) {
         if (infoListBuilder_ == null) {
@@ -893,14 +1033,22 @@ public final class EntityAiSyncNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder getInfoListBuilder(
           int index) {
         return getInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder getInfoListOrBuilder(
           int index) {
@@ -910,7 +1058,11 @@ public final class EntityAiSyncNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfoOrBuilder> 
            getInfoListOrBuilderList() {
@@ -921,14 +1073,22 @@ public final class EntityAiSyncNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder addInfoListBuilder() {
         return getInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder addInfoListBuilder(
           int index) {
@@ -936,7 +1096,11 @@ public final class EntityAiSyncNotifyOuterClass {
             index, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .AiSyncInfo info_list = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated .AiSyncInfo info_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder> 
            getInfoListBuilderList() {
@@ -1025,8 +1189,8 @@ public final class EntityAiSyncNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030EntityAiSyncNotify.proto\032\020AiSyncInfo.p" +
       "roto\"_\n\022EntityAiSyncNotify\022)\n!local_avat" +
-      "ar_alerted_monster_list\030\003 \003(\r\022\036\n\tinfo_li" +
-      "st\030\n \003(\0132\013.AiSyncInfoB\033\n\031emu.grasscutter" +
+      "ar_alerted_monster_list\030\001 \003(\r\022\036\n\tinfo_li" +
+      "st\030\004 \003(\0132\013.AiSyncInfoB\033\n\031emu.grasscutter" +
       ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

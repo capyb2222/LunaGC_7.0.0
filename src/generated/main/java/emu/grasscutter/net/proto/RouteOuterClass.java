@@ -19,30 +19,54 @@ public final class RouteOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> 
         getRoutePointsList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint getRoutePoints(int index);
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     int getRoutePointsCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
         getRoutePointsOrBuilderList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder getRoutePointsOrBuilder(
         int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 route_type = 2;</code>
      * @return The routeType.
      */
@@ -147,6 +171,10 @@ public final class RouteOuterClass {
     public static final int ROUTE_POINTS_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> routePoints_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     @java.lang.Override
@@ -154,6 +182,10 @@ public final class RouteOuterClass {
       return routePoints_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     @java.lang.Override
@@ -162,6 +194,10 @@ public final class RouteOuterClass {
       return routePoints_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     @java.lang.Override
@@ -169,6 +205,10 @@ public final class RouteOuterClass {
       return routePoints_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     @java.lang.Override
@@ -176,6 +216,10 @@ public final class RouteOuterClass {
       return routePoints_.get(index);
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .RoutePoint route_points = 1;</code>
      */
     @java.lang.Override
@@ -187,6 +231,10 @@ public final class RouteOuterClass {
     public static final int ROUTE_TYPE_FIELD_NUMBER = 2;
     private int routeType_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 route_type = 2;</code>
      * @return The routeType.
      */
@@ -567,6 +615,10 @@ public final class RouteOuterClass {
           emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> routePointsBuilder_;
 
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> getRoutePointsList() {
@@ -577,6 +629,10 @@ public final class RouteOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public int getRoutePointsCount() {
@@ -587,6 +643,10 @@ public final class RouteOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint getRoutePoints(int index) {
@@ -597,6 +657,10 @@ public final class RouteOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public Builder setRoutePoints(
@@ -614,6 +678,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public Builder setRoutePoints(
@@ -628,6 +696,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public Builder addRoutePoints(emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint value) {
@@ -644,6 +716,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public Builder addRoutePoints(
@@ -661,6 +737,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public Builder addRoutePoints(
@@ -675,6 +755,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public Builder addRoutePoints(
@@ -689,6 +773,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public Builder addAllRoutePoints(
@@ -704,6 +792,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public Builder clearRoutePoints() {
@@ -717,6 +809,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public Builder removeRoutePoints(int index) {
@@ -730,6 +826,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder getRoutePointsBuilder(
@@ -737,6 +837,10 @@ public final class RouteOuterClass {
         return getRoutePointsFieldBuilder().getBuilder(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder getRoutePointsOrBuilder(
@@ -747,6 +851,10 @@ public final class RouteOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.RoutePointOuterClass.RoutePointOrBuilder> 
@@ -758,6 +866,10 @@ public final class RouteOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder addRoutePointsBuilder() {
@@ -765,6 +877,10 @@ public final class RouteOuterClass {
             emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.getDefaultInstance());
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder addRoutePointsBuilder(
@@ -773,6 +889,10 @@ public final class RouteOuterClass {
             index, emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.getDefaultInstance());
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .RoutePoint route_points = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.Builder> 
@@ -796,6 +916,10 @@ public final class RouteOuterClass {
 
       private int routeType_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 route_type = 2;</code>
        * @return The routeType.
        */
@@ -804,6 +928,10 @@ public final class RouteOuterClass {
         return routeType_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 route_type = 2;</code>
        * @param value The routeType to set.
        * @return This builder for chaining.
@@ -815,6 +943,10 @@ public final class RouteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 route_type = 2;</code>
        * @return This builder for chaining.
        */

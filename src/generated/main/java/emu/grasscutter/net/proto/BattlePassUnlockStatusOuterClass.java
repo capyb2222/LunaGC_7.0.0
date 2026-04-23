@@ -20,32 +20,32 @@ public final class BattlePassUnlockStatusOuterClass {
   public enum BattlePassUnlockStatus
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>BATTLE_PASS_UNLOCK_STATUS_INVALID = 0;</code>
+     * <code>BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID = 0;</code>
      */
-    BATTLE_PASS_UNLOCK_STATUS_INVALID(0),
+    BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID(0),
     /**
-     * <code>BATTLE_PASS_UNLOCK_STATUS_FREE = 1;</code>
+     * <code>BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FREE = 1;</code>
      */
-    BATTLE_PASS_UNLOCK_STATUS_FREE(1),
+    BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FREE(1),
     /**
-     * <code>BATTLE_PASS_UNLOCK_STATUS_PAID = 2;</code>
+     * <code>BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID = 2;</code>
      */
-    BATTLE_PASS_UNLOCK_STATUS_PAID(2),
+    BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>BATTLE_PASS_UNLOCK_STATUS_INVALID = 0;</code>
+     * <code>BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID = 0;</code>
      */
-    public static final int BATTLE_PASS_UNLOCK_STATUS_INVALID_VALUE = 0;
+    public static final int BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID_VALUE = 0;
     /**
-     * <code>BATTLE_PASS_UNLOCK_STATUS_FREE = 1;</code>
+     * <code>BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FREE = 1;</code>
      */
-    public static final int BATTLE_PASS_UNLOCK_STATUS_FREE_VALUE = 1;
+    public static final int BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FREE_VALUE = 1;
     /**
-     * <code>BATTLE_PASS_UNLOCK_STATUS_PAID = 2;</code>
+     * <code>BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID = 2;</code>
      */
-    public static final int BATTLE_PASS_UNLOCK_STATUS_PAID_VALUE = 2;
+    public static final int BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class BattlePassUnlockStatusOuterClass {
      */
     public static BattlePassUnlockStatus forNumber(int value) {
       switch (value) {
-        case 0: return BATTLE_PASS_UNLOCK_STATUS_INVALID;
-        case 1: return BATTLE_PASS_UNLOCK_STATUS_FREE;
-        case 2: return BATTLE_PASS_UNLOCK_STATUS_PAID;
+        case 0: return BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID;
+        case 1: return BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FREE;
+        case 2: return BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID;
         default: return null;
       }
     }
@@ -140,12 +140,13 @@ public final class BattlePassUnlockStatusOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034BattlePassUnlockStatus.proto*\207\001\n\026Battl" +
-      "ePassUnlockStatus\022%\n!BATTLE_PASS_UNLOCK_" +
-      "STATUS_INVALID\020\000\022\"\n\036BATTLE_PASS_UNLOCK_S" +
-      "TATUS_FREE\020\001\022\"\n\036BATTLE_PASS_UNLOCK_STATU" +
-      "S_PAID\020\002B\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "\n\034BattlePassUnlockStatus.proto*\267\001\n\026Battl" +
+      "ePassUnlockStatus\0225\n1BattlePassUnlockSTA" +
+      "TUS_BATTLE_PASS_UNLOCK_INVALID\020\000\0222\n.Batt" +
+      "lePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FR" +
+      "EE\020\001\0222\n.BattlePassUnlockSTATUS_BATTLE_PA" +
+      "SS_UNLOCK_PAID\020\002B\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

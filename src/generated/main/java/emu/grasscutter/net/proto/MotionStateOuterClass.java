@@ -20,896 +20,880 @@ public final class MotionStateOuterClass {
   public enum MotionState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>MOTION_STATE_NONE = 0;</code>
+     * <code>MotionState_MOTION_NONE = 0;</code>
      */
-    MOTION_STATE_NONE(0),
+    MotionState_MOTION_NONE(0),
     /**
-     * <code>MOTION_STATE_RESET = 1;</code>
+     * <code>MotionState_MOTION_RESET = 1;</code>
      */
-    MOTION_STATE_RESET(1),
+    MotionState_MOTION_RESET(1),
     /**
-     * <code>MOTION_STATE_STANDBY = 2;</code>
+     * <code>MotionState_MOTION_STANDBY = 2;</code>
      */
-    MOTION_STATE_STANDBY(2),
+    MotionState_MOTION_STANDBY(2),
     /**
-     * <code>MOTION_STATE_STANDBY_MOVE = 3;</code>
+     * <code>MotionState_MOTION_STANDBY_MOVE = 3;</code>
      */
-    MOTION_STATE_STANDBY_MOVE(3),
+    MotionState_MOTION_STANDBY_MOVE(3),
     /**
-     * <code>MOTION_STATE_WALK = 4;</code>
+     * <code>MotionState_MOTION_WALK = 4;</code>
      */
-    MOTION_STATE_WALK(4),
+    MotionState_MOTION_WALK(4),
     /**
-     * <code>MOTION_STATE_RUN = 5;</code>
+     * <code>MotionState_MOTION_RUN = 5;</code>
      */
-    MOTION_STATE_RUN(5),
+    MotionState_MOTION_RUN(5),
     /**
-     * <code>MOTION_STATE_DASH = 6;</code>
+     * <code>MotionState_MOTION_DASH = 6;</code>
      */
-    MOTION_STATE_DASH(6),
+    MotionState_MOTION_DASH(6),
     /**
-     * <code>MOTION_STATE_CLIMB = 7;</code>
+     * <code>MotionState_MOTION_CLIMB = 7;</code>
      */
-    MOTION_STATE_CLIMB(7),
+    MotionState_MOTION_CLIMB(7),
     /**
-     * <code>MOTION_STATE_CLIMB_JUMP = 8;</code>
+     * <code>MotionState_MOTION_CLIMB_JUMP = 8;</code>
      */
-    MOTION_STATE_CLIMB_JUMP(8),
+    MotionState_MOTION_CLIMB_JUMP(8),
     /**
-     * <code>MOTION_STATE_STANDBY_TO_CLIMB = 9;</code>
+     * <code>MotionState_MOTION_STANDBY_TO_CLIMB = 9;</code>
      */
-    MOTION_STATE_STANDBY_TO_CLIMB(9),
+    MotionState_MOTION_STANDBY_TO_CLIMB(9),
     /**
-     * <code>MOTION_STATE_FIGHT = 10;</code>
+     * <code>MotionState_MOTION_FIGHT = 10;</code>
      */
-    MOTION_STATE_FIGHT(10),
+    MotionState_MOTION_FIGHT(10),
     /**
-     * <code>MOTION_STATE_JUMP = 11;</code>
+     * <code>MotionState_MOTION_JUMP = 11;</code>
      */
-    MOTION_STATE_JUMP(11),
+    MotionState_MOTION_JUMP(11),
     /**
-     * <code>MOTION_STATE_DROP = 12;</code>
+     * <code>MotionState_MOTION_DROP = 12;</code>
      */
-    MOTION_STATE_DROP(12),
+    MotionState_MOTION_DROP(12),
     /**
-     * <code>MOTION_STATE_FLY = 13;</code>
+     * <code>MotionState_MOTION_FLY = 13;</code>
      */
-    MOTION_STATE_FLY(13),
+    MotionState_MOTION_FLY(13),
     /**
-     * <code>MOTION_STATE_SWIM_MOVE = 14;</code>
+     * <code>MotionState_MOTION_SWIM_MOVE = 14;</code>
      */
-    MOTION_STATE_SWIM_MOVE(14),
+    MotionState_MOTION_SWIM_MOVE(14),
     /**
-     * <code>MOTION_STATE_SWIM_IDLE = 15;</code>
+     * <code>MotionState_MOTION_SWIM_IDLE = 15;</code>
      */
-    MOTION_STATE_SWIM_IDLE(15),
+    MotionState_MOTION_SWIM_IDLE(15),
     /**
-     * <code>MOTION_STATE_SWIM_DASH = 16;</code>
+     * <code>MotionState_MOTION_SWIM_DASH = 16;</code>
      */
-    MOTION_STATE_SWIM_DASH(16),
+    MotionState_MOTION_SWIM_DASH(16),
     /**
-     * <code>MOTION_STATE_SWIM_JUMP = 17;</code>
+     * <code>MotionState_MOTION_SWIM_JUMP = 17;</code>
      */
-    MOTION_STATE_SWIM_JUMP(17),
+    MotionState_MOTION_SWIM_JUMP(17),
     /**
-     * <code>MOTION_STATE_SLIP = 18;</code>
+     * <code>MotionState_MOTION_SLIP = 18;</code>
      */
-    MOTION_STATE_SLIP(18),
+    MotionState_MOTION_SLIP(18),
     /**
-     * <code>MOTION_STATE_GO_UPSTAIRS = 19;</code>
+     * <code>MotionState_MOTION_GO_UPSTAIRS = 19;</code>
      */
-    MOTION_STATE_GO_UPSTAIRS(19),
+    MotionState_MOTION_GO_UPSTAIRS(19),
     /**
-     * <code>MOTION_STATE_FALL_ON_GROUND = 20;</code>
+     * <code>MotionState_MOTION_FALL_ON_GROUND = 20;</code>
      */
-    MOTION_STATE_FALL_ON_GROUND(20),
+    MotionState_MOTION_FALL_ON_GROUND(20),
     /**
-     * <code>MOTION_STATE_JUMP_UP_WALL_FOR_STANDBY = 21;</code>
+     * <code>MotionState_MOTION_JUMP_UP_WALL_FOR_STANDBY = 21;</code>
      */
-    MOTION_STATE_JUMP_UP_WALL_FOR_STANDBY(21),
+    MotionState_MOTION_JUMP_UP_WALL_FOR_STANDBY(21),
     /**
-     * <code>MOTION_STATE_JUMP_OFF_WALL = 22;</code>
+     * <code>MotionState_MOTION_JUMP_OFF_WALL = 22;</code>
      */
-    MOTION_STATE_JUMP_OFF_WALL(22),
+    MotionState_MOTION_JUMP_OFF_WALL(22),
     /**
-     * <code>MOTION_STATE_POWERED_FLY = 23;</code>
+     * <code>MotionState_MOTION_POWERED_FLY = 23;</code>
      */
-    MOTION_STATE_POWERED_FLY(23),
+    MotionState_MOTION_POWERED_FLY(23),
     /**
-     * <code>MOTION_STATE_LADDER_IDLE = 24;</code>
+     * <code>MotionState_MOTION_LADDER_IDLE = 24;</code>
      */
-    MOTION_STATE_LADDER_IDLE(24),
+    MotionState_MOTION_LADDER_IDLE(24),
     /**
-     * <code>MOTION_STATE_LADDER_MOVE = 25;</code>
+     * <code>MotionState_MOTION_LADDER_MOVE = 25;</code>
      */
-    MOTION_STATE_LADDER_MOVE(25),
+    MotionState_MOTION_LADDER_MOVE(25),
     /**
-     * <code>MOTION_STATE_LADDER_SLIP = 26;</code>
+     * <code>MotionState_MOTION_LADDER_SLIP = 26;</code>
      */
-    MOTION_STATE_LADDER_SLIP(26),
+    MotionState_MOTION_LADDER_SLIP(26),
     /**
-     * <code>MOTION_STATE_STANDBY_TO_LADDER = 27;</code>
+     * <code>MotionState_MOTION_STANDBY_TO_LADDER = 27;</code>
      */
-    MOTION_STATE_STANDBY_TO_LADDER(27),
+    MotionState_MOTION_STANDBY_TO_LADDER(27),
     /**
-     * <code>MOTION_STATE_LADDER_TO_STANDBY = 28;</code>
+     * <code>MotionState_MOTION_LADDER_TO_STANDBY = 28;</code>
      */
-    MOTION_STATE_LADDER_TO_STANDBY(28),
+    MotionState_MOTION_LADDER_TO_STANDBY(28),
     /**
-     * <code>MOTION_STATE_DANGER_STANDBY = 29;</code>
+     * <code>MotionState_MOTION_DANGER_STANDBY = 29;</code>
      */
-    MOTION_STATE_DANGER_STANDBY(29),
+    MotionState_MOTION_DANGER_STANDBY(29),
     /**
-     * <code>MOTION_STATE_DANGER_STANDBY_MOVE = 30;</code>
+     * <code>MotionState_MOTION_DANGER_STANDBY_MOVE = 30;</code>
      */
-    MOTION_STATE_DANGER_STANDBY_MOVE(30),
+    MotionState_MOTION_DANGER_STANDBY_MOVE(30),
     /**
-     * <code>MOTION_STATE_DANGER_WALK = 31;</code>
+     * <code>MotionState_MOTION_DANGER_WALK = 31;</code>
      */
-    MOTION_STATE_DANGER_WALK(31),
+    MotionState_MOTION_DANGER_WALK(31),
     /**
-     * <code>MOTION_STATE_DANGER_RUN = 32;</code>
+     * <code>MotionState_MOTION_DANGER_RUN = 32;</code>
      */
-    MOTION_STATE_DANGER_RUN(32),
+    MotionState_MOTION_DANGER_RUN(32),
     /**
-     * <code>MOTION_STATE_DANGER_DASH = 33;</code>
+     * <code>MotionState_MOTION_DANGER_DASH = 33;</code>
      */
-    MOTION_STATE_DANGER_DASH(33),
+    MotionState_MOTION_DANGER_DASH(33),
     /**
-     * <code>MOTION_STATE_CROUCH_IDLE = 34;</code>
+     * <code>MotionState_MOTION_CROUCH_IDLE = 34;</code>
      */
-    MOTION_STATE_CROUCH_IDLE(34),
+    MotionState_MOTION_CROUCH_IDLE(34),
     /**
-     * <code>MOTION_STATE_CROUCH_MOVE = 35;</code>
+     * <code>MotionState_MOTION_CROUCH_MOVE = 35;</code>
      */
-    MOTION_STATE_CROUCH_MOVE(35),
+    MotionState_MOTION_CROUCH_MOVE(35),
     /**
-     * <code>MOTION_STATE_CROUCH_ROLL = 36;</code>
+     * <code>MotionState_MOTION_CROUCH_ROLL = 36;</code>
      */
-    MOTION_STATE_CROUCH_ROLL(36),
+    MotionState_MOTION_CROUCH_ROLL(36),
     /**
-     * <code>MOTION_STATE_NOTIFY = 37;</code>
+     * <code>MotionState_MOTION_NOTIFY = 37;</code>
      */
-    MOTION_STATE_NOTIFY(37),
+    MotionState_MOTION_NOTIFY(37),
     /**
-     * <code>MOTION_STATE_LAND_SPEED = 38;</code>
+     * <code>MotionState_MOTION_LAND_SPEED = 38;</code>
      */
-    MOTION_STATE_LAND_SPEED(38),
+    MotionState_MOTION_LAND_SPEED(38),
     /**
-     * <code>MOTION_STATE_MOVE_FAIL_ACK = 39;</code>
+     * <code>MotionState_MOTION_MOVE_FAIL_ACK = 39;</code>
      */
-    MOTION_STATE_MOVE_FAIL_ACK(39),
+    MotionState_MOTION_MOVE_FAIL_ACK(39),
     /**
-     * <code>MOTION_STATE_WATERFALL = 40;</code>
+     * <code>MotionState_MOTION_WATERFALL = 40;</code>
      */
-    MOTION_STATE_WATERFALL(40),
+    MotionState_MOTION_WATERFALL(40),
     /**
-     * <code>MOTION_STATE_DASH_BEFORE_SHAKE = 41;</code>
+     * <code>MotionState_MOTION_DASH_BEFORE_SHAKE = 41;</code>
      */
-    MOTION_STATE_DASH_BEFORE_SHAKE(41),
+    MotionState_MOTION_DASH_BEFORE_SHAKE(41),
     /**
-     * <code>MOTION_STATE_SIT_IDLE = 42;</code>
+     * <code>MotionState_MOTION_SIT_IDLE = 42;</code>
      */
-    MOTION_STATE_SIT_IDLE(42),
+    MotionState_MOTION_SIT_IDLE(42),
     /**
-     * <code>MOTION_STATE_FORCE_SET_POS = 43;</code>
+     * <code>MotionState_MOTION_FORCE_SET_POS = 43;</code>
      */
-    MOTION_STATE_FORCE_SET_POS(43),
+    MotionState_MOTION_FORCE_SET_POS(43),
     /**
-     * <code>MOTION_STATE_QUEST_FORCE_DRAG = 44;</code>
+     * <code>MotionState_MOTION_QUEST_FORCE_DRAG = 44;</code>
      */
-    MOTION_STATE_QUEST_FORCE_DRAG(44),
+    MotionState_MOTION_QUEST_FORCE_DRAG(44),
     /**
-     * <code>MOTION_STATE_FOLLOW_ROUTE = 45;</code>
+     * <code>MotionState_MOTION_FOLLOW_ROUTE = 45;</code>
      */
-    MOTION_STATE_FOLLOW_ROUTE(45),
+    MotionState_MOTION_FOLLOW_ROUTE(45),
     /**
-     * <code>MOTION_STATE_SKIFF_BOARDING = 46;</code>
+     * <code>MotionState_MOTION_SKIFF_BOARDING = 46;</code>
      */
-    MOTION_STATE_SKIFF_BOARDING(46),
+    MotionState_MOTION_SKIFF_BOARDING(46),
     /**
-     * <code>MOTION_STATE_SKIFF_NORMAL = 47;</code>
+     * <code>MotionState_MOTION_SKIFF_NORMAL = 47;</code>
      */
-    MOTION_STATE_SKIFF_NORMAL(47),
+    MotionState_MOTION_SKIFF_NORMAL(47),
     /**
-     * <code>MOTION_STATE_SKIFF_DASH = 48;</code>
+     * <code>MotionState_MOTION_SKIFF_DASH = 48;</code>
      */
-    MOTION_STATE_SKIFF_DASH(48),
+    MotionState_MOTION_SKIFF_DASH(48),
     /**
-     * <code>MOTION_STATE_SKIFF_POWERED_DASH = 49;</code>
+     * <code>MotionState_MOTION_SKIFF_POWERED_DASH = 49;</code>
      */
-    MOTION_STATE_SKIFF_POWERED_DASH(49),
+    MotionState_MOTION_SKIFF_POWERED_DASH(49),
     /**
-     * <code>MOTION_STATE_DESTROY_VEHICLE = 50;</code>
+     * <code>MotionState_MOTION_DESTROY_VEHICLE = 50;</code>
      */
-    MOTION_STATE_DESTROY_VEHICLE(50),
+    MotionState_MOTION_DESTROY_VEHICLE(50),
     /**
-     * <code>MOTION_STATE_FLY_IDLE = 51;</code>
+     * <code>MotionState_MOTION_FLY_IDLE = 51;</code>
      */
-    MOTION_STATE_FLY_IDLE(51),
+    MotionState_MOTION_FLY_IDLE(51),
     /**
-     * <code>MOTION_STATE_FLY_SLOW = 52;</code>
+     * <code>MotionState_MOTION_FLY_SLOW = 52;</code>
      */
-    MOTION_STATE_FLY_SLOW(52),
+    MotionState_MOTION_FLY_SLOW(52),
     /**
-     * <code>MOTION_STATE_FLY_FAST = 53;</code>
+     * <code>MotionState_MOTION_FLY_FAST = 53;</code>
      */
-    MOTION_STATE_FLY_FAST(53),
+    MotionState_MOTION_FLY_FAST(53),
     /**
-     * <code>MOTION_STATE_AIM_MOVE = 54;</code>
+     * <code>MotionState_MOTION_AIM_MOVE = 54;</code>
      */
-    MOTION_STATE_AIM_MOVE(54),
+    MotionState_MOTION_AIM_MOVE(54),
     /**
-     * <code>MOTION_STATE_AIR_COMPENSATION = 55;</code>
+     * <code>MotionState_MOTION_AIR_COMPENSATION = 55;</code>
      */
-    MOTION_STATE_AIR_COMPENSATION(55),
+    MotionState_MOTION_AIR_COMPENSATION(55),
     /**
-     * <code>MOTION_STATE_SORUSH_NORMAL = 56;</code>
+     * <code>MotionState_MOTION_SORUSH_NORMAL = 56;</code>
      */
-    MOTION_STATE_SORUSH_NORMAL(56),
+    MotionState_MOTION_SORUSH_NORMAL(56),
     /**
-     * <code>MOTION_STATE_ROLLER_COASTER = 57;</code>
+     * <code>MotionState_MOTION_ROLLER_COASTER = 57;</code>
      */
-    MOTION_STATE_ROLLER_COASTER(57),
+    MotionState_MOTION_ROLLER_COASTER(57),
     /**
-     * <code>MOTION_STATE_DIVE_IDLE = 58;</code>
+     * <code>MotionState_MOTION_DIVE_IDLE = 58;</code>
      */
-    MOTION_STATE_DIVE_IDLE(58),
+    MotionState_MOTION_DIVE_IDLE(58),
     /**
-     * <code>MOTION_STATE_DIVE_MOVE = 59;</code>
+     * <code>MotionState_MOTION_DIVE_MOVE = 59;</code>
      */
-    MOTION_STATE_DIVE_MOVE(59),
+    MotionState_MOTION_DIVE_MOVE(59),
     /**
-     * <code>MOTION_STATE_DIVE_DASH = 60;</code>
+     * <code>MotionState_MOTION_DIVE_DASH = 60;</code>
      */
-    MOTION_STATE_DIVE_DASH(60),
+    MotionState_MOTION_DIVE_DASH(60),
     /**
-     * <code>MOTION_STATE_DIVE_DOLPHINE = 61;</code>
+     * <code>MotionState_MOTION_DIVE_DOLPHINE = 61;</code>
      */
-    MOTION_STATE_DIVE_DOLPHINE(61),
+    MotionState_MOTION_DIVE_DOLPHINE(61),
     /**
-     * <code>MOTION_STATE_DEBUG = 62;</code>
+     * <code>MotionState_MOTION_DEBUG = 62;</code>
      */
-    MOTION_STATE_DEBUG(62),
+    MotionState_MOTION_DEBUG(62),
     /**
-     * <code>MOTION_STATE_OCEAN_CURRENT = 63;</code>
+     * <code>MotionState_MOTION_OCEAN_CURRENT = 63;</code>
      */
-    MOTION_STATE_OCEAN_CURRENT(63),
+    MotionState_MOTION_OCEAN_CURRENT(63),
     /**
-     * <code>MOTION_STATE_DIVE_SWIM_MOVE = 64;</code>
+     * <code>MotionState_MOTION_DIVE_SWIM_MOVE = 64;</code>
      */
-    MOTION_STATE_DIVE_SWIM_MOVE(64),
+    MotionState_MOTION_DIVE_SWIM_MOVE(64),
     /**
-     * <code>MOTION_STATE_DIVE_SWIM_IDLE = 65;</code>
+     * <code>MotionState_MOTION_DIVE_SWIM_IDLE = 65;</code>
      */
-    MOTION_STATE_DIVE_SWIM_IDLE(65),
+    MotionState_MOTION_DIVE_SWIM_IDLE(65),
     /**
-     * <code>MOTION_STATE_DIVE_SWIM_DASH = 66;</code>
+     * <code>MotionState_MOTION_DIVE_SWIM_DASH = 66;</code>
      */
-    MOTION_STATE_DIVE_SWIM_DASH(66),
+    MotionState_MOTION_DIVE_SWIM_DASH(66),
     /**
-     * <code>MOTION_STATE_ARC_LIGHT = 67;</code>
+     * <code>MotionState_MOTION_ARC_LIGHT = 67;</code>
      */
-    MOTION_STATE_ARC_LIGHT(67),
+    MotionState_MOTION_ARC_LIGHT(67),
     /**
-     * <code>MOTION_STATE_ARC_LIGHT_SAFE = 68;</code>
+     * <code>MotionState_MOTION_ARC_LIGHT_SAFE = 68;</code>
      */
-    MOTION_STATE_ARC_LIGHT_SAFE(68),
+    MotionState_MOTION_ARC_LIGHT_SAFE(68),
     /**
-     * <code>MOTION_STATE_VEHICLE_STANDBY = 69;</code>
+     * <code>MotionState_MOTION_VEHICLE_STANDBY = 69;</code>
      */
-    MOTION_STATE_VEHICLE_STANDBY(69),
+    MotionState_MOTION_VEHICLE_STANDBY(69),
     /**
-     * <code>MOTION_STATE_VEHICLE_RUN = 70;</code>
+     * <code>MotionState_MOTION_VEHICLE_RUN = 70;</code>
      */
-    MOTION_STATE_VEHICLE_RUN(70),
+    MotionState_MOTION_VEHICLE_RUN(70),
     /**
-     * <code>MOTION_STATE_VEHICLE_DASH = 71;</code>
+     * <code>MotionState_MOTION_VEHICLE_DASH = 71;</code>
      */
-    MOTION_STATE_VEHICLE_DASH(71),
+    MotionState_MOTION_VEHICLE_DASH(71),
     /**
-     * <code>MOTION_STATE_VEHICLE_CLIMB = 72;</code>
+     * <code>MotionState_MOTION_VEHICLE_CLIMB = 72;</code>
      */
-    MOTION_STATE_VEHICLE_CLIMB(72),
+    MotionState_MOTION_VEHICLE_CLIMB(72),
     /**
-     * <code>MOTION_STATE_VEHICLE_CLIMB_JUMP = 73;</code>
+     * <code>MotionState_MOTION_VEHICLE_CLIMB_JUMP = 73;</code>
      */
-    MOTION_STATE_VEHICLE_CLIMB_JUMP(73),
+    MotionState_MOTION_VEHICLE_CLIMB_JUMP(73),
     /**
-     * <code>MOTION_STATE_VEHICLE_STANDBY_TO_CLIMB = 74;</code>
+     * <code>MotionState_MOTION_VEHICLE_STANDBY_TO_CLIMB = 74;</code>
      */
-    MOTION_STATE_VEHICLE_STANDBY_TO_CLIMB(74),
+    MotionState_MOTION_VEHICLE_STANDBY_TO_CLIMB(74),
     /**
-     * <code>MOTION_STATE_VEHICLE_FIGHT = 75;</code>
+     * <code>MotionState_MOTION_VEHICLE_FIGHT = 75;</code>
      */
-    MOTION_STATE_VEHICLE_FIGHT(75),
+    MotionState_MOTION_VEHICLE_FIGHT(75),
     /**
-     * <code>MOTION_STATE_VEHICLE_JUMP = 76;</code>
+     * <code>MotionState_MOTION_VEHICLE_JUMP = 76;</code>
      */
-    MOTION_STATE_VEHICLE_JUMP(76),
+    MotionState_MOTION_VEHICLE_JUMP(76),
     /**
-     * <code>MOTION_STATE_VEHICLE_DROP = 77;</code>
+     * <code>MotionState_MOTION_VEHICLE_DROP = 77;</code>
      */
-    MOTION_STATE_VEHICLE_DROP(77),
+    MotionState_MOTION_VEHICLE_DROP(77),
     /**
-     * <code>MOTION_STATE_VEHICLE_FLY = 78;</code>
+     * <code>MotionState_MOTION_VEHICLE_FLY = 78;</code>
      */
-    MOTION_STATE_VEHICLE_FLY(78),
+    MotionState_MOTION_VEHICLE_FLY(78),
     /**
-     * <code>MOTION_STATE_VEHICLE_SWIM_MOVE = 79;</code>
+     * <code>MotionState_MOTION_VEHICLE_SWIM_MOVE = 79;</code>
      */
-    MOTION_STATE_VEHICLE_SWIM_MOVE(79),
+    MotionState_MOTION_VEHICLE_SWIM_MOVE(79),
     /**
-     * <code>MOTION_STATE_VEHICLE_SWIM_IDLE = 80;</code>
+     * <code>MotionState_MOTION_VEHICLE_SWIM_IDLE = 80;</code>
      */
-    MOTION_STATE_VEHICLE_SWIM_IDLE(80),
+    MotionState_MOTION_VEHICLE_SWIM_IDLE(80),
     /**
-     * <code>MOTION_STATE_VEHICLE_SWIM_DASH = 81;</code>
+     * <code>MotionState_MOTION_VEHICLE_SWIM_DASH = 81;</code>
      */
-    MOTION_STATE_VEHICLE_SWIM_DASH(81),
+    MotionState_MOTION_VEHICLE_SWIM_DASH(81),
     /**
-     * <code>MOTION_STATE_VEHICLE_SLIP = 82;</code>
+     * <code>MotionState_MOTION_VEHICLE_SLIP = 82;</code>
      */
-    MOTION_STATE_VEHICLE_SLIP(82),
+    MotionState_MOTION_VEHICLE_SLIP(82),
     /**
-     * <code>MOTION_STATE_VEHICLE_GO_UPSTAIRS = 83;</code>
+     * <code>MotionState_MOTION_VEHICLE_GO_UPSTAIRS = 83;</code>
      */
-    MOTION_STATE_VEHICLE_GO_UPSTAIRS(83),
+    MotionState_MOTION_VEHICLE_GO_UPSTAIRS(83),
     /**
-     * <code>MOTION_STATE_VEHICLE_FALL_ON_GROUND = 84;</code>
+     * <code>MotionState_MOTION_VEHICLE_FALL_ON_GROUND = 84;</code>
      */
-    MOTION_STATE_VEHICLE_FALL_ON_GROUND(84),
+    MotionState_MOTION_VEHICLE_FALL_ON_GROUND(84),
     /**
-     * <code>MOTION_STATE_VEHICLE_JUMP_OFF_WALL = 85;</code>
+     * <code>MotionState_MOTION_VEHICLE_JUMP_OFF_WALL = 85;</code>
      */
-    MOTION_STATE_VEHICLE_JUMP_OFF_WALL(85),
+    MotionState_MOTION_VEHICLE_JUMP_OFF_WALL(85),
     /**
-     * <code>MOTION_STATE_VEHICLE_POWERED_FLY = 86;</code>
+     * <code>MotionState_MOTION_VEHICLE_POWERED_FLY = 86;</code>
      */
-    MOTION_STATE_VEHICLE_POWERED_FLY(86),
+    MotionState_MOTION_VEHICLE_POWERED_FLY(86),
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_STANDBY = 87;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_STANDBY = 87;</code>
      */
-    MOTION_STATE_VEHICLE_DANGER_STANDBY(87),
+    MotionState_MOTION_VEHICLE_DANGER_STANDBY(87),
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_RUN = 88;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_RUN = 88;</code>
      */
-    MOTION_STATE_VEHICLE_DANGER_RUN(88),
+    MotionState_MOTION_VEHICLE_DANGER_RUN(88),
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_DASH = 89;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_DASH = 89;</code>
      */
-    MOTION_STATE_VEHICLE_DANGER_DASH(89),
+    MotionState_MOTION_VEHICLE_DANGER_DASH(89),
     /**
-     * <code>MOTION_STATE_VEHICLE_NOTIFY = 90;</code>
+     * <code>MotionState_MOTION_VEHICLE_NOTIFY = 90;</code>
      */
-    MOTION_STATE_VEHICLE_NOTIFY(90),
+    MotionState_MOTION_VEHICLE_NOTIFY(90),
     /**
-     * <code>MOTION_STATE_VEHICLE_LAND_SPEED = 91;</code>
+     * <code>MotionState_MOTION_VEHICLE_LAND_SPEED = 91;</code>
      */
-    MOTION_STATE_VEHICLE_LAND_SPEED(91),
+    MotionState_MOTION_VEHICLE_LAND_SPEED(91),
     /**
-     * <code>MOTION_STATE_VEHICLE_DASH_BEFORE_SHAKE = 92;</code>
+     * <code>MotionState_MOTION_VEHICLE_DASH_BEFORE_SHAKE = 92;</code>
      */
-    MOTION_STATE_VEHICLE_DASH_BEFORE_SHAKE(92),
+    MotionState_MOTION_VEHICLE_DASH_BEFORE_SHAKE(92),
     /**
-     * <code>MOTION_STATE_VEHICLE_QUEST_FORCE_DRAG = 93;</code>
+     * <code>MotionState_MOTION_VEHICLE_QUEST_FORCE_DRAG = 93;</code>
      */
-    MOTION_STATE_VEHICLE_QUEST_FORCE_DRAG(93),
+    MotionState_MOTION_VEHICLE_QUEST_FORCE_DRAG(93),
     /**
-     * <code>MOTION_STATE_VEHICLE_FOLLOW_ROUTE = 94;</code>
+     * <code>MotionState_MOTION_VEHICLE_FOLLOW_ROUTE = 94;</code>
      */
-    MOTION_STATE_VEHICLE_FOLLOW_ROUTE(94),
+    MotionState_MOTION_VEHICLE_FOLLOW_ROUTE(94),
     /**
-     * <code>MOTION_STATE_VEHICLE_FLY_IDLE = 95;</code>
+     * <code>MotionState_MOTION_VEHICLE_FLY_IDLE = 95;</code>
      */
-    MOTION_STATE_VEHICLE_FLY_IDLE(95),
+    MotionState_MOTION_VEHICLE_FLY_IDLE(95),
     /**
-     * <code>MOTION_STATE_VEHICLE_FLY_SLOW = 96;</code>
+     * <code>MotionState_MOTION_VEHICLE_FLY_SLOW = 96;</code>
      */
-    MOTION_STATE_VEHICLE_FLY_SLOW(96),
+    MotionState_MOTION_VEHICLE_FLY_SLOW(96),
     /**
-     * <code>MOTION_STATE_VEHICLE_FLY_FAST = 97;</code>
+     * <code>MotionState_MOTION_VEHICLE_FLY_FAST = 97;</code>
      */
-    MOTION_STATE_VEHICLE_FLY_FAST(97),
+    MotionState_MOTION_VEHICLE_FLY_FAST(97),
     /**
-     * <code>MOTION_STATE_VEHICLE_AIR_COMPENSATION = 98;</code>
+     * <code>MotionState_MOTION_VEHICLE_AIR_COMPENSATION = 98;</code>
      */
-    MOTION_STATE_VEHICLE_AIR_COMPENSATION(98),
+    MotionState_MOTION_VEHICLE_AIR_COMPENSATION(98),
     /**
-     * <code>MOTION_STATE_VEHICLE_ARC_LIGHT = 99;</code>
+     * <code>MotionState_MOTION_VEHICLE_ARC_LIGHT = 99;</code>
      */
-    MOTION_STATE_VEHICLE_ARC_LIGHT(99),
+    MotionState_MOTION_VEHICLE_ARC_LIGHT(99),
     /**
-     * <code>MOTION_STATE_VEHICLE_ARC_LIGHT_SAFE = 100;</code>
+     * <code>MotionState_MOTION_VEHICLE_ARC_LIGHT_SAFE = 100;</code>
      */
-    MOTION_STATE_VEHICLE_ARC_LIGHT_SAFE(100),
+    MotionState_MOTION_VEHICLE_ARC_LIGHT_SAFE(100),
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_SWIM_MOVE = 101;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_SWIM_MOVE = 101;</code>
      */
-    MOTION_STATE_VEHICLE_DANGER_SWIM_MOVE(101),
+    MotionState_MOTION_VEHICLE_DANGER_SWIM_MOVE(101),
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_SWIM_IDLE = 102;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_SWIM_IDLE = 102;</code>
      */
-    MOTION_STATE_VEHICLE_DANGER_SWIM_IDLE(102),
+    MotionState_MOTION_VEHICLE_DANGER_SWIM_IDLE(102),
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_SWIM_DASH = 103;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_SWIM_DASH = 103;</code>
      */
-    MOTION_STATE_VEHICLE_DANGER_SWIM_DASH(103),
+    MotionState_MOTION_VEHICLE_DANGER_SWIM_DASH(103),
     /**
-     * <code>MOTION_STATE_FOLLOW_CURVE_ROUTE = 104;</code>
+     * <code>MotionState_MOTION_FOLLOW_CURVE_ROUTE = 104;</code>
      */
-    MOTION_STATE_FOLLOW_CURVE_ROUTE(104),
+    MotionState_MOTION_FOLLOW_CURVE_ROUTE(104),
     /**
-     * <code>MOTION_STATE_VEHICLE_FOLLOW_CURVE_ROUTE = 105;</code>
+     * <code>MotionState_MOTION_VEHICLE_FOLLOW_CURVE_ROUTE = 105;</code>
      */
-    MOTION_STATE_VEHICLE_FOLLOW_CURVE_ROUTE(105),
+    MotionState_MOTION_VEHICLE_FOLLOW_CURVE_ROUTE(105),
     /**
-     * <code>MOTION_STATE_NATSAURUS_NORMAL = 106;</code>
+     * <code>MotionState_MOTION_NATSAURUS_NORMAL = 106;</code>
      */
-    MOTION_STATE_NATSAURUS_NORMAL(106),
+    MotionState_MOTION_NATSAURUS_NORMAL(106),
     /**
-     * <code>MOTION_STATE_NATSAURUS_ENTERING = 107;</code>
+     * <code>MotionState_MOTION_NATSAURUS_ENTERING = 107;</code>
      */
-    MOTION_STATE_NATSAURUS_ENTERING(107),
+    MotionState_MOTION_NATSAURUS_ENTERING(107),
     /**
-     * <code>MOTION_STATE_MAGLEV = 108;</code>
+     * <code>MotionState_MOTION_NUM = 108;</code>
      */
-    MOTION_STATE_MAGLEV(108),
-    /**
-     * <code>MOTION_STATE_MAGLEV_SAFE = 109;</code>
-     */
-    MOTION_STATE_MAGLEV_SAFE(109),
-    /**
-     * <code>MOTION_STATE_NUM = 110;</code>
-     */
-    MOTION_STATE_NUM(110),
+    MotionState_MOTION_NUM(108),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>MOTION_STATE_NONE = 0;</code>
+     * <code>MotionState_MOTION_NONE = 0;</code>
      */
-    public static final int MOTION_STATE_NONE_VALUE = 0;
+    public static final int MotionState_MOTION_NONE_VALUE = 0;
     /**
-     * <code>MOTION_STATE_RESET = 1;</code>
+     * <code>MotionState_MOTION_RESET = 1;</code>
      */
-    public static final int MOTION_STATE_RESET_VALUE = 1;
+    public static final int MotionState_MOTION_RESET_VALUE = 1;
     /**
-     * <code>MOTION_STATE_STANDBY = 2;</code>
+     * <code>MotionState_MOTION_STANDBY = 2;</code>
      */
-    public static final int MOTION_STATE_STANDBY_VALUE = 2;
+    public static final int MotionState_MOTION_STANDBY_VALUE = 2;
     /**
-     * <code>MOTION_STATE_STANDBY_MOVE = 3;</code>
+     * <code>MotionState_MOTION_STANDBY_MOVE = 3;</code>
      */
-    public static final int MOTION_STATE_STANDBY_MOVE_VALUE = 3;
+    public static final int MotionState_MOTION_STANDBY_MOVE_VALUE = 3;
     /**
-     * <code>MOTION_STATE_WALK = 4;</code>
+     * <code>MotionState_MOTION_WALK = 4;</code>
      */
-    public static final int MOTION_STATE_WALK_VALUE = 4;
+    public static final int MotionState_MOTION_WALK_VALUE = 4;
     /**
-     * <code>MOTION_STATE_RUN = 5;</code>
+     * <code>MotionState_MOTION_RUN = 5;</code>
      */
-    public static final int MOTION_STATE_RUN_VALUE = 5;
+    public static final int MotionState_MOTION_RUN_VALUE = 5;
     /**
-     * <code>MOTION_STATE_DASH = 6;</code>
+     * <code>MotionState_MOTION_DASH = 6;</code>
      */
-    public static final int MOTION_STATE_DASH_VALUE = 6;
+    public static final int MotionState_MOTION_DASH_VALUE = 6;
     /**
-     * <code>MOTION_STATE_CLIMB = 7;</code>
+     * <code>MotionState_MOTION_CLIMB = 7;</code>
      */
-    public static final int MOTION_STATE_CLIMB_VALUE = 7;
+    public static final int MotionState_MOTION_CLIMB_VALUE = 7;
     /**
-     * <code>MOTION_STATE_CLIMB_JUMP = 8;</code>
+     * <code>MotionState_MOTION_CLIMB_JUMP = 8;</code>
      */
-    public static final int MOTION_STATE_CLIMB_JUMP_VALUE = 8;
+    public static final int MotionState_MOTION_CLIMB_JUMP_VALUE = 8;
     /**
-     * <code>MOTION_STATE_STANDBY_TO_CLIMB = 9;</code>
+     * <code>MotionState_MOTION_STANDBY_TO_CLIMB = 9;</code>
      */
-    public static final int MOTION_STATE_STANDBY_TO_CLIMB_VALUE = 9;
+    public static final int MotionState_MOTION_STANDBY_TO_CLIMB_VALUE = 9;
     /**
-     * <code>MOTION_STATE_FIGHT = 10;</code>
+     * <code>MotionState_MOTION_FIGHT = 10;</code>
      */
-    public static final int MOTION_STATE_FIGHT_VALUE = 10;
+    public static final int MotionState_MOTION_FIGHT_VALUE = 10;
     /**
-     * <code>MOTION_STATE_JUMP = 11;</code>
+     * <code>MotionState_MOTION_JUMP = 11;</code>
      */
-    public static final int MOTION_STATE_JUMP_VALUE = 11;
+    public static final int MotionState_MOTION_JUMP_VALUE = 11;
     /**
-     * <code>MOTION_STATE_DROP = 12;</code>
+     * <code>MotionState_MOTION_DROP = 12;</code>
      */
-    public static final int MOTION_STATE_DROP_VALUE = 12;
+    public static final int MotionState_MOTION_DROP_VALUE = 12;
     /**
-     * <code>MOTION_STATE_FLY = 13;</code>
+     * <code>MotionState_MOTION_FLY = 13;</code>
      */
-    public static final int MOTION_STATE_FLY_VALUE = 13;
+    public static final int MotionState_MOTION_FLY_VALUE = 13;
     /**
-     * <code>MOTION_STATE_SWIM_MOVE = 14;</code>
+     * <code>MotionState_MOTION_SWIM_MOVE = 14;</code>
      */
-    public static final int MOTION_STATE_SWIM_MOVE_VALUE = 14;
+    public static final int MotionState_MOTION_SWIM_MOVE_VALUE = 14;
     /**
-     * <code>MOTION_STATE_SWIM_IDLE = 15;</code>
+     * <code>MotionState_MOTION_SWIM_IDLE = 15;</code>
      */
-    public static final int MOTION_STATE_SWIM_IDLE_VALUE = 15;
+    public static final int MotionState_MOTION_SWIM_IDLE_VALUE = 15;
     /**
-     * <code>MOTION_STATE_SWIM_DASH = 16;</code>
+     * <code>MotionState_MOTION_SWIM_DASH = 16;</code>
      */
-    public static final int MOTION_STATE_SWIM_DASH_VALUE = 16;
+    public static final int MotionState_MOTION_SWIM_DASH_VALUE = 16;
     /**
-     * <code>MOTION_STATE_SWIM_JUMP = 17;</code>
+     * <code>MotionState_MOTION_SWIM_JUMP = 17;</code>
      */
-    public static final int MOTION_STATE_SWIM_JUMP_VALUE = 17;
+    public static final int MotionState_MOTION_SWIM_JUMP_VALUE = 17;
     /**
-     * <code>MOTION_STATE_SLIP = 18;</code>
+     * <code>MotionState_MOTION_SLIP = 18;</code>
      */
-    public static final int MOTION_STATE_SLIP_VALUE = 18;
+    public static final int MotionState_MOTION_SLIP_VALUE = 18;
     /**
-     * <code>MOTION_STATE_GO_UPSTAIRS = 19;</code>
+     * <code>MotionState_MOTION_GO_UPSTAIRS = 19;</code>
      */
-    public static final int MOTION_STATE_GO_UPSTAIRS_VALUE = 19;
+    public static final int MotionState_MOTION_GO_UPSTAIRS_VALUE = 19;
     /**
-     * <code>MOTION_STATE_FALL_ON_GROUND = 20;</code>
+     * <code>MotionState_MOTION_FALL_ON_GROUND = 20;</code>
      */
-    public static final int MOTION_STATE_FALL_ON_GROUND_VALUE = 20;
+    public static final int MotionState_MOTION_FALL_ON_GROUND_VALUE = 20;
     /**
-     * <code>MOTION_STATE_JUMP_UP_WALL_FOR_STANDBY = 21;</code>
+     * <code>MotionState_MOTION_JUMP_UP_WALL_FOR_STANDBY = 21;</code>
      */
-    public static final int MOTION_STATE_JUMP_UP_WALL_FOR_STANDBY_VALUE = 21;
+    public static final int MotionState_MOTION_JUMP_UP_WALL_FOR_STANDBY_VALUE = 21;
     /**
-     * <code>MOTION_STATE_JUMP_OFF_WALL = 22;</code>
+     * <code>MotionState_MOTION_JUMP_OFF_WALL = 22;</code>
      */
-    public static final int MOTION_STATE_JUMP_OFF_WALL_VALUE = 22;
+    public static final int MotionState_MOTION_JUMP_OFF_WALL_VALUE = 22;
     /**
-     * <code>MOTION_STATE_POWERED_FLY = 23;</code>
+     * <code>MotionState_MOTION_POWERED_FLY = 23;</code>
      */
-    public static final int MOTION_STATE_POWERED_FLY_VALUE = 23;
+    public static final int MotionState_MOTION_POWERED_FLY_VALUE = 23;
     /**
-     * <code>MOTION_STATE_LADDER_IDLE = 24;</code>
+     * <code>MotionState_MOTION_LADDER_IDLE = 24;</code>
      */
-    public static final int MOTION_STATE_LADDER_IDLE_VALUE = 24;
+    public static final int MotionState_MOTION_LADDER_IDLE_VALUE = 24;
     /**
-     * <code>MOTION_STATE_LADDER_MOVE = 25;</code>
+     * <code>MotionState_MOTION_LADDER_MOVE = 25;</code>
      */
-    public static final int MOTION_STATE_LADDER_MOVE_VALUE = 25;
+    public static final int MotionState_MOTION_LADDER_MOVE_VALUE = 25;
     /**
-     * <code>MOTION_STATE_LADDER_SLIP = 26;</code>
+     * <code>MotionState_MOTION_LADDER_SLIP = 26;</code>
      */
-    public static final int MOTION_STATE_LADDER_SLIP_VALUE = 26;
+    public static final int MotionState_MOTION_LADDER_SLIP_VALUE = 26;
     /**
-     * <code>MOTION_STATE_STANDBY_TO_LADDER = 27;</code>
+     * <code>MotionState_MOTION_STANDBY_TO_LADDER = 27;</code>
      */
-    public static final int MOTION_STATE_STANDBY_TO_LADDER_VALUE = 27;
+    public static final int MotionState_MOTION_STANDBY_TO_LADDER_VALUE = 27;
     /**
-     * <code>MOTION_STATE_LADDER_TO_STANDBY = 28;</code>
+     * <code>MotionState_MOTION_LADDER_TO_STANDBY = 28;</code>
      */
-    public static final int MOTION_STATE_LADDER_TO_STANDBY_VALUE = 28;
+    public static final int MotionState_MOTION_LADDER_TO_STANDBY_VALUE = 28;
     /**
-     * <code>MOTION_STATE_DANGER_STANDBY = 29;</code>
+     * <code>MotionState_MOTION_DANGER_STANDBY = 29;</code>
      */
-    public static final int MOTION_STATE_DANGER_STANDBY_VALUE = 29;
+    public static final int MotionState_MOTION_DANGER_STANDBY_VALUE = 29;
     /**
-     * <code>MOTION_STATE_DANGER_STANDBY_MOVE = 30;</code>
+     * <code>MotionState_MOTION_DANGER_STANDBY_MOVE = 30;</code>
      */
-    public static final int MOTION_STATE_DANGER_STANDBY_MOVE_VALUE = 30;
+    public static final int MotionState_MOTION_DANGER_STANDBY_MOVE_VALUE = 30;
     /**
-     * <code>MOTION_STATE_DANGER_WALK = 31;</code>
+     * <code>MotionState_MOTION_DANGER_WALK = 31;</code>
      */
-    public static final int MOTION_STATE_DANGER_WALK_VALUE = 31;
+    public static final int MotionState_MOTION_DANGER_WALK_VALUE = 31;
     /**
-     * <code>MOTION_STATE_DANGER_RUN = 32;</code>
+     * <code>MotionState_MOTION_DANGER_RUN = 32;</code>
      */
-    public static final int MOTION_STATE_DANGER_RUN_VALUE = 32;
+    public static final int MotionState_MOTION_DANGER_RUN_VALUE = 32;
     /**
-     * <code>MOTION_STATE_DANGER_DASH = 33;</code>
+     * <code>MotionState_MOTION_DANGER_DASH = 33;</code>
      */
-    public static final int MOTION_STATE_DANGER_DASH_VALUE = 33;
+    public static final int MotionState_MOTION_DANGER_DASH_VALUE = 33;
     /**
-     * <code>MOTION_STATE_CROUCH_IDLE = 34;</code>
+     * <code>MotionState_MOTION_CROUCH_IDLE = 34;</code>
      */
-    public static final int MOTION_STATE_CROUCH_IDLE_VALUE = 34;
+    public static final int MotionState_MOTION_CROUCH_IDLE_VALUE = 34;
     /**
-     * <code>MOTION_STATE_CROUCH_MOVE = 35;</code>
+     * <code>MotionState_MOTION_CROUCH_MOVE = 35;</code>
      */
-    public static final int MOTION_STATE_CROUCH_MOVE_VALUE = 35;
+    public static final int MotionState_MOTION_CROUCH_MOVE_VALUE = 35;
     /**
-     * <code>MOTION_STATE_CROUCH_ROLL = 36;</code>
+     * <code>MotionState_MOTION_CROUCH_ROLL = 36;</code>
      */
-    public static final int MOTION_STATE_CROUCH_ROLL_VALUE = 36;
+    public static final int MotionState_MOTION_CROUCH_ROLL_VALUE = 36;
     /**
-     * <code>MOTION_STATE_NOTIFY = 37;</code>
+     * <code>MotionState_MOTION_NOTIFY = 37;</code>
      */
-    public static final int MOTION_STATE_NOTIFY_VALUE = 37;
+    public static final int MotionState_MOTION_NOTIFY_VALUE = 37;
     /**
-     * <code>MOTION_STATE_LAND_SPEED = 38;</code>
+     * <code>MotionState_MOTION_LAND_SPEED = 38;</code>
      */
-    public static final int MOTION_STATE_LAND_SPEED_VALUE = 38;
+    public static final int MotionState_MOTION_LAND_SPEED_VALUE = 38;
     /**
-     * <code>MOTION_STATE_MOVE_FAIL_ACK = 39;</code>
+     * <code>MotionState_MOTION_MOVE_FAIL_ACK = 39;</code>
      */
-    public static final int MOTION_STATE_MOVE_FAIL_ACK_VALUE = 39;
+    public static final int MotionState_MOTION_MOVE_FAIL_ACK_VALUE = 39;
     /**
-     * <code>MOTION_STATE_WATERFALL = 40;</code>
+     * <code>MotionState_MOTION_WATERFALL = 40;</code>
      */
-    public static final int MOTION_STATE_WATERFALL_VALUE = 40;
+    public static final int MotionState_MOTION_WATERFALL_VALUE = 40;
     /**
-     * <code>MOTION_STATE_DASH_BEFORE_SHAKE = 41;</code>
+     * <code>MotionState_MOTION_DASH_BEFORE_SHAKE = 41;</code>
      */
-    public static final int MOTION_STATE_DASH_BEFORE_SHAKE_VALUE = 41;
+    public static final int MotionState_MOTION_DASH_BEFORE_SHAKE_VALUE = 41;
     /**
-     * <code>MOTION_STATE_SIT_IDLE = 42;</code>
+     * <code>MotionState_MOTION_SIT_IDLE = 42;</code>
      */
-    public static final int MOTION_STATE_SIT_IDLE_VALUE = 42;
+    public static final int MotionState_MOTION_SIT_IDLE_VALUE = 42;
     /**
-     * <code>MOTION_STATE_FORCE_SET_POS = 43;</code>
+     * <code>MotionState_MOTION_FORCE_SET_POS = 43;</code>
      */
-    public static final int MOTION_STATE_FORCE_SET_POS_VALUE = 43;
+    public static final int MotionState_MOTION_FORCE_SET_POS_VALUE = 43;
     /**
-     * <code>MOTION_STATE_QUEST_FORCE_DRAG = 44;</code>
+     * <code>MotionState_MOTION_QUEST_FORCE_DRAG = 44;</code>
      */
-    public static final int MOTION_STATE_QUEST_FORCE_DRAG_VALUE = 44;
+    public static final int MotionState_MOTION_QUEST_FORCE_DRAG_VALUE = 44;
     /**
-     * <code>MOTION_STATE_FOLLOW_ROUTE = 45;</code>
+     * <code>MotionState_MOTION_FOLLOW_ROUTE = 45;</code>
      */
-    public static final int MOTION_STATE_FOLLOW_ROUTE_VALUE = 45;
+    public static final int MotionState_MOTION_FOLLOW_ROUTE_VALUE = 45;
     /**
-     * <code>MOTION_STATE_SKIFF_BOARDING = 46;</code>
+     * <code>MotionState_MOTION_SKIFF_BOARDING = 46;</code>
      */
-    public static final int MOTION_STATE_SKIFF_BOARDING_VALUE = 46;
+    public static final int MotionState_MOTION_SKIFF_BOARDING_VALUE = 46;
     /**
-     * <code>MOTION_STATE_SKIFF_NORMAL = 47;</code>
+     * <code>MotionState_MOTION_SKIFF_NORMAL = 47;</code>
      */
-    public static final int MOTION_STATE_SKIFF_NORMAL_VALUE = 47;
+    public static final int MotionState_MOTION_SKIFF_NORMAL_VALUE = 47;
     /**
-     * <code>MOTION_STATE_SKIFF_DASH = 48;</code>
+     * <code>MotionState_MOTION_SKIFF_DASH = 48;</code>
      */
-    public static final int MOTION_STATE_SKIFF_DASH_VALUE = 48;
+    public static final int MotionState_MOTION_SKIFF_DASH_VALUE = 48;
     /**
-     * <code>MOTION_STATE_SKIFF_POWERED_DASH = 49;</code>
+     * <code>MotionState_MOTION_SKIFF_POWERED_DASH = 49;</code>
      */
-    public static final int MOTION_STATE_SKIFF_POWERED_DASH_VALUE = 49;
+    public static final int MotionState_MOTION_SKIFF_POWERED_DASH_VALUE = 49;
     /**
-     * <code>MOTION_STATE_DESTROY_VEHICLE = 50;</code>
+     * <code>MotionState_MOTION_DESTROY_VEHICLE = 50;</code>
      */
-    public static final int MOTION_STATE_DESTROY_VEHICLE_VALUE = 50;
+    public static final int MotionState_MOTION_DESTROY_VEHICLE_VALUE = 50;
     /**
-     * <code>MOTION_STATE_FLY_IDLE = 51;</code>
+     * <code>MotionState_MOTION_FLY_IDLE = 51;</code>
      */
-    public static final int MOTION_STATE_FLY_IDLE_VALUE = 51;
+    public static final int MotionState_MOTION_FLY_IDLE_VALUE = 51;
     /**
-     * <code>MOTION_STATE_FLY_SLOW = 52;</code>
+     * <code>MotionState_MOTION_FLY_SLOW = 52;</code>
      */
-    public static final int MOTION_STATE_FLY_SLOW_VALUE = 52;
+    public static final int MotionState_MOTION_FLY_SLOW_VALUE = 52;
     /**
-     * <code>MOTION_STATE_FLY_FAST = 53;</code>
+     * <code>MotionState_MOTION_FLY_FAST = 53;</code>
      */
-    public static final int MOTION_STATE_FLY_FAST_VALUE = 53;
+    public static final int MotionState_MOTION_FLY_FAST_VALUE = 53;
     /**
-     * <code>MOTION_STATE_AIM_MOVE = 54;</code>
+     * <code>MotionState_MOTION_AIM_MOVE = 54;</code>
      */
-    public static final int MOTION_STATE_AIM_MOVE_VALUE = 54;
+    public static final int MotionState_MOTION_AIM_MOVE_VALUE = 54;
     /**
-     * <code>MOTION_STATE_AIR_COMPENSATION = 55;</code>
+     * <code>MotionState_MOTION_AIR_COMPENSATION = 55;</code>
      */
-    public static final int MOTION_STATE_AIR_COMPENSATION_VALUE = 55;
+    public static final int MotionState_MOTION_AIR_COMPENSATION_VALUE = 55;
     /**
-     * <code>MOTION_STATE_SORUSH_NORMAL = 56;</code>
+     * <code>MotionState_MOTION_SORUSH_NORMAL = 56;</code>
      */
-    public static final int MOTION_STATE_SORUSH_NORMAL_VALUE = 56;
+    public static final int MotionState_MOTION_SORUSH_NORMAL_VALUE = 56;
     /**
-     * <code>MOTION_STATE_ROLLER_COASTER = 57;</code>
+     * <code>MotionState_MOTION_ROLLER_COASTER = 57;</code>
      */
-    public static final int MOTION_STATE_ROLLER_COASTER_VALUE = 57;
+    public static final int MotionState_MOTION_ROLLER_COASTER_VALUE = 57;
     /**
-     * <code>MOTION_STATE_DIVE_IDLE = 58;</code>
+     * <code>MotionState_MOTION_DIVE_IDLE = 58;</code>
      */
-    public static final int MOTION_STATE_DIVE_IDLE_VALUE = 58;
+    public static final int MotionState_MOTION_DIVE_IDLE_VALUE = 58;
     /**
-     * <code>MOTION_STATE_DIVE_MOVE = 59;</code>
+     * <code>MotionState_MOTION_DIVE_MOVE = 59;</code>
      */
-    public static final int MOTION_STATE_DIVE_MOVE_VALUE = 59;
+    public static final int MotionState_MOTION_DIVE_MOVE_VALUE = 59;
     /**
-     * <code>MOTION_STATE_DIVE_DASH = 60;</code>
+     * <code>MotionState_MOTION_DIVE_DASH = 60;</code>
      */
-    public static final int MOTION_STATE_DIVE_DASH_VALUE = 60;
+    public static final int MotionState_MOTION_DIVE_DASH_VALUE = 60;
     /**
-     * <code>MOTION_STATE_DIVE_DOLPHINE = 61;</code>
+     * <code>MotionState_MOTION_DIVE_DOLPHINE = 61;</code>
      */
-    public static final int MOTION_STATE_DIVE_DOLPHINE_VALUE = 61;
+    public static final int MotionState_MOTION_DIVE_DOLPHINE_VALUE = 61;
     /**
-     * <code>MOTION_STATE_DEBUG = 62;</code>
+     * <code>MotionState_MOTION_DEBUG = 62;</code>
      */
-    public static final int MOTION_STATE_DEBUG_VALUE = 62;
+    public static final int MotionState_MOTION_DEBUG_VALUE = 62;
     /**
-     * <code>MOTION_STATE_OCEAN_CURRENT = 63;</code>
+     * <code>MotionState_MOTION_OCEAN_CURRENT = 63;</code>
      */
-    public static final int MOTION_STATE_OCEAN_CURRENT_VALUE = 63;
+    public static final int MotionState_MOTION_OCEAN_CURRENT_VALUE = 63;
     /**
-     * <code>MOTION_STATE_DIVE_SWIM_MOVE = 64;</code>
+     * <code>MotionState_MOTION_DIVE_SWIM_MOVE = 64;</code>
      */
-    public static final int MOTION_STATE_DIVE_SWIM_MOVE_VALUE = 64;
+    public static final int MotionState_MOTION_DIVE_SWIM_MOVE_VALUE = 64;
     /**
-     * <code>MOTION_STATE_DIVE_SWIM_IDLE = 65;</code>
+     * <code>MotionState_MOTION_DIVE_SWIM_IDLE = 65;</code>
      */
-    public static final int MOTION_STATE_DIVE_SWIM_IDLE_VALUE = 65;
+    public static final int MotionState_MOTION_DIVE_SWIM_IDLE_VALUE = 65;
     /**
-     * <code>MOTION_STATE_DIVE_SWIM_DASH = 66;</code>
+     * <code>MotionState_MOTION_DIVE_SWIM_DASH = 66;</code>
      */
-    public static final int MOTION_STATE_DIVE_SWIM_DASH_VALUE = 66;
+    public static final int MotionState_MOTION_DIVE_SWIM_DASH_VALUE = 66;
     /**
-     * <code>MOTION_STATE_ARC_LIGHT = 67;</code>
+     * <code>MotionState_MOTION_ARC_LIGHT = 67;</code>
      */
-    public static final int MOTION_STATE_ARC_LIGHT_VALUE = 67;
+    public static final int MotionState_MOTION_ARC_LIGHT_VALUE = 67;
     /**
-     * <code>MOTION_STATE_ARC_LIGHT_SAFE = 68;</code>
+     * <code>MotionState_MOTION_ARC_LIGHT_SAFE = 68;</code>
      */
-    public static final int MOTION_STATE_ARC_LIGHT_SAFE_VALUE = 68;
+    public static final int MotionState_MOTION_ARC_LIGHT_SAFE_VALUE = 68;
     /**
-     * <code>MOTION_STATE_VEHICLE_STANDBY = 69;</code>
+     * <code>MotionState_MOTION_VEHICLE_STANDBY = 69;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_STANDBY_VALUE = 69;
+    public static final int MotionState_MOTION_VEHICLE_STANDBY_VALUE = 69;
     /**
-     * <code>MOTION_STATE_VEHICLE_RUN = 70;</code>
+     * <code>MotionState_MOTION_VEHICLE_RUN = 70;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_RUN_VALUE = 70;
+    public static final int MotionState_MOTION_VEHICLE_RUN_VALUE = 70;
     /**
-     * <code>MOTION_STATE_VEHICLE_DASH = 71;</code>
+     * <code>MotionState_MOTION_VEHICLE_DASH = 71;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_DASH_VALUE = 71;
+    public static final int MotionState_MOTION_VEHICLE_DASH_VALUE = 71;
     /**
-     * <code>MOTION_STATE_VEHICLE_CLIMB = 72;</code>
+     * <code>MotionState_MOTION_VEHICLE_CLIMB = 72;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_CLIMB_VALUE = 72;
+    public static final int MotionState_MOTION_VEHICLE_CLIMB_VALUE = 72;
     /**
-     * <code>MOTION_STATE_VEHICLE_CLIMB_JUMP = 73;</code>
+     * <code>MotionState_MOTION_VEHICLE_CLIMB_JUMP = 73;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_CLIMB_JUMP_VALUE = 73;
+    public static final int MotionState_MOTION_VEHICLE_CLIMB_JUMP_VALUE = 73;
     /**
-     * <code>MOTION_STATE_VEHICLE_STANDBY_TO_CLIMB = 74;</code>
+     * <code>MotionState_MOTION_VEHICLE_STANDBY_TO_CLIMB = 74;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_STANDBY_TO_CLIMB_VALUE = 74;
+    public static final int MotionState_MOTION_VEHICLE_STANDBY_TO_CLIMB_VALUE = 74;
     /**
-     * <code>MOTION_STATE_VEHICLE_FIGHT = 75;</code>
+     * <code>MotionState_MOTION_VEHICLE_FIGHT = 75;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_FIGHT_VALUE = 75;
+    public static final int MotionState_MOTION_VEHICLE_FIGHT_VALUE = 75;
     /**
-     * <code>MOTION_STATE_VEHICLE_JUMP = 76;</code>
+     * <code>MotionState_MOTION_VEHICLE_JUMP = 76;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_JUMP_VALUE = 76;
+    public static final int MotionState_MOTION_VEHICLE_JUMP_VALUE = 76;
     /**
-     * <code>MOTION_STATE_VEHICLE_DROP = 77;</code>
+     * <code>MotionState_MOTION_VEHICLE_DROP = 77;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_DROP_VALUE = 77;
+    public static final int MotionState_MOTION_VEHICLE_DROP_VALUE = 77;
     /**
-     * <code>MOTION_STATE_VEHICLE_FLY = 78;</code>
+     * <code>MotionState_MOTION_VEHICLE_FLY = 78;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_FLY_VALUE = 78;
+    public static final int MotionState_MOTION_VEHICLE_FLY_VALUE = 78;
     /**
-     * <code>MOTION_STATE_VEHICLE_SWIM_MOVE = 79;</code>
+     * <code>MotionState_MOTION_VEHICLE_SWIM_MOVE = 79;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_SWIM_MOVE_VALUE = 79;
+    public static final int MotionState_MOTION_VEHICLE_SWIM_MOVE_VALUE = 79;
     /**
-     * <code>MOTION_STATE_VEHICLE_SWIM_IDLE = 80;</code>
+     * <code>MotionState_MOTION_VEHICLE_SWIM_IDLE = 80;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_SWIM_IDLE_VALUE = 80;
+    public static final int MotionState_MOTION_VEHICLE_SWIM_IDLE_VALUE = 80;
     /**
-     * <code>MOTION_STATE_VEHICLE_SWIM_DASH = 81;</code>
+     * <code>MotionState_MOTION_VEHICLE_SWIM_DASH = 81;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_SWIM_DASH_VALUE = 81;
+    public static final int MotionState_MOTION_VEHICLE_SWIM_DASH_VALUE = 81;
     /**
-     * <code>MOTION_STATE_VEHICLE_SLIP = 82;</code>
+     * <code>MotionState_MOTION_VEHICLE_SLIP = 82;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_SLIP_VALUE = 82;
+    public static final int MotionState_MOTION_VEHICLE_SLIP_VALUE = 82;
     /**
-     * <code>MOTION_STATE_VEHICLE_GO_UPSTAIRS = 83;</code>
+     * <code>MotionState_MOTION_VEHICLE_GO_UPSTAIRS = 83;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_GO_UPSTAIRS_VALUE = 83;
+    public static final int MotionState_MOTION_VEHICLE_GO_UPSTAIRS_VALUE = 83;
     /**
-     * <code>MOTION_STATE_VEHICLE_FALL_ON_GROUND = 84;</code>
+     * <code>MotionState_MOTION_VEHICLE_FALL_ON_GROUND = 84;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_FALL_ON_GROUND_VALUE = 84;
+    public static final int MotionState_MOTION_VEHICLE_FALL_ON_GROUND_VALUE = 84;
     /**
-     * <code>MOTION_STATE_VEHICLE_JUMP_OFF_WALL = 85;</code>
+     * <code>MotionState_MOTION_VEHICLE_JUMP_OFF_WALL = 85;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_JUMP_OFF_WALL_VALUE = 85;
+    public static final int MotionState_MOTION_VEHICLE_JUMP_OFF_WALL_VALUE = 85;
     /**
-     * <code>MOTION_STATE_VEHICLE_POWERED_FLY = 86;</code>
+     * <code>MotionState_MOTION_VEHICLE_POWERED_FLY = 86;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_POWERED_FLY_VALUE = 86;
+    public static final int MotionState_MOTION_VEHICLE_POWERED_FLY_VALUE = 86;
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_STANDBY = 87;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_STANDBY = 87;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_DANGER_STANDBY_VALUE = 87;
+    public static final int MotionState_MOTION_VEHICLE_DANGER_STANDBY_VALUE = 87;
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_RUN = 88;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_RUN = 88;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_DANGER_RUN_VALUE = 88;
+    public static final int MotionState_MOTION_VEHICLE_DANGER_RUN_VALUE = 88;
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_DASH = 89;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_DASH = 89;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_DANGER_DASH_VALUE = 89;
+    public static final int MotionState_MOTION_VEHICLE_DANGER_DASH_VALUE = 89;
     /**
-     * <code>MOTION_STATE_VEHICLE_NOTIFY = 90;</code>
+     * <code>MotionState_MOTION_VEHICLE_NOTIFY = 90;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_NOTIFY_VALUE = 90;
+    public static final int MotionState_MOTION_VEHICLE_NOTIFY_VALUE = 90;
     /**
-     * <code>MOTION_STATE_VEHICLE_LAND_SPEED = 91;</code>
+     * <code>MotionState_MOTION_VEHICLE_LAND_SPEED = 91;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_LAND_SPEED_VALUE = 91;
+    public static final int MotionState_MOTION_VEHICLE_LAND_SPEED_VALUE = 91;
     /**
-     * <code>MOTION_STATE_VEHICLE_DASH_BEFORE_SHAKE = 92;</code>
+     * <code>MotionState_MOTION_VEHICLE_DASH_BEFORE_SHAKE = 92;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_DASH_BEFORE_SHAKE_VALUE = 92;
+    public static final int MotionState_MOTION_VEHICLE_DASH_BEFORE_SHAKE_VALUE = 92;
     /**
-     * <code>MOTION_STATE_VEHICLE_QUEST_FORCE_DRAG = 93;</code>
+     * <code>MotionState_MOTION_VEHICLE_QUEST_FORCE_DRAG = 93;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_QUEST_FORCE_DRAG_VALUE = 93;
+    public static final int MotionState_MOTION_VEHICLE_QUEST_FORCE_DRAG_VALUE = 93;
     /**
-     * <code>MOTION_STATE_VEHICLE_FOLLOW_ROUTE = 94;</code>
+     * <code>MotionState_MOTION_VEHICLE_FOLLOW_ROUTE = 94;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_FOLLOW_ROUTE_VALUE = 94;
+    public static final int MotionState_MOTION_VEHICLE_FOLLOW_ROUTE_VALUE = 94;
     /**
-     * <code>MOTION_STATE_VEHICLE_FLY_IDLE = 95;</code>
+     * <code>MotionState_MOTION_VEHICLE_FLY_IDLE = 95;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_FLY_IDLE_VALUE = 95;
+    public static final int MotionState_MOTION_VEHICLE_FLY_IDLE_VALUE = 95;
     /**
-     * <code>MOTION_STATE_VEHICLE_FLY_SLOW = 96;</code>
+     * <code>MotionState_MOTION_VEHICLE_FLY_SLOW = 96;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_FLY_SLOW_VALUE = 96;
+    public static final int MotionState_MOTION_VEHICLE_FLY_SLOW_VALUE = 96;
     /**
-     * <code>MOTION_STATE_VEHICLE_FLY_FAST = 97;</code>
+     * <code>MotionState_MOTION_VEHICLE_FLY_FAST = 97;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_FLY_FAST_VALUE = 97;
+    public static final int MotionState_MOTION_VEHICLE_FLY_FAST_VALUE = 97;
     /**
-     * <code>MOTION_STATE_VEHICLE_AIR_COMPENSATION = 98;</code>
+     * <code>MotionState_MOTION_VEHICLE_AIR_COMPENSATION = 98;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_AIR_COMPENSATION_VALUE = 98;
+    public static final int MotionState_MOTION_VEHICLE_AIR_COMPENSATION_VALUE = 98;
     /**
-     * <code>MOTION_STATE_VEHICLE_ARC_LIGHT = 99;</code>
+     * <code>MotionState_MOTION_VEHICLE_ARC_LIGHT = 99;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_ARC_LIGHT_VALUE = 99;
+    public static final int MotionState_MOTION_VEHICLE_ARC_LIGHT_VALUE = 99;
     /**
-     * <code>MOTION_STATE_VEHICLE_ARC_LIGHT_SAFE = 100;</code>
+     * <code>MotionState_MOTION_VEHICLE_ARC_LIGHT_SAFE = 100;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_ARC_LIGHT_SAFE_VALUE = 100;
+    public static final int MotionState_MOTION_VEHICLE_ARC_LIGHT_SAFE_VALUE = 100;
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_SWIM_MOVE = 101;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_SWIM_MOVE = 101;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_DANGER_SWIM_MOVE_VALUE = 101;
+    public static final int MotionState_MOTION_VEHICLE_DANGER_SWIM_MOVE_VALUE = 101;
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_SWIM_IDLE = 102;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_SWIM_IDLE = 102;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_DANGER_SWIM_IDLE_VALUE = 102;
+    public static final int MotionState_MOTION_VEHICLE_DANGER_SWIM_IDLE_VALUE = 102;
     /**
-     * <code>MOTION_STATE_VEHICLE_DANGER_SWIM_DASH = 103;</code>
+     * <code>MotionState_MOTION_VEHICLE_DANGER_SWIM_DASH = 103;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_DANGER_SWIM_DASH_VALUE = 103;
+    public static final int MotionState_MOTION_VEHICLE_DANGER_SWIM_DASH_VALUE = 103;
     /**
-     * <code>MOTION_STATE_FOLLOW_CURVE_ROUTE = 104;</code>
+     * <code>MotionState_MOTION_FOLLOW_CURVE_ROUTE = 104;</code>
      */
-    public static final int MOTION_STATE_FOLLOW_CURVE_ROUTE_VALUE = 104;
+    public static final int MotionState_MOTION_FOLLOW_CURVE_ROUTE_VALUE = 104;
     /**
-     * <code>MOTION_STATE_VEHICLE_FOLLOW_CURVE_ROUTE = 105;</code>
+     * <code>MotionState_MOTION_VEHICLE_FOLLOW_CURVE_ROUTE = 105;</code>
      */
-    public static final int MOTION_STATE_VEHICLE_FOLLOW_CURVE_ROUTE_VALUE = 105;
+    public static final int MotionState_MOTION_VEHICLE_FOLLOW_CURVE_ROUTE_VALUE = 105;
     /**
-     * <code>MOTION_STATE_NATSAURUS_NORMAL = 106;</code>
+     * <code>MotionState_MOTION_NATSAURUS_NORMAL = 106;</code>
      */
-    public static final int MOTION_STATE_NATSAURUS_NORMAL_VALUE = 106;
+    public static final int MotionState_MOTION_NATSAURUS_NORMAL_VALUE = 106;
     /**
-     * <code>MOTION_STATE_NATSAURUS_ENTERING = 107;</code>
+     * <code>MotionState_MOTION_NATSAURUS_ENTERING = 107;</code>
      */
-    public static final int MOTION_STATE_NATSAURUS_ENTERING_VALUE = 107;
+    public static final int MotionState_MOTION_NATSAURUS_ENTERING_VALUE = 107;
     /**
-     * <code>MOTION_STATE_MAGLEV = 108;</code>
+     * <code>MotionState_MOTION_NUM = 108;</code>
      */
-    public static final int MOTION_STATE_MAGLEV_VALUE = 108;
-    /**
-     * <code>MOTION_STATE_MAGLEV_SAFE = 109;</code>
-     */
-    public static final int MOTION_STATE_MAGLEV_SAFE_VALUE = 109;
-    /**
-     * <code>MOTION_STATE_NUM = 110;</code>
-     */
-    public static final int MOTION_STATE_NUM_VALUE = 110;
+    public static final int MotionState_MOTION_NUM_VALUE = 108;
 
 
     public final int getNumber() {
@@ -936,117 +920,115 @@ public final class MotionStateOuterClass {
      */
     public static MotionState forNumber(int value) {
       switch (value) {
-        case 0: return MOTION_STATE_NONE;
-        case 1: return MOTION_STATE_RESET;
-        case 2: return MOTION_STATE_STANDBY;
-        case 3: return MOTION_STATE_STANDBY_MOVE;
-        case 4: return MOTION_STATE_WALK;
-        case 5: return MOTION_STATE_RUN;
-        case 6: return MOTION_STATE_DASH;
-        case 7: return MOTION_STATE_CLIMB;
-        case 8: return MOTION_STATE_CLIMB_JUMP;
-        case 9: return MOTION_STATE_STANDBY_TO_CLIMB;
-        case 10: return MOTION_STATE_FIGHT;
-        case 11: return MOTION_STATE_JUMP;
-        case 12: return MOTION_STATE_DROP;
-        case 13: return MOTION_STATE_FLY;
-        case 14: return MOTION_STATE_SWIM_MOVE;
-        case 15: return MOTION_STATE_SWIM_IDLE;
-        case 16: return MOTION_STATE_SWIM_DASH;
-        case 17: return MOTION_STATE_SWIM_JUMP;
-        case 18: return MOTION_STATE_SLIP;
-        case 19: return MOTION_STATE_GO_UPSTAIRS;
-        case 20: return MOTION_STATE_FALL_ON_GROUND;
-        case 21: return MOTION_STATE_JUMP_UP_WALL_FOR_STANDBY;
-        case 22: return MOTION_STATE_JUMP_OFF_WALL;
-        case 23: return MOTION_STATE_POWERED_FLY;
-        case 24: return MOTION_STATE_LADDER_IDLE;
-        case 25: return MOTION_STATE_LADDER_MOVE;
-        case 26: return MOTION_STATE_LADDER_SLIP;
-        case 27: return MOTION_STATE_STANDBY_TO_LADDER;
-        case 28: return MOTION_STATE_LADDER_TO_STANDBY;
-        case 29: return MOTION_STATE_DANGER_STANDBY;
-        case 30: return MOTION_STATE_DANGER_STANDBY_MOVE;
-        case 31: return MOTION_STATE_DANGER_WALK;
-        case 32: return MOTION_STATE_DANGER_RUN;
-        case 33: return MOTION_STATE_DANGER_DASH;
-        case 34: return MOTION_STATE_CROUCH_IDLE;
-        case 35: return MOTION_STATE_CROUCH_MOVE;
-        case 36: return MOTION_STATE_CROUCH_ROLL;
-        case 37: return MOTION_STATE_NOTIFY;
-        case 38: return MOTION_STATE_LAND_SPEED;
-        case 39: return MOTION_STATE_MOVE_FAIL_ACK;
-        case 40: return MOTION_STATE_WATERFALL;
-        case 41: return MOTION_STATE_DASH_BEFORE_SHAKE;
-        case 42: return MOTION_STATE_SIT_IDLE;
-        case 43: return MOTION_STATE_FORCE_SET_POS;
-        case 44: return MOTION_STATE_QUEST_FORCE_DRAG;
-        case 45: return MOTION_STATE_FOLLOW_ROUTE;
-        case 46: return MOTION_STATE_SKIFF_BOARDING;
-        case 47: return MOTION_STATE_SKIFF_NORMAL;
-        case 48: return MOTION_STATE_SKIFF_DASH;
-        case 49: return MOTION_STATE_SKIFF_POWERED_DASH;
-        case 50: return MOTION_STATE_DESTROY_VEHICLE;
-        case 51: return MOTION_STATE_FLY_IDLE;
-        case 52: return MOTION_STATE_FLY_SLOW;
-        case 53: return MOTION_STATE_FLY_FAST;
-        case 54: return MOTION_STATE_AIM_MOVE;
-        case 55: return MOTION_STATE_AIR_COMPENSATION;
-        case 56: return MOTION_STATE_SORUSH_NORMAL;
-        case 57: return MOTION_STATE_ROLLER_COASTER;
-        case 58: return MOTION_STATE_DIVE_IDLE;
-        case 59: return MOTION_STATE_DIVE_MOVE;
-        case 60: return MOTION_STATE_DIVE_DASH;
-        case 61: return MOTION_STATE_DIVE_DOLPHINE;
-        case 62: return MOTION_STATE_DEBUG;
-        case 63: return MOTION_STATE_OCEAN_CURRENT;
-        case 64: return MOTION_STATE_DIVE_SWIM_MOVE;
-        case 65: return MOTION_STATE_DIVE_SWIM_IDLE;
-        case 66: return MOTION_STATE_DIVE_SWIM_DASH;
-        case 67: return MOTION_STATE_ARC_LIGHT;
-        case 68: return MOTION_STATE_ARC_LIGHT_SAFE;
-        case 69: return MOTION_STATE_VEHICLE_STANDBY;
-        case 70: return MOTION_STATE_VEHICLE_RUN;
-        case 71: return MOTION_STATE_VEHICLE_DASH;
-        case 72: return MOTION_STATE_VEHICLE_CLIMB;
-        case 73: return MOTION_STATE_VEHICLE_CLIMB_JUMP;
-        case 74: return MOTION_STATE_VEHICLE_STANDBY_TO_CLIMB;
-        case 75: return MOTION_STATE_VEHICLE_FIGHT;
-        case 76: return MOTION_STATE_VEHICLE_JUMP;
-        case 77: return MOTION_STATE_VEHICLE_DROP;
-        case 78: return MOTION_STATE_VEHICLE_FLY;
-        case 79: return MOTION_STATE_VEHICLE_SWIM_MOVE;
-        case 80: return MOTION_STATE_VEHICLE_SWIM_IDLE;
-        case 81: return MOTION_STATE_VEHICLE_SWIM_DASH;
-        case 82: return MOTION_STATE_VEHICLE_SLIP;
-        case 83: return MOTION_STATE_VEHICLE_GO_UPSTAIRS;
-        case 84: return MOTION_STATE_VEHICLE_FALL_ON_GROUND;
-        case 85: return MOTION_STATE_VEHICLE_JUMP_OFF_WALL;
-        case 86: return MOTION_STATE_VEHICLE_POWERED_FLY;
-        case 87: return MOTION_STATE_VEHICLE_DANGER_STANDBY;
-        case 88: return MOTION_STATE_VEHICLE_DANGER_RUN;
-        case 89: return MOTION_STATE_VEHICLE_DANGER_DASH;
-        case 90: return MOTION_STATE_VEHICLE_NOTIFY;
-        case 91: return MOTION_STATE_VEHICLE_LAND_SPEED;
-        case 92: return MOTION_STATE_VEHICLE_DASH_BEFORE_SHAKE;
-        case 93: return MOTION_STATE_VEHICLE_QUEST_FORCE_DRAG;
-        case 94: return MOTION_STATE_VEHICLE_FOLLOW_ROUTE;
-        case 95: return MOTION_STATE_VEHICLE_FLY_IDLE;
-        case 96: return MOTION_STATE_VEHICLE_FLY_SLOW;
-        case 97: return MOTION_STATE_VEHICLE_FLY_FAST;
-        case 98: return MOTION_STATE_VEHICLE_AIR_COMPENSATION;
-        case 99: return MOTION_STATE_VEHICLE_ARC_LIGHT;
-        case 100: return MOTION_STATE_VEHICLE_ARC_LIGHT_SAFE;
-        case 101: return MOTION_STATE_VEHICLE_DANGER_SWIM_MOVE;
-        case 102: return MOTION_STATE_VEHICLE_DANGER_SWIM_IDLE;
-        case 103: return MOTION_STATE_VEHICLE_DANGER_SWIM_DASH;
-        case 104: return MOTION_STATE_FOLLOW_CURVE_ROUTE;
-        case 105: return MOTION_STATE_VEHICLE_FOLLOW_CURVE_ROUTE;
-        case 106: return MOTION_STATE_NATSAURUS_NORMAL;
-        case 107: return MOTION_STATE_NATSAURUS_ENTERING;
-        case 108: return MOTION_STATE_MAGLEV;
-        case 109: return MOTION_STATE_MAGLEV_SAFE;
-        case 110: return MOTION_STATE_NUM;
+        case 0: return MotionState_MOTION_NONE;
+        case 1: return MotionState_MOTION_RESET;
+        case 2: return MotionState_MOTION_STANDBY;
+        case 3: return MotionState_MOTION_STANDBY_MOVE;
+        case 4: return MotionState_MOTION_WALK;
+        case 5: return MotionState_MOTION_RUN;
+        case 6: return MotionState_MOTION_DASH;
+        case 7: return MotionState_MOTION_CLIMB;
+        case 8: return MotionState_MOTION_CLIMB_JUMP;
+        case 9: return MotionState_MOTION_STANDBY_TO_CLIMB;
+        case 10: return MotionState_MOTION_FIGHT;
+        case 11: return MotionState_MOTION_JUMP;
+        case 12: return MotionState_MOTION_DROP;
+        case 13: return MotionState_MOTION_FLY;
+        case 14: return MotionState_MOTION_SWIM_MOVE;
+        case 15: return MotionState_MOTION_SWIM_IDLE;
+        case 16: return MotionState_MOTION_SWIM_DASH;
+        case 17: return MotionState_MOTION_SWIM_JUMP;
+        case 18: return MotionState_MOTION_SLIP;
+        case 19: return MotionState_MOTION_GO_UPSTAIRS;
+        case 20: return MotionState_MOTION_FALL_ON_GROUND;
+        case 21: return MotionState_MOTION_JUMP_UP_WALL_FOR_STANDBY;
+        case 22: return MotionState_MOTION_JUMP_OFF_WALL;
+        case 23: return MotionState_MOTION_POWERED_FLY;
+        case 24: return MotionState_MOTION_LADDER_IDLE;
+        case 25: return MotionState_MOTION_LADDER_MOVE;
+        case 26: return MotionState_MOTION_LADDER_SLIP;
+        case 27: return MotionState_MOTION_STANDBY_TO_LADDER;
+        case 28: return MotionState_MOTION_LADDER_TO_STANDBY;
+        case 29: return MotionState_MOTION_DANGER_STANDBY;
+        case 30: return MotionState_MOTION_DANGER_STANDBY_MOVE;
+        case 31: return MotionState_MOTION_DANGER_WALK;
+        case 32: return MotionState_MOTION_DANGER_RUN;
+        case 33: return MotionState_MOTION_DANGER_DASH;
+        case 34: return MotionState_MOTION_CROUCH_IDLE;
+        case 35: return MotionState_MOTION_CROUCH_MOVE;
+        case 36: return MotionState_MOTION_CROUCH_ROLL;
+        case 37: return MotionState_MOTION_NOTIFY;
+        case 38: return MotionState_MOTION_LAND_SPEED;
+        case 39: return MotionState_MOTION_MOVE_FAIL_ACK;
+        case 40: return MotionState_MOTION_WATERFALL;
+        case 41: return MotionState_MOTION_DASH_BEFORE_SHAKE;
+        case 42: return MotionState_MOTION_SIT_IDLE;
+        case 43: return MotionState_MOTION_FORCE_SET_POS;
+        case 44: return MotionState_MOTION_QUEST_FORCE_DRAG;
+        case 45: return MotionState_MOTION_FOLLOW_ROUTE;
+        case 46: return MotionState_MOTION_SKIFF_BOARDING;
+        case 47: return MotionState_MOTION_SKIFF_NORMAL;
+        case 48: return MotionState_MOTION_SKIFF_DASH;
+        case 49: return MotionState_MOTION_SKIFF_POWERED_DASH;
+        case 50: return MotionState_MOTION_DESTROY_VEHICLE;
+        case 51: return MotionState_MOTION_FLY_IDLE;
+        case 52: return MotionState_MOTION_FLY_SLOW;
+        case 53: return MotionState_MOTION_FLY_FAST;
+        case 54: return MotionState_MOTION_AIM_MOVE;
+        case 55: return MotionState_MOTION_AIR_COMPENSATION;
+        case 56: return MotionState_MOTION_SORUSH_NORMAL;
+        case 57: return MotionState_MOTION_ROLLER_COASTER;
+        case 58: return MotionState_MOTION_DIVE_IDLE;
+        case 59: return MotionState_MOTION_DIVE_MOVE;
+        case 60: return MotionState_MOTION_DIVE_DASH;
+        case 61: return MotionState_MOTION_DIVE_DOLPHINE;
+        case 62: return MotionState_MOTION_DEBUG;
+        case 63: return MotionState_MOTION_OCEAN_CURRENT;
+        case 64: return MotionState_MOTION_DIVE_SWIM_MOVE;
+        case 65: return MotionState_MOTION_DIVE_SWIM_IDLE;
+        case 66: return MotionState_MOTION_DIVE_SWIM_DASH;
+        case 67: return MotionState_MOTION_ARC_LIGHT;
+        case 68: return MotionState_MOTION_ARC_LIGHT_SAFE;
+        case 69: return MotionState_MOTION_VEHICLE_STANDBY;
+        case 70: return MotionState_MOTION_VEHICLE_RUN;
+        case 71: return MotionState_MOTION_VEHICLE_DASH;
+        case 72: return MotionState_MOTION_VEHICLE_CLIMB;
+        case 73: return MotionState_MOTION_VEHICLE_CLIMB_JUMP;
+        case 74: return MotionState_MOTION_VEHICLE_STANDBY_TO_CLIMB;
+        case 75: return MotionState_MOTION_VEHICLE_FIGHT;
+        case 76: return MotionState_MOTION_VEHICLE_JUMP;
+        case 77: return MotionState_MOTION_VEHICLE_DROP;
+        case 78: return MotionState_MOTION_VEHICLE_FLY;
+        case 79: return MotionState_MOTION_VEHICLE_SWIM_MOVE;
+        case 80: return MotionState_MOTION_VEHICLE_SWIM_IDLE;
+        case 81: return MotionState_MOTION_VEHICLE_SWIM_DASH;
+        case 82: return MotionState_MOTION_VEHICLE_SLIP;
+        case 83: return MotionState_MOTION_VEHICLE_GO_UPSTAIRS;
+        case 84: return MotionState_MOTION_VEHICLE_FALL_ON_GROUND;
+        case 85: return MotionState_MOTION_VEHICLE_JUMP_OFF_WALL;
+        case 86: return MotionState_MOTION_VEHICLE_POWERED_FLY;
+        case 87: return MotionState_MOTION_VEHICLE_DANGER_STANDBY;
+        case 88: return MotionState_MOTION_VEHICLE_DANGER_RUN;
+        case 89: return MotionState_MOTION_VEHICLE_DANGER_DASH;
+        case 90: return MotionState_MOTION_VEHICLE_NOTIFY;
+        case 91: return MotionState_MOTION_VEHICLE_LAND_SPEED;
+        case 92: return MotionState_MOTION_VEHICLE_DASH_BEFORE_SHAKE;
+        case 93: return MotionState_MOTION_VEHICLE_QUEST_FORCE_DRAG;
+        case 94: return MotionState_MOTION_VEHICLE_FOLLOW_ROUTE;
+        case 95: return MotionState_MOTION_VEHICLE_FLY_IDLE;
+        case 96: return MotionState_MOTION_VEHICLE_FLY_SLOW;
+        case 97: return MotionState_MOTION_VEHICLE_FLY_FAST;
+        case 98: return MotionState_MOTION_VEHICLE_AIR_COMPENSATION;
+        case 99: return MotionState_MOTION_VEHICLE_ARC_LIGHT;
+        case 100: return MotionState_MOTION_VEHICLE_ARC_LIGHT_SAFE;
+        case 101: return MotionState_MOTION_VEHICLE_DANGER_SWIM_MOVE;
+        case 102: return MotionState_MOTION_VEHICLE_DANGER_SWIM_IDLE;
+        case 103: return MotionState_MOTION_VEHICLE_DANGER_SWIM_DASH;
+        case 104: return MotionState_MOTION_FOLLOW_CURVE_ROUTE;
+        case 105: return MotionState_MOTION_VEHICLE_FOLLOW_CURVE_ROUTE;
+        case 106: return MotionState_MOTION_NATSAURUS_NORMAL;
+        case 107: return MotionState_MOTION_NATSAURUS_ENTERING;
+        case 108: return MotionState_MOTION_NUM;
         default: return null;
       }
     }
@@ -1112,98 +1094,113 @@ public final class MotionStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021MotionState.proto*\377\033\n\013MotionState\022\025\n\021M" +
-      "OTION_STATE_NONE\020\000\022\026\n\022MOTION_STATE_RESET" +
-      "\020\001\022\030\n\024MOTION_STATE_STANDBY\020\002\022\035\n\031MOTION_S" +
-      "TATE_STANDBY_MOVE\020\003\022\025\n\021MOTION_STATE_WALK" +
-      "\020\004\022\024\n\020MOTION_STATE_RUN\020\005\022\025\n\021MOTION_STATE" +
-      "_DASH\020\006\022\026\n\022MOTION_STATE_CLIMB\020\007\022\033\n\027MOTIO" +
-      "N_STATE_CLIMB_JUMP\020\010\022!\n\035MOTION_STATE_STA" +
-      "NDBY_TO_CLIMB\020\t\022\026\n\022MOTION_STATE_FIGHT\020\n\022" +
-      "\025\n\021MOTION_STATE_JUMP\020\013\022\025\n\021MOTION_STATE_D" +
-      "ROP\020\014\022\024\n\020MOTION_STATE_FLY\020\r\022\032\n\026MOTION_ST" +
-      "ATE_SWIM_MOVE\020\016\022\032\n\026MOTION_STATE_SWIM_IDL" +
-      "E\020\017\022\032\n\026MOTION_STATE_SWIM_DASH\020\020\022\032\n\026MOTIO" +
-      "N_STATE_SWIM_JUMP\020\021\022\025\n\021MOTION_STATE_SLIP" +
-      "\020\022\022\034\n\030MOTION_STATE_GO_UPSTAIRS\020\023\022\037\n\033MOTI" +
-      "ON_STATE_FALL_ON_GROUND\020\024\022)\n%MOTION_STAT" +
-      "E_JUMP_UP_WALL_FOR_STANDBY\020\025\022\036\n\032MOTION_S" +
-      "TATE_JUMP_OFF_WALL\020\026\022\034\n\030MOTION_STATE_POW" +
-      "ERED_FLY\020\027\022\034\n\030MOTION_STATE_LADDER_IDLE\020\030" +
-      "\022\034\n\030MOTION_STATE_LADDER_MOVE\020\031\022\034\n\030MOTION" +
-      "_STATE_LADDER_SLIP\020\032\022\"\n\036MOTION_STATE_STA" +
-      "NDBY_TO_LADDER\020\033\022\"\n\036MOTION_STATE_LADDER_" +
-      "TO_STANDBY\020\034\022\037\n\033MOTION_STATE_DANGER_STAN" +
-      "DBY\020\035\022$\n MOTION_STATE_DANGER_STANDBY_MOV" +
-      "E\020\036\022\034\n\030MOTION_STATE_DANGER_WALK\020\037\022\033\n\027MOT" +
-      "ION_STATE_DANGER_RUN\020 \022\034\n\030MOTION_STATE_D" +
-      "ANGER_DASH\020!\022\034\n\030MOTION_STATE_CROUCH_IDLE" +
-      "\020\"\022\034\n\030MOTION_STATE_CROUCH_MOVE\020#\022\034\n\030MOTI" +
-      "ON_STATE_CROUCH_ROLL\020$\022\027\n\023MOTION_STATE_N" +
-      "OTIFY\020%\022\033\n\027MOTION_STATE_LAND_SPEED\020&\022\036\n\032" +
-      "MOTION_STATE_MOVE_FAIL_ACK\020\'\022\032\n\026MOTION_S" +
-      "TATE_WATERFALL\020(\022\"\n\036MOTION_STATE_DASH_BE" +
-      "FORE_SHAKE\020)\022\031\n\025MOTION_STATE_SIT_IDLE\020*\022" +
-      "\036\n\032MOTION_STATE_FORCE_SET_POS\020+\022!\n\035MOTIO" +
-      "N_STATE_QUEST_FORCE_DRAG\020,\022\035\n\031MOTION_STA" +
-      "TE_FOLLOW_ROUTE\020-\022\037\n\033MOTION_STATE_SKIFF_" +
-      "BOARDING\020.\022\035\n\031MOTION_STATE_SKIFF_NORMAL\020" +
-      "/\022\033\n\027MOTION_STATE_SKIFF_DASH\0200\022#\n\037MOTION" +
-      "_STATE_SKIFF_POWERED_DASH\0201\022 \n\034MOTION_ST" +
-      "ATE_DESTROY_VEHICLE\0202\022\031\n\025MOTION_STATE_FL" +
-      "Y_IDLE\0203\022\031\n\025MOTION_STATE_FLY_SLOW\0204\022\031\n\025M" +
-      "OTION_STATE_FLY_FAST\0205\022\031\n\025MOTION_STATE_A" +
-      "IM_MOVE\0206\022!\n\035MOTION_STATE_AIR_COMPENSATI" +
-      "ON\0207\022\036\n\032MOTION_STATE_SORUSH_NORMAL\0208\022\037\n\033" +
-      "MOTION_STATE_ROLLER_COASTER\0209\022\032\n\026MOTION_" +
-      "STATE_DIVE_IDLE\020:\022\032\n\026MOTION_STATE_DIVE_M" +
-      "OVE\020;\022\032\n\026MOTION_STATE_DIVE_DASH\020<\022\036\n\032MOT" +
-      "ION_STATE_DIVE_DOLPHINE\020=\022\026\n\022MOTION_STAT" +
-      "E_DEBUG\020>\022\036\n\032MOTION_STATE_OCEAN_CURRENT\020" +
-      "?\022\037\n\033MOTION_STATE_DIVE_SWIM_MOVE\020@\022\037\n\033MO" +
-      "TION_STATE_DIVE_SWIM_IDLE\020A\022\037\n\033MOTION_ST" +
-      "ATE_DIVE_SWIM_DASH\020B\022\032\n\026MOTION_STATE_ARC" +
-      "_LIGHT\020C\022\037\n\033MOTION_STATE_ARC_LIGHT_SAFE\020" +
-      "D\022 \n\034MOTION_STATE_VEHICLE_STANDBY\020E\022\034\n\030M" +
-      "OTION_STATE_VEHICLE_RUN\020F\022\035\n\031MOTION_STAT" +
-      "E_VEHICLE_DASH\020G\022\036\n\032MOTION_STATE_VEHICLE" +
-      "_CLIMB\020H\022#\n\037MOTION_STATE_VEHICLE_CLIMB_J" +
-      "UMP\020I\022)\n%MOTION_STATE_VEHICLE_STANDBY_TO" +
-      "_CLIMB\020J\022\036\n\032MOTION_STATE_VEHICLE_FIGHT\020K" +
-      "\022\035\n\031MOTION_STATE_VEHICLE_JUMP\020L\022\035\n\031MOTIO" +
-      "N_STATE_VEHICLE_DROP\020M\022\034\n\030MOTION_STATE_V" +
-      "EHICLE_FLY\020N\022\"\n\036MOTION_STATE_VEHICLE_SWI" +
-      "M_MOVE\020O\022\"\n\036MOTION_STATE_VEHICLE_SWIM_ID" +
-      "LE\020P\022\"\n\036MOTION_STATE_VEHICLE_SWIM_DASH\020Q" +
-      "\022\035\n\031MOTION_STATE_VEHICLE_SLIP\020R\022$\n MOTIO" +
-      "N_STATE_VEHICLE_GO_UPSTAIRS\020S\022\'\n#MOTION_" +
-      "STATE_VEHICLE_FALL_ON_GROUND\020T\022&\n\"MOTION" +
-      "_STATE_VEHICLE_JUMP_OFF_WALL\020U\022$\n MOTION" +
-      "_STATE_VEHICLE_POWERED_FLY\020V\022\'\n#MOTION_S" +
-      "TATE_VEHICLE_DANGER_STANDBY\020W\022#\n\037MOTION_" +
-      "STATE_VEHICLE_DANGER_RUN\020X\022$\n MOTION_STA" +
-      "TE_VEHICLE_DANGER_DASH\020Y\022\037\n\033MOTION_STATE" +
-      "_VEHICLE_NOTIFY\020Z\022#\n\037MOTION_STATE_VEHICL" +
-      "E_LAND_SPEED\020[\022*\n&MOTION_STATE_VEHICLE_D" +
-      "ASH_BEFORE_SHAKE\020\\\022)\n%MOTION_STATE_VEHIC" +
-      "LE_QUEST_FORCE_DRAG\020]\022%\n!MOTION_STATE_VE" +
-      "HICLE_FOLLOW_ROUTE\020^\022!\n\035MOTION_STATE_VEH" +
-      "ICLE_FLY_IDLE\020_\022!\n\035MOTION_STATE_VEHICLE_" +
-      "FLY_SLOW\020`\022!\n\035MOTION_STATE_VEHICLE_FLY_F" +
-      "AST\020a\022)\n%MOTION_STATE_VEHICLE_AIR_COMPEN" +
-      "SATION\020b\022\"\n\036MOTION_STATE_VEHICLE_ARC_LIG" +
-      "HT\020c\022\'\n#MOTION_STATE_VEHICLE_ARC_LIGHT_S" +
-      "AFE\020d\022)\n%MOTION_STATE_VEHICLE_DANGER_SWI" +
-      "M_MOVE\020e\022)\n%MOTION_STATE_VEHICLE_DANGER_" +
-      "SWIM_IDLE\020f\022)\n%MOTION_STATE_VEHICLE_DANG" +
-      "ER_SWIM_DASH\020g\022#\n\037MOTION_STATE_FOLLOW_CU" +
-      "RVE_ROUTE\020h\022+\n\'MOTION_STATE_VEHICLE_FOLL" +
-      "OW_CURVE_ROUTE\020i\022!\n\035MOTION_STATE_NATSAUR" +
-      "US_NORMAL\020j\022#\n\037MOTION_STATE_NATSAURUS_EN" +
-      "TERING\020k\022\027\n\023MOTION_STATE_MAGLEV\020l\022\034\n\030MOT" +
-      "ION_STATE_MAGLEV_SAFE\020m\022\024\n\020MOTION_STATE_" +
-      "NUM\020nB\033\n\031emu.grasscutter.net.protob\006prot" +
-      "o3"
+      "\n\021MotionState.proto*\326 \n\013MotionState\022\033\n\027M" +
+      "otionState_MOTION_NONE\020\000\022\034\n\030MotionState_" +
+      "MOTION_RESET\020\001\022\036\n\032MotionState_MOTION_STA" +
+      "NDBY\020\002\022#\n\037MotionState_MOTION_STANDBY_MOV" +
+      "E\020\003\022\033\n\027MotionState_MOTION_WALK\020\004\022\032\n\026Moti" +
+      "onState_MOTION_RUN\020\005\022\033\n\027MotionState_MOTI" +
+      "ON_DASH\020\006\022\034\n\030MotionState_MOTION_CLIMB\020\007\022" +
+      "!\n\035MotionState_MOTION_CLIMB_JUMP\020\010\022\'\n#Mo" +
+      "tionState_MOTION_STANDBY_TO_CLIMB\020\t\022\034\n\030M" +
+      "otionState_MOTION_FIGHT\020\n\022\033\n\027MotionState" +
+      "_MOTION_JUMP\020\013\022\033\n\027MotionState_MOTION_DRO" +
+      "P\020\014\022\032\n\026MotionState_MOTION_FLY\020\r\022 \n\034Motio" +
+      "nState_MOTION_SWIM_MOVE\020\016\022 \n\034MotionState" +
+      "_MOTION_SWIM_IDLE\020\017\022 \n\034MotionState_MOTIO" +
+      "N_SWIM_DASH\020\020\022 \n\034MotionState_MOTION_SWIM" +
+      "_JUMP\020\021\022\033\n\027MotionState_MOTION_SLIP\020\022\022\"\n\036" +
+      "MotionState_MOTION_GO_UPSTAIRS\020\023\022%\n!Moti" +
+      "onState_MOTION_FALL_ON_GROUND\020\024\022/\n+Motio" +
+      "nState_MOTION_JUMP_UP_WALL_FOR_STANDBY\020\025" +
+      "\022$\n MotionState_MOTION_JUMP_OFF_WALL\020\026\022\"" +
+      "\n\036MotionState_MOTION_POWERED_FLY\020\027\022\"\n\036Mo" +
+      "tionState_MOTION_LADDER_IDLE\020\030\022\"\n\036Motion" +
+      "State_MOTION_LADDER_MOVE\020\031\022\"\n\036MotionStat" +
+      "e_MOTION_LADDER_SLIP\020\032\022(\n$MotionState_MO" +
+      "TION_STANDBY_TO_LADDER\020\033\022(\n$MotionState_" +
+      "MOTION_LADDER_TO_STANDBY\020\034\022%\n!MotionStat" +
+      "e_MOTION_DANGER_STANDBY\020\035\022*\n&MotionState" +
+      "_MOTION_DANGER_STANDBY_MOVE\020\036\022\"\n\036MotionS" +
+      "tate_MOTION_DANGER_WALK\020\037\022!\n\035MotionState" +
+      "_MOTION_DANGER_RUN\020 \022\"\n\036MotionState_MOTI" +
+      "ON_DANGER_DASH\020!\022\"\n\036MotionState_MOTION_C" +
+      "ROUCH_IDLE\020\"\022\"\n\036MotionState_MOTION_CROUC" +
+      "H_MOVE\020#\022\"\n\036MotionState_MOTION_CROUCH_RO" +
+      "LL\020$\022\035\n\031MotionState_MOTION_NOTIFY\020%\022!\n\035M" +
+      "otionState_MOTION_LAND_SPEED\020&\022$\n Motion" +
+      "State_MOTION_MOVE_FAIL_ACK\020\'\022 \n\034MotionSt" +
+      "ate_MOTION_WATERFALL\020(\022(\n$MotionState_MO" +
+      "TION_DASH_BEFORE_SHAKE\020)\022\037\n\033MotionState_" +
+      "MOTION_SIT_IDLE\020*\022$\n MotionState_MOTION_" +
+      "FORCE_SET_POS\020+\022\'\n#MotionState_MOTION_QU" +
+      "EST_FORCE_DRAG\020,\022#\n\037MotionState_MOTION_F" +
+      "OLLOW_ROUTE\020-\022%\n!MotionState_MOTION_SKIF" +
+      "F_BOARDING\020.\022#\n\037MotionState_MOTION_SKIFF" +
+      "_NORMAL\020/\022!\n\035MotionState_MOTION_SKIFF_DA" +
+      "SH\0200\022)\n%MotionState_MOTION_SKIFF_POWERED" +
+      "_DASH\0201\022&\n\"MotionState_MOTION_DESTROY_VE" +
+      "HICLE\0202\022\037\n\033MotionState_MOTION_FLY_IDLE\0203" +
+      "\022\037\n\033MotionState_MOTION_FLY_SLOW\0204\022\037\n\033Mot" +
+      "ionState_MOTION_FLY_FAST\0205\022\037\n\033MotionStat" +
+      "e_MOTION_AIM_MOVE\0206\022\'\n#MotionState_MOTIO" +
+      "N_AIR_COMPENSATION\0207\022$\n MotionState_MOTI" +
+      "ON_SORUSH_NORMAL\0208\022%\n!MotionState_MOTION" +
+      "_ROLLER_COASTER\0209\022 \n\034MotionState_MOTION_" +
+      "DIVE_IDLE\020:\022 \n\034MotionState_MOTION_DIVE_M" +
+      "OVE\020;\022 \n\034MotionState_MOTION_DIVE_DASH\020<\022" +
+      "$\n MotionState_MOTION_DIVE_DOLPHINE\020=\022\034\n" +
+      "\030MotionState_MOTION_DEBUG\020>\022$\n MotionSta" +
+      "te_MOTION_OCEAN_CURRENT\020?\022%\n!MotionState" +
+      "_MOTION_DIVE_SWIM_MOVE\020@\022%\n!MotionState_" +
+      "MOTION_DIVE_SWIM_IDLE\020A\022%\n!MotionState_M" +
+      "OTION_DIVE_SWIM_DASH\020B\022 \n\034MotionState_MO" +
+      "TION_ARC_LIGHT\020C\022%\n!MotionState_MOTION_A" +
+      "RC_LIGHT_SAFE\020D\022&\n\"MotionState_MOTION_VE" +
+      "HICLE_STANDBY\020E\022\"\n\036MotionState_MOTION_VE" +
+      "HICLE_RUN\020F\022#\n\037MotionState_MOTION_VEHICL" +
+      "E_DASH\020G\022$\n MotionState_MOTION_VEHICLE_C" +
+      "LIMB\020H\022)\n%MotionState_MOTION_VEHICLE_CLI" +
+      "MB_JUMP\020I\022/\n+MotionState_MOTION_VEHICLE_" +
+      "STANDBY_TO_CLIMB\020J\022$\n MotionState_MOTION" +
+      "_VEHICLE_FIGHT\020K\022#\n\037MotionState_MOTION_V" +
+      "EHICLE_JUMP\020L\022#\n\037MotionState_MOTION_VEHI" +
+      "CLE_DROP\020M\022\"\n\036MotionState_MOTION_VEHICLE" +
+      "_FLY\020N\022(\n$MotionState_MOTION_VEHICLE_SWI" +
+      "M_MOVE\020O\022(\n$MotionState_MOTION_VEHICLE_S" +
+      "WIM_IDLE\020P\022(\n$MotionState_MOTION_VEHICLE" +
+      "_SWIM_DASH\020Q\022#\n\037MotionState_MOTION_VEHIC" +
+      "LE_SLIP\020R\022*\n&MotionState_MOTION_VEHICLE_" +
+      "GO_UPSTAIRS\020S\022-\n)MotionState_MOTION_VEHI" +
+      "CLE_FALL_ON_GROUND\020T\022,\n(MotionState_MOTI" +
+      "ON_VEHICLE_JUMP_OFF_WALL\020U\022*\n&MotionStat" +
+      "e_MOTION_VEHICLE_POWERED_FLY\020V\022-\n)Motion" +
+      "State_MOTION_VEHICLE_DANGER_STANDBY\020W\022)\n" +
+      "%MotionState_MOTION_VEHICLE_DANGER_RUN\020X" +
+      "\022*\n&MotionState_MOTION_VEHICLE_DANGER_DA" +
+      "SH\020Y\022%\n!MotionState_MOTION_VEHICLE_NOTIF" +
+      "Y\020Z\022)\n%MotionState_MOTION_VEHICLE_LAND_S" +
+      "PEED\020[\0220\n,MotionState_MOTION_VEHICLE_DAS" +
+      "H_BEFORE_SHAKE\020\\\022/\n+MotionState_MOTION_V" +
+      "EHICLE_QUEST_FORCE_DRAG\020]\022+\n\'MotionState" +
+      "_MOTION_VEHICLE_FOLLOW_ROUTE\020^\022\'\n#Motion" +
+      "State_MOTION_VEHICLE_FLY_IDLE\020_\022\'\n#Motio" +
+      "nState_MOTION_VEHICLE_FLY_SLOW\020`\022\'\n#Moti" +
+      "onState_MOTION_VEHICLE_FLY_FAST\020a\022/\n+Mot" +
+      "ionState_MOTION_VEHICLE_AIR_COMPENSATION" +
+      "\020b\022(\n$MotionState_MOTION_VEHICLE_ARC_LIG" +
+      "HT\020c\022-\n)MotionState_MOTION_VEHICLE_ARC_L" +
+      "IGHT_SAFE\020d\022/\n+MotionState_MOTION_VEHICL" +
+      "E_DANGER_SWIM_MOVE\020e\022/\n+MotionState_MOTI" +
+      "ON_VEHICLE_DANGER_SWIM_IDLE\020f\022/\n+MotionS" +
+      "tate_MOTION_VEHICLE_DANGER_SWIM_DASH\020g\022)" +
+      "\n%MotionState_MOTION_FOLLOW_CURVE_ROUTE\020" +
+      "h\0221\n-MotionState_MOTION_VEHICLE_FOLLOW_C" +
+      "URVE_ROUTE\020i\022\'\n#MotionState_MOTION_NATSA" +
+      "URUS_NORMAL\020j\022)\n%MotionState_MOTION_NATS" +
+      "AURUS_ENTERING\020k\022\032\n\026MotionState_MOTION_N" +
+      "UM\020lB\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -20,40 +20,40 @@ public final class FishNoRewardReasonOuterClass {
   public enum FishNoRewardReason
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>FISH_NO_REWARD_NONE = 0;</code>
+     * <code>FishNoRewardReason_FISH_NO_REWARD_NONE = 0;</code>
      */
-    FISH_NO_REWARD_NONE(0),
+    FishNoRewardReason_FISH_NO_REWARD_NONE(0),
     /**
-     * <code>FISH_NO_REWARD_ACTIVITY_LIMIT = 1;</code>
+     * <code>FishNoRewardReason_FISH_NO_REWARD_ACTIVITY_LIMIT = 1;</code>
      */
-    FISH_NO_REWARD_ACTIVITY_LIMIT(1),
+    FishNoRewardReason_FISH_NO_REWARD_ACTIVITY_LIMIT(1),
     /**
-     * <code>FISH_NO_REWARD_BAG_LIMIT = 2;</code>
+     * <code>FishNoRewardReason_FISH_NO_REWARD_BAG_LIMIT = 2;</code>
      */
-    FISH_NO_REWARD_BAG_LIMIT(2),
+    FishNoRewardReason_FISH_NO_REWARD_BAG_LIMIT(2),
     /**
-     * <code>FISH_NO_REWARD_POOL_LIMIT = 3;</code>
+     * <code>FishNoRewardReason_FISH_NO_REWARD_POOL_LIMIT = 3;</code>
      */
-    FISH_NO_REWARD_POOL_LIMIT(3),
+    FishNoRewardReason_FISH_NO_REWARD_POOL_LIMIT(3),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>FISH_NO_REWARD_NONE = 0;</code>
+     * <code>FishNoRewardReason_FISH_NO_REWARD_NONE = 0;</code>
      */
-    public static final int FISH_NO_REWARD_NONE_VALUE = 0;
+    public static final int FishNoRewardReason_FISH_NO_REWARD_NONE_VALUE = 0;
     /**
-     * <code>FISH_NO_REWARD_ACTIVITY_LIMIT = 1;</code>
+     * <code>FishNoRewardReason_FISH_NO_REWARD_ACTIVITY_LIMIT = 1;</code>
      */
-    public static final int FISH_NO_REWARD_ACTIVITY_LIMIT_VALUE = 1;
+    public static final int FishNoRewardReason_FISH_NO_REWARD_ACTIVITY_LIMIT_VALUE = 1;
     /**
-     * <code>FISH_NO_REWARD_BAG_LIMIT = 2;</code>
+     * <code>FishNoRewardReason_FISH_NO_REWARD_BAG_LIMIT = 2;</code>
      */
-    public static final int FISH_NO_REWARD_BAG_LIMIT_VALUE = 2;
+    public static final int FishNoRewardReason_FISH_NO_REWARD_BAG_LIMIT_VALUE = 2;
     /**
-     * <code>FISH_NO_REWARD_POOL_LIMIT = 3;</code>
+     * <code>FishNoRewardReason_FISH_NO_REWARD_POOL_LIMIT = 3;</code>
      */
-    public static final int FISH_NO_REWARD_POOL_LIMIT_VALUE = 3;
+    public static final int FishNoRewardReason_FISH_NO_REWARD_POOL_LIMIT_VALUE = 3;
 
 
     public final int getNumber() {
@@ -80,10 +80,10 @@ public final class FishNoRewardReasonOuterClass {
      */
     public static FishNoRewardReason forNumber(int value) {
       switch (value) {
-        case 0: return FISH_NO_REWARD_NONE;
-        case 1: return FISH_NO_REWARD_ACTIVITY_LIMIT;
-        case 2: return FISH_NO_REWARD_BAG_LIMIT;
-        case 3: return FISH_NO_REWARD_POOL_LIMIT;
+        case 0: return FishNoRewardReason_FISH_NO_REWARD_NONE;
+        case 1: return FishNoRewardReason_FISH_NO_REWARD_ACTIVITY_LIMIT;
+        case 2: return FishNoRewardReason_FISH_NO_REWARD_BAG_LIMIT;
+        case 3: return FishNoRewardReason_FISH_NO_REWARD_POOL_LIMIT;
         default: return null;
       }
     }
@@ -149,12 +149,14 @@ public final class FishNoRewardReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030FishNoRewardReason.proto*\215\001\n\022FishNoRew" +
-      "ardReason\022\027\n\023FISH_NO_REWARD_NONE\020\000\022!\n\035FI" +
-      "SH_NO_REWARD_ACTIVITY_LIMIT\020\001\022\034\n\030FISH_NO" +
-      "_REWARD_BAG_LIMIT\020\002\022\035\n\031FISH_NO_REWARD_PO" +
-      "OL_LIMIT\020\003B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "\n\030FishNoRewardReason.proto*\331\001\n\022FishNoRew" +
+      "ardReason\022*\n&FishNoRewardReason_FISH_NO_" +
+      "REWARD_NONE\020\000\0224\n0FishNoRewardReason_FISH" +
+      "_NO_REWARD_ACTIVITY_LIMIT\020\001\022/\n+FishNoRew" +
+      "ardReason_FISH_NO_REWARD_BAG_LIMIT\020\002\0220\n," +
+      "FishNoRewardReason_FISH_NO_REWARD_POOL_L" +
+      "IMIT\020\003B\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

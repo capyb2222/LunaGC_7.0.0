@@ -49,15 +49,14 @@ public class EntityNPC extends GameEntity {
                                 EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.newBuilder())
                         .setAiInfo(
                                 SceneEntityAiInfoOuterClass.SceneEntityAiInfo.newBuilder()
-                                        .setIsAiOpen(true)
-                                        .setBornPos(getPosition().toProto()))
+                                        .setIsAiOpen(true))
                         .setBornPos(getPosition().toProto())
                         .build();
 
         SceneEntityInfoOuterClass.SceneEntityInfo.Builder entityInfo =
                 SceneEntityInfoOuterClass.SceneEntityInfo.newBuilder()
                         .setEntityId(getId())
-                        .setEntityType(ProtEntityTypeOuterClass.ProtEntityType.PROT_ENTITY_TYPE_NPC)
+                        .setEntityType(ProtEntityTypeOuterClass.ProtEntityType.ProtEntityType_PROT_ENTITY_NPC)
                         .setMotionInfo(
                                 MotionInfoOuterClass.MotionInfo.newBuilder()
                                         .setPos(getPosition().toProto())

@@ -32,7 +32,7 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
         for (CombatInvokeEntry entry : notif.getInvokeListList()) {
             // Handle combat invoke
             switch (entry.getArgumentType()) {
-                case COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT -> {
+                case CombatTypeArgument_COMBAT_EVT_BEING_HIT -> {
                     EvtBeingHitInfo hitInfo = EvtBeingHitInfo.parseFrom(entry.getCombatData());
                     AttackResult attackResult = hitInfo.getAttackResult();
                     Player player = session.getPlayer();
@@ -46,7 +46,7 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
                     player.getAttackResults().add(attackResult);
                     player.getEnergyManager().handleAttackHit(hitInfo);
                 }
-                case COMBAT_TYPE_ARGUMENT_ENTITY_MOVE -> {
+                case CombatTypeArgument_ENTITY_MOVE -> {
                     // Handle movement
                     EntityMoveInfo moveInfo = EntityMoveInfo.parseFrom(entry.getCombatData());
                     GameEntity entity = session.getPlayer().getScene().getEntityById(moveInfo.getEntityId());
@@ -81,13 +81,13 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
 
                         // MOTION_LAND_SPEED and MOTION_FALL_ON_GROUND arrive in different packets.
                         // Cache land speed for later use.
-                        if (motionState == MotionState.MOTION_STATE_LAND_SPEED) {
+                        if (motionState == MotionState.MotionState_MOTION_LAND_SPEED) {
                             cachedLandingSpeed = motionInfo.getSpeed().getY();
                             cachedLandingTimeMillisecond = System.currentTimeMillis();
                             monitorLandingEvent = true;
                         }
                         if (monitorLandingEvent) {
-                            if (motionState == MotionState.MOTION_STATE_FALL_ON_GROUND) {
+                            if (motionState == MotionState.MotionState_MOTION_FALL_ON_GROUND) {
                                 monitorLandingEvent = false;
                                 handleFallOnGround(session, entity, motionState);
                             }
@@ -95,13 +95,13 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
 
                         // as long as one of these two packets be forwarded to client, the animation of avatar
                         // will be interrupted
-                        if (motionState == MotionState.MOTION_STATE_NOTIFY
-                                || motionState == MotionState.MOTION_STATE_FIGHT) {
+                        if (motionState == MotionState.MotionState_MOTION_NOTIFY
+                                || motionState == MotionState.MotionState_MOTION_FIGHT) {
                             continue;
                         }
                     }
                 }
-                case COMBAT_TYPE_ARGUMENT_ANIMATOR_PARAMETER_CHANGED -> {
+                case CombatTypeArgument_COMBAT_ANIMATOR_PARAMETER_CHANGED -> {
                     EvtAnimatorParameterInfo paramInfo =
                             EvtAnimatorParameterInfo.parseFrom(entry.getCombatData());
                     if (paramInfo.getIsServerCache()) {
@@ -185,7 +185,7 @@ public class HandlerCombatInvocationsNotify extends PacketHandler {
             session
                     .getPlayer()
                     .getStaminaManager()
-                    .killAvatar(session, entity, PlayerDieTypeOuterClass.PlayerDieType.PLAYER_DIE_TYPE_FALL);
+                    .killAvatar(session, entity, PlayerDieTypeOuterClass.PlayerDieType.PlayerDieType_PLAYER_DIE_FALL);
         }
         cachedLandingSpeed = 0;
     }

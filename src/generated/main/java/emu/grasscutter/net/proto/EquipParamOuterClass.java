@@ -19,24 +19,40 @@ public final class EquipParamOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 item_id = 1;</code>
      * @return The itemId.
      */
     int getItemId();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 item_num = 2;</code>
      * @return The itemNum.
      */
     int getItemNum();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 item_level = 3;</code>
      * @return The itemLevel.
      */
     int getItemLevel();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 promote_level = 4;</code>
      * @return The promoteLevel.
      */
@@ -142,6 +158,10 @@ public final class EquipParamOuterClass {
     public static final int ITEM_ID_FIELD_NUMBER = 1;
     private int itemId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 item_id = 1;</code>
      * @return The itemId.
      */
@@ -153,6 +173,10 @@ public final class EquipParamOuterClass {
     public static final int ITEM_NUM_FIELD_NUMBER = 2;
     private int itemNum_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 item_num = 2;</code>
      * @return The itemNum.
      */
@@ -164,6 +188,10 @@ public final class EquipParamOuterClass {
     public static final int ITEM_LEVEL_FIELD_NUMBER = 3;
     private int itemLevel_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 item_level = 3;</code>
      * @return The itemLevel.
      */
@@ -175,6 +203,10 @@ public final class EquipParamOuterClass {
     public static final int PROMOTE_LEVEL_FIELD_NUMBER = 4;
     private int promoteLevel_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 promote_level = 4;</code>
      * @return The promoteLevel.
      */
@@ -538,6 +570,10 @@ public final class EquipParamOuterClass {
 
       private int itemId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 item_id = 1;</code>
        * @return The itemId.
        */
@@ -546,6 +582,10 @@ public final class EquipParamOuterClass {
         return itemId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 item_id = 1;</code>
        * @param value The itemId to set.
        * @return This builder for chaining.
@@ -557,6 +597,10 @@ public final class EquipParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 item_id = 1;</code>
        * @return This builder for chaining.
        */
@@ -569,6 +613,10 @@ public final class EquipParamOuterClass {
 
       private int itemNum_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 item_num = 2;</code>
        * @return The itemNum.
        */
@@ -577,6 +625,10 @@ public final class EquipParamOuterClass {
         return itemNum_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 item_num = 2;</code>
        * @param value The itemNum to set.
        * @return This builder for chaining.
@@ -588,6 +640,10 @@ public final class EquipParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 item_num = 2;</code>
        * @return This builder for chaining.
        */
@@ -600,6 +656,10 @@ public final class EquipParamOuterClass {
 
       private int itemLevel_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 item_level = 3;</code>
        * @return The itemLevel.
        */
@@ -608,6 +668,10 @@ public final class EquipParamOuterClass {
         return itemLevel_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 item_level = 3;</code>
        * @param value The itemLevel to set.
        * @return This builder for chaining.
@@ -619,6 +683,10 @@ public final class EquipParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 item_level = 3;</code>
        * @return This builder for chaining.
        */
@@ -631,6 +699,10 @@ public final class EquipParamOuterClass {
 
       private int promoteLevel_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 promote_level = 4;</code>
        * @return The promoteLevel.
        */
@@ -639,6 +711,10 @@ public final class EquipParamOuterClass {
         return promoteLevel_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 promote_level = 4;</code>
        * @param value The promoteLevel to set.
        * @return This builder for chaining.
@@ -650,6 +726,10 @@ public final class EquipParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 promote_level = 4;</code>
        * @return This builder for chaining.
        */

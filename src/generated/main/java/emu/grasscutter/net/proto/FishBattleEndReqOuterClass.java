@@ -19,31 +19,47 @@ public final class FishBattleEndReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_always_bonus = 12;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_always_bonus = 7;</code>
      * @return The isAlwaysBonus.
      */
     boolean getIsAlwaysBonus();
 
     /**
-     * <code>uint32 max_bonus_time = 14;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 max_bonus_time = 3;</code>
      * @return The maxBonusTime.
      */
     int getMaxBonusTime();
 
     /**
-     * <code>.FishBattleResult battle_result = 8;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.FishBattleResult battle_result = 4;</code>
      * @return The enum numeric value on the wire for battleResult.
      */
     int getBattleResultValue();
     /**
-     * <code>.FishBattleResult battle_result = 8;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.FishBattleResult battle_result = 4;</code>
      * @return The battleResult.
      */
     emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult getBattleResult();
   }
   /**
    * <pre>
-   * CmdId: 23363
+   * CmdId: 27306
    * </pre>
    *
    * Protobuf type {@code FishBattleEndReq}
@@ -91,20 +107,20 @@ public final class FishBattleEndReqOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 24: {
+
+              maxBonusTime_ = input.readUInt32();
+              break;
+            }
+            case 32: {
               int rawValue = input.readEnum();
 
               battleResult_ = rawValue;
               break;
             }
-            case 96: {
+            case 56: {
 
               isAlwaysBonus_ = input.readBool();
-              break;
-            }
-            case 112: {
-
-              maxBonusTime_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +155,14 @@ public final class FishBattleEndReqOuterClass {
               emu.grasscutter.net.proto.FishBattleEndReqOuterClass.FishBattleEndReq.class, emu.grasscutter.net.proto.FishBattleEndReqOuterClass.FishBattleEndReq.Builder.class);
     }
 
-    public static final int IS_ALWAYS_BONUS_FIELD_NUMBER = 12;
+    public static final int IS_ALWAYS_BONUS_FIELD_NUMBER = 7;
     private boolean isAlwaysBonus_;
     /**
-     * <code>bool is_always_bonus = 12;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_always_bonus = 7;</code>
      * @return The isAlwaysBonus.
      */
     @java.lang.Override
@@ -150,10 +170,14 @@ public final class FishBattleEndReqOuterClass {
       return isAlwaysBonus_;
     }
 
-    public static final int MAX_BONUS_TIME_FIELD_NUMBER = 14;
+    public static final int MAX_BONUS_TIME_FIELD_NUMBER = 3;
     private int maxBonusTime_;
     /**
-     * <code>uint32 max_bonus_time = 14;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 max_bonus_time = 3;</code>
      * @return The maxBonusTime.
      */
     @java.lang.Override
@@ -161,17 +185,25 @@ public final class FishBattleEndReqOuterClass {
       return maxBonusTime_;
     }
 
-    public static final int BATTLE_RESULT_FIELD_NUMBER = 8;
+    public static final int BATTLE_RESULT_FIELD_NUMBER = 4;
     private int battleResult_;
     /**
-     * <code>.FishBattleResult battle_result = 8;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.FishBattleResult battle_result = 4;</code>
      * @return The enum numeric value on the wire for battleResult.
      */
     @java.lang.Override public int getBattleResultValue() {
       return battleResult_;
     }
     /**
-     * <code>.FishBattleResult battle_result = 8;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.FishBattleResult battle_result = 4;</code>
      * @return The battleResult.
      */
     @java.lang.Override public emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult getBattleResult() {
@@ -194,14 +226,14 @@ public final class FishBattleEndReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (battleResult_ != emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.FISH_BATTLE_RESULT_NONE.getNumber()) {
-        output.writeEnum(8, battleResult_);
+      if (maxBonusTime_ != 0) {
+        output.writeUInt32(3, maxBonusTime_);
+      }
+      if (battleResult_ != emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.FishBattleResult_NONE.getNumber()) {
+        output.writeEnum(4, battleResult_);
       }
       if (isAlwaysBonus_ != false) {
-        output.writeBool(12, isAlwaysBonus_);
-      }
-      if (maxBonusTime_ != 0) {
-        output.writeUInt32(14, maxBonusTime_);
+        output.writeBool(7, isAlwaysBonus_);
       }
       unknownFields.writeTo(output);
     }
@@ -212,17 +244,17 @@ public final class FishBattleEndReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (battleResult_ != emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.FISH_BATTLE_RESULT_NONE.getNumber()) {
+      if (maxBonusTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(8, battleResult_);
+          .computeUInt32Size(3, maxBonusTime_);
+      }
+      if (battleResult_ != emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.FishBattleResult_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(4, battleResult_);
       }
       if (isAlwaysBonus_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isAlwaysBonus_);
-      }
-      if (maxBonusTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, maxBonusTime_);
+          .computeBoolSize(7, isAlwaysBonus_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -359,7 +391,7 @@ public final class FishBattleEndReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 23363
+     * CmdId: 27306
      * </pre>
      *
      * Protobuf type {@code FishBattleEndReq}
@@ -522,7 +554,11 @@ public final class FishBattleEndReqOuterClass {
 
       private boolean isAlwaysBonus_ ;
       /**
-       * <code>bool is_always_bonus = 12;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_always_bonus = 7;</code>
        * @return The isAlwaysBonus.
        */
       @java.lang.Override
@@ -530,7 +566,11 @@ public final class FishBattleEndReqOuterClass {
         return isAlwaysBonus_;
       }
       /**
-       * <code>bool is_always_bonus = 12;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_always_bonus = 7;</code>
        * @param value The isAlwaysBonus to set.
        * @return This builder for chaining.
        */
@@ -541,7 +581,11 @@ public final class FishBattleEndReqOuterClass {
         return this;
       }
       /**
-       * <code>bool is_always_bonus = 12;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_always_bonus = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsAlwaysBonus() {
@@ -553,7 +597,11 @@ public final class FishBattleEndReqOuterClass {
 
       private int maxBonusTime_ ;
       /**
-       * <code>uint32 max_bonus_time = 14;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 max_bonus_time = 3;</code>
        * @return The maxBonusTime.
        */
       @java.lang.Override
@@ -561,7 +609,11 @@ public final class FishBattleEndReqOuterClass {
         return maxBonusTime_;
       }
       /**
-       * <code>uint32 max_bonus_time = 14;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 max_bonus_time = 3;</code>
        * @param value The maxBonusTime to set.
        * @return This builder for chaining.
        */
@@ -572,7 +624,11 @@ public final class FishBattleEndReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_bonus_time = 14;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 max_bonus_time = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxBonusTime() {
@@ -584,14 +640,22 @@ public final class FishBattleEndReqOuterClass {
 
       private int battleResult_ = 0;
       /**
-       * <code>.FishBattleResult battle_result = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.FishBattleResult battle_result = 4;</code>
        * @return The enum numeric value on the wire for battleResult.
        */
       @java.lang.Override public int getBattleResultValue() {
         return battleResult_;
       }
       /**
-       * <code>.FishBattleResult battle_result = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.FishBattleResult battle_result = 4;</code>
        * @param value The enum numeric value on the wire for battleResult to set.
        * @return This builder for chaining.
        */
@@ -602,7 +666,11 @@ public final class FishBattleEndReqOuterClass {
         return this;
       }
       /**
-       * <code>.FishBattleResult battle_result = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.FishBattleResult battle_result = 4;</code>
        * @return The battleResult.
        */
       @java.lang.Override
@@ -612,7 +680,11 @@ public final class FishBattleEndReqOuterClass {
         return result == null ? emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.UNRECOGNIZED : result;
       }
       /**
-       * <code>.FishBattleResult battle_result = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.FishBattleResult battle_result = 4;</code>
        * @param value The battleResult to set.
        * @return This builder for chaining.
        */
@@ -626,7 +698,11 @@ public final class FishBattleEndReqOuterClass {
         return this;
       }
       /**
-       * <code>.FishBattleResult battle_result = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.FishBattleResult battle_result = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearBattleResult() {
@@ -704,8 +780,8 @@ public final class FishBattleEndReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026FishBattleEndReq.proto\032\026FishBattleResu" +
       "lt.proto\"m\n\020FishBattleEndReq\022\027\n\017is_alway" +
-      "s_bonus\030\014 \001(\010\022\026\n\016max_bonus_time\030\016 \001(\r\022(\n" +
-      "\rbattle_result\030\010 \001(\0162\021.FishBattleResultB" +
+      "s_bonus\030\007 \001(\010\022\026\n\016max_bonus_time\030\003 \001(\r\022(\n" +
+      "\rbattle_result\030\004 \001(\0162\021.FishBattleResultB" +
       "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

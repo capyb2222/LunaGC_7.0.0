@@ -19,6 +19,10 @@ public final class FurnitureOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 count = 1;</code>
      * @return The count.
      */
@@ -109,6 +113,10 @@ public final class FurnitureOuterClass {
     public static final int COUNT_FIELD_NUMBER = 1;
     private int count_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 count = 1;</code>
      * @return The count.
      */
@@ -421,6 +429,10 @@ public final class FurnitureOuterClass {
 
       private int count_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 count = 1;</code>
        * @return The count.
        */
@@ -429,6 +441,10 @@ public final class FurnitureOuterClass {
         return count_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 count = 1;</code>
        * @param value The count to set.
        * @return This builder for chaining.
@@ -440,6 +456,10 @@ public final class FurnitureOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 count = 1;</code>
        * @return This builder for chaining.
        */

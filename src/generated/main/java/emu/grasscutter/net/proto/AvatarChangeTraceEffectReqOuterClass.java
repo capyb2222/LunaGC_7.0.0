@@ -19,20 +19,21 @@ public final class AvatarChangeTraceEffectReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 trace_effect_id = 7;</code>
-     * @return The traceEffectId.
-     */
-    int getTraceEffectId();
-
-    /**
-     * <code>uint64 avatar_guid = 2;</code>
+     * <code>uint64 avatar_guid = 4;</code>
      * @return The avatarGuid.
      */
     long getAvatarGuid();
+
+    /**
+     * <code>uint32 trace_effect_id = 8;</code>
+     * @return The traceEffectId.
+     */
+    int getTraceEffectId();
   }
   /**
    * <pre>
-   * CmdId: 4397
+   * Version: 5.7
+   * CmdId: 23360
    * </pre>
    *
    * Protobuf type {@code AvatarChangeTraceEffectReq}
@@ -79,12 +80,12 @@ public final class AvatarChangeTraceEffectReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 32: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 56: {
+            case 64: {
 
               traceEffectId_ = input.readUInt32();
               break;
@@ -121,26 +122,26 @@ public final class AvatarChangeTraceEffectReqOuterClass {
               emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq.class, emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq.Builder.class);
     }
 
-    public static final int TRACE_EFFECT_ID_FIELD_NUMBER = 7;
-    private int traceEffectId_;
-    /**
-     * <code>uint32 trace_effect_id = 7;</code>
-     * @return The traceEffectId.
-     */
-    @java.lang.Override
-    public int getTraceEffectId() {
-      return traceEffectId_;
-    }
-
-    public static final int AVATAR_GUID_FIELD_NUMBER = 2;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 4;
     private long avatarGuid_;
     /**
-     * <code>uint64 avatar_guid = 2;</code>
+     * <code>uint64 avatar_guid = 4;</code>
      * @return The avatarGuid.
      */
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
+    }
+
+    public static final int TRACE_EFFECT_ID_FIELD_NUMBER = 8;
+    private int traceEffectId_;
+    /**
+     * <code>uint32 trace_effect_id = 8;</code>
+     * @return The traceEffectId.
+     */
+    @java.lang.Override
+    public int getTraceEffectId() {
+      return traceEffectId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -158,10 +159,10 @@ public final class AvatarChangeTraceEffectReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(2, avatarGuid_);
+        output.writeUInt64(4, avatarGuid_);
       }
       if (traceEffectId_ != 0) {
-        output.writeUInt32(7, traceEffectId_);
+        output.writeUInt32(8, traceEffectId_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +175,11 @@ public final class AvatarChangeTraceEffectReqOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(2, avatarGuid_);
+          .computeUInt64Size(4, avatarGuid_);
       }
       if (traceEffectId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, traceEffectId_);
+          .computeUInt32Size(8, traceEffectId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -195,10 +196,10 @@ public final class AvatarChangeTraceEffectReqOuterClass {
       }
       emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq other = (emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq) obj;
 
-      if (getTraceEffectId()
-          != other.getTraceEffectId()) return false;
       if (getAvatarGuid()
           != other.getAvatarGuid()) return false;
+      if (getTraceEffectId()
+          != other.getTraceEffectId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -210,11 +211,11 @@ public final class AvatarChangeTraceEffectReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + TRACE_EFFECT_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getTraceEffectId();
       hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getAvatarGuid());
+      hash = (37 * hash) + TRACE_EFFECT_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getTraceEffectId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -312,7 +313,8 @@ public final class AvatarChangeTraceEffectReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 4397
+     * Version: 5.7
+     * CmdId: 23360
      * </pre>
      *
      * Protobuf type {@code AvatarChangeTraceEffectReq}
@@ -352,9 +354,9 @@ public final class AvatarChangeTraceEffectReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        traceEffectId_ = 0;
-
         avatarGuid_ = 0L;
+
+        traceEffectId_ = 0;
 
         return this;
       }
@@ -382,8 +384,8 @@ public final class AvatarChangeTraceEffectReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq buildPartial() {
         emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq result = new emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq(this);
-        result.traceEffectId_ = traceEffectId_;
         result.avatarGuid_ = avatarGuid_;
+        result.traceEffectId_ = traceEffectId_;
         onBuilt();
         return result;
       }
@@ -432,11 +434,11 @@ public final class AvatarChangeTraceEffectReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq other) {
         if (other == emu.grasscutter.net.proto.AvatarChangeTraceEffectReqOuterClass.AvatarChangeTraceEffectReq.getDefaultInstance()) return this;
-        if (other.getTraceEffectId() != 0) {
-          setTraceEffectId(other.getTraceEffectId());
-        }
         if (other.getAvatarGuid() != 0L) {
           setAvatarGuid(other.getAvatarGuid());
+        }
+        if (other.getTraceEffectId() != 0) {
+          setTraceEffectId(other.getTraceEffectId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -467,40 +469,9 @@ public final class AvatarChangeTraceEffectReqOuterClass {
         return this;
       }
 
-      private int traceEffectId_ ;
-      /**
-       * <code>uint32 trace_effect_id = 7;</code>
-       * @return The traceEffectId.
-       */
-      @java.lang.Override
-      public int getTraceEffectId() {
-        return traceEffectId_;
-      }
-      /**
-       * <code>uint32 trace_effect_id = 7;</code>
-       * @param value The traceEffectId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setTraceEffectId(int value) {
-        
-        traceEffectId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 trace_effect_id = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearTraceEffectId() {
-        
-        traceEffectId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private long avatarGuid_ ;
       /**
-       * <code>uint64 avatar_guid = 2;</code>
+       * <code>uint64 avatar_guid = 4;</code>
        * @return The avatarGuid.
        */
       @java.lang.Override
@@ -508,7 +479,7 @@ public final class AvatarChangeTraceEffectReqOuterClass {
         return avatarGuid_;
       }
       /**
-       * <code>uint64 avatar_guid = 2;</code>
+       * <code>uint64 avatar_guid = 4;</code>
        * @param value The avatarGuid to set.
        * @return This builder for chaining.
        */
@@ -519,12 +490,43 @@ public final class AvatarChangeTraceEffectReqOuterClass {
         return this;
       }
       /**
-       * <code>uint64 avatar_guid = 2;</code>
+       * <code>uint64 avatar_guid = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
         
         avatarGuid_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private int traceEffectId_ ;
+      /**
+       * <code>uint32 trace_effect_id = 8;</code>
+       * @return The traceEffectId.
+       */
+      @java.lang.Override
+      public int getTraceEffectId() {
+        return traceEffectId_;
+      }
+      /**
+       * <code>uint32 trace_effect_id = 8;</code>
+       * @param value The traceEffectId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setTraceEffectId(int value) {
+        
+        traceEffectId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 trace_effect_id = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearTraceEffectId() {
+        
+        traceEffectId_ = 0;
         onChanged();
         return this;
       }
@@ -596,8 +598,8 @@ public final class AvatarChangeTraceEffectReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n AvatarChangeTraceEffectReq.proto\"J\n\032Av" +
-      "atarChangeTraceEffectReq\022\027\n\017trace_effect" +
-      "_id\030\007 \001(\r\022\023\n\013avatar_guid\030\002 \001(\004B\033\n\031emu.gr" +
+      "atarChangeTraceEffectReq\022\023\n\013avatar_guid\030" +
+      "\004 \001(\004\022\027\n\017trace_effect_id\030\010 \001(\rB\033\n\031emu.gr" +
       "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -609,7 +611,7 @@ public final class AvatarChangeTraceEffectReqOuterClass {
     internal_static_AvatarChangeTraceEffectReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarChangeTraceEffectReq_descriptor,
-        new java.lang.String[] { "TraceEffectId", "AvatarGuid", });
+        new java.lang.String[] { "AvatarGuid", "TraceEffectId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

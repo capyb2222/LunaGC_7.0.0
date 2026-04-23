@@ -223,7 +223,7 @@ public class HomeWorldMPSystem extends BaseGameSystem {
         player.sendPacket(
                 new PacketPlayerEnterSceneNotify(
                         player,
-                        EnterTypeOuterClass.EnterType.ENTER_TYPE_BACK,
+                        EnterTypeOuterClass.EnterType.EnterType_ENTER_BACK,
                         EnterReason.TeamBack,
                         prevScene,
                         pos));
@@ -274,7 +274,7 @@ public class HomeWorldMPSystem extends BaseGameSystem {
         victim.sendPacket(
                 new PacketPlayerEnterSceneNotify(
                         victim,
-                        EnterTypeOuterClass.EnterType.ENTER_TYPE_BACK,
+                        EnterTypeOuterClass.EnterType.EnterType_ENTER_BACK,
                         EnterReason.TeamKick,
                         victim.getScene().getId(),
                         victim.getPrevPosForHome()));

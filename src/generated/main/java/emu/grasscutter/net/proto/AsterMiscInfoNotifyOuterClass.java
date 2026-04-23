@@ -19,21 +19,20 @@ public final class AsterMiscInfoNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 ADOPPAOJEAN = 14;</code>
-     * @return The aDOPPAOJEAN.
+     * <code>uint32 aster_token = 9;</code>
+     * @return The asterToken.
      */
-    int getADOPPAOJEAN();
+    int getAsterToken();
 
     /**
-     * <code>uint32 BLIJLCKCIJP = 11;</code>
-     * @return The bLIJLCKCIJP.
+     * <code>uint32 aster_credit = 2;</code>
+     * @return The asterCredit.
      */
-    int getBLIJLCKCIJP();
+    int getAsterCredit();
   }
   /**
    * <pre>
-   * CmdId: 7912
-   * Obf: OPBCAJPHJCN
+   * CmdId: 20844
    * </pre>
    *
    * Protobuf type {@code AsterMiscInfoNotify}
@@ -80,14 +79,14 @@ public final class AsterMiscInfoNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 16: {
 
-              bLIJLCKCIJP_ = input.readUInt32();
+              asterCredit_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 72: {
 
-              aDOPPAOJEAN_ = input.readUInt32();
+              asterToken_ = input.readUInt32();
               break;
             }
             default: {
@@ -122,26 +121,26 @@ public final class AsterMiscInfoNotifyOuterClass {
               emu.grasscutter.net.proto.AsterMiscInfoNotifyOuterClass.AsterMiscInfoNotify.class, emu.grasscutter.net.proto.AsterMiscInfoNotifyOuterClass.AsterMiscInfoNotify.Builder.class);
     }
 
-    public static final int ADOPPAOJEAN_FIELD_NUMBER = 14;
-    private int aDOPPAOJEAN_;
+    public static final int ASTER_TOKEN_FIELD_NUMBER = 9;
+    private int asterToken_;
     /**
-     * <code>uint32 ADOPPAOJEAN = 14;</code>
-     * @return The aDOPPAOJEAN.
+     * <code>uint32 aster_token = 9;</code>
+     * @return The asterToken.
      */
     @java.lang.Override
-    public int getADOPPAOJEAN() {
-      return aDOPPAOJEAN_;
+    public int getAsterToken() {
+      return asterToken_;
     }
 
-    public static final int BLIJLCKCIJP_FIELD_NUMBER = 11;
-    private int bLIJLCKCIJP_;
+    public static final int ASTER_CREDIT_FIELD_NUMBER = 2;
+    private int asterCredit_;
     /**
-     * <code>uint32 BLIJLCKCIJP = 11;</code>
-     * @return The bLIJLCKCIJP.
+     * <code>uint32 aster_credit = 2;</code>
+     * @return The asterCredit.
      */
     @java.lang.Override
-    public int getBLIJLCKCIJP() {
-      return bLIJLCKCIJP_;
+    public int getAsterCredit() {
+      return asterCredit_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -158,11 +157,11 @@ public final class AsterMiscInfoNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (bLIJLCKCIJP_ != 0) {
-        output.writeUInt32(11, bLIJLCKCIJP_);
+      if (asterCredit_ != 0) {
+        output.writeUInt32(2, asterCredit_);
       }
-      if (aDOPPAOJEAN_ != 0) {
-        output.writeUInt32(14, aDOPPAOJEAN_);
+      if (asterToken_ != 0) {
+        output.writeUInt32(9, asterToken_);
       }
       unknownFields.writeTo(output);
     }
@@ -173,13 +172,13 @@ public final class AsterMiscInfoNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (bLIJLCKCIJP_ != 0) {
+      if (asterCredit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, bLIJLCKCIJP_);
+          .computeUInt32Size(2, asterCredit_);
       }
-      if (aDOPPAOJEAN_ != 0) {
+      if (asterToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, aDOPPAOJEAN_);
+          .computeUInt32Size(9, asterToken_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -196,10 +195,10 @@ public final class AsterMiscInfoNotifyOuterClass {
       }
       emu.grasscutter.net.proto.AsterMiscInfoNotifyOuterClass.AsterMiscInfoNotify other = (emu.grasscutter.net.proto.AsterMiscInfoNotifyOuterClass.AsterMiscInfoNotify) obj;
 
-      if (getADOPPAOJEAN()
-          != other.getADOPPAOJEAN()) return false;
-      if (getBLIJLCKCIJP()
-          != other.getBLIJLCKCIJP()) return false;
+      if (getAsterToken()
+          != other.getAsterToken()) return false;
+      if (getAsterCredit()
+          != other.getAsterCredit()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -211,10 +210,10 @@ public final class AsterMiscInfoNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + ADOPPAOJEAN_FIELD_NUMBER;
-      hash = (53 * hash) + getADOPPAOJEAN();
-      hash = (37 * hash) + BLIJLCKCIJP_FIELD_NUMBER;
-      hash = (53 * hash) + getBLIJLCKCIJP();
+      hash = (37 * hash) + ASTER_TOKEN_FIELD_NUMBER;
+      hash = (53 * hash) + getAsterToken();
+      hash = (37 * hash) + ASTER_CREDIT_FIELD_NUMBER;
+      hash = (53 * hash) + getAsterCredit();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -312,8 +311,7 @@ public final class AsterMiscInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 7912
-     * Obf: OPBCAJPHJCN
+     * CmdId: 20844
      * </pre>
      *
      * Protobuf type {@code AsterMiscInfoNotify}
@@ -353,9 +351,9 @@ public final class AsterMiscInfoNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        aDOPPAOJEAN_ = 0;
+        asterToken_ = 0;
 
-        bLIJLCKCIJP_ = 0;
+        asterCredit_ = 0;
 
         return this;
       }
@@ -383,8 +381,8 @@ public final class AsterMiscInfoNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AsterMiscInfoNotifyOuterClass.AsterMiscInfoNotify buildPartial() {
         emu.grasscutter.net.proto.AsterMiscInfoNotifyOuterClass.AsterMiscInfoNotify result = new emu.grasscutter.net.proto.AsterMiscInfoNotifyOuterClass.AsterMiscInfoNotify(this);
-        result.aDOPPAOJEAN_ = aDOPPAOJEAN_;
-        result.bLIJLCKCIJP_ = bLIJLCKCIJP_;
+        result.asterToken_ = asterToken_;
+        result.asterCredit_ = asterCredit_;
         onBuilt();
         return result;
       }
@@ -433,11 +431,11 @@ public final class AsterMiscInfoNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AsterMiscInfoNotifyOuterClass.AsterMiscInfoNotify other) {
         if (other == emu.grasscutter.net.proto.AsterMiscInfoNotifyOuterClass.AsterMiscInfoNotify.getDefaultInstance()) return this;
-        if (other.getADOPPAOJEAN() != 0) {
-          setADOPPAOJEAN(other.getADOPPAOJEAN());
+        if (other.getAsterToken() != 0) {
+          setAsterToken(other.getAsterToken());
         }
-        if (other.getBLIJLCKCIJP() != 0) {
-          setBLIJLCKCIJP(other.getBLIJLCKCIJP());
+        if (other.getAsterCredit() != 0) {
+          setAsterCredit(other.getAsterCredit());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -468,64 +466,64 @@ public final class AsterMiscInfoNotifyOuterClass {
         return this;
       }
 
-      private int aDOPPAOJEAN_ ;
+      private int asterToken_ ;
       /**
-       * <code>uint32 ADOPPAOJEAN = 14;</code>
-       * @return The aDOPPAOJEAN.
+       * <code>uint32 aster_token = 9;</code>
+       * @return The asterToken.
        */
       @java.lang.Override
-      public int getADOPPAOJEAN() {
-        return aDOPPAOJEAN_;
+      public int getAsterToken() {
+        return asterToken_;
       }
       /**
-       * <code>uint32 ADOPPAOJEAN = 14;</code>
-       * @param value The aDOPPAOJEAN to set.
+       * <code>uint32 aster_token = 9;</code>
+       * @param value The asterToken to set.
        * @return This builder for chaining.
        */
-      public Builder setADOPPAOJEAN(int value) {
+      public Builder setAsterToken(int value) {
         
-        aDOPPAOJEAN_ = value;
+        asterToken_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 ADOPPAOJEAN = 14;</code>
+       * <code>uint32 aster_token = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearADOPPAOJEAN() {
+      public Builder clearAsterToken() {
         
-        aDOPPAOJEAN_ = 0;
+        asterToken_ = 0;
         onChanged();
         return this;
       }
 
-      private int bLIJLCKCIJP_ ;
+      private int asterCredit_ ;
       /**
-       * <code>uint32 BLIJLCKCIJP = 11;</code>
-       * @return The bLIJLCKCIJP.
+       * <code>uint32 aster_credit = 2;</code>
+       * @return The asterCredit.
        */
       @java.lang.Override
-      public int getBLIJLCKCIJP() {
-        return bLIJLCKCIJP_;
+      public int getAsterCredit() {
+        return asterCredit_;
       }
       /**
-       * <code>uint32 BLIJLCKCIJP = 11;</code>
-       * @param value The bLIJLCKCIJP to set.
+       * <code>uint32 aster_credit = 2;</code>
+       * @param value The asterCredit to set.
        * @return This builder for chaining.
        */
-      public Builder setBLIJLCKCIJP(int value) {
+      public Builder setAsterCredit(int value) {
         
-        bLIJLCKCIJP_ = value;
+        asterCredit_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 BLIJLCKCIJP = 11;</code>
+       * <code>uint32 aster_credit = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBLIJLCKCIJP() {
+      public Builder clearAsterCredit() {
         
-        bLIJLCKCIJP_ = 0;
+        asterCredit_ = 0;
         onChanged();
         return this;
       }
@@ -596,10 +594,10 @@ public final class AsterMiscInfoNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031AsterMiscInfoNotify.proto\"?\n\023AsterMisc" +
-      "InfoNotify\022\023\n\013ADOPPAOJEAN\030\016 \001(\r\022\023\n\013BLIJL" +
-      "CKCIJP\030\013 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\n\031AsterMiscInfoNotify.proto\"@\n\023AsterMisc" +
+      "InfoNotify\022\023\n\013aster_token\030\t \001(\r\022\024\n\014aster" +
+      "_credit\030\002 \001(\rB\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -610,7 +608,7 @@ public final class AsterMiscInfoNotifyOuterClass {
     internal_static_AsterMiscInfoNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AsterMiscInfoNotify_descriptor,
-        new java.lang.String[] { "ADOPPAOJEAN", "BLIJLCKCIJP", });
+        new java.lang.String[] { "AsterToken", "AsterCredit", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

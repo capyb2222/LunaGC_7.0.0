@@ -19,64 +19,68 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage> 
+    java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> 
         getStageListList();
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
-    emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage getStageList(int index);
+    emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK getStageList(int index);
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
     int getStageListCount();
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStageOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder> 
         getStageListOrBuilderList();
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
-    emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStageOrBuilder getStageListOrBuilder(
+    emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder getStageListOrBuilder(
         int index);
 
     /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo> 
-        getParkourLevelInfoListList();
-    /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo getParkourLevelInfoList(int index);
-    /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    int getParkourLevelInfoListCount();
-    /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfoOrBuilder> 
-        getParkourLevelInfoListOrBuilderList();
-    /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfoOrBuilder getParkourLevelInfoListOrBuilder(
-        int index);
-
-    /**
-     * <code>bool is_content_closed = 1;</code>
-     * @return The isContentClosed.
-     */
-    boolean getIsContentClosed();
-
-    /**
-     * <code>uint32 content_close_time = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 content_close_time = 3;</code>
      * @return The contentCloseTime.
      */
     int getContentCloseTime();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 14;</code>
+     * @return The isContentClosed.
+     */
+    boolean getIsContentClosed();
   }
   /**
    * Protobuf type {@code BlitzRushActivityDetailInfo}
@@ -92,7 +96,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     }
     private BlitzRushActivityDetailInfo() {
       stageList_ = java.util.Collections.emptyList();
-      parkourLevelInfoList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -126,32 +129,23 @@ public final class BlitzRushActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              isContentClosed_ = input.readBool();
-              break;
-            }
-            case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                parkourLevelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              parkourLevelInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 42: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage>();
+                stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK>();
                 mutable_bitField0_ |= 0x00000001;
               }
               stageList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.parser(), extensionRegistry));
               break;
             }
-            case 88: {
+            case 24: {
 
               contentCloseTime_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              isContentClosed_ = input.readBool();
               break;
             }
             default: {
@@ -169,9 +163,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          parkourLevelInfoList_ = java.util.Collections.unmodifiableList(parkourLevelInfoList_);
-        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           stageList_ = java.util.Collections.unmodifiableList(stageList_);
         }
@@ -192,106 +183,94 @@ public final class BlitzRushActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.BlitzRushActivityDetailInfoOuterClass.BlitzRushActivityDetailInfo.class, emu.grasscutter.net.proto.BlitzRushActivityDetailInfoOuterClass.BlitzRushActivityDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_LIST_FIELD_NUMBER = 5;
-    private java.util.List<emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage> stageList_;
+    public static final int STAGE_LIST_FIELD_NUMBER = 1;
+    private java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> stageList_;
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage> getStageListList() {
+    public java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> getStageListList() {
       return stageList_;
     }
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStageOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder> 
         getStageListOrBuilderList() {
       return stageList_;
     }
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
     @java.lang.Override
     public int getStageListCount() {
       return stageList_.size();
     }
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage getStageList(int index) {
+    public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK getStageList(int index) {
       return stageList_.get(index);
     }
     /**
-     * <code>repeated .BlitzRushStage stage_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStageOrBuilder getStageListOrBuilder(
+    public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder getStageListOrBuilder(
         int index) {
       return stageList_.get(index);
     }
 
-    public static final int PARKOUR_LEVEL_INFO_LIST_FIELD_NUMBER = 2;
-    private java.util.List<emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo> parkourLevelInfoList_;
-    /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo> getParkourLevelInfoListList() {
-      return parkourLevelInfoList_;
-    }
-    /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfoOrBuilder> 
-        getParkourLevelInfoListOrBuilderList() {
-      return parkourLevelInfoList_;
-    }
-    /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    @java.lang.Override
-    public int getParkourLevelInfoListCount() {
-      return parkourLevelInfoList_.size();
-    }
-    /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo getParkourLevelInfoList(int index) {
-      return parkourLevelInfoList_.get(index);
-    }
-    /**
-     * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfoOrBuilder getParkourLevelInfoListOrBuilder(
-        int index) {
-      return parkourLevelInfoList_.get(index);
-    }
-
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 1;
-    private boolean isContentClosed_;
-    /**
-     * <code>bool is_content_closed = 1;</code>
-     * @return The isContentClosed.
-     */
-    @java.lang.Override
-    public boolean getIsContentClosed() {
-      return isContentClosed_;
-    }
-
-    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 11;
+    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 3;
     private int contentCloseTime_;
     /**
-     * <code>uint32 content_close_time = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 content_close_time = 3;</code>
      * @return The contentCloseTime.
      */
     @java.lang.Override
     public int getContentCloseTime() {
       return contentCloseTime_;
+    }
+
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 14;
+    private boolean isContentClosed_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 14;</code>
+     * @return The isContentClosed.
+     */
+    @java.lang.Override
+    public boolean getIsContentClosed() {
+      return isContentClosed_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -308,17 +287,14 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isContentClosed_ != false) {
-        output.writeBool(1, isContentClosed_);
-      }
-      for (int i = 0; i < parkourLevelInfoList_.size(); i++) {
-        output.writeMessage(2, parkourLevelInfoList_.get(i));
-      }
       for (int i = 0; i < stageList_.size(); i++) {
-        output.writeMessage(5, stageList_.get(i));
+        output.writeMessage(1, stageList_.get(i));
       }
       if (contentCloseTime_ != 0) {
-        output.writeUInt32(11, contentCloseTime_);
+        output.writeUInt32(3, contentCloseTime_);
+      }
+      if (isContentClosed_ != false) {
+        output.writeBool(14, isContentClosed_);
       }
       unknownFields.writeTo(output);
     }
@@ -329,21 +305,17 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isContentClosed_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, isContentClosed_);
-      }
-      for (int i = 0; i < parkourLevelInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, parkourLevelInfoList_.get(i));
-      }
       for (int i = 0; i < stageList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, stageList_.get(i));
+          .computeMessageSize(1, stageList_.get(i));
       }
       if (contentCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, contentCloseTime_);
+          .computeUInt32Size(3, contentCloseTime_);
+      }
+      if (isContentClosed_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, isContentClosed_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -362,12 +334,10 @@ public final class BlitzRushActivityDetailInfoOuterClass {
 
       if (!getStageListList()
           .equals(other.getStageListList())) return false;
-      if (!getParkourLevelInfoListList()
-          .equals(other.getParkourLevelInfoListList())) return false;
-      if (getIsContentClosed()
-          != other.getIsContentClosed()) return false;
       if (getContentCloseTime()
           != other.getContentCloseTime()) return false;
+      if (getIsContentClosed()
+          != other.getIsContentClosed()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -383,15 +353,11 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         hash = (37 * hash) + STAGE_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getStageListList().hashCode();
       }
-      if (getParkourLevelInfoListCount() > 0) {
-        hash = (37 * hash) + PARKOUR_LEVEL_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getParkourLevelInfoListList().hashCode();
-      }
+      hash = (37 * hash) + CONTENT_CLOSE_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getContentCloseTime();
       hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsContentClosed());
-      hash = (37 * hash) + CONTENT_CLOSE_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getContentCloseTime();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -521,7 +487,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
           getStageListFieldBuilder();
-          getParkourLevelInfoListFieldBuilder();
         }
       }
       @java.lang.Override
@@ -533,15 +498,9 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         } else {
           stageListBuilder_.clear();
         }
-        if (parkourLevelInfoListBuilder_ == null) {
-          parkourLevelInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        } else {
-          parkourLevelInfoListBuilder_.clear();
-        }
-        isContentClosed_ = false;
-
         contentCloseTime_ = 0;
+
+        isContentClosed_ = false;
 
         return this;
       }
@@ -579,17 +538,8 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         } else {
           result.stageList_ = stageListBuilder_.build();
         }
-        if (parkourLevelInfoListBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
-            parkourLevelInfoList_ = java.util.Collections.unmodifiableList(parkourLevelInfoList_);
-            bitField0_ = (bitField0_ & ~0x00000002);
-          }
-          result.parkourLevelInfoList_ = parkourLevelInfoList_;
-        } else {
-          result.parkourLevelInfoList_ = parkourLevelInfoListBuilder_.build();
-        }
-        result.isContentClosed_ = isContentClosed_;
         result.contentCloseTime_ = contentCloseTime_;
+        result.isContentClosed_ = isContentClosed_;
         onBuilt();
         return result;
       }
@@ -664,37 +614,11 @@ public final class BlitzRushActivityDetailInfoOuterClass {
             }
           }
         }
-        if (parkourLevelInfoListBuilder_ == null) {
-          if (!other.parkourLevelInfoList_.isEmpty()) {
-            if (parkourLevelInfoList_.isEmpty()) {
-              parkourLevelInfoList_ = other.parkourLevelInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
-            } else {
-              ensureParkourLevelInfoListIsMutable();
-              parkourLevelInfoList_.addAll(other.parkourLevelInfoList_);
-            }
-            onChanged();
-          }
-        } else {
-          if (!other.parkourLevelInfoList_.isEmpty()) {
-            if (parkourLevelInfoListBuilder_.isEmpty()) {
-              parkourLevelInfoListBuilder_.dispose();
-              parkourLevelInfoListBuilder_ = null;
-              parkourLevelInfoList_ = other.parkourLevelInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
-              parkourLevelInfoListBuilder_ = 
-                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getParkourLevelInfoListFieldBuilder() : null;
-            } else {
-              parkourLevelInfoListBuilder_.addAllMessages(other.parkourLevelInfoList_);
-            }
-          }
+        if (other.getContentCloseTime() != 0) {
+          setContentCloseTime(other.getContentCloseTime());
         }
         if (other.getIsContentClosed() != false) {
           setIsContentClosed(other.getIsContentClosed());
-        }
-        if (other.getContentCloseTime() != 0) {
-          setContentCloseTime(other.getContentCloseTime());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -726,22 +650,26 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage> stageList_ =
+      private java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> stageList_ =
         java.util.Collections.emptyList();
       private void ensureStageListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage>(stageList_);
+          stageList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK>(stageList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStageOrBuilder> stageListBuilder_;
+          emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder> stageListBuilder_;
 
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage> getStageListList() {
+      public java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> getStageListList() {
         if (stageListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(stageList_);
         } else {
@@ -749,7 +677,11 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public int getStageListCount() {
         if (stageListBuilder_ == null) {
@@ -759,9 +691,13 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage getStageList(int index) {
+      public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK getStageList(int index) {
         if (stageListBuilder_ == null) {
           return stageList_.get(index);
         } else {
@@ -769,10 +705,14 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public Builder setStageList(
-          int index, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage value) {
+          int index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK value) {
         if (stageListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -786,10 +726,14 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public Builder setStageList(
-          int index, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder builderForValue) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
           stageList_.set(index, builderForValue.build());
@@ -800,9 +744,13 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
-      public Builder addStageList(emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage value) {
+      public Builder addStageList(emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK value) {
         if (stageListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -816,10 +764,14 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public Builder addStageList(
-          int index, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage value) {
+          int index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK value) {
         if (stageListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -833,10 +785,14 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public Builder addStageList(
-          emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder builderForValue) {
+          emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder builderForValue) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
           stageList_.add(builderForValue.build());
@@ -847,10 +803,14 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public Builder addStageList(
-          int index, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder builderForValue) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
           stageList_.add(index, builderForValue.build());
@@ -861,10 +821,14 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public Builder addAllStageList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> values) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -876,7 +840,11 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public Builder clearStageList() {
         if (stageListBuilder_ == null) {
@@ -889,7 +857,11 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public Builder removeStageList(int index) {
         if (stageListBuilder_ == null) {
@@ -902,16 +874,24 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder getStageListBuilder(
+      public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder getStageListBuilder(
           int index) {
         return getStageListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStageOrBuilder getStageListOrBuilder(
+      public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder getStageListOrBuilder(
           int index) {
         if (stageListBuilder_ == null) {
           return stageList_.get(index);  } else {
@@ -919,9 +899,13 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStageOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder> 
            getStageListOrBuilderList() {
         if (stageListBuilder_ != null) {
           return stageListBuilder_.getMessageOrBuilderList();
@@ -930,33 +914,45 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder addStageListBuilder() {
+      public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder addStageListBuilder() {
         return getStageListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.getDefaultInstance());
+            emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.getDefaultInstance());
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
-      public emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder addStageListBuilder(
+      public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder addStageListBuilder(
           int index) {
         return getStageListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.getDefaultInstance());
+            index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.getDefaultInstance());
       }
       /**
-       * <code>repeated .BlitzRushStage stage_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder> 
            getStageListBuilderList() {
         return getStageListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStageOrBuilder> 
+          emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder> 
           getStageListFieldBuilder() {
         if (stageListBuilder_ == null) {
           stageListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStage.Builder, emu.grasscutter.net.proto.BlitzRushStageOuterClass.BlitzRushStageOrBuilder>(
+              emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder>(
                   stageList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -966,280 +962,13 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return stageListBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo> parkourLevelInfoList_ =
-        java.util.Collections.emptyList();
-      private void ensureParkourLevelInfoListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          parkourLevelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo>(parkourLevelInfoList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfoOrBuilder> parkourLevelInfoListBuilder_;
-
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo> getParkourLevelInfoListList() {
-        if (parkourLevelInfoListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(parkourLevelInfoList_);
-        } else {
-          return parkourLevelInfoListBuilder_.getMessageList();
-        }
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public int getParkourLevelInfoListCount() {
-        if (parkourLevelInfoListBuilder_ == null) {
-          return parkourLevelInfoList_.size();
-        } else {
-          return parkourLevelInfoListBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo getParkourLevelInfoList(int index) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          return parkourLevelInfoList_.get(index);
-        } else {
-          return parkourLevelInfoListBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public Builder setParkourLevelInfoList(
-          int index, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo value) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureParkourLevelInfoListIsMutable();
-          parkourLevelInfoList_.set(index, value);
-          onChanged();
-        } else {
-          parkourLevelInfoListBuilder_.setMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public Builder setParkourLevelInfoList(
-          int index, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder builderForValue) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          ensureParkourLevelInfoListIsMutable();
-          parkourLevelInfoList_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          parkourLevelInfoListBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public Builder addParkourLevelInfoList(emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo value) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureParkourLevelInfoListIsMutable();
-          parkourLevelInfoList_.add(value);
-          onChanged();
-        } else {
-          parkourLevelInfoListBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public Builder addParkourLevelInfoList(
-          int index, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo value) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureParkourLevelInfoListIsMutable();
-          parkourLevelInfoList_.add(index, value);
-          onChanged();
-        } else {
-          parkourLevelInfoListBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public Builder addParkourLevelInfoList(
-          emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder builderForValue) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          ensureParkourLevelInfoListIsMutable();
-          parkourLevelInfoList_.add(builderForValue.build());
-          onChanged();
-        } else {
-          parkourLevelInfoListBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public Builder addParkourLevelInfoList(
-          int index, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder builderForValue) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          ensureParkourLevelInfoListIsMutable();
-          parkourLevelInfoList_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          parkourLevelInfoListBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public Builder addAllParkourLevelInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo> values) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          ensureParkourLevelInfoListIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, parkourLevelInfoList_);
-          onChanged();
-        } else {
-          parkourLevelInfoListBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public Builder clearParkourLevelInfoList() {
-        if (parkourLevelInfoListBuilder_ == null) {
-          parkourLevelInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
-          onChanged();
-        } else {
-          parkourLevelInfoListBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public Builder removeParkourLevelInfoList(int index) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          ensureParkourLevelInfoListIsMutable();
-          parkourLevelInfoList_.remove(index);
-          onChanged();
-        } else {
-          parkourLevelInfoListBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder getParkourLevelInfoListBuilder(
-          int index) {
-        return getParkourLevelInfoListFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfoOrBuilder getParkourLevelInfoListOrBuilder(
-          int index) {
-        if (parkourLevelInfoListBuilder_ == null) {
-          return parkourLevelInfoList_.get(index);  } else {
-          return parkourLevelInfoListBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfoOrBuilder> 
-           getParkourLevelInfoListOrBuilderList() {
-        if (parkourLevelInfoListBuilder_ != null) {
-          return parkourLevelInfoListBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(parkourLevelInfoList_);
-        }
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder addParkourLevelInfoListBuilder() {
-        return getParkourLevelInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder addParkourLevelInfoListBuilder(
-          int index) {
-        return getParkourLevelInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .ParkourLevelInfo parkour_level_info_list = 2;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder> 
-           getParkourLevelInfoListBuilderList() {
-        return getParkourLevelInfoListFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfoOrBuilder> 
-          getParkourLevelInfoListFieldBuilder() {
-        if (parkourLevelInfoListBuilder_ == null) {
-          parkourLevelInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfo.Builder, emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.ParkourLevelInfoOrBuilder>(
-                  parkourLevelInfoList_,
-                  ((bitField0_ & 0x00000002) != 0),
-                  getParentForChildren(),
-                  isClean());
-          parkourLevelInfoList_ = null;
-        }
-        return parkourLevelInfoListBuilder_;
-      }
-
-      private boolean isContentClosed_ ;
-      /**
-       * <code>bool is_content_closed = 1;</code>
-       * @return The isContentClosed.
-       */
-      @java.lang.Override
-      public boolean getIsContentClosed() {
-        return isContentClosed_;
-      }
-      /**
-       * <code>bool is_content_closed = 1;</code>
-       * @param value The isContentClosed to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsContentClosed(boolean value) {
-        
-        isContentClosed_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_content_closed = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsContentClosed() {
-        
-        isContentClosed_ = false;
-        onChanged();
-        return this;
-      }
-
       private int contentCloseTime_ ;
       /**
-       * <code>uint32 content_close_time = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 3;</code>
        * @return The contentCloseTime.
        */
       @java.lang.Override
@@ -1247,7 +976,11 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return contentCloseTime_;
       }
       /**
-       * <code>uint32 content_close_time = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 3;</code>
        * @param value The contentCloseTime to set.
        * @return This builder for chaining.
        */
@@ -1258,12 +991,59 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 content_close_time = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearContentCloseTime() {
         
         contentCloseTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean isContentClosed_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 14;</code>
+       * @return The isContentClosed.
+       */
+      @java.lang.Override
+      public boolean getIsContentClosed() {
+        return isContentClosed_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 14;</code>
+       * @param value The isContentClosed to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsContentClosed(boolean value) {
+        
+        isContentClosed_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsContentClosed() {
+        
+        isContentClosed_ = false;
         onChanged();
         return this;
       }
@@ -1334,29 +1114,27 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n!BlitzRushActivityDetailInfo.proto\032\024Bli" +
-      "tzRushStage.proto\032\026ParkourLevelInfo.prot" +
-      "o\"\255\001\n\033BlitzRushActivityDetailInfo\022#\n\nsta" +
-      "ge_list\030\005 \003(\0132\017.BlitzRushStage\0222\n\027parkou" +
-      "r_level_info_list\030\002 \003(\0132\021.ParkourLevelIn" +
-      "fo\022\031\n\021is_content_closed\030\001 \001(\010\022\032\n\022content" +
-      "_close_time\030\013 \001(\rB\033\n\031emu.grasscutter.net" +
-      ".protob\006proto3"
+      "\n!BlitzRushActivityDetailInfo.proto\032\021FLL" +
+      "PPLCPKBA.proto\032\021LAGAFOGNLEK.proto\"v\n\033Bli" +
+      "tzRushActivityDetailInfo\022 \n\nstage_list\030\001" +
+      " \003(\0132\014.LAGAFOGNLEK\022\032\n\022content_close_time" +
+      "\030\003 \001(\r\022\031\n\021is_content_closed\030\016 \001(\010B\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.BlitzRushStageOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.FLLPPLCPKBAOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.getDescriptor(),
         });
     internal_static_BlitzRushActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_BlitzRushActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BlitzRushActivityDetailInfo_descriptor,
-        new java.lang.String[] { "StageList", "ParkourLevelInfoList", "IsContentClosed", "ContentCloseTime", });
-    emu.grasscutter.net.proto.BlitzRushStageOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.ParkourLevelInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "StageList", "ContentCloseTime", "IsContentClosed", });
+    emu.grasscutter.net.proto.FLLPPLCPKBAOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

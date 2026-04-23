@@ -18,8 +18,8 @@ public class MapMark {
 
     @Deprecated // Morhpia
     public MapMark() {
-        this.mapMarkPointType = MapMarkPointType.MAP_MARK_POINT_TYPE_MONSTER;
-        this.mapMarkFromType = MapMarkFromType.MAP_MARK_FROM_TYPE_MONSTER;
+        this.mapMarkPointType = MapMarkPointType.MapMarkPointType_MONSTER;
+        this.mapMarkFromType = MapMarkFromType.MapMarkFromType_MONSTER;
     }
 
     public MapMark(MapMarkPoint mapMarkPoint) {

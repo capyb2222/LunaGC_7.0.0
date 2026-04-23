@@ -19,16 +19,28 @@ public final class AvatarSkillInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
      * @return A list containing the fullCdTimeList.
      */
     java.util.List<java.lang.Integer> getFullCdTimeListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
      * @return The count of fullCdTimeList.
      */
     int getFullCdTimeListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
      * @param index The index of the element to return.
      * @return The fullCdTimeList at the given index.
@@ -36,12 +48,20 @@ public final class AvatarSkillInfoOuterClass {
     int getFullCdTimeList(int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 pass_cd_time = 1;</code>
      * @return The passCdTime.
      */
     int getPassCdTime();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 max_charge_count = 3;</code>
      * @return The maxChargeCount.
      */
@@ -163,6 +183,10 @@ public final class AvatarSkillInfoOuterClass {
     public static final int FULL_CD_TIME_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList fullCdTimeList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
      * @return A list containing the fullCdTimeList.
      */
@@ -172,6 +196,10 @@ public final class AvatarSkillInfoOuterClass {
       return fullCdTimeList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
      * @return The count of fullCdTimeList.
      */
@@ -179,6 +207,10 @@ public final class AvatarSkillInfoOuterClass {
       return fullCdTimeList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
      * @param index The index of the element to return.
      * @return The fullCdTimeList at the given index.
@@ -191,6 +223,10 @@ public final class AvatarSkillInfoOuterClass {
     public static final int PASS_CD_TIME_FIELD_NUMBER = 1;
     private int passCdTime_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 pass_cd_time = 1;</code>
      * @return The passCdTime.
      */
@@ -202,6 +238,10 @@ public final class AvatarSkillInfoOuterClass {
     public static final int MAX_CHARGE_COUNT_FIELD_NUMBER = 3;
     private int maxChargeCount_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 max_charge_count = 3;</code>
      * @return The maxChargeCount.
      */
@@ -584,6 +624,10 @@ public final class AvatarSkillInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
        * @return A list containing the fullCdTimeList.
        */
@@ -593,6 +637,10 @@ public final class AvatarSkillInfoOuterClass {
                  java.util.Collections.unmodifiableList(fullCdTimeList_) : fullCdTimeList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
        * @return The count of fullCdTimeList.
        */
@@ -600,6 +648,10 @@ public final class AvatarSkillInfoOuterClass {
         return fullCdTimeList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
        * @param index The index of the element to return.
        * @return The fullCdTimeList at the given index.
@@ -608,6 +660,10 @@ public final class AvatarSkillInfoOuterClass {
         return fullCdTimeList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
        * @param index The index to set the value at.
        * @param value The fullCdTimeList to set.
@@ -621,6 +677,10 @@ public final class AvatarSkillInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
        * @param value The fullCdTimeList to add.
        * @return This builder for chaining.
@@ -632,6 +692,10 @@ public final class AvatarSkillInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
        * @param values The fullCdTimeList to add.
        * @return This builder for chaining.
@@ -645,6 +709,10 @@ public final class AvatarSkillInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
        * @return This builder for chaining.
        */
@@ -657,6 +725,10 @@ public final class AvatarSkillInfoOuterClass {
 
       private int passCdTime_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 pass_cd_time = 1;</code>
        * @return The passCdTime.
        */
@@ -665,6 +737,10 @@ public final class AvatarSkillInfoOuterClass {
         return passCdTime_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 pass_cd_time = 1;</code>
        * @param value The passCdTime to set.
        * @return This builder for chaining.
@@ -676,6 +752,10 @@ public final class AvatarSkillInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 pass_cd_time = 1;</code>
        * @return This builder for chaining.
        */
@@ -688,6 +768,10 @@ public final class AvatarSkillInfoOuterClass {
 
       private int maxChargeCount_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 max_charge_count = 3;</code>
        * @return The maxChargeCount.
        */
@@ -696,6 +780,10 @@ public final class AvatarSkillInfoOuterClass {
         return maxChargeCount_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 max_charge_count = 3;</code>
        * @param value The maxChargeCount to set.
        * @return This builder for chaining.
@@ -707,6 +795,10 @@ public final class AvatarSkillInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 max_charge_count = 3;</code>
        * @return This builder for chaining.
        */

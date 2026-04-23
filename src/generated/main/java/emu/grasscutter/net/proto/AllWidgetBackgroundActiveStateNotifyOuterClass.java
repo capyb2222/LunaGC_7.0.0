@@ -19,28 +19,23 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 background_active_widget_list = 5;</code>
+     * <code>repeated uint32 background_active_widget_list = 4;</code>
      * @return A list containing the backgroundActiveWidgetList.
      */
     java.util.List<java.lang.Integer> getBackgroundActiveWidgetListList();
     /**
-     * <code>repeated uint32 background_active_widget_list = 5;</code>
+     * <code>repeated uint32 background_active_widget_list = 4;</code>
      * @return The count of backgroundActiveWidgetList.
      */
     int getBackgroundActiveWidgetListCount();
     /**
-     * <code>repeated uint32 background_active_widget_list = 5;</code>
+     * <code>repeated uint32 background_active_widget_list = 4;</code>
      * @param index The index of the element to return.
      * @return The backgroundActiveWidgetList at the given index.
      */
     int getBackgroundActiveWidgetList(int index);
   }
   /**
-   * <pre>
-   * CmdId: 4761
-   * Obf: ODFAPHCPGKP
-   * </pre>
-   *
    * Protobuf type {@code AllWidgetBackgroundActiveStateNotify}
    */
   public static final class AllWidgetBackgroundActiveStateNotify extends
@@ -87,7 +82,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 backgroundActiveWidgetList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -95,7 +90,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
               backgroundActiveWidgetList_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,10 +138,10 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
               emu.grasscutter.net.proto.AllWidgetBackgroundActiveStateNotifyOuterClass.AllWidgetBackgroundActiveStateNotify.class, emu.grasscutter.net.proto.AllWidgetBackgroundActiveStateNotifyOuterClass.AllWidgetBackgroundActiveStateNotify.Builder.class);
     }
 
-    public static final int BACKGROUND_ACTIVE_WIDGET_LIST_FIELD_NUMBER = 5;
+    public static final int BACKGROUND_ACTIVE_WIDGET_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList backgroundActiveWidgetList_;
     /**
-     * <code>repeated uint32 background_active_widget_list = 5;</code>
+     * <code>repeated uint32 background_active_widget_list = 4;</code>
      * @return A list containing the backgroundActiveWidgetList.
      */
     @java.lang.Override
@@ -155,14 +150,14 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
       return backgroundActiveWidgetList_;
     }
     /**
-     * <code>repeated uint32 background_active_widget_list = 5;</code>
+     * <code>repeated uint32 background_active_widget_list = 4;</code>
      * @return The count of backgroundActiveWidgetList.
      */
     public int getBackgroundActiveWidgetListCount() {
       return backgroundActiveWidgetList_.size();
     }
     /**
-     * <code>repeated uint32 background_active_widget_list = 5;</code>
+     * <code>repeated uint32 background_active_widget_list = 4;</code>
      * @param index The index of the element to return.
      * @return The backgroundActiveWidgetList at the given index.
      */
@@ -187,7 +182,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getBackgroundActiveWidgetListList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(backgroundActiveWidgetListMemoizedSerializedSize);
       }
       for (int i = 0; i < backgroundActiveWidgetList_.size(); i++) {
@@ -344,11 +339,6 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 4761
-     * Obf: ODFAPHCPGKP
-     * </pre>
-     *
      * Protobuf type {@code AllWidgetBackgroundActiveStateNotify}
      */
     public static final class Builder extends
@@ -516,7 +506,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 background_active_widget_list = 5;</code>
+       * <code>repeated uint32 background_active_widget_list = 4;</code>
        * @return A list containing the backgroundActiveWidgetList.
        */
       public java.util.List<java.lang.Integer>
@@ -525,14 +515,14 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
                  java.util.Collections.unmodifiableList(backgroundActiveWidgetList_) : backgroundActiveWidgetList_;
       }
       /**
-       * <code>repeated uint32 background_active_widget_list = 5;</code>
+       * <code>repeated uint32 background_active_widget_list = 4;</code>
        * @return The count of backgroundActiveWidgetList.
        */
       public int getBackgroundActiveWidgetListCount() {
         return backgroundActiveWidgetList_.size();
       }
       /**
-       * <code>repeated uint32 background_active_widget_list = 5;</code>
+       * <code>repeated uint32 background_active_widget_list = 4;</code>
        * @param index The index of the element to return.
        * @return The backgroundActiveWidgetList at the given index.
        */
@@ -540,7 +530,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
         return backgroundActiveWidgetList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 background_active_widget_list = 5;</code>
+       * <code>repeated uint32 background_active_widget_list = 4;</code>
        * @param index The index to set the value at.
        * @param value The backgroundActiveWidgetList to set.
        * @return This builder for chaining.
@@ -553,7 +543,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 background_active_widget_list = 5;</code>
+       * <code>repeated uint32 background_active_widget_list = 4;</code>
        * @param value The backgroundActiveWidgetList to add.
        * @return This builder for chaining.
        */
@@ -564,7 +554,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 background_active_widget_list = 5;</code>
+       * <code>repeated uint32 background_active_widget_list = 4;</code>
        * @param values The backgroundActiveWidgetList to add.
        * @return This builder for chaining.
        */
@@ -577,7 +567,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 background_active_widget_list = 5;</code>
+       * <code>repeated uint32 background_active_widget_list = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearBackgroundActiveWidgetList() {
@@ -655,7 +645,7 @@ public final class AllWidgetBackgroundActiveStateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n*AllWidgetBackgroundActiveStateNotify.p" +
       "roto\"M\n$AllWidgetBackgroundActiveStateNo" +
-      "tify\022%\n\035background_active_widget_list\030\005 " +
+      "tify\022%\n\035background_active_widget_list\030\004 " +
       "\003(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -25,6 +25,7 @@ import org.slf4j.*;
 import javax.annotation.Nullable;
 import java.util.*;
 
+import static emu.grasscutter.GameConstants.ENTITY_ID_BIT_SHIFT;
 import static emu.grasscutter.game.props.EnterReason.Lua;
 import static emu.grasscutter.scripts.ScriptUtils.*;
 import static emu.grasscutter.scripts.constants.GroupKillPolicy.*;
@@ -994,7 +995,7 @@ public class ScriptLib {
         if (region == null) {
             return 0;
         }
-        return (int) region.getEntities().stream().filter(e -> e >> 22 == entityType).count();
+        return (int) region.getEntities().stream().filter(e -> e >> ENTITY_ID_BIT_SHIFT == entityType).count();
     }
 
     // TODO: GetRogueCellState
@@ -1285,7 +1286,7 @@ public class ScriptLib {
         if (entity == null || entity.getEntityType().getValue() != entityType) {
             return 1;
         }
-        getSceneScriptManager().getScene().removeEntity(entity, VisionType.VISION_TYPE_REMOVE);
+        getSceneScriptManager().getScene().removeEntity(entity, VisionType.VisionType_VISION_REMOVE);
         return 0;
     }
 
@@ -1794,7 +1795,7 @@ public class ScriptLib {
             p.getPosition().set(targetPos);
 
             // Teleport packet
-            p.sendPacket(new PacketPlayerEnterSceneNotify(p, EnterTypeOuterClass.EnterType.ENTER_TYPE_GOTO, Lua, scene.getId(), targetPos));
+            p.sendPacket(new PacketPlayerEnterSceneNotify(p, EnterTypeOuterClass.EnterType.EnterType_ENTER_GOTO, Lua, scene.getId(), targetPos));
         });
         return 0;
     }

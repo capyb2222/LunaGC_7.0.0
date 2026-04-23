@@ -28,13 +28,13 @@ public final class GetUgcTypeOuterClass {
      */
     GET_UGC_NONE(0),
     /**
-     * <code>GET_UGC_TYPE_MINE = 1;</code>
+     * <code>GET_UgcType_MINE = 1;</code>
      */
-    GET_UGC_TYPE_MINE(1),
+    GET_UgcType_MINE(1),
     /**
-     * <code>GET_UGC_TYPE_PUBLISH = 2;</code>
+     * <code>GET_UgcType_PUBLISH = 2;</code>
      */
-    GET_UGC_TYPE_PUBLISH(2),
+    GET_UgcType_PUBLISH(2),
     UNRECOGNIZED(-1),
     ;
 
@@ -43,13 +43,13 @@ public final class GetUgcTypeOuterClass {
      */
     public static final int GET_UGC_NONE_VALUE = 0;
     /**
-     * <code>GET_UGC_TYPE_MINE = 1;</code>
+     * <code>GET_UgcType_MINE = 1;</code>
      */
-    public static final int GET_UGC_TYPE_MINE_VALUE = 1;
+    public static final int GET_UgcType_MINE_VALUE = 1;
     /**
-     * <code>GET_UGC_TYPE_PUBLISH = 2;</code>
+     * <code>GET_UgcType_PUBLISH = 2;</code>
      */
-    public static final int GET_UGC_TYPE_PUBLISH_VALUE = 2;
+    public static final int GET_UgcType_PUBLISH_VALUE = 2;
 
 
     public final int getNumber() {
@@ -77,8 +77,8 @@ public final class GetUgcTypeOuterClass {
     public static GetUgcType forNumber(int value) {
       switch (value) {
         case 0: return GET_UGC_NONE;
-        case 1: return GET_UGC_TYPE_MINE;
-        case 2: return GET_UGC_TYPE_PUBLISH;
+        case 1: return GET_UgcType_MINE;
+        case 2: return GET_UgcType_PUBLISH;
         default: return null;
       }
     }
@@ -145,8 +145,8 @@ public final class GetUgcTypeOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020GetUgcType.proto*O\n\nGetUgcType\022\020\n\014GET_" +
-      "UGC_NONE\020\000\022\025\n\021GET_UGC_TYPE_MINE\020\001\022\030\n\024GET" +
-      "_UGC_TYPE_PUBLISH\020\002B\033\n\031emu.grasscutter.n" +
+      "UGC_NONE\020\000\022\025\n\021GET_UgcType_MINE\020\001\022\030\n\024GET" +
+      "_UgcType_PUBLISH\020\002B\033\n\031emu.grasscutter.n" +
       "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

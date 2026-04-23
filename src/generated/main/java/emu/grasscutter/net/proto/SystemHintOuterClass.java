@@ -19,6 +19,10 @@ public final class SystemHintOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 type = 8;</code>
      * @return The type.
      */
@@ -109,6 +113,10 @@ public final class SystemHintOuterClass {
     public static final int TYPE_FIELD_NUMBER = 8;
     private int type_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 type = 8;</code>
      * @return The type.
      */
@@ -421,6 +429,10 @@ public final class SystemHintOuterClass {
 
       private int type_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 type = 8;</code>
        * @return The type.
        */
@@ -429,6 +441,10 @@ public final class SystemHintOuterClass {
         return type_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 type = 8;</code>
        * @param value The type to set.
        * @return This builder for chaining.
@@ -440,6 +456,10 @@ public final class SystemHintOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 type = 8;</code>
        * @return This builder for chaining.
        */

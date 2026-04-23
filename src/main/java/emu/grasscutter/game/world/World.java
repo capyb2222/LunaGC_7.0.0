@@ -2,6 +2,7 @@ package emu.grasscutter.game.world;
 
 import static emu.grasscutter.server.event.player.PlayerTeleportEvent.TeleportType.SCRIPT;
 
+import emu.grasscutter.GameConstants;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.excels.dungeon.DungeonData;
@@ -16,9 +17,9 @@ import emu.grasscutter.game.props.SceneType;
 import emu.grasscutter.game.quest.enums.QuestContent;
 import emu.grasscutter.game.world.data.TeleportProperties;
 import emu.grasscutter.net.packet.BasePacket;
-import emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint;
-import emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHintType;
 import emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType;
+import emu.grasscutter.net.proto.SystemHintOuterClass;
+import emu.grasscutter.net.proto.SystemHintTypeOuterClass;
 import emu.grasscutter.scripts.data.SceneConfig;
 import emu.grasscutter.server.event.player.PlayerTeleportEvent;
 import emu.grasscutter.server.event.player.PlayerTeleportEvent.TeleportType;
@@ -168,7 +169,7 @@ public class World implements Iterable<Player> {
      * @return The next entity ID.
      */
     public synchronized int getNextEntityId(EntityIdType idType) {
-        return (idType.getId() << 22) + ++this.nextEntityId;
+        return (idType.getId() << GameConstants.ENTITY_ID_BIT_SHIFT) + ++this.nextEntityId;
     }
 
     public synchronized void addPlayer(Player player) {
@@ -200,16 +201,6 @@ public class World implements Iterable<Player> {
                             player.getTeamManager().getCurrentSinglePlayerTeamInfo(),
                             player.getTeamManager().getMaxTeamSize());
             player.getTeamManager().setCurrentCharacterIndex(0);
-
-            if (player != this.getHost()) {
-                this.broadcastPacket(
-                        new PacketPlayerChatNotify(
-                                player,
-                                0,
-                                SystemHint.newBuilder()
-                                        .setType(SystemHintType.SYSTEM_HINT_TYPE_CHAT_ENTER_WORLD.getNumber())
-                                        .build()));
-            }
         }
 
         // Add to scene
@@ -257,8 +248,8 @@ public class World implements Iterable<Player> {
                         new PacketPlayerChatNotify(
                                 player,
                                 0,
-                                SystemHint.newBuilder()
-                                        .setType(SystemHintType.SYSTEM_HINT_TYPE_CHAT_ENTER_WORLD.getNumber())
+                                SystemHintOuterClass.SystemHint.newBuilder()
+                                        .setType(SystemHintTypeOuterClass.SystemHintType.SYSTEM_HINT_TYPE_CHAT_ENTER_WORLD.getNumber())
                                         .build()));
             }
         }
@@ -310,7 +301,7 @@ public class World implements Iterable<Player> {
                 victim.sendPacket(
                         new PacketPlayerEnterSceneNotify(
                                 victim,
-                                EnterType.ENTER_TYPE_SELF,
+                                EnterType.EnterType_ENTER_SELF,
                                 EnterReason.TeamKick,
                                 victim.getSceneId(),
                                 victim.getPosition()));
@@ -320,8 +311,8 @@ public class World implements Iterable<Player> {
                     new PacketPlayerChatNotify(
                             player,
                             0,
-                            SystemHint.newBuilder()
-                                    .setType(SystemHintType.SYSTEM_HINT_TYPE_CHAT_LEAVE_WORLD.getNumber())
+                            SystemHintOuterClass.SystemHint.newBuilder()
+                                    .setType(SystemHintTypeOuterClass.SystemHintType.SYSTEM_HINT_TYPE_CHAT_LEAVE_WORLD.getNumber())
                                     .build()));
         }
     }
@@ -404,20 +395,20 @@ public class World implements Iterable<Player> {
                         .teleportType(teleportType)
                         .enterReason(enterReason)
                         .teleportTo(teleportTo)
-                        .enterType(EnterType.ENTER_TYPE_JUMP);
+                        .enterType(EnterType.EnterType_ENTER_JUMP);
 
         val sceneData = GameData.getSceneDataMap().get(sceneId);
         if (dungeonData != null) {
             teleportProps
                     .teleportTo(dungeonData.getStartPosition())
                     .teleportRot(dungeonData.getStartRotation());
-            teleportProps.enterType(EnterType.ENTER_TYPE_DUNGEON).enterReason(EnterReason.DungeonEnter);
+            teleportProps.enterType(EnterType.EnterType_ENTER_DUNGEON).enterReason(EnterReason.DungeonEnter);
             teleportProps.dungeonId(dungeonData.getId());
         } else if (player.getSceneId() == sceneId) {
-            teleportProps.enterType(EnterType.ENTER_TYPE_GOTO);
+            teleportProps.enterType(EnterType.EnterType_ENTER_GOTO);
         } else if (sceneData != null && sceneData.getSceneType() == SceneType.SCENE_HOME_WORLD) {
             // Home
-            teleportProps.enterType(EnterType.ENTER_TYPE_SELF_HOME).enterReason(EnterReason.EnterHome);
+            teleportProps.enterType(EnterType.EnterType_ENTER_SELF_HOME).enterReason(EnterReason.EnterHome);
         }
 
         return transferPlayerToScene(player, teleportProps.build());

@@ -19,12 +19,20 @@ public final class FightPropPairOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>float prop_value = 2;</code>
      * @return The propValue.
      */
     float getPropValue();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 prop_type = 1;</code>
      * @return The propType.
      */
@@ -120,6 +128,10 @@ public final class FightPropPairOuterClass {
     public static final int PROP_VALUE_FIELD_NUMBER = 2;
     private float propValue_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>float prop_value = 2;</code>
      * @return The propValue.
      */
@@ -131,6 +143,10 @@ public final class FightPropPairOuterClass {
     public static final int PROP_TYPE_FIELD_NUMBER = 1;
     private int propType_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 prop_type = 1;</code>
      * @return The propType.
      */
@@ -462,6 +478,10 @@ public final class FightPropPairOuterClass {
 
       private float propValue_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>float prop_value = 2;</code>
        * @return The propValue.
        */
@@ -470,6 +490,10 @@ public final class FightPropPairOuterClass {
         return propValue_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>float prop_value = 2;</code>
        * @param value The propValue to set.
        * @return This builder for chaining.
@@ -481,6 +505,10 @@ public final class FightPropPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>float prop_value = 2;</code>
        * @return This builder for chaining.
        */
@@ -493,6 +521,10 @@ public final class FightPropPairOuterClass {
 
       private int propType_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 prop_type = 1;</code>
        * @return The propType.
        */
@@ -501,6 +533,10 @@ public final class FightPropPairOuterClass {
         return propType_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 prop_type = 1;</code>
        * @param value The propType to set.
        * @return This builder for chaining.
@@ -512,6 +548,10 @@ public final class FightPropPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 prop_type = 1;</code>
        * @return This builder for chaining.
        */

@@ -19,50 +19,50 @@ public final class SumoActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+     * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
      */
-    int getSumoStageMapCount();
+    int getKIBLNGDCBJOCount();
     /**
-     * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+     * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
      */
-    boolean containsSumoStageMap(
+    boolean containsKIBLNGDCBJO(
         int key);
     /**
-     * Use {@link #getSumoStageMapMap()} instead.
+     * Use {@link #getKIBLNGDCBJOMap()} instead.
      */
     @java.lang.Deprecated
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData>
-    getSumoStageMap();
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL>
+    getKIBLNGDCBJO();
     /**
-     * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+     * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
      */
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData>
-    getSumoStageMapMap();
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL>
+    getKIBLNGDCBJOMap();
     /**
-     * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+     * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
      */
 
-    emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData getSumoStageMapOrDefault(
+    emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL getKIBLNGDCBJOOrDefault(
         int key,
-        emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData defaultValue);
+        emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL defaultValue);
     /**
-     * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+     * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
      */
 
-    emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData getSumoStageMapOrThrow(
+    emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL getKIBLNGDCBJOOrThrow(
         int key);
 
     /**
-     * <code>uint32 difficulty_id = 14;</code>
-     * @return The difficultyId.
+     * <code>uint32 NHHGINMJLCK = 12;</code>
+     * @return The nHHGINMJLCK.
      */
-    int getDifficultyId();
+    int getNHHGINMJLCK();
 
     /**
-     * <code>uint32 last_stage_id = 8;</code>
-     * @return The lastStageId.
+     * <code>uint32 ABJKKDPKLAI = 6;</code>
+     * @return The aBJKKDPKLAI.
      */
-    int getLastStageId();
+    int getABJKKDPKLAI();
   }
   /**
    * Protobuf type {@code SumoActivityDetailInfo}
@@ -110,27 +110,27 @@ public final class SumoActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 48: {
+
+              aBJKKDPKLAI_ = input.readUInt32();
+              break;
+            }
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                sumoStageMap_ = com.google.protobuf.MapField.newMapField(
-                    SumoStageMapDefaultEntryHolder.defaultEntry);
+                kIBLNGDCBJO_ = com.google.protobuf.MapField.newMapField(
+                    KIBLNGDCBJODefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000001;
               }
-              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData>
-              sumoStageMap__ = input.readMessage(
-                  SumoStageMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              sumoStageMap_.getMutableMap().put(
-                  sumoStageMap__.getKey(), sumoStageMap__.getValue());
+              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL>
+              kIBLNGDCBJO__ = input.readMessage(
+                  KIBLNGDCBJODefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              kIBLNGDCBJO_.getMutableMap().put(
+                  kIBLNGDCBJO__.getKey(), kIBLNGDCBJO__.getValue());
               break;
             }
-            case 64: {
+            case 96: {
 
-              lastStageId_ = input.readUInt32();
-              break;
-            }
-            case 112: {
-
-              difficultyId_ = input.readUInt32();
+              nHHGINMJLCK_ = input.readUInt32();
               break;
             }
             default: {
@@ -162,8 +162,8 @@ public final class SumoActivityDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 5:
-          return internalGetSumoStageMap();
+        case 10:
+          return internalGetKIBLNGDCBJO();
         default:
           throw new RuntimeException(
               "Invalid map field number: " + number);
@@ -177,107 +177,107 @@ public final class SumoActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.SumoActivityDetailInfo.class, emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.SumoActivityDetailInfo.Builder.class);
     }
 
-    public static final int SUMO_STAGE_MAP_FIELD_NUMBER = 5;
-    private static final class SumoStageMapDefaultEntryHolder {
+    public static final int KIBLNGDCBJO_FIELD_NUMBER = 10;
+    private static final class KIBLNGDCBJODefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
-          java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> defaultEntry =
+          java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> defaultEntry =
               com.google.protobuf.MapEntry
-              .<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData>newDefaultInstance(
-                  emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.internal_static_SumoActivityDetailInfo_SumoStageMapEntry_descriptor, 
+              .<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL>newDefaultInstance(
+                  emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.internal_static_SumoActivityDetailInfo_KIBLNGDCBJOEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData.getDefaultInstance());
+                  emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL.getDefaultInstance());
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> sumoStageMap_;
-    private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData>
-    internalGetSumoStageMap() {
-      if (sumoStageMap_ == null) {
+        java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> kIBLNGDCBJO_;
+    private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL>
+    internalGetKIBLNGDCBJO() {
+      if (kIBLNGDCBJO_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            SumoStageMapDefaultEntryHolder.defaultEntry);
+            KIBLNGDCBJODefaultEntryHolder.defaultEntry);
       }
-      return sumoStageMap_;
+      return kIBLNGDCBJO_;
     }
 
-    public int getSumoStageMapCount() {
-      return internalGetSumoStageMap().getMap().size();
+    public int getKIBLNGDCBJOCount() {
+      return internalGetKIBLNGDCBJO().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+     * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
      */
 
     @java.lang.Override
-    public boolean containsSumoStageMap(
+    public boolean containsKIBLNGDCBJO(
         int key) {
       
-      return internalGetSumoStageMap().getMap().containsKey(key);
+      return internalGetKIBLNGDCBJO().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getSumoStageMapMap()} instead.
+     * Use {@link #getKIBLNGDCBJOMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> getSumoStageMap() {
-      return getSumoStageMapMap();
+    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> getKIBLNGDCBJO() {
+      return getKIBLNGDCBJOMap();
     }
     /**
-     * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+     * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> getSumoStageMapMap() {
-      return internalGetSumoStageMap().getMap();
+    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> getKIBLNGDCBJOMap() {
+      return internalGetKIBLNGDCBJO().getMap();
     }
     /**
-     * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+     * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
      */
     @java.lang.Override
 
-    public emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData getSumoStageMapOrDefault(
+    public emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL getKIBLNGDCBJOOrDefault(
         int key,
-        emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData defaultValue) {
+        emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL defaultValue) {
       
-      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> map =
-          internalGetSumoStageMap().getMap();
+      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> map =
+          internalGetKIBLNGDCBJO().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+     * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
      */
     @java.lang.Override
 
-    public emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData getSumoStageMapOrThrow(
+    public emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL getKIBLNGDCBJOOrThrow(
         int key) {
       
-      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> map =
-          internalGetSumoStageMap().getMap();
+      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> map =
+          internalGetKIBLNGDCBJO().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 14;
-    private int difficultyId_;
+    public static final int NHHGINMJLCK_FIELD_NUMBER = 12;
+    private int nHHGINMJLCK_;
     /**
-     * <code>uint32 difficulty_id = 14;</code>
-     * @return The difficultyId.
+     * <code>uint32 NHHGINMJLCK = 12;</code>
+     * @return The nHHGINMJLCK.
      */
     @java.lang.Override
-    public int getDifficultyId() {
-      return difficultyId_;
+    public int getNHHGINMJLCK() {
+      return nHHGINMJLCK_;
     }
 
-    public static final int LAST_STAGE_ID_FIELD_NUMBER = 8;
-    private int lastStageId_;
+    public static final int ABJKKDPKLAI_FIELD_NUMBER = 6;
+    private int aBJKKDPKLAI_;
     /**
-     * <code>uint32 last_stage_id = 8;</code>
-     * @return The lastStageId.
+     * <code>uint32 ABJKKDPKLAI = 6;</code>
+     * @return The aBJKKDPKLAI.
      */
     @java.lang.Override
-    public int getLastStageId() {
-      return lastStageId_;
+    public int getABJKKDPKLAI() {
+      return aBJKKDPKLAI_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -294,17 +294,17 @@ public final class SumoActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (aBJKKDPKLAI_ != 0) {
+        output.writeUInt32(6, aBJKKDPKLAI_);
+      }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetSumoStageMap(),
-          SumoStageMapDefaultEntryHolder.defaultEntry,
-          5);
-      if (lastStageId_ != 0) {
-        output.writeUInt32(8, lastStageId_);
-      }
-      if (difficultyId_ != 0) {
-        output.writeUInt32(14, difficultyId_);
+          internalGetKIBLNGDCBJO(),
+          KIBLNGDCBJODefaultEntryHolder.defaultEntry,
+          10);
+      if (nHHGINMJLCK_ != 0) {
+        output.writeUInt32(12, nHHGINMJLCK_);
       }
       unknownFields.writeTo(output);
     }
@@ -315,23 +315,23 @@ public final class SumoActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> entry
-           : internalGetSumoStageMap().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData>
-        sumoStageMap__ = SumoStageMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+      if (aBJKKDPKLAI_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, aBJKKDPKLAI_);
+      }
+      for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> entry
+           : internalGetKIBLNGDCBJO().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL>
+        kIBLNGDCBJO__ = KIBLNGDCBJODefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(5, sumoStageMap__);
+            .computeMessageSize(10, kIBLNGDCBJO__);
       }
-      if (lastStageId_ != 0) {
+      if (nHHGINMJLCK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, lastStageId_);
-      }
-      if (difficultyId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, difficultyId_);
+          .computeUInt32Size(12, nHHGINMJLCK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -348,12 +348,12 @@ public final class SumoActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.SumoActivityDetailInfo other = (emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.SumoActivityDetailInfo) obj;
 
-      if (!internalGetSumoStageMap().equals(
-          other.internalGetSumoStageMap())) return false;
-      if (getDifficultyId()
-          != other.getDifficultyId()) return false;
-      if (getLastStageId()
-          != other.getLastStageId()) return false;
+      if (!internalGetKIBLNGDCBJO().equals(
+          other.internalGetKIBLNGDCBJO())) return false;
+      if (getNHHGINMJLCK()
+          != other.getNHHGINMJLCK()) return false;
+      if (getABJKKDPKLAI()
+          != other.getABJKKDPKLAI()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -365,14 +365,14 @@ public final class SumoActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (!internalGetSumoStageMap().getMap().isEmpty()) {
-        hash = (37 * hash) + SUMO_STAGE_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetSumoStageMap().hashCode();
+      if (!internalGetKIBLNGDCBJO().getMap().isEmpty()) {
+        hash = (37 * hash) + KIBLNGDCBJO_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetKIBLNGDCBJO().hashCode();
       }
-      hash = (37 * hash) + DIFFICULTY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getDifficultyId();
-      hash = (37 * hash) + LAST_STAGE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getLastStageId();
+      hash = (37 * hash) + NHHGINMJLCK_FIELD_NUMBER;
+      hash = (53 * hash) + getNHHGINMJLCK();
+      hash = (37 * hash) + ABJKKDPKLAI_FIELD_NUMBER;
+      hash = (53 * hash) + getABJKKDPKLAI();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -484,8 +484,8 @@ public final class SumoActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 5:
-            return internalGetSumoStageMap();
+          case 10:
+            return internalGetKIBLNGDCBJO();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -495,8 +495,8 @@ public final class SumoActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 5:
-            return internalGetMutableSumoStageMap();
+          case 10:
+            return internalGetMutableKIBLNGDCBJO();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -528,10 +528,10 @@ public final class SumoActivityDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        internalGetMutableSumoStageMap().clear();
-        difficultyId_ = 0;
+        internalGetMutableKIBLNGDCBJO().clear();
+        nHHGINMJLCK_ = 0;
 
-        lastStageId_ = 0;
+        aBJKKDPKLAI_ = 0;
 
         return this;
       }
@@ -560,10 +560,10 @@ public final class SumoActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.SumoActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.SumoActivityDetailInfo result = new emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.SumoActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        result.sumoStageMap_ = internalGetSumoStageMap();
-        result.sumoStageMap_.makeImmutable();
-        result.difficultyId_ = difficultyId_;
-        result.lastStageId_ = lastStageId_;
+        result.kIBLNGDCBJO_ = internalGetKIBLNGDCBJO();
+        result.kIBLNGDCBJO_.makeImmutable();
+        result.nHHGINMJLCK_ = nHHGINMJLCK_;
+        result.aBJKKDPKLAI_ = aBJKKDPKLAI_;
         onBuilt();
         return result;
       }
@@ -612,13 +612,13 @@ public final class SumoActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.SumoActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.SumoActivityDetailInfoOuterClass.SumoActivityDetailInfo.getDefaultInstance()) return this;
-        internalGetMutableSumoStageMap().mergeFrom(
-            other.internalGetSumoStageMap());
-        if (other.getDifficultyId() != 0) {
-          setDifficultyId(other.getDifficultyId());
+        internalGetMutableKIBLNGDCBJO().mergeFrom(
+            other.internalGetKIBLNGDCBJO());
+        if (other.getNHHGINMJLCK() != 0) {
+          setNHHGINMJLCK(other.getNHHGINMJLCK());
         }
-        if (other.getLastStageId() != 0) {
-          setLastStageId(other.getLastStageId());
+        if (other.getABJKKDPKLAI() != 0) {
+          setABJKKDPKLAI(other.getABJKKDPKLAI());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -651,99 +651,99 @@ public final class SumoActivityDetailInfoOuterClass {
       private int bitField0_;
 
       private com.google.protobuf.MapField<
-          java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> sumoStageMap_;
-      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData>
-      internalGetSumoStageMap() {
-        if (sumoStageMap_ == null) {
+          java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> kIBLNGDCBJO_;
+      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL>
+      internalGetKIBLNGDCBJO() {
+        if (kIBLNGDCBJO_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
-              SumoStageMapDefaultEntryHolder.defaultEntry);
+              KIBLNGDCBJODefaultEntryHolder.defaultEntry);
         }
-        return sumoStageMap_;
+        return kIBLNGDCBJO_;
       }
-      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData>
-      internalGetMutableSumoStageMap() {
+      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL>
+      internalGetMutableKIBLNGDCBJO() {
         onChanged();;
-        if (sumoStageMap_ == null) {
-          sumoStageMap_ = com.google.protobuf.MapField.newMapField(
-              SumoStageMapDefaultEntryHolder.defaultEntry);
+        if (kIBLNGDCBJO_ == null) {
+          kIBLNGDCBJO_ = com.google.protobuf.MapField.newMapField(
+              KIBLNGDCBJODefaultEntryHolder.defaultEntry);
         }
-        if (!sumoStageMap_.isMutable()) {
-          sumoStageMap_ = sumoStageMap_.copy();
+        if (!kIBLNGDCBJO_.isMutable()) {
+          kIBLNGDCBJO_ = kIBLNGDCBJO_.copy();
         }
-        return sumoStageMap_;
+        return kIBLNGDCBJO_;
       }
 
-      public int getSumoStageMapCount() {
-        return internalGetSumoStageMap().getMap().size();
+      public int getKIBLNGDCBJOCount() {
+        return internalGetKIBLNGDCBJO().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+       * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
        */
 
       @java.lang.Override
-      public boolean containsSumoStageMap(
+      public boolean containsKIBLNGDCBJO(
           int key) {
         
-        return internalGetSumoStageMap().getMap().containsKey(key);
+        return internalGetKIBLNGDCBJO().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getSumoStageMapMap()} instead.
+       * Use {@link #getKIBLNGDCBJOMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> getSumoStageMap() {
-        return getSumoStageMapMap();
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> getKIBLNGDCBJO() {
+        return getKIBLNGDCBJOMap();
       }
       /**
-       * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+       * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> getSumoStageMapMap() {
-        return internalGetSumoStageMap().getMap();
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> getKIBLNGDCBJOMap() {
+        return internalGetKIBLNGDCBJO().getMap();
       }
       /**
-       * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+       * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
        */
       @java.lang.Override
 
-      public emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData getSumoStageMapOrDefault(
+      public emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL getKIBLNGDCBJOOrDefault(
           int key,
-          emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData defaultValue) {
+          emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL defaultValue) {
         
-        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> map =
-            internalGetSumoStageMap().getMap();
+        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> map =
+            internalGetKIBLNGDCBJO().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+       * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
        */
       @java.lang.Override
 
-      public emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData getSumoStageMapOrThrow(
+      public emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL getKIBLNGDCBJOOrThrow(
           int key) {
         
-        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> map =
-            internalGetSumoStageMap().getMap();
+        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> map =
+            internalGetKIBLNGDCBJO().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearSumoStageMap() {
-        internalGetMutableSumoStageMap().getMutableMap()
+      public Builder clearKIBLNGDCBJO() {
+        internalGetMutableKIBLNGDCBJO().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+       * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
        */
 
-      public Builder removeSumoStageMap(
+      public Builder removeKIBLNGDCBJO(
           int key) {
         
-        internalGetMutableSumoStageMap().getMutableMap()
+        internalGetMutableKIBLNGDCBJO().getMutableMap()
             .remove(key);
         return this;
       }
@@ -751,91 +751,91 @@ public final class SumoActivityDetailInfoOuterClass {
        * Use alternate mutation accessors instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData>
-      getMutableSumoStageMap() {
-        return internalGetMutableSumoStageMap().getMutableMap();
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL>
+      getMutableKIBLNGDCBJO() {
+        return internalGetMutableKIBLNGDCBJO().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+       * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
        */
-      public Builder putSumoStageMap(
+      public Builder putKIBLNGDCBJO(
           int key,
-          emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData value) {
+          emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL value) {
         
         if (value == null) { throw new java.lang.NullPointerException(); }
-        internalGetMutableSumoStageMap().getMutableMap()
+        internalGetMutableKIBLNGDCBJO().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, .SumoStageData&gt; sumo_stage_map = 5;</code>
+       * <code>map&lt;uint32, .EBGOHJAAHLL&gt; KIBLNGDCBJO = 10;</code>
        */
 
-      public Builder putAllSumoStageMap(
-          java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.SumoStageDataOuterClass.SumoStageData> values) {
-        internalGetMutableSumoStageMap().getMutableMap()
+      public Builder putAllKIBLNGDCBJO(
+          java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.EBGOHJAAHLL> values) {
+        internalGetMutableKIBLNGDCBJO().getMutableMap()
             .putAll(values);
         return this;
       }
 
-      private int difficultyId_ ;
+      private int nHHGINMJLCK_ ;
       /**
-       * <code>uint32 difficulty_id = 14;</code>
-       * @return The difficultyId.
+       * <code>uint32 NHHGINMJLCK = 12;</code>
+       * @return The nHHGINMJLCK.
        */
       @java.lang.Override
-      public int getDifficultyId() {
-        return difficultyId_;
+      public int getNHHGINMJLCK() {
+        return nHHGINMJLCK_;
       }
       /**
-       * <code>uint32 difficulty_id = 14;</code>
-       * @param value The difficultyId to set.
+       * <code>uint32 NHHGINMJLCK = 12;</code>
+       * @param value The nHHGINMJLCK to set.
        * @return This builder for chaining.
        */
-      public Builder setDifficultyId(int value) {
+      public Builder setNHHGINMJLCK(int value) {
         
-        difficultyId_ = value;
+        nHHGINMJLCK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 14;</code>
+       * <code>uint32 NHHGINMJLCK = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDifficultyId() {
+      public Builder clearNHHGINMJLCK() {
         
-        difficultyId_ = 0;
+        nHHGINMJLCK_ = 0;
         onChanged();
         return this;
       }
 
-      private int lastStageId_ ;
+      private int aBJKKDPKLAI_ ;
       /**
-       * <code>uint32 last_stage_id = 8;</code>
-       * @return The lastStageId.
+       * <code>uint32 ABJKKDPKLAI = 6;</code>
+       * @return The aBJKKDPKLAI.
        */
       @java.lang.Override
-      public int getLastStageId() {
-        return lastStageId_;
+      public int getABJKKDPKLAI() {
+        return aBJKKDPKLAI_;
       }
       /**
-       * <code>uint32 last_stage_id = 8;</code>
-       * @param value The lastStageId to set.
+       * <code>uint32 ABJKKDPKLAI = 6;</code>
+       * @param value The aBJKKDPKLAI to set.
        * @return This builder for chaining.
        */
-      public Builder setLastStageId(int value) {
+      public Builder setABJKKDPKLAI(int value) {
         
-        lastStageId_ = value;
+        aBJKKDPKLAI_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 last_stage_id = 8;</code>
+       * <code>uint32 ABJKKDPKLAI = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLastStageId() {
+      public Builder clearABJKKDPKLAI() {
         
-        lastStageId_ = 0;
+        aBJKKDPKLAI_ = 0;
         onChanged();
         return this;
       }
@@ -898,10 +898,10 @@ public final class SumoActivityDetailInfoOuterClass {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SumoActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_SumoActivityDetailInfo_SumoStageMapEntry_descriptor;
+    internal_static_SumoActivityDetailInfo_KIBLNGDCBJOEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_SumoActivityDetailInfo_SumoStageMapEntry_fieldAccessorTable;
+      internal_static_SumoActivityDetailInfo_KIBLNGDCBJOEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -911,33 +911,33 @@ public final class SumoActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034SumoActivityDetailInfo.proto\032\023SumoStag" +
-      "eData.proto\"\316\001\n\026SumoActivityDetailInfo\022A" +
-      "\n\016sumo_stage_map\030\005 \003(\0132).SumoActivityDet" +
-      "ailInfo.SumoStageMapEntry\022\025\n\rdifficulty_" +
-      "id\030\016 \001(\r\022\025\n\rlast_stage_id\030\010 \001(\r\032C\n\021SumoS" +
-      "tageMapEntry\022\013\n\003key\030\001 \001(\r\022\035\n\005value\030\002 \001(\013" +
-      "2\016.SumoStageData:\0028\001B\033\n\031emu.grasscutter." +
-      "net.protob\006proto3"
+      "\n\034SumoActivityDetailInfo.proto\032\021EBGOHJAA" +
+      "HLL.proto\"\303\001\n\026SumoActivityDetailInfo\022=\n\013" +
+      "KIBLNGDCBJO\030\n \003(\0132(.SumoActivityDetailIn" +
+      "fo.KIBLNGDCBJOEntry\022\023\n\013NHHGINMJLCK\030\014 \001(\r" +
+      "\022\023\n\013ABJKKDPKLAI\030\006 \001(\r\032@\n\020KIBLNGDCBJOEntr" +
+      "y\022\013\n\003key\030\001 \001(\r\022\033\n\005value\030\002 \001(\0132\014.EBGOHJAA" +
+      "HLL:\0028\001B\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.SumoStageDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.getDescriptor(),
         });
     internal_static_SumoActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_SumoActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SumoActivityDetailInfo_descriptor,
-        new java.lang.String[] { "SumoStageMap", "DifficultyId", "LastStageId", });
-    internal_static_SumoActivityDetailInfo_SumoStageMapEntry_descriptor =
+        new java.lang.String[] { "KIBLNGDCBJO", "NHHGINMJLCK", "ABJKKDPKLAI", });
+    internal_static_SumoActivityDetailInfo_KIBLNGDCBJOEntry_descriptor =
       internal_static_SumoActivityDetailInfo_descriptor.getNestedTypes().get(0);
-    internal_static_SumoActivityDetailInfo_SumoStageMapEntry_fieldAccessorTable = new
+    internal_static_SumoActivityDetailInfo_KIBLNGDCBJOEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_SumoActivityDetailInfo_SumoStageMapEntry_descriptor,
+        internal_static_SumoActivityDetailInfo_KIBLNGDCBJOEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    emu.grasscutter.net.proto.SumoStageDataOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.EBGOHJAAHLLOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

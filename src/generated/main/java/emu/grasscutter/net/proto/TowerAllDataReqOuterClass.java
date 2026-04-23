@@ -19,6 +19,10 @@ public final class TowerAllDataReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0     
+     * </pre>
+     *
      * <code>bool is_interact = 15;</code>
      * @return The isInteract.
      */
@@ -26,7 +30,7 @@ public final class TowerAllDataReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 5245
+   * CmdId: 24262
    * </pre>
    *
    * Protobuf type {@code TowerAllDataReq}
@@ -113,6 +117,10 @@ public final class TowerAllDataReqOuterClass {
     public static final int IS_INTERACT_FIELD_NUMBER = 15;
     private boolean isInteract_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0     
+     * </pre>
+     *
      * <code>bool is_interact = 15;</code>
      * @return The isInteract.
      */
@@ -279,7 +287,7 @@ public final class TowerAllDataReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 5245
+     * CmdId: 24262
      * </pre>
      *
      * Protobuf type {@code TowerAllDataReq}
@@ -430,6 +438,10 @@ public final class TowerAllDataReqOuterClass {
 
       private boolean isInteract_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0     
+       * </pre>
+       *
        * <code>bool is_interact = 15;</code>
        * @return The isInteract.
        */
@@ -438,6 +450,10 @@ public final class TowerAllDataReqOuterClass {
         return isInteract_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0     
+       * </pre>
+       *
        * <code>bool is_interact = 15;</code>
        * @param value The isInteract to set.
        * @return This builder for chaining.
@@ -449,6 +465,10 @@ public final class TowerAllDataReqOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0     
+       * </pre>
+       *
        * <code>bool is_interact = 15;</code>
        * @return This builder for chaining.
        */

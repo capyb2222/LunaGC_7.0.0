@@ -19,6 +19,10 @@ public final class EnterSceneReadyReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0          
+     * </pre>
+     *
      * <code>uint32 enter_scene_token = 15;</code>
      * @return The enterSceneToken.
      */
@@ -26,7 +30,7 @@ public final class EnterSceneReadyReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 25204
+   * CmdId: 6522
    * </pre>
    *
    * Protobuf type {@code EnterSceneReadyReq}
@@ -113,6 +117,10 @@ public final class EnterSceneReadyReqOuterClass {
     public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 15;
     private int enterSceneToken_;
     /**
+     * <pre>
+     *6.4.0          
+     * </pre>
+     *
      * <code>uint32 enter_scene_token = 15;</code>
      * @return The enterSceneToken.
      */
@@ -278,7 +286,7 @@ public final class EnterSceneReadyReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 25204
+     * CmdId: 6522
      * </pre>
      *
      * Protobuf type {@code EnterSceneReadyReq}
@@ -429,6 +437,10 @@ public final class EnterSceneReadyReqOuterClass {
 
       private int enterSceneToken_ ;
       /**
+       * <pre>
+       *6.4.0          
+       * </pre>
+       *
        * <code>uint32 enter_scene_token = 15;</code>
        * @return The enterSceneToken.
        */
@@ -437,6 +449,10 @@ public final class EnterSceneReadyReqOuterClass {
         return enterSceneToken_;
       }
       /**
+       * <pre>
+       *6.4.0          
+       * </pre>
+       *
        * <code>uint32 enter_scene_token = 15;</code>
        * @param value The enterSceneToken to set.
        * @return This builder for chaining.
@@ -448,6 +464,10 @@ public final class EnterSceneReadyReqOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0          
+       * </pre>
+       *
        * <code>uint32 enter_scene_token = 15;</code>
        * @return This builder for chaining.
        */

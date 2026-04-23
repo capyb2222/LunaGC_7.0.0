@@ -4,13 +4,14 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass;
 import emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify;
+import emu.grasscutter.net.proto.ReasonOuterClass;
 
 public class PacketPlayerApplyEnterMpResultNotify extends BasePacket {
 
     public PacketPlayerApplyEnterMpResultNotify(
             Player target,
             boolean isAgreed,
-            PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason reason) {
+            ReasonOuterClass.Reason reason) {
         super(PacketOpcodes.PlayerApplyEnterMpResultNotify);
 
         PlayerApplyEnterMpResultNotify proto =
@@ -28,7 +29,7 @@ public class PacketPlayerApplyEnterMpResultNotify extends BasePacket {
             int targetId,
             String targetName,
             boolean isAgreed,
-            PlayerApplyEnterMpResultNotify.Reason reason) {
+            ReasonOuterClass.Reason reason) {
         super(PacketOpcodes.PlayerApplyEnterMpResultNotify);
 
         PlayerApplyEnterMpResultNotify proto =

@@ -19,48 +19,52 @@ public final class DigActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 stage_id_list = 13;</code>
-     * @return A list containing the stageIdList.
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
      */
-    java.util.List<java.lang.Integer> getStageIdListList();
+    java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ> 
+        getKCCLFGDINGJList();
     /**
-     * <code>repeated uint32 stage_id_list = 13;</code>
-     * @return The count of stageIdList.
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
      */
-    int getStageIdListCount();
+    emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ getKCCLFGDINGJ(int index);
     /**
-     * <code>repeated uint32 stage_id_list = 13;</code>
-     * @param index The index of the element to return.
-     * @return The stageIdList at the given index.
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
      */
-    int getStageIdList(int index);
-
+    int getKCCLFGDINGJCount();
     /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint> 
-        getDigMarkPointListList();
+    java.util.List<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder> 
+        getKCCLFGDINGJOrBuilderList();
     /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
      */
-    emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint getDigMarkPointList(int index);
-    /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-     */
-    int getDigMarkPointListCount();
-    /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPointOrBuilder> 
-        getDigMarkPointListOrBuilderList();
-    /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-     */
-    emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPointOrBuilder getDigMarkPointListOrBuilder(
+    emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder getKCCLFGDINGJOrBuilder(
         int index);
 
     /**
-     * <code>uint32 stage_id = 15;</code>
+     * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+     * @return A list containing the pJFEPCNECFN.
+     */
+    java.util.List<java.lang.Integer> getPJFEPCNECFNList();
+    /**
+     * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+     * @return The count of pJFEPCNECFN.
+     */
+    int getPJFEPCNECFNCount();
+    /**
+     * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+     * @param index The index of the element to return.
+     * @return The pJFEPCNECFN at the given index.
+     */
+    int getPJFEPCNECFN(int index);
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 stage_id = 7;</code>
      * @return The stageId.
      */
     int getStageId();
@@ -78,8 +82,8 @@ public final class DigActivityDetailInfoOuterClass {
       super(builder);
     }
     private DigActivityDetailInfo() {
-      stageIdList_ = emptyIntList();
-      digMarkPointList_ = java.util.Collections.emptyList();
+      kCCLFGDINGJ_ = java.util.Collections.emptyList();
+      pJFEPCNECFN_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -113,39 +117,39 @@ public final class DigActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                digMarkPointList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint>();
+                pJFEPCNECFN_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
-              digMarkPointList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.parser(), extensionRegistry));
+              pJFEPCNECFN_.addInt(input.readUInt32());
               break;
             }
-            case 104: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                stageIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              stageIdList_.addInt(input.readUInt32());
-              break;
-            }
-            case 106: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                stageIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                pJFEPCNECFN_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                stageIdList_.addInt(input.readUInt32());
+                pJFEPCNECFN_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 120: {
+            case 56: {
 
               stageId_ = input.readUInt32();
+              break;
+            }
+            case 106: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                kCCLFGDINGJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              kCCLFGDINGJ_.add(
+                  input.readMessage(emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -164,10 +168,10 @@ public final class DigActivityDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          digMarkPointList_ = java.util.Collections.unmodifiableList(digMarkPointList_);
+          pJFEPCNECFN_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          stageIdList_.makeImmutable(); // C
+          kCCLFGDINGJ_ = java.util.Collections.unmodifiableList(kCCLFGDINGJ_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -186,78 +190,82 @@ public final class DigActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.DigActivityDetailInfoOuterClass.DigActivityDetailInfo.class, emu.grasscutter.net.proto.DigActivityDetailInfoOuterClass.DigActivityDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_ID_LIST_FIELD_NUMBER = 13;
-    private com.google.protobuf.Internal.IntList stageIdList_;
+    public static final int KCCLFGDINGJ_FIELD_NUMBER = 13;
+    private java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ> kCCLFGDINGJ_;
     /**
-     * <code>repeated uint32 stage_id_list = 13;</code>
-     * @return A list containing the stageIdList.
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ> getKCCLFGDINGJList() {
+      return kCCLFGDINGJ_;
+    }
+    /**
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder> 
+        getKCCLFGDINGJOrBuilderList() {
+      return kCCLFGDINGJ_;
+    }
+    /**
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+     */
+    @java.lang.Override
+    public int getKCCLFGDINGJCount() {
+      return kCCLFGDINGJ_.size();
+    }
+    /**
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ getKCCLFGDINGJ(int index) {
+      return kCCLFGDINGJ_.get(index);
+    }
+    /**
+     * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder getKCCLFGDINGJOrBuilder(
+        int index) {
+      return kCCLFGDINGJ_.get(index);
+    }
+
+    public static final int PJFEPCNECFN_FIELD_NUMBER = 4;
+    private com.google.protobuf.Internal.IntList pJFEPCNECFN_;
+    /**
+     * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+     * @return A list containing the pJFEPCNECFN.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getStageIdListList() {
-      return stageIdList_;
+        getPJFEPCNECFNList() {
+      return pJFEPCNECFN_;
     }
     /**
-     * <code>repeated uint32 stage_id_list = 13;</code>
-     * @return The count of stageIdList.
+     * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+     * @return The count of pJFEPCNECFN.
      */
-    public int getStageIdListCount() {
-      return stageIdList_.size();
+    public int getPJFEPCNECFNCount() {
+      return pJFEPCNECFN_.size();
     }
     /**
-     * <code>repeated uint32 stage_id_list = 13;</code>
+     * <code>repeated uint32 PJFEPCNECFN = 4;</code>
      * @param index The index of the element to return.
-     * @return The stageIdList at the given index.
+     * @return The pJFEPCNECFN at the given index.
      */
-    public int getStageIdList(int index) {
-      return stageIdList_.getInt(index);
+    public int getPJFEPCNECFN(int index) {
+      return pJFEPCNECFN_.getInt(index);
     }
-    private int stageIdListMemoizedSerializedSize = -1;
+    private int pJFEPCNECFNMemoizedSerializedSize = -1;
 
-    public static final int DIG_MARK_POINT_LIST_FIELD_NUMBER = 3;
-    private java.util.List<emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint> digMarkPointList_;
-    /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-     */
-    @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint> getDigMarkPointListList() {
-      return digMarkPointList_;
-    }
-    /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPointOrBuilder> 
-        getDigMarkPointListOrBuilderList() {
-      return digMarkPointList_;
-    }
-    /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-     */
-    @java.lang.Override
-    public int getDigMarkPointListCount() {
-      return digMarkPointList_.size();
-    }
-    /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint getDigMarkPointList(int index) {
-      return digMarkPointList_.get(index);
-    }
-    /**
-     * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPointOrBuilder getDigMarkPointListOrBuilder(
-        int index) {
-      return digMarkPointList_.get(index);
-    }
-
-    public static final int STAGE_ID_FIELD_NUMBER = 15;
+    public static final int STAGE_ID_FIELD_NUMBER = 7;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 15;</code>
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 stage_id = 7;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -280,18 +288,18 @@ public final class DigActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      for (int i = 0; i < digMarkPointList_.size(); i++) {
-        output.writeMessage(3, digMarkPointList_.get(i));
+      if (getPJFEPCNECFNList().size() > 0) {
+        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(pJFEPCNECFNMemoizedSerializedSize);
       }
-      if (getStageIdListList().size() > 0) {
-        output.writeUInt32NoTag(106);
-        output.writeUInt32NoTag(stageIdListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < stageIdList_.size(); i++) {
-        output.writeUInt32NoTag(stageIdList_.getInt(i));
+      for (int i = 0; i < pJFEPCNECFN_.size(); i++) {
+        output.writeUInt32NoTag(pJFEPCNECFN_.getInt(i));
       }
       if (stageId_ != 0) {
-        output.writeUInt32(15, stageId_);
+        output.writeUInt32(7, stageId_);
+      }
+      for (int i = 0; i < kCCLFGDINGJ_.size(); i++) {
+        output.writeMessage(13, kCCLFGDINGJ_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -302,27 +310,27 @@ public final class DigActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < digMarkPointList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, digMarkPointList_.get(i));
-      }
       {
         int dataSize = 0;
-        for (int i = 0; i < stageIdList_.size(); i++) {
+        for (int i = 0; i < pJFEPCNECFN_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(stageIdList_.getInt(i));
+            .computeUInt32SizeNoTag(pJFEPCNECFN_.getInt(i));
         }
         size += dataSize;
-        if (!getStageIdListList().isEmpty()) {
+        if (!getPJFEPCNECFNList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        stageIdListMemoizedSerializedSize = dataSize;
+        pJFEPCNECFNMemoizedSerializedSize = dataSize;
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, stageId_);
+          .computeUInt32Size(7, stageId_);
+      }
+      for (int i = 0; i < kCCLFGDINGJ_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, kCCLFGDINGJ_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -339,10 +347,10 @@ public final class DigActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.DigActivityDetailInfoOuterClass.DigActivityDetailInfo other = (emu.grasscutter.net.proto.DigActivityDetailInfoOuterClass.DigActivityDetailInfo) obj;
 
-      if (!getStageIdListList()
-          .equals(other.getStageIdListList())) return false;
-      if (!getDigMarkPointListList()
-          .equals(other.getDigMarkPointListList())) return false;
+      if (!getKCCLFGDINGJList()
+          .equals(other.getKCCLFGDINGJList())) return false;
+      if (!getPJFEPCNECFNList()
+          .equals(other.getPJFEPCNECFNList())) return false;
       if (getStageId()
           != other.getStageId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -356,13 +364,13 @@ public final class DigActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getStageIdListCount() > 0) {
-        hash = (37 * hash) + STAGE_ID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getStageIdListList().hashCode();
+      if (getKCCLFGDINGJCount() > 0) {
+        hash = (37 * hash) + KCCLFGDINGJ_FIELD_NUMBER;
+        hash = (53 * hash) + getKCCLFGDINGJList().hashCode();
       }
-      if (getDigMarkPointListCount() > 0) {
-        hash = (37 * hash) + DIG_MARK_POINT_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getDigMarkPointListList().hashCode();
+      if (getPJFEPCNECFNCount() > 0) {
+        hash = (37 * hash) + PJFEPCNECFN_FIELD_NUMBER;
+        hash = (53 * hash) + getPJFEPCNECFNList().hashCode();
       }
       hash = (37 * hash) + STAGE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getStageId();
@@ -494,20 +502,20 @@ public final class DigActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getDigMarkPointListFieldBuilder();
+          getKCCLFGDINGJFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        stageIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        if (digMarkPointListBuilder_ == null) {
-          digMarkPointList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+        if (kCCLFGDINGJBuilder_ == null) {
+          kCCLFGDINGJ_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          digMarkPointListBuilder_.clear();
+          kCCLFGDINGJBuilder_.clear();
         }
+        pJFEPCNECFN_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         stageId_ = 0;
 
         return this;
@@ -537,20 +545,20 @@ public final class DigActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.DigActivityDetailInfoOuterClass.DigActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.DigActivityDetailInfoOuterClass.DigActivityDetailInfo result = new emu.grasscutter.net.proto.DigActivityDetailInfoOuterClass.DigActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) != 0)) {
-          stageIdList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.stageIdList_ = stageIdList_;
-        if (digMarkPointListBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
-            digMarkPointList_ = java.util.Collections.unmodifiableList(digMarkPointList_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+        if (kCCLFGDINGJBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) != 0)) {
+            kCCLFGDINGJ_ = java.util.Collections.unmodifiableList(kCCLFGDINGJ_);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.digMarkPointList_ = digMarkPointList_;
+          result.kCCLFGDINGJ_ = kCCLFGDINGJ_;
         } else {
-          result.digMarkPointList_ = digMarkPointListBuilder_.build();
+          result.kCCLFGDINGJ_ = kCCLFGDINGJBuilder_.build();
         }
+        if (((bitField0_ & 0x00000002) != 0)) {
+          pJFEPCNECFN_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.pJFEPCNECFN_ = pJFEPCNECFN_;
         result.stageId_ = stageId_;
         onBuilt();
         return result;
@@ -600,41 +608,41 @@ public final class DigActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.DigActivityDetailInfoOuterClass.DigActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.DigActivityDetailInfoOuterClass.DigActivityDetailInfo.getDefaultInstance()) return this;
-        if (!other.stageIdList_.isEmpty()) {
-          if (stageIdList_.isEmpty()) {
-            stageIdList_ = other.stageIdList_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureStageIdListIsMutable();
-            stageIdList_.addAll(other.stageIdList_);
-          }
-          onChanged();
-        }
-        if (digMarkPointListBuilder_ == null) {
-          if (!other.digMarkPointList_.isEmpty()) {
-            if (digMarkPointList_.isEmpty()) {
-              digMarkPointList_ = other.digMarkPointList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+        if (kCCLFGDINGJBuilder_ == null) {
+          if (!other.kCCLFGDINGJ_.isEmpty()) {
+            if (kCCLFGDINGJ_.isEmpty()) {
+              kCCLFGDINGJ_ = other.kCCLFGDINGJ_;
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureDigMarkPointListIsMutable();
-              digMarkPointList_.addAll(other.digMarkPointList_);
+              ensureKCCLFGDINGJIsMutable();
+              kCCLFGDINGJ_.addAll(other.kCCLFGDINGJ_);
             }
             onChanged();
           }
         } else {
-          if (!other.digMarkPointList_.isEmpty()) {
-            if (digMarkPointListBuilder_.isEmpty()) {
-              digMarkPointListBuilder_.dispose();
-              digMarkPointListBuilder_ = null;
-              digMarkPointList_ = other.digMarkPointList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
-              digMarkPointListBuilder_ = 
+          if (!other.kCCLFGDINGJ_.isEmpty()) {
+            if (kCCLFGDINGJBuilder_.isEmpty()) {
+              kCCLFGDINGJBuilder_.dispose();
+              kCCLFGDINGJBuilder_ = null;
+              kCCLFGDINGJ_ = other.kCCLFGDINGJ_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              kCCLFGDINGJBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getDigMarkPointListFieldBuilder() : null;
+                   getKCCLFGDINGJFieldBuilder() : null;
             } else {
-              digMarkPointListBuilder_.addAllMessages(other.digMarkPointList_);
+              kCCLFGDINGJBuilder_.addAllMessages(other.kCCLFGDINGJ_);
             }
           }
+        }
+        if (!other.pJFEPCNECFN_.isEmpty()) {
+          if (pJFEPCNECFN_.isEmpty()) {
+            pJFEPCNECFN_ = other.pJFEPCNECFN_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensurePJFEPCNECFNIsMutable();
+            pJFEPCNECFN_.addAll(other.pJFEPCNECFN_);
+          }
+          onChanged();
         }
         if (other.getStageId() != 0) {
           setStageId(other.getStageId());
@@ -669,328 +677,332 @@ public final class DigActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList stageIdList_ = emptyIntList();
-      private void ensureStageIdListIsMutable() {
+      private java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ> kCCLFGDINGJ_ =
+        java.util.Collections.emptyList();
+      private void ensureKCCLFGDINGJIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          stageIdList_ = mutableCopy(stageIdList_);
+          kCCLFGDINGJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ>(kCCLFGDINGJ_);
           bitField0_ |= 0x00000001;
          }
       }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder> kCCLFGDINGJBuilder_;
+
       /**
-       * <code>repeated uint32 stage_id_list = 13;</code>
-       * @return A list containing the stageIdList.
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
        */
-      public java.util.List<java.lang.Integer>
-          getStageIdListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(stageIdList_) : stageIdList_;
+      public java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ> getKCCLFGDINGJList() {
+        if (kCCLFGDINGJBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(kCCLFGDINGJ_);
+        } else {
+          return kCCLFGDINGJBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>repeated uint32 stage_id_list = 13;</code>
-       * @return The count of stageIdList.
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
        */
-      public int getStageIdListCount() {
-        return stageIdList_.size();
+      public int getKCCLFGDINGJCount() {
+        if (kCCLFGDINGJBuilder_ == null) {
+          return kCCLFGDINGJ_.size();
+        } else {
+          return kCCLFGDINGJBuilder_.getCount();
+        }
       }
       /**
-       * <code>repeated uint32 stage_id_list = 13;</code>
-       * @param index The index of the element to return.
-       * @return The stageIdList at the given index.
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
        */
-      public int getStageIdList(int index) {
-        return stageIdList_.getInt(index);
+      public emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ getKCCLFGDINGJ(int index) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          return kCCLFGDINGJ_.get(index);
+        } else {
+          return kCCLFGDINGJBuilder_.getMessage(index);
+        }
       }
       /**
-       * <code>repeated uint32 stage_id_list = 13;</code>
-       * @param index The index to set the value at.
-       * @param value The stageIdList to set.
-       * @return This builder for chaining.
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
        */
-      public Builder setStageIdList(
-          int index, int value) {
-        ensureStageIdListIsMutable();
-        stageIdList_.setInt(index, value);
-        onChanged();
+      public Builder setKCCLFGDINGJ(
+          int index, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ value) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureKCCLFGDINGJIsMutable();
+          kCCLFGDINGJ_.set(index, value);
+          onChanged();
+        } else {
+          kCCLFGDINGJBuilder_.setMessage(index, value);
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 stage_id_list = 13;</code>
-       * @param value The stageIdList to add.
-       * @return This builder for chaining.
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
        */
-      public Builder addStageIdList(int value) {
-        ensureStageIdListIsMutable();
-        stageIdList_.addInt(value);
-        onChanged();
+      public Builder setKCCLFGDINGJ(
+          int index, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder builderForValue) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          ensureKCCLFGDINGJIsMutable();
+          kCCLFGDINGJ_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          kCCLFGDINGJBuilder_.setMessage(index, builderForValue.build());
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 stage_id_list = 13;</code>
-       * @param values The stageIdList to add.
-       * @return This builder for chaining.
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
        */
-      public Builder addAllStageIdList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureStageIdListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, stageIdList_);
-        onChanged();
+      public Builder addKCCLFGDINGJ(emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ value) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureKCCLFGDINGJIsMutable();
+          kCCLFGDINGJ_.add(value);
+          onChanged();
+        } else {
+          kCCLFGDINGJBuilder_.addMessage(value);
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 stage_id_list = 13;</code>
-       * @return This builder for chaining.
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
        */
-      public Builder clearStageIdList() {
-        stageIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
+      public Builder addKCCLFGDINGJ(
+          int index, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ value) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureKCCLFGDINGJIsMutable();
+          kCCLFGDINGJ_.add(index, value);
+          onChanged();
+        } else {
+          kCCLFGDINGJBuilder_.addMessage(index, value);
+        }
         return this;
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public Builder addKCCLFGDINGJ(
+          emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder builderForValue) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          ensureKCCLFGDINGJIsMutable();
+          kCCLFGDINGJ_.add(builderForValue.build());
+          onChanged();
+        } else {
+          kCCLFGDINGJBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public Builder addKCCLFGDINGJ(
+          int index, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder builderForValue) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          ensureKCCLFGDINGJIsMutable();
+          kCCLFGDINGJ_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          kCCLFGDINGJBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public Builder addAllKCCLFGDINGJ(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ> values) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          ensureKCCLFGDINGJIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, kCCLFGDINGJ_);
+          onChanged();
+        } else {
+          kCCLFGDINGJBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public Builder clearKCCLFGDINGJ() {
+        if (kCCLFGDINGJBuilder_ == null) {
+          kCCLFGDINGJ_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          kCCLFGDINGJBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public Builder removeKCCLFGDINGJ(int index) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          ensureKCCLFGDINGJIsMutable();
+          kCCLFGDINGJ_.remove(index);
+          onChanged();
+        } else {
+          kCCLFGDINGJBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder getKCCLFGDINGJBuilder(
+          int index) {
+        return getKCCLFGDINGJFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder getKCCLFGDINGJOrBuilder(
+          int index) {
+        if (kCCLFGDINGJBuilder_ == null) {
+          return kCCLFGDINGJ_.get(index);  } else {
+          return kCCLFGDINGJBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder> 
+           getKCCLFGDINGJOrBuilderList() {
+        if (kCCLFGDINGJBuilder_ != null) {
+          return kCCLFGDINGJBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(kCCLFGDINGJ_);
+        }
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder addKCCLFGDINGJBuilder() {
+        return getKCCLFGDINGJFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder addKCCLFGDINGJBuilder(
+          int index) {
+        return getKCCLFGDINGJFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder> 
+           getKCCLFGDINGJBuilderList() {
+        return getKCCLFGDINGJFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder> 
+          getKCCLFGDINGJFieldBuilder() {
+        if (kCCLFGDINGJBuilder_ == null) {
+          kCCLFGDINGJBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder>(
+                  kCCLFGDINGJ_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          kCCLFGDINGJ_ = null;
+        }
+        return kCCLFGDINGJBuilder_;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint> digMarkPointList_ =
-        java.util.Collections.emptyList();
-      private void ensureDigMarkPointListIsMutable() {
+      private com.google.protobuf.Internal.IntList pJFEPCNECFN_ = emptyIntList();
+      private void ensurePJFEPCNECFNIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          digMarkPointList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint>(digMarkPointList_);
+          pJFEPCNECFN_ = mutableCopy(pJFEPCNECFN_);
           bitField0_ |= 0x00000002;
          }
       }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPointOrBuilder> digMarkPointListBuilder_;
-
       /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
+       * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+       * @return A list containing the pJFEPCNECFN.
        */
-      public java.util.List<emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint> getDigMarkPointListList() {
-        if (digMarkPointListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(digMarkPointList_);
-        } else {
-          return digMarkPointListBuilder_.getMessageList();
-        }
+      public java.util.List<java.lang.Integer>
+          getPJFEPCNECFNList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(pJFEPCNECFN_) : pJFEPCNECFN_;
       }
       /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
+       * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+       * @return The count of pJFEPCNECFN.
        */
-      public int getDigMarkPointListCount() {
-        if (digMarkPointListBuilder_ == null) {
-          return digMarkPointList_.size();
-        } else {
-          return digMarkPointListBuilder_.getCount();
-        }
+      public int getPJFEPCNECFNCount() {
+        return pJFEPCNECFN_.size();
       }
       /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
+       * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+       * @param index The index of the element to return.
+       * @return The pJFEPCNECFN at the given index.
        */
-      public emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint getDigMarkPointList(int index) {
-        if (digMarkPointListBuilder_ == null) {
-          return digMarkPointList_.get(index);
-        } else {
-          return digMarkPointListBuilder_.getMessage(index);
-        }
+      public int getPJFEPCNECFN(int index) {
+        return pJFEPCNECFN_.getInt(index);
       }
       /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
+       * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+       * @param index The index to set the value at.
+       * @param value The pJFEPCNECFN to set.
+       * @return This builder for chaining.
        */
-      public Builder setDigMarkPointList(
-          int index, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint value) {
-        if (digMarkPointListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureDigMarkPointListIsMutable();
-          digMarkPointList_.set(index, value);
-          onChanged();
-        } else {
-          digMarkPointListBuilder_.setMessage(index, value);
-        }
+      public Builder setPJFEPCNECFN(
+          int index, int value) {
+        ensurePJFEPCNECFNIsMutable();
+        pJFEPCNECFN_.setInt(index, value);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
+       * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+       * @param value The pJFEPCNECFN to add.
+       * @return This builder for chaining.
        */
-      public Builder setDigMarkPointList(
-          int index, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder builderForValue) {
-        if (digMarkPointListBuilder_ == null) {
-          ensureDigMarkPointListIsMutable();
-          digMarkPointList_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          digMarkPointListBuilder_.setMessage(index, builderForValue.build());
-        }
+      public Builder addPJFEPCNECFN(int value) {
+        ensurePJFEPCNECFNIsMutable();
+        pJFEPCNECFN_.addInt(value);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
+       * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+       * @param values The pJFEPCNECFN to add.
+       * @return This builder for chaining.
        */
-      public Builder addDigMarkPointList(emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint value) {
-        if (digMarkPointListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureDigMarkPointListIsMutable();
-          digMarkPointList_.add(value);
-          onChanged();
-        } else {
-          digMarkPointListBuilder_.addMessage(value);
-        }
+      public Builder addAllPJFEPCNECFN(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensurePJFEPCNECFNIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, pJFEPCNECFN_);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
+       * <code>repeated uint32 PJFEPCNECFN = 4;</code>
+       * @return This builder for chaining.
        */
-      public Builder addDigMarkPointList(
-          int index, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint value) {
-        if (digMarkPointListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureDigMarkPointListIsMutable();
-          digMarkPointList_.add(index, value);
-          onChanged();
-        } else {
-          digMarkPointListBuilder_.addMessage(index, value);
-        }
+      public Builder clearPJFEPCNECFN() {
+        pJFEPCNECFN_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
         return this;
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public Builder addDigMarkPointList(
-          emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder builderForValue) {
-        if (digMarkPointListBuilder_ == null) {
-          ensureDigMarkPointListIsMutable();
-          digMarkPointList_.add(builderForValue.build());
-          onChanged();
-        } else {
-          digMarkPointListBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public Builder addDigMarkPointList(
-          int index, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder builderForValue) {
-        if (digMarkPointListBuilder_ == null) {
-          ensureDigMarkPointListIsMutable();
-          digMarkPointList_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          digMarkPointListBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public Builder addAllDigMarkPointList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint> values) {
-        if (digMarkPointListBuilder_ == null) {
-          ensureDigMarkPointListIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, digMarkPointList_);
-          onChanged();
-        } else {
-          digMarkPointListBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public Builder clearDigMarkPointList() {
-        if (digMarkPointListBuilder_ == null) {
-          digMarkPointList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
-          onChanged();
-        } else {
-          digMarkPointListBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public Builder removeDigMarkPointList(int index) {
-        if (digMarkPointListBuilder_ == null) {
-          ensureDigMarkPointListIsMutable();
-          digMarkPointList_.remove(index);
-          onChanged();
-        } else {
-          digMarkPointListBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder getDigMarkPointListBuilder(
-          int index) {
-        return getDigMarkPointListFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPointOrBuilder getDigMarkPointListOrBuilder(
-          int index) {
-        if (digMarkPointListBuilder_ == null) {
-          return digMarkPointList_.get(index);  } else {
-          return digMarkPointListBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPointOrBuilder> 
-           getDigMarkPointListOrBuilderList() {
-        if (digMarkPointListBuilder_ != null) {
-          return digMarkPointListBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(digMarkPointList_);
-        }
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder addDigMarkPointListBuilder() {
-        return getDigMarkPointListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder addDigMarkPointListBuilder(
-          int index) {
-        return getDigMarkPointListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .DigMarkPoint dig_mark_point_list = 3;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder> 
-           getDigMarkPointListBuilderList() {
-        return getDigMarkPointListFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPointOrBuilder> 
-          getDigMarkPointListFieldBuilder() {
-        if (digMarkPointListBuilder_ == null) {
-          digMarkPointListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPointOrBuilder>(
-                  digMarkPointList_,
-                  ((bitField0_ & 0x00000002) != 0),
-                  getParentForChildren(),
-                  isClean());
-          digMarkPointList_ = null;
-        }
-        return digMarkPointListBuilder_;
       }
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 15;</code>
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 stage_id = 7;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -998,7 +1010,11 @@ public final class DigActivityDetailInfoOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 15;</code>
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 stage_id = 7;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -1009,7 +1025,11 @@ public final class DigActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 15;</code>
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 stage_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -1085,24 +1105,24 @@ public final class DigActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033DigActivityDetailInfo.proto\032\022DigMarkPo" +
-      "int.proto\"l\n\025DigActivityDetailInfo\022\025\n\rst" +
-      "age_id_list\030\r \003(\r\022*\n\023dig_mark_point_list" +
-      "\030\003 \003(\0132\r.DigMarkPoint\022\020\n\010stage_id\030\017 \001(\rB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\033DigActivityDetailInfo.proto\032\021JICJCGHDC" +
+      "HJ.proto\"a\n\025DigActivityDetailInfo\022!\n\013KCC" +
+      "LFGDINGJ\030\r \003(\0132\014.JICJCGHDCHJ\022\023\n\013PJFEPCNE" +
+      "CFN\030\004 \003(\r\022\020\n\010stage_id\030\007 \001(\rB\033\n\031emu.grass" +
+      "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.DigMarkPointOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.getDescriptor(),
         });
     internal_static_DigActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_DigActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DigActivityDetailInfo_descriptor,
-        new java.lang.String[] { "StageIdList", "DigMarkPointList", "StageId", });
-    emu.grasscutter.net.proto.DigMarkPointOuterClass.getDescriptor();
+        new java.lang.String[] { "KCCLFGDINGJ", "PJFEPCNECFN", "StageId", });
+    emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

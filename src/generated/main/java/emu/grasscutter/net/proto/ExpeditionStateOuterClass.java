@@ -15,53 +15,57 @@ public final class ExpeditionStateOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
+   * <pre>
+   * Obf: OMJCJJGBBNI
+   * </pre>
+   *
    * Protobuf enum {@code ExpeditionState}
    */
   public enum ExpeditionState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>EXPEDITION_STATE_NONE = 0;</code>
+     * <code>EXPEDITION_NONE = 0;</code>
      */
-    EXPEDITION_STATE_NONE(0),
+    EXPEDITION_NONE(0),
     /**
-     * <code>EXPEDITION_STATE_STARTED = 1;</code>
+     * <code>EXPEDITION_STARTED = 1;</code>
      */
-    EXPEDITION_STATE_STARTED(1),
+    EXPEDITION_STARTED(1),
     /**
-     * <code>EXPEDITION_STATE_FINISHED = 2;</code>
+     * <code>EXPEDITION_FINISHED = 2;</code>
      */
-    EXPEDITION_STATE_FINISHED(2),
+    EXPEDITION_FINISHED(2),
     /**
-     * <code>EXPEDITION_STATE_REWARDED = 3;</code>
+     * <code>EXPEDITION_REWARDED = 3;</code>
      */
-    EXPEDITION_STATE_REWARDED(3),
+    EXPEDITION_REWARDED(3),
     /**
-     * <code>EXPEDITION_STATE_LOCKED = 4;</code>
+     * <code>EXPEDITION_LOCKED = 4;</code>
      */
-    EXPEDITION_STATE_LOCKED(4),
+    EXPEDITION_LOCKED(4),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>EXPEDITION_STATE_NONE = 0;</code>
+     * <code>EXPEDITION_NONE = 0;</code>
      */
-    public static final int EXPEDITION_STATE_NONE_VALUE = 0;
+    public static final int EXPEDITION_NONE_VALUE = 0;
     /**
-     * <code>EXPEDITION_STATE_STARTED = 1;</code>
+     * <code>EXPEDITION_STARTED = 1;</code>
      */
-    public static final int EXPEDITION_STATE_STARTED_VALUE = 1;
+    public static final int EXPEDITION_STARTED_VALUE = 1;
     /**
-     * <code>EXPEDITION_STATE_FINISHED = 2;</code>
+     * <code>EXPEDITION_FINISHED = 2;</code>
      */
-    public static final int EXPEDITION_STATE_FINISHED_VALUE = 2;
+    public static final int EXPEDITION_FINISHED_VALUE = 2;
     /**
-     * <code>EXPEDITION_STATE_REWARDED = 3;</code>
+     * <code>EXPEDITION_REWARDED = 3;</code>
      */
-    public static final int EXPEDITION_STATE_REWARDED_VALUE = 3;
+    public static final int EXPEDITION_REWARDED_VALUE = 3;
     /**
-     * <code>EXPEDITION_STATE_LOCKED = 4;</code>
+     * <code>EXPEDITION_LOCKED = 4;</code>
      */
-    public static final int EXPEDITION_STATE_LOCKED_VALUE = 4;
+    public static final int EXPEDITION_LOCKED_VALUE = 4;
 
 
     public final int getNumber() {
@@ -88,11 +92,11 @@ public final class ExpeditionStateOuterClass {
      */
     public static ExpeditionState forNumber(int value) {
       switch (value) {
-        case 0: return EXPEDITION_STATE_NONE;
-        case 1: return EXPEDITION_STATE_STARTED;
-        case 2: return EXPEDITION_STATE_FINISHED;
-        case 3: return EXPEDITION_STATE_REWARDED;
-        case 4: return EXPEDITION_STATE_LOCKED;
+        case 0: return EXPEDITION_NONE;
+        case 1: return EXPEDITION_STARTED;
+        case 2: return EXPEDITION_FINISHED;
+        case 3: return EXPEDITION_REWARDED;
+        case 4: return EXPEDITION_LOCKED;
         default: return null;
       }
     }
@@ -158,12 +162,11 @@ public final class ExpeditionStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025ExpeditionState.proto*\245\001\n\017ExpeditionSt" +
-      "ate\022\031\n\025EXPEDITION_STATE_NONE\020\000\022\034\n\030EXPEDI" +
-      "TION_STATE_STARTED\020\001\022\035\n\031EXPEDITION_STATE" +
-      "_FINISHED\020\002\022\035\n\031EXPEDITION_STATE_REWARDED" +
-      "\020\003\022\033\n\027EXPEDITION_STATE_LOCKED\020\004B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\n\025ExpeditionState.proto*\207\001\n\017ExpeditionSt" +
+      "ate\022\023\n\017EXPEDITION_NONE\020\000\022\026\n\022EXPEDITION_S" +
+      "TARTED\020\001\022\027\n\023EXPEDITION_FINISHED\020\002\022\027\n\023EXP" +
+      "EDITION_REWARDED\020\003\022\025\n\021EXPEDITION_LOCKED\020" +
+      "\004B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

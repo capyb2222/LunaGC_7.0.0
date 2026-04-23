@@ -67,7 +67,7 @@ public final class GadgetGatherObject extends GadgetContent {
         getGadget()
                 .getScene()
                 .broadcastPacket(
-                        new PacketGadgetInteractRsp(getGadget(), InteractType.INTERACT_TYPE_GATHER));
+                        new PacketGadgetInteractRsp(getGadget(), InteractType.InteractType_INTERACT_GATHER));
 
         return true;
     }

@@ -6,6 +6,8 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.world.World;
 import emu.grasscutter.net.packet.BasePacket;
 import emu.grasscutter.net.proto.ChatInfoOuterClass;
+import emu.grasscutter.net.proto.SystemHintOuterClass;
+import emu.grasscutter.net.proto.SystemHintTypeOuterClass;
 import emu.grasscutter.server.game.GameServer;
 import emu.grasscutter.server.packet.send.PacketDelTeamEntityNotify;
 import emu.grasscutter.server.packet.send.PacketPlayerChatNotify;
@@ -110,9 +112,9 @@ public class HomeWorld extends World {
                         new PacketPlayerChatNotify(
                                 player,
                                 0,
-                                ChatInfoOuterClass.ChatInfo.SystemHint.newBuilder()
+                                SystemHintOuterClass.SystemHint.newBuilder()
                                         .setType(
-                                                ChatInfoOuterClass.ChatInfo.SystemHintType.SYSTEM_HINT_TYPE_CHAT_ENTER_WORLD
+                                                SystemHintTypeOuterClass.SystemHintType.SYSTEM_HINT_TYPE_CHAT_ENTER_WORLD
                                                         .getNumber())
                                         .build()));
             }
@@ -161,9 +163,9 @@ public class HomeWorld extends World {
                 new PacketPlayerChatNotify(
                         player,
                         0,
-                        ChatInfoOuterClass.ChatInfo.SystemHint.newBuilder()
+                        SystemHintOuterClass.SystemHint.newBuilder()
                                 .setType(
-                                        ChatInfoOuterClass.ChatInfo.SystemHintType.SYSTEM_HINT_TYPE_CHAT_LEAVE_WORLD
+                                        SystemHintTypeOuterClass.SystemHintType.SYSTEM_HINT_TYPE_CHAT_LEAVE_WORLD
                                                 .getNumber())
                                 .build()));
     }

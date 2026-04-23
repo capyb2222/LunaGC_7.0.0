@@ -19,126 +19,134 @@ public final class FleurFairActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
      */
-    int getDungeonSectionInfoMapCount();
+    java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN> 
+        getAEPAJCHDHEDList();
     /**
-     * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
      */
-    boolean containsDungeonSectionInfoMap(
-        int key);
+    emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN getAEPAJCHDHED(int index);
     /**
-     * Use {@link #getDungeonSectionInfoMapMap()} instead.
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
      */
-    @java.lang.Deprecated
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo>
-    getDungeonSectionInfoMap();
+    int getAEPAJCHDHEDCount();
     /**
-     * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
      */
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo>
-    getDungeonSectionInfoMapMap();
+    java.util.List<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder> 
+        getAEPAJCHDHEDOrBuilderList();
     /**
-     * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
      */
-
-    emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo getDungeonSectionInfoMapOrDefault(
-        int key,
-        emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo defaultValue);
-    /**
-     * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
-     */
-
-    emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo getDungeonSectionInfoMapOrThrow(
-        int key);
-
-    /**
-     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
-     */
-    int getMinigameInfoMapCount();
-    /**
-     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
-     */
-    boolean containsMinigameInfoMap(
-        int key);
-    /**
-     * Use {@link #getMinigameInfoMapMap()} instead.
-     */
-    @java.lang.Deprecated
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
-    getMinigameInfoMap();
-    /**
-     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
-     */
-    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
-    getMinigameInfoMapMap();
-    /**
-     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
-     */
-
-    emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getMinigameInfoMapOrDefault(
-        int key,
-        emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo defaultValue);
-    /**
-     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
-     */
-
-    emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getMinigameInfoMapOrThrow(
-        int key);
-
-    /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo> 
-        getChapterInfoListList();
-    /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-     */
-    emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo getChapterInfoList(int index);
-    /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-     */
-    int getChapterInfoListCount();
-    /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfoOrBuilder> 
-        getChapterInfoListOrBuilderList();
-    /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-     */
-    emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfoOrBuilder getChapterInfoListOrBuilder(
+    emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder getAEPAJCHDHEDOrBuilder(
         int index);
 
     /**
-     * <code>uint32 content_close_time = 9;</code>
+     * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
+     */
+    int getGENNHGADGJBCount();
+    /**
+     * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
+     */
+    boolean containsGENNHGADGJB(
+        int key);
+    /**
+     * Use {@link #getGENNHGADGJBMap()} instead.
+     */
+    @java.lang.Deprecated
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>
+    getGENNHGADGJB();
+    /**
+     * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
+     */
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>
+    getGENNHGADGJBMap();
+    /**
+     * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
+     */
+
+    emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrDefault(
+        int key,
+        emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE defaultValue);
+    /**
+     * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
+     */
+
+    emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrThrow(
+        int key);
+
+    /**
+     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
+     */
+    int getHMJJFAKHOKNCount();
+    /**
+     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
+     */
+    boolean containsHMJJFAKHOKN(
+        int key);
+    /**
+     * Use {@link #getHMJJFAKHOKNMap()} instead.
+     */
+    @java.lang.Deprecated
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
+    getHMJJFAKHOKN();
+    /**
+     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
+     */
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
+    getHMJJFAKHOKNMap();
+    /**
+     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
+     */
+
+    emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrDefault(
+        int key,
+        emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo defaultValue);
+    /**
+     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
+     */
+
+    emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrThrow(
+        int key);
+
+    /**
+     * <code>uint32 AFFHHPFGBKH = 6;</code>
+     * @return The aFFHHPFGBKH.
+     */
+    int getAFFHHPFGBKH();
+
+    /**
+     * <code>uint32 IOIIEKCBJBK = 1;</code>
+     * @return The iOIIEKCBJBK.
+     */
+    int getIOIIEKCBJBK();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 content_close_time = 8;</code>
      * @return The contentCloseTime.
      */
     int getContentCloseTime();
 
     /**
-     * <code>uint32 NBBNFFPKGJN = 12;</code>
-     * @return The nBBNFFPKGJN.
-     */
-    int getNBBNFFPKGJN();
-
-    /**
-     * <code>uint32 OIICCCADLBP = 3;</code>
-     * @return The oIICCCADLBP.
-     */
-    int getOIICCCADLBP();
-
-    /**
-     * <code>bool is_content_closed = 2;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 13;</code>
      * @return The isContentClosed.
      */
     boolean getIsContentClosed();
 
     /**
-     * <code>bool is_dungeon_unlocked = 5;</code>
-     * @return The isDungeonUnlocked.
+     * <code>bool AHABJAJHHNL = 15;</code>
+     * @return The aHABJAJHHNL.
      */
-    boolean getIsDungeonUnlocked();
+    boolean getAHABJAJHHNL();
   }
   /**
    * Protobuf type {@code FleurFairActivityDetailInfo}
@@ -153,7 +161,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       super(builder);
     }
     private FleurFairActivityDetailInfo() {
-      chapterInfoList_ = java.util.Collections.emptyList();
+      aEPAJCHDHED_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -187,64 +195,64 @@ public final class FleurFairActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
 
-              isContentClosed_ = input.readBool();
+              iOIIEKCBJBK_ = input.readUInt32();
               break;
             }
-            case 24: {
-
-              oIICCCADLBP_ = input.readUInt32();
-              break;
-            }
-            case 34: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                minigameInfoMap_ = com.google.protobuf.MapField.newMapField(
-                    MinigameInfoMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000002;
+            case 42: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                aEPAJCHDHED_ = new java.util.ArrayList<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN>();
+                mutable_bitField0_ |= 0x00000001;
               }
-              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
-              minigameInfoMap__ = input.readMessage(
-                  MinigameInfoMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              minigameInfoMap_.getMutableMap().put(
-                  minigameInfoMap__.getKey(), minigameInfoMap__.getValue());
+              aEPAJCHDHED_.add(
+                  input.readMessage(emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.parser(), extensionRegistry));
               break;
             }
-            case 40: {
+            case 48: {
 
-              isDungeonUnlocked_ = input.readBool();
+              aFFHHPFGBKH_ = input.readUInt32();
               break;
             }
-            case 50: {
+            case 58: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                chapterInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo>();
+                hMJJFAKHOKN_ = com.google.protobuf.MapField.newMapField(
+                    HMJJFAKHOKNDefaultEntryHolder.defaultEntry);
                 mutable_bitField0_ |= 0x00000004;
               }
-              chapterInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.parser(), extensionRegistry));
+              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
+              hMJJFAKHOKN__ = input.readMessage(
+                  HMJJFAKHOKNDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              hMJJFAKHOKN_.getMutableMap().put(
+                  hMJJFAKHOKN__.getKey(), hMJJFAKHOKN__.getValue());
               break;
             }
-            case 72: {
+            case 64: {
 
               contentCloseTime_ = input.readUInt32();
               break;
             }
-            case 90: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                dungeonSectionInfoMap_ = com.google.protobuf.MapField.newMapField(
-                    DungeonSectionInfoMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000001;
-              }
-              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo>
-              dungeonSectionInfoMap__ = input.readMessage(
-                  DungeonSectionInfoMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              dungeonSectionInfoMap_.getMutableMap().put(
-                  dungeonSectionInfoMap__.getKey(), dungeonSectionInfoMap__.getValue());
+            case 104: {
+
+              isContentClosed_ = input.readBool();
               break;
             }
-            case 96: {
+            case 114: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                gENNHGADGJB_ = com.google.protobuf.MapField.newMapField(
+                    GENNHGADGJBDefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000002;
+              }
+              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>
+              gENNHGADGJB__ = input.readMessage(
+                  GENNHGADGJBDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              gENNHGADGJB_.getMutableMap().put(
+                  gENNHGADGJB__.getKey(), gENNHGADGJB__.getValue());
+              break;
+            }
+            case 120: {
 
-              nBBNFFPKGJN_ = input.readUInt32();
+              aHABJAJHHNL_ = input.readBool();
               break;
             }
             default: {
@@ -262,8 +270,8 @@ public final class FleurFairActivityDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          chapterInfoList_ = java.util.Collections.unmodifiableList(chapterInfoList_);
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          aEPAJCHDHED_ = java.util.Collections.unmodifiableList(aEPAJCHDHED_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -279,10 +287,10 @@ public final class FleurFairActivityDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 11:
-          return internalGetDungeonSectionInfoMap();
-        case 4:
-          return internalGetMinigameInfoMap();
+        case 14:
+          return internalGetGENNHGADGJB();
+        case 7:
+          return internalGetHMJJFAKHOKN();
         default:
           throw new RuntimeException(
               "Invalid map field number: " + number);
@@ -296,212 +304,238 @@ public final class FleurFairActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.FleurFairActivityDetailInfo.class, emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.FleurFairActivityDetailInfo.Builder.class);
     }
 
-    public static final int DUNGEON_SECTION_INFO_MAP_FIELD_NUMBER = 11;
-    private static final class DungeonSectionInfoMapDefaultEntryHolder {
+    public static final int AEPAJCHDHED_FIELD_NUMBER = 5;
+    private java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN> aEPAJCHDHED_;
+    /**
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN> getAEPAJCHDHEDList() {
+      return aEPAJCHDHED_;
+    }
+    /**
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder> 
+        getAEPAJCHDHEDOrBuilderList() {
+      return aEPAJCHDHED_;
+    }
+    /**
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+     */
+    @java.lang.Override
+    public int getAEPAJCHDHEDCount() {
+      return aEPAJCHDHED_.size();
+    }
+    /**
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN getAEPAJCHDHED(int index) {
+      return aEPAJCHDHED_.get(index);
+    }
+    /**
+     * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder getAEPAJCHDHEDOrBuilder(
+        int index) {
+      return aEPAJCHDHED_.get(index);
+    }
+
+    public static final int GENNHGADGJB_FIELD_NUMBER = 14;
+    private static final class GENNHGADGJBDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
-          java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> defaultEntry =
+          java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> defaultEntry =
               com.google.protobuf.MapEntry
-              .<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo>newDefaultInstance(
-                  emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.internal_static_FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry_descriptor, 
+              .<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>newDefaultInstance(
+                  emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
-                  emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo.getDefaultInstance());
+                  emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE.getDefaultInstance());
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> dungeonSectionInfoMap_;
-    private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo>
-    internalGetDungeonSectionInfoMap() {
-      if (dungeonSectionInfoMap_ == null) {
+        java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> gENNHGADGJB_;
+    private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>
+    internalGetGENNHGADGJB() {
+      if (gENNHGADGJB_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            DungeonSectionInfoMapDefaultEntryHolder.defaultEntry);
+            GENNHGADGJBDefaultEntryHolder.defaultEntry);
       }
-      return dungeonSectionInfoMap_;
+      return gENNHGADGJB_;
     }
 
-    public int getDungeonSectionInfoMapCount() {
-      return internalGetDungeonSectionInfoMap().getMap().size();
+    public int getGENNHGADGJBCount() {
+      return internalGetGENNHGADGJB().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+     * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
      */
 
     @java.lang.Override
-    public boolean containsDungeonSectionInfoMap(
+    public boolean containsGENNHGADGJB(
         int key) {
       
-      return internalGetDungeonSectionInfoMap().getMap().containsKey(key);
+      return internalGetGENNHGADGJB().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getDungeonSectionInfoMapMap()} instead.
+     * Use {@link #getGENNHGADGJBMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> getDungeonSectionInfoMap() {
-      return getDungeonSectionInfoMapMap();
+    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> getGENNHGADGJB() {
+      return getGENNHGADGJBMap();
     }
     /**
-     * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+     * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> getDungeonSectionInfoMapMap() {
-      return internalGetDungeonSectionInfoMap().getMap();
+    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> getGENNHGADGJBMap() {
+      return internalGetGENNHGADGJB().getMap();
     }
     /**
-     * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+     * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
      */
     @java.lang.Override
 
-    public emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo getDungeonSectionInfoMapOrDefault(
+    public emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrDefault(
         int key,
-        emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo defaultValue) {
+        emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE defaultValue) {
       
-      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> map =
-          internalGetDungeonSectionInfoMap().getMap();
+      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> map =
+          internalGetGENNHGADGJB().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+     * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
      */
     @java.lang.Override
 
-    public emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo getDungeonSectionInfoMapOrThrow(
+    public emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrThrow(
         int key) {
       
-      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> map =
-          internalGetDungeonSectionInfoMap().getMap();
+      java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> map =
+          internalGetGENNHGADGJB().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
 
-    public static final int MINIGAME_INFO_MAP_FIELD_NUMBER = 4;
-    private static final class MinigameInfoMapDefaultEntryHolder {
+    public static final int HMJJFAKHOKN_FIELD_NUMBER = 7;
+    private static final class HMJJFAKHOKNDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>newDefaultInstance(
-                  emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.internal_static_FleurFairActivityDetailInfo_MinigameInfoMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
                   emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo.getDefaultInstance());
     }
     private com.google.protobuf.MapField<
-        java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> minigameInfoMap_;
+        java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> hMJJFAKHOKN_;
     private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
-    internalGetMinigameInfoMap() {
-      if (minigameInfoMap_ == null) {
+    internalGetHMJJFAKHOKN() {
+      if (hMJJFAKHOKN_ == null) {
         return com.google.protobuf.MapField.emptyMapField(
-            MinigameInfoMapDefaultEntryHolder.defaultEntry);
+            HMJJFAKHOKNDefaultEntryHolder.defaultEntry);
       }
-      return minigameInfoMap_;
+      return hMJJFAKHOKN_;
     }
 
-    public int getMinigameInfoMapCount() {
-      return internalGetMinigameInfoMap().getMap().size();
+    public int getHMJJFAKHOKNCount() {
+      return internalGetHMJJFAKHOKN().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
      */
 
     @java.lang.Override
-    public boolean containsMinigameInfoMap(
+    public boolean containsHMJJFAKHOKN(
         int key) {
       
-      return internalGetMinigameInfoMap().getMap().containsKey(key);
+      return internalGetHMJJFAKHOKN().getMap().containsKey(key);
     }
     /**
-     * Use {@link #getMinigameInfoMapMap()} instead.
+     * Use {@link #getHMJJFAKHOKNMap()} instead.
      */
     @java.lang.Override
     @java.lang.Deprecated
-    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> getMinigameInfoMap() {
-      return getMinigameInfoMapMap();
+    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> getHMJJFAKHOKN() {
+      return getHMJJFAKHOKNMap();
     }
     /**
-     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
      */
     @java.lang.Override
 
-    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> getMinigameInfoMapMap() {
-      return internalGetMinigameInfoMap().getMap();
+    public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> getHMJJFAKHOKNMap() {
+      return internalGetHMJJFAKHOKN().getMap();
     }
     /**
-     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
      */
     @java.lang.Override
 
-    public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getMinigameInfoMapOrDefault(
+    public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrDefault(
         int key,
         emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo defaultValue) {
       
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> map =
-          internalGetMinigameInfoMap().getMap();
+          internalGetHMJJFAKHOKN().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+     * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
      */
     @java.lang.Override
 
-    public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getMinigameInfoMapOrThrow(
+    public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrThrow(
         int key) {
       
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> map =
-          internalGetMinigameInfoMap().getMap();
+          internalGetHMJJFAKHOKN().getMap();
       if (!map.containsKey(key)) {
         throw new java.lang.IllegalArgumentException();
       }
       return map.get(key);
     }
 
-    public static final int CHAPTER_INFO_LIST_FIELD_NUMBER = 6;
-    private java.util.List<emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo> chapterInfoList_;
+    public static final int AFFHHPFGBKH_FIELD_NUMBER = 6;
+    private int aFFHHPFGBKH_;
     /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
+     * <code>uint32 AFFHHPFGBKH = 6;</code>
+     * @return The aFFHHPFGBKH.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo> getChapterInfoListList() {
-      return chapterInfoList_;
-    }
-    /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfoOrBuilder> 
-        getChapterInfoListOrBuilderList() {
-      return chapterInfoList_;
-    }
-    /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-     */
-    @java.lang.Override
-    public int getChapterInfoListCount() {
-      return chapterInfoList_.size();
-    }
-    /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo getChapterInfoList(int index) {
-      return chapterInfoList_.get(index);
-    }
-    /**
-     * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfoOrBuilder getChapterInfoListOrBuilder(
-        int index) {
-      return chapterInfoList_.get(index);
+    public int getAFFHHPFGBKH() {
+      return aFFHHPFGBKH_;
     }
 
-    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 9;
+    public static final int IOIIEKCBJBK_FIELD_NUMBER = 1;
+    private int iOIIEKCBJBK_;
+    /**
+     * <code>uint32 IOIIEKCBJBK = 1;</code>
+     * @return The iOIIEKCBJBK.
+     */
+    @java.lang.Override
+    public int getIOIIEKCBJBK() {
+      return iOIIEKCBJBK_;
+    }
+
+    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 8;
     private int contentCloseTime_;
     /**
-     * <code>uint32 content_close_time = 9;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 content_close_time = 8;</code>
      * @return The contentCloseTime.
      */
     @java.lang.Override
@@ -509,32 +543,14 @@ public final class FleurFairActivityDetailInfoOuterClass {
       return contentCloseTime_;
     }
 
-    public static final int NBBNFFPKGJN_FIELD_NUMBER = 12;
-    private int nBBNFFPKGJN_;
-    /**
-     * <code>uint32 NBBNFFPKGJN = 12;</code>
-     * @return The nBBNFFPKGJN.
-     */
-    @java.lang.Override
-    public int getNBBNFFPKGJN() {
-      return nBBNFFPKGJN_;
-    }
-
-    public static final int OIICCCADLBP_FIELD_NUMBER = 3;
-    private int oIICCCADLBP_;
-    /**
-     * <code>uint32 OIICCCADLBP = 3;</code>
-     * @return The oIICCCADLBP.
-     */
-    @java.lang.Override
-    public int getOIICCCADLBP() {
-      return oIICCCADLBP_;
-    }
-
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 2;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 13;
     private boolean isContentClosed_;
     /**
-     * <code>bool is_content_closed = 2;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 13;</code>
      * @return The isContentClosed.
      */
     @java.lang.Override
@@ -542,15 +558,15 @@ public final class FleurFairActivityDetailInfoOuterClass {
       return isContentClosed_;
     }
 
-    public static final int IS_DUNGEON_UNLOCKED_FIELD_NUMBER = 5;
-    private boolean isDungeonUnlocked_;
+    public static final int AHABJAJHHNL_FIELD_NUMBER = 15;
+    private boolean aHABJAJHHNL_;
     /**
-     * <code>bool is_dungeon_unlocked = 5;</code>
-     * @return The isDungeonUnlocked.
+     * <code>bool AHABJAJHHNL = 15;</code>
+     * @return The aHABJAJHHNL.
      */
     @java.lang.Override
-    public boolean getIsDungeonUnlocked() {
-      return isDungeonUnlocked_;
+    public boolean getAHABJAJHHNL() {
+      return aHABJAJHHNL_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -567,35 +583,35 @@ public final class FleurFairActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isContentClosed_ != false) {
-        output.writeBool(2, isContentClosed_);
+      if (iOIIEKCBJBK_ != 0) {
+        output.writeUInt32(1, iOIIEKCBJBK_);
       }
-      if (oIICCCADLBP_ != 0) {
-        output.writeUInt32(3, oIICCCADLBP_);
+      for (int i = 0; i < aEPAJCHDHED_.size(); i++) {
+        output.writeMessage(5, aEPAJCHDHED_.get(i));
+      }
+      if (aFFHHPFGBKH_ != 0) {
+        output.writeUInt32(6, aFFHHPFGBKH_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetMinigameInfoMap(),
-          MinigameInfoMapDefaultEntryHolder.defaultEntry,
-          4);
-      if (isDungeonUnlocked_ != false) {
-        output.writeBool(5, isDungeonUnlocked_);
-      }
-      for (int i = 0; i < chapterInfoList_.size(); i++) {
-        output.writeMessage(6, chapterInfoList_.get(i));
-      }
+          internalGetHMJJFAKHOKN(),
+          HMJJFAKHOKNDefaultEntryHolder.defaultEntry,
+          7);
       if (contentCloseTime_ != 0) {
-        output.writeUInt32(9, contentCloseTime_);
+        output.writeUInt32(8, contentCloseTime_);
+      }
+      if (isContentClosed_ != false) {
+        output.writeBool(13, isContentClosed_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
-          internalGetDungeonSectionInfoMap(),
-          DungeonSectionInfoMapDefaultEntryHolder.defaultEntry,
-          11);
-      if (nBBNFFPKGJN_ != 0) {
-        output.writeUInt32(12, nBBNFFPKGJN_);
+          internalGetGENNHGADGJB(),
+          GENNHGADGJBDefaultEntryHolder.defaultEntry,
+          14);
+      if (aHABJAJHHNL_ != false) {
+        output.writeBool(15, aHABJAJHHNL_);
       }
       unknownFields.writeTo(output);
     }
@@ -606,49 +622,49 @@ public final class FleurFairActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isContentClosed_ != false) {
+      if (iOIIEKCBJBK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isContentClosed_);
+          .computeUInt32Size(1, iOIIEKCBJBK_);
       }
-      if (oIICCCADLBP_ != 0) {
+      for (int i = 0; i < aEPAJCHDHED_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, oIICCCADLBP_);
+          .computeMessageSize(5, aEPAJCHDHED_.get(i));
+      }
+      if (aFFHHPFGBKH_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, aFFHHPFGBKH_);
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> entry
-           : internalGetMinigameInfoMap().getMap().entrySet()) {
+           : internalGetHMJJFAKHOKN().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
-        minigameInfoMap__ = MinigameInfoMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+        hMJJFAKHOKN__ = HMJJFAKHOKNDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(4, minigameInfoMap__);
-      }
-      if (isDungeonUnlocked_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isDungeonUnlocked_);
-      }
-      for (int i = 0; i < chapterInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, chapterInfoList_.get(i));
+            .computeMessageSize(7, hMJJFAKHOKN__);
       }
       if (contentCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, contentCloseTime_);
+          .computeUInt32Size(8, contentCloseTime_);
       }
-      for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> entry
-           : internalGetDungeonSectionInfoMap().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo>
-        dungeonSectionInfoMap__ = DungeonSectionInfoMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+      if (isContentClosed_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(13, isContentClosed_);
+      }
+      for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> entry
+           : internalGetGENNHGADGJB().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>
+        gENNHGADGJB__ = GENNHGADGJBDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(11, dungeonSectionInfoMap__);
+            .computeMessageSize(14, gENNHGADGJB__);
       }
-      if (nBBNFFPKGJN_ != 0) {
+      if (aHABJAJHHNL_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, nBBNFFPKGJN_);
+          .computeBoolSize(15, aHABJAJHHNL_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -665,22 +681,22 @@ public final class FleurFairActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.FleurFairActivityDetailInfo other = (emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.FleurFairActivityDetailInfo) obj;
 
-      if (!internalGetDungeonSectionInfoMap().equals(
-          other.internalGetDungeonSectionInfoMap())) return false;
-      if (!internalGetMinigameInfoMap().equals(
-          other.internalGetMinigameInfoMap())) return false;
-      if (!getChapterInfoListList()
-          .equals(other.getChapterInfoListList())) return false;
+      if (!getAEPAJCHDHEDList()
+          .equals(other.getAEPAJCHDHEDList())) return false;
+      if (!internalGetGENNHGADGJB().equals(
+          other.internalGetGENNHGADGJB())) return false;
+      if (!internalGetHMJJFAKHOKN().equals(
+          other.internalGetHMJJFAKHOKN())) return false;
+      if (getAFFHHPFGBKH()
+          != other.getAFFHHPFGBKH()) return false;
+      if (getIOIIEKCBJBK()
+          != other.getIOIIEKCBJBK()) return false;
       if (getContentCloseTime()
           != other.getContentCloseTime()) return false;
-      if (getNBBNFFPKGJN()
-          != other.getNBBNFFPKGJN()) return false;
-      if (getOIICCCADLBP()
-          != other.getOIICCCADLBP()) return false;
       if (getIsContentClosed()
           != other.getIsContentClosed()) return false;
-      if (getIsDungeonUnlocked()
-          != other.getIsDungeonUnlocked()) return false;
+      if (getAHABJAJHHNL()
+          != other.getAHABJAJHHNL()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -692,30 +708,30 @@ public final class FleurFairActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (!internalGetDungeonSectionInfoMap().getMap().isEmpty()) {
-        hash = (37 * hash) + DUNGEON_SECTION_INFO_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetDungeonSectionInfoMap().hashCode();
+      if (getAEPAJCHDHEDCount() > 0) {
+        hash = (37 * hash) + AEPAJCHDHED_FIELD_NUMBER;
+        hash = (53 * hash) + getAEPAJCHDHEDList().hashCode();
       }
-      if (!internalGetMinigameInfoMap().getMap().isEmpty()) {
-        hash = (37 * hash) + MINIGAME_INFO_MAP_FIELD_NUMBER;
-        hash = (53 * hash) + internalGetMinigameInfoMap().hashCode();
+      if (!internalGetGENNHGADGJB().getMap().isEmpty()) {
+        hash = (37 * hash) + GENNHGADGJB_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetGENNHGADGJB().hashCode();
       }
-      if (getChapterInfoListCount() > 0) {
-        hash = (37 * hash) + CHAPTER_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getChapterInfoListList().hashCode();
+      if (!internalGetHMJJFAKHOKN().getMap().isEmpty()) {
+        hash = (37 * hash) + HMJJFAKHOKN_FIELD_NUMBER;
+        hash = (53 * hash) + internalGetHMJJFAKHOKN().hashCode();
       }
+      hash = (37 * hash) + AFFHHPFGBKH_FIELD_NUMBER;
+      hash = (53 * hash) + getAFFHHPFGBKH();
+      hash = (37 * hash) + IOIIEKCBJBK_FIELD_NUMBER;
+      hash = (53 * hash) + getIOIIEKCBJBK();
       hash = (37 * hash) + CONTENT_CLOSE_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getContentCloseTime();
-      hash = (37 * hash) + NBBNFFPKGJN_FIELD_NUMBER;
-      hash = (53 * hash) + getNBBNFFPKGJN();
-      hash = (37 * hash) + OIICCCADLBP_FIELD_NUMBER;
-      hash = (53 * hash) + getOIICCCADLBP();
       hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsContentClosed());
-      hash = (37 * hash) + IS_DUNGEON_UNLOCKED_FIELD_NUMBER;
+      hash = (37 * hash) + AHABJAJHHNL_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsDungeonUnlocked());
+          getAHABJAJHHNL());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -827,10 +843,10 @@ public final class FleurFairActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 11:
-            return internalGetDungeonSectionInfoMap();
-          case 4:
-            return internalGetMinigameInfoMap();
+          case 14:
+            return internalGetGENNHGADGJB();
+          case 7:
+            return internalGetHMJJFAKHOKN();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -840,10 +856,10 @@ public final class FleurFairActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 11:
-            return internalGetMutableDungeonSectionInfoMap();
-          case 4:
-            return internalGetMutableMinigameInfoMap();
+          case 14:
+            return internalGetMutableGENNHGADGJB();
+          case 7:
+            return internalGetMutableHMJJFAKHOKN();
           default:
             throw new RuntimeException(
                 "Invalid map field number: " + number);
@@ -870,29 +886,29 @@ public final class FleurFairActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getChapterInfoListFieldBuilder();
+          getAEPAJCHDHEDFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        internalGetMutableDungeonSectionInfoMap().clear();
-        internalGetMutableMinigameInfoMap().clear();
-        if (chapterInfoListBuilder_ == null) {
-          chapterInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+        if (aEPAJCHDHEDBuilder_ == null) {
+          aEPAJCHDHED_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          chapterInfoListBuilder_.clear();
+          aEPAJCHDHEDBuilder_.clear();
         }
+        internalGetMutableGENNHGADGJB().clear();
+        internalGetMutableHMJJFAKHOKN().clear();
+        aFFHHPFGBKH_ = 0;
+
+        iOIIEKCBJBK_ = 0;
+
         contentCloseTime_ = 0;
-
-        nBBNFFPKGJN_ = 0;
-
-        oIICCCADLBP_ = 0;
 
         isContentClosed_ = false;
 
-        isDungeonUnlocked_ = false;
+        aHABJAJHHNL_ = false;
 
         return this;
       }
@@ -921,24 +937,24 @@ public final class FleurFairActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.FleurFairActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.FleurFairActivityDetailInfo result = new emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.FleurFairActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        result.dungeonSectionInfoMap_ = internalGetDungeonSectionInfoMap();
-        result.dungeonSectionInfoMap_.makeImmutable();
-        result.minigameInfoMap_ = internalGetMinigameInfoMap();
-        result.minigameInfoMap_.makeImmutable();
-        if (chapterInfoListBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) != 0)) {
-            chapterInfoList_ = java.util.Collections.unmodifiableList(chapterInfoList_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+        if (aEPAJCHDHEDBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) != 0)) {
+            aEPAJCHDHED_ = java.util.Collections.unmodifiableList(aEPAJCHDHED_);
+            bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.chapterInfoList_ = chapterInfoList_;
+          result.aEPAJCHDHED_ = aEPAJCHDHED_;
         } else {
-          result.chapterInfoList_ = chapterInfoListBuilder_.build();
+          result.aEPAJCHDHED_ = aEPAJCHDHEDBuilder_.build();
         }
+        result.gENNHGADGJB_ = internalGetGENNHGADGJB();
+        result.gENNHGADGJB_.makeImmutable();
+        result.hMJJFAKHOKN_ = internalGetHMJJFAKHOKN();
+        result.hMJJFAKHOKN_.makeImmutable();
+        result.aFFHHPFGBKH_ = aFFHHPFGBKH_;
+        result.iOIIEKCBJBK_ = iOIIEKCBJBK_;
         result.contentCloseTime_ = contentCloseTime_;
-        result.nBBNFFPKGJN_ = nBBNFFPKGJN_;
-        result.oIICCCADLBP_ = oIICCCADLBP_;
         result.isContentClosed_ = isContentClosed_;
-        result.isDungeonUnlocked_ = isDungeonUnlocked_;
+        result.aHABJAJHHNL_ = aHABJAJHHNL_;
         onBuilt();
         return result;
       }
@@ -987,50 +1003,50 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.FleurFairActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.FleurFairActivityDetailInfo.getDefaultInstance()) return this;
-        internalGetMutableDungeonSectionInfoMap().mergeFrom(
-            other.internalGetDungeonSectionInfoMap());
-        internalGetMutableMinigameInfoMap().mergeFrom(
-            other.internalGetMinigameInfoMap());
-        if (chapterInfoListBuilder_ == null) {
-          if (!other.chapterInfoList_.isEmpty()) {
-            if (chapterInfoList_.isEmpty()) {
-              chapterInfoList_ = other.chapterInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+        if (aEPAJCHDHEDBuilder_ == null) {
+          if (!other.aEPAJCHDHED_.isEmpty()) {
+            if (aEPAJCHDHED_.isEmpty()) {
+              aEPAJCHDHED_ = other.aEPAJCHDHED_;
+              bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureChapterInfoListIsMutable();
-              chapterInfoList_.addAll(other.chapterInfoList_);
+              ensureAEPAJCHDHEDIsMutable();
+              aEPAJCHDHED_.addAll(other.aEPAJCHDHED_);
             }
             onChanged();
           }
         } else {
-          if (!other.chapterInfoList_.isEmpty()) {
-            if (chapterInfoListBuilder_.isEmpty()) {
-              chapterInfoListBuilder_.dispose();
-              chapterInfoListBuilder_ = null;
-              chapterInfoList_ = other.chapterInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000004);
-              chapterInfoListBuilder_ = 
+          if (!other.aEPAJCHDHED_.isEmpty()) {
+            if (aEPAJCHDHEDBuilder_.isEmpty()) {
+              aEPAJCHDHEDBuilder_.dispose();
+              aEPAJCHDHEDBuilder_ = null;
+              aEPAJCHDHED_ = other.aEPAJCHDHED_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              aEPAJCHDHEDBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getChapterInfoListFieldBuilder() : null;
+                   getAEPAJCHDHEDFieldBuilder() : null;
             } else {
-              chapterInfoListBuilder_.addAllMessages(other.chapterInfoList_);
+              aEPAJCHDHEDBuilder_.addAllMessages(other.aEPAJCHDHED_);
             }
           }
+        }
+        internalGetMutableGENNHGADGJB().mergeFrom(
+            other.internalGetGENNHGADGJB());
+        internalGetMutableHMJJFAKHOKN().mergeFrom(
+            other.internalGetHMJJFAKHOKN());
+        if (other.getAFFHHPFGBKH() != 0) {
+          setAFFHHPFGBKH(other.getAFFHHPFGBKH());
+        }
+        if (other.getIOIIEKCBJBK() != 0) {
+          setIOIIEKCBJBK(other.getIOIIEKCBJBK());
         }
         if (other.getContentCloseTime() != 0) {
           setContentCloseTime(other.getContentCloseTime());
         }
-        if (other.getNBBNFFPKGJN() != 0) {
-          setNBBNFFPKGJN(other.getNBBNFFPKGJN());
-        }
-        if (other.getOIICCCADLBP() != 0) {
-          setOIICCCADLBP(other.getOIICCCADLBP());
-        }
         if (other.getIsContentClosed() != false) {
           setIsContentClosed(other.getIsContentClosed());
         }
-        if (other.getIsDungeonUnlocked() != false) {
-          setIsDungeonUnlocked(other.getIsDungeonUnlocked());
+        if (other.getAHABJAJHHNL() != false) {
+          setAHABJAJHHNL(other.getAHABJAJHHNL());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1062,100 +1078,340 @@ public final class FleurFairActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.MapField<
-          java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> dungeonSectionInfoMap_;
-      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo>
-      internalGetDungeonSectionInfoMap() {
-        if (dungeonSectionInfoMap_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              DungeonSectionInfoMapDefaultEntryHolder.defaultEntry);
-        }
-        return dungeonSectionInfoMap_;
-      }
-      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo>
-      internalGetMutableDungeonSectionInfoMap() {
-        onChanged();;
-        if (dungeonSectionInfoMap_ == null) {
-          dungeonSectionInfoMap_ = com.google.protobuf.MapField.newMapField(
-              DungeonSectionInfoMapDefaultEntryHolder.defaultEntry);
-        }
-        if (!dungeonSectionInfoMap_.isMutable()) {
-          dungeonSectionInfoMap_ = dungeonSectionInfoMap_.copy();
-        }
-        return dungeonSectionInfoMap_;
+      private java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN> aEPAJCHDHED_ =
+        java.util.Collections.emptyList();
+      private void ensureAEPAJCHDHEDIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          aEPAJCHDHED_ = new java.util.ArrayList<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN>(aEPAJCHDHED_);
+          bitField0_ |= 0x00000001;
+         }
       }
 
-      public int getDungeonSectionInfoMapCount() {
-        return internalGetDungeonSectionInfoMap().getMap().size();
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder> aEPAJCHDHEDBuilder_;
+
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN> getAEPAJCHDHEDList() {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(aEPAJCHDHED_);
+        } else {
+          return aEPAJCHDHEDBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public int getAEPAJCHDHEDCount() {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          return aEPAJCHDHED_.size();
+        } else {
+          return aEPAJCHDHEDBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN getAEPAJCHDHED(int index) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          return aEPAJCHDHED_.get(index);
+        } else {
+          return aEPAJCHDHEDBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public Builder setAEPAJCHDHED(
+          int index, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN value) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAEPAJCHDHEDIsMutable();
+          aEPAJCHDHED_.set(index, value);
+          onChanged();
+        } else {
+          aEPAJCHDHEDBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public Builder setAEPAJCHDHED(
+          int index, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder builderForValue) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          ensureAEPAJCHDHEDIsMutable();
+          aEPAJCHDHED_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          aEPAJCHDHEDBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public Builder addAEPAJCHDHED(emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN value) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAEPAJCHDHEDIsMutable();
+          aEPAJCHDHED_.add(value);
+          onChanged();
+        } else {
+          aEPAJCHDHEDBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public Builder addAEPAJCHDHED(
+          int index, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN value) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureAEPAJCHDHEDIsMutable();
+          aEPAJCHDHED_.add(index, value);
+          onChanged();
+        } else {
+          aEPAJCHDHEDBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public Builder addAEPAJCHDHED(
+          emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder builderForValue) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          ensureAEPAJCHDHEDIsMutable();
+          aEPAJCHDHED_.add(builderForValue.build());
+          onChanged();
+        } else {
+          aEPAJCHDHEDBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public Builder addAEPAJCHDHED(
+          int index, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder builderForValue) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          ensureAEPAJCHDHEDIsMutable();
+          aEPAJCHDHED_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          aEPAJCHDHEDBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public Builder addAllAEPAJCHDHED(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN> values) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          ensureAEPAJCHDHEDIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, aEPAJCHDHED_);
+          onChanged();
+        } else {
+          aEPAJCHDHEDBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public Builder clearAEPAJCHDHED() {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          aEPAJCHDHED_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          aEPAJCHDHEDBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public Builder removeAEPAJCHDHED(int index) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          ensureAEPAJCHDHEDIsMutable();
+          aEPAJCHDHED_.remove(index);
+          onChanged();
+        } else {
+          aEPAJCHDHEDBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder getAEPAJCHDHEDBuilder(
+          int index) {
+        return getAEPAJCHDHEDFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder getAEPAJCHDHEDOrBuilder(
+          int index) {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          return aEPAJCHDHED_.get(index);  } else {
+          return aEPAJCHDHEDBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder> 
+           getAEPAJCHDHEDOrBuilderList() {
+        if (aEPAJCHDHEDBuilder_ != null) {
+          return aEPAJCHDHEDBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(aEPAJCHDHED_);
+        }
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder addAEPAJCHDHEDBuilder() {
+        return getAEPAJCHDHEDFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder addAEPAJCHDHEDBuilder(
+          int index) {
+        return getAEPAJCHDHEDFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder> 
+           getAEPAJCHDHEDBuilderList() {
+        return getAEPAJCHDHEDFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder> 
+          getAEPAJCHDHEDFieldBuilder() {
+        if (aEPAJCHDHEDBuilder_ == null) {
+          aEPAJCHDHEDBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder>(
+                  aEPAJCHDHED_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          aEPAJCHDHED_ = null;
+        }
+        return aEPAJCHDHEDBuilder_;
+      }
+
+      private com.google.protobuf.MapField<
+          java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> gENNHGADGJB_;
+      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>
+      internalGetGENNHGADGJB() {
+        if (gENNHGADGJB_ == null) {
+          return com.google.protobuf.MapField.emptyMapField(
+              GENNHGADGJBDefaultEntryHolder.defaultEntry);
+        }
+        return gENNHGADGJB_;
+      }
+      private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>
+      internalGetMutableGENNHGADGJB() {
+        onChanged();;
+        if (gENNHGADGJB_ == null) {
+          gENNHGADGJB_ = com.google.protobuf.MapField.newMapField(
+              GENNHGADGJBDefaultEntryHolder.defaultEntry);
+        }
+        if (!gENNHGADGJB_.isMutable()) {
+          gENNHGADGJB_ = gENNHGADGJB_.copy();
+        }
+        return gENNHGADGJB_;
+      }
+
+      public int getGENNHGADGJBCount() {
+        return internalGetGENNHGADGJB().getMap().size();
+      }
+      /**
+       * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
        */
 
       @java.lang.Override
-      public boolean containsDungeonSectionInfoMap(
+      public boolean containsGENNHGADGJB(
           int key) {
         
-        return internalGetDungeonSectionInfoMap().getMap().containsKey(key);
+        return internalGetGENNHGADGJB().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getDungeonSectionInfoMapMap()} instead.
+       * Use {@link #getGENNHGADGJBMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> getDungeonSectionInfoMap() {
-        return getDungeonSectionInfoMapMap();
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> getGENNHGADGJB() {
+        return getGENNHGADGJBMap();
       }
       /**
-       * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+       * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> getDungeonSectionInfoMapMap() {
-        return internalGetDungeonSectionInfoMap().getMap();
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> getGENNHGADGJBMap() {
+        return internalGetGENNHGADGJB().getMap();
       }
       /**
-       * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+       * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
        */
       @java.lang.Override
 
-      public emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo getDungeonSectionInfoMapOrDefault(
+      public emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrDefault(
           int key,
-          emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo defaultValue) {
+          emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE defaultValue) {
         
-        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> map =
-            internalGetDungeonSectionInfoMap().getMap();
+        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> map =
+            internalGetGENNHGADGJB().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+       * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
        */
       @java.lang.Override
 
-      public emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo getDungeonSectionInfoMapOrThrow(
+      public emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrThrow(
           int key) {
         
-        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> map =
-            internalGetDungeonSectionInfoMap().getMap();
+        java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> map =
+            internalGetGENNHGADGJB().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearDungeonSectionInfoMap() {
-        internalGetMutableDungeonSectionInfoMap().getMutableMap()
+      public Builder clearGENNHGADGJB() {
+        internalGetMutableGENNHGADGJB().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+       * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
        */
 
-      public Builder removeDungeonSectionInfoMap(
+      public Builder removeGENNHGADGJB(
           int key) {
         
-        internalGetMutableDungeonSectionInfoMap().getMutableMap()
+        internalGetMutableGENNHGADGJB().getMutableMap()
             .remove(key);
         return this;
       }
@@ -1163,127 +1419,127 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * Use alternate mutation accessors instead.
        */
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo>
-      getMutableDungeonSectionInfoMap() {
-        return internalGetMutableDungeonSectionInfoMap().getMutableMap();
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>
+      getMutableGENNHGADGJB() {
+        return internalGetMutableGENNHGADGJB().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+       * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
        */
-      public Builder putDungeonSectionInfoMap(
+      public Builder putGENNHGADGJB(
           int key,
-          emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo value) {
+          emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE value) {
         
         if (value == null) { throw new java.lang.NullPointerException(); }
-        internalGetMutableDungeonSectionInfoMap().getMutableMap()
+        internalGetMutableGENNHGADGJB().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, .FleurFairDungeonSectionInfo&gt; dungeon_section_info_map = 11;</code>
+       * <code>map&lt;uint32, .KKMKOOOMMPE&gt; GENNHGADGJB = 14;</code>
        */
 
-      public Builder putAllDungeonSectionInfoMap(
-          java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.FleurFairDungeonSectionInfo> values) {
-        internalGetMutableDungeonSectionInfoMap().getMutableMap()
+      public Builder putAllGENNHGADGJB(
+          java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> values) {
+        internalGetMutableGENNHGADGJB().getMutableMap()
             .putAll(values);
         return this;
       }
 
       private com.google.protobuf.MapField<
-          java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> minigameInfoMap_;
+          java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> hMJJFAKHOKN_;
       private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
-      internalGetMinigameInfoMap() {
-        if (minigameInfoMap_ == null) {
+      internalGetHMJJFAKHOKN() {
+        if (hMJJFAKHOKN_ == null) {
           return com.google.protobuf.MapField.emptyMapField(
-              MinigameInfoMapDefaultEntryHolder.defaultEntry);
+              HMJJFAKHOKNDefaultEntryHolder.defaultEntry);
         }
-        return minigameInfoMap_;
+        return hMJJFAKHOKN_;
       }
       private com.google.protobuf.MapField<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
-      internalGetMutableMinigameInfoMap() {
+      internalGetMutableHMJJFAKHOKN() {
         onChanged();;
-        if (minigameInfoMap_ == null) {
-          minigameInfoMap_ = com.google.protobuf.MapField.newMapField(
-              MinigameInfoMapDefaultEntryHolder.defaultEntry);
+        if (hMJJFAKHOKN_ == null) {
+          hMJJFAKHOKN_ = com.google.protobuf.MapField.newMapField(
+              HMJJFAKHOKNDefaultEntryHolder.defaultEntry);
         }
-        if (!minigameInfoMap_.isMutable()) {
-          minigameInfoMap_ = minigameInfoMap_.copy();
+        if (!hMJJFAKHOKN_.isMutable()) {
+          hMJJFAKHOKN_ = hMJJFAKHOKN_.copy();
         }
-        return minigameInfoMap_;
+        return hMJJFAKHOKN_;
       }
 
-      public int getMinigameInfoMapCount() {
-        return internalGetMinigameInfoMap().getMap().size();
+      public int getHMJJFAKHOKNCount() {
+        return internalGetHMJJFAKHOKN().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
        */
 
       @java.lang.Override
-      public boolean containsMinigameInfoMap(
+      public boolean containsHMJJFAKHOKN(
           int key) {
         
-        return internalGetMinigameInfoMap().getMap().containsKey(key);
+        return internalGetHMJJFAKHOKN().getMap().containsKey(key);
       }
       /**
-       * Use {@link #getMinigameInfoMapMap()} instead.
+       * Use {@link #getHMJJFAKHOKNMap()} instead.
        */
       @java.lang.Override
       @java.lang.Deprecated
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> getMinigameInfoMap() {
-        return getMinigameInfoMapMap();
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> getHMJJFAKHOKN() {
+        return getHMJJFAKHOKNMap();
       }
       /**
-       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
        */
       @java.lang.Override
 
-      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> getMinigameInfoMapMap() {
-        return internalGetMinigameInfoMap().getMap();
+      public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> getHMJJFAKHOKNMap() {
+        return internalGetHMJJFAKHOKN().getMap();
       }
       /**
-       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
        */
       @java.lang.Override
 
-      public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getMinigameInfoMapOrDefault(
+      public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrDefault(
           int key,
           emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo defaultValue) {
         
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> map =
-            internalGetMinigameInfoMap().getMap();
+            internalGetHMJJFAKHOKN().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
        */
       @java.lang.Override
 
-      public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getMinigameInfoMapOrThrow(
+      public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrThrow(
           int key) {
         
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> map =
-            internalGetMinigameInfoMap().getMap();
+            internalGetHMJJFAKHOKN().getMap();
         if (!map.containsKey(key)) {
           throw new java.lang.IllegalArgumentException();
         }
         return map.get(key);
       }
 
-      public Builder clearMinigameInfoMap() {
-        internalGetMutableMinigameInfoMap().getMutableMap()
+      public Builder clearHMJJFAKHOKN() {
+        internalGetMutableHMJJFAKHOKN().getMutableMap()
             .clear();
         return this;
       }
       /**
-       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
        */
 
-      public Builder removeMinigameInfoMap(
+      public Builder removeHMJJFAKHOKN(
           int key) {
         
-        internalGetMutableMinigameInfoMap().getMutableMap()
+        internalGetMutableHMJJFAKHOKN().getMutableMap()
             .remove(key);
         return this;
       }
@@ -1292,275 +1548,101 @@ public final class FleurFairActivityDetailInfoOuterClass {
        */
       @java.lang.Deprecated
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>
-      getMutableMinigameInfoMap() {
-        return internalGetMutableMinigameInfoMap().getMutableMap();
+      getMutableHMJJFAKHOKN() {
+        return internalGetMutableHMJJFAKHOKN().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
        */
-      public Builder putMinigameInfoMap(
+      public Builder putHMJJFAKHOKN(
           int key,
           emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo value) {
         
         if (value == null) { throw new java.lang.NullPointerException(); }
-        internalGetMutableMinigameInfoMap().getMutableMap()
+        internalGetMutableHMJJFAKHOKN().getMutableMap()
             .put(key, value);
         return this;
       }
       /**
-       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; minigame_info_map = 4;</code>
+       * <code>map&lt;uint32, .FleurFairMinigameInfo&gt; HMJJFAKHOKN = 7;</code>
        */
 
-      public Builder putAllMinigameInfoMap(
+      public Builder putAllHMJJFAKHOKN(
           java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> values) {
-        internalGetMutableMinigameInfoMap().getMutableMap()
+        internalGetMutableHMJJFAKHOKN().getMutableMap()
             .putAll(values);
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo> chapterInfoList_ =
-        java.util.Collections.emptyList();
-      private void ensureChapterInfoListIsMutable() {
-        if (!((bitField0_ & 0x00000004) != 0)) {
-          chapterInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo>(chapterInfoList_);
-          bitField0_ |= 0x00000004;
-         }
+      private int aFFHHPFGBKH_ ;
+      /**
+       * <code>uint32 AFFHHPFGBKH = 6;</code>
+       * @return The aFFHHPFGBKH.
+       */
+      @java.lang.Override
+      public int getAFFHHPFGBKH() {
+        return aFFHHPFGBKH_;
+      }
+      /**
+       * <code>uint32 AFFHHPFGBKH = 6;</code>
+       * @param value The aFFHHPFGBKH to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAFFHHPFGBKH(int value) {
+        
+        aFFHHPFGBKH_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 AFFHHPFGBKH = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAFFHHPFGBKH() {
+        
+        aFFHHPFGBKH_ = 0;
+        onChanged();
+        return this;
       }
 
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfoOrBuilder> chapterInfoListBuilder_;
-
+      private int iOIIEKCBJBK_ ;
       /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
+       * <code>uint32 IOIIEKCBJBK = 1;</code>
+       * @return The iOIIEKCBJBK.
        */
-      public java.util.List<emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo> getChapterInfoListList() {
-        if (chapterInfoListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(chapterInfoList_);
-        } else {
-          return chapterInfoListBuilder_.getMessageList();
-        }
+      @java.lang.Override
+      public int getIOIIEKCBJBK() {
+        return iOIIEKCBJBK_;
       }
       /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
+       * <code>uint32 IOIIEKCBJBK = 1;</code>
+       * @param value The iOIIEKCBJBK to set.
+       * @return This builder for chaining.
        */
-      public int getChapterInfoListCount() {
-        if (chapterInfoListBuilder_ == null) {
-          return chapterInfoList_.size();
-        } else {
-          return chapterInfoListBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo getChapterInfoList(int index) {
-        if (chapterInfoListBuilder_ == null) {
-          return chapterInfoList_.get(index);
-        } else {
-          return chapterInfoListBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public Builder setChapterInfoList(
-          int index, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo value) {
-        if (chapterInfoListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureChapterInfoListIsMutable();
-          chapterInfoList_.set(index, value);
-          onChanged();
-        } else {
-          chapterInfoListBuilder_.setMessage(index, value);
-        }
+      public Builder setIOIIEKCBJBK(int value) {
+        
+        iOIIEKCBJBK_ = value;
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
+       * <code>uint32 IOIIEKCBJBK = 1;</code>
+       * @return This builder for chaining.
        */
-      public Builder setChapterInfoList(
-          int index, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder builderForValue) {
-        if (chapterInfoListBuilder_ == null) {
-          ensureChapterInfoListIsMutable();
-          chapterInfoList_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          chapterInfoListBuilder_.setMessage(index, builderForValue.build());
-        }
+      public Builder clearIOIIEKCBJBK() {
+        
+        iOIIEKCBJBK_ = 0;
+        onChanged();
         return this;
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public Builder addChapterInfoList(emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo value) {
-        if (chapterInfoListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureChapterInfoListIsMutable();
-          chapterInfoList_.add(value);
-          onChanged();
-        } else {
-          chapterInfoListBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public Builder addChapterInfoList(
-          int index, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo value) {
-        if (chapterInfoListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureChapterInfoListIsMutable();
-          chapterInfoList_.add(index, value);
-          onChanged();
-        } else {
-          chapterInfoListBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public Builder addChapterInfoList(
-          emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder builderForValue) {
-        if (chapterInfoListBuilder_ == null) {
-          ensureChapterInfoListIsMutable();
-          chapterInfoList_.add(builderForValue.build());
-          onChanged();
-        } else {
-          chapterInfoListBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public Builder addChapterInfoList(
-          int index, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder builderForValue) {
-        if (chapterInfoListBuilder_ == null) {
-          ensureChapterInfoListIsMutable();
-          chapterInfoList_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          chapterInfoListBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public Builder addAllChapterInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo> values) {
-        if (chapterInfoListBuilder_ == null) {
-          ensureChapterInfoListIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, chapterInfoList_);
-          onChanged();
-        } else {
-          chapterInfoListBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public Builder clearChapterInfoList() {
-        if (chapterInfoListBuilder_ == null) {
-          chapterInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
-          onChanged();
-        } else {
-          chapterInfoListBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public Builder removeChapterInfoList(int index) {
-        if (chapterInfoListBuilder_ == null) {
-          ensureChapterInfoListIsMutable();
-          chapterInfoList_.remove(index);
-          onChanged();
-        } else {
-          chapterInfoListBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder getChapterInfoListBuilder(
-          int index) {
-        return getChapterInfoListFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfoOrBuilder getChapterInfoListOrBuilder(
-          int index) {
-        if (chapterInfoListBuilder_ == null) {
-          return chapterInfoList_.get(index);  } else {
-          return chapterInfoListBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfoOrBuilder> 
-           getChapterInfoListOrBuilderList() {
-        if (chapterInfoListBuilder_ != null) {
-          return chapterInfoListBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(chapterInfoList_);
-        }
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder addChapterInfoListBuilder() {
-        return getChapterInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder addChapterInfoListBuilder(
-          int index) {
-        return getChapterInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .FleurFairChapterInfo chapter_info_list = 6;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder> 
-           getChapterInfoListBuilderList() {
-        return getChapterInfoListFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfoOrBuilder> 
-          getChapterInfoListFieldBuilder() {
-        if (chapterInfoListBuilder_ == null) {
-          chapterInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfo.Builder, emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.FleurFairChapterInfoOrBuilder>(
-                  chapterInfoList_,
-                  ((bitField0_ & 0x00000004) != 0),
-                  getParentForChildren(),
-                  isClean());
-          chapterInfoList_ = null;
-        }
-        return chapterInfoListBuilder_;
       }
 
       private int contentCloseTime_ ;
       /**
-       * <code>uint32 content_close_time = 9;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 8;</code>
        * @return The contentCloseTime.
        */
       @java.lang.Override
@@ -1568,7 +1650,11 @@ public final class FleurFairActivityDetailInfoOuterClass {
         return contentCloseTime_;
       }
       /**
-       * <code>uint32 content_close_time = 9;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 8;</code>
        * @param value The contentCloseTime to set.
        * @return This builder for chaining.
        */
@@ -1579,7 +1665,11 @@ public final class FleurFairActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 content_close_time = 9;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearContentCloseTime() {
@@ -1589,71 +1679,13 @@ public final class FleurFairActivityDetailInfoOuterClass {
         return this;
       }
 
-      private int nBBNFFPKGJN_ ;
-      /**
-       * <code>uint32 NBBNFFPKGJN = 12;</code>
-       * @return The nBBNFFPKGJN.
-       */
-      @java.lang.Override
-      public int getNBBNFFPKGJN() {
-        return nBBNFFPKGJN_;
-      }
-      /**
-       * <code>uint32 NBBNFFPKGJN = 12;</code>
-       * @param value The nBBNFFPKGJN to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNBBNFFPKGJN(int value) {
-        
-        nBBNFFPKGJN_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 NBBNFFPKGJN = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNBBNFFPKGJN() {
-        
-        nBBNFFPKGJN_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int oIICCCADLBP_ ;
-      /**
-       * <code>uint32 OIICCCADLBP = 3;</code>
-       * @return The oIICCCADLBP.
-       */
-      @java.lang.Override
-      public int getOIICCCADLBP() {
-        return oIICCCADLBP_;
-      }
-      /**
-       * <code>uint32 OIICCCADLBP = 3;</code>
-       * @param value The oIICCCADLBP to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOIICCCADLBP(int value) {
-        
-        oIICCCADLBP_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 OIICCCADLBP = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOIICCCADLBP() {
-        
-        oIICCCADLBP_ = 0;
-        onChanged();
-        return this;
-      }
-
       private boolean isContentClosed_ ;
       /**
-       * <code>bool is_content_closed = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 13;</code>
        * @return The isContentClosed.
        */
       @java.lang.Override
@@ -1661,7 +1693,11 @@ public final class FleurFairActivityDetailInfoOuterClass {
         return isContentClosed_;
       }
       /**
-       * <code>bool is_content_closed = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 13;</code>
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
@@ -1672,7 +1708,11 @@ public final class FleurFairActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_content_closed = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsContentClosed() {
@@ -1682,33 +1722,33 @@ public final class FleurFairActivityDetailInfoOuterClass {
         return this;
       }
 
-      private boolean isDungeonUnlocked_ ;
+      private boolean aHABJAJHHNL_ ;
       /**
-       * <code>bool is_dungeon_unlocked = 5;</code>
-       * @return The isDungeonUnlocked.
+       * <code>bool AHABJAJHHNL = 15;</code>
+       * @return The aHABJAJHHNL.
        */
       @java.lang.Override
-      public boolean getIsDungeonUnlocked() {
-        return isDungeonUnlocked_;
+      public boolean getAHABJAJHHNL() {
+        return aHABJAJHHNL_;
       }
       /**
-       * <code>bool is_dungeon_unlocked = 5;</code>
-       * @param value The isDungeonUnlocked to set.
+       * <code>bool AHABJAJHHNL = 15;</code>
+       * @param value The aHABJAJHHNL to set.
        * @return This builder for chaining.
        */
-      public Builder setIsDungeonUnlocked(boolean value) {
+      public Builder setAHABJAJHHNL(boolean value) {
         
-        isDungeonUnlocked_ = value;
+        aHABJAJHHNL_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_dungeon_unlocked = 5;</code>
+       * <code>bool AHABJAJHHNL = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsDungeonUnlocked() {
+      public Builder clearAHABJAJHHNL() {
         
-        isDungeonUnlocked_ = false;
+        aHABJAJHHNL_ = false;
         onChanged();
         return this;
       }
@@ -1771,15 +1811,15 @@ public final class FleurFairActivityDetailInfoOuterClass {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FleurFairActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry_descriptor;
+    internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry_fieldAccessorTable;
+      internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_FleurFairActivityDetailInfo_MinigameInfoMapEntry_descriptor;
+    internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_FleurFairActivityDetailInfo_MinigameInfoMapEntry_fieldAccessorTable;
+      internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1789,53 +1829,51 @@ public final class FleurFairActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n!FleurFairActivityDetailInfo.proto\032!Fle" +
-      "urFairDungeonSectionInfo.proto\032\033FleurFai" +
-      "rMinigameInfo.proto\032\032FleurFairChapterInf" +
-      "o.proto\"\242\004\n\033FleurFairActivityDetailInfo\022" +
-      "Y\n\030dungeon_section_info_map\030\013 \003(\01327.Fleu" +
-      "rFairActivityDetailInfo.DungeonSectionIn" +
-      "foMapEntry\022L\n\021minigame_info_map\030\004 \003(\01321." +
-      "FleurFairActivityDetailInfo.MinigameInfo" +
-      "MapEntry\0220\n\021chapter_info_list\030\006 \003(\0132\025.Fl" +
-      "eurFairChapterInfo\022\032\n\022content_close_time" +
-      "\030\t \001(\r\022\023\n\013NBBNFFPKGJN\030\014 \001(\r\022\023\n\013OIICCCADL" +
-      "BP\030\003 \001(\r\022\031\n\021is_content_closed\030\002 \001(\010\022\033\n\023i" +
-      "s_dungeon_unlocked\030\005 \001(\010\032Z\n\032DungeonSecti" +
-      "onInfoMapEntry\022\013\n\003key\030\001 \001(\r\022+\n\005value\030\002 \001" +
-      "(\0132\034.FleurFairDungeonSectionInfo:\0028\001\032N\n\024" +
-      "MinigameInfoMapEntry\022\013\n\003key\030\001 \001(\r\022%\n\005val" +
-      "ue\030\002 \001(\0132\026.FleurFairMinigameInfo:\0028\001B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "\n!FleurFairActivityDetailInfo.proto\032\021MFC" +
+      "LINBGDDN.proto\032\021KKMKOOOMMPE.proto\032\033Fleur" +
+      "FairMinigameInfo.proto\"\314\003\n\033FleurFairActi" +
+      "vityDetailInfo\022!\n\013AEPAJCHDHED\030\005 \003(\0132\014.MF" +
+      "CLINBGDDN\022B\n\013GENNHGADGJB\030\016 \003(\0132-.FleurFa" +
+      "irActivityDetailInfo.GENNHGADGJBEntry\022B\n" +
+      "\013HMJJFAKHOKN\030\007 \003(\0132-.FleurFairActivityDe" +
+      "tailInfo.HMJJFAKHOKNEntry\022\023\n\013AFFHHPFGBKH" +
+      "\030\006 \001(\r\022\023\n\013IOIIEKCBJBK\030\001 \001(\r\022\032\n\022content_c" +
+      "lose_time\030\010 \001(\r\022\031\n\021is_content_closed\030\r \001" +
+      "(\010\022\023\n\013AHABJAJHHNL\030\017 \001(\010\032@\n\020GENNHGADGJBEn" +
+      "try\022\013\n\003key\030\001 \001(\r\022\033\n\005value\030\002 \001(\0132\014.KKMKOO" +
+      "OMMPE:\0028\001\032J\n\020HMJJFAKHOKNEntry\022\013\n\003key\030\001 \001" +
+      "(\r\022%\n\005value\030\002 \001(\0132\026.FleurFairMinigameInf" +
+      "o:\0028\001B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.getDescriptor(),
         });
     internal_static_FleurFairActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_FleurFairActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FleurFairActivityDetailInfo_descriptor,
-        new java.lang.String[] { "DungeonSectionInfoMap", "MinigameInfoMap", "ChapterInfoList", "ContentCloseTime", "NBBNFFPKGJN", "OIICCCADLBP", "IsContentClosed", "IsDungeonUnlocked", });
-    internal_static_FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry_descriptor =
+        new java.lang.String[] { "AEPAJCHDHED", "GENNHGADGJB", "HMJJFAKHOKN", "AFFHHPFGBKH", "IOIIEKCBJBK", "ContentCloseTime", "IsContentClosed", "AHABJAJHHNL", });
+    internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_descriptor =
       internal_static_FleurFairActivityDetailInfo_descriptor.getNestedTypes().get(0);
-    internal_static_FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry_fieldAccessorTable = new
+    internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry_descriptor,
+        internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    internal_static_FleurFairActivityDetailInfo_MinigameInfoMapEntry_descriptor =
+    internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_descriptor =
       internal_static_FleurFairActivityDetailInfo_descriptor.getNestedTypes().get(1);
-    internal_static_FleurFairActivityDetailInfo_MinigameInfoMapEntry_fieldAccessorTable = new
+    internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_FleurFairActivityDetailInfo_MinigameInfoMapEntry_descriptor,
+        internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    emu.grasscutter.net.proto.FleurFairDungeonSectionInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.FleurFairChapterInfoOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

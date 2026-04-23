@@ -14,7 +14,7 @@ public class PacketSceneEntityAppearNotify extends BasePacket {
 
         SceneEntityAppearNotify.Builder proto =
                 SceneEntityAppearNotify.newBuilder()
-                        .setAppearType(VisionType.VISION_TYPE_BORN)
+                        .setAppearType(VisionType.VisionType_VISION_BORN)
                         .addEntityList(entity.toProto());
 
         this.setData(proto.build());

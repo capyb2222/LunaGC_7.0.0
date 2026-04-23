@@ -42,9 +42,7 @@ public class MusicGamePlayerData {
 
         public MusicGameRecordOuterClass.MusicGameRecord toProto() {
             return MusicGameRecordOuterClass.MusicGameRecord.newBuilder()
-                    .setIsUnlock(true)
                     .setMaxCombo(maxCombo)
-                    .setMaxScore(maxScore)
                     .build();
         }
     }
@@ -63,11 +61,9 @@ public class MusicGamePlayerData {
             return UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.newBuilder()
                     //                .setCanShare(true)
                     //                .setCreateTime(musicGameBeatmap.getCreateTime())
-                    .setMusicId(musicGameBeatmap.getMusicId())
-                    .setMaxScore(musicGameBeatmap.getMaxScore())
+                    .setMusicId(musicGameBeatmap.getMusicId());
                     //                .setPosition(musicGameBeatmap.getSavePosition())
                     //                .setMusicNoteCount(musicGameBeatmap.getMusicNoteCount())
-                    .setUgcGuid(musicShareId);
         }
 
         public UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder toOthersBriefProto() {

@@ -17,11 +17,11 @@ public final class ActionGetHPPaidDebts extends AbilityActionHandler {
     @Override
     public boolean execute(Ability ability, AbilityModifier.AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         Grasscutter.getLogger().warn("gethppaiddebts" + abilityData);
-        
+
         if (target instanceof EntityAvatar) {
             float paiddebt = target.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP_PAID_DEBTS);
             String overrideMapKey = action.overrideMapKey;
-            
+
             // Ensure paid debt is non-negative
             if (paiddebt < 0) {
                 paiddebt = 0;
@@ -37,15 +37,15 @@ public final class ActionGetHPPaidDebts extends AbilityActionHandler {
 
             // Optionally update the entity's fight property
             target.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP_PAID_DEBTS, paiddebt);
-            
+
             // Broadcast the updated paid debt value to the world
             target.getWorld().broadcastPacket(new PacketEntityFightPropUpdateNotify(target, FightProperty.FIGHT_PROP_CUR_HP_PAID_DEBTS));
-            target.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(target, FightProperty.FIGHT_PROP_CUR_HP_PAID_DEBTS, paiddebt, PropChangeReasonOuterClass.PropChangeReason.PROP_CHANGE_REASON_ABILITY, ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_PAY));
+            target.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(target, FightProperty.FIGHT_PROP_CUR_HP_PAID_DEBTS, paiddebt, PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY));
         } else {
             Grasscutter.getLogger().warn("[ActionGetHPPaidDebts] CANNOT PAY HPDEBT FOR NON AVATAR ENTITY");
             return false;
         }
-        
+
         return true;
     }
 }

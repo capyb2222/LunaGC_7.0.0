@@ -20,80 +20,80 @@ public final class CodexTypeOuterClass {
   public enum CodexType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>CODEX_NONE = 0;</code>
+     * <code>CodexType_CODEX_NONE = 0;</code>
      */
-    CODEX_NONE(0),
+    CodexType_CODEX_NONE(0),
     /**
-     * <code>CODEX_QUEST = 1;</code>
+     * <code>CodexType_CODEX_QUEST = 1;</code>
      */
-    CODEX_QUEST(1),
+    CodexType_CODEX_QUEST(1),
     /**
-     * <code>CODEX_WEAPON = 2;</code>
+     * <code>CodexType_CODEX_WEAPON = 2;</code>
      */
-    CODEX_WEAPON(2),
+    CodexType_CODEX_WEAPON(2),
     /**
-     * <code>CODEX_ANIMAL = 3;</code>
+     * <code>CodexType_CODEX_ANIMAL = 3;</code>
      */
-    CODEX_ANIMAL(3),
+    CodexType_CODEX_ANIMAL(3),
     /**
-     * <code>CODEX_MATERIAL = 4;</code>
+     * <code>CodexType_CODEX_MATERIAL = 4;</code>
      */
-    CODEX_MATERIAL(4),
+    CodexType_CODEX_MATERIAL(4),
     /**
-     * <code>CODEX_BOOKS = 5;</code>
+     * <code>CodexType_CODEX_BOOKS = 5;</code>
      */
-    CODEX_BOOKS(5),
+    CodexType_CODEX_BOOKS(5),
     /**
-     * <code>CODEX_PUSHTIPS = 6;</code>
+     * <code>CodexType_CODEX_PUSHTIPS = 6;</code>
      */
-    CODEX_PUSHTIPS(6),
+    CodexType_CODEX_PUSHTIPS(6),
     /**
-     * <code>CODEX_VIEW = 7;</code>
+     * <code>CodexType_CODEX_VIEW = 7;</code>
      */
-    CODEX_VIEW(7),
+    CodexType_CODEX_VIEW(7),
     /**
-     * <code>CODEX_RELIQUARY = 8;</code>
+     * <code>CodexType_CODEX_RELIQUARY = 8;</code>
      */
-    CODEX_RELIQUARY(8),
+    CodexType_CODEX_RELIQUARY(8),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>CODEX_NONE = 0;</code>
+     * <code>CodexType_CODEX_NONE = 0;</code>
      */
-    public static final int CODEX_NONE_VALUE = 0;
+    public static final int CodexType_CODEX_NONE_VALUE = 0;
     /**
-     * <code>CODEX_QUEST = 1;</code>
+     * <code>CodexType_CODEX_QUEST = 1;</code>
      */
-    public static final int CODEX_QUEST_VALUE = 1;
+    public static final int CodexType_CODEX_QUEST_VALUE = 1;
     /**
-     * <code>CODEX_WEAPON = 2;</code>
+     * <code>CodexType_CODEX_WEAPON = 2;</code>
      */
-    public static final int CODEX_WEAPON_VALUE = 2;
+    public static final int CodexType_CODEX_WEAPON_VALUE = 2;
     /**
-     * <code>CODEX_ANIMAL = 3;</code>
+     * <code>CodexType_CODEX_ANIMAL = 3;</code>
      */
-    public static final int CODEX_ANIMAL_VALUE = 3;
+    public static final int CodexType_CODEX_ANIMAL_VALUE = 3;
     /**
-     * <code>CODEX_MATERIAL = 4;</code>
+     * <code>CodexType_CODEX_MATERIAL = 4;</code>
      */
-    public static final int CODEX_MATERIAL_VALUE = 4;
+    public static final int CodexType_CODEX_MATERIAL_VALUE = 4;
     /**
-     * <code>CODEX_BOOKS = 5;</code>
+     * <code>CodexType_CODEX_BOOKS = 5;</code>
      */
-    public static final int CODEX_BOOKS_VALUE = 5;
+    public static final int CodexType_CODEX_BOOKS_VALUE = 5;
     /**
-     * <code>CODEX_PUSHTIPS = 6;</code>
+     * <code>CodexType_CODEX_PUSHTIPS = 6;</code>
      */
-    public static final int CODEX_PUSHTIPS_VALUE = 6;
+    public static final int CodexType_CODEX_PUSHTIPS_VALUE = 6;
     /**
-     * <code>CODEX_VIEW = 7;</code>
+     * <code>CodexType_CODEX_VIEW = 7;</code>
      */
-    public static final int CODEX_VIEW_VALUE = 7;
+    public static final int CodexType_CODEX_VIEW_VALUE = 7;
     /**
-     * <code>CODEX_RELIQUARY = 8;</code>
+     * <code>CodexType_CODEX_RELIQUARY = 8;</code>
      */
-    public static final int CODEX_RELIQUARY_VALUE = 8;
+    public static final int CodexType_CODEX_RELIQUARY_VALUE = 8;
 
 
     public final int getNumber() {
@@ -120,15 +120,15 @@ public final class CodexTypeOuterClass {
      */
     public static CodexType forNumber(int value) {
       switch (value) {
-        case 0: return CODEX_NONE;
-        case 1: return CODEX_QUEST;
-        case 2: return CODEX_WEAPON;
-        case 3: return CODEX_ANIMAL;
-        case 4: return CODEX_MATERIAL;
-        case 5: return CODEX_BOOKS;
-        case 6: return CODEX_PUSHTIPS;
-        case 7: return CODEX_VIEW;
-        case 8: return CODEX_RELIQUARY;
+        case 0: return CodexType_CODEX_NONE;
+        case 1: return CodexType_CODEX_QUEST;
+        case 2: return CodexType_CODEX_WEAPON;
+        case 3: return CodexType_CODEX_ANIMAL;
+        case 4: return CodexType_CODEX_MATERIAL;
+        case 5: return CodexType_CODEX_BOOKS;
+        case 6: return CodexType_CODEX_PUSHTIPS;
+        case 7: return CodexType_CODEX_VIEW;
+        case 8: return CodexType_CODEX_RELIQUARY;
         default: return null;
       }
     }
@@ -194,12 +194,15 @@ public final class CodexTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017CodexType.proto*\256\001\n\tCodexType\022\016\n\nCODEX" +
-      "_NONE\020\000\022\017\n\013CODEX_QUEST\020\001\022\020\n\014CODEX_WEAPON" +
-      "\020\002\022\020\n\014CODEX_ANIMAL\020\003\022\022\n\016CODEX_MATERIAL\020\004" +
-      "\022\017\n\013CODEX_BOOKS\020\005\022\022\n\016CODEX_PUSHTIPS\020\006\022\016\n" +
-      "\nCODEX_VIEW\020\007\022\023\n\017CODEX_RELIQUARY\020\010B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\017CodexType.proto*\210\002\n\tCodexType\022\030\n\024Codex" +
+      "Type_CODEX_NONE\020\000\022\031\n\025CodexType_CODEX_QUE" +
+      "ST\020\001\022\032\n\026CodexType_CODEX_WEAPON\020\002\022\032\n\026Code" +
+      "xType_CODEX_ANIMAL\020\003\022\034\n\030CodexType_CODEX_" +
+      "MATERIAL\020\004\022\031\n\025CodexType_CODEX_BOOKS\020\005\022\034\n" +
+      "\030CodexType_CODEX_PUSHTIPS\020\006\022\030\n\024CodexType" +
+      "_CODEX_VIEW\020\007\022\035\n\031CodexType_CODEX_RELIQUA" +
+      "RY\020\010B\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

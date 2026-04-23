@@ -19,6 +19,10 @@ public final class WeatherInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>uint32 weather_area_id = 1;</code>
      * @return The weatherAreaId.
      */
@@ -109,6 +113,10 @@ public final class WeatherInfoOuterClass {
     public static final int WEATHER_AREA_ID_FIELD_NUMBER = 1;
     private int weatherAreaId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>uint32 weather_area_id = 1;</code>
      * @return The weatherAreaId.
      */
@@ -421,6 +429,10 @@ public final class WeatherInfoOuterClass {
 
       private int weatherAreaId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>uint32 weather_area_id = 1;</code>
        * @return The weatherAreaId.
        */
@@ -429,6 +441,10 @@ public final class WeatherInfoOuterClass {
         return weatherAreaId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>uint32 weather_area_id = 1;</code>
        * @param value The weatherAreaId to set.
        * @return This builder for chaining.
@@ -440,6 +456,10 @@ public final class WeatherInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>uint32 weather_area_id = 1;</code>
        * @return This builder for chaining.
        */

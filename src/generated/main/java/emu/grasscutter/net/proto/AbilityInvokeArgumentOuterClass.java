@@ -15,705 +15,741 @@ public final class AbilityInvokeArgumentOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * DMCLAGLGIDB
-   * </pre>
-   *
    * Protobuf enum {@code AbilityInvokeArgument}
    */
   public enum AbilityInvokeArgument
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_NONE = 0;</code>
+     * <code>AbilityInvokeArgument_ABILITY_NONE = 0;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_NONE(0),
+    AbilityInvokeArgument_ABILITY_NONE(0),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_MODIFIER_CHANGE = 1;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_MODIFIER_CHANGE = 1;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_MODIFIER_CHANGE(1),
+    AbilityInvokeArgument_ABILITY_META_MODIFIER_CHANGE(1),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_COMMAND_MODIFIER_CHANGE_REQUEST = 2;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_COMMAND_MODIFIER_CHANGE_REQUEST = 2;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_COMMAND_MODIFIER_CHANGE_REQUEST(2),
+    AbilityInvokeArgument_ABILITY_META_COMMAND_MODIFIER_CHANGE_REQUEST(2),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SPECIAL_FLOAT_ARGUMENT = 3;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SPECIAL_FLOAT_ARGUMENT = 3;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_SPECIAL_FLOAT_ARGUMENT(3),
+    AbilityInvokeArgument_ABILITY_META_SPECIAL_FLOAT_ARGUMENT(3),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_OVERRIDE_PARAM = 4;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_OVERRIDE_PARAM = 4;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_OVERRIDE_PARAM(4),
+    AbilityInvokeArgument_ABILITY_META_OVERRIDE_PARAM(4),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_CLEAR_OVERRIDE_PARAM = 5;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_CLEAR_OVERRIDE_PARAM = 5;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_CLEAR_OVERRIDE_PARAM(5),
+    AbilityInvokeArgument_ABILITY_META_CLEAR_OVERRIDE_PARAM(5),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_REINIT_OVERRIDEMAP = 6;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_REINIT_OVERRIDEMAP = 6;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_REINIT_OVERRIDEMAP(6),
+    AbilityInvokeArgument_ABILITY_META_REINIT_OVERRIDEMAP(6),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_GLOBAL_FLOAT_VALUE = 7;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_GLOBAL_FLOAT_VALUE = 7;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_GLOBAL_FLOAT_VALUE(7),
+    AbilityInvokeArgument_ABILITY_META_GLOBAL_FLOAT_VALUE(7),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_CLEAR_GLOBAL_FLOAT_VALUE = 8;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_CLEAR_GLOBAL_FLOAT_VALUE = 8;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_CLEAR_GLOBAL_FLOAT_VALUE(8),
+    AbilityInvokeArgument_ABILITY_META_CLEAR_GLOBAL_FLOAT_VALUE(8),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ABILITY_ELEMENT_STRENGTH = 9;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ABILITY_ELEMENT_STRENGTH = 9;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_ABILITY_ELEMENT_STRENGTH(9),
+    AbilityInvokeArgument_ABILITY_META_ABILITY_ELEMENT_STRENGTH(9),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ADD_OR_GET_ABILITY_AND_TRIGGER = 10;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ADD_OR_GET_ABILITY_AND_TRIGGER = 10;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_ADD_OR_GET_ABILITY_AND_TRIGGER(10),
+    AbilityInvokeArgument_ABILITY_META_ADD_OR_GET_ABILITY_AND_TRIGGER(10),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SET_KILLED_SETATE = 11;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SET_KILLED_SETATE = 11;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_SET_KILLED_SETATE(11),
+    AbilityInvokeArgument_ABILITY_META_SET_KILLED_SETATE(11),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SET_ABILITY_TRIGGER = 12;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SET_ABILITY_TRIGGER = 12;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_SET_ABILITY_TRIGGER(12),
+    AbilityInvokeArgument_ABILITY_META_SET_ABILITY_TRIGGER(12),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ADD_NEW_ABILITY = 13;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ADD_NEW_ABILITY = 13;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_ADD_NEW_ABILITY(13),
+    AbilityInvokeArgument_ABILITY_META_ADD_NEW_ABILITY(13),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_REMOVE_ABILITY = 14;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_REMOVE_ABILITY = 14;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_REMOVE_ABILITY(14),
+    AbilityInvokeArgument_ABILITY_META_REMOVE_ABILITY(14),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SET_MODIFIER_APPLY_ENTITY = 15;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SET_MODIFIER_APPLY_ENTITY = 15;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_SET_MODIFIER_APPLY_ENTITY(15),
+    AbilityInvokeArgument_ABILITY_META_SET_MODIFIER_APPLY_ENTITY(15),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_MODIFIER_DURABILITY_CHANGE = 16;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_MODIFIER_DURABILITY_CHANGE = 16;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_MODIFIER_DURABILITY_CHANGE(16),
+    AbilityInvokeArgument_ABILITY_META_MODIFIER_DURABILITY_CHANGE(16),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ELEMENT_REACTION_VISUAL = 17;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ELEMENT_REACTION_VISUAL = 17;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_ELEMENT_REACTION_VISUAL(17),
+    AbilityInvokeArgument_ABILITY_META_ELEMENT_REACTION_VISUAL(17),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SET_POSE_PARAMETER = 18;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SET_POSE_PARAMETER = 18;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_SET_POSE_PARAMETER(18),
+    AbilityInvokeArgument_ABILITY_META_SET_POSE_PARAMETER(18),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_UPDATE_BASE_REACTION_DAMAGE = 19;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_UPDATE_BASE_REACTION_DAMAGE = 19;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_UPDATE_BASE_REACTION_DAMAGE(19),
+    AbilityInvokeArgument_ABILITY_META_UPDATE_BASE_REACTION_DAMAGE(19),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ELEMENT_REACTION = 20;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_TRIGGER_ELEMENT_REACTION = 20;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ELEMENT_REACTION(20),
+    AbilityInvokeArgument_ABILITY_META_TRIGGER_ELEMENT_REACTION(20),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_LOSE_HP = 21;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_LOSE_HP = 21;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_LOSE_HP(21),
+    AbilityInvokeArgument_ABILITY_META_LOSE_HP(21),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_DURABILITY_IS_ZERO = 22;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_DURABILITY_IS_ZERO = 22;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_DURABILITY_IS_ZERO(22),
+    AbilityInvokeArgument_ABILITY_META_DURABILITY_IS_ZERO(22),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ARKHE_REACTION = 23;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_TRIGGER_ARKHE_REACTION = 23;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ARKHE_REACTION(23),
+    AbilityInvokeArgument_ABILITY_META_TRIGGER_ARKHE_REACTION(23),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_CHANGE_NYX_VALUE = 24;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_CHANGE_NYX_VALUE = 24;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_CHANGE_NYX_VALUE(24),
+    AbilityInvokeArgument_ABILITY_META_CHANGE_NYX_VALUE(24),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ADD_SPECIAL_ENERGY_VALUE = 25;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ADD_SPECIAL_ENERGY_VALUE = 25;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_META_ADD_SPECIAL_ENERGY_VALUE(25),
+    AbilityInvokeArgument_ABILITY_META_ADD_SPECIAL_ENERGY_VALUE(25),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_TRIGGER_ABILITY = 50;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_TRIGGER_ABILITY = 50;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_TRIGGER_ABILITY(50),
+    AbilityInvokeArgument_ABILITY_ACTION_TRIGGER_ABILITY(50),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SET_CRASH_DAMAGE = 51;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SET_CRASH_DAMAGE = 51;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_SET_CRASH_DAMAGE(51),
+    AbilityInvokeArgument_ABILITY_ACTION_SET_CRASH_DAMAGE(51),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_EFFECT = 52;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_EFFECT = 52;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_EFFECT(52),
+    AbilityInvokeArgument_ABILITY_ACTION_EFFECT(52),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SUMMON = 53;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SUMMON = 53;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_SUMMON(53),
+    AbilityInvokeArgument_ABILITY_ACTION_SUMMON(53),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_BLINK = 54;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_BLINK = 54;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_BLINK(54),
+    AbilityInvokeArgument_ABILITY_ACTION_BLINK(54),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_GADGET = 55;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_CREATE_GADGET = 55;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_GADGET(55),
+    AbilityInvokeArgument_ABILITY_ACTION_CREATE_GADGET(55),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_APPLY_LEVEL_MODIFIER = 56;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_APPLY_LEVEL_MODIFIER = 56;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_APPLY_LEVEL_MODIFIER(56),
+    AbilityInvokeArgument_ABILITY_ACTION_APPLY_LEVEL_MODIFIER(56),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_GENERATE_ELEM_BALL = 57;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_GENERATE_ELEM_BALL = 57;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_GENERATE_ELEM_BALL(57),
+    AbilityInvokeArgument_ABILITY_ACTION_GENERATE_ELEM_BALL(57),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE = 58;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE = 58;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE(58),
+    AbilityInvokeArgument_ABILITY_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE(58),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SERVER_MONSTER_LOG = 59;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SERVER_MONSTER_LOG = 59;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_SERVER_MONSTER_LOG(59),
+    AbilityInvokeArgument_ABILITY_ACTION_SERVER_MONSTER_LOG(59),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_TILE = 60;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_CREATE_TILE = 60;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_TILE(60),
+    AbilityInvokeArgument_ABILITY_ACTION_CREATE_TILE(60),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_DESTROY_TILE = 61;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_DESTROY_TILE = 61;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_DESTROY_TILE(61),
+    AbilityInvokeArgument_ABILITY_ACTION_DESTROY_TILE(61),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_FIRE_AFTER_IMAGE = 62;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_FIRE_AFTER_IMAGE = 62;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_FIRE_AFTER_IMAGE(62),
+    AbilityInvokeArgument_ABILITY_ACTION_FIRE_AFTER_IMAGE(62),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_DEDUCT_STAMINA = 63;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_DEDUCT_STAMINA = 63;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_DEDUCT_STAMINA(63),
+    AbilityInvokeArgument_ABILITY_ACTION_DEDUCT_STAMINA(63),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_HIT_EFFECT = 64;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_HIT_EFFECT = 64;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_HIT_EFFECT(64),
+    AbilityInvokeArgument_ABILITY_ACTION_HIT_EFFECT(64),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SET_BULLET_TRACK_TARGET = 65;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SET_BULLET_TRACK_TARGET = 65;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_SET_BULLET_TRACK_TARGET(65),
+    AbilityInvokeArgument_ABILITY_ACTION_SET_BULLET_TRACK_TARGET(65),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_FIREWORK_EFFECT = 66;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_FIREWORK_EFFECT = 66;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_FIREWORK_EFFECT(66),
+    AbilityInvokeArgument_ABILITY_ACTION_FIREWORK_EFFECT(66),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_LEVEL_BANK_ADD_STUFF = 67;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_LEVEL_BANK_ADD_STUFF = 67;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_ACTION_LEVEL_BANK_ADD_STUFF(67),
+    AbilityInvokeArgument_ABILITY_ACTION_LEVEL_BANK_ADD_STUFF(67),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_STEER_BY_CAMERA = 100;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_FLOAT = 68;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_STEER_BY_CAMERA(100),
+    AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_FLOAT(68),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_MONSTER_DEFEND = 101;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_VECTOR = 69;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_MONSTER_DEFEND(101),
+    AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_VECTOR(69),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_ZONE = 102;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SPECTACLE_BUILD_RECREATE_GADGET = 70;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_ZONE(102),
+    AbilityInvokeArgument_ABILITY_ACTION_SPECTACLE_BUILD_RECREATE_GADGET(70),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_COST_STAMINA = 103;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_STEER_BY_CAMERA = 100;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_COST_STAMINA(103),
+    AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_STEER_BY_CAMERA(100),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ELITE_SHIELD = 104;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_MONSTER_DEFEND = 101;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_ELITE_SHIELD(104),
+    AbilityInvokeArgument_ABILITY_MIXIN_MONSTER_DEFEND(101),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ELEMENT_SHIELD = 105;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_WIND_ZONE = 102;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_ELEMENT_SHIELD(105),
+    AbilityInvokeArgument_ABILITY_MIXIN_WIND_ZONE(102),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_GLOBAL_SHIELD = 106;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_COST_STAMINA = 103;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_GLOBAL_SHIELD(106),
+    AbilityInvokeArgument_ABILITY_MIXIN_COST_STAMINA(103),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_SHIELD_BAR = 107;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ELITE_SHIELD = 104;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_SHIELD_BAR(107),
+    AbilityInvokeArgument_ABILITY_MIXIN_ELITE_SHIELD(104),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_SEED_SPAWNER = 108;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ELEMENT_SHIELD = 105;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_SEED_SPAWNER(108),
+    AbilityInvokeArgument_ABILITY_MIXIN_ELEMENT_SHIELD(105),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_ELEMENT_REACTION = 109;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_GLOBAL_SHIELD = 106;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_ELEMENT_REACTION(109),
+    AbilityInvokeArgument_ABILITY_MIXIN_GLOBAL_SHIELD(106),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_FIELD_ENTITY_COUNT_CHANGE = 110;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_SHIELD_BAR = 107;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_FIELD_ENTITY_COUNT_CHANGE(110),
+    AbilityInvokeArgument_ABILITY_MIXIN_SHIELD_BAR(107),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_SCENE_PROP_SYNC = 111;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_WIND_SEED_SPAWNER = 108;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_SCENE_PROP_SYNC(111),
+    AbilityInvokeArgument_ABILITY_MIXIN_WIND_SEED_SPAWNER(108),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_WIDGET_MP_SUPPORT = 112;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_ELEMENT_REACTION = 109;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_WIDGET_MP_SUPPORT(112),
+    AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_ELEMENT_REACTION(109),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO = 113;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_FIELD_ENTITY_COUNT_CHANGE = 110;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO(113),
+    AbilityInvokeArgument_ABILITY_MIXIN_FIELD_ENTITY_COUNT_CHANGE(110),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_FIREWORKS_LAUNCHER = 114;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_SCENE_PROP_SYNC = 111;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_FIREWORKS_LAUNCHER(114),
+    AbilityInvokeArgument_ABILITY_MIXIN_SCENE_PROP_SYNC(111),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACK_RESULT_CREATE_COUNT = 115;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_WIDGET_MP_SUPPORT = 112;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACK_RESULT_CREATE_COUNT(115),
+    AbilityInvokeArgument_ABILITY_MIXIN_WIDGET_MP_SUPPORT(112),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_UGC_TIME_CONTROL = 116;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO = 113;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_UGC_TIME_CONTROL(116),
+    AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO(113),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_COMBAT = 117;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_FIREWORKS_LAUNCHER = 114;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_COMBAT(117),
+    AbilityInvokeArgument_ABILITY_MIXIN_FIREWORKS_LAUNCHER(114),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN = 118;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ATTACK_RESULT_CREATE_COUNT = 115;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN(118),
+    AbilityInvokeArgument_ABILITY_MIXIN_ATTACK_RESULT_CREATE_COUNT(115),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_UI_INTERACT = 119;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_UGC_TIME_CONTROL = 116;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_UI_INTERACT(119),
+    AbilityInvokeArgument_ABILITY_MIXIN_UGC_TIME_CONTROL(116),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_SHOOT_FROM_CAMERA = 120;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_COMBAT = 117;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_SHOOT_FROM_CAMERA(120),
+    AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_COMBAT(117),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ERASE_BRICK_ACTIVITY = 121;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN = 118;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_ERASE_BRICK_ACTIVITY(121),
+    AbilityInvokeArgument_ABILITY_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN(118),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_BREAKOUT = 122;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_UI_INTERACT = 119;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_BREAKOUT(122),
+    AbilityInvokeArgument_ABILITY_MIXIN_UI_INTERACT(119),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_DAMAGE_LOAN = 123;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_SHOOT_FROM_CAMERA = 120;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_DAMAGE_LOAN(123),
+    AbilityInvokeArgument_ABILITY_MIXIN_SHOOT_FROM_CAMERA(120),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_BROADCAST_GV = 124;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ERASE_BRICK_ACTIVITY = 121;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_BROADCAST_GV(124),
+    AbilityInvokeArgument_ABILITY_MIXIN_ERASE_BRICK_ACTIVITY(121),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_RECEIVE_GV = 125;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_BREAKOUT = 122;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_RECEIVE_GV(125),
+    AbilityInvokeArgument_ABILITY_MIXIN_BREAKOUT(122),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_RAYCAST_SELECT_TARGET = 126;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_DAMAGE_LOAN = 123;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_RAYCAST_SELECT_TARGET(126),
+    AbilityInvokeArgument_ABILITY_MIXIN_DAMAGE_LOAN(123),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ENERGY_CRYSTAL_TARGET = 127;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_BROADCAST_GV = 124;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_ENERGY_CRYSTAL_TARGET(127),
+    AbilityInvokeArgument_ABILITY_MIXIN_BROADCAST_GV(124),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ROTATION_FOLLOW_CAMERA = 128;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_RECEIVE_GV = 125;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_ROTATION_FOLLOW_CAMERA(128),
+    AbilityInvokeArgument_ABILITY_MIXIN_RECEIVE_GV(125),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_BUOYANT_FORCE = 129;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_RAYCAST_SELECT_TARGET = 126;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_BUOYANT_FORCE(129),
+    AbilityInvokeArgument_ABILITY_MIXIN_RAYCAST_SELECT_TARGET(126),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_FILMFEST_BALL_GAME = 130;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ENERGY_CRYSTAL_TARGET = 127;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_FILMFEST_BALL_GAME(130),
+    AbilityInvokeArgument_ABILITY_MIXIN_ENERGY_CRYSTAL_TARGET(127),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_CHECK_SCAN_ENTITY = 131;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ROTATION_FOLLOW_CAMERA = 128;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_CHECK_SCAN_ENTITY(131),
+    AbilityInvokeArgument_ABILITY_MIXIN_ROTATION_FOLLOW_CAMERA(128),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_TIME_TRACK_PLAYER = 133;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_BUOYANT_FORCE = 129;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_TIME_TRACK_PLAYER(133),
+    AbilityInvokeArgument_ABILITY_MIXIN_BUOYANT_FORCE(129),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_PART_FOLLOW = 134;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_FILMFEST_BALL_GAME = 130;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_PART_FOLLOW(134),
+    AbilityInvokeArgument_ABILITY_MIXIN_FILMFEST_BALL_GAME(130),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_CHANGE_PHLOGISTON = 135;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_CHECK_SCAN_ENTITY = 131;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_CHANGE_PHLOGISTON(135),
+    AbilityInvokeArgument_ABILITY_MIXIN_CHECK_SCAN_ENTITY(131),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL = 136;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_TIME_TRACK_PLAYER = 133;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL(136),
+    AbilityInvokeArgument_ABILITY_MIXIN_TIME_TRACK_PLAYER(133),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_FREQUENCY_SHIELD_BAR = 137;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_PART_FOLLOW = 134;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_FREQUENCY_SHIELD_BAR(137),
+    AbilityInvokeArgument_ABILITY_MIXIN_PART_FOLLOW(134),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE = 139;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_CHANGE_PHLOGISTON = 135;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE(139),
+    AbilityInvokeArgument_ABILITY_MIXIN_CHANGE_PHLOGISTON(135),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_VEHICLE_STEER_BY_CAMERA = 141;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL = 136;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_VEHICLE_STEER_BY_CAMERA(141),
+    AbilityInvokeArgument_ABILITY_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL(136),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_SPECIAL_MOVE = 143;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_FREQUENCY_SHIELD_BAR = 137;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_SPECIAL_MOVE(143),
+    AbilityInvokeArgument_ABILITY_MIXIN_FREQUENCY_SHIELD_BAR(137),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_DAMAGE = 145;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_SHAMAN_VIEW_TARGET = 138;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_DAMAGE(145),
+    AbilityInvokeArgument_ABILITY_MIXIN_SHAMAN_VIEW_TARGET(138),
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT = 146;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE = 139;</code>
      */
-    ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT(146),
+    AbilityInvokeArgument_ABILITY_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE(139),
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_BRICK_MATRIX = 140;</code>
+     */
+    AbilityInvokeArgument_ABILITY_MIXIN_BRICK_MATRIX(140),
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_VEHICLE_STEER_BY_CAMERA = 141;</code>
+     */
+    AbilityInvokeArgument_ABILITY_MIXIN_VEHICLE_STEER_BY_CAMERA(141),
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_SPECIAL_MOVE = 143;</code>
+     */
+    AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_SPECIAL_MOVE(143),
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_DAMAGE = 145;</code>
+     */
+    AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_DAMAGE(145),
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT = 146;</code>
+     */
+    AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT(146),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_NONE = 0;</code>
+     * <code>AbilityInvokeArgument_ABILITY_NONE = 0;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_NONE_VALUE = 0;
+    public static final int AbilityInvokeArgument_ABILITY_NONE_VALUE = 0;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_MODIFIER_CHANGE = 1;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_MODIFIER_CHANGE = 1;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_MODIFIER_CHANGE_VALUE = 1;
+    public static final int AbilityInvokeArgument_ABILITY_META_MODIFIER_CHANGE_VALUE = 1;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_COMMAND_MODIFIER_CHANGE_REQUEST = 2;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_COMMAND_MODIFIER_CHANGE_REQUEST = 2;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_COMMAND_MODIFIER_CHANGE_REQUEST_VALUE = 2;
+    public static final int AbilityInvokeArgument_ABILITY_META_COMMAND_MODIFIER_CHANGE_REQUEST_VALUE = 2;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SPECIAL_FLOAT_ARGUMENT = 3;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SPECIAL_FLOAT_ARGUMENT = 3;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_SPECIAL_FLOAT_ARGUMENT_VALUE = 3;
+    public static final int AbilityInvokeArgument_ABILITY_META_SPECIAL_FLOAT_ARGUMENT_VALUE = 3;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_OVERRIDE_PARAM = 4;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_OVERRIDE_PARAM = 4;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_OVERRIDE_PARAM_VALUE = 4;
+    public static final int AbilityInvokeArgument_ABILITY_META_OVERRIDE_PARAM_VALUE = 4;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_CLEAR_OVERRIDE_PARAM = 5;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_CLEAR_OVERRIDE_PARAM = 5;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_CLEAR_OVERRIDE_PARAM_VALUE = 5;
+    public static final int AbilityInvokeArgument_ABILITY_META_CLEAR_OVERRIDE_PARAM_VALUE = 5;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_REINIT_OVERRIDEMAP = 6;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_REINIT_OVERRIDEMAP = 6;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_REINIT_OVERRIDEMAP_VALUE = 6;
+    public static final int AbilityInvokeArgument_ABILITY_META_REINIT_OVERRIDEMAP_VALUE = 6;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_GLOBAL_FLOAT_VALUE = 7;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_GLOBAL_FLOAT_VALUE = 7;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_GLOBAL_FLOAT_VALUE_VALUE = 7;
+    public static final int AbilityInvokeArgument_ABILITY_META_GLOBAL_FLOAT_VALUE_VALUE = 7;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_CLEAR_GLOBAL_FLOAT_VALUE = 8;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_CLEAR_GLOBAL_FLOAT_VALUE = 8;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_CLEAR_GLOBAL_FLOAT_VALUE_VALUE = 8;
+    public static final int AbilityInvokeArgument_ABILITY_META_CLEAR_GLOBAL_FLOAT_VALUE_VALUE = 8;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ABILITY_ELEMENT_STRENGTH = 9;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ABILITY_ELEMENT_STRENGTH = 9;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_ABILITY_ELEMENT_STRENGTH_VALUE = 9;
+    public static final int AbilityInvokeArgument_ABILITY_META_ABILITY_ELEMENT_STRENGTH_VALUE = 9;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ADD_OR_GET_ABILITY_AND_TRIGGER = 10;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ADD_OR_GET_ABILITY_AND_TRIGGER = 10;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_ADD_OR_GET_ABILITY_AND_TRIGGER_VALUE = 10;
+    public static final int AbilityInvokeArgument_ABILITY_META_ADD_OR_GET_ABILITY_AND_TRIGGER_VALUE = 10;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SET_KILLED_SETATE = 11;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SET_KILLED_SETATE = 11;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_SET_KILLED_SETATE_VALUE = 11;
+    public static final int AbilityInvokeArgument_ABILITY_META_SET_KILLED_SETATE_VALUE = 11;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SET_ABILITY_TRIGGER = 12;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SET_ABILITY_TRIGGER = 12;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_SET_ABILITY_TRIGGER_VALUE = 12;
+    public static final int AbilityInvokeArgument_ABILITY_META_SET_ABILITY_TRIGGER_VALUE = 12;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ADD_NEW_ABILITY = 13;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ADD_NEW_ABILITY = 13;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_ADD_NEW_ABILITY_VALUE = 13;
+    public static final int AbilityInvokeArgument_ABILITY_META_ADD_NEW_ABILITY_VALUE = 13;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_REMOVE_ABILITY = 14;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_REMOVE_ABILITY = 14;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_REMOVE_ABILITY_VALUE = 14;
+    public static final int AbilityInvokeArgument_ABILITY_META_REMOVE_ABILITY_VALUE = 14;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SET_MODIFIER_APPLY_ENTITY = 15;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SET_MODIFIER_APPLY_ENTITY = 15;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_SET_MODIFIER_APPLY_ENTITY_VALUE = 15;
+    public static final int AbilityInvokeArgument_ABILITY_META_SET_MODIFIER_APPLY_ENTITY_VALUE = 15;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_MODIFIER_DURABILITY_CHANGE = 16;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_MODIFIER_DURABILITY_CHANGE = 16;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_MODIFIER_DURABILITY_CHANGE_VALUE = 16;
+    public static final int AbilityInvokeArgument_ABILITY_META_MODIFIER_DURABILITY_CHANGE_VALUE = 16;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ELEMENT_REACTION_VISUAL = 17;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ELEMENT_REACTION_VISUAL = 17;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_ELEMENT_REACTION_VISUAL_VALUE = 17;
+    public static final int AbilityInvokeArgument_ABILITY_META_ELEMENT_REACTION_VISUAL_VALUE = 17;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_SET_POSE_PARAMETER = 18;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_SET_POSE_PARAMETER = 18;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_SET_POSE_PARAMETER_VALUE = 18;
+    public static final int AbilityInvokeArgument_ABILITY_META_SET_POSE_PARAMETER_VALUE = 18;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_UPDATE_BASE_REACTION_DAMAGE = 19;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_UPDATE_BASE_REACTION_DAMAGE = 19;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_UPDATE_BASE_REACTION_DAMAGE_VALUE = 19;
+    public static final int AbilityInvokeArgument_ABILITY_META_UPDATE_BASE_REACTION_DAMAGE_VALUE = 19;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ELEMENT_REACTION = 20;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_TRIGGER_ELEMENT_REACTION = 20;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ELEMENT_REACTION_VALUE = 20;
+    public static final int AbilityInvokeArgument_ABILITY_META_TRIGGER_ELEMENT_REACTION_VALUE = 20;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_LOSE_HP = 21;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_LOSE_HP = 21;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_LOSE_HP_VALUE = 21;
+    public static final int AbilityInvokeArgument_ABILITY_META_LOSE_HP_VALUE = 21;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_DURABILITY_IS_ZERO = 22;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_DURABILITY_IS_ZERO = 22;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_DURABILITY_IS_ZERO_VALUE = 22;
+    public static final int AbilityInvokeArgument_ABILITY_META_DURABILITY_IS_ZERO_VALUE = 22;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ARKHE_REACTION = 23;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_TRIGGER_ARKHE_REACTION = 23;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ARKHE_REACTION_VALUE = 23;
+    public static final int AbilityInvokeArgument_ABILITY_META_TRIGGER_ARKHE_REACTION_VALUE = 23;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_CHANGE_NYX_VALUE = 24;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_CHANGE_NYX_VALUE = 24;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_CHANGE_NYX_VALUE_VALUE = 24;
+    public static final int AbilityInvokeArgument_ABILITY_META_CHANGE_NYX_VALUE_VALUE = 24;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_META_ADD_SPECIAL_ENERGY_VALUE = 25;</code>
+     * <code>AbilityInvokeArgument_ABILITY_META_ADD_SPECIAL_ENERGY_VALUE = 25;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_META_ADD_SPECIAL_ENERGY_VALUE_VALUE = 25;
+    public static final int AbilityInvokeArgument_ABILITY_META_ADD_SPECIAL_ENERGY_VALUE_VALUE = 25;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_TRIGGER_ABILITY = 50;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_TRIGGER_ABILITY = 50;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_TRIGGER_ABILITY_VALUE = 50;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_TRIGGER_ABILITY_VALUE = 50;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SET_CRASH_DAMAGE = 51;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SET_CRASH_DAMAGE = 51;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_SET_CRASH_DAMAGE_VALUE = 51;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_SET_CRASH_DAMAGE_VALUE = 51;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_EFFECT = 52;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_EFFECT = 52;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_EFFECT_VALUE = 52;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_EFFECT_VALUE = 52;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SUMMON = 53;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SUMMON = 53;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_SUMMON_VALUE = 53;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_SUMMON_VALUE = 53;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_BLINK = 54;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_BLINK = 54;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_BLINK_VALUE = 54;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_BLINK_VALUE = 54;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_GADGET = 55;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_CREATE_GADGET = 55;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_GADGET_VALUE = 55;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_CREATE_GADGET_VALUE = 55;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_APPLY_LEVEL_MODIFIER = 56;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_APPLY_LEVEL_MODIFIER = 56;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_APPLY_LEVEL_MODIFIER_VALUE = 56;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_APPLY_LEVEL_MODIFIER_VALUE = 56;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_GENERATE_ELEM_BALL = 57;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_GENERATE_ELEM_BALL = 57;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_GENERATE_ELEM_BALL_VALUE = 57;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_GENERATE_ELEM_BALL_VALUE = 57;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE = 58;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE = 58;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE_VALUE = 58;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE_VALUE = 58;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SERVER_MONSTER_LOG = 59;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SERVER_MONSTER_LOG = 59;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_SERVER_MONSTER_LOG_VALUE = 59;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_SERVER_MONSTER_LOG_VALUE = 59;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_TILE = 60;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_CREATE_TILE = 60;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_TILE_VALUE = 60;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_CREATE_TILE_VALUE = 60;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_DESTROY_TILE = 61;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_DESTROY_TILE = 61;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_DESTROY_TILE_VALUE = 61;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_DESTROY_TILE_VALUE = 61;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_FIRE_AFTER_IMAGE = 62;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_FIRE_AFTER_IMAGE = 62;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_FIRE_AFTER_IMAGE_VALUE = 62;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_FIRE_AFTER_IMAGE_VALUE = 62;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_DEDUCT_STAMINA = 63;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_DEDUCT_STAMINA = 63;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_DEDUCT_STAMINA_VALUE = 63;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_DEDUCT_STAMINA_VALUE = 63;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_HIT_EFFECT = 64;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_HIT_EFFECT = 64;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_HIT_EFFECT_VALUE = 64;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_HIT_EFFECT_VALUE = 64;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_SET_BULLET_TRACK_TARGET = 65;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SET_BULLET_TRACK_TARGET = 65;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_SET_BULLET_TRACK_TARGET_VALUE = 65;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_SET_BULLET_TRACK_TARGET_VALUE = 65;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_FIREWORK_EFFECT = 66;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_FIREWORK_EFFECT = 66;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_FIREWORK_EFFECT_VALUE = 66;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_FIREWORK_EFFECT_VALUE = 66;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_ACTION_LEVEL_BANK_ADD_STUFF = 67;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_LEVEL_BANK_ADD_STUFF = 67;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_ACTION_LEVEL_BANK_ADD_STUFF_VALUE = 67;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_LEVEL_BANK_ADD_STUFF_VALUE = 67;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_STEER_BY_CAMERA = 100;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_FLOAT = 68;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_STEER_BY_CAMERA_VALUE = 100;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_FLOAT_VALUE = 68;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_MONSTER_DEFEND = 101;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_VECTOR = 69;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_MONSTER_DEFEND_VALUE = 101;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_VECTOR_VALUE = 69;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_ZONE = 102;</code>
+     * <code>AbilityInvokeArgument_ABILITY_ACTION_SPECTACLE_BUILD_RECREATE_GADGET = 70;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_ZONE_VALUE = 102;
+    public static final int AbilityInvokeArgument_ABILITY_ACTION_SPECTACLE_BUILD_RECREATE_GADGET_VALUE = 70;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_COST_STAMINA = 103;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_STEER_BY_CAMERA = 100;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_COST_STAMINA_VALUE = 103;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_STEER_BY_CAMERA_VALUE = 100;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ELITE_SHIELD = 104;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_MONSTER_DEFEND = 101;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_ELITE_SHIELD_VALUE = 104;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_MONSTER_DEFEND_VALUE = 101;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ELEMENT_SHIELD = 105;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_WIND_ZONE = 102;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_ELEMENT_SHIELD_VALUE = 105;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_WIND_ZONE_VALUE = 102;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_GLOBAL_SHIELD = 106;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_COST_STAMINA = 103;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_GLOBAL_SHIELD_VALUE = 106;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_COST_STAMINA_VALUE = 103;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_SHIELD_BAR = 107;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ELITE_SHIELD = 104;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_SHIELD_BAR_VALUE = 107;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_ELITE_SHIELD_VALUE = 104;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_SEED_SPAWNER = 108;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ELEMENT_SHIELD = 105;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_SEED_SPAWNER_VALUE = 108;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_ELEMENT_SHIELD_VALUE = 105;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_ELEMENT_REACTION = 109;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_GLOBAL_SHIELD = 106;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_ELEMENT_REACTION_VALUE = 109;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_GLOBAL_SHIELD_VALUE = 106;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_FIELD_ENTITY_COUNT_CHANGE = 110;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_SHIELD_BAR = 107;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_FIELD_ENTITY_COUNT_CHANGE_VALUE = 110;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_SHIELD_BAR_VALUE = 107;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_SCENE_PROP_SYNC = 111;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_WIND_SEED_SPAWNER = 108;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_SCENE_PROP_SYNC_VALUE = 111;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_WIND_SEED_SPAWNER_VALUE = 108;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_WIDGET_MP_SUPPORT = 112;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_ELEMENT_REACTION = 109;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_WIDGET_MP_SUPPORT_VALUE = 112;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_ELEMENT_REACTION_VALUE = 109;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO = 113;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_FIELD_ENTITY_COUNT_CHANGE = 110;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO_VALUE = 113;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_FIELD_ENTITY_COUNT_CHANGE_VALUE = 110;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_FIREWORKS_LAUNCHER = 114;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_SCENE_PROP_SYNC = 111;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_FIREWORKS_LAUNCHER_VALUE = 114;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_SCENE_PROP_SYNC_VALUE = 111;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACK_RESULT_CREATE_COUNT = 115;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_WIDGET_MP_SUPPORT = 112;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACK_RESULT_CREATE_COUNT_VALUE = 115;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_WIDGET_MP_SUPPORT_VALUE = 112;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_UGC_TIME_CONTROL = 116;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO = 113;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_UGC_TIME_CONTROL_VALUE = 116;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO_VALUE = 113;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_COMBAT = 117;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_FIREWORKS_LAUNCHER = 114;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_COMBAT_VALUE = 117;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_FIREWORKS_LAUNCHER_VALUE = 114;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN = 118;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ATTACK_RESULT_CREATE_COUNT = 115;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN_VALUE = 118;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_ATTACK_RESULT_CREATE_COUNT_VALUE = 115;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_UI_INTERACT = 119;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_UGC_TIME_CONTROL = 116;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_UI_INTERACT_VALUE = 119;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_UGC_TIME_CONTROL_VALUE = 116;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_SHOOT_FROM_CAMERA = 120;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_COMBAT = 117;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_SHOOT_FROM_CAMERA_VALUE = 120;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_COMBAT_VALUE = 117;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ERASE_BRICK_ACTIVITY = 121;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN = 118;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_ERASE_BRICK_ACTIVITY_VALUE = 121;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN_VALUE = 118;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_BREAKOUT = 122;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_UI_INTERACT = 119;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_BREAKOUT_VALUE = 122;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_UI_INTERACT_VALUE = 119;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_DAMAGE_LOAN = 123;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_SHOOT_FROM_CAMERA = 120;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_DAMAGE_LOAN_VALUE = 123;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_SHOOT_FROM_CAMERA_VALUE = 120;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_BROADCAST_GV = 124;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ERASE_BRICK_ACTIVITY = 121;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_BROADCAST_GV_VALUE = 124;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_ERASE_BRICK_ACTIVITY_VALUE = 121;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_RECEIVE_GV = 125;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_BREAKOUT = 122;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_RECEIVE_GV_VALUE = 125;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_BREAKOUT_VALUE = 122;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_RAYCAST_SELECT_TARGET = 126;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_DAMAGE_LOAN = 123;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_RAYCAST_SELECT_TARGET_VALUE = 126;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_DAMAGE_LOAN_VALUE = 123;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ENERGY_CRYSTAL_TARGET = 127;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_BROADCAST_GV = 124;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_ENERGY_CRYSTAL_TARGET_VALUE = 127;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_BROADCAST_GV_VALUE = 124;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ROTATION_FOLLOW_CAMERA = 128;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_RECEIVE_GV = 125;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_ROTATION_FOLLOW_CAMERA_VALUE = 128;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_RECEIVE_GV_VALUE = 125;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_BUOYANT_FORCE = 129;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_RAYCAST_SELECT_TARGET = 126;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_BUOYANT_FORCE_VALUE = 129;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_RAYCAST_SELECT_TARGET_VALUE = 126;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_FILMFEST_BALL_GAME = 130;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ENERGY_CRYSTAL_TARGET = 127;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_FILMFEST_BALL_GAME_VALUE = 130;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_ENERGY_CRYSTAL_TARGET_VALUE = 127;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_CHECK_SCAN_ENTITY = 131;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ROTATION_FOLLOW_CAMERA = 128;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_CHECK_SCAN_ENTITY_VALUE = 131;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_ROTATION_FOLLOW_CAMERA_VALUE = 128;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_TIME_TRACK_PLAYER = 133;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_BUOYANT_FORCE = 129;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_TIME_TRACK_PLAYER_VALUE = 133;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_BUOYANT_FORCE_VALUE = 129;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_PART_FOLLOW = 134;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_FILMFEST_BALL_GAME = 130;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_PART_FOLLOW_VALUE = 134;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_FILMFEST_BALL_GAME_VALUE = 130;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_CHANGE_PHLOGISTON = 135;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_CHECK_SCAN_ENTITY = 131;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_CHANGE_PHLOGISTON_VALUE = 135;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_CHECK_SCAN_ENTITY_VALUE = 131;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL = 136;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_TIME_TRACK_PLAYER = 133;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL_VALUE = 136;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_TIME_TRACK_PLAYER_VALUE = 133;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_FREQUENCY_SHIELD_BAR = 137;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_PART_FOLLOW = 134;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_FREQUENCY_SHIELD_BAR_VALUE = 137;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_PART_FOLLOW_VALUE = 134;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE = 139;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_CHANGE_PHLOGISTON = 135;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE_VALUE = 139;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_CHANGE_PHLOGISTON_VALUE = 135;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_VEHICLE_STEER_BY_CAMERA = 141;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL = 136;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_VEHICLE_STEER_BY_CAMERA_VALUE = 141;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL_VALUE = 136;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_SPECIAL_MOVE = 143;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_FREQUENCY_SHIELD_BAR = 137;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_SPECIAL_MOVE_VALUE = 143;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_FREQUENCY_SHIELD_BAR_VALUE = 137;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_DAMAGE = 145;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_SHAMAN_VIEW_TARGET = 138;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_DAMAGE_VALUE = 145;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_SHAMAN_VIEW_TARGET_VALUE = 138;
     /**
-     * <code>ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT = 146;</code>
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE = 139;</code>
      */
-    public static final int ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT_VALUE = 146;
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE_VALUE = 139;
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_BRICK_MATRIX = 140;</code>
+     */
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_BRICK_MATRIX_VALUE = 140;
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_VEHICLE_STEER_BY_CAMERA = 141;</code>
+     */
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_VEHICLE_STEER_BY_CAMERA_VALUE = 141;
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_SPECIAL_MOVE = 143;</code>
+     */
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_SPECIAL_MOVE_VALUE = 143;
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_DAMAGE = 145;</code>
+     */
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_DAMAGE_VALUE = 145;
+    /**
+     * <code>AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT = 146;</code>
+     */
+    public static final int AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT_VALUE = 146;
 
 
     public final int getNumber() {
@@ -740,92 +776,97 @@ public final class AbilityInvokeArgumentOuterClass {
      */
     public static AbilityInvokeArgument forNumber(int value) {
       switch (value) {
-        case 0: return ABILITY_INVOKE_ARGUMENT_NONE;
-        case 1: return ABILITY_INVOKE_ARGUMENT_META_MODIFIER_CHANGE;
-        case 2: return ABILITY_INVOKE_ARGUMENT_META_COMMAND_MODIFIER_CHANGE_REQUEST;
-        case 3: return ABILITY_INVOKE_ARGUMENT_META_SPECIAL_FLOAT_ARGUMENT;
-        case 4: return ABILITY_INVOKE_ARGUMENT_META_OVERRIDE_PARAM;
-        case 5: return ABILITY_INVOKE_ARGUMENT_META_CLEAR_OVERRIDE_PARAM;
-        case 6: return ABILITY_INVOKE_ARGUMENT_META_REINIT_OVERRIDEMAP;
-        case 7: return ABILITY_INVOKE_ARGUMENT_META_GLOBAL_FLOAT_VALUE;
-        case 8: return ABILITY_INVOKE_ARGUMENT_META_CLEAR_GLOBAL_FLOAT_VALUE;
-        case 9: return ABILITY_INVOKE_ARGUMENT_META_ABILITY_ELEMENT_STRENGTH;
-        case 10: return ABILITY_INVOKE_ARGUMENT_META_ADD_OR_GET_ABILITY_AND_TRIGGER;
-        case 11: return ABILITY_INVOKE_ARGUMENT_META_SET_KILLED_SETATE;
-        case 12: return ABILITY_INVOKE_ARGUMENT_META_SET_ABILITY_TRIGGER;
-        case 13: return ABILITY_INVOKE_ARGUMENT_META_ADD_NEW_ABILITY;
-        case 14: return ABILITY_INVOKE_ARGUMENT_META_REMOVE_ABILITY;
-        case 15: return ABILITY_INVOKE_ARGUMENT_META_SET_MODIFIER_APPLY_ENTITY;
-        case 16: return ABILITY_INVOKE_ARGUMENT_META_MODIFIER_DURABILITY_CHANGE;
-        case 17: return ABILITY_INVOKE_ARGUMENT_META_ELEMENT_REACTION_VISUAL;
-        case 18: return ABILITY_INVOKE_ARGUMENT_META_SET_POSE_PARAMETER;
-        case 19: return ABILITY_INVOKE_ARGUMENT_META_UPDATE_BASE_REACTION_DAMAGE;
-        case 20: return ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ELEMENT_REACTION;
-        case 21: return ABILITY_INVOKE_ARGUMENT_META_LOSE_HP;
-        case 22: return ABILITY_INVOKE_ARGUMENT_META_DURABILITY_IS_ZERO;
-        case 23: return ABILITY_INVOKE_ARGUMENT_META_TRIGGER_ARKHE_REACTION;
-        case 24: return ABILITY_INVOKE_ARGUMENT_META_CHANGE_NYX_VALUE;
-        case 25: return ABILITY_INVOKE_ARGUMENT_META_ADD_SPECIAL_ENERGY_VALUE;
-        case 50: return ABILITY_INVOKE_ARGUMENT_ACTION_TRIGGER_ABILITY;
-        case 51: return ABILITY_INVOKE_ARGUMENT_ACTION_SET_CRASH_DAMAGE;
-        case 52: return ABILITY_INVOKE_ARGUMENT_ACTION_EFFECT;
-        case 53: return ABILITY_INVOKE_ARGUMENT_ACTION_SUMMON;
-        case 54: return ABILITY_INVOKE_ARGUMENT_ACTION_BLINK;
-        case 55: return ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_GADGET;
-        case 56: return ABILITY_INVOKE_ARGUMENT_ACTION_APPLY_LEVEL_MODIFIER;
-        case 57: return ABILITY_INVOKE_ARGUMENT_ACTION_GENERATE_ELEM_BALL;
-        case 58: return ABILITY_INVOKE_ARGUMENT_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE;
-        case 59: return ABILITY_INVOKE_ARGUMENT_ACTION_SERVER_MONSTER_LOG;
-        case 60: return ABILITY_INVOKE_ARGUMENT_ACTION_CREATE_TILE;
-        case 61: return ABILITY_INVOKE_ARGUMENT_ACTION_DESTROY_TILE;
-        case 62: return ABILITY_INVOKE_ARGUMENT_ACTION_FIRE_AFTER_IMAGE;
-        case 63: return ABILITY_INVOKE_ARGUMENT_ACTION_DEDUCT_STAMINA;
-        case 64: return ABILITY_INVOKE_ARGUMENT_ACTION_HIT_EFFECT;
-        case 65: return ABILITY_INVOKE_ARGUMENT_ACTION_SET_BULLET_TRACK_TARGET;
-        case 66: return ABILITY_INVOKE_ARGUMENT_ACTION_FIREWORK_EFFECT;
-        case 67: return ABILITY_INVOKE_ARGUMENT_ACTION_LEVEL_BANK_ADD_STUFF;
-        case 100: return ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_STEER_BY_CAMERA;
-        case 101: return ABILITY_INVOKE_ARGUMENT_MIXIN_MONSTER_DEFEND;
-        case 102: return ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_ZONE;
-        case 103: return ABILITY_INVOKE_ARGUMENT_MIXIN_COST_STAMINA;
-        case 104: return ABILITY_INVOKE_ARGUMENT_MIXIN_ELITE_SHIELD;
-        case 105: return ABILITY_INVOKE_ARGUMENT_MIXIN_ELEMENT_SHIELD;
-        case 106: return ABILITY_INVOKE_ARGUMENT_MIXIN_GLOBAL_SHIELD;
-        case 107: return ABILITY_INVOKE_ARGUMENT_MIXIN_SHIELD_BAR;
-        case 108: return ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_SEED_SPAWNER;
-        case 109: return ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_ELEMENT_REACTION;
-        case 110: return ABILITY_INVOKE_ARGUMENT_MIXIN_FIELD_ENTITY_COUNT_CHANGE;
-        case 111: return ABILITY_INVOKE_ARGUMENT_MIXIN_SCENE_PROP_SYNC;
-        case 112: return ABILITY_INVOKE_ARGUMENT_MIXIN_WIDGET_MP_SUPPORT;
-        case 113: return ABILITY_INVOKE_ARGUMENT_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO;
-        case 114: return ABILITY_INVOKE_ARGUMENT_MIXIN_FIREWORKS_LAUNCHER;
-        case 115: return ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACK_RESULT_CREATE_COUNT;
-        case 116: return ABILITY_INVOKE_ARGUMENT_MIXIN_UGC_TIME_CONTROL;
-        case 117: return ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_COMBAT;
-        case 118: return ABILITY_INVOKE_ARGUMENT_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN;
-        case 119: return ABILITY_INVOKE_ARGUMENT_MIXIN_UI_INTERACT;
-        case 120: return ABILITY_INVOKE_ARGUMENT_MIXIN_SHOOT_FROM_CAMERA;
-        case 121: return ABILITY_INVOKE_ARGUMENT_MIXIN_ERASE_BRICK_ACTIVITY;
-        case 122: return ABILITY_INVOKE_ARGUMENT_MIXIN_BREAKOUT;
-        case 123: return ABILITY_INVOKE_ARGUMENT_MIXIN_DAMAGE_LOAN;
-        case 124: return ABILITY_INVOKE_ARGUMENT_MIXIN_BROADCAST_GV;
-        case 125: return ABILITY_INVOKE_ARGUMENT_MIXIN_RECEIVE_GV;
-        case 126: return ABILITY_INVOKE_ARGUMENT_MIXIN_RAYCAST_SELECT_TARGET;
-        case 127: return ABILITY_INVOKE_ARGUMENT_MIXIN_ENERGY_CRYSTAL_TARGET;
-        case 128: return ABILITY_INVOKE_ARGUMENT_MIXIN_ROTATION_FOLLOW_CAMERA;
-        case 129: return ABILITY_INVOKE_ARGUMENT_MIXIN_BUOYANT_FORCE;
-        case 130: return ABILITY_INVOKE_ARGUMENT_MIXIN_FILMFEST_BALL_GAME;
-        case 131: return ABILITY_INVOKE_ARGUMENT_MIXIN_CHECK_SCAN_ENTITY;
-        case 133: return ABILITY_INVOKE_ARGUMENT_MIXIN_TIME_TRACK_PLAYER;
-        case 134: return ABILITY_INVOKE_ARGUMENT_MIXIN_PART_FOLLOW;
-        case 135: return ABILITY_INVOKE_ARGUMENT_MIXIN_CHANGE_PHLOGISTON;
-        case 136: return ABILITY_INVOKE_ARGUMENT_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL;
-        case 137: return ABILITY_INVOKE_ARGUMENT_MIXIN_FREQUENCY_SHIELD_BAR;
-        case 139: return ABILITY_INVOKE_ARGUMENT_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE;
-        case 141: return ABILITY_INVOKE_ARGUMENT_MIXIN_VEHICLE_STEER_BY_CAMERA;
-        case 143: return ABILITY_INVOKE_ARGUMENT_MIXIN_AVATAR_SPECIAL_MOVE;
-        case 145: return ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_DAMAGE;
-        case 146: return ABILITY_INVOKE_ARGUMENT_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT;
+        case 0: return AbilityInvokeArgument_ABILITY_NONE;
+        case 1: return AbilityInvokeArgument_ABILITY_META_MODIFIER_CHANGE;
+        case 2: return AbilityInvokeArgument_ABILITY_META_COMMAND_MODIFIER_CHANGE_REQUEST;
+        case 3: return AbilityInvokeArgument_ABILITY_META_SPECIAL_FLOAT_ARGUMENT;
+        case 4: return AbilityInvokeArgument_ABILITY_META_OVERRIDE_PARAM;
+        case 5: return AbilityInvokeArgument_ABILITY_META_CLEAR_OVERRIDE_PARAM;
+        case 6: return AbilityInvokeArgument_ABILITY_META_REINIT_OVERRIDEMAP;
+        case 7: return AbilityInvokeArgument_ABILITY_META_GLOBAL_FLOAT_VALUE;
+        case 8: return AbilityInvokeArgument_ABILITY_META_CLEAR_GLOBAL_FLOAT_VALUE;
+        case 9: return AbilityInvokeArgument_ABILITY_META_ABILITY_ELEMENT_STRENGTH;
+        case 10: return AbilityInvokeArgument_ABILITY_META_ADD_OR_GET_ABILITY_AND_TRIGGER;
+        case 11: return AbilityInvokeArgument_ABILITY_META_SET_KILLED_SETATE;
+        case 12: return AbilityInvokeArgument_ABILITY_META_SET_ABILITY_TRIGGER;
+        case 13: return AbilityInvokeArgument_ABILITY_META_ADD_NEW_ABILITY;
+        case 14: return AbilityInvokeArgument_ABILITY_META_REMOVE_ABILITY;
+        case 15: return AbilityInvokeArgument_ABILITY_META_SET_MODIFIER_APPLY_ENTITY;
+        case 16: return AbilityInvokeArgument_ABILITY_META_MODIFIER_DURABILITY_CHANGE;
+        case 17: return AbilityInvokeArgument_ABILITY_META_ELEMENT_REACTION_VISUAL;
+        case 18: return AbilityInvokeArgument_ABILITY_META_SET_POSE_PARAMETER;
+        case 19: return AbilityInvokeArgument_ABILITY_META_UPDATE_BASE_REACTION_DAMAGE;
+        case 20: return AbilityInvokeArgument_ABILITY_META_TRIGGER_ELEMENT_REACTION;
+        case 21: return AbilityInvokeArgument_ABILITY_META_LOSE_HP;
+        case 22: return AbilityInvokeArgument_ABILITY_META_DURABILITY_IS_ZERO;
+        case 23: return AbilityInvokeArgument_ABILITY_META_TRIGGER_ARKHE_REACTION;
+        case 24: return AbilityInvokeArgument_ABILITY_META_CHANGE_NYX_VALUE;
+        case 25: return AbilityInvokeArgument_ABILITY_META_ADD_SPECIAL_ENERGY_VALUE;
+        case 50: return AbilityInvokeArgument_ABILITY_ACTION_TRIGGER_ABILITY;
+        case 51: return AbilityInvokeArgument_ABILITY_ACTION_SET_CRASH_DAMAGE;
+        case 52: return AbilityInvokeArgument_ABILITY_ACTION_EFFECT;
+        case 53: return AbilityInvokeArgument_ABILITY_ACTION_SUMMON;
+        case 54: return AbilityInvokeArgument_ABILITY_ACTION_BLINK;
+        case 55: return AbilityInvokeArgument_ABILITY_ACTION_CREATE_GADGET;
+        case 56: return AbilityInvokeArgument_ABILITY_ACTION_APPLY_LEVEL_MODIFIER;
+        case 57: return AbilityInvokeArgument_ABILITY_ACTION_GENERATE_ELEM_BALL;
+        case 58: return AbilityInvokeArgument_ABILITY_ACTION_SET_RANDOM_OVERRIDE_MAP_VALUE;
+        case 59: return AbilityInvokeArgument_ABILITY_ACTION_SERVER_MONSTER_LOG;
+        case 60: return AbilityInvokeArgument_ABILITY_ACTION_CREATE_TILE;
+        case 61: return AbilityInvokeArgument_ABILITY_ACTION_DESTROY_TILE;
+        case 62: return AbilityInvokeArgument_ABILITY_ACTION_FIRE_AFTER_IMAGE;
+        case 63: return AbilityInvokeArgument_ABILITY_ACTION_DEDUCT_STAMINA;
+        case 64: return AbilityInvokeArgument_ABILITY_ACTION_HIT_EFFECT;
+        case 65: return AbilityInvokeArgument_ABILITY_ACTION_SET_BULLET_TRACK_TARGET;
+        case 66: return AbilityInvokeArgument_ABILITY_ACTION_FIREWORK_EFFECT;
+        case 67: return AbilityInvokeArgument_ABILITY_ACTION_LEVEL_BANK_ADD_STUFF;
+        case 68: return AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_FLOAT;
+        case 69: return AbilityInvokeArgument_ABILITY_ACTION_GET_MATERIAL_PARAM_VECTOR;
+        case 70: return AbilityInvokeArgument_ABILITY_ACTION_SPECTACLE_BUILD_RECREATE_GADGET;
+        case 100: return AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_STEER_BY_CAMERA;
+        case 101: return AbilityInvokeArgument_ABILITY_MIXIN_MONSTER_DEFEND;
+        case 102: return AbilityInvokeArgument_ABILITY_MIXIN_WIND_ZONE;
+        case 103: return AbilityInvokeArgument_ABILITY_MIXIN_COST_STAMINA;
+        case 104: return AbilityInvokeArgument_ABILITY_MIXIN_ELITE_SHIELD;
+        case 105: return AbilityInvokeArgument_ABILITY_MIXIN_ELEMENT_SHIELD;
+        case 106: return AbilityInvokeArgument_ABILITY_MIXIN_GLOBAL_SHIELD;
+        case 107: return AbilityInvokeArgument_ABILITY_MIXIN_SHIELD_BAR;
+        case 108: return AbilityInvokeArgument_ABILITY_MIXIN_WIND_SEED_SPAWNER;
+        case 109: return AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_ELEMENT_REACTION;
+        case 110: return AbilityInvokeArgument_ABILITY_MIXIN_FIELD_ENTITY_COUNT_CHANGE;
+        case 111: return AbilityInvokeArgument_ABILITY_MIXIN_SCENE_PROP_SYNC;
+        case 112: return AbilityInvokeArgument_ABILITY_MIXIN_WIDGET_MP_SUPPORT;
+        case 113: return AbilityInvokeArgument_ABILITY_MIXIN_DO_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABILITY_RATIO;
+        case 114: return AbilityInvokeArgument_ABILITY_MIXIN_FIREWORKS_LAUNCHER;
+        case 115: return AbilityInvokeArgument_ABILITY_MIXIN_ATTACK_RESULT_CREATE_COUNT;
+        case 116: return AbilityInvokeArgument_ABILITY_MIXIN_UGC_TIME_CONTROL;
+        case 117: return AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_COMBAT;
+        case 118: return AbilityInvokeArgument_ABILITY_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN;
+        case 119: return AbilityInvokeArgument_ABILITY_MIXIN_UI_INTERACT;
+        case 120: return AbilityInvokeArgument_ABILITY_MIXIN_SHOOT_FROM_CAMERA;
+        case 121: return AbilityInvokeArgument_ABILITY_MIXIN_ERASE_BRICK_ACTIVITY;
+        case 122: return AbilityInvokeArgument_ABILITY_MIXIN_BREAKOUT;
+        case 123: return AbilityInvokeArgument_ABILITY_MIXIN_DAMAGE_LOAN;
+        case 124: return AbilityInvokeArgument_ABILITY_MIXIN_BROADCAST_GV;
+        case 125: return AbilityInvokeArgument_ABILITY_MIXIN_RECEIVE_GV;
+        case 126: return AbilityInvokeArgument_ABILITY_MIXIN_RAYCAST_SELECT_TARGET;
+        case 127: return AbilityInvokeArgument_ABILITY_MIXIN_ENERGY_CRYSTAL_TARGET;
+        case 128: return AbilityInvokeArgument_ABILITY_MIXIN_ROTATION_FOLLOW_CAMERA;
+        case 129: return AbilityInvokeArgument_ABILITY_MIXIN_BUOYANT_FORCE;
+        case 130: return AbilityInvokeArgument_ABILITY_MIXIN_FILMFEST_BALL_GAME;
+        case 131: return AbilityInvokeArgument_ABILITY_MIXIN_CHECK_SCAN_ENTITY;
+        case 133: return AbilityInvokeArgument_ABILITY_MIXIN_TIME_TRACK_PLAYER;
+        case 134: return AbilityInvokeArgument_ABILITY_MIXIN_PART_FOLLOW;
+        case 135: return AbilityInvokeArgument_ABILITY_MIXIN_CHANGE_PHLOGISTON;
+        case 136: return AbilityInvokeArgument_ABILITY_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL;
+        case 137: return AbilityInvokeArgument_ABILITY_MIXIN_FREQUENCY_SHIELD_BAR;
+        case 138: return AbilityInvokeArgument_ABILITY_MIXIN_SHAMAN_VIEW_TARGET;
+        case 139: return AbilityInvokeArgument_ABILITY_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VALUE;
+        case 140: return AbilityInvokeArgument_ABILITY_MIXIN_BRICK_MATRIX;
+        case 141: return AbilityInvokeArgument_ABILITY_MIXIN_VEHICLE_STEER_BY_CAMERA;
+        case 143: return AbilityInvokeArgument_ABILITY_MIXIN_AVATAR_SPECIAL_MOVE;
+        case 145: return AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_DAMAGE;
+        case 146: return AbilityInvokeArgument_ABILITY_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT;
         default: return null;
       }
     }
@@ -891,125 +932,146 @@ public final class AbilityInvokeArgumentOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033AbilityInvokeArgument.proto*\313$\n\025Abilit" +
-      "yInvokeArgument\022 \n\034ABILITY_INVOKE_ARGUME" +
-      "NT_NONE\020\000\0220\n,ABILITY_INVOKE_ARGUMENT_MET" +
-      "A_MODIFIER_CHANGE\020\001\022@\n<ABILITY_INVOKE_AR" +
-      "GUMENT_META_COMMAND_MODIFIER_CHANGE_REQU" +
-      "EST\020\002\0227\n3ABILITY_INVOKE_ARGUMENT_META_SP" +
-      "ECIAL_FLOAT_ARGUMENT\020\003\022/\n+ABILITY_INVOKE" +
-      "_ARGUMENT_META_OVERRIDE_PARAM\020\004\0225\n1ABILI" +
-      "TY_INVOKE_ARGUMENT_META_CLEAR_OVERRIDE_P" +
-      "ARAM\020\005\0223\n/ABILITY_INVOKE_ARGUMENT_META_R" +
-      "EINIT_OVERRIDEMAP\020\006\0223\n/ABILITY_INVOKE_AR" +
-      "GUMENT_META_GLOBAL_FLOAT_VALUE\020\007\0229\n5ABIL" +
-      "ITY_INVOKE_ARGUMENT_META_CLEAR_GLOBAL_FL" +
-      "OAT_VALUE\020\010\0229\n5ABILITY_INVOKE_ARGUMENT_M" +
-      "ETA_ABILITY_ELEMENT_STRENGTH\020\t\022?\n;ABILIT" +
-      "Y_INVOKE_ARGUMENT_META_ADD_OR_GET_ABILIT" +
-      "Y_AND_TRIGGER\020\n\0222\n.ABILITY_INVOKE_ARGUME" +
-      "NT_META_SET_KILLED_SETATE\020\013\0224\n0ABILITY_I" +
-      "NVOKE_ARGUMENT_META_SET_ABILITY_TRIGGER\020" +
-      "\014\0220\n,ABILITY_INVOKE_ARGUMENT_META_ADD_NE" +
-      "W_ABILITY\020\r\022/\n+ABILITY_INVOKE_ARGUMENT_M" +
-      "ETA_REMOVE_ABILITY\020\016\022:\n6ABILITY_INVOKE_A" +
-      "RGUMENT_META_SET_MODIFIER_APPLY_ENTITY\020\017" +
-      "\022;\n7ABILITY_INVOKE_ARGUMENT_META_MODIFIE" +
-      "R_DURABILITY_CHANGE\020\020\0228\n4ABILITY_INVOKE_" +
-      "ARGUMENT_META_ELEMENT_REACTION_VISUAL\020\021\022" +
-      "3\n/ABILITY_INVOKE_ARGUMENT_META_SET_POSE" +
-      "_PARAMETER\020\022\022<\n8ABILITY_INVOKE_ARGUMENT_" +
-      "META_UPDATE_BASE_REACTION_DAMAGE\020\023\0229\n5AB" +
-      "ILITY_INVOKE_ARGUMENT_META_TRIGGER_ELEME" +
-      "NT_REACTION\020\024\022(\n$ABILITY_INVOKE_ARGUMENT" +
-      "_META_LOSE_HP\020\025\0223\n/ABILITY_INVOKE_ARGUME" +
-      "NT_META_DURABILITY_IS_ZERO\020\026\0227\n3ABILITY_" +
-      "INVOKE_ARGUMENT_META_TRIGGER_ARKHE_REACT" +
-      "ION\020\027\0221\n-ABILITY_INVOKE_ARGUMENT_META_CH" +
-      "ANGE_NYX_VALUE\020\030\0229\n5ABILITY_INVOKE_ARGUM" +
-      "ENT_META_ADD_SPECIAL_ENERGY_VALUE\020\031\0222\n.A" +
-      "BILITY_INVOKE_ARGUMENT_ACTION_TRIGGER_AB" +
-      "ILITY\0202\0223\n/ABILITY_INVOKE_ARGUMENT_ACTIO" +
-      "N_SET_CRASH_DAMAGE\0203\022)\n%ABILITY_INVOKE_A" +
-      "RGUMENT_ACTION_EFFECT\0204\022)\n%ABILITY_INVOK" +
-      "E_ARGUMENT_ACTION_SUMMON\0205\022(\n$ABILITY_IN" +
-      "VOKE_ARGUMENT_ACTION_BLINK\0206\0220\n,ABILITY_" +
-      "INVOKE_ARGUMENT_ACTION_CREATE_GADGET\0207\0227" +
-      "\n3ABILITY_INVOKE_ARGUMENT_ACTION_APPLY_L" +
-      "EVEL_MODIFIER\0208\0225\n1ABILITY_INVOKE_ARGUME" +
-      "NT_ACTION_GENERATE_ELEM_BALL\0209\022@\n<ABILIT" +
-      "Y_INVOKE_ARGUMENT_ACTION_SET_RANDOM_OVER" +
-      "RIDE_MAP_VALUE\020:\0225\n1ABILITY_INVOKE_ARGUM" +
-      "ENT_ACTION_SERVER_MONSTER_LOG\020;\022.\n*ABILI" +
-      "TY_INVOKE_ARGUMENT_ACTION_CREATE_TILE\020<\022" +
-      "/\n+ABILITY_INVOKE_ARGUMENT_ACTION_DESTRO" +
-      "Y_TILE\020=\0223\n/ABILITY_INVOKE_ARGUMENT_ACTI" +
-      "ON_FIRE_AFTER_IMAGE\020>\0221\n-ABILITY_INVOKE_" +
-      "ARGUMENT_ACTION_DEDUCT_STAMINA\020?\022-\n)ABIL" +
-      "ITY_INVOKE_ARGUMENT_ACTION_HIT_EFFECT\020@\022" +
-      ":\n6ABILITY_INVOKE_ARGUMENT_ACTION_SET_BU" +
-      "LLET_TRACK_TARGET\020A\0222\n.ABILITY_INVOKE_AR" +
-      "GUMENT_ACTION_FIREWORK_EFFECT\020B\0227\n3ABILI" +
-      "TY_INVOKE_ARGUMENT_ACTION_LEVEL_BANK_ADD" +
-      "_STUFF\020C\0228\n4ABILITY_INVOKE_ARGUMENT_MIXI" +
-      "N_AVATAR_STEER_BY_CAMERA\020d\0220\n,ABILITY_IN" +
-      "VOKE_ARGUMENT_MIXIN_MONSTER_DEFEND\020e\022+\n\'" +
-      "ABILITY_INVOKE_ARGUMENT_MIXIN_WIND_ZONE\020" +
-      "f\022.\n*ABILITY_INVOKE_ARGUMENT_MIXIN_COST_" +
-      "STAMINA\020g\022.\n*ABILITY_INVOKE_ARGUMENT_MIX" +
-      "IN_ELITE_SHIELD\020h\0220\n,ABILITY_INVOKE_ARGU" +
-      "MENT_MIXIN_ELEMENT_SHIELD\020i\022/\n+ABILITY_I" +
-      "NVOKE_ARGUMENT_MIXIN_GLOBAL_SHIELD\020j\022,\n(" +
-      "ABILITY_INVOKE_ARGUMENT_MIXIN_SHIELD_BAR" +
-      "\020k\0223\n/ABILITY_INVOKE_ARGUMENT_MIXIN_WIND" +
-      "_SEED_SPAWNER\020l\022?\n;ABILITY_INVOKE_ARGUME" +
-      "NT_MIXIN_DO_ACTION_BY_ELEMENT_REACTION\020m" +
-      "\022;\n7ABILITY_INVOKE_ARGUMENT_MIXIN_FIELD_" +
-      "ENTITY_COUNT_CHANGE\020n\0221\n-ABILITY_INVOKE_" +
-      "ARGUMENT_MIXIN_SCENE_PROP_SYNC\020o\0223\n/ABIL" +
-      "ITY_INVOKE_ARGUMENT_MIXIN_WIDGET_MP_SUPP" +
-      "ORT\020p\022U\nQABILITY_INVOKE_ARGUMENT_MIXIN_D" +
-      "O_ACTION_BY_SELF_MODIFIER_ELEMENT_DURABI" +
-      "LITY_RATIO\020q\0224\n0ABILITY_INVOKE_ARGUMENT_" +
-      "MIXIN_FIREWORKS_LAUNCHER\020r\022<\n8ABILITY_IN" +
-      "VOKE_ARGUMENT_MIXIN_ATTACK_RESULT_CREATE" +
-      "_COUNT\020s\0222\n.ABILITY_INVOKE_ARGUMENT_MIXI" +
-      "N_UGC_TIME_CONTROL\020t\022/\n+ABILITY_INVOKE_A" +
-      "RGUMENT_MIXIN_AVATAR_COMBAT\020u\022@\n<ABILITY" +
-      "_INVOKE_ARGUMENT_MIXIN_DEATH_ZONE_REGION" +
-      "AL_PLAY_MIXIN\020v\022-\n)ABILITY_INVOKE_ARGUME" +
-      "NT_MIXIN_UI_INTERACT\020w\0223\n/ABILITY_INVOKE" +
-      "_ARGUMENT_MIXIN_SHOOT_FROM_CAMERA\020x\0226\n2A" +
-      "BILITY_INVOKE_ARGUMENT_MIXIN_ERASE_BRICK" +
-      "_ACTIVITY\020y\022*\n&ABILITY_INVOKE_ARGUMENT_M" +
-      "IXIN_BREAKOUT\020z\022-\n)ABILITY_INVOKE_ARGUME" +
-      "NT_MIXIN_DAMAGE_LOAN\020{\022.\n*ABILITY_INVOKE" +
-      "_ARGUMENT_MIXIN_BROADCAST_GV\020|\022,\n(ABILIT" +
-      "Y_INVOKE_ARGUMENT_MIXIN_RECEIVE_GV\020}\0227\n3" +
-      "ABILITY_INVOKE_ARGUMENT_MIXIN_RAYCAST_SE" +
-      "LECT_TARGET\020~\0227\n3ABILITY_INVOKE_ARGUMENT" +
-      "_MIXIN_ENERGY_CRYSTAL_TARGET\020\177\0229\n4ABILIT" +
-      "Y_INVOKE_ARGUMENT_MIXIN_ROTATION_FOLLOW_" +
-      "CAMERA\020\200\001\0220\n+ABILITY_INVOKE_ARGUMENT_MIX" +
-      "IN_BUOYANT_FORCE\020\201\001\0225\n0ABILITY_INVOKE_AR" +
-      "GUMENT_MIXIN_FILMFEST_BALL_GAME\020\202\001\0224\n/AB" +
-      "ILITY_INVOKE_ARGUMENT_MIXIN_CHECK_SCAN_E" +
-      "NTITY\020\203\001\0224\n/ABILITY_INVOKE_ARGUMENT_MIXI" +
-      "N_TIME_TRACK_PLAYER\020\205\001\022.\n)ABILITY_INVOKE" +
-      "_ARGUMENT_MIXIN_PART_FOLLOW\020\206\001\0224\n/ABILIT" +
-      "Y_INVOKE_ARGUMENT_MIXIN_CHANGE_PHLOGISTO" +
-      "N\020\207\001\022K\nFABILITY_INVOKE_ARGUMENT_MIXIN_HU" +
-      "MAN_DRAGON_COLLAB_PICK_PHLOGISTON_BALL\020\210" +
-      "\001\0227\n2ABILITY_INVOKE_ARGUMENT_MIXIN_FREQU" +
-      "ENCY_SHIELD_BAR\020\211\001\022B\n=ABILITY_INVOKE_ARG" +
-      "UMENT_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_VA" +
-      "LUE\020\213\001\022:\n5ABILITY_INVOKE_ARGUMENT_MIXIN_" +
-      "VEHICLE_STEER_BY_CAMERA\020\215\001\0226\n1ABILITY_IN" +
-      "VOKE_ARGUMENT_MIXIN_AVATAR_SPECIAL_MOVE\020" +
-      "\217\001\0220\n+ABILITY_INVOKE_ARGUMENT_MIXIN_MODI" +
-      "FY_DAMAGE\020\221\001\022=\n8ABILITY_INVOKE_ARGUMENT_" +
-      "MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT\020\222\001B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\033AbilityInvokeArgument.proto*\224+\n\025Abilit" +
+      "yInvokeArgument\022&\n\"AbilityInvokeArgument" +
+      "_ABILITY_NONE\020\000\0226\n2AbilityInvokeArgument" +
+      "_ABILITY_META_MODIFIER_CHANGE\020\001\022F\nBAbili" +
+      "tyInvokeArgument_ABILITY_META_COMMAND_MO" +
+      "DIFIER_CHANGE_REQUEST\020\002\022=\n9AbilityInvoke" +
+      "Argument_ABILITY_META_SPECIAL_FLOAT_ARGU" +
+      "MENT\020\003\0225\n1AbilityInvokeArgument_ABILITY_" +
+      "META_OVERRIDE_PARAM\020\004\022;\n7AbilityInvokeAr" +
+      "gument_ABILITY_META_CLEAR_OVERRIDE_PARAM" +
+      "\020\005\0229\n5AbilityInvokeArgument_ABILITY_META" +
+      "_REINIT_OVERRIDEMAP\020\006\0229\n5AbilityInvokeAr" +
+      "gument_ABILITY_META_GLOBAL_FLOAT_VALUE\020\007" +
+      "\022?\n;AbilityInvokeArgument_ABILITY_META_C" +
+      "LEAR_GLOBAL_FLOAT_VALUE\020\010\022?\n;AbilityInvo" +
+      "keArgument_ABILITY_META_ABILITY_ELEMENT_" +
+      "STRENGTH\020\t\022E\nAAbilityInvokeArgument_ABIL" +
+      "ITY_META_ADD_OR_GET_ABILITY_AND_TRIGGER\020" +
+      "\n\0228\n4AbilityInvokeArgument_ABILITY_META_" +
+      "SET_KILLED_SETATE\020\013\022:\n6AbilityInvokeArgu" +
+      "ment_ABILITY_META_SET_ABILITY_TRIGGER\020\014\022" +
+      "6\n2AbilityInvokeArgument_ABILITY_META_AD" +
+      "D_NEW_ABILITY\020\r\0225\n1AbilityInvokeArgument" +
+      "_ABILITY_META_REMOVE_ABILITY\020\016\022@\n<Abilit" +
+      "yInvokeArgument_ABILITY_META_SET_MODIFIE" +
+      "R_APPLY_ENTITY\020\017\022A\n=AbilityInvokeArgumen" +
+      "t_ABILITY_META_MODIFIER_DURABILITY_CHANG" +
+      "E\020\020\022>\n:AbilityInvokeArgument_ABILITY_MET" +
+      "A_ELEMENT_REACTION_VISUAL\020\021\0229\n5AbilityIn" +
+      "vokeArgument_ABILITY_META_SET_POSE_PARAM" +
+      "ETER\020\022\022B\n>AbilityInvokeArgument_ABILITY_" +
+      "META_UPDATE_BASE_REACTION_DAMAGE\020\023\022?\n;Ab" +
+      "ilityInvokeArgument_ABILITY_META_TRIGGER" +
+      "_ELEMENT_REACTION\020\024\022.\n*AbilityInvokeArgu" +
+      "ment_ABILITY_META_LOSE_HP\020\025\0229\n5AbilityIn" +
+      "vokeArgument_ABILITY_META_DURABILITY_IS_" +
+      "ZERO\020\026\022=\n9AbilityInvokeArgument_ABILITY_" +
+      "META_TRIGGER_ARKHE_REACTION\020\027\0227\n3Ability" +
+      "InvokeArgument_ABILITY_META_CHANGE_NYX_V" +
+      "ALUE\020\030\022?\n;AbilityInvokeArgument_ABILITY_" +
+      "META_ADD_SPECIAL_ENERGY_VALUE\020\031\0228\n4Abili" +
+      "tyInvokeArgument_ABILITY_ACTION_TRIGGER_" +
+      "ABILITY\0202\0229\n5AbilityInvokeArgument_ABILI" +
+      "TY_ACTION_SET_CRASH_DAMAGE\0203\022/\n+AbilityI" +
+      "nvokeArgument_ABILITY_ACTION_EFFECT\0204\022/\n" +
+      "+AbilityInvokeArgument_ABILITY_ACTION_SU" +
+      "MMON\0205\022.\n*AbilityInvokeArgument_ABILITY_" +
+      "ACTION_BLINK\0206\0226\n2AbilityInvokeArgument_" +
+      "ABILITY_ACTION_CREATE_GADGET\0207\022=\n9Abilit" +
+      "yInvokeArgument_ABILITY_ACTION_APPLY_LEV" +
+      "EL_MODIFIER\0208\022;\n7AbilityInvokeArgument_A" +
+      "BILITY_ACTION_GENERATE_ELEM_BALL\0209\022F\nBAb" +
+      "ilityInvokeArgument_ABILITY_ACTION_SET_R" +
+      "ANDOM_OVERRIDE_MAP_VALUE\020:\022;\n7AbilityInv" +
+      "okeArgument_ABILITY_ACTION_SERVER_MONSTE" +
+      "R_LOG\020;\0224\n0AbilityInvokeArgument_ABILITY" +
+      "_ACTION_CREATE_TILE\020<\0225\n1AbilityInvokeAr" +
+      "gument_ABILITY_ACTION_DESTROY_TILE\020=\0229\n5" +
+      "AbilityInvokeArgument_ABILITY_ACTION_FIR" +
+      "E_AFTER_IMAGE\020>\0227\n3AbilityInvokeArgument" +
+      "_ABILITY_ACTION_DEDUCT_STAMINA\020?\0223\n/Abil" +
+      "ityInvokeArgument_ABILITY_ACTION_HIT_EFF" +
+      "ECT\020@\022@\n<AbilityInvokeArgument_ABILITY_A" +
+      "CTION_SET_BULLET_TRACK_TARGET\020A\0228\n4Abili" +
+      "tyInvokeArgument_ABILITY_ACTION_FIREWORK" +
+      "_EFFECT\020B\022=\n9AbilityInvokeArgument_ABILI" +
+      "TY_ACTION_LEVEL_BANK_ADD_STUFF\020C\022A\n=Abil" +
+      "ityInvokeArgument_ABILITY_ACTION_GET_MAT" +
+      "ERIAL_PARAM_FLOAT\020D\022B\n>AbilityInvokeArgu" +
+      "ment_ABILITY_ACTION_GET_MATERIAL_PARAM_V" +
+      "ECTOR\020E\022H\nDAbilityInvokeArgument_ABILITY" +
+      "_ACTION_SPECTACLE_BUILD_RECREATE_GADGET\020" +
+      "F\022>\n:AbilityInvokeArgument_ABILITY_MIXIN" +
+      "_AVATAR_STEER_BY_CAMERA\020d\0226\n2AbilityInvo" +
+      "keArgument_ABILITY_MIXIN_MONSTER_DEFEND\020" +
+      "e\0221\n-AbilityInvokeArgument_ABILITY_MIXIN" +
+      "_WIND_ZONE\020f\0224\n0AbilityInvokeArgument_AB" +
+      "ILITY_MIXIN_COST_STAMINA\020g\0224\n0AbilityInv" +
+      "okeArgument_ABILITY_MIXIN_ELITE_SHIELD\020h" +
+      "\0226\n2AbilityInvokeArgument_ABILITY_MIXIN_" +
+      "ELEMENT_SHIELD\020i\0225\n1AbilityInvokeArgumen" +
+      "t_ABILITY_MIXIN_GLOBAL_SHIELD\020j\0222\n.Abili" +
+      "tyInvokeArgument_ABILITY_MIXIN_SHIELD_BA" +
+      "R\020k\0229\n5AbilityInvokeArgument_ABILITY_MIX" +
+      "IN_WIND_SEED_SPAWNER\020l\022E\nAAbilityInvokeA" +
+      "rgument_ABILITY_MIXIN_DO_ACTION_BY_ELEME" +
+      "NT_REACTION\020m\022A\n=AbilityInvokeArgument_A" +
+      "BILITY_MIXIN_FIELD_ENTITY_COUNT_CHANGE\020n" +
+      "\0227\n3AbilityInvokeArgument_ABILITY_MIXIN_" +
+      "SCENE_PROP_SYNC\020o\0229\n5AbilityInvokeArgume" +
+      "nt_ABILITY_MIXIN_WIDGET_MP_SUPPORT\020p\022[\nW" +
+      "AbilityInvokeArgument_ABILITY_MIXIN_DO_A" +
+      "CTION_BY_SELF_MODIFIER_ELEMENT_DURABILIT" +
+      "Y_RATIO\020q\022:\n6AbilityInvokeArgument_ABILI" +
+      "TY_MIXIN_FIREWORKS_LAUNCHER\020r\022B\n>Ability" +
+      "InvokeArgument_ABILITY_MIXIN_ATTACK_RESU" +
+      "LT_CREATE_COUNT\020s\0228\n4AbilityInvokeArgume" +
+      "nt_ABILITY_MIXIN_UGC_TIME_CONTROL\020t\0225\n1A" +
+      "bilityInvokeArgument_ABILITY_MIXIN_AVATA" +
+      "R_COMBAT\020u\022F\nBAbilityInvokeArgument_ABIL" +
+      "ITY_MIXIN_DEATH_ZONE_REGIONAL_PLAY_MIXIN" +
+      "\020v\0223\n/AbilityInvokeArgument_ABILITY_MIXI" +
+      "N_UI_INTERACT\020w\0229\n5AbilityInvokeArgument" +
+      "_ABILITY_MIXIN_SHOOT_FROM_CAMERA\020x\022<\n8Ab" +
+      "ilityInvokeArgument_ABILITY_MIXIN_ERASE_" +
+      "BRICK_ACTIVITY\020y\0220\n,AbilityInvokeArgumen" +
+      "t_ABILITY_MIXIN_BREAKOUT\020z\0223\n/AbilityInv" +
+      "okeArgument_ABILITY_MIXIN_DAMAGE_LOAN\020{\022" +
+      "4\n0AbilityInvokeArgument_ABILITY_MIXIN_B" +
+      "ROADCAST_GV\020|\0222\n.AbilityInvokeArgument_A" +
+      "BILITY_MIXIN_RECEIVE_GV\020}\022=\n9AbilityInvo" +
+      "keArgument_ABILITY_MIXIN_RAYCAST_SELECT_" +
+      "TARGET\020~\022=\n9AbilityInvokeArgument_ABILIT" +
+      "Y_MIXIN_ENERGY_CRYSTAL_TARGET\020\177\022?\n:Abili" +
+      "tyInvokeArgument_ABILITY_MIXIN_ROTATION_" +
+      "FOLLOW_CAMERA\020\200\001\0226\n1AbilityInvokeArgumen" +
+      "t_ABILITY_MIXIN_BUOYANT_FORCE\020\201\001\022;\n6Abil" +
+      "ityInvokeArgument_ABILITY_MIXIN_FILMFEST" +
+      "_BALL_GAME\020\202\001\022:\n5AbilityInvokeArgument_A" +
+      "BILITY_MIXIN_CHECK_SCAN_ENTITY\020\203\001\022:\n5Abi" +
+      "lityInvokeArgument_ABILITY_MIXIN_TIME_TR" +
+      "ACK_PLAYER\020\205\001\0224\n/AbilityInvokeArgument_A" +
+      "BILITY_MIXIN_PART_FOLLOW\020\206\001\022:\n5AbilityIn" +
+      "vokeArgument_ABILITY_MIXIN_CHANGE_PHLOGI" +
+      "STON\020\207\001\022Q\nLAbilityInvokeArgument_ABILITY" +
+      "_MIXIN_HUMAN_DRAGON_COLLAB_PICK_PHLOGIST" +
+      "ON_BALL\020\210\001\022=\n8AbilityInvokeArgument_ABIL" +
+      "ITY_MIXIN_FREQUENCY_SHIELD_BAR\020\211\001\022;\n6Abi" +
+      "lityInvokeArgument_ABILITY_MIXIN_SHAMAN_" +
+      "VIEW_TARGET\020\212\001\022H\nCAbilityInvokeArgument_" +
+      "ABILITY_MIXIN_ATTACH_MODIFIER_TO_GLOBAL_" +
+      "VALUE\020\213\001\0225\n0AbilityInvokeArgument_ABILIT" +
+      "Y_MIXIN_BRICK_MATRIX\020\214\001\022@\n;AbilityInvoke" +
+      "Argument_ABILITY_MIXIN_VEHICLE_STEER_BY_" +
+      "CAMERA\020\215\001\022<\n7AbilityInvokeArgument_ABILI" +
+      "TY_MIXIN_AVATAR_SPECIAL_MOVE\020\217\001\0226\n1Abili" +
+      "tyInvokeArgument_ABILITY_MIXIN_MODIFY_DA" +
+      "MAGE\020\221\001\022C\n>AbilityInvokeArgument_ABILITY" +
+      "_MIXIN_MODIFY_BE_HIT_DAMAGE_COUNT\020\222\001B\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

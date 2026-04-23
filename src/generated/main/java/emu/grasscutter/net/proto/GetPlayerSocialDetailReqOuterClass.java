@@ -19,20 +19,28 @@ public final class GetPlayerSocialDetailReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 param = 8;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 param = 13;</code>
      * @return The param.
      */
     int getParam();
 
     /**
-     * <code>uint32 uid = 2;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 uid = 15;</code>
      * @return The uid.
      */
     int getUid();
   }
   /**
    * <pre>
-   * CmdId: 4270
+   * CmdId: 1165
    * </pre>
    *
    * Protobuf type {@code GetPlayerSocialDetailReq}
@@ -79,14 +87,14 @@ public final class GetPlayerSocialDetailReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              uid_ = input.readUInt32();
-              break;
-            }
-            case 64: {
+            case 104: {
 
               param_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              uid_ = input.readUInt32();
               break;
             }
             default: {
@@ -121,10 +129,14 @@ public final class GetPlayerSocialDetailReqOuterClass {
               emu.grasscutter.net.proto.GetPlayerSocialDetailReqOuterClass.GetPlayerSocialDetailReq.class, emu.grasscutter.net.proto.GetPlayerSocialDetailReqOuterClass.GetPlayerSocialDetailReq.Builder.class);
     }
 
-    public static final int PARAM_FIELD_NUMBER = 8;
+    public static final int PARAM_FIELD_NUMBER = 13;
     private int param_;
     /**
-     * <code>uint32 param = 8;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 param = 13;</code>
      * @return The param.
      */
     @java.lang.Override
@@ -132,10 +144,14 @@ public final class GetPlayerSocialDetailReqOuterClass {
       return param_;
     }
 
-    public static final int UID_FIELD_NUMBER = 2;
+    public static final int UID_FIELD_NUMBER = 15;
     private int uid_;
     /**
-     * <code>uint32 uid = 2;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 uid = 15;</code>
      * @return The uid.
      */
     @java.lang.Override
@@ -157,11 +173,11 @@ public final class GetPlayerSocialDetailReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (uid_ != 0) {
-        output.writeUInt32(2, uid_);
-      }
       if (param_ != 0) {
-        output.writeUInt32(8, param_);
+        output.writeUInt32(13, param_);
+      }
+      if (uid_ != 0) {
+        output.writeUInt32(15, uid_);
       }
       unknownFields.writeTo(output);
     }
@@ -172,13 +188,13 @@ public final class GetPlayerSocialDetailReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (uid_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, uid_);
-      }
       if (param_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, param_);
+          .computeUInt32Size(13, param_);
+      }
+      if (uid_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, uid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -311,7 +327,7 @@ public final class GetPlayerSocialDetailReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 4270
+     * CmdId: 1165
      * </pre>
      *
      * Protobuf type {@code GetPlayerSocialDetailReq}
@@ -468,7 +484,11 @@ public final class GetPlayerSocialDetailReqOuterClass {
 
       private int param_ ;
       /**
-       * <code>uint32 param = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 param = 13;</code>
        * @return The param.
        */
       @java.lang.Override
@@ -476,7 +496,11 @@ public final class GetPlayerSocialDetailReqOuterClass {
         return param_;
       }
       /**
-       * <code>uint32 param = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 param = 13;</code>
        * @param value The param to set.
        * @return This builder for chaining.
        */
@@ -487,7 +511,11 @@ public final class GetPlayerSocialDetailReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 param = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 param = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearParam() {
@@ -499,7 +527,11 @@ public final class GetPlayerSocialDetailReqOuterClass {
 
       private int uid_ ;
       /**
-       * <code>uint32 uid = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 uid = 15;</code>
        * @return The uid.
        */
       @java.lang.Override
@@ -507,7 +539,11 @@ public final class GetPlayerSocialDetailReqOuterClass {
         return uid_;
       }
       /**
-       * <code>uint32 uid = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 uid = 15;</code>
        * @param value The uid to set.
        * @return This builder for chaining.
        */
@@ -518,7 +554,11 @@ public final class GetPlayerSocialDetailReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 uid = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 uid = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearUid() {
@@ -595,8 +635,8 @@ public final class GetPlayerSocialDetailReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036GetPlayerSocialDetailReq.proto\"6\n\030GetP" +
-      "layerSocialDetailReq\022\r\n\005param\030\010 \001(\r\022\013\n\003u" +
-      "id\030\002 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "layerSocialDetailReq\022\r\n\005param\030\r \001(\r\022\013\n\003u" +
+      "id\030\017 \001(\rB\033\n\031emu.grasscutter.net.protob\006p" +
       "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

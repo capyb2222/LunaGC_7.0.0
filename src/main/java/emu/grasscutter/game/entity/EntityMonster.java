@@ -413,7 +413,7 @@ public class EntityMonster extends GameEntity {
         var data = this.getMonsterData();
 
         var aiInfo =
-                SceneEntityAiInfo.newBuilder().setIsAiOpen(true).setBornPos(this.getBornPos().toProto());
+                SceneEntityAiInfo.newBuilder().setIsAiOpen(true);
         if (ownerEntityId != 0) {
             aiInfo.setServantInfo(ServantInfo.newBuilder().setMasterEntityId(ownerEntityId));
         }
@@ -429,7 +429,7 @@ public class EntityMonster extends GameEntity {
         var entityInfo =
                 SceneEntityInfo.newBuilder()
                         .setEntityId(this.getId())
-                        .setEntityType(ProtEntityType.PROT_ENTITY_TYPE_MONSTER)
+                        .setEntityType(ProtEntityType.ProtEntityType_PROT_ENTITY_MONSTER)
                         .setMotionInfo(this.getMotionInfo())
                         .addAnimatorParaList(AnimatorParameterValueInfoPair.newBuilder())
                         .setEntityClientData(EntityClientData.newBuilder())
@@ -455,7 +455,7 @@ public class EntityMonster extends GameEntity {
                         .setBlockId(this.getScene().getId())
                         .setSummonedTag(this.summonedTag)
                         .setOwnerEntityId(this.ownerEntityId)
-                        .setBornType(MonsterBornType.MONSTER_BORN_TYPE_DEFAULT);
+                        .setBornType(MonsterBornType.MonsterBornType_MONSTER_BORN_DEFAULT);
         summonTagMap.forEach((k, v) -> monsterInfo.putSummonTagMap(k, v == null ? 0 : 1));
 
         if (this.metaMonster != null) {

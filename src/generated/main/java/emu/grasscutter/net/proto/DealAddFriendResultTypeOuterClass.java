@@ -20,24 +20,24 @@ public final class DealAddFriendResultTypeOuterClass {
   public enum DealAddFriendResultType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>DEAL_ADD_FRIEND_RESULT_TYPE_REJECT = 0;</code>
+     * <code>DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT = 0;</code>
      */
-    DEAL_ADD_FRIEND_RESULT_TYPE_REJECT(0),
+    DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT(0),
     /**
-     * <code>DEAL_ADD_FRIEND_RESULT_TYPE_ACCEPT = 1;</code>
+     * <code>DealAddFriendResultType_DEAL_ADD_FRIEND_ACCEPT = 1;</code>
      */
-    DEAL_ADD_FRIEND_RESULT_TYPE_ACCEPT(1),
+    DealAddFriendResultType_DEAL_ADD_FRIEND_ACCEPT(1),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>DEAL_ADD_FRIEND_RESULT_TYPE_REJECT = 0;</code>
+     * <code>DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT = 0;</code>
      */
-    public static final int DEAL_ADD_FRIEND_RESULT_TYPE_REJECT_VALUE = 0;
+    public static final int DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT_VALUE = 0;
     /**
-     * <code>DEAL_ADD_FRIEND_RESULT_TYPE_ACCEPT = 1;</code>
+     * <code>DealAddFriendResultType_DEAL_ADD_FRIEND_ACCEPT = 1;</code>
      */
-    public static final int DEAL_ADD_FRIEND_RESULT_TYPE_ACCEPT_VALUE = 1;
+    public static final int DealAddFriendResultType_DEAL_ADD_FRIEND_ACCEPT_VALUE = 1;
 
 
     public final int getNumber() {
@@ -64,8 +64,8 @@ public final class DealAddFriendResultTypeOuterClass {
      */
     public static DealAddFriendResultType forNumber(int value) {
       switch (value) {
-        case 0: return DEAL_ADD_FRIEND_RESULT_TYPE_REJECT;
-        case 1: return DEAL_ADD_FRIEND_RESULT_TYPE_ACCEPT;
+        case 0: return DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT;
+        case 1: return DealAddFriendResultType_DEAL_ADD_FRIEND_ACCEPT;
         default: return null;
       }
     }
@@ -131,11 +131,11 @@ public final class DealAddFriendResultTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035DealAddFriendResultType.proto*i\n\027DealA" +
-      "ddFriendResultType\022&\n\"DEAL_ADD_FRIEND_RE" +
-      "SULT_TYPE_REJECT\020\000\022&\n\"DEAL_ADD_FRIEND_RE" +
-      "SULT_TYPE_ACCEPT\020\001B\033\n\031emu.grasscutter.ne" +
-      "t.protob\006proto3"
+      "\n\035DealAddFriendResultType.proto*\201\001\n\027Deal" +
+      "AddFriendResultType\0222\n.DealAddFriendResu" +
+      "ltType_DEAL_ADD_FRIEND_REJECT\020\000\0222\n.DealA" +
+      "ddFriendResultType_DEAL_ADD_FRIEND_ACCEP" +
+      "T\020\001B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

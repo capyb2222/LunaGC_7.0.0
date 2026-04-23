@@ -37,9 +37,8 @@ public final class TakeBattlePassMissionPointReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 24391
-   * Version: 4.6.0
-   * Obfs: PCPEGKIEPPG
+   * CmdId: 20580
+   * Obf: GPPAPCLMIEA
    * </pre>
    *
    * Protobuf type {@code TakeBattlePassMissionPointReq}
@@ -346,9 +345,8 @@ public final class TakeBattlePassMissionPointReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 24391
-     * Version: 4.6.0
-     * Obfs: PCPEGKIEPPG
+     * CmdId: 20580
+     * Obf: GPPAPCLMIEA
      * </pre>
      *
      * Protobuf type {@code TakeBattlePassMissionPointReq}

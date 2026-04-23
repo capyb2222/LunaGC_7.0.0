@@ -15,6 +15,10 @@ public final class ChallengeFinishTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
+   * <pre>
+   * Obf: KKEOIBNCMCK
+   * </pre>
+   *
    * Protobuf enum {@code ChallengeFinishType}
    */
   public enum ChallengeFinishType

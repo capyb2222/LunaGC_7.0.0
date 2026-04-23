@@ -19,6 +19,12 @@ public final class ExhibitionDisplayInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>uint32 id = 1;</code>
+     * @return The id.
+     */
+    int getId();
+
+    /**
      * <code>uint32 param = 2;</code>
      * @return The param.
      */
@@ -29,14 +35,12 @@ public final class ExhibitionDisplayInfoOuterClass {
      * @return The detailParam.
      */
     int getDetailParam();
-
-    /**
-     * <code>uint32 id = 1;</code>
-     * @return The id.
-     */
-    int getId();
   }
   /**
+   * <pre>
+   * Obf: MCIHMDBLAPP
+   * </pre>
+   *
    * Protobuf type {@code ExhibitionDisplayInfo}
    */
   public static final class ExhibitionDisplayInfo extends
@@ -128,6 +132,17 @@ public final class ExhibitionDisplayInfoOuterClass {
               emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.class, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder.class);
     }
 
+    public static final int ID_FIELD_NUMBER = 1;
+    private int id_;
+    /**
+     * <code>uint32 id = 1;</code>
+     * @return The id.
+     */
+    @java.lang.Override
+    public int getId() {
+      return id_;
+    }
+
     public static final int PARAM_FIELD_NUMBER = 2;
     private int param_;
     /**
@@ -148,17 +163,6 @@ public final class ExhibitionDisplayInfoOuterClass {
     @java.lang.Override
     public int getDetailParam() {
       return detailParam_;
-    }
-
-    public static final int ID_FIELD_NUMBER = 1;
-    private int id_;
-    /**
-     * <code>uint32 id = 1;</code>
-     * @return The id.
-     */
-    @java.lang.Override
-    public int getId() {
-      return id_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -220,12 +224,12 @@ public final class ExhibitionDisplayInfoOuterClass {
       }
       emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo other = (emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo) obj;
 
+      if (getId()
+          != other.getId()) return false;
       if (getParam()
           != other.getParam()) return false;
       if (getDetailParam()
           != other.getDetailParam()) return false;
-      if (getId()
-          != other.getId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -237,12 +241,12 @@ public final class ExhibitionDisplayInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + ID_FIELD_NUMBER;
+      hash = (53 * hash) + getId();
       hash = (37 * hash) + PARAM_FIELD_NUMBER;
       hash = (53 * hash) + getParam();
       hash = (37 * hash) + DETAIL_PARAM_FIELD_NUMBER;
       hash = (53 * hash) + getDetailParam();
-      hash = (37 * hash) + ID_FIELD_NUMBER;
-      hash = (53 * hash) + getId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -339,6 +343,10 @@ public final class ExhibitionDisplayInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: MCIHMDBLAPP
+     * </pre>
+     *
      * Protobuf type {@code ExhibitionDisplayInfo}
      */
     public static final class Builder extends
@@ -376,11 +384,11 @@ public final class ExhibitionDisplayInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        id_ = 0;
+
         param_ = 0;
 
         detailParam_ = 0;
-
-        id_ = 0;
 
         return this;
       }
@@ -408,9 +416,9 @@ public final class ExhibitionDisplayInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo buildPartial() {
         emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo result = new emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo(this);
+        result.id_ = id_;
         result.param_ = param_;
         result.detailParam_ = detailParam_;
-        result.id_ = id_;
         onBuilt();
         return result;
       }
@@ -459,14 +467,14 @@ public final class ExhibitionDisplayInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo other) {
         if (other == emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.getDefaultInstance()) return this;
+        if (other.getId() != 0) {
+          setId(other.getId());
+        }
         if (other.getParam() != 0) {
           setParam(other.getParam());
         }
         if (other.getDetailParam() != 0) {
           setDetailParam(other.getDetailParam());
-        }
-        if (other.getId() != 0) {
-          setId(other.getId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -494,6 +502,37 @@ public final class ExhibitionDisplayInfoOuterClass {
             mergeFrom(parsedMessage);
           }
         }
+        return this;
+      }
+
+      private int id_ ;
+      /**
+       * <code>uint32 id = 1;</code>
+       * @return The id.
+       */
+      @java.lang.Override
+      public int getId() {
+        return id_;
+      }
+      /**
+       * <code>uint32 id = 1;</code>
+       * @param value The id to set.
+       * @return This builder for chaining.
+       */
+      public Builder setId(int value) {
+        
+        id_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearId() {
+        
+        id_ = 0;
+        onChanged();
         return this;
       }
 
@@ -555,37 +594,6 @@ public final class ExhibitionDisplayInfoOuterClass {
       public Builder clearDetailParam() {
         
         detailParam_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int id_ ;
-      /**
-       * <code>uint32 id = 1;</code>
-       * @return The id.
-       */
-      @java.lang.Override
-      public int getId() {
-        return id_;
-      }
-      /**
-       * <code>uint32 id = 1;</code>
-       * @param value The id to set.
-       * @return This builder for chaining.
-       */
-      public Builder setId(int value) {
-        
-        id_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearId() {
-        
-        id_ = 0;
         onChanged();
         return this;
       }
@@ -657,8 +665,8 @@ public final class ExhibitionDisplayInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033ExhibitionDisplayInfo.proto\"H\n\025Exhibit" +
-      "ionDisplayInfo\022\r\n\005param\030\002 \001(\r\022\024\n\014detail_" +
-      "param\030\003 \001(\r\022\n\n\002id\030\001 \001(\rB\033\n\031emu.grasscutt" +
+      "ionDisplayInfo\022\n\n\002id\030\001 \001(\r\022\r\n\005param\030\002 \001(" +
+      "\r\022\024\n\014detail_param\030\003 \001(\rB\033\n\031emu.grasscutt" +
       "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -670,7 +678,7 @@ public final class ExhibitionDisplayInfoOuterClass {
     internal_static_ExhibitionDisplayInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ExhibitionDisplayInfo_descriptor,
-        new java.lang.String[] { "Param", "DetailParam", "Id", });
+        new java.lang.String[] { "Id", "Param", "DetailParam", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

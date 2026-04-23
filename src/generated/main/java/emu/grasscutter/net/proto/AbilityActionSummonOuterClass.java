@@ -19,21 +19,6 @@ public final class AbilityActionSummonOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector rot = 13;</code>
-     * @return Whether the rot field is set.
-     */
-    boolean hasRot();
-    /**
-     * <code>.Vector rot = 13;</code>
-     * @return The rot.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getRot();
-    /**
-     * <code>.Vector rot = 13;</code>
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder();
-
-    /**
      * <code>.Vector pos = 4;</code>
      * @return Whether the pos field is set.
      */
@@ -47,12 +32,23 @@ public final class AbilityActionSummonOuterClass {
      * <code>.Vector pos = 4;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
+
+    /**
+     * <code>.Vector rot = 13;</code>
+     * @return Whether the rot field is set.
+     */
+    boolean hasRot();
+    /**
+     * <code>.Vector rot = 13;</code>
+     * @return The rot.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getRot();
+    /**
+     * <code>.Vector rot = 13;</code>
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder();
   }
   /**
-   * <pre>
-   * EKJPINHELHC(?),MHEFLIOBHJO,HAKLMLNJLOA,HFOJEHJAFIC,BCPNCFENHEL,BNPHCMPCMNL
-   * </pre>
-   *
    * Protobuf type {@code AbilityActionSummon}
    */
   public static final class AbilityActionSummon extends
@@ -155,32 +151,6 @@ public final class AbilityActionSummonOuterClass {
               emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon.class, emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon.Builder.class);
     }
 
-    public static final int ROT_FIELD_NUMBER = 13;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
-    /**
-     * <code>.Vector rot = 13;</code>
-     * @return Whether the rot field is set.
-     */
-    @java.lang.Override
-    public boolean hasRot() {
-      return rot_ != null;
-    }
-    /**
-     * <code>.Vector rot = 13;</code>
-     * @return The rot.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getRot() {
-      return rot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rot_;
-    }
-    /**
-     * <code>.Vector rot = 13;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder() {
-      return getRot();
-    }
-
     public static final int POS_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
@@ -205,6 +175,32 @@ public final class AbilityActionSummonOuterClass {
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
       return getPos();
+    }
+
+    public static final int ROT_FIELD_NUMBER = 13;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
+    /**
+     * <code>.Vector rot = 13;</code>
+     * @return Whether the rot field is set.
+     */
+    @java.lang.Override
+    public boolean hasRot() {
+      return rot_ != null;
+    }
+    /**
+     * <code>.Vector rot = 13;</code>
+     * @return The rot.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getRot() {
+      return rot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rot_;
+    }
+    /**
+     * <code>.Vector rot = 13;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder() {
+      return getRot();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -259,15 +255,15 @@ public final class AbilityActionSummonOuterClass {
       }
       emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon other = (emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon) obj;
 
-      if (hasRot() != other.hasRot()) return false;
-      if (hasRot()) {
-        if (!getRot()
-            .equals(other.getRot())) return false;
-      }
       if (hasPos() != other.hasPos()) return false;
       if (hasPos()) {
         if (!getPos()
             .equals(other.getPos())) return false;
+      }
+      if (hasRot() != other.hasRot()) return false;
+      if (hasRot()) {
+        if (!getRot()
+            .equals(other.getRot())) return false;
       }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
@@ -280,13 +276,13 @@ public final class AbilityActionSummonOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasRot()) {
-        hash = (37 * hash) + ROT_FIELD_NUMBER;
-        hash = (53 * hash) + getRot().hashCode();
-      }
       if (hasPos()) {
         hash = (37 * hash) + POS_FIELD_NUMBER;
         hash = (53 * hash) + getPos().hashCode();
+      }
+      if (hasRot()) {
+        hash = (37 * hash) + ROT_FIELD_NUMBER;
+        hash = (53 * hash) + getRot().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -384,10 +380,6 @@ public final class AbilityActionSummonOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * EKJPINHELHC(?),MHEFLIOBHJO,HAKLMLNJLOA,HFOJEHJAFIC,BCPNCFENHEL,BNPHCMPCMNL
-     * </pre>
-     *
      * Protobuf type {@code AbilityActionSummon}
      */
     public static final class Builder extends
@@ -425,17 +417,17 @@ public final class AbilityActionSummonOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (rotBuilder_ == null) {
-          rot_ = null;
-        } else {
-          rot_ = null;
-          rotBuilder_ = null;
-        }
         if (posBuilder_ == null) {
           pos_ = null;
         } else {
           pos_ = null;
           posBuilder_ = null;
+        }
+        if (rotBuilder_ == null) {
+          rot_ = null;
+        } else {
+          rot_ = null;
+          rotBuilder_ = null;
         }
         return this;
       }
@@ -463,15 +455,15 @@ public final class AbilityActionSummonOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon buildPartial() {
         emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon result = new emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon(this);
-        if (rotBuilder_ == null) {
-          result.rot_ = rot_;
-        } else {
-          result.rot_ = rotBuilder_.build();
-        }
         if (posBuilder_ == null) {
           result.pos_ = pos_;
         } else {
           result.pos_ = posBuilder_.build();
+        }
+        if (rotBuilder_ == null) {
+          result.rot_ = rot_;
+        } else {
+          result.rot_ = rotBuilder_.build();
         }
         onBuilt();
         return result;
@@ -521,11 +513,11 @@ public final class AbilityActionSummonOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon other) {
         if (other == emu.grasscutter.net.proto.AbilityActionSummonOuterClass.AbilityActionSummon.getDefaultInstance()) return this;
-        if (other.hasRot()) {
-          mergeRot(other.getRot());
-        }
         if (other.hasPos()) {
           mergePos(other.getPos());
+        }
+        if (other.hasRot()) {
+          mergeRot(other.getRot());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -554,125 +546,6 @@ public final class AbilityActionSummonOuterClass {
           }
         }
         return this;
-      }
-
-      private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotBuilder_;
-      /**
-       * <code>.Vector rot = 13;</code>
-       * @return Whether the rot field is set.
-       */
-      public boolean hasRot() {
-        return rotBuilder_ != null || rot_ != null;
-      }
-      /**
-       * <code>.Vector rot = 13;</code>
-       * @return The rot.
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector getRot() {
-        if (rotBuilder_ == null) {
-          return rot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rot_;
-        } else {
-          return rotBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>.Vector rot = 13;</code>
-       */
-      public Builder setRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (rotBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          rot_ = value;
-          onChanged();
-        } else {
-          rotBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector rot = 13;</code>
-       */
-      public Builder setRot(
-          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
-        if (rotBuilder_ == null) {
-          rot_ = builderForValue.build();
-          onChanged();
-        } else {
-          rotBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector rot = 13;</code>
-       */
-      public Builder mergeRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (rotBuilder_ == null) {
-          if (rot_ != null) {
-            rot_ =
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(rot_).mergeFrom(value).buildPartial();
-          } else {
-            rot_ = value;
-          }
-          onChanged();
-        } else {
-          rotBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector rot = 13;</code>
-       */
-      public Builder clearRot() {
-        if (rotBuilder_ == null) {
-          rot_ = null;
-          onChanged();
-        } else {
-          rot_ = null;
-          rotBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector rot = 13;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
-        
-        onChanged();
-        return getRotFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.Vector rot = 13;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder() {
-        if (rotBuilder_ != null) {
-          return rotBuilder_.getMessageOrBuilder();
-        } else {
-          return rot_ == null ?
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rot_;
-        }
-      }
-      /**
-       * <code>.Vector rot = 13;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
-          getRotFieldBuilder() {
-        if (rotBuilder_ == null) {
-          rotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
-                  getRot(),
-                  getParentForChildren(),
-                  isClean());
-          rot_ = null;
-        }
-        return rotBuilder_;
       }
 
       private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
@@ -793,6 +666,125 @@ public final class AbilityActionSummonOuterClass {
         }
         return posBuilder_;
       }
+
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotBuilder_;
+      /**
+       * <code>.Vector rot = 13;</code>
+       * @return Whether the rot field is set.
+       */
+      public boolean hasRot() {
+        return rotBuilder_ != null || rot_ != null;
+      }
+      /**
+       * <code>.Vector rot = 13;</code>
+       * @return The rot.
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getRot() {
+        if (rotBuilder_ == null) {
+          return rot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rot_;
+        } else {
+          return rotBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.Vector rot = 13;</code>
+       */
+      public Builder setRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (rotBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          rot_ = value;
+          onChanged();
+        } else {
+          rotBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector rot = 13;</code>
+       */
+      public Builder setRot(
+          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
+        if (rotBuilder_ == null) {
+          rot_ = builderForValue.build();
+          onChanged();
+        } else {
+          rotBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector rot = 13;</code>
+       */
+      public Builder mergeRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (rotBuilder_ == null) {
+          if (rot_ != null) {
+            rot_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(rot_).mergeFrom(value).buildPartial();
+          } else {
+            rot_ = value;
+          }
+          onChanged();
+        } else {
+          rotBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector rot = 13;</code>
+       */
+      public Builder clearRot() {
+        if (rotBuilder_ == null) {
+          rot_ = null;
+          onChanged();
+        } else {
+          rot_ = null;
+          rotBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>.Vector rot = 13;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
+        
+        onChanged();
+        return getRotFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>.Vector rot = 13;</code>
+       */
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder() {
+        if (rotBuilder_ != null) {
+          return rotBuilder_.getMessageOrBuilder();
+        } else {
+          return rot_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rot_;
+        }
+      }
+      /**
+       * <code>.Vector rot = 13;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          getRotFieldBuilder() {
+        if (rotBuilder_ == null) {
+          rotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
+                  getRot(),
+                  getParentForChildren(),
+                  isClean());
+          rot_ = null;
+        }
+        return rotBuilder_;
+      }
       @java.lang.Override
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -861,8 +853,8 @@ public final class AbilityActionSummonOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031AbilityActionSummon.proto\032\014Vector.prot" +
-      "o\"A\n\023AbilityActionSummon\022\024\n\003rot\030\r \001(\0132\007." +
-      "Vector\022\024\n\003pos\030\004 \001(\0132\007.VectorB\033\n\031emu.gras" +
+      "o\"A\n\023AbilityActionSummon\022\024\n\003pos\030\004 \001(\0132\007." +
+      "Vector\022\024\n\003rot\030\r \001(\0132\007.VectorB\033\n\031emu.gras" +
       "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -875,7 +867,7 @@ public final class AbilityActionSummonOuterClass {
     internal_static_AbilityActionSummon_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AbilityActionSummon_descriptor,
-        new java.lang.String[] { "Rot", "Pos", });
+        new java.lang.String[] { "Pos", "Rot", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

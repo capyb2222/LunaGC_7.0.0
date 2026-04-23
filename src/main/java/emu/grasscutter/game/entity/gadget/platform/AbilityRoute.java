@@ -22,6 +22,6 @@ public class AbilityRoute extends BaseRoute {
                 .setPosOffset(basePosition.toProto())
                 .setRotOffset(MathQuaternion.newBuilder().setW(1.0F))
                 .setMovingPlatformType(
-                        MovingPlatformTypeOuterClass.MovingPlatformType.MOVING_PLATFORM_TYPE_ABILITY);
+                        MovingPlatformTypeOuterClass.MovingPlatformType.MovingPlatformType_MOVING_PLATFORM_ABILITY);
     }
 }

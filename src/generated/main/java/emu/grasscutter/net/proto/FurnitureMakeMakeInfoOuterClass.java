@@ -19,18 +19,22 @@ public final class FurnitureMakeMakeInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 make_count = 8;</code>
-     * @return The makeCount.
-     */
-    int getMakeCount();
-
-    /**
-     * <code>uint32 furniture_id = 15;</code>
+     * <code>uint32 furniture_id = 8;</code>
      * @return The furnitureId.
      */
     int getFurnitureId();
+
+    /**
+     * <code>uint32 make_count = 5;</code>
+     * @return The makeCount.
+     */
+    int getMakeCount();
   }
   /**
+   * <pre>
+   * Obf: HHAHFPONOOI
+   * </pre>
+   *
    * Protobuf type {@code FurnitureMakeMakeInfo}
    */
   public static final class FurnitureMakeMakeInfo extends
@@ -75,12 +79,12 @@ public final class FurnitureMakeMakeInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 40: {
 
               makeCount_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 64: {
 
               furnitureId_ = input.readUInt32();
               break;
@@ -117,26 +121,26 @@ public final class FurnitureMakeMakeInfoOuterClass {
               emu.grasscutter.net.proto.FurnitureMakeMakeInfoOuterClass.FurnitureMakeMakeInfo.class, emu.grasscutter.net.proto.FurnitureMakeMakeInfoOuterClass.FurnitureMakeMakeInfo.Builder.class);
     }
 
-    public static final int MAKE_COUNT_FIELD_NUMBER = 8;
-    private int makeCount_;
-    /**
-     * <code>uint32 make_count = 8;</code>
-     * @return The makeCount.
-     */
-    @java.lang.Override
-    public int getMakeCount() {
-      return makeCount_;
-    }
-
-    public static final int FURNITURE_ID_FIELD_NUMBER = 15;
+    public static final int FURNITURE_ID_FIELD_NUMBER = 8;
     private int furnitureId_;
     /**
-     * <code>uint32 furniture_id = 15;</code>
+     * <code>uint32 furniture_id = 8;</code>
      * @return The furnitureId.
      */
     @java.lang.Override
     public int getFurnitureId() {
       return furnitureId_;
+    }
+
+    public static final int MAKE_COUNT_FIELD_NUMBER = 5;
+    private int makeCount_;
+    /**
+     * <code>uint32 make_count = 5;</code>
+     * @return The makeCount.
+     */
+    @java.lang.Override
+    public int getMakeCount() {
+      return makeCount_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -154,10 +158,10 @@ public final class FurnitureMakeMakeInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (makeCount_ != 0) {
-        output.writeUInt32(8, makeCount_);
+        output.writeUInt32(5, makeCount_);
       }
       if (furnitureId_ != 0) {
-        output.writeUInt32(15, furnitureId_);
+        output.writeUInt32(8, furnitureId_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +174,11 @@ public final class FurnitureMakeMakeInfoOuterClass {
       size = 0;
       if (makeCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, makeCount_);
+          .computeUInt32Size(5, makeCount_);
       }
       if (furnitureId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, furnitureId_);
+          .computeUInt32Size(8, furnitureId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -191,10 +195,10 @@ public final class FurnitureMakeMakeInfoOuterClass {
       }
       emu.grasscutter.net.proto.FurnitureMakeMakeInfoOuterClass.FurnitureMakeMakeInfo other = (emu.grasscutter.net.proto.FurnitureMakeMakeInfoOuterClass.FurnitureMakeMakeInfo) obj;
 
-      if (getMakeCount()
-          != other.getMakeCount()) return false;
       if (getFurnitureId()
           != other.getFurnitureId()) return false;
+      if (getMakeCount()
+          != other.getMakeCount()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +210,10 @@ public final class FurnitureMakeMakeInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + MAKE_COUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getMakeCount();
       hash = (37 * hash) + FURNITURE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getFurnitureId();
+      hash = (37 * hash) + MAKE_COUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getMakeCount();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -306,6 +310,10 @@ public final class FurnitureMakeMakeInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: HHAHFPONOOI
+     * </pre>
+     *
      * Protobuf type {@code FurnitureMakeMakeInfo}
      */
     public static final class Builder extends
@@ -343,9 +351,9 @@ public final class FurnitureMakeMakeInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        makeCount_ = 0;
-
         furnitureId_ = 0;
+
+        makeCount_ = 0;
 
         return this;
       }
@@ -373,8 +381,8 @@ public final class FurnitureMakeMakeInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FurnitureMakeMakeInfoOuterClass.FurnitureMakeMakeInfo buildPartial() {
         emu.grasscutter.net.proto.FurnitureMakeMakeInfoOuterClass.FurnitureMakeMakeInfo result = new emu.grasscutter.net.proto.FurnitureMakeMakeInfoOuterClass.FurnitureMakeMakeInfo(this);
-        result.makeCount_ = makeCount_;
         result.furnitureId_ = furnitureId_;
+        result.makeCount_ = makeCount_;
         onBuilt();
         return result;
       }
@@ -423,11 +431,11 @@ public final class FurnitureMakeMakeInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FurnitureMakeMakeInfoOuterClass.FurnitureMakeMakeInfo other) {
         if (other == emu.grasscutter.net.proto.FurnitureMakeMakeInfoOuterClass.FurnitureMakeMakeInfo.getDefaultInstance()) return this;
-        if (other.getMakeCount() != 0) {
-          setMakeCount(other.getMakeCount());
-        }
         if (other.getFurnitureId() != 0) {
           setFurnitureId(other.getFurnitureId());
+        }
+        if (other.getMakeCount() != 0) {
+          setMakeCount(other.getMakeCount());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,40 +466,9 @@ public final class FurnitureMakeMakeInfoOuterClass {
         return this;
       }
 
-      private int makeCount_ ;
-      /**
-       * <code>uint32 make_count = 8;</code>
-       * @return The makeCount.
-       */
-      @java.lang.Override
-      public int getMakeCount() {
-        return makeCount_;
-      }
-      /**
-       * <code>uint32 make_count = 8;</code>
-       * @param value The makeCount to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMakeCount(int value) {
-        
-        makeCount_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 make_count = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMakeCount() {
-        
-        makeCount_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int furnitureId_ ;
       /**
-       * <code>uint32 furniture_id = 15;</code>
+       * <code>uint32 furniture_id = 8;</code>
        * @return The furnitureId.
        */
       @java.lang.Override
@@ -499,7 +476,7 @@ public final class FurnitureMakeMakeInfoOuterClass {
         return furnitureId_;
       }
       /**
-       * <code>uint32 furniture_id = 15;</code>
+       * <code>uint32 furniture_id = 8;</code>
        * @param value The furnitureId to set.
        * @return This builder for chaining.
        */
@@ -510,12 +487,43 @@ public final class FurnitureMakeMakeInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 furniture_id = 15;</code>
+       * <code>uint32 furniture_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearFurnitureId() {
         
         furnitureId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int makeCount_ ;
+      /**
+       * <code>uint32 make_count = 5;</code>
+       * @return The makeCount.
+       */
+      @java.lang.Override
+      public int getMakeCount() {
+        return makeCount_;
+      }
+      /**
+       * <code>uint32 make_count = 5;</code>
+       * @param value The makeCount to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMakeCount(int value) {
+        
+        makeCount_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 make_count = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMakeCount() {
+        
+        makeCount_ = 0;
         onChanged();
         return this;
       }
@@ -587,8 +595,8 @@ public final class FurnitureMakeMakeInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033FurnitureMakeMakeInfo.proto\"A\n\025Furnitu" +
-      "reMakeMakeInfo\022\022\n\nmake_count\030\010 \001(\r\022\024\n\014fu" +
-      "rniture_id\030\017 \001(\rB\033\n\031emu.grasscutter.net." +
+      "reMakeMakeInfo\022\024\n\014furniture_id\030\010 \001(\r\022\022\n\n" +
+      "make_count\030\005 \001(\rB\033\n\031emu.grasscutter.net." +
       "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -600,7 +608,7 @@ public final class FurnitureMakeMakeInfoOuterClass {
     internal_static_FurnitureMakeMakeInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FurnitureMakeMakeInfo_descriptor,
-        new java.lang.String[] { "MakeCount", "FurnitureId", });
+        new java.lang.String[] { "FurnitureId", "MakeCount", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

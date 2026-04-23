@@ -19,29 +19,28 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 event_id_list = 1;</code>
+     * <code>repeated uint32 event_id_list = 12;</code>
      * @return A list containing the eventIdList.
      */
     java.util.List<java.lang.Integer> getEventIdListList();
     /**
-     * <code>repeated uint32 event_id_list = 1;</code>
+     * <code>repeated uint32 event_id_list = 12;</code>
      * @return The count of eventIdList.
      */
     int getEventIdListCount();
     /**
-     * <code>repeated uint32 event_id_list = 1;</code>
+     * <code>repeated uint32 event_id_list = 12;</code>
      * @param index The index of the element to return.
      * @return The eventIdList at the given index.
      */
     int getEventIdList(int index);
-
-    /**
-     * <code>bool PFOKFHLOKEJ = 11;</code>
-     * @return The pFOKFHLOKEJ.
-     */
-    boolean getPFOKFHLOKEJ();
   }
   /**
+   * <pre>
+   * CmdId: 9497
+   * Obf: PLHINAALPPO
+   * </pre>
+   *
    * Protobuf type {@code HomeAvatarAllFinishRewardNotify}
    */
   public static final class HomeAvatarAllFinishRewardNotify extends
@@ -88,7 +87,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 96: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 eventIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -96,7 +95,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
               eventIdList_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -107,11 +106,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
                 eventIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 88: {
-
-              pFOKFHLOKEJ_ = input.readBool();
               break;
             }
             default: {
@@ -149,10 +143,10 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
               emu.grasscutter.net.proto.HomeAvatarAllFinishRewardNotifyOuterClass.HomeAvatarAllFinishRewardNotify.class, emu.grasscutter.net.proto.HomeAvatarAllFinishRewardNotifyOuterClass.HomeAvatarAllFinishRewardNotify.Builder.class);
     }
 
-    public static final int EVENT_ID_LIST_FIELD_NUMBER = 1;
+    public static final int EVENT_ID_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList eventIdList_;
     /**
-     * <code>repeated uint32 event_id_list = 1;</code>
+     * <code>repeated uint32 event_id_list = 12;</code>
      * @return A list containing the eventIdList.
      */
     @java.lang.Override
@@ -161,14 +155,14 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
       return eventIdList_;
     }
     /**
-     * <code>repeated uint32 event_id_list = 1;</code>
+     * <code>repeated uint32 event_id_list = 12;</code>
      * @return The count of eventIdList.
      */
     public int getEventIdListCount() {
       return eventIdList_.size();
     }
     /**
-     * <code>repeated uint32 event_id_list = 1;</code>
+     * <code>repeated uint32 event_id_list = 12;</code>
      * @param index The index of the element to return.
      * @return The eventIdList at the given index.
      */
@@ -176,17 +170,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
       return eventIdList_.getInt(index);
     }
     private int eventIdListMemoizedSerializedSize = -1;
-
-    public static final int PFOKFHLOKEJ_FIELD_NUMBER = 11;
-    private boolean pFOKFHLOKEJ_;
-    /**
-     * <code>bool PFOKFHLOKEJ = 11;</code>
-     * @return The pFOKFHLOKEJ.
-     */
-    @java.lang.Override
-    public boolean getPFOKFHLOKEJ() {
-      return pFOKFHLOKEJ_;
-    }
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -204,14 +187,11 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getEventIdListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(98);
         output.writeUInt32NoTag(eventIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < eventIdList_.size(); i++) {
         output.writeUInt32NoTag(eventIdList_.getInt(i));
-      }
-      if (pFOKFHLOKEJ_ != false) {
-        output.writeBool(11, pFOKFHLOKEJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -236,10 +216,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
         }
         eventIdListMemoizedSerializedSize = dataSize;
       }
-      if (pFOKFHLOKEJ_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, pFOKFHLOKEJ_);
-      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -257,8 +233,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
 
       if (!getEventIdListList()
           .equals(other.getEventIdListList())) return false;
-      if (getPFOKFHLOKEJ()
-          != other.getPFOKFHLOKEJ()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -274,9 +248,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
         hash = (37 * hash) + EVENT_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getEventIdListList().hashCode();
       }
-      hash = (37 * hash) + PFOKFHLOKEJ_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getPFOKFHLOKEJ());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -373,6 +344,11 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 9497
+     * Obf: PLHINAALPPO
+     * </pre>
+     *
      * Protobuf type {@code HomeAvatarAllFinishRewardNotify}
      */
     public static final class Builder extends
@@ -412,8 +388,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
         super.clear();
         eventIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        pFOKFHLOKEJ_ = false;
-
         return this;
       }
 
@@ -446,7 +420,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.eventIdList_ = eventIdList_;
-        result.pFOKFHLOKEJ_ = pFOKFHLOKEJ_;
         onBuilt();
         return result;
       }
@@ -505,9 +478,6 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
           }
           onChanged();
         }
-        if (other.getPFOKFHLOKEJ() != false) {
-          setPFOKFHLOKEJ(other.getPFOKFHLOKEJ());
-        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -546,7 +516,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 event_id_list = 1;</code>
+       * <code>repeated uint32 event_id_list = 12;</code>
        * @return A list containing the eventIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -555,14 +525,14 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
                  java.util.Collections.unmodifiableList(eventIdList_) : eventIdList_;
       }
       /**
-       * <code>repeated uint32 event_id_list = 1;</code>
+       * <code>repeated uint32 event_id_list = 12;</code>
        * @return The count of eventIdList.
        */
       public int getEventIdListCount() {
         return eventIdList_.size();
       }
       /**
-       * <code>repeated uint32 event_id_list = 1;</code>
+       * <code>repeated uint32 event_id_list = 12;</code>
        * @param index The index of the element to return.
        * @return The eventIdList at the given index.
        */
@@ -570,7 +540,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
         return eventIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 event_id_list = 1;</code>
+       * <code>repeated uint32 event_id_list = 12;</code>
        * @param index The index to set the value at.
        * @param value The eventIdList to set.
        * @return This builder for chaining.
@@ -583,7 +553,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 event_id_list = 1;</code>
+       * <code>repeated uint32 event_id_list = 12;</code>
        * @param value The eventIdList to add.
        * @return This builder for chaining.
        */
@@ -594,7 +564,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 event_id_list = 1;</code>
+       * <code>repeated uint32 event_id_list = 12;</code>
        * @param values The eventIdList to add.
        * @return This builder for chaining.
        */
@@ -607,43 +577,12 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 event_id_list = 1;</code>
+       * <code>repeated uint32 event_id_list = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearEventIdList() {
         eventIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private boolean pFOKFHLOKEJ_ ;
-      /**
-       * <code>bool PFOKFHLOKEJ = 11;</code>
-       * @return The pFOKFHLOKEJ.
-       */
-      @java.lang.Override
-      public boolean getPFOKFHLOKEJ() {
-        return pFOKFHLOKEJ_;
-      }
-      /**
-       * <code>bool PFOKFHLOKEJ = 11;</code>
-       * @param value The pFOKFHLOKEJ to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPFOKFHLOKEJ(boolean value) {
-        
-        pFOKFHLOKEJ_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool PFOKFHLOKEJ = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPFOKFHLOKEJ() {
-        
-        pFOKFHLOKEJ_ = false;
         onChanged();
         return this;
       }
@@ -715,9 +654,9 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n%HomeAvatarAllFinishRewardNotify.proto\"" +
-      "M\n\037HomeAvatarAllFinishRewardNotify\022\025\n\rev" +
-      "ent_id_list\030\001 \003(\r\022\023\n\013PFOKFHLOKEJ\030\013 \001(\010B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "8\n\037HomeAvatarAllFinishRewardNotify\022\025\n\rev" +
+      "ent_id_list\030\014 \003(\rB\033\n\031emu.grasscutter.net" +
+      ".protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -728,7 +667,7 @@ public final class HomeAvatarAllFinishRewardNotifyOuterClass {
     internal_static_HomeAvatarAllFinishRewardNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HomeAvatarAllFinishRewardNotify_descriptor,
-        new java.lang.String[] { "EventIdList", "PFOKFHLOKEJ", });
+        new java.lang.String[] { "EventIdList", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

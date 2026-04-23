@@ -20,7 +20,7 @@ public final class GetRecentMpPlayerListReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 8082
+   * CmdId: 26317
    * </pre>
    *
    * Protobuf type {@code GetRecentMpPlayerListReq}
@@ -245,7 +245,7 @@ public final class GetRecentMpPlayerListReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 8082
+     * CmdId: 26317
      * </pre>
      *
      * Protobuf type {@code GetRecentMpPlayerListReq}

@@ -19,21 +19,37 @@ public final class PropPairOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.PropValue prop_value = 2;</code>
      * @return Whether the propValue field is set.
      */
     boolean hasPropValue();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.PropValue prop_value = 2;</code>
      * @return The propValue.
      */
     emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropValue();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.PropValue prop_value = 2;</code>
      */
     emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder getPropValueOrBuilder();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 type = 1;</code>
      * @return The type.
      */
@@ -137,6 +153,10 @@ public final class PropPairOuterClass {
     public static final int PROP_VALUE_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.PropValueOuterClass.PropValue propValue_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.PropValue prop_value = 2;</code>
      * @return Whether the propValue field is set.
      */
@@ -145,6 +165,10 @@ public final class PropPairOuterClass {
       return propValue_ != null;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.PropValue prop_value = 2;</code>
      * @return The propValue.
      */
@@ -153,6 +177,10 @@ public final class PropPairOuterClass {
       return propValue_ == null ? emu.grasscutter.net.proto.PropValueOuterClass.PropValue.getDefaultInstance() : propValue_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.PropValue prop_value = 2;</code>
      */
     @java.lang.Override
@@ -163,6 +191,10 @@ public final class PropPairOuterClass {
     public static final int TYPE_FIELD_NUMBER = 1;
     private int type_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 type = 1;</code>
      * @return The type.
      */
@@ -507,6 +539,10 @@ public final class PropPairOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder, emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> propValueBuilder_;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.PropValue prop_value = 2;</code>
        * @return Whether the propValue field is set.
        */
@@ -514,6 +550,10 @@ public final class PropPairOuterClass {
         return propValueBuilder_ != null || propValue_ != null;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.PropValue prop_value = 2;</code>
        * @return The propValue.
        */
@@ -525,6 +565,10 @@ public final class PropPairOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.PropValue prop_value = 2;</code>
        */
       public Builder setPropValue(emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
@@ -541,6 +585,10 @@ public final class PropPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.PropValue prop_value = 2;</code>
        */
       public Builder setPropValue(
@@ -555,6 +603,10 @@ public final class PropPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.PropValue prop_value = 2;</code>
        */
       public Builder mergePropValue(emu.grasscutter.net.proto.PropValueOuterClass.PropValue value) {
@@ -573,6 +625,10 @@ public final class PropPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.PropValue prop_value = 2;</code>
        */
       public Builder clearPropValue() {
@@ -587,6 +643,10 @@ public final class PropPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.PropValue prop_value = 2;</code>
        */
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder getPropValueBuilder() {
@@ -595,6 +655,10 @@ public final class PropPairOuterClass {
         return getPropValueFieldBuilder().getBuilder();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.PropValue prop_value = 2;</code>
        */
       public emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder getPropValueOrBuilder() {
@@ -606,6 +670,10 @@ public final class PropPairOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.PropValue prop_value = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -624,6 +692,10 @@ public final class PropPairOuterClass {
 
       private int type_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 type = 1;</code>
        * @return The type.
        */
@@ -632,6 +704,10 @@ public final class PropPairOuterClass {
         return type_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 type = 1;</code>
        * @param value The type to set.
        * @return This builder for chaining.
@@ -643,6 +719,10 @@ public final class PropPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 type = 1;</code>
        * @return This builder for chaining.
        */

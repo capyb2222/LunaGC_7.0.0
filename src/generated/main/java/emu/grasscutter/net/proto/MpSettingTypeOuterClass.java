@@ -20,32 +20,32 @@ public final class MpSettingTypeOuterClass {
   public enum MpSettingType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>MP_SETTING_TYPE_NO_ENTER = 0;</code>
+     * <code>MpSettingType_MP_SETTING_NO_ENTER = 0;</code>
      */
-    MP_SETTING_TYPE_NO_ENTER(0),
+    MpSettingType_MP_SETTING_NO_ENTER(0),
     /**
-     * <code>MP_SETTING_TYPE_ENTER_FREELY = 1;</code>
+     * <code>MpSettingType_MP_SETTING_ENTER_FREELY = 1;</code>
      */
-    MP_SETTING_TYPE_ENTER_FREELY(1),
+    MpSettingType_MP_SETTING_ENTER_FREELY(1),
     /**
-     * <code>MP_SETTING_TYPE_ENTER_AFTER_APPLY = 2;</code>
+     * <code>MpSettingType_MP_SETTING_ENTER_AFTER_APPLY = 2;</code>
      */
-    MP_SETTING_TYPE_ENTER_AFTER_APPLY(2),
+    MpSettingType_MP_SETTING_ENTER_AFTER_APPLY(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>MP_SETTING_TYPE_NO_ENTER = 0;</code>
+     * <code>MpSettingType_MP_SETTING_NO_ENTER = 0;</code>
      */
-    public static final int MP_SETTING_TYPE_NO_ENTER_VALUE = 0;
+    public static final int MpSettingType_MP_SETTING_NO_ENTER_VALUE = 0;
     /**
-     * <code>MP_SETTING_TYPE_ENTER_FREELY = 1;</code>
+     * <code>MpSettingType_MP_SETTING_ENTER_FREELY = 1;</code>
      */
-    public static final int MP_SETTING_TYPE_ENTER_FREELY_VALUE = 1;
+    public static final int MpSettingType_MP_SETTING_ENTER_FREELY_VALUE = 1;
     /**
-     * <code>MP_SETTING_TYPE_ENTER_AFTER_APPLY = 2;</code>
+     * <code>MpSettingType_MP_SETTING_ENTER_AFTER_APPLY = 2;</code>
      */
-    public static final int MP_SETTING_TYPE_ENTER_AFTER_APPLY_VALUE = 2;
+    public static final int MpSettingType_MP_SETTING_ENTER_AFTER_APPLY_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class MpSettingTypeOuterClass {
      */
     public static MpSettingType forNumber(int value) {
       switch (value) {
-        case 0: return MP_SETTING_TYPE_NO_ENTER;
-        case 1: return MP_SETTING_TYPE_ENTER_FREELY;
-        case 2: return MP_SETTING_TYPE_ENTER_AFTER_APPLY;
+        case 0: return MpSettingType_MP_SETTING_NO_ENTER;
+        case 1: return MpSettingType_MP_SETTING_ENTER_FREELY;
+        case 2: return MpSettingType_MP_SETTING_ENTER_AFTER_APPLY;
         default: return null;
       }
     }
@@ -140,11 +140,12 @@ public final class MpSettingTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023MpSettingType.proto*v\n\rMpSettingType\022\034" +
-      "\n\030MP_SETTING_TYPE_NO_ENTER\020\000\022 \n\034MP_SETTI" +
-      "NG_TYPE_ENTER_FREELY\020\001\022%\n!MP_SETTING_TYP" +
-      "E_ENTER_AFTER_APPLY\020\002B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\n\023MpSettingType.proto*\221\001\n\rMpSettingType\022" +
+      "%\n!MpSettingType_MP_SETTING_NO_ENTER\020\000\022)" +
+      "\n%MpSettingType_MP_SETTING_ENTER_FREELY\020" +
+      "\001\022.\n*MpSettingType_MP_SETTING_ENTER_AFTE" +
+      "R_APPLY\020\002B\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

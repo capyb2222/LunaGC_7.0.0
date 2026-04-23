@@ -20,56 +20,56 @@ public final class ChangeHpDebtsReasonOuterClass {
   public enum ChangeHpDebtsReason
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>CHANGE_HP_DEBTS_NONE = 0;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_NONE = 0;</code>
      */
-    CHANGE_HP_DEBTS_NONE(0),
+    CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_NONE(0),
     /**
-     * <code>CHANGE_HP_DEBTS_PAY = 1;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY = 1;</code>
      */
-    CHANGE_HP_DEBTS_PAY(1),
+    CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY(1),
     /**
-     * <code>CHANGE_HP_DEBTS_PAY_FINISH = 2;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH = 2;</code>
      */
-    CHANGE_HP_DEBTS_PAY_FINISH(2),
+    CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH(2),
     /**
-     * <code>CHANGE_HP_DEBTS_CLEAR = 21;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_CLEAR = 21;</code>
      */
-    CHANGE_HP_DEBTS_CLEAR(21),
+    CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_CLEAR(21),
     /**
-     * <code>CHANGE_HP_DEBTS_REDUCE_ABILITY = 41;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_REDUCE_ABILITY = 41;</code>
      */
-    CHANGE_HP_DEBTS_REDUCE_ABILITY(41),
+    CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_REDUCE_ABILITY(41),
     /**
-     * <code>CHANGE_HP_DEBTS_ADD_ABILITY = 51;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_ADD_ABILITY = 51;</code>
      */
-    CHANGE_HP_DEBTS_ADD_ABILITY(51),
+    CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_ADD_ABILITY(51),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>CHANGE_HP_DEBTS_NONE = 0;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_NONE = 0;</code>
      */
-    public static final int CHANGE_HP_DEBTS_NONE_VALUE = 0;
+    public static final int CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_NONE_VALUE = 0;
     /**
-     * <code>CHANGE_HP_DEBTS_PAY = 1;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY = 1;</code>
      */
-    public static final int CHANGE_HP_DEBTS_PAY_VALUE = 1;
+    public static final int CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_VALUE = 1;
     /**
-     * <code>CHANGE_HP_DEBTS_PAY_FINISH = 2;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH = 2;</code>
      */
-    public static final int CHANGE_HP_DEBTS_PAY_FINISH_VALUE = 2;
+    public static final int CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH_VALUE = 2;
     /**
-     * <code>CHANGE_HP_DEBTS_CLEAR = 21;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_CLEAR = 21;</code>
      */
-    public static final int CHANGE_HP_DEBTS_CLEAR_VALUE = 21;
+    public static final int CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_CLEAR_VALUE = 21;
     /**
-     * <code>CHANGE_HP_DEBTS_REDUCE_ABILITY = 41;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_REDUCE_ABILITY = 41;</code>
      */
-    public static final int CHANGE_HP_DEBTS_REDUCE_ABILITY_VALUE = 41;
+    public static final int CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_REDUCE_ABILITY_VALUE = 41;
     /**
-     * <code>CHANGE_HP_DEBTS_ADD_ABILITY = 51;</code>
+     * <code>CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_ADD_ABILITY = 51;</code>
      */
-    public static final int CHANGE_HP_DEBTS_ADD_ABILITY_VALUE = 51;
+    public static final int CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_ADD_ABILITY_VALUE = 51;
 
 
     public final int getNumber() {
@@ -96,12 +96,12 @@ public final class ChangeHpDebtsReasonOuterClass {
      */
     public static ChangeHpDebtsReason forNumber(int value) {
       switch (value) {
-        case 0: return CHANGE_HP_DEBTS_NONE;
-        case 1: return CHANGE_HP_DEBTS_PAY;
-        case 2: return CHANGE_HP_DEBTS_PAY_FINISH;
-        case 21: return CHANGE_HP_DEBTS_CLEAR;
-        case 41: return CHANGE_HP_DEBTS_REDUCE_ABILITY;
-        case 51: return CHANGE_HP_DEBTS_ADD_ABILITY;
+        case 0: return CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_NONE;
+        case 1: return CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY;
+        case 2: return CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH;
+        case 21: return CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_CLEAR;
+        case 41: return CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_REDUCE_ABILITY;
+        case 51: return CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_ADD_ABILITY;
         default: return null;
       }
     }
@@ -167,13 +167,17 @@ public final class ChangeHpDebtsReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031ChangeHpDebtsReason.proto*\310\001\n\023ChangeHp" +
-      "DebtsReason\022\030\n\024CHANGE_HP_DEBTS_NONE\020\000\022\027\n" +
-      "\023CHANGE_HP_DEBTS_PAY\020\001\022\036\n\032CHANGE_HP_DEBT" +
-      "S_PAY_FINISH\020\002\022\031\n\025CHANGE_HP_DEBTS_CLEAR\020" +
-      "\025\022\"\n\036CHANGE_HP_DEBTS_REDUCE_ABILITY\020)\022\037\n" +
-      "\033CHANGE_HP_DEBTS_ADD_ABILITY\0203B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n\031ChangeHpDebtsReason.proto*\322\002\n\023ChangeHp" +
+      "DebtsReason\022/\n+CHANGE_HP_DEBTS_REASON_CH" +
+      "ANGE_HP_DEBTS_NONE\020\000\022.\n*CHANGE_HP_DEBTS_" +
+      "REASON_CHANGE_HP_DEBTS_PAY\020\001\0225\n1CHANGE_H" +
+      "P_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINIS" +
+      "H\020\002\0220\n,CHANGE_HP_DEBTS_REASON_CHANGE_HP_" +
+      "DEBTS_CLEAR\020\025\0229\n5CHANGE_HP_DEBTS_REASON_" +
+      "CHANGE_HP_DEBTS_REDUCE_ABILITY\020)\0226\n2CHAN" +
+      "GE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_ADD_A" +
+      "BILITY\0203B\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -25,6 +25,6 @@ public class PointArrayRoute extends BaseRoute {
     public PlatformInfoOuterClass.PlatformInfo.Builder toProto() {
         return super.toProto()
                 .setMovingPlatformType(
-                        MovingPlatformTypeOuterClass.MovingPlatformType.MOVING_PLATFORM_TYPE_ROUTE);
+                        MovingPlatformTypeOuterClass.MovingPlatformType.MovingPlatformType_MOVING_PLATFORM_ROUTE);
     }
 }

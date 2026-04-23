@@ -19,16 +19,10 @@ public final class CoopPointOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 id = 9;</code>
+     * <code>uint32 id = 8;</code>
      * @return The id.
      */
     int getId();
-
-    /**
-     * <code>uint32 self_confidence = 11;</code>
-     * @return The selfConfidence.
-     */
-    int getSelfConfidence();
 
     /**
      * <code>.CoopPoint.State state = 14;</code>
@@ -40,8 +34,18 @@ public final class CoopPointOuterClass {
      * @return The state.
      */
     emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.State getState();
+
+    /**
+     * <code>uint32 self_confidence = 10;</code>
+     * @return The selfConfidence.
+     */
+    int getSelfConfidence();
   }
   /**
+   * <pre>
+   * Obf: JCOLKMKHPFO
+   * </pre>
+   *
    * Protobuf type {@code CoopPoint}
    */
   public static final class CoopPoint extends
@@ -87,12 +91,12 @@ public final class CoopPointOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 64: {
 
               id_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 80: {
 
               selfConfidence_ = input.readUInt32();
               break;
@@ -136,6 +140,10 @@ public final class CoopPointOuterClass {
     }
 
     /**
+     * <pre>
+     * Obf: JOFAANNBAFC
+     * </pre>
+     *
      * Protobuf enum {@code CoopPoint.State}
      */
     public enum State
@@ -252,26 +260,15 @@ public final class CoopPointOuterClass {
       // @@protoc_insertion_point(enum_scope:CoopPoint.State)
     }
 
-    public static final int ID_FIELD_NUMBER = 9;
+    public static final int ID_FIELD_NUMBER = 8;
     private int id_;
     /**
-     * <code>uint32 id = 9;</code>
+     * <code>uint32 id = 8;</code>
      * @return The id.
      */
     @java.lang.Override
     public int getId() {
       return id_;
-    }
-
-    public static final int SELF_CONFIDENCE_FIELD_NUMBER = 11;
-    private int selfConfidence_;
-    /**
-     * <code>uint32 self_confidence = 11;</code>
-     * @return The selfConfidence.
-     */
-    @java.lang.Override
-    public int getSelfConfidence() {
-      return selfConfidence_;
     }
 
     public static final int STATE_FIELD_NUMBER = 14;
@@ -293,6 +290,17 @@ public final class CoopPointOuterClass {
       return result == null ? emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.State.UNRECOGNIZED : result;
     }
 
+    public static final int SELF_CONFIDENCE_FIELD_NUMBER = 10;
+    private int selfConfidence_;
+    /**
+     * <code>uint32 self_confidence = 10;</code>
+     * @return The selfConfidence.
+     */
+    @java.lang.Override
+    public int getSelfConfidence() {
+      return selfConfidence_;
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -308,10 +316,10 @@ public final class CoopPointOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (id_ != 0) {
-        output.writeUInt32(9, id_);
+        output.writeUInt32(8, id_);
       }
       if (selfConfidence_ != 0) {
-        output.writeUInt32(11, selfConfidence_);
+        output.writeUInt32(10, selfConfidence_);
       }
       if (state_ != emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.State.STATE_UNSTARTED.getNumber()) {
         output.writeEnum(14, state_);
@@ -327,11 +335,11 @@ public final class CoopPointOuterClass {
       size = 0;
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, id_);
+          .computeUInt32Size(8, id_);
       }
       if (selfConfidence_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, selfConfidence_);
+          .computeUInt32Size(10, selfConfidence_);
       }
       if (state_ != emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.State.STATE_UNSTARTED.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
@@ -354,9 +362,9 @@ public final class CoopPointOuterClass {
 
       if (getId()
           != other.getId()) return false;
+      if (state_ != other.state_) return false;
       if (getSelfConfidence()
           != other.getSelfConfidence()) return false;
-      if (state_ != other.state_) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -370,10 +378,10 @@ public final class CoopPointOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ID_FIELD_NUMBER;
       hash = (53 * hash) + getId();
-      hash = (37 * hash) + SELF_CONFIDENCE_FIELD_NUMBER;
-      hash = (53 * hash) + getSelfConfidence();
       hash = (37 * hash) + STATE_FIELD_NUMBER;
       hash = (53 * hash) + state_;
+      hash = (37 * hash) + SELF_CONFIDENCE_FIELD_NUMBER;
+      hash = (53 * hash) + getSelfConfidence();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -470,6 +478,10 @@ public final class CoopPointOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: JCOLKMKHPFO
+     * </pre>
+     *
      * Protobuf type {@code CoopPoint}
      */
     public static final class Builder extends
@@ -509,9 +521,9 @@ public final class CoopPointOuterClass {
         super.clear();
         id_ = 0;
 
-        selfConfidence_ = 0;
-
         state_ = 0;
+
+        selfConfidence_ = 0;
 
         return this;
       }
@@ -540,8 +552,8 @@ public final class CoopPointOuterClass {
       public emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint buildPartial() {
         emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint result = new emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint(this);
         result.id_ = id_;
-        result.selfConfidence_ = selfConfidence_;
         result.state_ = state_;
+        result.selfConfidence_ = selfConfidence_;
         onBuilt();
         return result;
       }
@@ -593,11 +605,11 @@ public final class CoopPointOuterClass {
         if (other.getId() != 0) {
           setId(other.getId());
         }
-        if (other.getSelfConfidence() != 0) {
-          setSelfConfidence(other.getSelfConfidence());
-        }
         if (other.state_ != 0) {
           setStateValue(other.getStateValue());
+        }
+        if (other.getSelfConfidence() != 0) {
+          setSelfConfidence(other.getSelfConfidence());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -630,7 +642,7 @@ public final class CoopPointOuterClass {
 
       private int id_ ;
       /**
-       * <code>uint32 id = 9;</code>
+       * <code>uint32 id = 8;</code>
        * @return The id.
        */
       @java.lang.Override
@@ -638,7 +650,7 @@ public final class CoopPointOuterClass {
         return id_;
       }
       /**
-       * <code>uint32 id = 9;</code>
+       * <code>uint32 id = 8;</code>
        * @param value The id to set.
        * @return This builder for chaining.
        */
@@ -649,43 +661,12 @@ public final class CoopPointOuterClass {
         return this;
       }
       /**
-       * <code>uint32 id = 9;</code>
+       * <code>uint32 id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearId() {
         
         id_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int selfConfidence_ ;
-      /**
-       * <code>uint32 self_confidence = 11;</code>
-       * @return The selfConfidence.
-       */
-      @java.lang.Override
-      public int getSelfConfidence() {
-        return selfConfidence_;
-      }
-      /**
-       * <code>uint32 self_confidence = 11;</code>
-       * @param value The selfConfidence to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSelfConfidence(int value) {
-        
-        selfConfidence_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 self_confidence = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSelfConfidence() {
-        
-        selfConfidence_ = 0;
         onChanged();
         return this;
       }
@@ -740,6 +721,37 @@ public final class CoopPointOuterClass {
       public Builder clearState() {
         
         state_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int selfConfidence_ ;
+      /**
+       * <code>uint32 self_confidence = 10;</code>
+       * @return The selfConfidence.
+       */
+      @java.lang.Override
+      public int getSelfConfidence() {
+        return selfConfidence_;
+      }
+      /**
+       * <code>uint32 self_confidence = 10;</code>
+       * @param value The selfConfidence to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSelfConfidence(int value) {
+        
+        selfConfidence_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 self_confidence = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSelfConfidence() {
+        
+        selfConfidence_ = 0;
         onChanged();
         return this;
       }
@@ -810,9 +822,9 @@ public final class CoopPointOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017CoopPoint.proto\"\226\001\n\tCoopPoint\022\n\n\002id\030\t " +
-      "\001(\r\022\027\n\017self_confidence\030\013 \001(\r\022\037\n\005state\030\016 " +
-      "\001(\0162\020.CoopPoint.State\"C\n\005State\022\023\n\017STATE_" +
+      "\n\017CoopPoint.proto\"\226\001\n\tCoopPoint\022\n\n\002id\030\010 " +
+      "\001(\r\022\037\n\005state\030\016 \001(\0162\020.CoopPoint.State\022\027\n\017" +
+      "self_confidence\030\n \001(\r\"C\n\005State\022\023\n\017STATE_" +
       "UNSTARTED\020\000\022\021\n\rSTATE_STARTED\020\001\022\022\n\016STATE_" +
       "FINISHED\020\002B\033\n\031emu.grasscutter.net.protob" +
       "\006proto3"
@@ -826,7 +838,7 @@ public final class CoopPointOuterClass {
     internal_static_CoopPoint_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CoopPoint_descriptor,
-        new java.lang.String[] { "Id", "SelfConfidence", "State", });
+        new java.lang.String[] { "Id", "State", "SelfConfidence", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

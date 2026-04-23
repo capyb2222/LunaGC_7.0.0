@@ -19,37 +19,57 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
      * @return A list containing the avatarGuidList.
      */
     java.util.List<java.lang.Long> getAvatarGuidListList();
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
      * @return The count of avatarGuidList.
      */
     int getAvatarGuidListCount();
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
      * @param index The index of the element to return.
      * @return The avatarGuidList at the given index.
      */
     long getAvatarGuidList(int index);
 
     /**
-     * <code>int32 retcode = 2;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
      * <code>uint64 cur_avatar_guid = 11;</code>
      * @return The curAvatarGuid.
      */
     long getCurAvatarGuid();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 7;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
   }
   /**
    * <pre>
-   * CmdId: 26549
+   * CmdId: 1076
    * </pre>
    *
    * Protobuf type {@code ChangeMpTeamAvatarRsp}
@@ -98,12 +118,12 @@ public final class ChangeMpTeamAvatarRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 56: {
+            case 80: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -111,7 +131,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
               avatarGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 58: {
+            case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -164,10 +184,14 @@ public final class ChangeMpTeamAvatarRspOuterClass {
               emu.grasscutter.net.proto.ChangeMpTeamAvatarRspOuterClass.ChangeMpTeamAvatarRsp.class, emu.grasscutter.net.proto.ChangeMpTeamAvatarRspOuterClass.ChangeMpTeamAvatarRsp.Builder.class);
     }
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 7;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
      * @return A list containing the avatarGuidList.
      */
     @java.lang.Override
@@ -176,14 +200,22 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       return avatarGuidList_;
     }
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
      * @return The count of avatarGuidList.
      */
     public int getAvatarGuidListCount() {
       return avatarGuidList_.size();
     }
     /**
-     * <code>repeated uint64 avatar_guid_list = 7;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 10;</code>
      * @param index The index of the element to return.
      * @return The avatarGuidList at the given index.
      */
@@ -192,26 +224,34 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     }
     private int avatarGuidListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
-    private int retcode_;
-    /**
-     * <code>int32 retcode = 2;</code>
-     * @return The retcode.
-     */
-    @java.lang.Override
-    public int getRetcode() {
-      return retcode_;
-    }
-
     public static final int CUR_AVATAR_GUID_FIELD_NUMBER = 11;
     private long curAvatarGuid_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
      * <code>uint64 cur_avatar_guid = 11;</code>
      * @return The curAvatarGuid.
      */
     @java.lang.Override
     public long getCurAvatarGuid() {
       return curAvatarGuid_;
+    }
+
+    public static final int RETCODE_FIELD_NUMBER = 7;
+    private int retcode_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 retcode = 7;</code>
+     * @return The retcode.
+     */
+    @java.lang.Override
+    public int getRetcode() {
+      return retcode_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -230,10 +270,10 @@ public final class ChangeMpTeamAvatarRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(7, retcode_);
       }
       if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarGuidList_.size(); i++) {
@@ -253,7 +293,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(7, retcode_);
       }
       {
         int dataSize = 0;
@@ -290,10 +330,10 @@ public final class ChangeMpTeamAvatarRspOuterClass {
 
       if (!getAvatarGuidListList()
           .equals(other.getAvatarGuidListList())) return false;
-      if (getRetcode()
-          != other.getRetcode()) return false;
       if (getCurAvatarGuid()
           != other.getCurAvatarGuid()) return false;
+      if (getRetcode()
+          != other.getRetcode()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -309,11 +349,11 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         hash = (37 * hash) + AVATAR_GUID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getAvatarGuidListList().hashCode();
       }
-      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getRetcode();
       hash = (37 * hash) + CUR_AVATAR_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getCurAvatarGuid());
+      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getRetcode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -411,7 +451,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 26549
+     * CmdId: 1076
      * </pre>
      *
      * Protobuf type {@code ChangeMpTeamAvatarRsp}
@@ -453,9 +493,9 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         super.clear();
         avatarGuidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        retcode_ = 0;
-
         curAvatarGuid_ = 0L;
+
+        retcode_ = 0;
 
         return this;
       }
@@ -489,8 +529,8 @@ public final class ChangeMpTeamAvatarRspOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.avatarGuidList_ = avatarGuidList_;
-        result.retcode_ = retcode_;
         result.curAvatarGuid_ = curAvatarGuid_;
+        result.retcode_ = retcode_;
         onBuilt();
         return result;
       }
@@ -549,11 +589,11 @@ public final class ChangeMpTeamAvatarRspOuterClass {
           }
           onChanged();
         }
-        if (other.getRetcode() != 0) {
-          setRetcode(other.getRetcode());
-        }
         if (other.getCurAvatarGuid() != 0L) {
           setCurAvatarGuid(other.getCurAvatarGuid());
+        }
+        if (other.getRetcode() != 0) {
+          setRetcode(other.getRetcode());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -593,7 +633,11 @@ public final class ChangeMpTeamAvatarRspOuterClass {
          }
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
        * @return A list containing the avatarGuidList.
        */
       public java.util.List<java.lang.Long>
@@ -602,14 +646,22 @@ public final class ChangeMpTeamAvatarRspOuterClass {
                  java.util.Collections.unmodifiableList(avatarGuidList_) : avatarGuidList_;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
        * @return The count of avatarGuidList.
        */
       public int getAvatarGuidListCount() {
         return avatarGuidList_.size();
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
        * @param index The index of the element to return.
        * @return The avatarGuidList at the given index.
        */
@@ -617,7 +669,11 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         return avatarGuidList_.getLong(index);
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
        * @param index The index to set the value at.
        * @param value The avatarGuidList to set.
        * @return This builder for chaining.
@@ -630,7 +686,11 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
        * @param value The avatarGuidList to add.
        * @return This builder for chaining.
        */
@@ -641,7 +701,11 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
        * @param values The avatarGuidList to add.
        * @return This builder for chaining.
        */
@@ -654,7 +718,11 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuidList() {
@@ -664,39 +732,12 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         return this;
       }
 
-      private int retcode_ ;
-      /**
-       * <code>int32 retcode = 2;</code>
-       * @return The retcode.
-       */
-      @java.lang.Override
-      public int getRetcode() {
-        return retcode_;
-      }
-      /**
-       * <code>int32 retcode = 2;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRetcode(int value) {
-        
-        retcode_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 retcode = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRetcode() {
-        
-        retcode_ = 0;
-        onChanged();
-        return this;
-      }
-
       private long curAvatarGuid_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>uint64 cur_avatar_guid = 11;</code>
        * @return The curAvatarGuid.
        */
@@ -705,6 +746,10 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         return curAvatarGuid_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>uint64 cur_avatar_guid = 11;</code>
        * @param value The curAvatarGuid to set.
        * @return This builder for chaining.
@@ -716,12 +761,59 @@ public final class ChangeMpTeamAvatarRspOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>uint64 cur_avatar_guid = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearCurAvatarGuid() {
         
         curAvatarGuid_ = 0L;
+        onChanged();
+        return this;
+      }
+
+      private int retcode_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 7;</code>
+       * @return The retcode.
+       */
+      @java.lang.Override
+      public int getRetcode() {
+        return retcode_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 7;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRetcode(int value) {
+        
+        retcode_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 retcode = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRetcode() {
+        
+        retcode_ = 0;
         onChanged();
         return this;
       }
@@ -793,9 +885,9 @@ public final class ChangeMpTeamAvatarRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033ChangeMpTeamAvatarRsp.proto\"[\n\025ChangeM" +
-      "pTeamAvatarRsp\022\030\n\020avatar_guid_list\030\007 \003(\004" +
-      "\022\017\n\007retcode\030\002 \001(\005\022\027\n\017cur_avatar_guid\030\013 \001" +
-      "(\004B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "pTeamAvatarRsp\022\030\n\020avatar_guid_list\030\n \003(\004" +
+      "\022\027\n\017cur_avatar_guid\030\013 \001(\004\022\017\n\007retcode\030\007 \001" +
+      "(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -806,7 +898,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     internal_static_ChangeMpTeamAvatarRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChangeMpTeamAvatarRsp_descriptor,
-        new java.lang.String[] { "AvatarGuidList", "Retcode", "CurAvatarGuid", });
+        new java.lang.String[] { "AvatarGuidList", "CurAvatarGuid", "Retcode", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

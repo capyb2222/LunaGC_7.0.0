@@ -19,33 +19,28 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 skill_id_list = 2;</code>
-     * @return A list containing the skillIdList.
-     */
-    java.util.List<java.lang.Integer> getSkillIdListList();
-    /**
-     * <code>repeated uint32 skill_id_list = 2;</code>
-     * @return The count of skillIdList.
-     */
-    int getSkillIdListCount();
-    /**
-     * <code>repeated uint32 skill_id_list = 2;</code>
-     * @param index The index of the element to return.
-     * @return The skillIdList at the given index.
-     */
-    int getSkillIdList(int index);
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 skill_level_list = 3;</code>
      * @return A list containing the skillLevelList.
      */
     java.util.List<java.lang.Integer> getSkillLevelListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 skill_level_list = 3;</code>
      * @return The count of skillLevelList.
      */
     int getSkillLevelListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 skill_level_list = 3;</code>
      * @param index The index of the element to return.
      * @return The skillLevelList at the given index.
@@ -53,6 +48,39 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     int getSkillLevelList(int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 skill_id_list = 2;</code>
+     * @return A list containing the skillIdList.
+     */
+    java.util.List<java.lang.Integer> getSkillIdListList();
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 skill_id_list = 2;</code>
+     * @return The count of skillIdList.
+     */
+    int getSkillIdListCount();
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 skill_id_list = 2;</code>
+     * @param index The index of the element to return.
+     * @return The skillIdList at the given index.
+     */
+    int getSkillIdList(int index);
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 uid = 1;</code>
      * @return The uid.
      */
@@ -71,8 +99,8 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       super(builder);
     }
     private BreakoutSyncConnectUidInfo() {
-      skillIdList_ = emptyIntList();
       skillLevelList_ = emptyIntList();
+      skillIdList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -112,9 +140,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
               break;
             }
             case 16: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 skillIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               skillIdList_.addInt(input.readUInt32());
               break;
@@ -122,9 +150,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
             case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
                 skillIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
                 skillIdList_.addInt(input.readUInt32());
@@ -133,9 +161,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
               break;
             }
             case 24: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 skillLevelList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               skillLevelList_.addInt(input.readUInt32());
               break;
@@ -143,9 +171,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
             case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
                 skillLevelList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
                 skillLevelList_.addInt(input.readUInt32());
@@ -168,10 +196,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           skillIdList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           skillLevelList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
@@ -191,37 +219,13 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
               emu.grasscutter.net.proto.BreakoutSyncConnectUidInfoOuterClass.BreakoutSyncConnectUidInfo.class, emu.grasscutter.net.proto.BreakoutSyncConnectUidInfoOuterClass.BreakoutSyncConnectUidInfo.Builder.class);
     }
 
-    public static final int SKILL_ID_LIST_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.IntList skillIdList_;
-    /**
-     * <code>repeated uint32 skill_id_list = 2;</code>
-     * @return A list containing the skillIdList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getSkillIdListList() {
-      return skillIdList_;
-    }
-    /**
-     * <code>repeated uint32 skill_id_list = 2;</code>
-     * @return The count of skillIdList.
-     */
-    public int getSkillIdListCount() {
-      return skillIdList_.size();
-    }
-    /**
-     * <code>repeated uint32 skill_id_list = 2;</code>
-     * @param index The index of the element to return.
-     * @return The skillIdList at the given index.
-     */
-    public int getSkillIdList(int index) {
-      return skillIdList_.getInt(index);
-    }
-    private int skillIdListMemoizedSerializedSize = -1;
-
     public static final int SKILL_LEVEL_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList skillLevelList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 skill_level_list = 3;</code>
      * @return A list containing the skillLevelList.
      */
@@ -231,6 +235,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       return skillLevelList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 skill_level_list = 3;</code>
      * @return The count of skillLevelList.
      */
@@ -238,6 +246,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       return skillLevelList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 skill_level_list = 3;</code>
      * @param index The index of the element to return.
      * @return The skillLevelList at the given index.
@@ -247,9 +259,53 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     }
     private int skillLevelListMemoizedSerializedSize = -1;
 
+    public static final int SKILL_ID_LIST_FIELD_NUMBER = 2;
+    private com.google.protobuf.Internal.IntList skillIdList_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 skill_id_list = 2;</code>
+     * @return A list containing the skillIdList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getSkillIdListList() {
+      return skillIdList_;
+    }
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 skill_id_list = 2;</code>
+     * @return The count of skillIdList.
+     */
+    public int getSkillIdListCount() {
+      return skillIdList_.size();
+    }
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 skill_id_list = 2;</code>
+     * @param index The index of the element to return.
+     * @return The skillIdList at the given index.
+     */
+    public int getSkillIdList(int index) {
+      return skillIdList_.getInt(index);
+    }
+    private int skillIdListMemoizedSerializedSize = -1;
+
     public static final int UID_FIELD_NUMBER = 1;
     private int uid_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 uid = 1;</code>
      * @return The uid.
      */
@@ -346,10 +402,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       emu.grasscutter.net.proto.BreakoutSyncConnectUidInfoOuterClass.BreakoutSyncConnectUidInfo other = (emu.grasscutter.net.proto.BreakoutSyncConnectUidInfoOuterClass.BreakoutSyncConnectUidInfo) obj;
 
-      if (!getSkillIdListList()
-          .equals(other.getSkillIdListList())) return false;
       if (!getSkillLevelListList()
           .equals(other.getSkillLevelListList())) return false;
+      if (!getSkillIdListList()
+          .equals(other.getSkillIdListList())) return false;
       if (getUid()
           != other.getUid()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -363,13 +419,13 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getSkillIdListCount() > 0) {
-        hash = (37 * hash) + SKILL_ID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getSkillIdListList().hashCode();
-      }
       if (getSkillLevelListCount() > 0) {
         hash = (37 * hash) + SKILL_LEVEL_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getSkillLevelListList().hashCode();
+      }
+      if (getSkillIdListCount() > 0) {
+        hash = (37 * hash) + SKILL_ID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getSkillIdListList().hashCode();
       }
       hash = (37 * hash) + UID_FIELD_NUMBER;
       hash = (53 * hash) + getUid();
@@ -506,9 +562,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        skillIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
         skillLevelList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        skillIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         uid_ = 0;
 
@@ -540,15 +596,15 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         emu.grasscutter.net.proto.BreakoutSyncConnectUidInfoOuterClass.BreakoutSyncConnectUidInfo result = new emu.grasscutter.net.proto.BreakoutSyncConnectUidInfoOuterClass.BreakoutSyncConnectUidInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          skillIdList_.makeImmutable();
+          skillLevelList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.skillIdList_ = skillIdList_;
+        result.skillLevelList_ = skillLevelList_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          skillLevelList_.makeImmutable();
+          skillIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.skillLevelList_ = skillLevelList_;
+        result.skillIdList_ = skillIdList_;
         result.uid_ = uid_;
         onBuilt();
         return result;
@@ -598,23 +654,23 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.BreakoutSyncConnectUidInfoOuterClass.BreakoutSyncConnectUidInfo other) {
         if (other == emu.grasscutter.net.proto.BreakoutSyncConnectUidInfoOuterClass.BreakoutSyncConnectUidInfo.getDefaultInstance()) return this;
-        if (!other.skillIdList_.isEmpty()) {
-          if (skillIdList_.isEmpty()) {
-            skillIdList_ = other.skillIdList_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureSkillIdListIsMutable();
-            skillIdList_.addAll(other.skillIdList_);
-          }
-          onChanged();
-        }
         if (!other.skillLevelList_.isEmpty()) {
           if (skillLevelList_.isEmpty()) {
             skillLevelList_ = other.skillLevelList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           } else {
             ensureSkillLevelListIsMutable();
             skillLevelList_.addAll(other.skillLevelList_);
+          }
+          onChanged();
+        }
+        if (!other.skillIdList_.isEmpty()) {
+          if (skillIdList_.isEmpty()) {
+            skillIdList_ = other.skillIdList_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureSkillIdListIsMutable();
+            skillIdList_.addAll(other.skillIdList_);
           }
           onChanged();
         }
@@ -651,102 +707,31 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList skillIdList_ = emptyIntList();
-      private void ensureSkillIdListIsMutable() {
+      private com.google.protobuf.Internal.IntList skillLevelList_ = emptyIntList();
+      private void ensureSkillLevelListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          skillIdList_ = mutableCopy(skillIdList_);
+          skillLevelList_ = mutableCopy(skillLevelList_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 skill_id_list = 2;</code>
-       * @return A list containing the skillIdList.
-       */
-      public java.util.List<java.lang.Integer>
-          getSkillIdListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(skillIdList_) : skillIdList_;
-      }
-      /**
-       * <code>repeated uint32 skill_id_list = 2;</code>
-       * @return The count of skillIdList.
-       */
-      public int getSkillIdListCount() {
-        return skillIdList_.size();
-      }
-      /**
-       * <code>repeated uint32 skill_id_list = 2;</code>
-       * @param index The index of the element to return.
-       * @return The skillIdList at the given index.
-       */
-      public int getSkillIdList(int index) {
-        return skillIdList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 skill_id_list = 2;</code>
-       * @param index The index to set the value at.
-       * @param value The skillIdList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSkillIdList(
-          int index, int value) {
-        ensureSkillIdListIsMutable();
-        skillIdList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 skill_id_list = 2;</code>
-       * @param value The skillIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addSkillIdList(int value) {
-        ensureSkillIdListIsMutable();
-        skillIdList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 skill_id_list = 2;</code>
-       * @param values The skillIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllSkillIdList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureSkillIdListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, skillIdList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 skill_id_list = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSkillIdList() {
-        skillIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList skillLevelList_ = emptyIntList();
-      private void ensureSkillLevelListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          skillLevelList_ = mutableCopy(skillLevelList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 skill_level_list = 3;</code>
        * @return A list containing the skillLevelList.
        */
       public java.util.List<java.lang.Integer>
           getSkillLevelListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
+        return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(skillLevelList_) : skillLevelList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 skill_level_list = 3;</code>
        * @return The count of skillLevelList.
        */
@@ -754,6 +739,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         return skillLevelList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 skill_level_list = 3;</code>
        * @param index The index of the element to return.
        * @return The skillLevelList at the given index.
@@ -762,6 +751,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         return skillLevelList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 skill_level_list = 3;</code>
        * @param index The index to set the value at.
        * @param value The skillLevelList to set.
@@ -775,6 +768,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 skill_level_list = 3;</code>
        * @param value The skillLevelList to add.
        * @return This builder for chaining.
@@ -786,6 +783,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 skill_level_list = 3;</code>
        * @param values The skillLevelList to add.
        * @return This builder for chaining.
@@ -799,11 +800,122 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 skill_level_list = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearSkillLevelList() {
         skillLevelList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList skillIdList_ = emptyIntList();
+      private void ensureSkillIdListIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          skillIdList_ = mutableCopy(skillIdList_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 skill_id_list = 2;</code>
+       * @return A list containing the skillIdList.
+       */
+      public java.util.List<java.lang.Integer>
+          getSkillIdListList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(skillIdList_) : skillIdList_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 skill_id_list = 2;</code>
+       * @return The count of skillIdList.
+       */
+      public int getSkillIdListCount() {
+        return skillIdList_.size();
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 skill_id_list = 2;</code>
+       * @param index The index of the element to return.
+       * @return The skillIdList at the given index.
+       */
+      public int getSkillIdList(int index) {
+        return skillIdList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 skill_id_list = 2;</code>
+       * @param index The index to set the value at.
+       * @param value The skillIdList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSkillIdList(
+          int index, int value) {
+        ensureSkillIdListIsMutable();
+        skillIdList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 skill_id_list = 2;</code>
+       * @param value The skillIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addSkillIdList(int value) {
+        ensureSkillIdListIsMutable();
+        skillIdList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 skill_id_list = 2;</code>
+       * @param values The skillIdList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllSkillIdList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureSkillIdListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, skillIdList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 skill_id_list = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSkillIdList() {
+        skillIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
@@ -811,6 +923,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
 
       private int uid_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 uid = 1;</code>
        * @return The uid.
        */
@@ -819,6 +935,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         return uid_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 uid = 1;</code>
        * @param value The uid to set.
        * @return This builder for chaining.
@@ -830,6 +950,10 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 uid = 1;</code>
        * @return This builder for chaining.
        */
@@ -907,8 +1031,8 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n BreakoutSyncConnectUidInfo.proto\"Z\n\032Br" +
-      "eakoutSyncConnectUidInfo\022\025\n\rskill_id_lis" +
-      "t\030\002 \003(\r\022\030\n\020skill_level_list\030\003 \003(\r\022\013\n\003uid" +
+      "eakoutSyncConnectUidInfo\022\030\n\020skill_level_" +
+      "list\030\003 \003(\r\022\025\n\rskill_id_list\030\002 \003(\r\022\013\n\003uid" +
       "\030\001 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
       "to3"
     };
@@ -921,7 +1045,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     internal_static_BreakoutSyncConnectUidInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BreakoutSyncConnectUidInfo_descriptor,
-        new java.lang.String[] { "SkillIdList", "SkillLevelList", "Uid", });
+        new java.lang.String[] { "SkillLevelList", "SkillIdList", "Uid", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

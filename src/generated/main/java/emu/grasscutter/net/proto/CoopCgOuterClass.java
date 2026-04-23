@@ -19,18 +19,22 @@ public final class CoopCgOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_unlock = 9;</code>
-     * @return The isUnlock.
-     */
-    boolean getIsUnlock();
-
-    /**
-     * <code>uint32 id = 12;</code>
+     * <code>uint32 id = 5;</code>
      * @return The id.
      */
     int getId();
+
+    /**
+     * <code>bool is_unlock = 6;</code>
+     * @return The isUnlock.
+     */
+    boolean getIsUnlock();
   }
   /**
+   * <pre>
+   * Obf: OJCJONLPBME
+   * </pre>
+   *
    * Protobuf type {@code CoopCg}
    */
   public static final class CoopCg extends
@@ -75,14 +79,14 @@ public final class CoopCgOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
-
-              isUnlock_ = input.readBool();
-              break;
-            }
-            case 96: {
+            case 40: {
 
               id_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              isUnlock_ = input.readBool();
               break;
             }
             default: {
@@ -117,26 +121,26 @@ public final class CoopCgOuterClass {
               emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg.class, emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg.Builder.class);
     }
 
-    public static final int IS_UNLOCK_FIELD_NUMBER = 9;
-    private boolean isUnlock_;
-    /**
-     * <code>bool is_unlock = 9;</code>
-     * @return The isUnlock.
-     */
-    @java.lang.Override
-    public boolean getIsUnlock() {
-      return isUnlock_;
-    }
-
-    public static final int ID_FIELD_NUMBER = 12;
+    public static final int ID_FIELD_NUMBER = 5;
     private int id_;
     /**
-     * <code>uint32 id = 12;</code>
+     * <code>uint32 id = 5;</code>
      * @return The id.
      */
     @java.lang.Override
     public int getId() {
       return id_;
+    }
+
+    public static final int IS_UNLOCK_FIELD_NUMBER = 6;
+    private boolean isUnlock_;
+    /**
+     * <code>bool is_unlock = 6;</code>
+     * @return The isUnlock.
+     */
+    @java.lang.Override
+    public boolean getIsUnlock() {
+      return isUnlock_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -153,11 +157,11 @@ public final class CoopCgOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isUnlock_ != false) {
-        output.writeBool(9, isUnlock_);
-      }
       if (id_ != 0) {
-        output.writeUInt32(12, id_);
+        output.writeUInt32(5, id_);
+      }
+      if (isUnlock_ != false) {
+        output.writeBool(6, isUnlock_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +172,13 @@ public final class CoopCgOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isUnlock_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isUnlock_);
-      }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, id_);
+          .computeUInt32Size(5, id_);
+      }
+      if (isUnlock_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isUnlock_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -191,10 +195,10 @@ public final class CoopCgOuterClass {
       }
       emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg other = (emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg) obj;
 
-      if (getIsUnlock()
-          != other.getIsUnlock()) return false;
       if (getId()
           != other.getId()) return false;
+      if (getIsUnlock()
+          != other.getIsUnlock()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,11 +210,11 @@ public final class CoopCgOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + ID_FIELD_NUMBER;
+      hash = (53 * hash) + getId();
       hash = (37 * hash) + IS_UNLOCK_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsUnlock());
-      hash = (37 * hash) + ID_FIELD_NUMBER;
-      hash = (53 * hash) + getId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -307,6 +311,10 @@ public final class CoopCgOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: OJCJONLPBME
+     * </pre>
+     *
      * Protobuf type {@code CoopCg}
      */
     public static final class Builder extends
@@ -344,9 +352,9 @@ public final class CoopCgOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        isUnlock_ = false;
-
         id_ = 0;
+
+        isUnlock_ = false;
 
         return this;
       }
@@ -374,8 +382,8 @@ public final class CoopCgOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg buildPartial() {
         emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg result = new emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg(this);
-        result.isUnlock_ = isUnlock_;
         result.id_ = id_;
+        result.isUnlock_ = isUnlock_;
         onBuilt();
         return result;
       }
@@ -424,11 +432,11 @@ public final class CoopCgOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg other) {
         if (other == emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg.getDefaultInstance()) return this;
-        if (other.getIsUnlock() != false) {
-          setIsUnlock(other.getIsUnlock());
-        }
         if (other.getId() != 0) {
           setId(other.getId());
+        }
+        if (other.getIsUnlock() != false) {
+          setIsUnlock(other.getIsUnlock());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -459,40 +467,9 @@ public final class CoopCgOuterClass {
         return this;
       }
 
-      private boolean isUnlock_ ;
-      /**
-       * <code>bool is_unlock = 9;</code>
-       * @return The isUnlock.
-       */
-      @java.lang.Override
-      public boolean getIsUnlock() {
-        return isUnlock_;
-      }
-      /**
-       * <code>bool is_unlock = 9;</code>
-       * @param value The isUnlock to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsUnlock(boolean value) {
-        
-        isUnlock_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_unlock = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsUnlock() {
-        
-        isUnlock_ = false;
-        onChanged();
-        return this;
-      }
-
       private int id_ ;
       /**
-       * <code>uint32 id = 12;</code>
+       * <code>uint32 id = 5;</code>
        * @return The id.
        */
       @java.lang.Override
@@ -500,7 +477,7 @@ public final class CoopCgOuterClass {
         return id_;
       }
       /**
-       * <code>uint32 id = 12;</code>
+       * <code>uint32 id = 5;</code>
        * @param value The id to set.
        * @return This builder for chaining.
        */
@@ -511,12 +488,43 @@ public final class CoopCgOuterClass {
         return this;
       }
       /**
-       * <code>uint32 id = 12;</code>
+       * <code>uint32 id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearId() {
         
         id_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean isUnlock_ ;
+      /**
+       * <code>bool is_unlock = 6;</code>
+       * @return The isUnlock.
+       */
+      @java.lang.Override
+      public boolean getIsUnlock() {
+        return isUnlock_;
+      }
+      /**
+       * <code>bool is_unlock = 6;</code>
+       * @param value The isUnlock to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsUnlock(boolean value) {
+        
+        isUnlock_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool is_unlock = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsUnlock() {
+        
+        isUnlock_ = false;
         onChanged();
         return this;
       }
@@ -587,8 +595,8 @@ public final class CoopCgOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\014CoopCg.proto\"\'\n\006CoopCg\022\021\n\tis_unlock\030\t " +
-      "\001(\010\022\n\n\002id\030\014 \001(\rB\033\n\031emu.grasscutter.net.p" +
+      "\n\014CoopCg.proto\"\'\n\006CoopCg\022\n\n\002id\030\005 \001(\r\022\021\n\t" +
+      "is_unlock\030\006 \001(\010B\033\n\031emu.grasscutter.net.p" +
       "rotob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -600,7 +608,7 @@ public final class CoopCgOuterClass {
     internal_static_CoopCg_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CoopCg_descriptor,
-        new java.lang.String[] { "IsUnlock", "Id", });
+        new java.lang.String[] { "Id", "IsUnlock", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

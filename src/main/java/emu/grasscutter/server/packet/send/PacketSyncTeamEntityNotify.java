@@ -20,8 +20,6 @@ public class PacketSyncTeamEntityNotify extends BasePacket {
                         .setStr("SGV_PlayerTeam_Phlogiston")
                         .build())
                 .setFloatValue(player.getPhlogistonValue())
-
-                .setValueType(AbilityScalarTypeOuterClass.AbilityScalarType.ABILITY_SCALAR_TYPE_FLOAT)
                 .build();
         AbilitySyncStateInfo phlogiston = AbilitySyncStateInfo.newBuilder().addSgvDynamicValueMap(scalarValue).build();
 

@@ -59,7 +59,7 @@ public class EntityHomeAnimal extends EntityMonster implements Rebornable {
         this.getScene()
                 .broadcastPacket(
                         new PacketSceneEntityDisappearNotify(
-                                this, VisionTypeOuterClass.VisionType.VISION_TYPE_REMOVE));
+                                this, VisionTypeOuterClass.VisionType.VisionType_VISION_REMOVE));
         this.rebornCDTickCount = this.getRebornCD();
         this.disappeared.set(true);
     }

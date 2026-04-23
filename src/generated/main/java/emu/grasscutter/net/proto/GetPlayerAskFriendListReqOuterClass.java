@@ -19,6 +19,10 @@ public final class GetPlayerAskFriendListReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
   }
   /**
+   * <pre>
+   * CmdId: 27933
+   * </pre>
+   *
    * Protobuf type {@code GetPlayerAskFriendListReq}
    */
   public static final class GetPlayerAskFriendListReq extends
@@ -240,6 +244,10 @@ public final class GetPlayerAskFriendListReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 27933
+     * </pre>
+     *
      * Protobuf type {@code GetPlayerAskFriendListReq}
      */
     public static final class Builder extends

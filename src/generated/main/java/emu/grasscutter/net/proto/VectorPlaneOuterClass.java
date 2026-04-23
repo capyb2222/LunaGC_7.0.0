@@ -19,12 +19,20 @@ public final class VectorPlaneOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0  
+     * </pre>
+     *
      * <code>float y = 2;</code>
      * @return The y.
      */
     float getY();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0  
+     * </pre>
+     *
      * <code>float x = 1;</code>
      * @return The x.
      */
@@ -120,6 +128,10 @@ public final class VectorPlaneOuterClass {
     public static final int Y_FIELD_NUMBER = 2;
     private float y_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0  
+     * </pre>
+     *
      * <code>float y = 2;</code>
      * @return The y.
      */
@@ -131,6 +143,10 @@ public final class VectorPlaneOuterClass {
     public static final int X_FIELD_NUMBER = 1;
     private float x_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0  
+     * </pre>
+     *
      * <code>float x = 1;</code>
      * @return The x.
      */
@@ -464,6 +480,10 @@ public final class VectorPlaneOuterClass {
 
       private float y_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0  
+       * </pre>
+       *
        * <code>float y = 2;</code>
        * @return The y.
        */
@@ -472,6 +492,10 @@ public final class VectorPlaneOuterClass {
         return y_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0  
+       * </pre>
+       *
        * <code>float y = 2;</code>
        * @param value The y to set.
        * @return This builder for chaining.
@@ -483,6 +507,10 @@ public final class VectorPlaneOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0  
+       * </pre>
+       *
        * <code>float y = 2;</code>
        * @return This builder for chaining.
        */
@@ -495,6 +523,10 @@ public final class VectorPlaneOuterClass {
 
       private float x_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0  
+       * </pre>
+       *
        * <code>float x = 1;</code>
        * @return The x.
        */
@@ -503,6 +535,10 @@ public final class VectorPlaneOuterClass {
         return x_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0  
+       * </pre>
+       *
        * <code>float x = 1;</code>
        * @param value The x to set.
        * @return This builder for chaining.
@@ -514,6 +550,10 @@ public final class VectorPlaneOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0  
+       * </pre>
+       *
        * <code>float x = 1;</code>
        * @return This builder for chaining.
        */

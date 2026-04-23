@@ -19,33 +19,28 @@ public final class MpPlayRewardInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 remain_uid_list = 2;</code>
-     * @return A list containing the remainUidList.
-     */
-    java.util.List<java.lang.Integer> getRemainUidListList();
-    /**
-     * <code>repeated uint32 remain_uid_list = 2;</code>
-     * @return The count of remainUidList.
-     */
-    int getRemainUidListCount();
-    /**
-     * <code>repeated uint32 remain_uid_list = 2;</code>
-     * @param index The index of the element to return.
-     * @return The remainUidList at the given index.
-     */
-    int getRemainUidList(int index);
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 3;</code>
      * @return A list containing the qualifyUidList.
      */
     java.util.List<java.lang.Integer> getQualifyUidListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 3;</code>
      * @return The count of qualifyUidList.
      */
     int getQualifyUidListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 3;</code>
      * @param index The index of the element to return.
      * @return The qualifyUidList at the given index.
@@ -53,6 +48,39 @@ public final class MpPlayRewardInfoOuterClass {
     int getQualifyUidList(int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 remain_uid_list = 2;</code>
+     * @return A list containing the remainUidList.
+     */
+    java.util.List<java.lang.Integer> getRemainUidListList();
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 remain_uid_list = 2;</code>
+     * @return The count of remainUidList.
+     */
+    int getRemainUidListCount();
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 remain_uid_list = 2;</code>
+     * @param index The index of the element to return.
+     * @return The remainUidList at the given index.
+     */
+    int getRemainUidList(int index);
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 resin = 1;</code>
      * @return The resin.
      */
@@ -71,8 +99,8 @@ public final class MpPlayRewardInfoOuterClass {
       super(builder);
     }
     private MpPlayRewardInfo() {
-      remainUidList_ = emptyIntList();
       qualifyUidList_ = emptyIntList();
+      remainUidList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -112,9 +140,9 @@ public final class MpPlayRewardInfoOuterClass {
               break;
             }
             case 16: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 remainUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               remainUidList_.addInt(input.readUInt32());
               break;
@@ -122,9 +150,9 @@ public final class MpPlayRewardInfoOuterClass {
             case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
                 remainUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
                 remainUidList_.addInt(input.readUInt32());
@@ -133,9 +161,9 @@ public final class MpPlayRewardInfoOuterClass {
               break;
             }
             case 24: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 qualifyUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               qualifyUidList_.addInt(input.readUInt32());
               break;
@@ -143,9 +171,9 @@ public final class MpPlayRewardInfoOuterClass {
             case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
                 qualifyUidList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
                 qualifyUidList_.addInt(input.readUInt32());
@@ -168,10 +196,10 @@ public final class MpPlayRewardInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           remainUidList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           qualifyUidList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
@@ -191,37 +219,13 @@ public final class MpPlayRewardInfoOuterClass {
               emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo.class, emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo.Builder.class);
     }
 
-    public static final int REMAIN_UID_LIST_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.IntList remainUidList_;
-    /**
-     * <code>repeated uint32 remain_uid_list = 2;</code>
-     * @return A list containing the remainUidList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getRemainUidListList() {
-      return remainUidList_;
-    }
-    /**
-     * <code>repeated uint32 remain_uid_list = 2;</code>
-     * @return The count of remainUidList.
-     */
-    public int getRemainUidListCount() {
-      return remainUidList_.size();
-    }
-    /**
-     * <code>repeated uint32 remain_uid_list = 2;</code>
-     * @param index The index of the element to return.
-     * @return The remainUidList at the given index.
-     */
-    public int getRemainUidList(int index) {
-      return remainUidList_.getInt(index);
-    }
-    private int remainUidListMemoizedSerializedSize = -1;
-
     public static final int QUALIFY_UID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList qualifyUidList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 3;</code>
      * @return A list containing the qualifyUidList.
      */
@@ -231,6 +235,10 @@ public final class MpPlayRewardInfoOuterClass {
       return qualifyUidList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 3;</code>
      * @return The count of qualifyUidList.
      */
@@ -238,6 +246,10 @@ public final class MpPlayRewardInfoOuterClass {
       return qualifyUidList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 qualify_uid_list = 3;</code>
      * @param index The index of the element to return.
      * @return The qualifyUidList at the given index.
@@ -247,9 +259,53 @@ public final class MpPlayRewardInfoOuterClass {
     }
     private int qualifyUidListMemoizedSerializedSize = -1;
 
+    public static final int REMAIN_UID_LIST_FIELD_NUMBER = 2;
+    private com.google.protobuf.Internal.IntList remainUidList_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 remain_uid_list = 2;</code>
+     * @return A list containing the remainUidList.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getRemainUidListList() {
+      return remainUidList_;
+    }
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 remain_uid_list = 2;</code>
+     * @return The count of remainUidList.
+     */
+    public int getRemainUidListCount() {
+      return remainUidList_.size();
+    }
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>repeated uint32 remain_uid_list = 2;</code>
+     * @param index The index of the element to return.
+     * @return The remainUidList at the given index.
+     */
+    public int getRemainUidList(int index) {
+      return remainUidList_.getInt(index);
+    }
+    private int remainUidListMemoizedSerializedSize = -1;
+
     public static final int RESIN_FIELD_NUMBER = 1;
     private int resin_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 resin = 1;</code>
      * @return The resin.
      */
@@ -346,10 +402,10 @@ public final class MpPlayRewardInfoOuterClass {
       }
       emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo other = (emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo) obj;
 
-      if (!getRemainUidListList()
-          .equals(other.getRemainUidListList())) return false;
       if (!getQualifyUidListList()
           .equals(other.getQualifyUidListList())) return false;
+      if (!getRemainUidListList()
+          .equals(other.getRemainUidListList())) return false;
       if (getResin()
           != other.getResin()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -363,13 +419,13 @@ public final class MpPlayRewardInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getRemainUidListCount() > 0) {
-        hash = (37 * hash) + REMAIN_UID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getRemainUidListList().hashCode();
-      }
       if (getQualifyUidListCount() > 0) {
         hash = (37 * hash) + QUALIFY_UID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getQualifyUidListList().hashCode();
+      }
+      if (getRemainUidListCount() > 0) {
+        hash = (37 * hash) + REMAIN_UID_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getRemainUidListList().hashCode();
       }
       hash = (37 * hash) + RESIN_FIELD_NUMBER;
       hash = (53 * hash) + getResin();
@@ -506,9 +562,9 @@ public final class MpPlayRewardInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        remainUidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
         qualifyUidList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        remainUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         resin_ = 0;
 
@@ -540,15 +596,15 @@ public final class MpPlayRewardInfoOuterClass {
         emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo result = new emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          remainUidList_.makeImmutable();
+          qualifyUidList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.remainUidList_ = remainUidList_;
+        result.qualifyUidList_ = qualifyUidList_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          qualifyUidList_.makeImmutable();
+          remainUidList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.qualifyUidList_ = qualifyUidList_;
+        result.remainUidList_ = remainUidList_;
         result.resin_ = resin_;
         onBuilt();
         return result;
@@ -598,23 +654,23 @@ public final class MpPlayRewardInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo other) {
         if (other == emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo.getDefaultInstance()) return this;
-        if (!other.remainUidList_.isEmpty()) {
-          if (remainUidList_.isEmpty()) {
-            remainUidList_ = other.remainUidList_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureRemainUidListIsMutable();
-            remainUidList_.addAll(other.remainUidList_);
-          }
-          onChanged();
-        }
         if (!other.qualifyUidList_.isEmpty()) {
           if (qualifyUidList_.isEmpty()) {
             qualifyUidList_ = other.qualifyUidList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           } else {
             ensureQualifyUidListIsMutable();
             qualifyUidList_.addAll(other.qualifyUidList_);
+          }
+          onChanged();
+        }
+        if (!other.remainUidList_.isEmpty()) {
+          if (remainUidList_.isEmpty()) {
+            remainUidList_ = other.remainUidList_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureRemainUidListIsMutable();
+            remainUidList_.addAll(other.remainUidList_);
           }
           onChanged();
         }
@@ -651,102 +707,31 @@ public final class MpPlayRewardInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList remainUidList_ = emptyIntList();
-      private void ensureRemainUidListIsMutable() {
+      private com.google.protobuf.Internal.IntList qualifyUidList_ = emptyIntList();
+      private void ensureQualifyUidListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          remainUidList_ = mutableCopy(remainUidList_);
+          qualifyUidList_ = mutableCopy(qualifyUidList_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 remain_uid_list = 2;</code>
-       * @return A list containing the remainUidList.
-       */
-      public java.util.List<java.lang.Integer>
-          getRemainUidListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(remainUidList_) : remainUidList_;
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 2;</code>
-       * @return The count of remainUidList.
-       */
-      public int getRemainUidListCount() {
-        return remainUidList_.size();
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 2;</code>
-       * @param index The index of the element to return.
-       * @return The remainUidList at the given index.
-       */
-      public int getRemainUidList(int index) {
-        return remainUidList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 2;</code>
-       * @param index The index to set the value at.
-       * @param value The remainUidList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRemainUidList(
-          int index, int value) {
-        ensureRemainUidListIsMutable();
-        remainUidList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 2;</code>
-       * @param value The remainUidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addRemainUidList(int value) {
-        ensureRemainUidListIsMutable();
-        remainUidList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 2;</code>
-       * @param values The remainUidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllRemainUidList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureRemainUidListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, remainUidList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 remain_uid_list = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRemainUidList() {
-        remainUidList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList qualifyUidList_ = emptyIntList();
-      private void ensureQualifyUidListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          qualifyUidList_ = mutableCopy(qualifyUidList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 3;</code>
        * @return A list containing the qualifyUidList.
        */
       public java.util.List<java.lang.Integer>
           getQualifyUidListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
+        return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(qualifyUidList_) : qualifyUidList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 3;</code>
        * @return The count of qualifyUidList.
        */
@@ -754,6 +739,10 @@ public final class MpPlayRewardInfoOuterClass {
         return qualifyUidList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 3;</code>
        * @param index The index of the element to return.
        * @return The qualifyUidList at the given index.
@@ -762,6 +751,10 @@ public final class MpPlayRewardInfoOuterClass {
         return qualifyUidList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 3;</code>
        * @param index The index to set the value at.
        * @param value The qualifyUidList to set.
@@ -775,6 +768,10 @@ public final class MpPlayRewardInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 3;</code>
        * @param value The qualifyUidList to add.
        * @return This builder for chaining.
@@ -786,6 +783,10 @@ public final class MpPlayRewardInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 3;</code>
        * @param values The qualifyUidList to add.
        * @return This builder for chaining.
@@ -799,11 +800,122 @@ public final class MpPlayRewardInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 qualify_uid_list = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearQualifyUidList() {
         qualifyUidList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList remainUidList_ = emptyIntList();
+      private void ensureRemainUidListIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          remainUidList_ = mutableCopy(remainUidList_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 remain_uid_list = 2;</code>
+       * @return A list containing the remainUidList.
+       */
+      public java.util.List<java.lang.Integer>
+          getRemainUidListList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(remainUidList_) : remainUidList_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 remain_uid_list = 2;</code>
+       * @return The count of remainUidList.
+       */
+      public int getRemainUidListCount() {
+        return remainUidList_.size();
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 remain_uid_list = 2;</code>
+       * @param index The index of the element to return.
+       * @return The remainUidList at the given index.
+       */
+      public int getRemainUidList(int index) {
+        return remainUidList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 remain_uid_list = 2;</code>
+       * @param index The index to set the value at.
+       * @param value The remainUidList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRemainUidList(
+          int index, int value) {
+        ensureRemainUidListIsMutable();
+        remainUidList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 remain_uid_list = 2;</code>
+       * @param value The remainUidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addRemainUidList(int value) {
+        ensureRemainUidListIsMutable();
+        remainUidList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 remain_uid_list = 2;</code>
+       * @param values The remainUidList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllRemainUidList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureRemainUidListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, remainUidList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>repeated uint32 remain_uid_list = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRemainUidList() {
+        remainUidList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
@@ -811,6 +923,10 @@ public final class MpPlayRewardInfoOuterClass {
 
       private int resin_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 resin = 1;</code>
        * @return The resin.
        */
@@ -819,6 +935,10 @@ public final class MpPlayRewardInfoOuterClass {
         return resin_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 resin = 1;</code>
        * @param value The resin to set.
        * @return This builder for chaining.
@@ -830,6 +950,10 @@ public final class MpPlayRewardInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 resin = 1;</code>
        * @return This builder for chaining.
        */
@@ -907,8 +1031,8 @@ public final class MpPlayRewardInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026MpPlayRewardInfo.proto\"T\n\020MpPlayReward" +
-      "Info\022\027\n\017remain_uid_list\030\002 \003(\r\022\030\n\020qualify" +
-      "_uid_list\030\003 \003(\r\022\r\n\005resin\030\001 \001(\rB\033\n\031emu.gr" +
+      "Info\022\030\n\020qualify_uid_list\030\003 \003(\r\022\027\n\017remain" +
+      "_uid_list\030\002 \003(\r\022\r\n\005resin\030\001 \001(\rB\033\n\031emu.gr" +
       "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -920,7 +1044,7 @@ public final class MpPlayRewardInfoOuterClass {
     internal_static_MpPlayRewardInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MpPlayRewardInfo_descriptor,
-        new java.lang.String[] { "RemainUidList", "QualifyUidList", "Resin", });
+        new java.lang.String[] { "QualifyUidList", "RemainUidList", "Resin", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

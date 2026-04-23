@@ -43,7 +43,8 @@ public final class UnlockedFurnitureSuiteDataNotifyOuterClass {
   }
   /**
    * <pre>
-   * Obf: ANAFMPAHAPN,NPKPIAHBAFF
+   * CmdId: 21457
+   * Obf: NECOKLDNPCH
    * </pre>
    *
    * Protobuf type {@code UnlockedFurnitureSuiteDataNotify}
@@ -378,7 +379,8 @@ public final class UnlockedFurnitureSuiteDataNotifyOuterClass {
     }
     /**
      * <pre>
-     * Obf: ANAFMPAHAPN,NPKPIAHBAFF
+     * CmdId: 21457
+     * Obf: NECOKLDNPCH
      * </pre>
      *
      * Protobuf type {@code UnlockedFurnitureSuiteDataNotify}

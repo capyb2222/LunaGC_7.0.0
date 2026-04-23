@@ -15,49 +15,45 @@ public final class InBattleMechanicusCardChallengeStateOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: NCNMHENBLME
-   * </pre>
-   *
    * Protobuf enum {@code InBattleMechanicusCardChallengeState}
    */
   public enum InBattleMechanicusCardChallengeState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE = 0;</code>
+     * <code>InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE = 0;</code>
      */
-    IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE(0),
+    InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE(0),
     /**
-     * <code>IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING = 1;</code>
+     * <code>InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING = 1;</code>
      */
-    IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING(1),
+    InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING(1),
     /**
-     * <code>IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL = 2;</code>
+     * <code>InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL = 2;</code>
      */
-    IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL(2),
+    InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL(2),
     /**
-     * <code>IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS = 3;</code>
+     * <code>InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS = 3;</code>
      */
-    IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS(3),
+    InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS(3),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE = 0;</code>
+     * <code>InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE = 0;</code>
      */
-    public static final int IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE_VALUE = 0;
+    public static final int InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE_VALUE = 0;
     /**
-     * <code>IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING = 1;</code>
+     * <code>InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING = 1;</code>
      */
-    public static final int IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING_VALUE = 1;
+    public static final int InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING_VALUE = 1;
     /**
-     * <code>IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL = 2;</code>
+     * <code>InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL = 2;</code>
      */
-    public static final int IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL_VALUE = 2;
+    public static final int InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL_VALUE = 2;
     /**
-     * <code>IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS = 3;</code>
+     * <code>InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS = 3;</code>
      */
-    public static final int IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS_VALUE = 3;
+    public static final int InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS_VALUE = 3;
 
 
     public final int getNumber() {
@@ -84,10 +80,10 @@ public final class InBattleMechanicusCardChallengeStateOuterClass {
      */
     public static InBattleMechanicusCardChallengeState forNumber(int value) {
       switch (value) {
-        case 0: return IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE;
-        case 1: return IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING;
-        case 2: return IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL;
-        case 3: return IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS;
+        case 0: return InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE;
+        case 1: return InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING;
+        case 2: return InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL;
+        case 3: return InBattleMechanicusCardChallengeState_IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS;
         default: return null;
       }
     }
@@ -154,13 +150,17 @@ public final class InBattleMechanicusCardChallengeStateOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n*InBattleMechanicusCardChallengeState.p" +
-      "roto*\345\001\n$InBattleMechanicusCardChallenge" +
-      "State\022,\n(IN_BATTLE_MECHANICUS_CARD_CHALL" +
-      "ENGE_NONE\020\000\0220\n,IN_BATTLE_MECHANICUS_CARD" +
-      "_CHALLENGE_ON_GOING\020\001\022,\n(IN_BATTLE_MECHA" +
-      "NICUS_CARD_CHALLENGE_FAIL\020\002\022/\n+IN_BATTLE" +
-      "_MECHANICUS_CARD_CHALLENGE_SUCCESS\020\003B\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "roto*\371\002\n$InBattleMechanicusCardChallenge" +
+      "State\022Q\nMInBattleMechanicusCardChallenge" +
+      "State_IN_BATTLE_MECHANICUS_CARD_CHALLENG" +
+      "E_NONE\020\000\022U\nQInBattleMechanicusCardChalle" +
+      "ngeState_IN_BATTLE_MECHANICUS_CARD_CHALL" +
+      "ENGE_ON_GOING\020\001\022Q\nMInBattleMechanicusCar" +
+      "dChallengeState_IN_BATTLE_MECHANICUS_CAR" +
+      "D_CHALLENGE_FAIL\020\002\022T\nPInBattleMechanicus" +
+      "CardChallengeState_IN_BATTLE_MECHANICUS_" +
+      "CARD_CHALLENGE_SUCCESS\020\003B\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -20,24 +20,24 @@ public final class LockStateOuterClass {
   public enum LockState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>LOCK_NONE = 0;</code>
+     * <code>LockState_LOCK_NONE = 0;</code>
      */
-    LOCK_NONE(0),
+    LockState_LOCK_NONE(0),
     /**
-     * <code>LOCK_QUEST = 1;</code>
+     * <code>LockState_LOCK_QUEST = 1;</code>
      */
-    LOCK_QUEST(1),
+    LockState_LOCK_QUEST(1),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>LOCK_NONE = 0;</code>
+     * <code>LockState_LOCK_NONE = 0;</code>
      */
-    public static final int LOCK_NONE_VALUE = 0;
+    public static final int LockState_LOCK_NONE_VALUE = 0;
     /**
-     * <code>LOCK_QUEST = 1;</code>
+     * <code>LockState_LOCK_QUEST = 1;</code>
      */
-    public static final int LOCK_QUEST_VALUE = 1;
+    public static final int LockState_LOCK_QUEST_VALUE = 1;
 
 
     public final int getNumber() {
@@ -64,8 +64,8 @@ public final class LockStateOuterClass {
      */
     public static LockState forNumber(int value) {
       switch (value) {
-        case 0: return LOCK_NONE;
-        case 1: return LOCK_QUEST;
+        case 0: return LockState_LOCK_NONE;
+        case 1: return LockState_LOCK_QUEST;
         default: return null;
       }
     }
@@ -131,9 +131,9 @@ public final class LockStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017LockState.proto**\n\tLockState\022\r\n\tLOCK_N" +
-      "ONE\020\000\022\016\n\nLOCK_QUEST\020\001B\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\n\017LockState.proto*>\n\tLockState\022\027\n\023LockSt" +
+      "ate_LOCK_NONE\020\000\022\030\n\024LockState_LOCK_QUEST\020" +
+      "\001B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

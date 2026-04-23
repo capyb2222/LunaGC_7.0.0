@@ -19,27 +19,27 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> 
-        getStageInfoListList();
+    java.util.List<emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE> 
+        getNGMHFHPAAMFList();
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
-    emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo getStageInfoList(int index);
+    emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE getNGMHFHPAAMF(int index);
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
-    int getStageInfoListCount();
+    int getNGMHFHPAAMFCount();
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder> 
-        getStageInfoListOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGEOrBuilder> 
+        getNGMHFHPAAMFOrBuilderList();
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
-    emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder getStageInfoListOrBuilder(
+    emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGEOrBuilder getNGMHFHPAAMFOrBuilder(
         int index);
   }
   /**
@@ -55,7 +55,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       super(builder);
     }
     private AcrobaticsBattleDetailInfo() {
-      stageInfoList_ = java.util.Collections.emptyList();
+      nGMHFHPAAMF_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -89,13 +89,13 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo>();
+                nGMHFHPAAMF_ = new java.util.ArrayList<emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              stageInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.parser(), extensionRegistry));
+              nGMHFHPAAMF_.add(
+                  input.readMessage(emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -114,7 +114,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
+          nGMHFHPAAMF_ = java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -133,44 +133,44 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
               emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo.class, emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 14;
-    private java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> stageInfoList_;
+    public static final int NGMHFHPAAMF_FIELD_NUMBER = 5;
+    private java.util.List<emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE> nGMHFHPAAMF_;
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> getStageInfoListList() {
-      return stageInfoList_;
+    public java.util.List<emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE> getNGMHFHPAAMFList() {
+      return nGMHFHPAAMF_;
     }
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder> 
-        getStageInfoListOrBuilderList() {
-      return stageInfoList_;
+    public java.util.List<? extends emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGEOrBuilder> 
+        getNGMHFHPAAMFOrBuilderList() {
+      return nGMHFHPAAMF_;
     }
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
     @java.lang.Override
-    public int getStageInfoListCount() {
-      return stageInfoList_.size();
+    public int getNGMHFHPAAMFCount() {
+      return nGMHFHPAAMF_.size();
     }
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo getStageInfoList(int index) {
-      return stageInfoList_.get(index);
+    public emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE getNGMHFHPAAMF(int index) {
+      return nGMHFHPAAMF_.get(index);
     }
     /**
-     * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+     * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder getStageInfoListOrBuilder(
+    public emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGEOrBuilder getNGMHFHPAAMFOrBuilder(
         int index) {
-      return stageInfoList_.get(index);
+      return nGMHFHPAAMF_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -187,8 +187,8 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(14, stageInfoList_.get(i));
+      for (int i = 0; i < nGMHFHPAAMF_.size(); i++) {
+        output.writeMessage(5, nGMHFHPAAMF_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,9 +199,9 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < stageInfoList_.size(); i++) {
+      for (int i = 0; i < nGMHFHPAAMF_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, stageInfoList_.get(i));
+          .computeMessageSize(5, nGMHFHPAAMF_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -218,8 +218,8 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo other = (emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo) obj;
 
-      if (!getStageInfoListList()
-          .equals(other.getStageInfoListList())) return false;
+      if (!getNGMHFHPAAMFList()
+          .equals(other.getNGMHFHPAAMFList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -231,9 +231,9 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getStageInfoListCount() > 0) {
-        hash = (37 * hash) + STAGE_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getStageInfoListList().hashCode();
+      if (getNGMHFHPAAMFCount() > 0) {
+        hash = (37 * hash) + NGMHFHPAAMF_FIELD_NUMBER;
+        hash = (53 * hash) + getNGMHFHPAAMFList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -363,17 +363,17 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getStageInfoListFieldBuilder();
+          getNGMHFHPAAMFFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (stageInfoListBuilder_ == null) {
-          stageInfoList_ = java.util.Collections.emptyList();
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMF_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          stageInfoListBuilder_.clear();
+          nGMHFHPAAMFBuilder_.clear();
         }
         return this;
       }
@@ -402,14 +402,14 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       public emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo buildPartial() {
         emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo result = new emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (stageInfoListBuilder_ == null) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
+            nGMHFHPAAMF_ = java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.stageInfoList_ = stageInfoList_;
+          result.nGMHFHPAAMF_ = nGMHFHPAAMF_;
         } else {
-          result.stageInfoList_ = stageInfoListBuilder_.build();
+          result.nGMHFHPAAMF_ = nGMHFHPAAMFBuilder_.build();
         }
         onBuilt();
         return result;
@@ -459,29 +459,29 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo other) {
         if (other == emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo.getDefaultInstance()) return this;
-        if (stageInfoListBuilder_ == null) {
-          if (!other.stageInfoList_.isEmpty()) {
-            if (stageInfoList_.isEmpty()) {
-              stageInfoList_ = other.stageInfoList_;
+        if (nGMHFHPAAMFBuilder_ == null) {
+          if (!other.nGMHFHPAAMF_.isEmpty()) {
+            if (nGMHFHPAAMF_.isEmpty()) {
+              nGMHFHPAAMF_ = other.nGMHFHPAAMF_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureStageInfoListIsMutable();
-              stageInfoList_.addAll(other.stageInfoList_);
+              ensureNGMHFHPAAMFIsMutable();
+              nGMHFHPAAMF_.addAll(other.nGMHFHPAAMF_);
             }
             onChanged();
           }
         } else {
-          if (!other.stageInfoList_.isEmpty()) {
-            if (stageInfoListBuilder_.isEmpty()) {
-              stageInfoListBuilder_.dispose();
-              stageInfoListBuilder_ = null;
-              stageInfoList_ = other.stageInfoList_;
+          if (!other.nGMHFHPAAMF_.isEmpty()) {
+            if (nGMHFHPAAMFBuilder_.isEmpty()) {
+              nGMHFHPAAMFBuilder_.dispose();
+              nGMHFHPAAMFBuilder_ = null;
+              nGMHFHPAAMF_ = other.nGMHFHPAAMF_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              stageInfoListBuilder_ = 
+              nGMHFHPAAMFBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getStageInfoListFieldBuilder() : null;
+                   getNGMHFHPAAMFFieldBuilder() : null;
             } else {
-              stageInfoListBuilder_.addAllMessages(other.stageInfoList_);
+              nGMHFHPAAMFBuilder_.addAllMessages(other.nGMHFHPAAMF_);
             }
           }
         }
@@ -515,244 +515,244 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> stageInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE> nGMHFHPAAMF_ =
         java.util.Collections.emptyList();
-      private void ensureStageInfoListIsMutable() {
+      private void ensureNGMHFHPAAMFIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo>(stageInfoList_);
+          nGMHFHPAAMF_ = new java.util.ArrayList<emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE>(nGMHFHPAAMF_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder> stageInfoListBuilder_;
+          emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGEOrBuilder> nGMHFHPAAMFBuilder_;
 
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> getStageInfoListList() {
-        if (stageInfoListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(stageInfoList_);
+      public java.util.List<emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE> getNGMHFHPAAMFList() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         } else {
-          return stageInfoListBuilder_.getMessageList();
+          return nGMHFHPAAMFBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public int getStageInfoListCount() {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.size();
+      public int getNGMHFHPAAMFCount() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.size();
         } else {
-          return stageInfoListBuilder_.getCount();
+          return nGMHFHPAAMFBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo getStageInfoList(int index) {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.get(index);
+      public emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE getNGMHFHPAAMF(int index) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.get(index);
         } else {
-          return stageInfoListBuilder_.getMessage(index);
+          return nGMHFHPAAMFBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder setNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.set(index, value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.set(index, value);
           onChanged();
         } else {
-          stageInfoListBuilder_.setMessage(index, value);
+          nGMHFHPAAMFBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.set(index, builderForValue.build());
+      public Builder setNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.set(index, builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.setMessage(index, builderForValue.build());
+          nGMHFHPAAMFBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public Builder addStageInfoList(emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder addNGMHFHPAAMF(emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(value);
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(value);
+          nGMHFHPAAMFBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder addNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(index, value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(index, value);
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(index, value);
+          nGMHFHPAAMFBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public Builder addStageInfoList(
-          emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(builderForValue.build());
+      public Builder addNGMHFHPAAMF(
+          emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(builderForValue.build());
+          nGMHFHPAAMFBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(index, builderForValue.build());
+      public Builder addNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(index, builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(index, builderForValue.build());
+          nGMHFHPAAMFBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public Builder addAllStageInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo> values) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
+      public Builder addAllNGMHFHPAAMF(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE> values) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, stageInfoList_);
+              values, nGMHFHPAAMF_);
           onChanged();
         } else {
-          stageInfoListBuilder_.addAllMessages(values);
+          nGMHFHPAAMFBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public Builder clearStageInfoList() {
-        if (stageInfoListBuilder_ == null) {
-          stageInfoList_ = java.util.Collections.emptyList();
+      public Builder clearNGMHFHPAAMF() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMF_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          stageInfoListBuilder_.clear();
+          nGMHFHPAAMFBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public Builder removeStageInfoList(int index) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.remove(index);
+      public Builder removeNGMHFHPAAMF(int index) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.remove(index);
           onChanged();
         } else {
-          stageInfoListBuilder_.remove(index);
+          nGMHFHPAAMFBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder getStageInfoListBuilder(
+      public emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder getNGMHFHPAAMFBuilder(
           int index) {
-        return getStageInfoListFieldBuilder().getBuilder(index);
+        return getNGMHFHPAAMFFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder getStageInfoListOrBuilder(
+      public emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGEOrBuilder getNGMHFHPAAMFOrBuilder(
           int index) {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.get(index);  } else {
-          return stageInfoListBuilder_.getMessageOrBuilder(index);
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.get(index);  } else {
+          return nGMHFHPAAMFBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder> 
-           getStageInfoListOrBuilderList() {
-        if (stageInfoListBuilder_ != null) {
-          return stageInfoListBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGEOrBuilder> 
+           getNGMHFHPAAMFOrBuilderList() {
+        if (nGMHFHPAAMFBuilder_ != null) {
+          return nGMHFHPAAMFBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(stageInfoList_);
+          return java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         }
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder addStageInfoListBuilder() {
-        return getStageInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.getDefaultInstance());
+      public emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder addNGMHFHPAAMFBuilder() {
+        return getNGMHFHPAAMFFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.getDefaultInstance());
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder addStageInfoListBuilder(
+      public emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder addNGMHFHPAAMFBuilder(
           int index) {
-        return getStageInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.getDefaultInstance());
+        return getNGMHFHPAAMFFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.getDefaultInstance());
       }
       /**
-       * <code>repeated .AcrobaticsBattleStageInfo stage_info_list = 14;</code>
+       * <code>repeated .JLPKMGNCNGE NGMHFHPAAMF = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder> 
-           getStageInfoListBuilderList() {
-        return getStageInfoListFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder> 
+           getNGMHFHPAAMFBuilderList() {
+        return getNGMHFHPAAMFFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder> 
-          getStageInfoListFieldBuilder() {
-        if (stageInfoListBuilder_ == null) {
-          stageInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfo.Builder, emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.AcrobaticsBattleStageInfoOrBuilder>(
-                  stageInfoList_,
+          emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGEOrBuilder> 
+          getNGMHFHPAAMFFieldBuilder() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMFBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGE.Builder, emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.JLPKMGNCNGEOrBuilder>(
+                  nGMHFHPAAMF_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          stageInfoList_ = null;
+          nGMHFHPAAMF_ = null;
         }
-        return stageInfoListBuilder_;
+        return nGMHFHPAAMFBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -821,24 +821,23 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n AcrobaticsBattleDetailInfo.proto\032\037Acro" +
-      "baticsBattleStageInfo.proto\"Q\n\032Acrobatic" +
-      "sBattleDetailInfo\0223\n\017stage_info_list\030\016 \003" +
-      "(\0132\032.AcrobaticsBattleStageInfoB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n AcrobaticsBattleDetailInfo.proto\032\021JLPK" +
+      "MGNCNGE.proto\"?\n\032AcrobaticsBattleDetailI" +
+      "nfo\022!\n\013NGMHFHPAAMF\030\005 \003(\0132\014.JLPKMGNCNGEB\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.getDescriptor(),
         });
     internal_static_AcrobaticsBattleDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_AcrobaticsBattleDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AcrobaticsBattleDetailInfo_descriptor,
-        new java.lang.String[] { "StageInfoList", });
-    emu.grasscutter.net.proto.AcrobaticsBattleStageInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "NGMHFHPAAMF", });
+    emu.grasscutter.net.proto.JLPKMGNCNGEOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

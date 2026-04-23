@@ -19,72 +19,55 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.HPJPOMAIPNC OJJEDPGEKFK = 4;</code>
-     * @return The enum numeric value on the wire for oJJEDPGEKFK.
+     * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
+     * @return A list containing the jHKIIFBAHMC.
      */
-    int getOJJEDPGEKFKValue();
+    java.util.List<java.lang.Integer> getJHKIIFBAHMCList();
     /**
-     * <code>.HPJPOMAIPNC OJJEDPGEKFK = 4;</code>
-     * @return The oJJEDPGEKFK.
+     * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
+     * @return The count of jHKIIFBAHMC.
      */
-    emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC getOJJEDPGEKFK();
-
+    int getJHKIIFBAHMCCount();
     /**
-     * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
-     * @return A list containing the jJHKBJLIPNA.
-     */
-    java.util.List<java.lang.Integer> getJJHKBJLIPNAList();
-    /**
-     * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
-     * @return The count of jJHKBJLIPNA.
-     */
-    int getJJHKBJLIPNACount();
-    /**
-     * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
+     * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
      * @param index The index of the element to return.
-     * @return The jJHKBJLIPNA at the given index.
+     * @return The jHKIIFBAHMC at the given index.
      */
-    int getJJHKBJLIPNA(int index);
+    int getJHKIIFBAHMC(int index);
 
     /**
-     * <code>uint32 config_id = 8;</code>
-     * @return The configId.
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 level_id = 7;</code>
+     * @return The levelId.
      */
-    int getConfigId();
+    int getLevelId();
 
     /**
-     * <code>int32 retcode = 12;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-     * @return A list containing the oPFPLNLHLMA.
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 config_id = 10;</code>
+     * @return The configId.
      */
-    java.util.List<java.lang.Integer> getOPFPLNLHLMAList();
-    /**
-     * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-     * @return The count of oPFPLNLHLMA.
-     */
-    int getOPFPLNLHLMACount();
-    /**
-     * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-     * @param index The index of the element to return.
-     * @return The oPFPLNLHLMA at the given index.
-     */
-    int getOPFPLNLHLMA(int index);
-
-    /**
-     * <code>uint32 level_id = 11;</code>
-     * @return The levelId.
-     */
-    int getLevelId();
+    int getConfigId();
   }
   /**
    * <pre>
-   * CmdId: 25802
-   * Obf: FNKFMOMJHFE
+   * CmdId: 5645
    * </pre>
    *
    * Protobuf type {@code GCGStartChallengeByCheckRewardRsp}
@@ -99,9 +82,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       super(builder);
     }
     private GCGStartChallengeByCheckRewardRsp() {
-      oJJEDPGEKFK_ = 0;
-      jJHKBJLIPNA_ = emptyIntList();
-      oPFPLNLHLMA_ = emptyIntList();
+      jHKIIFBAHMC_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -135,67 +116,40 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-              int rawValue = input.readEnum();
-
-              oJJEDPGEKFK_ = rawValue;
-              break;
-            }
-            case 64: {
-
-              configId_ = input.readUInt32();
-              break;
-            }
-            case 80: {
+            case 8: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                jJHKBJLIPNA_ = newIntList();
+                jHKIIFBAHMC_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              jJHKBJLIPNA_.addInt(input.readUInt32());
+              jHKIIFBAHMC_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                jJHKBJLIPNA_ = newIntList();
+                jHKIIFBAHMC_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                jJHKBJLIPNA_.addInt(input.readUInt32());
+                jHKIIFBAHMC_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 88: {
+            case 56: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 80: {
 
-              retcode_ = input.readInt32();
+              configId_ = input.readUInt32();
               break;
             }
             case 104: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                oPFPLNLHLMA_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              oPFPLNLHLMA_.addInt(input.readUInt32());
-              break;
-            }
-            case 106: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                oPFPLNLHLMA_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                oPFPLNLHLMA_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
+
+              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -214,10 +168,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          jJHKBJLIPNA_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          oPFPLNLHLMA_.makeImmutable(); // C
+          jHKIIFBAHMC_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -236,68 +187,57 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
               emu.grasscutter.net.proto.GCGStartChallengeByCheckRewardRspOuterClass.GCGStartChallengeByCheckRewardRsp.class, emu.grasscutter.net.proto.GCGStartChallengeByCheckRewardRspOuterClass.GCGStartChallengeByCheckRewardRsp.Builder.class);
     }
 
-    public static final int OJJEDPGEKFK_FIELD_NUMBER = 4;
-    private int oJJEDPGEKFK_;
+    public static final int JHKIIFBAHMC_FIELD_NUMBER = 1;
+    private com.google.protobuf.Internal.IntList jHKIIFBAHMC_;
     /**
-     * <code>.HPJPOMAIPNC OJJEDPGEKFK = 4;</code>
-     * @return The enum numeric value on the wire for oJJEDPGEKFK.
-     */
-    @java.lang.Override public int getOJJEDPGEKFKValue() {
-      return oJJEDPGEKFK_;
-    }
-    /**
-     * <code>.HPJPOMAIPNC OJJEDPGEKFK = 4;</code>
-     * @return The oJJEDPGEKFK.
-     */
-    @java.lang.Override public emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC getOJJEDPGEKFK() {
-      @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC result = emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC.valueOf(oJJEDPGEKFK_);
-      return result == null ? emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC.UNRECOGNIZED : result;
-    }
-
-    public static final int JJHKBJLIPNA_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList jJHKBJLIPNA_;
-    /**
-     * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
-     * @return A list containing the jJHKBJLIPNA.
+     * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
+     * @return A list containing the jHKIIFBAHMC.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getJJHKBJLIPNAList() {
-      return jJHKBJLIPNA_;
+        getJHKIIFBAHMCList() {
+      return jHKIIFBAHMC_;
     }
     /**
-     * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
-     * @return The count of jJHKBJLIPNA.
+     * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
+     * @return The count of jHKIIFBAHMC.
      */
-    public int getJJHKBJLIPNACount() {
-      return jJHKBJLIPNA_.size();
+    public int getJHKIIFBAHMCCount() {
+      return jHKIIFBAHMC_.size();
     }
     /**
-     * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
+     * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
      * @param index The index of the element to return.
-     * @return The jJHKBJLIPNA at the given index.
+     * @return The jHKIIFBAHMC at the given index.
      */
-    public int getJJHKBJLIPNA(int index) {
-      return jJHKBJLIPNA_.getInt(index);
+    public int getJHKIIFBAHMC(int index) {
+      return jHKIIFBAHMC_.getInt(index);
     }
-    private int jJHKBJLIPNAMemoizedSerializedSize = -1;
+    private int jHKIIFBAHMCMemoizedSerializedSize = -1;
 
-    public static final int CONFIG_ID_FIELD_NUMBER = 8;
-    private int configId_;
+    public static final int LEVEL_ID_FIELD_NUMBER = 7;
+    private int levelId_;
     /**
-     * <code>uint32 config_id = 8;</code>
-     * @return The configId.
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 level_id = 7;</code>
+     * @return The levelId.
      */
     @java.lang.Override
-    public int getConfigId() {
-      return configId_;
+    public int getLevelId() {
+      return levelId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
     /**
-     * <code>int32 retcode = 12;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -305,43 +245,19 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       return retcode_;
     }
 
-    public static final int OPFPLNLHLMA_FIELD_NUMBER = 13;
-    private com.google.protobuf.Internal.IntList oPFPLNLHLMA_;
+    public static final int CONFIG_ID_FIELD_NUMBER = 10;
+    private int configId_;
     /**
-     * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-     * @return A list containing the oPFPLNLHLMA.
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 config_id = 10;</code>
+     * @return The configId.
      */
     @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getOPFPLNLHLMAList() {
-      return oPFPLNLHLMA_;
-    }
-    /**
-     * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-     * @return The count of oPFPLNLHLMA.
-     */
-    public int getOPFPLNLHLMACount() {
-      return oPFPLNLHLMA_.size();
-    }
-    /**
-     * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-     * @param index The index of the element to return.
-     * @return The oPFPLNLHLMA at the given index.
-     */
-    public int getOPFPLNLHLMA(int index) {
-      return oPFPLNLHLMA_.getInt(index);
-    }
-    private int oPFPLNLHLMAMemoizedSerializedSize = -1;
-
-    public static final int LEVEL_ID_FIELD_NUMBER = 11;
-    private int levelId_;
-    /**
-     * <code>uint32 level_id = 11;</code>
-     * @return The levelId.
-     */
-    @java.lang.Override
-    public int getLevelId() {
-      return levelId_;
+    public int getConfigId() {
+      return configId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -359,31 +275,21 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (oJJEDPGEKFK_ != emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC.HPJPOMAIPNC_GcgLevelNone.getNumber()) {
-        output.writeEnum(4, oJJEDPGEKFK_);
+      if (getJHKIIFBAHMCList().size() > 0) {
+        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(jHKIIFBAHMCMemoizedSerializedSize);
       }
-      if (configId_ != 0) {
-        output.writeUInt32(8, configId_);
-      }
-      if (getJJHKBJLIPNAList().size() > 0) {
-        output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(jJHKBJLIPNAMemoizedSerializedSize);
-      }
-      for (int i = 0; i < jJHKBJLIPNA_.size(); i++) {
-        output.writeUInt32NoTag(jJHKBJLIPNA_.getInt(i));
+      for (int i = 0; i < jHKIIFBAHMC_.size(); i++) {
+        output.writeUInt32NoTag(jHKIIFBAHMC_.getInt(i));
       }
       if (levelId_ != 0) {
-        output.writeUInt32(11, levelId_);
+        output.writeUInt32(7, levelId_);
+      }
+      if (configId_ != 0) {
+        output.writeUInt32(10, configId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
-      }
-      if (getOPFPLNLHLMAList().size() > 0) {
-        output.writeUInt32NoTag(106);
-        output.writeUInt32NoTag(oPFPLNLHLMAMemoizedSerializedSize);
-      }
-      for (int i = 0; i < oPFPLNLHLMA_.size(); i++) {
-        output.writeUInt32NoTag(oPFPLNLHLMA_.getInt(i));
+        output.writeInt32(13, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -394,49 +300,31 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (oJJEDPGEKFK_ != emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC.HPJPOMAIPNC_GcgLevelNone.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, oJJEDPGEKFK_);
-      }
-      if (configId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, configId_);
-      }
       {
         int dataSize = 0;
-        for (int i = 0; i < jJHKBJLIPNA_.size(); i++) {
+        for (int i = 0; i < jHKIIFBAHMC_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(jJHKBJLIPNA_.getInt(i));
+            .computeUInt32SizeNoTag(jHKIIFBAHMC_.getInt(i));
         }
         size += dataSize;
-        if (!getJJHKBJLIPNAList().isEmpty()) {
+        if (!getJHKIIFBAHMCList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        jJHKBJLIPNAMemoizedSerializedSize = dataSize;
+        jHKIIFBAHMCMemoizedSerializedSize = dataSize;
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, levelId_);
+          .computeUInt32Size(7, levelId_);
+      }
+      if (configId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, configId_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < oPFPLNLHLMA_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(oPFPLNLHLMA_.getInt(i));
-        }
-        size += dataSize;
-        if (!getOPFPLNLHLMAList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        oPFPLNLHLMAMemoizedSerializedSize = dataSize;
+          .computeInt32Size(13, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -453,17 +341,14 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       emu.grasscutter.net.proto.GCGStartChallengeByCheckRewardRspOuterClass.GCGStartChallengeByCheckRewardRsp other = (emu.grasscutter.net.proto.GCGStartChallengeByCheckRewardRspOuterClass.GCGStartChallengeByCheckRewardRsp) obj;
 
-      if (oJJEDPGEKFK_ != other.oJJEDPGEKFK_) return false;
-      if (!getJJHKBJLIPNAList()
-          .equals(other.getJJHKBJLIPNAList())) return false;
-      if (getConfigId()
-          != other.getConfigId()) return false;
-      if (getRetcode()
-          != other.getRetcode()) return false;
-      if (!getOPFPLNLHLMAList()
-          .equals(other.getOPFPLNLHLMAList())) return false;
+      if (!getJHKIIFBAHMCList()
+          .equals(other.getJHKIIFBAHMCList())) return false;
       if (getLevelId()
           != other.getLevelId()) return false;
+      if (getRetcode()
+          != other.getRetcode()) return false;
+      if (getConfigId()
+          != other.getConfigId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -475,22 +360,16 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + OJJEDPGEKFK_FIELD_NUMBER;
-      hash = (53 * hash) + oJJEDPGEKFK_;
-      if (getJJHKBJLIPNACount() > 0) {
-        hash = (37 * hash) + JJHKBJLIPNA_FIELD_NUMBER;
-        hash = (53 * hash) + getJJHKBJLIPNAList().hashCode();
-      }
-      hash = (37 * hash) + CONFIG_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getConfigId();
-      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getRetcode();
-      if (getOPFPLNLHLMACount() > 0) {
-        hash = (37 * hash) + OPFPLNLHLMA_FIELD_NUMBER;
-        hash = (53 * hash) + getOPFPLNLHLMAList().hashCode();
+      if (getJHKIIFBAHMCCount() > 0) {
+        hash = (37 * hash) + JHKIIFBAHMC_FIELD_NUMBER;
+        hash = (53 * hash) + getJHKIIFBAHMCList().hashCode();
       }
       hash = (37 * hash) + LEVEL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getLevelId();
+      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getRetcode();
+      hash = (37 * hash) + CONFIG_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getConfigId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -588,8 +467,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 25802
-     * Obf: FNKFMOMJHFE
+     * CmdId: 5645
      * </pre>
      *
      * Protobuf type {@code GCGStartChallengeByCheckRewardRsp}
@@ -629,17 +507,13 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        oJJEDPGEKFK_ = 0;
-
-        jJHKBJLIPNA_ = emptyIntList();
+        jHKIIFBAHMC_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        configId_ = 0;
+        levelId_ = 0;
 
         retcode_ = 0;
 
-        oPFPLNLHLMA_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        levelId_ = 0;
+        configId_ = 0;
 
         return this;
       }
@@ -668,20 +542,14 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       public emu.grasscutter.net.proto.GCGStartChallengeByCheckRewardRspOuterClass.GCGStartChallengeByCheckRewardRsp buildPartial() {
         emu.grasscutter.net.proto.GCGStartChallengeByCheckRewardRspOuterClass.GCGStartChallengeByCheckRewardRsp result = new emu.grasscutter.net.proto.GCGStartChallengeByCheckRewardRspOuterClass.GCGStartChallengeByCheckRewardRsp(this);
         int from_bitField0_ = bitField0_;
-        result.oJJEDPGEKFK_ = oJJEDPGEKFK_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          jJHKBJLIPNA_.makeImmutable();
+          jHKIIFBAHMC_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.jJHKBJLIPNA_ = jJHKBJLIPNA_;
-        result.configId_ = configId_;
-        result.retcode_ = retcode_;
-        if (((bitField0_ & 0x00000002) != 0)) {
-          oPFPLNLHLMA_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.oPFPLNLHLMA_ = oPFPLNLHLMA_;
+        result.jHKIIFBAHMC_ = jHKIIFBAHMC_;
         result.levelId_ = levelId_;
+        result.retcode_ = retcode_;
+        result.configId_ = configId_;
         onBuilt();
         return result;
       }
@@ -730,37 +598,24 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GCGStartChallengeByCheckRewardRspOuterClass.GCGStartChallengeByCheckRewardRsp other) {
         if (other == emu.grasscutter.net.proto.GCGStartChallengeByCheckRewardRspOuterClass.GCGStartChallengeByCheckRewardRsp.getDefaultInstance()) return this;
-        if (other.oJJEDPGEKFK_ != 0) {
-          setOJJEDPGEKFKValue(other.getOJJEDPGEKFKValue());
-        }
-        if (!other.jJHKBJLIPNA_.isEmpty()) {
-          if (jJHKBJLIPNA_.isEmpty()) {
-            jJHKBJLIPNA_ = other.jJHKBJLIPNA_;
+        if (!other.jHKIIFBAHMC_.isEmpty()) {
+          if (jHKIIFBAHMC_.isEmpty()) {
+            jHKIIFBAHMC_ = other.jHKIIFBAHMC_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureJJHKBJLIPNAIsMutable();
-            jJHKBJLIPNA_.addAll(other.jJHKBJLIPNA_);
-          }
-          onChanged();
-        }
-        if (other.getConfigId() != 0) {
-          setConfigId(other.getConfigId());
-        }
-        if (other.getRetcode() != 0) {
-          setRetcode(other.getRetcode());
-        }
-        if (!other.oPFPLNLHLMA_.isEmpty()) {
-          if (oPFPLNLHLMA_.isEmpty()) {
-            oPFPLNLHLMA_ = other.oPFPLNLHLMA_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureOPFPLNLHLMAIsMutable();
-            oPFPLNLHLMA_.addAll(other.oPFPLNLHLMA_);
+            ensureJHKIIFBAHMCIsMutable();
+            jHKIIFBAHMC_.addAll(other.jHKIIFBAHMC_);
           }
           onChanged();
         }
         if (other.getLevelId() != 0) {
           setLevelId(other.getLevelId());
+        }
+        if (other.getRetcode() != 0) {
+          setRetcode(other.getRetcode());
+        }
+        if (other.getConfigId() != 0) {
+          setConfigId(other.getConfigId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -792,283 +647,92 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       private int bitField0_;
 
-      private int oJJEDPGEKFK_ = 0;
-      /**
-       * <code>.HPJPOMAIPNC OJJEDPGEKFK = 4;</code>
-       * @return The enum numeric value on the wire for oJJEDPGEKFK.
-       */
-      @java.lang.Override public int getOJJEDPGEKFKValue() {
-        return oJJEDPGEKFK_;
-      }
-      /**
-       * <code>.HPJPOMAIPNC OJJEDPGEKFK = 4;</code>
-       * @param value The enum numeric value on the wire for oJJEDPGEKFK to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOJJEDPGEKFKValue(int value) {
-        
-        oJJEDPGEKFK_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>.HPJPOMAIPNC OJJEDPGEKFK = 4;</code>
-       * @return The oJJEDPGEKFK.
-       */
-      @java.lang.Override
-      public emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC getOJJEDPGEKFK() {
-        @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC result = emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC.valueOf(oJJEDPGEKFK_);
-        return result == null ? emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC.UNRECOGNIZED : result;
-      }
-      /**
-       * <code>.HPJPOMAIPNC OJJEDPGEKFK = 4;</code>
-       * @param value The oJJEDPGEKFK to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOJJEDPGEKFK(emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.HPJPOMAIPNC value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        
-        oJJEDPGEKFK_ = value.getNumber();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>.HPJPOMAIPNC OJJEDPGEKFK = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOJJEDPGEKFK() {
-        
-        oJJEDPGEKFK_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList jJHKBJLIPNA_ = emptyIntList();
-      private void ensureJJHKBJLIPNAIsMutable() {
+      private com.google.protobuf.Internal.IntList jHKIIFBAHMC_ = emptyIntList();
+      private void ensureJHKIIFBAHMCIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          jJHKBJLIPNA_ = mutableCopy(jJHKBJLIPNA_);
+          jHKIIFBAHMC_ = mutableCopy(jHKIIFBAHMC_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
-       * @return A list containing the jJHKBJLIPNA.
+       * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
+       * @return A list containing the jHKIIFBAHMC.
        */
       public java.util.List<java.lang.Integer>
-          getJJHKBJLIPNAList() {
+          getJHKIIFBAHMCList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(jJHKBJLIPNA_) : jJHKBJLIPNA_;
+                 java.util.Collections.unmodifiableList(jHKIIFBAHMC_) : jHKIIFBAHMC_;
       }
       /**
-       * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
-       * @return The count of jJHKBJLIPNA.
+       * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
+       * @return The count of jHKIIFBAHMC.
        */
-      public int getJJHKBJLIPNACount() {
-        return jJHKBJLIPNA_.size();
+      public int getJHKIIFBAHMCCount() {
+        return jHKIIFBAHMC_.size();
       }
       /**
-       * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
+       * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
        * @param index The index of the element to return.
-       * @return The jJHKBJLIPNA at the given index.
+       * @return The jHKIIFBAHMC at the given index.
        */
-      public int getJJHKBJLIPNA(int index) {
-        return jJHKBJLIPNA_.getInt(index);
+      public int getJHKIIFBAHMC(int index) {
+        return jHKIIFBAHMC_.getInt(index);
       }
       /**
-       * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
+       * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
        * @param index The index to set the value at.
-       * @param value The jJHKBJLIPNA to set.
+       * @param value The jHKIIFBAHMC to set.
        * @return This builder for chaining.
        */
-      public Builder setJJHKBJLIPNA(
+      public Builder setJHKIIFBAHMC(
           int index, int value) {
-        ensureJJHKBJLIPNAIsMutable();
-        jJHKBJLIPNA_.setInt(index, value);
+        ensureJHKIIFBAHMCIsMutable();
+        jHKIIFBAHMC_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
-       * @param value The jJHKBJLIPNA to add.
+       * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
+       * @param value The jHKIIFBAHMC to add.
        * @return This builder for chaining.
        */
-      public Builder addJJHKBJLIPNA(int value) {
-        ensureJJHKBJLIPNAIsMutable();
-        jJHKBJLIPNA_.addInt(value);
+      public Builder addJHKIIFBAHMC(int value) {
+        ensureJHKIIFBAHMCIsMutable();
+        jHKIIFBAHMC_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
-       * @param values The jJHKBJLIPNA to add.
+       * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
+       * @param values The jHKIIFBAHMC to add.
        * @return This builder for chaining.
        */
-      public Builder addAllJJHKBJLIPNA(
+      public Builder addAllJHKIIFBAHMC(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureJJHKBJLIPNAIsMutable();
+        ensureJHKIIFBAHMCIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, jJHKBJLIPNA_);
+            values, jHKIIFBAHMC_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 JJHKBJLIPNA = 10;</code>
+       * <code>repeated uint32 JHKIIFBAHMC = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJJHKBJLIPNA() {
-        jJHKBJLIPNA_ = emptyIntList();
+      public Builder clearJHKIIFBAHMC() {
+        jHKIIFBAHMC_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private int configId_ ;
-      /**
-       * <code>uint32 config_id = 8;</code>
-       * @return The configId.
-       */
-      @java.lang.Override
-      public int getConfigId() {
-        return configId_;
-      }
-      /**
-       * <code>uint32 config_id = 8;</code>
-       * @param value The configId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setConfigId(int value) {
-        
-        configId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 config_id = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearConfigId() {
-        
-        configId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int retcode_ ;
-      /**
-       * <code>int32 retcode = 12;</code>
-       * @return The retcode.
-       */
-      @java.lang.Override
-      public int getRetcode() {
-        return retcode_;
-      }
-      /**
-       * <code>int32 retcode = 12;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRetcode(int value) {
-        
-        retcode_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 retcode = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRetcode() {
-        
-        retcode_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList oPFPLNLHLMA_ = emptyIntList();
-      private void ensureOPFPLNLHLMAIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          oPFPLNLHLMA_ = mutableCopy(oPFPLNLHLMA_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-       * @return A list containing the oPFPLNLHLMA.
-       */
-      public java.util.List<java.lang.Integer>
-          getOPFPLNLHLMAList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(oPFPLNLHLMA_) : oPFPLNLHLMA_;
-      }
-      /**
-       * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-       * @return The count of oPFPLNLHLMA.
-       */
-      public int getOPFPLNLHLMACount() {
-        return oPFPLNLHLMA_.size();
-      }
-      /**
-       * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-       * @param index The index of the element to return.
-       * @return The oPFPLNLHLMA at the given index.
-       */
-      public int getOPFPLNLHLMA(int index) {
-        return oPFPLNLHLMA_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-       * @param index The index to set the value at.
-       * @param value The oPFPLNLHLMA to set.
-       * @return This builder for chaining.
-       */
-      public Builder setOPFPLNLHLMA(
-          int index, int value) {
-        ensureOPFPLNLHLMAIsMutable();
-        oPFPLNLHLMA_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-       * @param value The oPFPLNLHLMA to add.
-       * @return This builder for chaining.
-       */
-      public Builder addOPFPLNLHLMA(int value) {
-        ensureOPFPLNLHLMAIsMutable();
-        oPFPLNLHLMA_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-       * @param values The oPFPLNLHLMA to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllOPFPLNLHLMA(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureOPFPLNLHLMAIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, oPFPLNLHLMA_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 OPFPLNLHLMA = 13;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearOPFPLNLHLMA() {
-        oPFPLNLHLMA_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level_id = 7;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -1076,7 +740,11 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level_id = 7;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -1087,12 +755,102 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
         
         levelId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int retcode_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>int32 retcode = 13;</code>
+       * @return The retcode.
+       */
+      @java.lang.Override
+      public int getRetcode() {
+        return retcode_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>int32 retcode = 13;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRetcode(int value) {
+        
+        retcode_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>int32 retcode = 13;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRetcode() {
+        
+        retcode_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int configId_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 config_id = 10;</code>
+       * @return The configId.
+       */
+      @java.lang.Override
+      public int getConfigId() {
+        return configId_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 config_id = 10;</code>
+       * @param value The configId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setConfigId(int value) {
+        
+        configId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 config_id = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearConfigId() {
+        
+        configId_ = 0;
         onChanged();
         return this;
       }
@@ -1164,25 +922,24 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\'GCGStartChallengeByCheckRewardRsp.prot" +
-      "o\032\021HPJPOMAIPNC.proto\"\246\001\n!GCGStartChallen" +
-      "geByCheckRewardRsp\022!\n\013OJJEDPGEKFK\030\004 \001(\0162" +
-      "\014.HPJPOMAIPNC\022\023\n\013JJHKBJLIPNA\030\n \003(\r\022\021\n\tco" +
-      "nfig_id\030\010 \001(\r\022\017\n\007retcode\030\014 \001(\005\022\023\n\013OPFPLN" +
-      "LHLMA\030\r \003(\r\022\020\n\010level_id\030\013 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "o\032\021JFEBHPOHIBE.proto\"n\n!GCGStartChalleng" +
+      "eByCheckRewardRsp\022\023\n\013JHKIIFBAHMC\030\001 \003(\r\022\020" +
+      "\n\010level_id\030\007 \001(\r\022\017\n\007retcode\030\r \001(\005\022\021\n\tcon" +
+      "fig_id\030\n \001(\rB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.JFEBHPOHIBEOuterClass.getDescriptor(),
         });
     internal_static_GCGStartChallengeByCheckRewardRsp_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_GCGStartChallengeByCheckRewardRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GCGStartChallengeByCheckRewardRsp_descriptor,
-        new java.lang.String[] { "OJJEDPGEKFK", "JJHKBJLIPNA", "ConfigId", "Retcode", "OPFPLNLHLMA", "LevelId", });
-    emu.grasscutter.net.proto.HPJPOMAIPNCOuterClass.getDescriptor();
+        new java.lang.String[] { "JHKIIFBAHMC", "LevelId", "Retcode", "ConfigId", });
+    emu.grasscutter.net.proto.JFEBHPOHIBEOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

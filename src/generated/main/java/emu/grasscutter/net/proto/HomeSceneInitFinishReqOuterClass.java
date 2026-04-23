@@ -20,7 +20,8 @@ public final class HomeSceneInitFinishReqOuterClass {
   }
   /**
    * <pre>
-   * todo
+   * CmdId: 27778
+   * Obf: DLBMDKGFBOI
    * </pre>
    *
    * Protobuf type {@code HomeSceneInitFinishReq}
@@ -245,7 +246,8 @@ public final class HomeSceneInitFinishReqOuterClass {
     }
     /**
      * <pre>
-     * todo
+     * CmdId: 27778
+     * Obf: DLBMDKGFBOI
      * </pre>
      *
      * Protobuf type {@code HomeSceneInitFinishReq}

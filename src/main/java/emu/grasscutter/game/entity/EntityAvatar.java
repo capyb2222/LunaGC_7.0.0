@@ -90,7 +90,7 @@ public class EntityAvatar extends GameEntity {
                 return 0f;
             }
         }
-    
+
 
     public void setLastExecutionTime(long time) {
         this.lastExecutionTime = time;
@@ -136,9 +136,9 @@ public class EntityAvatar extends GameEntity {
     public void onDeath(int killerId) {
         super.onDeath(killerId); // Invoke super class's onDeath() method.
 
-        this.killedType = PlayerDieType.PLAYER_DIE_TYPE_KILL_BY_MONSTER;
+        this.killedType = PlayerDieType.PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER;
         this.killedBy = killerId;
-        clearEnergy(ChangeEnergyReason.CHANGE_ENERGY_REASON_NONE);
+        clearEnergy(ChangeEnergyReason.ChangeEnergyReason_CHANGE_ENERGY_NONE);
     }
 
     public void onDeath(PlayerDieType dieType, int killerId) {
@@ -146,7 +146,7 @@ public class EntityAvatar extends GameEntity {
 
         this.killedType = dieType;
         this.killedBy = killerId;
-        clearEnergy(ChangeEnergyReason.CHANGE_ENERGY_REASON_NONE);
+        clearEnergy(ChangeEnergyReason.ChangeEnergyReason_CHANGE_ENERGY_NONE);
     }
 
     @Override
@@ -181,9 +181,9 @@ public class EntityAvatar extends GameEntity {
                                     FightProperty.FIGHT_PROP_CUR_HP,
                                     healed,
                                     mute
-                                            ? PropChangeReason.PROP_CHANGE_REASON_NONE
-                                            : PropChangeReason.PROP_CHANGE_REASON_ABILITY,
-                                    ChangeHpReason.CHANGE_HP_ADD_ABILITY));
+                                            ? PropChangeReason.PropChangeReason_PROP_CHANGE_NONE
+                                            : PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
+                                    ChangeHpReason.ChangeHpReason_CHANGE_HP_SUB_ABILITY));
         }
 
         return healed;
@@ -213,7 +213,7 @@ public class EntityAvatar extends GameEntity {
         // Send packets.
         this.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(this, curEnergyProp));
 
-        if (reason == ChangeEnergyReason.CHANGE_ENERGY_REASON_SKILL_START) {
+        if (reason == ChangeEnergyReason.ChangeEnergyReason_CHANGE_ENERGY_SKILL_START) {
             this.getScene()
                     .broadcastPacket(
                             new PacketEntityFightPropChangeReasonNotify(this, curEnergyProp, -curEnergy, reason));
@@ -310,14 +310,14 @@ public class EntityAvatar extends GameEntity {
                         .setAbilityInfo(AbilitySyncStateInfo.newBuilder())
                         .setRendererChangedInfo(EntityRendererChangedInfo.newBuilder())
                         .setAiInfo(
-                                SceneEntityAiInfo.newBuilder().setIsAiOpen(true).setBornPos(Vector.newBuilder()))
+                                SceneEntityAiInfo.newBuilder().setIsAiOpen(true))
                         .setBornPos(Vector.newBuilder())
                         .build();
 
         SceneEntityInfo.Builder entityInfo =
                 SceneEntityInfo.newBuilder()
                         .setEntityId(getId())
-                        .setEntityType(ProtEntityType.PROT_ENTITY_TYPE_AVATAR)
+                        .setEntityType(ProtEntityType.ProtEntityType_PROT_ENTITY_AVATAR)
                         .addAnimatorParaList(AnimatorParameterValueInfoPair.newBuilder())
                         .setEntityClientData(EntityClientData.newBuilder())
                         .setEntityAuthorityInfo(authority)

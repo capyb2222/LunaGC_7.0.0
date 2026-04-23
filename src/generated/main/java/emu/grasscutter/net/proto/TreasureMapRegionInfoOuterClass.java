@@ -19,69 +19,73 @@ public final class TreasureMapRegionInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector region_center_pos = 6;</code>
-     * @return Whether the regionCenterPos field is set.
-     */
-    boolean hasRegionCenterPos();
-    /**
-     * <code>.Vector region_center_pos = 6;</code>
-     * @return The regionCenterPos.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos();
-    /**
-     * <code>.Vector region_center_pos = 6;</code>
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder();
-
-    /**
-     * <code>uint32 region_radius = 9;</code>
-     * @return The regionRadius.
-     */
-    int getRegionRadius();
-
-    /**
-     * <code>bool BOCLGEMDDCH = 5;</code>
-     * @return The bOCLGEMDDCH.
-     */
-    boolean getBOCLGEMDDCH();
-
-    /**
-     * <code>bool CLAMOJLHJPE = 14;</code>
-     * @return The cLAMOJLHJPE.
-     */
-    boolean getCLAMOJLHJPE();
-
-    /**
-     * <code>uint32 EBKPHFHLEEB = 3;</code>
-     * @return The eBKPHFHLEEB.
-     */
-    int getEBKPHFHLEEB();
-
-    /**
-     * <code>uint32 region_id = 15;</code>
+     * <code>uint32 region_id = 4;</code>
      * @return The regionId.
      */
     int getRegionId();
 
     /**
-     * <code>uint32 FONLIJGNAFL = 12;</code>
-     * @return The fONLIJGNAFL.
+     * <code>uint32 start_time = 6;</code>
+     * @return The startTime.
      */
-    int getFONLIJGNAFL();
+    int getStartTime();
 
     /**
-     * <code>uint32 scene_id = 4;</code>
+     * <code>uint32 FGGBKHFBKDP = 14;</code>
+     * @return The fGGBKHFBKDP.
+     */
+    int getFGGBKHFBKDP();
+
+    /**
+     * <code>.Vector region_center_pos = 2;</code>
+     * @return Whether the regionCenterPos field is set.
+     */
+    boolean hasRegionCenterPos();
+    /**
+     * <code>.Vector region_center_pos = 2;</code>
+     * @return The regionCenterPos.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos();
+    /**
+     * <code>.Vector region_center_pos = 2;</code>
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder();
+
+    /**
+     * <code>uint32 scene_id = 1;</code>
      * @return The sceneId.
      */
     int getSceneId();
 
     /**
-     * <code>uint32 start_time = 2;</code>
-     * @return The startTime.
+     * <code>uint32 region_radius = 7;</code>
+     * @return The regionRadius.
      */
-    int getStartTime();
+    int getRegionRadius();
+
+    /**
+     * <code>bool IMMKAGOADGP = 15;</code>
+     * @return The iMMKAGOADGP.
+     */
+    boolean getIMMKAGOADGP();
+
+    /**
+     * <code>uint32 LKCMDIFKAMB = 10;</code>
+     * @return The lKCMDIFKAMB.
+     */
+    int getLKCMDIFKAMB();
+
+    /**
+     * <code>bool IEKIMNMPKJD = 3;</code>
+     * @return The iEKIMNMPKJD.
+     */
+    boolean getIEKIMNMPKJD();
   }
   /**
+   * <pre>
+   * Obf: CDCIECAIEIB
+   * </pre>
+   *
    * Protobuf type {@code TreasureMapRegionInfo}
    */
   public static final class TreasureMapRegionInfo extends
@@ -126,27 +130,12 @@ public final class TreasureMapRegionInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              startTime_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
-              eBKPHFHLEEB_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            case 8: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 40: {
-
-              bOCLGEMDDCH_ = input.readBool();
-              break;
-            }
-            case 50: {
+            case 18: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (regionCenterPos_ != null) {
                 subBuilder = regionCenterPos_.toBuilder();
@@ -159,24 +148,39 @@ public final class TreasureMapRegionInfoOuterClass {
 
               break;
             }
-            case 72: {
+            case 24: {
+
+              iEKIMNMPKJD_ = input.readBool();
+              break;
+            }
+            case 32: {
+
+              regionId_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              startTime_ = input.readUInt32();
+              break;
+            }
+            case 56: {
 
               regionRadius_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 80: {
 
-              fONLIJGNAFL_ = input.readUInt32();
+              lKCMDIFKAMB_ = input.readUInt32();
               break;
             }
             case 112: {
 
-              cLAMOJLHJPE_ = input.readBool();
+              fGGBKHFBKDP_ = input.readUInt32();
               break;
             }
             case 120: {
 
-              regionId_ = input.readUInt32();
+              iMMKAGOADGP_ = input.readBool();
               break;
             }
             default: {
@@ -211,80 +215,10 @@ public final class TreasureMapRegionInfoOuterClass {
               emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.TreasureMapRegionInfo.class, emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.TreasureMapRegionInfo.Builder.class);
     }
 
-    public static final int REGION_CENTER_POS_FIELD_NUMBER = 6;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector regionCenterPos_;
-    /**
-     * <code>.Vector region_center_pos = 6;</code>
-     * @return Whether the regionCenterPos field is set.
-     */
-    @java.lang.Override
-    public boolean hasRegionCenterPos() {
-      return regionCenterPos_ != null;
-    }
-    /**
-     * <code>.Vector region_center_pos = 6;</code>
-     * @return The regionCenterPos.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos() {
-      return regionCenterPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : regionCenterPos_;
-    }
-    /**
-     * <code>.Vector region_center_pos = 6;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder() {
-      return getRegionCenterPos();
-    }
-
-    public static final int REGION_RADIUS_FIELD_NUMBER = 9;
-    private int regionRadius_;
-    /**
-     * <code>uint32 region_radius = 9;</code>
-     * @return The regionRadius.
-     */
-    @java.lang.Override
-    public int getRegionRadius() {
-      return regionRadius_;
-    }
-
-    public static final int BOCLGEMDDCH_FIELD_NUMBER = 5;
-    private boolean bOCLGEMDDCH_;
-    /**
-     * <code>bool BOCLGEMDDCH = 5;</code>
-     * @return The bOCLGEMDDCH.
-     */
-    @java.lang.Override
-    public boolean getBOCLGEMDDCH() {
-      return bOCLGEMDDCH_;
-    }
-
-    public static final int CLAMOJLHJPE_FIELD_NUMBER = 14;
-    private boolean cLAMOJLHJPE_;
-    /**
-     * <code>bool CLAMOJLHJPE = 14;</code>
-     * @return The cLAMOJLHJPE.
-     */
-    @java.lang.Override
-    public boolean getCLAMOJLHJPE() {
-      return cLAMOJLHJPE_;
-    }
-
-    public static final int EBKPHFHLEEB_FIELD_NUMBER = 3;
-    private int eBKPHFHLEEB_;
-    /**
-     * <code>uint32 EBKPHFHLEEB = 3;</code>
-     * @return The eBKPHFHLEEB.
-     */
-    @java.lang.Override
-    public int getEBKPHFHLEEB() {
-      return eBKPHFHLEEB_;
-    }
-
-    public static final int REGION_ID_FIELD_NUMBER = 15;
+    public static final int REGION_ID_FIELD_NUMBER = 4;
     private int regionId_;
     /**
-     * <code>uint32 region_id = 15;</code>
+     * <code>uint32 region_id = 4;</code>
      * @return The regionId.
      */
     @java.lang.Override
@@ -292,21 +226,58 @@ public final class TreasureMapRegionInfoOuterClass {
       return regionId_;
     }
 
-    public static final int FONLIJGNAFL_FIELD_NUMBER = 12;
-    private int fONLIJGNAFL_;
+    public static final int START_TIME_FIELD_NUMBER = 6;
+    private int startTime_;
     /**
-     * <code>uint32 FONLIJGNAFL = 12;</code>
-     * @return The fONLIJGNAFL.
+     * <code>uint32 start_time = 6;</code>
+     * @return The startTime.
      */
     @java.lang.Override
-    public int getFONLIJGNAFL() {
-      return fONLIJGNAFL_;
+    public int getStartTime() {
+      return startTime_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 4;
+    public static final int FGGBKHFBKDP_FIELD_NUMBER = 14;
+    private int fGGBKHFBKDP_;
+    /**
+     * <code>uint32 FGGBKHFBKDP = 14;</code>
+     * @return The fGGBKHFBKDP.
+     */
+    @java.lang.Override
+    public int getFGGBKHFBKDP() {
+      return fGGBKHFBKDP_;
+    }
+
+    public static final int REGION_CENTER_POS_FIELD_NUMBER = 2;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector regionCenterPos_;
+    /**
+     * <code>.Vector region_center_pos = 2;</code>
+     * @return Whether the regionCenterPos field is set.
+     */
+    @java.lang.Override
+    public boolean hasRegionCenterPos() {
+      return regionCenterPos_ != null;
+    }
+    /**
+     * <code>.Vector region_center_pos = 2;</code>
+     * @return The regionCenterPos.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos() {
+      return regionCenterPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : regionCenterPos_;
+    }
+    /**
+     * <code>.Vector region_center_pos = 2;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder() {
+      return getRegionCenterPos();
+    }
+
+    public static final int SCENE_ID_FIELD_NUMBER = 1;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 4;</code>
+     * <code>uint32 scene_id = 1;</code>
      * @return The sceneId.
      */
     @java.lang.Override
@@ -314,15 +285,48 @@ public final class TreasureMapRegionInfoOuterClass {
       return sceneId_;
     }
 
-    public static final int START_TIME_FIELD_NUMBER = 2;
-    private int startTime_;
+    public static final int REGION_RADIUS_FIELD_NUMBER = 7;
+    private int regionRadius_;
     /**
-     * <code>uint32 start_time = 2;</code>
-     * @return The startTime.
+     * <code>uint32 region_radius = 7;</code>
+     * @return The regionRadius.
      */
     @java.lang.Override
-    public int getStartTime() {
-      return startTime_;
+    public int getRegionRadius() {
+      return regionRadius_;
+    }
+
+    public static final int IMMKAGOADGP_FIELD_NUMBER = 15;
+    private boolean iMMKAGOADGP_;
+    /**
+     * <code>bool IMMKAGOADGP = 15;</code>
+     * @return The iMMKAGOADGP.
+     */
+    @java.lang.Override
+    public boolean getIMMKAGOADGP() {
+      return iMMKAGOADGP_;
+    }
+
+    public static final int LKCMDIFKAMB_FIELD_NUMBER = 10;
+    private int lKCMDIFKAMB_;
+    /**
+     * <code>uint32 LKCMDIFKAMB = 10;</code>
+     * @return The lKCMDIFKAMB.
+     */
+    @java.lang.Override
+    public int getLKCMDIFKAMB() {
+      return lKCMDIFKAMB_;
+    }
+
+    public static final int IEKIMNMPKJD_FIELD_NUMBER = 3;
+    private boolean iEKIMNMPKJD_;
+    /**
+     * <code>bool IEKIMNMPKJD = 3;</code>
+     * @return The iEKIMNMPKJD.
+     */
+    @java.lang.Override
+    public boolean getIEKIMNMPKJD() {
+      return iEKIMNMPKJD_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -339,32 +343,32 @@ public final class TreasureMapRegionInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (startTime_ != 0) {
-        output.writeUInt32(2, startTime_);
-      }
-      if (eBKPHFHLEEB_ != 0) {
-        output.writeUInt32(3, eBKPHFHLEEB_);
-      }
       if (sceneId_ != 0) {
-        output.writeUInt32(4, sceneId_);
-      }
-      if (bOCLGEMDDCH_ != false) {
-        output.writeBool(5, bOCLGEMDDCH_);
+        output.writeUInt32(1, sceneId_);
       }
       if (regionCenterPos_ != null) {
-        output.writeMessage(6, getRegionCenterPos());
+        output.writeMessage(2, getRegionCenterPos());
       }
-      if (regionRadius_ != 0) {
-        output.writeUInt32(9, regionRadius_);
-      }
-      if (fONLIJGNAFL_ != 0) {
-        output.writeUInt32(12, fONLIJGNAFL_);
-      }
-      if (cLAMOJLHJPE_ != false) {
-        output.writeBool(14, cLAMOJLHJPE_);
+      if (iEKIMNMPKJD_ != false) {
+        output.writeBool(3, iEKIMNMPKJD_);
       }
       if (regionId_ != 0) {
-        output.writeUInt32(15, regionId_);
+        output.writeUInt32(4, regionId_);
+      }
+      if (startTime_ != 0) {
+        output.writeUInt32(6, startTime_);
+      }
+      if (regionRadius_ != 0) {
+        output.writeUInt32(7, regionRadius_);
+      }
+      if (lKCMDIFKAMB_ != 0) {
+        output.writeUInt32(10, lKCMDIFKAMB_);
+      }
+      if (fGGBKHFBKDP_ != 0) {
+        output.writeUInt32(14, fGGBKHFBKDP_);
+      }
+      if (iMMKAGOADGP_ != false) {
+        output.writeBool(15, iMMKAGOADGP_);
       }
       unknownFields.writeTo(output);
     }
@@ -375,41 +379,41 @@ public final class TreasureMapRegionInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (startTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, startTime_);
-      }
-      if (eBKPHFHLEEB_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, eBKPHFHLEEB_);
-      }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, sceneId_);
-      }
-      if (bOCLGEMDDCH_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, bOCLGEMDDCH_);
+          .computeUInt32Size(1, sceneId_);
       }
       if (regionCenterPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getRegionCenterPos());
+          .computeMessageSize(2, getRegionCenterPos());
       }
-      if (regionRadius_ != 0) {
+      if (iEKIMNMPKJD_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, regionRadius_);
-      }
-      if (fONLIJGNAFL_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, fONLIJGNAFL_);
-      }
-      if (cLAMOJLHJPE_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, cLAMOJLHJPE_);
+          .computeBoolSize(3, iEKIMNMPKJD_);
       }
       if (regionId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, regionId_);
+          .computeUInt32Size(4, regionId_);
+      }
+      if (startTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, startTime_);
+      }
+      if (regionRadius_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, regionRadius_);
+      }
+      if (lKCMDIFKAMB_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, lKCMDIFKAMB_);
+      }
+      if (fGGBKHFBKDP_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, fGGBKHFBKDP_);
+      }
+      if (iMMKAGOADGP_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(15, iMMKAGOADGP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -426,27 +430,27 @@ public final class TreasureMapRegionInfoOuterClass {
       }
       emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.TreasureMapRegionInfo other = (emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.TreasureMapRegionInfo) obj;
 
+      if (getRegionId()
+          != other.getRegionId()) return false;
+      if (getStartTime()
+          != other.getStartTime()) return false;
+      if (getFGGBKHFBKDP()
+          != other.getFGGBKHFBKDP()) return false;
       if (hasRegionCenterPos() != other.hasRegionCenterPos()) return false;
       if (hasRegionCenterPos()) {
         if (!getRegionCenterPos()
             .equals(other.getRegionCenterPos())) return false;
       }
-      if (getRegionRadius()
-          != other.getRegionRadius()) return false;
-      if (getBOCLGEMDDCH()
-          != other.getBOCLGEMDDCH()) return false;
-      if (getCLAMOJLHJPE()
-          != other.getCLAMOJLHJPE()) return false;
-      if (getEBKPHFHLEEB()
-          != other.getEBKPHFHLEEB()) return false;
-      if (getRegionId()
-          != other.getRegionId()) return false;
-      if (getFONLIJGNAFL()
-          != other.getFONLIJGNAFL()) return false;
       if (getSceneId()
           != other.getSceneId()) return false;
-      if (getStartTime()
-          != other.getStartTime()) return false;
+      if (getRegionRadius()
+          != other.getRegionRadius()) return false;
+      if (getIMMKAGOADGP()
+          != other.getIMMKAGOADGP()) return false;
+      if (getLKCMDIFKAMB()
+          != other.getLKCMDIFKAMB()) return false;
+      if (getIEKIMNMPKJD()
+          != other.getIEKIMNMPKJD()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -458,28 +462,28 @@ public final class TreasureMapRegionInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + REGION_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getRegionId();
+      hash = (37 * hash) + START_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getStartTime();
+      hash = (37 * hash) + FGGBKHFBKDP_FIELD_NUMBER;
+      hash = (53 * hash) + getFGGBKHFBKDP();
       if (hasRegionCenterPos()) {
         hash = (37 * hash) + REGION_CENTER_POS_FIELD_NUMBER;
         hash = (53 * hash) + getRegionCenterPos().hashCode();
       }
-      hash = (37 * hash) + REGION_RADIUS_FIELD_NUMBER;
-      hash = (53 * hash) + getRegionRadius();
-      hash = (37 * hash) + BOCLGEMDDCH_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getBOCLGEMDDCH());
-      hash = (37 * hash) + CLAMOJLHJPE_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getCLAMOJLHJPE());
-      hash = (37 * hash) + EBKPHFHLEEB_FIELD_NUMBER;
-      hash = (53 * hash) + getEBKPHFHLEEB();
-      hash = (37 * hash) + REGION_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getRegionId();
-      hash = (37 * hash) + FONLIJGNAFL_FIELD_NUMBER;
-      hash = (53 * hash) + getFONLIJGNAFL();
       hash = (37 * hash) + SCENE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getSceneId();
-      hash = (37 * hash) + START_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getStartTime();
+      hash = (37 * hash) + REGION_RADIUS_FIELD_NUMBER;
+      hash = (53 * hash) + getRegionRadius();
+      hash = (37 * hash) + IMMKAGOADGP_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIMMKAGOADGP());
+      hash = (37 * hash) + LKCMDIFKAMB_FIELD_NUMBER;
+      hash = (53 * hash) + getLKCMDIFKAMB();
+      hash = (37 * hash) + IEKIMNMPKJD_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIEKIMNMPKJD());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -576,6 +580,10 @@ public final class TreasureMapRegionInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: CDCIECAIEIB
+     * </pre>
+     *
      * Protobuf type {@code TreasureMapRegionInfo}
      */
     public static final class Builder extends
@@ -613,27 +621,27 @@ public final class TreasureMapRegionInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        regionId_ = 0;
+
+        startTime_ = 0;
+
+        fGGBKHFBKDP_ = 0;
+
         if (regionCenterPosBuilder_ == null) {
           regionCenterPos_ = null;
         } else {
           regionCenterPos_ = null;
           regionCenterPosBuilder_ = null;
         }
-        regionRadius_ = 0;
-
-        bOCLGEMDDCH_ = false;
-
-        cLAMOJLHJPE_ = false;
-
-        eBKPHFHLEEB_ = 0;
-
-        regionId_ = 0;
-
-        fONLIJGNAFL_ = 0;
-
         sceneId_ = 0;
 
-        startTime_ = 0;
+        regionRadius_ = 0;
+
+        iMMKAGOADGP_ = false;
+
+        lKCMDIFKAMB_ = 0;
+
+        iEKIMNMPKJD_ = false;
 
         return this;
       }
@@ -661,19 +669,19 @@ public final class TreasureMapRegionInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.TreasureMapRegionInfo buildPartial() {
         emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.TreasureMapRegionInfo result = new emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.TreasureMapRegionInfo(this);
+        result.regionId_ = regionId_;
+        result.startTime_ = startTime_;
+        result.fGGBKHFBKDP_ = fGGBKHFBKDP_;
         if (regionCenterPosBuilder_ == null) {
           result.regionCenterPos_ = regionCenterPos_;
         } else {
           result.regionCenterPos_ = regionCenterPosBuilder_.build();
         }
-        result.regionRadius_ = regionRadius_;
-        result.bOCLGEMDDCH_ = bOCLGEMDDCH_;
-        result.cLAMOJLHJPE_ = cLAMOJLHJPE_;
-        result.eBKPHFHLEEB_ = eBKPHFHLEEB_;
-        result.regionId_ = regionId_;
-        result.fONLIJGNAFL_ = fONLIJGNAFL_;
         result.sceneId_ = sceneId_;
-        result.startTime_ = startTime_;
+        result.regionRadius_ = regionRadius_;
+        result.iMMKAGOADGP_ = iMMKAGOADGP_;
+        result.lKCMDIFKAMB_ = lKCMDIFKAMB_;
+        result.iEKIMNMPKJD_ = iEKIMNMPKJD_;
         onBuilt();
         return result;
       }
@@ -722,32 +730,32 @@ public final class TreasureMapRegionInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.TreasureMapRegionInfo other) {
         if (other == emu.grasscutter.net.proto.TreasureMapRegionInfoOuterClass.TreasureMapRegionInfo.getDefaultInstance()) return this;
-        if (other.hasRegionCenterPos()) {
-          mergeRegionCenterPos(other.getRegionCenterPos());
-        }
-        if (other.getRegionRadius() != 0) {
-          setRegionRadius(other.getRegionRadius());
-        }
-        if (other.getBOCLGEMDDCH() != false) {
-          setBOCLGEMDDCH(other.getBOCLGEMDDCH());
-        }
-        if (other.getCLAMOJLHJPE() != false) {
-          setCLAMOJLHJPE(other.getCLAMOJLHJPE());
-        }
-        if (other.getEBKPHFHLEEB() != 0) {
-          setEBKPHFHLEEB(other.getEBKPHFHLEEB());
-        }
         if (other.getRegionId() != 0) {
           setRegionId(other.getRegionId());
         }
-        if (other.getFONLIJGNAFL() != 0) {
-          setFONLIJGNAFL(other.getFONLIJGNAFL());
+        if (other.getStartTime() != 0) {
+          setStartTime(other.getStartTime());
+        }
+        if (other.getFGGBKHFBKDP() != 0) {
+          setFGGBKHFBKDP(other.getFGGBKHFBKDP());
+        }
+        if (other.hasRegionCenterPos()) {
+          mergeRegionCenterPos(other.getRegionCenterPos());
         }
         if (other.getSceneId() != 0) {
           setSceneId(other.getSceneId());
         }
-        if (other.getStartTime() != 0) {
-          setStartTime(other.getStartTime());
+        if (other.getRegionRadius() != 0) {
+          setRegionRadius(other.getRegionRadius());
+        }
+        if (other.getIMMKAGOADGP() != false) {
+          setIMMKAGOADGP(other.getIMMKAGOADGP());
+        }
+        if (other.getLKCMDIFKAMB() != 0) {
+          setLKCMDIFKAMB(other.getLKCMDIFKAMB());
+        }
+        if (other.getIEKIMNMPKJD() != false) {
+          setIEKIMNMPKJD(other.getIEKIMNMPKJD());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -778,18 +786,111 @@ public final class TreasureMapRegionInfoOuterClass {
         return this;
       }
 
+      private int regionId_ ;
+      /**
+       * <code>uint32 region_id = 4;</code>
+       * @return The regionId.
+       */
+      @java.lang.Override
+      public int getRegionId() {
+        return regionId_;
+      }
+      /**
+       * <code>uint32 region_id = 4;</code>
+       * @param value The regionId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRegionId(int value) {
+        
+        regionId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 region_id = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRegionId() {
+        
+        regionId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int startTime_ ;
+      /**
+       * <code>uint32 start_time = 6;</code>
+       * @return The startTime.
+       */
+      @java.lang.Override
+      public int getStartTime() {
+        return startTime_;
+      }
+      /**
+       * <code>uint32 start_time = 6;</code>
+       * @param value The startTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setStartTime(int value) {
+        
+        startTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 start_time = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearStartTime() {
+        
+        startTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int fGGBKHFBKDP_ ;
+      /**
+       * <code>uint32 FGGBKHFBKDP = 14;</code>
+       * @return The fGGBKHFBKDP.
+       */
+      @java.lang.Override
+      public int getFGGBKHFBKDP() {
+        return fGGBKHFBKDP_;
+      }
+      /**
+       * <code>uint32 FGGBKHFBKDP = 14;</code>
+       * @param value The fGGBKHFBKDP to set.
+       * @return This builder for chaining.
+       */
+      public Builder setFGGBKHFBKDP(int value) {
+        
+        fGGBKHFBKDP_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 FGGBKHFBKDP = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearFGGBKHFBKDP() {
+        
+        fGGBKHFBKDP_ = 0;
+        onChanged();
+        return this;
+      }
+
       private emu.grasscutter.net.proto.VectorOuterClass.Vector regionCenterPos_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> regionCenterPosBuilder_;
       /**
-       * <code>.Vector region_center_pos = 6;</code>
+       * <code>.Vector region_center_pos = 2;</code>
        * @return Whether the regionCenterPos field is set.
        */
       public boolean hasRegionCenterPos() {
         return regionCenterPosBuilder_ != null || regionCenterPos_ != null;
       }
       /**
-       * <code>.Vector region_center_pos = 6;</code>
+       * <code>.Vector region_center_pos = 2;</code>
        * @return The regionCenterPos.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getRegionCenterPos() {
@@ -800,7 +901,7 @@ public final class TreasureMapRegionInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector region_center_pos = 6;</code>
+       * <code>.Vector region_center_pos = 2;</code>
        */
       public Builder setRegionCenterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (regionCenterPosBuilder_ == null) {
@@ -816,7 +917,7 @@ public final class TreasureMapRegionInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector region_center_pos = 6;</code>
+       * <code>.Vector region_center_pos = 2;</code>
        */
       public Builder setRegionCenterPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -830,7 +931,7 @@ public final class TreasureMapRegionInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector region_center_pos = 6;</code>
+       * <code>.Vector region_center_pos = 2;</code>
        */
       public Builder mergeRegionCenterPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (regionCenterPosBuilder_ == null) {
@@ -848,7 +949,7 @@ public final class TreasureMapRegionInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector region_center_pos = 6;</code>
+       * <code>.Vector region_center_pos = 2;</code>
        */
       public Builder clearRegionCenterPos() {
         if (regionCenterPosBuilder_ == null) {
@@ -862,7 +963,7 @@ public final class TreasureMapRegionInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector region_center_pos = 6;</code>
+       * <code>.Vector region_center_pos = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRegionCenterPosBuilder() {
         
@@ -870,7 +971,7 @@ public final class TreasureMapRegionInfoOuterClass {
         return getRegionCenterPosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector region_center_pos = 6;</code>
+       * <code>.Vector region_center_pos = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRegionCenterPosOrBuilder() {
         if (regionCenterPosBuilder_ != null) {
@@ -881,7 +982,7 @@ public final class TreasureMapRegionInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector region_center_pos = 6;</code>
+       * <code>.Vector region_center_pos = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -897,195 +998,9 @@ public final class TreasureMapRegionInfoOuterClass {
         return regionCenterPosBuilder_;
       }
 
-      private int regionRadius_ ;
-      /**
-       * <code>uint32 region_radius = 9;</code>
-       * @return The regionRadius.
-       */
-      @java.lang.Override
-      public int getRegionRadius() {
-        return regionRadius_;
-      }
-      /**
-       * <code>uint32 region_radius = 9;</code>
-       * @param value The regionRadius to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRegionRadius(int value) {
-        
-        regionRadius_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 region_radius = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRegionRadius() {
-        
-        regionRadius_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean bOCLGEMDDCH_ ;
-      /**
-       * <code>bool BOCLGEMDDCH = 5;</code>
-       * @return The bOCLGEMDDCH.
-       */
-      @java.lang.Override
-      public boolean getBOCLGEMDDCH() {
-        return bOCLGEMDDCH_;
-      }
-      /**
-       * <code>bool BOCLGEMDDCH = 5;</code>
-       * @param value The bOCLGEMDDCH to set.
-       * @return This builder for chaining.
-       */
-      public Builder setBOCLGEMDDCH(boolean value) {
-        
-        bOCLGEMDDCH_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool BOCLGEMDDCH = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearBOCLGEMDDCH() {
-        
-        bOCLGEMDDCH_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean cLAMOJLHJPE_ ;
-      /**
-       * <code>bool CLAMOJLHJPE = 14;</code>
-       * @return The cLAMOJLHJPE.
-       */
-      @java.lang.Override
-      public boolean getCLAMOJLHJPE() {
-        return cLAMOJLHJPE_;
-      }
-      /**
-       * <code>bool CLAMOJLHJPE = 14;</code>
-       * @param value The cLAMOJLHJPE to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCLAMOJLHJPE(boolean value) {
-        
-        cLAMOJLHJPE_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool CLAMOJLHJPE = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCLAMOJLHJPE() {
-        
-        cLAMOJLHJPE_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int eBKPHFHLEEB_ ;
-      /**
-       * <code>uint32 EBKPHFHLEEB = 3;</code>
-       * @return The eBKPHFHLEEB.
-       */
-      @java.lang.Override
-      public int getEBKPHFHLEEB() {
-        return eBKPHFHLEEB_;
-      }
-      /**
-       * <code>uint32 EBKPHFHLEEB = 3;</code>
-       * @param value The eBKPHFHLEEB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEBKPHFHLEEB(int value) {
-        
-        eBKPHFHLEEB_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 EBKPHFHLEEB = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEBKPHFHLEEB() {
-        
-        eBKPHFHLEEB_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int regionId_ ;
-      /**
-       * <code>uint32 region_id = 15;</code>
-       * @return The regionId.
-       */
-      @java.lang.Override
-      public int getRegionId() {
-        return regionId_;
-      }
-      /**
-       * <code>uint32 region_id = 15;</code>
-       * @param value The regionId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRegionId(int value) {
-        
-        regionId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 region_id = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRegionId() {
-        
-        regionId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int fONLIJGNAFL_ ;
-      /**
-       * <code>uint32 FONLIJGNAFL = 12;</code>
-       * @return The fONLIJGNAFL.
-       */
-      @java.lang.Override
-      public int getFONLIJGNAFL() {
-        return fONLIJGNAFL_;
-      }
-      /**
-       * <code>uint32 FONLIJGNAFL = 12;</code>
-       * @param value The fONLIJGNAFL to set.
-       * @return This builder for chaining.
-       */
-      public Builder setFONLIJGNAFL(int value) {
-        
-        fONLIJGNAFL_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 FONLIJGNAFL = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearFONLIJGNAFL() {
-        
-        fONLIJGNAFL_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 4;</code>
+       * <code>uint32 scene_id = 1;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -1093,7 +1008,7 @@ public final class TreasureMapRegionInfoOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 4;</code>
+       * <code>uint32 scene_id = 1;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -1104,7 +1019,7 @@ public final class TreasureMapRegionInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 4;</code>
+       * <code>uint32 scene_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
@@ -1114,33 +1029,126 @@ public final class TreasureMapRegionInfoOuterClass {
         return this;
       }
 
-      private int startTime_ ;
+      private int regionRadius_ ;
       /**
-       * <code>uint32 start_time = 2;</code>
-       * @return The startTime.
+       * <code>uint32 region_radius = 7;</code>
+       * @return The regionRadius.
        */
       @java.lang.Override
-      public int getStartTime() {
-        return startTime_;
+      public int getRegionRadius() {
+        return regionRadius_;
       }
       /**
-       * <code>uint32 start_time = 2;</code>
-       * @param value The startTime to set.
+       * <code>uint32 region_radius = 7;</code>
+       * @param value The regionRadius to set.
        * @return This builder for chaining.
        */
-      public Builder setStartTime(int value) {
+      public Builder setRegionRadius(int value) {
         
-        startTime_ = value;
+        regionRadius_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 start_time = 2;</code>
+       * <code>uint32 region_radius = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearStartTime() {
+      public Builder clearRegionRadius() {
         
-        startTime_ = 0;
+        regionRadius_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean iMMKAGOADGP_ ;
+      /**
+       * <code>bool IMMKAGOADGP = 15;</code>
+       * @return The iMMKAGOADGP.
+       */
+      @java.lang.Override
+      public boolean getIMMKAGOADGP() {
+        return iMMKAGOADGP_;
+      }
+      /**
+       * <code>bool IMMKAGOADGP = 15;</code>
+       * @param value The iMMKAGOADGP to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIMMKAGOADGP(boolean value) {
+        
+        iMMKAGOADGP_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool IMMKAGOADGP = 15;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIMMKAGOADGP() {
+        
+        iMMKAGOADGP_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int lKCMDIFKAMB_ ;
+      /**
+       * <code>uint32 LKCMDIFKAMB = 10;</code>
+       * @return The lKCMDIFKAMB.
+       */
+      @java.lang.Override
+      public int getLKCMDIFKAMB() {
+        return lKCMDIFKAMB_;
+      }
+      /**
+       * <code>uint32 LKCMDIFKAMB = 10;</code>
+       * @param value The lKCMDIFKAMB to set.
+       * @return This builder for chaining.
+       */
+      public Builder setLKCMDIFKAMB(int value) {
+        
+        lKCMDIFKAMB_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 LKCMDIFKAMB = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearLKCMDIFKAMB() {
+        
+        lKCMDIFKAMB_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean iEKIMNMPKJD_ ;
+      /**
+       * <code>bool IEKIMNMPKJD = 3;</code>
+       * @return The iEKIMNMPKJD.
+       */
+      @java.lang.Override
+      public boolean getIEKIMNMPKJD() {
+        return iEKIMNMPKJD_;
+      }
+      /**
+       * <code>bool IEKIMNMPKJD = 3;</code>
+       * @param value The iEKIMNMPKJD to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIEKIMNMPKJD(boolean value) {
+        
+        iEKIMNMPKJD_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool IEKIMNMPKJD = 3;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIEKIMNMPKJD() {
+        
+        iEKIMNMPKJD_ = false;
         onChanged();
         return this;
       }
@@ -1212,12 +1220,12 @@ public final class TreasureMapRegionInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033TreasureMapRegionInfo.proto\032\014Vector.pr" +
-      "oto\"\337\001\n\025TreasureMapRegionInfo\022\"\n\021region_" +
-      "center_pos\030\006 \001(\0132\007.Vector\022\025\n\rregion_radi" +
-      "us\030\t \001(\r\022\023\n\013BOCLGEMDDCH\030\005 \001(\010\022\023\n\013CLAMOJL" +
-      "HJPE\030\016 \001(\010\022\023\n\013EBKPHFHLEEB\030\003 \001(\r\022\021\n\tregio" +
-      "n_id\030\017 \001(\r\022\023\n\013FONLIJGNAFL\030\014 \001(\r\022\020\n\010scene" +
-      "_id\030\004 \001(\r\022\022\n\nstart_time\030\002 \001(\rB\033\n\031emu.gra" +
+      "oto\"\337\001\n\025TreasureMapRegionInfo\022\021\n\tregion_" +
+      "id\030\004 \001(\r\022\022\n\nstart_time\030\006 \001(\r\022\023\n\013FGGBKHFB" +
+      "KDP\030\016 \001(\r\022\"\n\021region_center_pos\030\002 \001(\0132\007.V" +
+      "ector\022\020\n\010scene_id\030\001 \001(\r\022\025\n\rregion_radius" +
+      "\030\007 \001(\r\022\023\n\013IMMKAGOADGP\030\017 \001(\010\022\023\n\013LKCMDIFKA" +
+      "MB\030\n \001(\r\022\023\n\013IEKIMNMPKJD\030\003 \001(\010B\033\n\031emu.gra" +
       "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -1230,7 +1238,7 @@ public final class TreasureMapRegionInfoOuterClass {
     internal_static_TreasureMapRegionInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TreasureMapRegionInfo_descriptor,
-        new java.lang.String[] { "RegionCenterPos", "RegionRadius", "BOCLGEMDDCH", "CLAMOJLHJPE", "EBKPHFHLEEB", "RegionId", "FONLIJGNAFL", "SceneId", "StartTime", });
+        new java.lang.String[] { "RegionId", "StartTime", "FGGBKHFBKDP", "RegionCenterPos", "SceneId", "RegionRadius", "IMMKAGOADGP", "LKCMDIFKAMB", "IEKIMNMPKJD", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

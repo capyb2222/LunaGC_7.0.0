@@ -19,6 +19,10 @@ public final class MirrorAvatarInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 copy_from_avatar_type = 1;</code>
      * @return The copyFromAvatarType.
      */
@@ -109,6 +113,10 @@ public final class MirrorAvatarInfoOuterClass {
     public static final int COPY_FROM_AVATAR_TYPE_FIELD_NUMBER = 1;
     private int copyFromAvatarType_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 copy_from_avatar_type = 1;</code>
      * @return The copyFromAvatarType.
      */
@@ -421,6 +429,10 @@ public final class MirrorAvatarInfoOuterClass {
 
       private int copyFromAvatarType_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 copy_from_avatar_type = 1;</code>
        * @return The copyFromAvatarType.
        */
@@ -429,6 +441,10 @@ public final class MirrorAvatarInfoOuterClass {
         return copyFromAvatarType_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 copy_from_avatar_type = 1;</code>
        * @param value The copyFromAvatarType to set.
        * @return This builder for chaining.
@@ -440,6 +456,10 @@ public final class MirrorAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 copy_from_avatar_type = 1;</code>
        * @return This builder for chaining.
        */

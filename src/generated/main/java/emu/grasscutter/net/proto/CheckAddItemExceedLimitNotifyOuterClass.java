@@ -19,65 +19,48 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 NJDABBFOACM = 5;</code>
-     * @return A list containing the nJDABBFOACM.
+     * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
+     * @return A list containing the jHKIIFBAHMC.
      */
-    java.util.List<java.lang.Integer> getNJDABBFOACMList();
+    java.util.List<java.lang.Integer> getJHKIIFBAHMCList();
     /**
-     * <code>repeated uint32 NJDABBFOACM = 5;</code>
-     * @return The count of nJDABBFOACM.
+     * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
+     * @return The count of jHKIIFBAHMC.
      */
-    int getNJDABBFOACMCount();
+    int getJHKIIFBAHMCCount();
     /**
-     * <code>repeated uint32 NJDABBFOACM = 5;</code>
+     * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
      * @param index The index of the element to return.
-     * @return The nJDABBFOACM at the given index.
+     * @return The jHKIIFBAHMC at the given index.
      */
-    int getNJDABBFOACM(int index);
+    int getJHKIIFBAHMC(int index);
 
     /**
-     * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-     * @return A list containing the pGHKBNFEFBI.
-     */
-    java.util.List<java.lang.Integer> getPGHKBNFEFBIList();
-    /**
-     * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-     * @return The count of pGHKBNFEFBI.
-     */
-    int getPGHKBNFEFBICount();
-    /**
-     * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-     * @param index The index of the element to return.
-     * @return The pGHKBNFEFBI at the given index.
-     */
-    int getPGHKBNFEFBI(int index);
-
-    /**
-     * <code>bool is_drop = 4;</code>
+     * <code>bool is_drop = 9;</code>
      * @return The isDrop.
      */
     boolean getIsDrop();
 
     /**
-     * <code>uint32 reason = 6;</code>
+     * <code>uint32 reason = 14;</code>
      * @return The reason.
      */
     int getReason();
 
     /**
-     * <code>.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType msg_type = 3;</code>
+     * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
      * @return The enum numeric value on the wire for msgType.
      */
     int getMsgTypeValue();
     /**
-     * <code>.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType msg_type = 3;</code>
+     * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
      * @return The msgType.
      */
-    emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType getMsgType();
+    emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType getMsgType();
   }
   /**
    * <pre>
-   * CmdId: 28641
+   * CmdId: 4469
    * </pre>
    *
    * Protobuf type {@code CheckAddItemExceedLimitNotify}
@@ -92,8 +75,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       super(builder);
     }
     private CheckAddItemExceedLimitNotify() {
-      nJDABBFOACM_ = emptyIntList();
-      pGHKBNFEFBI_ = emptyIntList();
+      jHKIIFBAHMC_ = emptyIntList();
       msgType_ = 0;
     }
 
@@ -128,62 +110,41 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 32: {
               int rawValue = input.readEnum();
 
               msgType_ = rawValue;
               break;
             }
-            case 32: {
+            case 72: {
 
               isDrop_ = input.readBool();
               break;
             }
-            case 40: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                nJDABBFOACM_ = newIntList();
+                jHKIIFBAHMC_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              nJDABBFOACM_.addInt(input.readUInt32());
+              jHKIIFBAHMC_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                nJDABBFOACM_ = newIntList();
+                jHKIIFBAHMC_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                nJDABBFOACM_.addInt(input.readUInt32());
+                jHKIIFBAHMC_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 48: {
+            case 112: {
 
               reason_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                pGHKBNFEFBI_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              pGHKBNFEFBI_.addInt(input.readUInt32());
-              break;
-            }
-            case 122: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                pGHKBNFEFBI_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                pGHKBNFEFBI_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
               break;
             }
             default: {
@@ -202,10 +163,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          nJDABBFOACM_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          pGHKBNFEFBI_.makeImmutable(); // C
+          jHKIIFBAHMC_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -224,192 +182,38 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
               emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.class, emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.Builder.class);
     }
 
+    public static final int JHKIIFBAHMC_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList jHKIIFBAHMC_;
     /**
-     * Protobuf enum {@code CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType}
-     */
-    public enum ItemExceedLimitMsgType
-        implements com.google.protobuf.ProtocolMessageEnum {
-      /**
-       * <code>ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT = 0;</code>
-       */
-      ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT(0),
-      /**
-       * <code>ITEM_EXCEED_LIMIT_MSG_TYPE_TEXT = 1;</code>
-       */
-      ITEM_EXCEED_LIMIT_MSG_TYPE_TEXT(1),
-      /**
-       * <code>ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG = 2;</code>
-       */
-      ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG(2),
-      /**
-       * <code>ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_NONBLOCK = 3;</code>
-       */
-      ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_NONBLOCK(3),
-      UNRECOGNIZED(-1),
-      ;
-
-      /**
-       * <code>ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT = 0;</code>
-       */
-      public static final int ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT_VALUE = 0;
-      /**
-       * <code>ITEM_EXCEED_LIMIT_MSG_TYPE_TEXT = 1;</code>
-       */
-      public static final int ITEM_EXCEED_LIMIT_MSG_TYPE_TEXT_VALUE = 1;
-      /**
-       * <code>ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG = 2;</code>
-       */
-      public static final int ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_VALUE = 2;
-      /**
-       * <code>ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_NONBLOCK = 3;</code>
-       */
-      public static final int ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_NONBLOCK_VALUE = 3;
-
-
-      public final int getNumber() {
-        if (this == UNRECOGNIZED) {
-          throw new java.lang.IllegalArgumentException(
-              "Can't get the number of an unknown enum value.");
-        }
-        return value;
-      }
-
-      /**
-       * @param value The numeric wire value of the corresponding enum entry.
-       * @return The enum associated with the given numeric wire value.
-       * @deprecated Use {@link #forNumber(int)} instead.
-       */
-      @java.lang.Deprecated
-      public static ItemExceedLimitMsgType valueOf(int value) {
-        return forNumber(value);
-      }
-
-      /**
-       * @param value The numeric wire value of the corresponding enum entry.
-       * @return The enum associated with the given numeric wire value.
-       */
-      public static ItemExceedLimitMsgType forNumber(int value) {
-        switch (value) {
-          case 0: return ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT;
-          case 1: return ITEM_EXCEED_LIMIT_MSG_TYPE_TEXT;
-          case 2: return ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG;
-          case 3: return ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_NONBLOCK;
-          default: return null;
-        }
-      }
-
-      public static com.google.protobuf.Internal.EnumLiteMap<ItemExceedLimitMsgType>
-          internalGetValueMap() {
-        return internalValueMap;
-      }
-      private static final com.google.protobuf.Internal.EnumLiteMap<
-          ItemExceedLimitMsgType> internalValueMap =
-            new com.google.protobuf.Internal.EnumLiteMap<ItemExceedLimitMsgType>() {
-              public ItemExceedLimitMsgType findValueByNumber(int number) {
-                return ItemExceedLimitMsgType.forNumber(number);
-              }
-            };
-
-      public final com.google.protobuf.Descriptors.EnumValueDescriptor
-          getValueDescriptor() {
-        if (this == UNRECOGNIZED) {
-          throw new java.lang.IllegalStateException(
-              "Can't get the descriptor of an unrecognized enum value.");
-        }
-        return getDescriptor().getValues().get(ordinal());
-      }
-      public final com.google.protobuf.Descriptors.EnumDescriptor
-          getDescriptorForType() {
-        return getDescriptor();
-      }
-      public static final com.google.protobuf.Descriptors.EnumDescriptor
-          getDescriptor() {
-        return emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.getDescriptor().getEnumTypes().get(0);
-      }
-
-      private static final ItemExceedLimitMsgType[] VALUES = values();
-
-      public static ItemExceedLimitMsgType valueOf(
-          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
-        if (desc.getType() != getDescriptor()) {
-          throw new java.lang.IllegalArgumentException(
-            "EnumValueDescriptor is not for this type.");
-        }
-        if (desc.getIndex() == -1) {
-          return UNRECOGNIZED;
-        }
-        return VALUES[desc.getIndex()];
-      }
-
-      private final int value;
-
-      private ItemExceedLimitMsgType(int value) {
-        this.value = value;
-      }
-
-      // @@protoc_insertion_point(enum_scope:CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType)
-    }
-
-    public static final int NJDABBFOACM_FIELD_NUMBER = 5;
-    private com.google.protobuf.Internal.IntList nJDABBFOACM_;
-    /**
-     * <code>repeated uint32 NJDABBFOACM = 5;</code>
-     * @return A list containing the nJDABBFOACM.
+     * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
+     * @return A list containing the jHKIIFBAHMC.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getNJDABBFOACMList() {
-      return nJDABBFOACM_;
+        getJHKIIFBAHMCList() {
+      return jHKIIFBAHMC_;
     }
     /**
-     * <code>repeated uint32 NJDABBFOACM = 5;</code>
-     * @return The count of nJDABBFOACM.
+     * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
+     * @return The count of jHKIIFBAHMC.
      */
-    public int getNJDABBFOACMCount() {
-      return nJDABBFOACM_.size();
+    public int getJHKIIFBAHMCCount() {
+      return jHKIIFBAHMC_.size();
     }
     /**
-     * <code>repeated uint32 NJDABBFOACM = 5;</code>
+     * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
      * @param index The index of the element to return.
-     * @return The nJDABBFOACM at the given index.
+     * @return The jHKIIFBAHMC at the given index.
      */
-    public int getNJDABBFOACM(int index) {
-      return nJDABBFOACM_.getInt(index);
+    public int getJHKIIFBAHMC(int index) {
+      return jHKIIFBAHMC_.getInt(index);
     }
-    private int nJDABBFOACMMemoizedSerializedSize = -1;
+    private int jHKIIFBAHMCMemoizedSerializedSize = -1;
 
-    public static final int PGHKBNFEFBI_FIELD_NUMBER = 15;
-    private com.google.protobuf.Internal.IntList pGHKBNFEFBI_;
-    /**
-     * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-     * @return A list containing the pGHKBNFEFBI.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getPGHKBNFEFBIList() {
-      return pGHKBNFEFBI_;
-    }
-    /**
-     * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-     * @return The count of pGHKBNFEFBI.
-     */
-    public int getPGHKBNFEFBICount() {
-      return pGHKBNFEFBI_.size();
-    }
-    /**
-     * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-     * @param index The index of the element to return.
-     * @return The pGHKBNFEFBI at the given index.
-     */
-    public int getPGHKBNFEFBI(int index) {
-      return pGHKBNFEFBI_.getInt(index);
-    }
-    private int pGHKBNFEFBIMemoizedSerializedSize = -1;
-
-    public static final int IS_DROP_FIELD_NUMBER = 4;
+    public static final int IS_DROP_FIELD_NUMBER = 9;
     private boolean isDrop_;
     /**
-     * <code>bool is_drop = 4;</code>
+     * <code>bool is_drop = 9;</code>
      * @return The isDrop.
      */
     @java.lang.Override
@@ -417,10 +221,10 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       return isDrop_;
     }
 
-    public static final int REASON_FIELD_NUMBER = 6;
+    public static final int REASON_FIELD_NUMBER = 14;
     private int reason_;
     /**
-     * <code>uint32 reason = 6;</code>
+     * <code>uint32 reason = 14;</code>
      * @return The reason.
      */
     @java.lang.Override
@@ -428,23 +232,23 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       return reason_;
     }
 
-    public static final int MSG_TYPE_FIELD_NUMBER = 3;
+    public static final int MSG_TYPE_FIELD_NUMBER = 4;
     private int msgType_;
     /**
-     * <code>.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType msg_type = 3;</code>
+     * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
      * @return The enum numeric value on the wire for msgType.
      */
     @java.lang.Override public int getMsgTypeValue() {
       return msgType_;
     }
     /**
-     * <code>.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType msg_type = 3;</code>
+     * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
      * @return The msgType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType getMsgType() {
+    @java.lang.Override public emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType getMsgType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType result = emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType.valueOf(msgType_);
-      return result == null ? emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType result = emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType.valueOf(msgType_);
+      return result == null ? emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -462,28 +266,21 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (msgType_ != emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType.ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT.getNumber()) {
-        output.writeEnum(3, msgType_);
+      if (msgType_ != emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType.ItemExceedLimitMsgType_ITEM_EXCEED_LIMIT_MSG_DEFAULT.getNumber()) {
+        output.writeEnum(4, msgType_);
       }
       if (isDrop_ != false) {
-        output.writeBool(4, isDrop_);
+        output.writeBool(9, isDrop_);
       }
-      if (getNJDABBFOACMList().size() > 0) {
-        output.writeUInt32NoTag(42);
-        output.writeUInt32NoTag(nJDABBFOACMMemoizedSerializedSize);
+      if (getJHKIIFBAHMCList().size() > 0) {
+        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(jHKIIFBAHMCMemoizedSerializedSize);
       }
-      for (int i = 0; i < nJDABBFOACM_.size(); i++) {
-        output.writeUInt32NoTag(nJDABBFOACM_.getInt(i));
+      for (int i = 0; i < jHKIIFBAHMC_.size(); i++) {
+        output.writeUInt32NoTag(jHKIIFBAHMC_.getInt(i));
       }
       if (reason_ != 0) {
-        output.writeUInt32(6, reason_);
-      }
-      if (getPGHKBNFEFBIList().size() > 0) {
-        output.writeUInt32NoTag(122);
-        output.writeUInt32NoTag(pGHKBNFEFBIMemoizedSerializedSize);
-      }
-      for (int i = 0; i < pGHKBNFEFBI_.size(); i++) {
-        output.writeUInt32NoTag(pGHKBNFEFBI_.getInt(i));
+        output.writeUInt32(14, reason_);
       }
       unknownFields.writeTo(output);
     }
@@ -494,45 +291,31 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (msgType_ != emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType.ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT.getNumber()) {
+      if (msgType_ != emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType.ItemExceedLimitMsgType_ITEM_EXCEED_LIMIT_MSG_DEFAULT.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(3, msgType_);
+          .computeEnumSize(4, msgType_);
       }
       if (isDrop_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isDrop_);
+          .computeBoolSize(9, isDrop_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < nJDABBFOACM_.size(); i++) {
+        for (int i = 0; i < jHKIIFBAHMC_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(nJDABBFOACM_.getInt(i));
+            .computeUInt32SizeNoTag(jHKIIFBAHMC_.getInt(i));
         }
         size += dataSize;
-        if (!getNJDABBFOACMList().isEmpty()) {
+        if (!getJHKIIFBAHMCList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        nJDABBFOACMMemoizedSerializedSize = dataSize;
+        jHKIIFBAHMCMemoizedSerializedSize = dataSize;
       }
       if (reason_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, reason_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < pGHKBNFEFBI_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(pGHKBNFEFBI_.getInt(i));
-        }
-        size += dataSize;
-        if (!getPGHKBNFEFBIList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        pGHKBNFEFBIMemoizedSerializedSize = dataSize;
+          .computeUInt32Size(14, reason_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -549,10 +332,8 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       }
       emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify other = (emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify) obj;
 
-      if (!getNJDABBFOACMList()
-          .equals(other.getNJDABBFOACMList())) return false;
-      if (!getPGHKBNFEFBIList()
-          .equals(other.getPGHKBNFEFBIList())) return false;
+      if (!getJHKIIFBAHMCList()
+          .equals(other.getJHKIIFBAHMCList())) return false;
       if (getIsDrop()
           != other.getIsDrop()) return false;
       if (getReason()
@@ -569,13 +350,9 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getNJDABBFOACMCount() > 0) {
-        hash = (37 * hash) + NJDABBFOACM_FIELD_NUMBER;
-        hash = (53 * hash) + getNJDABBFOACMList().hashCode();
-      }
-      if (getPGHKBNFEFBICount() > 0) {
-        hash = (37 * hash) + PGHKBNFEFBI_FIELD_NUMBER;
-        hash = (53 * hash) + getPGHKBNFEFBIList().hashCode();
+      if (getJHKIIFBAHMCCount() > 0) {
+        hash = (37 * hash) + JHKIIFBAHMC_FIELD_NUMBER;
+        hash = (53 * hash) + getJHKIIFBAHMCList().hashCode();
       }
       hash = (37 * hash) + IS_DROP_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
@@ -681,7 +458,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 28641
+     * CmdId: 4469
      * </pre>
      *
      * Protobuf type {@code CheckAddItemExceedLimitNotify}
@@ -721,10 +498,8 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        nJDABBFOACM_ = emptyIntList();
+        jHKIIFBAHMC_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        pGHKBNFEFBI_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         isDrop_ = false;
 
         reason_ = 0;
@@ -759,15 +534,10 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
         emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify result = new emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          nJDABBFOACM_.makeImmutable();
+          jHKIIFBAHMC_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.nJDABBFOACM_ = nJDABBFOACM_;
-        if (((bitField0_ & 0x00000002) != 0)) {
-          pGHKBNFEFBI_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.pGHKBNFEFBI_ = pGHKBNFEFBI_;
+        result.jHKIIFBAHMC_ = jHKIIFBAHMC_;
         result.isDrop_ = isDrop_;
         result.reason_ = reason_;
         result.msgType_ = msgType_;
@@ -819,23 +589,13 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify other) {
         if (other == emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.getDefaultInstance()) return this;
-        if (!other.nJDABBFOACM_.isEmpty()) {
-          if (nJDABBFOACM_.isEmpty()) {
-            nJDABBFOACM_ = other.nJDABBFOACM_;
+        if (!other.jHKIIFBAHMC_.isEmpty()) {
+          if (jHKIIFBAHMC_.isEmpty()) {
+            jHKIIFBAHMC_ = other.jHKIIFBAHMC_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureNJDABBFOACMIsMutable();
-            nJDABBFOACM_.addAll(other.nJDABBFOACM_);
-          }
-          onChanged();
-        }
-        if (!other.pGHKBNFEFBI_.isEmpty()) {
-          if (pGHKBNFEFBI_.isEmpty()) {
-            pGHKBNFEFBI_ = other.pGHKBNFEFBI_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensurePGHKBNFEFBIIsMutable();
-            pGHKBNFEFBI_.addAll(other.pGHKBNFEFBI_);
+            ensureJHKIIFBAHMCIsMutable();
+            jHKIIFBAHMC_.addAll(other.jHKIIFBAHMC_);
           }
           onChanged();
         }
@@ -878,167 +638,88 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList nJDABBFOACM_ = emptyIntList();
-      private void ensureNJDABBFOACMIsMutable() {
+      private com.google.protobuf.Internal.IntList jHKIIFBAHMC_ = emptyIntList();
+      private void ensureJHKIIFBAHMCIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          nJDABBFOACM_ = mutableCopy(nJDABBFOACM_);
+          jHKIIFBAHMC_ = mutableCopy(jHKIIFBAHMC_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 NJDABBFOACM = 5;</code>
-       * @return A list containing the nJDABBFOACM.
+       * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
+       * @return A list containing the jHKIIFBAHMC.
        */
       public java.util.List<java.lang.Integer>
-          getNJDABBFOACMList() {
+          getJHKIIFBAHMCList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(nJDABBFOACM_) : nJDABBFOACM_;
+                 java.util.Collections.unmodifiableList(jHKIIFBAHMC_) : jHKIIFBAHMC_;
       }
       /**
-       * <code>repeated uint32 NJDABBFOACM = 5;</code>
-       * @return The count of nJDABBFOACM.
+       * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
+       * @return The count of jHKIIFBAHMC.
        */
-      public int getNJDABBFOACMCount() {
-        return nJDABBFOACM_.size();
+      public int getJHKIIFBAHMCCount() {
+        return jHKIIFBAHMC_.size();
       }
       /**
-       * <code>repeated uint32 NJDABBFOACM = 5;</code>
+       * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
        * @param index The index of the element to return.
-       * @return The nJDABBFOACM at the given index.
+       * @return The jHKIIFBAHMC at the given index.
        */
-      public int getNJDABBFOACM(int index) {
-        return nJDABBFOACM_.getInt(index);
+      public int getJHKIIFBAHMC(int index) {
+        return jHKIIFBAHMC_.getInt(index);
       }
       /**
-       * <code>repeated uint32 NJDABBFOACM = 5;</code>
+       * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
        * @param index The index to set the value at.
-       * @param value The nJDABBFOACM to set.
+       * @param value The jHKIIFBAHMC to set.
        * @return This builder for chaining.
        */
-      public Builder setNJDABBFOACM(
+      public Builder setJHKIIFBAHMC(
           int index, int value) {
-        ensureNJDABBFOACMIsMutable();
-        nJDABBFOACM_.setInt(index, value);
+        ensureJHKIIFBAHMCIsMutable();
+        jHKIIFBAHMC_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 NJDABBFOACM = 5;</code>
-       * @param value The nJDABBFOACM to add.
+       * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
+       * @param value The jHKIIFBAHMC to add.
        * @return This builder for chaining.
        */
-      public Builder addNJDABBFOACM(int value) {
-        ensureNJDABBFOACMIsMutable();
-        nJDABBFOACM_.addInt(value);
+      public Builder addJHKIIFBAHMC(int value) {
+        ensureJHKIIFBAHMCIsMutable();
+        jHKIIFBAHMC_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 NJDABBFOACM = 5;</code>
-       * @param values The nJDABBFOACM to add.
+       * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
+       * @param values The jHKIIFBAHMC to add.
        * @return This builder for chaining.
        */
-      public Builder addAllNJDABBFOACM(
+      public Builder addAllJHKIIFBAHMC(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureNJDABBFOACMIsMutable();
+        ensureJHKIIFBAHMCIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, nJDABBFOACM_);
+            values, jHKIIFBAHMC_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 NJDABBFOACM = 5;</code>
+       * <code>repeated uint32 JHKIIFBAHMC = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNJDABBFOACM() {
-        nJDABBFOACM_ = emptyIntList();
+      public Builder clearJHKIIFBAHMC() {
+        jHKIIFBAHMC_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList pGHKBNFEFBI_ = emptyIntList();
-      private void ensurePGHKBNFEFBIIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          pGHKBNFEFBI_ = mutableCopy(pGHKBNFEFBI_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-       * @return A list containing the pGHKBNFEFBI.
-       */
-      public java.util.List<java.lang.Integer>
-          getPGHKBNFEFBIList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(pGHKBNFEFBI_) : pGHKBNFEFBI_;
-      }
-      /**
-       * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-       * @return The count of pGHKBNFEFBI.
-       */
-      public int getPGHKBNFEFBICount() {
-        return pGHKBNFEFBI_.size();
-      }
-      /**
-       * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-       * @param index The index of the element to return.
-       * @return The pGHKBNFEFBI at the given index.
-       */
-      public int getPGHKBNFEFBI(int index) {
-        return pGHKBNFEFBI_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-       * @param index The index to set the value at.
-       * @param value The pGHKBNFEFBI to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPGHKBNFEFBI(
-          int index, int value) {
-        ensurePGHKBNFEFBIIsMutable();
-        pGHKBNFEFBI_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-       * @param value The pGHKBNFEFBI to add.
-       * @return This builder for chaining.
-       */
-      public Builder addPGHKBNFEFBI(int value) {
-        ensurePGHKBNFEFBIIsMutable();
-        pGHKBNFEFBI_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-       * @param values The pGHKBNFEFBI to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllPGHKBNFEFBI(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensurePGHKBNFEFBIIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, pGHKBNFEFBI_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 PGHKBNFEFBI = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPGHKBNFEFBI() {
-        pGHKBNFEFBI_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
       private boolean isDrop_ ;
       /**
-       * <code>bool is_drop = 4;</code>
+       * <code>bool is_drop = 9;</code>
        * @return The isDrop.
        */
       @java.lang.Override
@@ -1046,7 +727,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
         return isDrop_;
       }
       /**
-       * <code>bool is_drop = 4;</code>
+       * <code>bool is_drop = 9;</code>
        * @param value The isDrop to set.
        * @return This builder for chaining.
        */
@@ -1057,7 +738,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool is_drop = 4;</code>
+       * <code>bool is_drop = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsDrop() {
@@ -1069,7 +750,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
 
       private int reason_ ;
       /**
-       * <code>uint32 reason = 6;</code>
+       * <code>uint32 reason = 14;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -1077,7 +758,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
         return reason_;
       }
       /**
-       * <code>uint32 reason = 6;</code>
+       * <code>uint32 reason = 14;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -1088,7 +769,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 reason = 6;</code>
+       * <code>uint32 reason = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -1100,14 +781,14 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
 
       private int msgType_ = 0;
       /**
-       * <code>.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType msg_type = 3;</code>
+       * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
        * @return The enum numeric value on the wire for msgType.
        */
       @java.lang.Override public int getMsgTypeValue() {
         return msgType_;
       }
       /**
-       * <code>.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType msg_type = 3;</code>
+       * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
        * @param value The enum numeric value on the wire for msgType to set.
        * @return This builder for chaining.
        */
@@ -1118,21 +799,21 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType msg_type = 3;</code>
+       * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
        * @return The msgType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType getMsgType() {
+      public emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType getMsgType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType result = emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType.valueOf(msgType_);
-        return result == null ? emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType result = emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType.valueOf(msgType_);
+        return result == null ? emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType msg_type = 3;</code>
+       * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
        * @param value The msgType to set.
        * @return This builder for chaining.
        */
-      public Builder setMsgType(emu.grasscutter.net.proto.CheckAddItemExceedLimitNotifyOuterClass.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType value) {
+      public Builder setMsgType(emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.ItemExceedLimitMsgType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1142,7 +823,7 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.CheckAddItemExceedLimitNotify.ItemExceedLimitMsgType msg_type = 3;</code>
+       * <code>.ItemExceedLimitMsgType msg_type = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearMsgType() {
@@ -1218,29 +899,25 @@ public final class CheckAddItemExceedLimitNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n#CheckAddItemExceedLimitNotify.proto\"\362\002" +
-      "\n\035CheckAddItemExceedLimitNotify\022\023\n\013NJDAB" +
-      "BFOACM\030\005 \003(\r\022\023\n\013PGHKBNFEFBI\030\017 \003(\r\022\017\n\007is_" +
-      "drop\030\004 \001(\010\022\016\n\006reason\030\006 \001(\r\022G\n\010msg_type\030\003" +
-      " \001(\01625.CheckAddItemExceedLimitNotify.Ite" +
-      "mExceedLimitMsgType\"\274\001\n\026ItemExceedLimitM" +
-      "sgType\022&\n\"ITEM_EXCEED_LIMIT_MSG_TYPE_DEF" +
-      "AULT\020\000\022#\n\037ITEM_EXCEED_LIMIT_MSG_TYPE_TEX" +
-      "T\020\001\022%\n!ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG" +
-      "\020\002\022.\n*ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_" +
-      "NONBLOCK\020\003B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "\n#CheckAddItemExceedLimitNotify.proto\032\034I" +
+      "temExceedLimitMsgType.proto\"\200\001\n\035CheckAdd" +
+      "ItemExceedLimitNotify\022\023\n\013JHKIIFBAHMC\030\013 \003" +
+      "(\r\022\017\n\007is_drop\030\t \001(\010\022\016\n\006reason\030\016 \001(\r\022)\n\010m" +
+      "sg_type\030\004 \001(\0162\027.ItemExceedLimitMsgTypeB\033" +
+      "\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.getDescriptor(),
         });
     internal_static_CheckAddItemExceedLimitNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_CheckAddItemExceedLimitNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CheckAddItemExceedLimitNotify_descriptor,
-        new java.lang.String[] { "NJDABBFOACM", "PGHKBNFEFBI", "IsDrop", "Reason", "MsgType", });
+        new java.lang.String[] { "JHKIIFBAHMC", "IsDrop", "Reason", "MsgType", });
+    emu.grasscutter.net.proto.ItemExceedLimitMsgTypeOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

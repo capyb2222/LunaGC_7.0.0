@@ -278,7 +278,7 @@ public class BattlePassManager extends BasePlayerDataManager {
                         new BattlePassReward(
                                 tag.getLevel(),
                                 tag.getRewardId(),
-                                tag.getUnlockStatus() == BattlePassUnlockStatus.BATTLE_PASS_UNLOCK_STATUS_PAID);
+                                tag.getUnlockStatus() == BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID);
                 this.getTakenRewards().put(bpReward.getRewardId(), bpReward);
             }
 
@@ -370,13 +370,10 @@ public class BattlePassManager extends BasePlayerDataManager {
                         .setPoint(this.getPoint())
                         .setBeginTime(0)
                         .setEndTime(2059483200)
-                        .setIsViewed(this.isViewed())
                         .setUnlockStatus(
                                 this.isPaid()
-                                        ? BattlePassUnlockStatus.BATTLE_PASS_UNLOCK_STATUS_PAID
-                                        : BattlePassUnlockStatus.BATTLE_PASS_UNLOCK_STATUS_FREE)
-                        .setPaidPlatformFlags(2) // Not bought on Playstation.
-                        .setCurCyclePoints(this.getCyclePoints())
+                                        ? BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_PAID
+                                        : BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_FREE)
                         .setCurCycle(
                                 BattlePassCycle.newBuilder()
                                         .setBeginTime(0)

@@ -19,39 +19,43 @@ public final class WinterCampRaceStageInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector pos = 5;</code>
-     * @return Whether the pos field is set.
-     */
-    boolean hasPos();
-    /**
-     * <code>.Vector pos = 5;</code>
-     * @return The pos.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
-    /**
-     * <code>.Vector pos = 5;</code>
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
-
-    /**
-     * <code>uint32 open_time = 8;</code>
-     * @return The openTime.
-     */
-    int getOpenTime();
-
-    /**
-     * <code>uint32 id = 12;</code>
+     * <code>uint32 id = 5;</code>
      * @return The id.
      */
     int getId();
 
     /**
-     * <code>uint32 max_score = 14;</code>
+     * <code>uint32 max_score = 10;</code>
      * @return The maxScore.
      */
     int getMaxScore();
+
+    /**
+     * <code>.Vector pos = 1;</code>
+     * @return Whether the pos field is set.
+     */
+    boolean hasPos();
+    /**
+     * <code>.Vector pos = 1;</code>
+     * @return The pos.
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
+    /**
+     * <code>.Vector pos = 1;</code>
+     */
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
+
+    /**
+     * <code>uint32 open_time = 2;</code>
+     * @return The openTime.
+     */
+    int getOpenTime();
   }
   /**
+   * <pre>
+   * Obf: IIBEOFMNCMM
+   * </pre>
+   *
    * Protobuf type {@code WinterCampRaceStageInfo}
    */
   public static final class WinterCampRaceStageInfo extends
@@ -96,7 +100,7 @@ public final class WinterCampRaceStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 10: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -109,17 +113,17 @@ public final class WinterCampRaceStageInfoOuterClass {
 
               break;
             }
-            case 64: {
+            case 16: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 40: {
 
               id_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 80: {
 
               maxScore_ = input.readUInt32();
               break;
@@ -156,47 +160,10 @@ public final class WinterCampRaceStageInfoOuterClass {
               emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo.class, emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo.Builder.class);
     }
 
-    public static final int POS_FIELD_NUMBER = 5;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
-    /**
-     * <code>.Vector pos = 5;</code>
-     * @return Whether the pos field is set.
-     */
-    @java.lang.Override
-    public boolean hasPos() {
-      return pos_ != null;
-    }
-    /**
-     * <code>.Vector pos = 5;</code>
-     * @return The pos.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
-      return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
-    }
-    /**
-     * <code>.Vector pos = 5;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
-      return getPos();
-    }
-
-    public static final int OPEN_TIME_FIELD_NUMBER = 8;
-    private int openTime_;
-    /**
-     * <code>uint32 open_time = 8;</code>
-     * @return The openTime.
-     */
-    @java.lang.Override
-    public int getOpenTime() {
-      return openTime_;
-    }
-
-    public static final int ID_FIELD_NUMBER = 12;
+    public static final int ID_FIELD_NUMBER = 5;
     private int id_;
     /**
-     * <code>uint32 id = 12;</code>
+     * <code>uint32 id = 5;</code>
      * @return The id.
      */
     @java.lang.Override
@@ -204,15 +171,52 @@ public final class WinterCampRaceStageInfoOuterClass {
       return id_;
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 14;
+    public static final int MAX_SCORE_FIELD_NUMBER = 10;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 14;</code>
+     * <code>uint32 max_score = 10;</code>
      * @return The maxScore.
      */
     @java.lang.Override
     public int getMaxScore() {
       return maxScore_;
+    }
+
+    public static final int POS_FIELD_NUMBER = 1;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
+    /**
+     * <code>.Vector pos = 1;</code>
+     * @return Whether the pos field is set.
+     */
+    @java.lang.Override
+    public boolean hasPos() {
+      return pos_ != null;
+    }
+    /**
+     * <code>.Vector pos = 1;</code>
+     * @return The pos.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
+      return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
+    }
+    /**
+     * <code>.Vector pos = 1;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
+      return getPos();
+    }
+
+    public static final int OPEN_TIME_FIELD_NUMBER = 2;
+    private int openTime_;
+    /**
+     * <code>uint32 open_time = 2;</code>
+     * @return The openTime.
+     */
+    @java.lang.Override
+    public int getOpenTime() {
+      return openTime_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -230,16 +234,16 @@ public final class WinterCampRaceStageInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (pos_ != null) {
-        output.writeMessage(5, getPos());
+        output.writeMessage(1, getPos());
       }
       if (openTime_ != 0) {
-        output.writeUInt32(8, openTime_);
+        output.writeUInt32(2, openTime_);
       }
       if (id_ != 0) {
-        output.writeUInt32(12, id_);
+        output.writeUInt32(5, id_);
       }
       if (maxScore_ != 0) {
-        output.writeUInt32(14, maxScore_);
+        output.writeUInt32(10, maxScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -252,19 +256,19 @@ public final class WinterCampRaceStageInfoOuterClass {
       size = 0;
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getPos());
+          .computeMessageSize(1, getPos());
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, openTime_);
+          .computeUInt32Size(2, openTime_);
       }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, id_);
+          .computeUInt32Size(5, id_);
       }
       if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, maxScore_);
+          .computeUInt32Size(10, maxScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -281,6 +285,10 @@ public final class WinterCampRaceStageInfoOuterClass {
       }
       emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo other = (emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo) obj;
 
+      if (getId()
+          != other.getId()) return false;
+      if (getMaxScore()
+          != other.getMaxScore()) return false;
       if (hasPos() != other.hasPos()) return false;
       if (hasPos()) {
         if (!getPos()
@@ -288,10 +296,6 @@ public final class WinterCampRaceStageInfoOuterClass {
       }
       if (getOpenTime()
           != other.getOpenTime()) return false;
-      if (getId()
-          != other.getId()) return false;
-      if (getMaxScore()
-          != other.getMaxScore()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -303,16 +307,16 @@ public final class WinterCampRaceStageInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + ID_FIELD_NUMBER;
+      hash = (53 * hash) + getId();
+      hash = (37 * hash) + MAX_SCORE_FIELD_NUMBER;
+      hash = (53 * hash) + getMaxScore();
       if (hasPos()) {
         hash = (37 * hash) + POS_FIELD_NUMBER;
         hash = (53 * hash) + getPos().hashCode();
       }
       hash = (37 * hash) + OPEN_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getOpenTime();
-      hash = (37 * hash) + ID_FIELD_NUMBER;
-      hash = (53 * hash) + getId();
-      hash = (37 * hash) + MAX_SCORE_FIELD_NUMBER;
-      hash = (53 * hash) + getMaxScore();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -409,6 +413,10 @@ public final class WinterCampRaceStageInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: IIBEOFMNCMM
+     * </pre>
+     *
      * Protobuf type {@code WinterCampRaceStageInfo}
      */
     public static final class Builder extends
@@ -446,6 +454,10 @@ public final class WinterCampRaceStageInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        id_ = 0;
+
+        maxScore_ = 0;
+
         if (posBuilder_ == null) {
           pos_ = null;
         } else {
@@ -453,10 +465,6 @@ public final class WinterCampRaceStageInfoOuterClass {
           posBuilder_ = null;
         }
         openTime_ = 0;
-
-        id_ = 0;
-
-        maxScore_ = 0;
 
         return this;
       }
@@ -484,14 +492,14 @@ public final class WinterCampRaceStageInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo buildPartial() {
         emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo result = new emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo(this);
+        result.id_ = id_;
+        result.maxScore_ = maxScore_;
         if (posBuilder_ == null) {
           result.pos_ = pos_;
         } else {
           result.pos_ = posBuilder_.build();
         }
         result.openTime_ = openTime_;
-        result.id_ = id_;
-        result.maxScore_ = maxScore_;
         onBuilt();
         return result;
       }
@@ -540,17 +548,17 @@ public final class WinterCampRaceStageInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo other) {
         if (other == emu.grasscutter.net.proto.WinterCampRaceStageInfoOuterClass.WinterCampRaceStageInfo.getDefaultInstance()) return this;
-        if (other.hasPos()) {
-          mergePos(other.getPos());
-        }
-        if (other.getOpenTime() != 0) {
-          setOpenTime(other.getOpenTime());
-        }
         if (other.getId() != 0) {
           setId(other.getId());
         }
         if (other.getMaxScore() != 0) {
           setMaxScore(other.getMaxScore());
+        }
+        if (other.hasPos()) {
+          mergePos(other.getPos());
+        }
+        if (other.getOpenTime() != 0) {
+          setOpenTime(other.getOpenTime());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -581,18 +589,80 @@ public final class WinterCampRaceStageInfoOuterClass {
         return this;
       }
 
+      private int id_ ;
+      /**
+       * <code>uint32 id = 5;</code>
+       * @return The id.
+       */
+      @java.lang.Override
+      public int getId() {
+        return id_;
+      }
+      /**
+       * <code>uint32 id = 5;</code>
+       * @param value The id to set.
+       * @return This builder for chaining.
+       */
+      public Builder setId(int value) {
+        
+        id_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 id = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearId() {
+        
+        id_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int maxScore_ ;
+      /**
+       * <code>uint32 max_score = 10;</code>
+       * @return The maxScore.
+       */
+      @java.lang.Override
+      public int getMaxScore() {
+        return maxScore_;
+      }
+      /**
+       * <code>uint32 max_score = 10;</code>
+       * @param value The maxScore to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMaxScore(int value) {
+        
+        maxScore_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 max_score = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMaxScore() {
+        
+        maxScore_ = 0;
+        onChanged();
+        return this;
+      }
+
       private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
-       * <code>.Vector pos = 5;</code>
+       * <code>.Vector pos = 1;</code>
        * @return Whether the pos field is set.
        */
       public boolean hasPos() {
         return posBuilder_ != null || pos_ != null;
       }
       /**
-       * <code>.Vector pos = 5;</code>
+       * <code>.Vector pos = 1;</code>
        * @return The pos.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
@@ -603,7 +673,7 @@ public final class WinterCampRaceStageInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector pos = 5;</code>
+       * <code>.Vector pos = 1;</code>
        */
       public Builder setPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
@@ -619,7 +689,7 @@ public final class WinterCampRaceStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 5;</code>
+       * <code>.Vector pos = 1;</code>
        */
       public Builder setPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -633,7 +703,7 @@ public final class WinterCampRaceStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 5;</code>
+       * <code>.Vector pos = 1;</code>
        */
       public Builder mergePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
@@ -651,7 +721,7 @@ public final class WinterCampRaceStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 5;</code>
+       * <code>.Vector pos = 1;</code>
        */
       public Builder clearPos() {
         if (posBuilder_ == null) {
@@ -665,7 +735,7 @@ public final class WinterCampRaceStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 5;</code>
+       * <code>.Vector pos = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
         
@@ -673,7 +743,7 @@ public final class WinterCampRaceStageInfoOuterClass {
         return getPosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector pos = 5;</code>
+       * <code>.Vector pos = 1;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
         if (posBuilder_ != null) {
@@ -684,7 +754,7 @@ public final class WinterCampRaceStageInfoOuterClass {
         }
       }
       /**
-       * <code>.Vector pos = 5;</code>
+       * <code>.Vector pos = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -702,7 +772,7 @@ public final class WinterCampRaceStageInfoOuterClass {
 
       private int openTime_ ;
       /**
-       * <code>uint32 open_time = 8;</code>
+       * <code>uint32 open_time = 2;</code>
        * @return The openTime.
        */
       @java.lang.Override
@@ -710,7 +780,7 @@ public final class WinterCampRaceStageInfoOuterClass {
         return openTime_;
       }
       /**
-       * <code>uint32 open_time = 8;</code>
+       * <code>uint32 open_time = 2;</code>
        * @param value The openTime to set.
        * @return This builder for chaining.
        */
@@ -721,74 +791,12 @@ public final class WinterCampRaceStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 open_time = 8;</code>
+       * <code>uint32 open_time = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpenTime() {
         
         openTime_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int id_ ;
-      /**
-       * <code>uint32 id = 12;</code>
-       * @return The id.
-       */
-      @java.lang.Override
-      public int getId() {
-        return id_;
-      }
-      /**
-       * <code>uint32 id = 12;</code>
-       * @param value The id to set.
-       * @return This builder for chaining.
-       */
-      public Builder setId(int value) {
-        
-        id_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 id = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearId() {
-        
-        id_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int maxScore_ ;
-      /**
-       * <code>uint32 max_score = 14;</code>
-       * @return The maxScore.
-       */
-      @java.lang.Override
-      public int getMaxScore() {
-        return maxScore_;
-      }
-      /**
-       * <code>uint32 max_score = 14;</code>
-       * @param value The maxScore to set.
-       * @return This builder for chaining.
-       */
-      public Builder setMaxScore(int value) {
-        
-        maxScore_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 max_score = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearMaxScore() {
-        
-        maxScore_ = 0;
         onChanged();
         return this;
       }
@@ -860,9 +868,9 @@ public final class WinterCampRaceStageInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035WinterCampRaceStageInfo.proto\032\014Vector." +
-      "proto\"a\n\027WinterCampRaceStageInfo\022\024\n\003pos\030" +
-      "\005 \001(\0132\007.Vector\022\021\n\topen_time\030\010 \001(\r\022\n\n\002id\030" +
-      "\014 \001(\r\022\021\n\tmax_score\030\016 \001(\rB\033\n\031emu.grasscut" +
+      "proto\"a\n\027WinterCampRaceStageInfo\022\n\n\002id\030\005" +
+      " \001(\r\022\021\n\tmax_score\030\n \001(\r\022\024\n\003pos\030\001 \001(\0132\007.V" +
+      "ector\022\021\n\topen_time\030\002 \001(\rB\033\n\031emu.grasscut" +
       "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -875,7 +883,7 @@ public final class WinterCampRaceStageInfoOuterClass {
     internal_static_WinterCampRaceStageInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WinterCampRaceStageInfo_descriptor,
-        new java.lang.String[] { "Pos", "OpenTime", "Id", "MaxScore", });
+        new java.lang.String[] { "Id", "MaxScore", "Pos", "OpenTime", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

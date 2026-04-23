@@ -21,7 +21,7 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
 
     public PacketPlayerEnterSceneInfoNotify(Player player) {
         super(PacketOpcodes.PlayerEnterSceneInfoNotify);
-        
+
 
 
         AbilityScalarValueEntry scalarValue = AbilityScalarValueEntry.newBuilder()
@@ -29,7 +29,6 @@ public class PacketPlayerEnterSceneInfoNotify extends BasePacket {
                         .setStr("SGV_PlayerTeam_Phlogiston")
                         .build())
                         .setFloatValue(100)
-                .setValueType(AbilityScalarType.ABILITY_SCALAR_TYPE_FLOAT)
                 .build();
                 player.setPhlogistonValue(100);
 

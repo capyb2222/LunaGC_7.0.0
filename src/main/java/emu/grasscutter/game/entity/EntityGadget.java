@@ -237,7 +237,7 @@ public class EntityGadget extends EntityBaseGadget {
     public void onRemoved() {
         super.onRemoved();
         if (!children.isEmpty()) {
-            getScene().removeEntities(children, VisionTypeOuterClass.VisionType.VISION_TYPE_REMOVE);
+            getScene().removeEntities(children, VisionTypeOuterClass.VisionType.VisionType_VISION_REMOVE);
             children.clear();
         }
     }
@@ -369,14 +369,14 @@ public class EntityGadget extends EntityBaseGadget {
                         .setAbilityInfo(AbilitySyncStateInfo.newBuilder())
                         .setRendererChangedInfo(EntityRendererChangedInfo.newBuilder())
                         .setAiInfo(
-                                SceneEntityAiInfo.newBuilder().setIsAiOpen(true).setBornPos(bornPos.toProto()))
+                                SceneEntityAiInfo.newBuilder().setIsAiOpen(true))
                         .setBornPos(bornPos.toProto())
                         .build();
 
         SceneEntityInfo.Builder entityInfo =
                 SceneEntityInfo.newBuilder()
                         .setEntityId(getId())
-                        .setEntityType(ProtEntityType.PROT_ENTITY_TYPE_GADGET)
+                        .setEntityType(ProtEntityType.ProtEntityType_PROT_ENTITY_GADGET)
                         .setMotionInfo(
                                 MotionInfo.newBuilder()
                                         .setPos(getPosition().toProto())

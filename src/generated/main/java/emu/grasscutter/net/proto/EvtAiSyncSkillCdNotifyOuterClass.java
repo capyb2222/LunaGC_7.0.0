@@ -19,10 +19,18 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
      */
     int getAiCdMapCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
      */
     boolean containsAiCdMap(
@@ -34,11 +42,19 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo>
     getAiCdMap();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo>
     getAiCdMapMap();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
      */
 
@@ -46,6 +62,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
         int key,
         emu.grasscutter.net.proto.AiSkillCdInfoOuterClass.AiSkillCdInfo defaultValue);
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
      */
 
@@ -54,7 +74,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 2237
+   * CmdId: 9593
    * </pre>
    *
    * Protobuf type {@code EvtAiSyncSkillCdNotify}
@@ -186,6 +206,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
       return internalGetAiCdMap().getMap().size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
      */
 
@@ -204,6 +228,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
       return getAiCdMapMap();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
      */
     @java.lang.Override
@@ -212,6 +240,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
       return internalGetAiCdMap().getMap();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
      */
     @java.lang.Override
@@ -225,6 +257,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
      */
     @java.lang.Override
@@ -408,7 +444,7 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 2237
+     * CmdId: 9593
      * </pre>
      *
      * Protobuf type {@code EvtAiSyncSkillCdNotify}
@@ -607,6 +643,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
         return internalGetAiCdMap().getMap().size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
        */
 
@@ -625,6 +665,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
         return getAiCdMapMap();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
        */
       @java.lang.Override
@@ -633,6 +677,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
         return internalGetAiCdMap().getMap();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
        */
       @java.lang.Override
@@ -646,6 +694,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
        */
       @java.lang.Override
@@ -667,6 +719,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
        */
 
@@ -686,6 +742,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
         return internalGetMutableAiCdMap().getMutableMap();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
        */
       public Builder putAiCdMap(
@@ -698,6 +758,10 @@ public final class EvtAiSyncSkillCdNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>map&lt;uint32, .AiSkillCdInfo&gt; ai_cd_map = 1;</code>
        */
 

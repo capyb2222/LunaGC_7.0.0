@@ -19,14 +19,19 @@ public final class SetNameCardReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 name_card_id = 4;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 name_card_id = 10;</code>
      * @return The nameCardId.
      */
     int getNameCardId();
   }
   /**
    * <pre>
-   * CmdId: 20464
+   * Version: 5.8
+   * CmdId: 28615
    * </pre>
    *
    * Protobuf type {@code SetNameCardReq}
@@ -73,7 +78,7 @@ public final class SetNameCardReqOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 80: {
 
               nameCardId_ = input.readUInt32();
               break;
@@ -110,10 +115,14 @@ public final class SetNameCardReqOuterClass {
               emu.grasscutter.net.proto.SetNameCardReqOuterClass.SetNameCardReq.class, emu.grasscutter.net.proto.SetNameCardReqOuterClass.SetNameCardReq.Builder.class);
     }
 
-    public static final int NAME_CARD_ID_FIELD_NUMBER = 4;
+    public static final int NAME_CARD_ID_FIELD_NUMBER = 10;
     private int nameCardId_;
     /**
-     * <code>uint32 name_card_id = 4;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 name_card_id = 10;</code>
      * @return The nameCardId.
      */
     @java.lang.Override
@@ -136,7 +145,7 @@ public final class SetNameCardReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (nameCardId_ != 0) {
-        output.writeUInt32(4, nameCardId_);
+        output.writeUInt32(10, nameCardId_);
       }
       unknownFields.writeTo(output);
     }
@@ -149,7 +158,7 @@ public final class SetNameCardReqOuterClass {
       size = 0;
       if (nameCardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, nameCardId_);
+          .computeUInt32Size(10, nameCardId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,7 +287,8 @@ public final class SetNameCardReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 20464
+     * Version: 5.8
+     * CmdId: 28615
      * </pre>
      *
      * Protobuf type {@code SetNameCardReq}
@@ -429,7 +439,11 @@ public final class SetNameCardReqOuterClass {
 
       private int nameCardId_ ;
       /**
-       * <code>uint32 name_card_id = 4;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 name_card_id = 10;</code>
        * @return The nameCardId.
        */
       @java.lang.Override
@@ -437,7 +451,11 @@ public final class SetNameCardReqOuterClass {
         return nameCardId_;
       }
       /**
-       * <code>uint32 name_card_id = 4;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 name_card_id = 10;</code>
        * @param value The nameCardId to set.
        * @return This builder for chaining.
        */
@@ -448,7 +466,11 @@ public final class SetNameCardReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 name_card_id = 4;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 name_card_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearNameCardId() {
@@ -525,7 +547,7 @@ public final class SetNameCardReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024SetNameCardReq.proto\"&\n\016SetNameCardReq" +
-      "\022\024\n\014name_card_id\030\004 \001(\rB\033\n\031emu.grasscutte" +
+      "\022\024\n\014name_card_id\030\n \001(\rB\033\n\031emu.grasscutte" +
       "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

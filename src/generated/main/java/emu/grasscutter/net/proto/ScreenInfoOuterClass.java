@@ -19,12 +19,20 @@ public final class ScreenInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 projector_entity_id = 2;</code>
      * @return The projectorEntityId.
      */
     int getProjectorEntityId();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 live_id = 1;</code>
      * @return The liveId.
      */
@@ -120,6 +128,10 @@ public final class ScreenInfoOuterClass {
     public static final int PROJECTOR_ENTITY_ID_FIELD_NUMBER = 2;
     private int projectorEntityId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 projector_entity_id = 2;</code>
      * @return The projectorEntityId.
      */
@@ -131,6 +143,10 @@ public final class ScreenInfoOuterClass {
     public static final int LIVE_ID_FIELD_NUMBER = 1;
     private int liveId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 live_id = 1;</code>
      * @return The liveId.
      */
@@ -460,6 +476,10 @@ public final class ScreenInfoOuterClass {
 
       private int projectorEntityId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 projector_entity_id = 2;</code>
        * @return The projectorEntityId.
        */
@@ -468,6 +488,10 @@ public final class ScreenInfoOuterClass {
         return projectorEntityId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 projector_entity_id = 2;</code>
        * @param value The projectorEntityId to set.
        * @return This builder for chaining.
@@ -479,6 +503,10 @@ public final class ScreenInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 projector_entity_id = 2;</code>
        * @return This builder for chaining.
        */
@@ -491,6 +519,10 @@ public final class ScreenInfoOuterClass {
 
       private int liveId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 live_id = 1;</code>
        * @return The liveId.
        */
@@ -499,6 +531,10 @@ public final class ScreenInfoOuterClass {
         return liveId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 live_id = 1;</code>
        * @param value The liveId to set.
        * @return This builder for chaining.
@@ -510,6 +546,10 @@ public final class ScreenInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 live_id = 1;</code>
        * @return This builder for chaining.
        */

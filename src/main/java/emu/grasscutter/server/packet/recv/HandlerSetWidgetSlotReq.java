@@ -20,10 +20,10 @@ public class HandlerSetWidgetSlotReq extends PacketHandler {
         // WidgetSlotChangeNotify op & slot key
         session.send(
                 new PacketWidgetSlotChangeNotify(
-                        WidgetSlotOpOuterClass.WidgetSlotOp.WIDGET_SLOT_OP_DETACH));
+                        WidgetSlotOpOuterClass.WidgetSlotOp.WidgetSlotOp_DETACH));
 
         // only attaching the widget can set it
-        if (req.getOp() == WidgetSlotOpOuterClass.WidgetSlotOp.WIDGET_SLOT_OP_ATTACH) {
+        if (req.getOp() == WidgetSlotOpOuterClass.WidgetSlotOp.WidgetSlotOp_ATTACH) {
             // WidgetSlotChangeNotify slot
             session.send(new PacketWidgetSlotChangeNotify(req.getMaterialId()));
         }

@@ -28,7 +28,7 @@ public class MapMarksManager extends BasePlayerManager {
                 MapMark createMark = new MapMark(req.getMark());
                 // keep teleporting functionality on fishhook mark.
                 if (Configuration.GAME_OPTIONS.fishhookTeleport
-                        && createMark.getMapMarkPointType() == MapMarkPointType.MAP_MARK_POINT_TYPE_FISH_POOL) {
+                        && createMark.getMapMarkPointType() == MapMarkPointType.MapMarkPointType_FISH_POOL) {
                     this.teleport(player, createMark);
                     return;
                 }

@@ -19,10 +19,18 @@ public final class CountDownDeleteOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
     int getDeleteTimeNumMapCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
     boolean containsDeleteTimeNumMap(
@@ -34,11 +42,19 @@ public final class CountDownDeleteOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getDeleteTimeNumMap();
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getDeleteTimeNumMapMap();
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
 
@@ -46,6 +62,10 @@ public final class CountDownDeleteOuterClass {
         int key,
         int defaultValue);
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
 
@@ -53,6 +73,10 @@ public final class CountDownDeleteOuterClass {
         int key);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 config_count_down_time = 2;</code>
      * @return The configCountDownTime.
      */
@@ -193,6 +217,10 @@ public final class CountDownDeleteOuterClass {
       return internalGetDeleteTimeNumMap().getMap().size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
 
@@ -211,6 +239,10 @@ public final class CountDownDeleteOuterClass {
       return getDeleteTimeNumMapMap();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
     @java.lang.Override
@@ -219,6 +251,10 @@ public final class CountDownDeleteOuterClass {
       return internalGetDeleteTimeNumMap().getMap();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
     @java.lang.Override
@@ -232,6 +268,10 @@ public final class CountDownDeleteOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
     @java.lang.Override
@@ -250,6 +290,10 @@ public final class CountDownDeleteOuterClass {
     public static final int CONFIG_COUNT_DOWN_TIME_FIELD_NUMBER = 2;
     private int configCountDownTime_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 config_count_down_time = 2;</code>
      * @return The configCountDownTime.
      */
@@ -638,6 +682,10 @@ public final class CountDownDeleteOuterClass {
         return internalGetDeleteTimeNumMap().getMap().size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
 
@@ -656,6 +704,10 @@ public final class CountDownDeleteOuterClass {
         return getDeleteTimeNumMapMap();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
       @java.lang.Override
@@ -664,6 +716,10 @@ public final class CountDownDeleteOuterClass {
         return internalGetDeleteTimeNumMap().getMap();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
       @java.lang.Override
@@ -677,6 +733,10 @@ public final class CountDownDeleteOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
       @java.lang.Override
@@ -698,6 +758,10 @@ public final class CountDownDeleteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
 
@@ -717,6 +781,10 @@ public final class CountDownDeleteOuterClass {
         return internalGetMutableDeleteTimeNumMap().getMutableMap();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
       public Builder putDeleteTimeNumMap(
@@ -729,6 +797,10 @@ public final class CountDownDeleteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
 
@@ -741,6 +813,10 @@ public final class CountDownDeleteOuterClass {
 
       private int configCountDownTime_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 config_count_down_time = 2;</code>
        * @return The configCountDownTime.
        */
@@ -749,6 +825,10 @@ public final class CountDownDeleteOuterClass {
         return configCountDownTime_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 config_count_down_time = 2;</code>
        * @param value The configCountDownTime to set.
        * @return This builder for chaining.
@@ -760,6 +840,10 @@ public final class CountDownDeleteOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 config_count_down_time = 2;</code>
        * @return This builder for chaining.
        */

@@ -81,7 +81,7 @@ public interface PlayerHook {
                 .sendPacket(
                         new PacketPlayerEnterSceneNotify(
                                 this.getPlayer(),
-                                EnterType.ENTER_TYPE_JUMP,
+                                EnterType.EnterType_ENTER_JUMP,
                                 EnterReason.TransPoint,
                                 this.getPlayer().getSceneId(),
                                 position));

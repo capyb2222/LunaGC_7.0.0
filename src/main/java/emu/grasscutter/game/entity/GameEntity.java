@@ -33,6 +33,8 @@ import java.util.*;
 
 import lombok.*;
 
+import static emu.grasscutter.GameConstants.ENTITY_ID_BIT_SHIFT;
+
 public abstract class GameEntity {
     @Getter private final Scene scene;
     private boolean restrictedFromHealing = false;
@@ -76,13 +78,13 @@ public abstract class GameEntity {
 
     public GameEntity(Scene scene) {
         this.scene = scene;
-        this.motionState = MotionState.MOTION_STATE_NONE;
+        this.motionState = MotionState.MotionState_MOTION_NONE;
     }
 
     public abstract void initAbilities();
 
     public EntityType getEntityType() {
-        return EntityIdType.toEntityType(this.getId() >> 22);
+        return EntityIdType.toEntityType(this.getId() >> ENTITY_ID_BIT_SHIFT);
     }
     public boolean isConvertToHpDebt() {
         return convertToHpDebt;
@@ -93,10 +95,10 @@ public abstract class GameEntity {
             return this.getGlobalAbilityValues().get("NyxValue");
         } else {
             Grasscutter.getLogger().info("NyxValue not found");
-            return 0f;    
+            return 0f;
         }
     }
-    
+
 
     public void setConvertToHpDebt(boolean convertToHpDebt) {
         this.convertToHpDebt = convertToHpDebt;
@@ -110,7 +112,7 @@ public abstract class GameEntity {
         public boolean isRestrictedFromHealing() {
             return restrictedFromHealing;
         }
-    
+
         public void setRestrictedFromHealing(boolean restricted) {
             this.restrictedFromHealing = restricted;
         }
@@ -181,10 +183,10 @@ public abstract class GameEntity {
             if (data.state == AbilityModifier.State.Limbo && hpThresholdRatio > 0.0f) {
                 Grasscutter.getLogger().info("Limbo set to " + hpThresholdRatio);
                 this.setLimbo(hpThresholdRatio);
-            }   
+            }
         }
     }
-    
+
 
     protected MotionInfo getMotionInfo() {
         return MotionInfo.newBuilder()
@@ -197,7 +199,7 @@ public abstract class GameEntity {
     public float heal(float amount) {
         return heal(amount, false);
     }
-    
+
 
     public float heal(float amount, boolean mute) {
         if (this.getFightProperties() == null) {
@@ -228,18 +230,18 @@ public abstract class GameEntity {
             if (this.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS) > 0) {
                 this.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(this, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, toRepay,
                                                         mute
-                                                                ? PropChangeReason.PROP_CHANGE_REASON_NONE
-                                                                : PropChangeReason.PROP_CHANGE_REASON_ABILITY,
-                                                              
-                                                        ChangeHpDebtsReason.CHANGE_HP_DEBTS_PAY
+                                                                ? PropChangeReason.PropChangeReason_PROP_CHANGE_NONE
+                                                                : PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
+
+                                                        ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY
                 ));
             } else {
                 this.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(this, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, toRepay,
                                                         mute
-                                                                ? PropChangeReason.PROP_CHANGE_REASON_NONE
-                                                                : PropChangeReason.PROP_CHANGE_REASON_ABILITY,
-                                                              
-                                                        ChangeHpDebtsReason.CHANGE_HP_DEBTS_PAY_FINISH
+                                                                ? PropChangeReason.PropChangeReason_PROP_CHANGE_NONE
+                                                                : PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
+
+                                                        ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH
                                                        ));
             }
         }
@@ -248,7 +250,7 @@ public abstract class GameEntity {
     }
 
     public void damage(float amount) {
-        GameEntity ownerEntity = resolveOwnerEntity(this); 
+        GameEntity ownerEntity = resolveOwnerEntity(this);
         this.damage(amount, 0, ElementType.None);
     }
     private GameEntity resolveOwnerEntity(GameEntity owner) {
@@ -280,11 +282,11 @@ public abstract class GameEntity {
     }
 
     public void damage(float amount, int killerId, ElementType attackType) {
-        this.damage(amount, 0, attackType, PropChangeReason.PROP_CHANGE_REASON_NONE, ChangeHpReason.CHANGE_HP_REASON_NONE); 
+        this.damage(amount, 0, attackType, PropChangeReason.PropChangeReason_PROP_CHANGE_NONE, ChangeHpReason.ChangeHpReason_CHANGE_HP_NONE);
     }
 
     public void damage(float amount, PropChangeReason propChangeReason, ChangeHpReason changeHpReason) {
-        this.damage(amount, 0, ElementType.None, propChangeReason, changeHpReason); 
+        this.damage(amount, 0, ElementType.None, propChangeReason, changeHpReason);
     }
 
     public void damage(float amount, int killerId, ElementType attackType, PropChangeReason propChangeReason, ChangeHpReason changeHpReason) {
@@ -348,7 +350,7 @@ public abstract class GameEntity {
             if (debt >= 0) {
                 this.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS, 0f);
                 this.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(this, FightProperty.FIGHT_PROP_CUR_HP_DEBTS));
-                this.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(this, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, -debt, PropChangeReason.PROP_CHANGE_REASON_ABILITY, ChangeHpDebtsReason.CHANGE_HP_DEBTS_CLEAR));
+                this.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(this, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, -debt, PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_CLEAR));
             }
             this.isDead = true;
         }

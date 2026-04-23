@@ -20,12 +20,12 @@ public final class GadgetRewardStatue extends GadgetContent {
 
         if (player.getScene().getChallenge() instanceof WorldChallenge) {
             var useCondensed =
-                    req.getResinCostType() == ResinCostTypeOuterClass.ResinCostType.RESIN_COST_TYPE_CONDENSE;
+                    req.getResinCostType() == ResinCostTypeOuterClass.ResinCostType.ResinCostType_CONDENSE;
             dungeonManager.getStatueDrops(player, useCondensed, getGadget().getGroupId());
         }
 
         player.sendPacket(
-                new PacketGadgetInteractRsp(getGadget(), InteractType.INTERACT_TYPE_OPEN_STATUE));
+                new PacketGadgetInteractRsp(getGadget(), InteractType.InteractType_INTERACT_OPEN_STATUE));
 
         return false;
     }

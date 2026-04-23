@@ -51,7 +51,7 @@ public class HomeScene extends Scene {
                 this.getEntities().values().stream()
                         .filter(gameEntity -> gameEntity instanceof EntityHomeAnimal)
                         .toList(),
-                VisionTypeOuterClass.VisionType.VISION_TYPE_REMOVE);
+                VisionTypeOuterClass.VisionType.VisionType_VISION_REMOVE);
     }
 
     public void onLeaveEditMode() {

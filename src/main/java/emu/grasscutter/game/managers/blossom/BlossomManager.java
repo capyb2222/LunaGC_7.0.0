@@ -108,7 +108,7 @@ public class BlossomManager {
                     }
                     entityGadget.updateState(201);
                     scene.setChallenge(activity.getChallenge());
-                    scene.removeEntity(entityGadget, VisionTypeOuterClass.VisionType.VISION_TYPE_REMOVE);
+                    scene.removeEntity(entityGadget, VisionTypeOuterClass.VisionType.VisionType_VISION_REMOVE);
                     activity.start();
                     return true;
                 });

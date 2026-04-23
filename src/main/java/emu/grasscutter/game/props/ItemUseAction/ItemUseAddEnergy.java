@@ -56,7 +56,7 @@ public abstract class ItemUseAddEnergy extends ItemUseAction {
     private boolean addEnergy(Avatar avatar, float multiplier) {
         float energy = this.getAddEnergy(avatar.getSkillDepot()) * multiplier;
         if (energy < 0.01f) return false;
-        avatar.getAsEntity().addEnergy(energy, PropChangeReason.PROP_CHANGE_REASON_ENERGY_BALL);
+        avatar.getAsEntity().addEnergy(energy, PropChangeReason.PropChangeReason_PROP_CHANGE_ENERGY_BALL);
         return true;
     }
 }

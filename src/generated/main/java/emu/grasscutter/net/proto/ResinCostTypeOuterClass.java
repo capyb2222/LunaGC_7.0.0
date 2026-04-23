@@ -20,80 +20,56 @@ public final class ResinCostTypeOuterClass {
   public enum ResinCostType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>RESIN_COST_TYPE_NONE = 0;</code>
+     * <code>ResinCostType_NONE = 0;</code>
      */
-    RESIN_COST_TYPE_NONE(0),
+    ResinCostType_NONE(0),
     /**
-     * <code>RESIN_COST_TYPE_NORMAL = 1;</code>
+     * <code>ResinCostType_NORMAL = 1;</code>
      */
-    RESIN_COST_TYPE_NORMAL(1),
+    ResinCostType_NORMAL(1),
     /**
-     * <code>RESIN_COST_TYPE_CONDENSE = 2;</code>
+     * <code>ResinCostType_CONDENSE = 2;</code>
      */
-    RESIN_COST_TYPE_CONDENSE(2),
+    ResinCostType_CONDENSE(2),
     /**
-     * <code>RESIN_COST_TYPE_REUNION_PRIVILEGE = 3;</code>
+     * <code>ResinCostType_REUNION_PRIVILEGE = 3;</code>
      */
-    RESIN_COST_TYPE_REUNION_PRIVILEGE(3),
+    ResinCostType_REUNION_PRIVILEGE(3),
     /**
-     * <code>RESIN_COST_TYPE_OP_ACTIVITY = 4;</code>
+     * <code>ResinCostType_OP_ACTIVITY = 4;</code>
      */
-    RESIN_COST_TYPE_OP_ACTIVITY(4),
+    ResinCostType_OP_ACTIVITY(4),
     /**
-     * <code>RESIN_COST_TYPE_MATERIAL = 5;</code>
+     * <code>ResinCostType_MATERIAL = 5;</code>
      */
-    RESIN_COST_TYPE_MATERIAL(5),
-    /**
-     * <code>RESIN_COST_TYPE_FRAGILE = 6;</code>
-     */
-    RESIN_COST_TYPE_FRAGILE(6),
-    /**
-     * <code>RESIN_COST_TYPE_TIMING = 7;</code>
-     */
-    RESIN_COST_TYPE_TIMING(7),
-    /**
-     * <code>RESIN_COST_TYPE_HCOIN = 8;</code>
-     */
-    RESIN_COST_TYPE_HCOIN(8),
+    ResinCostType_MATERIAL(5),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>RESIN_COST_TYPE_NONE = 0;</code>
+     * <code>ResinCostType_NONE = 0;</code>
      */
-    public static final int RESIN_COST_TYPE_NONE_VALUE = 0;
+    public static final int ResinCostType_NONE_VALUE = 0;
     /**
-     * <code>RESIN_COST_TYPE_NORMAL = 1;</code>
+     * <code>ResinCostType_NORMAL = 1;</code>
      */
-    public static final int RESIN_COST_TYPE_NORMAL_VALUE = 1;
+    public static final int ResinCostType_NORMAL_VALUE = 1;
     /**
-     * <code>RESIN_COST_TYPE_CONDENSE = 2;</code>
+     * <code>ResinCostType_CONDENSE = 2;</code>
      */
-    public static final int RESIN_COST_TYPE_CONDENSE_VALUE = 2;
+    public static final int ResinCostType_CONDENSE_VALUE = 2;
     /**
-     * <code>RESIN_COST_TYPE_REUNION_PRIVILEGE = 3;</code>
+     * <code>ResinCostType_REUNION_PRIVILEGE = 3;</code>
      */
-    public static final int RESIN_COST_TYPE_REUNION_PRIVILEGE_VALUE = 3;
+    public static final int ResinCostType_REUNION_PRIVILEGE_VALUE = 3;
     /**
-     * <code>RESIN_COST_TYPE_OP_ACTIVITY = 4;</code>
+     * <code>ResinCostType_OP_ACTIVITY = 4;</code>
      */
-    public static final int RESIN_COST_TYPE_OP_ACTIVITY_VALUE = 4;
+    public static final int ResinCostType_OP_ACTIVITY_VALUE = 4;
     /**
-     * <code>RESIN_COST_TYPE_MATERIAL = 5;</code>
+     * <code>ResinCostType_MATERIAL = 5;</code>
      */
-    public static final int RESIN_COST_TYPE_MATERIAL_VALUE = 5;
-    /**
-     * <code>RESIN_COST_TYPE_FRAGILE = 6;</code>
-     */
-    public static final int RESIN_COST_TYPE_FRAGILE_VALUE = 6;
-    /**
-     * <code>RESIN_COST_TYPE_TIMING = 7;</code>
-     */
-    public static final int RESIN_COST_TYPE_TIMING_VALUE = 7;
-    /**
-     * <code>RESIN_COST_TYPE_HCOIN = 8;</code>
-     */
-    public static final int RESIN_COST_TYPE_HCOIN_VALUE = 8;
+    public static final int ResinCostType_MATERIAL_VALUE = 5;
 
 
     public final int getNumber() {
@@ -120,15 +96,12 @@ public final class ResinCostTypeOuterClass {
      */
     public static ResinCostType forNumber(int value) {
       switch (value) {
-        case 0: return RESIN_COST_TYPE_NONE;
-        case 1: return RESIN_COST_TYPE_NORMAL;
-        case 2: return RESIN_COST_TYPE_CONDENSE;
-        case 3: return RESIN_COST_TYPE_REUNION_PRIVILEGE;
-        case 4: return RESIN_COST_TYPE_OP_ACTIVITY;
-        case 5: return RESIN_COST_TYPE_MATERIAL;
-        case 6: return RESIN_COST_TYPE_FRAGILE;
-        case 7: return RESIN_COST_TYPE_TIMING;
-        case 8: return RESIN_COST_TYPE_HCOIN;
+        case 0: return ResinCostType_NONE;
+        case 1: return ResinCostType_NORMAL;
+        case 2: return ResinCostType_CONDENSE;
+        case 3: return ResinCostType_REUNION_PRIVILEGE;
+        case 4: return ResinCostType_OP_ACTIVITY;
+        case 5: return ResinCostType_MATERIAL;
         default: return null;
       }
     }
@@ -194,15 +167,13 @@ public final class ResinCostTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023ResinCostType.proto*\235\002\n\rResinCostType\022" +
-      "\030\n\024RESIN_COST_TYPE_NONE\020\000\022\032\n\026RESIN_COST_" +
-      "TYPE_NORMAL\020\001\022\034\n\030RESIN_COST_TYPE_CONDENS" +
-      "E\020\002\022%\n!RESIN_COST_TYPE_REUNION_PRIVILEGE" +
-      "\020\003\022\037\n\033RESIN_COST_TYPE_OP_ACTIVITY\020\004\022\034\n\030R" +
-      "ESIN_COST_TYPE_MATERIAL\020\005\022\033\n\027RESIN_COST_" +
-      "TYPE_FRAGILE\020\006\022\032\n\026RESIN_COST_TYPE_TIMING" +
-      "\020\007\022\031\n\025RESIN_COST_TYPE_HCOIN\020\010B\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "\n\023ResinCostType.proto*\275\001\n\rResinCostType\022" +
+      "\026\n\022ResinCostType_NONE\020\000\022\030\n\024ResinCostType" +
+      "_NORMAL\020\001\022\032\n\026ResinCostType_CONDENSE\020\002\022#\n" +
+      "\037ResinCostType_REUNION_PRIVILEGE\020\003\022\035\n\031Re" +
+      "sinCostType_OP_ACTIVITY\020\004\022\032\n\026ResinCostTy" +
+      "pe_MATERIAL\020\005B\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

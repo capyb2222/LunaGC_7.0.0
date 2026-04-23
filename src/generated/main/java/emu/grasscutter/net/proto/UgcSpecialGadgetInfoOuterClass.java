@@ -19,22 +19,30 @@ public final class UgcSpecialGadgetInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 group_id = 1;</code>
-     * @return The groupId.
-     */
-    int getGroupId();
-
-    /**
      * <code>uint32 ugc_gadget_config_id = 3;</code>
      * @return The ugcGadgetConfigId.
      */
     int getUgcGadgetConfigId();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
      * <code>uint32 guid = 2;</code>
      * @return The guid.
      */
     int getGuid();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>uint32 group_id = 1;</code>
+     * @return The groupId.
+     */
+    int getGroupId();
   }
   /**
    * Protobuf type {@code UgcSpecialGadgetInfo}
@@ -128,17 +136,6 @@ public final class UgcSpecialGadgetInfoOuterClass {
               emu.grasscutter.net.proto.UgcSpecialGadgetInfoOuterClass.UgcSpecialGadgetInfo.class, emu.grasscutter.net.proto.UgcSpecialGadgetInfoOuterClass.UgcSpecialGadgetInfo.Builder.class);
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 1;
-    private int groupId_;
-    /**
-     * <code>uint32 group_id = 1;</code>
-     * @return The groupId.
-     */
-    @java.lang.Override
-    public int getGroupId() {
-      return groupId_;
-    }
-
     public static final int UGC_GADGET_CONFIG_ID_FIELD_NUMBER = 3;
     private int ugcGadgetConfigId_;
     /**
@@ -153,12 +150,31 @@ public final class UgcSpecialGadgetInfoOuterClass {
     public static final int GUID_FIELD_NUMBER = 2;
     private int guid_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
      * <code>uint32 guid = 2;</code>
      * @return The guid.
      */
     @java.lang.Override
     public int getGuid() {
       return guid_;
+    }
+
+    public static final int GROUP_ID_FIELD_NUMBER = 1;
+    private int groupId_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>uint32 group_id = 1;</code>
+     * @return The groupId.
+     */
+    @java.lang.Override
+    public int getGroupId() {
+      return groupId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -220,12 +236,12 @@ public final class UgcSpecialGadgetInfoOuterClass {
       }
       emu.grasscutter.net.proto.UgcSpecialGadgetInfoOuterClass.UgcSpecialGadgetInfo other = (emu.grasscutter.net.proto.UgcSpecialGadgetInfoOuterClass.UgcSpecialGadgetInfo) obj;
 
-      if (getGroupId()
-          != other.getGroupId()) return false;
       if (getUgcGadgetConfigId()
           != other.getUgcGadgetConfigId()) return false;
       if (getGuid()
           != other.getGuid()) return false;
+      if (getGroupId()
+          != other.getGroupId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -237,12 +253,12 @@ public final class UgcSpecialGadgetInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + GROUP_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getGroupId();
       hash = (37 * hash) + UGC_GADGET_CONFIG_ID_FIELD_NUMBER;
       hash = (53 * hash) + getUgcGadgetConfigId();
       hash = (37 * hash) + GUID_FIELD_NUMBER;
       hash = (53 * hash) + getGuid();
+      hash = (37 * hash) + GROUP_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getGroupId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -376,11 +392,11 @@ public final class UgcSpecialGadgetInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        groupId_ = 0;
-
         ugcGadgetConfigId_ = 0;
 
         guid_ = 0;
+
+        groupId_ = 0;
 
         return this;
       }
@@ -408,9 +424,9 @@ public final class UgcSpecialGadgetInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.UgcSpecialGadgetInfoOuterClass.UgcSpecialGadgetInfo buildPartial() {
         emu.grasscutter.net.proto.UgcSpecialGadgetInfoOuterClass.UgcSpecialGadgetInfo result = new emu.grasscutter.net.proto.UgcSpecialGadgetInfoOuterClass.UgcSpecialGadgetInfo(this);
-        result.groupId_ = groupId_;
         result.ugcGadgetConfigId_ = ugcGadgetConfigId_;
         result.guid_ = guid_;
+        result.groupId_ = groupId_;
         onBuilt();
         return result;
       }
@@ -459,14 +475,14 @@ public final class UgcSpecialGadgetInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.UgcSpecialGadgetInfoOuterClass.UgcSpecialGadgetInfo other) {
         if (other == emu.grasscutter.net.proto.UgcSpecialGadgetInfoOuterClass.UgcSpecialGadgetInfo.getDefaultInstance()) return this;
-        if (other.getGroupId() != 0) {
-          setGroupId(other.getGroupId());
-        }
         if (other.getUgcGadgetConfigId() != 0) {
           setUgcGadgetConfigId(other.getUgcGadgetConfigId());
         }
         if (other.getGuid() != 0) {
           setGuid(other.getGuid());
+        }
+        if (other.getGroupId() != 0) {
+          setGroupId(other.getGroupId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -494,37 +510,6 @@ public final class UgcSpecialGadgetInfoOuterClass {
             mergeFrom(parsedMessage);
           }
         }
-        return this;
-      }
-
-      private int groupId_ ;
-      /**
-       * <code>uint32 group_id = 1;</code>
-       * @return The groupId.
-       */
-      @java.lang.Override
-      public int getGroupId() {
-        return groupId_;
-      }
-      /**
-       * <code>uint32 group_id = 1;</code>
-       * @param value The groupId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGroupId(int value) {
-        
-        groupId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 group_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGroupId() {
-        
-        groupId_ = 0;
-        onChanged();
         return this;
       }
 
@@ -561,6 +546,10 @@ public final class UgcSpecialGadgetInfoOuterClass {
 
       private int guid_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
        * <code>uint32 guid = 2;</code>
        * @return The guid.
        */
@@ -569,6 +558,10 @@ public final class UgcSpecialGadgetInfoOuterClass {
         return guid_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
        * <code>uint32 guid = 2;</code>
        * @param value The guid to set.
        * @return This builder for chaining.
@@ -580,12 +573,59 @@ public final class UgcSpecialGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
        * <code>uint32 guid = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
         
         guid_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int groupId_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint32 group_id = 1;</code>
+       * @return The groupId.
+       */
+      @java.lang.Override
+      public int getGroupId() {
+        return groupId_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint32 group_id = 1;</code>
+       * @param value The groupId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGroupId(int value) {
+        
+        groupId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>uint32 group_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGroupId() {
+        
+        groupId_ = 0;
         onChanged();
         return this;
       }
@@ -657,8 +697,8 @@ public final class UgcSpecialGadgetInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032UgcSpecialGadgetInfo.proto\"T\n\024UgcSpeci" +
-      "alGadgetInfo\022\020\n\010group_id\030\001 \001(\r\022\034\n\024ugc_ga" +
-      "dget_config_id\030\003 \001(\r\022\014\n\004guid\030\002 \001(\rB\033\n\031em" +
+      "alGadgetInfo\022\034\n\024ugc_gadget_config_id\030\003 \001" +
+      "(\r\022\014\n\004guid\030\002 \001(\r\022\020\n\010group_id\030\001 \001(\rB\033\n\031em" +
       "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -670,7 +710,7 @@ public final class UgcSpecialGadgetInfoOuterClass {
     internal_static_UgcSpecialGadgetInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UgcSpecialGadgetInfo_descriptor,
-        new java.lang.String[] { "GroupId", "UgcGadgetConfigId", "Guid", });
+        new java.lang.String[] { "UgcGadgetConfigId", "Guid", "GroupId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

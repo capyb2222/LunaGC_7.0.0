@@ -19,16 +19,28 @@ public final class NightCrowGadgetInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 argument_list = 1;</code>
      * @return A list containing the argumentList.
      */
     java.util.List<java.lang.Integer> getArgumentListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 argument_list = 1;</code>
      * @return The count of argumentList.
      */
     int getArgumentListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 argument_list = 1;</code>
      * @param index The index of the element to return.
      * @return The argumentList at the given index.
@@ -141,6 +153,10 @@ public final class NightCrowGadgetInfoOuterClass {
     public static final int ARGUMENT_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList argumentList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 argument_list = 1;</code>
      * @return A list containing the argumentList.
      */
@@ -150,6 +166,10 @@ public final class NightCrowGadgetInfoOuterClass {
       return argumentList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 argument_list = 1;</code>
      * @return The count of argumentList.
      */
@@ -157,6 +177,10 @@ public final class NightCrowGadgetInfoOuterClass {
       return argumentList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 argument_list = 1;</code>
      * @param index The index of the element to return.
      * @return The argumentList at the given index.
@@ -506,6 +530,10 @@ public final class NightCrowGadgetInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 argument_list = 1;</code>
        * @return A list containing the argumentList.
        */
@@ -515,6 +543,10 @@ public final class NightCrowGadgetInfoOuterClass {
                  java.util.Collections.unmodifiableList(argumentList_) : argumentList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 argument_list = 1;</code>
        * @return The count of argumentList.
        */
@@ -522,6 +554,10 @@ public final class NightCrowGadgetInfoOuterClass {
         return argumentList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 argument_list = 1;</code>
        * @param index The index of the element to return.
        * @return The argumentList at the given index.
@@ -530,6 +566,10 @@ public final class NightCrowGadgetInfoOuterClass {
         return argumentList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 argument_list = 1;</code>
        * @param index The index to set the value at.
        * @param value The argumentList to set.
@@ -543,6 +583,10 @@ public final class NightCrowGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 argument_list = 1;</code>
        * @param value The argumentList to add.
        * @return This builder for chaining.
@@ -554,6 +598,10 @@ public final class NightCrowGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 argument_list = 1;</code>
        * @param values The argumentList to add.
        * @return This builder for chaining.
@@ -567,6 +615,10 @@ public final class NightCrowGadgetInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 argument_list = 1;</code>
        * @return This builder for chaining.
        */

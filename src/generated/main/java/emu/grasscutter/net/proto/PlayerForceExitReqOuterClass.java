@@ -19,6 +19,10 @@ public final class PlayerForceExitReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
   }
   /**
+   * <pre>
+   * CmdId: 29660
+   * </pre>
+   *
    * Protobuf type {@code PlayerForceExitReq}
    */
   public static final class PlayerForceExitReq extends
@@ -240,6 +244,10 @@ public final class PlayerForceExitReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 29660
+     * </pre>
+     *
      * Protobuf type {@code PlayerForceExitReq}
      */
     public static final class Builder extends

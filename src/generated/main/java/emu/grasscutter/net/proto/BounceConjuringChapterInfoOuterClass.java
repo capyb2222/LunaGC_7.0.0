@@ -19,24 +19,28 @@ public final class BounceConjuringChapterInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 open_time = 3;</code>
+     * <code>uint32 open_time = 4;</code>
      * @return The openTime.
      */
     int getOpenTime();
 
     /**
-     * <code>uint32 chapter_id = 8;</code>
-     * @return The chapterId.
-     */
-    int getChapterId();
-
-    /**
-     * <code>uint32 best_score = 5;</code>
+     * <code>uint32 best_score = 3;</code>
      * @return The bestScore.
      */
     int getBestScore();
+
+    /**
+     * <code>uint32 chapter_id = 6;</code>
+     * @return The chapterId.
+     */
+    int getChapterId();
   }
   /**
+   * <pre>
+   * Obf: GDFCALPDJDD
+   * </pre>
+   *
    * Protobuf type {@code BounceConjuringChapterInfo}
    */
   public static final class BounceConjuringChapterInfo extends
@@ -83,15 +87,15 @@ public final class BounceConjuringChapterInfoOuterClass {
               break;
             case 24: {
 
-              openTime_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
               bestScore_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 32: {
+
+              openTime_ = input.readUInt32();
+              break;
+            }
+            case 48: {
 
               chapterId_ = input.readUInt32();
               break;
@@ -128,10 +132,10 @@ public final class BounceConjuringChapterInfoOuterClass {
               emu.grasscutter.net.proto.BounceConjuringChapterInfoOuterClass.BounceConjuringChapterInfo.class, emu.grasscutter.net.proto.BounceConjuringChapterInfoOuterClass.BounceConjuringChapterInfo.Builder.class);
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 3;
+    public static final int OPEN_TIME_FIELD_NUMBER = 4;
     private int openTime_;
     /**
-     * <code>uint32 open_time = 3;</code>
+     * <code>uint32 open_time = 4;</code>
      * @return The openTime.
      */
     @java.lang.Override
@@ -139,26 +143,26 @@ public final class BounceConjuringChapterInfoOuterClass {
       return openTime_;
     }
 
-    public static final int CHAPTER_ID_FIELD_NUMBER = 8;
-    private int chapterId_;
-    /**
-     * <code>uint32 chapter_id = 8;</code>
-     * @return The chapterId.
-     */
-    @java.lang.Override
-    public int getChapterId() {
-      return chapterId_;
-    }
-
-    public static final int BEST_SCORE_FIELD_NUMBER = 5;
+    public static final int BEST_SCORE_FIELD_NUMBER = 3;
     private int bestScore_;
     /**
-     * <code>uint32 best_score = 5;</code>
+     * <code>uint32 best_score = 3;</code>
      * @return The bestScore.
      */
     @java.lang.Override
     public int getBestScore() {
       return bestScore_;
+    }
+
+    public static final int CHAPTER_ID_FIELD_NUMBER = 6;
+    private int chapterId_;
+    /**
+     * <code>uint32 chapter_id = 6;</code>
+     * @return The chapterId.
+     */
+    @java.lang.Override
+    public int getChapterId() {
+      return chapterId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -175,14 +179,14 @@ public final class BounceConjuringChapterInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (openTime_ != 0) {
-        output.writeUInt32(3, openTime_);
-      }
       if (bestScore_ != 0) {
-        output.writeUInt32(5, bestScore_);
+        output.writeUInt32(3, bestScore_);
+      }
+      if (openTime_ != 0) {
+        output.writeUInt32(4, openTime_);
       }
       if (chapterId_ != 0) {
-        output.writeUInt32(8, chapterId_);
+        output.writeUInt32(6, chapterId_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +197,17 @@ public final class BounceConjuringChapterInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (openTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, openTime_);
-      }
       if (bestScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, bestScore_);
+          .computeUInt32Size(3, bestScore_);
+      }
+      if (openTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, openTime_);
       }
       if (chapterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, chapterId_);
+          .computeUInt32Size(6, chapterId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -222,10 +226,10 @@ public final class BounceConjuringChapterInfoOuterClass {
 
       if (getOpenTime()
           != other.getOpenTime()) return false;
-      if (getChapterId()
-          != other.getChapterId()) return false;
       if (getBestScore()
           != other.getBestScore()) return false;
+      if (getChapterId()
+          != other.getChapterId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -239,10 +243,10 @@ public final class BounceConjuringChapterInfoOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + OPEN_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getOpenTime();
-      hash = (37 * hash) + CHAPTER_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getChapterId();
       hash = (37 * hash) + BEST_SCORE_FIELD_NUMBER;
       hash = (53 * hash) + getBestScore();
+      hash = (37 * hash) + CHAPTER_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getChapterId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -339,6 +343,10 @@ public final class BounceConjuringChapterInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: GDFCALPDJDD
+     * </pre>
+     *
      * Protobuf type {@code BounceConjuringChapterInfo}
      */
     public static final class Builder extends
@@ -378,9 +386,9 @@ public final class BounceConjuringChapterInfoOuterClass {
         super.clear();
         openTime_ = 0;
 
-        chapterId_ = 0;
-
         bestScore_ = 0;
+
+        chapterId_ = 0;
 
         return this;
       }
@@ -409,8 +417,8 @@ public final class BounceConjuringChapterInfoOuterClass {
       public emu.grasscutter.net.proto.BounceConjuringChapterInfoOuterClass.BounceConjuringChapterInfo buildPartial() {
         emu.grasscutter.net.proto.BounceConjuringChapterInfoOuterClass.BounceConjuringChapterInfo result = new emu.grasscutter.net.proto.BounceConjuringChapterInfoOuterClass.BounceConjuringChapterInfo(this);
         result.openTime_ = openTime_;
-        result.chapterId_ = chapterId_;
         result.bestScore_ = bestScore_;
+        result.chapterId_ = chapterId_;
         onBuilt();
         return result;
       }
@@ -462,11 +470,11 @@ public final class BounceConjuringChapterInfoOuterClass {
         if (other.getOpenTime() != 0) {
           setOpenTime(other.getOpenTime());
         }
-        if (other.getChapterId() != 0) {
-          setChapterId(other.getChapterId());
-        }
         if (other.getBestScore() != 0) {
           setBestScore(other.getBestScore());
+        }
+        if (other.getChapterId() != 0) {
+          setChapterId(other.getChapterId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -499,7 +507,7 @@ public final class BounceConjuringChapterInfoOuterClass {
 
       private int openTime_ ;
       /**
-       * <code>uint32 open_time = 3;</code>
+       * <code>uint32 open_time = 4;</code>
        * @return The openTime.
        */
       @java.lang.Override
@@ -507,7 +515,7 @@ public final class BounceConjuringChapterInfoOuterClass {
         return openTime_;
       }
       /**
-       * <code>uint32 open_time = 3;</code>
+       * <code>uint32 open_time = 4;</code>
        * @param value The openTime to set.
        * @return This builder for chaining.
        */
@@ -518,7 +526,7 @@ public final class BounceConjuringChapterInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 open_time = 3;</code>
+       * <code>uint32 open_time = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpenTime() {
@@ -528,40 +536,9 @@ public final class BounceConjuringChapterInfoOuterClass {
         return this;
       }
 
-      private int chapterId_ ;
-      /**
-       * <code>uint32 chapter_id = 8;</code>
-       * @return The chapterId.
-       */
-      @java.lang.Override
-      public int getChapterId() {
-        return chapterId_;
-      }
-      /**
-       * <code>uint32 chapter_id = 8;</code>
-       * @param value The chapterId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setChapterId(int value) {
-        
-        chapterId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 chapter_id = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearChapterId() {
-        
-        chapterId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int bestScore_ ;
       /**
-       * <code>uint32 best_score = 5;</code>
+       * <code>uint32 best_score = 3;</code>
        * @return The bestScore.
        */
       @java.lang.Override
@@ -569,7 +546,7 @@ public final class BounceConjuringChapterInfoOuterClass {
         return bestScore_;
       }
       /**
-       * <code>uint32 best_score = 5;</code>
+       * <code>uint32 best_score = 3;</code>
        * @param value The bestScore to set.
        * @return This builder for chaining.
        */
@@ -580,12 +557,43 @@ public final class BounceConjuringChapterInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 best_score = 5;</code>
+       * <code>uint32 best_score = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearBestScore() {
         
         bestScore_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int chapterId_ ;
+      /**
+       * <code>uint32 chapter_id = 6;</code>
+       * @return The chapterId.
+       */
+      @java.lang.Override
+      public int getChapterId() {
+        return chapterId_;
+      }
+      /**
+       * <code>uint32 chapter_id = 6;</code>
+       * @param value The chapterId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setChapterId(int value) {
+        
+        chapterId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 chapter_id = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearChapterId() {
+        
+        chapterId_ = 0;
         onChanged();
         return this;
       }
@@ -657,8 +665,8 @@ public final class BounceConjuringChapterInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n BounceConjuringChapterInfo.proto\"W\n\032Bo" +
-      "unceConjuringChapterInfo\022\021\n\topen_time\030\003 " +
-      "\001(\r\022\022\n\nchapter_id\030\010 \001(\r\022\022\n\nbest_score\030\005 " +
+      "unceConjuringChapterInfo\022\021\n\topen_time\030\004 " +
+      "\001(\r\022\022\n\nbest_score\030\003 \001(\r\022\022\n\nchapter_id\030\006 " +
       "\001(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -670,7 +678,7 @@ public final class BounceConjuringChapterInfoOuterClass {
     internal_static_BounceConjuringChapterInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_BounceConjuringChapterInfo_descriptor,
-        new java.lang.String[] { "OpenTime", "ChapterId", "BestScore", });
+        new java.lang.String[] { "OpenTime", "BestScore", "ChapterId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

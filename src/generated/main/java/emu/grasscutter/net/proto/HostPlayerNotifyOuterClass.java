@@ -19,20 +19,28 @@ public final class HostPlayerNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 host_uid = 6;</code>
-     * @return The hostUid.
-     */
-    int getHostUid();
-
-    /**
-     * <code>uint32 host_peer_id = 9;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 host_peer_id = 12;</code>
      * @return The hostPeerId.
      */
     int getHostPeerId();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 host_uid = 5;</code>
+     * @return The hostUid.
+     */
+    int getHostUid();
   }
   /**
    * <pre>
-   * CmdId: 20494
+   * CmdId: 1525
    * </pre>
    *
    * Protobuf type {@code HostPlayerNotify}
@@ -79,12 +87,12 @@ public final class HostPlayerNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 40: {
 
               hostUid_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 96: {
 
               hostPeerId_ = input.readUInt32();
               break;
@@ -121,26 +129,34 @@ public final class HostPlayerNotifyOuterClass {
               emu.grasscutter.net.proto.HostPlayerNotifyOuterClass.HostPlayerNotify.class, emu.grasscutter.net.proto.HostPlayerNotifyOuterClass.HostPlayerNotify.Builder.class);
     }
 
-    public static final int HOST_UID_FIELD_NUMBER = 6;
-    private int hostUid_;
-    /**
-     * <code>uint32 host_uid = 6;</code>
-     * @return The hostUid.
-     */
-    @java.lang.Override
-    public int getHostUid() {
-      return hostUid_;
-    }
-
-    public static final int HOST_PEER_ID_FIELD_NUMBER = 9;
+    public static final int HOST_PEER_ID_FIELD_NUMBER = 12;
     private int hostPeerId_;
     /**
-     * <code>uint32 host_peer_id = 9;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 host_peer_id = 12;</code>
      * @return The hostPeerId.
      */
     @java.lang.Override
     public int getHostPeerId() {
       return hostPeerId_;
+    }
+
+    public static final int HOST_UID_FIELD_NUMBER = 5;
+    private int hostUid_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 host_uid = 5;</code>
+     * @return The hostUid.
+     */
+    @java.lang.Override
+    public int getHostUid() {
+      return hostUid_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -158,10 +174,10 @@ public final class HostPlayerNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (hostUid_ != 0) {
-        output.writeUInt32(6, hostUid_);
+        output.writeUInt32(5, hostUid_);
       }
       if (hostPeerId_ != 0) {
-        output.writeUInt32(9, hostPeerId_);
+        output.writeUInt32(12, hostPeerId_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +190,11 @@ public final class HostPlayerNotifyOuterClass {
       size = 0;
       if (hostUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, hostUid_);
+          .computeUInt32Size(5, hostUid_);
       }
       if (hostPeerId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, hostPeerId_);
+          .computeUInt32Size(12, hostPeerId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -195,10 +211,10 @@ public final class HostPlayerNotifyOuterClass {
       }
       emu.grasscutter.net.proto.HostPlayerNotifyOuterClass.HostPlayerNotify other = (emu.grasscutter.net.proto.HostPlayerNotifyOuterClass.HostPlayerNotify) obj;
 
-      if (getHostUid()
-          != other.getHostUid()) return false;
       if (getHostPeerId()
           != other.getHostPeerId()) return false;
+      if (getHostUid()
+          != other.getHostUid()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -210,10 +226,10 @@ public final class HostPlayerNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + HOST_UID_FIELD_NUMBER;
-      hash = (53 * hash) + getHostUid();
       hash = (37 * hash) + HOST_PEER_ID_FIELD_NUMBER;
       hash = (53 * hash) + getHostPeerId();
+      hash = (37 * hash) + HOST_UID_FIELD_NUMBER;
+      hash = (53 * hash) + getHostUid();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -311,7 +327,7 @@ public final class HostPlayerNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 20494
+     * CmdId: 1525
      * </pre>
      *
      * Protobuf type {@code HostPlayerNotify}
@@ -351,9 +367,9 @@ public final class HostPlayerNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        hostUid_ = 0;
-
         hostPeerId_ = 0;
+
+        hostUid_ = 0;
 
         return this;
       }
@@ -381,8 +397,8 @@ public final class HostPlayerNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.HostPlayerNotifyOuterClass.HostPlayerNotify buildPartial() {
         emu.grasscutter.net.proto.HostPlayerNotifyOuterClass.HostPlayerNotify result = new emu.grasscutter.net.proto.HostPlayerNotifyOuterClass.HostPlayerNotify(this);
-        result.hostUid_ = hostUid_;
         result.hostPeerId_ = hostPeerId_;
+        result.hostUid_ = hostUid_;
         onBuilt();
         return result;
       }
@@ -431,11 +447,11 @@ public final class HostPlayerNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.HostPlayerNotifyOuterClass.HostPlayerNotify other) {
         if (other == emu.grasscutter.net.proto.HostPlayerNotifyOuterClass.HostPlayerNotify.getDefaultInstance()) return this;
-        if (other.getHostUid() != 0) {
-          setHostUid(other.getHostUid());
-        }
         if (other.getHostPeerId() != 0) {
           setHostPeerId(other.getHostPeerId());
+        }
+        if (other.getHostUid() != 0) {
+          setHostUid(other.getHostUid());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -466,40 +482,13 @@ public final class HostPlayerNotifyOuterClass {
         return this;
       }
 
-      private int hostUid_ ;
-      /**
-       * <code>uint32 host_uid = 6;</code>
-       * @return The hostUid.
-       */
-      @java.lang.Override
-      public int getHostUid() {
-        return hostUid_;
-      }
-      /**
-       * <code>uint32 host_uid = 6;</code>
-       * @param value The hostUid to set.
-       * @return This builder for chaining.
-       */
-      public Builder setHostUid(int value) {
-        
-        hostUid_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 host_uid = 6;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearHostUid() {
-        
-        hostUid_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int hostPeerId_ ;
       /**
-       * <code>uint32 host_peer_id = 9;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 host_peer_id = 12;</code>
        * @return The hostPeerId.
        */
       @java.lang.Override
@@ -507,7 +496,11 @@ public final class HostPlayerNotifyOuterClass {
         return hostPeerId_;
       }
       /**
-       * <code>uint32 host_peer_id = 9;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 host_peer_id = 12;</code>
        * @param value The hostPeerId to set.
        * @return This builder for chaining.
        */
@@ -518,12 +511,59 @@ public final class HostPlayerNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 host_peer_id = 9;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 host_peer_id = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearHostPeerId() {
         
         hostPeerId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int hostUid_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 host_uid = 5;</code>
+       * @return The hostUid.
+       */
+      @java.lang.Override
+      public int getHostUid() {
+        return hostUid_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 host_uid = 5;</code>
+       * @param value The hostUid to set.
+       * @return This builder for chaining.
+       */
+      public Builder setHostUid(int value) {
+        
+        hostUid_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 host_uid = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearHostUid() {
+        
+        hostUid_ = 0;
         onChanged();
         return this;
       }
@@ -595,7 +635,7 @@ public final class HostPlayerNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026HostPlayerNotify.proto\":\n\020HostPlayerNo" +
-      "tify\022\020\n\010host_uid\030\006 \001(\r\022\024\n\014host_peer_id\030\t" +
+      "tify\022\024\n\014host_peer_id\030\014 \001(\r\022\020\n\010host_uid\030\005" +
       " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
       "3"
     };
@@ -608,7 +648,7 @@ public final class HostPlayerNotifyOuterClass {
     internal_static_HostPlayerNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HostPlayerNotify_descriptor,
-        new java.lang.String[] { "HostUid", "HostPeerId", });
+        new java.lang.String[] { "HostPeerId", "HostUid", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

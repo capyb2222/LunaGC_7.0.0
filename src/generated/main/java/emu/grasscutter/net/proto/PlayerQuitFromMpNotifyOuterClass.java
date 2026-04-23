@@ -19,19 +19,19 @@ public final class PlayerQuitFromMpNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.PlayerQuitFromMpNotify.QuitReason reason = 4;</code>
+     * <code>.QuitReason reason = 15;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.PlayerQuitFromMpNotify.QuitReason reason = 4;</code>
+     * <code>.QuitReason reason = 15;</code>
      * @return The reason.
      */
-    emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason getReason();
+    emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason getReason();
   }
   /**
    * <pre>
-   * CmdId: 3082
+   * CmdId: 23763
    * </pre>
    *
    * Protobuf type {@code PlayerQuitFromMpNotify}
@@ -79,7 +79,7 @@ public final class PlayerQuitFromMpNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 120: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
@@ -117,230 +117,23 @@ public final class PlayerQuitFromMpNotifyOuterClass {
               emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.class, emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.Builder.class);
     }
 
-    /**
-     * Protobuf enum {@code PlayerQuitFromMpNotify.QuitReason}
-     */
-    public enum QuitReason
-        implements com.google.protobuf.ProtocolMessageEnum {
-      /**
-       * <code>QUIT_REASON_INVALID = 0;</code>
-       */
-      QUIT_REASON_INVALID(0),
-      /**
-       * <code>QUIT_REASON_HOST_NO_OTHER_PLAYER = 1;</code>
-       */
-      QUIT_REASON_HOST_NO_OTHER_PLAYER(1),
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST = 2;</code>
-       */
-      QUIT_REASON_KICK_BY_HOST(2),
-      /**
-       * <code>QUIT_REASON_BACK_TO_MY_WORLD = 3;</code>
-       */
-      QUIT_REASON_BACK_TO_MY_WORLD(3),
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST_LOGOUT = 4;</code>
-       */
-      QUIT_REASON_KICK_BY_HOST_LOGOUT(4),
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST_BLOCK = 5;</code>
-       */
-      QUIT_REASON_KICK_BY_HOST_BLOCK(5),
-      /**
-       * <code>QUIT_REASON_BE_BLOCKED = 6;</code>
-       */
-      QUIT_REASON_BE_BLOCKED(6),
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST_ENTER_HOME = 7;</code>
-       */
-      QUIT_REASON_KICK_BY_HOST_ENTER_HOME(7),
-      /**
-       * <code>QUIT_REASON_HOST_SCENE_INVALID = 8;</code>
-       */
-      QUIT_REASON_HOST_SCENE_INVALID(8),
-      /**
-       * <code>QUIT_REASON_KICK_BY_PLAY = 9;</code>
-       */
-      QUIT_REASON_KICK_BY_PLAY(9),
-      /**
-       * <code>QUIT_REASON_KICK_BY_ISLAND_PARTY_GALLERY_START_FAILED = 10;</code>
-       */
-      QUIT_REASON_KICK_BY_ISLAND_PARTY_GALLERY_START_FAILED(10),
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST_ADS_BLOCK = 11;</code>
-       */
-      QUIT_REASON_KICK_BY_HOST_ADS_BLOCK(11),
-      /**
-       * <code>QUIT_REASON_BE_ADS_BLOCKED = 12;</code>
-       */
-      QUIT_REASON_BE_ADS_BLOCKED(12),
-      UNRECOGNIZED(-1),
-      ;
-
-      /**
-       * <code>QUIT_REASON_INVALID = 0;</code>
-       */
-      public static final int QUIT_REASON_INVALID_VALUE = 0;
-      /**
-       * <code>QUIT_REASON_HOST_NO_OTHER_PLAYER = 1;</code>
-       */
-      public static final int QUIT_REASON_HOST_NO_OTHER_PLAYER_VALUE = 1;
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST = 2;</code>
-       */
-      public static final int QUIT_REASON_KICK_BY_HOST_VALUE = 2;
-      /**
-       * <code>QUIT_REASON_BACK_TO_MY_WORLD = 3;</code>
-       */
-      public static final int QUIT_REASON_BACK_TO_MY_WORLD_VALUE = 3;
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST_LOGOUT = 4;</code>
-       */
-      public static final int QUIT_REASON_KICK_BY_HOST_LOGOUT_VALUE = 4;
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST_BLOCK = 5;</code>
-       */
-      public static final int QUIT_REASON_KICK_BY_HOST_BLOCK_VALUE = 5;
-      /**
-       * <code>QUIT_REASON_BE_BLOCKED = 6;</code>
-       */
-      public static final int QUIT_REASON_BE_BLOCKED_VALUE = 6;
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST_ENTER_HOME = 7;</code>
-       */
-      public static final int QUIT_REASON_KICK_BY_HOST_ENTER_HOME_VALUE = 7;
-      /**
-       * <code>QUIT_REASON_HOST_SCENE_INVALID = 8;</code>
-       */
-      public static final int QUIT_REASON_HOST_SCENE_INVALID_VALUE = 8;
-      /**
-       * <code>QUIT_REASON_KICK_BY_PLAY = 9;</code>
-       */
-      public static final int QUIT_REASON_KICK_BY_PLAY_VALUE = 9;
-      /**
-       * <code>QUIT_REASON_KICK_BY_ISLAND_PARTY_GALLERY_START_FAILED = 10;</code>
-       */
-      public static final int QUIT_REASON_KICK_BY_ISLAND_PARTY_GALLERY_START_FAILED_VALUE = 10;
-      /**
-       * <code>QUIT_REASON_KICK_BY_HOST_ADS_BLOCK = 11;</code>
-       */
-      public static final int QUIT_REASON_KICK_BY_HOST_ADS_BLOCK_VALUE = 11;
-      /**
-       * <code>QUIT_REASON_BE_ADS_BLOCKED = 12;</code>
-       */
-      public static final int QUIT_REASON_BE_ADS_BLOCKED_VALUE = 12;
-
-
-      public final int getNumber() {
-        if (this == UNRECOGNIZED) {
-          throw new java.lang.IllegalArgumentException(
-              "Can't get the number of an unknown enum value.");
-        }
-        return value;
-      }
-
-      /**
-       * @param value The numeric wire value of the corresponding enum entry.
-       * @return The enum associated with the given numeric wire value.
-       * @deprecated Use {@link #forNumber(int)} instead.
-       */
-      @java.lang.Deprecated
-      public static QuitReason valueOf(int value) {
-        return forNumber(value);
-      }
-
-      /**
-       * @param value The numeric wire value of the corresponding enum entry.
-       * @return The enum associated with the given numeric wire value.
-       */
-      public static QuitReason forNumber(int value) {
-        switch (value) {
-          case 0: return QUIT_REASON_INVALID;
-          case 1: return QUIT_REASON_HOST_NO_OTHER_PLAYER;
-          case 2: return QUIT_REASON_KICK_BY_HOST;
-          case 3: return QUIT_REASON_BACK_TO_MY_WORLD;
-          case 4: return QUIT_REASON_KICK_BY_HOST_LOGOUT;
-          case 5: return QUIT_REASON_KICK_BY_HOST_BLOCK;
-          case 6: return QUIT_REASON_BE_BLOCKED;
-          case 7: return QUIT_REASON_KICK_BY_HOST_ENTER_HOME;
-          case 8: return QUIT_REASON_HOST_SCENE_INVALID;
-          case 9: return QUIT_REASON_KICK_BY_PLAY;
-          case 10: return QUIT_REASON_KICK_BY_ISLAND_PARTY_GALLERY_START_FAILED;
-          case 11: return QUIT_REASON_KICK_BY_HOST_ADS_BLOCK;
-          case 12: return QUIT_REASON_BE_ADS_BLOCKED;
-          default: return null;
-        }
-      }
-
-      public static com.google.protobuf.Internal.EnumLiteMap<QuitReason>
-          internalGetValueMap() {
-        return internalValueMap;
-      }
-      private static final com.google.protobuf.Internal.EnumLiteMap<
-          QuitReason> internalValueMap =
-            new com.google.protobuf.Internal.EnumLiteMap<QuitReason>() {
-              public QuitReason findValueByNumber(int number) {
-                return QuitReason.forNumber(number);
-              }
-            };
-
-      public final com.google.protobuf.Descriptors.EnumValueDescriptor
-          getValueDescriptor() {
-        if (this == UNRECOGNIZED) {
-          throw new java.lang.IllegalStateException(
-              "Can't get the descriptor of an unrecognized enum value.");
-        }
-        return getDescriptor().getValues().get(ordinal());
-      }
-      public final com.google.protobuf.Descriptors.EnumDescriptor
-          getDescriptorForType() {
-        return getDescriptor();
-      }
-      public static final com.google.protobuf.Descriptors.EnumDescriptor
-          getDescriptor() {
-        return emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.getDescriptor().getEnumTypes().get(0);
-      }
-
-      private static final QuitReason[] VALUES = values();
-
-      public static QuitReason valueOf(
-          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
-        if (desc.getType() != getDescriptor()) {
-          throw new java.lang.IllegalArgumentException(
-            "EnumValueDescriptor is not for this type.");
-        }
-        if (desc.getIndex() == -1) {
-          return UNRECOGNIZED;
-        }
-        return VALUES[desc.getIndex()];
-      }
-
-      private final int value;
-
-      private QuitReason(int value) {
-        this.value = value;
-      }
-
-      // @@protoc_insertion_point(enum_scope:PlayerQuitFromMpNotify.QuitReason)
-    }
-
-    public static final int REASON_FIELD_NUMBER = 4;
+    public static final int REASON_FIELD_NUMBER = 15;
     private int reason_;
     /**
-     * <code>.PlayerQuitFromMpNotify.QuitReason reason = 4;</code>
+     * <code>.QuitReason reason = 15;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.PlayerQuitFromMpNotify.QuitReason reason = 4;</code>
+     * <code>.QuitReason reason = 15;</code>
      * @return The reason.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason getReason() {
+    @java.lang.Override public emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason getReason() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason result = emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason.valueOf(reason_);
-      return result == null ? emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason result = emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason.valueOf(reason_);
+      return result == null ? emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason.UNRECOGNIZED : result;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -357,8 +150,8 @@ public final class PlayerQuitFromMpNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (reason_ != emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason.QUIT_REASON_INVALID.getNumber()) {
-        output.writeEnum(4, reason_);
+      if (reason_ != emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason.QuitReason_INVALID.getNumber()) {
+        output.writeEnum(15, reason_);
       }
       unknownFields.writeTo(output);
     }
@@ -369,9 +162,9 @@ public final class PlayerQuitFromMpNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (reason_ != emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason.QUIT_REASON_INVALID.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason.QuitReason_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, reason_);
+          .computeEnumSize(15, reason_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -499,7 +292,7 @@ public final class PlayerQuitFromMpNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 3082
+     * CmdId: 23763
      * </pre>
      *
      * Protobuf type {@code PlayerQuitFromMpNotify}
@@ -650,14 +443,14 @@ public final class PlayerQuitFromMpNotifyOuterClass {
 
       private int reason_ = 0;
       /**
-       * <code>.PlayerQuitFromMpNotify.QuitReason reason = 4;</code>
+       * <code>.QuitReason reason = 15;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.PlayerQuitFromMpNotify.QuitReason reason = 4;</code>
+       * <code>.QuitReason reason = 15;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -668,21 +461,21 @@ public final class PlayerQuitFromMpNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.PlayerQuitFromMpNotify.QuitReason reason = 4;</code>
+       * <code>.QuitReason reason = 15;</code>
        * @return The reason.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason getReason() {
+      public emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason getReason() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason result = emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason.valueOf(reason_);
-        return result == null ? emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason result = emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason.valueOf(reason_);
+        return result == null ? emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.PlayerQuitFromMpNotify.QuitReason reason = 4;</code>
+       * <code>.QuitReason reason = 15;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
-      public Builder setReason(emu.grasscutter.net.proto.PlayerQuitFromMpNotifyOuterClass.PlayerQuitFromMpNotify.QuitReason value) {
+      public Builder setReason(emu.grasscutter.net.proto.QuitReasonOuterClass.QuitReason value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -692,7 +485,7 @@ public final class PlayerQuitFromMpNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.PlayerQuitFromMpNotify.QuitReason reason = 4;</code>
+       * <code>.QuitReason reason = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -768,26 +561,15 @@ public final class PlayerQuitFromMpNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034PlayerQuitFromMpNotify.proto\"\255\004\n\026Playe" +
-      "rQuitFromMpNotify\0222\n\006reason\030\004 \001(\0162\".Play" +
-      "erQuitFromMpNotify.QuitReason\"\336\003\n\nQuitRe" +
-      "ason\022\027\n\023QUIT_REASON_INVALID\020\000\022$\n QUIT_RE" +
-      "ASON_HOST_NO_OTHER_PLAYER\020\001\022\034\n\030QUIT_REAS" +
-      "ON_KICK_BY_HOST\020\002\022 \n\034QUIT_REASON_BACK_TO" +
-      "_MY_WORLD\020\003\022#\n\037QUIT_REASON_KICK_BY_HOST_" +
-      "LOGOUT\020\004\022\"\n\036QUIT_REASON_KICK_BY_HOST_BLO" +
-      "CK\020\005\022\032\n\026QUIT_REASON_BE_BLOCKED\020\006\022\'\n#QUIT" +
-      "_REASON_KICK_BY_HOST_ENTER_HOME\020\007\022\"\n\036QUI" +
-      "T_REASON_HOST_SCENE_INVALID\020\010\022\034\n\030QUIT_RE" +
-      "ASON_KICK_BY_PLAY\020\t\0229\n5QUIT_REASON_KICK_" +
-      "BY_ISLAND_PARTY_GALLERY_START_FAILED\020\n\022&" +
-      "\n\"QUIT_REASON_KICK_BY_HOST_ADS_BLOCK\020\013\022\036" +
-      "\n\032QUIT_REASON_BE_ADS_BLOCKED\020\014B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n\034PlayerQuitFromMpNotify.proto\032\020QuitReas" +
+      "on.proto\"5\n\026PlayerQuitFromMpNotify\022\033\n\006re" +
+      "ason\030\017 \001(\0162\013.QuitReasonB\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.QuitReasonOuterClass.getDescriptor(),
         });
     internal_static_PlayerQuitFromMpNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -795,6 +577,7 @@ public final class PlayerQuitFromMpNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerQuitFromMpNotify_descriptor,
         new java.lang.String[] { "Reason", });
+    emu.grasscutter.net.proto.QuitReasonOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

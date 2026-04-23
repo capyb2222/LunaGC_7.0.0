@@ -20,40 +20,40 @@ public final class HitColliderTypeOuterClass {
   public enum HitColliderType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>HIT_COLLIDER_TYPE_INVALID = 0;</code>
+     * <code>HitColliderType_HIT_COLLIDER_INVALID = 0;</code>
      */
-    HIT_COLLIDER_TYPE_INVALID(0),
+    HitColliderType_HIT_COLLIDER_INVALID(0),
     /**
-     * <code>HIT_COLLIDER_TYPE_HIT_BOX = 1;</code>
+     * <code>HitColliderType_HIT_COLLIDER_HIT_BOX = 1;</code>
      */
-    HIT_COLLIDER_TYPE_HIT_BOX(1),
+    HitColliderType_HIT_COLLIDER_HIT_BOX(1),
     /**
-     * <code>HIT_COLLIDER_TYPE_WET_HIT_BOX = 2;</code>
+     * <code>HitColliderType_HIT_COLLIDER_WET_HIT_BOX = 2;</code>
      */
-    HIT_COLLIDER_TYPE_WET_HIT_BOX(2),
+    HitColliderType_HIT_COLLIDER_WET_HIT_BOX(2),
     /**
-     * <code>HIT_COLLIDER_TYPE_HEAD_BOX = 3;</code>
+     * <code>HitColliderType_HIT_COLLIDER_HEAD_BOX = 3;</code>
      */
-    HIT_COLLIDER_TYPE_HEAD_BOX(3),
+    HitColliderType_HIT_COLLIDER_HEAD_BOX(3),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>HIT_COLLIDER_TYPE_INVALID = 0;</code>
+     * <code>HitColliderType_HIT_COLLIDER_INVALID = 0;</code>
      */
-    public static final int HIT_COLLIDER_TYPE_INVALID_VALUE = 0;
+    public static final int HitColliderType_HIT_COLLIDER_INVALID_VALUE = 0;
     /**
-     * <code>HIT_COLLIDER_TYPE_HIT_BOX = 1;</code>
+     * <code>HitColliderType_HIT_COLLIDER_HIT_BOX = 1;</code>
      */
-    public static final int HIT_COLLIDER_TYPE_HIT_BOX_VALUE = 1;
+    public static final int HitColliderType_HIT_COLLIDER_HIT_BOX_VALUE = 1;
     /**
-     * <code>HIT_COLLIDER_TYPE_WET_HIT_BOX = 2;</code>
+     * <code>HitColliderType_HIT_COLLIDER_WET_HIT_BOX = 2;</code>
      */
-    public static final int HIT_COLLIDER_TYPE_WET_HIT_BOX_VALUE = 2;
+    public static final int HitColliderType_HIT_COLLIDER_WET_HIT_BOX_VALUE = 2;
     /**
-     * <code>HIT_COLLIDER_TYPE_HEAD_BOX = 3;</code>
+     * <code>HitColliderType_HIT_COLLIDER_HEAD_BOX = 3;</code>
      */
-    public static final int HIT_COLLIDER_TYPE_HEAD_BOX_VALUE = 3;
+    public static final int HitColliderType_HIT_COLLIDER_HEAD_BOX_VALUE = 3;
 
 
     public final int getNumber() {
@@ -80,10 +80,10 @@ public final class HitColliderTypeOuterClass {
      */
     public static HitColliderType forNumber(int value) {
       switch (value) {
-        case 0: return HIT_COLLIDER_TYPE_INVALID;
-        case 1: return HIT_COLLIDER_TYPE_HIT_BOX;
-        case 2: return HIT_COLLIDER_TYPE_WET_HIT_BOX;
-        case 3: return HIT_COLLIDER_TYPE_HEAD_BOX;
+        case 0: return HitColliderType_HIT_COLLIDER_INVALID;
+        case 1: return HitColliderType_HIT_COLLIDER_HIT_BOX;
+        case 2: return HitColliderType_HIT_COLLIDER_WET_HIT_BOX;
+        case 3: return HitColliderType_HIT_COLLIDER_HEAD_BOX;
         default: return null;
       }
     }
@@ -149,12 +149,13 @@ public final class HitColliderTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025HitColliderType.proto*\222\001\n\017HitColliderT" +
-      "ype\022\035\n\031HIT_COLLIDER_TYPE_INVALID\020\000\022\035\n\031HI" +
-      "T_COLLIDER_TYPE_HIT_BOX\020\001\022!\n\035HIT_COLLIDE" +
-      "R_TYPE_WET_HIT_BOX\020\002\022\036\n\032HIT_COLLIDER_TYP" +
-      "E_HEAD_BOX\020\003B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\n\025HitColliderType.proto*\276\001\n\017HitColliderT" +
+      "ype\022(\n$HitColliderType_HIT_COLLIDER_INVA" +
+      "LID\020\000\022(\n$HitColliderType_HIT_COLLIDER_HI" +
+      "T_BOX\020\001\022,\n(HitColliderType_HIT_COLLIDER_" +
+      "WET_HIT_BOX\020\002\022)\n%HitColliderType_HIT_COL" +
+      "LIDER_HEAD_BOX\020\003B\033\n\031emu.grasscutter.net." +
+      "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

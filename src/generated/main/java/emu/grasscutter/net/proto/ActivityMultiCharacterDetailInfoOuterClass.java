@@ -19,27 +19,27 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo> 
-        getStageInfoListList();
+    java.util.List<emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA> 
+        getNGMHFHPAAMFList();
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
-    emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo getStageInfoList(int index);
+    emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA getNGMHFHPAAMF(int index);
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
-    int getStageInfoListCount();
+    int getNGMHFHPAAMFCount();
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfoOrBuilder> 
-        getStageInfoListOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBAOrBuilder> 
+        getNGMHFHPAAMFOrBuilderList();
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
-    emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfoOrBuilder getStageInfoListOrBuilder(
+    emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBAOrBuilder getNGMHFHPAAMFOrBuilder(
         int index);
   }
   /**
@@ -55,7 +55,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       super(builder);
     }
     private ActivityMultiCharacterDetailInfo() {
-      stageInfoList_ = java.util.Collections.emptyList();
+      nGMHFHPAAMF_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -89,13 +89,13 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo>();
+                nGMHFHPAAMF_ = new java.util.ArrayList<emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              stageInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.parser(), extensionRegistry));
+              nGMHFHPAAMF_.add(
+                  input.readMessage(emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -114,7 +114,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
+          nGMHFHPAAMF_ = java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -133,44 +133,44 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
               emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo.class, emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 14;
-    private java.util.List<emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo> stageInfoList_;
+    public static final int NGMHFHPAAMF_FIELD_NUMBER = 1;
+    private java.util.List<emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA> nGMHFHPAAMF_;
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo> getStageInfoListList() {
-      return stageInfoList_;
+    public java.util.List<emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA> getNGMHFHPAAMFList() {
+      return nGMHFHPAAMF_;
     }
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfoOrBuilder> 
-        getStageInfoListOrBuilderList() {
-      return stageInfoList_;
+    public java.util.List<? extends emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBAOrBuilder> 
+        getNGMHFHPAAMFOrBuilderList() {
+      return nGMHFHPAAMF_;
     }
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
     @java.lang.Override
-    public int getStageInfoListCount() {
-      return stageInfoList_.size();
+    public int getNGMHFHPAAMFCount() {
+      return nGMHFHPAAMF_.size();
     }
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo getStageInfoList(int index) {
-      return stageInfoList_.get(index);
+    public emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA getNGMHFHPAAMF(int index) {
+      return nGMHFHPAAMF_.get(index);
     }
     /**
-     * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+     * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfoOrBuilder getStageInfoListOrBuilder(
+    public emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBAOrBuilder getNGMHFHPAAMFOrBuilder(
         int index) {
-      return stageInfoList_.get(index);
+      return nGMHFHPAAMF_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -187,8 +187,8 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(14, stageInfoList_.get(i));
+      for (int i = 0; i < nGMHFHPAAMF_.size(); i++) {
+        output.writeMessage(1, nGMHFHPAAMF_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,9 +199,9 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < stageInfoList_.size(); i++) {
+      for (int i = 0; i < nGMHFHPAAMF_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, stageInfoList_.get(i));
+          .computeMessageSize(1, nGMHFHPAAMF_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -218,8 +218,8 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo other = (emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo) obj;
 
-      if (!getStageInfoListList()
-          .equals(other.getStageInfoListList())) return false;
+      if (!getNGMHFHPAAMFList()
+          .equals(other.getNGMHFHPAAMFList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -231,9 +231,9 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getStageInfoListCount() > 0) {
-        hash = (37 * hash) + STAGE_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getStageInfoListList().hashCode();
+      if (getNGMHFHPAAMFCount() > 0) {
+        hash = (37 * hash) + NGMHFHPAAMF_FIELD_NUMBER;
+        hash = (53 * hash) + getNGMHFHPAAMFList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -363,17 +363,17 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getStageInfoListFieldBuilder();
+          getNGMHFHPAAMFFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (stageInfoListBuilder_ == null) {
-          stageInfoList_ = java.util.Collections.emptyList();
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMF_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          stageInfoListBuilder_.clear();
+          nGMHFHPAAMFBuilder_.clear();
         }
         return this;
       }
@@ -402,14 +402,14 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       public emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo buildPartial() {
         emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo result = new emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (stageInfoListBuilder_ == null) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
+            nGMHFHPAAMF_ = java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.stageInfoList_ = stageInfoList_;
+          result.nGMHFHPAAMF_ = nGMHFHPAAMF_;
         } else {
-          result.stageInfoList_ = stageInfoListBuilder_.build();
+          result.nGMHFHPAAMF_ = nGMHFHPAAMFBuilder_.build();
         }
         onBuilt();
         return result;
@@ -459,29 +459,29 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo other) {
         if (other == emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo.getDefaultInstance()) return this;
-        if (stageInfoListBuilder_ == null) {
-          if (!other.stageInfoList_.isEmpty()) {
-            if (stageInfoList_.isEmpty()) {
-              stageInfoList_ = other.stageInfoList_;
+        if (nGMHFHPAAMFBuilder_ == null) {
+          if (!other.nGMHFHPAAMF_.isEmpty()) {
+            if (nGMHFHPAAMF_.isEmpty()) {
+              nGMHFHPAAMF_ = other.nGMHFHPAAMF_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureStageInfoListIsMutable();
-              stageInfoList_.addAll(other.stageInfoList_);
+              ensureNGMHFHPAAMFIsMutable();
+              nGMHFHPAAMF_.addAll(other.nGMHFHPAAMF_);
             }
             onChanged();
           }
         } else {
-          if (!other.stageInfoList_.isEmpty()) {
-            if (stageInfoListBuilder_.isEmpty()) {
-              stageInfoListBuilder_.dispose();
-              stageInfoListBuilder_ = null;
-              stageInfoList_ = other.stageInfoList_;
+          if (!other.nGMHFHPAAMF_.isEmpty()) {
+            if (nGMHFHPAAMFBuilder_.isEmpty()) {
+              nGMHFHPAAMFBuilder_.dispose();
+              nGMHFHPAAMFBuilder_ = null;
+              nGMHFHPAAMF_ = other.nGMHFHPAAMF_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              stageInfoListBuilder_ = 
+              nGMHFHPAAMFBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getStageInfoListFieldBuilder() : null;
+                   getNGMHFHPAAMFFieldBuilder() : null;
             } else {
-              stageInfoListBuilder_.addAllMessages(other.stageInfoList_);
+              nGMHFHPAAMFBuilder_.addAllMessages(other.nGMHFHPAAMF_);
             }
           }
         }
@@ -515,244 +515,244 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo> stageInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA> nGMHFHPAAMF_ =
         java.util.Collections.emptyList();
-      private void ensureStageInfoListIsMutable() {
+      private void ensureNGMHFHPAAMFIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo>(stageInfoList_);
+          nGMHFHPAAMF_ = new java.util.ArrayList<emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA>(nGMHFHPAAMF_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfoOrBuilder> stageInfoListBuilder_;
+          emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBAOrBuilder> nGMHFHPAAMFBuilder_;
 
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo> getStageInfoListList() {
-        if (stageInfoListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(stageInfoList_);
+      public java.util.List<emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA> getNGMHFHPAAMFList() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         } else {
-          return stageInfoListBuilder_.getMessageList();
+          return nGMHFHPAAMFBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public int getStageInfoListCount() {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.size();
+      public int getNGMHFHPAAMFCount() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.size();
         } else {
-          return stageInfoListBuilder_.getCount();
+          return nGMHFHPAAMFBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo getStageInfoList(int index) {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.get(index);
+      public emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA getNGMHFHPAAMF(int index) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.get(index);
         } else {
-          return stageInfoListBuilder_.getMessage(index);
+          return nGMHFHPAAMFBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder setNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.set(index, value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.set(index, value);
           onChanged();
         } else {
-          stageInfoListBuilder_.setMessage(index, value);
+          nGMHFHPAAMFBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.set(index, builderForValue.build());
+      public Builder setNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.set(index, builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.setMessage(index, builderForValue.build());
+          nGMHFHPAAMFBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public Builder addStageInfoList(emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder addNGMHFHPAAMF(emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(value);
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(value);
+          nGMHFHPAAMFBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder addNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(index, value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(index, value);
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(index, value);
+          nGMHFHPAAMFBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public Builder addStageInfoList(
-          emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(builderForValue.build());
+      public Builder addNGMHFHPAAMF(
+          emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(builderForValue.build());
+          nGMHFHPAAMFBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(index, builderForValue.build());
+      public Builder addNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(index, builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(index, builderForValue.build());
+          nGMHFHPAAMFBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public Builder addAllStageInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo> values) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
+      public Builder addAllNGMHFHPAAMF(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA> values) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, stageInfoList_);
+              values, nGMHFHPAAMF_);
           onChanged();
         } else {
-          stageInfoListBuilder_.addAllMessages(values);
+          nGMHFHPAAMFBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public Builder clearStageInfoList() {
-        if (stageInfoListBuilder_ == null) {
-          stageInfoList_ = java.util.Collections.emptyList();
+      public Builder clearNGMHFHPAAMF() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMF_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          stageInfoListBuilder_.clear();
+          nGMHFHPAAMFBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public Builder removeStageInfoList(int index) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.remove(index);
+      public Builder removeNGMHFHPAAMF(int index) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.remove(index);
           onChanged();
         } else {
-          stageInfoListBuilder_.remove(index);
+          nGMHFHPAAMFBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder getStageInfoListBuilder(
+      public emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder getNGMHFHPAAMFBuilder(
           int index) {
-        return getStageInfoListFieldBuilder().getBuilder(index);
+        return getNGMHFHPAAMFFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfoOrBuilder getStageInfoListOrBuilder(
+      public emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBAOrBuilder getNGMHFHPAAMFOrBuilder(
           int index) {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.get(index);  } else {
-          return stageInfoListBuilder_.getMessageOrBuilder(index);
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.get(index);  } else {
+          return nGMHFHPAAMFBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfoOrBuilder> 
-           getStageInfoListOrBuilderList() {
-        if (stageInfoListBuilder_ != null) {
-          return stageInfoListBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBAOrBuilder> 
+           getNGMHFHPAAMFOrBuilderList() {
+        if (nGMHFHPAAMFBuilder_ != null) {
+          return nGMHFHPAAMFBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(stageInfoList_);
+          return java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         }
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder addStageInfoListBuilder() {
-        return getStageInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.getDefaultInstance());
+      public emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder addNGMHFHPAAMFBuilder() {
+        return getNGMHFHPAAMFFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.getDefaultInstance());
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder addStageInfoListBuilder(
+      public emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder addNGMHFHPAAMFBuilder(
           int index) {
-        return getStageInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.getDefaultInstance());
+        return getNGMHFHPAAMFFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.getDefaultInstance());
       }
       /**
-       * <code>repeated .ActivityMultiCharacterStageInfo stage_info_list = 14;</code>
+       * <code>repeated .NDLMDDGHKBA NGMHFHPAAMF = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder> 
-           getStageInfoListBuilderList() {
-        return getStageInfoListFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder> 
+           getNGMHFHPAAMFBuilderList() {
+        return getNGMHFHPAAMFFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfoOrBuilder> 
-          getStageInfoListFieldBuilder() {
-        if (stageInfoListBuilder_ == null) {
-          stageInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfo.Builder, emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.ActivityMultiCharacterStageInfoOrBuilder>(
-                  stageInfoList_,
+          emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBAOrBuilder> 
+          getNGMHFHPAAMFFieldBuilder() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMFBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBA.Builder, emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.NDLMDDGHKBAOrBuilder>(
+                  nGMHFHPAAMF_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          stageInfoList_ = null;
+          nGMHFHPAAMF_ = null;
         }
-        return stageInfoListBuilder_;
+        return nGMHFHPAAMFBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -822,24 +822,23 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n&ActivityMultiCharacterDetailInfo.proto" +
-      "\032%ActivityMultiCharacterStageInfo.proto\"" +
-      "]\n ActivityMultiCharacterDetailInfo\0229\n\017s" +
-      "tage_info_list\030\016 \003(\0132 .ActivityMultiChar" +
-      "acterStageInfoB\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\032\021NDLMDDGHKBA.proto\"E\n ActivityMultiChar" +
+      "acterDetailInfo\022!\n\013NGMHFHPAAMF\030\001 \003(\0132\014.N" +
+      "DLMDDGHKBAB\033\n\031emu.grasscutter.net.protob" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.getDescriptor(),
         });
     internal_static_ActivityMultiCharacterDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_ActivityMultiCharacterDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ActivityMultiCharacterDetailInfo_descriptor,
-        new java.lang.String[] { "StageInfoList", });
-    emu.grasscutter.net.proto.ActivityMultiCharacterStageInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "NGMHFHPAAMF", });
+    emu.grasscutter.net.proto.NDLMDDGHKBAOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

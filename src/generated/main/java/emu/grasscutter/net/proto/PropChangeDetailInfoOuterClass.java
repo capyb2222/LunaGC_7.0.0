@@ -17,21 +17,6 @@ public final class PropChangeDetailInfoOuterClass {
   public interface PropChangeDetailInfoOrBuilder extends
       // @@protoc_insertion_point(interface_extends:PropChangeDetailInfo)
       com.google.protobuf.MessageOrBuilder {
-
-    /**
-     * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-     * @return Whether the detailAbilityInfo field is set.
-     */
-    boolean hasDetailAbilityInfo();
-    /**
-     * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-     * @return The detailAbilityInfo.
-     */
-    emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo getDetailAbilityInfo();
-    /**
-     * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-     */
-    emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder();
   }
   /**
    * Protobuf type {@code PropChangeDetailInfo}
@@ -68,7 +53,6 @@ public final class PropChangeDetailInfoOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
-      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -79,19 +63,6 @@ public final class PropChangeDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
-              emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder subBuilder = null;
-              if (((bitField0_ & 0x00000001) != 0)) {
-                subBuilder = detailAbilityInfo_.toBuilder();
-              }
-              detailAbilityInfo_ = input.readMessage(emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(detailAbilityInfo_);
-                detailAbilityInfo_ = subBuilder.buildPartial();
-              }
-              bitField0_ |= 0x00000001;
-              break;
-            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -124,33 +95,6 @@ public final class PropChangeDetailInfoOuterClass {
               emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo.class, emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo.Builder.class);
     }
 
-    private int bitField0_;
-    public static final int DETAIL_ABILITY_INFO_FIELD_NUMBER = 1;
-    private emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo detailAbilityInfo_;
-    /**
-     * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-     * @return Whether the detailAbilityInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasDetailAbilityInfo() {
-      return ((bitField0_ & 0x00000001) != 0);
-    }
-    /**
-     * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-     * @return The detailAbilityInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo getDetailAbilityInfo() {
-      return detailAbilityInfo_ == null ? emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance() : detailAbilityInfo_;
-    }
-    /**
-     * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder() {
-      return detailAbilityInfo_ == null ? emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance() : detailAbilityInfo_;
-    }
-
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -165,9 +109,6 @@ public final class PropChangeDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (((bitField0_ & 0x00000001) != 0)) {
-        output.writeMessage(1, getDetailAbilityInfo());
-      }
       unknownFields.writeTo(output);
     }
 
@@ -177,10 +118,6 @@ public final class PropChangeDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (((bitField0_ & 0x00000001) != 0)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getDetailAbilityInfo());
-      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -196,11 +133,6 @@ public final class PropChangeDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo other = (emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo) obj;
 
-      if (hasDetailAbilityInfo() != other.hasDetailAbilityInfo()) return false;
-      if (hasDetailAbilityInfo()) {
-        if (!getDetailAbilityInfo()
-            .equals(other.getDetailAbilityInfo())) return false;
-      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -212,10 +144,6 @@ public final class PropChangeDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasDetailAbilityInfo()) {
-        hash = (37 * hash) + DETAIL_ABILITY_INFO_FIELD_NUMBER;
-        hash = (53 * hash) + getDetailAbilityInfo().hashCode();
-      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -344,18 +272,11 @@ public final class PropChangeDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getDetailAbilityInfoFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (detailAbilityInfoBuilder_ == null) {
-          detailAbilityInfo_ = null;
-        } else {
-          detailAbilityInfoBuilder_.clear();
-        }
-        bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
 
@@ -382,17 +303,6 @@ public final class PropChangeDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo buildPartial() {
         emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo result = new emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo(this);
-        int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        if (((from_bitField0_ & 0x00000001) != 0)) {
-          if (detailAbilityInfoBuilder_ == null) {
-            result.detailAbilityInfo_ = detailAbilityInfo_;
-          } else {
-            result.detailAbilityInfo_ = detailAbilityInfoBuilder_.build();
-          }
-          to_bitField0_ |= 0x00000001;
-        }
-        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -441,9 +351,6 @@ public final class PropChangeDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo other) {
         if (other == emu.grasscutter.net.proto.PropChangeDetailInfoOuterClass.PropChangeDetailInfo.getDefaultInstance()) return this;
-        if (other.hasDetailAbilityInfo()) {
-          mergeDetailAbilityInfo(other.getDetailAbilityInfo());
-        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -471,127 +378,6 @@ public final class PropChangeDetailInfoOuterClass {
           }
         }
         return this;
-      }
-      private int bitField0_;
-
-      private emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo detailAbilityInfo_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder> detailAbilityInfoBuilder_;
-      /**
-       * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-       * @return Whether the detailAbilityInfo field is set.
-       */
-      public boolean hasDetailAbilityInfo() {
-        return ((bitField0_ & 0x00000001) != 0);
-      }
-      /**
-       * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-       * @return The detailAbilityInfo.
-       */
-      public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo getDetailAbilityInfo() {
-        if (detailAbilityInfoBuilder_ == null) {
-          return detailAbilityInfo_ == null ? emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance() : detailAbilityInfo_;
-        } else {
-          return detailAbilityInfoBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-       */
-      public Builder setDetailAbilityInfo(emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo value) {
-        if (detailAbilityInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          detailAbilityInfo_ = value;
-          onChanged();
-        } else {
-          detailAbilityInfoBuilder_.setMessage(value);
-        }
-        bitField0_ |= 0x00000001;
-        return this;
-      }
-      /**
-       * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-       */
-      public Builder setDetailAbilityInfo(
-          emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder builderForValue) {
-        if (detailAbilityInfoBuilder_ == null) {
-          detailAbilityInfo_ = builderForValue.build();
-          onChanged();
-        } else {
-          detailAbilityInfoBuilder_.setMessage(builderForValue.build());
-        }
-        bitField0_ |= 0x00000001;
-        return this;
-      }
-      /**
-       * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-       */
-      public Builder mergeDetailAbilityInfo(emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo value) {
-        if (detailAbilityInfoBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0) &&
-              detailAbilityInfo_ != null &&
-              detailAbilityInfo_ != emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance()) {
-            detailAbilityInfo_ =
-              emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.newBuilder(detailAbilityInfo_).mergeFrom(value).buildPartial();
-          } else {
-            detailAbilityInfo_ = value;
-          }
-          onChanged();
-        } else {
-          detailAbilityInfoBuilder_.mergeFrom(value);
-        }
-        bitField0_ |= 0x00000001;
-        return this;
-      }
-      /**
-       * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-       */
-      public Builder clearDetailAbilityInfo() {
-        if (detailAbilityInfoBuilder_ == null) {
-          detailAbilityInfo_ = null;
-          onChanged();
-        } else {
-          detailAbilityInfoBuilder_.clear();
-        }
-        bitField0_ = (bitField0_ & ~0x00000001);
-        return this;
-      }
-      /**
-       * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-       */
-      public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder getDetailAbilityInfoBuilder() {
-        bitField0_ |= 0x00000001;
-        onChanged();
-        return getDetailAbilityInfoFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-       */
-      public emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder getDetailAbilityInfoOrBuilder() {
-        if (detailAbilityInfoBuilder_ != null) {
-          return detailAbilityInfoBuilder_.getMessageOrBuilder();
-        } else {
-          return detailAbilityInfo_ == null ?
-              emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.getDefaultInstance() : detailAbilityInfo_;
-        }
-      }
-      /**
-       * <code>optional .DetailAbilityInfo detail_ability_info = 1;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder> 
-          getDetailAbilityInfoFieldBuilder() {
-        if (detailAbilityInfoBuilder_ == null) {
-          detailAbilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo.Builder, emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfoOrBuilder>(
-                  getDetailAbilityInfo(),
-                  getParentForChildren(),
-                  isClean());
-          detailAbilityInfo_ = null;
-        }
-        return detailAbilityInfoBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -660,24 +446,20 @@ public final class PropChangeDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\032PropChangeDetailInfo.proto\032\027DetailAbil" +
-      "ityInfo.proto\"d\n\024PropChangeDetailInfo\0224\n" +
-      "\023detail_ability_info\030\001 \001(\0132\022.DetailAbili" +
-      "tyInfoH\000\210\001\001B\026\n\024_detail_ability_infoB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\032PropChangeDetailInfo.proto\"\026\n\024PropChan" +
+      "geDetailInfoB\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.getDescriptor(),
         });
     internal_static_PropChangeDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_PropChangeDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PropChangeDetailInfo_descriptor,
-        new java.lang.String[] { "DetailAbilityInfo", "DetailAbilityInfo", });
-    emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.getDescriptor();
+        new java.lang.String[] { });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

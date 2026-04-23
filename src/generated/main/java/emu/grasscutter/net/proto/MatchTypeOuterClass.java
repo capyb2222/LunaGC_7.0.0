@@ -20,56 +20,56 @@ public final class MatchTypeOuterClass {
   public enum MatchType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>MATCH_TYPE_NONE = 0;</code>
+     * <code>MatchType_NONE = 0;</code>
      */
-    MATCH_TYPE_NONE(0),
+    MatchType_NONE(0),
     /**
-     * <code>MATCH_TYPE_DUNGEON = 1;</code>
+     * <code>MatchType_DUNGEON = 1;</code>
      */
-    MATCH_TYPE_DUNGEON(1),
+    MatchType_DUNGEON(1),
     /**
-     * <code>MATCH_TYPE_MP_PLAY = 2;</code>
+     * <code>MatchType_MP_PLAY = 2;</code>
      */
-    MATCH_TYPE_MP_PLAY(2),
+    MatchType_MP_PLAY(2),
     /**
-     * <code>MATCH_TYPE_MECHANICUS = 3;</code>
+     * <code>MatchType_MECHANICUS = 3;</code>
      */
-    MATCH_TYPE_MECHANICUS(3),
+    MatchType_MECHANICUS(3),
     /**
-     * <code>MATCH_TYPE_GENERAL = 4;</code>
+     * <code>MatchType_GENERAL = 4;</code>
      */
-    MATCH_TYPE_GENERAL(4),
+    MatchType_GENERAL(4),
     /**
-     * <code>MATCH_TYPE_GCG = 5;</code>
+     * <code>MatchType_GCG = 5;</code>
      */
-    MATCH_TYPE_GCG(5),
+    MatchType_GCG(5),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>MATCH_TYPE_NONE = 0;</code>
+     * <code>MatchType_NONE = 0;</code>
      */
-    public static final int MATCH_TYPE_NONE_VALUE = 0;
+    public static final int MatchType_NONE_VALUE = 0;
     /**
-     * <code>MATCH_TYPE_DUNGEON = 1;</code>
+     * <code>MatchType_DUNGEON = 1;</code>
      */
-    public static final int MATCH_TYPE_DUNGEON_VALUE = 1;
+    public static final int MatchType_DUNGEON_VALUE = 1;
     /**
-     * <code>MATCH_TYPE_MP_PLAY = 2;</code>
+     * <code>MatchType_MP_PLAY = 2;</code>
      */
-    public static final int MATCH_TYPE_MP_PLAY_VALUE = 2;
+    public static final int MatchType_MP_PLAY_VALUE = 2;
     /**
-     * <code>MATCH_TYPE_MECHANICUS = 3;</code>
+     * <code>MatchType_MECHANICUS = 3;</code>
      */
-    public static final int MATCH_TYPE_MECHANICUS_VALUE = 3;
+    public static final int MatchType_MECHANICUS_VALUE = 3;
     /**
-     * <code>MATCH_TYPE_GENERAL = 4;</code>
+     * <code>MatchType_GENERAL = 4;</code>
      */
-    public static final int MATCH_TYPE_GENERAL_VALUE = 4;
+    public static final int MatchType_GENERAL_VALUE = 4;
     /**
-     * <code>MATCH_TYPE_GCG = 5;</code>
+     * <code>MatchType_GCG = 5;</code>
      */
-    public static final int MATCH_TYPE_GCG_VALUE = 5;
+    public static final int MatchType_GCG_VALUE = 5;
 
 
     public final int getNumber() {
@@ -96,12 +96,12 @@ public final class MatchTypeOuterClass {
      */
     public static MatchType forNumber(int value) {
       switch (value) {
-        case 0: return MATCH_TYPE_NONE;
-        case 1: return MATCH_TYPE_DUNGEON;
-        case 2: return MATCH_TYPE_MP_PLAY;
-        case 3: return MATCH_TYPE_MECHANICUS;
-        case 4: return MATCH_TYPE_GENERAL;
-        case 5: return MATCH_TYPE_GCG;
+        case 0: return MatchType_NONE;
+        case 1: return MatchType_DUNGEON;
+        case 2: return MatchType_MP_PLAY;
+        case 3: return MatchType_MECHANICUS;
+        case 4: return MatchType_GENERAL;
+        case 5: return MatchType_GCG;
         default: return null;
       }
     }
@@ -167,12 +167,12 @@ public final class MatchTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017MatchType.proto*\227\001\n\tMatchType\022\023\n\017MATCH" +
-      "_TYPE_NONE\020\000\022\026\n\022MATCH_TYPE_DUNGEON\020\001\022\026\n\022" +
-      "MATCH_TYPE_MP_PLAY\020\002\022\031\n\025MATCH_TYPE_MECHA" +
-      "NICUS\020\003\022\026\n\022MATCH_TYPE_GENERAL\020\004\022\022\n\016MATCH" +
-      "_TYPE_GCG\020\005B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "\n\017MatchType.proto*\221\001\n\tMatchType\022\022\n\016Match" +
+      "Type_NONE\020\000\022\025\n\021MatchType_DUNGEON\020\001\022\025\n\021Ma" +
+      "tchType_MP_PLAY\020\002\022\030\n\024MatchType_MECHANICU" +
+      "S\020\003\022\025\n\021MatchType_GENERAL\020\004\022\021\n\rMatchType_" +
+      "GCG\020\005B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

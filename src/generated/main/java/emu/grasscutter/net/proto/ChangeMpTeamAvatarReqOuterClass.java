@@ -19,23 +19,39 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint64 avatar_guid_list = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 2;</code>
      * @return A list containing the avatarGuidList.
      */
     java.util.List<java.lang.Long> getAvatarGuidListList();
     /**
-     * <code>repeated uint64 avatar_guid_list = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 2;</code>
      * @return The count of avatarGuidList.
      */
     int getAvatarGuidListCount();
     /**
-     * <code>repeated uint64 avatar_guid_list = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 2;</code>
      * @param index The index of the element to return.
      * @return The avatarGuidList at the given index.
      */
     long getAvatarGuidList(int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
      * <code>uint64 cur_avatar_guid = 11;</code>
      * @return The curAvatarGuid.
      */
@@ -43,7 +59,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 27287
+   * CmdId: 7723
    * </pre>
    *
    * Protobuf type {@code ChangeMpTeamAvatarReq}
@@ -92,7 +108,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -100,7 +116,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
               avatarGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 10: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -153,10 +169,14 @@ public final class ChangeMpTeamAvatarReqOuterClass {
               emu.grasscutter.net.proto.ChangeMpTeamAvatarReqOuterClass.ChangeMpTeamAvatarReq.class, emu.grasscutter.net.proto.ChangeMpTeamAvatarReqOuterClass.ChangeMpTeamAvatarReq.Builder.class);
     }
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 1;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
-     * <code>repeated uint64 avatar_guid_list = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 2;</code>
      * @return A list containing the avatarGuidList.
      */
     @java.lang.Override
@@ -165,14 +185,22 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       return avatarGuidList_;
     }
     /**
-     * <code>repeated uint64 avatar_guid_list = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 2;</code>
      * @return The count of avatarGuidList.
      */
     public int getAvatarGuidListCount() {
       return avatarGuidList_.size();
     }
     /**
-     * <code>repeated uint64 avatar_guid_list = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_guid_list = 2;</code>
      * @param index The index of the element to return.
      * @return The avatarGuidList at the given index.
      */
@@ -184,6 +212,10 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     public static final int CUR_AVATAR_GUID_FIELD_NUMBER = 11;
     private long curAvatarGuid_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
      * <code>uint64 cur_avatar_guid = 11;</code>
      * @return The curAvatarGuid.
      */
@@ -208,7 +240,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarGuidList_.size(); i++) {
@@ -378,7 +410,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 27287
+     * CmdId: 7723
      * </pre>
      *
      * Protobuf type {@code ChangeMpTeamAvatarReq}
@@ -554,7 +586,11 @@ public final class ChangeMpTeamAvatarReqOuterClass {
          }
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 2;</code>
        * @return A list containing the avatarGuidList.
        */
       public java.util.List<java.lang.Long>
@@ -563,14 +599,22 @@ public final class ChangeMpTeamAvatarReqOuterClass {
                  java.util.Collections.unmodifiableList(avatarGuidList_) : avatarGuidList_;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 2;</code>
        * @return The count of avatarGuidList.
        */
       public int getAvatarGuidListCount() {
         return avatarGuidList_.size();
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 2;</code>
        * @param index The index of the element to return.
        * @return The avatarGuidList at the given index.
        */
@@ -578,7 +622,11 @@ public final class ChangeMpTeamAvatarReqOuterClass {
         return avatarGuidList_.getLong(index);
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 2;</code>
        * @param index The index to set the value at.
        * @param value The avatarGuidList to set.
        * @return This builder for chaining.
@@ -591,7 +639,11 @@ public final class ChangeMpTeamAvatarReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 2;</code>
        * @param value The avatarGuidList to add.
        * @return This builder for chaining.
        */
@@ -602,7 +654,11 @@ public final class ChangeMpTeamAvatarReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 2;</code>
        * @param values The avatarGuidList to add.
        * @return This builder for chaining.
        */
@@ -615,7 +671,11 @@ public final class ChangeMpTeamAvatarReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_guid_list = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuidList() {
@@ -627,6 +687,10 @@ public final class ChangeMpTeamAvatarReqOuterClass {
 
       private long curAvatarGuid_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>uint64 cur_avatar_guid = 11;</code>
        * @return The curAvatarGuid.
        */
@@ -635,6 +699,10 @@ public final class ChangeMpTeamAvatarReqOuterClass {
         return curAvatarGuid_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>uint64 cur_avatar_guid = 11;</code>
        * @param value The curAvatarGuid to set.
        * @return This builder for chaining.
@@ -646,6 +714,10 @@ public final class ChangeMpTeamAvatarReqOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>uint64 cur_avatar_guid = 11;</code>
        * @return This builder for chaining.
        */
@@ -723,7 +795,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033ChangeMpTeamAvatarReq.proto\"J\n\025ChangeM" +
-      "pTeamAvatarReq\022\030\n\020avatar_guid_list\030\001 \003(\004" +
+      "pTeamAvatarReq\022\030\n\020avatar_guid_list\030\002 \003(\004" +
       "\022\027\n\017cur_avatar_guid\030\013 \001(\004B\033\n\031emu.grasscu" +
       "tter.net.protob\006proto3"
     };

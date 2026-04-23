@@ -19,16 +19,12 @@ public final class GalleryFlowerStartParamOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 target_score = 10;</code>
-     * @return The targetScore.
+     * <code>uint32 KFALJEDEEOG = 4;</code>
+     * @return The kFALJEDEEOG.
      */
-    int getTargetScore();
+    int getKFALJEDEEOG();
   }
   /**
-   * <pre>
-   * Obf: OMALNNMCMPP
-   * </pre>
-   *
    * Protobuf type {@code GalleryFlowerStartParam}
    */
   public static final class GalleryFlowerStartParam extends
@@ -73,9 +69,9 @@ public final class GalleryFlowerStartParamOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 32: {
 
-              targetScore_ = input.readUInt32();
+              kFALJEDEEOG_ = input.readUInt32();
               break;
             }
             default: {
@@ -110,15 +106,15 @@ public final class GalleryFlowerStartParamOuterClass {
               emu.grasscutter.net.proto.GalleryFlowerStartParamOuterClass.GalleryFlowerStartParam.class, emu.grasscutter.net.proto.GalleryFlowerStartParamOuterClass.GalleryFlowerStartParam.Builder.class);
     }
 
-    public static final int TARGET_SCORE_FIELD_NUMBER = 10;
-    private int targetScore_;
+    public static final int KFALJEDEEOG_FIELD_NUMBER = 4;
+    private int kFALJEDEEOG_;
     /**
-     * <code>uint32 target_score = 10;</code>
-     * @return The targetScore.
+     * <code>uint32 KFALJEDEEOG = 4;</code>
+     * @return The kFALJEDEEOG.
      */
     @java.lang.Override
-    public int getTargetScore() {
-      return targetScore_;
+    public int getKFALJEDEEOG() {
+      return kFALJEDEEOG_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -135,8 +131,8 @@ public final class GalleryFlowerStartParamOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (targetScore_ != 0) {
-        output.writeUInt32(10, targetScore_);
+      if (kFALJEDEEOG_ != 0) {
+        output.writeUInt32(4, kFALJEDEEOG_);
       }
       unknownFields.writeTo(output);
     }
@@ -147,9 +143,9 @@ public final class GalleryFlowerStartParamOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (targetScore_ != 0) {
+      if (kFALJEDEEOG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, targetScore_);
+          .computeUInt32Size(4, kFALJEDEEOG_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -166,8 +162,8 @@ public final class GalleryFlowerStartParamOuterClass {
       }
       emu.grasscutter.net.proto.GalleryFlowerStartParamOuterClass.GalleryFlowerStartParam other = (emu.grasscutter.net.proto.GalleryFlowerStartParamOuterClass.GalleryFlowerStartParam) obj;
 
-      if (getTargetScore()
-          != other.getTargetScore()) return false;
+      if (getKFALJEDEEOG()
+          != other.getKFALJEDEEOG()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -179,8 +175,8 @@ public final class GalleryFlowerStartParamOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + TARGET_SCORE_FIELD_NUMBER;
-      hash = (53 * hash) + getTargetScore();
+      hash = (37 * hash) + KFALJEDEEOG_FIELD_NUMBER;
+      hash = (53 * hash) + getKFALJEDEEOG();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -277,10 +273,6 @@ public final class GalleryFlowerStartParamOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: OMALNNMCMPP
-     * </pre>
-     *
      * Protobuf type {@code GalleryFlowerStartParam}
      */
     public static final class Builder extends
@@ -318,7 +310,7 @@ public final class GalleryFlowerStartParamOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        targetScore_ = 0;
+        kFALJEDEEOG_ = 0;
 
         return this;
       }
@@ -346,7 +338,7 @@ public final class GalleryFlowerStartParamOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GalleryFlowerStartParamOuterClass.GalleryFlowerStartParam buildPartial() {
         emu.grasscutter.net.proto.GalleryFlowerStartParamOuterClass.GalleryFlowerStartParam result = new emu.grasscutter.net.proto.GalleryFlowerStartParamOuterClass.GalleryFlowerStartParam(this);
-        result.targetScore_ = targetScore_;
+        result.kFALJEDEEOG_ = kFALJEDEEOG_;
         onBuilt();
         return result;
       }
@@ -395,8 +387,8 @@ public final class GalleryFlowerStartParamOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GalleryFlowerStartParamOuterClass.GalleryFlowerStartParam other) {
         if (other == emu.grasscutter.net.proto.GalleryFlowerStartParamOuterClass.GalleryFlowerStartParam.getDefaultInstance()) return this;
-        if (other.getTargetScore() != 0) {
-          setTargetScore(other.getTargetScore());
+        if (other.getKFALJEDEEOG() != 0) {
+          setKFALJEDEEOG(other.getKFALJEDEEOG());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -427,33 +419,33 @@ public final class GalleryFlowerStartParamOuterClass {
         return this;
       }
 
-      private int targetScore_ ;
+      private int kFALJEDEEOG_ ;
       /**
-       * <code>uint32 target_score = 10;</code>
-       * @return The targetScore.
+       * <code>uint32 KFALJEDEEOG = 4;</code>
+       * @return The kFALJEDEEOG.
        */
       @java.lang.Override
-      public int getTargetScore() {
-        return targetScore_;
+      public int getKFALJEDEEOG() {
+        return kFALJEDEEOG_;
       }
       /**
-       * <code>uint32 target_score = 10;</code>
-       * @param value The targetScore to set.
+       * <code>uint32 KFALJEDEEOG = 4;</code>
+       * @param value The kFALJEDEEOG to set.
        * @return This builder for chaining.
        */
-      public Builder setTargetScore(int value) {
+      public Builder setKFALJEDEEOG(int value) {
         
-        targetScore_ = value;
+        kFALJEDEEOG_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 target_score = 10;</code>
+       * <code>uint32 KFALJEDEEOG = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearTargetScore() {
+      public Builder clearKFALJEDEEOG() {
         
-        targetScore_ = 0;
+        kFALJEDEEOG_ = 0;
         onChanged();
         return this;
       }
@@ -524,9 +516,9 @@ public final class GalleryFlowerStartParamOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035GalleryFlowerStartParam.proto\"/\n\027Galle" +
-      "ryFlowerStartParam\022\024\n\014target_score\030\n \001(\r" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\035GalleryFlowerStartParam.proto\".\n\027Galle" +
+      "ryFlowerStartParam\022\023\n\013KFALJEDEEOG\030\004 \001(\rB" +
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -537,7 +529,7 @@ public final class GalleryFlowerStartParamOuterClass {
     internal_static_GalleryFlowerStartParam_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GalleryFlowerStartParam_descriptor,
-        new java.lang.String[] { "TargetScore", });
+        new java.lang.String[] { "KFALJEDEEOG", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

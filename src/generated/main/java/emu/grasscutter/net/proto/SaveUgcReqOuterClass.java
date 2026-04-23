@@ -187,7 +187,7 @@ public final class SaveUgcReqOuterClass {
     }
 
     private int bitField0_;
-    public static final int UGC_TYPE_FIELD_NUMBER = 4;
+    public static final int UgcType_FIELD_NUMBER = 4;
     private int ugcType_;
     /**
      * <code>.UgcType ugc_type = 4;</code>
@@ -286,7 +286,7 @@ public final class SaveUgcReqOuterClass {
       if (scheduleId_ != 0) {
         output.writeUInt32(2, scheduleId_);
       }
-      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UGC_TYPE_NONE.getNumber()) {
+      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         output.writeEnum(4, ugcType_);
       }
       if (((bitField0_ & 0x00000001) != 0)) {
@@ -308,7 +308,7 @@ public final class SaveUgcReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, scheduleId_);
       }
-      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UGC_TYPE_NONE.getNumber()) {
+      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(4, ugcType_);
       }
@@ -359,7 +359,7 @@ public final class SaveUgcReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UGC_TYPE_FIELD_NUMBER;
+      hash = (37 * hash) + UgcType_FIELD_NUMBER;
       hash = (53 * hash) + ugcType_;
       hash = (37 * hash) + SCHEDULE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getScheduleId();
@@ -678,7 +678,7 @@ public final class SaveUgcReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUgcTypeValue(int value) {
-        
+
         ugcType_ = value;
         onChanged();
         return this;
@@ -702,7 +702,7 @@ public final class SaveUgcReqOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         ugcType_ = value.getNumber();
         onChanged();
         return this;
@@ -712,7 +712,7 @@ public final class SaveUgcReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUgcType() {
-        
+
         ugcType_ = 0;
         onChanged();
         return this;
@@ -733,7 +733,7 @@ public final class SaveUgcReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setScheduleId(int value) {
-        
+
         scheduleId_ = value;
         onChanged();
         return this;
@@ -743,7 +743,7 @@ public final class SaveUgcReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearScheduleId() {
-        
+
         scheduleId_ = 0;
         onChanged();
         return this;
@@ -856,7 +856,7 @@ public final class SaveUgcReqOuterClass {
        * <code>optional .UgcMusicRecord music_record = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecord, emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecord.Builder, emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecordOrBuilder> 
+          emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecord, emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecord.Builder, emu.grasscutter.net.proto.UgcMusicRecordOuterClass.UgcMusicRecordOrBuilder>
           getMusicRecordFieldBuilder() {
         if (musicRecordBuilder_ == null) {
           musicRecordBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -976,7 +976,7 @@ public final class SaveUgcReqOuterClass {
        * <code>optional .UgcMusicBriefInfo music_brief_info = 1606;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
           getMusicBriefInfoFieldBuilder() {
         if (musicBriefInfoBuilder_ == null) {
           musicBriefInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1043,7 +1043,7 @@ public final class SaveUgcReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SaveUgcReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SaveUgcReq_fieldAccessorTable;
 

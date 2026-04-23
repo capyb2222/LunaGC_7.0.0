@@ -20,24 +20,24 @@ public final class ForgeQueueManipulateTypeOuterClass {
   public enum ForgeQueueManipulateType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>FORGE_QUEUE_MANIPULATE_TYPE_RECEIVE_OUTPUT = 0;</code>
+     * <code>ForgeQueueManipulateType_RECEIVE_OUTPUT = 0;</code>
      */
-    FORGE_QUEUE_MANIPULATE_TYPE_RECEIVE_OUTPUT(0),
+    ForgeQueueManipulateType_RECEIVE_OUTPUT(0),
     /**
-     * <code>FORGE_QUEUE_MANIPULATE_TYPE_STOP_FORGE = 1;</code>
+     * <code>ForgeQueueManipulateType_STOP_FORGE = 1;</code>
      */
-    FORGE_QUEUE_MANIPULATE_TYPE_STOP_FORGE(1),
+    ForgeQueueManipulateType_STOP_FORGE(1),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>FORGE_QUEUE_MANIPULATE_TYPE_RECEIVE_OUTPUT = 0;</code>
+     * <code>ForgeQueueManipulateType_RECEIVE_OUTPUT = 0;</code>
      */
-    public static final int FORGE_QUEUE_MANIPULATE_TYPE_RECEIVE_OUTPUT_VALUE = 0;
+    public static final int ForgeQueueManipulateType_RECEIVE_OUTPUT_VALUE = 0;
     /**
-     * <code>FORGE_QUEUE_MANIPULATE_TYPE_STOP_FORGE = 1;</code>
+     * <code>ForgeQueueManipulateType_STOP_FORGE = 1;</code>
      */
-    public static final int FORGE_QUEUE_MANIPULATE_TYPE_STOP_FORGE_VALUE = 1;
+    public static final int ForgeQueueManipulateType_STOP_FORGE_VALUE = 1;
 
 
     public final int getNumber() {
@@ -64,8 +64,8 @@ public final class ForgeQueueManipulateTypeOuterClass {
      */
     public static ForgeQueueManipulateType forNumber(int value) {
       switch (value) {
-        case 0: return FORGE_QUEUE_MANIPULATE_TYPE_RECEIVE_OUTPUT;
-        case 1: return FORGE_QUEUE_MANIPULATE_TYPE_STOP_FORGE;
+        case 0: return ForgeQueueManipulateType_RECEIVE_OUTPUT;
+        case 1: return ForgeQueueManipulateType_STOP_FORGE;
         default: return null;
       }
     }
@@ -131,11 +131,11 @@ public final class ForgeQueueManipulateTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036ForgeQueueManipulateType.proto*v\n\030Forg" +
-      "eQueueManipulateType\022.\n*FORGE_QUEUE_MANI" +
-      "PULATE_TYPE_RECEIVE_OUTPUT\020\000\022*\n&FORGE_QU" +
-      "EUE_MANIPULATE_TYPE_STOP_FORGE\020\001B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\n\036ForgeQueueManipulateType.proto*p\n\030Forg" +
+      "eQueueManipulateType\022+\n\'ForgeQueueManipu" +
+      "lateType_RECEIVE_OUTPUT\020\000\022\'\n#ForgeQueueM" +
+      "anipulateType_STOP_FORGE\020\001B\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

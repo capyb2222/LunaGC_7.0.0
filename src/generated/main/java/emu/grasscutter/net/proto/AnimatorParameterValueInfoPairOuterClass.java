@@ -19,21 +19,37 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
      * @return Whether the animatorPara field is set.
      */
     boolean hasAnimatorPara();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
      * @return The animatorPara.
      */
     emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo getAnimatorPara();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
      */
     emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder getAnimatorParaOrBuilder();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>int32 name_id = 1;</code>
      * @return The nameId.
      */
@@ -137,6 +153,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
     public static final int ANIMATOR_PARA_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo animatorPara_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
      * @return Whether the animatorPara field is set.
      */
@@ -145,6 +165,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       return animatorPara_ != null;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
      * @return The animatorPara.
      */
@@ -153,6 +177,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       return animatorPara_ == null ? emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.getDefaultInstance() : animatorPara_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
      */
     @java.lang.Override
@@ -163,6 +191,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
     public static final int NAME_ID_FIELD_NUMBER = 1;
     private int nameId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>int32 name_id = 1;</code>
      * @return The nameId.
      */
@@ -507,6 +539,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder> animatorParaBuilder_;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
        * @return Whether the animatorPara field is set.
        */
@@ -514,6 +550,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         return animatorParaBuilder_ != null || animatorPara_ != null;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
        * @return The animatorPara.
        */
@@ -525,6 +565,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
        */
       public Builder setAnimatorPara(emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo value) {
@@ -541,6 +585,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
        */
       public Builder setAnimatorPara(
@@ -555,6 +603,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
        */
       public Builder mergeAnimatorPara(emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo value) {
@@ -573,6 +625,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
        */
       public Builder clearAnimatorPara() {
@@ -587,6 +643,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
        */
       public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder getAnimatorParaBuilder() {
@@ -595,6 +655,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         return getAnimatorParaFieldBuilder().getBuilder();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
        */
       public emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder getAnimatorParaOrBuilder() {
@@ -606,6 +670,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -624,6 +692,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
 
       private int nameId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>int32 name_id = 1;</code>
        * @return The nameId.
        */
@@ -632,6 +704,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         return nameId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>int32 name_id = 1;</code>
        * @param value The nameId to set.
        * @return This builder for chaining.
@@ -643,6 +719,10 @@ public final class AnimatorParameterValueInfoPairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>int32 name_id = 1;</code>
        * @return This builder for chaining.
        */

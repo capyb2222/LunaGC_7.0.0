@@ -19,37 +19,57 @@ public final class SetUpAvatarTeamReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
      * @return A list containing the avatarTeamGuidList.
      */
     java.util.List<java.lang.Long> getAvatarTeamGuidListList();
     /**
-     * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
      * @return The count of avatarTeamGuidList.
      */
     int getAvatarTeamGuidListCount();
     /**
-     * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
      * @param index The index of the element to return.
      * @return The avatarTeamGuidList at the given index.
      */
     long getAvatarTeamGuidList(int index);
 
     /**
-     * <code>uint64 cur_avatar_guid = 2;</code>
+     * <pre>
+     *6.4.0         
+     * </pre>
+     *
+     * <code>uint64 cur_avatar_guid = 5;</code>
      * @return The curAvatarGuid.
      */
     long getCurAvatarGuid();
 
     /**
-     * <code>uint32 team_id = 7;</code>
+     * <pre>
+     *6.4.0         
+     * </pre>
+     *
+     * <code>uint32 team_id = 13;</code>
      * @return The teamId.
      */
     int getTeamId();
   }
   /**
    * <pre>
-   * CmdId: 5311
+   * CmdId: 25766
    * </pre>
    *
    * Protobuf type {@code SetUpAvatarTeamReq}
@@ -98,12 +118,12 @@ public final class SetUpAvatarTeamReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 40: {
 
               curAvatarGuid_ = input.readUInt64();
               break;
             }
-            case 40: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarTeamGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -111,7 +131,7 @@ public final class SetUpAvatarTeamReqOuterClass {
               avatarTeamGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 42: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -124,7 +144,7 @@ public final class SetUpAvatarTeamReqOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 56: {
+            case 104: {
 
               teamId_ = input.readUInt32();
               break;
@@ -164,10 +184,14 @@ public final class SetUpAvatarTeamReqOuterClass {
               emu.grasscutter.net.proto.SetUpAvatarTeamReqOuterClass.SetUpAvatarTeamReq.class, emu.grasscutter.net.proto.SetUpAvatarTeamReqOuterClass.SetUpAvatarTeamReq.Builder.class);
     }
 
-    public static final int AVATAR_TEAM_GUID_LIST_FIELD_NUMBER = 5;
+    public static final int AVATAR_TEAM_GUID_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.LongList avatarTeamGuidList_;
     /**
-     * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
      * @return A list containing the avatarTeamGuidList.
      */
     @java.lang.Override
@@ -176,14 +200,22 @@ public final class SetUpAvatarTeamReqOuterClass {
       return avatarTeamGuidList_;
     }
     /**
-     * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
      * @return The count of avatarTeamGuidList.
      */
     public int getAvatarTeamGuidListCount() {
       return avatarTeamGuidList_.size();
     }
     /**
-     * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+     * <pre>
+     *6.4.0 //6.5.0         
+     * </pre>
+     *
+     * <code>repeated uint64 avatar_team_guid_list = 9;</code>
      * @param index The index of the element to return.
      * @return The avatarTeamGuidList at the given index.
      */
@@ -192,10 +224,14 @@ public final class SetUpAvatarTeamReqOuterClass {
     }
     private int avatarTeamGuidListMemoizedSerializedSize = -1;
 
-    public static final int CUR_AVATAR_GUID_FIELD_NUMBER = 2;
+    public static final int CUR_AVATAR_GUID_FIELD_NUMBER = 5;
     private long curAvatarGuid_;
     /**
-     * <code>uint64 cur_avatar_guid = 2;</code>
+     * <pre>
+     *6.4.0         
+     * </pre>
+     *
+     * <code>uint64 cur_avatar_guid = 5;</code>
      * @return The curAvatarGuid.
      */
     @java.lang.Override
@@ -203,10 +239,14 @@ public final class SetUpAvatarTeamReqOuterClass {
       return curAvatarGuid_;
     }
 
-    public static final int TEAM_ID_FIELD_NUMBER = 7;
+    public static final int TEAM_ID_FIELD_NUMBER = 13;
     private int teamId_;
     /**
-     * <code>uint32 team_id = 7;</code>
+     * <pre>
+     *6.4.0         
+     * </pre>
+     *
+     * <code>uint32 team_id = 13;</code>
      * @return The teamId.
      */
     @java.lang.Override
@@ -230,17 +270,17 @@ public final class SetUpAvatarTeamReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (curAvatarGuid_ != 0L) {
-        output.writeUInt64(2, curAvatarGuid_);
+        output.writeUInt64(5, curAvatarGuid_);
       }
       if (getAvatarTeamGuidListList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(avatarTeamGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarTeamGuidList_.size(); i++) {
         output.writeUInt64NoTag(avatarTeamGuidList_.getLong(i));
       }
       if (teamId_ != 0) {
-        output.writeUInt32(7, teamId_);
+        output.writeUInt32(13, teamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -253,7 +293,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       size = 0;
       if (curAvatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(2, curAvatarGuid_);
+          .computeUInt64Size(5, curAvatarGuid_);
       }
       {
         int dataSize = 0;
@@ -271,7 +311,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       }
       if (teamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, teamId_);
+          .computeUInt32Size(13, teamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -411,7 +451,7 @@ public final class SetUpAvatarTeamReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 5311
+     * CmdId: 25766
      * </pre>
      *
      * Protobuf type {@code SetUpAvatarTeamReq}
@@ -593,7 +633,11 @@ public final class SetUpAvatarTeamReqOuterClass {
          }
       }
       /**
-       * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
        * @return A list containing the avatarTeamGuidList.
        */
       public java.util.List<java.lang.Long>
@@ -602,14 +646,22 @@ public final class SetUpAvatarTeamReqOuterClass {
                  java.util.Collections.unmodifiableList(avatarTeamGuidList_) : avatarTeamGuidList_;
       }
       /**
-       * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
        * @return The count of avatarTeamGuidList.
        */
       public int getAvatarTeamGuidListCount() {
         return avatarTeamGuidList_.size();
       }
       /**
-       * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
        * @param index The index of the element to return.
        * @return The avatarTeamGuidList at the given index.
        */
@@ -617,7 +669,11 @@ public final class SetUpAvatarTeamReqOuterClass {
         return avatarTeamGuidList_.getLong(index);
       }
       /**
-       * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
        * @param index The index to set the value at.
        * @param value The avatarTeamGuidList to set.
        * @return This builder for chaining.
@@ -630,7 +686,11 @@ public final class SetUpAvatarTeamReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
        * @param value The avatarTeamGuidList to add.
        * @return This builder for chaining.
        */
@@ -641,7 +701,11 @@ public final class SetUpAvatarTeamReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
        * @param values The avatarTeamGuidList to add.
        * @return This builder for chaining.
        */
@@ -654,7 +718,11 @@ public final class SetUpAvatarTeamReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_team_guid_list = 5;</code>
+       * <pre>
+       *6.4.0 //6.5.0         
+       * </pre>
+       *
+       * <code>repeated uint64 avatar_team_guid_list = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarTeamGuidList() {
@@ -666,7 +734,11 @@ public final class SetUpAvatarTeamReqOuterClass {
 
       private long curAvatarGuid_ ;
       /**
-       * <code>uint64 cur_avatar_guid = 2;</code>
+       * <pre>
+       *6.4.0         
+       * </pre>
+       *
+       * <code>uint64 cur_avatar_guid = 5;</code>
        * @return The curAvatarGuid.
        */
       @java.lang.Override
@@ -674,7 +746,11 @@ public final class SetUpAvatarTeamReqOuterClass {
         return curAvatarGuid_;
       }
       /**
-       * <code>uint64 cur_avatar_guid = 2;</code>
+       * <pre>
+       *6.4.0         
+       * </pre>
+       *
+       * <code>uint64 cur_avatar_guid = 5;</code>
        * @param value The curAvatarGuid to set.
        * @return This builder for chaining.
        */
@@ -685,7 +761,11 @@ public final class SetUpAvatarTeamReqOuterClass {
         return this;
       }
       /**
-       * <code>uint64 cur_avatar_guid = 2;</code>
+       * <pre>
+       *6.4.0         
+       * </pre>
+       *
+       * <code>uint64 cur_avatar_guid = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearCurAvatarGuid() {
@@ -697,7 +777,11 @@ public final class SetUpAvatarTeamReqOuterClass {
 
       private int teamId_ ;
       /**
-       * <code>uint32 team_id = 7;</code>
+       * <pre>
+       *6.4.0         
+       * </pre>
+       *
+       * <code>uint32 team_id = 13;</code>
        * @return The teamId.
        */
       @java.lang.Override
@@ -705,7 +789,11 @@ public final class SetUpAvatarTeamReqOuterClass {
         return teamId_;
       }
       /**
-       * <code>uint32 team_id = 7;</code>
+       * <pre>
+       *6.4.0         
+       * </pre>
+       *
+       * <code>uint32 team_id = 13;</code>
        * @param value The teamId to set.
        * @return This builder for chaining.
        */
@@ -716,7 +804,11 @@ public final class SetUpAvatarTeamReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 team_id = 7;</code>
+       * <pre>
+       *6.4.0         
+       * </pre>
+       *
+       * <code>uint32 team_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearTeamId() {
@@ -793,8 +885,8 @@ public final class SetUpAvatarTeamReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030SetUpAvatarTeamReq.proto\"]\n\022SetUpAvata" +
-      "rTeamReq\022\035\n\025avatar_team_guid_list\030\005 \003(\004\022" +
-      "\027\n\017cur_avatar_guid\030\002 \001(\004\022\017\n\007team_id\030\007 \001(" +
+      "rTeamReq\022\035\n\025avatar_team_guid_list\030\t \003(\004\022" +
+      "\027\n\017cur_avatar_guid\030\005 \001(\004\022\017\n\007team_id\030\r \001(" +
       "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

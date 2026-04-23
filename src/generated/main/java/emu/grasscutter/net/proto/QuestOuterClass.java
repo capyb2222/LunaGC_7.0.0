@@ -19,118 +19,143 @@ public final class QuestOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-     * @return Whether the lackingResourcesInfo field is set.
-     */
-    boolean hasLackingResourcesInfo();
-    /**
-     * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-     * @return The lackingResourcesInfo.
-     */
-    emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo getLackingResourcesInfo();
-    /**
-     * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-     */
-    emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder getLackingResourcesInfoOrBuilder();
-
-    /**
-     * <code>repeated uint32 fail_progress_list = 10;</code>
-     * @return A list containing the failProgressList.
-     */
-    java.util.List<java.lang.Integer> getFailProgressListList();
-    /**
-     * <code>repeated uint32 fail_progress_list = 10;</code>
-     * @return The count of failProgressList.
-     */
-    int getFailProgressListCount();
-    /**
-     * <code>repeated uint32 fail_progress_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The failProgressList at the given index.
-     */
-    int getFailProgressList(int index);
-
-    /**
-     * <code>repeated uint32 finish_progress_list = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 32
+     * </pre>
+     *
+     * <code>repeated uint32 finish_progress_list = 10;</code>
      * @return A list containing the finishProgressList.
      */
     java.util.List<java.lang.Integer> getFinishProgressListList();
     /**
-     * <code>repeated uint32 finish_progress_list = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 32
+     * </pre>
+     *
+     * <code>repeated uint32 finish_progress_list = 10;</code>
      * @return The count of finishProgressList.
      */
     int getFinishProgressListCount();
     /**
-     * <code>repeated uint32 finish_progress_list = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 32
+     * </pre>
+     *
+     * <code>repeated uint32 finish_progress_list = 10;</code>
      * @param index The index of the element to return.
      * @return The finishProgressList at the given index.
      */
     int getFinishProgressList(int index);
 
     /**
-     * <code>repeated uint32 lacked_npc_list = 12;</code>
-     * @return A list containing the lackedNpcList.
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 40
+     * </pre>
+     *
+     * <code>repeated uint32 fail_progress_list = 11;</code>
+     * @return A list containing the failProgressList.
      */
-    java.util.List<java.lang.Integer> getLackedNpcListList();
+    java.util.List<java.lang.Integer> getFailProgressListList();
     /**
-     * <code>repeated uint32 lacked_npc_list = 12;</code>
-     * @return The count of lackedNpcList.
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 40
+     * </pre>
+     *
+     * <code>repeated uint32 fail_progress_list = 11;</code>
+     * @return The count of failProgressList.
      */
-    int getLackedNpcListCount();
+    int getFailProgressListCount();
     /**
-     * <code>repeated uint32 lacked_npc_list = 12;</code>
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 40
+     * </pre>
+     *
+     * <code>repeated uint32 fail_progress_list = 11;</code>
      * @param index The index of the element to return.
-     * @return The lackedNpcList at the given index.
+     * @return The failProgressList at the given index.
      */
-    int getLackedNpcList(int index);
+    int getFailProgressList(int index);
 
     /**
-     * <code>bool is_random = 5;</code>
-     * @return The isRandom.
-     */
-    boolean getIsRandom();
-
-    /**
-     * <code>uint32 start_time = 4;</code>
-     * @return The startTime.
-     */
-    int getStartTime();
-
-    /**
-     * <code>uint32 quest_config_id = 7;</code>
-     * @return The questConfigId.
-     */
-    int getQuestConfigId();
-
-    /**
+     * <pre>
+     *repeated uint32 CGGJFMDGJBL = 12; // offset: 48
+     *LackingResourceInfo lacking_resources_info = 13; // offset: 56
+     * </pre>
+     *
      * <code>uint32 start_game_time = 8;</code>
      * @return The startGameTime.
      */
     int getStartGameTime();
 
     /**
-     * <code>uint32 state = 2;</code>
-     * @return The state.
-     */
-    int getState();
-
-    /**
-     * <code>uint32 accept_time = 9;</code>
-     * @return The acceptTime.
-     */
-    int getAcceptTime();
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 68
+     * </pre>
+     *
      * <code>uint32 parent_quest_id = 6;</code>
      * @return The parentQuestId.
      */
     int getParentQuestId();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 72
+     * </pre>
+     *
      * <code>uint32 quest_id = 1;</code>
      * @return The questId.
      */
     int getQuestId();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 76
+     * </pre>
+     *
+     * <code>uint32 quest_config_id = 7;</code>
+     * @return The questConfigId.
+     */
+    int getQuestConfigId();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 80
+     * </pre>
+     *
+     * <code>uint32 accept_time = 9;</code>
+     * @return The acceptTime.
+     */
+    int getAcceptTime();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 84
+     * </pre>
+     *
+     * <code>uint32 start_time = 4;</code>
+     * @return The startTime.
+     */
+    int getStartTime();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 88
+     * </pre>
+     *
+     * <code>bool is_random = 5;</code>
+     * @return The isRandom.
+     */
+    boolean getIsRandom();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 92
+     * </pre>
+     *
+     * <code>uint32 state = 2;</code>
+     * @return The state.
+     */
+    int getState();
   }
   /**
    * Protobuf type {@code Quest}
@@ -145,9 +170,8 @@ public final class QuestOuterClass {
       super(builder);
     }
     private Quest() {
-      failProgressList_ = emptyIntList();
       finishProgressList_ = emptyIntList();
-      lackedNpcList_ = emptyIntList();
+      failProgressList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -223,39 +247,18 @@ public final class QuestOuterClass {
             }
             case 80: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                failProgressList_ = newIntList();
+                finishProgressList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              failProgressList_.addInt(input.readUInt32());
+              finishProgressList_.addInt(input.readUInt32());
               break;
             }
             case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                failProgressList_ = newIntList();
+                finishProgressList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                failProgressList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 88: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                finishProgressList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              finishProgressList_.addInt(input.readUInt32());
-              break;
-            }
-            case 90: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                finishProgressList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
                 finishProgressList_.addInt(input.readUInt32());
@@ -263,38 +266,25 @@ public final class QuestOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 96: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                lackedNpcList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
+            case 88: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                failProgressList_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
               }
-              lackedNpcList_.addInt(input.readUInt32());
+              failProgressList_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                lackedNpcList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                failProgressList_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                lackedNpcList_.addInt(input.readUInt32());
+                failProgressList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 106: {
-              emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder subBuilder = null;
-              if (lackingResourcesInfo_ != null) {
-                subBuilder = lackingResourcesInfo_.toBuilder();
-              }
-              lackingResourcesInfo_ = input.readMessage(emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(lackingResourcesInfo_);
-                lackingResourcesInfo_ = subBuilder.buildPartial();
-              }
-
               break;
             }
             default: {
@@ -313,13 +303,10 @@ public final class QuestOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          failProgressList_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
           finishProgressList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          lackedNpcList_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          failProgressList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -338,64 +325,14 @@ public final class QuestOuterClass {
               emu.grasscutter.net.proto.QuestOuterClass.Quest.class, emu.grasscutter.net.proto.QuestOuterClass.Quest.Builder.class);
     }
 
-    public static final int LACKING_RESOURCES_INFO_FIELD_NUMBER = 13;
-    private emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo lackingResourcesInfo_;
-    /**
-     * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-     * @return Whether the lackingResourcesInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasLackingResourcesInfo() {
-      return lackingResourcesInfo_ != null;
-    }
-    /**
-     * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-     * @return The lackingResourcesInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo getLackingResourcesInfo() {
-      return lackingResourcesInfo_ == null ? emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.getDefaultInstance() : lackingResourcesInfo_;
-    }
-    /**
-     * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder getLackingResourcesInfoOrBuilder() {
-      return getLackingResourcesInfo();
-    }
-
-    public static final int FAIL_PROGRESS_LIST_FIELD_NUMBER = 10;
-    private com.google.protobuf.Internal.IntList failProgressList_;
-    /**
-     * <code>repeated uint32 fail_progress_list = 10;</code>
-     * @return A list containing the failProgressList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getFailProgressListList() {
-      return failProgressList_;
-    }
-    /**
-     * <code>repeated uint32 fail_progress_list = 10;</code>
-     * @return The count of failProgressList.
-     */
-    public int getFailProgressListCount() {
-      return failProgressList_.size();
-    }
-    /**
-     * <code>repeated uint32 fail_progress_list = 10;</code>
-     * @param index The index of the element to return.
-     * @return The failProgressList at the given index.
-     */
-    public int getFailProgressList(int index) {
-      return failProgressList_.getInt(index);
-    }
-    private int failProgressListMemoizedSerializedSize = -1;
-
-    public static final int FINISH_PROGRESS_LIST_FIELD_NUMBER = 11;
+    public static final int FINISH_PROGRESS_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList finishProgressList_;
     /**
-     * <code>repeated uint32 finish_progress_list = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 32
+     * </pre>
+     *
+     * <code>repeated uint32 finish_progress_list = 10;</code>
      * @return A list containing the finishProgressList.
      */
     @java.lang.Override
@@ -404,14 +341,22 @@ public final class QuestOuterClass {
       return finishProgressList_;
     }
     /**
-     * <code>repeated uint32 finish_progress_list = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 32
+     * </pre>
+     *
+     * <code>repeated uint32 finish_progress_list = 10;</code>
      * @return The count of finishProgressList.
      */
     public int getFinishProgressListCount() {
       return finishProgressList_.size();
     }
     /**
-     * <code>repeated uint32 finish_progress_list = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 32
+     * </pre>
+     *
+     * <code>repeated uint32 finish_progress_list = 10;</code>
      * @param index The index of the element to return.
      * @return The finishProgressList at the given index.
      */
@@ -420,70 +365,54 @@ public final class QuestOuterClass {
     }
     private int finishProgressListMemoizedSerializedSize = -1;
 
-    public static final int LACKED_NPC_LIST_FIELD_NUMBER = 12;
-    private com.google.protobuf.Internal.IntList lackedNpcList_;
+    public static final int FAIL_PROGRESS_LIST_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList failProgressList_;
     /**
-     * <code>repeated uint32 lacked_npc_list = 12;</code>
-     * @return A list containing the lackedNpcList.
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 40
+     * </pre>
+     *
+     * <code>repeated uint32 fail_progress_list = 11;</code>
+     * @return A list containing the failProgressList.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getLackedNpcListList() {
-      return lackedNpcList_;
+        getFailProgressListList() {
+      return failProgressList_;
     }
     /**
-     * <code>repeated uint32 lacked_npc_list = 12;</code>
-     * @return The count of lackedNpcList.
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 40
+     * </pre>
+     *
+     * <code>repeated uint32 fail_progress_list = 11;</code>
+     * @return The count of failProgressList.
      */
-    public int getLackedNpcListCount() {
-      return lackedNpcList_.size();
+    public int getFailProgressListCount() {
+      return failProgressList_.size();
     }
     /**
-     * <code>repeated uint32 lacked_npc_list = 12;</code>
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 40
+     * </pre>
+     *
+     * <code>repeated uint32 fail_progress_list = 11;</code>
      * @param index The index of the element to return.
-     * @return The lackedNpcList at the given index.
+     * @return The failProgressList at the given index.
      */
-    public int getLackedNpcList(int index) {
-      return lackedNpcList_.getInt(index);
+    public int getFailProgressList(int index) {
+      return failProgressList_.getInt(index);
     }
-    private int lackedNpcListMemoizedSerializedSize = -1;
-
-    public static final int IS_RANDOM_FIELD_NUMBER = 5;
-    private boolean isRandom_;
-    /**
-     * <code>bool is_random = 5;</code>
-     * @return The isRandom.
-     */
-    @java.lang.Override
-    public boolean getIsRandom() {
-      return isRandom_;
-    }
-
-    public static final int START_TIME_FIELD_NUMBER = 4;
-    private int startTime_;
-    /**
-     * <code>uint32 start_time = 4;</code>
-     * @return The startTime.
-     */
-    @java.lang.Override
-    public int getStartTime() {
-      return startTime_;
-    }
-
-    public static final int QUEST_CONFIG_ID_FIELD_NUMBER = 7;
-    private int questConfigId_;
-    /**
-     * <code>uint32 quest_config_id = 7;</code>
-     * @return The questConfigId.
-     */
-    @java.lang.Override
-    public int getQuestConfigId() {
-      return questConfigId_;
-    }
+    private int failProgressListMemoizedSerializedSize = -1;
 
     public static final int START_GAME_TIME_FIELD_NUMBER = 8;
     private int startGameTime_;
     /**
+     * <pre>
+     *repeated uint32 CGGJFMDGJBL = 12; // offset: 48
+     *LackingResourceInfo lacking_resources_info = 13; // offset: 56
+     * </pre>
+     *
      * <code>uint32 start_game_time = 8;</code>
      * @return The startGameTime.
      */
@@ -492,31 +421,13 @@ public final class QuestOuterClass {
       return startGameTime_;
     }
 
-    public static final int STATE_FIELD_NUMBER = 2;
-    private int state_;
-    /**
-     * <code>uint32 state = 2;</code>
-     * @return The state.
-     */
-    @java.lang.Override
-    public int getState() {
-      return state_;
-    }
-
-    public static final int ACCEPT_TIME_FIELD_NUMBER = 9;
-    private int acceptTime_;
-    /**
-     * <code>uint32 accept_time = 9;</code>
-     * @return The acceptTime.
-     */
-    @java.lang.Override
-    public int getAcceptTime() {
-      return acceptTime_;
-    }
-
     public static final int PARENT_QUEST_ID_FIELD_NUMBER = 6;
     private int parentQuestId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 68
+     * </pre>
+     *
      * <code>uint32 parent_quest_id = 6;</code>
      * @return The parentQuestId.
      */
@@ -528,12 +439,91 @@ public final class QuestOuterClass {
     public static final int QUEST_ID_FIELD_NUMBER = 1;
     private int questId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 72
+     * </pre>
+     *
      * <code>uint32 quest_id = 1;</code>
      * @return The questId.
      */
     @java.lang.Override
     public int getQuestId() {
       return questId_;
+    }
+
+    public static final int QUEST_CONFIG_ID_FIELD_NUMBER = 7;
+    private int questConfigId_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 76
+     * </pre>
+     *
+     * <code>uint32 quest_config_id = 7;</code>
+     * @return The questConfigId.
+     */
+    @java.lang.Override
+    public int getQuestConfigId() {
+      return questConfigId_;
+    }
+
+    public static final int ACCEPT_TIME_FIELD_NUMBER = 9;
+    private int acceptTime_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           // offset: 80
+     * </pre>
+     *
+     * <code>uint32 accept_time = 9;</code>
+     * @return The acceptTime.
+     */
+    @java.lang.Override
+    public int getAcceptTime() {
+      return acceptTime_;
+    }
+
+    public static final int START_TIME_FIELD_NUMBER = 4;
+    private int startTime_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 84
+     * </pre>
+     *
+     * <code>uint32 start_time = 4;</code>
+     * @return The startTime.
+     */
+    @java.lang.Override
+    public int getStartTime() {
+      return startTime_;
+    }
+
+    public static final int IS_RANDOM_FIELD_NUMBER = 5;
+    private boolean isRandom_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 88
+     * </pre>
+     *
+     * <code>bool is_random = 5;</code>
+     * @return The isRandom.
+     */
+    @java.lang.Override
+    public boolean getIsRandom() {
+      return isRandom_;
+    }
+
+    public static final int STATE_FIELD_NUMBER = 2;
+    private int state_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0            // offset: 92
+     * </pre>
+     *
+     * <code>uint32 state = 2;</code>
+     * @return The state.
+     */
+    @java.lang.Override
+    public int getState() {
+      return state_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -575,29 +565,19 @@ public final class QuestOuterClass {
       if (acceptTime_ != 0) {
         output.writeUInt32(9, acceptTime_);
       }
-      if (getFailProgressListList().size() > 0) {
-        output.writeUInt32NoTag(82);
-        output.writeUInt32NoTag(failProgressListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < failProgressList_.size(); i++) {
-        output.writeUInt32NoTag(failProgressList_.getInt(i));
-      }
       if (getFinishProgressListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(finishProgressListMemoizedSerializedSize);
       }
       for (int i = 0; i < finishProgressList_.size(); i++) {
         output.writeUInt32NoTag(finishProgressList_.getInt(i));
       }
-      if (getLackedNpcListList().size() > 0) {
-        output.writeUInt32NoTag(98);
-        output.writeUInt32NoTag(lackedNpcListMemoizedSerializedSize);
+      if (getFailProgressListList().size() > 0) {
+        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(failProgressListMemoizedSerializedSize);
       }
-      for (int i = 0; i < lackedNpcList_.size(); i++) {
-        output.writeUInt32NoTag(lackedNpcList_.getInt(i));
-      }
-      if (lackingResourcesInfo_ != null) {
-        output.writeMessage(13, getLackingResourcesInfo());
+      for (int i = 0; i < failProgressList_.size(); i++) {
+        output.writeUInt32NoTag(failProgressList_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -642,20 +622,6 @@ public final class QuestOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < failProgressList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(failProgressList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getFailProgressListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        failProgressListMemoizedSerializedSize = dataSize;
-      }
-      {
-        int dataSize = 0;
         for (int i = 0; i < finishProgressList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
             .computeUInt32SizeNoTag(finishProgressList_.getInt(i));
@@ -670,21 +636,17 @@ public final class QuestOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < lackedNpcList_.size(); i++) {
+        for (int i = 0; i < failProgressList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(lackedNpcList_.getInt(i));
+            .computeUInt32SizeNoTag(failProgressList_.getInt(i));
         }
         size += dataSize;
-        if (!getLackedNpcListList().isEmpty()) {
+        if (!getFailProgressListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        lackedNpcListMemoizedSerializedSize = dataSize;
-      }
-      if (lackingResourcesInfo_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getLackingResourcesInfo());
+        failProgressListMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -701,33 +663,26 @@ public final class QuestOuterClass {
       }
       emu.grasscutter.net.proto.QuestOuterClass.Quest other = (emu.grasscutter.net.proto.QuestOuterClass.Quest) obj;
 
-      if (hasLackingResourcesInfo() != other.hasLackingResourcesInfo()) return false;
-      if (hasLackingResourcesInfo()) {
-        if (!getLackingResourcesInfo()
-            .equals(other.getLackingResourcesInfo())) return false;
-      }
-      if (!getFailProgressListList()
-          .equals(other.getFailProgressListList())) return false;
       if (!getFinishProgressListList()
           .equals(other.getFinishProgressListList())) return false;
-      if (!getLackedNpcListList()
-          .equals(other.getLackedNpcListList())) return false;
-      if (getIsRandom()
-          != other.getIsRandom()) return false;
-      if (getStartTime()
-          != other.getStartTime()) return false;
-      if (getQuestConfigId()
-          != other.getQuestConfigId()) return false;
+      if (!getFailProgressListList()
+          .equals(other.getFailProgressListList())) return false;
       if (getStartGameTime()
           != other.getStartGameTime()) return false;
-      if (getState()
-          != other.getState()) return false;
-      if (getAcceptTime()
-          != other.getAcceptTime()) return false;
       if (getParentQuestId()
           != other.getParentQuestId()) return false;
       if (getQuestId()
           != other.getQuestId()) return false;
+      if (getQuestConfigId()
+          != other.getQuestConfigId()) return false;
+      if (getAcceptTime()
+          != other.getAcceptTime()) return false;
+      if (getStartTime()
+          != other.getStartTime()) return false;
+      if (getIsRandom()
+          != other.getIsRandom()) return false;
+      if (getState()
+          != other.getState()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -739,39 +694,31 @@ public final class QuestOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasLackingResourcesInfo()) {
-        hash = (37 * hash) + LACKING_RESOURCES_INFO_FIELD_NUMBER;
-        hash = (53 * hash) + getLackingResourcesInfo().hashCode();
+      if (getFinishProgressListCount() > 0) {
+        hash = (37 * hash) + FINISH_PROGRESS_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getFinishProgressListList().hashCode();
       }
       if (getFailProgressListCount() > 0) {
         hash = (37 * hash) + FAIL_PROGRESS_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getFailProgressListList().hashCode();
       }
-      if (getFinishProgressListCount() > 0) {
-        hash = (37 * hash) + FINISH_PROGRESS_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getFinishProgressListList().hashCode();
-      }
-      if (getLackedNpcListCount() > 0) {
-        hash = (37 * hash) + LACKED_NPC_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getLackedNpcListList().hashCode();
-      }
-      hash = (37 * hash) + IS_RANDOM_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsRandom());
-      hash = (37 * hash) + START_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getStartTime();
-      hash = (37 * hash) + QUEST_CONFIG_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getQuestConfigId();
       hash = (37 * hash) + START_GAME_TIME_FIELD_NUMBER;
       hash = (53 * hash) + getStartGameTime();
-      hash = (37 * hash) + STATE_FIELD_NUMBER;
-      hash = (53 * hash) + getState();
-      hash = (37 * hash) + ACCEPT_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getAcceptTime();
       hash = (37 * hash) + PARENT_QUEST_ID_FIELD_NUMBER;
       hash = (53 * hash) + getParentQuestId();
       hash = (37 * hash) + QUEST_ID_FIELD_NUMBER;
       hash = (53 * hash) + getQuestId();
+      hash = (37 * hash) + QUEST_CONFIG_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getQuestConfigId();
+      hash = (37 * hash) + ACCEPT_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getAcceptTime();
+      hash = (37 * hash) + START_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getStartTime();
+      hash = (37 * hash) + IS_RANDOM_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getIsRandom());
+      hash = (37 * hash) + STATE_FIELD_NUMBER;
+      hash = (53 * hash) + getState();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -905,33 +852,25 @@ public final class QuestOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (lackingResourcesInfoBuilder_ == null) {
-          lackingResourcesInfo_ = null;
-        } else {
-          lackingResourcesInfo_ = null;
-          lackingResourcesInfoBuilder_ = null;
-        }
-        failProgressList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
         finishProgressList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        failProgressList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        lackedNpcList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000004);
-        isRandom_ = false;
-
-        startTime_ = 0;
-
-        questConfigId_ = 0;
-
         startGameTime_ = 0;
-
-        state_ = 0;
-
-        acceptTime_ = 0;
 
         parentQuestId_ = 0;
 
         questId_ = 0;
+
+        questConfigId_ = 0;
+
+        acceptTime_ = 0;
+
+        startTime_ = 0;
+
+        isRandom_ = false;
+
+        state_ = 0;
 
         return this;
       }
@@ -960,34 +899,24 @@ public final class QuestOuterClass {
       public emu.grasscutter.net.proto.QuestOuterClass.Quest buildPartial() {
         emu.grasscutter.net.proto.QuestOuterClass.Quest result = new emu.grasscutter.net.proto.QuestOuterClass.Quest(this);
         int from_bitField0_ = bitField0_;
-        if (lackingResourcesInfoBuilder_ == null) {
-          result.lackingResourcesInfo_ = lackingResourcesInfo_;
-        } else {
-          result.lackingResourcesInfo_ = lackingResourcesInfoBuilder_.build();
-        }
         if (((bitField0_ & 0x00000001) != 0)) {
-          failProgressList_.makeImmutable();
+          finishProgressList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.failProgressList_ = failProgressList_;
+        result.finishProgressList_ = finishProgressList_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          finishProgressList_.makeImmutable();
+          failProgressList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.finishProgressList_ = finishProgressList_;
-        if (((bitField0_ & 0x00000004) != 0)) {
-          lackedNpcList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000004);
-        }
-        result.lackedNpcList_ = lackedNpcList_;
-        result.isRandom_ = isRandom_;
-        result.startTime_ = startTime_;
-        result.questConfigId_ = questConfigId_;
+        result.failProgressList_ = failProgressList_;
         result.startGameTime_ = startGameTime_;
-        result.state_ = state_;
-        result.acceptTime_ = acceptTime_;
         result.parentQuestId_ = parentQuestId_;
         result.questId_ = questId_;
+        result.questConfigId_ = questConfigId_;
+        result.acceptTime_ = acceptTime_;
+        result.startTime_ = startTime_;
+        result.isRandom_ = isRandom_;
+        result.state_ = state_;
         onBuilt();
         return result;
       }
@@ -1036,62 +965,49 @@ public final class QuestOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.QuestOuterClass.Quest other) {
         if (other == emu.grasscutter.net.proto.QuestOuterClass.Quest.getDefaultInstance()) return this;
-        if (other.hasLackingResourcesInfo()) {
-          mergeLackingResourcesInfo(other.getLackingResourcesInfo());
-        }
-        if (!other.failProgressList_.isEmpty()) {
-          if (failProgressList_.isEmpty()) {
-            failProgressList_ = other.failProgressList_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureFailProgressListIsMutable();
-            failProgressList_.addAll(other.failProgressList_);
-          }
-          onChanged();
-        }
         if (!other.finishProgressList_.isEmpty()) {
           if (finishProgressList_.isEmpty()) {
             finishProgressList_ = other.finishProgressList_;
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000001);
           } else {
             ensureFinishProgressListIsMutable();
             finishProgressList_.addAll(other.finishProgressList_);
           }
           onChanged();
         }
-        if (!other.lackedNpcList_.isEmpty()) {
-          if (lackedNpcList_.isEmpty()) {
-            lackedNpcList_ = other.lackedNpcList_;
-            bitField0_ = (bitField0_ & ~0x00000004);
+        if (!other.failProgressList_.isEmpty()) {
+          if (failProgressList_.isEmpty()) {
+            failProgressList_ = other.failProgressList_;
+            bitField0_ = (bitField0_ & ~0x00000002);
           } else {
-            ensureLackedNpcListIsMutable();
-            lackedNpcList_.addAll(other.lackedNpcList_);
+            ensureFailProgressListIsMutable();
+            failProgressList_.addAll(other.failProgressList_);
           }
           onChanged();
         }
-        if (other.getIsRandom() != false) {
-          setIsRandom(other.getIsRandom());
-        }
-        if (other.getStartTime() != 0) {
-          setStartTime(other.getStartTime());
-        }
-        if (other.getQuestConfigId() != 0) {
-          setQuestConfigId(other.getQuestConfigId());
-        }
         if (other.getStartGameTime() != 0) {
           setStartGameTime(other.getStartGameTime());
-        }
-        if (other.getState() != 0) {
-          setState(other.getState());
-        }
-        if (other.getAcceptTime() != 0) {
-          setAcceptTime(other.getAcceptTime());
         }
         if (other.getParentQuestId() != 0) {
           setParentQuestId(other.getParentQuestId());
         }
         if (other.getQuestId() != 0) {
           setQuestId(other.getQuestId());
+        }
+        if (other.getQuestConfigId() != 0) {
+          setQuestConfigId(other.getQuestConfigId());
+        }
+        if (other.getAcceptTime() != 0) {
+          setAcceptTime(other.getAcceptTime());
+        }
+        if (other.getStartTime() != 0) {
+          setStartTime(other.getStartTime());
+        }
+        if (other.getIsRandom() != false) {
+          setIsRandom(other.getIsRandom());
+        }
+        if (other.getState() != 0) {
+          setState(other.getState());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1123,229 +1039,43 @@ public final class QuestOuterClass {
       }
       private int bitField0_;
 
-      private emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo lackingResourcesInfo_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder> lackingResourcesInfoBuilder_;
-      /**
-       * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-       * @return Whether the lackingResourcesInfo field is set.
-       */
-      public boolean hasLackingResourcesInfo() {
-        return lackingResourcesInfoBuilder_ != null || lackingResourcesInfo_ != null;
-      }
-      /**
-       * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-       * @return The lackingResourcesInfo.
-       */
-      public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo getLackingResourcesInfo() {
-        if (lackingResourcesInfoBuilder_ == null) {
-          return lackingResourcesInfo_ == null ? emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.getDefaultInstance() : lackingResourcesInfo_;
-        } else {
-          return lackingResourcesInfoBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-       */
-      public Builder setLackingResourcesInfo(emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo value) {
-        if (lackingResourcesInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          lackingResourcesInfo_ = value;
-          onChanged();
-        } else {
-          lackingResourcesInfoBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-       */
-      public Builder setLackingResourcesInfo(
-          emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder builderForValue) {
-        if (lackingResourcesInfoBuilder_ == null) {
-          lackingResourcesInfo_ = builderForValue.build();
-          onChanged();
-        } else {
-          lackingResourcesInfoBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-       */
-      public Builder mergeLackingResourcesInfo(emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo value) {
-        if (lackingResourcesInfoBuilder_ == null) {
-          if (lackingResourcesInfo_ != null) {
-            lackingResourcesInfo_ =
-              emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.newBuilder(lackingResourcesInfo_).mergeFrom(value).buildPartial();
-          } else {
-            lackingResourcesInfo_ = value;
-          }
-          onChanged();
-        } else {
-          lackingResourcesInfoBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-       */
-      public Builder clearLackingResourcesInfo() {
-        if (lackingResourcesInfoBuilder_ == null) {
-          lackingResourcesInfo_ = null;
-          onChanged();
-        } else {
-          lackingResourcesInfo_ = null;
-          lackingResourcesInfoBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-       */
-      public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder getLackingResourcesInfoBuilder() {
-        
-        onChanged();
-        return getLackingResourcesInfoFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-       */
-      public emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder getLackingResourcesInfoOrBuilder() {
-        if (lackingResourcesInfoBuilder_ != null) {
-          return lackingResourcesInfoBuilder_.getMessageOrBuilder();
-        } else {
-          return lackingResourcesInfo_ == null ?
-              emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.getDefaultInstance() : lackingResourcesInfo_;
-        }
-      }
-      /**
-       * <code>.LackingResourceInfo lacking_resources_info = 13;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder> 
-          getLackingResourcesInfoFieldBuilder() {
-        if (lackingResourcesInfoBuilder_ == null) {
-          lackingResourcesInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfo.Builder, emu.grasscutter.net.proto.LackingResourceInfoOuterClass.LackingResourceInfoOrBuilder>(
-                  getLackingResourcesInfo(),
-                  getParentForChildren(),
-                  isClean());
-          lackingResourcesInfo_ = null;
-        }
-        return lackingResourcesInfoBuilder_;
-      }
-
-      private com.google.protobuf.Internal.IntList failProgressList_ = emptyIntList();
-      private void ensureFailProgressListIsMutable() {
+      private com.google.protobuf.Internal.IntList finishProgressList_ = emptyIntList();
+      private void ensureFinishProgressListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          failProgressList_ = mutableCopy(failProgressList_);
+          finishProgressList_ = mutableCopy(finishProgressList_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 fail_progress_list = 10;</code>
-       * @return A list containing the failProgressList.
-       */
-      public java.util.List<java.lang.Integer>
-          getFailProgressListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(failProgressList_) : failProgressList_;
-      }
-      /**
-       * <code>repeated uint32 fail_progress_list = 10;</code>
-       * @return The count of failProgressList.
-       */
-      public int getFailProgressListCount() {
-        return failProgressList_.size();
-      }
-      /**
-       * <code>repeated uint32 fail_progress_list = 10;</code>
-       * @param index The index of the element to return.
-       * @return The failProgressList at the given index.
-       */
-      public int getFailProgressList(int index) {
-        return failProgressList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 fail_progress_list = 10;</code>
-       * @param index The index to set the value at.
-       * @param value The failProgressList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setFailProgressList(
-          int index, int value) {
-        ensureFailProgressListIsMutable();
-        failProgressList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 fail_progress_list = 10;</code>
-       * @param value The failProgressList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addFailProgressList(int value) {
-        ensureFailProgressListIsMutable();
-        failProgressList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 fail_progress_list = 10;</code>
-       * @param values The failProgressList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllFailProgressList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureFailProgressListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, failProgressList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 fail_progress_list = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearFailProgressList() {
-        failProgressList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList finishProgressList_ = emptyIntList();
-      private void ensureFinishProgressListIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          finishProgressList_ = mutableCopy(finishProgressList_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 finish_progress_list = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 32
+       * </pre>
+       *
+       * <code>repeated uint32 finish_progress_list = 10;</code>
        * @return A list containing the finishProgressList.
        */
       public java.util.List<java.lang.Integer>
           getFinishProgressListList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
+        return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(finishProgressList_) : finishProgressList_;
       }
       /**
-       * <code>repeated uint32 finish_progress_list = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 32
+       * </pre>
+       *
+       * <code>repeated uint32 finish_progress_list = 10;</code>
        * @return The count of finishProgressList.
        */
       public int getFinishProgressListCount() {
         return finishProgressList_.size();
       }
       /**
-       * <code>repeated uint32 finish_progress_list = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 32
+       * </pre>
+       *
+       * <code>repeated uint32 finish_progress_list = 10;</code>
        * @param index The index of the element to return.
        * @return The finishProgressList at the given index.
        */
@@ -1353,7 +1083,11 @@ public final class QuestOuterClass {
         return finishProgressList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 finish_progress_list = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 32
+       * </pre>
+       *
+       * <code>repeated uint32 finish_progress_list = 10;</code>
        * @param index The index to set the value at.
        * @param value The finishProgressList to set.
        * @return This builder for chaining.
@@ -1366,7 +1100,11 @@ public final class QuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 finish_progress_list = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 32
+       * </pre>
+       *
+       * <code>repeated uint32 finish_progress_list = 10;</code>
        * @param value The finishProgressList to add.
        * @return This builder for chaining.
        */
@@ -1377,7 +1115,11 @@ public final class QuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 finish_progress_list = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 32
+       * </pre>
+       *
+       * <code>repeated uint32 finish_progress_list = 10;</code>
        * @param values The finishProgressList to add.
        * @return This builder for chaining.
        */
@@ -1390,190 +1132,134 @@ public final class QuestOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 finish_progress_list = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 32
+       * </pre>
+       *
+       * <code>repeated uint32 finish_progress_list = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearFinishProgressList() {
         finishProgressList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
+        bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList lackedNpcList_ = emptyIntList();
-      private void ensureLackedNpcListIsMutable() {
-        if (!((bitField0_ & 0x00000004) != 0)) {
-          lackedNpcList_ = mutableCopy(lackedNpcList_);
-          bitField0_ |= 0x00000004;
+      private com.google.protobuf.Internal.IntList failProgressList_ = emptyIntList();
+      private void ensureFailProgressListIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          failProgressList_ = mutableCopy(failProgressList_);
+          bitField0_ |= 0x00000002;
          }
       }
       /**
-       * <code>repeated uint32 lacked_npc_list = 12;</code>
-       * @return A list containing the lackedNpcList.
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 40
+       * </pre>
+       *
+       * <code>repeated uint32 fail_progress_list = 11;</code>
+       * @return A list containing the failProgressList.
        */
       public java.util.List<java.lang.Integer>
-          getLackedNpcListList() {
-        return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(lackedNpcList_) : lackedNpcList_;
+          getFailProgressListList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(failProgressList_) : failProgressList_;
       }
       /**
-       * <code>repeated uint32 lacked_npc_list = 12;</code>
-       * @return The count of lackedNpcList.
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 40
+       * </pre>
+       *
+       * <code>repeated uint32 fail_progress_list = 11;</code>
+       * @return The count of failProgressList.
        */
-      public int getLackedNpcListCount() {
-        return lackedNpcList_.size();
+      public int getFailProgressListCount() {
+        return failProgressList_.size();
       }
       /**
-       * <code>repeated uint32 lacked_npc_list = 12;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 40
+       * </pre>
+       *
+       * <code>repeated uint32 fail_progress_list = 11;</code>
        * @param index The index of the element to return.
-       * @return The lackedNpcList at the given index.
+       * @return The failProgressList at the given index.
        */
-      public int getLackedNpcList(int index) {
-        return lackedNpcList_.getInt(index);
+      public int getFailProgressList(int index) {
+        return failProgressList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 lacked_npc_list = 12;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 40
+       * </pre>
+       *
+       * <code>repeated uint32 fail_progress_list = 11;</code>
        * @param index The index to set the value at.
-       * @param value The lackedNpcList to set.
+       * @param value The failProgressList to set.
        * @return This builder for chaining.
        */
-      public Builder setLackedNpcList(
+      public Builder setFailProgressList(
           int index, int value) {
-        ensureLackedNpcListIsMutable();
-        lackedNpcList_.setInt(index, value);
+        ensureFailProgressListIsMutable();
+        failProgressList_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 lacked_npc_list = 12;</code>
-       * @param value The lackedNpcList to add.
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 40
+       * </pre>
+       *
+       * <code>repeated uint32 fail_progress_list = 11;</code>
+       * @param value The failProgressList to add.
        * @return This builder for chaining.
        */
-      public Builder addLackedNpcList(int value) {
-        ensureLackedNpcListIsMutable();
-        lackedNpcList_.addInt(value);
+      public Builder addFailProgressList(int value) {
+        ensureFailProgressListIsMutable();
+        failProgressList_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 lacked_npc_list = 12;</code>
-       * @param values The lackedNpcList to add.
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 40
+       * </pre>
+       *
+       * <code>repeated uint32 fail_progress_list = 11;</code>
+       * @param values The failProgressList to add.
        * @return This builder for chaining.
        */
-      public Builder addAllLackedNpcList(
+      public Builder addAllFailProgressList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureLackedNpcListIsMutable();
+        ensureFailProgressListIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, lackedNpcList_);
+            values, failProgressList_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 lacked_npc_list = 12;</code>
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 40
+       * </pre>
+       *
+       * <code>repeated uint32 fail_progress_list = 11;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLackedNpcList() {
-        lackedNpcList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000004);
-        onChanged();
-        return this;
-      }
-
-      private boolean isRandom_ ;
-      /**
-       * <code>bool is_random = 5;</code>
-       * @return The isRandom.
-       */
-      @java.lang.Override
-      public boolean getIsRandom() {
-        return isRandom_;
-      }
-      /**
-       * <code>bool is_random = 5;</code>
-       * @param value The isRandom to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsRandom(boolean value) {
-        
-        isRandom_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_random = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsRandom() {
-        
-        isRandom_ = false;
-        onChanged();
-        return this;
-      }
-
-      private int startTime_ ;
-      /**
-       * <code>uint32 start_time = 4;</code>
-       * @return The startTime.
-       */
-      @java.lang.Override
-      public int getStartTime() {
-        return startTime_;
-      }
-      /**
-       * <code>uint32 start_time = 4;</code>
-       * @param value The startTime to set.
-       * @return This builder for chaining.
-       */
-      public Builder setStartTime(int value) {
-        
-        startTime_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 start_time = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearStartTime() {
-        
-        startTime_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int questConfigId_ ;
-      /**
-       * <code>uint32 quest_config_id = 7;</code>
-       * @return The questConfigId.
-       */
-      @java.lang.Override
-      public int getQuestConfigId() {
-        return questConfigId_;
-      }
-      /**
-       * <code>uint32 quest_config_id = 7;</code>
-       * @param value The questConfigId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setQuestConfigId(int value) {
-        
-        questConfigId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 quest_config_id = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearQuestConfigId() {
-        
-        questConfigId_ = 0;
+      public Builder clearFailProgressList() {
+        failProgressList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
       private int startGameTime_ ;
       /**
+       * <pre>
+       *repeated uint32 CGGJFMDGJBL = 12; // offset: 48
+       *LackingResourceInfo lacking_resources_info = 13; // offset: 56
+       * </pre>
+       *
        * <code>uint32 start_game_time = 8;</code>
        * @return The startGameTime.
        */
@@ -1582,6 +1268,11 @@ public final class QuestOuterClass {
         return startGameTime_;
       }
       /**
+       * <pre>
+       *repeated uint32 CGGJFMDGJBL = 12; // offset: 48
+       *LackingResourceInfo lacking_resources_info = 13; // offset: 56
+       * </pre>
+       *
        * <code>uint32 start_game_time = 8;</code>
        * @param value The startGameTime to set.
        * @return This builder for chaining.
@@ -1593,6 +1284,11 @@ public final class QuestOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *repeated uint32 CGGJFMDGJBL = 12; // offset: 48
+       *LackingResourceInfo lacking_resources_info = 13; // offset: 56
+       * </pre>
+       *
        * <code>uint32 start_game_time = 8;</code>
        * @return This builder for chaining.
        */
@@ -1603,70 +1299,12 @@ public final class QuestOuterClass {
         return this;
       }
 
-      private int state_ ;
-      /**
-       * <code>uint32 state = 2;</code>
-       * @return The state.
-       */
-      @java.lang.Override
-      public int getState() {
-        return state_;
-      }
-      /**
-       * <code>uint32 state = 2;</code>
-       * @param value The state to set.
-       * @return This builder for chaining.
-       */
-      public Builder setState(int value) {
-        
-        state_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 state = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearState() {
-        
-        state_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int acceptTime_ ;
-      /**
-       * <code>uint32 accept_time = 9;</code>
-       * @return The acceptTime.
-       */
-      @java.lang.Override
-      public int getAcceptTime() {
-        return acceptTime_;
-      }
-      /**
-       * <code>uint32 accept_time = 9;</code>
-       * @param value The acceptTime to set.
-       * @return This builder for chaining.
-       */
-      public Builder setAcceptTime(int value) {
-        
-        acceptTime_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 accept_time = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAcceptTime() {
-        
-        acceptTime_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int parentQuestId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 68
+       * </pre>
+       *
        * <code>uint32 parent_quest_id = 6;</code>
        * @return The parentQuestId.
        */
@@ -1675,6 +1313,10 @@ public final class QuestOuterClass {
         return parentQuestId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 68
+       * </pre>
+       *
        * <code>uint32 parent_quest_id = 6;</code>
        * @param value The parentQuestId to set.
        * @return This builder for chaining.
@@ -1686,6 +1328,10 @@ public final class QuestOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 68
+       * </pre>
+       *
        * <code>uint32 parent_quest_id = 6;</code>
        * @return This builder for chaining.
        */
@@ -1698,6 +1344,10 @@ public final class QuestOuterClass {
 
       private int questId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 72
+       * </pre>
+       *
        * <code>uint32 quest_id = 1;</code>
        * @return The questId.
        */
@@ -1706,6 +1356,10 @@ public final class QuestOuterClass {
         return questId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 72
+       * </pre>
+       *
        * <code>uint32 quest_id = 1;</code>
        * @param value The questId to set.
        * @return This builder for chaining.
@@ -1717,12 +1371,231 @@ public final class QuestOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 72
+       * </pre>
+       *
        * <code>uint32 quest_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearQuestId() {
         
         questId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int questConfigId_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 76
+       * </pre>
+       *
+       * <code>uint32 quest_config_id = 7;</code>
+       * @return The questConfigId.
+       */
+      @java.lang.Override
+      public int getQuestConfigId() {
+        return questConfigId_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 76
+       * </pre>
+       *
+       * <code>uint32 quest_config_id = 7;</code>
+       * @param value The questConfigId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setQuestConfigId(int value) {
+        
+        questConfigId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 76
+       * </pre>
+       *
+       * <code>uint32 quest_config_id = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearQuestConfigId() {
+        
+        questConfigId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int acceptTime_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 80
+       * </pre>
+       *
+       * <code>uint32 accept_time = 9;</code>
+       * @return The acceptTime.
+       */
+      @java.lang.Override
+      public int getAcceptTime() {
+        return acceptTime_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 80
+       * </pre>
+       *
+       * <code>uint32 accept_time = 9;</code>
+       * @param value The acceptTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAcceptTime(int value) {
+        
+        acceptTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           // offset: 80
+       * </pre>
+       *
+       * <code>uint32 accept_time = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAcceptTime() {
+        
+        acceptTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int startTime_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 84
+       * </pre>
+       *
+       * <code>uint32 start_time = 4;</code>
+       * @return The startTime.
+       */
+      @java.lang.Override
+      public int getStartTime() {
+        return startTime_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 84
+       * </pre>
+       *
+       * <code>uint32 start_time = 4;</code>
+       * @param value The startTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setStartTime(int value) {
+        
+        startTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 84
+       * </pre>
+       *
+       * <code>uint32 start_time = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearStartTime() {
+        
+        startTime_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private boolean isRandom_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 88
+       * </pre>
+       *
+       * <code>bool is_random = 5;</code>
+       * @return The isRandom.
+       */
+      @java.lang.Override
+      public boolean getIsRandom() {
+        return isRandom_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 88
+       * </pre>
+       *
+       * <code>bool is_random = 5;</code>
+       * @param value The isRandom to set.
+       * @return This builder for chaining.
+       */
+      public Builder setIsRandom(boolean value) {
+        
+        isRandom_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 88
+       * </pre>
+       *
+       * <code>bool is_random = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearIsRandom() {
+        
+        isRandom_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int state_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 92
+       * </pre>
+       *
+       * <code>uint32 state = 2;</code>
+       * @return The state.
+       */
+      @java.lang.Override
+      public int getState() {
+        return state_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 92
+       * </pre>
+       *
+       * <code>uint32 state = 2;</code>
+       * @param value The state to set.
+       * @return This builder for chaining.
+       */
+      public Builder setState(int value) {
+        
+        state_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0            // offset: 92
+       * </pre>
+       *
+       * <code>uint32 state = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearState() {
+        
+        state_ = 0;
         onChanged();
         return this;
       }
@@ -1793,29 +1666,25 @@ public final class QuestOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\013Quest.proto\032\031LackingResourceInfo.proto" +
-      "\"\270\002\n\005Quest\0224\n\026lacking_resources_info\030\r \001" +
-      "(\0132\024.LackingResourceInfo\022\032\n\022fail_progres" +
-      "s_list\030\n \003(\r\022\034\n\024finish_progress_list\030\013 \003" +
-      "(\r\022\027\n\017lacked_npc_list\030\014 \003(\r\022\021\n\tis_random" +
-      "\030\005 \001(\010\022\022\n\nstart_time\030\004 \001(\r\022\027\n\017quest_conf" +
-      "ig_id\030\007 \001(\r\022\027\n\017start_game_time\030\010 \001(\r\022\r\n\005" +
-      "state\030\002 \001(\r\022\023\n\013accept_time\030\t \001(\r\022\027\n\017pare" +
-      "nt_quest_id\030\006 \001(\r\022\020\n\010quest_id\030\001 \001(\rB\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\013Quest.proto\"\351\001\n\005Quest\022\034\n\024finish_progre" +
+      "ss_list\030\n \003(\r\022\032\n\022fail_progress_list\030\013 \003(" +
+      "\r\022\027\n\017start_game_time\030\010 \001(\r\022\027\n\017parent_que" +
+      "st_id\030\006 \001(\r\022\020\n\010quest_id\030\001 \001(\r\022\027\n\017quest_c" +
+      "onfig_id\030\007 \001(\r\022\023\n\013accept_time\030\t \001(\r\022\022\n\ns" +
+      "tart_time\030\004 \001(\r\022\021\n\tis_random\030\005 \001(\010\022\r\n\005st" +
+      "ate\030\002 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.LackingResourceInfoOuterClass.getDescriptor(),
         });
     internal_static_Quest_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_Quest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Quest_descriptor,
-        new java.lang.String[] { "LackingResourcesInfo", "FailProgressList", "FinishProgressList", "LackedNpcList", "IsRandom", "StartTime", "QuestConfigId", "StartGameTime", "State", "AcceptTime", "ParentQuestId", "QuestId", });
-    emu.grasscutter.net.proto.LackingResourceInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "FinishProgressList", "FailProgressList", "StartGameTime", "ParentQuestId", "QuestId", "QuestConfigId", "AcceptTime", "StartTime", "IsRandom", "State", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

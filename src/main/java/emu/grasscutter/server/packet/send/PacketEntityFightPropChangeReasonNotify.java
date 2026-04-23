@@ -55,10 +55,10 @@ public class PacketEntityFightPropChangeReasonNotify extends BasePacket {
         PropChangeDetailInfo detailInfo = null;
         if (detailAbility != null) {
             detailInfo = PropChangeDetailInfo.newBuilder()
-                .setDetailAbilityInfo(detailAbility)
+                //.setDetailAbilityInfo(detailAbility)
                 .build();
         }
-    
+
 
         var proto =
                 EntityFightPropChangeReasonNotify.newBuilder()
@@ -66,7 +66,7 @@ public class PacketEntityFightPropChangeReasonNotify extends BasePacket {
                         .setPropType(prop.getId())
                         .setPropDelta(value)
                         .setReason(reason)
-                        .setDetailInfo(detailInfo != null ? detailInfo : PropChangeDetailInfo.getDefaultInstance())  // Only set if not null
+                        //.setDetailInfo(detailInfo != null ? detailInfo : PropChangeDetailInfo.getDefaultInstance())  // Only set if not null
                         .setChangeHpReason(changeHpReason)
                         .build();
 
@@ -98,7 +98,7 @@ public class PacketEntityFightPropChangeReasonNotify extends BasePacket {
                         .setEntityId(entity.getId())
                         .setPropType(prop.getId())
                         .setPropDelta(value)
-                        .setChangeEnergyReason(reason)
+                        .setChangeEnergyReson(reason)
                         .build();
 
         this.setData(proto);
@@ -116,7 +116,7 @@ public class PacketEntityFightPropChangeReasonNotify extends BasePacket {
         PropChangeDetailInfo detailInfo = null;
         if (detailAbility != null) {
             detailInfo = PropChangeDetailInfo.newBuilder()
-                .setDetailAbilityInfo(detailAbility)
+                //.setDetailAbilityInfo(detailAbility)
                 .build();
         }
 
@@ -125,14 +125,14 @@ public class PacketEntityFightPropChangeReasonNotify extends BasePacket {
                         .setEntityId(entity.getId())
                         .setPropType(prop.getId())
                         .setPropDelta(value)
-                        .setPaidHpDebts(value)
+                        //.setPaidHpDebts(value)
                         .setReason(reason)
-                        .setDetailInfo(detailInfo != null ? detailInfo : PropChangeDetailInfo.getDefaultInstance())  // Only set if not null
+                        //.setDetailInfo(detailInfo != null ? detailInfo : PropChangeDetailInfo.getDefaultInstance())  // Only set if not null
                         .setChangeHpDebtsReason(changeHpDebts)
-                        .build(); 
+                        .build();
         this.setData(proto);
     }
-            
+
 
     public PacketEntityFightPropChangeReasonNotify(
         GameEntity entity, FightProperty prop, Float value, PropChangeReason reason, ChangeEnergyReason energyReason) {
@@ -142,7 +142,7 @@ public class PacketEntityFightPropChangeReasonNotify extends BasePacket {
     PropChangeDetailInfo detailInfo = null;
     if (detailAbility != null) {
         detailInfo = PropChangeDetailInfo.newBuilder()
-            .setDetailAbilityInfo(detailAbility)
+            //.setDetailAbilityInfo(detailAbility)
             .build();
     }
 
@@ -152,8 +152,8 @@ public class PacketEntityFightPropChangeReasonNotify extends BasePacket {
                     .setPropType(prop.getId())
                     .setPropDelta(value)
                     .setReason(reason)
-                    .setDetailInfo(detailInfo != null ? detailInfo : PropChangeDetailInfo.getDefaultInstance())  // Only set if not null
-                    .setChangeEnergyReason(energyReason)
+                    //.setDetailInfo(detailInfo != null ? detailInfo : PropChangeDetailInfo.getDefaultInstance())  // Only set if not null
+                    .setChangeEnergyReson(energyReason)
                     .build();
 
     this.setData(proto);

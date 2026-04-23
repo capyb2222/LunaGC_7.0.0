@@ -20,32 +20,32 @@ public final class FriendEnterHomeOptionOuterClass {
   public enum FriendEnterHomeOption
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>FRIEND_ENTER_HOME_OPTION_NEED_CONFIRM = 0;</code>
+     * <code>FriendEnterHomeOption_NEED_CONFIRM = 0;</code>
      */
-    FRIEND_ENTER_HOME_OPTION_NEED_CONFIRM(0),
+    FriendEnterHomeOption_NEED_CONFIRM(0),
     /**
-     * <code>FRIEND_ENTER_HOME_OPTION_REFUSE = 1;</code>
+     * <code>FriendEnterHomeOption_REFUSE = 1;</code>
      */
-    FRIEND_ENTER_HOME_OPTION_REFUSE(1),
+    FriendEnterHomeOption_REFUSE(1),
     /**
-     * <code>FRIEND_ENTER_HOME_OPTION_DIRECT = 2;</code>
+     * <code>FriendEnterHomeOption_DIRECT = 2;</code>
      */
-    FRIEND_ENTER_HOME_OPTION_DIRECT(2),
+    FriendEnterHomeOption_DIRECT(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>FRIEND_ENTER_HOME_OPTION_NEED_CONFIRM = 0;</code>
+     * <code>FriendEnterHomeOption_NEED_CONFIRM = 0;</code>
      */
-    public static final int FRIEND_ENTER_HOME_OPTION_NEED_CONFIRM_VALUE = 0;
+    public static final int FriendEnterHomeOption_NEED_CONFIRM_VALUE = 0;
     /**
-     * <code>FRIEND_ENTER_HOME_OPTION_REFUSE = 1;</code>
+     * <code>FriendEnterHomeOption_REFUSE = 1;</code>
      */
-    public static final int FRIEND_ENTER_HOME_OPTION_REFUSE_VALUE = 1;
+    public static final int FriendEnterHomeOption_REFUSE_VALUE = 1;
     /**
-     * <code>FRIEND_ENTER_HOME_OPTION_DIRECT = 2;</code>
+     * <code>FriendEnterHomeOption_DIRECT = 2;</code>
      */
-    public static final int FRIEND_ENTER_HOME_OPTION_DIRECT_VALUE = 2;
+    public static final int FriendEnterHomeOption_DIRECT_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class FriendEnterHomeOptionOuterClass {
      */
     public static FriendEnterHomeOption forNumber(int value) {
       switch (value) {
-        case 0: return FRIEND_ENTER_HOME_OPTION_NEED_CONFIRM;
-        case 1: return FRIEND_ENTER_HOME_OPTION_REFUSE;
-        case 2: return FRIEND_ENTER_HOME_OPTION_DIRECT;
+        case 0: return FriendEnterHomeOption_NEED_CONFIRM;
+        case 1: return FriendEnterHomeOption_REFUSE;
+        case 2: return FriendEnterHomeOption_DIRECT;
         default: return null;
       }
     }
@@ -140,12 +140,11 @@ public final class FriendEnterHomeOptionOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033FriendEnterHomeOption.proto*\214\001\n\025Friend" +
-      "EnterHomeOption\022)\n%FRIEND_ENTER_HOME_OPT" +
-      "ION_NEED_CONFIRM\020\000\022#\n\037FRIEND_ENTER_HOME_" +
-      "OPTION_REFUSE\020\001\022#\n\037FRIEND_ENTER_HOME_OPT" +
-      "ION_DIRECT\020\002B\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\n\033FriendEnterHomeOption.proto*\203\001\n\025Friend" +
+      "EnterHomeOption\022&\n\"FriendEnterHomeOption" +
+      "_NEED_CONFIRM\020\000\022 \n\034FriendEnterHomeOption" +
+      "_REFUSE\020\001\022 \n\034FriendEnterHomeOption_DIREC" +
+      "T\020\002B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

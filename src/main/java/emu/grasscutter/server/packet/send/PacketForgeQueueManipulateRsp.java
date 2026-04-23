@@ -23,20 +23,6 @@ public class PacketForgeQueueManipulateRsp extends BasePacket {
                         .setRetcode(retcode.getNumber())
                         .setManipulateType(type);
 
-        for (GameItem item : output) {
-            ItemParam toAdd =
-                    ItemParam.newBuilder().setItemId(item.getItemId()).setCount(item.getCount()).build();
-
-            builder.addExtraOutputItemList(toAdd);
-        }
-
-        for (GameItem item : refund) {
-            ItemParam toAdd =
-                    ItemParam.newBuilder().setItemId(item.getItemId()).setCount(item.getCount()).build();
-
-            builder.addReturnItemList(toAdd);
-        }
-
         // ToDo: Add extra items when once we have handling for it.
 
         this.setData(builder.build());

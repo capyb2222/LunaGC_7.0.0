@@ -19,43 +19,43 @@ public final class SceneFishInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector fish_pool_pos = 3;</code>
-     * @return Whether the fishPoolPos field is set.
+     * <code>.Vector FNCFAFDLAOB = 3;</code>
+     * @return Whether the fNCFAFDLAOB field is set.
      */
-    boolean hasFishPoolPos();
+    boolean hasFNCFAFDLAOB();
     /**
-     * <code>.Vector fish_pool_pos = 3;</code>
-     * @return The fishPoolPos.
+     * <code>.Vector FNCFAFDLAOB = 3;</code>
+     * @return The fNCFAFDLAOB.
      */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getFishPoolPos();
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getFNCFAFDLAOB();
     /**
-     * <code>.Vector fish_pool_pos = 3;</code>
+     * <code>.Vector FNCFAFDLAOB = 3;</code>
      */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFishPoolPosOrBuilder();
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFNCFAFDLAOBOrBuilder();
 
     /**
-     * <code>uint32 fish_pool_entity_id = 2;</code>
-     * @return The fishPoolEntityId.
+     * <code>uint32 FDKCHNPFJCH = 4;</code>
+     * @return The fDKCHNPFJCH.
      */
-    int getFishPoolEntityId();
+    int getFDKCHNPFJCH();
 
     /**
-     * <code>uint32 fish_id = 1;</code>
-     * @return The fishId.
+     * <code>uint32 BGMDCHIDGIN = 2;</code>
+     * @return The bGMDCHIDGIN.
      */
-    int getFishId();
+    int getBGMDCHIDGIN();
 
     /**
-     * <code>uint32 fish_pool_gadget_id = 4;</code>
-     * @return The fishPoolGadgetId.
+     * <code>uint32 DEOPFEAEENI = 1;</code>
+     * @return The dEOPFEAEENI.
      */
-    int getFishPoolGadgetId();
+    int getDEOPFEAEENI();
 
     /**
-     * <code>uint32 last_shock_time = 5;</code>
-     * @return The lastShockTime.
+     * <code>uint32 GKINGDECHDD = 5;</code>
+     * @return The gKINGDECHDD.
      */
-    int getLastShockTime();
+    int getGKINGDECHDD();
   }
   /**
    * Protobuf type {@code SceneFishInfo}
@@ -104,35 +104,35 @@ public final class SceneFishInfoOuterClass {
               break;
             case 8: {
 
-              fishId_ = input.readUInt32();
+              dEOPFEAEENI_ = input.readUInt32();
               break;
             }
             case 16: {
 
-              fishPoolEntityId_ = input.readUInt32();
+              bGMDCHIDGIN_ = input.readUInt32();
               break;
             }
             case 26: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
-              if (fishPoolPos_ != null) {
-                subBuilder = fishPoolPos_.toBuilder();
+              if (fNCFAFDLAOB_ != null) {
+                subBuilder = fNCFAFDLAOB_.toBuilder();
               }
-              fishPoolPos_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
+              fNCFAFDLAOB_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(fishPoolPos_);
-                fishPoolPos_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(fNCFAFDLAOB_);
+                fNCFAFDLAOB_ = subBuilder.buildPartial();
               }
 
               break;
             }
             case 32: {
 
-              fishPoolGadgetId_ = input.readUInt32();
+              fDKCHNPFJCH_ = input.readUInt32();
               break;
             }
             case 40: {
 
-              lastShockTime_ = input.readUInt32();
+              gKINGDECHDD_ = input.readUInt32();
               break;
             }
             default: {
@@ -167,74 +167,74 @@ public final class SceneFishInfoOuterClass {
               emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.class, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder.class);
     }
 
-    public static final int FISH_POOL_POS_FIELD_NUMBER = 3;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector fishPoolPos_;
+    public static final int FNCFAFDLAOB_FIELD_NUMBER = 3;
+    private emu.grasscutter.net.proto.VectorOuterClass.Vector fNCFAFDLAOB_;
     /**
-     * <code>.Vector fish_pool_pos = 3;</code>
-     * @return Whether the fishPoolPos field is set.
+     * <code>.Vector FNCFAFDLAOB = 3;</code>
+     * @return Whether the fNCFAFDLAOB field is set.
      */
     @java.lang.Override
-    public boolean hasFishPoolPos() {
-      return fishPoolPos_ != null;
+    public boolean hasFNCFAFDLAOB() {
+      return fNCFAFDLAOB_ != null;
     }
     /**
-     * <code>.Vector fish_pool_pos = 3;</code>
-     * @return The fishPoolPos.
+     * <code>.Vector FNCFAFDLAOB = 3;</code>
+     * @return The fNCFAFDLAOB.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getFishPoolPos() {
-      return fishPoolPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : fishPoolPos_;
+    public emu.grasscutter.net.proto.VectorOuterClass.Vector getFNCFAFDLAOB() {
+      return fNCFAFDLAOB_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : fNCFAFDLAOB_;
     }
     /**
-     * <code>.Vector fish_pool_pos = 3;</code>
+     * <code>.Vector FNCFAFDLAOB = 3;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFishPoolPosOrBuilder() {
-      return getFishPoolPos();
-    }
-
-    public static final int FISH_POOL_ENTITY_ID_FIELD_NUMBER = 2;
-    private int fishPoolEntityId_;
-    /**
-     * <code>uint32 fish_pool_entity_id = 2;</code>
-     * @return The fishPoolEntityId.
-     */
-    @java.lang.Override
-    public int getFishPoolEntityId() {
-      return fishPoolEntityId_;
+    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFNCFAFDLAOBOrBuilder() {
+      return getFNCFAFDLAOB();
     }
 
-    public static final int FISH_ID_FIELD_NUMBER = 1;
-    private int fishId_;
+    public static final int FDKCHNPFJCH_FIELD_NUMBER = 4;
+    private int fDKCHNPFJCH_;
     /**
-     * <code>uint32 fish_id = 1;</code>
-     * @return The fishId.
+     * <code>uint32 FDKCHNPFJCH = 4;</code>
+     * @return The fDKCHNPFJCH.
      */
     @java.lang.Override
-    public int getFishId() {
-      return fishId_;
+    public int getFDKCHNPFJCH() {
+      return fDKCHNPFJCH_;
     }
 
-    public static final int FISH_POOL_GADGET_ID_FIELD_NUMBER = 4;
-    private int fishPoolGadgetId_;
+    public static final int BGMDCHIDGIN_FIELD_NUMBER = 2;
+    private int bGMDCHIDGIN_;
     /**
-     * <code>uint32 fish_pool_gadget_id = 4;</code>
-     * @return The fishPoolGadgetId.
+     * <code>uint32 BGMDCHIDGIN = 2;</code>
+     * @return The bGMDCHIDGIN.
      */
     @java.lang.Override
-    public int getFishPoolGadgetId() {
-      return fishPoolGadgetId_;
+    public int getBGMDCHIDGIN() {
+      return bGMDCHIDGIN_;
     }
 
-    public static final int LAST_SHOCK_TIME_FIELD_NUMBER = 5;
-    private int lastShockTime_;
+    public static final int DEOPFEAEENI_FIELD_NUMBER = 1;
+    private int dEOPFEAEENI_;
     /**
-     * <code>uint32 last_shock_time = 5;</code>
-     * @return The lastShockTime.
+     * <code>uint32 DEOPFEAEENI = 1;</code>
+     * @return The dEOPFEAEENI.
      */
     @java.lang.Override
-    public int getLastShockTime() {
-      return lastShockTime_;
+    public int getDEOPFEAEENI() {
+      return dEOPFEAEENI_;
+    }
+
+    public static final int GKINGDECHDD_FIELD_NUMBER = 5;
+    private int gKINGDECHDD_;
+    /**
+     * <code>uint32 GKINGDECHDD = 5;</code>
+     * @return The gKINGDECHDD.
+     */
+    @java.lang.Override
+    public int getGKINGDECHDD() {
+      return gKINGDECHDD_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -251,20 +251,20 @@ public final class SceneFishInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (fishId_ != 0) {
-        output.writeUInt32(1, fishId_);
+      if (dEOPFEAEENI_ != 0) {
+        output.writeUInt32(1, dEOPFEAEENI_);
       }
-      if (fishPoolEntityId_ != 0) {
-        output.writeUInt32(2, fishPoolEntityId_);
+      if (bGMDCHIDGIN_ != 0) {
+        output.writeUInt32(2, bGMDCHIDGIN_);
       }
-      if (fishPoolPos_ != null) {
-        output.writeMessage(3, getFishPoolPos());
+      if (fNCFAFDLAOB_ != null) {
+        output.writeMessage(3, getFNCFAFDLAOB());
       }
-      if (fishPoolGadgetId_ != 0) {
-        output.writeUInt32(4, fishPoolGadgetId_);
+      if (fDKCHNPFJCH_ != 0) {
+        output.writeUInt32(4, fDKCHNPFJCH_);
       }
-      if (lastShockTime_ != 0) {
-        output.writeUInt32(5, lastShockTime_);
+      if (gKINGDECHDD_ != 0) {
+        output.writeUInt32(5, gKINGDECHDD_);
       }
       unknownFields.writeTo(output);
     }
@@ -275,25 +275,25 @@ public final class SceneFishInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (fishId_ != 0) {
+      if (dEOPFEAEENI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, fishId_);
+          .computeUInt32Size(1, dEOPFEAEENI_);
       }
-      if (fishPoolEntityId_ != 0) {
+      if (bGMDCHIDGIN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, fishPoolEntityId_);
+          .computeUInt32Size(2, bGMDCHIDGIN_);
       }
-      if (fishPoolPos_ != null) {
+      if (fNCFAFDLAOB_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getFishPoolPos());
+          .computeMessageSize(3, getFNCFAFDLAOB());
       }
-      if (fishPoolGadgetId_ != 0) {
+      if (fDKCHNPFJCH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, fishPoolGadgetId_);
+          .computeUInt32Size(4, fDKCHNPFJCH_);
       }
-      if (lastShockTime_ != 0) {
+      if (gKINGDECHDD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, lastShockTime_);
+          .computeUInt32Size(5, gKINGDECHDD_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -310,19 +310,19 @@ public final class SceneFishInfoOuterClass {
       }
       emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo other = (emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo) obj;
 
-      if (hasFishPoolPos() != other.hasFishPoolPos()) return false;
-      if (hasFishPoolPos()) {
-        if (!getFishPoolPos()
-            .equals(other.getFishPoolPos())) return false;
+      if (hasFNCFAFDLAOB() != other.hasFNCFAFDLAOB()) return false;
+      if (hasFNCFAFDLAOB()) {
+        if (!getFNCFAFDLAOB()
+            .equals(other.getFNCFAFDLAOB())) return false;
       }
-      if (getFishPoolEntityId()
-          != other.getFishPoolEntityId()) return false;
-      if (getFishId()
-          != other.getFishId()) return false;
-      if (getFishPoolGadgetId()
-          != other.getFishPoolGadgetId()) return false;
-      if (getLastShockTime()
-          != other.getLastShockTime()) return false;
+      if (getFDKCHNPFJCH()
+          != other.getFDKCHNPFJCH()) return false;
+      if (getBGMDCHIDGIN()
+          != other.getBGMDCHIDGIN()) return false;
+      if (getDEOPFEAEENI()
+          != other.getDEOPFEAEENI()) return false;
+      if (getGKINGDECHDD()
+          != other.getGKINGDECHDD()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -334,18 +334,18 @@ public final class SceneFishInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasFishPoolPos()) {
-        hash = (37 * hash) + FISH_POOL_POS_FIELD_NUMBER;
-        hash = (53 * hash) + getFishPoolPos().hashCode();
+      if (hasFNCFAFDLAOB()) {
+        hash = (37 * hash) + FNCFAFDLAOB_FIELD_NUMBER;
+        hash = (53 * hash) + getFNCFAFDLAOB().hashCode();
       }
-      hash = (37 * hash) + FISH_POOL_ENTITY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getFishPoolEntityId();
-      hash = (37 * hash) + FISH_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getFishId();
-      hash = (37 * hash) + FISH_POOL_GADGET_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getFishPoolGadgetId();
-      hash = (37 * hash) + LAST_SHOCK_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getLastShockTime();
+      hash = (37 * hash) + FDKCHNPFJCH_FIELD_NUMBER;
+      hash = (53 * hash) + getFDKCHNPFJCH();
+      hash = (37 * hash) + BGMDCHIDGIN_FIELD_NUMBER;
+      hash = (53 * hash) + getBGMDCHIDGIN();
+      hash = (37 * hash) + DEOPFEAEENI_FIELD_NUMBER;
+      hash = (53 * hash) + getDEOPFEAEENI();
+      hash = (37 * hash) + GKINGDECHDD_FIELD_NUMBER;
+      hash = (53 * hash) + getGKINGDECHDD();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -479,19 +479,19 @@ public final class SceneFishInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (fishPoolPosBuilder_ == null) {
-          fishPoolPos_ = null;
+        if (fNCFAFDLAOBBuilder_ == null) {
+          fNCFAFDLAOB_ = null;
         } else {
-          fishPoolPos_ = null;
-          fishPoolPosBuilder_ = null;
+          fNCFAFDLAOB_ = null;
+          fNCFAFDLAOBBuilder_ = null;
         }
-        fishPoolEntityId_ = 0;
+        fDKCHNPFJCH_ = 0;
 
-        fishId_ = 0;
+        bGMDCHIDGIN_ = 0;
 
-        fishPoolGadgetId_ = 0;
+        dEOPFEAEENI_ = 0;
 
-        lastShockTime_ = 0;
+        gKINGDECHDD_ = 0;
 
         return this;
       }
@@ -519,15 +519,15 @@ public final class SceneFishInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo buildPartial() {
         emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo result = new emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo(this);
-        if (fishPoolPosBuilder_ == null) {
-          result.fishPoolPos_ = fishPoolPos_;
+        if (fNCFAFDLAOBBuilder_ == null) {
+          result.fNCFAFDLAOB_ = fNCFAFDLAOB_;
         } else {
-          result.fishPoolPos_ = fishPoolPosBuilder_.build();
+          result.fNCFAFDLAOB_ = fNCFAFDLAOBBuilder_.build();
         }
-        result.fishPoolEntityId_ = fishPoolEntityId_;
-        result.fishId_ = fishId_;
-        result.fishPoolGadgetId_ = fishPoolGadgetId_;
-        result.lastShockTime_ = lastShockTime_;
+        result.fDKCHNPFJCH_ = fDKCHNPFJCH_;
+        result.bGMDCHIDGIN_ = bGMDCHIDGIN_;
+        result.dEOPFEAEENI_ = dEOPFEAEENI_;
+        result.gKINGDECHDD_ = gKINGDECHDD_;
         onBuilt();
         return result;
       }
@@ -576,20 +576,20 @@ public final class SceneFishInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo other) {
         if (other == emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.getDefaultInstance()) return this;
-        if (other.hasFishPoolPos()) {
-          mergeFishPoolPos(other.getFishPoolPos());
+        if (other.hasFNCFAFDLAOB()) {
+          mergeFNCFAFDLAOB(other.getFNCFAFDLAOB());
         }
-        if (other.getFishPoolEntityId() != 0) {
-          setFishPoolEntityId(other.getFishPoolEntityId());
+        if (other.getFDKCHNPFJCH() != 0) {
+          setFDKCHNPFJCH(other.getFDKCHNPFJCH());
         }
-        if (other.getFishId() != 0) {
-          setFishId(other.getFishId());
+        if (other.getBGMDCHIDGIN() != 0) {
+          setBGMDCHIDGIN(other.getBGMDCHIDGIN());
         }
-        if (other.getFishPoolGadgetId() != 0) {
-          setFishPoolGadgetId(other.getFishPoolGadgetId());
+        if (other.getDEOPFEAEENI() != 0) {
+          setDEOPFEAEENI(other.getDEOPFEAEENI());
         }
-        if (other.getLastShockTime() != 0) {
-          setLastShockTime(other.getLastShockTime());
+        if (other.getGKINGDECHDD() != 0) {
+          setGKINGDECHDD(other.getGKINGDECHDD());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -620,245 +620,245 @@ public final class SceneFishInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.VectorOuterClass.Vector fishPoolPos_;
+      private emu.grasscutter.net.proto.VectorOuterClass.Vector fNCFAFDLAOB_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> fishPoolPosBuilder_;
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> fNCFAFDLAOBBuilder_;
       /**
-       * <code>.Vector fish_pool_pos = 3;</code>
-       * @return Whether the fishPoolPos field is set.
+       * <code>.Vector FNCFAFDLAOB = 3;</code>
+       * @return Whether the fNCFAFDLAOB field is set.
        */
-      public boolean hasFishPoolPos() {
-        return fishPoolPosBuilder_ != null || fishPoolPos_ != null;
+      public boolean hasFNCFAFDLAOB() {
+        return fNCFAFDLAOBBuilder_ != null || fNCFAFDLAOB_ != null;
       }
       /**
-       * <code>.Vector fish_pool_pos = 3;</code>
-       * @return The fishPoolPos.
+       * <code>.Vector FNCFAFDLAOB = 3;</code>
+       * @return The fNCFAFDLAOB.
        */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector getFishPoolPos() {
-        if (fishPoolPosBuilder_ == null) {
-          return fishPoolPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : fishPoolPos_;
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector getFNCFAFDLAOB() {
+        if (fNCFAFDLAOBBuilder_ == null) {
+          return fNCFAFDLAOB_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : fNCFAFDLAOB_;
         } else {
-          return fishPoolPosBuilder_.getMessage();
+          return fNCFAFDLAOBBuilder_.getMessage();
         }
       }
       /**
-       * <code>.Vector fish_pool_pos = 3;</code>
+       * <code>.Vector FNCFAFDLAOB = 3;</code>
        */
-      public Builder setFishPoolPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (fishPoolPosBuilder_ == null) {
+      public Builder setFNCFAFDLAOB(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (fNCFAFDLAOBBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          fishPoolPos_ = value;
+          fNCFAFDLAOB_ = value;
           onChanged();
         } else {
-          fishPoolPosBuilder_.setMessage(value);
+          fNCFAFDLAOBBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.Vector fish_pool_pos = 3;</code>
+       * <code>.Vector FNCFAFDLAOB = 3;</code>
        */
-      public Builder setFishPoolPos(
+      public Builder setFNCFAFDLAOB(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
-        if (fishPoolPosBuilder_ == null) {
-          fishPoolPos_ = builderForValue.build();
+        if (fNCFAFDLAOBBuilder_ == null) {
+          fNCFAFDLAOB_ = builderForValue.build();
           onChanged();
         } else {
-          fishPoolPosBuilder_.setMessage(builderForValue.build());
+          fNCFAFDLAOBBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.Vector fish_pool_pos = 3;</code>
+       * <code>.Vector FNCFAFDLAOB = 3;</code>
        */
-      public Builder mergeFishPoolPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (fishPoolPosBuilder_ == null) {
-          if (fishPoolPos_ != null) {
-            fishPoolPos_ =
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(fishPoolPos_).mergeFrom(value).buildPartial();
+      public Builder mergeFNCFAFDLAOB(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
+        if (fNCFAFDLAOBBuilder_ == null) {
+          if (fNCFAFDLAOB_ != null) {
+            fNCFAFDLAOB_ =
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(fNCFAFDLAOB_).mergeFrom(value).buildPartial();
           } else {
-            fishPoolPos_ = value;
+            fNCFAFDLAOB_ = value;
           }
           onChanged();
         } else {
-          fishPoolPosBuilder_.mergeFrom(value);
+          fNCFAFDLAOBBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.Vector fish_pool_pos = 3;</code>
+       * <code>.Vector FNCFAFDLAOB = 3;</code>
        */
-      public Builder clearFishPoolPos() {
-        if (fishPoolPosBuilder_ == null) {
-          fishPoolPos_ = null;
+      public Builder clearFNCFAFDLAOB() {
+        if (fNCFAFDLAOBBuilder_ == null) {
+          fNCFAFDLAOB_ = null;
           onChanged();
         } else {
-          fishPoolPos_ = null;
-          fishPoolPosBuilder_ = null;
+          fNCFAFDLAOB_ = null;
+          fNCFAFDLAOBBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.Vector fish_pool_pos = 3;</code>
+       * <code>.Vector FNCFAFDLAOB = 3;</code>
        */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getFishPoolPosBuilder() {
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getFNCFAFDLAOBBuilder() {
         
         onChanged();
-        return getFishPoolPosFieldBuilder().getBuilder();
+        return getFNCFAFDLAOBFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector fish_pool_pos = 3;</code>
+       * <code>.Vector FNCFAFDLAOB = 3;</code>
        */
-      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFishPoolPosOrBuilder() {
-        if (fishPoolPosBuilder_ != null) {
-          return fishPoolPosBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFNCFAFDLAOBOrBuilder() {
+        if (fNCFAFDLAOBBuilder_ != null) {
+          return fNCFAFDLAOBBuilder_.getMessageOrBuilder();
         } else {
-          return fishPoolPos_ == null ?
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : fishPoolPos_;
+          return fNCFAFDLAOB_ == null ?
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : fNCFAFDLAOB_;
         }
       }
       /**
-       * <code>.Vector fish_pool_pos = 3;</code>
+       * <code>.Vector FNCFAFDLAOB = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
-          getFishPoolPosFieldBuilder() {
-        if (fishPoolPosBuilder_ == null) {
-          fishPoolPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+          getFNCFAFDLAOBFieldBuilder() {
+        if (fNCFAFDLAOBBuilder_ == null) {
+          fNCFAFDLAOBBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
-                  getFishPoolPos(),
+                  getFNCFAFDLAOB(),
                   getParentForChildren(),
                   isClean());
-          fishPoolPos_ = null;
+          fNCFAFDLAOB_ = null;
         }
-        return fishPoolPosBuilder_;
+        return fNCFAFDLAOBBuilder_;
       }
 
-      private int fishPoolEntityId_ ;
+      private int fDKCHNPFJCH_ ;
       /**
-       * <code>uint32 fish_pool_entity_id = 2;</code>
-       * @return The fishPoolEntityId.
+       * <code>uint32 FDKCHNPFJCH = 4;</code>
+       * @return The fDKCHNPFJCH.
        */
       @java.lang.Override
-      public int getFishPoolEntityId() {
-        return fishPoolEntityId_;
+      public int getFDKCHNPFJCH() {
+        return fDKCHNPFJCH_;
       }
       /**
-       * <code>uint32 fish_pool_entity_id = 2;</code>
-       * @param value The fishPoolEntityId to set.
+       * <code>uint32 FDKCHNPFJCH = 4;</code>
+       * @param value The fDKCHNPFJCH to set.
        * @return This builder for chaining.
        */
-      public Builder setFishPoolEntityId(int value) {
+      public Builder setFDKCHNPFJCH(int value) {
         
-        fishPoolEntityId_ = value;
+        fDKCHNPFJCH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 fish_pool_entity_id = 2;</code>
+       * <code>uint32 FDKCHNPFJCH = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFishPoolEntityId() {
+      public Builder clearFDKCHNPFJCH() {
         
-        fishPoolEntityId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int fishId_ ;
-      /**
-       * <code>uint32 fish_id = 1;</code>
-       * @return The fishId.
-       */
-      @java.lang.Override
-      public int getFishId() {
-        return fishId_;
-      }
-      /**
-       * <code>uint32 fish_id = 1;</code>
-       * @param value The fishId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setFishId(int value) {
-        
-        fishId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 fish_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearFishId() {
-        
-        fishId_ = 0;
+        fDKCHNPFJCH_ = 0;
         onChanged();
         return this;
       }
 
-      private int fishPoolGadgetId_ ;
+      private int bGMDCHIDGIN_ ;
       /**
-       * <code>uint32 fish_pool_gadget_id = 4;</code>
-       * @return The fishPoolGadgetId.
+       * <code>uint32 BGMDCHIDGIN = 2;</code>
+       * @return The bGMDCHIDGIN.
        */
       @java.lang.Override
-      public int getFishPoolGadgetId() {
-        return fishPoolGadgetId_;
+      public int getBGMDCHIDGIN() {
+        return bGMDCHIDGIN_;
       }
       /**
-       * <code>uint32 fish_pool_gadget_id = 4;</code>
-       * @param value The fishPoolGadgetId to set.
+       * <code>uint32 BGMDCHIDGIN = 2;</code>
+       * @param value The bGMDCHIDGIN to set.
        * @return This builder for chaining.
        */
-      public Builder setFishPoolGadgetId(int value) {
+      public Builder setBGMDCHIDGIN(int value) {
         
-        fishPoolGadgetId_ = value;
+        bGMDCHIDGIN_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 fish_pool_gadget_id = 4;</code>
+       * <code>uint32 BGMDCHIDGIN = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFishPoolGadgetId() {
+      public Builder clearBGMDCHIDGIN() {
         
-        fishPoolGadgetId_ = 0;
+        bGMDCHIDGIN_ = 0;
         onChanged();
         return this;
       }
 
-      private int lastShockTime_ ;
+      private int dEOPFEAEENI_ ;
       /**
-       * <code>uint32 last_shock_time = 5;</code>
-       * @return The lastShockTime.
+       * <code>uint32 DEOPFEAEENI = 1;</code>
+       * @return The dEOPFEAEENI.
        */
       @java.lang.Override
-      public int getLastShockTime() {
-        return lastShockTime_;
+      public int getDEOPFEAEENI() {
+        return dEOPFEAEENI_;
       }
       /**
-       * <code>uint32 last_shock_time = 5;</code>
-       * @param value The lastShockTime to set.
+       * <code>uint32 DEOPFEAEENI = 1;</code>
+       * @param value The dEOPFEAEENI to set.
        * @return This builder for chaining.
        */
-      public Builder setLastShockTime(int value) {
+      public Builder setDEOPFEAEENI(int value) {
         
-        lastShockTime_ = value;
+        dEOPFEAEENI_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 last_shock_time = 5;</code>
+       * <code>uint32 DEOPFEAEENI = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLastShockTime() {
+      public Builder clearDEOPFEAEENI() {
         
-        lastShockTime_ = 0;
+        dEOPFEAEENI_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int gKINGDECHDD_ ;
+      /**
+       * <code>uint32 GKINGDECHDD = 5;</code>
+       * @return The gKINGDECHDD.
+       */
+      @java.lang.Override
+      public int getGKINGDECHDD() {
+        return gKINGDECHDD_;
+      }
+      /**
+       * <code>uint32 GKINGDECHDD = 5;</code>
+       * @param value The gKINGDECHDD to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGKINGDECHDD(int value) {
+        
+        gKINGDECHDD_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 GKINGDECHDD = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGKINGDECHDD() {
+        
+        gKINGDECHDD_ = 0;
         onChanged();
         return this;
       }
@@ -929,12 +929,12 @@ public final class SceneFishInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023SceneFishInfo.proto\032\014Vector.proto\"\223\001\n\r" +
-      "SceneFishInfo\022\036\n\rfish_pool_pos\030\003 \001(\0132\007.V" +
-      "ector\022\033\n\023fish_pool_entity_id\030\002 \001(\r\022\017\n\007fi" +
-      "sh_id\030\001 \001(\r\022\033\n\023fish_pool_gadget_id\030\004 \001(\r" +
-      "\022\027\n\017last_shock_time\030\005 \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\n\023SceneFishInfo.proto\032\014Vector.proto\"\201\001\n\r" +
+      "SceneFishInfo\022\034\n\013FNCFAFDLAOB\030\003 \001(\0132\007.Vec" +
+      "tor\022\023\n\013FDKCHNPFJCH\030\004 \001(\r\022\023\n\013BGMDCHIDGIN\030" +
+      "\002 \001(\r\022\023\n\013DEOPFEAEENI\030\001 \001(\r\022\023\n\013GKINGDECHD" +
+      "D\030\005 \001(\rB\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -946,7 +946,7 @@ public final class SceneFishInfoOuterClass {
     internal_static_SceneFishInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SceneFishInfo_descriptor,
-        new java.lang.String[] { "FishPoolPos", "FishPoolEntityId", "FishId", "FishPoolGadgetId", "LastShockTime", });
+        new java.lang.String[] { "FNCFAFDLAOB", "FDKCHNPFJCH", "BGMDCHIDGIN", "DEOPFEAEENI", "GKINGDECHDD", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

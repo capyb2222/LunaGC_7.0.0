@@ -34,46 +34,26 @@ public final class DropHintNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder();
 
     /**
-     * <code>.Vector rotation = 11;</code>
-     * @return Whether the rotation field is set.
-     */
-    boolean hasRotation();
-    /**
-     * <code>.Vector rotation = 11;</code>
-     * @return The rotation.
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.Vector getRotation();
-    /**
-     * <code>.Vector rotation = 11;</code>
-     */
-    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotationOrBuilder();
-
-    /**
-     * <code>repeated uint32 item_id_list = 8;</code>
+     * <code>repeated uint32 item_id_list = 6;</code>
      * @return A list containing the itemIdList.
      */
     java.util.List<java.lang.Integer> getItemIdListList();
     /**
-     * <code>repeated uint32 item_id_list = 8;</code>
+     * <code>repeated uint32 item_id_list = 6;</code>
      * @return The count of itemIdList.
      */
     int getItemIdListCount();
     /**
-     * <code>repeated uint32 item_id_list = 8;</code>
+     * <code>repeated uint32 item_id_list = 6;</code>
      * @param index The index of the element to return.
      * @return The itemIdList at the given index.
      */
     int getItemIdList(int index);
-
-    /**
-     * <code>uint32 entity_id = 7;</code>
-     * @return The entityId.
-     */
-    int getEntityId();
   }
   /**
    * <pre>
-   * CmdId: 26603
+   * CmdId: 1884
+   * Obf: NMODMKDKNDF
    * </pre>
    *
    * Protobuf type {@code DropHintNotify}
@@ -135,12 +115,7 @@ public final class DropHintNotifyOuterClass {
 
               break;
             }
-            case 56: {
-
-              entityId_ = input.readUInt32();
-              break;
-            }
-            case 64: {
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -148,7 +123,7 @@ public final class DropHintNotifyOuterClass {
               itemIdList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -159,19 +134,6 @@ public final class DropHintNotifyOuterClass {
                 itemIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 90: {
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
-              if (rotation_ != null) {
-                subBuilder = rotation_.toBuilder();
-              }
-              rotation_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(rotation_);
-                rotation_ = subBuilder.buildPartial();
-              }
-
               break;
             }
             default: {
@@ -235,36 +197,10 @@ public final class DropHintNotifyOuterClass {
       return getPosition();
     }
 
-    public static final int ROTATION_FIELD_NUMBER = 11;
-    private emu.grasscutter.net.proto.VectorOuterClass.Vector rotation_;
-    /**
-     * <code>.Vector rotation = 11;</code>
-     * @return Whether the rotation field is set.
-     */
-    @java.lang.Override
-    public boolean hasRotation() {
-      return rotation_ != null;
-    }
-    /**
-     * <code>.Vector rotation = 11;</code>
-     * @return The rotation.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.Vector getRotation() {
-      return rotation_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rotation_;
-    }
-    /**
-     * <code>.Vector rotation = 11;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotationOrBuilder() {
-      return getRotation();
-    }
-
-    public static final int ITEM_ID_LIST_FIELD_NUMBER = 8;
+    public static final int ITEM_ID_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList itemIdList_;
     /**
-     * <code>repeated uint32 item_id_list = 8;</code>
+     * <code>repeated uint32 item_id_list = 6;</code>
      * @return A list containing the itemIdList.
      */
     @java.lang.Override
@@ -273,14 +209,14 @@ public final class DropHintNotifyOuterClass {
       return itemIdList_;
     }
     /**
-     * <code>repeated uint32 item_id_list = 8;</code>
+     * <code>repeated uint32 item_id_list = 6;</code>
      * @return The count of itemIdList.
      */
     public int getItemIdListCount() {
       return itemIdList_.size();
     }
     /**
-     * <code>repeated uint32 item_id_list = 8;</code>
+     * <code>repeated uint32 item_id_list = 6;</code>
      * @param index The index of the element to return.
      * @return The itemIdList at the given index.
      */
@@ -288,17 +224,6 @@ public final class DropHintNotifyOuterClass {
       return itemIdList_.getInt(index);
     }
     private int itemIdListMemoizedSerializedSize = -1;
-
-    public static final int ENTITY_ID_FIELD_NUMBER = 7;
-    private int entityId_;
-    /**
-     * <code>uint32 entity_id = 7;</code>
-     * @return The entityId.
-     */
-    @java.lang.Override
-    public int getEntityId() {
-      return entityId_;
-    }
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -318,18 +243,12 @@ public final class DropHintNotifyOuterClass {
       if (position_ != null) {
         output.writeMessage(3, getPosition());
       }
-      if (entityId_ != 0) {
-        output.writeUInt32(7, entityId_);
-      }
       if (getItemIdListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(50);
         output.writeUInt32NoTag(itemIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < itemIdList_.size(); i++) {
         output.writeUInt32NoTag(itemIdList_.getInt(i));
-      }
-      if (rotation_ != null) {
-        output.writeMessage(11, getRotation());
       }
       unknownFields.writeTo(output);
     }
@@ -344,10 +263,6 @@ public final class DropHintNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, getPosition());
       }
-      if (entityId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, entityId_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < itemIdList_.size(); i++) {
@@ -361,10 +276,6 @@ public final class DropHintNotifyOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         itemIdListMemoizedSerializedSize = dataSize;
-      }
-      if (rotation_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getRotation());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -386,15 +297,8 @@ public final class DropHintNotifyOuterClass {
         if (!getPosition()
             .equals(other.getPosition())) return false;
       }
-      if (hasRotation() != other.hasRotation()) return false;
-      if (hasRotation()) {
-        if (!getRotation()
-            .equals(other.getRotation())) return false;
-      }
       if (!getItemIdListList()
           .equals(other.getItemIdListList())) return false;
-      if (getEntityId()
-          != other.getEntityId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -410,16 +314,10 @@ public final class DropHintNotifyOuterClass {
         hash = (37 * hash) + POSITION_FIELD_NUMBER;
         hash = (53 * hash) + getPosition().hashCode();
       }
-      if (hasRotation()) {
-        hash = (37 * hash) + ROTATION_FIELD_NUMBER;
-        hash = (53 * hash) + getRotation().hashCode();
-      }
       if (getItemIdListCount() > 0) {
         hash = (37 * hash) + ITEM_ID_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getItemIdListList().hashCode();
       }
-      hash = (37 * hash) + ENTITY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getEntityId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -517,7 +415,8 @@ public final class DropHintNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 26603
+     * CmdId: 1884
+     * Obf: NMODMKDKNDF
      * </pre>
      *
      * Protobuf type {@code DropHintNotify}
@@ -563,16 +462,8 @@ public final class DropHintNotifyOuterClass {
           position_ = null;
           positionBuilder_ = null;
         }
-        if (rotationBuilder_ == null) {
-          rotation_ = null;
-        } else {
-          rotation_ = null;
-          rotationBuilder_ = null;
-        }
         itemIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        entityId_ = 0;
-
         return this;
       }
 
@@ -605,17 +496,11 @@ public final class DropHintNotifyOuterClass {
         } else {
           result.position_ = positionBuilder_.build();
         }
-        if (rotationBuilder_ == null) {
-          result.rotation_ = rotation_;
-        } else {
-          result.rotation_ = rotationBuilder_.build();
-        }
         if (((bitField0_ & 0x00000001) != 0)) {
           itemIdList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.itemIdList_ = itemIdList_;
-        result.entityId_ = entityId_;
         onBuilt();
         return result;
       }
@@ -667,9 +552,6 @@ public final class DropHintNotifyOuterClass {
         if (other.hasPosition()) {
           mergePosition(other.getPosition());
         }
-        if (other.hasRotation()) {
-          mergeRotation(other.getRotation());
-        }
         if (!other.itemIdList_.isEmpty()) {
           if (itemIdList_.isEmpty()) {
             itemIdList_ = other.itemIdList_;
@@ -679,9 +561,6 @@ public final class DropHintNotifyOuterClass {
             itemIdList_.addAll(other.itemIdList_);
           }
           onChanged();
-        }
-        if (other.getEntityId() != 0) {
-          setEntityId(other.getEntityId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -832,125 +711,6 @@ public final class DropHintNotifyOuterClass {
         return positionBuilder_;
       }
 
-      private emu.grasscutter.net.proto.VectorOuterClass.Vector rotation_;
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotationBuilder_;
-      /**
-       * <code>.Vector rotation = 11;</code>
-       * @return Whether the rotation field is set.
-       */
-      public boolean hasRotation() {
-        return rotationBuilder_ != null || rotation_ != null;
-      }
-      /**
-       * <code>.Vector rotation = 11;</code>
-       * @return The rotation.
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector getRotation() {
-        if (rotationBuilder_ == null) {
-          return rotation_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rotation_;
-        } else {
-          return rotationBuilder_.getMessage();
-        }
-      }
-      /**
-       * <code>.Vector rotation = 11;</code>
-       */
-      public Builder setRotation(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (rotationBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          rotation_ = value;
-          onChanged();
-        } else {
-          rotationBuilder_.setMessage(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector rotation = 11;</code>
-       */
-      public Builder setRotation(
-          emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
-        if (rotationBuilder_ == null) {
-          rotation_ = builderForValue.build();
-          onChanged();
-        } else {
-          rotationBuilder_.setMessage(builderForValue.build());
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector rotation = 11;</code>
-       */
-      public Builder mergeRotation(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
-        if (rotationBuilder_ == null) {
-          if (rotation_ != null) {
-            rotation_ =
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.newBuilder(rotation_).mergeFrom(value).buildPartial();
-          } else {
-            rotation_ = value;
-          }
-          onChanged();
-        } else {
-          rotationBuilder_.mergeFrom(value);
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector rotation = 11;</code>
-       */
-      public Builder clearRotation() {
-        if (rotationBuilder_ == null) {
-          rotation_ = null;
-          onChanged();
-        } else {
-          rotation_ = null;
-          rotationBuilder_ = null;
-        }
-
-        return this;
-      }
-      /**
-       * <code>.Vector rotation = 11;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotationBuilder() {
-        
-        onChanged();
-        return getRotationFieldBuilder().getBuilder();
-      }
-      /**
-       * <code>.Vector rotation = 11;</code>
-       */
-      public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotationOrBuilder() {
-        if (rotationBuilder_ != null) {
-          return rotationBuilder_.getMessageOrBuilder();
-        } else {
-          return rotation_ == null ?
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rotation_;
-        }
-      }
-      /**
-       * <code>.Vector rotation = 11;</code>
-       */
-      private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
-          getRotationFieldBuilder() {
-        if (rotationBuilder_ == null) {
-          rotationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>(
-                  getRotation(),
-                  getParentForChildren(),
-                  isClean());
-          rotation_ = null;
-        }
-        return rotationBuilder_;
-      }
-
       private com.google.protobuf.Internal.IntList itemIdList_ = emptyIntList();
       private void ensureItemIdListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
@@ -959,7 +719,7 @@ public final class DropHintNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 item_id_list = 8;</code>
+       * <code>repeated uint32 item_id_list = 6;</code>
        * @return A list containing the itemIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -968,14 +728,14 @@ public final class DropHintNotifyOuterClass {
                  java.util.Collections.unmodifiableList(itemIdList_) : itemIdList_;
       }
       /**
-       * <code>repeated uint32 item_id_list = 8;</code>
+       * <code>repeated uint32 item_id_list = 6;</code>
        * @return The count of itemIdList.
        */
       public int getItemIdListCount() {
         return itemIdList_.size();
       }
       /**
-       * <code>repeated uint32 item_id_list = 8;</code>
+       * <code>repeated uint32 item_id_list = 6;</code>
        * @param index The index of the element to return.
        * @return The itemIdList at the given index.
        */
@@ -983,7 +743,7 @@ public final class DropHintNotifyOuterClass {
         return itemIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 item_id_list = 8;</code>
+       * <code>repeated uint32 item_id_list = 6;</code>
        * @param index The index to set the value at.
        * @param value The itemIdList to set.
        * @return This builder for chaining.
@@ -996,7 +756,7 @@ public final class DropHintNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 item_id_list = 8;</code>
+       * <code>repeated uint32 item_id_list = 6;</code>
        * @param value The itemIdList to add.
        * @return This builder for chaining.
        */
@@ -1007,7 +767,7 @@ public final class DropHintNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 item_id_list = 8;</code>
+       * <code>repeated uint32 item_id_list = 6;</code>
        * @param values The itemIdList to add.
        * @return This builder for chaining.
        */
@@ -1020,43 +780,12 @@ public final class DropHintNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 item_id_list = 8;</code>
+       * <code>repeated uint32 item_id_list = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearItemIdList() {
         itemIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private int entityId_ ;
-      /**
-       * <code>uint32 entity_id = 7;</code>
-       * @return The entityId.
-       */
-      @java.lang.Override
-      public int getEntityId() {
-        return entityId_;
-      }
-      /**
-       * <code>uint32 entity_id = 7;</code>
-       * @param value The entityId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setEntityId(int value) {
-        
-        entityId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 entity_id = 7;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearEntityId() {
-        
-        entityId_ = 0;
         onChanged();
         return this;
       }
@@ -1127,11 +856,10 @@ public final class DropHintNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024DropHintNotify.proto\032\014Vector.proto\"o\n\016" +
+      "\n\024DropHintNotify.proto\032\014Vector.proto\"A\n\016" +
       "DropHintNotify\022\031\n\010position\030\003 \001(\0132\007.Vecto" +
-      "r\022\031\n\010rotation\030\013 \001(\0132\007.Vector\022\024\n\014item_id_" +
-      "list\030\010 \003(\r\022\021\n\tentity_id\030\007 \001(\rB\033\n\031emu.gra" +
-      "sscutter.net.protob\006proto3"
+      "r\022\024\n\014item_id_list\030\006 \003(\rB\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1143,7 +871,7 @@ public final class DropHintNotifyOuterClass {
     internal_static_DropHintNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DropHintNotify_descriptor,
-        new java.lang.String[] { "Position", "Rotation", "ItemIdList", "EntityId", });
+        new java.lang.String[] { "Position", "ItemIdList", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
   }
 

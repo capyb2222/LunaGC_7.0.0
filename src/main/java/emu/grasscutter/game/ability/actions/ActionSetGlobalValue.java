@@ -26,7 +26,7 @@ import emu.grasscutter.server.packet.send.PacketServerGlobalValueChangeNotify;
 public final class ActionSetGlobalValue extends AbilityActionHandler {
 
     private static final float[] DAMAGE_MULTIPLIERS = {0.024f, 0.016f, 0.024f, 0.016f, 0.024f, 0.016f, 0.024f, 0.036f};
-    private static final Random RANDOM = new Random(); 
+    private static final Random RANDOM = new Random();
 
     @Override
     public boolean execute(
@@ -39,7 +39,7 @@ public final class ActionSetGlobalValue extends AbilityActionHandler {
                     var value = owner.getFightProperty(property);
                     properties.put(name, value);
                 }
-      
+
                 properties.putAll(ability.getAbilitySpecials());
 
                 var valueKey = action.key;
@@ -49,23 +49,23 @@ public final class ActionSetGlobalValue extends AbilityActionHandler {
 
             if ("_ABILITY_ArkheGrade_Attack_CD".equals(valueKey)) {
                     var team = ability.getPlayerOwner().getTeamManager().getActiveTeam(); float multiplier = DAMAGE_MULTIPLIERS[RANDOM.nextInt(DAMAGE_MULTIPLIERS.length)];
-            
+
                     for (EntityAvatar teamMember : team) {
                         float curHP = teamMember.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP);
                         float maxHP = teamMember.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP);
                         float consumeHP = multiplier * maxHP;
                         int avatarId = teamMember.getAvatar().getAvatarId();
-            
+
                         boolean isFurina = avatarId == 10000089;
-         
+
                         if ((isFurina && curHP > 0.55f * maxHP) || (!isFurina && curHP > 0.5f * maxHP)) {
                             teamMember.damage(consumeHP);
                             teamMember.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(
                                 teamMember,
                                 FightProperty.FIGHT_PROP_CUR_HP,
                                 -consumeHP,
-                                PropChangeReasonOuterClass.PropChangeReason.PROP_CHANGE_REASON_ABILITY,
-                                ChangeHpReason.CHANGE_HP_REASON_SUB_ABILITY
+                                PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
+                                ChangeHpReason.ChangeHpReason_CHANGE_HP_SUB_ABILITY
                         ));
                     }
                 }

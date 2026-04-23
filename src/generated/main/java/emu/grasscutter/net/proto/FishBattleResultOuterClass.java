@@ -20,56 +20,56 @@ public final class FishBattleResultOuterClass {
   public enum FishBattleResult
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>FISH_BATTLE_RESULT_NONE = 0;</code>
+     * <code>FishBattleResult_NONE = 0;</code>
      */
-    FISH_BATTLE_RESULT_NONE(0),
+    FishBattleResult_NONE(0),
     /**
-     * <code>FISH_BATTLE_RESULT_SUCC = 1;</code>
+     * <code>FishBattleResult_SUCC = 1;</code>
      */
-    FISH_BATTLE_RESULT_SUCC(1),
+    FishBattleResult_SUCC(1),
     /**
-     * <code>FISH_BATTLE_RESULT_FAIL = 2;</code>
+     * <code>FishBattleResult_FAIL = 2;</code>
      */
-    FISH_BATTLE_RESULT_FAIL(2),
+    FishBattleResult_FAIL(2),
     /**
-     * <code>FISH_BATTLE_RESULT_TIMEOUT = 3;</code>
+     * <code>FishBattleResult_TIMEOUT = 3;</code>
      */
-    FISH_BATTLE_RESULT_TIMEOUT(3),
+    FishBattleResult_TIMEOUT(3),
     /**
-     * <code>FISH_BATTLE_RESULT_CANCEL = 4;</code>
+     * <code>FishBattleResult_CANCEL = 4;</code>
      */
-    FISH_BATTLE_RESULT_CANCEL(4),
+    FishBattleResult_CANCEL(4),
     /**
-     * <code>FISH_BATTLE_RESULT_EXIT = 5;</code>
+     * <code>FishBattleResult_EXIT = 5;</code>
      */
-    FISH_BATTLE_RESULT_EXIT(5),
+    FishBattleResult_EXIT(5),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>FISH_BATTLE_RESULT_NONE = 0;</code>
+     * <code>FishBattleResult_NONE = 0;</code>
      */
-    public static final int FISH_BATTLE_RESULT_NONE_VALUE = 0;
+    public static final int FishBattleResult_NONE_VALUE = 0;
     /**
-     * <code>FISH_BATTLE_RESULT_SUCC = 1;</code>
+     * <code>FishBattleResult_SUCC = 1;</code>
      */
-    public static final int FISH_BATTLE_RESULT_SUCC_VALUE = 1;
+    public static final int FishBattleResult_SUCC_VALUE = 1;
     /**
-     * <code>FISH_BATTLE_RESULT_FAIL = 2;</code>
+     * <code>FishBattleResult_FAIL = 2;</code>
      */
-    public static final int FISH_BATTLE_RESULT_FAIL_VALUE = 2;
+    public static final int FishBattleResult_FAIL_VALUE = 2;
     /**
-     * <code>FISH_BATTLE_RESULT_TIMEOUT = 3;</code>
+     * <code>FishBattleResult_TIMEOUT = 3;</code>
      */
-    public static final int FISH_BATTLE_RESULT_TIMEOUT_VALUE = 3;
+    public static final int FishBattleResult_TIMEOUT_VALUE = 3;
     /**
-     * <code>FISH_BATTLE_RESULT_CANCEL = 4;</code>
+     * <code>FishBattleResult_CANCEL = 4;</code>
      */
-    public static final int FISH_BATTLE_RESULT_CANCEL_VALUE = 4;
+    public static final int FishBattleResult_CANCEL_VALUE = 4;
     /**
-     * <code>FISH_BATTLE_RESULT_EXIT = 5;</code>
+     * <code>FishBattleResult_EXIT = 5;</code>
      */
-    public static final int FISH_BATTLE_RESULT_EXIT_VALUE = 5;
+    public static final int FishBattleResult_EXIT_VALUE = 5;
 
 
     public final int getNumber() {
@@ -96,12 +96,12 @@ public final class FishBattleResultOuterClass {
      */
     public static FishBattleResult forNumber(int value) {
       switch (value) {
-        case 0: return FISH_BATTLE_RESULT_NONE;
-        case 1: return FISH_BATTLE_RESULT_SUCC;
-        case 2: return FISH_BATTLE_RESULT_FAIL;
-        case 3: return FISH_BATTLE_RESULT_TIMEOUT;
-        case 4: return FISH_BATTLE_RESULT_CANCEL;
-        case 5: return FISH_BATTLE_RESULT_EXIT;
+        case 0: return FishBattleResult_NONE;
+        case 1: return FishBattleResult_SUCC;
+        case 2: return FishBattleResult_FAIL;
+        case 3: return FishBattleResult_TIMEOUT;
+        case 4: return FishBattleResult_CANCEL;
+        case 5: return FishBattleResult_EXIT;
         default: return null;
       }
     }
@@ -167,13 +167,13 @@ public final class FishBattleResultOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026FishBattleResult.proto*\305\001\n\020FishBattleR" +
-      "esult\022\033\n\027FISH_BATTLE_RESULT_NONE\020\000\022\033\n\027FI" +
-      "SH_BATTLE_RESULT_SUCC\020\001\022\033\n\027FISH_BATTLE_R" +
-      "ESULT_FAIL\020\002\022\036\n\032FISH_BATTLE_RESULT_TIMEO" +
-      "UT\020\003\022\035\n\031FISH_BATTLE_RESULT_CANCEL\020\004\022\033\n\027F" +
-      "ISH_BATTLE_RESULT_EXIT\020\005B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\n\026FishBattleResult.proto*\271\001\n\020FishBattleR" +
+      "esult\022\031\n\025FishBattleResult_NONE\020\000\022\031\n\025Fish" +
+      "BattleResult_SUCC\020\001\022\031\n\025FishBattleResult_" +
+      "FAIL\020\002\022\034\n\030FishBattleResult_TIMEOUT\020\003\022\033\n\027" +
+      "FishBattleResult_CANCEL\020\004\022\031\n\025FishBattleR" +
+      "esult_EXIT\020\005B\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

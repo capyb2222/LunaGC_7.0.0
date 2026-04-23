@@ -19,67 +19,71 @@ public final class GravenInnocenceDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
-     * @return Whether the carveInfo field is set.
+     * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
+     * @return Whether the oLAKMCFOJAH field is set.
      */
-    boolean hasCarveInfo();
+    boolean hasOLAKMCFOJAH();
     /**
-     * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
-     * @return The carveInfo.
+     * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
+     * @return The oLAKMCFOJAH.
      */
-    emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo getCarveInfo();
+    emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG getOLAKMCFOJAH();
     /**
-     * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
+     * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
      */
-    emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfoOrBuilder getCarveInfoOrBuilder();
+    emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCGOrBuilder getOLAKMCFOJAHOrBuilder();
 
     /**
-     * <code>.CCKDLHEDOLN race_info = 13;</code>
-     * @return Whether the raceInfo field is set.
+     * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
+     * @return Whether the pJMONLKHJNH field is set.
      */
-    boolean hasRaceInfo();
+    boolean hasPJMONLKHJNH();
     /**
-     * <code>.CCKDLHEDOLN race_info = 13;</code>
-     * @return The raceInfo.
+     * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
+     * @return The pJMONLKHJNH.
      */
-    emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN getRaceInfo();
+    emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP getPJMONLKHJNH();
     /**
-     * <code>.CCKDLHEDOLN race_info = 13;</code>
+     * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
      */
-    emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLNOrBuilder getRaceInfoOrBuilder();
+    emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFPOrBuilder getPJMONLKHJNHOrBuilder();
 
     /**
-     * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
-     * @return Whether the photoInfo field is set.
+     * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
+     * @return Whether the lACBCLHDFCF field is set.
      */
-    boolean hasPhotoInfo();
+    boolean hasLACBCLHDFCF();
     /**
-     * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
-     * @return The photoInfo.
+     * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
+     * @return The lACBCLHDFCF.
      */
-    emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo getPhotoInfo();
+    emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM getLACBCLHDFCF();
     /**
-     * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
+     * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
      */
-    emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfoOrBuilder getPhotoInfoOrBuilder();
+    emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBMOrBuilder getLACBCLHDFCFOrBuilder();
 
     /**
-     * <code>.PIGBKAABOCG camp_info = 11;</code>
-     * @return Whether the campInfo field is set.
+     * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
+     * @return Whether the mAGHEHENLEM field is set.
      */
-    boolean hasCampInfo();
+    boolean hasMAGHEHENLEM();
     /**
-     * <code>.PIGBKAABOCG camp_info = 11;</code>
-     * @return The campInfo.
+     * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
+     * @return The mAGHEHENLEM.
      */
-    emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG getCampInfo();
+    emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK getMAGHEHENLEM();
     /**
-     * <code>.PIGBKAABOCG camp_info = 11;</code>
+     * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
      */
-    emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCGOrBuilder getCampInfoOrBuilder();
+    emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCKOrBuilder getMAGHEHENLEMOrBuilder();
 
     /**
-     * <code>bool is_content_closed = 6;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 10;</code>
      * @return The isContentClosed.
      */
     boolean getIsContentClosed();
@@ -129,59 +133,59 @@ public final class GravenInnocenceDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 10: {
+              emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.Builder subBuilder = null;
+              if (oLAKMCFOJAH_ != null) {
+                subBuilder = oLAKMCFOJAH_.toBuilder();
+              }
+              oLAKMCFOJAH_ = input.readMessage(emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(oLAKMCFOJAH_);
+                oLAKMCFOJAH_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 26: {
+              emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.Builder subBuilder = null;
+              if (lACBCLHDFCF_ != null) {
+                subBuilder = lACBCLHDFCF_.toBuilder();
+              }
+              lACBCLHDFCF_ = input.readMessage(emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(lACBCLHDFCF_);
+                lACBCLHDFCF_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 80: {
 
               isContentClosed_ = input.readBool();
               break;
             }
-            case 82: {
-              emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.Builder subBuilder = null;
-              if (photoInfo_ != null) {
-                subBuilder = photoInfo_.toBuilder();
-              }
-              photoInfo_ = input.readMessage(emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(photoInfo_);
-                photoInfo_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 90: {
-              emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.Builder subBuilder = null;
-              if (campInfo_ != null) {
-                subBuilder = campInfo_.toBuilder();
+              emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.Builder subBuilder = null;
+              if (pJMONLKHJNH_ != null) {
+                subBuilder = pJMONLKHJNH_.toBuilder();
               }
-              campInfo_ = input.readMessage(emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.parser(), extensionRegistry);
+              pJMONLKHJNH_ = input.readMessage(emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(campInfo_);
-                campInfo_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(pJMONLKHJNH_);
+                pJMONLKHJNH_ = subBuilder.buildPartial();
               }
 
               break;
             }
-            case 106: {
-              emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.Builder subBuilder = null;
-              if (raceInfo_ != null) {
-                subBuilder = raceInfo_.toBuilder();
+            case 114: {
+              emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.Builder subBuilder = null;
+              if (mAGHEHENLEM_ != null) {
+                subBuilder = mAGHEHENLEM_.toBuilder();
               }
-              raceInfo_ = input.readMessage(emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.parser(), extensionRegistry);
+              mAGHEHENLEM_ = input.readMessage(emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(raceInfo_);
-                raceInfo_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 122: {
-              emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.Builder subBuilder = null;
-              if (carveInfo_ != null) {
-                subBuilder = carveInfo_.toBuilder();
-              }
-              carveInfo_ = input.readMessage(emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(carveInfo_);
-                carveInfo_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(mAGHEHENLEM_);
+                mAGHEHENLEM_ = subBuilder.buildPartial();
               }
 
               break;
@@ -218,114 +222,118 @@ public final class GravenInnocenceDetailInfoOuterClass {
               emu.grasscutter.net.proto.GravenInnocenceDetailInfoOuterClass.GravenInnocenceDetailInfo.class, emu.grasscutter.net.proto.GravenInnocenceDetailInfoOuterClass.GravenInnocenceDetailInfo.Builder.class);
     }
 
-    public static final int CARVE_INFO_FIELD_NUMBER = 15;
-    private emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo carveInfo_;
+    public static final int OLAKMCFOJAH_FIELD_NUMBER = 1;
+    private emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG oLAKMCFOJAH_;
     /**
-     * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
-     * @return Whether the carveInfo field is set.
+     * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
+     * @return Whether the oLAKMCFOJAH field is set.
      */
     @java.lang.Override
-    public boolean hasCarveInfo() {
-      return carveInfo_ != null;
+    public boolean hasOLAKMCFOJAH() {
+      return oLAKMCFOJAH_ != null;
     }
     /**
-     * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
-     * @return The carveInfo.
+     * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
+     * @return The oLAKMCFOJAH.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo getCarveInfo() {
-      return carveInfo_ == null ? emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.getDefaultInstance() : carveInfo_;
+    public emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG getOLAKMCFOJAH() {
+      return oLAKMCFOJAH_ == null ? emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.getDefaultInstance() : oLAKMCFOJAH_;
     }
     /**
-     * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
+     * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfoOrBuilder getCarveInfoOrBuilder() {
-      return getCarveInfo();
-    }
-
-    public static final int RACE_INFO_FIELD_NUMBER = 13;
-    private emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN raceInfo_;
-    /**
-     * <code>.CCKDLHEDOLN race_info = 13;</code>
-     * @return Whether the raceInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasRaceInfo() {
-      return raceInfo_ != null;
-    }
-    /**
-     * <code>.CCKDLHEDOLN race_info = 13;</code>
-     * @return The raceInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN getRaceInfo() {
-      return raceInfo_ == null ? emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.getDefaultInstance() : raceInfo_;
-    }
-    /**
-     * <code>.CCKDLHEDOLN race_info = 13;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLNOrBuilder getRaceInfoOrBuilder() {
-      return getRaceInfo();
+    public emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCGOrBuilder getOLAKMCFOJAHOrBuilder() {
+      return getOLAKMCFOJAH();
     }
 
-    public static final int PHOTO_INFO_FIELD_NUMBER = 10;
-    private emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo photoInfo_;
+    public static final int PJMONLKHJNH_FIELD_NUMBER = 11;
+    private emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP pJMONLKHJNH_;
     /**
-     * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
-     * @return Whether the photoInfo field is set.
+     * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
+     * @return Whether the pJMONLKHJNH field is set.
      */
     @java.lang.Override
-    public boolean hasPhotoInfo() {
-      return photoInfo_ != null;
+    public boolean hasPJMONLKHJNH() {
+      return pJMONLKHJNH_ != null;
     }
     /**
-     * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
-     * @return The photoInfo.
+     * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
+     * @return The pJMONLKHJNH.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo getPhotoInfo() {
-      return photoInfo_ == null ? emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.getDefaultInstance() : photoInfo_;
+    public emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP getPJMONLKHJNH() {
+      return pJMONLKHJNH_ == null ? emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.getDefaultInstance() : pJMONLKHJNH_;
     }
     /**
-     * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
+     * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfoOrBuilder getPhotoInfoOrBuilder() {
-      return getPhotoInfo();
-    }
-
-    public static final int CAMP_INFO_FIELD_NUMBER = 11;
-    private emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG campInfo_;
-    /**
-     * <code>.PIGBKAABOCG camp_info = 11;</code>
-     * @return Whether the campInfo field is set.
-     */
-    @java.lang.Override
-    public boolean hasCampInfo() {
-      return campInfo_ != null;
-    }
-    /**
-     * <code>.PIGBKAABOCG camp_info = 11;</code>
-     * @return The campInfo.
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG getCampInfo() {
-      return campInfo_ == null ? emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.getDefaultInstance() : campInfo_;
-    }
-    /**
-     * <code>.PIGBKAABOCG camp_info = 11;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCGOrBuilder getCampInfoOrBuilder() {
-      return getCampInfo();
+    public emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFPOrBuilder getPJMONLKHJNHOrBuilder() {
+      return getPJMONLKHJNH();
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 6;
+    public static final int LACBCLHDFCF_FIELD_NUMBER = 3;
+    private emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM lACBCLHDFCF_;
+    /**
+     * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
+     * @return Whether the lACBCLHDFCF field is set.
+     */
+    @java.lang.Override
+    public boolean hasLACBCLHDFCF() {
+      return lACBCLHDFCF_ != null;
+    }
+    /**
+     * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
+     * @return The lACBCLHDFCF.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM getLACBCLHDFCF() {
+      return lACBCLHDFCF_ == null ? emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.getDefaultInstance() : lACBCLHDFCF_;
+    }
+    /**
+     * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBMOrBuilder getLACBCLHDFCFOrBuilder() {
+      return getLACBCLHDFCF();
+    }
+
+    public static final int MAGHEHENLEM_FIELD_NUMBER = 14;
+    private emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK mAGHEHENLEM_;
+    /**
+     * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
+     * @return Whether the mAGHEHENLEM field is set.
+     */
+    @java.lang.Override
+    public boolean hasMAGHEHENLEM() {
+      return mAGHEHENLEM_ != null;
+    }
+    /**
+     * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
+     * @return The mAGHEHENLEM.
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK getMAGHEHENLEM() {
+      return mAGHEHENLEM_ == null ? emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.getDefaultInstance() : mAGHEHENLEM_;
+    }
+    /**
+     * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCKOrBuilder getMAGHEHENLEMOrBuilder() {
+      return getMAGHEHENLEM();
+    }
+
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 10;
     private boolean isContentClosed_;
     /**
-     * <code>bool is_content_closed = 6;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 10;</code>
      * @return The isContentClosed.
      */
     @java.lang.Override
@@ -347,20 +355,20 @@ public final class GravenInnocenceDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (oLAKMCFOJAH_ != null) {
+        output.writeMessage(1, getOLAKMCFOJAH());
+      }
+      if (lACBCLHDFCF_ != null) {
+        output.writeMessage(3, getLACBCLHDFCF());
+      }
       if (isContentClosed_ != false) {
-        output.writeBool(6, isContentClosed_);
+        output.writeBool(10, isContentClosed_);
       }
-      if (photoInfo_ != null) {
-        output.writeMessage(10, getPhotoInfo());
+      if (pJMONLKHJNH_ != null) {
+        output.writeMessage(11, getPJMONLKHJNH());
       }
-      if (campInfo_ != null) {
-        output.writeMessage(11, getCampInfo());
-      }
-      if (raceInfo_ != null) {
-        output.writeMessage(13, getRaceInfo());
-      }
-      if (carveInfo_ != null) {
-        output.writeMessage(15, getCarveInfo());
+      if (mAGHEHENLEM_ != null) {
+        output.writeMessage(14, getMAGHEHENLEM());
       }
       unknownFields.writeTo(output);
     }
@@ -371,25 +379,25 @@ public final class GravenInnocenceDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (oLAKMCFOJAH_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getOLAKMCFOJAH());
+      }
+      if (lACBCLHDFCF_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, getLACBCLHDFCF());
+      }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isContentClosed_);
+          .computeBoolSize(10, isContentClosed_);
       }
-      if (photoInfo_ != null) {
+      if (pJMONLKHJNH_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getPhotoInfo());
+          .computeMessageSize(11, getPJMONLKHJNH());
       }
-      if (campInfo_ != null) {
+      if (mAGHEHENLEM_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getCampInfo());
-      }
-      if (raceInfo_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getRaceInfo());
-      }
-      if (carveInfo_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getCarveInfo());
+          .computeMessageSize(14, getMAGHEHENLEM());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -406,25 +414,25 @@ public final class GravenInnocenceDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.GravenInnocenceDetailInfoOuterClass.GravenInnocenceDetailInfo other = (emu.grasscutter.net.proto.GravenInnocenceDetailInfoOuterClass.GravenInnocenceDetailInfo) obj;
 
-      if (hasCarveInfo() != other.hasCarveInfo()) return false;
-      if (hasCarveInfo()) {
-        if (!getCarveInfo()
-            .equals(other.getCarveInfo())) return false;
+      if (hasOLAKMCFOJAH() != other.hasOLAKMCFOJAH()) return false;
+      if (hasOLAKMCFOJAH()) {
+        if (!getOLAKMCFOJAH()
+            .equals(other.getOLAKMCFOJAH())) return false;
       }
-      if (hasRaceInfo() != other.hasRaceInfo()) return false;
-      if (hasRaceInfo()) {
-        if (!getRaceInfo()
-            .equals(other.getRaceInfo())) return false;
+      if (hasPJMONLKHJNH() != other.hasPJMONLKHJNH()) return false;
+      if (hasPJMONLKHJNH()) {
+        if (!getPJMONLKHJNH()
+            .equals(other.getPJMONLKHJNH())) return false;
       }
-      if (hasPhotoInfo() != other.hasPhotoInfo()) return false;
-      if (hasPhotoInfo()) {
-        if (!getPhotoInfo()
-            .equals(other.getPhotoInfo())) return false;
+      if (hasLACBCLHDFCF() != other.hasLACBCLHDFCF()) return false;
+      if (hasLACBCLHDFCF()) {
+        if (!getLACBCLHDFCF()
+            .equals(other.getLACBCLHDFCF())) return false;
       }
-      if (hasCampInfo() != other.hasCampInfo()) return false;
-      if (hasCampInfo()) {
-        if (!getCampInfo()
-            .equals(other.getCampInfo())) return false;
+      if (hasMAGHEHENLEM() != other.hasMAGHEHENLEM()) return false;
+      if (hasMAGHEHENLEM()) {
+        if (!getMAGHEHENLEM()
+            .equals(other.getMAGHEHENLEM())) return false;
       }
       if (getIsContentClosed()
           != other.getIsContentClosed()) return false;
@@ -439,21 +447,21 @@ public final class GravenInnocenceDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasCarveInfo()) {
-        hash = (37 * hash) + CARVE_INFO_FIELD_NUMBER;
-        hash = (53 * hash) + getCarveInfo().hashCode();
+      if (hasOLAKMCFOJAH()) {
+        hash = (37 * hash) + OLAKMCFOJAH_FIELD_NUMBER;
+        hash = (53 * hash) + getOLAKMCFOJAH().hashCode();
       }
-      if (hasRaceInfo()) {
-        hash = (37 * hash) + RACE_INFO_FIELD_NUMBER;
-        hash = (53 * hash) + getRaceInfo().hashCode();
+      if (hasPJMONLKHJNH()) {
+        hash = (37 * hash) + PJMONLKHJNH_FIELD_NUMBER;
+        hash = (53 * hash) + getPJMONLKHJNH().hashCode();
       }
-      if (hasPhotoInfo()) {
-        hash = (37 * hash) + PHOTO_INFO_FIELD_NUMBER;
-        hash = (53 * hash) + getPhotoInfo().hashCode();
+      if (hasLACBCLHDFCF()) {
+        hash = (37 * hash) + LACBCLHDFCF_FIELD_NUMBER;
+        hash = (53 * hash) + getLACBCLHDFCF().hashCode();
       }
-      if (hasCampInfo()) {
-        hash = (37 * hash) + CAMP_INFO_FIELD_NUMBER;
-        hash = (53 * hash) + getCampInfo().hashCode();
+      if (hasMAGHEHENLEM()) {
+        hash = (37 * hash) + MAGHEHENLEM_FIELD_NUMBER;
+        hash = (53 * hash) + getMAGHEHENLEM().hashCode();
       }
       hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
@@ -591,29 +599,29 @@ public final class GravenInnocenceDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (carveInfoBuilder_ == null) {
-          carveInfo_ = null;
+        if (oLAKMCFOJAHBuilder_ == null) {
+          oLAKMCFOJAH_ = null;
         } else {
-          carveInfo_ = null;
-          carveInfoBuilder_ = null;
+          oLAKMCFOJAH_ = null;
+          oLAKMCFOJAHBuilder_ = null;
         }
-        if (raceInfoBuilder_ == null) {
-          raceInfo_ = null;
+        if (pJMONLKHJNHBuilder_ == null) {
+          pJMONLKHJNH_ = null;
         } else {
-          raceInfo_ = null;
-          raceInfoBuilder_ = null;
+          pJMONLKHJNH_ = null;
+          pJMONLKHJNHBuilder_ = null;
         }
-        if (photoInfoBuilder_ == null) {
-          photoInfo_ = null;
+        if (lACBCLHDFCFBuilder_ == null) {
+          lACBCLHDFCF_ = null;
         } else {
-          photoInfo_ = null;
-          photoInfoBuilder_ = null;
+          lACBCLHDFCF_ = null;
+          lACBCLHDFCFBuilder_ = null;
         }
-        if (campInfoBuilder_ == null) {
-          campInfo_ = null;
+        if (mAGHEHENLEMBuilder_ == null) {
+          mAGHEHENLEM_ = null;
         } else {
-          campInfo_ = null;
-          campInfoBuilder_ = null;
+          mAGHEHENLEM_ = null;
+          mAGHEHENLEMBuilder_ = null;
         }
         isContentClosed_ = false;
 
@@ -643,25 +651,25 @@ public final class GravenInnocenceDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GravenInnocenceDetailInfoOuterClass.GravenInnocenceDetailInfo buildPartial() {
         emu.grasscutter.net.proto.GravenInnocenceDetailInfoOuterClass.GravenInnocenceDetailInfo result = new emu.grasscutter.net.proto.GravenInnocenceDetailInfoOuterClass.GravenInnocenceDetailInfo(this);
-        if (carveInfoBuilder_ == null) {
-          result.carveInfo_ = carveInfo_;
+        if (oLAKMCFOJAHBuilder_ == null) {
+          result.oLAKMCFOJAH_ = oLAKMCFOJAH_;
         } else {
-          result.carveInfo_ = carveInfoBuilder_.build();
+          result.oLAKMCFOJAH_ = oLAKMCFOJAHBuilder_.build();
         }
-        if (raceInfoBuilder_ == null) {
-          result.raceInfo_ = raceInfo_;
+        if (pJMONLKHJNHBuilder_ == null) {
+          result.pJMONLKHJNH_ = pJMONLKHJNH_;
         } else {
-          result.raceInfo_ = raceInfoBuilder_.build();
+          result.pJMONLKHJNH_ = pJMONLKHJNHBuilder_.build();
         }
-        if (photoInfoBuilder_ == null) {
-          result.photoInfo_ = photoInfo_;
+        if (lACBCLHDFCFBuilder_ == null) {
+          result.lACBCLHDFCF_ = lACBCLHDFCF_;
         } else {
-          result.photoInfo_ = photoInfoBuilder_.build();
+          result.lACBCLHDFCF_ = lACBCLHDFCFBuilder_.build();
         }
-        if (campInfoBuilder_ == null) {
-          result.campInfo_ = campInfo_;
+        if (mAGHEHENLEMBuilder_ == null) {
+          result.mAGHEHENLEM_ = mAGHEHENLEM_;
         } else {
-          result.campInfo_ = campInfoBuilder_.build();
+          result.mAGHEHENLEM_ = mAGHEHENLEMBuilder_.build();
         }
         result.isContentClosed_ = isContentClosed_;
         onBuilt();
@@ -712,17 +720,17 @@ public final class GravenInnocenceDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GravenInnocenceDetailInfoOuterClass.GravenInnocenceDetailInfo other) {
         if (other == emu.grasscutter.net.proto.GravenInnocenceDetailInfoOuterClass.GravenInnocenceDetailInfo.getDefaultInstance()) return this;
-        if (other.hasCarveInfo()) {
-          mergeCarveInfo(other.getCarveInfo());
+        if (other.hasOLAKMCFOJAH()) {
+          mergeOLAKMCFOJAH(other.getOLAKMCFOJAH());
         }
-        if (other.hasRaceInfo()) {
-          mergeRaceInfo(other.getRaceInfo());
+        if (other.hasPJMONLKHJNH()) {
+          mergePJMONLKHJNH(other.getPJMONLKHJNH());
         }
-        if (other.hasPhotoInfo()) {
-          mergePhotoInfo(other.getPhotoInfo());
+        if (other.hasLACBCLHDFCF()) {
+          mergeLACBCLHDFCF(other.getLACBCLHDFCF());
         }
-        if (other.hasCampInfo()) {
-          mergeCampInfo(other.getCampInfo());
+        if (other.hasMAGHEHENLEM()) {
+          mergeMAGHEHENLEM(other.getMAGHEHENLEM());
         }
         if (other.getIsContentClosed() != false) {
           setIsContentClosed(other.getIsContentClosed());
@@ -756,485 +764,489 @@ public final class GravenInnocenceDetailInfoOuterClass {
         return this;
       }
 
-      private emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo carveInfo_;
+      private emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG oLAKMCFOJAH_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo, emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.Builder, emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfoOrBuilder> carveInfoBuilder_;
+          emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.Builder, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCGOrBuilder> oLAKMCFOJAHBuilder_;
       /**
-       * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
-       * @return Whether the carveInfo field is set.
+       * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
+       * @return Whether the oLAKMCFOJAH field is set.
        */
-      public boolean hasCarveInfo() {
-        return carveInfoBuilder_ != null || carveInfo_ != null;
+      public boolean hasOLAKMCFOJAH() {
+        return oLAKMCFOJAHBuilder_ != null || oLAKMCFOJAH_ != null;
       }
       /**
-       * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
-       * @return The carveInfo.
+       * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
+       * @return The oLAKMCFOJAH.
        */
-      public emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo getCarveInfo() {
-        if (carveInfoBuilder_ == null) {
-          return carveInfo_ == null ? emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.getDefaultInstance() : carveInfo_;
+      public emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG getOLAKMCFOJAH() {
+        if (oLAKMCFOJAHBuilder_ == null) {
+          return oLAKMCFOJAH_ == null ? emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.getDefaultInstance() : oLAKMCFOJAH_;
         } else {
-          return carveInfoBuilder_.getMessage();
+          return oLAKMCFOJAHBuilder_.getMessage();
         }
       }
       /**
-       * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
+       * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
        */
-      public Builder setCarveInfo(emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo value) {
-        if (carveInfoBuilder_ == null) {
+      public Builder setOLAKMCFOJAH(emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG value) {
+        if (oLAKMCFOJAHBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          carveInfo_ = value;
+          oLAKMCFOJAH_ = value;
           onChanged();
         } else {
-          carveInfoBuilder_.setMessage(value);
+          oLAKMCFOJAHBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
+       * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
        */
-      public Builder setCarveInfo(
-          emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.Builder builderForValue) {
-        if (carveInfoBuilder_ == null) {
-          carveInfo_ = builderForValue.build();
+      public Builder setOLAKMCFOJAH(
+          emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.Builder builderForValue) {
+        if (oLAKMCFOJAHBuilder_ == null) {
+          oLAKMCFOJAH_ = builderForValue.build();
           onChanged();
         } else {
-          carveInfoBuilder_.setMessage(builderForValue.build());
+          oLAKMCFOJAHBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
+       * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
        */
-      public Builder mergeCarveInfo(emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo value) {
-        if (carveInfoBuilder_ == null) {
-          if (carveInfo_ != null) {
-            carveInfo_ =
-              emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.newBuilder(carveInfo_).mergeFrom(value).buildPartial();
+      public Builder mergeOLAKMCFOJAH(emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG value) {
+        if (oLAKMCFOJAHBuilder_ == null) {
+          if (oLAKMCFOJAH_ != null) {
+            oLAKMCFOJAH_ =
+              emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.newBuilder(oLAKMCFOJAH_).mergeFrom(value).buildPartial();
           } else {
-            carveInfo_ = value;
+            oLAKMCFOJAH_ = value;
           }
           onChanged();
         } else {
-          carveInfoBuilder_.mergeFrom(value);
+          oLAKMCFOJAHBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
+       * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
        */
-      public Builder clearCarveInfo() {
-        if (carveInfoBuilder_ == null) {
-          carveInfo_ = null;
+      public Builder clearOLAKMCFOJAH() {
+        if (oLAKMCFOJAHBuilder_ == null) {
+          oLAKMCFOJAH_ = null;
           onChanged();
         } else {
-          carveInfo_ = null;
-          carveInfoBuilder_ = null;
+          oLAKMCFOJAH_ = null;
+          oLAKMCFOJAHBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
+       * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
        */
-      public emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.Builder getCarveInfoBuilder() {
+      public emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.Builder getOLAKMCFOJAHBuilder() {
         
         onChanged();
-        return getCarveInfoFieldBuilder().getBuilder();
+        return getOLAKMCFOJAHFieldBuilder().getBuilder();
       }
       /**
-       * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
+       * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
        */
-      public emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfoOrBuilder getCarveInfoOrBuilder() {
-        if (carveInfoBuilder_ != null) {
-          return carveInfoBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCGOrBuilder getOLAKMCFOJAHOrBuilder() {
+        if (oLAKMCFOJAHBuilder_ != null) {
+          return oLAKMCFOJAHBuilder_.getMessageOrBuilder();
         } else {
-          return carveInfo_ == null ?
-              emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.getDefaultInstance() : carveInfo_;
+          return oLAKMCFOJAH_ == null ?
+              emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.getDefaultInstance() : oLAKMCFOJAH_;
         }
       }
       /**
-       * <code>.GravenInnocenceCarveInfo carve_info = 15;</code>
+       * <code>.OEBEHAKIPCG OLAKMCFOJAH = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo, emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.Builder, emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfoOrBuilder> 
-          getCarveInfoFieldBuilder() {
-        if (carveInfoBuilder_ == null) {
-          carveInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo, emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfo.Builder, emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.GravenInnocenceCarveInfoOrBuilder>(
-                  getCarveInfo(),
+          emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.Builder, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCGOrBuilder> 
+          getOLAKMCFOJAHFieldBuilder() {
+        if (oLAKMCFOJAHBuilder_ == null) {
+          oLAKMCFOJAHBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCG.Builder, emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.OEBEHAKIPCGOrBuilder>(
+                  getOLAKMCFOJAH(),
                   getParentForChildren(),
                   isClean());
-          carveInfo_ = null;
+          oLAKMCFOJAH_ = null;
         }
-        return carveInfoBuilder_;
+        return oLAKMCFOJAHBuilder_;
       }
 
-      private emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN raceInfo_;
+      private emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP pJMONLKHJNH_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN, emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.Builder, emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLNOrBuilder> raceInfoBuilder_;
+          emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.Builder, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFPOrBuilder> pJMONLKHJNHBuilder_;
       /**
-       * <code>.CCKDLHEDOLN race_info = 13;</code>
-       * @return Whether the raceInfo field is set.
+       * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
+       * @return Whether the pJMONLKHJNH field is set.
        */
-      public boolean hasRaceInfo() {
-        return raceInfoBuilder_ != null || raceInfo_ != null;
+      public boolean hasPJMONLKHJNH() {
+        return pJMONLKHJNHBuilder_ != null || pJMONLKHJNH_ != null;
       }
       /**
-       * <code>.CCKDLHEDOLN race_info = 13;</code>
-       * @return The raceInfo.
+       * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
+       * @return The pJMONLKHJNH.
        */
-      public emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN getRaceInfo() {
-        if (raceInfoBuilder_ == null) {
-          return raceInfo_ == null ? emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.getDefaultInstance() : raceInfo_;
+      public emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP getPJMONLKHJNH() {
+        if (pJMONLKHJNHBuilder_ == null) {
+          return pJMONLKHJNH_ == null ? emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.getDefaultInstance() : pJMONLKHJNH_;
         } else {
-          return raceInfoBuilder_.getMessage();
+          return pJMONLKHJNHBuilder_.getMessage();
         }
       }
       /**
-       * <code>.CCKDLHEDOLN race_info = 13;</code>
+       * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
        */
-      public Builder setRaceInfo(emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN value) {
-        if (raceInfoBuilder_ == null) {
+      public Builder setPJMONLKHJNH(emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP value) {
+        if (pJMONLKHJNHBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          raceInfo_ = value;
+          pJMONLKHJNH_ = value;
           onChanged();
         } else {
-          raceInfoBuilder_.setMessage(value);
+          pJMONLKHJNHBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.CCKDLHEDOLN race_info = 13;</code>
+       * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
        */
-      public Builder setRaceInfo(
-          emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.Builder builderForValue) {
-        if (raceInfoBuilder_ == null) {
-          raceInfo_ = builderForValue.build();
+      public Builder setPJMONLKHJNH(
+          emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.Builder builderForValue) {
+        if (pJMONLKHJNHBuilder_ == null) {
+          pJMONLKHJNH_ = builderForValue.build();
           onChanged();
         } else {
-          raceInfoBuilder_.setMessage(builderForValue.build());
+          pJMONLKHJNHBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.CCKDLHEDOLN race_info = 13;</code>
+       * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
        */
-      public Builder mergeRaceInfo(emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN value) {
-        if (raceInfoBuilder_ == null) {
-          if (raceInfo_ != null) {
-            raceInfo_ =
-              emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.newBuilder(raceInfo_).mergeFrom(value).buildPartial();
+      public Builder mergePJMONLKHJNH(emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP value) {
+        if (pJMONLKHJNHBuilder_ == null) {
+          if (pJMONLKHJNH_ != null) {
+            pJMONLKHJNH_ =
+              emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.newBuilder(pJMONLKHJNH_).mergeFrom(value).buildPartial();
           } else {
-            raceInfo_ = value;
+            pJMONLKHJNH_ = value;
           }
           onChanged();
         } else {
-          raceInfoBuilder_.mergeFrom(value);
+          pJMONLKHJNHBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.CCKDLHEDOLN race_info = 13;</code>
+       * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
        */
-      public Builder clearRaceInfo() {
-        if (raceInfoBuilder_ == null) {
-          raceInfo_ = null;
+      public Builder clearPJMONLKHJNH() {
+        if (pJMONLKHJNHBuilder_ == null) {
+          pJMONLKHJNH_ = null;
           onChanged();
         } else {
-          raceInfo_ = null;
-          raceInfoBuilder_ = null;
+          pJMONLKHJNH_ = null;
+          pJMONLKHJNHBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.CCKDLHEDOLN race_info = 13;</code>
+       * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
        */
-      public emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.Builder getRaceInfoBuilder() {
+      public emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.Builder getPJMONLKHJNHBuilder() {
         
         onChanged();
-        return getRaceInfoFieldBuilder().getBuilder();
+        return getPJMONLKHJNHFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CCKDLHEDOLN race_info = 13;</code>
+       * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
        */
-      public emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLNOrBuilder getRaceInfoOrBuilder() {
-        if (raceInfoBuilder_ != null) {
-          return raceInfoBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFPOrBuilder getPJMONLKHJNHOrBuilder() {
+        if (pJMONLKHJNHBuilder_ != null) {
+          return pJMONLKHJNHBuilder_.getMessageOrBuilder();
         } else {
-          return raceInfo_ == null ?
-              emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.getDefaultInstance() : raceInfo_;
+          return pJMONLKHJNH_ == null ?
+              emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.getDefaultInstance() : pJMONLKHJNH_;
         }
       }
       /**
-       * <code>.CCKDLHEDOLN race_info = 13;</code>
+       * <code>.GPPIOLIGLFP PJMONLKHJNH = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN, emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.Builder, emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLNOrBuilder> 
-          getRaceInfoFieldBuilder() {
-        if (raceInfoBuilder_ == null) {
-          raceInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN, emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLN.Builder, emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.CCKDLHEDOLNOrBuilder>(
-                  getRaceInfo(),
+          emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.Builder, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFPOrBuilder> 
+          getPJMONLKHJNHFieldBuilder() {
+        if (pJMONLKHJNHBuilder_ == null) {
+          pJMONLKHJNHBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFP.Builder, emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.GPPIOLIGLFPOrBuilder>(
+                  getPJMONLKHJNH(),
                   getParentForChildren(),
                   isClean());
-          raceInfo_ = null;
+          pJMONLKHJNH_ = null;
         }
-        return raceInfoBuilder_;
+        return pJMONLKHJNHBuilder_;
       }
 
-      private emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo photoInfo_;
+      private emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM lACBCLHDFCF_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo, emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.Builder, emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfoOrBuilder> photoInfoBuilder_;
+          emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.Builder, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBMOrBuilder> lACBCLHDFCFBuilder_;
       /**
-       * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
-       * @return Whether the photoInfo field is set.
+       * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
+       * @return Whether the lACBCLHDFCF field is set.
        */
-      public boolean hasPhotoInfo() {
-        return photoInfoBuilder_ != null || photoInfo_ != null;
+      public boolean hasLACBCLHDFCF() {
+        return lACBCLHDFCFBuilder_ != null || lACBCLHDFCF_ != null;
       }
       /**
-       * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
-       * @return The photoInfo.
+       * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
+       * @return The lACBCLHDFCF.
        */
-      public emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo getPhotoInfo() {
-        if (photoInfoBuilder_ == null) {
-          return photoInfo_ == null ? emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.getDefaultInstance() : photoInfo_;
+      public emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM getLACBCLHDFCF() {
+        if (lACBCLHDFCFBuilder_ == null) {
+          return lACBCLHDFCF_ == null ? emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.getDefaultInstance() : lACBCLHDFCF_;
         } else {
-          return photoInfoBuilder_.getMessage();
+          return lACBCLHDFCFBuilder_.getMessage();
         }
       }
       /**
-       * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
+       * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
        */
-      public Builder setPhotoInfo(emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo value) {
-        if (photoInfoBuilder_ == null) {
+      public Builder setLACBCLHDFCF(emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM value) {
+        if (lACBCLHDFCFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          photoInfo_ = value;
+          lACBCLHDFCF_ = value;
           onChanged();
         } else {
-          photoInfoBuilder_.setMessage(value);
+          lACBCLHDFCFBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
+       * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
        */
-      public Builder setPhotoInfo(
-          emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.Builder builderForValue) {
-        if (photoInfoBuilder_ == null) {
-          photoInfo_ = builderForValue.build();
+      public Builder setLACBCLHDFCF(
+          emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.Builder builderForValue) {
+        if (lACBCLHDFCFBuilder_ == null) {
+          lACBCLHDFCF_ = builderForValue.build();
           onChanged();
         } else {
-          photoInfoBuilder_.setMessage(builderForValue.build());
+          lACBCLHDFCFBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
+       * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
        */
-      public Builder mergePhotoInfo(emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo value) {
-        if (photoInfoBuilder_ == null) {
-          if (photoInfo_ != null) {
-            photoInfo_ =
-              emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.newBuilder(photoInfo_).mergeFrom(value).buildPartial();
+      public Builder mergeLACBCLHDFCF(emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM value) {
+        if (lACBCLHDFCFBuilder_ == null) {
+          if (lACBCLHDFCF_ != null) {
+            lACBCLHDFCF_ =
+              emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.newBuilder(lACBCLHDFCF_).mergeFrom(value).buildPartial();
           } else {
-            photoInfo_ = value;
+            lACBCLHDFCF_ = value;
           }
           onChanged();
         } else {
-          photoInfoBuilder_.mergeFrom(value);
+          lACBCLHDFCFBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
+       * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
        */
-      public Builder clearPhotoInfo() {
-        if (photoInfoBuilder_ == null) {
-          photoInfo_ = null;
+      public Builder clearLACBCLHDFCF() {
+        if (lACBCLHDFCFBuilder_ == null) {
+          lACBCLHDFCF_ = null;
           onChanged();
         } else {
-          photoInfo_ = null;
-          photoInfoBuilder_ = null;
+          lACBCLHDFCF_ = null;
+          lACBCLHDFCFBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
+       * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
        */
-      public emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.Builder getPhotoInfoBuilder() {
+      public emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.Builder getLACBCLHDFCFBuilder() {
         
         onChanged();
-        return getPhotoInfoFieldBuilder().getBuilder();
+        return getLACBCLHDFCFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
+       * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
        */
-      public emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfoOrBuilder getPhotoInfoOrBuilder() {
-        if (photoInfoBuilder_ != null) {
-          return photoInfoBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBMOrBuilder getLACBCLHDFCFOrBuilder() {
+        if (lACBCLHDFCFBuilder_ != null) {
+          return lACBCLHDFCFBuilder_.getMessageOrBuilder();
         } else {
-          return photoInfo_ == null ?
-              emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.getDefaultInstance() : photoInfo_;
+          return lACBCLHDFCF_ == null ?
+              emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.getDefaultInstance() : lACBCLHDFCF_;
         }
       }
       /**
-       * <code>.GravenInnocencePhotoInfo photo_info = 10;</code>
+       * <code>.MLLCAJDJMBM LACBCLHDFCF = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo, emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.Builder, emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfoOrBuilder> 
-          getPhotoInfoFieldBuilder() {
-        if (photoInfoBuilder_ == null) {
-          photoInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo, emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfo.Builder, emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.GravenInnocencePhotoInfoOrBuilder>(
-                  getPhotoInfo(),
+          emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.Builder, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBMOrBuilder> 
+          getLACBCLHDFCFFieldBuilder() {
+        if (lACBCLHDFCFBuilder_ == null) {
+          lACBCLHDFCFBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBM.Builder, emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.MLLCAJDJMBMOrBuilder>(
+                  getLACBCLHDFCF(),
                   getParentForChildren(),
                   isClean());
-          photoInfo_ = null;
+          lACBCLHDFCF_ = null;
         }
-        return photoInfoBuilder_;
+        return lACBCLHDFCFBuilder_;
       }
 
-      private emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG campInfo_;
+      private emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK mAGHEHENLEM_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG, emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.Builder, emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCGOrBuilder> campInfoBuilder_;
+          emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.Builder, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCKOrBuilder> mAGHEHENLEMBuilder_;
       /**
-       * <code>.PIGBKAABOCG camp_info = 11;</code>
-       * @return Whether the campInfo field is set.
+       * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
+       * @return Whether the mAGHEHENLEM field is set.
        */
-      public boolean hasCampInfo() {
-        return campInfoBuilder_ != null || campInfo_ != null;
+      public boolean hasMAGHEHENLEM() {
+        return mAGHEHENLEMBuilder_ != null || mAGHEHENLEM_ != null;
       }
       /**
-       * <code>.PIGBKAABOCG camp_info = 11;</code>
-       * @return The campInfo.
+       * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
+       * @return The mAGHEHENLEM.
        */
-      public emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG getCampInfo() {
-        if (campInfoBuilder_ == null) {
-          return campInfo_ == null ? emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.getDefaultInstance() : campInfo_;
+      public emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK getMAGHEHENLEM() {
+        if (mAGHEHENLEMBuilder_ == null) {
+          return mAGHEHENLEM_ == null ? emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.getDefaultInstance() : mAGHEHENLEM_;
         } else {
-          return campInfoBuilder_.getMessage();
+          return mAGHEHENLEMBuilder_.getMessage();
         }
       }
       /**
-       * <code>.PIGBKAABOCG camp_info = 11;</code>
+       * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
        */
-      public Builder setCampInfo(emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG value) {
-        if (campInfoBuilder_ == null) {
+      public Builder setMAGHEHENLEM(emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK value) {
+        if (mAGHEHENLEMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          campInfo_ = value;
+          mAGHEHENLEM_ = value;
           onChanged();
         } else {
-          campInfoBuilder_.setMessage(value);
+          mAGHEHENLEMBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.PIGBKAABOCG camp_info = 11;</code>
+       * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
        */
-      public Builder setCampInfo(
-          emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.Builder builderForValue) {
-        if (campInfoBuilder_ == null) {
-          campInfo_ = builderForValue.build();
+      public Builder setMAGHEHENLEM(
+          emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.Builder builderForValue) {
+        if (mAGHEHENLEMBuilder_ == null) {
+          mAGHEHENLEM_ = builderForValue.build();
           onChanged();
         } else {
-          campInfoBuilder_.setMessage(builderForValue.build());
+          mAGHEHENLEMBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.PIGBKAABOCG camp_info = 11;</code>
+       * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
        */
-      public Builder mergeCampInfo(emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG value) {
-        if (campInfoBuilder_ == null) {
-          if (campInfo_ != null) {
-            campInfo_ =
-              emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.newBuilder(campInfo_).mergeFrom(value).buildPartial();
+      public Builder mergeMAGHEHENLEM(emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK value) {
+        if (mAGHEHENLEMBuilder_ == null) {
+          if (mAGHEHENLEM_ != null) {
+            mAGHEHENLEM_ =
+              emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.newBuilder(mAGHEHENLEM_).mergeFrom(value).buildPartial();
           } else {
-            campInfo_ = value;
+            mAGHEHENLEM_ = value;
           }
           onChanged();
         } else {
-          campInfoBuilder_.mergeFrom(value);
+          mAGHEHENLEMBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.PIGBKAABOCG camp_info = 11;</code>
+       * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
        */
-      public Builder clearCampInfo() {
-        if (campInfoBuilder_ == null) {
-          campInfo_ = null;
+      public Builder clearMAGHEHENLEM() {
+        if (mAGHEHENLEMBuilder_ == null) {
+          mAGHEHENLEM_ = null;
           onChanged();
         } else {
-          campInfo_ = null;
-          campInfoBuilder_ = null;
+          mAGHEHENLEM_ = null;
+          mAGHEHENLEMBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.PIGBKAABOCG camp_info = 11;</code>
+       * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
        */
-      public emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.Builder getCampInfoBuilder() {
+      public emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.Builder getMAGHEHENLEMBuilder() {
         
         onChanged();
-        return getCampInfoFieldBuilder().getBuilder();
+        return getMAGHEHENLEMFieldBuilder().getBuilder();
       }
       /**
-       * <code>.PIGBKAABOCG camp_info = 11;</code>
+       * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
        */
-      public emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCGOrBuilder getCampInfoOrBuilder() {
-        if (campInfoBuilder_ != null) {
-          return campInfoBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCKOrBuilder getMAGHEHENLEMOrBuilder() {
+        if (mAGHEHENLEMBuilder_ != null) {
+          return mAGHEHENLEMBuilder_.getMessageOrBuilder();
         } else {
-          return campInfo_ == null ?
-              emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.getDefaultInstance() : campInfo_;
+          return mAGHEHENLEM_ == null ?
+              emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.getDefaultInstance() : mAGHEHENLEM_;
         }
       }
       /**
-       * <code>.PIGBKAABOCG camp_info = 11;</code>
+       * <code>.GLCPBBIGCCK MAGHEHENLEM = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG, emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.Builder, emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCGOrBuilder> 
-          getCampInfoFieldBuilder() {
-        if (campInfoBuilder_ == null) {
-          campInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG, emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCG.Builder, emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.PIGBKAABOCGOrBuilder>(
-                  getCampInfo(),
+          emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.Builder, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCKOrBuilder> 
+          getMAGHEHENLEMFieldBuilder() {
+        if (mAGHEHENLEMBuilder_ == null) {
+          mAGHEHENLEMBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCK.Builder, emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.GLCPBBIGCCKOrBuilder>(
+                  getMAGHEHENLEM(),
                   getParentForChildren(),
                   isClean());
-          campInfo_ = null;
+          mAGHEHENLEM_ = null;
         }
-        return campInfoBuilder_;
+        return mAGHEHENLEMBuilder_;
       }
 
       private boolean isContentClosed_ ;
       /**
-       * <code>bool is_content_closed = 6;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 10;</code>
        * @return The isContentClosed.
        */
       @java.lang.Override
@@ -1242,7 +1254,11 @@ public final class GravenInnocenceDetailInfoOuterClass {
         return isContentClosed_;
       }
       /**
-       * <code>bool is_content_closed = 6;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 10;</code>
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
@@ -1253,7 +1269,11 @@ public final class GravenInnocenceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_content_closed = 6;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsContentClosed() {
@@ -1329,35 +1349,34 @@ public final class GravenInnocenceDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037GravenInnocenceDetailInfo.proto\032\036Grave" +
-      "nInnocenceCarveInfo.proto\032\021CCKDLHEDOLN.p" +
-      "roto\032\036GravenInnocencePhotoInfo.proto\032\021PI" +
-      "GBKAABOCG.proto\"\326\001\n\031GravenInnocenceDetai" +
-      "lInfo\022-\n\ncarve_info\030\017 \001(\0132\031.GravenInnoce" +
-      "nceCarveInfo\022\037\n\trace_info\030\r \001(\0132\014.CCKDLH" +
-      "EDOLN\022-\n\nphoto_info\030\n \001(\0132\031.GravenInnoce" +
-      "ncePhotoInfo\022\037\n\tcamp_info\030\013 \001(\0132\014.PIGBKA" +
-      "ABOCG\022\031\n\021is_content_closed\030\006 \001(\010B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\n\037GravenInnocenceDetailInfo.proto\032\021OEBEH" +
+      "AKIPCG.proto\032\021GPPIOLIGLFP.proto\032\021MLLCAJD" +
+      "JMBM.proto\032\021GLCPBBIGCCK.proto\"\302\001\n\031Graven" +
+      "InnocenceDetailInfo\022!\n\013OLAKMCFOJAH\030\001 \001(\013" +
+      "2\014.OEBEHAKIPCG\022!\n\013PJMONLKHJNH\030\013 \001(\0132\014.GP" +
+      "PIOLIGLFP\022!\n\013LACBCLHDFCF\030\003 \001(\0132\014.MLLCAJD" +
+      "JMBM\022!\n\013MAGHEHENLEM\030\016 \001(\0132\014.GLCPBBIGCCK\022" +
+      "\031\n\021is_content_closed\030\n \001(\010B\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.getDescriptor(),
         });
     internal_static_GravenInnocenceDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_GravenInnocenceDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GravenInnocenceDetailInfo_descriptor,
-        new java.lang.String[] { "CarveInfo", "RaceInfo", "PhotoInfo", "CampInfo", "IsContentClosed", });
-    emu.grasscutter.net.proto.GravenInnocenceCarveInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.CCKDLHEDOLNOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.GravenInnocencePhotoInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.PIGBKAABOCGOuterClass.getDescriptor();
+        new java.lang.String[] { "OLAKMCFOJAH", "PJMONLKHJNH", "LACBCLHDFCF", "MAGHEHENLEM", "IsContentClosed", });
+    emu.grasscutter.net.proto.OEBEHAKIPCGOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.GPPIOLIGLFPOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.MLLCAJDJMBMOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.GLCPBBIGCCKOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

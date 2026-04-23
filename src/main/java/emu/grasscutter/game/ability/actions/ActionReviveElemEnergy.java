@@ -22,17 +22,17 @@ public final class ActionReviveElemEnergy extends AbilityActionHandler {
 
         if (target instanceof EntityAvatar avatar) {
             float curEnergy = avatar.getFightProperty(avatar.getAvatar().getSkillDepot().getElementType().getCurEnergyProp());
-            float newEnergy = curEnergy + ratio; 
+            float newEnergy = curEnergy + ratio;
 
             avatar.getAvatar().setCurrentEnergy(avatar.getAvatar().getSkillDepot().getElementType().getCurEnergyProp(), newEnergy);
             avatar.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(avatar, avatar.getAvatar().getSkillDepot().getElementType().getCurEnergyProp()));
-            avatar.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(avatar, avatar.getAvatar().getSkillDepot().getElementType().getCurEnergyProp(), newEnergy, PropChangeReason.PROP_CHANGE_REASON_ABILITY, ChangeEnergyReason.CHANGE_ENERGY_REASON_ABILITY));
+            avatar.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(avatar, avatar.getAvatar().getSkillDepot().getElementType().getCurEnergyProp(), newEnergy, PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, ChangeEnergyReason.ChangeEnergyReason_CHANGE_ENERGY_ABILITY));
             Grasscutter.getLogger().info("Revived avatar energy by " + ratio);
-            
-    
+
+
             return true;
         }
-        
+
         return false;
     }
 }

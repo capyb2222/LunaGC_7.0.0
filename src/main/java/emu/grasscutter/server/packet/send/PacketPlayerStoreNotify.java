@@ -18,7 +18,7 @@ public class PacketPlayerStoreNotify extends BasePacket {
 
         PlayerStoreNotify.Builder p =
                 PlayerStoreNotify.newBuilder()
-                        .setStoreType(StoreType.STORE_TYPE_PACK)
+                        .setStoreType(StoreType.StoreType_STORE_PACK)
                         .setWeightLimit(GAME_OPTIONS.inventoryLimits.all);
 
         for (GameItem item : player.getInventory()) {

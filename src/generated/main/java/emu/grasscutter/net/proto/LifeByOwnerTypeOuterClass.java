@@ -20,32 +20,32 @@ public final class LifeByOwnerTypeOuterClass {
   public enum LifeByOwnerType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>LIFE_BY_OWNER_TYPE_NONE = 0;</code>
+     * <code>LifeByOwnerType_LIFE_BY_OWNER_NONE = 0;</code>
      */
-    LIFE_BY_OWNER_TYPE_NONE(0),
+    LifeByOwnerType_LIFE_BY_OWNER_NONE(0),
     /**
-     * <code>LIFE_BY_OWNER_TYPE_V_2 = 1;</code>
+     * <code>LifeByOwnerType_LIFE_BY_OWNER_V_2 = 1;</code>
      */
-    LIFE_BY_OWNER_TYPE_V_2(1),
+    LifeByOwnerType_LIFE_BY_OWNER_V_2(1),
     /**
-     * <code>LIFE_BY_OWNER_TYPE_V_3 = 2;</code>
+     * <code>LifeByOwnerType_LIFE_BY_OWNER_V_3 = 2;</code>
      */
-    LIFE_BY_OWNER_TYPE_V_3(2),
+    LifeByOwnerType_LIFE_BY_OWNER_V_3(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>LIFE_BY_OWNER_TYPE_NONE = 0;</code>
+     * <code>LifeByOwnerType_LIFE_BY_OWNER_NONE = 0;</code>
      */
-    public static final int LIFE_BY_OWNER_TYPE_NONE_VALUE = 0;
+    public static final int LifeByOwnerType_LIFE_BY_OWNER_NONE_VALUE = 0;
     /**
-     * <code>LIFE_BY_OWNER_TYPE_V_2 = 1;</code>
+     * <code>LifeByOwnerType_LIFE_BY_OWNER_V_2 = 1;</code>
      */
-    public static final int LIFE_BY_OWNER_TYPE_V_2_VALUE = 1;
+    public static final int LifeByOwnerType_LIFE_BY_OWNER_V_2_VALUE = 1;
     /**
-     * <code>LIFE_BY_OWNER_TYPE_V_3 = 2;</code>
+     * <code>LifeByOwnerType_LIFE_BY_OWNER_V_3 = 2;</code>
      */
-    public static final int LIFE_BY_OWNER_TYPE_V_3_VALUE = 2;
+    public static final int LifeByOwnerType_LIFE_BY_OWNER_V_3_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class LifeByOwnerTypeOuterClass {
      */
     public static LifeByOwnerType forNumber(int value) {
       switch (value) {
-        case 0: return LIFE_BY_OWNER_TYPE_NONE;
-        case 1: return LIFE_BY_OWNER_TYPE_V_2;
-        case 2: return LIFE_BY_OWNER_TYPE_V_3;
+        case 0: return LifeByOwnerType_LIFE_BY_OWNER_NONE;
+        case 1: return LifeByOwnerType_LIFE_BY_OWNER_V_2;
+        case 2: return LifeByOwnerType_LIFE_BY_OWNER_V_3;
         default: return null;
       }
     }
@@ -140,11 +140,11 @@ public final class LifeByOwnerTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025LifeByOwnerType.proto*f\n\017LifeByOwnerTy" +
-      "pe\022\033\n\027LIFE_BY_OWNER_TYPE_NONE\020\000\022\032\n\026LIFE_" +
-      "BY_OWNER_TYPE_V_2\020\001\022\032\n\026LIFE_BY_OWNER_TYP" +
-      "E_V_3\020\002B\033\n\031emu.grasscutter.net.protob\006pr" +
-      "oto3"
+      "\n\025LifeByOwnerType.proto*\207\001\n\017LifeByOwnerT" +
+      "ype\022&\n\"LifeByOwnerType_LIFE_BY_OWNER_NON" +
+      "E\020\000\022%\n!LifeByOwnerType_LIFE_BY_OWNER_V_2" +
+      "\020\001\022%\n!LifeByOwnerType_LIFE_BY_OWNER_V_3\020" +
+      "\002B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

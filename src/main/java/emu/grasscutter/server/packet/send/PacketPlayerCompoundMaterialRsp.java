@@ -15,7 +15,7 @@ public class PacketPlayerCompoundMaterialRsp extends BasePacket {
         super(PacketOpcodes.PlayerCompoundMaterialRsp);
         PlayerCompoundMaterialRsp proto =
                 PlayerCompoundMaterialRsp.newBuilder()
-                        .setCompoundQueueDataList(compoundQueueData)
+                        .setCompoundQueueData(compoundQueueData)
                         .setRetcode(Retcode.RET_SUCC_VALUE)
                         .build();
         setData(proto);

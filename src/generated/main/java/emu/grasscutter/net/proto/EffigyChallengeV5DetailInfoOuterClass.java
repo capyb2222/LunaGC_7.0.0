@@ -19,34 +19,34 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo> 
-        getLevelInfoListList();
+    java.util.List<emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ> 
+        getGGOKKDEKPJMList();
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
-    emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo getLevelInfoList(int index);
+    emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ getGGOKKDEKPJM(int index);
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
-    int getLevelInfoListCount();
+    int getGGOKKDEKPJMCount();
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfoOrBuilder> 
-        getLevelInfoListOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJOrBuilder> 
+        getGGOKKDEKPJMOrBuilderList();
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
-    emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfoOrBuilder getLevelInfoListOrBuilder(
+    emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJOrBuilder getGGOKKDEKPJMOrBuilder(
         int index);
 
     /**
-     * <code>bool FNGGMPHEPHK = 4;</code>
-     * @return The fNGGMPHEPHK.
+     * <code>bool GBLLGGMGJFF = 6;</code>
+     * @return The gBLLGGMGJFF.
      */
-    boolean getFNGGMPHEPHK();
+    boolean getGBLLGGMGJFF();
   }
   /**
    * Protobuf type {@code EffigyChallengeV5DetailInfo}
@@ -61,7 +61,7 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
       super(builder);
     }
     private EffigyChallengeV5DetailInfo() {
-      levelInfoList_ = java.util.Collections.emptyList();
+      gGOKKDEKPJM_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -95,18 +95,18 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 48: {
 
-              fNGGMPHEPHK_ = input.readBool();
+              gBLLGGMGJFF_ = input.readBool();
               break;
             }
-            case 106: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo>();
+                gGOKKDEKPJM_ = new java.util.ArrayList<emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              levelInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.parser(), extensionRegistry));
+              gGOKKDEKPJM_.add(
+                  input.readMessage(emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -125,7 +125,7 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
+          gGOKKDEKPJM_ = java.util.Collections.unmodifiableList(gGOKKDEKPJM_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -144,55 +144,55 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
               emu.grasscutter.net.proto.EffigyChallengeV5DetailInfoOuterClass.EffigyChallengeV5DetailInfo.class, emu.grasscutter.net.proto.EffigyChallengeV5DetailInfoOuterClass.EffigyChallengeV5DetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 13;
-    private java.util.List<emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo> levelInfoList_;
+    public static final int GGOKKDEKPJM_FIELD_NUMBER = 10;
+    private java.util.List<emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ> gGOKKDEKPJM_;
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo> getLevelInfoListList() {
-      return levelInfoList_;
+    public java.util.List<emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ> getGGOKKDEKPJMList() {
+      return gGOKKDEKPJM_;
     }
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfoOrBuilder> 
-        getLevelInfoListOrBuilderList() {
-      return levelInfoList_;
+    public java.util.List<? extends emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJOrBuilder> 
+        getGGOKKDEKPJMOrBuilderList() {
+      return gGOKKDEKPJM_;
     }
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
     @java.lang.Override
-    public int getLevelInfoListCount() {
-      return levelInfoList_.size();
+    public int getGGOKKDEKPJMCount() {
+      return gGOKKDEKPJM_.size();
     }
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo getLevelInfoList(int index) {
-      return levelInfoList_.get(index);
+    public emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ getGGOKKDEKPJM(int index) {
+      return gGOKKDEKPJM_.get(index);
     }
     /**
-     * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+     * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfoOrBuilder getLevelInfoListOrBuilder(
+    public emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJOrBuilder getGGOKKDEKPJMOrBuilder(
         int index) {
-      return levelInfoList_.get(index);
+      return gGOKKDEKPJM_.get(index);
     }
 
-    public static final int FNGGMPHEPHK_FIELD_NUMBER = 4;
-    private boolean fNGGMPHEPHK_;
+    public static final int GBLLGGMGJFF_FIELD_NUMBER = 6;
+    private boolean gBLLGGMGJFF_;
     /**
-     * <code>bool FNGGMPHEPHK = 4;</code>
-     * @return The fNGGMPHEPHK.
+     * <code>bool GBLLGGMGJFF = 6;</code>
+     * @return The gBLLGGMGJFF.
      */
     @java.lang.Override
-    public boolean getFNGGMPHEPHK() {
-      return fNGGMPHEPHK_;
+    public boolean getGBLLGGMGJFF() {
+      return gBLLGGMGJFF_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -209,11 +209,11 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (fNGGMPHEPHK_ != false) {
-        output.writeBool(4, fNGGMPHEPHK_);
+      if (gBLLGGMGJFF_ != false) {
+        output.writeBool(6, gBLLGGMGJFF_);
       }
-      for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(13, levelInfoList_.get(i));
+      for (int i = 0; i < gGOKKDEKPJM_.size(); i++) {
+        output.writeMessage(10, gGOKKDEKPJM_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -224,13 +224,13 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (fNGGMPHEPHK_ != false) {
+      if (gBLLGGMGJFF_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, fNGGMPHEPHK_);
+          .computeBoolSize(6, gBLLGGMGJFF_);
       }
-      for (int i = 0; i < levelInfoList_.size(); i++) {
+      for (int i = 0; i < gGOKKDEKPJM_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, levelInfoList_.get(i));
+          .computeMessageSize(10, gGOKKDEKPJM_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -247,10 +247,10 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.EffigyChallengeV5DetailInfoOuterClass.EffigyChallengeV5DetailInfo other = (emu.grasscutter.net.proto.EffigyChallengeV5DetailInfoOuterClass.EffigyChallengeV5DetailInfo) obj;
 
-      if (!getLevelInfoListList()
-          .equals(other.getLevelInfoListList())) return false;
-      if (getFNGGMPHEPHK()
-          != other.getFNGGMPHEPHK()) return false;
+      if (!getGGOKKDEKPJMList()
+          .equals(other.getGGOKKDEKPJMList())) return false;
+      if (getGBLLGGMGJFF()
+          != other.getGBLLGGMGJFF()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -262,13 +262,13 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getLevelInfoListCount() > 0) {
-        hash = (37 * hash) + LEVEL_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getLevelInfoListList().hashCode();
+      if (getGGOKKDEKPJMCount() > 0) {
+        hash = (37 * hash) + GGOKKDEKPJM_FIELD_NUMBER;
+        hash = (53 * hash) + getGGOKKDEKPJMList().hashCode();
       }
-      hash = (37 * hash) + FNGGMPHEPHK_FIELD_NUMBER;
+      hash = (37 * hash) + GBLLGGMGJFF_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getFNGGMPHEPHK());
+          getGBLLGGMGJFF());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -397,19 +397,19 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getLevelInfoListFieldBuilder();
+          getGGOKKDEKPJMFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (levelInfoListBuilder_ == null) {
-          levelInfoList_ = java.util.Collections.emptyList();
+        if (gGOKKDEKPJMBuilder_ == null) {
+          gGOKKDEKPJM_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          levelInfoListBuilder_.clear();
+          gGOKKDEKPJMBuilder_.clear();
         }
-        fNGGMPHEPHK_ = false;
+        gBLLGGMGJFF_ = false;
 
         return this;
       }
@@ -438,16 +438,16 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
       public emu.grasscutter.net.proto.EffigyChallengeV5DetailInfoOuterClass.EffigyChallengeV5DetailInfo buildPartial() {
         emu.grasscutter.net.proto.EffigyChallengeV5DetailInfoOuterClass.EffigyChallengeV5DetailInfo result = new emu.grasscutter.net.proto.EffigyChallengeV5DetailInfoOuterClass.EffigyChallengeV5DetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (levelInfoListBuilder_ == null) {
+        if (gGOKKDEKPJMBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
+            gGOKKDEKPJM_ = java.util.Collections.unmodifiableList(gGOKKDEKPJM_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.levelInfoList_ = levelInfoList_;
+          result.gGOKKDEKPJM_ = gGOKKDEKPJM_;
         } else {
-          result.levelInfoList_ = levelInfoListBuilder_.build();
+          result.gGOKKDEKPJM_ = gGOKKDEKPJMBuilder_.build();
         }
-        result.fNGGMPHEPHK_ = fNGGMPHEPHK_;
+        result.gBLLGGMGJFF_ = gBLLGGMGJFF_;
         onBuilt();
         return result;
       }
@@ -496,34 +496,34 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EffigyChallengeV5DetailInfoOuterClass.EffigyChallengeV5DetailInfo other) {
         if (other == emu.grasscutter.net.proto.EffigyChallengeV5DetailInfoOuterClass.EffigyChallengeV5DetailInfo.getDefaultInstance()) return this;
-        if (levelInfoListBuilder_ == null) {
-          if (!other.levelInfoList_.isEmpty()) {
-            if (levelInfoList_.isEmpty()) {
-              levelInfoList_ = other.levelInfoList_;
+        if (gGOKKDEKPJMBuilder_ == null) {
+          if (!other.gGOKKDEKPJM_.isEmpty()) {
+            if (gGOKKDEKPJM_.isEmpty()) {
+              gGOKKDEKPJM_ = other.gGOKKDEKPJM_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureLevelInfoListIsMutable();
-              levelInfoList_.addAll(other.levelInfoList_);
+              ensureGGOKKDEKPJMIsMutable();
+              gGOKKDEKPJM_.addAll(other.gGOKKDEKPJM_);
             }
             onChanged();
           }
         } else {
-          if (!other.levelInfoList_.isEmpty()) {
-            if (levelInfoListBuilder_.isEmpty()) {
-              levelInfoListBuilder_.dispose();
-              levelInfoListBuilder_ = null;
-              levelInfoList_ = other.levelInfoList_;
+          if (!other.gGOKKDEKPJM_.isEmpty()) {
+            if (gGOKKDEKPJMBuilder_.isEmpty()) {
+              gGOKKDEKPJMBuilder_.dispose();
+              gGOKKDEKPJMBuilder_ = null;
+              gGOKKDEKPJM_ = other.gGOKKDEKPJM_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              levelInfoListBuilder_ = 
+              gGOKKDEKPJMBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getLevelInfoListFieldBuilder() : null;
+                   getGGOKKDEKPJMFieldBuilder() : null;
             } else {
-              levelInfoListBuilder_.addAllMessages(other.levelInfoList_);
+              gGOKKDEKPJMBuilder_.addAllMessages(other.gGOKKDEKPJM_);
             }
           }
         }
-        if (other.getFNGGMPHEPHK() != false) {
-          setFNGGMPHEPHK(other.getFNGGMPHEPHK());
+        if (other.getGBLLGGMGJFF() != false) {
+          setGBLLGGMGJFF(other.getGBLLGGMGJFF());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -555,273 +555,273 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo> levelInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ> gGOKKDEKPJM_ =
         java.util.Collections.emptyList();
-      private void ensureLevelInfoListIsMutable() {
+      private void ensureGGOKKDEKPJMIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo>(levelInfoList_);
+          gGOKKDEKPJM_ = new java.util.ArrayList<emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ>(gGOKKDEKPJM_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfoOrBuilder> levelInfoListBuilder_;
+          emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJOrBuilder> gGOKKDEKPJMBuilder_;
 
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo> getLevelInfoListList() {
-        if (levelInfoListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(levelInfoList_);
+      public java.util.List<emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ> getGGOKKDEKPJMList() {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(gGOKKDEKPJM_);
         } else {
-          return levelInfoListBuilder_.getMessageList();
+          return gGOKKDEKPJMBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public int getLevelInfoListCount() {
-        if (levelInfoListBuilder_ == null) {
-          return levelInfoList_.size();
+      public int getGGOKKDEKPJMCount() {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          return gGOKKDEKPJM_.size();
         } else {
-          return levelInfoListBuilder_.getCount();
+          return gGOKKDEKPJMBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo getLevelInfoList(int index) {
-        if (levelInfoListBuilder_ == null) {
-          return levelInfoList_.get(index);
+      public emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ getGGOKKDEKPJM(int index) {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          return gGOKKDEKPJM_.get(index);
         } else {
-          return levelInfoListBuilder_.getMessage(index);
+          return gGOKKDEKPJMBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public Builder setLevelInfoList(
-          int index, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo value) {
-        if (levelInfoListBuilder_ == null) {
+      public Builder setGGOKKDEKPJM(
+          int index, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ value) {
+        if (gGOKKDEKPJMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureLevelInfoListIsMutable();
-          levelInfoList_.set(index, value);
+          ensureGGOKKDEKPJMIsMutable();
+          gGOKKDEKPJM_.set(index, value);
           onChanged();
         } else {
-          levelInfoListBuilder_.setMessage(index, value);
+          gGOKKDEKPJMBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public Builder setLevelInfoList(
-          int index, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder builderForValue) {
-        if (levelInfoListBuilder_ == null) {
-          ensureLevelInfoListIsMutable();
-          levelInfoList_.set(index, builderForValue.build());
+      public Builder setGGOKKDEKPJM(
+          int index, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder builderForValue) {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          ensureGGOKKDEKPJMIsMutable();
+          gGOKKDEKPJM_.set(index, builderForValue.build());
           onChanged();
         } else {
-          levelInfoListBuilder_.setMessage(index, builderForValue.build());
+          gGOKKDEKPJMBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public Builder addLevelInfoList(emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo value) {
-        if (levelInfoListBuilder_ == null) {
+      public Builder addGGOKKDEKPJM(emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ value) {
+        if (gGOKKDEKPJMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureLevelInfoListIsMutable();
-          levelInfoList_.add(value);
+          ensureGGOKKDEKPJMIsMutable();
+          gGOKKDEKPJM_.add(value);
           onChanged();
         } else {
-          levelInfoListBuilder_.addMessage(value);
+          gGOKKDEKPJMBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public Builder addLevelInfoList(
-          int index, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo value) {
-        if (levelInfoListBuilder_ == null) {
+      public Builder addGGOKKDEKPJM(
+          int index, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ value) {
+        if (gGOKKDEKPJMBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureLevelInfoListIsMutable();
-          levelInfoList_.add(index, value);
+          ensureGGOKKDEKPJMIsMutable();
+          gGOKKDEKPJM_.add(index, value);
           onChanged();
         } else {
-          levelInfoListBuilder_.addMessage(index, value);
+          gGOKKDEKPJMBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public Builder addLevelInfoList(
-          emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder builderForValue) {
-        if (levelInfoListBuilder_ == null) {
-          ensureLevelInfoListIsMutable();
-          levelInfoList_.add(builderForValue.build());
+      public Builder addGGOKKDEKPJM(
+          emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder builderForValue) {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          ensureGGOKKDEKPJMIsMutable();
+          gGOKKDEKPJM_.add(builderForValue.build());
           onChanged();
         } else {
-          levelInfoListBuilder_.addMessage(builderForValue.build());
+          gGOKKDEKPJMBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public Builder addLevelInfoList(
-          int index, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder builderForValue) {
-        if (levelInfoListBuilder_ == null) {
-          ensureLevelInfoListIsMutable();
-          levelInfoList_.add(index, builderForValue.build());
+      public Builder addGGOKKDEKPJM(
+          int index, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder builderForValue) {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          ensureGGOKKDEKPJMIsMutable();
+          gGOKKDEKPJM_.add(index, builderForValue.build());
           onChanged();
         } else {
-          levelInfoListBuilder_.addMessage(index, builderForValue.build());
+          gGOKKDEKPJMBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public Builder addAllLevelInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo> values) {
-        if (levelInfoListBuilder_ == null) {
-          ensureLevelInfoListIsMutable();
+      public Builder addAllGGOKKDEKPJM(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ> values) {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          ensureGGOKKDEKPJMIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, levelInfoList_);
+              values, gGOKKDEKPJM_);
           onChanged();
         } else {
-          levelInfoListBuilder_.addAllMessages(values);
+          gGOKKDEKPJMBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public Builder clearLevelInfoList() {
-        if (levelInfoListBuilder_ == null) {
-          levelInfoList_ = java.util.Collections.emptyList();
+      public Builder clearGGOKKDEKPJM() {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          gGOKKDEKPJM_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          levelInfoListBuilder_.clear();
+          gGOKKDEKPJMBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public Builder removeLevelInfoList(int index) {
-        if (levelInfoListBuilder_ == null) {
-          ensureLevelInfoListIsMutable();
-          levelInfoList_.remove(index);
+      public Builder removeGGOKKDEKPJM(int index) {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          ensureGGOKKDEKPJMIsMutable();
+          gGOKKDEKPJM_.remove(index);
           onChanged();
         } else {
-          levelInfoListBuilder_.remove(index);
+          gGOKKDEKPJMBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder getLevelInfoListBuilder(
+      public emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder getGGOKKDEKPJMBuilder(
           int index) {
-        return getLevelInfoListFieldBuilder().getBuilder(index);
+        return getGGOKKDEKPJMFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfoOrBuilder getLevelInfoListOrBuilder(
+      public emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJOrBuilder getGGOKKDEKPJMOrBuilder(
           int index) {
-        if (levelInfoListBuilder_ == null) {
-          return levelInfoList_.get(index);  } else {
-          return levelInfoListBuilder_.getMessageOrBuilder(index);
+        if (gGOKKDEKPJMBuilder_ == null) {
+          return gGOKKDEKPJM_.get(index);  } else {
+          return gGOKKDEKPJMBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfoOrBuilder> 
-           getLevelInfoListOrBuilderList() {
-        if (levelInfoListBuilder_ != null) {
-          return levelInfoListBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJOrBuilder> 
+           getGGOKKDEKPJMOrBuilderList() {
+        if (gGOKKDEKPJMBuilder_ != null) {
+          return gGOKKDEKPJMBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(levelInfoList_);
+          return java.util.Collections.unmodifiableList(gGOKKDEKPJM_);
         }
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder addLevelInfoListBuilder() {
-        return getLevelInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.getDefaultInstance());
+      public emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder addGGOKKDEKPJMBuilder() {
+        return getGGOKKDEKPJMFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder addLevelInfoListBuilder(
+      public emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder addGGOKKDEKPJMBuilder(
           int index) {
-        return getLevelInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.getDefaultInstance());
+        return getGGOKKDEKPJMFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .EffigyChallengeV5LevelInfo level_info_list = 13;</code>
+       * <code>repeated .KCIOKGPKCOJ GGOKKDEKPJM = 10;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder> 
-           getLevelInfoListBuilderList() {
-        return getLevelInfoListFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder> 
+           getGGOKKDEKPJMBuilderList() {
+        return getGGOKKDEKPJMFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfoOrBuilder> 
-          getLevelInfoListFieldBuilder() {
-        if (levelInfoListBuilder_ == null) {
-          levelInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfo.Builder, emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.EffigyChallengeV5LevelInfoOrBuilder>(
-                  levelInfoList_,
+          emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJOrBuilder> 
+          getGGOKKDEKPJMFieldBuilder() {
+        if (gGOKKDEKPJMBuilder_ == null) {
+          gGOKKDEKPJMBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJ.Builder, emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.KCIOKGPKCOJOrBuilder>(
+                  gGOKKDEKPJM_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          levelInfoList_ = null;
+          gGOKKDEKPJM_ = null;
         }
-        return levelInfoListBuilder_;
+        return gGOKKDEKPJMBuilder_;
       }
 
-      private boolean fNGGMPHEPHK_ ;
+      private boolean gBLLGGMGJFF_ ;
       /**
-       * <code>bool FNGGMPHEPHK = 4;</code>
-       * @return The fNGGMPHEPHK.
+       * <code>bool GBLLGGMGJFF = 6;</code>
+       * @return The gBLLGGMGJFF.
        */
       @java.lang.Override
-      public boolean getFNGGMPHEPHK() {
-        return fNGGMPHEPHK_;
+      public boolean getGBLLGGMGJFF() {
+        return gBLLGGMGJFF_;
       }
       /**
-       * <code>bool FNGGMPHEPHK = 4;</code>
-       * @param value The fNGGMPHEPHK to set.
+       * <code>bool GBLLGGMGJFF = 6;</code>
+       * @param value The gBLLGGMGJFF to set.
        * @return This builder for chaining.
        */
-      public Builder setFNGGMPHEPHK(boolean value) {
+      public Builder setGBLLGGMGJFF(boolean value) {
         
-        fNGGMPHEPHK_ = value;
+        gBLLGGMGJFF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool FNGGMPHEPHK = 4;</code>
+       * <code>bool GBLLGGMGJFF = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFNGGMPHEPHK() {
+      public Builder clearGBLLGGMGJFF() {
         
-        fNGGMPHEPHK_ = false;
+        gBLLGGMGJFF_ = false;
         onChanged();
         return this;
       }
@@ -892,25 +892,24 @@ public final class EffigyChallengeV5DetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n!EffigyChallengeV5DetailInfo.proto\032 Eff" +
-      "igyChallengeV5LevelInfo.proto\"h\n\033EffigyC" +
-      "hallengeV5DetailInfo\0224\n\017level_info_list\030" +
-      "\r \003(\0132\033.EffigyChallengeV5LevelInfo\022\023\n\013FN" +
-      "GGMPHEPHK\030\004 \001(\010B\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "\n!EffigyChallengeV5DetailInfo.proto\032\021KCI" +
+      "OKGPKCOJ.proto\"U\n\033EffigyChallengeV5Detai" +
+      "lInfo\022!\n\013GGOKKDEKPJM\030\n \003(\0132\014.KCIOKGPKCOJ" +
+      "\022\023\n\013GBLLGGMGJFF\030\006 \001(\010B\033\n\031emu.grasscutter" +
+      ".net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.getDescriptor(),
         });
     internal_static_EffigyChallengeV5DetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_EffigyChallengeV5DetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EffigyChallengeV5DetailInfo_descriptor,
-        new java.lang.String[] { "LevelInfoList", "FNGGMPHEPHK", });
-    emu.grasscutter.net.proto.EffigyChallengeV5LevelInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "GGOKKDEKPJM", "GBLLGGMGJFF", });
+    emu.grasscutter.net.proto.KCIOKGPKCOJOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

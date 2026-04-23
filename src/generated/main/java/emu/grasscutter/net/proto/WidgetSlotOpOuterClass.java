@@ -20,24 +20,24 @@ public final class WidgetSlotOpOuterClass {
   public enum WidgetSlotOp
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>WIDGET_SLOT_OP_ATTACH = 0;</code>
+     * <code>WidgetSlotOp_ATTACH = 0;</code>
      */
-    WIDGET_SLOT_OP_ATTACH(0),
+    WidgetSlotOp_ATTACH(0),
     /**
-     * <code>WIDGET_SLOT_OP_DETACH = 1;</code>
+     * <code>WidgetSlotOp_DETACH = 1;</code>
      */
-    WIDGET_SLOT_OP_DETACH(1),
+    WidgetSlotOp_DETACH(1),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>WIDGET_SLOT_OP_ATTACH = 0;</code>
+     * <code>WidgetSlotOp_ATTACH = 0;</code>
      */
-    public static final int WIDGET_SLOT_OP_ATTACH_VALUE = 0;
+    public static final int WidgetSlotOp_ATTACH_VALUE = 0;
     /**
-     * <code>WIDGET_SLOT_OP_DETACH = 1;</code>
+     * <code>WidgetSlotOp_DETACH = 1;</code>
      */
-    public static final int WIDGET_SLOT_OP_DETACH_VALUE = 1;
+    public static final int WidgetSlotOp_DETACH_VALUE = 1;
 
 
     public final int getNumber() {
@@ -64,8 +64,8 @@ public final class WidgetSlotOpOuterClass {
      */
     public static WidgetSlotOp forNumber(int value) {
       switch (value) {
-        case 0: return WIDGET_SLOT_OP_ATTACH;
-        case 1: return WIDGET_SLOT_OP_DETACH;
+        case 0: return WidgetSlotOp_ATTACH;
+        case 1: return WidgetSlotOp_DETACH;
         default: return null;
       }
     }
@@ -131,10 +131,10 @@ public final class WidgetSlotOpOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022WidgetSlotOp.proto*D\n\014WidgetSlotOp\022\031\n\025" +
-      "WIDGET_SLOT_OP_ATTACH\020\000\022\031\n\025WIDGET_SLOT_O" +
-      "P_DETACH\020\001B\033\n\031emu.grasscutter.net.protob" +
-      "\006proto3"
+      "\n\022WidgetSlotOp.proto*@\n\014WidgetSlotOp\022\027\n\023" +
+      "WidgetSlotOp_ATTACH\020\000\022\027\n\023WidgetSlotOp_DE" +
+      "TACH\020\001B\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

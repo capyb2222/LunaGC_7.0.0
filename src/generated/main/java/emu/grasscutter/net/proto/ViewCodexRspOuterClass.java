@@ -19,90 +19,108 @@ public final class ViewCodexRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> 
-        getTypeDataListList();
-    /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData getTypeDataList(int index);
-    /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    int getTypeDataListCount();
-    /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    java.util.List<? extends emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder> 
-        getTypeDataListOrBuilderList();
-    /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder getTypeDataListOrBuilder(
-        int index);
-
-    /**
-     * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-     * @return A list containing the nFIJOOFPEEH.
-     */
-    java.util.List<java.lang.Integer> getNFIJOOFPEEHList();
-    /**
-     * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-     * @return The count of nFIJOOFPEEH.
-     */
-    int getNFIJOOFPEEHCount();
-    /**
-     * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-     * @param index The index of the element to return.
-     * @return The nFIJOOFPEEH at the given index.
-     */
-    int getNFIJOOFPEEH(int index);
-
-    /**
-     * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
      * @return A list containing the recentViewedPushtipsList.
      */
     java.util.List<java.lang.Integer> getRecentViewedPushtipsListList();
     /**
-     * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
      * @return The count of recentViewedPushtipsList.
      */
     int getRecentViewedPushtipsListCount();
     /**
-     * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
      * @param index The index of the element to return.
      * @return The recentViewedPushtipsList at the given index.
      */
     int getRecentViewedPushtipsList(int index);
 
     /**
-     * <code>int32 retcode = 12;</code>
+     * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+     * @return A list containing the oKJJHEFMALJ.
+     */
+    java.util.List<java.lang.Integer> getOKJJHEFMALJList();
+    /**
+     * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+     * @return The count of oKJJHEFMALJ.
+     */
+    int getOKJJHEFMALJCount();
+    /**
+     * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+     * @param index The index of the element to return.
+     * @return The oKJJHEFMALJ at the given index.
+     */
+    int getOKJJHEFMALJ(int index);
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> 
+        getTypeDataListList();
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData getTypeDataList(int index);
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    int getTypeDataListCount();
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder> 
+        getTypeDataListOrBuilderList();
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder getTypeDataListOrBuilder(
+        int index);
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>int32 retcode = 11;</code>
      * @return The retcode.
      */
     int getRetcode();
-
-    /**
-     * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-     * @return A list containing the jGIBOGHCBHB.
-     */
-    java.util.List<java.lang.Integer> getJGIBOGHCBHBList();
-    /**
-     * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-     * @return The count of jGIBOGHCBHB.
-     */
-    int getJGIBOGHCBHBCount();
-    /**
-     * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-     * @param index The index of the element to return.
-     * @return The jGIBOGHCBHB at the given index.
-     */
-    int getJGIBOGHCBHB(int index);
   }
   /**
    * <pre>
-   * CmdId: 25216
-   * Obf: GCHIFOHJGOG
+   * CmdId: 20798
    * </pre>
    *
    * Protobuf type {@code ViewCodexRsp}
@@ -117,10 +135,9 @@ public final class ViewCodexRspOuterClass {
       super(builder);
     }
     private ViewCodexRsp() {
-      typeDataList_ = java.util.Collections.emptyList();
-      nFIJOOFPEEH_ = emptyIntList();
       recentViewedPushtipsList_ = emptyIntList();
-      jGIBOGHCBHB_ = emptyIntList();
+      oKJJHEFMALJ_ = emptyIntList();
+      typeDataList_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -154,79 +171,58 @@ public final class ViewCodexRspOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+            case 64: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                oKJJHEFMALJ_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              oKJJHEFMALJ_.addInt(input.readUInt32());
+              break;
+            }
+            case 66: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                oKJJHEFMALJ_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                oKJJHEFMALJ_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 82: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 typeDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData>();
-                mutable_bitField0_ |= 0x00000001;
+                mutable_bitField0_ |= 0x00000004;
               }
               typeDataList_.add(
                   input.readMessage(emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.parser(), extensionRegistry));
               break;
             }
-            case 80: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                recentViewedPushtipsList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              recentViewedPushtipsList_.addInt(input.readUInt32());
-              break;
-            }
-            case 82: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                recentViewedPushtipsList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                recentViewedPushtipsList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 96: {
+            case 88: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 104: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                nFIJOOFPEEH_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+            case 96: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                recentViewedPushtipsList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
               }
-              nFIJOOFPEEH_.addInt(input.readUInt32());
+              recentViewedPushtipsList_.addInt(input.readUInt32());
               break;
             }
-            case 106: {
+            case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                nFIJOOFPEEH_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                recentViewedPushtipsList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                nFIJOOFPEEH_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 120: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                jGIBOGHCBHB_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              jGIBOGHCBHB_.addInt(input.readUInt32());
-              break;
-            }
-            case 122: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
-                jGIBOGHCBHB_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                jGIBOGHCBHB_.addInt(input.readUInt32());
+                recentViewedPushtipsList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -246,17 +242,14 @@ public final class ViewCodexRspOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          typeDataList_ = java.util.Collections.unmodifiableList(typeDataList_);
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          oKJJHEFMALJ_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          typeDataList_ = java.util.Collections.unmodifiableList(typeDataList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
           recentViewedPushtipsList_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          nFIJOOFPEEH_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          jGIBOGHCBHB_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -275,78 +268,14 @@ public final class ViewCodexRspOuterClass {
               emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp.class, emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp.Builder.class);
     }
 
-    public static final int TYPE_DATA_LIST_FIELD_NUMBER = 7;
-    private java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> typeDataList_;
-    /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> getTypeDataListList() {
-      return typeDataList_;
-    }
-    /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder> 
-        getTypeDataListOrBuilderList() {
-      return typeDataList_;
-    }
-    /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    @java.lang.Override
-    public int getTypeDataListCount() {
-      return typeDataList_.size();
-    }
-    /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData getTypeDataList(int index) {
-      return typeDataList_.get(index);
-    }
-    /**
-     * <code>repeated .CodexTypeData type_data_list = 7;</code>
-     */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder getTypeDataListOrBuilder(
-        int index) {
-      return typeDataList_.get(index);
-    }
-
-    public static final int NFIJOOFPEEH_FIELD_NUMBER = 13;
-    private com.google.protobuf.Internal.IntList nFIJOOFPEEH_;
-    /**
-     * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-     * @return A list containing the nFIJOOFPEEH.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getNFIJOOFPEEHList() {
-      return nFIJOOFPEEH_;
-    }
-    /**
-     * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-     * @return The count of nFIJOOFPEEH.
-     */
-    public int getNFIJOOFPEEHCount() {
-      return nFIJOOFPEEH_.size();
-    }
-    /**
-     * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-     * @param index The index of the element to return.
-     * @return The nFIJOOFPEEH at the given index.
-     */
-    public int getNFIJOOFPEEH(int index) {
-      return nFIJOOFPEEH_.getInt(index);
-    }
-    private int nFIJOOFPEEHMemoizedSerializedSize = -1;
-
-    public static final int RECENT_VIEWED_PUSHTIPS_LIST_FIELD_NUMBER = 10;
+    public static final int RECENT_VIEWED_PUSHTIPS_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList recentViewedPushtipsList_;
     /**
-     * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
      * @return A list containing the recentViewedPushtipsList.
      */
     @java.lang.Override
@@ -355,14 +284,22 @@ public final class ViewCodexRspOuterClass {
       return recentViewedPushtipsList_;
     }
     /**
-     * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
      * @return The count of recentViewedPushtipsList.
      */
     public int getRecentViewedPushtipsListCount() {
       return recentViewedPushtipsList_.size();
     }
     /**
-     * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
      * @param index The index of the element to return.
      * @return The recentViewedPushtipsList at the given index.
      */
@@ -371,44 +308,108 @@ public final class ViewCodexRspOuterClass {
     }
     private int recentViewedPushtipsListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int OKJJHEFMALJ_FIELD_NUMBER = 8;
+    private com.google.protobuf.Internal.IntList oKJJHEFMALJ_;
+    /**
+     * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+     * @return A list containing the oKJJHEFMALJ.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getOKJJHEFMALJList() {
+      return oKJJHEFMALJ_;
+    }
+    /**
+     * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+     * @return The count of oKJJHEFMALJ.
+     */
+    public int getOKJJHEFMALJCount() {
+      return oKJJHEFMALJ_.size();
+    }
+    /**
+     * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+     * @param index The index of the element to return.
+     * @return The oKJJHEFMALJ at the given index.
+     */
+    public int getOKJJHEFMALJ(int index) {
+      return oKJJHEFMALJ_.getInt(index);
+    }
+    private int oKJJHEFMALJMemoizedSerializedSize = -1;
+
+    public static final int TYPE_DATA_LIST_FIELD_NUMBER = 10;
+    private java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> typeDataList_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> getTypeDataListList() {
+      return typeDataList_;
+    }
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder> 
+        getTypeDataListOrBuilderList() {
+      return typeDataList_;
+    }
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    @java.lang.Override
+    public int getTypeDataListCount() {
+      return typeDataList_.size();
+    }
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData getTypeDataList(int index) {
+      return typeDataList_.get(index);
+    }
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>repeated .CodexTypeData type_data_list = 10;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder getTypeDataListOrBuilder(
+        int index) {
+      return typeDataList_.get(index);
+    }
+
+    public static final int RETCODE_FIELD_NUMBER = 11;
     private int retcode_;
     /**
-     * <code>int32 retcode = 12;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>int32 retcode = 11;</code>
      * @return The retcode.
      */
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
     }
-
-    public static final int JGIBOGHCBHB_FIELD_NUMBER = 15;
-    private com.google.protobuf.Internal.IntList jGIBOGHCBHB_;
-    /**
-     * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-     * @return A list containing the jGIBOGHCBHB.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getJGIBOGHCBHBList() {
-      return jGIBOGHCBHB_;
-    }
-    /**
-     * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-     * @return The count of jGIBOGHCBHB.
-     */
-    public int getJGIBOGHCBHBCount() {
-      return jGIBOGHCBHB_.size();
-    }
-    /**
-     * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-     * @param index The index of the element to return.
-     * @return The jGIBOGHCBHB at the given index.
-     */
-    public int getJGIBOGHCBHB(int index) {
-      return jGIBOGHCBHB_.getInt(index);
-    }
-    private int jGIBOGHCBHBMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -425,32 +426,25 @@ public final class ViewCodexRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (getOKJJHEFMALJList().size() > 0) {
+        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(oKJJHEFMALJMemoizedSerializedSize);
+      }
+      for (int i = 0; i < oKJJHEFMALJ_.size(); i++) {
+        output.writeUInt32NoTag(oKJJHEFMALJ_.getInt(i));
+      }
       for (int i = 0; i < typeDataList_.size(); i++) {
-        output.writeMessage(7, typeDataList_.get(i));
+        output.writeMessage(10, typeDataList_.get(i));
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(11, retcode_);
       }
       if (getRecentViewedPushtipsListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(98);
         output.writeUInt32NoTag(recentViewedPushtipsListMemoizedSerializedSize);
       }
       for (int i = 0; i < recentViewedPushtipsList_.size(); i++) {
         output.writeUInt32NoTag(recentViewedPushtipsList_.getInt(i));
-      }
-      if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
-      }
-      if (getNFIJOOFPEEHList().size() > 0) {
-        output.writeUInt32NoTag(106);
-        output.writeUInt32NoTag(nFIJOOFPEEHMemoizedSerializedSize);
-      }
-      for (int i = 0; i < nFIJOOFPEEH_.size(); i++) {
-        output.writeUInt32NoTag(nFIJOOFPEEH_.getInt(i));
-      }
-      if (getJGIBOGHCBHBList().size() > 0) {
-        output.writeUInt32NoTag(122);
-        output.writeUInt32NoTag(jGIBOGHCBHBMemoizedSerializedSize);
-      }
-      for (int i = 0; i < jGIBOGHCBHB_.size(); i++) {
-        output.writeUInt32NoTag(jGIBOGHCBHB_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -461,9 +455,27 @@ public final class ViewCodexRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      {
+        int dataSize = 0;
+        for (int i = 0; i < oKJJHEFMALJ_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(oKJJHEFMALJ_.getInt(i));
+        }
+        size += dataSize;
+        if (!getOKJJHEFMALJList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        oKJJHEFMALJMemoizedSerializedSize = dataSize;
+      }
       for (int i = 0; i < typeDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, typeDataList_.get(i));
+          .computeMessageSize(10, typeDataList_.get(i));
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(11, retcode_);
       }
       {
         int dataSize = 0;
@@ -478,38 +490,6 @@ public final class ViewCodexRspOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         recentViewedPushtipsListMemoizedSerializedSize = dataSize;
-      }
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < nFIJOOFPEEH_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(nFIJOOFPEEH_.getInt(i));
-        }
-        size += dataSize;
-        if (!getNFIJOOFPEEHList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        nFIJOOFPEEHMemoizedSerializedSize = dataSize;
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < jGIBOGHCBHB_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(jGIBOGHCBHB_.getInt(i));
-        }
-        size += dataSize;
-        if (!getJGIBOGHCBHBList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        jGIBOGHCBHBMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -526,16 +506,14 @@ public final class ViewCodexRspOuterClass {
       }
       emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp other = (emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp) obj;
 
-      if (!getTypeDataListList()
-          .equals(other.getTypeDataListList())) return false;
-      if (!getNFIJOOFPEEHList()
-          .equals(other.getNFIJOOFPEEHList())) return false;
       if (!getRecentViewedPushtipsListList()
           .equals(other.getRecentViewedPushtipsListList())) return false;
+      if (!getOKJJHEFMALJList()
+          .equals(other.getOKJJHEFMALJList())) return false;
+      if (!getTypeDataListList()
+          .equals(other.getTypeDataListList())) return false;
       if (getRetcode()
           != other.getRetcode()) return false;
-      if (!getJGIBOGHCBHBList()
-          .equals(other.getJGIBOGHCBHBList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -547,24 +525,20 @@ public final class ViewCodexRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getTypeDataListCount() > 0) {
-        hash = (37 * hash) + TYPE_DATA_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getTypeDataListList().hashCode();
-      }
-      if (getNFIJOOFPEEHCount() > 0) {
-        hash = (37 * hash) + NFIJOOFPEEH_FIELD_NUMBER;
-        hash = (53 * hash) + getNFIJOOFPEEHList().hashCode();
-      }
       if (getRecentViewedPushtipsListCount() > 0) {
         hash = (37 * hash) + RECENT_VIEWED_PUSHTIPS_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getRecentViewedPushtipsListList().hashCode();
       }
+      if (getOKJJHEFMALJCount() > 0) {
+        hash = (37 * hash) + OKJJHEFMALJ_FIELD_NUMBER;
+        hash = (53 * hash) + getOKJJHEFMALJList().hashCode();
+      }
+      if (getTypeDataListCount() > 0) {
+        hash = (37 * hash) + TYPE_DATA_LIST_FIELD_NUMBER;
+        hash = (53 * hash) + getTypeDataListList().hashCode();
+      }
       hash = (37 * hash) + RETCODE_FIELD_NUMBER;
       hash = (53 * hash) + getRetcode();
-      if (getJGIBOGHCBHBCount() > 0) {
-        hash = (37 * hash) + JGIBOGHCBHB_FIELD_NUMBER;
-        hash = (53 * hash) + getJGIBOGHCBHBList().hashCode();
-      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -662,8 +636,7 @@ public final class ViewCodexRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 25216
-     * Obf: GCHIFOHJGOG
+     * CmdId: 20798
      * </pre>
      *
      * Protobuf type {@code ViewCodexRsp}
@@ -704,20 +677,18 @@ public final class ViewCodexRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        recentViewedPushtipsList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        oKJJHEFMALJ_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         if (typeDataListBuilder_ == null) {
           typeDataList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           typeDataListBuilder_.clear();
         }
-        nFIJOOFPEEH_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        recentViewedPushtipsList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000004);
         retcode_ = 0;
 
-        jGIBOGHCBHB_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000008);
         return this;
       }
 
@@ -745,31 +716,26 @@ public final class ViewCodexRspOuterClass {
       public emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp buildPartial() {
         emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp result = new emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp(this);
         int from_bitField0_ = bitField0_;
+        if (((bitField0_ & 0x00000001) != 0)) {
+          recentViewedPushtipsList_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        }
+        result.recentViewedPushtipsList_ = recentViewedPushtipsList_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          oKJJHEFMALJ_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        }
+        result.oKJJHEFMALJ_ = oKJJHEFMALJ_;
         if (typeDataListBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
+          if (((bitField0_ & 0x00000004) != 0)) {
             typeDataList_ = java.util.Collections.unmodifiableList(typeDataList_);
-            bitField0_ = (bitField0_ & ~0x00000001);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.typeDataList_ = typeDataList_;
         } else {
           result.typeDataList_ = typeDataListBuilder_.build();
         }
-        if (((bitField0_ & 0x00000002) != 0)) {
-          nFIJOOFPEEH_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        }
-        result.nFIJOOFPEEH_ = nFIJOOFPEEH_;
-        if (((bitField0_ & 0x00000004) != 0)) {
-          recentViewedPushtipsList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000004);
-        }
-        result.recentViewedPushtipsList_ = recentViewedPushtipsList_;
         result.retcode_ = retcode_;
-        if (((bitField0_ & 0x00000008) != 0)) {
-          jGIBOGHCBHB_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000008);
-        }
-        result.jGIBOGHCBHB_ = jGIBOGHCBHB_;
         onBuilt();
         return result;
       }
@@ -818,11 +784,31 @@ public final class ViewCodexRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp other) {
         if (other == emu.grasscutter.net.proto.ViewCodexRspOuterClass.ViewCodexRsp.getDefaultInstance()) return this;
+        if (!other.recentViewedPushtipsList_.isEmpty()) {
+          if (recentViewedPushtipsList_.isEmpty()) {
+            recentViewedPushtipsList_ = other.recentViewedPushtipsList_;
+            bitField0_ = (bitField0_ & ~0x00000001);
+          } else {
+            ensureRecentViewedPushtipsListIsMutable();
+            recentViewedPushtipsList_.addAll(other.recentViewedPushtipsList_);
+          }
+          onChanged();
+        }
+        if (!other.oKJJHEFMALJ_.isEmpty()) {
+          if (oKJJHEFMALJ_.isEmpty()) {
+            oKJJHEFMALJ_ = other.oKJJHEFMALJ_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureOKJJHEFMALJIsMutable();
+            oKJJHEFMALJ_.addAll(other.oKJJHEFMALJ_);
+          }
+          onChanged();
+        }
         if (typeDataListBuilder_ == null) {
           if (!other.typeDataList_.isEmpty()) {
             if (typeDataList_.isEmpty()) {
               typeDataList_ = other.typeDataList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureTypeDataListIsMutable();
               typeDataList_.addAll(other.typeDataList_);
@@ -835,7 +821,7 @@ public final class ViewCodexRspOuterClass {
               typeDataListBuilder_.dispose();
               typeDataListBuilder_ = null;
               typeDataList_ = other.typeDataList_;
-              bitField0_ = (bitField0_ & ~0x00000001);
+              bitField0_ = (bitField0_ & ~0x00000004);
               typeDataListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTypeDataListFieldBuilder() : null;
@@ -844,38 +830,8 @@ public final class ViewCodexRspOuterClass {
             }
           }
         }
-        if (!other.nFIJOOFPEEH_.isEmpty()) {
-          if (nFIJOOFPEEH_.isEmpty()) {
-            nFIJOOFPEEH_ = other.nFIJOOFPEEH_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensureNFIJOOFPEEHIsMutable();
-            nFIJOOFPEEH_.addAll(other.nFIJOOFPEEH_);
-          }
-          onChanged();
-        }
-        if (!other.recentViewedPushtipsList_.isEmpty()) {
-          if (recentViewedPushtipsList_.isEmpty()) {
-            recentViewedPushtipsList_ = other.recentViewedPushtipsList_;
-            bitField0_ = (bitField0_ & ~0x00000004);
-          } else {
-            ensureRecentViewedPushtipsListIsMutable();
-            recentViewedPushtipsList_.addAll(other.recentViewedPushtipsList_);
-          }
-          onChanged();
-        }
         if (other.getRetcode() != 0) {
           setRetcode(other.getRetcode());
-        }
-        if (!other.jGIBOGHCBHB_.isEmpty()) {
-          if (jGIBOGHCBHB_.isEmpty()) {
-            jGIBOGHCBHB_ = other.jGIBOGHCBHB_;
-            bitField0_ = (bitField0_ & ~0x00000008);
-          } else {
-            ensureJGIBOGHCBHBIsMutable();
-            jGIBOGHCBHB_.addAll(other.jGIBOGHCBHB_);
-          }
-          onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -907,12 +863,198 @@ public final class ViewCodexRspOuterClass {
       }
       private int bitField0_;
 
+      private com.google.protobuf.Internal.IntList recentViewedPushtipsList_ = emptyIntList();
+      private void ensureRecentViewedPushtipsListIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          recentViewedPushtipsList_ = mutableCopy(recentViewedPushtipsList_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
+       * @return A list containing the recentViewedPushtipsList.
+       */
+      public java.util.List<java.lang.Integer>
+          getRecentViewedPushtipsListList() {
+        return ((bitField0_ & 0x00000001) != 0) ?
+                 java.util.Collections.unmodifiableList(recentViewedPushtipsList_) : recentViewedPushtipsList_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
+       * @return The count of recentViewedPushtipsList.
+       */
+      public int getRecentViewedPushtipsListCount() {
+        return recentViewedPushtipsList_.size();
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
+       * @param index The index of the element to return.
+       * @return The recentViewedPushtipsList at the given index.
+       */
+      public int getRecentViewedPushtipsList(int index) {
+        return recentViewedPushtipsList_.getInt(index);
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
+       * @param index The index to set the value at.
+       * @param value The recentViewedPushtipsList to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRecentViewedPushtipsList(
+          int index, int value) {
+        ensureRecentViewedPushtipsListIsMutable();
+        recentViewedPushtipsList_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
+       * @param value The recentViewedPushtipsList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addRecentViewedPushtipsList(int value) {
+        ensureRecentViewedPushtipsListIsMutable();
+        recentViewedPushtipsList_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
+       * @param values The recentViewedPushtipsList to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllRecentViewedPushtipsList(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureRecentViewedPushtipsListIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, recentViewedPushtipsList_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRecentViewedPushtipsList() {
+        recentViewedPushtipsList_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000001);
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList oKJJHEFMALJ_ = emptyIntList();
+      private void ensureOKJJHEFMALJIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          oKJJHEFMALJ_ = mutableCopy(oKJJHEFMALJ_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+       * @return A list containing the oKJJHEFMALJ.
+       */
+      public java.util.List<java.lang.Integer>
+          getOKJJHEFMALJList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(oKJJHEFMALJ_) : oKJJHEFMALJ_;
+      }
+      /**
+       * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+       * @return The count of oKJJHEFMALJ.
+       */
+      public int getOKJJHEFMALJCount() {
+        return oKJJHEFMALJ_.size();
+      }
+      /**
+       * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+       * @param index The index of the element to return.
+       * @return The oKJJHEFMALJ at the given index.
+       */
+      public int getOKJJHEFMALJ(int index) {
+        return oKJJHEFMALJ_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+       * @param index The index to set the value at.
+       * @param value The oKJJHEFMALJ to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOKJJHEFMALJ(
+          int index, int value) {
+        ensureOKJJHEFMALJIsMutable();
+        oKJJHEFMALJ_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+       * @param value The oKJJHEFMALJ to add.
+       * @return This builder for chaining.
+       */
+      public Builder addOKJJHEFMALJ(int value) {
+        ensureOKJJHEFMALJIsMutable();
+        oKJJHEFMALJ_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+       * @param values The oKJJHEFMALJ to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllOKJJHEFMALJ(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureOKJJHEFMALJIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, oKJJHEFMALJ_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 OKJJHEFMALJ = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOKJJHEFMALJ() {
+        oKJJHEFMALJ_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
+        return this;
+      }
+
       private java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> typeDataList_ =
         java.util.Collections.emptyList();
       private void ensureTypeDataListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
+        if (!((bitField0_ & 0x00000004) != 0)) {
           typeDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData>(typeDataList_);
-          bitField0_ |= 0x00000001;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -920,7 +1062,11 @@ public final class ViewCodexRspOuterClass {
           emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder> typeDataListBuilder_;
 
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> getTypeDataListList() {
         if (typeDataListBuilder_ == null) {
@@ -930,7 +1076,11 @@ public final class ViewCodexRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public int getTypeDataListCount() {
         if (typeDataListBuilder_ == null) {
@@ -940,7 +1090,11 @@ public final class ViewCodexRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData getTypeDataList(int index) {
         if (typeDataListBuilder_ == null) {
@@ -950,7 +1104,11 @@ public final class ViewCodexRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public Builder setTypeDataList(
           int index, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData value) {
@@ -967,7 +1125,11 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public Builder setTypeDataList(
           int index, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder builderForValue) {
@@ -981,7 +1143,11 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public Builder addTypeDataList(emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData value) {
         if (typeDataListBuilder_ == null) {
@@ -997,7 +1163,11 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public Builder addTypeDataList(
           int index, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData value) {
@@ -1014,7 +1184,11 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public Builder addTypeDataList(
           emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder builderForValue) {
@@ -1028,7 +1202,11 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public Builder addTypeDataList(
           int index, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder builderForValue) {
@@ -1042,7 +1220,11 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public Builder addAllTypeDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> values) {
@@ -1057,12 +1239,16 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public Builder clearTypeDataList() {
         if (typeDataListBuilder_ == null) {
           typeDataList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           typeDataListBuilder_.clear();
@@ -1070,7 +1256,11 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public Builder removeTypeDataList(int index) {
         if (typeDataListBuilder_ == null) {
@@ -1083,14 +1273,22 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder getTypeDataListBuilder(
           int index) {
         return getTypeDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder getTypeDataListOrBuilder(
           int index) {
@@ -1100,7 +1298,11 @@ public final class ViewCodexRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder> 
            getTypeDataListOrBuilderList() {
@@ -1111,14 +1313,22 @@ public final class ViewCodexRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder addTypeDataListBuilder() {
         return getTypeDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.getDefaultInstance());
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder addTypeDataListBuilder(
           int index) {
@@ -1126,7 +1336,11 @@ public final class ViewCodexRspOuterClass {
             index, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.getDefaultInstance());
       }
       /**
-       * <code>repeated .CodexTypeData type_data_list = 7;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>repeated .CodexTypeData type_data_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder> 
            getTypeDataListBuilderList() {
@@ -1139,7 +1353,7 @@ public final class ViewCodexRspOuterClass {
           typeDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData.Builder, emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeDataOrBuilder>(
                   typeDataList_,
-                  ((bitField0_ & 0x00000001) != 0),
+                  ((bitField0_ & 0x00000004) != 0),
                   getParentForChildren(),
                   isClean());
           typeDataList_ = null;
@@ -1147,167 +1361,13 @@ public final class ViewCodexRspOuterClass {
         return typeDataListBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList nFIJOOFPEEH_ = emptyIntList();
-      private void ensureNFIJOOFPEEHIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          nFIJOOFPEEH_ = mutableCopy(nFIJOOFPEEH_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-       * @return A list containing the nFIJOOFPEEH.
-       */
-      public java.util.List<java.lang.Integer>
-          getNFIJOOFPEEHList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(nFIJOOFPEEH_) : nFIJOOFPEEH_;
-      }
-      /**
-       * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-       * @return The count of nFIJOOFPEEH.
-       */
-      public int getNFIJOOFPEEHCount() {
-        return nFIJOOFPEEH_.size();
-      }
-      /**
-       * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-       * @param index The index of the element to return.
-       * @return The nFIJOOFPEEH at the given index.
-       */
-      public int getNFIJOOFPEEH(int index) {
-        return nFIJOOFPEEH_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-       * @param index The index to set the value at.
-       * @param value The nFIJOOFPEEH to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNFIJOOFPEEH(
-          int index, int value) {
-        ensureNFIJOOFPEEHIsMutable();
-        nFIJOOFPEEH_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-       * @param value The nFIJOOFPEEH to add.
-       * @return This builder for chaining.
-       */
-      public Builder addNFIJOOFPEEH(int value) {
-        ensureNFIJOOFPEEHIsMutable();
-        nFIJOOFPEEH_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-       * @param values The nFIJOOFPEEH to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllNFIJOOFPEEH(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureNFIJOOFPEEHIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, nFIJOOFPEEH_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 NFIJOOFPEEH = 13;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNFIJOOFPEEH() {
-        nFIJOOFPEEH_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList recentViewedPushtipsList_ = emptyIntList();
-      private void ensureRecentViewedPushtipsListIsMutable() {
-        if (!((bitField0_ & 0x00000004) != 0)) {
-          recentViewedPushtipsList_ = mutableCopy(recentViewedPushtipsList_);
-          bitField0_ |= 0x00000004;
-         }
-      }
-      /**
-       * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
-       * @return A list containing the recentViewedPushtipsList.
-       */
-      public java.util.List<java.lang.Integer>
-          getRecentViewedPushtipsListList() {
-        return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(recentViewedPushtipsList_) : recentViewedPushtipsList_;
-      }
-      /**
-       * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
-       * @return The count of recentViewedPushtipsList.
-       */
-      public int getRecentViewedPushtipsListCount() {
-        return recentViewedPushtipsList_.size();
-      }
-      /**
-       * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
-       * @param index The index of the element to return.
-       * @return The recentViewedPushtipsList at the given index.
-       */
-      public int getRecentViewedPushtipsList(int index) {
-        return recentViewedPushtipsList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
-       * @param index The index to set the value at.
-       * @param value The recentViewedPushtipsList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRecentViewedPushtipsList(
-          int index, int value) {
-        ensureRecentViewedPushtipsListIsMutable();
-        recentViewedPushtipsList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
-       * @param value The recentViewedPushtipsList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addRecentViewedPushtipsList(int value) {
-        ensureRecentViewedPushtipsListIsMutable();
-        recentViewedPushtipsList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
-       * @param values The recentViewedPushtipsList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllRecentViewedPushtipsList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureRecentViewedPushtipsListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, recentViewedPushtipsList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 recent_viewed_pushtips_list = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRecentViewedPushtipsList() {
-        recentViewedPushtipsList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000004);
-        onChanged();
-        return this;
-      }
-
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 12;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>int32 retcode = 11;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -1315,7 +1375,11 @@ public final class ViewCodexRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 12;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>int32 retcode = 11;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -1326,91 +1390,16 @@ public final class ViewCodexRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 12;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>int32 retcode = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
         
         retcode_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList jGIBOGHCBHB_ = emptyIntList();
-      private void ensureJGIBOGHCBHBIsMutable() {
-        if (!((bitField0_ & 0x00000008) != 0)) {
-          jGIBOGHCBHB_ = mutableCopy(jGIBOGHCBHB_);
-          bitField0_ |= 0x00000008;
-         }
-      }
-      /**
-       * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-       * @return A list containing the jGIBOGHCBHB.
-       */
-      public java.util.List<java.lang.Integer>
-          getJGIBOGHCBHBList() {
-        return ((bitField0_ & 0x00000008) != 0) ?
-                 java.util.Collections.unmodifiableList(jGIBOGHCBHB_) : jGIBOGHCBHB_;
-      }
-      /**
-       * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-       * @return The count of jGIBOGHCBHB.
-       */
-      public int getJGIBOGHCBHBCount() {
-        return jGIBOGHCBHB_.size();
-      }
-      /**
-       * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-       * @param index The index of the element to return.
-       * @return The jGIBOGHCBHB at the given index.
-       */
-      public int getJGIBOGHCBHB(int index) {
-        return jGIBOGHCBHB_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-       * @param index The index to set the value at.
-       * @param value The jGIBOGHCBHB to set.
-       * @return This builder for chaining.
-       */
-      public Builder setJGIBOGHCBHB(
-          int index, int value) {
-        ensureJGIBOGHCBHBIsMutable();
-        jGIBOGHCBHB_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-       * @param value The jGIBOGHCBHB to add.
-       * @return This builder for chaining.
-       */
-      public Builder addJGIBOGHCBHB(int value) {
-        ensureJGIBOGHCBHBIsMutable();
-        jGIBOGHCBHB_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-       * @param values The jGIBOGHCBHB to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllJGIBOGHCBHB(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureJGIBOGHCBHBIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, jGIBOGHCBHB_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 JGIBOGHCBHB = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearJGIBOGHCBHB() {
-        jGIBOGHCBHB_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000008);
         onChanged();
         return this;
       }
@@ -1482,11 +1471,11 @@ public final class ViewCodexRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022ViewCodexRsp.proto\032\023CodexTypeData.prot" +
-      "o\"\226\001\n\014ViewCodexRsp\022&\n\016type_data_list\030\007 \003" +
-      "(\0132\016.CodexTypeData\022\023\n\013NFIJOOFPEEH\030\r \003(\r\022" +
-      "#\n\033recent_viewed_pushtips_list\030\n \003(\r\022\017\n\007" +
-      "retcode\030\014 \001(\005\022\023\n\013JGIBOGHCBHB\030\017 \003(\rB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "o\"\201\001\n\014ViewCodexRsp\022#\n\033recent_viewed_push" +
+      "tips_list\030\014 \003(\r\022\023\n\013OKJJHEFMALJ\030\010 \003(\r\022&\n\016" +
+      "type_data_list\030\n \003(\0132\016.CodexTypeData\022\017\n\007" +
+      "retcode\030\013 \001(\005B\033\n\031emu.grasscutter.net.pro" +
+      "tob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1498,7 +1487,7 @@ public final class ViewCodexRspOuterClass {
     internal_static_ViewCodexRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ViewCodexRsp_descriptor,
-        new java.lang.String[] { "TypeDataList", "NFIJOOFPEEH", "RecentViewedPushtipsList", "Retcode", "JGIBOGHCBHB", });
+        new java.lang.String[] { "RecentViewedPushtipsList", "OKJJHEFMALJ", "TypeDataList", "Retcode", });
     emu.grasscutter.net.proto.CodexTypeDataOuterClass.getDescriptor();
   }
 

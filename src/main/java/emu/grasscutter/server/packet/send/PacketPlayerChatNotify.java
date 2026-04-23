@@ -4,6 +4,7 @@ import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo;
 import emu.grasscutter.net.proto.PlayerChatNotifyOuterClass.PlayerChatNotify;
+import emu.grasscutter.net.proto.SystemHintOuterClass;
 
 public class PacketPlayerChatNotify extends BasePacket {
 
@@ -39,7 +40,7 @@ public class PacketPlayerChatNotify extends BasePacket {
         this.setData(proto);
     }
 
-    public PacketPlayerChatNotify(Player sender, int channelId, ChatInfo.SystemHint systemHint) {
+    public PacketPlayerChatNotify(Player sender, int channelId, SystemHintOuterClass.SystemHint systemHint) {
         super(PacketOpcodes.PlayerChatNotify);
 
         ChatInfo info =

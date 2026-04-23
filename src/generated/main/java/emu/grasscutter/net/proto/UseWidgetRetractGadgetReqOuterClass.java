@@ -25,11 +25,6 @@ public final class UseWidgetRetractGadgetReqOuterClass {
     int getEntityId();
   }
   /**
-   * <pre>
-   * CmdId: 9147
-   * Obf: NIMGOEPOCNP
-   * </pre>
-   *
    * Protobuf type {@code UseWidgetRetractGadgetReq}
    */
   public static final class UseWidgetRetractGadgetReq extends
@@ -278,11 +273,6 @@ public final class UseWidgetRetractGadgetReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 9147
-     * Obf: NIMGOEPOCNP
-     * </pre>
-     *
      * Protobuf type {@code UseWidgetRetractGadgetReq}
      */
     public static final class Builder extends

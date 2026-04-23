@@ -25,12 +25,12 @@ public final class ActionHealHP extends AbilityActionHandler {
     public boolean execute(
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         var owner = ability.getOwner();
-    
+
         if (owner != null) {
                 Grasscutter.getLogger().debug("Owner: {}", owner);
                 Grasscutter.getLogger().debug("Target: {}", target);
         }
-        
+
         // handle client gadgets, that the effective caster is the current local avatar
         if (owner instanceof EntityClientGadget ownerGadget) {
             owner =
@@ -48,14 +48,14 @@ public final class ActionHealHP extends AbilityActionHandler {
         }
         if (owner instanceof EntityClientGadget ownerGadget) {
                 owner = ownerGadget.getScene().getEntityById(ownerGadget.getOwnerEntityId());
-            
+
                 if (ownerGadget.gadgetId == 41089013 || ownerGadget.gadgetId == 41089012 || ownerGadget.gadgetId == 41089011) {
                     if (owner == null) {
                         owner = ability.getPlayerOwner().getTeamManager().getCurrentAvatarEntity();
                     }
                 }
             }
-            
+
         if (owner == null) return false;
 
         // Get all properties.
@@ -77,8 +77,8 @@ public final class ActionHealHP extends AbilityActionHandler {
         var amountByTargetMaxHPRatio = action.amountByTargetMaxHPRatio.get(properties, 0);
         var amountToRegenerate = action.amount.get(properties, 0);
 
-        if (action.amount.get(ability) != 0 && 
-            (amountByCasterMaxHPRatio != 0 || 
+        if (action.amount.get(ability) != 0 &&
+            (amountByCasterMaxHPRatio != 0 ||
             amountByCasterAttackRatio != 0 ||
             amountByCasterCurrentHPRatio != 0 ||
             amountByTargetCurrentHPRatio != 0 ||
@@ -119,7 +119,7 @@ public final class ActionHealHP extends AbilityActionHandler {
 
     if (target.isConvertToHpDebt() && ability.getOwner() != target) {
         if (target instanceof EntityAvatar avatar) {
-    
+
         float healAmount = amountToRegenerate * abilityRatio * action.healRatio.get(ability, 1f);
             Grasscutter.getLogger().debug("Initial heal amount before applying debt ratio: {}", healAmount);
 
@@ -145,8 +145,8 @@ public final class ActionHealHP extends AbilityActionHandler {
                 target,
                 FightProperty.FIGHT_PROP_CUR_HP_DEBTS,
                 changeDebt,
-                PropChangeReasonOuterClass.PropChangeReason.PROP_CHANGE_REASON_ABILITY,
-                ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_ADD_ABILITY
+                PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY,
+                ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_ADD_ABILITY
             ));
         }
 
@@ -170,7 +170,7 @@ public final class ActionHealHP extends AbilityActionHandler {
         target.heal(
                 amountToRegenerate * abilityRatio * action.healRatio.get(ability, 1f),
                 action.muteHealEffect);
-                  
+
         // --- New Functionality: Schedule Furina's heal on nearby party members (if not already active) ---
         if (target instanceof EntityAvatar avatar) {
             // Ensure Furina is in the team
@@ -186,10 +186,10 @@ public final class ActionHealHP extends AbilityActionHandler {
         float curHp = target.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP);
         float maxHp = target.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP);
         if (curHp < maxHp && furina != null) {
-                float energyToAdd = 4.0f; 
-                furina.addEnergy(energyToAdd, PropChangeReasonOuterClass.PropChangeReason.PROP_CHANGE_REASON_ABILITY);        
+                float energyToAdd = 4.0f;
+                furina.addEnergy(energyToAdd, PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY);
             }
-        
+
         if (furina != null && ability.getOwner() != furina) { // Healing source is not Furina
             if (preHealHp >= preMaxHp) { // Healing overflow condition.
                 Float scheduledFlag = furina.getGlobalAbilityValues().get("_FurinaScheduledHealActive");

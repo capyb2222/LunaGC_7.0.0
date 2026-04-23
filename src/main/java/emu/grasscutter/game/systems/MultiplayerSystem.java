@@ -7,6 +7,7 @@ import emu.grasscutter.game.props.EnterReason;
 import emu.grasscutter.game.world.World;
 import emu.grasscutter.net.proto.EnterTypeOuterClass.EnterType;
 import emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass;
+import emu.grasscutter.net.proto.ReasonOuterClass;
 import emu.grasscutter.server.game.*;
 import emu.grasscutter.server.packet.send.*;
 
@@ -19,11 +20,11 @@ public class MultiplayerSystem extends BaseGameSystem {
     public void applyEnterMp(Player player, int targetUid) {
         Player target = getServer().getPlayerByUid(targetUid);
         if (target == null) {
-            player.sendPacket(new PacketPlayerApplyEnterMpResultNotify(targetUid, "", false, PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.REASON_PLAYER_CANNOT_ENTER_MP));
+            player.sendPacket(new PacketPlayerApplyEnterMpResultNotify(targetUid, "", false, ReasonOuterClass.Reason.Reason_PLAYER_CANNOT_ENTER_MP));
             return;
         }
 
-        // Sanity checks - Dont let player join if already in multiplayer
+        // Sanity checks - Don't let player join if already in multiplayer
         if (player.getWorld().isMultiplayer()) {
             return;
         }
@@ -64,12 +65,12 @@ public class MultiplayerSystem extends BaseGameSystem {
 
         // Sanity checks - Dont let the requesting player join if they are already in multiplayer
         if (requester.getWorld().isMultiplayer()) {
-            request.getRequester().sendPacket(new PacketPlayerApplyEnterMpResultNotify(hostPlayer, false, PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.REASON_PLAYER_CANNOT_ENTER_MP));
+            request.getRequester().sendPacket(new PacketPlayerApplyEnterMpResultNotify(hostPlayer, false, ReasonOuterClass.Reason.Reason_PLAYER_CANNOT_ENTER_MP));
             return;
         }
 
         // Response packet
-        request.getRequester().sendPacket(new PacketPlayerApplyEnterMpResultNotify(hostPlayer, isAgreed, PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.REASON_PLAYER_JUDGE));
+        request.getRequester().sendPacket(new PacketPlayerApplyEnterMpResultNotify(hostPlayer, isAgreed, ReasonOuterClass.Reason.Reason_PLAYER_JUDGE));
 
         // Declined
         if (!isAgreed) {
@@ -85,7 +86,7 @@ public class MultiplayerSystem extends BaseGameSystem {
             world.addPlayer(hostPlayer);
 
             // Rejoin packet
-            hostPlayer.sendPacket(new PacketPlayerEnterSceneNotify(hostPlayer, hostPlayer, EnterType.ENTER_TYPE_SELF, EnterReason.HostFromSingleToMp, hostPlayer.getScene().getId(), hostPlayer.getPosition()));
+            hostPlayer.sendPacket(new PacketPlayerEnterSceneNotify(hostPlayer, hostPlayer, EnterType.EnterType_ENTER_SELF, EnterReason.HostFromSingleToMp, hostPlayer.getScene().getId(), hostPlayer.getPosition()));
         }
 
         // Set scene pos and id of requester to the host player's
@@ -97,7 +98,7 @@ public class MultiplayerSystem extends BaseGameSystem {
         hostPlayer.getWorld().addPlayer(requester);
 
         // Packet
-        requester.sendPacket(new PacketPlayerEnterSceneNotify(requester, hostPlayer, EnterType.ENTER_TYPE_OTHER, EnterReason.TeamJoin, hostPlayer.getScene().getId(), hostPlayer.getPosition()));
+        requester.sendPacket(new PacketPlayerEnterSceneNotify(requester, hostPlayer, EnterType.EnterType_ENTER_OTHER, EnterReason.TeamJoin, hostPlayer.getScene().getId(), hostPlayer.getPosition()));
     }
 
     public boolean leaveCoop(Player player) {
@@ -123,7 +124,7 @@ public class MultiplayerSystem extends BaseGameSystem {
         world.addPlayer(player);
 
         // Packet
-        player.sendPacket(new PacketPlayerEnterSceneNotify(player, EnterType.ENTER_TYPE_SELF, EnterReason.TeamBack, player.getScene().getId(), player.getPosition()));
+        player.sendPacket(new PacketPlayerEnterSceneNotify(player, EnterType.EnterType_ENTER_SELF, EnterReason.TeamBack, player.getScene().getId(), player.getPosition()));
 
         return true;
     }
@@ -150,7 +151,7 @@ public class MultiplayerSystem extends BaseGameSystem {
         World world = new World(victim);
         world.addPlayer(victim);
 
-        victim.sendPacket(new PacketPlayerEnterSceneNotify(victim, EnterType.ENTER_TYPE_SELF, EnterReason.TeamKick, victim.getScene().getId(), victim.getPosition()));
+        victim.sendPacket(new PacketPlayerEnterSceneNotify(victim, EnterType.EnterType_ENTER_SELF, EnterReason.TeamKick, victim.getScene().getId(), victim.getPosition()));
         return true;
     }
 }

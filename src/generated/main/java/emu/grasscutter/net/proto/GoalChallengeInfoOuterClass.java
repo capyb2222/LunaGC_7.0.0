@@ -19,34 +19,34 @@ public final class GoalChallengeInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> 
-        getStageInfoListList();
+    java.util.List<emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD> 
+        getNGMHFHPAAMFList();
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
-    emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo getStageInfoList(int index);
+    emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD getNGMHFHPAAMF(int index);
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
-    int getStageInfoListCount();
+    int getNGMHFHPAAMFCount();
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder> 
-        getStageInfoListOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHDOrBuilder> 
+        getNGMHFHPAAMFOrBuilderList();
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
-    emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder getStageInfoListOrBuilder(
+    emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHDOrBuilder getNGMHFHPAAMFOrBuilder(
         int index);
 
     /**
-     * <code>uint32 MEJMFDDFNAH = 15;</code>
-     * @return The mEJMFDDFNAH.
+     * <code>uint32 OIKCAAFICCB = 7;</code>
+     * @return The oIKCAAFICCB.
      */
-    int getMEJMFDDFNAH();
+    int getOIKCAAFICCB();
   }
   /**
    * Protobuf type {@code GoalChallengeInfo}
@@ -61,7 +61,7 @@ public final class GoalChallengeInfoOuterClass {
       super(builder);
     }
     private GoalChallengeInfo() {
-      stageInfoList_ = java.util.Collections.emptyList();
+      nGMHFHPAAMF_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -95,18 +95,18 @@ public final class GoalChallengeInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              stageInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.parser(), extensionRegistry));
+            case 56: {
+
+              oIKCAAFICCB_ = input.readUInt32();
               break;
             }
-            case 120: {
-
-              mEJMFDDFNAH_ = input.readUInt32();
+            case 98: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                nGMHFHPAAMF_ = new java.util.ArrayList<emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              nGMHFHPAAMF_.add(
+                  input.readMessage(emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -125,7 +125,7 @@ public final class GoalChallengeInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
+          nGMHFHPAAMF_ = java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -144,55 +144,55 @@ public final class GoalChallengeInfoOuterClass {
               emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo.class, emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 6;
-    private java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> stageInfoList_;
+    public static final int NGMHFHPAAMF_FIELD_NUMBER = 12;
+    private java.util.List<emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD> nGMHFHPAAMF_;
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> getStageInfoListList() {
-      return stageInfoList_;
+    public java.util.List<emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD> getNGMHFHPAAMFList() {
+      return nGMHFHPAAMF_;
     }
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder> 
-        getStageInfoListOrBuilderList() {
-      return stageInfoList_;
+    public java.util.List<? extends emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHDOrBuilder> 
+        getNGMHFHPAAMFOrBuilderList() {
+      return nGMHFHPAAMF_;
     }
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
     @java.lang.Override
-    public int getStageInfoListCount() {
-      return stageInfoList_.size();
+    public int getNGMHFHPAAMFCount() {
+      return nGMHFHPAAMF_.size();
     }
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo getStageInfoList(int index) {
-      return stageInfoList_.get(index);
+    public emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD getNGMHFHPAAMF(int index) {
+      return nGMHFHPAAMF_.get(index);
     }
     /**
-     * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+     * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder getStageInfoListOrBuilder(
+    public emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHDOrBuilder getNGMHFHPAAMFOrBuilder(
         int index) {
-      return stageInfoList_.get(index);
+      return nGMHFHPAAMF_.get(index);
     }
 
-    public static final int MEJMFDDFNAH_FIELD_NUMBER = 15;
-    private int mEJMFDDFNAH_;
+    public static final int OIKCAAFICCB_FIELD_NUMBER = 7;
+    private int oIKCAAFICCB_;
     /**
-     * <code>uint32 MEJMFDDFNAH = 15;</code>
-     * @return The mEJMFDDFNAH.
+     * <code>uint32 OIKCAAFICCB = 7;</code>
+     * @return The oIKCAAFICCB.
      */
     @java.lang.Override
-    public int getMEJMFDDFNAH() {
-      return mEJMFDDFNAH_;
+    public int getOIKCAAFICCB() {
+      return oIKCAAFICCB_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -209,11 +209,11 @@ public final class GoalChallengeInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(6, stageInfoList_.get(i));
+      if (oIKCAAFICCB_ != 0) {
+        output.writeUInt32(7, oIKCAAFICCB_);
       }
-      if (mEJMFDDFNAH_ != 0) {
-        output.writeUInt32(15, mEJMFDDFNAH_);
+      for (int i = 0; i < nGMHFHPAAMF_.size(); i++) {
+        output.writeMessage(12, nGMHFHPAAMF_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -224,13 +224,13 @@ public final class GoalChallengeInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < stageInfoList_.size(); i++) {
+      if (oIKCAAFICCB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, stageInfoList_.get(i));
+          .computeUInt32Size(7, oIKCAAFICCB_);
       }
-      if (mEJMFDDFNAH_ != 0) {
+      for (int i = 0; i < nGMHFHPAAMF_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, mEJMFDDFNAH_);
+          .computeMessageSize(12, nGMHFHPAAMF_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -247,10 +247,10 @@ public final class GoalChallengeInfoOuterClass {
       }
       emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo other = (emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo) obj;
 
-      if (!getStageInfoListList()
-          .equals(other.getStageInfoListList())) return false;
-      if (getMEJMFDDFNAH()
-          != other.getMEJMFDDFNAH()) return false;
+      if (!getNGMHFHPAAMFList()
+          .equals(other.getNGMHFHPAAMFList())) return false;
+      if (getOIKCAAFICCB()
+          != other.getOIKCAAFICCB()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -262,12 +262,12 @@ public final class GoalChallengeInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getStageInfoListCount() > 0) {
-        hash = (37 * hash) + STAGE_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getStageInfoListList().hashCode();
+      if (getNGMHFHPAAMFCount() > 0) {
+        hash = (37 * hash) + NGMHFHPAAMF_FIELD_NUMBER;
+        hash = (53 * hash) + getNGMHFHPAAMFList().hashCode();
       }
-      hash = (37 * hash) + MEJMFDDFNAH_FIELD_NUMBER;
-      hash = (53 * hash) + getMEJMFDDFNAH();
+      hash = (37 * hash) + OIKCAAFICCB_FIELD_NUMBER;
+      hash = (53 * hash) + getOIKCAAFICCB();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -396,19 +396,19 @@ public final class GoalChallengeInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getStageInfoListFieldBuilder();
+          getNGMHFHPAAMFFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (stageInfoListBuilder_ == null) {
-          stageInfoList_ = java.util.Collections.emptyList();
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMF_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          stageInfoListBuilder_.clear();
+          nGMHFHPAAMFBuilder_.clear();
         }
-        mEJMFDDFNAH_ = 0;
+        oIKCAAFICCB_ = 0;
 
         return this;
       }
@@ -437,16 +437,16 @@ public final class GoalChallengeInfoOuterClass {
       public emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo buildPartial() {
         emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo result = new emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo(this);
         int from_bitField0_ = bitField0_;
-        if (stageInfoListBuilder_ == null) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
+            nGMHFHPAAMF_ = java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.stageInfoList_ = stageInfoList_;
+          result.nGMHFHPAAMF_ = nGMHFHPAAMF_;
         } else {
-          result.stageInfoList_ = stageInfoListBuilder_.build();
+          result.nGMHFHPAAMF_ = nGMHFHPAAMFBuilder_.build();
         }
-        result.mEJMFDDFNAH_ = mEJMFDDFNAH_;
+        result.oIKCAAFICCB_ = oIKCAAFICCB_;
         onBuilt();
         return result;
       }
@@ -495,34 +495,34 @@ public final class GoalChallengeInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo other) {
         if (other == emu.grasscutter.net.proto.GoalChallengeInfoOuterClass.GoalChallengeInfo.getDefaultInstance()) return this;
-        if (stageInfoListBuilder_ == null) {
-          if (!other.stageInfoList_.isEmpty()) {
-            if (stageInfoList_.isEmpty()) {
-              stageInfoList_ = other.stageInfoList_;
+        if (nGMHFHPAAMFBuilder_ == null) {
+          if (!other.nGMHFHPAAMF_.isEmpty()) {
+            if (nGMHFHPAAMF_.isEmpty()) {
+              nGMHFHPAAMF_ = other.nGMHFHPAAMF_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureStageInfoListIsMutable();
-              stageInfoList_.addAll(other.stageInfoList_);
+              ensureNGMHFHPAAMFIsMutable();
+              nGMHFHPAAMF_.addAll(other.nGMHFHPAAMF_);
             }
             onChanged();
           }
         } else {
-          if (!other.stageInfoList_.isEmpty()) {
-            if (stageInfoListBuilder_.isEmpty()) {
-              stageInfoListBuilder_.dispose();
-              stageInfoListBuilder_ = null;
-              stageInfoList_ = other.stageInfoList_;
+          if (!other.nGMHFHPAAMF_.isEmpty()) {
+            if (nGMHFHPAAMFBuilder_.isEmpty()) {
+              nGMHFHPAAMFBuilder_.dispose();
+              nGMHFHPAAMFBuilder_ = null;
+              nGMHFHPAAMF_ = other.nGMHFHPAAMF_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              stageInfoListBuilder_ = 
+              nGMHFHPAAMFBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getStageInfoListFieldBuilder() : null;
+                   getNGMHFHPAAMFFieldBuilder() : null;
             } else {
-              stageInfoListBuilder_.addAllMessages(other.stageInfoList_);
+              nGMHFHPAAMFBuilder_.addAllMessages(other.nGMHFHPAAMF_);
             }
           }
         }
-        if (other.getMEJMFDDFNAH() != 0) {
-          setMEJMFDDFNAH(other.getMEJMFDDFNAH());
+        if (other.getOIKCAAFICCB() != 0) {
+          setOIKCAAFICCB(other.getOIKCAAFICCB());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -554,273 +554,273 @@ public final class GoalChallengeInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> stageInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD> nGMHFHPAAMF_ =
         java.util.Collections.emptyList();
-      private void ensureStageInfoListIsMutable() {
+      private void ensureNGMHFHPAAMFIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo>(stageInfoList_);
+          nGMHFHPAAMF_ = new java.util.ArrayList<emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD>(nGMHFHPAAMF_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder> stageInfoListBuilder_;
+          emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHDOrBuilder> nGMHFHPAAMFBuilder_;
 
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> getStageInfoListList() {
-        if (stageInfoListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(stageInfoList_);
+      public java.util.List<emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD> getNGMHFHPAAMFList() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         } else {
-          return stageInfoListBuilder_.getMessageList();
+          return nGMHFHPAAMFBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public int getStageInfoListCount() {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.size();
+      public int getNGMHFHPAAMFCount() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.size();
         } else {
-          return stageInfoListBuilder_.getCount();
+          return nGMHFHPAAMFBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo getStageInfoList(int index) {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.get(index);
+      public emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD getNGMHFHPAAMF(int index) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.get(index);
         } else {
-          return stageInfoListBuilder_.getMessage(index);
+          return nGMHFHPAAMFBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder setNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.set(index, value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.set(index, value);
           onChanged();
         } else {
-          stageInfoListBuilder_.setMessage(index, value);
+          nGMHFHPAAMFBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.set(index, builderForValue.build());
+      public Builder setNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.set(index, builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.setMessage(index, builderForValue.build());
+          nGMHFHPAAMFBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public Builder addStageInfoList(emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder addNGMHFHPAAMF(emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(value);
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(value);
+          nGMHFHPAAMFBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder addNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(index, value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(index, value);
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(index, value);
+          nGMHFHPAAMFBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public Builder addStageInfoList(
-          emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(builderForValue.build());
+      public Builder addNGMHFHPAAMF(
+          emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(builderForValue.build());
+          nGMHFHPAAMFBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(index, builderForValue.build());
+      public Builder addNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(index, builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(index, builderForValue.build());
+          nGMHFHPAAMFBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public Builder addAllStageInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo> values) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
+      public Builder addAllNGMHFHPAAMF(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD> values) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, stageInfoList_);
+              values, nGMHFHPAAMF_);
           onChanged();
         } else {
-          stageInfoListBuilder_.addAllMessages(values);
+          nGMHFHPAAMFBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public Builder clearStageInfoList() {
-        if (stageInfoListBuilder_ == null) {
-          stageInfoList_ = java.util.Collections.emptyList();
+      public Builder clearNGMHFHPAAMF() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMF_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          stageInfoListBuilder_.clear();
+          nGMHFHPAAMFBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public Builder removeStageInfoList(int index) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.remove(index);
+      public Builder removeNGMHFHPAAMF(int index) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.remove(index);
           onChanged();
         } else {
-          stageInfoListBuilder_.remove(index);
+          nGMHFHPAAMFBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder getStageInfoListBuilder(
+      public emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder getNGMHFHPAAMFBuilder(
           int index) {
-        return getStageInfoListFieldBuilder().getBuilder(index);
+        return getNGMHFHPAAMFFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder getStageInfoListOrBuilder(
+      public emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHDOrBuilder getNGMHFHPAAMFOrBuilder(
           int index) {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.get(index);  } else {
-          return stageInfoListBuilder_.getMessageOrBuilder(index);
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.get(index);  } else {
+          return nGMHFHPAAMFBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder> 
-           getStageInfoListOrBuilderList() {
-        if (stageInfoListBuilder_ != null) {
-          return stageInfoListBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHDOrBuilder> 
+           getNGMHFHPAAMFOrBuilderList() {
+        if (nGMHFHPAAMFBuilder_ != null) {
+          return nGMHFHPAAMFBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(stageInfoList_);
+          return java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         }
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder addStageInfoListBuilder() {
-        return getStageInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.getDefaultInstance());
+      public emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder addNGMHFHPAAMFBuilder() {
+        return getNGMHFHPAAMFFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.getDefaultInstance());
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder addStageInfoListBuilder(
+      public emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder addNGMHFHPAAMFBuilder(
           int index) {
-        return getStageInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.getDefaultInstance());
+        return getNGMHFHPAAMFFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.getDefaultInstance());
       }
       /**
-       * <code>repeated .GoalChallengeStageInfo stage_info_list = 6;</code>
+       * <code>repeated .PIOMCMDPDHD NGMHFHPAAMF = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder> 
-           getStageInfoListBuilderList() {
-        return getStageInfoListFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder> 
+           getNGMHFHPAAMFBuilderList() {
+        return getNGMHFHPAAMFFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder> 
-          getStageInfoListFieldBuilder() {
-        if (stageInfoListBuilder_ == null) {
-          stageInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfo.Builder, emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.GoalChallengeStageInfoOrBuilder>(
-                  stageInfoList_,
+          emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHDOrBuilder> 
+          getNGMHFHPAAMFFieldBuilder() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMFBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHD.Builder, emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.PIOMCMDPDHDOrBuilder>(
+                  nGMHFHPAAMF_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          stageInfoList_ = null;
+          nGMHFHPAAMF_ = null;
         }
-        return stageInfoListBuilder_;
+        return nGMHFHPAAMFBuilder_;
       }
 
-      private int mEJMFDDFNAH_ ;
+      private int oIKCAAFICCB_ ;
       /**
-       * <code>uint32 MEJMFDDFNAH = 15;</code>
-       * @return The mEJMFDDFNAH.
+       * <code>uint32 OIKCAAFICCB = 7;</code>
+       * @return The oIKCAAFICCB.
        */
       @java.lang.Override
-      public int getMEJMFDDFNAH() {
-        return mEJMFDDFNAH_;
+      public int getOIKCAAFICCB() {
+        return oIKCAAFICCB_;
       }
       /**
-       * <code>uint32 MEJMFDDFNAH = 15;</code>
-       * @param value The mEJMFDDFNAH to set.
+       * <code>uint32 OIKCAAFICCB = 7;</code>
+       * @param value The oIKCAAFICCB to set.
        * @return This builder for chaining.
        */
-      public Builder setMEJMFDDFNAH(int value) {
+      public Builder setOIKCAAFICCB(int value) {
         
-        mEJMFDDFNAH_ = value;
+        oIKCAAFICCB_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 MEJMFDDFNAH = 15;</code>
+       * <code>uint32 OIKCAAFICCB = 7;</code>
        * @return This builder for chaining.
        */
-      public Builder clearMEJMFDDFNAH() {
+      public Builder clearOIKCAAFICCB() {
         
-        mEJMFDDFNAH_ = 0;
+        oIKCAAFICCB_ = 0;
         onChanged();
         return this;
       }
@@ -891,24 +891,23 @@ public final class GoalChallengeInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027GoalChallengeInfo.proto\032\034GoalChallenge" +
-      "StageInfo.proto\"Z\n\021GoalChallengeInfo\0220\n\017" +
-      "stage_info_list\030\006 \003(\0132\027.GoalChallengeSta" +
-      "geInfo\022\023\n\013MEJMFDDFNAH\030\017 \001(\rB\033\n\031emu.grass" +
-      "cutter.net.protob\006proto3"
+      "\n\027GoalChallengeInfo.proto\032\021PIOMCMDPDHD.p" +
+      "roto\"K\n\021GoalChallengeInfo\022!\n\013NGMHFHPAAMF" +
+      "\030\014 \003(\0132\014.PIOMCMDPDHD\022\023\n\013OIKCAAFICCB\030\007 \001(" +
+      "\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.getDescriptor(),
         });
     internal_static_GoalChallengeInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_GoalChallengeInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GoalChallengeInfo_descriptor,
-        new java.lang.String[] { "StageInfoList", "MEJMFDDFNAH", });
-    emu.grasscutter.net.proto.GoalChallengeStageInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "NGMHFHPAAMF", "OIKCAAFICCB", });
+    emu.grasscutter.net.proto.PIOMCMDPDHDOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

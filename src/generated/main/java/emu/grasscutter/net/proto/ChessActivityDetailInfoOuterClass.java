@@ -19,69 +19,62 @@ public final class ChessActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 finished_map_id_list = 1;</code>
-     * @return A list containing the finishedMapIdList.
-     */
-    java.util.List<java.lang.Integer> getFinishedMapIdListList();
-    /**
-     * <code>repeated uint32 finished_map_id_list = 1;</code>
-     * @return The count of finishedMapIdList.
-     */
-    int getFinishedMapIdListCount();
-    /**
-     * <code>repeated uint32 finished_map_id_list = 1;</code>
-     * @param index The index of the element to return.
-     * @return The finishedMapIdList at the given index.
-     */
-    int getFinishedMapIdList(int index);
-
-    /**
-     * <code>uint32 exp = 14;</code>
-     * @return The exp.
-     */
-    int getExp();
-
-    /**
-     * <code>uint32 content_close_time = 11;</code>
-     * @return The contentCloseTime.
-     */
-    int getContentCloseTime();
-
-    /**
-     * <code>uint32 IEAPDMDDIGE = 3;</code>
-     * @return The iEAPDMDDIGE.
-     */
-    int getIEAPDMDDIGE();
-
-    /**
-     * <code>uint32 LIOCCMGLEBM = 12;</code>
-     * @return The lIOCCMGLEBM.
-     */
-    int getLIOCCMGLEBM();
-
-    /**
-     * <code>bool is_teach_dungeon_finished = 15;</code>
-     * @return The isTeachDungeonFinished.
-     */
-    boolean getIsTeachDungeonFinished();
-
-    /**
-     * <code>bool is_content_closed = 2;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 10;</code>
      * @return The isContentClosed.
      */
     boolean getIsContentClosed();
 
     /**
-     * <code>uint32 level = 10;</code>
+     * <code>bool GIGPDLGGEOM = 7;</code>
+     * @return The gIGPDLGGEOM.
+     */
+    boolean getGIGPDLGGEOM();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 exp = 9;</code>
+     * @return The exp.
+     */
+    int getExp();
+
+    /**
+     * <code>uint32 DJHMOOHNKKO = 5;</code>
+     * @return The dJHMOOHNKKO.
+     */
+    int getDJHMOOHNKKO();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 level = 4;</code>
      * @return The level.
      */
     int getLevel();
 
     /**
-     * <code>uint32 HAADHKJAHPI = 4;</code>
-     * @return The hAADHKJAHPI.
+     * <code>uint32 JGKFANJEFAF = 8;</code>
+     * @return The jGKFANJEFAF.
      */
-    int getHAADHKJAHPI();
+    int getJGKFANJEFAF();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 content_close_time = 6;</code>
+     * @return The contentCloseTime.
+     */
+    int getContentCloseTime();
   }
   /**
    * Protobuf type {@code ChessActivityDetailInfo}
@@ -96,7 +89,6 @@ public final class ChessActivityDetailInfoOuterClass {
       super(builder);
     }
     private ChessActivityDetailInfo() {
-      finishedMapIdList_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -119,7 +111,6 @@ public final class ChessActivityDetailInfoOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
-      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -130,65 +121,39 @@ public final class ChessActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                finishedMapIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              finishedMapIdList_.addInt(input.readUInt32());
-              break;
-            }
-            case 10: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                finishedMapIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                finishedMapIdList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 16: {
-
-              isContentClosed_ = input.readBool();
-              break;
-            }
-            case 24: {
-
-              iEAPDMDDIGE_ = input.readUInt32();
-              break;
-            }
             case 32: {
-
-              hAADHKJAHPI_ = input.readUInt32();
-              break;
-            }
-            case 80: {
 
               level_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 40: {
+
+              dJHMOOHNKKO_ = input.readUInt32();
+              break;
+            }
+            case 48: {
 
               contentCloseTime_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 56: {
 
-              lIOCCMGLEBM_ = input.readUInt32();
+              gIGPDLGGEOM_ = input.readBool();
               break;
             }
-            case 112: {
+            case 64: {
+
+              jGKFANJEFAF_ = input.readUInt32();
+              break;
+            }
+            case 72: {
 
               exp_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 80: {
 
-              isTeachDungeonFinished_ = input.readBool();
+              isContentClosed_ = input.readBool();
               break;
             }
             default: {
@@ -206,9 +171,6 @@ public final class ChessActivityDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          finishedMapIdList_.makeImmutable(); // C
-        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -226,93 +188,14 @@ public final class ChessActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.ChessActivityDetailInfoOuterClass.ChessActivityDetailInfo.class, emu.grasscutter.net.proto.ChessActivityDetailInfoOuterClass.ChessActivityDetailInfo.Builder.class);
     }
 
-    public static final int FINISHED_MAP_ID_LIST_FIELD_NUMBER = 1;
-    private com.google.protobuf.Internal.IntList finishedMapIdList_;
-    /**
-     * <code>repeated uint32 finished_map_id_list = 1;</code>
-     * @return A list containing the finishedMapIdList.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getFinishedMapIdListList() {
-      return finishedMapIdList_;
-    }
-    /**
-     * <code>repeated uint32 finished_map_id_list = 1;</code>
-     * @return The count of finishedMapIdList.
-     */
-    public int getFinishedMapIdListCount() {
-      return finishedMapIdList_.size();
-    }
-    /**
-     * <code>repeated uint32 finished_map_id_list = 1;</code>
-     * @param index The index of the element to return.
-     * @return The finishedMapIdList at the given index.
-     */
-    public int getFinishedMapIdList(int index) {
-      return finishedMapIdList_.getInt(index);
-    }
-    private int finishedMapIdListMemoizedSerializedSize = -1;
-
-    public static final int EXP_FIELD_NUMBER = 14;
-    private int exp_;
-    /**
-     * <code>uint32 exp = 14;</code>
-     * @return The exp.
-     */
-    @java.lang.Override
-    public int getExp() {
-      return exp_;
-    }
-
-    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 11;
-    private int contentCloseTime_;
-    /**
-     * <code>uint32 content_close_time = 11;</code>
-     * @return The contentCloseTime.
-     */
-    @java.lang.Override
-    public int getContentCloseTime() {
-      return contentCloseTime_;
-    }
-
-    public static final int IEAPDMDDIGE_FIELD_NUMBER = 3;
-    private int iEAPDMDDIGE_;
-    /**
-     * <code>uint32 IEAPDMDDIGE = 3;</code>
-     * @return The iEAPDMDDIGE.
-     */
-    @java.lang.Override
-    public int getIEAPDMDDIGE() {
-      return iEAPDMDDIGE_;
-    }
-
-    public static final int LIOCCMGLEBM_FIELD_NUMBER = 12;
-    private int lIOCCMGLEBM_;
-    /**
-     * <code>uint32 LIOCCMGLEBM = 12;</code>
-     * @return The lIOCCMGLEBM.
-     */
-    @java.lang.Override
-    public int getLIOCCMGLEBM() {
-      return lIOCCMGLEBM_;
-    }
-
-    public static final int IS_TEACH_DUNGEON_FINISHED_FIELD_NUMBER = 15;
-    private boolean isTeachDungeonFinished_;
-    /**
-     * <code>bool is_teach_dungeon_finished = 15;</code>
-     * @return The isTeachDungeonFinished.
-     */
-    @java.lang.Override
-    public boolean getIsTeachDungeonFinished() {
-      return isTeachDungeonFinished_;
-    }
-
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 2;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 10;
     private boolean isContentClosed_;
     /**
-     * <code>bool is_content_closed = 2;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>bool is_content_closed = 10;</code>
      * @return The isContentClosed.
      */
     @java.lang.Override
@@ -320,10 +203,51 @@ public final class ChessActivityDetailInfoOuterClass {
       return isContentClosed_;
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 10;
+    public static final int GIGPDLGGEOM_FIELD_NUMBER = 7;
+    private boolean gIGPDLGGEOM_;
+    /**
+     * <code>bool GIGPDLGGEOM = 7;</code>
+     * @return The gIGPDLGGEOM.
+     */
+    @java.lang.Override
+    public boolean getGIGPDLGGEOM() {
+      return gIGPDLGGEOM_;
+    }
+
+    public static final int EXP_FIELD_NUMBER = 9;
+    private int exp_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 exp = 9;</code>
+     * @return The exp.
+     */
+    @java.lang.Override
+    public int getExp() {
+      return exp_;
+    }
+
+    public static final int DJHMOOHNKKO_FIELD_NUMBER = 5;
+    private int dJHMOOHNKKO_;
+    /**
+     * <code>uint32 DJHMOOHNKKO = 5;</code>
+     * @return The dJHMOOHNKKO.
+     */
+    @java.lang.Override
+    public int getDJHMOOHNKKO() {
+      return dJHMOOHNKKO_;
+    }
+
+    public static final int LEVEL_FIELD_NUMBER = 4;
     private int level_;
     /**
-     * <code>uint32 level = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 level = 4;</code>
      * @return The level.
      */
     @java.lang.Override
@@ -331,15 +255,30 @@ public final class ChessActivityDetailInfoOuterClass {
       return level_;
     }
 
-    public static final int HAADHKJAHPI_FIELD_NUMBER = 4;
-    private int hAADHKJAHPI_;
+    public static final int JGKFANJEFAF_FIELD_NUMBER = 8;
+    private int jGKFANJEFAF_;
     /**
-     * <code>uint32 HAADHKJAHPI = 4;</code>
-     * @return The hAADHKJAHPI.
+     * <code>uint32 JGKFANJEFAF = 8;</code>
+     * @return The jGKFANJEFAF.
      */
     @java.lang.Override
-    public int getHAADHKJAHPI() {
-      return hAADHKJAHPI_;
+    public int getJGKFANJEFAF() {
+      return jGKFANJEFAF_;
+    }
+
+    public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 6;
+    private int contentCloseTime_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 content_close_time = 6;</code>
+     * @return The contentCloseTime.
+     */
+    @java.lang.Override
+    public int getContentCloseTime() {
+      return contentCloseTime_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -356,37 +295,26 @@ public final class ChessActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      getSerializedSize();
-      if (getFinishedMapIdListList().size() > 0) {
-        output.writeUInt32NoTag(10);
-        output.writeUInt32NoTag(finishedMapIdListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < finishedMapIdList_.size(); i++) {
-        output.writeUInt32NoTag(finishedMapIdList_.getInt(i));
-      }
-      if (isContentClosed_ != false) {
-        output.writeBool(2, isContentClosed_);
-      }
-      if (iEAPDMDDIGE_ != 0) {
-        output.writeUInt32(3, iEAPDMDDIGE_);
-      }
-      if (hAADHKJAHPI_ != 0) {
-        output.writeUInt32(4, hAADHKJAHPI_);
-      }
       if (level_ != 0) {
-        output.writeUInt32(10, level_);
+        output.writeUInt32(4, level_);
+      }
+      if (dJHMOOHNKKO_ != 0) {
+        output.writeUInt32(5, dJHMOOHNKKO_);
       }
       if (contentCloseTime_ != 0) {
-        output.writeUInt32(11, contentCloseTime_);
+        output.writeUInt32(6, contentCloseTime_);
       }
-      if (lIOCCMGLEBM_ != 0) {
-        output.writeUInt32(12, lIOCCMGLEBM_);
+      if (gIGPDLGGEOM_ != false) {
+        output.writeBool(7, gIGPDLGGEOM_);
+      }
+      if (jGKFANJEFAF_ != 0) {
+        output.writeUInt32(8, jGKFANJEFAF_);
       }
       if (exp_ != 0) {
-        output.writeUInt32(14, exp_);
+        output.writeUInt32(9, exp_);
       }
-      if (isTeachDungeonFinished_ != false) {
-        output.writeBool(15, isTeachDungeonFinished_);
+      if (isContentClosed_ != false) {
+        output.writeBool(10, isContentClosed_);
       }
       unknownFields.writeTo(output);
     }
@@ -397,51 +325,33 @@ public final class ChessActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      {
-        int dataSize = 0;
-        for (int i = 0; i < finishedMapIdList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(finishedMapIdList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getFinishedMapIdListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        finishedMapIdListMemoizedSerializedSize = dataSize;
-      }
-      if (isContentClosed_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isContentClosed_);
-      }
-      if (iEAPDMDDIGE_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, iEAPDMDDIGE_);
-      }
-      if (hAADHKJAHPI_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, hAADHKJAHPI_);
-      }
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, level_);
+          .computeUInt32Size(4, level_);
+      }
+      if (dJHMOOHNKKO_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, dJHMOOHNKKO_);
       }
       if (contentCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, contentCloseTime_);
+          .computeUInt32Size(6, contentCloseTime_);
       }
-      if (lIOCCMGLEBM_ != 0) {
+      if (gIGPDLGGEOM_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, lIOCCMGLEBM_);
+          .computeBoolSize(7, gIGPDLGGEOM_);
+      }
+      if (jGKFANJEFAF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, jGKFANJEFAF_);
       }
       if (exp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, exp_);
+          .computeUInt32Size(9, exp_);
       }
-      if (isTeachDungeonFinished_ != false) {
+      if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isTeachDungeonFinished_);
+          .computeBoolSize(10, isContentClosed_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -458,24 +368,20 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.ChessActivityDetailInfoOuterClass.ChessActivityDetailInfo other = (emu.grasscutter.net.proto.ChessActivityDetailInfoOuterClass.ChessActivityDetailInfo) obj;
 
-      if (!getFinishedMapIdListList()
-          .equals(other.getFinishedMapIdListList())) return false;
-      if (getExp()
-          != other.getExp()) return false;
-      if (getContentCloseTime()
-          != other.getContentCloseTime()) return false;
-      if (getIEAPDMDDIGE()
-          != other.getIEAPDMDDIGE()) return false;
-      if (getLIOCCMGLEBM()
-          != other.getLIOCCMGLEBM()) return false;
-      if (getIsTeachDungeonFinished()
-          != other.getIsTeachDungeonFinished()) return false;
       if (getIsContentClosed()
           != other.getIsContentClosed()) return false;
+      if (getGIGPDLGGEOM()
+          != other.getGIGPDLGGEOM()) return false;
+      if (getExp()
+          != other.getExp()) return false;
+      if (getDJHMOOHNKKO()
+          != other.getDJHMOOHNKKO()) return false;
       if (getLevel()
           != other.getLevel()) return false;
-      if (getHAADHKJAHPI()
-          != other.getHAADHKJAHPI()) return false;
+      if (getJGKFANJEFAF()
+          != other.getJGKFANJEFAF()) return false;
+      if (getContentCloseTime()
+          != other.getContentCloseTime()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -487,28 +393,22 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getFinishedMapIdListCount() > 0) {
-        hash = (37 * hash) + FINISHED_MAP_ID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getFinishedMapIdListList().hashCode();
-      }
-      hash = (37 * hash) + EXP_FIELD_NUMBER;
-      hash = (53 * hash) + getExp();
-      hash = (37 * hash) + CONTENT_CLOSE_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getContentCloseTime();
-      hash = (37 * hash) + IEAPDMDDIGE_FIELD_NUMBER;
-      hash = (53 * hash) + getIEAPDMDDIGE();
-      hash = (37 * hash) + LIOCCMGLEBM_FIELD_NUMBER;
-      hash = (53 * hash) + getLIOCCMGLEBM();
-      hash = (37 * hash) + IS_TEACH_DUNGEON_FINISHED_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsTeachDungeonFinished());
       hash = (37 * hash) + IS_CONTENT_CLOSED_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsContentClosed());
+      hash = (37 * hash) + GIGPDLGGEOM_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getGIGPDLGGEOM());
+      hash = (37 * hash) + EXP_FIELD_NUMBER;
+      hash = (53 * hash) + getExp();
+      hash = (37 * hash) + DJHMOOHNKKO_FIELD_NUMBER;
+      hash = (53 * hash) + getDJHMOOHNKKO();
       hash = (37 * hash) + LEVEL_FIELD_NUMBER;
       hash = (53 * hash) + getLevel();
-      hash = (37 * hash) + HAADHKJAHPI_FIELD_NUMBER;
-      hash = (53 * hash) + getHAADHKJAHPI();
+      hash = (37 * hash) + JGKFANJEFAF_FIELD_NUMBER;
+      hash = (53 * hash) + getJGKFANJEFAF();
+      hash = (37 * hash) + CONTENT_CLOSE_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getContentCloseTime();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -642,23 +542,19 @@ public final class ChessActivityDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        finishedMapIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
+        isContentClosed_ = false;
+
+        gIGPDLGGEOM_ = false;
+
         exp_ = 0;
 
-        contentCloseTime_ = 0;
-
-        iEAPDMDDIGE_ = 0;
-
-        lIOCCMGLEBM_ = 0;
-
-        isTeachDungeonFinished_ = false;
-
-        isContentClosed_ = false;
+        dJHMOOHNKKO_ = 0;
 
         level_ = 0;
 
-        hAADHKJAHPI_ = 0;
+        jGKFANJEFAF_ = 0;
+
+        contentCloseTime_ = 0;
 
         return this;
       }
@@ -686,20 +582,13 @@ public final class ChessActivityDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ChessActivityDetailInfoOuterClass.ChessActivityDetailInfo buildPartial() {
         emu.grasscutter.net.proto.ChessActivityDetailInfoOuterClass.ChessActivityDetailInfo result = new emu.grasscutter.net.proto.ChessActivityDetailInfoOuterClass.ChessActivityDetailInfo(this);
-        int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) != 0)) {
-          finishedMapIdList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.finishedMapIdList_ = finishedMapIdList_;
-        result.exp_ = exp_;
-        result.contentCloseTime_ = contentCloseTime_;
-        result.iEAPDMDDIGE_ = iEAPDMDDIGE_;
-        result.lIOCCMGLEBM_ = lIOCCMGLEBM_;
-        result.isTeachDungeonFinished_ = isTeachDungeonFinished_;
         result.isContentClosed_ = isContentClosed_;
+        result.gIGPDLGGEOM_ = gIGPDLGGEOM_;
+        result.exp_ = exp_;
+        result.dJHMOOHNKKO_ = dJHMOOHNKKO_;
         result.level_ = level_;
-        result.hAADHKJAHPI_ = hAADHKJAHPI_;
+        result.jGKFANJEFAF_ = jGKFANJEFAF_;
+        result.contentCloseTime_ = contentCloseTime_;
         onBuilt();
         return result;
       }
@@ -748,39 +637,26 @@ public final class ChessActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ChessActivityDetailInfoOuterClass.ChessActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.ChessActivityDetailInfoOuterClass.ChessActivityDetailInfo.getDefaultInstance()) return this;
-        if (!other.finishedMapIdList_.isEmpty()) {
-          if (finishedMapIdList_.isEmpty()) {
-            finishedMapIdList_ = other.finishedMapIdList_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureFinishedMapIdListIsMutable();
-            finishedMapIdList_.addAll(other.finishedMapIdList_);
-          }
-          onChanged();
+        if (other.getIsContentClosed() != false) {
+          setIsContentClosed(other.getIsContentClosed());
+        }
+        if (other.getGIGPDLGGEOM() != false) {
+          setGIGPDLGGEOM(other.getGIGPDLGGEOM());
         }
         if (other.getExp() != 0) {
           setExp(other.getExp());
         }
-        if (other.getContentCloseTime() != 0) {
-          setContentCloseTime(other.getContentCloseTime());
-        }
-        if (other.getIEAPDMDDIGE() != 0) {
-          setIEAPDMDDIGE(other.getIEAPDMDDIGE());
-        }
-        if (other.getLIOCCMGLEBM() != 0) {
-          setLIOCCMGLEBM(other.getLIOCCMGLEBM());
-        }
-        if (other.getIsTeachDungeonFinished() != false) {
-          setIsTeachDungeonFinished(other.getIsTeachDungeonFinished());
-        }
-        if (other.getIsContentClosed() != false) {
-          setIsContentClosed(other.getIsContentClosed());
+        if (other.getDJHMOOHNKKO() != 0) {
+          setDJHMOOHNKKO(other.getDJHMOOHNKKO());
         }
         if (other.getLevel() != 0) {
           setLevel(other.getLevel());
         }
-        if (other.getHAADHKJAHPI() != 0) {
-          setHAADHKJAHPI(other.getHAADHKJAHPI());
+        if (other.getJGKFANJEFAF() != 0) {
+          setJGKFANJEFAF(other.getJGKFANJEFAF());
+        }
+        if (other.getContentCloseTime() != 0) {
+          setContentCloseTime(other.getContentCloseTime());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -810,245 +686,14 @@ public final class ChessActivityDetailInfoOuterClass {
         }
         return this;
       }
-      private int bitField0_;
-
-      private com.google.protobuf.Internal.IntList finishedMapIdList_ = emptyIntList();
-      private void ensureFinishedMapIdListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          finishedMapIdList_ = mutableCopy(finishedMapIdList_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-      /**
-       * <code>repeated uint32 finished_map_id_list = 1;</code>
-       * @return A list containing the finishedMapIdList.
-       */
-      public java.util.List<java.lang.Integer>
-          getFinishedMapIdListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(finishedMapIdList_) : finishedMapIdList_;
-      }
-      /**
-       * <code>repeated uint32 finished_map_id_list = 1;</code>
-       * @return The count of finishedMapIdList.
-       */
-      public int getFinishedMapIdListCount() {
-        return finishedMapIdList_.size();
-      }
-      /**
-       * <code>repeated uint32 finished_map_id_list = 1;</code>
-       * @param index The index of the element to return.
-       * @return The finishedMapIdList at the given index.
-       */
-      public int getFinishedMapIdList(int index) {
-        return finishedMapIdList_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 finished_map_id_list = 1;</code>
-       * @param index The index to set the value at.
-       * @param value The finishedMapIdList to set.
-       * @return This builder for chaining.
-       */
-      public Builder setFinishedMapIdList(
-          int index, int value) {
-        ensureFinishedMapIdListIsMutable();
-        finishedMapIdList_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 finished_map_id_list = 1;</code>
-       * @param value The finishedMapIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addFinishedMapIdList(int value) {
-        ensureFinishedMapIdListIsMutable();
-        finishedMapIdList_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 finished_map_id_list = 1;</code>
-       * @param values The finishedMapIdList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllFinishedMapIdList(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureFinishedMapIdListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, finishedMapIdList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 finished_map_id_list = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearFinishedMapIdList() {
-        finishedMapIdList_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private int exp_ ;
-      /**
-       * <code>uint32 exp = 14;</code>
-       * @return The exp.
-       */
-      @java.lang.Override
-      public int getExp() {
-        return exp_;
-      }
-      /**
-       * <code>uint32 exp = 14;</code>
-       * @param value The exp to set.
-       * @return This builder for chaining.
-       */
-      public Builder setExp(int value) {
-        
-        exp_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 exp = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearExp() {
-        
-        exp_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int contentCloseTime_ ;
-      /**
-       * <code>uint32 content_close_time = 11;</code>
-       * @return The contentCloseTime.
-       */
-      @java.lang.Override
-      public int getContentCloseTime() {
-        return contentCloseTime_;
-      }
-      /**
-       * <code>uint32 content_close_time = 11;</code>
-       * @param value The contentCloseTime to set.
-       * @return This builder for chaining.
-       */
-      public Builder setContentCloseTime(int value) {
-        
-        contentCloseTime_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 content_close_time = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearContentCloseTime() {
-        
-        contentCloseTime_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int iEAPDMDDIGE_ ;
-      /**
-       * <code>uint32 IEAPDMDDIGE = 3;</code>
-       * @return The iEAPDMDDIGE.
-       */
-      @java.lang.Override
-      public int getIEAPDMDDIGE() {
-        return iEAPDMDDIGE_;
-      }
-      /**
-       * <code>uint32 IEAPDMDDIGE = 3;</code>
-       * @param value The iEAPDMDDIGE to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIEAPDMDDIGE(int value) {
-        
-        iEAPDMDDIGE_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 IEAPDMDDIGE = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIEAPDMDDIGE() {
-        
-        iEAPDMDDIGE_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int lIOCCMGLEBM_ ;
-      /**
-       * <code>uint32 LIOCCMGLEBM = 12;</code>
-       * @return The lIOCCMGLEBM.
-       */
-      @java.lang.Override
-      public int getLIOCCMGLEBM() {
-        return lIOCCMGLEBM_;
-      }
-      /**
-       * <code>uint32 LIOCCMGLEBM = 12;</code>
-       * @param value The lIOCCMGLEBM to set.
-       * @return This builder for chaining.
-       */
-      public Builder setLIOCCMGLEBM(int value) {
-        
-        lIOCCMGLEBM_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 LIOCCMGLEBM = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearLIOCCMGLEBM() {
-        
-        lIOCCMGLEBM_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private boolean isTeachDungeonFinished_ ;
-      /**
-       * <code>bool is_teach_dungeon_finished = 15;</code>
-       * @return The isTeachDungeonFinished.
-       */
-      @java.lang.Override
-      public boolean getIsTeachDungeonFinished() {
-        return isTeachDungeonFinished_;
-      }
-      /**
-       * <code>bool is_teach_dungeon_finished = 15;</code>
-       * @param value The isTeachDungeonFinished to set.
-       * @return This builder for chaining.
-       */
-      public Builder setIsTeachDungeonFinished(boolean value) {
-        
-        isTeachDungeonFinished_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool is_teach_dungeon_finished = 15;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearIsTeachDungeonFinished() {
-        
-        isTeachDungeonFinished_ = false;
-        onChanged();
-        return this;
-      }
 
       private boolean isContentClosed_ ;
       /**
-       * <code>bool is_content_closed = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 10;</code>
        * @return The isContentClosed.
        */
       @java.lang.Override
@@ -1056,7 +701,11 @@ public final class ChessActivityDetailInfoOuterClass {
         return isContentClosed_;
       }
       /**
-       * <code>bool is_content_closed = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 10;</code>
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
@@ -1067,7 +716,11 @@ public final class ChessActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_content_closed = 2;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>bool is_content_closed = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsContentClosed() {
@@ -1077,9 +730,118 @@ public final class ChessActivityDetailInfoOuterClass {
         return this;
       }
 
+      private boolean gIGPDLGGEOM_ ;
+      /**
+       * <code>bool GIGPDLGGEOM = 7;</code>
+       * @return The gIGPDLGGEOM.
+       */
+      @java.lang.Override
+      public boolean getGIGPDLGGEOM() {
+        return gIGPDLGGEOM_;
+      }
+      /**
+       * <code>bool GIGPDLGGEOM = 7;</code>
+       * @param value The gIGPDLGGEOM to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGIGPDLGGEOM(boolean value) {
+        
+        gIGPDLGGEOM_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool GIGPDLGGEOM = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGIGPDLGGEOM() {
+        
+        gIGPDLGGEOM_ = false;
+        onChanged();
+        return this;
+      }
+
+      private int exp_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 exp = 9;</code>
+       * @return The exp.
+       */
+      @java.lang.Override
+      public int getExp() {
+        return exp_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 exp = 9;</code>
+       * @param value The exp to set.
+       * @return This builder for chaining.
+       */
+      public Builder setExp(int value) {
+        
+        exp_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 exp = 9;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearExp() {
+        
+        exp_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int dJHMOOHNKKO_ ;
+      /**
+       * <code>uint32 DJHMOOHNKKO = 5;</code>
+       * @return The dJHMOOHNKKO.
+       */
+      @java.lang.Override
+      public int getDJHMOOHNKKO() {
+        return dJHMOOHNKKO_;
+      }
+      /**
+       * <code>uint32 DJHMOOHNKKO = 5;</code>
+       * @param value The dJHMOOHNKKO to set.
+       * @return This builder for chaining.
+       */
+      public Builder setDJHMOOHNKKO(int value) {
+        
+        dJHMOOHNKKO_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 DJHMOOHNKKO = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearDJHMOOHNKKO() {
+        
+        dJHMOOHNKKO_ = 0;
+        onChanged();
+        return this;
+      }
+
       private int level_ ;
       /**
-       * <code>uint32 level = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level = 4;</code>
        * @return The level.
        */
       @java.lang.Override
@@ -1087,7 +849,11 @@ public final class ChessActivityDetailInfoOuterClass {
         return level_;
       }
       /**
-       * <code>uint32 level = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level = 4;</code>
        * @param value The level to set.
        * @return This builder for chaining.
        */
@@ -1098,7 +864,11 @@ public final class ChessActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 level = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
@@ -1108,33 +878,76 @@ public final class ChessActivityDetailInfoOuterClass {
         return this;
       }
 
-      private int hAADHKJAHPI_ ;
+      private int jGKFANJEFAF_ ;
       /**
-       * <code>uint32 HAADHKJAHPI = 4;</code>
-       * @return The hAADHKJAHPI.
+       * <code>uint32 JGKFANJEFAF = 8;</code>
+       * @return The jGKFANJEFAF.
        */
       @java.lang.Override
-      public int getHAADHKJAHPI() {
-        return hAADHKJAHPI_;
+      public int getJGKFANJEFAF() {
+        return jGKFANJEFAF_;
       }
       /**
-       * <code>uint32 HAADHKJAHPI = 4;</code>
-       * @param value The hAADHKJAHPI to set.
+       * <code>uint32 JGKFANJEFAF = 8;</code>
+       * @param value The jGKFANJEFAF to set.
        * @return This builder for chaining.
        */
-      public Builder setHAADHKJAHPI(int value) {
+      public Builder setJGKFANJEFAF(int value) {
         
-        hAADHKJAHPI_ = value;
+        jGKFANJEFAF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 HAADHKJAHPI = 4;</code>
+       * <code>uint32 JGKFANJEFAF = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearHAADHKJAHPI() {
+      public Builder clearJGKFANJEFAF() {
         
-        hAADHKJAHPI_ = 0;
+        jGKFANJEFAF_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int contentCloseTime_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 6;</code>
+       * @return The contentCloseTime.
+       */
+      @java.lang.Override
+      public int getContentCloseTime() {
+        return contentCloseTime_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 6;</code>
+       * @param value The contentCloseTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setContentCloseTime(int value) {
+        
+        contentCloseTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 content_close_time = 6;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearContentCloseTime() {
+        
+        contentCloseTime_ = 0;
         onChanged();
         return this;
       }
@@ -1205,14 +1018,13 @@ public final class ChessActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035ChessActivityDetailInfo.proto\"\354\001\n\027Ches" +
-      "sActivityDetailInfo\022\034\n\024finished_map_id_l" +
-      "ist\030\001 \003(\r\022\013\n\003exp\030\016 \001(\r\022\032\n\022content_close_" +
-      "time\030\013 \001(\r\022\023\n\013IEAPDMDDIGE\030\003 \001(\r\022\023\n\013LIOCC" +
-      "MGLEBM\030\014 \001(\r\022!\n\031is_teach_dungeon_finishe" +
-      "d\030\017 \001(\010\022\031\n\021is_content_closed\030\002 \001(\010\022\r\n\005le" +
-      "vel\030\n \001(\r\022\023\n\013HAADHKJAHPI\030\004 \001(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n\035ChessActivityDetailInfo.proto\"\253\001\n\027Ches" +
+      "sActivityDetailInfo\022\031\n\021is_content_closed" +
+      "\030\n \001(\010\022\023\n\013GIGPDLGGEOM\030\007 \001(\010\022\013\n\003exp\030\t \001(\r" +
+      "\022\023\n\013DJHMOOHNKKO\030\005 \001(\r\022\r\n\005level\030\004 \001(\r\022\023\n\013" +
+      "JGKFANJEFAF\030\010 \001(\r\022\032\n\022content_close_time\030" +
+      "\006 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1223,7 +1035,7 @@ public final class ChessActivityDetailInfoOuterClass {
     internal_static_ChessActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ChessActivityDetailInfo_descriptor,
-        new java.lang.String[] { "FinishedMapIdList", "Exp", "ContentCloseTime", "IEAPDMDDIGE", "LIOCCMGLEBM", "IsTeachDungeonFinished", "IsContentClosed", "Level", "HAADHKJAHPI", });
+        new java.lang.String[] { "IsContentClosed", "GIGPDLGGEOM", "Exp", "DJHMOOHNKKO", "Level", "JGKFANJEFAF", "ContentCloseTime", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

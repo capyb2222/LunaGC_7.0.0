@@ -20,32 +20,32 @@ public final class MonsterBornTypeOuterClass {
   public enum MonsterBornType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>MONSTER_BORN_TYPE_NONE = 0;</code>
+     * <code>MonsterBornType_MONSTER_BORN_NONE = 0;</code>
      */
-    MONSTER_BORN_TYPE_NONE(0),
+    MonsterBornType_MONSTER_BORN_NONE(0),
     /**
-     * <code>MONSTER_BORN_TYPE_DEFAULT = 1;</code>
+     * <code>MonsterBornType_MONSTER_BORN_DEFAULT = 1;</code>
      */
-    MONSTER_BORN_TYPE_DEFAULT(1),
+    MonsterBornType_MONSTER_BORN_DEFAULT(1),
     /**
-     * <code>MONSTER_BORN_TYPE_RANDOM = 2;</code>
+     * <code>MonsterBornType_MONSTER_BORN_RANDOM = 2;</code>
      */
-    MONSTER_BORN_TYPE_RANDOM(2),
+    MonsterBornType_MONSTER_BORN_RANDOM(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>MONSTER_BORN_TYPE_NONE = 0;</code>
+     * <code>MonsterBornType_MONSTER_BORN_NONE = 0;</code>
      */
-    public static final int MONSTER_BORN_TYPE_NONE_VALUE = 0;
+    public static final int MonsterBornType_MONSTER_BORN_NONE_VALUE = 0;
     /**
-     * <code>MONSTER_BORN_TYPE_DEFAULT = 1;</code>
+     * <code>MonsterBornType_MONSTER_BORN_DEFAULT = 1;</code>
      */
-    public static final int MONSTER_BORN_TYPE_DEFAULT_VALUE = 1;
+    public static final int MonsterBornType_MONSTER_BORN_DEFAULT_VALUE = 1;
     /**
-     * <code>MONSTER_BORN_TYPE_RANDOM = 2;</code>
+     * <code>MonsterBornType_MONSTER_BORN_RANDOM = 2;</code>
      */
-    public static final int MONSTER_BORN_TYPE_RANDOM_VALUE = 2;
+    public static final int MonsterBornType_MONSTER_BORN_RANDOM_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class MonsterBornTypeOuterClass {
      */
     public static MonsterBornType forNumber(int value) {
       switch (value) {
-        case 0: return MONSTER_BORN_TYPE_NONE;
-        case 1: return MONSTER_BORN_TYPE_DEFAULT;
-        case 2: return MONSTER_BORN_TYPE_RANDOM;
+        case 0: return MonsterBornType_MONSTER_BORN_NONE;
+        case 1: return MonsterBornType_MONSTER_BORN_DEFAULT;
+        case 2: return MonsterBornType_MONSTER_BORN_RANDOM;
         default: return null;
       }
     }
@@ -140,11 +140,12 @@ public final class MonsterBornTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025MonsterBornType.proto*j\n\017MonsterBornTy" +
-      "pe\022\032\n\026MONSTER_BORN_TYPE_NONE\020\000\022\035\n\031MONSTE" +
-      "R_BORN_TYPE_DEFAULT\020\001\022\034\n\030MONSTER_BORN_TY" +
-      "PE_RANDOM\020\002B\033\n\031emu.grasscutter.net.proto" +
-      "b\006proto3"
+      "\n\025MonsterBornType.proto*\213\001\n\017MonsterBornT" +
+      "ype\022%\n!MonsterBornType_MONSTER_BORN_NONE" +
+      "\020\000\022(\n$MonsterBornType_MONSTER_BORN_DEFAU" +
+      "LT\020\001\022\'\n#MonsterBornType_MONSTER_BORN_RAN" +
+      "DOM\020\002B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

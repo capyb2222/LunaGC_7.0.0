@@ -15,33 +15,37 @@ public final class UgcTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: ACCJDILEKGK
-   * </pre>
-   *
    * Protobuf enum {@code UgcType}
    */
   public enum UgcType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>UGC_TYPE_NONE = 0;</code>
+     * <code>UgcType_NONE = 0;</code>
      */
-    UGC_TYPE_NONE(0),
+    UgcType_NONE(0),
     /**
-     * <code>UGC_TYPE_MUSIC_GAME = 1;</code>
+     * <code>UgcType_MUSIC_GAME = 1;</code>
      */
-    UGC_TYPE_MUSIC_GAME(1),
+    UgcType_MUSIC_GAME(1),
+    /**
+     * <code>UgcType_LAN_V_5_CARD_GAME = 2;</code>
+     */
+    UgcType_LAN_V_5_CARD_GAME(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>UGC_TYPE_NONE = 0;</code>
+     * <code>UgcType_NONE = 0;</code>
      */
-    public static final int UGC_TYPE_NONE_VALUE = 0;
+    public static final int UgcType_NONE_VALUE = 0;
     /**
-     * <code>UGC_TYPE_MUSIC_GAME = 1;</code>
+     * <code>UgcType_MUSIC_GAME = 1;</code>
      */
-    public static final int UGC_TYPE_MUSIC_GAME_VALUE = 1;
+    public static final int UgcType_MUSIC_GAME_VALUE = 1;
+    /**
+     * <code>UgcType_LAN_V_5_CARD_GAME = 2;</code>
+     */
+    public static final int UgcType_LAN_V_5_CARD_GAME_VALUE = 2;
 
 
     public final int getNumber() {
@@ -68,8 +72,9 @@ public final class UgcTypeOuterClass {
      */
     public static UgcType forNumber(int value) {
       switch (value) {
-        case 0: return UGC_TYPE_NONE;
-        case 1: return UGC_TYPE_MUSIC_GAME;
+        case 0: return UgcType_NONE;
+        case 1: return UgcType_MUSIC_GAME;
+        case 2: return UgcType_LAN_V_5_CARD_GAME;
         default: return null;
       }
     }
@@ -135,9 +140,10 @@ public final class UgcTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\rUgcType.proto*5\n\007UgcType\022\021\n\rUGC_TYPE_N" +
-      "ONE\020\000\022\027\n\023UGC_TYPE_MUSIC_GAME\020\001B\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n\rUgcType.proto*R\n\007UgcType\022\020\n\014UgcType_NO" +
+      "NE\020\000\022\026\n\022UgcType_MUSIC_GAME\020\001\022\035\n\031UgcType_" +
+      "LAN_V_5_CARD_GAME\020\002B\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

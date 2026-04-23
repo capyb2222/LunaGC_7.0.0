@@ -19,12 +19,17 @@ public final class HomeChooseModuleReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 module_id = 11;</code>
+     * <code>uint32 module_id = 15;</code>
      * @return The moduleId.
      */
     int getModuleId();
   }
   /**
+   * <pre>
+   * CmdId: 29914
+   * Obf: AGDOOFPMMBE
+   * </pre>
+   *
    * Protobuf type {@code HomeChooseModuleReq}
    */
   public static final class HomeChooseModuleReq extends
@@ -69,7 +74,7 @@ public final class HomeChooseModuleReqOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 120: {
 
               moduleId_ = input.readUInt32();
               break;
@@ -106,10 +111,10 @@ public final class HomeChooseModuleReqOuterClass {
               emu.grasscutter.net.proto.HomeChooseModuleReqOuterClass.HomeChooseModuleReq.class, emu.grasscutter.net.proto.HomeChooseModuleReqOuterClass.HomeChooseModuleReq.Builder.class);
     }
 
-    public static final int MODULE_ID_FIELD_NUMBER = 11;
+    public static final int MODULE_ID_FIELD_NUMBER = 15;
     private int moduleId_;
     /**
-     * <code>uint32 module_id = 11;</code>
+     * <code>uint32 module_id = 15;</code>
      * @return The moduleId.
      */
     @java.lang.Override
@@ -132,7 +137,7 @@ public final class HomeChooseModuleReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (moduleId_ != 0) {
-        output.writeUInt32(11, moduleId_);
+        output.writeUInt32(15, moduleId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +150,7 @@ public final class HomeChooseModuleReqOuterClass {
       size = 0;
       if (moduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, moduleId_);
+          .computeUInt32Size(15, moduleId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -273,6 +278,11 @@ public final class HomeChooseModuleReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 29914
+     * Obf: AGDOOFPMMBE
+     * </pre>
+     *
      * Protobuf type {@code HomeChooseModuleReq}
      */
     public static final class Builder extends
@@ -421,7 +431,7 @@ public final class HomeChooseModuleReqOuterClass {
 
       private int moduleId_ ;
       /**
-       * <code>uint32 module_id = 11;</code>
+       * <code>uint32 module_id = 15;</code>
        * @return The moduleId.
        */
       @java.lang.Override
@@ -429,7 +439,7 @@ public final class HomeChooseModuleReqOuterClass {
         return moduleId_;
       }
       /**
-       * <code>uint32 module_id = 11;</code>
+       * <code>uint32 module_id = 15;</code>
        * @param value The moduleId to set.
        * @return This builder for chaining.
        */
@@ -440,7 +450,7 @@ public final class HomeChooseModuleReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 module_id = 11;</code>
+       * <code>uint32 module_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearModuleId() {
@@ -517,7 +527,7 @@ public final class HomeChooseModuleReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031HomeChooseModuleReq.proto\"(\n\023HomeChoos" +
-      "eModuleReq\022\021\n\tmodule_id\030\013 \001(\rB\033\n\031emu.gra" +
+      "eModuleReq\022\021\n\tmodule_id\030\017 \001(\rB\033\n\031emu.gra" +
       "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

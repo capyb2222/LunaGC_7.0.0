@@ -200,7 +200,7 @@ public class Player implements PlayerHook, FieldFetch {
     @Getter @Setter private int nextResinRefresh;
     @Getter @Setter private int resinBuyCount;
     @Getter @Setter private int lastDailyReset;
-    @Getter private transient MpSettingType mpSetting = MpSettingType.MP_SETTING_TYPE_ENTER_AFTER_APPLY;
+    @Getter private transient MpSettingType mpSetting = MpSettingType.MpSettingType_MP_SETTING_ENTER_AFTER_APPLY;
     @Getter private long playerGameTime = 540000; // 9 in-game hours. Present at the start of the game.
 
     @Getter private PlayerProgress playerProgress;
@@ -335,9 +335,9 @@ public class Player implements PlayerHook, FieldFetch {
     public float addPhlogistonValue(float amount) {
         setPhlogistonValue(getPhlogistonValue() + amount);
         return getPhlogistonValue();
-    
+
     }
- 
+
 
     /**
      * Updates the player's game time if it has changed.
@@ -612,7 +612,7 @@ public class Player implements PlayerHook, FieldFetch {
         this.setProperty(PlayerProperty.PROP_DIVE_CUR_STAMINA,
                 this.getProperty(PlayerProperty.PROP_DIVE_MAX_STAMINA));
         this.setProperty(PlayerProperty.PROP_CUR_PHLOGISTON,
-            this.getProperty(PlayerProperty.PROP_PHLOGISTON_MAX_VALUE));    
+            this.getProperty(PlayerProperty.PROP_PHLOGISTON_MAX_VALUE));
     }
 
     /**
@@ -995,12 +995,12 @@ public class Player implements PlayerHook, FieldFetch {
         this.getCostumeList().add(costumeId);
         this.sendPacket(new PacketAvatarGainCostumeNotify(costumeId));
     }
-    
+
     public void addTraceEffect(int traceEffectId) {
         this.getTraceEffectList().add(traceEffectId);
         this.sendPacket(new PacketAvatarGainTraceEffectNotify(traceEffectId));
     }
-    
+
 
     public int getCostumeFrom(int avatarId) {
         var avatars = this.getAvatars();
@@ -1104,7 +1104,7 @@ public class Player implements PlayerHook, FieldFetch {
             .setMpSettingType(this.getMpSetting())
             .setNameCardId(this.getNameCardId())
             .setSignature(this.getSignature())
-            .setProfilePicture(ProfilePicture.newBuilder().setHeadImageId(this.getHeadImage()));
+            .setProfilePicture(ProfilePicture.newBuilder().setAvatarId(this.getHeadImage()));
 
         if (this.getWorld() != null) {
             onlineInfo.setCurPlayerNumInWorld(getWorld().getPlayerCount());
@@ -1159,7 +1159,7 @@ public class Player implements PlayerHook, FieldFetch {
 
         return SocialDetail.newBuilder()
             .setUid(this.getUid())
-            .setProfilePicture(ProfilePicture.newBuilder().setHeadImageId(this.getHeadImage()))
+            .setProfilePicture(ProfilePicture.newBuilder().setAvatarId(this.getHeadImage()))
             .setNickname(this.getNickname())
             .setSignature(this.getSignature())
             .setLevel(this.getLevel())
@@ -1251,7 +1251,7 @@ public class Player implements PlayerHook, FieldFetch {
         req.getRequester().sendPacket(new PacketPlayerApplyEnterMpResultNotify(
             this,
             false,
-            PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.REASON_SYSTEM_JUDGE));
+            ReasonOuterClass.Reason.Reason_SYSTEM_JUDGE));
         return true;
     }
 
@@ -1649,11 +1649,11 @@ public class Player implements PlayerHook, FieldFetch {
                 // Send property change reasons if needed.
                 switch (prop) {
                     case PROP_PLAYER_EXP -> this.sendPacket(new PacketPlayerPropChangeReasonNotify(this, prop, currentValue, value,
-                        PropChangeReason.PROP_CHANGE_REASON_PLAYER_ADD_EXP));
+                        PropChangeReason.PropChangeReason_PROP_CHANGE_PLAYER_ADD_EXP));
                     case PROP_PLAYER_LEVEL -> this.sendPacket(new PacketPlayerPropChangeReasonNotify(this, prop, currentValue, value,
-                        PropChangeReason.PROP_CHANGE_REASON_LEVELUP));
+                        PropChangeReason.PropChangeReason_PROP_CHANGE_LEVELUP));
                     case PROP_MAX_STAMINA -> this.sendPacket(new PacketPlayerPropChangeReasonNotify(this, prop, currentValue, value,
-                        PropChangeReason.PROP_CHANGE_REASON_CITY_LEVELUP));
+                        PropChangeReason.PropChangeReason_PROP_CHANGE_CITY_LEVELUP));
 
                     // TODO: Handle world level changing.
                     // case PROP_PLAYER_WORLD_LEVEL -> this.sendPacket(new PacketPlayerPropChangeReasonNotify(this, prop, currentValue, value,

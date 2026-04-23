@@ -19,10 +19,10 @@ public final class EchoShellInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 shell_id = 1;</code>
-     * @return The shellId.
+     * <code>uint32 KOGFFBEGAGF = 1;</code>
+     * @return The kOGFFBEGAGF.
      */
-    int getShellId();
+    int getKOGFFBEGAGF();
   }
   /**
    * Protobuf type {@code EchoShellInfo}
@@ -71,7 +71,7 @@ public final class EchoShellInfoOuterClass {
               break;
             case 8: {
 
-              shellId_ = input.readUInt32();
+              kOGFFBEGAGF_ = input.readUInt32();
               break;
             }
             default: {
@@ -106,15 +106,15 @@ public final class EchoShellInfoOuterClass {
               emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo.class, emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo.Builder.class);
     }
 
-    public static final int SHELL_ID_FIELD_NUMBER = 1;
-    private int shellId_;
+    public static final int KOGFFBEGAGF_FIELD_NUMBER = 1;
+    private int kOGFFBEGAGF_;
     /**
-     * <code>uint32 shell_id = 1;</code>
-     * @return The shellId.
+     * <code>uint32 KOGFFBEGAGF = 1;</code>
+     * @return The kOGFFBEGAGF.
      */
     @java.lang.Override
-    public int getShellId() {
-      return shellId_;
+    public int getKOGFFBEGAGF() {
+      return kOGFFBEGAGF_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -131,8 +131,8 @@ public final class EchoShellInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (shellId_ != 0) {
-        output.writeUInt32(1, shellId_);
+      if (kOGFFBEGAGF_ != 0) {
+        output.writeUInt32(1, kOGFFBEGAGF_);
       }
       unknownFields.writeTo(output);
     }
@@ -143,9 +143,9 @@ public final class EchoShellInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (shellId_ != 0) {
+      if (kOGFFBEGAGF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, shellId_);
+          .computeUInt32Size(1, kOGFFBEGAGF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -162,8 +162,8 @@ public final class EchoShellInfoOuterClass {
       }
       emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo other = (emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo) obj;
 
-      if (getShellId()
-          != other.getShellId()) return false;
+      if (getKOGFFBEGAGF()
+          != other.getKOGFFBEGAGF()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -175,8 +175,8 @@ public final class EchoShellInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + SHELL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getShellId();
+      hash = (37 * hash) + KOGFFBEGAGF_FIELD_NUMBER;
+      hash = (53 * hash) + getKOGFFBEGAGF();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -310,7 +310,7 @@ public final class EchoShellInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        shellId_ = 0;
+        kOGFFBEGAGF_ = 0;
 
         return this;
       }
@@ -338,7 +338,7 @@ public final class EchoShellInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo buildPartial() {
         emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo result = new emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo(this);
-        result.shellId_ = shellId_;
+        result.kOGFFBEGAGF_ = kOGFFBEGAGF_;
         onBuilt();
         return result;
       }
@@ -387,8 +387,8 @@ public final class EchoShellInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo other) {
         if (other == emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo.getDefaultInstance()) return this;
-        if (other.getShellId() != 0) {
-          setShellId(other.getShellId());
+        if (other.getKOGFFBEGAGF() != 0) {
+          setKOGFFBEGAGF(other.getKOGFFBEGAGF());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -419,33 +419,33 @@ public final class EchoShellInfoOuterClass {
         return this;
       }
 
-      private int shellId_ ;
+      private int kOGFFBEGAGF_ ;
       /**
-       * <code>uint32 shell_id = 1;</code>
-       * @return The shellId.
+       * <code>uint32 KOGFFBEGAGF = 1;</code>
+       * @return The kOGFFBEGAGF.
        */
       @java.lang.Override
-      public int getShellId() {
-        return shellId_;
+      public int getKOGFFBEGAGF() {
+        return kOGFFBEGAGF_;
       }
       /**
-       * <code>uint32 shell_id = 1;</code>
-       * @param value The shellId to set.
+       * <code>uint32 KOGFFBEGAGF = 1;</code>
+       * @param value The kOGFFBEGAGF to set.
        * @return This builder for chaining.
        */
-      public Builder setShellId(int value) {
+      public Builder setKOGFFBEGAGF(int value) {
         
-        shellId_ = value;
+        kOGFFBEGAGF_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 shell_id = 1;</code>
+       * <code>uint32 KOGFFBEGAGF = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearShellId() {
+      public Builder clearKOGFFBEGAGF() {
         
-        shellId_ = 0;
+        kOGFFBEGAGF_ = 0;
         onChanged();
         return this;
       }
@@ -516,9 +516,9 @@ public final class EchoShellInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023EchoShellInfo.proto\"!\n\rEchoShellInfo\022\020" +
-      "\n\010shell_id\030\001 \001(\rB\033\n\031emu.grasscutter.net." +
-      "protob\006proto3"
+      "\n\023EchoShellInfo.proto\"$\n\rEchoShellInfo\022\023" +
+      "\n\013KOGFFBEGAGF\030\001 \001(\rB\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -529,7 +529,7 @@ public final class EchoShellInfoOuterClass {
     internal_static_EchoShellInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EchoShellInfo_descriptor,
-        new java.lang.String[] { "ShellId", });
+        new java.lang.String[] { "KOGFFBEGAGF", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

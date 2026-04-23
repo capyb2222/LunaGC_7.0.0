@@ -15,16 +15,16 @@ public class HandlerEvtEntityRenderersChangedNotify extends PacketHandler {
                         payload);
 
         switch (req.getForwardType()) {
-            case FORWARD_TYPE_TO_ALL -> session
+            case ForwardType_FORWARD_TO_ALL -> session
                     .getPlayer()
                     .getScene()
                     .broadcastPacket(new PacketEvtEntityRenderersChangedNotify(req));
-            case FORWARD_TYPE_TO_ALL_EXCEPT_CUR -> session
+            case ForwardType_FORWARD_TO_ALL_EXCEPT_CUR -> session
                     .getPlayer()
                     .getScene()
                     .broadcastPacketToOthers(
                             session.getPlayer(), new PacketEvtEntityRenderersChangedNotify(req));
-            case FORWARD_TYPE_TO_HOST -> session
+            case ForwardType_FORWARD_TO_HOST -> session
                     .getPlayer()
                     .getScene()
                     .getWorld()

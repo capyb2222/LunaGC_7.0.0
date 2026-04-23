@@ -27,81 +27,81 @@ public class StaminaManager extends BasePlayerManager {
     // TODO: Skiff state detection?
     private static final Map<String, Set<MotionState>> MotionStatesCategorized = new HashMap<>() {{
         put("CLIMB", Set.of(
-            MotionState.MOTION_STATE_CLIMB, // sustained, when not moving no cost no recover
-            MotionState.MOTION_STATE_STANDBY_TO_CLIMB // NOT OBSERVED, see MOTION_JUMP_UP_WALL_FOR_STANDBY
+            MotionState.MotionState_MOTION_CLIMB, // sustained, when not moving no cost no recover
+            MotionState.MotionState_MOTION_STANDBY_TO_CLIMB // NOT OBSERVED, see MOTION_JUMP_UP_WALL_FOR_STANDBY
         ));
         put("DASH", Set.of(
-            MotionState.MOTION_STATE_DANGER_DASH, // sustained
-            MotionState.MOTION_STATE_DASH // sustained
+            MotionState.MotionState_MOTION_DANGER_DASH, // sustained
+            MotionState.MotionState_MOTION_DASH // sustained
         ));
         put("FLY", Set.of(
-            MotionState.MOTION_STATE_FLY, // sustained
-            MotionState.MOTION_STATE_FLY_FAST, // sustained
-            MotionState.MOTION_STATE_FLY_SLOW, // sustained
-            MotionState.MOTION_STATE_POWERED_FLY // sustained, recover
+            MotionState.MotionState_MOTION_FLY, // sustained
+            MotionState.MotionState_MOTION_FLY_FAST, // sustained
+            MotionState.MotionState_MOTION_FLY_SLOW, // sustained
+            MotionState.MotionState_MOTION_POWERED_FLY // sustained, recover
         ));
         put("RUN", Set.of(
-            MotionState.MOTION_STATE_DANGER_RUN, // sustained, recover
-            MotionState.MOTION_STATE_RUN // sustained, recover
+            MotionState.MotionState_MOTION_DANGER_RUN, // sustained, recover
+            MotionState.MotionState_MOTION_RUN // sustained, recover
         ));
         put("SKIFF", Set.of(
-            MotionState.MOTION_STATE_SKIFF_BOARDING, // NOT OBSERVED even when boarding
-            MotionState.MOTION_STATE_SKIFF_DASH, // sustained, observed with waverider entity ID.
-            MotionState.MOTION_STATE_SKIFF_NORMAL, // sustained, OBSERVED when both normal and dashing
-            MotionState.MOTION_STATE_SKIFF_POWERED_DASH // sustained, recover
+            MotionState.MotionState_MOTION_SKIFF_BOARDING, // NOT OBSERVED even when boarding
+            MotionState.MotionState_MOTION_SKIFF_DASH, // sustained, observed with waverider entity ID.
+            MotionState.MotionState_MOTION_SKIFF_NORMAL, // sustained, OBSERVED when both normal and dashing
+            MotionState.MotionState_MOTION_SKIFF_POWERED_DASH // sustained, recover
         ));
         put("STANDBY", Set.of(
-            MotionState.MOTION_STATE_DANGER_STANDBY_MOVE, // sustained, recover
-            MotionState.MOTION_STATE_DANGER_STANDBY, // sustained, recover
-            MotionState.MOTION_STATE_LADDER_TO_STANDBY, // NOT OBSERVED
-            MotionState.MOTION_STATE_STANDBY_MOVE, // sustained, recover
-            MotionState.MOTION_STATE_STANDBY // sustained, recover
+            MotionState.MotionState_MOTION_DANGER_STANDBY_MOVE, // sustained, recover
+            MotionState.MotionState_MOTION_DANGER_STANDBY, // sustained, recover
+            MotionState.MotionState_MOTION_LADDER_TO_STANDBY, // NOT OBSERVED
+            MotionState.MotionState_MOTION_STANDBY_MOVE, // sustained, recover
+            MotionState.MotionState_MOTION_STANDBY // sustained, recover
         ));
         put("SWIM", Set.of(
-            MotionState.MOTION_STATE_SWIM_IDLE, // sustained
-            MotionState.MOTION_STATE_SWIM_DASH, // immediate and sustained
-            MotionState.MOTION_STATE_SWIM_JUMP, // NOT OBSERVED
-            MotionState.MOTION_STATE_SWIM_MOVE // sustained
+            MotionState.MotionState_MOTION_SWIM_IDLE, // sustained
+            MotionState.MotionState_MOTION_SWIM_DASH, // immediate and sustained
+            MotionState.MotionState_MOTION_SWIM_JUMP, // NOT OBSERVED
+            MotionState.MotionState_MOTION_SWIM_MOVE // sustained
         ));
         put("WALK", Set.of(
-            MotionState.MOTION_STATE_DANGER_WALK, // sustained, recover
-            MotionState.MOTION_STATE_WALK // sustained, recover
+            MotionState.MotionState_MOTION_DANGER_WALK, // sustained, recover
+            MotionState.MotionState_MOTION_WALK // sustained, recover
         ));
         put("OTHER", Set.of(
-            MotionState.MOTION_STATE_CLIMB_JUMP, // cost only once if repeated without switching state
-            MotionState.MOTION_STATE_DASH_BEFORE_SHAKE, // immediate one time sprint charge.
-            MotionState.MOTION_STATE_FIGHT, // immediate, if sustained then subsequent will be MOTION_NOTIFY
-            MotionState.MOTION_STATE_JUMP_UP_WALL_FOR_STANDBY, // immediate, observed when RUN/WALK->CLIMB
-            MotionState.MOTION_STATE_NOTIFY, // can be either cost or recover - check previous state and check skill casting
-            MotionState.MOTION_STATE_SIT_IDLE, // sustained, recover
-            MotionState.MOTION_STATE_JUMP // recover
+            MotionState.MotionState_MOTION_CLIMB_JUMP, // cost only once if repeated without switching state
+            MotionState.MotionState_MOTION_DASH_BEFORE_SHAKE, // immediate one time sprint charge.
+            MotionState.MotionState_MOTION_FIGHT, // immediate, if sustained then subsequent will be MOTION_NOTIFY
+            MotionState.MotionState_MOTION_JUMP_UP_WALL_FOR_STANDBY, // immediate, observed when RUN/WALK->CLIMB
+            MotionState.MotionState_MOTION_NOTIFY, // can be either cost or recover - check previous state and check skill casting
+            MotionState.MotionState_MOTION_SIT_IDLE, // sustained, recover
+            MotionState.MotionState_MOTION_JUMP // recover
         ));
         put("NOCOST_NORECOVER", Set.of(
-            MotionState.MOTION_STATE_LADDER_SLIP, // NOT OBSERVED
-            MotionState.MOTION_STATE_SLIP, // sustained, no cost no recover
-            MotionState.MOTION_STATE_FLY_IDLE // NOT OBSERVED
+            MotionState.MotionState_MOTION_LADDER_SLIP, // NOT OBSERVED
+            MotionState.MotionState_MOTION_SLIP, // sustained, no cost no recover
+            MotionState.MotionState_MOTION_FLY_IDLE // NOT OBSERVED
         ));
         put("IGNORE", Set.of(
             // these states have no impact on stamina
-            MotionState.MOTION_STATE_CROUCH_IDLE,
-            MotionState.MOTION_STATE_CROUCH_MOVE,
-            MotionState.MOTION_STATE_CROUCH_ROLL,
-            MotionState.MOTION_STATE_DESTROY_VEHICLE,
-            MotionState.MOTION_STATE_FALL_ON_GROUND,
-            MotionState.MOTION_STATE_FOLLOW_ROUTE,
-            MotionState.MOTION_STATE_FORCE_SET_POS,
-            MotionState.MOTION_STATE_GO_UPSTAIRS,
-            MotionState.MOTION_STATE_JUMP_OFF_WALL,
-            MotionState.MOTION_STATE_LADDER_IDLE,
-            MotionState.MOTION_STATE_LADDER_MOVE,
-            MotionState.MOTION_STATE_LAND_SPEED,
-            MotionState.MOTION_STATE_MOVE_FAIL_ACK,
-            MotionState.MOTION_STATE_NONE,
-            MotionState.MOTION_STATE_NUM,
-            MotionState.MOTION_STATE_QUEST_FORCE_DRAG,
-            MotionState.MOTION_STATE_RESET,
-            MotionState.MOTION_STATE_STANDBY_TO_LADDER,
-            MotionState.MOTION_STATE_WATERFALL
+            MotionState.MotionState_MOTION_CROUCH_IDLE,
+            MotionState.MotionState_MOTION_CROUCH_MOVE,
+            MotionState.MotionState_MOTION_CROUCH_ROLL,
+            MotionState.MotionState_MOTION_DESTROY_VEHICLE,
+            MotionState.MotionState_MOTION_FALL_ON_GROUND,
+            MotionState.MotionState_MOTION_FOLLOW_ROUTE,
+            MotionState.MotionState_MOTION_FORCE_SET_POS,
+            MotionState.MotionState_MOTION_GO_UPSTAIRS,
+            MotionState.MotionState_MOTION_JUMP_OFF_WALL,
+            MotionState.MotionState_MOTION_LADDER_IDLE,
+            MotionState.MotionState_MOTION_LADDER_MOVE,
+            MotionState.MotionState_MOTION_LAND_SPEED,
+            MotionState.MotionState_MOTION_MOVE_FAIL_ACK,
+            MotionState.MotionState_MOTION_NONE,
+            MotionState.MotionState_MOTION_NUM,
+            MotionState.MotionState_MOTION_QUEST_FORCE_DRAG,
+            MotionState.MotionState_MOTION_RESET,
+            MotionState.MotionState_MOTION_STANDBY_TO_LADDER,
+            MotionState.MotionState_MOTION_WATERFALL
         ));
     }};
     private static final Set<Integer> TalentMovements = Set.of(10013, 10413);
@@ -138,8 +138,8 @@ public class StaminaManager extends BasePlayerManager {
     private final HashMap<String, AfterUpdateStaminaListener> afterUpdateStaminaListeners = new HashMap<>();
     private Position currentCoordinates = new Position(0, 0, 0);
     private Position previousCoordinates = new Position(0, 0, 0);
-    private MotionState currentState = MotionState.MOTION_STATE_STANDBY;
-    private MotionState previousState = MotionState.MOTION_STATE_STANDBY;
+    private MotionState currentState = MotionState.MotionState_MOTION_STANDBY;
+    private MotionState previousState = MotionState.MotionState_MOTION_STANDBY;
     private Timer sustainedStaminaHandlerTimer;
     private GameSession cachedSession = null;
     private GameEntity cachedEntity = null;
@@ -182,7 +182,7 @@ public class StaminaManager extends BasePlayerManager {
     public int getCurrentVehicleStamina() {
         return vehicleStamina;
     }
-    
+
     public long getLastCostStaminaTime() {
     return lastCostStaminaTime;
     }
@@ -415,7 +415,7 @@ public class StaminaManager extends BasePlayerManager {
     }
 
     public void handleVehicleInteractReq(GameSession session, int vehicleId, VehicleInteractType vehicleInteractType) {
-        if (vehicleInteractType == VehicleInteractType.VEHICLE_INTERACT_TYPE_IN) {
+        if (vehicleInteractType == VehicleInteractType.VehicleInteractType_VEHICLE_INTERACT_IN) {
             this.vehicleId = vehicleId;
             // Reset character stamina here to prevent falling into water immediately on ejection if char stamina is
             //      close to empty when boarding.
@@ -435,13 +435,13 @@ public class StaminaManager extends BasePlayerManager {
         }
 
         switch (motionState) {
-            case MOTION_STATE_CLIMB ->
+            case MotionState_MOTION_CLIMB ->
                 updateStaminaRelative(session, new Consumption(ConsumptionType.CLIMB_START), true);
-            case MOTION_STATE_DASH_BEFORE_SHAKE ->
+            case MotionState_MOTION_DASH_BEFORE_SHAKE ->
                 updateStaminaRelative(session, new Consumption(ConsumptionType.SPRINT), true);
-            case MOTION_STATE_CLIMB_JUMP ->
+            case MotionState_MOTION_CLIMB_JUMP ->
                 updateStaminaRelative(session, new Consumption(ConsumptionType.CLIMB_JUMP), true);
-            case MOTION_STATE_SWIM_DASH ->
+            case MotionState_MOTION_SWIM_DASH ->
                 updateStaminaRelative(session, new Consumption(ConsumptionType.SWIM_DASH_START), true);
         }
     }
@@ -525,8 +525,8 @@ public class StaminaManager extends BasePlayerManager {
         if (stamina < 10) {
             logger.trace(getCurrentCharacterStamina() + "/" +
                 getMaxCharacterStamina() + "\t" + currentState);
-            if (currentState != MotionState.MOTION_STATE_SWIM_IDLE) {
-                killAvatar(cachedSession, cachedEntity, PlayerDieType.PLAYER_DIE_TYPE_DRAWN);
+            if (currentState != MotionState.MotionState_MOTION_SWIM_IDLE) {
+                killAvatar(cachedSession, cachedEntity, PlayerDieType.PlayerDieType_PLAYER_DIE_DRAWN);
             }
         }
     }
@@ -556,7 +556,7 @@ public class StaminaManager extends BasePlayerManager {
 
     private Consumption getClimbConsumption() {
         Consumption consumption = new Consumption();
-        if (currentState == MotionState.MOTION_STATE_CLIMB && isPlayerMoving()) {
+        if (currentState == MotionState.MotionState_MOTION_CLIMB && isPlayerMoving()) {
             consumption.type = ConsumptionType.CLIMBING;
             consumption.amount = ConsumptionType.CLIMBING.amount;
         }
@@ -569,11 +569,11 @@ public class StaminaManager extends BasePlayerManager {
     private Consumption getSwimConsumptions() {
         handleDrowning();
         Consumption consumption = new Consumption();
-        if (currentState == MotionState.MOTION_STATE_SWIM_MOVE) {
+        if (currentState == MotionState.MotionState_MOTION_SWIM_MOVE) {
             consumption.type = ConsumptionType.SWIMMING;
             consumption.amount = ConsumptionType.SWIMMING.amount;
         }
-        if (currentState == MotionState.MOTION_STATE_SWIM_DASH) {
+        if (currentState == MotionState.MotionState_MOTION_SWIM_DASH) {
             consumption.type = ConsumptionType.SWIM_DASH;
             consumption.amount = ConsumptionType.SWIM_DASH.amount;
         }
@@ -585,7 +585,7 @@ public class StaminaManager extends BasePlayerManager {
 
     private Consumption getDashConsumption() {
         Consumption consumption = new Consumption();
-        if (currentState == MotionState.MOTION_STATE_DASH) {
+        if (currentState == MotionState.MotionState_MOTION_DASH) {
             consumption.type = ConsumptionType.DASH;
             consumption.amount = ConsumptionType.DASH.amount;
             // Dashing specific reductions
@@ -596,7 +596,7 @@ public class StaminaManager extends BasePlayerManager {
 
     private Consumption getFlyConsumption() {
         // POWERED_FLY, e.g. wind tunnel
-        if (currentState == MotionState.MOTION_STATE_POWERED_FLY) {
+        if (currentState == MotionState.MotionState_MOTION_POWERED_FLY) {
             return new Consumption(ConsumptionType.POWERED_FLY);
         }
         Consumption consumption = new Consumption(ConsumptionType.FLY);
@@ -609,9 +609,9 @@ public class StaminaManager extends BasePlayerManager {
     private Consumption getSkiffConsumption() {
         // No known reduction for skiffing.
         return switch (currentState) {
-            case MOTION_STATE_SKIFF_DASH -> new Consumption(ConsumptionType.SKIFF_DASH);
-            case MOTION_STATE_SKIFF_POWERED_DASH -> new Consumption(ConsumptionType.POWERED_SKIFF);
-            case MOTION_STATE_SKIFF_NORMAL -> new Consumption(ConsumptionType.SKIFF);
+            case MotionState_MOTION_SKIFF_DASH -> new Consumption(ConsumptionType.SKIFF_DASH);
+            case MotionState_MOTION_SKIFF_POWERED_DASH -> new Consumption(ConsumptionType.POWERED_SKIFF);
+            case MotionState_MOTION_SKIFF_NORMAL -> new Consumption(ConsumptionType.SKIFF);
             default -> new Consumption();
         };
     }
@@ -619,8 +619,8 @@ public class StaminaManager extends BasePlayerManager {
     private Consumption getOtherConsumptions() {
         return switch (this.currentState) {
             default -> new Consumption();
-            case MOTION_STATE_FIGHT -> new Consumption(ConsumptionType.FIGHT, 500);
-            case MOTION_STATE_NOTIFY -> new Consumption(ConsumptionType.NOTIFY);
+            case MotionState_MOTION_FIGHT -> new Consumption(ConsumptionType.FIGHT, 500);
+            case MotionState_MOTION_NOTIFY -> new Consumption(ConsumptionType.NOTIFY);
         };
     }
 

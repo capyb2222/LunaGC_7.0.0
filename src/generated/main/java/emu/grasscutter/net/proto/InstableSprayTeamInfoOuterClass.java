@@ -43,6 +43,10 @@ public final class InstableSprayTeamInfoOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * Obf: IKHGAAOMKPH
+   * </pre>
+   *
    * Protobuf type {@code InstableSprayTeamInfo}
    */
   public static final class InstableSprayTeamInfo extends
@@ -331,6 +335,10 @@ public final class InstableSprayTeamInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: IKHGAAOMKPH
+     * </pre>
+     *
      * Protobuf type {@code InstableSprayTeamInfo}
      */
     public static final class Builder extends

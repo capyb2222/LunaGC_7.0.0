@@ -25,7 +25,7 @@ public class PacketGetShopRsp extends BasePacket {
         if (manager.getShopData().get(shopType) != null) {
             List<ShopInfo> list = manager.getShopData().get(shopType);
             List<ShopGoods> goodsList = new ArrayList<>();
-            
+
             for (ShopInfo info : list) {
                 ShopGoods.Builder goods =
                         ShopGoods.newBuilder()
@@ -43,8 +43,7 @@ public class PacketGetShopRsp extends BasePacket {
                                 .setMinLevel(info.getMinLevel())
                                 .setMaxLevel(info.getMaxLevel())
                                 .setMcoin(info.getMcoin())
-                                .setDisableType(info.getDisableType())
-                                .setLKICBMCBHMH(true);
+                                .setDisableType(info.getDisableType());
 
                 if (info.getCostItemList() != null) {
                     goods.addAllCostItemList(
@@ -56,7 +55,7 @@ public class PacketGetShopRsp extends BasePacket {
                                                     .build())
                                     .collect(Collectors.toList()));
                 }
-                
+
                 if (info.getPreGoodsIdList() != null) {
                     goods.addAllPreGoodsIdList(info.getPreGoodsIdList());
                 }
@@ -64,7 +63,7 @@ public class PacketGetShopRsp extends BasePacket {
                 int currentTs = Utils.getCurrentSeconds();
                 ShopLimit currentShopLimit = player.getGoodsLimit(info.getGoodsId());
                 int nextRefreshTime = ShopSystem.getShopNextRefreshTime(info);
-                
+
                 if (currentShopLimit != null) {
                     if (currentShopLimit.getNextRefreshTime() < currentTs) {
                         currentShopLimit.setHasBoughtInPeriod(0);
@@ -79,7 +78,7 @@ public class PacketGetShopRsp extends BasePacket {
 
                 goodsList.add(goods.build());
             }
-            
+
             shop.addAllGoodsList(goodsList);
         }
 

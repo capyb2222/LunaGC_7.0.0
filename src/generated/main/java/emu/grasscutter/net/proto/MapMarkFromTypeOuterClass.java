@@ -20,40 +20,32 @@ public final class MapMarkFromTypeOuterClass {
   public enum MapMarkFromType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>MAP_MARK_FROM_TYPE_NONE = 0;</code>
+     * <code>MapMarkFromType_NOE = 0;</code>
      */
-    MAP_MARK_FROM_TYPE_NONE(0),
+    MapMarkFromType_NOE(0),
     /**
-     * <code>MAP_MARK_FROM_TYPE_MONSTER = 1;</code>
+     * <code>MapMarkFromType_MONSTER = 1;</code>
      */
-    MAP_MARK_FROM_TYPE_MONSTER(1),
+    MapMarkFromType_MONSTER(1),
     /**
-     * <code>MAP_MARK_FROM_TYPE_QUEST = 2;</code>
+     * <code>MapMarkFromType_QUEST = 2;</code>
      */
-    MAP_MARK_FROM_TYPE_QUEST(2),
-    /**
-     * <code>MAP_MARK_FROM_TYPE_NOE = 3;</code>
-     */
-    MAP_MARK_FROM_TYPE_NOE(3),
+    MapMarkFromType_QUEST(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>MAP_MARK_FROM_TYPE_NONE = 0;</code>
+     * <code>MapMarkFromType_NOE = 0;</code>
      */
-    public static final int MAP_MARK_FROM_TYPE_NONE_VALUE = 0;
+    public static final int MapMarkFromType_NOE_VALUE = 0;
     /**
-     * <code>MAP_MARK_FROM_TYPE_MONSTER = 1;</code>
+     * <code>MapMarkFromType_MONSTER = 1;</code>
      */
-    public static final int MAP_MARK_FROM_TYPE_MONSTER_VALUE = 1;
+    public static final int MapMarkFromType_MONSTER_VALUE = 1;
     /**
-     * <code>MAP_MARK_FROM_TYPE_QUEST = 2;</code>
+     * <code>MapMarkFromType_QUEST = 2;</code>
      */
-    public static final int MAP_MARK_FROM_TYPE_QUEST_VALUE = 2;
-    /**
-     * <code>MAP_MARK_FROM_TYPE_NOE = 3;</code>
-     */
-    public static final int MAP_MARK_FROM_TYPE_NOE_VALUE = 3;
+    public static final int MapMarkFromType_QUEST_VALUE = 2;
 
 
     public final int getNumber() {
@@ -80,10 +72,9 @@ public final class MapMarkFromTypeOuterClass {
      */
     public static MapMarkFromType forNumber(int value) {
       switch (value) {
-        case 0: return MAP_MARK_FROM_TYPE_NONE;
-        case 1: return MAP_MARK_FROM_TYPE_MONSTER;
-        case 2: return MAP_MARK_FROM_TYPE_QUEST;
-        case 3: return MAP_MARK_FROM_TYPE_NOE;
+        case 0: return MapMarkFromType_NOE;
+        case 1: return MapMarkFromType_MONSTER;
+        case 2: return MapMarkFromType_QUEST;
         default: return null;
       }
     }
@@ -149,11 +140,10 @@ public final class MapMarkFromTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025MapMarkFromType.proto*\210\001\n\017MapMarkFromT" +
-      "ype\022\033\n\027MAP_MARK_FROM_TYPE_NONE\020\000\022\036\n\032MAP_" +
-      "MARK_FROM_TYPE_MONSTER\020\001\022\034\n\030MAP_MARK_FRO" +
-      "M_TYPE_QUEST\020\002\022\032\n\026MAP_MARK_FROM_TYPE_NOE" +
-      "\020\003B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\025MapMarkFromType.proto*b\n\017MapMarkFromTy" +
+      "pe\022\027\n\023MapMarkFromType_NOE\020\000\022\033\n\027MapMarkFr" +
+      "omType_MONSTER\020\001\022\031\n\025MapMarkFromType_QUES" +
+      "T\020\002B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

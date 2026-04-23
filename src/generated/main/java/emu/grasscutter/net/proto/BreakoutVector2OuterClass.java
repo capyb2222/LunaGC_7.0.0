@@ -19,12 +19,20 @@ public final class BreakoutVector2OuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>int32 y = 2;</code>
      * @return The y.
      */
     int getY();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>int32 x = 1;</code>
      * @return The x.
      */
@@ -120,6 +128,10 @@ public final class BreakoutVector2OuterClass {
     public static final int Y_FIELD_NUMBER = 2;
     private int y_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>int32 y = 2;</code>
      * @return The y.
      */
@@ -131,6 +143,10 @@ public final class BreakoutVector2OuterClass {
     public static final int X_FIELD_NUMBER = 1;
     private int x_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>int32 x = 1;</code>
      * @return The x.
      */
@@ -460,6 +476,10 @@ public final class BreakoutVector2OuterClass {
 
       private int y_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>int32 y = 2;</code>
        * @return The y.
        */
@@ -468,6 +488,10 @@ public final class BreakoutVector2OuterClass {
         return y_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>int32 y = 2;</code>
        * @param value The y to set.
        * @return This builder for chaining.
@@ -479,6 +503,10 @@ public final class BreakoutVector2OuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>int32 y = 2;</code>
        * @return This builder for chaining.
        */
@@ -491,6 +519,10 @@ public final class BreakoutVector2OuterClass {
 
       private int x_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>int32 x = 1;</code>
        * @return The x.
        */
@@ -499,6 +531,10 @@ public final class BreakoutVector2OuterClass {
         return x_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>int32 x = 1;</code>
        * @param value The x to set.
        * @return This builder for chaining.
@@ -510,6 +546,10 @@ public final class BreakoutVector2OuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>int32 x = 1;</code>
        * @return This builder for chaining.
        */

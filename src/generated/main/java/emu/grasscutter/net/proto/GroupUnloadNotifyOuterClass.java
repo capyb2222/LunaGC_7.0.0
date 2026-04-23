@@ -19,17 +19,17 @@ public final class GroupUnloadNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 group_list = 8;</code>
+     * <code>repeated uint32 group_list = 9;</code>
      * @return A list containing the groupList.
      */
     java.util.List<java.lang.Integer> getGroupListList();
     /**
-     * <code>repeated uint32 group_list = 8;</code>
+     * <code>repeated uint32 group_list = 9;</code>
      * @return The count of groupList.
      */
     int getGroupListCount();
     /**
-     * <code>repeated uint32 group_list = 8;</code>
+     * <code>repeated uint32 group_list = 9;</code>
      * @param index The index of the element to return.
      * @return The groupList at the given index.
      */
@@ -37,7 +37,8 @@ public final class GroupUnloadNotifyOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 25270
+   * CmdId: 27542
+   * Obf: NDCHDNICDBF
    * </pre>
    *
    * Protobuf type {@code GroupUnloadNotify}
@@ -86,7 +87,7 @@ public final class GroupUnloadNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 groupList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -94,7 +95,7 @@ public final class GroupUnloadNotifyOuterClass {
               groupList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -142,10 +143,10 @@ public final class GroupUnloadNotifyOuterClass {
               emu.grasscutter.net.proto.GroupUnloadNotifyOuterClass.GroupUnloadNotify.class, emu.grasscutter.net.proto.GroupUnloadNotifyOuterClass.GroupUnloadNotify.Builder.class);
     }
 
-    public static final int GROUP_LIST_FIELD_NUMBER = 8;
+    public static final int GROUP_LIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList groupList_;
     /**
-     * <code>repeated uint32 group_list = 8;</code>
+     * <code>repeated uint32 group_list = 9;</code>
      * @return A list containing the groupList.
      */
     @java.lang.Override
@@ -154,14 +155,14 @@ public final class GroupUnloadNotifyOuterClass {
       return groupList_;
     }
     /**
-     * <code>repeated uint32 group_list = 8;</code>
+     * <code>repeated uint32 group_list = 9;</code>
      * @return The count of groupList.
      */
     public int getGroupListCount() {
       return groupList_.size();
     }
     /**
-     * <code>repeated uint32 group_list = 8;</code>
+     * <code>repeated uint32 group_list = 9;</code>
      * @param index The index of the element to return.
      * @return The groupList at the given index.
      */
@@ -186,7 +187,7 @@ public final class GroupUnloadNotifyOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getGroupListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(groupListMemoizedSerializedSize);
       }
       for (int i = 0; i < groupList_.size(); i++) {
@@ -344,7 +345,8 @@ public final class GroupUnloadNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 25270
+     * CmdId: 27542
+     * Obf: NDCHDNICDBF
      * </pre>
      *
      * Protobuf type {@code GroupUnloadNotify}
@@ -514,7 +516,7 @@ public final class GroupUnloadNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 group_list = 8;</code>
+       * <code>repeated uint32 group_list = 9;</code>
        * @return A list containing the groupList.
        */
       public java.util.List<java.lang.Integer>
@@ -523,14 +525,14 @@ public final class GroupUnloadNotifyOuterClass {
                  java.util.Collections.unmodifiableList(groupList_) : groupList_;
       }
       /**
-       * <code>repeated uint32 group_list = 8;</code>
+       * <code>repeated uint32 group_list = 9;</code>
        * @return The count of groupList.
        */
       public int getGroupListCount() {
         return groupList_.size();
       }
       /**
-       * <code>repeated uint32 group_list = 8;</code>
+       * <code>repeated uint32 group_list = 9;</code>
        * @param index The index of the element to return.
        * @return The groupList at the given index.
        */
@@ -538,7 +540,7 @@ public final class GroupUnloadNotifyOuterClass {
         return groupList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 group_list = 8;</code>
+       * <code>repeated uint32 group_list = 9;</code>
        * @param index The index to set the value at.
        * @param value The groupList to set.
        * @return This builder for chaining.
@@ -551,7 +553,7 @@ public final class GroupUnloadNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 group_list = 8;</code>
+       * <code>repeated uint32 group_list = 9;</code>
        * @param value The groupList to add.
        * @return This builder for chaining.
        */
@@ -562,7 +564,7 @@ public final class GroupUnloadNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 group_list = 8;</code>
+       * <code>repeated uint32 group_list = 9;</code>
        * @param values The groupList to add.
        * @return This builder for chaining.
        */
@@ -575,7 +577,7 @@ public final class GroupUnloadNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 group_list = 8;</code>
+       * <code>repeated uint32 group_list = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearGroupList() {
@@ -652,7 +654,7 @@ public final class GroupUnloadNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027GroupUnloadNotify.proto\"\'\n\021GroupUnload" +
-      "Notify\022\022\n\ngroup_list\030\010 \003(\rB\033\n\031emu.grassc" +
+      "Notify\022\022\n\ngroup_list\030\t \003(\rB\033\n\031emu.grassc" +
       "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

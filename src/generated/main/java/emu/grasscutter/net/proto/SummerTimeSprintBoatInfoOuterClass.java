@@ -19,30 +19,34 @@ public final class SummerTimeSprintBoatInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord> 
         getRecordListList();
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord getRecordList(int index);
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     int getRecordListCount();
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecordOrBuilder> 
         getRecordListOrBuilderList();
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecordOrBuilder getRecordListOrBuilder(
         int index);
   }
   /**
+   * <pre>
+   * Obf: MBIICFNNNII
+   * </pre>
+   *
    * Protobuf type {@code SummerTimeSprintBoatInfo}
    */
   public static final class SummerTimeSprintBoatInfo extends
@@ -89,7 +93,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 74: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 recordList_ = new java.util.ArrayList<emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +137,17 @@ public final class SummerTimeSprintBoatInfoOuterClass {
               emu.grasscutter.net.proto.SummerTimeSprintBoatInfoOuterClass.SummerTimeSprintBoatInfo.class, emu.grasscutter.net.proto.SummerTimeSprintBoatInfoOuterClass.SummerTimeSprintBoatInfo.Builder.class);
     }
 
-    public static final int RECORD_LIST_FIELD_NUMBER = 9;
+    public static final int RECORD_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord> recordList_;
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord> getRecordListList() {
       return recordList_;
     }
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecordOrBuilder> 
@@ -151,21 +155,21 @@ public final class SummerTimeSprintBoatInfoOuterClass {
       return recordList_;
     }
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     @java.lang.Override
     public int getRecordListCount() {
       return recordList_.size();
     }
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord getRecordList(int index) {
       return recordList_.get(index);
     }
     /**
-     * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+     * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecordOrBuilder getRecordListOrBuilder(
@@ -188,7 +192,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < recordList_.size(); i++) {
-        output.writeMessage(9, recordList_.get(i));
+        output.writeMessage(3, recordList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +205,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
       size = 0;
       for (int i = 0; i < recordList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, recordList_.get(i));
+          .computeMessageSize(3, recordList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -331,6 +335,10 @@ public final class SummerTimeSprintBoatInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: MBIICFNNNII
+     * </pre>
+     *
      * Protobuf type {@code SummerTimeSprintBoatInfo}
      */
     public static final class Builder extends
@@ -528,7 +536,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
           emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord, emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.Builder, emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecordOrBuilder> recordListBuilder_;
 
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord> getRecordListList() {
         if (recordListBuilder_ == null) {
@@ -538,7 +546,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public int getRecordListCount() {
         if (recordListBuilder_ == null) {
@@ -548,7 +556,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord getRecordList(int index) {
         if (recordListBuilder_ == null) {
@@ -558,7 +566,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public Builder setRecordList(
           int index, emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord value) {
@@ -575,7 +583,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public Builder setRecordList(
           int index, emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.Builder builderForValue) {
@@ -589,7 +597,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public Builder addRecordList(emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord value) {
         if (recordListBuilder_ == null) {
@@ -605,7 +613,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public Builder addRecordList(
           int index, emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord value) {
@@ -622,7 +630,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public Builder addRecordList(
           emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.Builder builderForValue) {
@@ -636,7 +644,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public Builder addRecordList(
           int index, emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.Builder builderForValue) {
@@ -650,7 +658,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public Builder addAllRecordList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord> values) {
@@ -665,7 +673,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public Builder clearRecordList() {
         if (recordListBuilder_ == null) {
@@ -678,7 +686,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public Builder removeRecordList(int index) {
         if (recordListBuilder_ == null) {
@@ -691,14 +699,14 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.Builder getRecordListBuilder(
           int index) {
         return getRecordListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecordOrBuilder getRecordListOrBuilder(
           int index) {
@@ -708,7 +716,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecordOrBuilder> 
            getRecordListOrBuilderList() {
@@ -719,14 +727,14 @@ public final class SummerTimeSprintBoatInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.Builder addRecordListBuilder() {
         return getRecordListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.getDefaultInstance());
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.Builder addRecordListBuilder(
           int index) {
@@ -734,7 +742,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
             index, emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.getDefaultInstance());
       }
       /**
-       * <code>repeated .SummerTimeSprintBoatRecord record_list = 9;</code>
+       * <code>repeated .SummerTimeSprintBoatRecord record_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.SummerTimeSprintBoatRecordOuterClass.SummerTimeSprintBoatRecord.Builder> 
            getRecordListBuilderList() {
@@ -823,7 +831,7 @@ public final class SummerTimeSprintBoatInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036SummerTimeSprintBoatInfo.proto\032 Summer" +
       "TimeSprintBoatRecord.proto\"L\n\030SummerTime" +
-      "SprintBoatInfo\0220\n\013record_list\030\t \003(\0132\033.Su" +
+      "SprintBoatInfo\0220\n\013record_list\030\003 \003(\0132\033.Su" +
       "mmerTimeSprintBoatRecordB\033\n\031emu.grasscut" +
       "ter.net.protob\006proto3"
     };

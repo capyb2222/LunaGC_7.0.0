@@ -100,11 +100,11 @@ public class EntityItem extends EntityBaseGadget {
         boolean success = player.getInventory().addItem(item, ActionReason.SubfieldDrop);
         if (success) {
             if (!this.isShare()) { // not shared drop
-                player.sendPacket(new PacketGadgetInteractRsp(this, InteractType.INTERACT_TYPE_PICK_ITEM));
+                player.sendPacket(new PacketGadgetInteractRsp(this, InteractType.InteractType_INTERACT_PICK_ITEM));
             } else {
                 this.getScene()
                         .broadcastPacket(
-                                new PacketGadgetInteractRsp(this, InteractType.INTERACT_TYPE_PICK_ITEM));
+                                new PacketGadgetInteractRsp(this, InteractType.InteractType_INTERACT_PICK_ITEM));
             }
         }
     }
@@ -116,14 +116,14 @@ public class EntityItem extends EntityBaseGadget {
                         .setAbilityInfo(AbilitySyncStateInfo.newBuilder())
                         .setRendererChangedInfo(EntityRendererChangedInfo.newBuilder())
                         .setAiInfo(
-                                SceneEntityAiInfo.newBuilder().setIsAiOpen(true).setBornPos(Vector.newBuilder()))
+                                SceneEntityAiInfo.newBuilder().setIsAiOpen(true))
                         .setBornPos(Vector.newBuilder())
                         .build();
 
         SceneEntityInfo.Builder entityInfo =
                 SceneEntityInfo.newBuilder()
                         .setEntityId(getId())
-                        .setEntityType(ProtEntityType.PROT_ENTITY_TYPE_GADGET)
+                        .setEntityType(ProtEntityType.ProtEntityType_PROT_ENTITY_GADGET)
                         .setMotionInfo(
                                 MotionInfo.newBuilder()
                                         .setPos(getPosition().toProto())
@@ -145,7 +145,7 @@ public class EntityItem extends EntityBaseGadget {
                 SceneGadgetInfo.newBuilder()
                         .setGadgetId(this.getItemData().getGadgetId())
                         // .setTrifleGadget(TrifleGadget.newBuilder().setItem(this.getItem().toProto()))
-                        .setBornType(GadgetBornType.GADGET_BORN_TYPE_IN_AIR)
+                        .setBornType(GadgetBornType.GadgetBornType_GADGET_BORN_IN_AIR)
                         .setAuthorityPeerId(this.getWorld().getHostPeerId())
                         .setIsEnableInteract(true);
 

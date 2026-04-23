@@ -32,7 +32,7 @@ public class PacketVehicleInteractRsp extends BasePacket {
             proto.setMember(vehicleMember);
 
             switch (interactType) {
-                case VEHICLE_INTERACT_TYPE_IN -> {
+                case VehicleInteractType_VEHICLE_INTERACT_IN -> {
                     ((EntityVehicle) vehicle).getVehicleMembers().add(vehicleMember);
                     player
                             .getQuestManager()
@@ -50,7 +50,7 @@ public class PacketVehicleInteractRsp extends BasePacket {
                     proto.setVehiclePos(player.getPosition().toProto());
                     proto.setVehicleRot(player.getRotation().toProto());
                 }
-                case VEHICLE_INTERACT_TYPE_OUT -> {
+                case VehicleInteractType_VEHICLE_INTERACT_OUT -> {
                     ((EntityVehicle) vehicle).getVehicleMembers().remove(vehicleMember);
                 }
                 default -> {}
@@ -70,10 +70,10 @@ public class PacketVehicleInteractRsp extends BasePacket {
             proto.setMember(vehicleMember);
 
             switch (interactType) {
-                case VEHICLE_INTERACT_TYPE_IN -> {
+                case VehicleInteractType_VEHICLE_INTERACT_IN -> {
                     vehicle.getVehicleMembers().add(vehicleMember);
                 }
-                case VEHICLE_INTERACT_TYPE_OUT -> {
+                case VehicleInteractType_VEHICLE_INTERACT_OUT -> {
                     vehicle.getVehicleMembers().remove(vehicleMember);
                 }
                 default -> {}

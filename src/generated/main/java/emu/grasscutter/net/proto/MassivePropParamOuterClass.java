@@ -19,16 +19,28 @@ public final class MassivePropParamOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 reaction_info_list = 2;</code>
      * @return A list containing the reactionInfoList.
      */
     java.util.List<java.lang.Integer> getReactionInfoListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 reaction_info_list = 2;</code>
      * @return The count of reactionInfoList.
      */
     int getReactionInfoListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 reaction_info_list = 2;</code>
      * @param index The index of the element to return.
      * @return The reactionInfoList at the given index.
@@ -36,16 +48,28 @@ public final class MassivePropParamOuterClass {
     int getReactionInfoList(int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated float param_list = 3;</code>
      * @return A list containing the paramList.
      */
     java.util.List<java.lang.Float> getParamListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated float param_list = 3;</code>
      * @return The count of paramList.
      */
     int getParamListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated float param_list = 3;</code>
      * @param index The index of the element to return.
      * @return The paramList at the given index.
@@ -53,16 +77,24 @@ public final class MassivePropParamOuterClass {
     float getParamList(int index);
 
     /**
-     * <code>uint32 sync_flag = 4;</code>
-     * @return The syncFlag.
-     */
-    int getSyncFlag();
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>int32 type = 1;</code>
      * @return The type.
      */
     int getType();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 sync_flag = 4;</code>
+     * @return The syncFlag.
+     */
+    int getSyncFlag();
   }
   /**
    * Protobuf type {@code MassivePropParam}
@@ -205,6 +237,10 @@ public final class MassivePropParamOuterClass {
     public static final int REACTION_INFO_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList reactionInfoList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 reaction_info_list = 2;</code>
      * @return A list containing the reactionInfoList.
      */
@@ -214,6 +250,10 @@ public final class MassivePropParamOuterClass {
       return reactionInfoList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 reaction_info_list = 2;</code>
      * @return The count of reactionInfoList.
      */
@@ -221,6 +261,10 @@ public final class MassivePropParamOuterClass {
       return reactionInfoList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated uint32 reaction_info_list = 2;</code>
      * @param index The index of the element to return.
      * @return The reactionInfoList at the given index.
@@ -233,6 +277,10 @@ public final class MassivePropParamOuterClass {
     public static final int PARAM_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.FloatList paramList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated float param_list = 3;</code>
      * @return A list containing the paramList.
      */
@@ -242,6 +290,10 @@ public final class MassivePropParamOuterClass {
       return paramList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated float param_list = 3;</code>
      * @return The count of paramList.
      */
@@ -249,6 +301,10 @@ public final class MassivePropParamOuterClass {
       return paramList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated float param_list = 3;</code>
      * @param index The index of the element to return.
      * @return The paramList at the given index.
@@ -258,26 +314,34 @@ public final class MassivePropParamOuterClass {
     }
     private int paramListMemoizedSerializedSize = -1;
 
-    public static final int SYNC_FLAG_FIELD_NUMBER = 4;
-    private int syncFlag_;
-    /**
-     * <code>uint32 sync_flag = 4;</code>
-     * @return The syncFlag.
-     */
-    @java.lang.Override
-    public int getSyncFlag() {
-      return syncFlag_;
-    }
-
     public static final int TYPE_FIELD_NUMBER = 1;
     private int type_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>int32 type = 1;</code>
      * @return The type.
      */
     @java.lang.Override
     public int getType() {
       return type_;
+    }
+
+    public static final int SYNC_FLAG_FIELD_NUMBER = 4;
+    private int syncFlag_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 sync_flag = 4;</code>
+     * @return The syncFlag.
+     */
+    @java.lang.Override
+    public int getSyncFlag() {
+      return syncFlag_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -376,10 +440,10 @@ public final class MassivePropParamOuterClass {
           .equals(other.getReactionInfoListList())) return false;
       if (!getParamListList()
           .equals(other.getParamListList())) return false;
-      if (getSyncFlag()
-          != other.getSyncFlag()) return false;
       if (getType()
           != other.getType()) return false;
+      if (getSyncFlag()
+          != other.getSyncFlag()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -399,10 +463,10 @@ public final class MassivePropParamOuterClass {
         hash = (37 * hash) + PARAM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getParamListList().hashCode();
       }
-      hash = (37 * hash) + SYNC_FLAG_FIELD_NUMBER;
-      hash = (53 * hash) + getSyncFlag();
       hash = (37 * hash) + TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getType();
+      hash = (37 * hash) + SYNC_FLAG_FIELD_NUMBER;
+      hash = (53 * hash) + getSyncFlag();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -540,9 +604,9 @@ public final class MassivePropParamOuterClass {
         bitField0_ = (bitField0_ & ~0x00000001);
         paramList_ = emptyFloatList();
         bitField0_ = (bitField0_ & ~0x00000002);
-        syncFlag_ = 0;
-
         type_ = 0;
+
+        syncFlag_ = 0;
 
         return this;
       }
@@ -581,8 +645,8 @@ public final class MassivePropParamOuterClass {
           bitField0_ = (bitField0_ & ~0x00000002);
         }
         result.paramList_ = paramList_;
-        result.syncFlag_ = syncFlag_;
         result.type_ = type_;
+        result.syncFlag_ = syncFlag_;
         onBuilt();
         return result;
       }
@@ -651,11 +715,11 @@ public final class MassivePropParamOuterClass {
           }
           onChanged();
         }
-        if (other.getSyncFlag() != 0) {
-          setSyncFlag(other.getSyncFlag());
-        }
         if (other.getType() != 0) {
           setType(other.getType());
+        }
+        if (other.getSyncFlag() != 0) {
+          setSyncFlag(other.getSyncFlag());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -695,6 +759,10 @@ public final class MassivePropParamOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 reaction_info_list = 2;</code>
        * @return A list containing the reactionInfoList.
        */
@@ -704,6 +772,10 @@ public final class MassivePropParamOuterClass {
                  java.util.Collections.unmodifiableList(reactionInfoList_) : reactionInfoList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 reaction_info_list = 2;</code>
        * @return The count of reactionInfoList.
        */
@@ -711,6 +783,10 @@ public final class MassivePropParamOuterClass {
         return reactionInfoList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 reaction_info_list = 2;</code>
        * @param index The index of the element to return.
        * @return The reactionInfoList at the given index.
@@ -719,6 +795,10 @@ public final class MassivePropParamOuterClass {
         return reactionInfoList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 reaction_info_list = 2;</code>
        * @param index The index to set the value at.
        * @param value The reactionInfoList to set.
@@ -732,6 +812,10 @@ public final class MassivePropParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 reaction_info_list = 2;</code>
        * @param value The reactionInfoList to add.
        * @return This builder for chaining.
@@ -743,6 +827,10 @@ public final class MassivePropParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 reaction_info_list = 2;</code>
        * @param values The reactionInfoList to add.
        * @return This builder for chaining.
@@ -756,6 +844,10 @@ public final class MassivePropParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated uint32 reaction_info_list = 2;</code>
        * @return This builder for chaining.
        */
@@ -774,6 +866,10 @@ public final class MassivePropParamOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated float param_list = 3;</code>
        * @return A list containing the paramList.
        */
@@ -783,6 +879,10 @@ public final class MassivePropParamOuterClass {
                  java.util.Collections.unmodifiableList(paramList_) : paramList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated float param_list = 3;</code>
        * @return The count of paramList.
        */
@@ -790,6 +890,10 @@ public final class MassivePropParamOuterClass {
         return paramList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated float param_list = 3;</code>
        * @param index The index of the element to return.
        * @return The paramList at the given index.
@@ -798,6 +902,10 @@ public final class MassivePropParamOuterClass {
         return paramList_.getFloat(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated float param_list = 3;</code>
        * @param index The index to set the value at.
        * @param value The paramList to set.
@@ -811,6 +919,10 @@ public final class MassivePropParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated float param_list = 3;</code>
        * @param value The paramList to add.
        * @return This builder for chaining.
@@ -822,6 +934,10 @@ public final class MassivePropParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated float param_list = 3;</code>
        * @param values The paramList to add.
        * @return This builder for chaining.
@@ -835,6 +951,10 @@ public final class MassivePropParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated float param_list = 3;</code>
        * @return This builder for chaining.
        */
@@ -845,39 +965,12 @@ public final class MassivePropParamOuterClass {
         return this;
       }
 
-      private int syncFlag_ ;
-      /**
-       * <code>uint32 sync_flag = 4;</code>
-       * @return The syncFlag.
-       */
-      @java.lang.Override
-      public int getSyncFlag() {
-        return syncFlag_;
-      }
-      /**
-       * <code>uint32 sync_flag = 4;</code>
-       * @param value The syncFlag to set.
-       * @return This builder for chaining.
-       */
-      public Builder setSyncFlag(int value) {
-        
-        syncFlag_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 sync_flag = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearSyncFlag() {
-        
-        syncFlag_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int type_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>int32 type = 1;</code>
        * @return The type.
        */
@@ -886,6 +979,10 @@ public final class MassivePropParamOuterClass {
         return type_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>int32 type = 1;</code>
        * @param value The type to set.
        * @return This builder for chaining.
@@ -897,12 +994,59 @@ public final class MassivePropParamOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>int32 type = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearType() {
         
         type_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int syncFlag_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 sync_flag = 4;</code>
+       * @return The syncFlag.
+       */
+      @java.lang.Override
+      public int getSyncFlag() {
+        return syncFlag_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 sync_flag = 4;</code>
+       * @param value The syncFlag to set.
+       * @return This builder for chaining.
+       */
+      public Builder setSyncFlag(int value) {
+        
+        syncFlag_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 sync_flag = 4;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearSyncFlag() {
+        
+        syncFlag_ = 0;
         onChanged();
         return this;
       }
@@ -975,8 +1119,8 @@ public final class MassivePropParamOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026MassivePropParam.proto\"c\n\020MassivePropP" +
       "aram\022\032\n\022reaction_info_list\030\002 \003(\r\022\022\n\npara" +
-      "m_list\030\003 \003(\002\022\021\n\tsync_flag\030\004 \001(\r\022\014\n\004type\030" +
-      "\001 \001(\005B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "m_list\030\003 \003(\002\022\014\n\004type\030\001 \001(\005\022\021\n\tsync_flag\030" +
+      "\004 \001(\rB\033\n\031emu.grasscutter.net.protob\006prot" +
       "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -988,7 +1132,7 @@ public final class MassivePropParamOuterClass {
     internal_static_MassivePropParam_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MassivePropParam_descriptor,
-        new java.lang.String[] { "ReactionInfoList", "ParamList", "SyncFlag", "Type", });
+        new java.lang.String[] { "ReactionInfoList", "ParamList", "Type", "SyncFlag", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

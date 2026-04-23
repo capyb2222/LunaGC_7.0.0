@@ -19,14 +19,15 @@ public final class UnlockTransPointRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 retcode = 3;</code>
+     * <code>int32 retcode = 4;</code>
      * @return The retcode.
      */
     int getRetcode();
   }
   /**
    * <pre>
-   * CmdId: 21695
+   * CmdId: 21510
+   * Obf: IBGGKMKPHOB
    * </pre>
    *
    * Protobuf type {@code UnlockTransPointRsp}
@@ -73,7 +74,7 @@ public final class UnlockTransPointRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 32: {
 
               retcode_ = input.readInt32();
               break;
@@ -110,10 +111,10 @@ public final class UnlockTransPointRspOuterClass {
               emu.grasscutter.net.proto.UnlockTransPointRspOuterClass.UnlockTransPointRsp.class, emu.grasscutter.net.proto.UnlockTransPointRspOuterClass.UnlockTransPointRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 3;
+    public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
     /**
-     * <code>int32 retcode = 3;</code>
+     * <code>int32 retcode = 4;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -136,7 +137,7 @@ public final class UnlockTransPointRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
+        output.writeInt32(4, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -149,7 +150,7 @@ public final class UnlockTransPointRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
+          .computeInt32Size(4, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -278,7 +279,8 @@ public final class UnlockTransPointRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 21695
+     * CmdId: 21510
+     * Obf: IBGGKMKPHOB
      * </pre>
      *
      * Protobuf type {@code UnlockTransPointRsp}
@@ -429,7 +431,7 @@ public final class UnlockTransPointRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 3;</code>
+       * <code>int32 retcode = 4;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -437,7 +439,7 @@ public final class UnlockTransPointRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 3;</code>
+       * <code>int32 retcode = 4;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -448,7 +450,7 @@ public final class UnlockTransPointRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 3;</code>
+       * <code>int32 retcode = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -525,7 +527,7 @@ public final class UnlockTransPointRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031UnlockTransPointRsp.proto\"&\n\023UnlockTra" +
-      "nsPointRsp\022\017\n\007retcode\030\003 \001(\005B\033\n\031emu.grass" +
+      "nsPointRsp\022\017\n\007retcode\030\004 \001(\005B\033\n\031emu.grass" +
       "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

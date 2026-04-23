@@ -20,208 +20,192 @@ public final class CombatTypeArgumentOuterClass {
   public enum CombatTypeArgument
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_NONE = 0;</code>
+     * <code>CombatTypeArgument_COMBAT_NONE = 0;</code>
      */
-    COMBAT_TYPE_ARGUMENT_NONE(0),
+    CombatTypeArgument_COMBAT_NONE(0),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT = 1;</code>
+     * <code>CombatTypeArgument_COMBAT_EVT_BEING_HIT = 1;</code>
      */
-    COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT(1),
+    CombatTypeArgument_COMBAT_EVT_BEING_HIT(1),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_ANIMATOR_STATE_CHANGED = 2;</code>
+     * <code>CombatTypeArgument_COMBAT_ANIMATOR_STATE_CHANGED = 2;</code>
      */
-    COMBAT_TYPE_ARGUMENT_ANIMATOR_STATE_CHANGED(2),
+    CombatTypeArgument_COMBAT_ANIMATOR_STATE_CHANGED(2),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_FACE_TO_DIR = 3;</code>
+     * <code>CombatTypeArgument_COMBAT_FACE_TO_DIR = 3;</code>
      */
-    COMBAT_TYPE_ARGUMENT_FACE_TO_DIR(3),
+    CombatTypeArgument_COMBAT_FACE_TO_DIR(3),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SET_ATTACK_TARGET = 4;</code>
+     * <code>CombatTypeArgument_COMBAT_SET_ATTACK_TARGET = 4;</code>
      */
-    COMBAT_TYPE_ARGUMENT_SET_ATTACK_TARGET(4),
+    CombatTypeArgument_COMBAT_SET_ATTACK_TARGET(4),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_RUSH_MOVE = 5;</code>
+     * <code>CombatTypeArgument_COMBAT_RUSH_MOVE = 5;</code>
      */
-    COMBAT_TYPE_ARGUMENT_RUSH_MOVE(5),
+    CombatTypeArgument_COMBAT_RUSH_MOVE(5),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_ANIMATOR_PARAMETER_CHANGED = 6;</code>
+     * <code>CombatTypeArgument_COMBAT_ANIMATOR_PARAMETER_CHANGED = 6;</code>
      */
-    COMBAT_TYPE_ARGUMENT_ANIMATOR_PARAMETER_CHANGED(6),
+    CombatTypeArgument_COMBAT_ANIMATOR_PARAMETER_CHANGED(6),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_ENTITY_MOVE = 7;</code>
+     * <code>CombatTypeArgument_ENTITY_MOVE = 7;</code>
      */
-    COMBAT_TYPE_ARGUMENT_ENTITY_MOVE(7),
+    CombatTypeArgument_ENTITY_MOVE(7),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SYNC_ENTITY_POSITION = 8;</code>
+     * <code>CombatTypeArgument_SYNC_ENTITY_POSITION = 8;</code>
      */
-    COMBAT_TYPE_ARGUMENT_SYNC_ENTITY_POSITION(8),
+    CombatTypeArgument_SYNC_ENTITY_POSITION(8),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_STEER_MOTION_INFO = 9;</code>
+     * <code>CombatTypeArgument_COMBAT_STEER_MOTION_INFO = 9;</code>
      */
-    COMBAT_TYPE_ARGUMENT_STEER_MOTION_INFO(9),
+    CombatTypeArgument_COMBAT_STEER_MOTION_INFO(9),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_FORCE_SET_POS_INFO = 10;</code>
+     * <code>CombatTypeArgument_COMBAT_FORCE_SET_POS_INFO = 10;</code>
      */
-    COMBAT_TYPE_ARGUMENT_FORCE_SET_POS_INFO(10),
+    CombatTypeArgument_COMBAT_FORCE_SET_POS_INFO(10),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_COMPENSATE_POS_DIFF = 11;</code>
+     * <code>CombatTypeArgument_COMBAT_COMPENSATE_POS_DIFF = 11;</code>
      */
-    COMBAT_TYPE_ARGUMENT_COMPENSATE_POS_DIFF(11),
+    CombatTypeArgument_COMBAT_COMPENSATE_POS_DIFF(11),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_MONSTER_DO_BLINK = 12;</code>
+     * <code>CombatTypeArgument_COMBAT_MONSTER_DO_BLINK = 12;</code>
      */
-    COMBAT_TYPE_ARGUMENT_MONSTER_DO_BLINK(12),
+    CombatTypeArgument_COMBAT_MONSTER_DO_BLINK(12),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_FIXED_RUSH_MOVE = 13;</code>
+     * <code>CombatTypeArgument_COMBAT_FIXED_RUSH_MOVE = 13;</code>
      */
-    COMBAT_TYPE_ARGUMENT_FIXED_RUSH_MOVE(13),
+    CombatTypeArgument_COMBAT_FIXED_RUSH_MOVE(13),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SYNC_TRANSFORM = 14;</code>
+     * <code>CombatTypeArgument_COMBAT_SYNC_TRANSFORM = 14;</code>
      */
-    COMBAT_TYPE_ARGUMENT_SYNC_TRANSFORM(14),
+    CombatTypeArgument_COMBAT_SYNC_TRANSFORM(14),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_LIGHT_CORE_MOVE = 15;</code>
+     * <code>CombatTypeArgument_COMBAT_LIGHT_CORE_MOVE = 15;</code>
      */
-    COMBAT_TYPE_ARGUMENT_LIGHT_CORE_MOVE(15),
+    CombatTypeArgument_COMBAT_LIGHT_CORE_MOVE(15),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_BEING_HEALED_NTF = 16;</code>
+     * <code>CombatTypeArgument_COMBAT_BEING_HEALED_NTF = 16;</code>
      */
-    COMBAT_TYPE_ARGUMENT_BEING_HEALED_NTF(16),
+    CombatTypeArgument_COMBAT_BEING_HEALED_NTF(16),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SKILL_ANCHOR_POSITION_NTF = 17;</code>
+     * <code>CombatTypeArgument_COMBAT_SKILL_ANCHOR_POSITION_NTF = 17;</code>
      */
-    COMBAT_TYPE_ARGUMENT_SKILL_ANCHOR_POSITION_NTF(17),
+    CombatTypeArgument_COMBAT_SKILL_ANCHOR_POSITION_NTF(17),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_GRAPPLING_HOOK_MOVE = 18;</code>
+     * <code>CombatTypeArgument_COMBAT_GRAPPLING_HOOK_MOVE = 18;</code>
      */
-    COMBAT_TYPE_ARGUMENT_GRAPPLING_HOOK_MOVE(18),
+    CombatTypeArgument_COMBAT_GRAPPLING_HOOK_MOVE(18),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SPECIAL_MOTION_INFO = 19;</code>
+     * <code>CombatTypeArgument_COMBAT_SPECIAL_MOTION_INFO = 19;</code>
      */
-    COMBAT_TYPE_ARGUMENT_SPECIAL_MOTION_INFO(19),
+    CombatTypeArgument_COMBAT_SPECIAL_MOTION_INFO(19),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_FIXED_AVATAR_FLASH_MOVE = 20;</code>
+     * <code>CombatTypeArgument_COMBAT_FIXED_AVATAR_FLASH_MOVE = 20;</code>
      */
-    COMBAT_TYPE_ARGUMENT_FIXED_AVATAR_FLASH_MOVE(20),
+    CombatTypeArgument_COMBAT_FIXED_AVATAR_FLASH_MOVE(20),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_MULTI_OVERRIDE_ANIM = 21;</code>
+     * <code>CombatTypeArgument_COMBAT_MULTI_OVERRIDE_ANIM = 21;</code>
      */
-    COMBAT_TYPE_ARGUMENT_MULTI_OVERRIDE_ANIM(21),
+    CombatTypeArgument_COMBAT_MULTI_OVERRIDE_ANIM(21),
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_DEBUG_SYNC_MOTION = 22;</code>
+     * <code>CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION = 22;</code>
      */
-    COMBAT_TYPE_ARGUMENT_DEBUG_SYNC_MOTION(22),
-    /**
-     * <code>COMBAT_TYPE_ARGUMENT_ENTITY_INTERPOLATE_MOVE = 24;</code>
-     */
-    COMBAT_TYPE_ARGUMENT_ENTITY_INTERPOLATE_MOVE(24),
-    /**
-     * <code>COMBAT_TYPE_ARGUMENT_DIE_ANIMATOR_CHANGE = 25;</code>
-     */
-    COMBAT_TYPE_ARGUMENT_DIE_ANIMATOR_CHANGE(25),
+    CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION(22),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_NONE = 0;</code>
+     * <code>CombatTypeArgument_COMBAT_NONE = 0;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_NONE_VALUE = 0;
+    public static final int CombatTypeArgument_COMBAT_NONE_VALUE = 0;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT = 1;</code>
+     * <code>CombatTypeArgument_COMBAT_EVT_BEING_HIT = 1;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT_VALUE = 1;
+    public static final int CombatTypeArgument_COMBAT_EVT_BEING_HIT_VALUE = 1;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_ANIMATOR_STATE_CHANGED = 2;</code>
+     * <code>CombatTypeArgument_COMBAT_ANIMATOR_STATE_CHANGED = 2;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_ANIMATOR_STATE_CHANGED_VALUE = 2;
+    public static final int CombatTypeArgument_COMBAT_ANIMATOR_STATE_CHANGED_VALUE = 2;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_FACE_TO_DIR = 3;</code>
+     * <code>CombatTypeArgument_COMBAT_FACE_TO_DIR = 3;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_FACE_TO_DIR_VALUE = 3;
+    public static final int CombatTypeArgument_COMBAT_FACE_TO_DIR_VALUE = 3;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SET_ATTACK_TARGET = 4;</code>
+     * <code>CombatTypeArgument_COMBAT_SET_ATTACK_TARGET = 4;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_SET_ATTACK_TARGET_VALUE = 4;
+    public static final int CombatTypeArgument_COMBAT_SET_ATTACK_TARGET_VALUE = 4;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_RUSH_MOVE = 5;</code>
+     * <code>CombatTypeArgument_COMBAT_RUSH_MOVE = 5;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_RUSH_MOVE_VALUE = 5;
+    public static final int CombatTypeArgument_COMBAT_RUSH_MOVE_VALUE = 5;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_ANIMATOR_PARAMETER_CHANGED = 6;</code>
+     * <code>CombatTypeArgument_COMBAT_ANIMATOR_PARAMETER_CHANGED = 6;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_ANIMATOR_PARAMETER_CHANGED_VALUE = 6;
+    public static final int CombatTypeArgument_COMBAT_ANIMATOR_PARAMETER_CHANGED_VALUE = 6;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_ENTITY_MOVE = 7;</code>
+     * <code>CombatTypeArgument_ENTITY_MOVE = 7;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_ENTITY_MOVE_VALUE = 7;
+    public static final int CombatTypeArgument_ENTITY_MOVE_VALUE = 7;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SYNC_ENTITY_POSITION = 8;</code>
+     * <code>CombatTypeArgument_SYNC_ENTITY_POSITION = 8;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_SYNC_ENTITY_POSITION_VALUE = 8;
+    public static final int CombatTypeArgument_SYNC_ENTITY_POSITION_VALUE = 8;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_STEER_MOTION_INFO = 9;</code>
+     * <code>CombatTypeArgument_COMBAT_STEER_MOTION_INFO = 9;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_STEER_MOTION_INFO_VALUE = 9;
+    public static final int CombatTypeArgument_COMBAT_STEER_MOTION_INFO_VALUE = 9;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_FORCE_SET_POS_INFO = 10;</code>
+     * <code>CombatTypeArgument_COMBAT_FORCE_SET_POS_INFO = 10;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_FORCE_SET_POS_INFO_VALUE = 10;
+    public static final int CombatTypeArgument_COMBAT_FORCE_SET_POS_INFO_VALUE = 10;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_COMPENSATE_POS_DIFF = 11;</code>
+     * <code>CombatTypeArgument_COMBAT_COMPENSATE_POS_DIFF = 11;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_COMPENSATE_POS_DIFF_VALUE = 11;
+    public static final int CombatTypeArgument_COMBAT_COMPENSATE_POS_DIFF_VALUE = 11;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_MONSTER_DO_BLINK = 12;</code>
+     * <code>CombatTypeArgument_COMBAT_MONSTER_DO_BLINK = 12;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_MONSTER_DO_BLINK_VALUE = 12;
+    public static final int CombatTypeArgument_COMBAT_MONSTER_DO_BLINK_VALUE = 12;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_FIXED_RUSH_MOVE = 13;</code>
+     * <code>CombatTypeArgument_COMBAT_FIXED_RUSH_MOVE = 13;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_FIXED_RUSH_MOVE_VALUE = 13;
+    public static final int CombatTypeArgument_COMBAT_FIXED_RUSH_MOVE_VALUE = 13;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SYNC_TRANSFORM = 14;</code>
+     * <code>CombatTypeArgument_COMBAT_SYNC_TRANSFORM = 14;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_SYNC_TRANSFORM_VALUE = 14;
+    public static final int CombatTypeArgument_COMBAT_SYNC_TRANSFORM_VALUE = 14;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_LIGHT_CORE_MOVE = 15;</code>
+     * <code>CombatTypeArgument_COMBAT_LIGHT_CORE_MOVE = 15;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_LIGHT_CORE_MOVE_VALUE = 15;
+    public static final int CombatTypeArgument_COMBAT_LIGHT_CORE_MOVE_VALUE = 15;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_BEING_HEALED_NTF = 16;</code>
+     * <code>CombatTypeArgument_COMBAT_BEING_HEALED_NTF = 16;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_BEING_HEALED_NTF_VALUE = 16;
+    public static final int CombatTypeArgument_COMBAT_BEING_HEALED_NTF_VALUE = 16;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SKILL_ANCHOR_POSITION_NTF = 17;</code>
+     * <code>CombatTypeArgument_COMBAT_SKILL_ANCHOR_POSITION_NTF = 17;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_SKILL_ANCHOR_POSITION_NTF_VALUE = 17;
+    public static final int CombatTypeArgument_COMBAT_SKILL_ANCHOR_POSITION_NTF_VALUE = 17;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_GRAPPLING_HOOK_MOVE = 18;</code>
+     * <code>CombatTypeArgument_COMBAT_GRAPPLING_HOOK_MOVE = 18;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_GRAPPLING_HOOK_MOVE_VALUE = 18;
+    public static final int CombatTypeArgument_COMBAT_GRAPPLING_HOOK_MOVE_VALUE = 18;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_SPECIAL_MOTION_INFO = 19;</code>
+     * <code>CombatTypeArgument_COMBAT_SPECIAL_MOTION_INFO = 19;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_SPECIAL_MOTION_INFO_VALUE = 19;
+    public static final int CombatTypeArgument_COMBAT_SPECIAL_MOTION_INFO_VALUE = 19;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_FIXED_AVATAR_FLASH_MOVE = 20;</code>
+     * <code>CombatTypeArgument_COMBAT_FIXED_AVATAR_FLASH_MOVE = 20;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_FIXED_AVATAR_FLASH_MOVE_VALUE = 20;
+    public static final int CombatTypeArgument_COMBAT_FIXED_AVATAR_FLASH_MOVE_VALUE = 20;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_MULTI_OVERRIDE_ANIM = 21;</code>
+     * <code>CombatTypeArgument_COMBAT_MULTI_OVERRIDE_ANIM = 21;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_MULTI_OVERRIDE_ANIM_VALUE = 21;
+    public static final int CombatTypeArgument_COMBAT_MULTI_OVERRIDE_ANIM_VALUE = 21;
     /**
-     * <code>COMBAT_TYPE_ARGUMENT_DEBUG_SYNC_MOTION = 22;</code>
+     * <code>CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION = 22;</code>
      */
-    public static final int COMBAT_TYPE_ARGUMENT_DEBUG_SYNC_MOTION_VALUE = 22;
-    /**
-     * <code>COMBAT_TYPE_ARGUMENT_ENTITY_INTERPOLATE_MOVE = 24;</code>
-     */
-    public static final int COMBAT_TYPE_ARGUMENT_ENTITY_INTERPOLATE_MOVE_VALUE = 24;
-    /**
-     * <code>COMBAT_TYPE_ARGUMENT_DIE_ANIMATOR_CHANGE = 25;</code>
-     */
-    public static final int COMBAT_TYPE_ARGUMENT_DIE_ANIMATOR_CHANGE_VALUE = 25;
+    public static final int CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION_VALUE = 22;
 
 
     public final int getNumber() {
@@ -248,31 +232,29 @@ public final class CombatTypeArgumentOuterClass {
      */
     public static CombatTypeArgument forNumber(int value) {
       switch (value) {
-        case 0: return COMBAT_TYPE_ARGUMENT_NONE;
-        case 1: return COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT;
-        case 2: return COMBAT_TYPE_ARGUMENT_ANIMATOR_STATE_CHANGED;
-        case 3: return COMBAT_TYPE_ARGUMENT_FACE_TO_DIR;
-        case 4: return COMBAT_TYPE_ARGUMENT_SET_ATTACK_TARGET;
-        case 5: return COMBAT_TYPE_ARGUMENT_RUSH_MOVE;
-        case 6: return COMBAT_TYPE_ARGUMENT_ANIMATOR_PARAMETER_CHANGED;
-        case 7: return COMBAT_TYPE_ARGUMENT_ENTITY_MOVE;
-        case 8: return COMBAT_TYPE_ARGUMENT_SYNC_ENTITY_POSITION;
-        case 9: return COMBAT_TYPE_ARGUMENT_STEER_MOTION_INFO;
-        case 10: return COMBAT_TYPE_ARGUMENT_FORCE_SET_POS_INFO;
-        case 11: return COMBAT_TYPE_ARGUMENT_COMPENSATE_POS_DIFF;
-        case 12: return COMBAT_TYPE_ARGUMENT_MONSTER_DO_BLINK;
-        case 13: return COMBAT_TYPE_ARGUMENT_FIXED_RUSH_MOVE;
-        case 14: return COMBAT_TYPE_ARGUMENT_SYNC_TRANSFORM;
-        case 15: return COMBAT_TYPE_ARGUMENT_LIGHT_CORE_MOVE;
-        case 16: return COMBAT_TYPE_ARGUMENT_BEING_HEALED_NTF;
-        case 17: return COMBAT_TYPE_ARGUMENT_SKILL_ANCHOR_POSITION_NTF;
-        case 18: return COMBAT_TYPE_ARGUMENT_GRAPPLING_HOOK_MOVE;
-        case 19: return COMBAT_TYPE_ARGUMENT_SPECIAL_MOTION_INFO;
-        case 20: return COMBAT_TYPE_ARGUMENT_FIXED_AVATAR_FLASH_MOVE;
-        case 21: return COMBAT_TYPE_ARGUMENT_MULTI_OVERRIDE_ANIM;
-        case 22: return COMBAT_TYPE_ARGUMENT_DEBUG_SYNC_MOTION;
-        case 24: return COMBAT_TYPE_ARGUMENT_ENTITY_INTERPOLATE_MOVE;
-        case 25: return COMBAT_TYPE_ARGUMENT_DIE_ANIMATOR_CHANGE;
+        case 0: return CombatTypeArgument_COMBAT_NONE;
+        case 1: return CombatTypeArgument_COMBAT_EVT_BEING_HIT;
+        case 2: return CombatTypeArgument_COMBAT_ANIMATOR_STATE_CHANGED;
+        case 3: return CombatTypeArgument_COMBAT_FACE_TO_DIR;
+        case 4: return CombatTypeArgument_COMBAT_SET_ATTACK_TARGET;
+        case 5: return CombatTypeArgument_COMBAT_RUSH_MOVE;
+        case 6: return CombatTypeArgument_COMBAT_ANIMATOR_PARAMETER_CHANGED;
+        case 7: return CombatTypeArgument_ENTITY_MOVE;
+        case 8: return CombatTypeArgument_SYNC_ENTITY_POSITION;
+        case 9: return CombatTypeArgument_COMBAT_STEER_MOTION_INFO;
+        case 10: return CombatTypeArgument_COMBAT_FORCE_SET_POS_INFO;
+        case 11: return CombatTypeArgument_COMBAT_COMPENSATE_POS_DIFF;
+        case 12: return CombatTypeArgument_COMBAT_MONSTER_DO_BLINK;
+        case 13: return CombatTypeArgument_COMBAT_FIXED_RUSH_MOVE;
+        case 14: return CombatTypeArgument_COMBAT_SYNC_TRANSFORM;
+        case 15: return CombatTypeArgument_COMBAT_LIGHT_CORE_MOVE;
+        case 16: return CombatTypeArgument_COMBAT_BEING_HEALED_NTF;
+        case 17: return CombatTypeArgument_COMBAT_SKILL_ANCHOR_POSITION_NTF;
+        case 18: return CombatTypeArgument_COMBAT_GRAPPLING_HOOK_MOVE;
+        case 19: return CombatTypeArgument_COMBAT_SPECIAL_MOTION_INFO;
+        case 20: return CombatTypeArgument_COMBAT_FIXED_AVATAR_FLASH_MOVE;
+        case 21: return CombatTypeArgument_COMBAT_MULTI_OVERRIDE_ANIM;
+        case 22: return CombatTypeArgument_COMBAT_DEBUG_SYNC_MOTION;
         default: return null;
       }
     }
@@ -338,36 +320,36 @@ public final class CombatTypeArgumentOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030CombatTypeArgument.proto*\342\010\n\022CombatTyp" +
-      "eArgument\022\035\n\031COMBAT_TYPE_ARGUMENT_NONE\020\000" +
-      "\022&\n\"COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT\020\001" +
-      "\022/\n+COMBAT_TYPE_ARGUMENT_ANIMATOR_STATE_" +
-      "CHANGED\020\002\022$\n COMBAT_TYPE_ARGUMENT_FACE_T" +
-      "O_DIR\020\003\022*\n&COMBAT_TYPE_ARGUMENT_SET_ATTA" +
-      "CK_TARGET\020\004\022\"\n\036COMBAT_TYPE_ARGUMENT_RUSH" +
-      "_MOVE\020\005\0223\n/COMBAT_TYPE_ARGUMENT_ANIMATOR" +
-      "_PARAMETER_CHANGED\020\006\022$\n COMBAT_TYPE_ARGU" +
-      "MENT_ENTITY_MOVE\020\007\022-\n)COMBAT_TYPE_ARGUME" +
-      "NT_SYNC_ENTITY_POSITION\020\010\022*\n&COMBAT_TYPE" +
-      "_ARGUMENT_STEER_MOTION_INFO\020\t\022+\n\'COMBAT_" +
-      "TYPE_ARGUMENT_FORCE_SET_POS_INFO\020\n\022,\n(CO" +
-      "MBAT_TYPE_ARGUMENT_COMPENSATE_POS_DIFF\020\013" +
-      "\022)\n%COMBAT_TYPE_ARGUMENT_MONSTER_DO_BLIN" +
-      "K\020\014\022(\n$COMBAT_TYPE_ARGUMENT_FIXED_RUSH_M" +
-      "OVE\020\r\022\'\n#COMBAT_TYPE_ARGUMENT_SYNC_TRANS" +
-      "FORM\020\016\022(\n$COMBAT_TYPE_ARGUMENT_LIGHT_COR" +
-      "E_MOVE\020\017\022)\n%COMBAT_TYPE_ARGUMENT_BEING_H" +
-      "EALED_NTF\020\020\0222\n.COMBAT_TYPE_ARGUMENT_SKIL" +
-      "L_ANCHOR_POSITION_NTF\020\021\022,\n(COMBAT_TYPE_A" +
-      "RGUMENT_GRAPPLING_HOOK_MOVE\020\022\022,\n(COMBAT_" +
-      "TYPE_ARGUMENT_SPECIAL_MOTION_INFO\020\023\0220\n,C" +
-      "OMBAT_TYPE_ARGUMENT_FIXED_AVATAR_FLASH_M" +
-      "OVE\020\024\022,\n(COMBAT_TYPE_ARGUMENT_MULTI_OVER" +
-      "RIDE_ANIM\020\025\022*\n&COMBAT_TYPE_ARGUMENT_DEBU" +
-      "G_SYNC_MOTION\020\026\0220\n,COMBAT_TYPE_ARGUMENT_" +
-      "ENTITY_INTERPOLATE_MOVE\020\030\022,\n(COMBAT_TYPE" +
-      "_ARGUMENT_DIE_ANIMATOR_CHANGE\020\031B\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\n\030CombatTypeArgument.proto*\347\010\n\022CombatTyp" +
+      "eArgument\022\"\n\036CombatTypeArgument_COMBAT_N" +
+      "ONE\020\000\022+\n\'CombatTypeArgument_COMBAT_EVT_B" +
+      "EING_HIT\020\001\0224\n0CombatTypeArgument_COMBAT_" +
+      "ANIMATOR_STATE_CHANGED\020\002\022)\n%CombatTypeAr" +
+      "gument_COMBAT_FACE_TO_DIR\020\003\022/\n+CombatTyp" +
+      "eArgument_COMBAT_SET_ATTACK_TARGET\020\004\022\'\n#" +
+      "CombatTypeArgument_COMBAT_RUSH_MOVE\020\005\0228\n" +
+      "4CombatTypeArgument_COMBAT_ANIMATOR_PARA" +
+      "METER_CHANGED\020\006\022\"\n\036CombatTypeArgument_EN" +
+      "TITY_MOVE\020\007\022+\n\'CombatTypeArgument_SYNC_E" +
+      "NTITY_POSITION\020\010\022/\n+CombatTypeArgument_C" +
+      "OMBAT_STEER_MOTION_INFO\020\t\0220\n,CombatTypeA" +
+      "rgument_COMBAT_FORCE_SET_POS_INFO\020\n\0221\n-C" +
+      "ombatTypeArgument_COMBAT_COMPENSATE_POS_" +
+      "DIFF\020\013\022.\n*CombatTypeArgument_COMBAT_MONS" +
+      "TER_DO_BLINK\020\014\022-\n)CombatTypeArgument_COM" +
+      "BAT_FIXED_RUSH_MOVE\020\r\022,\n(CombatTypeArgum" +
+      "ent_COMBAT_SYNC_TRANSFORM\020\016\022-\n)CombatTyp" +
+      "eArgument_COMBAT_LIGHT_CORE_MOVE\020\017\022.\n*Co" +
+      "mbatTypeArgument_COMBAT_BEING_HEALED_NTF" +
+      "\020\020\0227\n3CombatTypeArgument_COMBAT_SKILL_AN" +
+      "CHOR_POSITION_NTF\020\021\0221\n-CombatTypeArgumen" +
+      "t_COMBAT_GRAPPLING_HOOK_MOVE\020\022\0221\n-Combat" +
+      "TypeArgument_COMBAT_SPECIAL_MOTION_INFO\020" +
+      "\023\0225\n1CombatTypeArgument_COMBAT_FIXED_AVA" +
+      "TAR_FLASH_MOVE\020\024\0221\n-CombatTypeArgument_C" +
+      "OMBAT_MULTI_OVERRIDE_ANIM\020\025\022/\n+CombatTyp" +
+      "eArgument_COMBAT_DEBUG_SYNC_MOTION\020\026B\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

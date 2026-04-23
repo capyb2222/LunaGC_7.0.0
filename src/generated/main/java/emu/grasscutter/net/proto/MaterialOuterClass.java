@@ -19,21 +19,37 @@ public final class MaterialOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
      * @return Whether the deleteInfo field is set.
      */
     boolean hasDeleteInfo();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
      * @return The deleteInfo.
      */
     emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo getDeleteInfo();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
      */
     emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfoOrBuilder getDeleteInfoOrBuilder();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 count = 1;</code>
      * @return The count.
      */
@@ -137,6 +153,10 @@ public final class MaterialOuterClass {
     public static final int DELETE_INFO_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo deleteInfo_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
      * @return Whether the deleteInfo field is set.
      */
@@ -145,6 +165,10 @@ public final class MaterialOuterClass {
       return deleteInfo_ != null;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
      * @return The deleteInfo.
      */
@@ -153,6 +177,10 @@ public final class MaterialOuterClass {
       return deleteInfo_ == null ? emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.getDefaultInstance() : deleteInfo_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
      */
     @java.lang.Override
@@ -163,6 +191,10 @@ public final class MaterialOuterClass {
     public static final int COUNT_FIELD_NUMBER = 1;
     private int count_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 count = 1;</code>
      * @return The count.
      */
@@ -507,6 +539,10 @@ public final class MaterialOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfoOrBuilder> deleteInfoBuilder_;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        * @return Whether the deleteInfo field is set.
        */
@@ -514,6 +550,10 @@ public final class MaterialOuterClass {
         return deleteInfoBuilder_ != null || deleteInfo_ != null;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        * @return The deleteInfo.
        */
@@ -525,6 +565,10 @@ public final class MaterialOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       public Builder setDeleteInfo(emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo value) {
@@ -541,6 +585,10 @@ public final class MaterialOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       public Builder setDeleteInfo(
@@ -555,6 +603,10 @@ public final class MaterialOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       public Builder mergeDeleteInfo(emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo value) {
@@ -573,6 +625,10 @@ public final class MaterialOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       public Builder clearDeleteInfo() {
@@ -587,6 +643,10 @@ public final class MaterialOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       public emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.Builder getDeleteInfoBuilder() {
@@ -595,6 +655,10 @@ public final class MaterialOuterClass {
         return getDeleteInfoFieldBuilder().getBuilder();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       public emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfoOrBuilder getDeleteInfoOrBuilder() {
@@ -606,6 +670,10 @@ public final class MaterialOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -624,6 +692,10 @@ public final class MaterialOuterClass {
 
       private int count_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 count = 1;</code>
        * @return The count.
        */
@@ -632,6 +704,10 @@ public final class MaterialOuterClass {
         return count_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 count = 1;</code>
        * @param value The count to set.
        * @return This builder for chaining.
@@ -643,6 +719,10 @@ public final class MaterialOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 count = 1;</code>
        * @return This builder for chaining.
        */

@@ -37,14 +37,14 @@ public class EntityClientGadget extends EntityBaseGadget {
     public int gadgetId;
 
     @Getter private int ownerEntityId;
-    @Getter private int targetEntityIdList; 
+    @Getter private int targetEntityIdList;
     @Getter private int propOwnerEntityId;
     @Getter private int localId;
 
     @Getter private long guid;
     @Getter private int targetEntityId;
     @Getter private int gadgetState;  // For the uint32 gadget_state
-    @Getter private int gadgetType; 
+    @Getter private int gadgetType;
     @Getter private int nameId;
     @Getter private float floatVal;
     @Getter private int targetLockPointIndexList;
@@ -97,18 +97,18 @@ public class EntityClientGadget extends EntityBaseGadget {
         if (owner instanceof EntityClientGadget ownerGadget) {
 
         GameEntity nextOwner = ownerGadget.getScene().getEntityById(ownerGadget.getOwnerEntityId());
-    
+
         // Check if the next owner is another gadget
         if (nextOwner instanceof EntityClientGadget) {
             return findOwnerEntity((EntityClientGadget) nextOwner);
         }
-    
+
         // Return the final owner entity once a non-gadget entity is reached
         return nextOwner;
         }
         return owner;
     }
-    
+
 
     @Override
     public void initAbilities() {
@@ -141,14 +141,14 @@ public class EntityClientGadget extends EntityBaseGadget {
                         .setAbilityInfo(AbilitySyncStateInfo.newBuilder())
                         .setRendererChangedInfo(EntityRendererChangedInfo.newBuilder())
                         .setAiInfo(
-                                SceneEntityAiInfo.newBuilder().setIsAiOpen(true).setBornPos(Vector.newBuilder()))
+                                SceneEntityAiInfo.newBuilder().setIsAiOpen(true))
                         .setBornPos(Vector.newBuilder())
                         .build();
 
         SceneEntityInfo.Builder entityInfo =
                 SceneEntityInfo.newBuilder()
                         .setEntityId(getId())
-                        .setEntityType(ProtEntityType.PROT_ENTITY_TYPE_GADGET)
+                        .setEntityType(ProtEntityType.ProtEntityType_PROT_ENTITY_GADGET)
                         .setMotionInfo(
                                 MotionInfo.newBuilder()
                                         .setPos(getPosition().toProto())
@@ -189,7 +189,7 @@ public class EntityClientGadget extends EntityBaseGadget {
                         .setOwnerEntityId(this.getOwnerEntityId())
                         .setBornType(this.getBornType())
                         .setGadgetState(this.getGadgetState())
-    
+
                         .setIsEnableInteract(true)
                         .setPropOwnerEntityId(this.getPropOwnerEntityId())
                         .setClientGadget(clientGadget)

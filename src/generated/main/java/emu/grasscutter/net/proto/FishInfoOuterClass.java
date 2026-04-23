@@ -19,18 +19,22 @@ public final class FishInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 GHFNCFLGLME = 3;</code>
-     * @return The gHFNCFLGLME.
+     * <code>uint32 BKNIFIIKAOJ = 5;</code>
+     * @return The bKNIFIIKAOJ.
      */
-    int getGHFNCFLGLME();
+    int getBKNIFIIKAOJ();
 
     /**
-     * <code>uint32 NLPIHEKNAFN = 11;</code>
-     * @return The nLPIHEKNAFN.
+     * <code>uint32 KMEKOBBJLDH = 2;</code>
+     * @return The kMEKOBBJLDH.
      */
-    int getNLPIHEKNAFN();
+    int getKMEKOBBJLDH();
   }
   /**
+   * <pre>
+   * Obf: JKIMDJMBCOP
+   * </pre>
+   *
    * Protobuf type {@code FishInfo}
    */
   public static final class FishInfo extends
@@ -75,14 +79,14 @@ public final class FishInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 16: {
 
-              gHFNCFLGLME_ = input.readUInt32();
+              kMEKOBBJLDH_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 40: {
 
-              nLPIHEKNAFN_ = input.readUInt32();
+              bKNIFIIKAOJ_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,26 +121,26 @@ public final class FishInfoOuterClass {
               emu.grasscutter.net.proto.FishInfoOuterClass.FishInfo.class, emu.grasscutter.net.proto.FishInfoOuterClass.FishInfo.Builder.class);
     }
 
-    public static final int GHFNCFLGLME_FIELD_NUMBER = 3;
-    private int gHFNCFLGLME_;
+    public static final int BKNIFIIKAOJ_FIELD_NUMBER = 5;
+    private int bKNIFIIKAOJ_;
     /**
-     * <code>uint32 GHFNCFLGLME = 3;</code>
-     * @return The gHFNCFLGLME.
+     * <code>uint32 BKNIFIIKAOJ = 5;</code>
+     * @return The bKNIFIIKAOJ.
      */
     @java.lang.Override
-    public int getGHFNCFLGLME() {
-      return gHFNCFLGLME_;
+    public int getBKNIFIIKAOJ() {
+      return bKNIFIIKAOJ_;
     }
 
-    public static final int NLPIHEKNAFN_FIELD_NUMBER = 11;
-    private int nLPIHEKNAFN_;
+    public static final int KMEKOBBJLDH_FIELD_NUMBER = 2;
+    private int kMEKOBBJLDH_;
     /**
-     * <code>uint32 NLPIHEKNAFN = 11;</code>
-     * @return The nLPIHEKNAFN.
+     * <code>uint32 KMEKOBBJLDH = 2;</code>
+     * @return The kMEKOBBJLDH.
      */
     @java.lang.Override
-    public int getNLPIHEKNAFN() {
-      return nLPIHEKNAFN_;
+    public int getKMEKOBBJLDH() {
+      return kMEKOBBJLDH_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -153,11 +157,11 @@ public final class FishInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (gHFNCFLGLME_ != 0) {
-        output.writeUInt32(3, gHFNCFLGLME_);
+      if (kMEKOBBJLDH_ != 0) {
+        output.writeUInt32(2, kMEKOBBJLDH_);
       }
-      if (nLPIHEKNAFN_ != 0) {
-        output.writeUInt32(11, nLPIHEKNAFN_);
+      if (bKNIFIIKAOJ_ != 0) {
+        output.writeUInt32(5, bKNIFIIKAOJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +172,13 @@ public final class FishInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (gHFNCFLGLME_ != 0) {
+      if (kMEKOBBJLDH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, gHFNCFLGLME_);
+          .computeUInt32Size(2, kMEKOBBJLDH_);
       }
-      if (nLPIHEKNAFN_ != 0) {
+      if (bKNIFIIKAOJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, nLPIHEKNAFN_);
+          .computeUInt32Size(5, bKNIFIIKAOJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -191,10 +195,10 @@ public final class FishInfoOuterClass {
       }
       emu.grasscutter.net.proto.FishInfoOuterClass.FishInfo other = (emu.grasscutter.net.proto.FishInfoOuterClass.FishInfo) obj;
 
-      if (getGHFNCFLGLME()
-          != other.getGHFNCFLGLME()) return false;
-      if (getNLPIHEKNAFN()
-          != other.getNLPIHEKNAFN()) return false;
+      if (getBKNIFIIKAOJ()
+          != other.getBKNIFIIKAOJ()) return false;
+      if (getKMEKOBBJLDH()
+          != other.getKMEKOBBJLDH()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +210,10 @@ public final class FishInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + GHFNCFLGLME_FIELD_NUMBER;
-      hash = (53 * hash) + getGHFNCFLGLME();
-      hash = (37 * hash) + NLPIHEKNAFN_FIELD_NUMBER;
-      hash = (53 * hash) + getNLPIHEKNAFN();
+      hash = (37 * hash) + BKNIFIIKAOJ_FIELD_NUMBER;
+      hash = (53 * hash) + getBKNIFIIKAOJ();
+      hash = (37 * hash) + KMEKOBBJLDH_FIELD_NUMBER;
+      hash = (53 * hash) + getKMEKOBBJLDH();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -306,6 +310,10 @@ public final class FishInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: JKIMDJMBCOP
+     * </pre>
+     *
      * Protobuf type {@code FishInfo}
      */
     public static final class Builder extends
@@ -343,9 +351,9 @@ public final class FishInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        gHFNCFLGLME_ = 0;
+        bKNIFIIKAOJ_ = 0;
 
-        nLPIHEKNAFN_ = 0;
+        kMEKOBBJLDH_ = 0;
 
         return this;
       }
@@ -373,8 +381,8 @@ public final class FishInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.FishInfoOuterClass.FishInfo buildPartial() {
         emu.grasscutter.net.proto.FishInfoOuterClass.FishInfo result = new emu.grasscutter.net.proto.FishInfoOuterClass.FishInfo(this);
-        result.gHFNCFLGLME_ = gHFNCFLGLME_;
-        result.nLPIHEKNAFN_ = nLPIHEKNAFN_;
+        result.bKNIFIIKAOJ_ = bKNIFIIKAOJ_;
+        result.kMEKOBBJLDH_ = kMEKOBBJLDH_;
         onBuilt();
         return result;
       }
@@ -423,11 +431,11 @@ public final class FishInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FishInfoOuterClass.FishInfo other) {
         if (other == emu.grasscutter.net.proto.FishInfoOuterClass.FishInfo.getDefaultInstance()) return this;
-        if (other.getGHFNCFLGLME() != 0) {
-          setGHFNCFLGLME(other.getGHFNCFLGLME());
+        if (other.getBKNIFIIKAOJ() != 0) {
+          setBKNIFIIKAOJ(other.getBKNIFIIKAOJ());
         }
-        if (other.getNLPIHEKNAFN() != 0) {
-          setNLPIHEKNAFN(other.getNLPIHEKNAFN());
+        if (other.getKMEKOBBJLDH() != 0) {
+          setKMEKOBBJLDH(other.getKMEKOBBJLDH());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,64 +466,64 @@ public final class FishInfoOuterClass {
         return this;
       }
 
-      private int gHFNCFLGLME_ ;
+      private int bKNIFIIKAOJ_ ;
       /**
-       * <code>uint32 GHFNCFLGLME = 3;</code>
-       * @return The gHFNCFLGLME.
+       * <code>uint32 BKNIFIIKAOJ = 5;</code>
+       * @return The bKNIFIIKAOJ.
        */
       @java.lang.Override
-      public int getGHFNCFLGLME() {
-        return gHFNCFLGLME_;
+      public int getBKNIFIIKAOJ() {
+        return bKNIFIIKAOJ_;
       }
       /**
-       * <code>uint32 GHFNCFLGLME = 3;</code>
-       * @param value The gHFNCFLGLME to set.
+       * <code>uint32 BKNIFIIKAOJ = 5;</code>
+       * @param value The bKNIFIIKAOJ to set.
        * @return This builder for chaining.
        */
-      public Builder setGHFNCFLGLME(int value) {
+      public Builder setBKNIFIIKAOJ(int value) {
         
-        gHFNCFLGLME_ = value;
+        bKNIFIIKAOJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 GHFNCFLGLME = 3;</code>
+       * <code>uint32 BKNIFIIKAOJ = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGHFNCFLGLME() {
+      public Builder clearBKNIFIIKAOJ() {
         
-        gHFNCFLGLME_ = 0;
+        bKNIFIIKAOJ_ = 0;
         onChanged();
         return this;
       }
 
-      private int nLPIHEKNAFN_ ;
+      private int kMEKOBBJLDH_ ;
       /**
-       * <code>uint32 NLPIHEKNAFN = 11;</code>
-       * @return The nLPIHEKNAFN.
+       * <code>uint32 KMEKOBBJLDH = 2;</code>
+       * @return The kMEKOBBJLDH.
        */
       @java.lang.Override
-      public int getNLPIHEKNAFN() {
-        return nLPIHEKNAFN_;
+      public int getKMEKOBBJLDH() {
+        return kMEKOBBJLDH_;
       }
       /**
-       * <code>uint32 NLPIHEKNAFN = 11;</code>
-       * @param value The nLPIHEKNAFN to set.
+       * <code>uint32 KMEKOBBJLDH = 2;</code>
+       * @param value The kMEKOBBJLDH to set.
        * @return This builder for chaining.
        */
-      public Builder setNLPIHEKNAFN(int value) {
+      public Builder setKMEKOBBJLDH(int value) {
         
-        nLPIHEKNAFN_ = value;
+        kMEKOBBJLDH_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 NLPIHEKNAFN = 11;</code>
+       * <code>uint32 KMEKOBBJLDH = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearNLPIHEKNAFN() {
+      public Builder clearKMEKOBBJLDH() {
         
-        nLPIHEKNAFN_ = 0;
+        kMEKOBBJLDH_ = 0;
         onChanged();
         return this;
       }
@@ -586,8 +594,8 @@ public final class FishInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016FishInfo.proto\"4\n\010FishInfo\022\023\n\013GHFNCFLG" +
-      "LME\030\003 \001(\r\022\023\n\013NLPIHEKNAFN\030\013 \001(\rB\033\n\031emu.gr" +
+      "\n\016FishInfo.proto\"4\n\010FishInfo\022\023\n\013BKNIFIIK" +
+      "AOJ\030\005 \001(\r\022\023\n\013KMEKOBBJLDH\030\002 \001(\rB\033\n\031emu.gr" +
       "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -599,7 +607,7 @@ public final class FishInfoOuterClass {
     internal_static_FishInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FishInfo_descriptor,
-        new java.lang.String[] { "GHFNCFLGLME", "NLPIHEKNAFN", });
+        new java.lang.String[] { "BKNIFIIKAOJ", "KMEKOBBJLDH", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

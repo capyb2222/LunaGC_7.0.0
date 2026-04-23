@@ -3,6 +3,7 @@ package emu.grasscutter.server.packet.send;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.PlayerPreEnterMpNotifyOuterClass;
+import emu.grasscutter.net.proto.StateOuterClass;
 
 public class PacketPlayerPreEnterMpNotify extends BasePacket {
     public PacketPlayerPreEnterMpNotify(Player player) {
@@ -12,6 +13,6 @@ public class PacketPlayerPreEnterMpNotify extends BasePacket {
                 PlayerPreEnterMpNotifyOuterClass.PlayerPreEnterMpNotify.newBuilder()
                         .setUid(player.getUid())
                         .setNickname(player.getNickname())
-                        .setState(PlayerPreEnterMpNotifyOuterClass.PlayerPreEnterMpNotify.State.START));
+                        .setState(StateOuterClass.State.State_START));
     }
 }

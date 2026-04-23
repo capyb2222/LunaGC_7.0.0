@@ -20,40 +20,40 @@ public final class CustomDungeonFinishTypeOuterClass {
   public enum CustomDungeonFinishType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>CUSTOM_DUNGEON_FINISH_TYPE_PLAY_NORMAL = 0;</code>
+     * <code>CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_NORMAL = 0;</code>
      */
-    CUSTOM_DUNGEON_FINISH_TYPE_PLAY_NORMAL(0),
+    CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_NORMAL(0),
     /**
-     * <code>CUSTOM_DUNGEON_FINISH_TYPE_PLAY_TRY = 1;</code>
+     * <code>CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_TRY = 1;</code>
      */
-    CUSTOM_DUNGEON_FINISH_TYPE_PLAY_TRY(1),
+    CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_TRY(1),
     /**
-     * <code>CUSTOM_DUNGEON_FINISH_TYPE_EDIT_TRY = 2;</code>
+     * <code>CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_EDIT_TRY = 2;</code>
      */
-    CUSTOM_DUNGEON_FINISH_TYPE_EDIT_TRY(2),
+    CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_EDIT_TRY(2),
     /**
-     * <code>CUSTOM_DUNGEON_FINISH_TYPE_SELF_PLAY_NORMAL = 3;</code>
+     * <code>CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_SELF_PLAY_NORMAL = 3;</code>
      */
-    CUSTOM_DUNGEON_FINISH_TYPE_SELF_PLAY_NORMAL(3),
+    CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_SELF_PLAY_NORMAL(3),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>CUSTOM_DUNGEON_FINISH_TYPE_PLAY_NORMAL = 0;</code>
+     * <code>CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_NORMAL = 0;</code>
      */
-    public static final int CUSTOM_DUNGEON_FINISH_TYPE_PLAY_NORMAL_VALUE = 0;
+    public static final int CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_NORMAL_VALUE = 0;
     /**
-     * <code>CUSTOM_DUNGEON_FINISH_TYPE_PLAY_TRY = 1;</code>
+     * <code>CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_TRY = 1;</code>
      */
-    public static final int CUSTOM_DUNGEON_FINISH_TYPE_PLAY_TRY_VALUE = 1;
+    public static final int CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_TRY_VALUE = 1;
     /**
-     * <code>CUSTOM_DUNGEON_FINISH_TYPE_EDIT_TRY = 2;</code>
+     * <code>CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_EDIT_TRY = 2;</code>
      */
-    public static final int CUSTOM_DUNGEON_FINISH_TYPE_EDIT_TRY_VALUE = 2;
+    public static final int CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_EDIT_TRY_VALUE = 2;
     /**
-     * <code>CUSTOM_DUNGEON_FINISH_TYPE_SELF_PLAY_NORMAL = 3;</code>
+     * <code>CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_SELF_PLAY_NORMAL = 3;</code>
      */
-    public static final int CUSTOM_DUNGEON_FINISH_TYPE_SELF_PLAY_NORMAL_VALUE = 3;
+    public static final int CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_SELF_PLAY_NORMAL_VALUE = 3;
 
 
     public final int getNumber() {
@@ -80,10 +80,10 @@ public final class CustomDungeonFinishTypeOuterClass {
      */
     public static CustomDungeonFinishType forNumber(int value) {
       switch (value) {
-        case 0: return CUSTOM_DUNGEON_FINISH_TYPE_PLAY_NORMAL;
-        case 1: return CUSTOM_DUNGEON_FINISH_TYPE_PLAY_TRY;
-        case 2: return CUSTOM_DUNGEON_FINISH_TYPE_EDIT_TRY;
-        case 3: return CUSTOM_DUNGEON_FINISH_TYPE_SELF_PLAY_NORMAL;
+        case 0: return CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_NORMAL;
+        case 1: return CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_PLAY_TRY;
+        case 2: return CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_EDIT_TRY;
+        case 3: return CustomDungeonFinishType_CUSTOM_DUNGEON_FINISH_SELF_PLAY_NORMAL;
         default: return null;
       }
     }
@@ -149,13 +149,15 @@ public final class CustomDungeonFinishTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035CustomDungeonFinishType.proto*\310\001\n\027Cust" +
-      "omDungeonFinishType\022*\n&CUSTOM_DUNGEON_FI" +
-      "NISH_TYPE_PLAY_NORMAL\020\000\022\'\n#CUSTOM_DUNGEO" +
-      "N_FINISH_TYPE_PLAY_TRY\020\001\022\'\n#CUSTOM_DUNGE" +
-      "ON_FINISH_TYPE_EDIT_TRY\020\002\022/\n+CUSTOM_DUNG" +
-      "EON_FINISH_TYPE_SELF_PLAY_NORMAL\020\003B\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "\n\035CustomDungeonFinishType.proto*\224\002\n\027Cust" +
+      "omDungeonFinishType\022=\n9CustomDungeonFini" +
+      "shType_CUSTOM_DUNGEON_FINISH_PLAY_NORMAL" +
+      "\020\000\022:\n6CustomDungeonFinishType_CUSTOM_DUN" +
+      "GEON_FINISH_PLAY_TRY\020\001\022:\n6CustomDungeonF" +
+      "inishType_CUSTOM_DUNGEON_FINISH_EDIT_TRY" +
+      "\020\002\022B\n>CustomDungeonFinishType_CUSTOM_DUN" +
+      "GEON_FINISH_SELF_PLAY_NORMAL\020\003B\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

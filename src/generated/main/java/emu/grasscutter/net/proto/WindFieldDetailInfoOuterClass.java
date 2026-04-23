@@ -19,27 +19,27 @@ public final class WindFieldDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo> 
-        getStageInfoListList();
+    java.util.List<emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO> 
+        getNGMHFHPAAMFList();
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
-    emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo getStageInfoList(int index);
+    emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO getNGMHFHPAAMF(int index);
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
-    int getStageInfoListCount();
+    int getNGMHFHPAAMFCount();
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfoOrBuilder> 
-        getStageInfoListOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKOOrBuilder> 
+        getNGMHFHPAAMFOrBuilderList();
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
-    emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfoOrBuilder getStageInfoListOrBuilder(
+    emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKOOrBuilder getNGMHFHPAAMFOrBuilder(
         int index);
   }
   /**
@@ -55,7 +55,7 @@ public final class WindFieldDetailInfoOuterClass {
       super(builder);
     }
     private WindFieldDetailInfo() {
-      stageInfoList_ = java.util.Collections.emptyList();
+      nGMHFHPAAMF_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -89,13 +89,13 @@ public final class WindFieldDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo>();
+                nGMHFHPAAMF_ = new java.util.ArrayList<emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO>();
                 mutable_bitField0_ |= 0x00000001;
               }
-              stageInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.parser(), extensionRegistry));
+              nGMHFHPAAMF_.add(
+                  input.readMessage(emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -114,7 +114,7 @@ public final class WindFieldDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
+          nGMHFHPAAMF_ = java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -133,44 +133,44 @@ public final class WindFieldDetailInfoOuterClass {
               emu.grasscutter.net.proto.WindFieldDetailInfoOuterClass.WindFieldDetailInfo.class, emu.grasscutter.net.proto.WindFieldDetailInfoOuterClass.WindFieldDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 14;
-    private java.util.List<emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo> stageInfoList_;
+    public static final int NGMHFHPAAMF_FIELD_NUMBER = 6;
+    private java.util.List<emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO> nGMHFHPAAMF_;
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo> getStageInfoListList() {
-      return stageInfoList_;
+    public java.util.List<emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO> getNGMHFHPAAMFList() {
+      return nGMHFHPAAMF_;
     }
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfoOrBuilder> 
-        getStageInfoListOrBuilderList() {
-      return stageInfoList_;
+    public java.util.List<? extends emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKOOrBuilder> 
+        getNGMHFHPAAMFOrBuilderList() {
+      return nGMHFHPAAMF_;
     }
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
     @java.lang.Override
-    public int getStageInfoListCount() {
-      return stageInfoList_.size();
+    public int getNGMHFHPAAMFCount() {
+      return nGMHFHPAAMF_.size();
     }
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo getStageInfoList(int index) {
-      return stageInfoList_.get(index);
+    public emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO getNGMHFHPAAMF(int index) {
+      return nGMHFHPAAMF_.get(index);
     }
     /**
-     * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+     * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfoOrBuilder getStageInfoListOrBuilder(
+    public emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKOOrBuilder getNGMHFHPAAMFOrBuilder(
         int index) {
-      return stageInfoList_.get(index);
+      return nGMHFHPAAMF_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -187,8 +187,8 @@ public final class WindFieldDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(14, stageInfoList_.get(i));
+      for (int i = 0; i < nGMHFHPAAMF_.size(); i++) {
+        output.writeMessage(6, nGMHFHPAAMF_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -199,9 +199,9 @@ public final class WindFieldDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < stageInfoList_.size(); i++) {
+      for (int i = 0; i < nGMHFHPAAMF_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, stageInfoList_.get(i));
+          .computeMessageSize(6, nGMHFHPAAMF_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -218,8 +218,8 @@ public final class WindFieldDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.WindFieldDetailInfoOuterClass.WindFieldDetailInfo other = (emu.grasscutter.net.proto.WindFieldDetailInfoOuterClass.WindFieldDetailInfo) obj;
 
-      if (!getStageInfoListList()
-          .equals(other.getStageInfoListList())) return false;
+      if (!getNGMHFHPAAMFList()
+          .equals(other.getNGMHFHPAAMFList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -231,9 +231,9 @@ public final class WindFieldDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getStageInfoListCount() > 0) {
-        hash = (37 * hash) + STAGE_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getStageInfoListList().hashCode();
+      if (getNGMHFHPAAMFCount() > 0) {
+        hash = (37 * hash) + NGMHFHPAAMF_FIELD_NUMBER;
+        hash = (53 * hash) + getNGMHFHPAAMFList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -363,17 +363,17 @@ public final class WindFieldDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getStageInfoListFieldBuilder();
+          getNGMHFHPAAMFFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (stageInfoListBuilder_ == null) {
-          stageInfoList_ = java.util.Collections.emptyList();
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMF_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          stageInfoListBuilder_.clear();
+          nGMHFHPAAMFBuilder_.clear();
         }
         return this;
       }
@@ -402,14 +402,14 @@ public final class WindFieldDetailInfoOuterClass {
       public emu.grasscutter.net.proto.WindFieldDetailInfoOuterClass.WindFieldDetailInfo buildPartial() {
         emu.grasscutter.net.proto.WindFieldDetailInfoOuterClass.WindFieldDetailInfo result = new emu.grasscutter.net.proto.WindFieldDetailInfoOuterClass.WindFieldDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (stageInfoListBuilder_ == null) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
+            nGMHFHPAAMF_ = java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.stageInfoList_ = stageInfoList_;
+          result.nGMHFHPAAMF_ = nGMHFHPAAMF_;
         } else {
-          result.stageInfoList_ = stageInfoListBuilder_.build();
+          result.nGMHFHPAAMF_ = nGMHFHPAAMFBuilder_.build();
         }
         onBuilt();
         return result;
@@ -459,29 +459,29 @@ public final class WindFieldDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.WindFieldDetailInfoOuterClass.WindFieldDetailInfo other) {
         if (other == emu.grasscutter.net.proto.WindFieldDetailInfoOuterClass.WindFieldDetailInfo.getDefaultInstance()) return this;
-        if (stageInfoListBuilder_ == null) {
-          if (!other.stageInfoList_.isEmpty()) {
-            if (stageInfoList_.isEmpty()) {
-              stageInfoList_ = other.stageInfoList_;
+        if (nGMHFHPAAMFBuilder_ == null) {
+          if (!other.nGMHFHPAAMF_.isEmpty()) {
+            if (nGMHFHPAAMF_.isEmpty()) {
+              nGMHFHPAAMF_ = other.nGMHFHPAAMF_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureStageInfoListIsMutable();
-              stageInfoList_.addAll(other.stageInfoList_);
+              ensureNGMHFHPAAMFIsMutable();
+              nGMHFHPAAMF_.addAll(other.nGMHFHPAAMF_);
             }
             onChanged();
           }
         } else {
-          if (!other.stageInfoList_.isEmpty()) {
-            if (stageInfoListBuilder_.isEmpty()) {
-              stageInfoListBuilder_.dispose();
-              stageInfoListBuilder_ = null;
-              stageInfoList_ = other.stageInfoList_;
+          if (!other.nGMHFHPAAMF_.isEmpty()) {
+            if (nGMHFHPAAMFBuilder_.isEmpty()) {
+              nGMHFHPAAMFBuilder_.dispose();
+              nGMHFHPAAMFBuilder_ = null;
+              nGMHFHPAAMF_ = other.nGMHFHPAAMF_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              stageInfoListBuilder_ = 
+              nGMHFHPAAMFBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getStageInfoListFieldBuilder() : null;
+                   getNGMHFHPAAMFFieldBuilder() : null;
             } else {
-              stageInfoListBuilder_.addAllMessages(other.stageInfoList_);
+              nGMHFHPAAMFBuilder_.addAllMessages(other.nGMHFHPAAMF_);
             }
           }
         }
@@ -515,244 +515,244 @@ public final class WindFieldDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo> stageInfoList_ =
+      private java.util.List<emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO> nGMHFHPAAMF_ =
         java.util.Collections.emptyList();
-      private void ensureStageInfoListIsMutable() {
+      private void ensureNGMHFHPAAMFIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo>(stageInfoList_);
+          nGMHFHPAAMF_ = new java.util.ArrayList<emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO>(nGMHFHPAAMF_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfoOrBuilder> stageInfoListBuilder_;
+          emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKOOrBuilder> nGMHFHPAAMFBuilder_;
 
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo> getStageInfoListList() {
-        if (stageInfoListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(stageInfoList_);
+      public java.util.List<emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO> getNGMHFHPAAMFList() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         } else {
-          return stageInfoListBuilder_.getMessageList();
+          return nGMHFHPAAMFBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public int getStageInfoListCount() {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.size();
+      public int getNGMHFHPAAMFCount() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.size();
         } else {
-          return stageInfoListBuilder_.getCount();
+          return nGMHFHPAAMFBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo getStageInfoList(int index) {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.get(index);
+      public emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO getNGMHFHPAAMF(int index) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.get(index);
         } else {
-          return stageInfoListBuilder_.getMessage(index);
+          return nGMHFHPAAMFBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder setNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.set(index, value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.set(index, value);
           onChanged();
         } else {
-          stageInfoListBuilder_.setMessage(index, value);
+          nGMHFHPAAMFBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public Builder setStageInfoList(
-          int index, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.set(index, builderForValue.build());
+      public Builder setNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.set(index, builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.setMessage(index, builderForValue.build());
+          nGMHFHPAAMFBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public Builder addStageInfoList(emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder addNGMHFHPAAMF(emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(value);
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(value);
+          nGMHFHPAAMFBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo value) {
-        if (stageInfoListBuilder_ == null) {
+      public Builder addNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO value) {
+        if (nGMHFHPAAMFBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(index, value);
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(index, value);
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(index, value);
+          nGMHFHPAAMFBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public Builder addStageInfoList(
-          emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(builderForValue.build());
+      public Builder addNGMHFHPAAMF(
+          emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(builderForValue.build());
+          nGMHFHPAAMFBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public Builder addStageInfoList(
-          int index, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder builderForValue) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.add(index, builderForValue.build());
+      public Builder addNGMHFHPAAMF(
+          int index, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder builderForValue) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.add(index, builderForValue.build());
           onChanged();
         } else {
-          stageInfoListBuilder_.addMessage(index, builderForValue.build());
+          nGMHFHPAAMFBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public Builder addAllStageInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo> values) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
+      public Builder addAllNGMHFHPAAMF(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO> values) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, stageInfoList_);
+              values, nGMHFHPAAMF_);
           onChanged();
         } else {
-          stageInfoListBuilder_.addAllMessages(values);
+          nGMHFHPAAMFBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public Builder clearStageInfoList() {
-        if (stageInfoListBuilder_ == null) {
-          stageInfoList_ = java.util.Collections.emptyList();
+      public Builder clearNGMHFHPAAMF() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMF_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          stageInfoListBuilder_.clear();
+          nGMHFHPAAMFBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public Builder removeStageInfoList(int index) {
-        if (stageInfoListBuilder_ == null) {
-          ensureStageInfoListIsMutable();
-          stageInfoList_.remove(index);
+      public Builder removeNGMHFHPAAMF(int index) {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          ensureNGMHFHPAAMFIsMutable();
+          nGMHFHPAAMF_.remove(index);
           onChanged();
         } else {
-          stageInfoListBuilder_.remove(index);
+          nGMHFHPAAMFBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder getStageInfoListBuilder(
+      public emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder getNGMHFHPAAMFBuilder(
           int index) {
-        return getStageInfoListFieldBuilder().getBuilder(index);
+        return getNGMHFHPAAMFFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfoOrBuilder getStageInfoListOrBuilder(
+      public emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKOOrBuilder getNGMHFHPAAMFOrBuilder(
           int index) {
-        if (stageInfoListBuilder_ == null) {
-          return stageInfoList_.get(index);  } else {
-          return stageInfoListBuilder_.getMessageOrBuilder(index);
+        if (nGMHFHPAAMFBuilder_ == null) {
+          return nGMHFHPAAMF_.get(index);  } else {
+          return nGMHFHPAAMFBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfoOrBuilder> 
-           getStageInfoListOrBuilderList() {
-        if (stageInfoListBuilder_ != null) {
-          return stageInfoListBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKOOrBuilder> 
+           getNGMHFHPAAMFOrBuilderList() {
+        if (nGMHFHPAAMFBuilder_ != null) {
+          return nGMHFHPAAMFBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(stageInfoList_);
+          return java.util.Collections.unmodifiableList(nGMHFHPAAMF_);
         }
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder addStageInfoListBuilder() {
-        return getStageInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.getDefaultInstance());
+      public emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder addNGMHFHPAAMFBuilder() {
+        return getNGMHFHPAAMFFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.getDefaultInstance());
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder addStageInfoListBuilder(
+      public emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder addNGMHFHPAAMFBuilder(
           int index) {
-        return getStageInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.getDefaultInstance());
+        return getNGMHFHPAAMFFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.getDefaultInstance());
       }
       /**
-       * <code>repeated .WindFieldStageInfo stage_info_list = 14;</code>
+       * <code>repeated .CLPMEKIBGKO NGMHFHPAAMF = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder> 
-           getStageInfoListBuilderList() {
-        return getStageInfoListFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder> 
+           getNGMHFHPAAMFBuilderList() {
+        return getNGMHFHPAAMFFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfoOrBuilder> 
-          getStageInfoListFieldBuilder() {
-        if (stageInfoListBuilder_ == null) {
-          stageInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfo.Builder, emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.WindFieldStageInfoOrBuilder>(
-                  stageInfoList_,
+          emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKOOrBuilder> 
+          getNGMHFHPAAMFFieldBuilder() {
+        if (nGMHFHPAAMFBuilder_ == null) {
+          nGMHFHPAAMFBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKO.Builder, emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.CLPMEKIBGKOOrBuilder>(
+                  nGMHFHPAAMF_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          stageInfoList_ = null;
+          nGMHFHPAAMF_ = null;
         }
-        return stageInfoListBuilder_;
+        return nGMHFHPAAMFBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -821,23 +821,23 @@ public final class WindFieldDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031WindFieldDetailInfo.proto\032\030WindFieldSt" +
-      "ageInfo.proto\"C\n\023WindFieldDetailInfo\022,\n\017" +
-      "stage_info_list\030\016 \003(\0132\023.WindFieldStageIn" +
-      "foB\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\031WindFieldDetailInfo.proto\032\021CLPMEKIBGKO" +
+      ".proto\"8\n\023WindFieldDetailInfo\022!\n\013NGMHFHP" +
+      "AAMF\030\006 \003(\0132\014.CLPMEKIBGKOB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.getDescriptor(),
         });
     internal_static_WindFieldDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_WindFieldDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WindFieldDetailInfo_descriptor,
-        new java.lang.String[] { "StageInfoList", });
-    emu.grasscutter.net.proto.WindFieldStageInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "NGMHFHPAAMF", });
+    emu.grasscutter.net.proto.CLPMEKIBGKOOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

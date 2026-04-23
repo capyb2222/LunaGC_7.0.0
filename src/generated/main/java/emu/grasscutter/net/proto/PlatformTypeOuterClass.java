@@ -20,184 +20,192 @@ public final class PlatformTypeOuterClass {
   public enum PlatformType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>PLATFORM_TYPE_EDITOR = 0;</code>
+     * <code>PlatformType_EDITOR = 0;</code>
      */
-    PLATFORM_TYPE_EDITOR(0),
+    PlatformType_EDITOR(0),
     /**
-     * <code>PLATFORM_TYPE_IOS = 1;</code>
+     * <code>PlatformType_IOS = 1;</code>
      */
-    PLATFORM_TYPE_IOS(1),
+    PlatformType_IOS(1),
     /**
-     * <code>PLATFORM_TYPE_ANDROID = 2;</code>
+     * <code>PlatformType_ANDROID = 2;</code>
      */
-    PLATFORM_TYPE_ANDROID(2),
+    PlatformType_ANDROID(2),
     /**
-     * <code>PLATFORM_TYPE_PC = 3;</code>
+     * <code>PlatformType_PC = 3;</code>
      */
-    PLATFORM_TYPE_PC(3),
+    PlatformType_PC(3),
     /**
-     * <code>PLATFORM_TYPE_PS4 = 4;</code>
+     * <code>PlatformType_PS_4 = 4;</code>
      */
-    PLATFORM_TYPE_PS4(4),
+    PlatformType_PS_4(4),
     /**
-     * <code>PLATFORM_TYPE_SERVER = 5;</code>
+     * <code>PlatformType_SERVER = 5;</code>
      */
-    PLATFORM_TYPE_SERVER(5),
+    PlatformType_SERVER(5),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_ANDROID = 6;</code>
+     * <code>PlatformType_CLOUD_ANDROID = 6;</code>
      */
-    PLATFORM_TYPE_CLOUD_ANDROID(6),
+    PlatformType_CLOUD_ANDROID(6),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_IOS = 7;</code>
+     * <code>PlatformType_CLOUD_IOS = 7;</code>
      */
-    PLATFORM_TYPE_CLOUD_IOS(7),
+    PlatformType_CLOUD_IOS(7),
     /**
-     * <code>PLATFORM_TYPE_PS5 = 8;</code>
+     * <code>PlatformType_PS_5 = 8;</code>
      */
-    PLATFORM_TYPE_PS5(8),
+    PlatformType_PS_5(8),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB = 9;</code>
+     * <code>PlatformType_CLOUD_WEB = 9;</code>
      */
-    PLATFORM_TYPE_CLOUD_WEB(9),
+    PlatformType_CLOUD_WEB(9),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_TV = 10;</code>
+     * <code>PlatformType_CLOUD_TV = 10;</code>
      */
-    PLATFORM_TYPE_CLOUD_TV(10),
+    PlatformType_CLOUD_TV(10),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_MAC = 11;</code>
+     * <code>PlatformType_CLOUD_MAC = 11;</code>
      */
-    PLATFORM_TYPE_CLOUD_MAC(11),
+    PlatformType_CLOUD_MAC(11),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_PC = 12;</code>
+     * <code>PlatformType_CLOUD_PC = 12;</code>
      */
-    PLATFORM_TYPE_CLOUD_PC(12),
+    PlatformType_CLOUD_PC(12),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_THIRD_PARTY_MOBILE = 13;</code>
+     * <code>PlatformType_CLOUD_THIRD_PARTY_MOBILE = 13;</code>
      */
-    PLATFORM_TYPE_CLOUD_THIRD_PARTY_MOBILE(13),
+    PlatformType_CLOUD_THIRD_PARTY_MOBILE(13),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_THIRD_PARTY_PC = 14;</code>
+     * <code>PlatformType_CLOUD_THIRD_PARTY_PC = 14;</code>
      */
-    PLATFORM_TYPE_CLOUD_THIRD_PARTY_PC(14),
+    PlatformType_CLOUD_THIRD_PARTY_PC(14),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_ANDROID = 15;</code>
+     * <code>PlatformType_CLOUD_WEB_ANDROID = 15;</code>
      */
-    PLATFORM_TYPE_CLOUD_WEB_ANDROID(15),
+    PlatformType_CLOUD_WEB_ANDROID(15),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_IOS = 16;</code>
+     * <code>PlatformType_CLOUD_WEB_IOS = 16;</code>
      */
-    PLATFORM_TYPE_CLOUD_WEB_IOS(16),
+    PlatformType_CLOUD_WEB_IOS(16),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_PC = 17;</code>
+     * <code>PlatformType_CLOUD_WEB_PC = 17;</code>
      */
-    PLATFORM_TYPE_CLOUD_WEB_PC(17),
+    PlatformType_CLOUD_WEB_PC(17),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_MAC = 18;</code>
+     * <code>PlatformType_CLOUD_WEB_MAC = 18;</code>
      */
-    PLATFORM_TYPE_CLOUD_WEB_MAC(18),
+    PlatformType_CLOUD_WEB_MAC(18),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_TOUCH = 19;</code>
+     * <code>PlatformType_CLOUD_WEB_TOUCH = 19;</code>
      */
-    PLATFORM_TYPE_CLOUD_WEB_TOUCH(19),
+    PlatformType_CLOUD_WEB_TOUCH(19),
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_KEYBOARD = 20;</code>
+     * <code>PlatformType_CLOUD_WEB_KEYBOARD = 20;</code>
      */
-    PLATFORM_TYPE_CLOUD_WEB_KEYBOARD(20),
+    PlatformType_CLOUD_WEB_KEYBOARD(20),
     /**
-     * <code>PLATFORM_TYPE_XBOX_SCARLETT = 21;</code>
+     * <code>PlatformType_XBOX_SCARLETT = 21;</code>
      */
-    PLATFORM_TYPE_XBOX_SCARLETT(21),
+    PlatformType_XBOX_SCARLETT(21),
+    /**
+     * <code>PlatformType_OPEN_HARMONY = 22;</code>
+     */
+    PlatformType_OPEN_HARMONY(22),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>PLATFORM_TYPE_EDITOR = 0;</code>
+     * <code>PlatformType_EDITOR = 0;</code>
      */
-    public static final int PLATFORM_TYPE_EDITOR_VALUE = 0;
+    public static final int PlatformType_EDITOR_VALUE = 0;
     /**
-     * <code>PLATFORM_TYPE_IOS = 1;</code>
+     * <code>PlatformType_IOS = 1;</code>
      */
-    public static final int PLATFORM_TYPE_IOS_VALUE = 1;
+    public static final int PlatformType_IOS_VALUE = 1;
     /**
-     * <code>PLATFORM_TYPE_ANDROID = 2;</code>
+     * <code>PlatformType_ANDROID = 2;</code>
      */
-    public static final int PLATFORM_TYPE_ANDROID_VALUE = 2;
+    public static final int PlatformType_ANDROID_VALUE = 2;
     /**
-     * <code>PLATFORM_TYPE_PC = 3;</code>
+     * <code>PlatformType_PC = 3;</code>
      */
-    public static final int PLATFORM_TYPE_PC_VALUE = 3;
+    public static final int PlatformType_PC_VALUE = 3;
     /**
-     * <code>PLATFORM_TYPE_PS4 = 4;</code>
+     * <code>PlatformType_PS_4 = 4;</code>
      */
-    public static final int PLATFORM_TYPE_PS4_VALUE = 4;
+    public static final int PlatformType_PS_4_VALUE = 4;
     /**
-     * <code>PLATFORM_TYPE_SERVER = 5;</code>
+     * <code>PlatformType_SERVER = 5;</code>
      */
-    public static final int PLATFORM_TYPE_SERVER_VALUE = 5;
+    public static final int PlatformType_SERVER_VALUE = 5;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_ANDROID = 6;</code>
+     * <code>PlatformType_CLOUD_ANDROID = 6;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_ANDROID_VALUE = 6;
+    public static final int PlatformType_CLOUD_ANDROID_VALUE = 6;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_IOS = 7;</code>
+     * <code>PlatformType_CLOUD_IOS = 7;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_IOS_VALUE = 7;
+    public static final int PlatformType_CLOUD_IOS_VALUE = 7;
     /**
-     * <code>PLATFORM_TYPE_PS5 = 8;</code>
+     * <code>PlatformType_PS_5 = 8;</code>
      */
-    public static final int PLATFORM_TYPE_PS5_VALUE = 8;
+    public static final int PlatformType_PS_5_VALUE = 8;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB = 9;</code>
+     * <code>PlatformType_CLOUD_WEB = 9;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_WEB_VALUE = 9;
+    public static final int PlatformType_CLOUD_WEB_VALUE = 9;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_TV = 10;</code>
+     * <code>PlatformType_CLOUD_TV = 10;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_TV_VALUE = 10;
+    public static final int PlatformType_CLOUD_TV_VALUE = 10;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_MAC = 11;</code>
+     * <code>PlatformType_CLOUD_MAC = 11;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_MAC_VALUE = 11;
+    public static final int PlatformType_CLOUD_MAC_VALUE = 11;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_PC = 12;</code>
+     * <code>PlatformType_CLOUD_PC = 12;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_PC_VALUE = 12;
+    public static final int PlatformType_CLOUD_PC_VALUE = 12;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_THIRD_PARTY_MOBILE = 13;</code>
+     * <code>PlatformType_CLOUD_THIRD_PARTY_MOBILE = 13;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_THIRD_PARTY_MOBILE_VALUE = 13;
+    public static final int PlatformType_CLOUD_THIRD_PARTY_MOBILE_VALUE = 13;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_THIRD_PARTY_PC = 14;</code>
+     * <code>PlatformType_CLOUD_THIRD_PARTY_PC = 14;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_THIRD_PARTY_PC_VALUE = 14;
+    public static final int PlatformType_CLOUD_THIRD_PARTY_PC_VALUE = 14;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_ANDROID = 15;</code>
+     * <code>PlatformType_CLOUD_WEB_ANDROID = 15;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_WEB_ANDROID_VALUE = 15;
+    public static final int PlatformType_CLOUD_WEB_ANDROID_VALUE = 15;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_IOS = 16;</code>
+     * <code>PlatformType_CLOUD_WEB_IOS = 16;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_WEB_IOS_VALUE = 16;
+    public static final int PlatformType_CLOUD_WEB_IOS_VALUE = 16;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_PC = 17;</code>
+     * <code>PlatformType_CLOUD_WEB_PC = 17;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_WEB_PC_VALUE = 17;
+    public static final int PlatformType_CLOUD_WEB_PC_VALUE = 17;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_MAC = 18;</code>
+     * <code>PlatformType_CLOUD_WEB_MAC = 18;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_WEB_MAC_VALUE = 18;
+    public static final int PlatformType_CLOUD_WEB_MAC_VALUE = 18;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_TOUCH = 19;</code>
+     * <code>PlatformType_CLOUD_WEB_TOUCH = 19;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_WEB_TOUCH_VALUE = 19;
+    public static final int PlatformType_CLOUD_WEB_TOUCH_VALUE = 19;
     /**
-     * <code>PLATFORM_TYPE_CLOUD_WEB_KEYBOARD = 20;</code>
+     * <code>PlatformType_CLOUD_WEB_KEYBOARD = 20;</code>
      */
-    public static final int PLATFORM_TYPE_CLOUD_WEB_KEYBOARD_VALUE = 20;
+    public static final int PlatformType_CLOUD_WEB_KEYBOARD_VALUE = 20;
     /**
-     * <code>PLATFORM_TYPE_XBOX_SCARLETT = 21;</code>
+     * <code>PlatformType_XBOX_SCARLETT = 21;</code>
      */
-    public static final int PLATFORM_TYPE_XBOX_SCARLETT_VALUE = 21;
+    public static final int PlatformType_XBOX_SCARLETT_VALUE = 21;
+    /**
+     * <code>PlatformType_OPEN_HARMONY = 22;</code>
+     */
+    public static final int PlatformType_OPEN_HARMONY_VALUE = 22;
 
 
     public final int getNumber() {
@@ -224,28 +232,29 @@ public final class PlatformTypeOuterClass {
      */
     public static PlatformType forNumber(int value) {
       switch (value) {
-        case 0: return PLATFORM_TYPE_EDITOR;
-        case 1: return PLATFORM_TYPE_IOS;
-        case 2: return PLATFORM_TYPE_ANDROID;
-        case 3: return PLATFORM_TYPE_PC;
-        case 4: return PLATFORM_TYPE_PS4;
-        case 5: return PLATFORM_TYPE_SERVER;
-        case 6: return PLATFORM_TYPE_CLOUD_ANDROID;
-        case 7: return PLATFORM_TYPE_CLOUD_IOS;
-        case 8: return PLATFORM_TYPE_PS5;
-        case 9: return PLATFORM_TYPE_CLOUD_WEB;
-        case 10: return PLATFORM_TYPE_CLOUD_TV;
-        case 11: return PLATFORM_TYPE_CLOUD_MAC;
-        case 12: return PLATFORM_TYPE_CLOUD_PC;
-        case 13: return PLATFORM_TYPE_CLOUD_THIRD_PARTY_MOBILE;
-        case 14: return PLATFORM_TYPE_CLOUD_THIRD_PARTY_PC;
-        case 15: return PLATFORM_TYPE_CLOUD_WEB_ANDROID;
-        case 16: return PLATFORM_TYPE_CLOUD_WEB_IOS;
-        case 17: return PLATFORM_TYPE_CLOUD_WEB_PC;
-        case 18: return PLATFORM_TYPE_CLOUD_WEB_MAC;
-        case 19: return PLATFORM_TYPE_CLOUD_WEB_TOUCH;
-        case 20: return PLATFORM_TYPE_CLOUD_WEB_KEYBOARD;
-        case 21: return PLATFORM_TYPE_XBOX_SCARLETT;
+        case 0: return PlatformType_EDITOR;
+        case 1: return PlatformType_IOS;
+        case 2: return PlatformType_ANDROID;
+        case 3: return PlatformType_PC;
+        case 4: return PlatformType_PS_4;
+        case 5: return PlatformType_SERVER;
+        case 6: return PlatformType_CLOUD_ANDROID;
+        case 7: return PlatformType_CLOUD_IOS;
+        case 8: return PlatformType_PS_5;
+        case 9: return PlatformType_CLOUD_WEB;
+        case 10: return PlatformType_CLOUD_TV;
+        case 11: return PlatformType_CLOUD_MAC;
+        case 12: return PlatformType_CLOUD_PC;
+        case 13: return PlatformType_CLOUD_THIRD_PARTY_MOBILE;
+        case 14: return PlatformType_CLOUD_THIRD_PARTY_PC;
+        case 15: return PlatformType_CLOUD_WEB_ANDROID;
+        case 16: return PlatformType_CLOUD_WEB_IOS;
+        case 17: return PlatformType_CLOUD_WEB_PC;
+        case 18: return PlatformType_CLOUD_WEB_MAC;
+        case 19: return PlatformType_CLOUD_WEB_TOUCH;
+        case 20: return PlatformType_CLOUD_WEB_KEYBOARD;
+        case 21: return PlatformType_XBOX_SCARLETT;
+        case 22: return PlatformType_OPEN_HARMONY;
         default: return null;
       }
     }
@@ -311,25 +320,25 @@ public final class PlatformTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022PlatformType.proto*\255\005\n\014PlatformType\022\030\n" +
-      "\024PLATFORM_TYPE_EDITOR\020\000\022\025\n\021PLATFORM_TYPE" +
-      "_IOS\020\001\022\031\n\025PLATFORM_TYPE_ANDROID\020\002\022\024\n\020PLA" +
-      "TFORM_TYPE_PC\020\003\022\025\n\021PLATFORM_TYPE_PS4\020\004\022\030" +
-      "\n\024PLATFORM_TYPE_SERVER\020\005\022\037\n\033PLATFORM_TYP" +
-      "E_CLOUD_ANDROID\020\006\022\033\n\027PLATFORM_TYPE_CLOUD" +
-      "_IOS\020\007\022\025\n\021PLATFORM_TYPE_PS5\020\010\022\033\n\027PLATFOR" +
-      "M_TYPE_CLOUD_WEB\020\t\022\032\n\026PLATFORM_TYPE_CLOU" +
-      "D_TV\020\n\022\033\n\027PLATFORM_TYPE_CLOUD_MAC\020\013\022\032\n\026P" +
-      "LATFORM_TYPE_CLOUD_PC\020\014\022*\n&PLATFORM_TYPE" +
-      "_CLOUD_THIRD_PARTY_MOBILE\020\r\022&\n\"PLATFORM_" +
-      "TYPE_CLOUD_THIRD_PARTY_PC\020\016\022#\n\037PLATFORM_" +
-      "TYPE_CLOUD_WEB_ANDROID\020\017\022\037\n\033PLATFORM_TYP" +
-      "E_CLOUD_WEB_IOS\020\020\022\036\n\032PLATFORM_TYPE_CLOUD" +
-      "_WEB_PC\020\021\022\037\n\033PLATFORM_TYPE_CLOUD_WEB_MAC" +
-      "\020\022\022!\n\035PLATFORM_TYPE_CLOUD_WEB_TOUCH\020\023\022$\n" +
-      " PLATFORM_TYPE_CLOUD_WEB_KEYBOARD\020\024\022\037\n\033P" +
-      "LATFORM_TYPE_XBOX_SCARLETT\020\025B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\n\022PlatformType.proto*\270\005\n\014PlatformType\022\027\n" +
+      "\023PlatformType_EDITOR\020\000\022\024\n\020PlatformType_I" +
+      "OS\020\001\022\030\n\024PlatformType_ANDROID\020\002\022\023\n\017Platfo" +
+      "rmType_PC\020\003\022\025\n\021PlatformType_PS_4\020\004\022\027\n\023Pl" +
+      "atformType_SERVER\020\005\022\036\n\032PlatformType_CLOU" +
+      "D_ANDROID\020\006\022\032\n\026PlatformType_CLOUD_IOS\020\007\022" +
+      "\025\n\021PlatformType_PS_5\020\010\022\032\n\026PlatformType_C" +
+      "LOUD_WEB\020\t\022\031\n\025PlatformType_CLOUD_TV\020\n\022\032\n" +
+      "\026PlatformType_CLOUD_MAC\020\013\022\031\n\025PlatformTyp" +
+      "e_CLOUD_PC\020\014\022)\n%PlatformType_CLOUD_THIRD" +
+      "_PARTY_MOBILE\020\r\022%\n!PlatformType_CLOUD_TH" +
+      "IRD_PARTY_PC\020\016\022\"\n\036PlatformType_CLOUD_WEB" +
+      "_ANDROID\020\017\022\036\n\032PlatformType_CLOUD_WEB_IOS" +
+      "\020\020\022\035\n\031PlatformType_CLOUD_WEB_PC\020\021\022\036\n\032Pla" +
+      "tformType_CLOUD_WEB_MAC\020\022\022 \n\034PlatformTyp" +
+      "e_CLOUD_WEB_TOUCH\020\023\022#\n\037PlatformType_CLOU" +
+      "D_WEB_KEYBOARD\020\024\022\036\n\032PlatformType_XBOX_SC" +
+      "ARLETT\020\025\022\035\n\031PlatformType_OPEN_HARMONY\020\026B" +
+      "\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -43,30 +43,35 @@ public final class WidgetCoolDownNotifyOuterClass {
         int index);
 
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> 
         getNormalCoolDownDataListList();
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData getNormalCoolDownDataList(int index);
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     int getNormalCoolDownDataListCount();
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
         getNormalCoolDownDataListOrBuilderList();
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder getNormalCoolDownDataListOrBuilder(
         int index);
   }
   /**
+   * <pre>
+   * CmdId: 27222
+   * Obf: ANFHONAFACH
+   * </pre>
+   *
    * Protobuf type {@code WidgetCoolDownNotify}
    */
   public static final class WidgetCoolDownNotify extends
@@ -123,7 +128,7 @@ public final class WidgetCoolDownNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.parser(), extensionRegistry));
               break;
             }
-            case 106: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 normalCoolDownDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData>();
                 mutable_bitField0_ |= 0x00000002;
@@ -210,17 +215,17 @@ public final class WidgetCoolDownNotifyOuterClass {
       return groupCoolDownDataList_.get(index);
     }
 
-    public static final int NORMAL_COOL_DOWN_DATA_LIST_FIELD_NUMBER = 13;
+    public static final int NORMAL_COOL_DOWN_DATA_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> normalCoolDownDataList_;
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> getNormalCoolDownDataListList() {
       return normalCoolDownDataList_;
     }
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
@@ -228,21 +233,21 @@ public final class WidgetCoolDownNotifyOuterClass {
       return normalCoolDownDataList_;
     }
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     @java.lang.Override
     public int getNormalCoolDownDataListCount() {
       return normalCoolDownDataList_.size();
     }
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData getNormalCoolDownDataList(int index) {
       return normalCoolDownDataList_.get(index);
     }
     /**
-     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+     * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder getNormalCoolDownDataListOrBuilder(
@@ -268,7 +273,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         output.writeMessage(7, groupCoolDownDataList_.get(i));
       }
       for (int i = 0; i < normalCoolDownDataList_.size(); i++) {
-        output.writeMessage(13, normalCoolDownDataList_.get(i));
+        output.writeMessage(10, normalCoolDownDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -285,7 +290,7 @@ public final class WidgetCoolDownNotifyOuterClass {
       }
       for (int i = 0; i < normalCoolDownDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, normalCoolDownDataList_.get(i));
+          .computeMessageSize(10, normalCoolDownDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,6 +426,11 @@ public final class WidgetCoolDownNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 27222
+     * Obf: ANFHONAFACH
+     * </pre>
+     *
      * Protobuf type {@code WidgetCoolDownNotify}
      */
     public static final class Builder extends
@@ -900,7 +910,7 @@ public final class WidgetCoolDownNotifyOuterClass {
           emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> normalCoolDownDataListBuilder_;
 
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> getNormalCoolDownDataListList() {
         if (normalCoolDownDataListBuilder_ == null) {
@@ -910,7 +920,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public int getNormalCoolDownDataListCount() {
         if (normalCoolDownDataListBuilder_ == null) {
@@ -920,7 +930,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData getNormalCoolDownDataList(int index) {
         if (normalCoolDownDataListBuilder_ == null) {
@@ -930,7 +940,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public Builder setNormalCoolDownDataList(
           int index, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData value) {
@@ -947,7 +957,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public Builder setNormalCoolDownDataList(
           int index, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder builderForValue) {
@@ -961,7 +971,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public Builder addNormalCoolDownDataList(emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData value) {
         if (normalCoolDownDataListBuilder_ == null) {
@@ -977,7 +987,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public Builder addNormalCoolDownDataList(
           int index, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData value) {
@@ -994,7 +1004,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public Builder addNormalCoolDownDataList(
           emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder builderForValue) {
@@ -1008,7 +1018,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public Builder addNormalCoolDownDataList(
           int index, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder builderForValue) {
@@ -1022,7 +1032,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public Builder addAllNormalCoolDownDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> values) {
@@ -1037,7 +1047,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public Builder clearNormalCoolDownDataList() {
         if (normalCoolDownDataListBuilder_ == null) {
@@ -1050,7 +1060,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public Builder removeNormalCoolDownDataList(int index) {
         if (normalCoolDownDataListBuilder_ == null) {
@@ -1063,14 +1073,14 @@ public final class WidgetCoolDownNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder getNormalCoolDownDataListBuilder(
           int index) {
         return getNormalCoolDownDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder getNormalCoolDownDataListOrBuilder(
           int index) {
@@ -1080,7 +1090,7 @@ public final class WidgetCoolDownNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownDataOrBuilder> 
            getNormalCoolDownDataListOrBuilderList() {
@@ -1091,14 +1101,14 @@ public final class WidgetCoolDownNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder addNormalCoolDownDataListBuilder() {
         return getNormalCoolDownDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.getDefaultInstance());
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder addNormalCoolDownDataListBuilder(
           int index) {
@@ -1106,7 +1116,7 @@ public final class WidgetCoolDownNotifyOuterClass {
             index, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.getDefaultInstance());
       }
       /**
-       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 13;</code>
+       * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder> 
            getNormalCoolDownDataListBuilderList() {
@@ -1197,7 +1207,7 @@ public final class WidgetCoolDownNotifyOuterClass {
       "DownData.proto\"\207\001\n\024WidgetCoolDownNotify\022" +
       "6\n\031group_cool_down_data_list\030\007 \003(\0132\023.Wid" +
       "getCoolDownData\0227\n\032normal_cool_down_data" +
-      "_list\030\r \003(\0132\023.WidgetCoolDownDataB\033\n\031emu." +
+      "_list\030\n \003(\0132\023.WidgetCoolDownDataB\033\n\031emu." +
       "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

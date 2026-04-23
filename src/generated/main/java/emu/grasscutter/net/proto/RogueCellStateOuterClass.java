@@ -15,57 +15,53 @@ public final class RogueCellStateOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: JEOOKNEBNDN
-   * </pre>
-   *
    * Protobuf enum {@code RogueCellState}
    */
   public enum RogueCellState
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>ROGUE_CELL_NONE = 0;</code>
+     * <code>RogueCellState_ROGUE_CELL_NONE = 0;</code>
      */
-    ROGUE_CELL_NONE(0),
+    RogueCellState_ROGUE_CELL_NONE(0),
     /**
-     * <code>ROGUE_CELL_BATTLE = 1;</code>
+     * <code>RogueCellState_ROGUE_CELL_BATTLE = 1;</code>
      */
-    ROGUE_CELL_BATTLE(1),
+    RogueCellState_ROGUE_CELL_BATTLE(1),
     /**
-     * <code>ROGUE_CELL_SUCCESS = 2;</code>
+     * <code>RogueCellState_ROGUE_CELL_SUCCESS = 2;</code>
      */
-    ROGUE_CELL_SUCCESS(2),
+    RogueCellState_ROGUE_CELL_SUCCESS(2),
     /**
-     * <code>ROGUE_CELL_FINISH = 3;</code>
+     * <code>RogueCellState_ROGUE_CELL_FINISH = 3;</code>
      */
-    ROGUE_CELL_FINISH(3),
+    RogueCellState_ROGUE_CELL_FINISH(3),
     /**
-     * <code>ROGUE_CELL_TAKEN_CHEST = 4;</code>
+     * <code>RogueCellState_ROGUE_CELL_TAKEN_CHEST = 4;</code>
      */
-    ROGUE_CELL_TAKEN_CHEST(4),
+    RogueCellState_ROGUE_CELL_TAKEN_CHEST(4),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>ROGUE_CELL_NONE = 0;</code>
+     * <code>RogueCellState_ROGUE_CELL_NONE = 0;</code>
      */
-    public static final int ROGUE_CELL_NONE_VALUE = 0;
+    public static final int RogueCellState_ROGUE_CELL_NONE_VALUE = 0;
     /**
-     * <code>ROGUE_CELL_BATTLE = 1;</code>
+     * <code>RogueCellState_ROGUE_CELL_BATTLE = 1;</code>
      */
-    public static final int ROGUE_CELL_BATTLE_VALUE = 1;
+    public static final int RogueCellState_ROGUE_CELL_BATTLE_VALUE = 1;
     /**
-     * <code>ROGUE_CELL_SUCCESS = 2;</code>
+     * <code>RogueCellState_ROGUE_CELL_SUCCESS = 2;</code>
      */
-    public static final int ROGUE_CELL_SUCCESS_VALUE = 2;
+    public static final int RogueCellState_ROGUE_CELL_SUCCESS_VALUE = 2;
     /**
-     * <code>ROGUE_CELL_FINISH = 3;</code>
+     * <code>RogueCellState_ROGUE_CELL_FINISH = 3;</code>
      */
-    public static final int ROGUE_CELL_FINISH_VALUE = 3;
+    public static final int RogueCellState_ROGUE_CELL_FINISH_VALUE = 3;
     /**
-     * <code>ROGUE_CELL_TAKEN_CHEST = 4;</code>
+     * <code>RogueCellState_ROGUE_CELL_TAKEN_CHEST = 4;</code>
      */
-    public static final int ROGUE_CELL_TAKEN_CHEST_VALUE = 4;
+    public static final int RogueCellState_ROGUE_CELL_TAKEN_CHEST_VALUE = 4;
 
 
     public final int getNumber() {
@@ -92,11 +88,11 @@ public final class RogueCellStateOuterClass {
      */
     public static RogueCellState forNumber(int value) {
       switch (value) {
-        case 0: return ROGUE_CELL_NONE;
-        case 1: return ROGUE_CELL_BATTLE;
-        case 2: return ROGUE_CELL_SUCCESS;
-        case 3: return ROGUE_CELL_FINISH;
-        case 4: return ROGUE_CELL_TAKEN_CHEST;
+        case 0: return RogueCellState_ROGUE_CELL_NONE;
+        case 1: return RogueCellState_ROGUE_CELL_BATTLE;
+        case 2: return RogueCellState_ROGUE_CELL_SUCCESS;
+        case 3: return RogueCellState_ROGUE_CELL_FINISH;
+        case 4: return RogueCellState_ROGUE_CELL_TAKEN_CHEST;
         default: return null;
       }
     }
@@ -162,11 +158,13 @@ public final class RogueCellStateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024RogueCellState.proto*\207\001\n\016RogueCellStat" +
-      "e\022\023\n\017ROGUE_CELL_NONE\020\000\022\025\n\021ROGUE_CELL_BAT" +
-      "TLE\020\001\022\026\n\022ROGUE_CELL_SUCCESS\020\002\022\025\n\021ROGUE_C" +
-      "ELL_FINISH\020\003\022\032\n\026ROGUE_CELL_TAKEN_CHEST\020\004" +
-      "B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\024RogueCellState.proto*\322\001\n\016RogueCellStat" +
+      "e\022\"\n\036RogueCellState_ROGUE_CELL_NONE\020\000\022$\n" +
+      " RogueCellState_ROGUE_CELL_BATTLE\020\001\022%\n!R" +
+      "ogueCellState_ROGUE_CELL_SUCCESS\020\002\022$\n Ro" +
+      "gueCellState_ROGUE_CELL_FINISH\020\003\022)\n%Rogu" +
+      "eCellState_ROGUE_CELL_TAKEN_CHEST\020\004B\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

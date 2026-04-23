@@ -19,16 +19,28 @@ public final class WorktopInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>repeated uint32 option_list = 1;</code>
      * @return A list containing the optionList.
      */
     java.util.List<java.lang.Integer> getOptionListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>repeated uint32 option_list = 1;</code>
      * @return The count of optionList.
      */
     int getOptionListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>repeated uint32 option_list = 1;</code>
      * @param index The index of the element to return.
      * @return The optionList at the given index.
@@ -36,6 +48,10 @@ public final class WorktopInfoOuterClass {
     int getOptionList(int index);
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>bool is_guest_can_operate = 2;</code>
      * @return The isGuestCanOperate.
      */
@@ -152,6 +168,10 @@ public final class WorktopInfoOuterClass {
     public static final int OPTION_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList optionList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>repeated uint32 option_list = 1;</code>
      * @return A list containing the optionList.
      */
@@ -161,6 +181,10 @@ public final class WorktopInfoOuterClass {
       return optionList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>repeated uint32 option_list = 1;</code>
      * @return The count of optionList.
      */
@@ -168,6 +192,10 @@ public final class WorktopInfoOuterClass {
       return optionList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>repeated uint32 option_list = 1;</code>
      * @param index The index of the element to return.
      * @return The optionList at the given index.
@@ -180,6 +208,10 @@ public final class WorktopInfoOuterClass {
     public static final int IS_GUEST_CAN_OPERATE_FIELD_NUMBER = 2;
     private boolean isGuestCanOperate_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
      * <code>bool is_guest_can_operate = 2;</code>
      * @return The isGuestCanOperate.
      */
@@ -546,6 +578,10 @@ public final class WorktopInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>repeated uint32 option_list = 1;</code>
        * @return A list containing the optionList.
        */
@@ -555,6 +591,10 @@ public final class WorktopInfoOuterClass {
                  java.util.Collections.unmodifiableList(optionList_) : optionList_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>repeated uint32 option_list = 1;</code>
        * @return The count of optionList.
        */
@@ -562,6 +602,10 @@ public final class WorktopInfoOuterClass {
         return optionList_.size();
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>repeated uint32 option_list = 1;</code>
        * @param index The index of the element to return.
        * @return The optionList at the given index.
@@ -570,6 +614,10 @@ public final class WorktopInfoOuterClass {
         return optionList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>repeated uint32 option_list = 1;</code>
        * @param index The index to set the value at.
        * @param value The optionList to set.
@@ -583,6 +631,10 @@ public final class WorktopInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>repeated uint32 option_list = 1;</code>
        * @param value The optionList to add.
        * @return This builder for chaining.
@@ -594,6 +646,10 @@ public final class WorktopInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>repeated uint32 option_list = 1;</code>
        * @param values The optionList to add.
        * @return This builder for chaining.
@@ -607,6 +663,10 @@ public final class WorktopInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>repeated uint32 option_list = 1;</code>
        * @return This builder for chaining.
        */
@@ -619,6 +679,10 @@ public final class WorktopInfoOuterClass {
 
       private boolean isGuestCanOperate_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>bool is_guest_can_operate = 2;</code>
        * @return The isGuestCanOperate.
        */
@@ -627,6 +691,10 @@ public final class WorktopInfoOuterClass {
         return isGuestCanOperate_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>bool is_guest_can_operate = 2;</code>
        * @param value The isGuestCanOperate to set.
        * @return This builder for chaining.
@@ -638,6 +706,10 @@ public final class WorktopInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
        * <code>bool is_guest_can_operate = 2;</code>
        * @return This builder for chaining.
        */

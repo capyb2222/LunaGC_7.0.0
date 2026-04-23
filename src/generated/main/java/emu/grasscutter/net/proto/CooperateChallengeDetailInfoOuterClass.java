@@ -19,22 +19,16 @@ public final class CooperateChallengeDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty_id = 2;</code>
-     * @return The difficultyId.
+     * <code>bool HJGECOALLNC = 12;</code>
+     * @return The hJGECOALLNC.
      */
-    int getDifficultyId();
+    boolean getHJGECOALLNC();
 
     /**
-     * <code>bool JKOLNHGAMFF = 12;</code>
-     * @return The jKOLNHGAMFF.
+     * <code>bool FHDJCEAAKNN = 1;</code>
+     * @return The fHDJCEAAKNN.
      */
-    boolean getJKOLNHGAMFF();
-
-    /**
-     * <code>bool DJPDCIPFJLP = 3;</code>
-     * @return The dJPDCIPFJLP.
-     */
-    boolean getDJPDCIPFJLP();
+    boolean getFHDJCEAAKNN();
   }
   /**
    * Protobuf type {@code CooperateChallengeDetailInfo}
@@ -81,19 +75,14 @@ public final class CooperateChallengeDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
 
-              difficultyId_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
-              dJPDCIPFJLP_ = input.readBool();
+              fHDJCEAAKNN_ = input.readBool();
               break;
             }
             case 96: {
 
-              jKOLNHGAMFF_ = input.readBool();
+              hJGECOALLNC_ = input.readBool();
               break;
             }
             default: {
@@ -128,37 +117,26 @@ public final class CooperateChallengeDetailInfoOuterClass {
               emu.grasscutter.net.proto.CooperateChallengeDetailInfoOuterClass.CooperateChallengeDetailInfo.class, emu.grasscutter.net.proto.CooperateChallengeDetailInfoOuterClass.CooperateChallengeDetailInfo.Builder.class);
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 2;
-    private int difficultyId_;
+    public static final int HJGECOALLNC_FIELD_NUMBER = 12;
+    private boolean hJGECOALLNC_;
     /**
-     * <code>uint32 difficulty_id = 2;</code>
-     * @return The difficultyId.
+     * <code>bool HJGECOALLNC = 12;</code>
+     * @return The hJGECOALLNC.
      */
     @java.lang.Override
-    public int getDifficultyId() {
-      return difficultyId_;
+    public boolean getHJGECOALLNC() {
+      return hJGECOALLNC_;
     }
 
-    public static final int JKOLNHGAMFF_FIELD_NUMBER = 12;
-    private boolean jKOLNHGAMFF_;
+    public static final int FHDJCEAAKNN_FIELD_NUMBER = 1;
+    private boolean fHDJCEAAKNN_;
     /**
-     * <code>bool JKOLNHGAMFF = 12;</code>
-     * @return The jKOLNHGAMFF.
+     * <code>bool FHDJCEAAKNN = 1;</code>
+     * @return The fHDJCEAAKNN.
      */
     @java.lang.Override
-    public boolean getJKOLNHGAMFF() {
-      return jKOLNHGAMFF_;
-    }
-
-    public static final int DJPDCIPFJLP_FIELD_NUMBER = 3;
-    private boolean dJPDCIPFJLP_;
-    /**
-     * <code>bool DJPDCIPFJLP = 3;</code>
-     * @return The dJPDCIPFJLP.
-     */
-    @java.lang.Override
-    public boolean getDJPDCIPFJLP() {
-      return dJPDCIPFJLP_;
+    public boolean getFHDJCEAAKNN() {
+      return fHDJCEAAKNN_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -175,14 +153,11 @@ public final class CooperateChallengeDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (difficultyId_ != 0) {
-        output.writeUInt32(2, difficultyId_);
+      if (fHDJCEAAKNN_ != false) {
+        output.writeBool(1, fHDJCEAAKNN_);
       }
-      if (dJPDCIPFJLP_ != false) {
-        output.writeBool(3, dJPDCIPFJLP_);
-      }
-      if (jKOLNHGAMFF_ != false) {
-        output.writeBool(12, jKOLNHGAMFF_);
+      if (hJGECOALLNC_ != false) {
+        output.writeBool(12, hJGECOALLNC_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +168,13 @@ public final class CooperateChallengeDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (difficultyId_ != 0) {
+      if (fHDJCEAAKNN_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, difficultyId_);
+          .computeBoolSize(1, fHDJCEAAKNN_);
       }
-      if (dJPDCIPFJLP_ != false) {
+      if (hJGECOALLNC_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, dJPDCIPFJLP_);
-      }
-      if (jKOLNHGAMFF_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, jKOLNHGAMFF_);
+          .computeBoolSize(12, hJGECOALLNC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -220,12 +191,10 @@ public final class CooperateChallengeDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.CooperateChallengeDetailInfoOuterClass.CooperateChallengeDetailInfo other = (emu.grasscutter.net.proto.CooperateChallengeDetailInfoOuterClass.CooperateChallengeDetailInfo) obj;
 
-      if (getDifficultyId()
-          != other.getDifficultyId()) return false;
-      if (getJKOLNHGAMFF()
-          != other.getJKOLNHGAMFF()) return false;
-      if (getDJPDCIPFJLP()
-          != other.getDJPDCIPFJLP()) return false;
+      if (getHJGECOALLNC()
+          != other.getHJGECOALLNC()) return false;
+      if (getFHDJCEAAKNN()
+          != other.getFHDJCEAAKNN()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -237,14 +206,12 @@ public final class CooperateChallengeDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + DIFFICULTY_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getDifficultyId();
-      hash = (37 * hash) + JKOLNHGAMFF_FIELD_NUMBER;
+      hash = (37 * hash) + HJGECOALLNC_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getJKOLNHGAMFF());
-      hash = (37 * hash) + DJPDCIPFJLP_FIELD_NUMBER;
+          getHJGECOALLNC());
+      hash = (37 * hash) + FHDJCEAAKNN_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getDJPDCIPFJLP());
+          getFHDJCEAAKNN());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -378,11 +345,9 @@ public final class CooperateChallengeDetailInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        difficultyId_ = 0;
+        hJGECOALLNC_ = false;
 
-        jKOLNHGAMFF_ = false;
-
-        dJPDCIPFJLP_ = false;
+        fHDJCEAAKNN_ = false;
 
         return this;
       }
@@ -410,9 +375,8 @@ public final class CooperateChallengeDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.CooperateChallengeDetailInfoOuterClass.CooperateChallengeDetailInfo buildPartial() {
         emu.grasscutter.net.proto.CooperateChallengeDetailInfoOuterClass.CooperateChallengeDetailInfo result = new emu.grasscutter.net.proto.CooperateChallengeDetailInfoOuterClass.CooperateChallengeDetailInfo(this);
-        result.difficultyId_ = difficultyId_;
-        result.jKOLNHGAMFF_ = jKOLNHGAMFF_;
-        result.dJPDCIPFJLP_ = dJPDCIPFJLP_;
+        result.hJGECOALLNC_ = hJGECOALLNC_;
+        result.fHDJCEAAKNN_ = fHDJCEAAKNN_;
         onBuilt();
         return result;
       }
@@ -461,14 +425,11 @@ public final class CooperateChallengeDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.CooperateChallengeDetailInfoOuterClass.CooperateChallengeDetailInfo other) {
         if (other == emu.grasscutter.net.proto.CooperateChallengeDetailInfoOuterClass.CooperateChallengeDetailInfo.getDefaultInstance()) return this;
-        if (other.getDifficultyId() != 0) {
-          setDifficultyId(other.getDifficultyId());
+        if (other.getHJGECOALLNC() != false) {
+          setHJGECOALLNC(other.getHJGECOALLNC());
         }
-        if (other.getJKOLNHGAMFF() != false) {
-          setJKOLNHGAMFF(other.getJKOLNHGAMFF());
-        }
-        if (other.getDJPDCIPFJLP() != false) {
-          setDJPDCIPFJLP(other.getDJPDCIPFJLP());
+        if (other.getFHDJCEAAKNN() != false) {
+          setFHDJCEAAKNN(other.getFHDJCEAAKNN());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -499,95 +460,64 @@ public final class CooperateChallengeDetailInfoOuterClass {
         return this;
       }
 
-      private int difficultyId_ ;
+      private boolean hJGECOALLNC_ ;
       /**
-       * <code>uint32 difficulty_id = 2;</code>
-       * @return The difficultyId.
+       * <code>bool HJGECOALLNC = 12;</code>
+       * @return The hJGECOALLNC.
        */
       @java.lang.Override
-      public int getDifficultyId() {
-        return difficultyId_;
+      public boolean getHJGECOALLNC() {
+        return hJGECOALLNC_;
       }
       /**
-       * <code>uint32 difficulty_id = 2;</code>
-       * @param value The difficultyId to set.
+       * <code>bool HJGECOALLNC = 12;</code>
+       * @param value The hJGECOALLNC to set.
        * @return This builder for chaining.
        */
-      public Builder setDifficultyId(int value) {
+      public Builder setHJGECOALLNC(boolean value) {
         
-        difficultyId_ = value;
+        hJGECOALLNC_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 2;</code>
+       * <code>bool HJGECOALLNC = 12;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDifficultyId() {
+      public Builder clearHJGECOALLNC() {
         
-        difficultyId_ = 0;
+        hJGECOALLNC_ = false;
         onChanged();
         return this;
       }
 
-      private boolean jKOLNHGAMFF_ ;
+      private boolean fHDJCEAAKNN_ ;
       /**
-       * <code>bool JKOLNHGAMFF = 12;</code>
-       * @return The jKOLNHGAMFF.
+       * <code>bool FHDJCEAAKNN = 1;</code>
+       * @return The fHDJCEAAKNN.
        */
       @java.lang.Override
-      public boolean getJKOLNHGAMFF() {
-        return jKOLNHGAMFF_;
+      public boolean getFHDJCEAAKNN() {
+        return fHDJCEAAKNN_;
       }
       /**
-       * <code>bool JKOLNHGAMFF = 12;</code>
-       * @param value The jKOLNHGAMFF to set.
+       * <code>bool FHDJCEAAKNN = 1;</code>
+       * @param value The fHDJCEAAKNN to set.
        * @return This builder for chaining.
        */
-      public Builder setJKOLNHGAMFF(boolean value) {
+      public Builder setFHDJCEAAKNN(boolean value) {
         
-        jKOLNHGAMFF_ = value;
+        fHDJCEAAKNN_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool JKOLNHGAMFF = 12;</code>
+       * <code>bool FHDJCEAAKNN = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearJKOLNHGAMFF() {
+      public Builder clearFHDJCEAAKNN() {
         
-        jKOLNHGAMFF_ = false;
-        onChanged();
-        return this;
-      }
-
-      private boolean dJPDCIPFJLP_ ;
-      /**
-       * <code>bool DJPDCIPFJLP = 3;</code>
-       * @return The dJPDCIPFJLP.
-       */
-      @java.lang.Override
-      public boolean getDJPDCIPFJLP() {
-        return dJPDCIPFJLP_;
-      }
-      /**
-       * <code>bool DJPDCIPFJLP = 3;</code>
-       * @param value The dJPDCIPFJLP to set.
-       * @return This builder for chaining.
-       */
-      public Builder setDJPDCIPFJLP(boolean value) {
-        
-        dJPDCIPFJLP_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bool DJPDCIPFJLP = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearDJPDCIPFJLP() {
-        
-        dJPDCIPFJLP_ = false;
+        fHDJCEAAKNN_ = false;
         onChanged();
         return this;
       }
@@ -658,11 +588,10 @@ public final class CooperateChallengeDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\"CooperateChallengeDetailInfo.proto\"_\n\034" +
-      "CooperateChallengeDetailInfo\022\025\n\rdifficul" +
-      "ty_id\030\002 \001(\r\022\023\n\013JKOLNHGAMFF\030\014 \001(\010\022\023\n\013DJPD" +
-      "CIPFJLP\030\003 \001(\010B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\n\"CooperateChallengeDetailInfo.proto\"H\n\034" +
+      "CooperateChallengeDetailInfo\022\023\n\013HJGECOAL" +
+      "LNC\030\014 \001(\010\022\023\n\013FHDJCEAAKNN\030\001 \001(\010B\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -673,7 +602,7 @@ public final class CooperateChallengeDetailInfoOuterClass {
     internal_static_CooperateChallengeDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_CooperateChallengeDetailInfo_descriptor,
-        new java.lang.String[] { "DifficultyId", "JKOLNHGAMFF", "DJPDCIPFJLP", });
+        new java.lang.String[] { "HJGECOALLNC", "FHDJCEAAKNN", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

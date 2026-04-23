@@ -19,16 +19,24 @@ public final class EntityEnvironmentInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 climate_area_id = 2;</code>
-     * @return The climateAreaId.
-     */
-    int getClimateAreaId();
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 json_climate_type = 1;</code>
      * @return The jsonClimateType.
      */
     int getJsonClimateType();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 climate_area_id = 2;</code>
+     * @return The climateAreaId.
+     */
+    int getClimateAreaId();
   }
   /**
    * Protobuf type {@code EntityEnvironmentInfo}
@@ -117,26 +125,34 @@ public final class EntityEnvironmentInfoOuterClass {
               emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo.class, emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo.Builder.class);
     }
 
-    public static final int CLIMATE_AREA_ID_FIELD_NUMBER = 2;
-    private int climateAreaId_;
-    /**
-     * <code>uint32 climate_area_id = 2;</code>
-     * @return The climateAreaId.
-     */
-    @java.lang.Override
-    public int getClimateAreaId() {
-      return climateAreaId_;
-    }
-
     public static final int JSON_CLIMATE_TYPE_FIELD_NUMBER = 1;
     private int jsonClimateType_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 json_climate_type = 1;</code>
      * @return The jsonClimateType.
      */
     @java.lang.Override
     public int getJsonClimateType() {
       return jsonClimateType_;
+    }
+
+    public static final int CLIMATE_AREA_ID_FIELD_NUMBER = 2;
+    private int climateAreaId_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
+     * <code>uint32 climate_area_id = 2;</code>
+     * @return The climateAreaId.
+     */
+    @java.lang.Override
+    public int getClimateAreaId() {
+      return climateAreaId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -191,10 +207,10 @@ public final class EntityEnvironmentInfoOuterClass {
       }
       emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo other = (emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo) obj;
 
-      if (getClimateAreaId()
-          != other.getClimateAreaId()) return false;
       if (getJsonClimateType()
           != other.getJsonClimateType()) return false;
+      if (getClimateAreaId()
+          != other.getClimateAreaId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +222,10 @@ public final class EntityEnvironmentInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + CLIMATE_AREA_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getClimateAreaId();
       hash = (37 * hash) + JSON_CLIMATE_TYPE_FIELD_NUMBER;
       hash = (53 * hash) + getJsonClimateType();
+      hash = (37 * hash) + CLIMATE_AREA_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getClimateAreaId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -343,9 +359,9 @@ public final class EntityEnvironmentInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        climateAreaId_ = 0;
-
         jsonClimateType_ = 0;
+
+        climateAreaId_ = 0;
 
         return this;
       }
@@ -373,8 +389,8 @@ public final class EntityEnvironmentInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo buildPartial() {
         emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo result = new emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo(this);
-        result.climateAreaId_ = climateAreaId_;
         result.jsonClimateType_ = jsonClimateType_;
+        result.climateAreaId_ = climateAreaId_;
         onBuilt();
         return result;
       }
@@ -423,11 +439,11 @@ public final class EntityEnvironmentInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo other) {
         if (other == emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo.getDefaultInstance()) return this;
-        if (other.getClimateAreaId() != 0) {
-          setClimateAreaId(other.getClimateAreaId());
-        }
         if (other.getJsonClimateType() != 0) {
           setJsonClimateType(other.getJsonClimateType());
+        }
+        if (other.getClimateAreaId() != 0) {
+          setClimateAreaId(other.getClimateAreaId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,39 +474,12 @@ public final class EntityEnvironmentInfoOuterClass {
         return this;
       }
 
-      private int climateAreaId_ ;
-      /**
-       * <code>uint32 climate_area_id = 2;</code>
-       * @return The climateAreaId.
-       */
-      @java.lang.Override
-      public int getClimateAreaId() {
-        return climateAreaId_;
-      }
-      /**
-       * <code>uint32 climate_area_id = 2;</code>
-       * @param value The climateAreaId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setClimateAreaId(int value) {
-        
-        climateAreaId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 climate_area_id = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearClimateAreaId() {
-        
-        climateAreaId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int jsonClimateType_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 json_climate_type = 1;</code>
        * @return The jsonClimateType.
        */
@@ -499,6 +488,10 @@ public final class EntityEnvironmentInfoOuterClass {
         return jsonClimateType_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 json_climate_type = 1;</code>
        * @param value The jsonClimateType to set.
        * @return This builder for chaining.
@@ -510,12 +503,59 @@ public final class EntityEnvironmentInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 json_climate_type = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearJsonClimateType() {
         
         jsonClimateType_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int climateAreaId_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 climate_area_id = 2;</code>
+       * @return The climateAreaId.
+       */
+      @java.lang.Override
+      public int getClimateAreaId() {
+        return climateAreaId_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 climate_area_id = 2;</code>
+       * @param value The climateAreaId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setClimateAreaId(int value) {
+        
+        climateAreaId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
+       * <code>uint32 climate_area_id = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearClimateAreaId() {
+        
+        climateAreaId_ = 0;
         onChanged();
         return this;
       }
@@ -587,8 +627,8 @@ public final class EntityEnvironmentInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033EntityEnvironmentInfo.proto\"K\n\025EntityE" +
-      "nvironmentInfo\022\027\n\017climate_area_id\030\002 \001(\r\022" +
-      "\031\n\021json_climate_type\030\001 \001(\rB\033\n\031emu.grassc" +
+      "nvironmentInfo\022\031\n\021json_climate_type\030\001 \001(" +
+      "\r\022\027\n\017climate_area_id\030\002 \001(\rB\033\n\031emu.grassc" +
       "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -600,7 +640,7 @@ public final class EntityEnvironmentInfoOuterClass {
     internal_static_EntityEnvironmentInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EntityEnvironmentInfo_descriptor,
-        new java.lang.String[] { "ClimateAreaId", "JsonClimateType", });
+        new java.lang.String[] { "JsonClimateType", "ClimateAreaId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

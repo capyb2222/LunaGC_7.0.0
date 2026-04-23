@@ -20,7 +20,8 @@ public final class GetCompoundDataReqOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 2839
+   * CmdId: 8732
+   * Obf: IHBMOEIBEGJ
    * </pre>
    *
    * Protobuf type {@code GetCompoundDataReq}
@@ -245,7 +246,8 @@ public final class GetCompoundDataReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 2839
+     * CmdId: 8732
+     * Obf: IHBMOEIBEGJ
      * </pre>
      *
      * Protobuf type {@code GetCompoundDataReq}

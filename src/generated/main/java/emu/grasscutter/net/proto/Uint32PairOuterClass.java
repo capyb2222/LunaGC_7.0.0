@@ -19,16 +19,24 @@ public final class Uint32PairOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 key = 1;</code>
-     * @return The key.
-     */
-    int getKey();
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 value = 2;</code>
      * @return The value.
      */
     int getValue();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 key = 1;</code>
+     * @return The key.
+     */
+    int getKey();
   }
   /**
    * Protobuf type {@code Uint32Pair}
@@ -117,26 +125,34 @@ public final class Uint32PairOuterClass {
               emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.class, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder.class);
     }
 
-    public static final int KEY_FIELD_NUMBER = 1;
-    private int key_;
-    /**
-     * <code>uint32 key = 1;</code>
-     * @return The key.
-     */
-    @java.lang.Override
-    public int getKey() {
-      return key_;
-    }
-
     public static final int VALUE_FIELD_NUMBER = 2;
     private int value_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0          
+     * </pre>
+     *
      * <code>uint32 value = 2;</code>
      * @return The value.
      */
     @java.lang.Override
     public int getValue() {
       return value_;
+    }
+
+    public static final int KEY_FIELD_NUMBER = 1;
+    private int key_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 key = 1;</code>
+     * @return The key.
+     */
+    @java.lang.Override
+    public int getKey() {
+      return key_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -191,10 +207,10 @@ public final class Uint32PairOuterClass {
       }
       emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair other = (emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair) obj;
 
-      if (getKey()
-          != other.getKey()) return false;
       if (getValue()
           != other.getValue()) return false;
+      if (getKey()
+          != other.getKey()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +222,10 @@ public final class Uint32PairOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + KEY_FIELD_NUMBER;
-      hash = (53 * hash) + getKey();
       hash = (37 * hash) + VALUE_FIELD_NUMBER;
       hash = (53 * hash) + getValue();
+      hash = (37 * hash) + KEY_FIELD_NUMBER;
+      hash = (53 * hash) + getKey();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -343,9 +359,9 @@ public final class Uint32PairOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        key_ = 0;
-
         value_ = 0;
+
+        key_ = 0;
 
         return this;
       }
@@ -373,8 +389,8 @@ public final class Uint32PairOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair buildPartial() {
         emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair result = new emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair(this);
-        result.key_ = key_;
         result.value_ = value_;
+        result.key_ = key_;
         onBuilt();
         return result;
       }
@@ -423,11 +439,11 @@ public final class Uint32PairOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair other) {
         if (other == emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance()) return this;
-        if (other.getKey() != 0) {
-          setKey(other.getKey());
-        }
         if (other.getValue() != 0) {
           setValue(other.getValue());
+        }
+        if (other.getKey() != 0) {
+          setKey(other.getKey());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,39 +474,12 @@ public final class Uint32PairOuterClass {
         return this;
       }
 
-      private int key_ ;
-      /**
-       * <code>uint32 key = 1;</code>
-       * @return The key.
-       */
-      @java.lang.Override
-      public int getKey() {
-        return key_;
-      }
-      /**
-       * <code>uint32 key = 1;</code>
-       * @param value The key to set.
-       * @return This builder for chaining.
-       */
-      public Builder setKey(int value) {
-        
-        key_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 key = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearKey() {
-        
-        key_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int value_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 value = 2;</code>
        * @return The value.
        */
@@ -499,6 +488,10 @@ public final class Uint32PairOuterClass {
         return value_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 value = 2;</code>
        * @param value The value to set.
        * @return This builder for chaining.
@@ -510,12 +503,59 @@ public final class Uint32PairOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0          
+       * </pre>
+       *
        * <code>uint32 value = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearValue() {
         
         value_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int key_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 key = 1;</code>
+       * @return The key.
+       */
+      @java.lang.Override
+      public int getKey() {
+        return key_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 key = 1;</code>
+       * @param value The key to set.
+       * @return This builder for chaining.
+       */
+      public Builder setKey(int value) {
+        
+        key_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 key = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearKey() {
+        
+        key_ = 0;
         onChanged();
         return this;
       }
@@ -586,8 +626,8 @@ public final class Uint32PairOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020Uint32Pair.proto\"(\n\nUint32Pair\022\013\n\003key\030" +
-      "\001 \001(\r\022\r\n\005value\030\002 \001(\rB\033\n\031emu.grasscutter." +
+      "\n\020Uint32Pair.proto\"(\n\nUint32Pair\022\r\n\005valu" +
+      "e\030\002 \001(\r\022\013\n\003key\030\001 \001(\rB\033\n\031emu.grasscutter." +
       "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -599,7 +639,7 @@ public final class Uint32PairOuterClass {
     internal_static_Uint32Pair_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Uint32Pair_descriptor,
-        new java.lang.String[] { "Key", "Value", });
+        new java.lang.String[] { "Value", "Key", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

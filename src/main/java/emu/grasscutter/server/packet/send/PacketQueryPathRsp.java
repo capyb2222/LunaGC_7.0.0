@@ -14,7 +14,7 @@ public class PacketQueryPathRsp extends BasePacket {
                 .addCorners(req.getSourcePos())
                 .addCorners(req.getDestinationPos(0))
                 .setQueryId(req.getQueryId())
-                .setQueryStatus(QueryPathRspOuterClass.QueryPathRsp.PathStatusType.PATH_STATUS_TYPE_SUCC);
+                .setQueryStatus(PathStatusTypeOuterClass.PathStatusType.PathStatusType_STATUS_SUCC);
 
         this.setData(proto);
     }

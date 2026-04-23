@@ -12,19 +12,7 @@ public class PacketAvatarWearFlycloakRsp extends BasePacket {
 
         AvatarWearFlycloakRsp proto =
                 AvatarWearFlycloakRsp.newBuilder()
-                        .addAvatarGuidList(avatarGuid)
-                        .setFlycloakId(costumeId)
-                        .build();
-
-        this.setData(proto);
-    }
-
-    public PacketAvatarWearFlycloakRsp(List<Long> avatarGuids, int costumeId) {
-        super(PacketOpcodes.AvatarWearFlycloakRsp);
-
-        AvatarWearFlycloakRsp proto =
-                AvatarWearFlycloakRsp.newBuilder()
-                        .addAllAvatarGuidList(avatarGuids)
+                        .setAvatarGuid(avatarGuid)
                         .setFlycloakId(costumeId)
                         .build();
 

@@ -15,89 +15,85 @@ public final class ForwardTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * 4.6.0
-   * </pre>
-   *
    * Protobuf enum {@code ForwardType}
    */
   public enum ForwardType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>FORWARD_TYPE_LOCAL = 0;</code>
+     * <code>ForwardType_FORWARD_LOCAL = 0;</code>
      */
-    FORWARD_TYPE_LOCAL(0),
+    ForwardType_FORWARD_LOCAL(0),
     /**
-     * <code>FORWARD_TYPE_TO_ALL = 1;</code>
+     * <code>ForwardType_FORWARD_TO_ALL = 1;</code>
      */
-    FORWARD_TYPE_TO_ALL(1),
+    ForwardType_FORWARD_TO_ALL(1),
     /**
-     * <code>FORWARD_TYPE_TO_ALL_EXCEPT_CUR = 2;</code>
+     * <code>ForwardType_FORWARD_TO_ALL_EXCEPT_CUR = 2;</code>
      */
-    FORWARD_TYPE_TO_ALL_EXCEPT_CUR(2),
+    ForwardType_FORWARD_TO_ALL_EXCEPT_CUR(2),
     /**
-     * <code>FORWARD_TYPE_TO_HOST = 3;</code>
+     * <code>ForwardType_FORWARD_TO_HOST = 3;</code>
      */
-    FORWARD_TYPE_TO_HOST(3),
+    ForwardType_FORWARD_TO_HOST(3),
     /**
-     * <code>FORWARD_TYPE_TO_ALL_GUEST = 4;</code>
+     * <code>ForwardType_FORWARD_TO_ALL_GUEST = 4;</code>
      */
-    FORWARD_TYPE_TO_ALL_GUEST(4),
+    ForwardType_FORWARD_TO_ALL_GUEST(4),
     /**
-     * <code>FORWARD_TYPE_TO_PEER = 5;</code>
+     * <code>ForwardType_FORWARD_TO_PEER = 5;</code>
      */
-    FORWARD_TYPE_TO_PEER(5),
+    ForwardType_FORWARD_TO_PEER(5),
     /**
-     * <code>FORWARD_TYPE_TO_PEERS = 6;</code>
+     * <code>ForwardType_FORWARD_TO_PEERS = 6;</code>
      */
-    FORWARD_TYPE_TO_PEERS(6),
+    ForwardType_FORWARD_TO_PEERS(6),
     /**
-     * <code>FORWARD_TYPE_ONLY_SERVER = 7;</code>
+     * <code>ForwardType_FORWARD_ONLY_SERVER = 7;</code>
      */
-    FORWARD_TYPE_ONLY_SERVER(7),
+    ForwardType_FORWARD_ONLY_SERVER(7),
     /**
-     * <code>FORWARD_TYPE_TO_ALL_EXIST_EXCEPT_CUR = 8;</code>
+     * <code>ForwardType_FORWARD_TO_ALL_EXIST_EXCEPT_CUR = 8;</code>
      */
-    FORWARD_TYPE_TO_ALL_EXIST_EXCEPT_CUR(8),
+    ForwardType_FORWARD_TO_ALL_EXIST_EXCEPT_CUR(8),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>FORWARD_TYPE_LOCAL = 0;</code>
+     * <code>ForwardType_FORWARD_LOCAL = 0;</code>
      */
-    public static final int FORWARD_TYPE_LOCAL_VALUE = 0;
+    public static final int ForwardType_FORWARD_LOCAL_VALUE = 0;
     /**
-     * <code>FORWARD_TYPE_TO_ALL = 1;</code>
+     * <code>ForwardType_FORWARD_TO_ALL = 1;</code>
      */
-    public static final int FORWARD_TYPE_TO_ALL_VALUE = 1;
+    public static final int ForwardType_FORWARD_TO_ALL_VALUE = 1;
     /**
-     * <code>FORWARD_TYPE_TO_ALL_EXCEPT_CUR = 2;</code>
+     * <code>ForwardType_FORWARD_TO_ALL_EXCEPT_CUR = 2;</code>
      */
-    public static final int FORWARD_TYPE_TO_ALL_EXCEPT_CUR_VALUE = 2;
+    public static final int ForwardType_FORWARD_TO_ALL_EXCEPT_CUR_VALUE = 2;
     /**
-     * <code>FORWARD_TYPE_TO_HOST = 3;</code>
+     * <code>ForwardType_FORWARD_TO_HOST = 3;</code>
      */
-    public static final int FORWARD_TYPE_TO_HOST_VALUE = 3;
+    public static final int ForwardType_FORWARD_TO_HOST_VALUE = 3;
     /**
-     * <code>FORWARD_TYPE_TO_ALL_GUEST = 4;</code>
+     * <code>ForwardType_FORWARD_TO_ALL_GUEST = 4;</code>
      */
-    public static final int FORWARD_TYPE_TO_ALL_GUEST_VALUE = 4;
+    public static final int ForwardType_FORWARD_TO_ALL_GUEST_VALUE = 4;
     /**
-     * <code>FORWARD_TYPE_TO_PEER = 5;</code>
+     * <code>ForwardType_FORWARD_TO_PEER = 5;</code>
      */
-    public static final int FORWARD_TYPE_TO_PEER_VALUE = 5;
+    public static final int ForwardType_FORWARD_TO_PEER_VALUE = 5;
     /**
-     * <code>FORWARD_TYPE_TO_PEERS = 6;</code>
+     * <code>ForwardType_FORWARD_TO_PEERS = 6;</code>
      */
-    public static final int FORWARD_TYPE_TO_PEERS_VALUE = 6;
+    public static final int ForwardType_FORWARD_TO_PEERS_VALUE = 6;
     /**
-     * <code>FORWARD_TYPE_ONLY_SERVER = 7;</code>
+     * <code>ForwardType_FORWARD_ONLY_SERVER = 7;</code>
      */
-    public static final int FORWARD_TYPE_ONLY_SERVER_VALUE = 7;
+    public static final int ForwardType_FORWARD_ONLY_SERVER_VALUE = 7;
     /**
-     * <code>FORWARD_TYPE_TO_ALL_EXIST_EXCEPT_CUR = 8;</code>
+     * <code>ForwardType_FORWARD_TO_ALL_EXIST_EXCEPT_CUR = 8;</code>
      */
-    public static final int FORWARD_TYPE_TO_ALL_EXIST_EXCEPT_CUR_VALUE = 8;
+    public static final int ForwardType_FORWARD_TO_ALL_EXIST_EXCEPT_CUR_VALUE = 8;
 
 
     public final int getNumber() {
@@ -124,15 +120,15 @@ public final class ForwardTypeOuterClass {
      */
     public static ForwardType forNumber(int value) {
       switch (value) {
-        case 0: return FORWARD_TYPE_LOCAL;
-        case 1: return FORWARD_TYPE_TO_ALL;
-        case 2: return FORWARD_TYPE_TO_ALL_EXCEPT_CUR;
-        case 3: return FORWARD_TYPE_TO_HOST;
-        case 4: return FORWARD_TYPE_TO_ALL_GUEST;
-        case 5: return FORWARD_TYPE_TO_PEER;
-        case 6: return FORWARD_TYPE_TO_PEERS;
-        case 7: return FORWARD_TYPE_ONLY_SERVER;
-        case 8: return FORWARD_TYPE_TO_ALL_EXIST_EXCEPT_CUR;
+        case 0: return ForwardType_FORWARD_LOCAL;
+        case 1: return ForwardType_FORWARD_TO_ALL;
+        case 2: return ForwardType_FORWARD_TO_ALL_EXCEPT_CUR;
+        case 3: return ForwardType_FORWARD_TO_HOST;
+        case 4: return ForwardType_FORWARD_TO_ALL_GUEST;
+        case 5: return ForwardType_FORWARD_TO_PEER;
+        case 6: return ForwardType_FORWARD_TO_PEERS;
+        case 7: return ForwardType_FORWARD_ONLY_SERVER;
+        case 8: return ForwardType_FORWARD_TO_ALL_EXIST_EXCEPT_CUR;
         default: return null;
       }
     }
@@ -198,15 +194,17 @@ public final class ForwardTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021ForwardType.proto*\230\002\n\013ForwardType\022\026\n\022F" +
-      "ORWARD_TYPE_LOCAL\020\000\022\027\n\023FORWARD_TYPE_TO_A" +
-      "LL\020\001\022\"\n\036FORWARD_TYPE_TO_ALL_EXCEPT_CUR\020\002" +
-      "\022\030\n\024FORWARD_TYPE_TO_HOST\020\003\022\035\n\031FORWARD_TY" +
-      "PE_TO_ALL_GUEST\020\004\022\030\n\024FORWARD_TYPE_TO_PEE" +
-      "R\020\005\022\031\n\025FORWARD_TYPE_TO_PEERS\020\006\022\034\n\030FORWAR" +
-      "D_TYPE_ONLY_SERVER\020\007\022(\n$FORWARD_TYPE_TO_" +
-      "ALL_EXIST_EXCEPT_CUR\020\010B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\n\021ForwardType.proto*\327\002\n\013ForwardType\022\035\n\031F" +
+      "orwardType_FORWARD_LOCAL\020\000\022\036\n\032ForwardTyp" +
+      "e_FORWARD_TO_ALL\020\001\022)\n%ForwardType_FORWAR" +
+      "D_TO_ALL_EXCEPT_CUR\020\002\022\037\n\033ForwardType_FOR" +
+      "WARD_TO_HOST\020\003\022$\n ForwardType_FORWARD_TO" +
+      "_ALL_GUEST\020\004\022\037\n\033ForwardType_FORWARD_TO_P" +
+      "EER\020\005\022 \n\034ForwardType_FORWARD_TO_PEERS\020\006\022" +
+      "#\n\037ForwardType_FORWARD_ONLY_SERVER\020\007\022/\n+" +
+      "ForwardType_FORWARD_TO_ALL_EXIST_EXCEPT_" +
+      "CUR\020\010B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

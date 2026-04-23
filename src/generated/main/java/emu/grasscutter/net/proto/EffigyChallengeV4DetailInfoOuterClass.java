@@ -17,12 +17,32 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
   public interface EffigyChallengeV4DetailInfoOrBuilder extends
       // @@protoc_insertion_point(interface_extends:EffigyChallengeV4DetailInfo)
       com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> 
+        getJNADPFJOBHIList();
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO getJNADPFJOBHI(int index);
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    int getJNADPFJOBHICount();
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder> 
+        getJNADPFJOBHIOrBuilderList();
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder getJNADPFJOBHIOrBuilder(
+        int index);
   }
   /**
-   * <pre>
-   *	repeated MAPGDCANHFD PAPKIKPGDFE = 8;
-   * </pre>
-   *
    * Protobuf type {@code EffigyChallengeV4DetailInfo}
    */
   public static final class EffigyChallengeV4DetailInfo extends
@@ -35,6 +55,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       super(builder);
     }
     private EffigyChallengeV4DetailInfo() {
+      jNADPFJOBHI_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -57,6 +78,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -67,6 +89,15 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
             case 0:
               done = true;
               break;
+            case 106: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                jNADPFJOBHI_ = new java.util.ArrayList<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              jNADPFJOBHI_.add(
+                  input.readMessage(emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.parser(), extensionRegistry));
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -82,6 +113,9 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          jNADPFJOBHI_ = java.util.Collections.unmodifiableList(jNADPFJOBHI_);
+        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -99,6 +133,46 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
               emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo.class, emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo.Builder.class);
     }
 
+    public static final int JNADPFJOBHI_FIELD_NUMBER = 13;
+    private java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> jNADPFJOBHI_;
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    @java.lang.Override
+    public java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> getJNADPFJOBHIList() {
+      return jNADPFJOBHI_;
+    }
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder> 
+        getJNADPFJOBHIOrBuilderList() {
+      return jNADPFJOBHI_;
+    }
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    @java.lang.Override
+    public int getJNADPFJOBHICount() {
+      return jNADPFJOBHI_.size();
+    }
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO getJNADPFJOBHI(int index) {
+      return jNADPFJOBHI_.get(index);
+    }
+    /**
+     * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder getJNADPFJOBHIOrBuilder(
+        int index) {
+      return jNADPFJOBHI_.get(index);
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -113,6 +187,9 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      for (int i = 0; i < jNADPFJOBHI_.size(); i++) {
+        output.writeMessage(13, jNADPFJOBHI_.get(i));
+      }
       unknownFields.writeTo(output);
     }
 
@@ -122,6 +199,10 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < jNADPFJOBHI_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, jNADPFJOBHI_.get(i));
+      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -137,6 +218,8 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo other = (emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo) obj;
 
+      if (!getJNADPFJOBHIList()
+          .equals(other.getJNADPFJOBHIList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -148,6 +231,10 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      if (getJNADPFJOBHICount() > 0) {
+        hash = (37 * hash) + JNADPFJOBHI_FIELD_NUMBER;
+        hash = (53 * hash) + getJNADPFJOBHIList().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -244,10 +331,6 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     *	repeated MAPGDCANHFD PAPKIKPGDFE = 8;
-     * </pre>
-     *
      * Protobuf type {@code EffigyChallengeV4DetailInfo}
      */
     public static final class Builder extends
@@ -280,11 +363,18 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getJNADPFJOBHIFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        if (jNADPFJOBHIBuilder_ == null) {
+          jNADPFJOBHI_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          jNADPFJOBHIBuilder_.clear();
+        }
         return this;
       }
 
@@ -311,6 +401,16 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo buildPartial() {
         emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo result = new emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo(this);
+        int from_bitField0_ = bitField0_;
+        if (jNADPFJOBHIBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) != 0)) {
+            jNADPFJOBHI_ = java.util.Collections.unmodifiableList(jNADPFJOBHI_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.jNADPFJOBHI_ = jNADPFJOBHI_;
+        } else {
+          result.jNADPFJOBHI_ = jNADPFJOBHIBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -359,6 +459,32 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo other) {
         if (other == emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo.getDefaultInstance()) return this;
+        if (jNADPFJOBHIBuilder_ == null) {
+          if (!other.jNADPFJOBHI_.isEmpty()) {
+            if (jNADPFJOBHI_.isEmpty()) {
+              jNADPFJOBHI_ = other.jNADPFJOBHI_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureJNADPFJOBHIIsMutable();
+              jNADPFJOBHI_.addAll(other.jNADPFJOBHI_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.jNADPFJOBHI_.isEmpty()) {
+            if (jNADPFJOBHIBuilder_.isEmpty()) {
+              jNADPFJOBHIBuilder_.dispose();
+              jNADPFJOBHIBuilder_ = null;
+              jNADPFJOBHI_ = other.jNADPFJOBHI_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              jNADPFJOBHIBuilder_ = 
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
+                   getJNADPFJOBHIFieldBuilder() : null;
+            } else {
+              jNADPFJOBHIBuilder_.addAllMessages(other.jNADPFJOBHI_);
+            }
+          }
+        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -386,6 +512,247 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
           }
         }
         return this;
+      }
+      private int bitField0_;
+
+      private java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> jNADPFJOBHI_ =
+        java.util.Collections.emptyList();
+      private void ensureJNADPFJOBHIIsMutable() {
+        if (!((bitField0_ & 0x00000001) != 0)) {
+          jNADPFJOBHI_ = new java.util.ArrayList<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO>(jNADPFJOBHI_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder> jNADPFJOBHIBuilder_;
+
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> getJNADPFJOBHIList() {
+        if (jNADPFJOBHIBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(jNADPFJOBHI_);
+        } else {
+          return jNADPFJOBHIBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public int getJNADPFJOBHICount() {
+        if (jNADPFJOBHIBuilder_ == null) {
+          return jNADPFJOBHI_.size();
+        } else {
+          return jNADPFJOBHIBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO getJNADPFJOBHI(int index) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          return jNADPFJOBHI_.get(index);
+        } else {
+          return jNADPFJOBHIBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public Builder setJNADPFJOBHI(
+          int index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO value) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureJNADPFJOBHIIsMutable();
+          jNADPFJOBHI_.set(index, value);
+          onChanged();
+        } else {
+          jNADPFJOBHIBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public Builder setJNADPFJOBHI(
+          int index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder builderForValue) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          ensureJNADPFJOBHIIsMutable();
+          jNADPFJOBHI_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          jNADPFJOBHIBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public Builder addJNADPFJOBHI(emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO value) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureJNADPFJOBHIIsMutable();
+          jNADPFJOBHI_.add(value);
+          onChanged();
+        } else {
+          jNADPFJOBHIBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public Builder addJNADPFJOBHI(
+          int index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO value) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureJNADPFJOBHIIsMutable();
+          jNADPFJOBHI_.add(index, value);
+          onChanged();
+        } else {
+          jNADPFJOBHIBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public Builder addJNADPFJOBHI(
+          emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder builderForValue) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          ensureJNADPFJOBHIIsMutable();
+          jNADPFJOBHI_.add(builderForValue.build());
+          onChanged();
+        } else {
+          jNADPFJOBHIBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public Builder addJNADPFJOBHI(
+          int index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder builderForValue) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          ensureJNADPFJOBHIIsMutable();
+          jNADPFJOBHI_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          jNADPFJOBHIBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public Builder addAllJNADPFJOBHI(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> values) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          ensureJNADPFJOBHIIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, jNADPFJOBHI_);
+          onChanged();
+        } else {
+          jNADPFJOBHIBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public Builder clearJNADPFJOBHI() {
+        if (jNADPFJOBHIBuilder_ == null) {
+          jNADPFJOBHI_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          jNADPFJOBHIBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public Builder removeJNADPFJOBHI(int index) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          ensureJNADPFJOBHIIsMutable();
+          jNADPFJOBHI_.remove(index);
+          onChanged();
+        } else {
+          jNADPFJOBHIBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder getJNADPFJOBHIBuilder(
+          int index) {
+        return getJNADPFJOBHIFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder getJNADPFJOBHIOrBuilder(
+          int index) {
+        if (jNADPFJOBHIBuilder_ == null) {
+          return jNADPFJOBHI_.get(index);  } else {
+          return jNADPFJOBHIBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder> 
+           getJNADPFJOBHIOrBuilderList() {
+        if (jNADPFJOBHIBuilder_ != null) {
+          return jNADPFJOBHIBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(jNADPFJOBHI_);
+        }
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder addJNADPFJOBHIBuilder() {
+        return getJNADPFJOBHIFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder addJNADPFJOBHIBuilder(
+          int index) {
+        return getJNADPFJOBHIFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .LBINOBBOACO JNADPFJOBHI = 13;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder> 
+           getJNADPFJOBHIBuilderList() {
+        return getJNADPFJOBHIFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder> 
+          getJNADPFJOBHIFieldBuilder() {
+        if (jNADPFJOBHIBuilder_ == null) {
+          jNADPFJOBHIBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder>(
+                  jNADPFJOBHI_,
+                  ((bitField0_ & 0x00000001) != 0),
+                  getParentForChildren(),
+                  isClean());
+          jNADPFJOBHI_ = null;
+        }
+        return jNADPFJOBHIBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -454,20 +821,23 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n!EffigyChallengeV4DetailInfo.proto\"\035\n\033E" +
-      "ffigyChallengeV4DetailInfoB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "\n!EffigyChallengeV4DetailInfo.proto\032\021LBI" +
+      "NOBBOACO.proto\"@\n\033EffigyChallengeV4Detai" +
+      "lInfo\022!\n\013JNADPFJOBHI\030\r \003(\0132\014.LBINOBBOACO" +
+      "B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          emu.grasscutter.net.proto.LBINOBBOACOOuterClass.getDescriptor(),
         });
     internal_static_EffigyChallengeV4DetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_EffigyChallengeV4DetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EffigyChallengeV4DetailInfo_descriptor,
-        new java.lang.String[] { });
+        new java.lang.String[] { "JNADPFJOBHI", });
+    emu.grasscutter.net.proto.LBINOBBOACOOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

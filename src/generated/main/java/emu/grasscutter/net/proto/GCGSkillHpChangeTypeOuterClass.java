@@ -15,41 +15,37 @@ public final class GCGSkillHpChangeTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
-   * <pre>
-   * Obf: EIJGIMEOODA
-   * </pre>
-   *
    * Protobuf enum {@code GCGSkillHpChangeType}
    */
   public enum GCGSkillHpChangeType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>GCG_SKILL_HP_CHANGE_NONE = 0;</code>
+     * <code>GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_NONE = 0;</code>
      */
-    GCG_SKILL_HP_CHANGE_NONE(0),
+    GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_NONE(0),
     /**
-     * <code>GCG_SKILL_HP_CHANGE_DAMAGE = 1;</code>
+     * <code>GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_DAMAGE = 1;</code>
      */
-    GCG_SKILL_HP_CHANGE_DAMAGE(1),
+    GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_DAMAGE(1),
     /**
-     * <code>GCG_SKILL_HP_CHANGE_HEAL = 2;</code>
+     * <code>GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_HEAL = 2;</code>
      */
-    GCG_SKILL_HP_CHANGE_HEAL(2),
+    GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_HEAL(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>GCG_SKILL_HP_CHANGE_NONE = 0;</code>
+     * <code>GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_NONE = 0;</code>
      */
-    public static final int GCG_SKILL_HP_CHANGE_NONE_VALUE = 0;
+    public static final int GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_NONE_VALUE = 0;
     /**
-     * <code>GCG_SKILL_HP_CHANGE_DAMAGE = 1;</code>
+     * <code>GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_DAMAGE = 1;</code>
      */
-    public static final int GCG_SKILL_HP_CHANGE_DAMAGE_VALUE = 1;
+    public static final int GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_DAMAGE_VALUE = 1;
     /**
-     * <code>GCG_SKILL_HP_CHANGE_HEAL = 2;</code>
+     * <code>GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_HEAL = 2;</code>
      */
-    public static final int GCG_SKILL_HP_CHANGE_HEAL_VALUE = 2;
+    public static final int GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_HEAL_VALUE = 2;
 
 
     public final int getNumber() {
@@ -76,9 +72,9 @@ public final class GCGSkillHpChangeTypeOuterClass {
      */
     public static GCGSkillHpChangeType forNumber(int value) {
       switch (value) {
-        case 0: return GCG_SKILL_HP_CHANGE_NONE;
-        case 1: return GCG_SKILL_HP_CHANGE_DAMAGE;
-        case 2: return GCG_SKILL_HP_CHANGE_HEAL;
+        case 0: return GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_NONE;
+        case 1: return GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_DAMAGE;
+        case 2: return GCGSkillHpChangeType_GCG_SKILL_HP_CHANGE_HEAL;
         default: return null;
       }
     }
@@ -144,11 +140,13 @@ public final class GCGSkillHpChangeTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\032GCGSkillHpChangeType.proto*r\n\024GCGSkill" +
-      "HpChangeType\022\034\n\030GCG_SKILL_HP_CHANGE_NONE" +
-      "\020\000\022\036\n\032GCG_SKILL_HP_CHANGE_DAMAGE\020\001\022\034\n\030GC" +
-      "G_SKILL_HP_CHANGE_HEAL\020\002B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\n\032GCGSkillHpChangeType.proto*\261\001\n\024GCGSkil" +
+      "lHpChangeType\0221\n-GCGSkillHpChangeType_GC" +
+      "G_SKILL_HP_CHANGE_NONE\020\000\0223\n/GCGSkillHpCh" +
+      "angeType_GCG_SKILL_HP_CHANGE_DAMAGE\020\001\0221\n" +
+      "-GCGSkillHpChangeType_GCG_SKILL_HP_CHANG" +
+      "E_HEAL\020\002B\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

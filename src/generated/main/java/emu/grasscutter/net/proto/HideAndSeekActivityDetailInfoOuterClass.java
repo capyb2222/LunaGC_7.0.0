@@ -19,96 +19,96 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
-     * @return A list containing the bOEGKNHKIIA.
+     * <code>repeated uint32 JPOFFPOCACG = 6;</code>
+     * @return A list containing the jPOFFPOCACG.
      */
-    java.util.List<java.lang.Integer> getBOEGKNHKIIAList();
+    java.util.List<java.lang.Integer> getJPOFFPOCACGList();
     /**
-     * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
-     * @return The count of bOEGKNHKIIA.
+     * <code>repeated uint32 JPOFFPOCACG = 6;</code>
+     * @return The count of jPOFFPOCACG.
      */
-    int getBOEGKNHKIIACount();
+    int getJPOFFPOCACGCount();
     /**
-     * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
+     * <code>repeated uint32 JPOFFPOCACG = 6;</code>
      * @param index The index of the element to return.
-     * @return The bOEGKNHKIIA at the given index.
+     * @return The jPOFFPOCACG at the given index.
      */
-    int getBOEGKNHKIIA(int index);
+    int getJPOFFPOCACG(int index);
 
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+     * @return A list containing the mPBPICEJOHD.
      */
-    java.util.List<emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo> 
-        getOpenMapInfoListList();
+    java.util.List<java.lang.Integer> getMPBPICEJOHDList();
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+     * @return The count of mPBPICEJOHD.
      */
-    emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo getOpenMapInfoList(int index);
+    int getMPBPICEJOHDCount();
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+     * @param index The index of the element to return.
+     * @return The mPBPICEJOHD at the given index.
      */
-    int getOpenMapInfoListCount();
+    int getMPBPICEJOHD(int index);
+
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+     * @return A list containing the dACBLBJPLDD.
      */
-    java.util.List<? extends emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfoOrBuilder> 
-        getOpenMapInfoListOrBuilderList();
+    java.util.List<java.lang.Integer> getDACBLBJPLDDList();
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+     * @return The count of dACBLBJPLDD.
      */
-    emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfoOrBuilder getOpenMapInfoListOrBuilder(
+    int getDACBLBJPLDDCount();
+    /**
+     * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+     * @param index The index of the element to return.
+     * @return The dACBLBJPLDD at the given index.
+     */
+    int getDACBLBJPLDD(int index);
+
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+     */
+    java.util.List<emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH> 
+        getKKOBAEIGICFList();
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+     */
+    emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH getKKOBAEIGICF(int index);
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+     */
+    int getKKOBAEIGICFCount();
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+     */
+    java.util.List<? extends emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIHOrBuilder> 
+        getKKOBAEIGICFOrBuilderList();
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+     */
+    emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIHOrBuilder getKKOBAEIGICFOrBuilder(
         int index);
 
     /**
-     * <code>repeated uint32 EDBIHHFNBON = 5;</code>
-     * @return A list containing the eDBIHHFNBON.
+     * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
+     * @return A list containing the ePEGGOMGDLF.
      */
-    java.util.List<java.lang.Integer> getEDBIHHFNBONList();
+    java.util.List<java.lang.Integer> getEPEGGOMGDLFList();
     /**
-     * <code>repeated uint32 EDBIHHFNBON = 5;</code>
-     * @return The count of eDBIHHFNBON.
+     * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
+     * @return The count of ePEGGOMGDLF.
      */
-    int getEDBIHHFNBONCount();
+    int getEPEGGOMGDLFCount();
     /**
-     * <code>repeated uint32 EDBIHHFNBON = 5;</code>
+     * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
      * @param index The index of the element to return.
-     * @return The eDBIHHFNBON at the given index.
+     * @return The ePEGGOMGDLF at the given index.
      */
-    int getEDBIHHFNBON(int index);
-
-    /**
-     * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-     * @return A list containing the iBMNHCKCCDM.
-     */
-    java.util.List<java.lang.Integer> getIBMNHCKCCDMList();
-    /**
-     * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-     * @return The count of iBMNHCKCCDM.
-     */
-    int getIBMNHCKCCDMCount();
-    /**
-     * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-     * @param index The index of the element to return.
-     * @return The iBMNHCKCCDM at the given index.
-     */
-    int getIBMNHCKCCDM(int index);
-
-    /**
-     * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-     * @return A list containing the aGBONMJOOBA.
-     */
-    java.util.List<java.lang.Integer> getAGBONMJOOBAList();
-    /**
-     * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-     * @return The count of aGBONMJOOBA.
-     */
-    int getAGBONMJOOBACount();
-    /**
-     * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-     * @param index The index of the element to return.
-     * @return The aGBONMJOOBA at the given index.
-     */
-    int getAGBONMJOOBA(int index);
+    int getEPEGGOMGDLF(int index);
   }
   /**
    * Protobuf type {@code HideAndSeekActivityDetailInfo}
@@ -123,11 +123,11 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
       super(builder);
     }
     private HideAndSeekActivityDetailInfo() {
-      bOEGKNHKIIA_ = emptyIntList();
-      openMapInfoList_ = java.util.Collections.emptyList();
-      eDBIHHFNBON_ = emptyIntList();
-      iBMNHCKCCDM_ = emptyIntList();
-      aGBONMJOOBA_ = emptyIntList();
+      jPOFFPOCACG_ = emptyIntList();
+      mPBPICEJOHD_ = emptyIntList();
+      dACBLBJPLDD_ = emptyIntList();
+      kKOBAEIGICF_ = java.util.Collections.emptyList();
+      ePEGGOMGDLF_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -161,97 +161,97 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                bOEGKNHKIIA_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              bOEGKNHKIIA_.addInt(input.readUInt32());
-              break;
-            }
-            case 26: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                bOEGKNHKIIA_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                bOEGKNHKIIA_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 40: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                eDBIHHFNBON_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              eDBIHHFNBON_.addInt(input.readUInt32());
-              break;
-            }
-            case 42: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                eDBIHHFNBON_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                eDBIHHFNBON_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 64: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                iBMNHCKCCDM_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              iBMNHCKCCDM_.addInt(input.readUInt32());
-              break;
-            }
-            case 66: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
-                iBMNHCKCCDM_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                iBMNHCKCCDM_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 72: {
+            case 8: {
               if (!((mutable_bitField0_ & 0x00000010) != 0)) {
-                aGBONMJOOBA_ = newIntList();
+                ePEGGOMGDLF_ = newIntList();
                 mutable_bitField0_ |= 0x00000010;
               }
-              aGBONMJOOBA_.addInt(input.readUInt32());
+              ePEGGOMGDLF_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000010) != 0) && input.getBytesUntilLimit() > 0) {
-                aGBONMJOOBA_ = newIntList();
+                ePEGGOMGDLF_ = newIntList();
                 mutable_bitField0_ |= 0x00000010;
               }
               while (input.getBytesUntilLimit() > 0) {
-                aGBONMJOOBA_.addInt(input.readUInt32());
+                ePEGGOMGDLF_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
-            case 106: {
+            case 48: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                jPOFFPOCACG_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              jPOFFPOCACG_.addInt(input.readUInt32());
+              break;
+            }
+            case 50: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                jPOFFPOCACG_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                jPOFFPOCACG_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 58: {
+              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+                kKOBAEIGICF_ = new java.util.ArrayList<emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH>();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              kKOBAEIGICF_.add(
+                  input.readMessage(emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.parser(), extensionRegistry));
+              break;
+            }
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                openMapInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo>();
+                mPBPICEJOHD_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
               }
-              openMapInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.parser(), extensionRegistry));
+              mPBPICEJOHD_.addInt(input.readUInt32());
+              break;
+            }
+            case 90: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                mPBPICEJOHD_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                mPBPICEJOHD_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 120: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                dACBLBJPLDD_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              dACBLBJPLDD_.addInt(input.readUInt32());
+              break;
+            }
+            case 122: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
+                dACBLBJPLDD_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                dACBLBJPLDD_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
               break;
             }
             default: {
@@ -269,20 +269,20 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          bOEGKNHKIIA_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000010) != 0)) {
+          ePEGGOMGDLF_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          eDBIHHFNBON_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          jPOFFPOCACG_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          iBMNHCKCCDM_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000010) != 0)) {
-          aGBONMJOOBA_.makeImmutable(); // C
+          kKOBAEIGICF_ = java.util.Collections.unmodifiableList(kKOBAEIGICF_);
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          openMapInfoList_ = java.util.Collections.unmodifiableList(openMapInfoList_);
+          mPBPICEJOHD_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          dACBLBJPLDD_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -301,157 +301,157 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.HideAndSeekActivityDetailInfoOuterClass.HideAndSeekActivityDetailInfo.class, emu.grasscutter.net.proto.HideAndSeekActivityDetailInfoOuterClass.HideAndSeekActivityDetailInfo.Builder.class);
     }
 
-    public static final int BOEGKNHKIIA_FIELD_NUMBER = 3;
-    private com.google.protobuf.Internal.IntList bOEGKNHKIIA_;
+    public static final int JPOFFPOCACG_FIELD_NUMBER = 6;
+    private com.google.protobuf.Internal.IntList jPOFFPOCACG_;
     /**
-     * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
-     * @return A list containing the bOEGKNHKIIA.
+     * <code>repeated uint32 JPOFFPOCACG = 6;</code>
+     * @return A list containing the jPOFFPOCACG.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getBOEGKNHKIIAList() {
-      return bOEGKNHKIIA_;
+        getJPOFFPOCACGList() {
+      return jPOFFPOCACG_;
     }
     /**
-     * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
-     * @return The count of bOEGKNHKIIA.
+     * <code>repeated uint32 JPOFFPOCACG = 6;</code>
+     * @return The count of jPOFFPOCACG.
      */
-    public int getBOEGKNHKIIACount() {
-      return bOEGKNHKIIA_.size();
+    public int getJPOFFPOCACGCount() {
+      return jPOFFPOCACG_.size();
     }
     /**
-     * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
+     * <code>repeated uint32 JPOFFPOCACG = 6;</code>
      * @param index The index of the element to return.
-     * @return The bOEGKNHKIIA at the given index.
+     * @return The jPOFFPOCACG at the given index.
      */
-    public int getBOEGKNHKIIA(int index) {
-      return bOEGKNHKIIA_.getInt(index);
+    public int getJPOFFPOCACG(int index) {
+      return jPOFFPOCACG_.getInt(index);
     }
-    private int bOEGKNHKIIAMemoizedSerializedSize = -1;
+    private int jPOFFPOCACGMemoizedSerializedSize = -1;
 
-    public static final int OPEN_MAP_INFO_LIST_FIELD_NUMBER = 13;
-    private java.util.List<emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo> openMapInfoList_;
+    public static final int MPBPICEJOHD_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList mPBPICEJOHD_;
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+     * @return A list containing the mPBPICEJOHD.
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo> getOpenMapInfoListList() {
-      return openMapInfoList_;
+    public java.util.List<java.lang.Integer>
+        getMPBPICEJOHDList() {
+      return mPBPICEJOHD_;
     }
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+     * @return The count of mPBPICEJOHD.
      */
-    @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfoOrBuilder> 
-        getOpenMapInfoListOrBuilderList() {
-      return openMapInfoList_;
+    public int getMPBPICEJOHDCount() {
+      return mPBPICEJOHD_.size();
     }
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+     * @param index The index of the element to return.
+     * @return The mPBPICEJOHD at the given index.
+     */
+    public int getMPBPICEJOHD(int index) {
+      return mPBPICEJOHD_.getInt(index);
+    }
+    private int mPBPICEJOHDMemoizedSerializedSize = -1;
+
+    public static final int DACBLBJPLDD_FIELD_NUMBER = 15;
+    private com.google.protobuf.Internal.IntList dACBLBJPLDD_;
+    /**
+     * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+     * @return A list containing the dACBLBJPLDD.
      */
     @java.lang.Override
-    public int getOpenMapInfoListCount() {
-      return openMapInfoList_.size();
+    public java.util.List<java.lang.Integer>
+        getDACBLBJPLDDList() {
+      return dACBLBJPLDD_;
     }
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+     * @return The count of dACBLBJPLDD.
      */
-    @java.lang.Override
-    public emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo getOpenMapInfoList(int index) {
-      return openMapInfoList_.get(index);
+    public int getDACBLBJPLDDCount() {
+      return dACBLBJPLDD_.size();
     }
     /**
-     * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+     * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+     * @param index The index of the element to return.
+     * @return The dACBLBJPLDD at the given index.
+     */
+    public int getDACBLBJPLDD(int index) {
+      return dACBLBJPLDD_.getInt(index);
+    }
+    private int dACBLBJPLDDMemoizedSerializedSize = -1;
+
+    public static final int KKOBAEIGICF_FIELD_NUMBER = 7;
+    private java.util.List<emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH> kKOBAEIGICF_;
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfoOrBuilder getOpenMapInfoListOrBuilder(
+    public java.util.List<emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH> getKKOBAEIGICFList() {
+      return kKOBAEIGICF_;
+    }
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIHOrBuilder> 
+        getKKOBAEIGICFOrBuilderList() {
+      return kKOBAEIGICF_;
+    }
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+     */
+    @java.lang.Override
+    public int getKKOBAEIGICFCount() {
+      return kKOBAEIGICF_.size();
+    }
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH getKKOBAEIGICF(int index) {
+      return kKOBAEIGICF_.get(index);
+    }
+    /**
+     * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+     */
+    @java.lang.Override
+    public emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIHOrBuilder getKKOBAEIGICFOrBuilder(
         int index) {
-      return openMapInfoList_.get(index);
+      return kKOBAEIGICF_.get(index);
     }
 
-    public static final int EDBIHHFNBON_FIELD_NUMBER = 5;
-    private com.google.protobuf.Internal.IntList eDBIHHFNBON_;
+    public static final int EPEGGOMGDLF_FIELD_NUMBER = 1;
+    private com.google.protobuf.Internal.IntList ePEGGOMGDLF_;
     /**
-     * <code>repeated uint32 EDBIHHFNBON = 5;</code>
-     * @return A list containing the eDBIHHFNBON.
+     * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
+     * @return A list containing the ePEGGOMGDLF.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getEDBIHHFNBONList() {
-      return eDBIHHFNBON_;
+        getEPEGGOMGDLFList() {
+      return ePEGGOMGDLF_;
     }
     /**
-     * <code>repeated uint32 EDBIHHFNBON = 5;</code>
-     * @return The count of eDBIHHFNBON.
+     * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
+     * @return The count of ePEGGOMGDLF.
      */
-    public int getEDBIHHFNBONCount() {
-      return eDBIHHFNBON_.size();
+    public int getEPEGGOMGDLFCount() {
+      return ePEGGOMGDLF_.size();
     }
     /**
-     * <code>repeated uint32 EDBIHHFNBON = 5;</code>
+     * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
      * @param index The index of the element to return.
-     * @return The eDBIHHFNBON at the given index.
+     * @return The ePEGGOMGDLF at the given index.
      */
-    public int getEDBIHHFNBON(int index) {
-      return eDBIHHFNBON_.getInt(index);
+    public int getEPEGGOMGDLF(int index) {
+      return ePEGGOMGDLF_.getInt(index);
     }
-    private int eDBIHHFNBONMemoizedSerializedSize = -1;
-
-    public static final int IBMNHCKCCDM_FIELD_NUMBER = 8;
-    private com.google.protobuf.Internal.IntList iBMNHCKCCDM_;
-    /**
-     * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-     * @return A list containing the iBMNHCKCCDM.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getIBMNHCKCCDMList() {
-      return iBMNHCKCCDM_;
-    }
-    /**
-     * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-     * @return The count of iBMNHCKCCDM.
-     */
-    public int getIBMNHCKCCDMCount() {
-      return iBMNHCKCCDM_.size();
-    }
-    /**
-     * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-     * @param index The index of the element to return.
-     * @return The iBMNHCKCCDM at the given index.
-     */
-    public int getIBMNHCKCCDM(int index) {
-      return iBMNHCKCCDM_.getInt(index);
-    }
-    private int iBMNHCKCCDMMemoizedSerializedSize = -1;
-
-    public static final int AGBONMJOOBA_FIELD_NUMBER = 9;
-    private com.google.protobuf.Internal.IntList aGBONMJOOBA_;
-    /**
-     * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-     * @return A list containing the aGBONMJOOBA.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getAGBONMJOOBAList() {
-      return aGBONMJOOBA_;
-    }
-    /**
-     * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-     * @return The count of aGBONMJOOBA.
-     */
-    public int getAGBONMJOOBACount() {
-      return aGBONMJOOBA_.size();
-    }
-    /**
-     * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-     * @param index The index of the element to return.
-     * @return The aGBONMJOOBA at the given index.
-     */
-    public int getAGBONMJOOBA(int index) {
-      return aGBONMJOOBA_.getInt(index);
-    }
-    private int aGBONMJOOBAMemoizedSerializedSize = -1;
+    private int ePEGGOMGDLFMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -468,36 +468,36 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getBOEGKNHKIIAList().size() > 0) {
-        output.writeUInt32NoTag(26);
-        output.writeUInt32NoTag(bOEGKNHKIIAMemoizedSerializedSize);
+      if (getEPEGGOMGDLFList().size() > 0) {
+        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(ePEGGOMGDLFMemoizedSerializedSize);
       }
-      for (int i = 0; i < bOEGKNHKIIA_.size(); i++) {
-        output.writeUInt32NoTag(bOEGKNHKIIA_.getInt(i));
+      for (int i = 0; i < ePEGGOMGDLF_.size(); i++) {
+        output.writeUInt32NoTag(ePEGGOMGDLF_.getInt(i));
       }
-      if (getEDBIHHFNBONList().size() > 0) {
-        output.writeUInt32NoTag(42);
-        output.writeUInt32NoTag(eDBIHHFNBONMemoizedSerializedSize);
+      if (getJPOFFPOCACGList().size() > 0) {
+        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(jPOFFPOCACGMemoizedSerializedSize);
       }
-      for (int i = 0; i < eDBIHHFNBON_.size(); i++) {
-        output.writeUInt32NoTag(eDBIHHFNBON_.getInt(i));
+      for (int i = 0; i < jPOFFPOCACG_.size(); i++) {
+        output.writeUInt32NoTag(jPOFFPOCACG_.getInt(i));
       }
-      if (getIBMNHCKCCDMList().size() > 0) {
-        output.writeUInt32NoTag(66);
-        output.writeUInt32NoTag(iBMNHCKCCDMMemoizedSerializedSize);
+      for (int i = 0; i < kKOBAEIGICF_.size(); i++) {
+        output.writeMessage(7, kKOBAEIGICF_.get(i));
       }
-      for (int i = 0; i < iBMNHCKCCDM_.size(); i++) {
-        output.writeUInt32NoTag(iBMNHCKCCDM_.getInt(i));
+      if (getMPBPICEJOHDList().size() > 0) {
+        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(mPBPICEJOHDMemoizedSerializedSize);
       }
-      if (getAGBONMJOOBAList().size() > 0) {
-        output.writeUInt32NoTag(74);
-        output.writeUInt32NoTag(aGBONMJOOBAMemoizedSerializedSize);
+      for (int i = 0; i < mPBPICEJOHD_.size(); i++) {
+        output.writeUInt32NoTag(mPBPICEJOHD_.getInt(i));
       }
-      for (int i = 0; i < aGBONMJOOBA_.size(); i++) {
-        output.writeUInt32NoTag(aGBONMJOOBA_.getInt(i));
+      if (getDACBLBJPLDDList().size() > 0) {
+        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(dACBLBJPLDDMemoizedSerializedSize);
       }
-      for (int i = 0; i < openMapInfoList_.size(); i++) {
-        output.writeMessage(13, openMapInfoList_.get(i));
+      for (int i = 0; i < dACBLBJPLDD_.size(); i++) {
+        output.writeUInt32NoTag(dACBLBJPLDD_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -510,63 +510,63 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < bOEGKNHKIIA_.size(); i++) {
+        for (int i = 0; i < ePEGGOMGDLF_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(bOEGKNHKIIA_.getInt(i));
+            .computeUInt32SizeNoTag(ePEGGOMGDLF_.getInt(i));
         }
         size += dataSize;
-        if (!getBOEGKNHKIIAList().isEmpty()) {
+        if (!getEPEGGOMGDLFList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        bOEGKNHKIIAMemoizedSerializedSize = dataSize;
+        ePEGGOMGDLFMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < eDBIHHFNBON_.size(); i++) {
+        for (int i = 0; i < jPOFFPOCACG_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(eDBIHHFNBON_.getInt(i));
+            .computeUInt32SizeNoTag(jPOFFPOCACG_.getInt(i));
         }
         size += dataSize;
-        if (!getEDBIHHFNBONList().isEmpty()) {
+        if (!getJPOFFPOCACGList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        eDBIHHFNBONMemoizedSerializedSize = dataSize;
+        jPOFFPOCACGMemoizedSerializedSize = dataSize;
       }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < iBMNHCKCCDM_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(iBMNHCKCCDM_.getInt(i));
-        }
-        size += dataSize;
-        if (!getIBMNHCKCCDMList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        iBMNHCKCCDMMemoizedSerializedSize = dataSize;
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < aGBONMJOOBA_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(aGBONMJOOBA_.getInt(i));
-        }
-        size += dataSize;
-        if (!getAGBONMJOOBAList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        aGBONMJOOBAMemoizedSerializedSize = dataSize;
-      }
-      for (int i = 0; i < openMapInfoList_.size(); i++) {
+      for (int i = 0; i < kKOBAEIGICF_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, openMapInfoList_.get(i));
+          .computeMessageSize(7, kKOBAEIGICF_.get(i));
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < mPBPICEJOHD_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(mPBPICEJOHD_.getInt(i));
+        }
+        size += dataSize;
+        if (!getMPBPICEJOHDList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        mPBPICEJOHDMemoizedSerializedSize = dataSize;
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < dACBLBJPLDD_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(dACBLBJPLDD_.getInt(i));
+        }
+        size += dataSize;
+        if (!getDACBLBJPLDDList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        dACBLBJPLDDMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -583,16 +583,16 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.HideAndSeekActivityDetailInfoOuterClass.HideAndSeekActivityDetailInfo other = (emu.grasscutter.net.proto.HideAndSeekActivityDetailInfoOuterClass.HideAndSeekActivityDetailInfo) obj;
 
-      if (!getBOEGKNHKIIAList()
-          .equals(other.getBOEGKNHKIIAList())) return false;
-      if (!getOpenMapInfoListList()
-          .equals(other.getOpenMapInfoListList())) return false;
-      if (!getEDBIHHFNBONList()
-          .equals(other.getEDBIHHFNBONList())) return false;
-      if (!getIBMNHCKCCDMList()
-          .equals(other.getIBMNHCKCCDMList())) return false;
-      if (!getAGBONMJOOBAList()
-          .equals(other.getAGBONMJOOBAList())) return false;
+      if (!getJPOFFPOCACGList()
+          .equals(other.getJPOFFPOCACGList())) return false;
+      if (!getMPBPICEJOHDList()
+          .equals(other.getMPBPICEJOHDList())) return false;
+      if (!getDACBLBJPLDDList()
+          .equals(other.getDACBLBJPLDDList())) return false;
+      if (!getKKOBAEIGICFList()
+          .equals(other.getKKOBAEIGICFList())) return false;
+      if (!getEPEGGOMGDLFList()
+          .equals(other.getEPEGGOMGDLFList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -604,25 +604,25 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getBOEGKNHKIIACount() > 0) {
-        hash = (37 * hash) + BOEGKNHKIIA_FIELD_NUMBER;
-        hash = (53 * hash) + getBOEGKNHKIIAList().hashCode();
+      if (getJPOFFPOCACGCount() > 0) {
+        hash = (37 * hash) + JPOFFPOCACG_FIELD_NUMBER;
+        hash = (53 * hash) + getJPOFFPOCACGList().hashCode();
       }
-      if (getOpenMapInfoListCount() > 0) {
-        hash = (37 * hash) + OPEN_MAP_INFO_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getOpenMapInfoListList().hashCode();
+      if (getMPBPICEJOHDCount() > 0) {
+        hash = (37 * hash) + MPBPICEJOHD_FIELD_NUMBER;
+        hash = (53 * hash) + getMPBPICEJOHDList().hashCode();
       }
-      if (getEDBIHHFNBONCount() > 0) {
-        hash = (37 * hash) + EDBIHHFNBON_FIELD_NUMBER;
-        hash = (53 * hash) + getEDBIHHFNBONList().hashCode();
+      if (getDACBLBJPLDDCount() > 0) {
+        hash = (37 * hash) + DACBLBJPLDD_FIELD_NUMBER;
+        hash = (53 * hash) + getDACBLBJPLDDList().hashCode();
       }
-      if (getIBMNHCKCCDMCount() > 0) {
-        hash = (37 * hash) + IBMNHCKCCDM_FIELD_NUMBER;
-        hash = (53 * hash) + getIBMNHCKCCDMList().hashCode();
+      if (getKKOBAEIGICFCount() > 0) {
+        hash = (37 * hash) + KKOBAEIGICF_FIELD_NUMBER;
+        hash = (53 * hash) + getKKOBAEIGICFList().hashCode();
       }
-      if (getAGBONMJOOBACount() > 0) {
-        hash = (37 * hash) + AGBONMJOOBA_FIELD_NUMBER;
-        hash = (53 * hash) + getAGBONMJOOBAList().hashCode();
+      if (getEPEGGOMGDLFCount() > 0) {
+        hash = (37 * hash) + EPEGGOMGDLF_FIELD_NUMBER;
+        hash = (53 * hash) + getEPEGGOMGDLFList().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -752,25 +752,25 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getOpenMapInfoListFieldBuilder();
+          getKKOBAEIGICFFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        bOEGKNHKIIA_ = emptyIntList();
+        jPOFFPOCACG_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        if (openMapInfoListBuilder_ == null) {
-          openMapInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
-        } else {
-          openMapInfoListBuilder_.clear();
-        }
-        eDBIHHFNBON_ = emptyIntList();
+        mPBPICEJOHD_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        dACBLBJPLDD_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
-        iBMNHCKCCDM_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000008);
-        aGBONMJOOBA_ = emptyIntList();
+        if (kKOBAEIGICFBuilder_ == null) {
+          kKOBAEIGICF_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000008);
+        } else {
+          kKOBAEIGICFBuilder_.clear();
+        }
+        ePEGGOMGDLF_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000010);
         return this;
       }
@@ -800,34 +800,34 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
         emu.grasscutter.net.proto.HideAndSeekActivityDetailInfoOuterClass.HideAndSeekActivityDetailInfo result = new emu.grasscutter.net.proto.HideAndSeekActivityDetailInfoOuterClass.HideAndSeekActivityDetailInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          bOEGKNHKIIA_.makeImmutable();
+          jPOFFPOCACG_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.bOEGKNHKIIA_ = bOEGKNHKIIA_;
-        if (openMapInfoListBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) != 0)) {
-            openMapInfoList_ = java.util.Collections.unmodifiableList(openMapInfoList_);
-            bitField0_ = (bitField0_ & ~0x00000002);
-          }
-          result.openMapInfoList_ = openMapInfoList_;
-        } else {
-          result.openMapInfoList_ = openMapInfoListBuilder_.build();
+        result.jPOFFPOCACG_ = jPOFFPOCACG_;
+        if (((bitField0_ & 0x00000002) != 0)) {
+          mPBPICEJOHD_.makeImmutable();
+          bitField0_ = (bitField0_ & ~0x00000002);
         }
+        result.mPBPICEJOHD_ = mPBPICEJOHD_;
         if (((bitField0_ & 0x00000004) != 0)) {
-          eDBIHHFNBON_.makeImmutable();
+          dACBLBJPLDD_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.eDBIHHFNBON_ = eDBIHHFNBON_;
-        if (((bitField0_ & 0x00000008) != 0)) {
-          iBMNHCKCCDM_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000008);
+        result.dACBLBJPLDD_ = dACBLBJPLDD_;
+        if (kKOBAEIGICFBuilder_ == null) {
+          if (((bitField0_ & 0x00000008) != 0)) {
+            kKOBAEIGICF_ = java.util.Collections.unmodifiableList(kKOBAEIGICF_);
+            bitField0_ = (bitField0_ & ~0x00000008);
+          }
+          result.kKOBAEIGICF_ = kKOBAEIGICF_;
+        } else {
+          result.kKOBAEIGICF_ = kKOBAEIGICFBuilder_.build();
         }
-        result.iBMNHCKCCDM_ = iBMNHCKCCDM_;
         if (((bitField0_ & 0x00000010) != 0)) {
-          aGBONMJOOBA_.makeImmutable();
+          ePEGGOMGDLF_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000010);
         }
-        result.aGBONMJOOBA_ = aGBONMJOOBA_;
+        result.ePEGGOMGDLF_ = ePEGGOMGDLF_;
         onBuilt();
         return result;
       }
@@ -876,69 +876,69 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.HideAndSeekActivityDetailInfoOuterClass.HideAndSeekActivityDetailInfo other) {
         if (other == emu.grasscutter.net.proto.HideAndSeekActivityDetailInfoOuterClass.HideAndSeekActivityDetailInfo.getDefaultInstance()) return this;
-        if (!other.bOEGKNHKIIA_.isEmpty()) {
-          if (bOEGKNHKIIA_.isEmpty()) {
-            bOEGKNHKIIA_ = other.bOEGKNHKIIA_;
+        if (!other.jPOFFPOCACG_.isEmpty()) {
+          if (jPOFFPOCACG_.isEmpty()) {
+            jPOFFPOCACG_ = other.jPOFFPOCACG_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureBOEGKNHKIIAIsMutable();
-            bOEGKNHKIIA_.addAll(other.bOEGKNHKIIA_);
+            ensureJPOFFPOCACGIsMutable();
+            jPOFFPOCACG_.addAll(other.jPOFFPOCACG_);
           }
           onChanged();
         }
-        if (openMapInfoListBuilder_ == null) {
-          if (!other.openMapInfoList_.isEmpty()) {
-            if (openMapInfoList_.isEmpty()) {
-              openMapInfoList_ = other.openMapInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+        if (!other.mPBPICEJOHD_.isEmpty()) {
+          if (mPBPICEJOHD_.isEmpty()) {
+            mPBPICEJOHD_ = other.mPBPICEJOHD_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureMPBPICEJOHDIsMutable();
+            mPBPICEJOHD_.addAll(other.mPBPICEJOHD_);
+          }
+          onChanged();
+        }
+        if (!other.dACBLBJPLDD_.isEmpty()) {
+          if (dACBLBJPLDD_.isEmpty()) {
+            dACBLBJPLDD_ = other.dACBLBJPLDD_;
+            bitField0_ = (bitField0_ & ~0x00000004);
+          } else {
+            ensureDACBLBJPLDDIsMutable();
+            dACBLBJPLDD_.addAll(other.dACBLBJPLDD_);
+          }
+          onChanged();
+        }
+        if (kKOBAEIGICFBuilder_ == null) {
+          if (!other.kKOBAEIGICF_.isEmpty()) {
+            if (kKOBAEIGICF_.isEmpty()) {
+              kKOBAEIGICF_ = other.kKOBAEIGICF_;
+              bitField0_ = (bitField0_ & ~0x00000008);
             } else {
-              ensureOpenMapInfoListIsMutable();
-              openMapInfoList_.addAll(other.openMapInfoList_);
+              ensureKKOBAEIGICFIsMutable();
+              kKOBAEIGICF_.addAll(other.kKOBAEIGICF_);
             }
             onChanged();
           }
         } else {
-          if (!other.openMapInfoList_.isEmpty()) {
-            if (openMapInfoListBuilder_.isEmpty()) {
-              openMapInfoListBuilder_.dispose();
-              openMapInfoListBuilder_ = null;
-              openMapInfoList_ = other.openMapInfoList_;
-              bitField0_ = (bitField0_ & ~0x00000002);
-              openMapInfoListBuilder_ = 
+          if (!other.kKOBAEIGICF_.isEmpty()) {
+            if (kKOBAEIGICFBuilder_.isEmpty()) {
+              kKOBAEIGICFBuilder_.dispose();
+              kKOBAEIGICFBuilder_ = null;
+              kKOBAEIGICF_ = other.kKOBAEIGICF_;
+              bitField0_ = (bitField0_ & ~0x00000008);
+              kKOBAEIGICFBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getOpenMapInfoListFieldBuilder() : null;
+                   getKKOBAEIGICFFieldBuilder() : null;
             } else {
-              openMapInfoListBuilder_.addAllMessages(other.openMapInfoList_);
+              kKOBAEIGICFBuilder_.addAllMessages(other.kKOBAEIGICF_);
             }
           }
         }
-        if (!other.eDBIHHFNBON_.isEmpty()) {
-          if (eDBIHHFNBON_.isEmpty()) {
-            eDBIHHFNBON_ = other.eDBIHHFNBON_;
-            bitField0_ = (bitField0_ & ~0x00000004);
-          } else {
-            ensureEDBIHHFNBONIsMutable();
-            eDBIHHFNBON_.addAll(other.eDBIHHFNBON_);
-          }
-          onChanged();
-        }
-        if (!other.iBMNHCKCCDM_.isEmpty()) {
-          if (iBMNHCKCCDM_.isEmpty()) {
-            iBMNHCKCCDM_ = other.iBMNHCKCCDM_;
-            bitField0_ = (bitField0_ & ~0x00000008);
-          } else {
-            ensureIBMNHCKCCDMIsMutable();
-            iBMNHCKCCDM_.addAll(other.iBMNHCKCCDM_);
-          }
-          onChanged();
-        }
-        if (!other.aGBONMJOOBA_.isEmpty()) {
-          if (aGBONMJOOBA_.isEmpty()) {
-            aGBONMJOOBA_ = other.aGBONMJOOBA_;
+        if (!other.ePEGGOMGDLF_.isEmpty()) {
+          if (ePEGGOMGDLF_.isEmpty()) {
+            ePEGGOMGDLF_ = other.ePEGGOMGDLF_;
             bitField0_ = (bitField0_ & ~0x00000010);
           } else {
-            ensureAGBONMJOOBAIsMutable();
-            aGBONMJOOBA_.addAll(other.aGBONMJOOBA_);
+            ensureEPEGGOMGDLFIsMutable();
+            ePEGGOMGDLF_.addAll(other.ePEGGOMGDLF_);
           }
           onChanged();
         }
@@ -972,557 +972,557 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList bOEGKNHKIIA_ = emptyIntList();
-      private void ensureBOEGKNHKIIAIsMutable() {
+      private com.google.protobuf.Internal.IntList jPOFFPOCACG_ = emptyIntList();
+      private void ensureJPOFFPOCACGIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          bOEGKNHKIIA_ = mutableCopy(bOEGKNHKIIA_);
+          jPOFFPOCACG_ = mutableCopy(jPOFFPOCACG_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
-       * @return A list containing the bOEGKNHKIIA.
+       * <code>repeated uint32 JPOFFPOCACG = 6;</code>
+       * @return A list containing the jPOFFPOCACG.
        */
       public java.util.List<java.lang.Integer>
-          getBOEGKNHKIIAList() {
+          getJPOFFPOCACGList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(bOEGKNHKIIA_) : bOEGKNHKIIA_;
+                 java.util.Collections.unmodifiableList(jPOFFPOCACG_) : jPOFFPOCACG_;
       }
       /**
-       * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
-       * @return The count of bOEGKNHKIIA.
+       * <code>repeated uint32 JPOFFPOCACG = 6;</code>
+       * @return The count of jPOFFPOCACG.
        */
-      public int getBOEGKNHKIIACount() {
-        return bOEGKNHKIIA_.size();
+      public int getJPOFFPOCACGCount() {
+        return jPOFFPOCACG_.size();
       }
       /**
-       * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
+       * <code>repeated uint32 JPOFFPOCACG = 6;</code>
        * @param index The index of the element to return.
-       * @return The bOEGKNHKIIA at the given index.
+       * @return The jPOFFPOCACG at the given index.
        */
-      public int getBOEGKNHKIIA(int index) {
-        return bOEGKNHKIIA_.getInt(index);
+      public int getJPOFFPOCACG(int index) {
+        return jPOFFPOCACG_.getInt(index);
       }
       /**
-       * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
+       * <code>repeated uint32 JPOFFPOCACG = 6;</code>
        * @param index The index to set the value at.
-       * @param value The bOEGKNHKIIA to set.
+       * @param value The jPOFFPOCACG to set.
        * @return This builder for chaining.
        */
-      public Builder setBOEGKNHKIIA(
+      public Builder setJPOFFPOCACG(
           int index, int value) {
-        ensureBOEGKNHKIIAIsMutable();
-        bOEGKNHKIIA_.setInt(index, value);
+        ensureJPOFFPOCACGIsMutable();
+        jPOFFPOCACG_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
-       * @param value The bOEGKNHKIIA to add.
+       * <code>repeated uint32 JPOFFPOCACG = 6;</code>
+       * @param value The jPOFFPOCACG to add.
        * @return This builder for chaining.
        */
-      public Builder addBOEGKNHKIIA(int value) {
-        ensureBOEGKNHKIIAIsMutable();
-        bOEGKNHKIIA_.addInt(value);
+      public Builder addJPOFFPOCACG(int value) {
+        ensureJPOFFPOCACGIsMutable();
+        jPOFFPOCACG_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
-       * @param values The bOEGKNHKIIA to add.
+       * <code>repeated uint32 JPOFFPOCACG = 6;</code>
+       * @param values The jPOFFPOCACG to add.
        * @return This builder for chaining.
        */
-      public Builder addAllBOEGKNHKIIA(
+      public Builder addAllJPOFFPOCACG(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureBOEGKNHKIIAIsMutable();
+        ensureJPOFFPOCACGIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, bOEGKNHKIIA_);
+            values, jPOFFPOCACG_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 BOEGKNHKIIA = 3;</code>
+       * <code>repeated uint32 JPOFFPOCACG = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearBOEGKNHKIIA() {
-        bOEGKNHKIIA_ = emptyIntList();
+      public Builder clearJPOFFPOCACG() {
+        jPOFFPOCACG_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo> openMapInfoList_ =
-        java.util.Collections.emptyList();
-      private void ensureOpenMapInfoListIsMutable() {
+      private com.google.protobuf.Internal.IntList mPBPICEJOHD_ = emptyIntList();
+      private void ensureMPBPICEJOHDIsMutable() {
         if (!((bitField0_ & 0x00000002) != 0)) {
-          openMapInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo>(openMapInfoList_);
+          mPBPICEJOHD_ = mutableCopy(mPBPICEJOHD_);
           bitField0_ |= 0x00000002;
          }
       }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfoOrBuilder> openMapInfoListBuilder_;
-
       /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+       * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+       * @return A list containing the mPBPICEJOHD.
        */
-      public java.util.List<emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo> getOpenMapInfoListList() {
-        if (openMapInfoListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(openMapInfoList_);
-        } else {
-          return openMapInfoListBuilder_.getMessageList();
-        }
+      public java.util.List<java.lang.Integer>
+          getMPBPICEJOHDList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(mPBPICEJOHD_) : mPBPICEJOHD_;
       }
       /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+       * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+       * @return The count of mPBPICEJOHD.
        */
-      public int getOpenMapInfoListCount() {
-        if (openMapInfoListBuilder_ == null) {
-          return openMapInfoList_.size();
-        } else {
-          return openMapInfoListBuilder_.getCount();
-        }
+      public int getMPBPICEJOHDCount() {
+        return mPBPICEJOHD_.size();
       }
       /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+       * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+       * @param index The index of the element to return.
+       * @return The mPBPICEJOHD at the given index.
        */
-      public emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo getOpenMapInfoList(int index) {
-        if (openMapInfoListBuilder_ == null) {
-          return openMapInfoList_.get(index);
-        } else {
-          return openMapInfoListBuilder_.getMessage(index);
-        }
+      public int getMPBPICEJOHD(int index) {
+        return mPBPICEJOHD_.getInt(index);
       }
       /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+       * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+       * @param index The index to set the value at.
+       * @param value The mPBPICEJOHD to set.
+       * @return This builder for chaining.
        */
-      public Builder setOpenMapInfoList(
-          int index, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo value) {
-        if (openMapInfoListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureOpenMapInfoListIsMutable();
-          openMapInfoList_.set(index, value);
-          onChanged();
-        } else {
-          openMapInfoListBuilder_.setMessage(index, value);
-        }
+      public Builder setMPBPICEJOHD(
+          int index, int value) {
+        ensureMPBPICEJOHDIsMutable();
+        mPBPICEJOHD_.setInt(index, value);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+       * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+       * @param value The mPBPICEJOHD to add.
+       * @return This builder for chaining.
        */
-      public Builder setOpenMapInfoList(
-          int index, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder builderForValue) {
-        if (openMapInfoListBuilder_ == null) {
-          ensureOpenMapInfoListIsMutable();
-          openMapInfoList_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          openMapInfoListBuilder_.setMessage(index, builderForValue.build());
-        }
+      public Builder addMPBPICEJOHD(int value) {
+        ensureMPBPICEJOHDIsMutable();
+        mPBPICEJOHD_.addInt(value);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+       * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+       * @param values The mPBPICEJOHD to add.
+       * @return This builder for chaining.
        */
-      public Builder addOpenMapInfoList(emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo value) {
-        if (openMapInfoListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureOpenMapInfoListIsMutable();
-          openMapInfoList_.add(value);
-          onChanged();
-        } else {
-          openMapInfoListBuilder_.addMessage(value);
-        }
+      public Builder addAllMPBPICEJOHD(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureMPBPICEJOHDIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, mPBPICEJOHD_);
+        onChanged();
         return this;
       }
       /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
+       * <code>repeated uint32 MPBPICEJOHD = 11;</code>
+       * @return This builder for chaining.
        */
-      public Builder addOpenMapInfoList(
-          int index, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo value) {
-        if (openMapInfoListBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureOpenMapInfoListIsMutable();
-          openMapInfoList_.add(index, value);
-          onChanged();
-        } else {
-          openMapInfoListBuilder_.addMessage(index, value);
-        }
+      public Builder clearMPBPICEJOHD() {
+        mPBPICEJOHD_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
+        onChanged();
         return this;
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public Builder addOpenMapInfoList(
-          emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder builderForValue) {
-        if (openMapInfoListBuilder_ == null) {
-          ensureOpenMapInfoListIsMutable();
-          openMapInfoList_.add(builderForValue.build());
-          onChanged();
-        } else {
-          openMapInfoListBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public Builder addOpenMapInfoList(
-          int index, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder builderForValue) {
-        if (openMapInfoListBuilder_ == null) {
-          ensureOpenMapInfoListIsMutable();
-          openMapInfoList_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          openMapInfoListBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public Builder addAllOpenMapInfoList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo> values) {
-        if (openMapInfoListBuilder_ == null) {
-          ensureOpenMapInfoListIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, openMapInfoList_);
-          onChanged();
-        } else {
-          openMapInfoListBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public Builder clearOpenMapInfoList() {
-        if (openMapInfoListBuilder_ == null) {
-          openMapInfoList_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
-          onChanged();
-        } else {
-          openMapInfoListBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public Builder removeOpenMapInfoList(int index) {
-        if (openMapInfoListBuilder_ == null) {
-          ensureOpenMapInfoListIsMutable();
-          openMapInfoList_.remove(index);
-          onChanged();
-        } else {
-          openMapInfoListBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder getOpenMapInfoListBuilder(
-          int index) {
-        return getOpenMapInfoListFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfoOrBuilder getOpenMapInfoListOrBuilder(
-          int index) {
-        if (openMapInfoListBuilder_ == null) {
-          return openMapInfoList_.get(index);  } else {
-          return openMapInfoListBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public java.util.List<? extends emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfoOrBuilder> 
-           getOpenMapInfoListOrBuilderList() {
-        if (openMapInfoListBuilder_ != null) {
-          return openMapInfoListBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(openMapInfoList_);
-        }
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder addOpenMapInfoListBuilder() {
-        return getOpenMapInfoListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder addOpenMapInfoListBuilder(
-          int index) {
-        return getOpenMapInfoListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .HideAndSeekMapInfo open_map_info_list = 13;</code>
-       */
-      public java.util.List<emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder> 
-           getOpenMapInfoListBuilderList() {
-        return getOpenMapInfoListFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfoOrBuilder> 
-          getOpenMapInfoListFieldBuilder() {
-        if (openMapInfoListBuilder_ == null) {
-          openMapInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfoOrBuilder>(
-                  openMapInfoList_,
-                  ((bitField0_ & 0x00000002) != 0),
-                  getParentForChildren(),
-                  isClean());
-          openMapInfoList_ = null;
-        }
-        return openMapInfoListBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList eDBIHHFNBON_ = emptyIntList();
-      private void ensureEDBIHHFNBONIsMutable() {
+      private com.google.protobuf.Internal.IntList dACBLBJPLDD_ = emptyIntList();
+      private void ensureDACBLBJPLDDIsMutable() {
         if (!((bitField0_ & 0x00000004) != 0)) {
-          eDBIHHFNBON_ = mutableCopy(eDBIHHFNBON_);
+          dACBLBJPLDD_ = mutableCopy(dACBLBJPLDD_);
           bitField0_ |= 0x00000004;
          }
       }
       /**
-       * <code>repeated uint32 EDBIHHFNBON = 5;</code>
-       * @return A list containing the eDBIHHFNBON.
+       * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+       * @return A list containing the dACBLBJPLDD.
        */
       public java.util.List<java.lang.Integer>
-          getEDBIHHFNBONList() {
+          getDACBLBJPLDDList() {
         return ((bitField0_ & 0x00000004) != 0) ?
-                 java.util.Collections.unmodifiableList(eDBIHHFNBON_) : eDBIHHFNBON_;
+                 java.util.Collections.unmodifiableList(dACBLBJPLDD_) : dACBLBJPLDD_;
       }
       /**
-       * <code>repeated uint32 EDBIHHFNBON = 5;</code>
-       * @return The count of eDBIHHFNBON.
+       * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+       * @return The count of dACBLBJPLDD.
        */
-      public int getEDBIHHFNBONCount() {
-        return eDBIHHFNBON_.size();
+      public int getDACBLBJPLDDCount() {
+        return dACBLBJPLDD_.size();
       }
       /**
-       * <code>repeated uint32 EDBIHHFNBON = 5;</code>
+       * <code>repeated uint32 DACBLBJPLDD = 15;</code>
        * @param index The index of the element to return.
-       * @return The eDBIHHFNBON at the given index.
+       * @return The dACBLBJPLDD at the given index.
        */
-      public int getEDBIHHFNBON(int index) {
-        return eDBIHHFNBON_.getInt(index);
+      public int getDACBLBJPLDD(int index) {
+        return dACBLBJPLDD_.getInt(index);
       }
       /**
-       * <code>repeated uint32 EDBIHHFNBON = 5;</code>
+       * <code>repeated uint32 DACBLBJPLDD = 15;</code>
        * @param index The index to set the value at.
-       * @param value The eDBIHHFNBON to set.
+       * @param value The dACBLBJPLDD to set.
        * @return This builder for chaining.
        */
-      public Builder setEDBIHHFNBON(
+      public Builder setDACBLBJPLDD(
           int index, int value) {
-        ensureEDBIHHFNBONIsMutable();
-        eDBIHHFNBON_.setInt(index, value);
+        ensureDACBLBJPLDDIsMutable();
+        dACBLBJPLDD_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 EDBIHHFNBON = 5;</code>
-       * @param value The eDBIHHFNBON to add.
+       * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+       * @param value The dACBLBJPLDD to add.
        * @return This builder for chaining.
        */
-      public Builder addEDBIHHFNBON(int value) {
-        ensureEDBIHHFNBONIsMutable();
-        eDBIHHFNBON_.addInt(value);
+      public Builder addDACBLBJPLDD(int value) {
+        ensureDACBLBJPLDDIsMutable();
+        dACBLBJPLDD_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 EDBIHHFNBON = 5;</code>
-       * @param values The eDBIHHFNBON to add.
+       * <code>repeated uint32 DACBLBJPLDD = 15;</code>
+       * @param values The dACBLBJPLDD to add.
        * @return This builder for chaining.
        */
-      public Builder addAllEDBIHHFNBON(
+      public Builder addAllDACBLBJPLDD(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureEDBIHHFNBONIsMutable();
+        ensureDACBLBJPLDDIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, eDBIHHFNBON_);
+            values, dACBLBJPLDD_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 EDBIHHFNBON = 5;</code>
+       * <code>repeated uint32 DACBLBJPLDD = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearEDBIHHFNBON() {
-        eDBIHHFNBON_ = emptyIntList();
+      public Builder clearDACBLBJPLDD() {
+        dACBLBJPLDD_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
       }
 
-      private com.google.protobuf.Internal.IntList iBMNHCKCCDM_ = emptyIntList();
-      private void ensureIBMNHCKCCDMIsMutable() {
+      private java.util.List<emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH> kKOBAEIGICF_ =
+        java.util.Collections.emptyList();
+      private void ensureKKOBAEIGICFIsMutable() {
         if (!((bitField0_ & 0x00000008) != 0)) {
-          iBMNHCKCCDM_ = mutableCopy(iBMNHCKCCDM_);
+          kKOBAEIGICF_ = new java.util.ArrayList<emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH>(kKOBAEIGICF_);
           bitField0_ |= 0x00000008;
          }
       }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIHOrBuilder> kKOBAEIGICFBuilder_;
+
       /**
-       * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-       * @return A list containing the iBMNHCKCCDM.
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
        */
-      public java.util.List<java.lang.Integer>
-          getIBMNHCKCCDMList() {
-        return ((bitField0_ & 0x00000008) != 0) ?
-                 java.util.Collections.unmodifiableList(iBMNHCKCCDM_) : iBMNHCKCCDM_;
+      public java.util.List<emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH> getKKOBAEIGICFList() {
+        if (kKOBAEIGICFBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(kKOBAEIGICF_);
+        } else {
+          return kKOBAEIGICFBuilder_.getMessageList();
+        }
       }
       /**
-       * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-       * @return The count of iBMNHCKCCDM.
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
        */
-      public int getIBMNHCKCCDMCount() {
-        return iBMNHCKCCDM_.size();
+      public int getKKOBAEIGICFCount() {
+        if (kKOBAEIGICFBuilder_ == null) {
+          return kKOBAEIGICF_.size();
+        } else {
+          return kKOBAEIGICFBuilder_.getCount();
+        }
       }
       /**
-       * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-       * @param index The index of the element to return.
-       * @return The iBMNHCKCCDM at the given index.
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
        */
-      public int getIBMNHCKCCDM(int index) {
-        return iBMNHCKCCDM_.getInt(index);
+      public emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH getKKOBAEIGICF(int index) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          return kKOBAEIGICF_.get(index);
+        } else {
+          return kKOBAEIGICFBuilder_.getMessage(index);
+        }
       }
       /**
-       * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-       * @param index The index to set the value at.
-       * @param value The iBMNHCKCCDM to set.
-       * @return This builder for chaining.
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
        */
-      public Builder setIBMNHCKCCDM(
-          int index, int value) {
-        ensureIBMNHCKCCDMIsMutable();
-        iBMNHCKCCDM_.setInt(index, value);
-        onChanged();
+      public Builder setKKOBAEIGICF(
+          int index, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH value) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureKKOBAEIGICFIsMutable();
+          kKOBAEIGICF_.set(index, value);
+          onChanged();
+        } else {
+          kKOBAEIGICFBuilder_.setMessage(index, value);
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-       * @param value The iBMNHCKCCDM to add.
-       * @return This builder for chaining.
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
        */
-      public Builder addIBMNHCKCCDM(int value) {
-        ensureIBMNHCKCCDMIsMutable();
-        iBMNHCKCCDM_.addInt(value);
-        onChanged();
+      public Builder setKKOBAEIGICF(
+          int index, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder builderForValue) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          ensureKKOBAEIGICFIsMutable();
+          kKOBAEIGICF_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          kKOBAEIGICFBuilder_.setMessage(index, builderForValue.build());
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-       * @param values The iBMNHCKCCDM to add.
-       * @return This builder for chaining.
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
        */
-      public Builder addAllIBMNHCKCCDM(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureIBMNHCKCCDMIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, iBMNHCKCCDM_);
-        onChanged();
+      public Builder addKKOBAEIGICF(emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH value) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureKKOBAEIGICFIsMutable();
+          kKOBAEIGICF_.add(value);
+          onChanged();
+        } else {
+          kKOBAEIGICFBuilder_.addMessage(value);
+        }
         return this;
       }
       /**
-       * <code>repeated uint32 IBMNHCKCCDM = 8;</code>
-       * @return This builder for chaining.
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
        */
-      public Builder clearIBMNHCKCCDM() {
-        iBMNHCKCCDM_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000008);
-        onChanged();
+      public Builder addKKOBAEIGICF(
+          int index, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH value) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureKKOBAEIGICFIsMutable();
+          kKOBAEIGICF_.add(index, value);
+          onChanged();
+        } else {
+          kKOBAEIGICFBuilder_.addMessage(index, value);
+        }
         return this;
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public Builder addKKOBAEIGICF(
+          emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder builderForValue) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          ensureKKOBAEIGICFIsMutable();
+          kKOBAEIGICF_.add(builderForValue.build());
+          onChanged();
+        } else {
+          kKOBAEIGICFBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public Builder addKKOBAEIGICF(
+          int index, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder builderForValue) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          ensureKKOBAEIGICFIsMutable();
+          kKOBAEIGICF_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          kKOBAEIGICFBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public Builder addAllKKOBAEIGICF(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH> values) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          ensureKKOBAEIGICFIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, kKOBAEIGICF_);
+          onChanged();
+        } else {
+          kKOBAEIGICFBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public Builder clearKKOBAEIGICF() {
+        if (kKOBAEIGICFBuilder_ == null) {
+          kKOBAEIGICF_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000008);
+          onChanged();
+        } else {
+          kKOBAEIGICFBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public Builder removeKKOBAEIGICF(int index) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          ensureKKOBAEIGICFIsMutable();
+          kKOBAEIGICF_.remove(index);
+          onChanged();
+        } else {
+          kKOBAEIGICFBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder getKKOBAEIGICFBuilder(
+          int index) {
+        return getKKOBAEIGICFFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIHOrBuilder getKKOBAEIGICFOrBuilder(
+          int index) {
+        if (kKOBAEIGICFBuilder_ == null) {
+          return kKOBAEIGICF_.get(index);  } else {
+          return kKOBAEIGICFBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public java.util.List<? extends emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIHOrBuilder> 
+           getKKOBAEIGICFOrBuilderList() {
+        if (kKOBAEIGICFBuilder_ != null) {
+          return kKOBAEIGICFBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(kKOBAEIGICF_);
+        }
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder addKKOBAEIGICFBuilder() {
+        return getKKOBAEIGICFFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder addKKOBAEIGICFBuilder(
+          int index) {
+        return getKKOBAEIGICFFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .CANGBGPKDIH KKOBAEIGICF = 7;</code>
+       */
+      public java.util.List<emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder> 
+           getKKOBAEIGICFBuilderList() {
+        return getKKOBAEIGICFFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIHOrBuilder> 
+          getKKOBAEIGICFFieldBuilder() {
+        if (kKOBAEIGICFBuilder_ == null) {
+          kKOBAEIGICFBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIH.Builder, emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.CANGBGPKDIHOrBuilder>(
+                  kKOBAEIGICF_,
+                  ((bitField0_ & 0x00000008) != 0),
+                  getParentForChildren(),
+                  isClean());
+          kKOBAEIGICF_ = null;
+        }
+        return kKOBAEIGICFBuilder_;
       }
 
-      private com.google.protobuf.Internal.IntList aGBONMJOOBA_ = emptyIntList();
-      private void ensureAGBONMJOOBAIsMutable() {
+      private com.google.protobuf.Internal.IntList ePEGGOMGDLF_ = emptyIntList();
+      private void ensureEPEGGOMGDLFIsMutable() {
         if (!((bitField0_ & 0x00000010) != 0)) {
-          aGBONMJOOBA_ = mutableCopy(aGBONMJOOBA_);
+          ePEGGOMGDLF_ = mutableCopy(ePEGGOMGDLF_);
           bitField0_ |= 0x00000010;
          }
       }
       /**
-       * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-       * @return A list containing the aGBONMJOOBA.
+       * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
+       * @return A list containing the ePEGGOMGDLF.
        */
       public java.util.List<java.lang.Integer>
-          getAGBONMJOOBAList() {
+          getEPEGGOMGDLFList() {
         return ((bitField0_ & 0x00000010) != 0) ?
-                 java.util.Collections.unmodifiableList(aGBONMJOOBA_) : aGBONMJOOBA_;
+                 java.util.Collections.unmodifiableList(ePEGGOMGDLF_) : ePEGGOMGDLF_;
       }
       /**
-       * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-       * @return The count of aGBONMJOOBA.
+       * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
+       * @return The count of ePEGGOMGDLF.
        */
-      public int getAGBONMJOOBACount() {
-        return aGBONMJOOBA_.size();
+      public int getEPEGGOMGDLFCount() {
+        return ePEGGOMGDLF_.size();
       }
       /**
-       * <code>repeated uint32 AGBONMJOOBA = 9;</code>
+       * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
        * @param index The index of the element to return.
-       * @return The aGBONMJOOBA at the given index.
+       * @return The ePEGGOMGDLF at the given index.
        */
-      public int getAGBONMJOOBA(int index) {
-        return aGBONMJOOBA_.getInt(index);
+      public int getEPEGGOMGDLF(int index) {
+        return ePEGGOMGDLF_.getInt(index);
       }
       /**
-       * <code>repeated uint32 AGBONMJOOBA = 9;</code>
+       * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
        * @param index The index to set the value at.
-       * @param value The aGBONMJOOBA to set.
+       * @param value The ePEGGOMGDLF to set.
        * @return This builder for chaining.
        */
-      public Builder setAGBONMJOOBA(
+      public Builder setEPEGGOMGDLF(
           int index, int value) {
-        ensureAGBONMJOOBAIsMutable();
-        aGBONMJOOBA_.setInt(index, value);
+        ensureEPEGGOMGDLFIsMutable();
+        ePEGGOMGDLF_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-       * @param value The aGBONMJOOBA to add.
+       * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
+       * @param value The ePEGGOMGDLF to add.
        * @return This builder for chaining.
        */
-      public Builder addAGBONMJOOBA(int value) {
-        ensureAGBONMJOOBAIsMutable();
-        aGBONMJOOBA_.addInt(value);
+      public Builder addEPEGGOMGDLF(int value) {
+        ensureEPEGGOMGDLFIsMutable();
+        ePEGGOMGDLF_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 AGBONMJOOBA = 9;</code>
-       * @param values The aGBONMJOOBA to add.
+       * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
+       * @param values The ePEGGOMGDLF to add.
        * @return This builder for chaining.
        */
-      public Builder addAllAGBONMJOOBA(
+      public Builder addAllEPEGGOMGDLF(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureAGBONMJOOBAIsMutable();
+        ensureEPEGGOMGDLFIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, aGBONMJOOBA_);
+            values, ePEGGOMGDLF_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 AGBONMJOOBA = 9;</code>
+       * <code>repeated uint32 EPEGGOMGDLF = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAGBONMJOOBA() {
-        aGBONMJOOBA_ = emptyIntList();
+      public Builder clearEPEGGOMGDLF() {
+        ePEGGOMGDLF_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000010);
         onChanged();
         return this;
@@ -1594,26 +1594,26 @@ public final class HideAndSeekActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n#HideAndSeekActivityDetailInfo.proto\032\030H" +
-      "ideAndSeekMapInfo.proto\"\244\001\n\035HideAndSeekA" +
-      "ctivityDetailInfo\022\023\n\013BOEGKNHKIIA\030\003 \003(\r\022/" +
-      "\n\022open_map_info_list\030\r \003(\0132\023.HideAndSeek" +
-      "MapInfo\022\023\n\013EDBIHHFNBON\030\005 \003(\r\022\023\n\013IBMNHCKC" +
-      "CDM\030\010 \003(\r\022\023\n\013AGBONMJOOBA\030\t \003(\rB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n#HideAndSeekActivityDetailInfo.proto\032\021C" +
+      "ANGBGPKDIH.proto\"\226\001\n\035HideAndSeekActivity" +
+      "DetailInfo\022\023\n\013JPOFFPOCACG\030\006 \003(\r\022\023\n\013MPBPI" +
+      "CEJOHD\030\013 \003(\r\022\023\n\013DACBLBJPLDD\030\017 \003(\r\022!\n\013KKO" +
+      "BAEIGICF\030\007 \003(\0132\014.CANGBGPKDIH\022\023\n\013EPEGGOMG" +
+      "DLF\030\001 \003(\rB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.getDescriptor(),
         });
     internal_static_HideAndSeekActivityDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_HideAndSeekActivityDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_HideAndSeekActivityDetailInfo_descriptor,
-        new java.lang.String[] { "BOEGKNHKIIA", "OpenMapInfoList", "EDBIHHFNBON", "IBMNHCKCCDM", "AGBONMJOOBA", });
-    emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.getDescriptor();
+        new java.lang.String[] { "JPOFFPOCACG", "MPBPICEJOHD", "DACBLBJPLDD", "KKOBAEIGICF", "EPEGGOMGDLF", });
+    emu.grasscutter.net.proto.CANGBGPKDIHOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

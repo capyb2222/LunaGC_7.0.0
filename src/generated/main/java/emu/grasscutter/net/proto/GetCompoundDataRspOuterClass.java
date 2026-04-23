@@ -19,55 +19,56 @@ public final class GetCompoundDataRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 unlock_compound_list = 10;</code>
+     * <code>int32 retcode = 14;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
+
+    /**
+     * <code>repeated uint32 unlockCompoundList = 9;</code>
      * @return A list containing the unlockCompoundList.
      */
     java.util.List<java.lang.Integer> getUnlockCompoundListList();
     /**
-     * <code>repeated uint32 unlock_compound_list = 10;</code>
+     * <code>repeated uint32 unlockCompoundList = 9;</code>
      * @return The count of unlockCompoundList.
      */
     int getUnlockCompoundListCount();
     /**
-     * <code>repeated uint32 unlock_compound_list = 10;</code>
+     * <code>repeated uint32 unlockCompoundList = 9;</code>
      * @param index The index of the element to return.
      * @return The unlockCompoundList at the given index.
      */
     int getUnlockCompoundList(int index);
 
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData> 
         getCompoundQueueDataListList();
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData getCompoundQueueDataList(int index);
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     int getCompoundQueueDataListCount();
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueDataOrBuilder> 
         getCompoundQueueDataListOrBuilderList();
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueDataOrBuilder getCompoundQueueDataListOrBuilder(
         int index);
-
-    /**
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
   }
   /**
    * <pre>
-   * CmdId: 8810
+   * CmdId: 24302
+   * Obf: AFFGNHAFPID
    * </pre>
    *
    * Protobuf type {@code GetCompoundDataRsp}
@@ -117,12 +118,7 @@ public final class GetCompoundDataRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              retcode_ = input.readInt32();
-              break;
-            }
-            case 80: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 unlockCompoundList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -130,7 +126,7 @@ public final class GetCompoundDataRspOuterClass {
               unlockCompoundList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,13 +139,18 @@ public final class GetCompoundDataRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 122: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 compoundQueueDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData>();
                 mutable_bitField0_ |= 0x00000002;
               }
               compoundQueueDataList_.add(
                   input.readMessage(emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.parser(), extensionRegistry));
+              break;
+            }
+            case 112: {
+
+              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -190,10 +191,21 @@ public final class GetCompoundDataRspOuterClass {
               emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp.class, emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp.Builder.class);
     }
 
-    public static final int UNLOCK_COMPOUND_LIST_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 14;
+    private int retcode_;
+    /**
+     * <code>int32 retcode = 14;</code>
+     * @return The retcode.
+     */
+    @java.lang.Override
+    public int getRetcode() {
+      return retcode_;
+    }
+
+    public static final int UNLOCKCOMPOUNDLIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList unlockCompoundList_;
     /**
-     * <code>repeated uint32 unlock_compound_list = 10;</code>
+     * <code>repeated uint32 unlockCompoundList = 9;</code>
      * @return A list containing the unlockCompoundList.
      */
     @java.lang.Override
@@ -202,14 +214,14 @@ public final class GetCompoundDataRspOuterClass {
       return unlockCompoundList_;
     }
     /**
-     * <code>repeated uint32 unlock_compound_list = 10;</code>
+     * <code>repeated uint32 unlockCompoundList = 9;</code>
      * @return The count of unlockCompoundList.
      */
     public int getUnlockCompoundListCount() {
       return unlockCompoundList_.size();
     }
     /**
-     * <code>repeated uint32 unlock_compound_list = 10;</code>
+     * <code>repeated uint32 unlockCompoundList = 9;</code>
      * @param index The index of the element to return.
      * @return The unlockCompoundList at the given index.
      */
@@ -218,17 +230,17 @@ public final class GetCompoundDataRspOuterClass {
     }
     private int unlockCompoundListMemoizedSerializedSize = -1;
 
-    public static final int COMPOUND_QUEUE_DATA_LIST_FIELD_NUMBER = 15;
+    public static final int COMPOUNDQUEUEDATALIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData> compoundQueueDataList_;
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData> getCompoundQueueDataListList() {
       return compoundQueueDataList_;
     }
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueDataOrBuilder> 
@@ -236,37 +248,26 @@ public final class GetCompoundDataRspOuterClass {
       return compoundQueueDataList_;
     }
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     @java.lang.Override
     public int getCompoundQueueDataListCount() {
       return compoundQueueDataList_.size();
     }
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData getCompoundQueueDataList(int index) {
       return compoundQueueDataList_.get(index);
     }
     /**
-     * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+     * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueDataOrBuilder getCompoundQueueDataListOrBuilder(
         int index) {
       return compoundQueueDataList_.get(index);
-    }
-
-    public static final int RETCODE_FIELD_NUMBER = 3;
-    private int retcode_;
-    /**
-     * <code>int32 retcode = 3;</code>
-     * @return The retcode.
-     */
-    @java.lang.Override
-    public int getRetcode() {
-      return retcode_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -284,18 +285,18 @@ public final class GetCompoundDataRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (retcode_ != 0) {
-        output.writeInt32(3, retcode_);
-      }
       if (getUnlockCompoundListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(unlockCompoundListMemoizedSerializedSize);
       }
       for (int i = 0; i < unlockCompoundList_.size(); i++) {
         output.writeUInt32NoTag(unlockCompoundList_.getInt(i));
       }
       for (int i = 0; i < compoundQueueDataList_.size(); i++) {
-        output.writeMessage(15, compoundQueueDataList_.get(i));
+        output.writeMessage(12, compoundQueueDataList_.get(i));
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -306,10 +307,6 @@ public final class GetCompoundDataRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(3, retcode_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < unlockCompoundList_.size(); i++) {
@@ -326,7 +323,11 @@ public final class GetCompoundDataRspOuterClass {
       }
       for (int i = 0; i < compoundQueueDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, compoundQueueDataList_.get(i));
+          .computeMessageSize(12, compoundQueueDataList_.get(i));
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -343,12 +344,12 @@ public final class GetCompoundDataRspOuterClass {
       }
       emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp other = (emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp) obj;
 
+      if (getRetcode()
+          != other.getRetcode()) return false;
       if (!getUnlockCompoundListList()
           .equals(other.getUnlockCompoundListList())) return false;
       if (!getCompoundQueueDataListList()
           .equals(other.getCompoundQueueDataListList())) return false;
-      if (getRetcode()
-          != other.getRetcode()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -360,16 +361,16 @@ public final class GetCompoundDataRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getRetcode();
       if (getUnlockCompoundListCount() > 0) {
-        hash = (37 * hash) + UNLOCK_COMPOUND_LIST_FIELD_NUMBER;
+        hash = (37 * hash) + UNLOCKCOMPOUNDLIST_FIELD_NUMBER;
         hash = (53 * hash) + getUnlockCompoundListList().hashCode();
       }
       if (getCompoundQueueDataListCount() > 0) {
-        hash = (37 * hash) + COMPOUND_QUEUE_DATA_LIST_FIELD_NUMBER;
+        hash = (37 * hash) + COMPOUNDQUEUEDATALIST_FIELD_NUMBER;
         hash = (53 * hash) + getCompoundQueueDataListList().hashCode();
       }
-      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getRetcode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -467,7 +468,8 @@ public final class GetCompoundDataRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 8810
+     * CmdId: 24302
+     * Obf: AFFGNHAFPID
      * </pre>
      *
      * Protobuf type {@code GetCompoundDataRsp}
@@ -508,6 +510,8 @@ public final class GetCompoundDataRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        retcode_ = 0;
+
         unlockCompoundList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         if (compoundQueueDataListBuilder_ == null) {
@@ -516,8 +520,6 @@ public final class GetCompoundDataRspOuterClass {
         } else {
           compoundQueueDataListBuilder_.clear();
         }
-        retcode_ = 0;
-
         return this;
       }
 
@@ -545,6 +547,7 @@ public final class GetCompoundDataRspOuterClass {
       public emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp buildPartial() {
         emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp result = new emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp(this);
         int from_bitField0_ = bitField0_;
+        result.retcode_ = retcode_;
         if (((bitField0_ & 0x00000001) != 0)) {
           unlockCompoundList_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
@@ -559,7 +562,6 @@ public final class GetCompoundDataRspOuterClass {
         } else {
           result.compoundQueueDataList_ = compoundQueueDataListBuilder_.build();
         }
-        result.retcode_ = retcode_;
         onBuilt();
         return result;
       }
@@ -608,6 +610,9 @@ public final class GetCompoundDataRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp other) {
         if (other == emu.grasscutter.net.proto.GetCompoundDataRspOuterClass.GetCompoundDataRsp.getDefaultInstance()) return this;
+        if (other.getRetcode() != 0) {
+          setRetcode(other.getRetcode());
+        }
         if (!other.unlockCompoundList_.isEmpty()) {
           if (unlockCompoundList_.isEmpty()) {
             unlockCompoundList_ = other.unlockCompoundList_;
@@ -644,9 +649,6 @@ public final class GetCompoundDataRspOuterClass {
             }
           }
         }
-        if (other.getRetcode() != 0) {
-          setRetcode(other.getRetcode());
-        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -677,6 +679,37 @@ public final class GetCompoundDataRspOuterClass {
       }
       private int bitField0_;
 
+      private int retcode_ ;
+      /**
+       * <code>int32 retcode = 14;</code>
+       * @return The retcode.
+       */
+      @java.lang.Override
+      public int getRetcode() {
+        return retcode_;
+      }
+      /**
+       * <code>int32 retcode = 14;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRetcode(int value) {
+        
+        retcode_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 retcode = 14;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRetcode() {
+        
+        retcode_ = 0;
+        onChanged();
+        return this;
+      }
+
       private com.google.protobuf.Internal.IntList unlockCompoundList_ = emptyIntList();
       private void ensureUnlockCompoundListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
@@ -685,7 +718,7 @@ public final class GetCompoundDataRspOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 unlock_compound_list = 10;</code>
+       * <code>repeated uint32 unlockCompoundList = 9;</code>
        * @return A list containing the unlockCompoundList.
        */
       public java.util.List<java.lang.Integer>
@@ -694,14 +727,14 @@ public final class GetCompoundDataRspOuterClass {
                  java.util.Collections.unmodifiableList(unlockCompoundList_) : unlockCompoundList_;
       }
       /**
-       * <code>repeated uint32 unlock_compound_list = 10;</code>
+       * <code>repeated uint32 unlockCompoundList = 9;</code>
        * @return The count of unlockCompoundList.
        */
       public int getUnlockCompoundListCount() {
         return unlockCompoundList_.size();
       }
       /**
-       * <code>repeated uint32 unlock_compound_list = 10;</code>
+       * <code>repeated uint32 unlockCompoundList = 9;</code>
        * @param index The index of the element to return.
        * @return The unlockCompoundList at the given index.
        */
@@ -709,7 +742,7 @@ public final class GetCompoundDataRspOuterClass {
         return unlockCompoundList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 unlock_compound_list = 10;</code>
+       * <code>repeated uint32 unlockCompoundList = 9;</code>
        * @param index The index to set the value at.
        * @param value The unlockCompoundList to set.
        * @return This builder for chaining.
@@ -722,7 +755,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unlock_compound_list = 10;</code>
+       * <code>repeated uint32 unlockCompoundList = 9;</code>
        * @param value The unlockCompoundList to add.
        * @return This builder for chaining.
        */
@@ -733,7 +766,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unlock_compound_list = 10;</code>
+       * <code>repeated uint32 unlockCompoundList = 9;</code>
        * @param values The unlockCompoundList to add.
        * @return This builder for chaining.
        */
@@ -746,7 +779,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unlock_compound_list = 10;</code>
+       * <code>repeated uint32 unlockCompoundList = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearUnlockCompoundList() {
@@ -769,7 +802,7 @@ public final class GetCompoundDataRspOuterClass {
           emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData, emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder, emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueDataOrBuilder> compoundQueueDataListBuilder_;
 
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData> getCompoundQueueDataListList() {
         if (compoundQueueDataListBuilder_ == null) {
@@ -779,7 +812,7 @@ public final class GetCompoundDataRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public int getCompoundQueueDataListCount() {
         if (compoundQueueDataListBuilder_ == null) {
@@ -789,7 +822,7 @@ public final class GetCompoundDataRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData getCompoundQueueDataList(int index) {
         if (compoundQueueDataListBuilder_ == null) {
@@ -799,7 +832,7 @@ public final class GetCompoundDataRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public Builder setCompoundQueueDataList(
           int index, emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData value) {
@@ -816,7 +849,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public Builder setCompoundQueueDataList(
           int index, emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder builderForValue) {
@@ -830,7 +863,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public Builder addCompoundQueueDataList(emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData value) {
         if (compoundQueueDataListBuilder_ == null) {
@@ -846,7 +879,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public Builder addCompoundQueueDataList(
           int index, emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData value) {
@@ -863,7 +896,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public Builder addCompoundQueueDataList(
           emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder builderForValue) {
@@ -877,7 +910,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public Builder addCompoundQueueDataList(
           int index, emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder builderForValue) {
@@ -891,7 +924,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public Builder addAllCompoundQueueDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData> values) {
@@ -906,7 +939,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public Builder clearCompoundQueueDataList() {
         if (compoundQueueDataListBuilder_ == null) {
@@ -919,7 +952,7 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public Builder removeCompoundQueueDataList(int index) {
         if (compoundQueueDataListBuilder_ == null) {
@@ -932,14 +965,14 @@ public final class GetCompoundDataRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder getCompoundQueueDataListBuilder(
           int index) {
         return getCompoundQueueDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueDataOrBuilder getCompoundQueueDataListOrBuilder(
           int index) {
@@ -949,7 +982,7 @@ public final class GetCompoundDataRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueDataOrBuilder> 
            getCompoundQueueDataListOrBuilderList() {
@@ -960,14 +993,14 @@ public final class GetCompoundDataRspOuterClass {
         }
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder addCompoundQueueDataListBuilder() {
         return getCompoundQueueDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.getDefaultInstance());
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder addCompoundQueueDataListBuilder(
           int index) {
@@ -975,7 +1008,7 @@ public final class GetCompoundDataRspOuterClass {
             index, emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.getDefaultInstance());
       }
       /**
-       * <code>repeated .CompoundQueueData compound_queue_data_list = 15;</code>
+       * <code>repeated .CompoundQueueData compoundQueueDataList = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder> 
            getCompoundQueueDataListBuilderList() {
@@ -994,37 +1027,6 @@ public final class GetCompoundDataRspOuterClass {
           compoundQueueDataList_ = null;
         }
         return compoundQueueDataListBuilder_;
-      }
-
-      private int retcode_ ;
-      /**
-       * <code>int32 retcode = 3;</code>
-       * @return The retcode.
-       */
-      @java.lang.Override
-      public int getRetcode() {
-        return retcode_;
-      }
-      /**
-       * <code>int32 retcode = 3;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRetcode(int value) {
-        
-        retcode_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 retcode = 3;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRetcode() {
-        
-        retcode_ = 0;
-        onChanged();
-        return this;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -1094,11 +1096,11 @@ public final class GetCompoundDataRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030GetCompoundDataRsp.proto\032\027CompoundQueu" +
-      "eData.proto\"y\n\022GetCompoundDataRsp\022\034\n\024unl" +
-      "ock_compound_list\030\n \003(\r\0224\n\030compound_queu" +
-      "e_data_list\030\017 \003(\0132\022.CompoundQueueData\022\017\n" +
-      "\007retcode\030\003 \001(\005B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "eData.proto\"t\n\022GetCompoundDataRsp\022\017\n\007ret" +
+      "code\030\016 \001(\005\022\032\n\022unlockCompoundList\030\t \003(\r\0221" +
+      "\n\025compoundQueueDataList\030\014 \003(\0132\022.Compound" +
+      "QueueDataB\033\n\031emu.grasscutter.net.protob\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1110,7 +1112,7 @@ public final class GetCompoundDataRspOuterClass {
     internal_static_GetCompoundDataRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetCompoundDataRsp_descriptor,
-        new java.lang.String[] { "UnlockCompoundList", "CompoundQueueDataList", "Retcode", });
+        new java.lang.String[] { "Retcode", "UnlockCompoundList", "CompoundQueueDataList", });
     emu.grasscutter.net.proto.CompoundQueueDataOuterClass.getDescriptor();
   }
 

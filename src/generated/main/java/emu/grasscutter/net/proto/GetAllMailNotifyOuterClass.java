@@ -19,16 +19,16 @@ public final class GetAllMailNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0    
+     * </pre>
+     *
      * <code>bool is_collected = 8;</code>
      * @return The isCollected.
      */
     boolean getIsCollected();
   }
   /**
-   * <pre>
-   * CmdId: 976
-   * </pre>
-   *
    * Protobuf type {@code GetAllMailNotify}
    */
   public static final class GetAllMailNotify extends
@@ -113,6 +113,10 @@ public final class GetAllMailNotifyOuterClass {
     public static final int IS_COLLECTED_FIELD_NUMBER = 8;
     private boolean isCollected_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0    
+     * </pre>
+     *
      * <code>bool is_collected = 8;</code>
      * @return The isCollected.
      */
@@ -278,10 +282,6 @@ public final class GetAllMailNotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 976
-     * </pre>
-     *
      * Protobuf type {@code GetAllMailNotify}
      */
     public static final class Builder extends
@@ -430,6 +430,10 @@ public final class GetAllMailNotifyOuterClass {
 
       private boolean isCollected_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0    
+       * </pre>
+       *
        * <code>bool is_collected = 8;</code>
        * @return The isCollected.
        */
@@ -438,6 +442,10 @@ public final class GetAllMailNotifyOuterClass {
         return isCollected_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0    
+       * </pre>
+       *
        * <code>bool is_collected = 8;</code>
        * @param value The isCollected to set.
        * @return This builder for chaining.
@@ -449,6 +457,10 @@ public final class GetAllMailNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0    
+       * </pre>
+       *
        * <code>bool is_collected = 8;</code>
        * @return This builder for chaining.
        */

@@ -19,24 +19,40 @@ public final class ItemHintOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 count = 2;</code>
-     * @return The count.
-     */
-    int getCount();
-
-    /**
-     * <code>uint32 item_id = 1;</code>
-     * @return The itemId.
-     */
-    int getItemId();
-
-    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>bool is_new = 3;</code>
      * @return The isNew.
      */
     boolean getIsNew();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    int getItemId();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 count = 2;</code>
+     * @return The count.
+     */
+    int getCount();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint64 guid = 4;</code>
      * @return The guid.
      */
@@ -139,31 +155,13 @@ public final class ItemHintOuterClass {
               emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.class, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder.class);
     }
 
-    public static final int COUNT_FIELD_NUMBER = 2;
-    private int count_;
-    /**
-     * <code>uint32 count = 2;</code>
-     * @return The count.
-     */
-    @java.lang.Override
-    public int getCount() {
-      return count_;
-    }
-
-    public static final int ITEM_ID_FIELD_NUMBER = 1;
-    private int itemId_;
-    /**
-     * <code>uint32 item_id = 1;</code>
-     * @return The itemId.
-     */
-    @java.lang.Override
-    public int getItemId() {
-      return itemId_;
-    }
-
     public static final int IS_NEW_FIELD_NUMBER = 3;
     private boolean isNew_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>bool is_new = 3;</code>
      * @return The isNew.
      */
@@ -172,9 +170,43 @@ public final class ItemHintOuterClass {
       return isNew_;
     }
 
+    public static final int ITEM_ID_FIELD_NUMBER = 1;
+    private int itemId_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 item_id = 1;</code>
+     * @return The itemId.
+     */
+    @java.lang.Override
+    public int getItemId() {
+      return itemId_;
+    }
+
+    public static final int COUNT_FIELD_NUMBER = 2;
+    private int count_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 count = 2;</code>
+     * @return The count.
+     */
+    @java.lang.Override
+    public int getCount() {
+      return count_;
+    }
+
     public static final int GUID_FIELD_NUMBER = 4;
     private long guid_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint64 guid = 4;</code>
      * @return The guid.
      */
@@ -249,12 +281,12 @@ public final class ItemHintOuterClass {
       }
       emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint other = (emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint) obj;
 
-      if (getCount()
-          != other.getCount()) return false;
-      if (getItemId()
-          != other.getItemId()) return false;
       if (getIsNew()
           != other.getIsNew()) return false;
+      if (getItemId()
+          != other.getItemId()) return false;
+      if (getCount()
+          != other.getCount()) return false;
       if (getGuid()
           != other.getGuid()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -268,13 +300,13 @@ public final class ItemHintOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + COUNT_FIELD_NUMBER;
-      hash = (53 * hash) + getCount();
-      hash = (37 * hash) + ITEM_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getItemId();
       hash = (37 * hash) + IS_NEW_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsNew());
+      hash = (37 * hash) + ITEM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getItemId();
+      hash = (37 * hash) + COUNT_FIELD_NUMBER;
+      hash = (53 * hash) + getCount();
       hash = (37 * hash) + GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           getGuid());
@@ -411,11 +443,11 @@ public final class ItemHintOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        count_ = 0;
+        isNew_ = false;
 
         itemId_ = 0;
 
-        isNew_ = false;
+        count_ = 0;
 
         guid_ = 0L;
 
@@ -445,9 +477,9 @@ public final class ItemHintOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint buildPartial() {
         emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint result = new emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint(this);
-        result.count_ = count_;
-        result.itemId_ = itemId_;
         result.isNew_ = isNew_;
+        result.itemId_ = itemId_;
+        result.count_ = count_;
         result.guid_ = guid_;
         onBuilt();
         return result;
@@ -497,14 +529,14 @@ public final class ItemHintOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint other) {
         if (other == emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.getDefaultInstance()) return this;
-        if (other.getCount() != 0) {
-          setCount(other.getCount());
+        if (other.getIsNew() != false) {
+          setIsNew(other.getIsNew());
         }
         if (other.getItemId() != 0) {
           setItemId(other.getItemId());
         }
-        if (other.getIsNew() != false) {
-          setIsNew(other.getIsNew());
+        if (other.getCount() != 0) {
+          setCount(other.getCount());
         }
         if (other.getGuid() != 0L) {
           setGuid(other.getGuid());
@@ -538,70 +570,12 @@ public final class ItemHintOuterClass {
         return this;
       }
 
-      private int count_ ;
-      /**
-       * <code>uint32 count = 2;</code>
-       * @return The count.
-       */
-      @java.lang.Override
-      public int getCount() {
-        return count_;
-      }
-      /**
-       * <code>uint32 count = 2;</code>
-       * @param value The count to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCount(int value) {
-        
-        count_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 count = 2;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCount() {
-        
-        count_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int itemId_ ;
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @return The itemId.
-       */
-      @java.lang.Override
-      public int getItemId() {
-        return itemId_;
-      }
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @param value The itemId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setItemId(int value) {
-        
-        itemId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 item_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearItemId() {
-        
-        itemId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private boolean isNew_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>bool is_new = 3;</code>
        * @return The isNew.
        */
@@ -610,6 +584,10 @@ public final class ItemHintOuterClass {
         return isNew_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>bool is_new = 3;</code>
        * @param value The isNew to set.
        * @return This builder for chaining.
@@ -621,6 +599,10 @@ public final class ItemHintOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>bool is_new = 3;</code>
        * @return This builder for chaining.
        */
@@ -631,8 +613,98 @@ public final class ItemHintOuterClass {
         return this;
       }
 
+      private int itemId_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 item_id = 1;</code>
+       * @return The itemId.
+       */
+      @java.lang.Override
+      public int getItemId() {
+        return itemId_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 item_id = 1;</code>
+       * @param value The itemId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setItemId(int value) {
+        
+        itemId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 item_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearItemId() {
+        
+        itemId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int count_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 count = 2;</code>
+       * @return The count.
+       */
+      @java.lang.Override
+      public int getCount() {
+        return count_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 count = 2;</code>
+       * @param value The count to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCount(int value) {
+        
+        count_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 count = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCount() {
+        
+        count_ = 0;
+        onChanged();
+        return this;
+      }
+
       private long guid_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint64 guid = 4;</code>
        * @return The guid.
        */
@@ -641,6 +713,10 @@ public final class ItemHintOuterClass {
         return guid_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint64 guid = 4;</code>
        * @param value The guid to set.
        * @return This builder for chaining.
@@ -652,6 +728,10 @@ public final class ItemHintOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint64 guid = 4;</code>
        * @return This builder for chaining.
        */
@@ -728,8 +808,8 @@ public final class ItemHintOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016ItemHint.proto\"H\n\010ItemHint\022\r\n\005count\030\002 " +
-      "\001(\r\022\017\n\007item_id\030\001 \001(\r\022\016\n\006is_new\030\003 \001(\010\022\014\n\004" +
+      "\n\016ItemHint.proto\"H\n\010ItemHint\022\016\n\006is_new\030\003" +
+      " \001(\010\022\017\n\007item_id\030\001 \001(\r\022\r\n\005count\030\002 \001(\r\022\014\n\004" +
       "guid\030\004 \001(\004B\033\n\031emu.grasscutter.net.protob" +
       "\006proto3"
     };
@@ -742,7 +822,7 @@ public final class ItemHintOuterClass {
     internal_static_ItemHint_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ItemHint_descriptor,
-        new java.lang.String[] { "Count", "ItemId", "IsNew", "Guid", });
+        new java.lang.String[] { "IsNew", "ItemId", "Count", "Guid", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

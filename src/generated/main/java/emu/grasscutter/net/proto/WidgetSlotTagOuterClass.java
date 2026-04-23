@@ -20,24 +20,24 @@ public final class WidgetSlotTagOuterClass {
   public enum WidgetSlotTag
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>WIDGET_SLOT_TAG_QUICK_USE = 0;</code>
+     * <code>WidgetSlotTag_WIDGET_SLOT_QUICK_USE = 0;</code>
      */
-    WIDGET_SLOT_TAG_QUICK_USE(0),
+    WidgetSlotTag_WIDGET_SLOT_QUICK_USE(0),
     /**
-     * <code>WIDGET_SLOT_TAG_ATTACH_AVATAR = 1;</code>
+     * <code>WidgetSlotTag_WIDGET_SLOT_ATTACH_AVATAR = 1;</code>
      */
-    WIDGET_SLOT_TAG_ATTACH_AVATAR(1),
+    WidgetSlotTag_WIDGET_SLOT_ATTACH_AVATAR(1),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>WIDGET_SLOT_TAG_QUICK_USE = 0;</code>
+     * <code>WidgetSlotTag_WIDGET_SLOT_QUICK_USE = 0;</code>
      */
-    public static final int WIDGET_SLOT_TAG_QUICK_USE_VALUE = 0;
+    public static final int WidgetSlotTag_WIDGET_SLOT_QUICK_USE_VALUE = 0;
     /**
-     * <code>WIDGET_SLOT_TAG_ATTACH_AVATAR = 1;</code>
+     * <code>WidgetSlotTag_WIDGET_SLOT_ATTACH_AVATAR = 1;</code>
      */
-    public static final int WIDGET_SLOT_TAG_ATTACH_AVATAR_VALUE = 1;
+    public static final int WidgetSlotTag_WIDGET_SLOT_ATTACH_AVATAR_VALUE = 1;
 
 
     public final int getNumber() {
@@ -64,8 +64,8 @@ public final class WidgetSlotTagOuterClass {
      */
     public static WidgetSlotTag forNumber(int value) {
       switch (value) {
-        case 0: return WIDGET_SLOT_TAG_QUICK_USE;
-        case 1: return WIDGET_SLOT_TAG_ATTACH_AVATAR;
+        case 0: return WidgetSlotTag_WIDGET_SLOT_QUICK_USE;
+        case 1: return WidgetSlotTag_WIDGET_SLOT_ATTACH_AVATAR;
         default: return null;
       }
     }
@@ -131,10 +131,11 @@ public final class WidgetSlotTagOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023WidgetSlotTag.proto*Q\n\rWidgetSlotTag\022\035" +
-      "\n\031WIDGET_SLOT_TAG_QUICK_USE\020\000\022!\n\035WIDGET_" +
-      "SLOT_TAG_ATTACH_AVATAR\020\001B\033\n\031emu.grasscut" +
-      "ter.net.protob\006proto3"
+      "\n\023WidgetSlotTag.proto*e\n\rWidgetSlotTag\022\'" +
+      "\n#WidgetSlotTag_WIDGET_SLOT_QUICK_USE\020\000\022" +
+      "+\n\'WidgetSlotTag_WIDGET_SLOT_ATTACH_AVAT" +
+      "AR\020\001B\033\n\031emu.grasscutter.net.protob\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

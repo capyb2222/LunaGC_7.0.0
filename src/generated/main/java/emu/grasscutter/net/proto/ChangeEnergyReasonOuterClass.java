@@ -20,72 +20,64 @@ public final class ChangeEnergyReasonOuterClass {
   public enum ChangeEnergyReason
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>CHANGE_ENERGY_REASON_NONE = 0;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_NONE = 0;</code>
      */
-    CHANGE_ENERGY_REASON_NONE(0),
+    ChangeEnergyReason_CHANGE_ENERGY_NONE(0),
     /**
-     * <code>CHANGE_ENERGY_REASON_SKILL_START = 1;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_SKILL_START = 1;</code>
      */
-    CHANGE_ENERGY_REASON_SKILL_START(1),
+    ChangeEnergyReason_CHANGE_ENERGY_SKILL_START(1),
     /**
-     * <code>CHANGE_ENERGY_REASON_BALL = 2;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_BALL = 2;</code>
      */
-    CHANGE_ENERGY_REASON_BALL(2),
+    ChangeEnergyReason_CHANGE_ENERGY_BALL(2),
     /**
-     * <code>CHANGE_ENERGY_REASON_QUEST = 3;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_QUEST = 3;</code>
      */
-    CHANGE_ENERGY_REASON_QUEST(3),
+    ChangeEnergyReason_CHANGE_ENERGY_QUEST(3),
     /**
-     * <code>CHANGE_ENERGY_REASON_ABILITY = 4;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_ABILITY = 4;</code>
      */
-    CHANGE_ENERGY_REASON_ABILITY(4),
+    ChangeEnergyReason_CHANGE_ENERGY_ABILITY(4),
     /**
-     * <code>CHANGE_ENERGY_REASON_DIE = 5;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_DIE = 5;</code>
      */
-    CHANGE_ENERGY_REASON_DIE(5),
+    ChangeEnergyReason_CHANGE_ENERGY_DIE(5),
     /**
-     * <code>CHANGE_ENERGY_REASON_SKILL_DEPOT = 6;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT = 6;</code>
      */
-    CHANGE_ENERGY_REASON_SKILL_DEPOT(6),
-    /**
-     * <code>CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT = 7;</code>
-     */
-    CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT(7),
+    ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT(6),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>CHANGE_ENERGY_REASON_NONE = 0;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_NONE = 0;</code>
      */
-    public static final int CHANGE_ENERGY_REASON_NONE_VALUE = 0;
+    public static final int ChangeEnergyReason_CHANGE_ENERGY_NONE_VALUE = 0;
     /**
-     * <code>CHANGE_ENERGY_REASON_SKILL_START = 1;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_SKILL_START = 1;</code>
      */
-    public static final int CHANGE_ENERGY_REASON_SKILL_START_VALUE = 1;
+    public static final int ChangeEnergyReason_CHANGE_ENERGY_SKILL_START_VALUE = 1;
     /**
-     * <code>CHANGE_ENERGY_REASON_BALL = 2;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_BALL = 2;</code>
      */
-    public static final int CHANGE_ENERGY_REASON_BALL_VALUE = 2;
+    public static final int ChangeEnergyReason_CHANGE_ENERGY_BALL_VALUE = 2;
     /**
-     * <code>CHANGE_ENERGY_REASON_QUEST = 3;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_QUEST = 3;</code>
      */
-    public static final int CHANGE_ENERGY_REASON_QUEST_VALUE = 3;
+    public static final int ChangeEnergyReason_CHANGE_ENERGY_QUEST_VALUE = 3;
     /**
-     * <code>CHANGE_ENERGY_REASON_ABILITY = 4;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_ABILITY = 4;</code>
      */
-    public static final int CHANGE_ENERGY_REASON_ABILITY_VALUE = 4;
+    public static final int ChangeEnergyReason_CHANGE_ENERGY_ABILITY_VALUE = 4;
     /**
-     * <code>CHANGE_ENERGY_REASON_DIE = 5;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_DIE = 5;</code>
      */
-    public static final int CHANGE_ENERGY_REASON_DIE_VALUE = 5;
+    public static final int ChangeEnergyReason_CHANGE_ENERGY_DIE_VALUE = 5;
     /**
-     * <code>CHANGE_ENERGY_REASON_SKILL_DEPOT = 6;</code>
+     * <code>ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT = 6;</code>
      */
-    public static final int CHANGE_ENERGY_REASON_SKILL_DEPOT_VALUE = 6;
-    /**
-     * <code>CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT = 7;</code>
-     */
-    public static final int CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT_VALUE = 7;
+    public static final int ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT_VALUE = 6;
 
 
     public final int getNumber() {
@@ -112,14 +104,13 @@ public final class ChangeEnergyReasonOuterClass {
      */
     public static ChangeEnergyReason forNumber(int value) {
       switch (value) {
-        case 0: return CHANGE_ENERGY_REASON_NONE;
-        case 1: return CHANGE_ENERGY_REASON_SKILL_START;
-        case 2: return CHANGE_ENERGY_REASON_BALL;
-        case 3: return CHANGE_ENERGY_REASON_QUEST;
-        case 4: return CHANGE_ENERGY_REASON_ABILITY;
-        case 5: return CHANGE_ENERGY_REASON_DIE;
-        case 6: return CHANGE_ENERGY_REASON_SKILL_DEPOT;
-        case 7: return CHANGE_ENERGY_REASON_BEYOND_BLUEPRINT;
+        case 0: return ChangeEnergyReason_CHANGE_ENERGY_NONE;
+        case 1: return ChangeEnergyReason_CHANGE_ENERGY_SKILL_START;
+        case 2: return ChangeEnergyReason_CHANGE_ENERGY_BALL;
+        case 3: return ChangeEnergyReason_CHANGE_ENERGY_QUEST;
+        case 4: return ChangeEnergyReason_CHANGE_ENERGY_ABILITY;
+        case 5: return ChangeEnergyReason_CHANGE_ENERGY_DIE;
+        case 6: return ChangeEnergyReason_CHANGE_ENERGY_SKILL_DEPOT;
         default: return null;
       }
     }
@@ -185,16 +176,17 @@ public final class ChangeEnergyReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030ChangeEnergyReason.proto*\251\002\n\022ChangeEne" +
-      "rgyReason\022\035\n\031CHANGE_ENERGY_REASON_NONE\020\000" +
-      "\022$\n CHANGE_ENERGY_REASON_SKILL_START\020\001\022\035" +
-      "\n\031CHANGE_ENERGY_REASON_BALL\020\002\022\036\n\032CHANGE_" +
-      "ENERGY_REASON_QUEST\020\003\022 \n\034CHANGE_ENERGY_R" +
-      "EASON_ABILITY\020\004\022\034\n\030CHANGE_ENERGY_REASON_" +
-      "DIE\020\005\022$\n CHANGE_ENERGY_REASON_SKILL_DEPO" +
-      "T\020\006\022)\n%CHANGE_ENERGY_REASON_BEYOND_BLUEP" +
-      "RINT\020\007B\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\n\030ChangeEnergyReason.proto*\322\002\n\022ChangeEne" +
+      "rgyReason\022)\n%ChangeEnergyReason_CHANGE_E" +
+      "NERGY_NONE\020\000\0220\n,ChangeEnergyReason_CHANG" +
+      "E_ENERGY_SKILL_START\020\001\022)\n%ChangeEnergyRe" +
+      "ason_CHANGE_ENERGY_BALL\020\002\022*\n&ChangeEnerg" +
+      "yReason_CHANGE_ENERGY_QUEST\020\003\022,\n(ChangeE" +
+      "nergyReason_CHANGE_ENERGY_ABILITY\020\004\022(\n$C" +
+      "hangeEnergyReason_CHANGE_ENERGY_DIE\020\005\0220\n" +
+      ",ChangeEnergyReason_CHANGE_ENERGY_SKILL_" +
+      "DEPOT\020\006B\033\n\031emu.grasscutter.net.protob\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

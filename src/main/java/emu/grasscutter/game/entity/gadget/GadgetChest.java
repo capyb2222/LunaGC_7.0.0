@@ -33,13 +33,13 @@ public class GadgetChest extends GadgetContent {
             if (chest.boss_chest != null && chest.drop_tag != null) {
                 // Boss chest drop
                 // TODO:check for blossom chests
-                if (req.getOpType() == InterOpType.INTER_OP_TYPE_START) {
+                if (req.getOpType() == InterOpType.InterOpType_INTER_OP_START) {
                     // Two steps
                     player.sendPacket(
                             new PacketGadgetInteractRsp(
                                     getGadget(),
-                                    InteractType.INTERACT_TYPE_OPEN_CHEST,
-                                    InterOpType.INTER_OP_TYPE_START));
+                                    InteractType.InteractType_INTERACT_OPEN_CHEST,
+                                    InterOpType.InterOpType_INTER_OP_START));
                     return false;
                 }
                 // TODO:check for take_num.(some boss rewards can only be claimed once a week.). Handle boss
@@ -58,8 +58,8 @@ public class GadgetChest extends GadgetContent {
                     player.sendPacket(
                             new PacketGadgetInteractRsp(
                                     this.getGadget(),
-                                    InteractTypeOuterClass.InteractType.INTERACT_TYPE_OPEN_CHEST,
-                                    InterOpType.INTER_OP_TYPE_FINISH));
+                                    InteractTypeOuterClass.InteractType.InteractType_INTERACT_OPEN_CHEST,
+                                    InterOpType.InterOpType_INTER_OP_FINISH));
                     return true;
                 }
                 // if failed,fallback to legacy drop system.
@@ -79,8 +79,8 @@ public class GadgetChest extends GadgetContent {
                     player.sendPacket(
                             new PacketGadgetInteractRsp(
                                     getGadget(),
-                                    InteractType.INTERACT_TYPE_OPEN_CHEST,
-                                    InterOpType.INTER_OP_TYPE_FINISH));
+                                    InteractType.InteractType_INTERACT_OPEN_CHEST,
+                                    InterOpType.InterOpType_INTER_OP_FINISH));
                     player.sendPacket(
                             new PacketWorldChestOpenNotify(
                                     getGadget().getGroupId(), player.getSceneId(), chest.config_id));
@@ -112,10 +112,10 @@ public class GadgetChest extends GadgetContent {
             return false;
         }
 
-        if (req.getOpType() == InterOpType.INTER_OP_TYPE_START && handler.isTwoStep()) {
+        if (req.getOpType() == InterOpType.InterOpType_INTER_OP_START && handler.isTwoStep()) {
             player.sendPacket(
                     new PacketGadgetInteractRsp(
-                            getGadget(), InteractType.INTERACT_TYPE_OPEN_CHEST, InterOpType.INTER_OP_TYPE_START));
+                            getGadget(), InteractType.InteractType_INTERACT_OPEN_CHEST, InterOpType.InterOpType_INTER_OP_START));
             return false;
         } else {
             boolean success;
@@ -125,7 +125,7 @@ public class GadgetChest extends GadgetContent {
                                 this,
                                 player,
                                 req.getResinCostType()
-                                        == ResinCostTypeOuterClass.ResinCostType.RESIN_COST_TYPE_CONDENSE);
+                                        == ResinCostTypeOuterClass.ResinCostType.ResinCostType_CONDENSE);
             } else {
                 success = handler.onInteract(this, player);
             }
@@ -137,8 +137,8 @@ public class GadgetChest extends GadgetContent {
             player.sendPacket(
                     new PacketGadgetInteractRsp(
                             this.getGadget(),
-                            InteractTypeOuterClass.InteractType.INTERACT_TYPE_OPEN_CHEST,
-                            InterOpType.INTER_OP_TYPE_FINISH));
+                            InteractTypeOuterClass.InteractType.InteractType_INTERACT_OPEN_CHEST,
+                            InterOpType.InterOpType_INTER_OP_FINISH));
 
             return true;
         }

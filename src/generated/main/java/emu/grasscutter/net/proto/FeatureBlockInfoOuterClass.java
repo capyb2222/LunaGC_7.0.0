@@ -19,12 +19,20 @@ public final class FeatureBlockInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 feature_type = 1;</code>
      * @return The featureType.
      */
     int getFeatureType();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 end_time = 2;</code>
      * @return The endTime.
      */
@@ -120,6 +128,10 @@ public final class FeatureBlockInfoOuterClass {
     public static final int FEATURE_TYPE_FIELD_NUMBER = 1;
     private int featureType_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 feature_type = 1;</code>
      * @return The featureType.
      */
@@ -131,6 +143,10 @@ public final class FeatureBlockInfoOuterClass {
     public static final int END_TIME_FIELD_NUMBER = 2;
     private int endTime_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 end_time = 2;</code>
      * @return The endTime.
      */
@@ -460,6 +476,10 @@ public final class FeatureBlockInfoOuterClass {
 
       private int featureType_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 feature_type = 1;</code>
        * @return The featureType.
        */
@@ -468,6 +488,10 @@ public final class FeatureBlockInfoOuterClass {
         return featureType_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 feature_type = 1;</code>
        * @param value The featureType to set.
        * @return This builder for chaining.
@@ -479,6 +503,10 @@ public final class FeatureBlockInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 feature_type = 1;</code>
        * @return This builder for chaining.
        */
@@ -491,6 +519,10 @@ public final class FeatureBlockInfoOuterClass {
 
       private int endTime_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 end_time = 2;</code>
        * @return The endTime.
        */
@@ -499,6 +531,10 @@ public final class FeatureBlockInfoOuterClass {
         return endTime_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 end_time = 2;</code>
        * @param value The endTime to set.
        * @return This builder for chaining.
@@ -510,6 +546,10 @@ public final class FeatureBlockInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 end_time = 2;</code>
        * @return This builder for chaining.
        */

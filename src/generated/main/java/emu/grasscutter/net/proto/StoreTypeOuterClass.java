@@ -20,32 +20,32 @@ public final class StoreTypeOuterClass {
   public enum StoreType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>STORE_TYPE_NONE = 0;</code>
+     * <code>StoreType_STORE_NONE = 0;</code>
      */
-    STORE_TYPE_NONE(0),
+    StoreType_STORE_NONE(0),
     /**
-     * <code>STORE_TYPE_PACK = 1;</code>
+     * <code>StoreType_STORE_PACK = 1;</code>
      */
-    STORE_TYPE_PACK(1),
+    StoreType_STORE_PACK(1),
     /**
-     * <code>STORE_TYPE_DEPOT = 2;</code>
+     * <code>StoreType_STORE_DEPOT = 2;</code>
      */
-    STORE_TYPE_DEPOT(2),
+    StoreType_STORE_DEPOT(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>STORE_TYPE_NONE = 0;</code>
+     * <code>StoreType_STORE_NONE = 0;</code>
      */
-    public static final int STORE_TYPE_NONE_VALUE = 0;
+    public static final int StoreType_STORE_NONE_VALUE = 0;
     /**
-     * <code>STORE_TYPE_PACK = 1;</code>
+     * <code>StoreType_STORE_PACK = 1;</code>
      */
-    public static final int STORE_TYPE_PACK_VALUE = 1;
+    public static final int StoreType_STORE_PACK_VALUE = 1;
     /**
-     * <code>STORE_TYPE_DEPOT = 2;</code>
+     * <code>StoreType_STORE_DEPOT = 2;</code>
      */
-    public static final int STORE_TYPE_DEPOT_VALUE = 2;
+    public static final int StoreType_STORE_DEPOT_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class StoreTypeOuterClass {
      */
     public static StoreType forNumber(int value) {
       switch (value) {
-        case 0: return STORE_TYPE_NONE;
-        case 1: return STORE_TYPE_PACK;
-        case 2: return STORE_TYPE_DEPOT;
+        case 0: return StoreType_STORE_NONE;
+        case 1: return StoreType_STORE_PACK;
+        case 2: return StoreType_STORE_DEPOT;
         default: return null;
       }
     }
@@ -140,10 +140,10 @@ public final class StoreTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017StoreType.proto*K\n\tStoreType\022\023\n\017STORE_" +
-      "TYPE_NONE\020\000\022\023\n\017STORE_TYPE_PACK\020\001\022\024\n\020STOR" +
-      "E_TYPE_DEPOT\020\002B\033\n\031emu.grasscutter.net.pr" +
-      "otob\006proto3"
+      "\n\017StoreType.proto*Z\n\tStoreType\022\030\n\024StoreT" +
+      "ype_STORE_NONE\020\000\022\030\n\024StoreType_STORE_PACK" +
+      "\020\001\022\031\n\025StoreType_STORE_DEPOT\020\002B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

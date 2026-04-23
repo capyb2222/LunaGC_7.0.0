@@ -4,3 +4,6 @@
 [submodule "src/handbook/data/assets"]
 	path = src/handbook/data/assets
 	url = https://github.com/genshitters/gm-handbook-assets.git
+[submodule "patch"]
+	path = patch
+	url = https://github.com/kitkat033/hk4e-patch-universal

@@ -17,7 +17,7 @@ public class HandlerGetUgcReq extends PacketHandler {
 
         PacketGetUgcRsp rsp = null;
 
-        if (req.getUgcType() == UgcTypeOuterClass.UgcType.UGC_TYPE_MUSIC_GAME) {
+        if (req.getUgcType() == UgcTypeOuterClass.UgcType.UgcType_MUSIC_GAME) {
             val musicGameBeatmap = MusicGameBeatmap.getByShareId(req.getUgcGuid());
 
             if (musicGameBeatmap != null) {

@@ -19,44 +19,52 @@ public final class FoundationInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 uid_list = 2;</code>
-     * @return A list containing the uidList.
+     * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
+     * @return A list containing the eCNOPBCOGEG.
      */
-    java.util.List<java.lang.Integer> getUidListList();
+    java.util.List<java.lang.Integer> getECNOPBCOGEGList();
     /**
-     * <code>repeated uint32 uid_list = 2;</code>
-     * @return The count of uidList.
+     * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
+     * @return The count of eCNOPBCOGEG.
      */
-    int getUidListCount();
+    int getECNOPBCOGEGCount();
     /**
-     * <code>repeated uint32 uid_list = 2;</code>
+     * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
      * @param index The index of the element to return.
-     * @return The uidList at the given index.
+     * @return The eCNOPBCOGEG at the given index.
      */
-    int getUidList(int index);
+    int getECNOPBCOGEG(int index);
 
     /**
-     * <code>.FoundationStatus status = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.BCFKCAMNCFF status = 1;</code>
      * @return The enum numeric value on the wire for status.
      */
     int getStatusValue();
     /**
-     * <code>.FoundationStatus status = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.BCFKCAMNCFF status = 1;</code>
      * @return The status.
      */
-    emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus getStatus();
+    emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF getStatus();
 
     /**
-     * <code>uint32 current_building_id = 3;</code>
-     * @return The currentBuildingId.
+     * <code>uint32 BFODAONLOGD = 3;</code>
+     * @return The bFODAONLOGD.
      */
-    int getCurrentBuildingId();
+    int getBFODAONLOGD();
 
     /**
-     * <code>uint32 locked_by_uid = 4;</code>
-     * @return The lockedByUid.
+     * <code>uint32 JKIAINBEAFM = 4;</code>
+     * @return The jKIAINBEAFM.
      */
-    int getLockedByUid();
+    int getJKIAINBEAFM();
   }
   /**
    * Protobuf type {@code FoundationInfo}
@@ -71,7 +79,7 @@ public final class FoundationInfoOuterClass {
       super(builder);
     }
     private FoundationInfo() {
-      uidList_ = emptyIntList();
+      eCNOPBCOGEG_ = emptyIntList();
       status_ = 0;
     }
 
@@ -114,33 +122,33 @@ public final class FoundationInfoOuterClass {
             }
             case 16: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                uidList_ = newIntList();
+                eCNOPBCOGEG_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              uidList_.addInt(input.readUInt32());
+              eCNOPBCOGEG_.addInt(input.readUInt32());
               break;
             }
             case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                uidList_ = newIntList();
+                eCNOPBCOGEG_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                uidList_.addInt(input.readUInt32());
+                eCNOPBCOGEG_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
             case 24: {
 
-              currentBuildingId_ = input.readUInt32();
+              bFODAONLOGD_ = input.readUInt32();
               break;
             }
             case 32: {
 
-              lockedByUid_ = input.readUInt32();
+              jKIAINBEAFM_ = input.readUInt32();
               break;
             }
             default: {
@@ -159,7 +167,7 @@ public final class FoundationInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          uidList_.makeImmutable(); // C
+          eCNOPBCOGEG_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -178,73 +186,81 @@ public final class FoundationInfoOuterClass {
               emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo.class, emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo.Builder.class);
     }
 
-    public static final int UID_LIST_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.IntList uidList_;
+    public static final int ECNOPBCOGEG_FIELD_NUMBER = 2;
+    private com.google.protobuf.Internal.IntList eCNOPBCOGEG_;
     /**
-     * <code>repeated uint32 uid_list = 2;</code>
-     * @return A list containing the uidList.
+     * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
+     * @return A list containing the eCNOPBCOGEG.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getUidListList() {
-      return uidList_;
+        getECNOPBCOGEGList() {
+      return eCNOPBCOGEG_;
     }
     /**
-     * <code>repeated uint32 uid_list = 2;</code>
-     * @return The count of uidList.
+     * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
+     * @return The count of eCNOPBCOGEG.
      */
-    public int getUidListCount() {
-      return uidList_.size();
+    public int getECNOPBCOGEGCount() {
+      return eCNOPBCOGEG_.size();
     }
     /**
-     * <code>repeated uint32 uid_list = 2;</code>
+     * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
      * @param index The index of the element to return.
-     * @return The uidList at the given index.
+     * @return The eCNOPBCOGEG at the given index.
      */
-    public int getUidList(int index) {
-      return uidList_.getInt(index);
+    public int getECNOPBCOGEG(int index) {
+      return eCNOPBCOGEG_.getInt(index);
     }
-    private int uidListMemoizedSerializedSize = -1;
+    private int eCNOPBCOGEGMemoizedSerializedSize = -1;
 
     public static final int STATUS_FIELD_NUMBER = 1;
     private int status_;
     /**
-     * <code>.FoundationStatus status = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.BCFKCAMNCFF status = 1;</code>
      * @return The enum numeric value on the wire for status.
      */
     @java.lang.Override public int getStatusValue() {
       return status_;
     }
     /**
-     * <code>.FoundationStatus status = 1;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>.BCFKCAMNCFF status = 1;</code>
      * @return The status.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus getStatus() {
+    @java.lang.Override public emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF getStatus() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus result = emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.valueOf(status_);
-      return result == null ? emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF result = emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.valueOf(status_);
+      return result == null ? emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.UNRECOGNIZED : result;
     }
 
-    public static final int CURRENT_BUILDING_ID_FIELD_NUMBER = 3;
-    private int currentBuildingId_;
+    public static final int BFODAONLOGD_FIELD_NUMBER = 3;
+    private int bFODAONLOGD_;
     /**
-     * <code>uint32 current_building_id = 3;</code>
-     * @return The currentBuildingId.
+     * <code>uint32 BFODAONLOGD = 3;</code>
+     * @return The bFODAONLOGD.
      */
     @java.lang.Override
-    public int getCurrentBuildingId() {
-      return currentBuildingId_;
+    public int getBFODAONLOGD() {
+      return bFODAONLOGD_;
     }
 
-    public static final int LOCKED_BY_UID_FIELD_NUMBER = 4;
-    private int lockedByUid_;
+    public static final int JKIAINBEAFM_FIELD_NUMBER = 4;
+    private int jKIAINBEAFM_;
     /**
-     * <code>uint32 locked_by_uid = 4;</code>
-     * @return The lockedByUid.
+     * <code>uint32 JKIAINBEAFM = 4;</code>
+     * @return The jKIAINBEAFM.
      */
     @java.lang.Override
-    public int getLockedByUid() {
-      return lockedByUid_;
+    public int getJKIAINBEAFM() {
+      return jKIAINBEAFM_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -262,21 +278,21 @@ public final class FoundationInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (status_ != emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.FoundationStatus_NONE.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.BCFKCAMNCFF_NONE.getNumber()) {
         output.writeEnum(1, status_);
       }
-      if (getUidListList().size() > 0) {
+      if (getECNOPBCOGEGList().size() > 0) {
         output.writeUInt32NoTag(18);
-        output.writeUInt32NoTag(uidListMemoizedSerializedSize);
+        output.writeUInt32NoTag(eCNOPBCOGEGMemoizedSerializedSize);
       }
-      for (int i = 0; i < uidList_.size(); i++) {
-        output.writeUInt32NoTag(uidList_.getInt(i));
+      for (int i = 0; i < eCNOPBCOGEG_.size(); i++) {
+        output.writeUInt32NoTag(eCNOPBCOGEG_.getInt(i));
       }
-      if (currentBuildingId_ != 0) {
-        output.writeUInt32(3, currentBuildingId_);
+      if (bFODAONLOGD_ != 0) {
+        output.writeUInt32(3, bFODAONLOGD_);
       }
-      if (lockedByUid_ != 0) {
-        output.writeUInt32(4, lockedByUid_);
+      if (jKIAINBEAFM_ != 0) {
+        output.writeUInt32(4, jKIAINBEAFM_);
       }
       unknownFields.writeTo(output);
     }
@@ -287,31 +303,31 @@ public final class FoundationInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (status_ != emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.FoundationStatus_NONE.getNumber()) {
+      if (status_ != emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.BCFKCAMNCFF_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(1, status_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < uidList_.size(); i++) {
+        for (int i = 0; i < eCNOPBCOGEG_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(uidList_.getInt(i));
+            .computeUInt32SizeNoTag(eCNOPBCOGEG_.getInt(i));
         }
         size += dataSize;
-        if (!getUidListList().isEmpty()) {
+        if (!getECNOPBCOGEGList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        uidListMemoizedSerializedSize = dataSize;
+        eCNOPBCOGEGMemoizedSerializedSize = dataSize;
       }
-      if (currentBuildingId_ != 0) {
+      if (bFODAONLOGD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, currentBuildingId_);
+          .computeUInt32Size(3, bFODAONLOGD_);
       }
-      if (lockedByUid_ != 0) {
+      if (jKIAINBEAFM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, lockedByUid_);
+          .computeUInt32Size(4, jKIAINBEAFM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -328,13 +344,13 @@ public final class FoundationInfoOuterClass {
       }
       emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo other = (emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo) obj;
 
-      if (!getUidListList()
-          .equals(other.getUidListList())) return false;
+      if (!getECNOPBCOGEGList()
+          .equals(other.getECNOPBCOGEGList())) return false;
       if (status_ != other.status_) return false;
-      if (getCurrentBuildingId()
-          != other.getCurrentBuildingId()) return false;
-      if (getLockedByUid()
-          != other.getLockedByUid()) return false;
+      if (getBFODAONLOGD()
+          != other.getBFODAONLOGD()) return false;
+      if (getJKIAINBEAFM()
+          != other.getJKIAINBEAFM()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -346,16 +362,16 @@ public final class FoundationInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getUidListCount() > 0) {
-        hash = (37 * hash) + UID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getUidListList().hashCode();
+      if (getECNOPBCOGEGCount() > 0) {
+        hash = (37 * hash) + ECNOPBCOGEG_FIELD_NUMBER;
+        hash = (53 * hash) + getECNOPBCOGEGList().hashCode();
       }
       hash = (37 * hash) + STATUS_FIELD_NUMBER;
       hash = (53 * hash) + status_;
-      hash = (37 * hash) + CURRENT_BUILDING_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getCurrentBuildingId();
-      hash = (37 * hash) + LOCKED_BY_UID_FIELD_NUMBER;
-      hash = (53 * hash) + getLockedByUid();
+      hash = (37 * hash) + BFODAONLOGD_FIELD_NUMBER;
+      hash = (53 * hash) + getBFODAONLOGD();
+      hash = (37 * hash) + JKIAINBEAFM_FIELD_NUMBER;
+      hash = (53 * hash) + getJKIAINBEAFM();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -489,13 +505,13 @@ public final class FoundationInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        uidList_ = emptyIntList();
+        eCNOPBCOGEG_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         status_ = 0;
 
-        currentBuildingId_ = 0;
+        bFODAONLOGD_ = 0;
 
-        lockedByUid_ = 0;
+        jKIAINBEAFM_ = 0;
 
         return this;
       }
@@ -525,13 +541,13 @@ public final class FoundationInfoOuterClass {
         emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo result = new emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          uidList_.makeImmutable();
+          eCNOPBCOGEG_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.uidList_ = uidList_;
+        result.eCNOPBCOGEG_ = eCNOPBCOGEG_;
         result.status_ = status_;
-        result.currentBuildingId_ = currentBuildingId_;
-        result.lockedByUid_ = lockedByUid_;
+        result.bFODAONLOGD_ = bFODAONLOGD_;
+        result.jKIAINBEAFM_ = jKIAINBEAFM_;
         onBuilt();
         return result;
       }
@@ -580,24 +596,24 @@ public final class FoundationInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo other) {
         if (other == emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo.getDefaultInstance()) return this;
-        if (!other.uidList_.isEmpty()) {
-          if (uidList_.isEmpty()) {
-            uidList_ = other.uidList_;
+        if (!other.eCNOPBCOGEG_.isEmpty()) {
+          if (eCNOPBCOGEG_.isEmpty()) {
+            eCNOPBCOGEG_ = other.eCNOPBCOGEG_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureUidListIsMutable();
-            uidList_.addAll(other.uidList_);
+            ensureECNOPBCOGEGIsMutable();
+            eCNOPBCOGEG_.addAll(other.eCNOPBCOGEG_);
           }
           onChanged();
         }
         if (other.status_ != 0) {
           setStatusValue(other.getStatusValue());
         }
-        if (other.getCurrentBuildingId() != 0) {
-          setCurrentBuildingId(other.getCurrentBuildingId());
+        if (other.getBFODAONLOGD() != 0) {
+          setBFODAONLOGD(other.getBFODAONLOGD());
         }
-        if (other.getLockedByUid() != 0) {
-          setLockedByUid(other.getLockedByUid());
+        if (other.getJKIAINBEAFM() != 0) {
+          setJKIAINBEAFM(other.getJKIAINBEAFM());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -629,80 +645,80 @@ public final class FoundationInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList uidList_ = emptyIntList();
-      private void ensureUidListIsMutable() {
+      private com.google.protobuf.Internal.IntList eCNOPBCOGEG_ = emptyIntList();
+      private void ensureECNOPBCOGEGIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          uidList_ = mutableCopy(uidList_);
+          eCNOPBCOGEG_ = mutableCopy(eCNOPBCOGEG_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 uid_list = 2;</code>
-       * @return A list containing the uidList.
+       * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
+       * @return A list containing the eCNOPBCOGEG.
        */
       public java.util.List<java.lang.Integer>
-          getUidListList() {
+          getECNOPBCOGEGList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(uidList_) : uidList_;
+                 java.util.Collections.unmodifiableList(eCNOPBCOGEG_) : eCNOPBCOGEG_;
       }
       /**
-       * <code>repeated uint32 uid_list = 2;</code>
-       * @return The count of uidList.
+       * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
+       * @return The count of eCNOPBCOGEG.
        */
-      public int getUidListCount() {
-        return uidList_.size();
+      public int getECNOPBCOGEGCount() {
+        return eCNOPBCOGEG_.size();
       }
       /**
-       * <code>repeated uint32 uid_list = 2;</code>
+       * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
        * @param index The index of the element to return.
-       * @return The uidList at the given index.
+       * @return The eCNOPBCOGEG at the given index.
        */
-      public int getUidList(int index) {
-        return uidList_.getInt(index);
+      public int getECNOPBCOGEG(int index) {
+        return eCNOPBCOGEG_.getInt(index);
       }
       /**
-       * <code>repeated uint32 uid_list = 2;</code>
+       * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
        * @param index The index to set the value at.
-       * @param value The uidList to set.
+       * @param value The eCNOPBCOGEG to set.
        * @return This builder for chaining.
        */
-      public Builder setUidList(
+      public Builder setECNOPBCOGEG(
           int index, int value) {
-        ensureUidListIsMutable();
-        uidList_.setInt(index, value);
+        ensureECNOPBCOGEGIsMutable();
+        eCNOPBCOGEG_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 uid_list = 2;</code>
-       * @param value The uidList to add.
+       * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
+       * @param value The eCNOPBCOGEG to add.
        * @return This builder for chaining.
        */
-      public Builder addUidList(int value) {
-        ensureUidListIsMutable();
-        uidList_.addInt(value);
+      public Builder addECNOPBCOGEG(int value) {
+        ensureECNOPBCOGEGIsMutable();
+        eCNOPBCOGEG_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 uid_list = 2;</code>
-       * @param values The uidList to add.
+       * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
+       * @param values The eCNOPBCOGEG to add.
        * @return This builder for chaining.
        */
-      public Builder addAllUidList(
+      public Builder addAllECNOPBCOGEG(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureUidListIsMutable();
+        ensureECNOPBCOGEGIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, uidList_);
+            values, eCNOPBCOGEG_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 uid_list = 2;</code>
+       * <code>repeated uint32 ECNOPBCOGEG = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUidList() {
-        uidList_ = emptyIntList();
+      public Builder clearECNOPBCOGEG() {
+        eCNOPBCOGEG_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
@@ -710,14 +726,22 @@ public final class FoundationInfoOuterClass {
 
       private int status_ = 0;
       /**
-       * <code>.FoundationStatus status = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
        * @return The enum numeric value on the wire for status.
        */
       @java.lang.Override public int getStatusValue() {
         return status_;
       }
       /**
-       * <code>.FoundationStatus status = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
        * @param value The enum numeric value on the wire for status to set.
        * @return This builder for chaining.
        */
@@ -728,21 +752,29 @@ public final class FoundationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FoundationStatus status = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
        * @return The status.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus getStatus() {
+      public emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF getStatus() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus result = emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.valueOf(status_);
-        return result == null ? emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF result = emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.valueOf(status_);
+        return result == null ? emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.UNRECOGNIZED : result;
       }
       /**
-       * <code>.FoundationStatus status = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
        * @param value The status to set.
        * @return This builder for chaining.
        */
-      public Builder setStatus(emu.grasscutter.net.proto.FoundationStatusOuterClass.FoundationStatus value) {
+      public Builder setStatus(emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -752,7 +784,11 @@ public final class FoundationInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FoundationStatus status = 1;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>.BCFKCAMNCFF status = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearStatus() {
@@ -762,64 +798,64 @@ public final class FoundationInfoOuterClass {
         return this;
       }
 
-      private int currentBuildingId_ ;
+      private int bFODAONLOGD_ ;
       /**
-       * <code>uint32 current_building_id = 3;</code>
-       * @return The currentBuildingId.
+       * <code>uint32 BFODAONLOGD = 3;</code>
+       * @return The bFODAONLOGD.
        */
       @java.lang.Override
-      public int getCurrentBuildingId() {
-        return currentBuildingId_;
+      public int getBFODAONLOGD() {
+        return bFODAONLOGD_;
       }
       /**
-       * <code>uint32 current_building_id = 3;</code>
-       * @param value The currentBuildingId to set.
+       * <code>uint32 BFODAONLOGD = 3;</code>
+       * @param value The bFODAONLOGD to set.
        * @return This builder for chaining.
        */
-      public Builder setCurrentBuildingId(int value) {
+      public Builder setBFODAONLOGD(int value) {
         
-        currentBuildingId_ = value;
+        bFODAONLOGD_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 current_building_id = 3;</code>
+       * <code>uint32 BFODAONLOGD = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCurrentBuildingId() {
+      public Builder clearBFODAONLOGD() {
         
-        currentBuildingId_ = 0;
+        bFODAONLOGD_ = 0;
         onChanged();
         return this;
       }
 
-      private int lockedByUid_ ;
+      private int jKIAINBEAFM_ ;
       /**
-       * <code>uint32 locked_by_uid = 4;</code>
-       * @return The lockedByUid.
+       * <code>uint32 JKIAINBEAFM = 4;</code>
+       * @return The jKIAINBEAFM.
        */
       @java.lang.Override
-      public int getLockedByUid() {
-        return lockedByUid_;
+      public int getJKIAINBEAFM() {
+        return jKIAINBEAFM_;
       }
       /**
-       * <code>uint32 locked_by_uid = 4;</code>
-       * @param value The lockedByUid to set.
+       * <code>uint32 JKIAINBEAFM = 4;</code>
+       * @param value The jKIAINBEAFM to set.
        * @return This builder for chaining.
        */
-      public Builder setLockedByUid(int value) {
+      public Builder setJKIAINBEAFM(int value) {
         
-        lockedByUid_ = value;
+        jKIAINBEAFM_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 locked_by_uid = 4;</code>
+       * <code>uint32 JKIAINBEAFM = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLockedByUid() {
+      public Builder clearJKIAINBEAFM() {
         
-        lockedByUid_ = 0;
+        jKIAINBEAFM_ = 0;
         onChanged();
         return this;
       }
@@ -890,25 +926,24 @@ public final class FoundationInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\024FoundationInfo.proto\032\026FoundationStatus" +
-      ".proto\"y\n\016FoundationInfo\022\020\n\010uid_list\030\002 \003" +
-      "(\r\022!\n\006status\030\001 \001(\0162\021.FoundationStatus\022\033\n" +
-      "\023current_building_id\030\003 \001(\r\022\025\n\rlocked_by_" +
-      "uid\030\004 \001(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "\n\024FoundationInfo.proto\032\021BCFKCAMNCFF.prot" +
+      "o\"m\n\016FoundationInfo\022\023\n\013ECNOPBCOGEG\030\002 \003(\r" +
+      "\022\034\n\006status\030\001 \001(\0162\014.BCFKCAMNCFF\022\023\n\013BFODAO" +
+      "NLOGD\030\003 \001(\r\022\023\n\013JKIAINBEAFM\030\004 \001(\rB\033\n\031emu." +
+      "grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.FoundationStatusOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.getDescriptor(),
         });
     internal_static_FoundationInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_FoundationInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FoundationInfo_descriptor,
-        new java.lang.String[] { "UidList", "Status", "CurrentBuildingId", "LockedByUid", });
-    emu.grasscutter.net.proto.FoundationStatusOuterClass.getDescriptor();
+        new java.lang.String[] { "ECNOPBCOGEG", "Status", "BFODAONLOGD", "JKIAINBEAFM", });
+    emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

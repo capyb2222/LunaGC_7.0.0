@@ -94,19 +94,19 @@ public class Friendship {
                 .setNickname(getFriendProfile().getName())
                 .setLevel(getFriendProfile().getPlayerLevel())
                 .setProfilePicture(
-                        ProfilePicture.newBuilder().setHeadImageId(getFriendProfile().getAvatarId()))
+                        ProfilePicture.newBuilder().setAvatarId(getFriendProfile().getAvatarId()))
                 .setWorldLevel(getFriendProfile().getWorldLevel())
                 .setSignature(getFriendProfile().getSignature())
                 .setOnlineState(
                         player != null && player.isOnline()
-                                ? FriendOnlineState.FRIEND_ONLINE_STATE_ONLINE
-                                : FriendOnlineState.FRIEND_ONLINE_STATE_DISCONNECT)
+                                ? FriendOnlineState.FriendOnlineState_FRIEND_ONLINE
+                                : FriendOnlineState.FriendOnlineState_FREIEND_DISCONNECT)
                 .setIsMpModeAvailable(true)
                 .setLastActiveTime(getFriendProfile().getLastActiveTime())
                 .setNameCardId(getFriendProfile().getNameCard())
                 .setParam(getFriendProfile().getDaysSinceLogin())
                 .setIsGameSource(true)
-                .setPlatformType(PlatformTypeOuterClass.PlatformType.PLATFORM_TYPE_PC)
+                .setPlatformType(PlatformTypeOuterClass.PlatformType.PlatformType_CLOUD_PC)
                 .setIsInDuel(getFriendProfile().isInDuel())
                 .setIsDuelObservable(getFriendProfile().isDuelObservable())
                 .build();

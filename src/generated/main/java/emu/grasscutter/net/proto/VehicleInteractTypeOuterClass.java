@@ -20,32 +20,32 @@ public final class VehicleInteractTypeOuterClass {
   public enum VehicleInteractType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>VEHICLE_INTERACT_TYPE_NONE = 0;</code>
+     * <code>VehicleInteractType_VEHICLE_INTERACT_NONE = 0;</code>
      */
-    VEHICLE_INTERACT_TYPE_NONE(0),
+    VehicleInteractType_VEHICLE_INTERACT_NONE(0),
     /**
-     * <code>VEHICLE_INTERACT_TYPE_IN = 1;</code>
+     * <code>VehicleInteractType_VEHICLE_INTERACT_IN = 1;</code>
      */
-    VEHICLE_INTERACT_TYPE_IN(1),
+    VehicleInteractType_VEHICLE_INTERACT_IN(1),
     /**
-     * <code>VEHICLE_INTERACT_TYPE_OUT = 2;</code>
+     * <code>VehicleInteractType_VEHICLE_INTERACT_OUT = 2;</code>
      */
-    VEHICLE_INTERACT_TYPE_OUT(2),
+    VehicleInteractType_VEHICLE_INTERACT_OUT(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>VEHICLE_INTERACT_TYPE_NONE = 0;</code>
+     * <code>VehicleInteractType_VEHICLE_INTERACT_NONE = 0;</code>
      */
-    public static final int VEHICLE_INTERACT_TYPE_NONE_VALUE = 0;
+    public static final int VehicleInteractType_VEHICLE_INTERACT_NONE_VALUE = 0;
     /**
-     * <code>VEHICLE_INTERACT_TYPE_IN = 1;</code>
+     * <code>VehicleInteractType_VEHICLE_INTERACT_IN = 1;</code>
      */
-    public static final int VEHICLE_INTERACT_TYPE_IN_VALUE = 1;
+    public static final int VehicleInteractType_VEHICLE_INTERACT_IN_VALUE = 1;
     /**
-     * <code>VEHICLE_INTERACT_TYPE_OUT = 2;</code>
+     * <code>VehicleInteractType_VEHICLE_INTERACT_OUT = 2;</code>
      */
-    public static final int VEHICLE_INTERACT_TYPE_OUT_VALUE = 2;
+    public static final int VehicleInteractType_VEHICLE_INTERACT_OUT_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class VehicleInteractTypeOuterClass {
      */
     public static VehicleInteractType forNumber(int value) {
       switch (value) {
-        case 0: return VEHICLE_INTERACT_TYPE_NONE;
-        case 1: return VEHICLE_INTERACT_TYPE_IN;
-        case 2: return VEHICLE_INTERACT_TYPE_OUT;
+        case 0: return VehicleInteractType_VEHICLE_INTERACT_NONE;
+        case 1: return VehicleInteractType_VEHICLE_INTERACT_IN;
+        case 2: return VehicleInteractType_VEHICLE_INTERACT_OUT;
         default: return null;
       }
     }
@@ -140,11 +140,12 @@ public final class VehicleInteractTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031VehicleInteractType.proto*r\n\023VehicleIn" +
-      "teractType\022\036\n\032VEHICLE_INTERACT_TYPE_NONE" +
-      "\020\000\022\034\n\030VEHICLE_INTERACT_TYPE_IN\020\001\022\035\n\031VEHI" +
-      "CLE_INTERACT_TYPE_OUT\020\002B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\n\031VehicleInteractType.proto*\237\001\n\023VehicleI" +
+      "nteractType\022-\n)VehicleInteractType_VEHIC" +
+      "LE_INTERACT_NONE\020\000\022+\n\'VehicleInteractTyp" +
+      "e_VEHICLE_INTERACT_IN\020\001\022,\n(VehicleIntera" +
+      "ctType_VEHICLE_INTERACT_OUT\020\002B\033\n\031emu.gra" +
+      "sscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

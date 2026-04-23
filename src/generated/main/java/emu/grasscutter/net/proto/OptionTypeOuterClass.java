@@ -20,32 +20,32 @@ public final class OptionTypeOuterClass {
   public enum OptionType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>OPTION_NONE = 0;</code>
+     * <code>OptionType_OPTION_NONE = 0;</code>
      */
-    OPTION_NONE(0),
+    OptionType_OPTION_NONE(0),
     /**
-     * <code>OPTION_NORMAL = 1;</code>
+     * <code>OptionType_OPTION_NORMAL = 1;</code>
      */
-    OPTION_NORMAL(1),
+    OptionType_OPTION_NORMAL(1),
     /**
-     * <code>OPTION_FIRST_CAN_GO = 2;</code>
+     * <code>OptionType_OPTION_FIRST_CAN_GO = 2;</code>
      */
-    OPTION_FIRST_CAN_GO(2),
+    OptionType_OPTION_FIRST_CAN_GO(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>OPTION_NONE = 0;</code>
+     * <code>OptionType_OPTION_NONE = 0;</code>
      */
-    public static final int OPTION_NONE_VALUE = 0;
+    public static final int OptionType_OPTION_NONE_VALUE = 0;
     /**
-     * <code>OPTION_NORMAL = 1;</code>
+     * <code>OptionType_OPTION_NORMAL = 1;</code>
      */
-    public static final int OPTION_NORMAL_VALUE = 1;
+    public static final int OptionType_OPTION_NORMAL_VALUE = 1;
     /**
-     * <code>OPTION_FIRST_CAN_GO = 2;</code>
+     * <code>OptionType_OPTION_FIRST_CAN_GO = 2;</code>
      */
-    public static final int OPTION_FIRST_CAN_GO_VALUE = 2;
+    public static final int OptionType_OPTION_FIRST_CAN_GO_VALUE = 2;
 
 
     public final int getNumber() {
@@ -72,9 +72,9 @@ public final class OptionTypeOuterClass {
      */
     public static OptionType forNumber(int value) {
       switch (value) {
-        case 0: return OPTION_NONE;
-        case 1: return OPTION_NORMAL;
-        case 2: return OPTION_FIRST_CAN_GO;
+        case 0: return OptionType_OPTION_NONE;
+        case 1: return OptionType_OPTION_NORMAL;
+        case 2: return OptionType_OPTION_FIRST_CAN_GO;
         default: return null;
       }
     }
@@ -140,10 +140,11 @@ public final class OptionTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020OptionType.proto*I\n\nOptionType\022\017\n\013OPTI" +
-      "ON_NONE\020\000\022\021\n\rOPTION_NORMAL\020\001\022\027\n\023OPTION_F" +
-      "IRST_CAN_GO\020\002B\033\n\031emu.grasscutter.net.pro" +
-      "tob\006proto3"
+      "\n\020OptionType.proto*j\n\nOptionType\022\032\n\026Opti" +
+      "onType_OPTION_NONE\020\000\022\034\n\030OptionType_OPTIO" +
+      "N_NORMAL\020\001\022\"\n\036OptionType_OPTION_FIRST_CA" +
+      "N_GO\020\002B\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

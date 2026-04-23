@@ -69,7 +69,7 @@ public class PlayerProfile {
                         .map(GameHome::getEnterHomeOption)
                         .orElse(
                                 FriendEnterHomeOptionOuterClass.FriendEnterHomeOption
-                                        .FRIEND_ENTER_HOME_OPTION_REFUSE_VALUE);
+                                        .FriendEnterHomeOption_REFUSE_VALUE);
         this.updateLastActiveTime();
     }
 }

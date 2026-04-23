@@ -20,24 +20,24 @@ public final class ShapeTypeOuterClass {
   public enum ShapeType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>OBSTACLE_SHAPE_CAPSULE = 0;</code>
+     * <code>ShapeType_OBSTACLE_SHAPE_CAPSULE = 0;</code>
      */
-    OBSTACLE_SHAPE_CAPSULE(0),
+    ShapeType_OBSTACLE_SHAPE_CAPSULE(0),
     /**
-     * <code>OBSTACLE_SHAPE_BOX = 1;</code>
+     * <code>ShapeType_OBSTACLE_SHAPE_BOX = 1;</code>
      */
-    OBSTACLE_SHAPE_BOX(1),
+    ShapeType_OBSTACLE_SHAPE_BOX(1),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>OBSTACLE_SHAPE_CAPSULE = 0;</code>
+     * <code>ShapeType_OBSTACLE_SHAPE_CAPSULE = 0;</code>
      */
-    public static final int OBSTACLE_SHAPE_CAPSULE_VALUE = 0;
+    public static final int ShapeType_OBSTACLE_SHAPE_CAPSULE_VALUE = 0;
     /**
-     * <code>OBSTACLE_SHAPE_BOX = 1;</code>
+     * <code>ShapeType_OBSTACLE_SHAPE_BOX = 1;</code>
      */
-    public static final int OBSTACLE_SHAPE_BOX_VALUE = 1;
+    public static final int ShapeType_OBSTACLE_SHAPE_BOX_VALUE = 1;
 
 
     public final int getNumber() {
@@ -64,8 +64,8 @@ public final class ShapeTypeOuterClass {
      */
     public static ShapeType forNumber(int value) {
       switch (value) {
-        case 0: return OBSTACLE_SHAPE_CAPSULE;
-        case 1: return OBSTACLE_SHAPE_BOX;
+        case 0: return ShapeType_OBSTACLE_SHAPE_CAPSULE;
+        case 1: return ShapeType_OBSTACLE_SHAPE_BOX;
         default: return null;
       }
     }
@@ -131,9 +131,10 @@ public final class ShapeTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\017ShapeType.proto*?\n\tShapeType\022\032\n\026OBSTAC" +
-      "LE_SHAPE_CAPSULE\020\000\022\026\n\022OBSTACLE_SHAPE_BOX" +
-      "\020\001B\033\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\017ShapeType.proto*S\n\tShapeType\022$\n ShapeT" +
+      "ype_OBSTACLE_SHAPE_CAPSULE\020\000\022 \n\034ShapeTyp" +
+      "e_OBSTACLE_SHAPE_BOX\020\001B\033\n\031emu.grasscutte" +
+      "r.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

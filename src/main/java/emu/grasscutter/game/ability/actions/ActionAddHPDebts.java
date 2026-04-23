@@ -31,9 +31,9 @@ public final class ActionAddHPDebts extends AbilityActionHandler {
             var value = owner.getFightProperty(property);
             properties.put(name, value);
         }
-    
+
         properties.putAll(ability.getAbilitySpecials());
-    
+
         float debt = action.ratio.get(properties, 0f);
         Grasscutter.getLogger().info("ActionAddHPDebts executed with debt {}", debt);
         Avatar avatar = ability.getPlayerOwner().getCurrentAvatar();
@@ -43,7 +43,7 @@ public final class ActionAddHPDebts extends AbilityActionHandler {
             float newDebt = curDebt + debt;
             if (newDebt < 0) {
                 newDebt = 0;
-            } 
+            }
             if (newDebt > 2 * target.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP)) {
                 Grasscutter.getLogger().warn("[ActionAddHPDebts] bond of life surpassed its limit, setting to max");
                 newDebt = 2 * target.getFightProperty(FightProperty.FIGHT_PROP_MAX_HP);
@@ -51,14 +51,14 @@ public final class ActionAddHPDebts extends AbilityActionHandler {
             float changeDebt = newDebt - curDebt;
             target.setFightProperty(FightProperty.FIGHT_PROP_CUR_HP_DEBTS, newDebt);
             target.getWorld().broadcastPacket(new PacketEntityFightPropUpdateNotify(target, FightProperty.FIGHT_PROP_CUR_HP_DEBTS));
-   
+
             if (changeDebt != 0) {
                 if (newDebt == 0) {
-                    target.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(target, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, changeDebt, PropChangeReasonOuterClass.PropChangeReason.PROP_CHANGE_REASON_ABILITY, ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_PAY_FINISH));
+                    target.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(target, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, changeDebt, PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY_FINISH));
                 } else if (changeDebt > 0) {
-                    target.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(target, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, changeDebt, PropChangeReasonOuterClass.PropChangeReason.PROP_CHANGE_REASON_ABILITY, ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_ADD_ABILITY));
+                    target.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(target, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, changeDebt, PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_ADD_ABILITY));
                 } else if (changeDebt < 0) {
-                    target.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(target, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, changeDebt, PropChangeReasonOuterClass.PropChangeReason.PROP_CHANGE_REASON_ABILITY, ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_PAY));
+                    target.getWorld().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(target, FightProperty.FIGHT_PROP_CUR_HP_DEBTS, changeDebt, PropChangeReasonOuterClass.PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, ChangeHpDebtsReasonOuterClass.ChangeHpDebtsReason.CHANGE_HP_DEBTS_REASON_CHANGE_HP_DEBTS_PAY));
                 }
             }
         return true;

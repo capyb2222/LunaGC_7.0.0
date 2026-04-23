@@ -19,38 +19,62 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     java.util.List<emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord> 
         getTowerFloorRecordListList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord getTowerFloorRecordList(int index);
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     int getTowerFloorRecordListCount();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecordOrBuilder> 
         getTowerFloorRecordListOrBuilderList();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecordOrBuilder getTowerFloorRecordListOrBuilder(
         int index);
 
     /**
-     * <code>bool is_finished_entrance_floor = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_finished_entrance_floor = 7;</code>
      * @return The isFinishedEntranceFloor.
      */
     boolean getIsFinishedEntranceFloor();
   }
   /**
    * <pre>
-   * CmdId: 25518
+   * CmdId: 9617
    * </pre>
    *
    * Protobuf type {@code TowerFloorRecordChangeNotify}
@@ -99,7 +123,7 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 56: {
 
               isFinishedEntranceFloor_ = input.readBool();
               break;
@@ -151,6 +175,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
     public static final int TOWER_FLOOR_RECORD_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord> towerFloorRecordList_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     @java.lang.Override
@@ -158,6 +186,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       return towerFloorRecordList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     @java.lang.Override
@@ -166,6 +198,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       return towerFloorRecordList_;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     @java.lang.Override
@@ -173,6 +209,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       return towerFloorRecordList_.size();
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     @java.lang.Override
@@ -180,6 +220,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       return towerFloorRecordList_.get(index);
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
      */
     @java.lang.Override
@@ -188,10 +232,14 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       return towerFloorRecordList_.get(index);
     }
 
-    public static final int IS_FINISHED_ENTRANCE_FLOOR_FIELD_NUMBER = 11;
+    public static final int IS_FINISHED_ENTRANCE_FLOOR_FIELD_NUMBER = 7;
     private boolean isFinishedEntranceFloor_;
     /**
-     * <code>bool is_finished_entrance_floor = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>bool is_finished_entrance_floor = 7;</code>
      * @return The isFinishedEntranceFloor.
      */
     @java.lang.Override
@@ -214,7 +262,7 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isFinishedEntranceFloor_ != false) {
-        output.writeBool(11, isFinishedEntranceFloor_);
+        output.writeBool(7, isFinishedEntranceFloor_);
       }
       for (int i = 0; i < towerFloorRecordList_.size(); i++) {
         output.writeMessage(13, towerFloorRecordList_.get(i));
@@ -230,7 +278,7 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       size = 0;
       if (isFinishedEntranceFloor_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isFinishedEntranceFloor_);
+          .computeBoolSize(7, isFinishedEntranceFloor_);
       }
       for (int i = 0; i < towerFloorRecordList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -370,7 +418,7 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 25518
+     * CmdId: 9617
      * </pre>
      *
      * Protobuf type {@code TowerFloorRecordChangeNotify}
@@ -576,6 +624,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
           emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord, emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord.Builder, emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecordOrBuilder> towerFloorRecordListBuilder_;
 
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord> getTowerFloorRecordListList() {
@@ -586,6 +638,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public int getTowerFloorRecordListCount() {
@@ -596,6 +652,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord getTowerFloorRecordList(int index) {
@@ -606,6 +666,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public Builder setTowerFloorRecordList(
@@ -623,6 +687,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public Builder setTowerFloorRecordList(
@@ -637,6 +705,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public Builder addTowerFloorRecordList(emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord value) {
@@ -653,6 +725,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public Builder addTowerFloorRecordList(
@@ -670,6 +746,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public Builder addTowerFloorRecordList(
@@ -684,6 +764,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public Builder addTowerFloorRecordList(
@@ -698,6 +782,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public Builder addAllTowerFloorRecordList(
@@ -713,6 +801,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public Builder clearTowerFloorRecordList() {
@@ -726,6 +818,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public Builder removeTowerFloorRecordList(int index) {
@@ -739,6 +835,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord.Builder getTowerFloorRecordListBuilder(
@@ -746,6 +846,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return getTowerFloorRecordListFieldBuilder().getBuilder(index);
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecordOrBuilder getTowerFloorRecordListOrBuilder(
@@ -756,6 +860,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecordOrBuilder> 
@@ -767,6 +875,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord.Builder addTowerFloorRecordListBuilder() {
@@ -774,6 +886,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
             emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord.getDefaultInstance());
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord.Builder addTowerFloorRecordListBuilder(
@@ -782,6 +898,10 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
             index, emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord.getDefaultInstance());
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>repeated .TowerFloorRecord tower_floor_record_list = 13;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.TowerFloorRecordOuterClass.TowerFloorRecord.Builder> 
@@ -805,7 +925,11 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
 
       private boolean isFinishedEntranceFloor_ ;
       /**
-       * <code>bool is_finished_entrance_floor = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_finished_entrance_floor = 7;</code>
        * @return The isFinishedEntranceFloor.
        */
       @java.lang.Override
@@ -813,7 +937,11 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return isFinishedEntranceFloor_;
       }
       /**
-       * <code>bool is_finished_entrance_floor = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_finished_entrance_floor = 7;</code>
        * @param value The isFinishedEntranceFloor to set.
        * @return This builder for chaining.
        */
@@ -824,7 +952,11 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished_entrance_floor = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>bool is_finished_entrance_floor = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinishedEntranceFloor() {
@@ -904,7 +1036,7 @@ public final class TowerFloorRecordChangeNotifyOuterClass {
       "werFloorRecord.proto\"v\n\034TowerFloorRecord" +
       "ChangeNotify\0222\n\027tower_floor_record_list\030" +
       "\r \003(\0132\021.TowerFloorRecord\022\"\n\032is_finished_" +
-      "entrance_floor\030\013 \001(\010B\033\n\031emu.grasscutter." +
+      "entrance_floor\030\007 \001(\010B\033\n\031emu.grasscutter." +
       "net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

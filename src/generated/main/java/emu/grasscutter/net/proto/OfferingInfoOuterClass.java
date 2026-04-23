@@ -19,6 +19,10 @@ public final class OfferingInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 offering_id = 1;</code>
      * @return The offeringId.
      */
@@ -109,6 +113,10 @@ public final class OfferingInfoOuterClass {
     public static final int OFFERING_ID_FIELD_NUMBER = 1;
     private int offeringId_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 offering_id = 1;</code>
      * @return The offeringId.
      */
@@ -421,6 +429,10 @@ public final class OfferingInfoOuterClass {
 
       private int offeringId_ ;
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 offering_id = 1;</code>
        * @return The offeringId.
        */
@@ -429,6 +441,10 @@ public final class OfferingInfoOuterClass {
         return offeringId_;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 offering_id = 1;</code>
        * @param value The offeringId to set.
        * @return This builder for chaining.
@@ -440,6 +456,10 @@ public final class OfferingInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 offering_id = 1;</code>
        * @return This builder for chaining.
        */

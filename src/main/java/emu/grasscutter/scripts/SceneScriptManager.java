@@ -1,5 +1,6 @@
 package emu.grasscutter.scripts;
 
+import static emu.grasscutter.GameConstants.ENTITY_ID_BIT_SHIFT;
 import static emu.grasscutter.scripts.constants.EventType.EVENT_TIMER_EVENT;
 
 import com.github.davidmoten.rtreemulti.RTree;
@@ -699,12 +700,12 @@ public class SceneScriptManager {
             entities.forEach(region::addEntity);
 
             for (var targetId : enterEntities) {
-                if (EntityIdType.toEntityType(targetId >> 22).getValue() == 19) continue;
+                if (EntityIdType.toEntityType(targetId >> ENTITY_ID_BIT_SHIFT).getValue() == 19) continue;
                 Grasscutter.getLogger()
                         .trace("Call EVENT_ENTER_REGION_{}", region.getMetaRegion().config_id);
                 this.callEvent(
                         new ScriptArgs(region.getGroupId(), EventType.EVENT_ENTER_REGION, region.getConfigId())
-                                .setEventSource(EntityIdType.toEntityType(targetId >> 22).getValue())
+                                .setEventSource(EntityIdType.toEntityType(targetId >> ENTITY_ID_BIT_SHIFT).getValue())
                                 .setSourceEntityId(region.getId())
                                 .setTargetEntityId(targetId));
             }
@@ -717,10 +718,10 @@ public class SceneScriptManager {
             }
 
             for (var targetId : leaveEntities) {
-                if (EntityIdType.toEntityType(targetId >> 22).getValue() == 19) continue;
+                if (EntityIdType.toEntityType(targetId >> ENTITY_ID_BIT_SHIFT).getValue() == 19) continue;
                 this.callEvent(
                         new ScriptArgs(region.getGroupId(), EventType.EVENT_LEAVE_REGION, region.getConfigId())
-                                .setEventSource(EntityIdType.toEntityType(targetId >> 22).getValue())
+                                .setEventSource(EntityIdType.toEntityType(targetId >> ENTITY_ID_BIT_SHIFT).getValue())
                                 .setSourceEntityId(region.getId())
                                 .setTargetEntityId(targetId));
             }
@@ -1091,7 +1092,7 @@ public class SceneScriptManager {
     }
 
     public void meetEntities(List<? extends GameEntity> gameEntity) {
-        getScene().addEntities(gameEntity, VisionTypeOuterClass.VisionType.VISION_TYPE_MEET);
+        getScene().addEntities(gameEntity, VisionTypeOuterClass.VisionType.VisionType_VISION_MEET);
     }
 
     public void addEntities(List<? extends GameEntity> gameEntity) {
@@ -1102,7 +1103,7 @@ public class SceneScriptManager {
         getScene()
                 .removeEntities(
                         gameEntity.stream().map(e -> (GameEntity) e).collect(Collectors.toList()),
-                        VisionTypeOuterClass.VisionType.VISION_TYPE_REFRESH);
+                        VisionTypeOuterClass.VisionType.VisionType_VISION_REFRESH);
     }
 
     public RTree<SceneBlock, Geometry> getBlocksIndex() {
@@ -1119,7 +1120,7 @@ public class SceneScriptManager {
                         .filter(e -> configSet.contains(e.getConfigId()))
                         .toList();
 
-        getScene().removeEntities(toRemove, VisionTypeOuterClass.VisionType.VISION_TYPE_MISS);
+        getScene().removeEntities(toRemove, VisionTypeOuterClass.VisionType.VisionType_VISION_MISS);
     }
 
     public void removeMonstersInGroup(SceneGroup group, SceneSuite suite) {
@@ -1131,7 +1132,7 @@ public class SceneScriptManager {
                         .filter(e -> configSet.contains(e.getConfigId()))
                         .toList();
 
-        getScene().removeEntities(toRemove, VisionTypeOuterClass.VisionType.VISION_TYPE_MISS);
+        getScene().removeEntities(toRemove, VisionTypeOuterClass.VisionType.VisionType_VISION_MISS);
     }
 
     public void removeGadgetsInGroup(SceneGroup group, SceneSuite suite) {
@@ -1143,7 +1144,7 @@ public class SceneScriptManager {
                         .filter(e -> configSet.contains(e.getConfigId()))
                         .toList();
 
-        getScene().removeEntities(toRemove, VisionTypeOuterClass.VisionType.VISION_TYPE_MISS);
+        getScene().removeEntities(toRemove, VisionTypeOuterClass.VisionType.VisionType_VISION_MISS);
     }
 
     public void killMonstersInGroup(SceneGroup group, SceneSuite suite) {

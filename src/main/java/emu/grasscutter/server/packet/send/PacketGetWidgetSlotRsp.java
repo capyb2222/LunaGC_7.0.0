@@ -26,7 +26,7 @@ public class PacketGetWidgetSlotRsp extends BasePacket {
 
             proto.addSlotList(
                     WidgetSlotDataOuterClass.WidgetSlotData.newBuilder()
-                            .setTag(WidgetSlotTagOuterClass.WidgetSlotTag.WIDGET_SLOT_TAG_ATTACH_AVATAR)
+                            .setTag(WidgetSlotTagOuterClass.WidgetSlotTag.WidgetSlotTag_WIDGET_SLOT_ATTACH_AVATAR)
                             .build());
         }
 

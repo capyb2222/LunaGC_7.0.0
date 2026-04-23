@@ -980,6 +980,5 @@ public class InventorySystem extends BaseGameSystem {
         equip.save();
 
         player.sendPacket(new PacketStoreItemChangeNotify(equip));
-        player.sendPacket(new PacketSetReliquaryFavouriteRsp(itemId,isFavourite));
     }
 }

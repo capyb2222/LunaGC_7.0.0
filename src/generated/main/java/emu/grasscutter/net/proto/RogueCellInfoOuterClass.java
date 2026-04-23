@@ -19,45 +19,51 @@ public final class RogueCellInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 cell_config_id = 8;</code>
-     * @return The cellConfigId.
-     */
-    int getCellConfigId();
-
-    /**
-     * <code>uint32 dungeon_id = 1;</code>
-     * @return The dungeonId.
-     */
-    int getDungeonId();
-
-    /**
-     * <code>uint32 cell_id = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 cell_id = 10;</code>
      * @return The cellId.
      */
     int getCellId();
 
     /**
-     * <code>.RogueCellState state = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.RogueCellState state = 6;</code>
      * @return The enum numeric value on the wire for state.
      */
     int getStateValue();
     /**
-     * <code>.RogueCellState state = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.RogueCellState state = 6;</code>
      * @return The state.
      */
     emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState getState();
 
     /**
-     * <code>uint32 cell_type = 13;</code>
-     * @return The cellType.
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 dungeon_id = 3;</code>
+     * @return The dungeonId.
      */
-    int getCellType();
+    int getDungeonId();
+
+    /**
+     * <code>uint32 EEEOIJHJIJJ = 5;</code>
+     * @return The eEEOIJHJIJJ.
+     */
+    int getEEEOIJHJIJJ();
   }
   /**
-   * <pre>
-   * Obf: LKOLNEHLBLB
-   * </pre>
-   *
    * Protobuf type {@code RogueCellInfo}
    */
   public static final class RogueCellInfo extends
@@ -103,30 +109,25 @@ public final class RogueCellInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 24: {
 
               dungeonId_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 40: {
+
+              eEEOIJHJIJJ_ = input.readUInt32();
+              break;
+            }
+            case 48: {
               int rawValue = input.readEnum();
 
               state_ = rawValue;
               break;
             }
-            case 64: {
-
-              cellConfigId_ = input.readUInt32();
-              break;
-            }
-            case 88: {
+            case 80: {
 
               cellId_ = input.readUInt32();
-              break;
-            }
-            case 104: {
-
-              cellType_ = input.readUInt32();
               break;
             }
             default: {
@@ -161,32 +162,14 @@ public final class RogueCellInfoOuterClass {
               emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo.class, emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo.Builder.class);
     }
 
-    public static final int CELL_CONFIG_ID_FIELD_NUMBER = 8;
-    private int cellConfigId_;
-    /**
-     * <code>uint32 cell_config_id = 8;</code>
-     * @return The cellConfigId.
-     */
-    @java.lang.Override
-    public int getCellConfigId() {
-      return cellConfigId_;
-    }
-
-    public static final int DUNGEON_ID_FIELD_NUMBER = 1;
-    private int dungeonId_;
-    /**
-     * <code>uint32 dungeon_id = 1;</code>
-     * @return The dungeonId.
-     */
-    @java.lang.Override
-    public int getDungeonId() {
-      return dungeonId_;
-    }
-
-    public static final int CELL_ID_FIELD_NUMBER = 11;
+    public static final int CELL_ID_FIELD_NUMBER = 10;
     private int cellId_;
     /**
-     * <code>uint32 cell_id = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 cell_id = 10;</code>
      * @return The cellId.
      */
     @java.lang.Override
@@ -194,17 +177,25 @@ public final class RogueCellInfoOuterClass {
       return cellId_;
     }
 
-    public static final int STATE_FIELD_NUMBER = 3;
+    public static final int STATE_FIELD_NUMBER = 6;
     private int state_;
     /**
-     * <code>.RogueCellState state = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.RogueCellState state = 6;</code>
      * @return The enum numeric value on the wire for state.
      */
     @java.lang.Override public int getStateValue() {
       return state_;
     }
     /**
-     * <code>.RogueCellState state = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>.RogueCellState state = 6;</code>
      * @return The state.
      */
     @java.lang.Override public emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState getState() {
@@ -213,15 +204,30 @@ public final class RogueCellInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.UNRECOGNIZED : result;
     }
 
-    public static final int CELL_TYPE_FIELD_NUMBER = 13;
-    private int cellType_;
+    public static final int DUNGEON_ID_FIELD_NUMBER = 3;
+    private int dungeonId_;
     /**
-     * <code>uint32 cell_type = 13;</code>
-     * @return The cellType.
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 dungeon_id = 3;</code>
+     * @return The dungeonId.
      */
     @java.lang.Override
-    public int getCellType() {
-      return cellType_;
+    public int getDungeonId() {
+      return dungeonId_;
+    }
+
+    public static final int EEEOIJHJIJJ_FIELD_NUMBER = 5;
+    private int eEEOIJHJIJJ_;
+    /**
+     * <code>uint32 EEEOIJHJIJJ = 5;</code>
+     * @return The eEEOIJHJIJJ.
+     */
+    @java.lang.Override
+    public int getEEEOIJHJIJJ() {
+      return eEEOIJHJIJJ_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -239,19 +245,16 @@ public final class RogueCellInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dungeonId_ != 0) {
-        output.writeUInt32(1, dungeonId_);
+        output.writeUInt32(3, dungeonId_);
       }
-      if (state_ != emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.ROGUE_CELL_NONE.getNumber()) {
-        output.writeEnum(3, state_);
+      if (eEEOIJHJIJJ_ != 0) {
+        output.writeUInt32(5, eEEOIJHJIJJ_);
       }
-      if (cellConfigId_ != 0) {
-        output.writeUInt32(8, cellConfigId_);
+      if (state_ != emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.RogueCellState_ROGUE_CELL_NONE.getNumber()) {
+        output.writeEnum(6, state_);
       }
       if (cellId_ != 0) {
-        output.writeUInt32(11, cellId_);
-      }
-      if (cellType_ != 0) {
-        output.writeUInt32(13, cellType_);
+        output.writeUInt32(10, cellId_);
       }
       unknownFields.writeTo(output);
     }
@@ -264,23 +267,19 @@ public final class RogueCellInfoOuterClass {
       size = 0;
       if (dungeonId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, dungeonId_);
+          .computeUInt32Size(3, dungeonId_);
       }
-      if (state_ != emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.ROGUE_CELL_NONE.getNumber()) {
+      if (eEEOIJHJIJJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(3, state_);
+          .computeUInt32Size(5, eEEOIJHJIJJ_);
       }
-      if (cellConfigId_ != 0) {
+      if (state_ != emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.RogueCellState_ROGUE_CELL_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, cellConfigId_);
+          .computeEnumSize(6, state_);
       }
       if (cellId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, cellId_);
-      }
-      if (cellType_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, cellType_);
+          .computeUInt32Size(10, cellId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -297,15 +296,13 @@ public final class RogueCellInfoOuterClass {
       }
       emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo other = (emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo) obj;
 
-      if (getCellConfigId()
-          != other.getCellConfigId()) return false;
-      if (getDungeonId()
-          != other.getDungeonId()) return false;
       if (getCellId()
           != other.getCellId()) return false;
       if (state_ != other.state_) return false;
-      if (getCellType()
-          != other.getCellType()) return false;
+      if (getDungeonId()
+          != other.getDungeonId()) return false;
+      if (getEEEOIJHJIJJ()
+          != other.getEEEOIJHJIJJ()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -317,16 +314,14 @@ public final class RogueCellInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + CELL_CONFIG_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getCellConfigId();
-      hash = (37 * hash) + DUNGEON_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getDungeonId();
       hash = (37 * hash) + CELL_ID_FIELD_NUMBER;
       hash = (53 * hash) + getCellId();
       hash = (37 * hash) + STATE_FIELD_NUMBER;
       hash = (53 * hash) + state_;
-      hash = (37 * hash) + CELL_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getCellType();
+      hash = (37 * hash) + DUNGEON_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getDungeonId();
+      hash = (37 * hash) + EEEOIJHJIJJ_FIELD_NUMBER;
+      hash = (53 * hash) + getEEEOIJHJIJJ();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -423,10 +418,6 @@ public final class RogueCellInfoOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * Obf: LKOLNEHLBLB
-     * </pre>
-     *
      * Protobuf type {@code RogueCellInfo}
      */
     public static final class Builder extends
@@ -464,15 +455,13 @@ public final class RogueCellInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        cellConfigId_ = 0;
-
-        dungeonId_ = 0;
-
         cellId_ = 0;
 
         state_ = 0;
 
-        cellType_ = 0;
+        dungeonId_ = 0;
+
+        eEEOIJHJIJJ_ = 0;
 
         return this;
       }
@@ -500,11 +489,10 @@ public final class RogueCellInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo buildPartial() {
         emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo result = new emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo(this);
-        result.cellConfigId_ = cellConfigId_;
-        result.dungeonId_ = dungeonId_;
         result.cellId_ = cellId_;
         result.state_ = state_;
-        result.cellType_ = cellType_;
+        result.dungeonId_ = dungeonId_;
+        result.eEEOIJHJIJJ_ = eEEOIJHJIJJ_;
         onBuilt();
         return result;
       }
@@ -553,20 +541,17 @@ public final class RogueCellInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo other) {
         if (other == emu.grasscutter.net.proto.RogueCellInfoOuterClass.RogueCellInfo.getDefaultInstance()) return this;
-        if (other.getCellConfigId() != 0) {
-          setCellConfigId(other.getCellConfigId());
-        }
-        if (other.getDungeonId() != 0) {
-          setDungeonId(other.getDungeonId());
-        }
         if (other.getCellId() != 0) {
           setCellId(other.getCellId());
         }
         if (other.state_ != 0) {
           setStateValue(other.getStateValue());
         }
-        if (other.getCellType() != 0) {
-          setCellType(other.getCellType());
+        if (other.getDungeonId() != 0) {
+          setDungeonId(other.getDungeonId());
+        }
+        if (other.getEEEOIJHJIJJ() != 0) {
+          setEEEOIJHJIJJ(other.getEEEOIJHJIJJ());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -597,71 +582,13 @@ public final class RogueCellInfoOuterClass {
         return this;
       }
 
-      private int cellConfigId_ ;
-      /**
-       * <code>uint32 cell_config_id = 8;</code>
-       * @return The cellConfigId.
-       */
-      @java.lang.Override
-      public int getCellConfigId() {
-        return cellConfigId_;
-      }
-      /**
-       * <code>uint32 cell_config_id = 8;</code>
-       * @param value The cellConfigId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCellConfigId(int value) {
-        
-        cellConfigId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 cell_config_id = 8;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCellConfigId() {
-        
-        cellConfigId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int dungeonId_ ;
-      /**
-       * <code>uint32 dungeon_id = 1;</code>
-       * @return The dungeonId.
-       */
-      @java.lang.Override
-      public int getDungeonId() {
-        return dungeonId_;
-      }
-      /**
-       * <code>uint32 dungeon_id = 1;</code>
-       * @param value The dungeonId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setDungeonId(int value) {
-        
-        dungeonId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 dungeon_id = 1;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearDungeonId() {
-        
-        dungeonId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int cellId_ ;
       /**
-       * <code>uint32 cell_id = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 cell_id = 10;</code>
        * @return The cellId.
        */
       @java.lang.Override
@@ -669,7 +596,11 @@ public final class RogueCellInfoOuterClass {
         return cellId_;
       }
       /**
-       * <code>uint32 cell_id = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 cell_id = 10;</code>
        * @param value The cellId to set.
        * @return This builder for chaining.
        */
@@ -680,7 +611,11 @@ public final class RogueCellInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cell_id = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 cell_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearCellId() {
@@ -692,14 +627,22 @@ public final class RogueCellInfoOuterClass {
 
       private int state_ = 0;
       /**
-       * <code>.RogueCellState state = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.RogueCellState state = 6;</code>
        * @return The enum numeric value on the wire for state.
        */
       @java.lang.Override public int getStateValue() {
         return state_;
       }
       /**
-       * <code>.RogueCellState state = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.RogueCellState state = 6;</code>
        * @param value The enum numeric value on the wire for state to set.
        * @return This builder for chaining.
        */
@@ -710,7 +653,11 @@ public final class RogueCellInfoOuterClass {
         return this;
       }
       /**
-       * <code>.RogueCellState state = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.RogueCellState state = 6;</code>
        * @return The state.
        */
       @java.lang.Override
@@ -720,7 +667,11 @@ public final class RogueCellInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.RogueCellStateOuterClass.RogueCellState.UNRECOGNIZED : result;
       }
       /**
-       * <code>.RogueCellState state = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.RogueCellState state = 6;</code>
        * @param value The state to set.
        * @return This builder for chaining.
        */
@@ -734,7 +685,11 @@ public final class RogueCellInfoOuterClass {
         return this;
       }
       /**
-       * <code>.RogueCellState state = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>.RogueCellState state = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearState() {
@@ -744,33 +699,76 @@ public final class RogueCellInfoOuterClass {
         return this;
       }
 
-      private int cellType_ ;
+      private int dungeonId_ ;
       /**
-       * <code>uint32 cell_type = 13;</code>
-       * @return The cellType.
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 dungeon_id = 3;</code>
+       * @return The dungeonId.
        */
       @java.lang.Override
-      public int getCellType() {
-        return cellType_;
+      public int getDungeonId() {
+        return dungeonId_;
       }
       /**
-       * <code>uint32 cell_type = 13;</code>
-       * @param value The cellType to set.
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 dungeon_id = 3;</code>
+       * @param value The dungeonId to set.
        * @return This builder for chaining.
        */
-      public Builder setCellType(int value) {
+      public Builder setDungeonId(int value) {
         
-        cellType_ = value;
+        dungeonId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 cell_type = 13;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 dungeon_id = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCellType() {
+      public Builder clearDungeonId() {
         
-        cellType_ = 0;
+        dungeonId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int eEEOIJHJIJJ_ ;
+      /**
+       * <code>uint32 EEEOIJHJIJJ = 5;</code>
+       * @return The eEEOIJHJIJJ.
+       */
+      @java.lang.Override
+      public int getEEEOIJHJIJJ() {
+        return eEEOIJHJIJJ_;
+      }
+      /**
+       * <code>uint32 EEEOIJHJIJJ = 5;</code>
+       * @param value The eEEOIJHJIJJ to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEEEOIJHJIJJ(int value) {
+        
+        eEEOIJHJIJJ_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 EEEOIJHJIJJ = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEEEOIJHJIJJ() {
+        
+        eEEOIJHJIJJ_ = 0;
         onChanged();
         return this;
       }
@@ -842,11 +840,10 @@ public final class RogueCellInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\023RogueCellInfo.proto\032\024RogueCellState.pr" +
-      "oto\"\177\n\rRogueCellInfo\022\026\n\016cell_config_id\030\010" +
-      " \001(\r\022\022\n\ndungeon_id\030\001 \001(\r\022\017\n\007cell_id\030\013 \001(" +
-      "\r\022\036\n\005state\030\003 \001(\0162\017.RogueCellState\022\021\n\tcel" +
-      "l_type\030\r \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "oto\"i\n\rRogueCellInfo\022\017\n\007cell_id\030\n \001(\r\022\036\n" +
+      "\005state\030\006 \001(\0162\017.RogueCellState\022\022\n\ndungeon" +
+      "_id\030\003 \001(\r\022\023\n\013EEEOIJHJIJJ\030\005 \001(\rB\033\n\031emu.gr" +
+      "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -858,7 +855,7 @@ public final class RogueCellInfoOuterClass {
     internal_static_RogueCellInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_RogueCellInfo_descriptor,
-        new java.lang.String[] { "CellConfigId", "DungeonId", "CellId", "State", "CellType", });
+        new java.lang.String[] { "CellId", "State", "DungeonId", "EEEOIJHJIJJ", });
     emu.grasscutter.net.proto.RogueCellStateOuterClass.getDescriptor();
   }
 

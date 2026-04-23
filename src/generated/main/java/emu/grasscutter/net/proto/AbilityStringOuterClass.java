@@ -19,16 +19,28 @@ public final class AbilityStringOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>string str = 1;</code>
      * @return Whether the str field is set.
      */
     boolean hasStr();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>string str = 1;</code>
      * @return The str.
      */
     java.lang.String getStr();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>string str = 1;</code>
      * @return The bytes for str.
      */
@@ -36,11 +48,19 @@ public final class AbilityStringOuterClass {
         getStrBytes();
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 hash = 2;</code>
      * @return Whether the hash field is set.
      */
     boolean hasHash();
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 hash = 2;</code>
      * @return The hash.
      */
@@ -179,6 +199,10 @@ public final class AbilityStringOuterClass {
 
     public static final int STR_FIELD_NUMBER = 1;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>string str = 1;</code>
      * @return Whether the str field is set.
      */
@@ -186,6 +210,10 @@ public final class AbilityStringOuterClass {
       return typeCase_ == 1;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>string str = 1;</code>
      * @return The str.
      */
@@ -207,6 +235,10 @@ public final class AbilityStringOuterClass {
       }
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>string str = 1;</code>
      * @return The bytes for str.
      */
@@ -231,6 +263,10 @@ public final class AbilityStringOuterClass {
 
     public static final int HASH_FIELD_NUMBER = 2;
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 hash = 2;</code>
      * @return Whether the hash field is set.
      */
@@ -239,6 +275,10 @@ public final class AbilityStringOuterClass {
       return typeCase_ == 2;
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
      * <code>uint32 hash = 2;</code>
      * @return The hash.
      */
@@ -615,6 +655,10 @@ public final class AbilityStringOuterClass {
 
 
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>string str = 1;</code>
        * @return Whether the str field is set.
        */
@@ -623,6 +667,10 @@ public final class AbilityStringOuterClass {
         return typeCase_ == 1;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>string str = 1;</code>
        * @return The str.
        */
@@ -645,6 +693,10 @@ public final class AbilityStringOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>string str = 1;</code>
        * @return The bytes for str.
        */
@@ -668,6 +720,10 @@ public final class AbilityStringOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>string str = 1;</code>
        * @param value The str to set.
        * @return This builder for chaining.
@@ -683,6 +739,10 @@ public final class AbilityStringOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>string str = 1;</code>
        * @return This builder for chaining.
        */
@@ -695,6 +755,10 @@ public final class AbilityStringOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>string str = 1;</code>
        * @param value The bytes for str to set.
        * @return This builder for chaining.
@@ -712,6 +776,10 @@ public final class AbilityStringOuterClass {
       }
 
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 hash = 2;</code>
        * @return Whether the hash field is set.
        */
@@ -719,6 +787,10 @@ public final class AbilityStringOuterClass {
         return typeCase_ == 2;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 hash = 2;</code>
        * @return The hash.
        */
@@ -729,6 +801,10 @@ public final class AbilityStringOuterClass {
         return 0;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 hash = 2;</code>
        * @param value The hash to set.
        * @return This builder for chaining.
@@ -740,6 +816,10 @@ public final class AbilityStringOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
        * <code>uint32 hash = 2;</code>
        * @return This builder for chaining.
        */

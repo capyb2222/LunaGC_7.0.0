@@ -19,51 +19,55 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
-     * @return A list containing the lFMCEAKLMBJ.
+     * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
+     * @return A list containing the kDIFMAEJGIO.
      */
-    java.util.List<java.lang.Integer> getLFMCEAKLMBJList();
+    java.util.List<java.lang.Integer> getKDIFMAEJGIOList();
     /**
-     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
-     * @return The count of lFMCEAKLMBJ.
+     * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
+     * @return The count of kDIFMAEJGIO.
      */
-    int getLFMCEAKLMBJCount();
+    int getKDIFMAEJGIOCount();
     /**
-     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+     * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
      * @param index The index of the element to return.
-     * @return The lFMCEAKLMBJ at the given index.
+     * @return The kDIFMAEJGIO at the given index.
      */
-    int getLFMCEAKLMBJ(int index);
+    int getKDIFMAEJGIO(int index);
 
     /**
-     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-     * @return A list containing the pNKMMNAKKAE.
-     */
-    java.util.List<java.lang.Integer> getPNKMMNAKKAEList();
-    /**
-     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-     * @return The count of pNKMMNAKKAE.
-     */
-    int getPNKMMNAKKAECount();
-    /**
-     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-     * @param index The index of the element to return.
-     * @return The pNKMMNAKKAE at the given index.
-     */
-    int getPNKMMNAKKAE(int index);
-
-    /**
-     * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
+     * <code>.WindFieldDungeonFailReason fail_reason = 12;</code>
      * @return The enum numeric value on the wire for failReason.
      */
     int getFailReasonValue();
     /**
-     * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
+     * <code>.WindFieldDungeonFailReason fail_reason = 12;</code>
      * @return The failReason.
      */
     emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason getFailReason();
+
+    /**
+     * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+     * @return A list containing the aKDFKBJLGGI.
+     */
+    java.util.List<java.lang.Integer> getAKDFKBJLGGIList();
+    /**
+     * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+     * @return The count of aKDFKBJLGGI.
+     */
+    int getAKDFKBJLGGICount();
+    /**
+     * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+     * @param index The index of the element to return.
+     * @return The aKDFKBJLGGI at the given index.
+     */
+    int getAKDFKBJLGGI(int index);
   }
   /**
+   * <pre>
+   * Obf: KGEBGAHEFLG
+   * </pre>
+   *
    * Protobuf type {@code WindFieldDungeonSettleInfo}
    */
   public static final class WindFieldDungeonSettleInfo extends
@@ -76,9 +80,9 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       super(builder);
     }
     private WindFieldDungeonSettleInfo() {
-      lFMCEAKLMBJ_ = emptyIntList();
-      pNKMMNAKKAE_ = emptyIntList();
+      kDIFMAEJGIO_ = emptyIntList();
       failReason_ = 0;
+      aKDFKBJLGGI_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -113,51 +117,51 @@ public final class WindFieldDungeonSettleInfoOuterClass {
               done = true;
               break;
             case 24: {
-              int rawValue = input.readEnum();
-
-              failReason_ = rawValue;
-              break;
-            }
-            case 72: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                pNKMMNAKKAE_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                kDIFMAEJGIO_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
               }
-              pNKMMNAKKAE_.addInt(input.readUInt32());
+              kDIFMAEJGIO_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                pNKMMNAKKAE_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                kDIFMAEJGIO_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                pNKMMNAKKAE_.addInt(input.readUInt32());
+                kDIFMAEJGIO_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
             case 88: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                lFMCEAKLMBJ_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                aKDFKBJLGGI_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
               }
-              lFMCEAKLMBJ_.addInt(input.readUInt32());
+              aKDFKBJLGGI_.addInt(input.readUInt32());
               break;
             }
             case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                lFMCEAKLMBJ_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                aKDFKBJLGGI_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                lFMCEAKLMBJ_.addInt(input.readUInt32());
+                aKDFKBJLGGI_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 96: {
+              int rawValue = input.readEnum();
+
+              failReason_ = rawValue;
               break;
             }
             default: {
@@ -175,11 +179,11 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          pNKMMNAKKAE_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          lFMCEAKLMBJ_.makeImmutable(); // C
+          kDIFMAEJGIO_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          aKDFKBJLGGI_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -198,73 +202,45 @@ public final class WindFieldDungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo.class, emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo.Builder.class);
     }
 
-    public static final int LFMCEAKLMBJ_FIELD_NUMBER = 11;
-    private com.google.protobuf.Internal.IntList lFMCEAKLMBJ_;
+    public static final int KDIFMAEJGIO_FIELD_NUMBER = 3;
+    private com.google.protobuf.Internal.IntList kDIFMAEJGIO_;
     /**
-     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
-     * @return A list containing the lFMCEAKLMBJ.
+     * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
+     * @return A list containing the kDIFMAEJGIO.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getLFMCEAKLMBJList() {
-      return lFMCEAKLMBJ_;
+        getKDIFMAEJGIOList() {
+      return kDIFMAEJGIO_;
     }
     /**
-     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
-     * @return The count of lFMCEAKLMBJ.
+     * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
+     * @return The count of kDIFMAEJGIO.
      */
-    public int getLFMCEAKLMBJCount() {
-      return lFMCEAKLMBJ_.size();
+    public int getKDIFMAEJGIOCount() {
+      return kDIFMAEJGIO_.size();
     }
     /**
-     * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+     * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
      * @param index The index of the element to return.
-     * @return The lFMCEAKLMBJ at the given index.
+     * @return The kDIFMAEJGIO at the given index.
      */
-    public int getLFMCEAKLMBJ(int index) {
-      return lFMCEAKLMBJ_.getInt(index);
+    public int getKDIFMAEJGIO(int index) {
+      return kDIFMAEJGIO_.getInt(index);
     }
-    private int lFMCEAKLMBJMemoizedSerializedSize = -1;
+    private int kDIFMAEJGIOMemoizedSerializedSize = -1;
 
-    public static final int PNKMMNAKKAE_FIELD_NUMBER = 9;
-    private com.google.protobuf.Internal.IntList pNKMMNAKKAE_;
-    /**
-     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-     * @return A list containing the pNKMMNAKKAE.
-     */
-    @java.lang.Override
-    public java.util.List<java.lang.Integer>
-        getPNKMMNAKKAEList() {
-      return pNKMMNAKKAE_;
-    }
-    /**
-     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-     * @return The count of pNKMMNAKKAE.
-     */
-    public int getPNKMMNAKKAECount() {
-      return pNKMMNAKKAE_.size();
-    }
-    /**
-     * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-     * @param index The index of the element to return.
-     * @return The pNKMMNAKKAE at the given index.
-     */
-    public int getPNKMMNAKKAE(int index) {
-      return pNKMMNAKKAE_.getInt(index);
-    }
-    private int pNKMMNAKKAEMemoizedSerializedSize = -1;
-
-    public static final int FAIL_REASON_FIELD_NUMBER = 3;
+    public static final int FAIL_REASON_FIELD_NUMBER = 12;
     private int failReason_;
     /**
-     * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
+     * <code>.WindFieldDungeonFailReason fail_reason = 12;</code>
      * @return The enum numeric value on the wire for failReason.
      */
     @java.lang.Override public int getFailReasonValue() {
       return failReason_;
     }
     /**
-     * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
+     * <code>.WindFieldDungeonFailReason fail_reason = 12;</code>
      * @return The failReason.
      */
     @java.lang.Override public emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason getFailReason() {
@@ -272,6 +248,34 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason result = emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.valueOf(failReason_);
       return result == null ? emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.UNRECOGNIZED : result;
     }
+
+    public static final int AKDFKBJLGGI_FIELD_NUMBER = 11;
+    private com.google.protobuf.Internal.IntList aKDFKBJLGGI_;
+    /**
+     * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+     * @return A list containing the aKDFKBJLGGI.
+     */
+    @java.lang.Override
+    public java.util.List<java.lang.Integer>
+        getAKDFKBJLGGIList() {
+      return aKDFKBJLGGI_;
+    }
+    /**
+     * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+     * @return The count of aKDFKBJLGGI.
+     */
+    public int getAKDFKBJLGGICount() {
+      return aKDFKBJLGGI_.size();
+    }
+    /**
+     * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+     * @param index The index of the element to return.
+     * @return The aKDFKBJLGGI at the given index.
+     */
+    public int getAKDFKBJLGGI(int index) {
+      return aKDFKBJLGGI_.getInt(index);
+    }
+    private int aKDFKBJLGGIMemoizedSerializedSize = -1;
 
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
@@ -288,22 +292,22 @@ public final class WindFieldDungeonSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WIND_FIELD_DUNGEON_FAIL_REASON_NONE.getNumber()) {
-        output.writeEnum(3, failReason_);
+      if (getKDIFMAEJGIOList().size() > 0) {
+        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(kDIFMAEJGIOMemoizedSerializedSize);
       }
-      if (getPNKMMNAKKAEList().size() > 0) {
-        output.writeUInt32NoTag(74);
-        output.writeUInt32NoTag(pNKMMNAKKAEMemoizedSerializedSize);
+      for (int i = 0; i < kDIFMAEJGIO_.size(); i++) {
+        output.writeUInt32NoTag(kDIFMAEJGIO_.getInt(i));
       }
-      for (int i = 0; i < pNKMMNAKKAE_.size(); i++) {
-        output.writeUInt32NoTag(pNKMMNAKKAE_.getInt(i));
-      }
-      if (getLFMCEAKLMBJList().size() > 0) {
+      if (getAKDFKBJLGGIList().size() > 0) {
         output.writeUInt32NoTag(90);
-        output.writeUInt32NoTag(lFMCEAKLMBJMemoizedSerializedSize);
+        output.writeUInt32NoTag(aKDFKBJLGGIMemoizedSerializedSize);
       }
-      for (int i = 0; i < lFMCEAKLMBJ_.size(); i++) {
-        output.writeUInt32NoTag(lFMCEAKLMBJ_.getInt(i));
+      for (int i = 0; i < aKDFKBJLGGI_.size(); i++) {
+        output.writeUInt32NoTag(aKDFKBJLGGI_.getInt(i));
+      }
+      if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WIND_FIELD_DUNGEON_FAIL_NONE.getNumber()) {
+        output.writeEnum(12, failReason_);
       }
       unknownFields.writeTo(output);
     }
@@ -314,37 +318,37 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WIND_FIELD_DUNGEON_FAIL_REASON_NONE.getNumber()) {
+      {
+        int dataSize = 0;
+        for (int i = 0; i < kDIFMAEJGIO_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(kDIFMAEJGIO_.getInt(i));
+        }
+        size += dataSize;
+        if (!getKDIFMAEJGIOList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        kDIFMAEJGIOMemoizedSerializedSize = dataSize;
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < aKDFKBJLGGI_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(aKDFKBJLGGI_.getInt(i));
+        }
+        size += dataSize;
+        if (!getAKDFKBJLGGIList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        aKDFKBJLGGIMemoizedSerializedSize = dataSize;
+      }
+      if (failReason_ != emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.WIND_FIELD_DUNGEON_FAIL_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(3, failReason_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < pNKMMNAKKAE_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(pNKMMNAKKAE_.getInt(i));
-        }
-        size += dataSize;
-        if (!getPNKMMNAKKAEList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        pNKMMNAKKAEMemoizedSerializedSize = dataSize;
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < lFMCEAKLMBJ_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(lFMCEAKLMBJ_.getInt(i));
-        }
-        size += dataSize;
-        if (!getLFMCEAKLMBJList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        lFMCEAKLMBJMemoizedSerializedSize = dataSize;
+          .computeEnumSize(12, failReason_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -361,11 +365,11 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       }
       emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo other = (emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo) obj;
 
-      if (!getLFMCEAKLMBJList()
-          .equals(other.getLFMCEAKLMBJList())) return false;
-      if (!getPNKMMNAKKAEList()
-          .equals(other.getPNKMMNAKKAEList())) return false;
+      if (!getKDIFMAEJGIOList()
+          .equals(other.getKDIFMAEJGIOList())) return false;
       if (failReason_ != other.failReason_) return false;
+      if (!getAKDFKBJLGGIList()
+          .equals(other.getAKDFKBJLGGIList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -377,16 +381,16 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getLFMCEAKLMBJCount() > 0) {
-        hash = (37 * hash) + LFMCEAKLMBJ_FIELD_NUMBER;
-        hash = (53 * hash) + getLFMCEAKLMBJList().hashCode();
-      }
-      if (getPNKMMNAKKAECount() > 0) {
-        hash = (37 * hash) + PNKMMNAKKAE_FIELD_NUMBER;
-        hash = (53 * hash) + getPNKMMNAKKAEList().hashCode();
+      if (getKDIFMAEJGIOCount() > 0) {
+        hash = (37 * hash) + KDIFMAEJGIO_FIELD_NUMBER;
+        hash = (53 * hash) + getKDIFMAEJGIOList().hashCode();
       }
       hash = (37 * hash) + FAIL_REASON_FIELD_NUMBER;
       hash = (53 * hash) + failReason_;
+      if (getAKDFKBJLGGICount() > 0) {
+        hash = (37 * hash) + AKDFKBJLGGI_FIELD_NUMBER;
+        hash = (53 * hash) + getAKDFKBJLGGIList().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -483,6 +487,10 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * Obf: KGEBGAHEFLG
+     * </pre>
+     *
      * Protobuf type {@code WindFieldDungeonSettleInfo}
      */
     public static final class Builder extends
@@ -520,12 +528,12 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        lFMCEAKLMBJ_ = emptyIntList();
+        kDIFMAEJGIO_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        pNKMMNAKKAE_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         failReason_ = 0;
 
+        aKDFKBJLGGI_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
 
@@ -554,16 +562,16 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo result = new emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          lFMCEAKLMBJ_.makeImmutable();
+          kDIFMAEJGIO_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.lFMCEAKLMBJ_ = lFMCEAKLMBJ_;
+        result.kDIFMAEJGIO_ = kDIFMAEJGIO_;
+        result.failReason_ = failReason_;
         if (((bitField0_ & 0x00000002) != 0)) {
-          pNKMMNAKKAE_.makeImmutable();
+          aKDFKBJLGGI_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000002);
         }
-        result.pNKMMNAKKAE_ = pNKMMNAKKAE_;
-        result.failReason_ = failReason_;
+        result.aKDFKBJLGGI_ = aKDFKBJLGGI_;
         onBuilt();
         return result;
       }
@@ -612,28 +620,28 @@ public final class WindFieldDungeonSettleInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo other) {
         if (other == emu.grasscutter.net.proto.WindFieldDungeonSettleInfoOuterClass.WindFieldDungeonSettleInfo.getDefaultInstance()) return this;
-        if (!other.lFMCEAKLMBJ_.isEmpty()) {
-          if (lFMCEAKLMBJ_.isEmpty()) {
-            lFMCEAKLMBJ_ = other.lFMCEAKLMBJ_;
+        if (!other.kDIFMAEJGIO_.isEmpty()) {
+          if (kDIFMAEJGIO_.isEmpty()) {
+            kDIFMAEJGIO_ = other.kDIFMAEJGIO_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureLFMCEAKLMBJIsMutable();
-            lFMCEAKLMBJ_.addAll(other.lFMCEAKLMBJ_);
-          }
-          onChanged();
-        }
-        if (!other.pNKMMNAKKAE_.isEmpty()) {
-          if (pNKMMNAKKAE_.isEmpty()) {
-            pNKMMNAKKAE_ = other.pNKMMNAKKAE_;
-            bitField0_ = (bitField0_ & ~0x00000002);
-          } else {
-            ensurePNKMMNAKKAEIsMutable();
-            pNKMMNAKKAE_.addAll(other.pNKMMNAKKAE_);
+            ensureKDIFMAEJGIOIsMutable();
+            kDIFMAEJGIO_.addAll(other.kDIFMAEJGIO_);
           }
           onChanged();
         }
         if (other.failReason_ != 0) {
           setFailReasonValue(other.getFailReasonValue());
+        }
+        if (!other.aKDFKBJLGGI_.isEmpty()) {
+          if (aKDFKBJLGGI_.isEmpty()) {
+            aKDFKBJLGGI_ = other.aKDFKBJLGGI_;
+            bitField0_ = (bitField0_ & ~0x00000002);
+          } else {
+            ensureAKDFKBJLGGIIsMutable();
+            aKDFKBJLGGI_.addAll(other.aKDFKBJLGGI_);
+          }
+          onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -665,174 +673,95 @@ public final class WindFieldDungeonSettleInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList lFMCEAKLMBJ_ = emptyIntList();
-      private void ensureLFMCEAKLMBJIsMutable() {
+      private com.google.protobuf.Internal.IntList kDIFMAEJGIO_ = emptyIntList();
+      private void ensureKDIFMAEJGIOIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          lFMCEAKLMBJ_ = mutableCopy(lFMCEAKLMBJ_);
+          kDIFMAEJGIO_ = mutableCopy(kDIFMAEJGIO_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
-       * @return A list containing the lFMCEAKLMBJ.
+       * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
+       * @return A list containing the kDIFMAEJGIO.
        */
       public java.util.List<java.lang.Integer>
-          getLFMCEAKLMBJList() {
+          getKDIFMAEJGIOList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(lFMCEAKLMBJ_) : lFMCEAKLMBJ_;
+                 java.util.Collections.unmodifiableList(kDIFMAEJGIO_) : kDIFMAEJGIO_;
       }
       /**
-       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
-       * @return The count of lFMCEAKLMBJ.
+       * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
+       * @return The count of kDIFMAEJGIO.
        */
-      public int getLFMCEAKLMBJCount() {
-        return lFMCEAKLMBJ_.size();
+      public int getKDIFMAEJGIOCount() {
+        return kDIFMAEJGIO_.size();
       }
       /**
-       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+       * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
        * @param index The index of the element to return.
-       * @return The lFMCEAKLMBJ at the given index.
+       * @return The kDIFMAEJGIO at the given index.
        */
-      public int getLFMCEAKLMBJ(int index) {
-        return lFMCEAKLMBJ_.getInt(index);
+      public int getKDIFMAEJGIO(int index) {
+        return kDIFMAEJGIO_.getInt(index);
       }
       /**
-       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+       * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
        * @param index The index to set the value at.
-       * @param value The lFMCEAKLMBJ to set.
+       * @param value The kDIFMAEJGIO to set.
        * @return This builder for chaining.
        */
-      public Builder setLFMCEAKLMBJ(
+      public Builder setKDIFMAEJGIO(
           int index, int value) {
-        ensureLFMCEAKLMBJIsMutable();
-        lFMCEAKLMBJ_.setInt(index, value);
+        ensureKDIFMAEJGIOIsMutable();
+        kDIFMAEJGIO_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
-       * @param value The lFMCEAKLMBJ to add.
+       * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
+       * @param value The kDIFMAEJGIO to add.
        * @return This builder for chaining.
        */
-      public Builder addLFMCEAKLMBJ(int value) {
-        ensureLFMCEAKLMBJIsMutable();
-        lFMCEAKLMBJ_.addInt(value);
+      public Builder addKDIFMAEJGIO(int value) {
+        ensureKDIFMAEJGIOIsMutable();
+        kDIFMAEJGIO_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
-       * @param values The lFMCEAKLMBJ to add.
+       * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
+       * @param values The kDIFMAEJGIO to add.
        * @return This builder for chaining.
        */
-      public Builder addAllLFMCEAKLMBJ(
+      public Builder addAllKDIFMAEJGIO(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureLFMCEAKLMBJIsMutable();
+        ensureKDIFMAEJGIOIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, lFMCEAKLMBJ_);
+            values, kDIFMAEJGIO_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 LFMCEAKLMBJ = 11;</code>
+       * <code>repeated uint32 KDIFMAEJGIO = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLFMCEAKLMBJ() {
-        lFMCEAKLMBJ_ = emptyIntList();
+      public Builder clearKDIFMAEJGIO() {
+        kDIFMAEJGIO_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.Internal.IntList pNKMMNAKKAE_ = emptyIntList();
-      private void ensurePNKMMNAKKAEIsMutable() {
-        if (!((bitField0_ & 0x00000002) != 0)) {
-          pNKMMNAKKAE_ = mutableCopy(pNKMMNAKKAE_);
-          bitField0_ |= 0x00000002;
-         }
-      }
-      /**
-       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-       * @return A list containing the pNKMMNAKKAE.
-       */
-      public java.util.List<java.lang.Integer>
-          getPNKMMNAKKAEList() {
-        return ((bitField0_ & 0x00000002) != 0) ?
-                 java.util.Collections.unmodifiableList(pNKMMNAKKAE_) : pNKMMNAKKAE_;
-      }
-      /**
-       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-       * @return The count of pNKMMNAKKAE.
-       */
-      public int getPNKMMNAKKAECount() {
-        return pNKMMNAKKAE_.size();
-      }
-      /**
-       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-       * @param index The index of the element to return.
-       * @return The pNKMMNAKKAE at the given index.
-       */
-      public int getPNKMMNAKKAE(int index) {
-        return pNKMMNAKKAE_.getInt(index);
-      }
-      /**
-       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-       * @param index The index to set the value at.
-       * @param value The pNKMMNAKKAE to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPNKMMNAKKAE(
-          int index, int value) {
-        ensurePNKMMNAKKAEIsMutable();
-        pNKMMNAKKAE_.setInt(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-       * @param value The pNKMMNAKKAE to add.
-       * @return This builder for chaining.
-       */
-      public Builder addPNKMMNAKKAE(int value) {
-        ensurePNKMMNAKKAEIsMutable();
-        pNKMMNAKKAE_.addInt(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-       * @param values The pNKMMNAKKAE to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllPNKMMNAKKAE(
-          java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensurePNKMMNAKKAEIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, pNKMMNAKKAE_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint32 PNKMMNAKKAE = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPNKMMNAKKAE() {
-        pNKMMNAKKAE_ = emptyIntList();
-        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
 
       private int failReason_ = 0;
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 12;</code>
        * @return The enum numeric value on the wire for failReason.
        */
       @java.lang.Override public int getFailReasonValue() {
         return failReason_;
       }
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 12;</code>
        * @param value The enum numeric value on the wire for failReason to set.
        * @return This builder for chaining.
        */
@@ -843,7 +772,7 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 12;</code>
        * @return The failReason.
        */
       @java.lang.Override
@@ -853,7 +782,7 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.WindFieldDungeonFailReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 12;</code>
        * @param value The failReason to set.
        * @return This builder for chaining.
        */
@@ -867,12 +796,91 @@ public final class WindFieldDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.WindFieldDungeonFailReason fail_reason = 3;</code>
+       * <code>.WindFieldDungeonFailReason fail_reason = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearFailReason() {
         
         failReason_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.Internal.IntList aKDFKBJLGGI_ = emptyIntList();
+      private void ensureAKDFKBJLGGIIsMutable() {
+        if (!((bitField0_ & 0x00000002) != 0)) {
+          aKDFKBJLGGI_ = mutableCopy(aKDFKBJLGGI_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+      /**
+       * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+       * @return A list containing the aKDFKBJLGGI.
+       */
+      public java.util.List<java.lang.Integer>
+          getAKDFKBJLGGIList() {
+        return ((bitField0_ & 0x00000002) != 0) ?
+                 java.util.Collections.unmodifiableList(aKDFKBJLGGI_) : aKDFKBJLGGI_;
+      }
+      /**
+       * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+       * @return The count of aKDFKBJLGGI.
+       */
+      public int getAKDFKBJLGGICount() {
+        return aKDFKBJLGGI_.size();
+      }
+      /**
+       * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+       * @param index The index of the element to return.
+       * @return The aKDFKBJLGGI at the given index.
+       */
+      public int getAKDFKBJLGGI(int index) {
+        return aKDFKBJLGGI_.getInt(index);
+      }
+      /**
+       * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+       * @param index The index to set the value at.
+       * @param value The aKDFKBJLGGI to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAKDFKBJLGGI(
+          int index, int value) {
+        ensureAKDFKBJLGGIIsMutable();
+        aKDFKBJLGGI_.setInt(index, value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+       * @param value The aKDFKBJLGGI to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAKDFKBJLGGI(int value) {
+        ensureAKDFKBJLGGIIsMutable();
+        aKDFKBJLGGI_.addInt(value);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+       * @param values The aKDFKBJLGGI to add.
+       * @return This builder for chaining.
+       */
+      public Builder addAllAKDFKBJLGGI(
+          java.lang.Iterable<? extends java.lang.Integer> values) {
+        ensureAKDFKBJLGGIIsMutable();
+        com.google.protobuf.AbstractMessageLite.Builder.addAll(
+            values, aKDFKBJLGGI_);
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>repeated uint32 AKDFKBJLGGI = 11;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAKDFKBJLGGI() {
+        aKDFKBJLGGI_ = emptyIntList();
+        bitField0_ = (bitField0_ & ~0x00000002);
         onChanged();
         return this;
       }
@@ -945,9 +953,9 @@ public final class WindFieldDungeonSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n WindFieldDungeonSettleInfo.proto\032 Wind" +
       "FieldDungeonFailReason.proto\"x\n\032WindFiel" +
-      "dDungeonSettleInfo\022\023\n\013LFMCEAKLMBJ\030\013 \003(\r\022" +
-      "\023\n\013PNKMMNAKKAE\030\t \003(\r\0220\n\013fail_reason\030\003 \001(" +
-      "\0162\033.WindFieldDungeonFailReasonB\033\n\031emu.gr" +
+      "dDungeonSettleInfo\022\023\n\013KDIFMAEJGIO\030\003 \003(\r\022" +
+      "0\n\013fail_reason\030\014 \001(\0162\033.WindFieldDungeonF" +
+      "ailReason\022\023\n\013AKDFKBJLGGI\030\013 \003(\rB\033\n\031emu.gr" +
       "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -960,7 +968,7 @@ public final class WindFieldDungeonSettleInfoOuterClass {
     internal_static_WindFieldDungeonSettleInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WindFieldDungeonSettleInfo_descriptor,
-        new java.lang.String[] { "LFMCEAKLMBJ", "PNKMMNAKKAE", "FailReason", });
+        new java.lang.String[] { "KDIFMAEJGIO", "FailReason", "AKDFKBJLGGI", });
     emu.grasscutter.net.proto.WindFieldDungeonFailReasonOuterClass.getDescriptor();
   }
 

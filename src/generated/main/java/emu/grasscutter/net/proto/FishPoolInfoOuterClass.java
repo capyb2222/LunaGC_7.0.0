@@ -19,33 +19,33 @@ public final class FishPoolInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 fish_area_list = 2;</code>
-     * @return A list containing the fishAreaList.
+     * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
+     * @return A list containing the iPKOKGJCHIB.
      */
-    java.util.List<java.lang.Integer> getFishAreaListList();
+    java.util.List<java.lang.Integer> getIPKOKGJCHIBList();
     /**
-     * <code>repeated uint32 fish_area_list = 2;</code>
-     * @return The count of fishAreaList.
+     * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
+     * @return The count of iPKOKGJCHIB.
      */
-    int getFishAreaListCount();
+    int getIPKOKGJCHIBCount();
     /**
-     * <code>repeated uint32 fish_area_list = 2;</code>
+     * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
      * @param index The index of the element to return.
-     * @return The fishAreaList at the given index.
+     * @return The iPKOKGJCHIB at the given index.
      */
-    int getFishAreaList(int index);
+    int getIPKOKGJCHIB(int index);
 
     /**
-     * <code>uint32 pool_id = 1;</code>
-     * @return The poolId.
+     * <code>uint32 ACKHBHFDHLK = 1;</code>
+     * @return The aCKHBHFDHLK.
      */
-    int getPoolId();
+    int getACKHBHFDHLK();
 
     /**
-     * <code>uint32 today_fish_num = 3;</code>
-     * @return The todayFishNum.
+     * <code>uint32 NMLGEBHGAFP = 3;</code>
+     * @return The nMLGEBHGAFP.
      */
-    int getTodayFishNum();
+    int getNMLGEBHGAFP();
   }
   /**
    * Protobuf type {@code FishPoolInfo}
@@ -60,7 +60,7 @@ public final class FishPoolInfoOuterClass {
       super(builder);
     }
     private FishPoolInfo() {
-      fishAreaList_ = emptyIntList();
+      iPKOKGJCHIB_ = emptyIntList();
     }
 
     @java.lang.Override
@@ -96,33 +96,33 @@ public final class FishPoolInfoOuterClass {
               break;
             case 8: {
 
-              poolId_ = input.readUInt32();
+              aCKHBHFDHLK_ = input.readUInt32();
               break;
             }
             case 16: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                fishAreaList_ = newIntList();
+                iPKOKGJCHIB_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
-              fishAreaList_.addInt(input.readUInt32());
+              iPKOKGJCHIB_.addInt(input.readUInt32());
               break;
             }
             case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                fishAreaList_ = newIntList();
+                iPKOKGJCHIB_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                fishAreaList_.addInt(input.readUInt32());
+                iPKOKGJCHIB_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
             }
             case 24: {
 
-              todayFishNum_ = input.readUInt32();
+              nMLGEBHGAFP_ = input.readUInt32();
               break;
             }
             default: {
@@ -141,7 +141,7 @@ public final class FishPoolInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          fishAreaList_.makeImmutable(); // C
+          iPKOKGJCHIB_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -160,54 +160,54 @@ public final class FishPoolInfoOuterClass {
               emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo.class, emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo.Builder.class);
     }
 
-    public static final int FISH_AREA_LIST_FIELD_NUMBER = 2;
-    private com.google.protobuf.Internal.IntList fishAreaList_;
+    public static final int IPKOKGJCHIB_FIELD_NUMBER = 2;
+    private com.google.protobuf.Internal.IntList iPKOKGJCHIB_;
     /**
-     * <code>repeated uint32 fish_area_list = 2;</code>
-     * @return A list containing the fishAreaList.
+     * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
+     * @return A list containing the iPKOKGJCHIB.
      */
     @java.lang.Override
     public java.util.List<java.lang.Integer>
-        getFishAreaListList() {
-      return fishAreaList_;
+        getIPKOKGJCHIBList() {
+      return iPKOKGJCHIB_;
     }
     /**
-     * <code>repeated uint32 fish_area_list = 2;</code>
-     * @return The count of fishAreaList.
+     * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
+     * @return The count of iPKOKGJCHIB.
      */
-    public int getFishAreaListCount() {
-      return fishAreaList_.size();
+    public int getIPKOKGJCHIBCount() {
+      return iPKOKGJCHIB_.size();
     }
     /**
-     * <code>repeated uint32 fish_area_list = 2;</code>
+     * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
      * @param index The index of the element to return.
-     * @return The fishAreaList at the given index.
+     * @return The iPKOKGJCHIB at the given index.
      */
-    public int getFishAreaList(int index) {
-      return fishAreaList_.getInt(index);
+    public int getIPKOKGJCHIB(int index) {
+      return iPKOKGJCHIB_.getInt(index);
     }
-    private int fishAreaListMemoizedSerializedSize = -1;
+    private int iPKOKGJCHIBMemoizedSerializedSize = -1;
 
-    public static final int POOL_ID_FIELD_NUMBER = 1;
-    private int poolId_;
+    public static final int ACKHBHFDHLK_FIELD_NUMBER = 1;
+    private int aCKHBHFDHLK_;
     /**
-     * <code>uint32 pool_id = 1;</code>
-     * @return The poolId.
+     * <code>uint32 ACKHBHFDHLK = 1;</code>
+     * @return The aCKHBHFDHLK.
      */
     @java.lang.Override
-    public int getPoolId() {
-      return poolId_;
+    public int getACKHBHFDHLK() {
+      return aCKHBHFDHLK_;
     }
 
-    public static final int TODAY_FISH_NUM_FIELD_NUMBER = 3;
-    private int todayFishNum_;
+    public static final int NMLGEBHGAFP_FIELD_NUMBER = 3;
+    private int nMLGEBHGAFP_;
     /**
-     * <code>uint32 today_fish_num = 3;</code>
-     * @return The todayFishNum.
+     * <code>uint32 NMLGEBHGAFP = 3;</code>
+     * @return The nMLGEBHGAFP.
      */
     @java.lang.Override
-    public int getTodayFishNum() {
-      return todayFishNum_;
+    public int getNMLGEBHGAFP() {
+      return nMLGEBHGAFP_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -225,18 +225,18 @@ public final class FishPoolInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (poolId_ != 0) {
-        output.writeUInt32(1, poolId_);
+      if (aCKHBHFDHLK_ != 0) {
+        output.writeUInt32(1, aCKHBHFDHLK_);
       }
-      if (getFishAreaListList().size() > 0) {
+      if (getIPKOKGJCHIBList().size() > 0) {
         output.writeUInt32NoTag(18);
-        output.writeUInt32NoTag(fishAreaListMemoizedSerializedSize);
+        output.writeUInt32NoTag(iPKOKGJCHIBMemoizedSerializedSize);
       }
-      for (int i = 0; i < fishAreaList_.size(); i++) {
-        output.writeUInt32NoTag(fishAreaList_.getInt(i));
+      for (int i = 0; i < iPKOKGJCHIB_.size(); i++) {
+        output.writeUInt32NoTag(iPKOKGJCHIB_.getInt(i));
       }
-      if (todayFishNum_ != 0) {
-        output.writeUInt32(3, todayFishNum_);
+      if (nMLGEBHGAFP_ != 0) {
+        output.writeUInt32(3, nMLGEBHGAFP_);
       }
       unknownFields.writeTo(output);
     }
@@ -247,27 +247,27 @@ public final class FishPoolInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (poolId_ != 0) {
+      if (aCKHBHFDHLK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, poolId_);
+          .computeUInt32Size(1, aCKHBHFDHLK_);
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < fishAreaList_.size(); i++) {
+        for (int i = 0; i < iPKOKGJCHIB_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(fishAreaList_.getInt(i));
+            .computeUInt32SizeNoTag(iPKOKGJCHIB_.getInt(i));
         }
         size += dataSize;
-        if (!getFishAreaListList().isEmpty()) {
+        if (!getIPKOKGJCHIBList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        fishAreaListMemoizedSerializedSize = dataSize;
+        iPKOKGJCHIBMemoizedSerializedSize = dataSize;
       }
-      if (todayFishNum_ != 0) {
+      if (nMLGEBHGAFP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, todayFishNum_);
+          .computeUInt32Size(3, nMLGEBHGAFP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -284,12 +284,12 @@ public final class FishPoolInfoOuterClass {
       }
       emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo other = (emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo) obj;
 
-      if (!getFishAreaListList()
-          .equals(other.getFishAreaListList())) return false;
-      if (getPoolId()
-          != other.getPoolId()) return false;
-      if (getTodayFishNum()
-          != other.getTodayFishNum()) return false;
+      if (!getIPKOKGJCHIBList()
+          .equals(other.getIPKOKGJCHIBList())) return false;
+      if (getACKHBHFDHLK()
+          != other.getACKHBHFDHLK()) return false;
+      if (getNMLGEBHGAFP()
+          != other.getNMLGEBHGAFP()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -301,14 +301,14 @@ public final class FishPoolInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getFishAreaListCount() > 0) {
-        hash = (37 * hash) + FISH_AREA_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getFishAreaListList().hashCode();
+      if (getIPKOKGJCHIBCount() > 0) {
+        hash = (37 * hash) + IPKOKGJCHIB_FIELD_NUMBER;
+        hash = (53 * hash) + getIPKOKGJCHIBList().hashCode();
       }
-      hash = (37 * hash) + POOL_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getPoolId();
-      hash = (37 * hash) + TODAY_FISH_NUM_FIELD_NUMBER;
-      hash = (53 * hash) + getTodayFishNum();
+      hash = (37 * hash) + ACKHBHFDHLK_FIELD_NUMBER;
+      hash = (53 * hash) + getACKHBHFDHLK();
+      hash = (37 * hash) + NMLGEBHGAFP_FIELD_NUMBER;
+      hash = (53 * hash) + getNMLGEBHGAFP();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -442,11 +442,11 @@ public final class FishPoolInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        fishAreaList_ = emptyIntList();
+        iPKOKGJCHIB_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
-        poolId_ = 0;
+        aCKHBHFDHLK_ = 0;
 
-        todayFishNum_ = 0;
+        nMLGEBHGAFP_ = 0;
 
         return this;
       }
@@ -476,12 +476,12 @@ public final class FishPoolInfoOuterClass {
         emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo result = new emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo(this);
         int from_bitField0_ = bitField0_;
         if (((bitField0_ & 0x00000001) != 0)) {
-          fishAreaList_.makeImmutable();
+          iPKOKGJCHIB_.makeImmutable();
           bitField0_ = (bitField0_ & ~0x00000001);
         }
-        result.fishAreaList_ = fishAreaList_;
-        result.poolId_ = poolId_;
-        result.todayFishNum_ = todayFishNum_;
+        result.iPKOKGJCHIB_ = iPKOKGJCHIB_;
+        result.aCKHBHFDHLK_ = aCKHBHFDHLK_;
+        result.nMLGEBHGAFP_ = nMLGEBHGAFP_;
         onBuilt();
         return result;
       }
@@ -530,21 +530,21 @@ public final class FishPoolInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo other) {
         if (other == emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo.getDefaultInstance()) return this;
-        if (!other.fishAreaList_.isEmpty()) {
-          if (fishAreaList_.isEmpty()) {
-            fishAreaList_ = other.fishAreaList_;
+        if (!other.iPKOKGJCHIB_.isEmpty()) {
+          if (iPKOKGJCHIB_.isEmpty()) {
+            iPKOKGJCHIB_ = other.iPKOKGJCHIB_;
             bitField0_ = (bitField0_ & ~0x00000001);
           } else {
-            ensureFishAreaListIsMutable();
-            fishAreaList_.addAll(other.fishAreaList_);
+            ensureIPKOKGJCHIBIsMutable();
+            iPKOKGJCHIB_.addAll(other.iPKOKGJCHIB_);
           }
           onChanged();
         }
-        if (other.getPoolId() != 0) {
-          setPoolId(other.getPoolId());
+        if (other.getACKHBHFDHLK() != 0) {
+          setACKHBHFDHLK(other.getACKHBHFDHLK());
         }
-        if (other.getTodayFishNum() != 0) {
-          setTodayFishNum(other.getTodayFishNum());
+        if (other.getNMLGEBHGAFP() != 0) {
+          setNMLGEBHGAFP(other.getNMLGEBHGAFP());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -576,143 +576,143 @@ public final class FishPoolInfoOuterClass {
       }
       private int bitField0_;
 
-      private com.google.protobuf.Internal.IntList fishAreaList_ = emptyIntList();
-      private void ensureFishAreaListIsMutable() {
+      private com.google.protobuf.Internal.IntList iPKOKGJCHIB_ = emptyIntList();
+      private void ensureIPKOKGJCHIBIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          fishAreaList_ = mutableCopy(fishAreaList_);
+          iPKOKGJCHIB_ = mutableCopy(iPKOKGJCHIB_);
           bitField0_ |= 0x00000001;
          }
       }
       /**
-       * <code>repeated uint32 fish_area_list = 2;</code>
-       * @return A list containing the fishAreaList.
+       * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
+       * @return A list containing the iPKOKGJCHIB.
        */
       public java.util.List<java.lang.Integer>
-          getFishAreaListList() {
+          getIPKOKGJCHIBList() {
         return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(fishAreaList_) : fishAreaList_;
+                 java.util.Collections.unmodifiableList(iPKOKGJCHIB_) : iPKOKGJCHIB_;
       }
       /**
-       * <code>repeated uint32 fish_area_list = 2;</code>
-       * @return The count of fishAreaList.
+       * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
+       * @return The count of iPKOKGJCHIB.
        */
-      public int getFishAreaListCount() {
-        return fishAreaList_.size();
+      public int getIPKOKGJCHIBCount() {
+        return iPKOKGJCHIB_.size();
       }
       /**
-       * <code>repeated uint32 fish_area_list = 2;</code>
+       * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
        * @param index The index of the element to return.
-       * @return The fishAreaList at the given index.
+       * @return The iPKOKGJCHIB at the given index.
        */
-      public int getFishAreaList(int index) {
-        return fishAreaList_.getInt(index);
+      public int getIPKOKGJCHIB(int index) {
+        return iPKOKGJCHIB_.getInt(index);
       }
       /**
-       * <code>repeated uint32 fish_area_list = 2;</code>
+       * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
        * @param index The index to set the value at.
-       * @param value The fishAreaList to set.
+       * @param value The iPKOKGJCHIB to set.
        * @return This builder for chaining.
        */
-      public Builder setFishAreaList(
+      public Builder setIPKOKGJCHIB(
           int index, int value) {
-        ensureFishAreaListIsMutable();
-        fishAreaList_.setInt(index, value);
+        ensureIPKOKGJCHIBIsMutable();
+        iPKOKGJCHIB_.setInt(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 fish_area_list = 2;</code>
-       * @param value The fishAreaList to add.
+       * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
+       * @param value The iPKOKGJCHIB to add.
        * @return This builder for chaining.
        */
-      public Builder addFishAreaList(int value) {
-        ensureFishAreaListIsMutable();
-        fishAreaList_.addInt(value);
+      public Builder addIPKOKGJCHIB(int value) {
+        ensureIPKOKGJCHIBIsMutable();
+        iPKOKGJCHIB_.addInt(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 fish_area_list = 2;</code>
-       * @param values The fishAreaList to add.
+       * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
+       * @param values The iPKOKGJCHIB to add.
        * @return This builder for chaining.
        */
-      public Builder addAllFishAreaList(
+      public Builder addAllIPKOKGJCHIB(
           java.lang.Iterable<? extends java.lang.Integer> values) {
-        ensureFishAreaListIsMutable();
+        ensureIPKOKGJCHIBIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, fishAreaList_);
+            values, iPKOKGJCHIB_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint32 fish_area_list = 2;</code>
+       * <code>repeated uint32 IPKOKGJCHIB = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFishAreaList() {
-        fishAreaList_ = emptyIntList();
+      public Builder clearIPKOKGJCHIB() {
+        iPKOKGJCHIB_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
 
-      private int poolId_ ;
+      private int aCKHBHFDHLK_ ;
       /**
-       * <code>uint32 pool_id = 1;</code>
-       * @return The poolId.
+       * <code>uint32 ACKHBHFDHLK = 1;</code>
+       * @return The aCKHBHFDHLK.
        */
       @java.lang.Override
-      public int getPoolId() {
-        return poolId_;
+      public int getACKHBHFDHLK() {
+        return aCKHBHFDHLK_;
       }
       /**
-       * <code>uint32 pool_id = 1;</code>
-       * @param value The poolId to set.
+       * <code>uint32 ACKHBHFDHLK = 1;</code>
+       * @param value The aCKHBHFDHLK to set.
        * @return This builder for chaining.
        */
-      public Builder setPoolId(int value) {
+      public Builder setACKHBHFDHLK(int value) {
         
-        poolId_ = value;
+        aCKHBHFDHLK_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 pool_id = 1;</code>
+       * <code>uint32 ACKHBHFDHLK = 1;</code>
        * @return This builder for chaining.
        */
-      public Builder clearPoolId() {
+      public Builder clearACKHBHFDHLK() {
         
-        poolId_ = 0;
+        aCKHBHFDHLK_ = 0;
         onChanged();
         return this;
       }
 
-      private int todayFishNum_ ;
+      private int nMLGEBHGAFP_ ;
       /**
-       * <code>uint32 today_fish_num = 3;</code>
-       * @return The todayFishNum.
+       * <code>uint32 NMLGEBHGAFP = 3;</code>
+       * @return The nMLGEBHGAFP.
        */
       @java.lang.Override
-      public int getTodayFishNum() {
-        return todayFishNum_;
+      public int getNMLGEBHGAFP() {
+        return nMLGEBHGAFP_;
       }
       /**
-       * <code>uint32 today_fish_num = 3;</code>
-       * @param value The todayFishNum to set.
+       * <code>uint32 NMLGEBHGAFP = 3;</code>
+       * @param value The nMLGEBHGAFP to set.
        * @return This builder for chaining.
        */
-      public Builder setTodayFishNum(int value) {
+      public Builder setNMLGEBHGAFP(int value) {
         
-        todayFishNum_ = value;
+        nMLGEBHGAFP_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 today_fish_num = 3;</code>
+       * <code>uint32 NMLGEBHGAFP = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearTodayFishNum() {
+      public Builder clearNMLGEBHGAFP() {
         
-        todayFishNum_ = 0;
+        nMLGEBHGAFP_ = 0;
         onChanged();
         return this;
       }
@@ -783,10 +783,10 @@ public final class FishPoolInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022FishPoolInfo.proto\"O\n\014FishPoolInfo\022\026\n\016" +
-      "fish_area_list\030\002 \003(\r\022\017\n\007pool_id\030\001 \001(\r\022\026\n" +
-      "\016today_fish_num\030\003 \001(\rB\033\n\031emu.grasscutter" +
-      ".net.protob\006proto3"
+      "\n\022FishPoolInfo.proto\"M\n\014FishPoolInfo\022\023\n\013" +
+      "IPKOKGJCHIB\030\002 \003(\r\022\023\n\013ACKHBHFDHLK\030\001 \001(\r\022\023" +
+      "\n\013NMLGEBHGAFP\030\003 \001(\rB\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -797,7 +797,7 @@ public final class FishPoolInfoOuterClass {
     internal_static_FishPoolInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_FishPoolInfo_descriptor,
-        new java.lang.String[] { "FishAreaList", "PoolId", "TodayFishNum", });
+        new java.lang.String[] { "IPKOKGJCHIB", "ACKHBHFDHLK", "NMLGEBHGAFP", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

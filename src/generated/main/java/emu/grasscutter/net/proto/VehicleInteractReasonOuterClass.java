@@ -20,104 +20,104 @@ public final class VehicleInteractReasonOuterClass {
   public enum VehicleInteractReason
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>VEHICLE_INTERACT_REASON_NONE = 0;</code>
+     * <code>VehicleInteractReason_NONE = 0;</code>
      */
-    VEHICLE_INTERACT_REASON_NONE(0),
+    VehicleInteractReason_NONE(0),
     /**
-     * <code>VEHICLE_INTERACT_REASON_DESTORY_VEHCILE = 1;</code>
+     * <code>VehicleInteractReason_DESTORY_VEHCILE = 1;</code>
      */
-    VEHICLE_INTERACT_REASON_DESTORY_VEHCILE(1),
+    VehicleInteractReason_DESTORY_VEHCILE(1),
     /**
-     * <code>VEHICLE_INTERACT_REASON_ENTER_SCENE = 2;</code>
+     * <code>VehicleInteractReason_ENTER_SCENE = 2;</code>
      */
-    VEHICLE_INTERACT_REASON_ENTER_SCENE(2),
+    VehicleInteractReason_ENTER_SCENE(2),
     /**
-     * <code>VEHICLE_INTERACT_REASON_LEAVE_SCENE = 3;</code>
+     * <code>VehicleInteractReason_LEAVE_SCENE = 3;</code>
      */
-    VEHICLE_INTERACT_REASON_LEAVE_SCENE(3),
+    VehicleInteractReason_LEAVE_SCENE(3),
     /**
-     * <code>VEHICLE_INTERACT_REASON_ACTIVE_VEHCILE = 4;</code>
+     * <code>VehicleInteractReason_ACTIVE_VEHCILE = 4;</code>
      */
-    VEHICLE_INTERACT_REASON_ACTIVE_VEHCILE(4),
+    VehicleInteractReason_ACTIVE_VEHCILE(4),
     /**
-     * <code>VEHICLE_INTERACT_REASON_ENTER_VEHICLE = 5;</code>
+     * <code>VehicleInteractReason_ENTER_VEHICLE = 5;</code>
      */
-    VEHICLE_INTERACT_REASON_ENTER_VEHICLE(5),
+    VehicleInteractReason_ENTER_VEHICLE(5),
     /**
-     * <code>VEHICLE_INTERACT_REASON_SPEED_CHECK = 6;</code>
+     * <code>VehicleInteractReason_SPEED_CHECK = 6;</code>
      */
-    VEHICLE_INTERACT_REASON_SPEED_CHECK(6),
+    VehicleInteractReason_SPEED_CHECK(6),
     /**
-     * <code>VEHICLE_INTERACT_REASON_GM = 7;</code>
+     * <code>VehicleInteractReason_GM = 7;</code>
      */
-    VEHICLE_INTERACT_REASON_GM(7),
+    VehicleInteractReason_GM(7),
     /**
-     * <code>VEHICLE_INTERACT_REASON_USE_WIDGET_TP = 8;</code>
+     * <code>VehicleInteractReason_USE_WIDGET_TP = 8;</code>
      */
-    VEHICLE_INTERACT_REASON_USE_WIDGET_TP(8),
+    VehicleInteractReason_USE_WIDGET_TP(8),
     /**
-     * <code>VEHICLE_INTERACT_REASON_USE_WIDGET_NOT_TP = 9;</code>
+     * <code>VehicleInteractReason_USE_WIDGET_NOT_TP = 9;</code>
      */
-    VEHICLE_INTERACT_REASON_USE_WIDGET_NOT_TP(9),
+    VehicleInteractReason_USE_WIDGET_NOT_TP(9),
     /**
-     * <code>VEHICLE_INTERACT_REASON_GALLERY_VEHCILE_NOT_TP = 10;</code>
+     * <code>VehicleInteractReason_GALLERY_VEHCILE_NOT_TP = 10;</code>
      */
-    VEHICLE_INTERACT_REASON_GALLERY_VEHCILE_NOT_TP(10),
+    VehicleInteractReason_GALLERY_VEHCILE_NOT_TP(10),
     /**
-     * <code>VEHICLE_INTERACT_REASON_QUEST_EXEC = 11;</code>
+     * <code>VehicleInteractReason_QUEST_EXEC = 11;</code>
      */
-    VEHICLE_INTERACT_REASON_QUEST_EXEC(11),
+    VehicleInteractReason_QUEST_EXEC(11),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>VEHICLE_INTERACT_REASON_NONE = 0;</code>
+     * <code>VehicleInteractReason_NONE = 0;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_NONE_VALUE = 0;
+    public static final int VehicleInteractReason_NONE_VALUE = 0;
     /**
-     * <code>VEHICLE_INTERACT_REASON_DESTORY_VEHCILE = 1;</code>
+     * <code>VehicleInteractReason_DESTORY_VEHCILE = 1;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_DESTORY_VEHCILE_VALUE = 1;
+    public static final int VehicleInteractReason_DESTORY_VEHCILE_VALUE = 1;
     /**
-     * <code>VEHICLE_INTERACT_REASON_ENTER_SCENE = 2;</code>
+     * <code>VehicleInteractReason_ENTER_SCENE = 2;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_ENTER_SCENE_VALUE = 2;
+    public static final int VehicleInteractReason_ENTER_SCENE_VALUE = 2;
     /**
-     * <code>VEHICLE_INTERACT_REASON_LEAVE_SCENE = 3;</code>
+     * <code>VehicleInteractReason_LEAVE_SCENE = 3;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_LEAVE_SCENE_VALUE = 3;
+    public static final int VehicleInteractReason_LEAVE_SCENE_VALUE = 3;
     /**
-     * <code>VEHICLE_INTERACT_REASON_ACTIVE_VEHCILE = 4;</code>
+     * <code>VehicleInteractReason_ACTIVE_VEHCILE = 4;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_ACTIVE_VEHCILE_VALUE = 4;
+    public static final int VehicleInteractReason_ACTIVE_VEHCILE_VALUE = 4;
     /**
-     * <code>VEHICLE_INTERACT_REASON_ENTER_VEHICLE = 5;</code>
+     * <code>VehicleInteractReason_ENTER_VEHICLE = 5;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_ENTER_VEHICLE_VALUE = 5;
+    public static final int VehicleInteractReason_ENTER_VEHICLE_VALUE = 5;
     /**
-     * <code>VEHICLE_INTERACT_REASON_SPEED_CHECK = 6;</code>
+     * <code>VehicleInteractReason_SPEED_CHECK = 6;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_SPEED_CHECK_VALUE = 6;
+    public static final int VehicleInteractReason_SPEED_CHECK_VALUE = 6;
     /**
-     * <code>VEHICLE_INTERACT_REASON_GM = 7;</code>
+     * <code>VehicleInteractReason_GM = 7;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_GM_VALUE = 7;
+    public static final int VehicleInteractReason_GM_VALUE = 7;
     /**
-     * <code>VEHICLE_INTERACT_REASON_USE_WIDGET_TP = 8;</code>
+     * <code>VehicleInteractReason_USE_WIDGET_TP = 8;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_USE_WIDGET_TP_VALUE = 8;
+    public static final int VehicleInteractReason_USE_WIDGET_TP_VALUE = 8;
     /**
-     * <code>VEHICLE_INTERACT_REASON_USE_WIDGET_NOT_TP = 9;</code>
+     * <code>VehicleInteractReason_USE_WIDGET_NOT_TP = 9;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_USE_WIDGET_NOT_TP_VALUE = 9;
+    public static final int VehicleInteractReason_USE_WIDGET_NOT_TP_VALUE = 9;
     /**
-     * <code>VEHICLE_INTERACT_REASON_GALLERY_VEHCILE_NOT_TP = 10;</code>
+     * <code>VehicleInteractReason_GALLERY_VEHCILE_NOT_TP = 10;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_GALLERY_VEHCILE_NOT_TP_VALUE = 10;
+    public static final int VehicleInteractReason_GALLERY_VEHCILE_NOT_TP_VALUE = 10;
     /**
-     * <code>VEHICLE_INTERACT_REASON_QUEST_EXEC = 11;</code>
+     * <code>VehicleInteractReason_QUEST_EXEC = 11;</code>
      */
-    public static final int VEHICLE_INTERACT_REASON_QUEST_EXEC_VALUE = 11;
+    public static final int VehicleInteractReason_QUEST_EXEC_VALUE = 11;
 
 
     public final int getNumber() {
@@ -144,18 +144,18 @@ public final class VehicleInteractReasonOuterClass {
      */
     public static VehicleInteractReason forNumber(int value) {
       switch (value) {
-        case 0: return VEHICLE_INTERACT_REASON_NONE;
-        case 1: return VEHICLE_INTERACT_REASON_DESTORY_VEHCILE;
-        case 2: return VEHICLE_INTERACT_REASON_ENTER_SCENE;
-        case 3: return VEHICLE_INTERACT_REASON_LEAVE_SCENE;
-        case 4: return VEHICLE_INTERACT_REASON_ACTIVE_VEHCILE;
-        case 5: return VEHICLE_INTERACT_REASON_ENTER_VEHICLE;
-        case 6: return VEHICLE_INTERACT_REASON_SPEED_CHECK;
-        case 7: return VEHICLE_INTERACT_REASON_GM;
-        case 8: return VEHICLE_INTERACT_REASON_USE_WIDGET_TP;
-        case 9: return VEHICLE_INTERACT_REASON_USE_WIDGET_NOT_TP;
-        case 10: return VEHICLE_INTERACT_REASON_GALLERY_VEHCILE_NOT_TP;
-        case 11: return VEHICLE_INTERACT_REASON_QUEST_EXEC;
+        case 0: return VehicleInteractReason_NONE;
+        case 1: return VehicleInteractReason_DESTORY_VEHCILE;
+        case 2: return VehicleInteractReason_ENTER_SCENE;
+        case 3: return VehicleInteractReason_LEAVE_SCENE;
+        case 4: return VehicleInteractReason_ACTIVE_VEHCILE;
+        case 5: return VehicleInteractReason_ENTER_VEHICLE;
+        case 6: return VehicleInteractReason_SPEED_CHECK;
+        case 7: return VehicleInteractReason_GM;
+        case 8: return VehicleInteractReason_USE_WIDGET_TP;
+        case 9: return VehicleInteractReason_USE_WIDGET_NOT_TP;
+        case 10: return VehicleInteractReason_GALLERY_VEHCILE_NOT_TP;
+        case 11: return VehicleInteractReason_QUEST_EXEC;
         default: return null;
       }
     }
@@ -221,21 +221,21 @@ public final class VehicleInteractReasonOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033VehicleInteractReason.proto*\216\004\n\025Vehicl" +
-      "eInteractReason\022 \n\034VEHICLE_INTERACT_REAS" +
-      "ON_NONE\020\000\022+\n\'VEHICLE_INTERACT_REASON_DES" +
-      "TORY_VEHCILE\020\001\022\'\n#VEHICLE_INTERACT_REASO" +
-      "N_ENTER_SCENE\020\002\022\'\n#VEHICLE_INTERACT_REAS" +
-      "ON_LEAVE_SCENE\020\003\022*\n&VEHICLE_INTERACT_REA" +
-      "SON_ACTIVE_VEHCILE\020\004\022)\n%VEHICLE_INTERACT" +
-      "_REASON_ENTER_VEHICLE\020\005\022\'\n#VEHICLE_INTER" +
-      "ACT_REASON_SPEED_CHECK\020\006\022\036\n\032VEHICLE_INTE" +
-      "RACT_REASON_GM\020\007\022)\n%VEHICLE_INTERACT_REA" +
-      "SON_USE_WIDGET_TP\020\010\022-\n)VEHICLE_INTERACT_" +
-      "REASON_USE_WIDGET_NOT_TP\020\t\0222\n.VEHICLE_IN" +
-      "TERACT_REASON_GALLERY_VEHCILE_NOT_TP\020\n\022&" +
-      "\n\"VEHICLE_INTERACT_REASON_QUEST_EXEC\020\013B\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "\n\033VehicleInteractReason.proto*\366\003\n\025Vehicl" +
+      "eInteractReason\022\036\n\032VehicleInteractReason" +
+      "_NONE\020\000\022)\n%VehicleInteractReason_DESTORY" +
+      "_VEHCILE\020\001\022%\n!VehicleInteractReason_ENTE" +
+      "R_SCENE\020\002\022%\n!VehicleInteractReason_LEAVE" +
+      "_SCENE\020\003\022(\n$VehicleInteractReason_ACTIVE" +
+      "_VEHCILE\020\004\022\'\n#VehicleInteractReason_ENTE" +
+      "R_VEHICLE\020\005\022%\n!VehicleInteractReason_SPE" +
+      "ED_CHECK\020\006\022\034\n\030VehicleInteractReason_GM\020\007" +
+      "\022\'\n#VehicleInteractReason_USE_WIDGET_TP\020" +
+      "\010\022+\n\'VehicleInteractReason_USE_WIDGET_NO" +
+      "T_TP\020\t\0220\n,VehicleInteractReason_GALLERY_" +
+      "VEHCILE_NOT_TP\020\n\022$\n VehicleInteractReaso" +
+      "n_QUEST_EXEC\020\013B\033\n\031emu.grasscutter.net.pr" +
+      "otob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

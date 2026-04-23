@@ -43,6 +43,11 @@ public final class FireworksReformDataNotifyOuterClass {
         int index);
   }
   /**
+   * <pre>
+   * CmdId: 7551
+   * Obf: OFPJGJACJBD
+   * </pre>
+   *
    * Protobuf type {@code FireworksReformDataNotify}
    */
   public static final class FireworksReformDataNotify extends
@@ -331,6 +336,11 @@ public final class FireworksReformDataNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 7551
+     * Obf: OFPJGJACJBD
+     * </pre>
+     *
      * Protobuf type {@code FireworksReformDataNotify}
      */
     public static final class Builder extends

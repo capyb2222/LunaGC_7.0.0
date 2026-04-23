@@ -19,19 +19,23 @@ public final class AvatarRenameInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string avatar_name = 8;</code>
-     * @return The avatarName.
+     * <code>string LPLIECDFGGG = 4;</code>
+     * @return The lPLIECDFGGG.
      */
-    java.lang.String getAvatarName();
+    java.lang.String getLPLIECDFGGG();
     /**
-     * <code>string avatar_name = 8;</code>
-     * @return The bytes for avatarName.
+     * <code>string LPLIECDFGGG = 4;</code>
+     * @return The bytes for lPLIECDFGGG.
      */
     com.google.protobuf.ByteString
-        getAvatarNameBytes();
+        getLPLIECDFGGGBytes();
 
     /**
-     * <code>uint32 avatar_id = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 avatar_id = 14;</code>
      * @return The avatarId.
      */
     int getAvatarId();
@@ -49,7 +53,7 @@ public final class AvatarRenameInfoOuterClass {
       super(builder);
     }
     private AvatarRenameInfo() {
-      avatarName_ = "";
+      lPLIECDFGGG_ = "";
     }
 
     @java.lang.Override
@@ -82,13 +86,13 @@ public final class AvatarRenameInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 34: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              avatarName_ = s;
+              lPLIECDFGGG_ = s;
               break;
             }
-            case 80: {
+            case 112: {
 
               avatarId_ = input.readUInt32();
               break;
@@ -125,48 +129,52 @@ public final class AvatarRenameInfoOuterClass {
               emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo.class, emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo.Builder.class);
     }
 
-    public static final int AVATAR_NAME_FIELD_NUMBER = 8;
-    private volatile java.lang.Object avatarName_;
+    public static final int LPLIECDFGGG_FIELD_NUMBER = 4;
+    private volatile java.lang.Object lPLIECDFGGG_;
     /**
-     * <code>string avatar_name = 8;</code>
-     * @return The avatarName.
+     * <code>string LPLIECDFGGG = 4;</code>
+     * @return The lPLIECDFGGG.
      */
     @java.lang.Override
-    public java.lang.String getAvatarName() {
-      java.lang.Object ref = avatarName_;
+    public java.lang.String getLPLIECDFGGG() {
+      java.lang.Object ref = lPLIECDFGGG_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        avatarName_ = s;
+        lPLIECDFGGG_ = s;
         return s;
       }
     }
     /**
-     * <code>string avatar_name = 8;</code>
-     * @return The bytes for avatarName.
+     * <code>string LPLIECDFGGG = 4;</code>
+     * @return The bytes for lPLIECDFGGG.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getAvatarNameBytes() {
-      java.lang.Object ref = avatarName_;
+        getLPLIECDFGGGBytes() {
+      java.lang.Object ref = lPLIECDFGGG_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        avatarName_ = b;
+        lPLIECDFGGG_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 10;
+    public static final int AVATAR_ID_FIELD_NUMBER = 14;
     private int avatarId_;
     /**
-     * <code>uint32 avatar_id = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 avatar_id = 14;</code>
      * @return The avatarId.
      */
     @java.lang.Override
@@ -188,11 +196,11 @@ public final class AvatarRenameInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(avatarName_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 8, avatarName_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(lPLIECDFGGG_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, lPLIECDFGGG_);
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(10, avatarId_);
+        output.writeUInt32(14, avatarId_);
       }
       unknownFields.writeTo(output);
     }
@@ -203,12 +211,12 @@ public final class AvatarRenameInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(avatarName_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, avatarName_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(lPLIECDFGGG_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, lPLIECDFGGG_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, avatarId_);
+          .computeUInt32Size(14, avatarId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -225,8 +233,8 @@ public final class AvatarRenameInfoOuterClass {
       }
       emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo other = (emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo) obj;
 
-      if (!getAvatarName()
-          .equals(other.getAvatarName())) return false;
+      if (!getLPLIECDFGGG()
+          .equals(other.getLPLIECDFGGG())) return false;
       if (getAvatarId()
           != other.getAvatarId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -240,8 +248,8 @@ public final class AvatarRenameInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + AVATAR_NAME_FIELD_NUMBER;
-      hash = (53 * hash) + getAvatarName().hashCode();
+      hash = (37 * hash) + LPLIECDFGGG_FIELD_NUMBER;
+      hash = (53 * hash) + getLPLIECDFGGG().hashCode();
       hash = (37 * hash) + AVATAR_ID_FIELD_NUMBER;
       hash = (53 * hash) + getAvatarId();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -377,7 +385,7 @@ public final class AvatarRenameInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        avatarName_ = "";
+        lPLIECDFGGG_ = "";
 
         avatarId_ = 0;
 
@@ -407,7 +415,7 @@ public final class AvatarRenameInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo buildPartial() {
         emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo result = new emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo(this);
-        result.avatarName_ = avatarName_;
+        result.lPLIECDFGGG_ = lPLIECDFGGG_;
         result.avatarId_ = avatarId_;
         onBuilt();
         return result;
@@ -457,8 +465,8 @@ public final class AvatarRenameInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo other) {
         if (other == emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo.getDefaultInstance()) return this;
-        if (!other.getAvatarName().isEmpty()) {
-          avatarName_ = other.avatarName_;
+        if (!other.getLPLIECDFGGG().isEmpty()) {
+          lPLIECDFGGG_ = other.lPLIECDFGGG_;
           onChanged();
         }
         if (other.getAvatarId() != 0) {
@@ -493,85 +501,89 @@ public final class AvatarRenameInfoOuterClass {
         return this;
       }
 
-      private java.lang.Object avatarName_ = "";
+      private java.lang.Object lPLIECDFGGG_ = "";
       /**
-       * <code>string avatar_name = 8;</code>
-       * @return The avatarName.
+       * <code>string LPLIECDFGGG = 4;</code>
+       * @return The lPLIECDFGGG.
        */
-      public java.lang.String getAvatarName() {
-        java.lang.Object ref = avatarName_;
+      public java.lang.String getLPLIECDFGGG() {
+        java.lang.Object ref = lPLIECDFGGG_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          avatarName_ = s;
+          lPLIECDFGGG_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string avatar_name = 8;</code>
-       * @return The bytes for avatarName.
+       * <code>string LPLIECDFGGG = 4;</code>
+       * @return The bytes for lPLIECDFGGG.
        */
       public com.google.protobuf.ByteString
-          getAvatarNameBytes() {
-        java.lang.Object ref = avatarName_;
+          getLPLIECDFGGGBytes() {
+        java.lang.Object ref = lPLIECDFGGG_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          avatarName_ = b;
+          lPLIECDFGGG_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string avatar_name = 8;</code>
-       * @param value The avatarName to set.
+       * <code>string LPLIECDFGGG = 4;</code>
+       * @param value The lPLIECDFGGG to set.
        * @return This builder for chaining.
        */
-      public Builder setAvatarName(
+      public Builder setLPLIECDFGGG(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        avatarName_ = value;
+        lPLIECDFGGG_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string avatar_name = 8;</code>
+       * <code>string LPLIECDFGGG = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearAvatarName() {
+      public Builder clearLPLIECDFGGG() {
         
-        avatarName_ = getDefaultInstance().getAvatarName();
+        lPLIECDFGGG_ = getDefaultInstance().getLPLIECDFGGG();
         onChanged();
         return this;
       }
       /**
-       * <code>string avatar_name = 8;</code>
-       * @param value The bytes for avatarName to set.
+       * <code>string LPLIECDFGGG = 4;</code>
+       * @param value The bytes for lPLIECDFGGG to set.
        * @return This builder for chaining.
        */
-      public Builder setAvatarNameBytes(
+      public Builder setLPLIECDFGGGBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        avatarName_ = value;
+        lPLIECDFGGG_ = value;
         onChanged();
         return this;
       }
 
       private int avatarId_ ;
       /**
-       * <code>uint32 avatar_id = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 avatar_id = 14;</code>
        * @return The avatarId.
        */
       @java.lang.Override
@@ -579,7 +591,11 @@ public final class AvatarRenameInfoOuterClass {
         return avatarId_;
       }
       /**
-       * <code>uint32 avatar_id = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 avatar_id = 14;</code>
        * @param value The avatarId to set.
        * @return This builder for chaining.
        */
@@ -590,7 +606,11 @@ public final class AvatarRenameInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 avatar_id = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 avatar_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
@@ -667,7 +687,7 @@ public final class AvatarRenameInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026AvatarRenameInfo.proto\":\n\020AvatarRename" +
-      "Info\022\023\n\013avatar_name\030\010 \001(\t\022\021\n\tavatar_id\030\n" +
+      "Info\022\023\n\013LPLIECDFGGG\030\004 \001(\t\022\021\n\tavatar_id\030\016" +
       " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
       "3"
     };
@@ -680,7 +700,7 @@ public final class AvatarRenameInfoOuterClass {
     internal_static_AvatarRenameInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarRenameInfo_descriptor,
-        new java.lang.String[] { "AvatarName", "AvatarId", });
+        new java.lang.String[] { "LPLIECDFGGG", "AvatarId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

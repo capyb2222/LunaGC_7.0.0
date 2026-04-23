@@ -170,7 +170,7 @@ public final class GetUgcBriefInfoRspOuterClass {
     }
 
     private int bitField0_;
-    public static final int UGC_TYPE_FIELD_NUMBER = 13;
+    public static final int UgcType_FIELD_NUMBER = 13;
     private int ugcType_;
     /**
      * <code>.UgcType ugc_type = 13;</code>
@@ -260,7 +260,7 @@ public final class GetUgcBriefInfoRspOuterClass {
       if (((bitField0_ & 0x00000001) != 0)) {
         output.writeMessage(12, getMusicBriefInfo());
       }
-      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UGC_TYPE_NONE.getNumber()) {
+      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         output.writeEnum(13, ugcType_);
       }
       unknownFields.writeTo(output);
@@ -284,7 +284,7 @@ public final class GetUgcBriefInfoRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(12, getMusicBriefInfo());
       }
-      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UGC_TYPE_NONE.getNumber()) {
+      if (ugcType_ != emu.grasscutter.net.proto.UgcTypeOuterClass.UgcType.UgcType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(13, ugcType_);
       }
@@ -324,7 +324,7 @@ public final class GetUgcBriefInfoRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + UGC_TYPE_FIELD_NUMBER;
+      hash = (37 * hash) + UgcType_FIELD_NUMBER;
       hash = (53 * hash) + ugcType_;
       hash = (37 * hash) + UGC_GUID_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
@@ -630,7 +630,7 @@ public final class GetUgcBriefInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUgcTypeValue(int value) {
-        
+
         ugcType_ = value;
         onChanged();
         return this;
@@ -654,7 +654,7 @@ public final class GetUgcBriefInfoRspOuterClass {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         ugcType_ = value.getNumber();
         onChanged();
         return this;
@@ -664,7 +664,7 @@ public final class GetUgcBriefInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUgcType() {
-        
+
         ugcType_ = 0;
         onChanged();
         return this;
@@ -685,7 +685,7 @@ public final class GetUgcBriefInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setUgcGuid(long value) {
-        
+
         ugcGuid_ = value;
         onChanged();
         return this;
@@ -695,7 +695,7 @@ public final class GetUgcBriefInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearUgcGuid() {
-        
+
         ugcGuid_ = 0L;
         onChanged();
         return this;
@@ -716,7 +716,7 @@ public final class GetUgcBriefInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -726,7 +726,7 @@ public final class GetUgcBriefInfoRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -839,7 +839,7 @@ public final class GetUgcBriefInfoRspOuterClass {
        * <code>optional .UgcMusicBriefInfo music_brief_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
           getMusicBriefInfoFieldBuilder() {
         if (musicBriefInfoBuilder_ == null) {
           musicBriefInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -906,7 +906,7 @@ public final class GetUgcBriefInfoRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetUgcBriefInfoRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetUgcBriefInfoRsp_fieldAccessorTable;
 

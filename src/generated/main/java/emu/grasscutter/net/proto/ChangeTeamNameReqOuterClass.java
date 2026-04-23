@@ -19,11 +19,19 @@ public final class ChangeTeamNameReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
      * <code>string team_name = 3;</code>
      * @return The teamName.
      */
     java.lang.String getTeamName();
     /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
      * <code>string team_name = 3;</code>
      * @return The bytes for teamName.
      */
@@ -31,14 +39,18 @@ public final class ChangeTeamNameReqOuterClass {
         getTeamNameBytes();
 
     /**
-     * <code>int32 team_id = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 team_id = 7;</code>
      * @return The teamId.
      */
     int getTeamId();
   }
   /**
    * <pre>
-   * CmdId: 6341
+   * CmdId: 513
    * </pre>
    *
    * Protobuf type {@code ChangeTeamNameReq}
@@ -92,7 +104,7 @@ public final class ChangeTeamNameReqOuterClass {
               teamName_ = s;
               break;
             }
-            case 88: {
+            case 56: {
 
               teamId_ = input.readInt32();
               break;
@@ -132,6 +144,10 @@ public final class ChangeTeamNameReqOuterClass {
     public static final int TEAM_NAME_FIELD_NUMBER = 3;
     private volatile java.lang.Object teamName_;
     /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
      * <code>string team_name = 3;</code>
      * @return The teamName.
      */
@@ -149,6 +165,10 @@ public final class ChangeTeamNameReqOuterClass {
       }
     }
     /**
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
      * <code>string team_name = 3;</code>
      * @return The bytes for teamName.
      */
@@ -167,10 +187,14 @@ public final class ChangeTeamNameReqOuterClass {
       }
     }
 
-    public static final int TEAM_ID_FIELD_NUMBER = 11;
+    public static final int TEAM_ID_FIELD_NUMBER = 7;
     private int teamId_;
     /**
-     * <code>int32 team_id = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>int32 team_id = 7;</code>
      * @return The teamId.
      */
     @java.lang.Override
@@ -196,7 +220,7 @@ public final class ChangeTeamNameReqOuterClass {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 3, teamName_);
       }
       if (teamId_ != 0) {
-        output.writeInt32(11, teamId_);
+        output.writeInt32(7, teamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -212,7 +236,7 @@ public final class ChangeTeamNameReqOuterClass {
       }
       if (teamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(11, teamId_);
+          .computeInt32Size(7, teamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -345,7 +369,7 @@ public final class ChangeTeamNameReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 6341
+     * CmdId: 513
      * </pre>
      *
      * Protobuf type {@code ChangeTeamNameReq}
@@ -503,6 +527,10 @@ public final class ChangeTeamNameReqOuterClass {
 
       private java.lang.Object teamName_ = "";
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>string team_name = 3;</code>
        * @return The teamName.
        */
@@ -519,6 +547,10 @@ public final class ChangeTeamNameReqOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>string team_name = 3;</code>
        * @return The bytes for teamName.
        */
@@ -536,6 +568,10 @@ public final class ChangeTeamNameReqOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>string team_name = 3;</code>
        * @param value The teamName to set.
        * @return This builder for chaining.
@@ -551,6 +587,10 @@ public final class ChangeTeamNameReqOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>string team_name = 3;</code>
        * @return This builder for chaining.
        */
@@ -561,6 +601,10 @@ public final class ChangeTeamNameReqOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
        * <code>string team_name = 3;</code>
        * @param value The bytes for teamName to set.
        * @return This builder for chaining.
@@ -579,7 +623,11 @@ public final class ChangeTeamNameReqOuterClass {
 
       private int teamId_ ;
       /**
-       * <code>int32 team_id = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 team_id = 7;</code>
        * @return The teamId.
        */
       @java.lang.Override
@@ -587,7 +635,11 @@ public final class ChangeTeamNameReqOuterClass {
         return teamId_;
       }
       /**
-       * <code>int32 team_id = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 team_id = 7;</code>
        * @param value The teamId to set.
        * @return This builder for chaining.
        */
@@ -598,7 +650,11 @@ public final class ChangeTeamNameReqOuterClass {
         return this;
       }
       /**
-       * <code>int32 team_id = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>int32 team_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearTeamId() {
@@ -675,7 +731,7 @@ public final class ChangeTeamNameReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027ChangeTeamNameReq.proto\"7\n\021ChangeTeamN" +
-      "ameReq\022\021\n\tteam_name\030\003 \001(\t\022\017\n\007team_id\030\013 \001" +
+      "ameReq\022\021\n\tteam_name\030\003 \001(\t\022\017\n\007team_id\030\007 \001" +
       "(\005B\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

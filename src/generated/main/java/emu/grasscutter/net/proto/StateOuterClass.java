@@ -20,40 +20,32 @@ public final class StateOuterClass {
   public enum State
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>STATE_INVALID = 0;</code>
+     * <code>State_INVALID = 0;</code>
      */
-    STATE_INVALID(0),
+    State_INVALID(0),
     /**
-     * <code>STATE_IN_PROGRESS = 1;</code>
+     * <code>State_START = 1;</code>
      */
-    STATE_IN_PROGRESS(1),
+    State_START(1),
     /**
-     * <code>STATE_COMPLETE = 2;</code>
+     * <code>State_TIMEOUT = 2;</code>
      */
-    STATE_COMPLETE(2),
-    /**
-     * <code>STATE_REWARD_TAKEN = 3;</code>
-     */
-    STATE_REWARD_TAKEN(3),
+    State_TIMEOUT(2),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>STATE_INVALID = 0;</code>
+     * <code>State_INVALID = 0;</code>
      */
-    public static final int STATE_INVALID_VALUE = 0;
+    public static final int State_INVALID_VALUE = 0;
     /**
-     * <code>STATE_IN_PROGRESS = 1;</code>
+     * <code>State_START = 1;</code>
      */
-    public static final int STATE_IN_PROGRESS_VALUE = 1;
+    public static final int State_START_VALUE = 1;
     /**
-     * <code>STATE_COMPLETE = 2;</code>
+     * <code>State_TIMEOUT = 2;</code>
      */
-    public static final int STATE_COMPLETE_VALUE = 2;
-    /**
-     * <code>STATE_REWARD_TAKEN = 3;</code>
-     */
-    public static final int STATE_REWARD_TAKEN_VALUE = 3;
+    public static final int State_TIMEOUT_VALUE = 2;
 
 
     public final int getNumber() {
@@ -80,10 +72,9 @@ public final class StateOuterClass {
      */
     public static State forNumber(int value) {
       switch (value) {
-        case 0: return STATE_INVALID;
-        case 1: return STATE_IN_PROGRESS;
-        case 2: return STATE_COMPLETE;
-        case 3: return STATE_REWARD_TAKEN;
+        case 0: return State_INVALID;
+        case 1: return State_START;
+        case 2: return State_TIMEOUT;
         default: return null;
       }
     }
@@ -149,10 +140,9 @@ public final class StateOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\013State.proto*]\n\005State\022\021\n\rSTATE_INVALID\020" +
-      "\000\022\025\n\021STATE_IN_PROGRESS\020\001\022\022\n\016STATE_COMPLE" +
-      "TE\020\002\022\026\n\022STATE_REWARD_TAKEN\020\003B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\n\013State.proto*>\n\005State\022\021\n\rState_INVALID\020" +
+      "\000\022\017\n\013State_START\020\001\022\021\n\rState_TIMEOUT\020\002B\033\n" +
+      "\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -19,18 +19,23 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 point_id = 5;</code>
-     * @return The pointId.
-     */
-    int getPointId();
-
-    /**
-     * <code>uint32 scene_id = 14;</code>
+     * <code>uint32 scene_id = 1;</code>
      * @return The sceneId.
      */
     int getSceneId();
+
+    /**
+     * <code>uint32 point_id = 12;</code>
+     * @return The pointId.
+     */
+    int getPointId();
   }
   /**
+   * <pre>
+   * CmdId: 23739
+   * Obf: JEGDFLEGJLH
+   * </pre>
+   *
    * Protobuf type {@code UnfreezeGroupLimitNotify}
    */
   public static final class UnfreezeGroupLimitNotify extends
@@ -75,14 +80,14 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
-
-              pointId_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 8: {
 
               sceneId_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+
+              pointId_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,26 +122,26 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
               emu.grasscutter.net.proto.UnfreezeGroupLimitNotifyOuterClass.UnfreezeGroupLimitNotify.class, emu.grasscutter.net.proto.UnfreezeGroupLimitNotifyOuterClass.UnfreezeGroupLimitNotify.Builder.class);
     }
 
-    public static final int POINT_ID_FIELD_NUMBER = 5;
-    private int pointId_;
-    /**
-     * <code>uint32 point_id = 5;</code>
-     * @return The pointId.
-     */
-    @java.lang.Override
-    public int getPointId() {
-      return pointId_;
-    }
-
-    public static final int SCENE_ID_FIELD_NUMBER = 14;
+    public static final int SCENE_ID_FIELD_NUMBER = 1;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 14;</code>
+     * <code>uint32 scene_id = 1;</code>
      * @return The sceneId.
      */
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
+    }
+
+    public static final int POINT_ID_FIELD_NUMBER = 12;
+    private int pointId_;
+    /**
+     * <code>uint32 point_id = 12;</code>
+     * @return The pointId.
+     */
+    @java.lang.Override
+    public int getPointId() {
+      return pointId_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -153,11 +158,11 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pointId_ != 0) {
-        output.writeUInt32(5, pointId_);
-      }
       if (sceneId_ != 0) {
-        output.writeUInt32(14, sceneId_);
+        output.writeUInt32(1, sceneId_);
+      }
+      if (pointId_ != 0) {
+        output.writeUInt32(12, pointId_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +173,13 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pointId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, pointId_);
-      }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, sceneId_);
+          .computeUInt32Size(1, sceneId_);
+      }
+      if (pointId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, pointId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -191,10 +196,10 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
       }
       emu.grasscutter.net.proto.UnfreezeGroupLimitNotifyOuterClass.UnfreezeGroupLimitNotify other = (emu.grasscutter.net.proto.UnfreezeGroupLimitNotifyOuterClass.UnfreezeGroupLimitNotify) obj;
 
-      if (getPointId()
-          != other.getPointId()) return false;
       if (getSceneId()
           != other.getSceneId()) return false;
+      if (getPointId()
+          != other.getPointId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -206,10 +211,10 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + POINT_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getPointId();
       hash = (37 * hash) + SCENE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getSceneId();
+      hash = (37 * hash) + POINT_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getPointId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -306,6 +311,11 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 23739
+     * Obf: JEGDFLEGJLH
+     * </pre>
+     *
      * Protobuf type {@code UnfreezeGroupLimitNotify}
      */
     public static final class Builder extends
@@ -343,9 +353,9 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        pointId_ = 0;
-
         sceneId_ = 0;
+
+        pointId_ = 0;
 
         return this;
       }
@@ -373,8 +383,8 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.UnfreezeGroupLimitNotifyOuterClass.UnfreezeGroupLimitNotify buildPartial() {
         emu.grasscutter.net.proto.UnfreezeGroupLimitNotifyOuterClass.UnfreezeGroupLimitNotify result = new emu.grasscutter.net.proto.UnfreezeGroupLimitNotifyOuterClass.UnfreezeGroupLimitNotify(this);
-        result.pointId_ = pointId_;
         result.sceneId_ = sceneId_;
+        result.pointId_ = pointId_;
         onBuilt();
         return result;
       }
@@ -423,11 +433,11 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.UnfreezeGroupLimitNotifyOuterClass.UnfreezeGroupLimitNotify other) {
         if (other == emu.grasscutter.net.proto.UnfreezeGroupLimitNotifyOuterClass.UnfreezeGroupLimitNotify.getDefaultInstance()) return this;
-        if (other.getPointId() != 0) {
-          setPointId(other.getPointId());
-        }
         if (other.getSceneId() != 0) {
           setSceneId(other.getSceneId());
+        }
+        if (other.getPointId() != 0) {
+          setPointId(other.getPointId());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -458,40 +468,9 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
         return this;
       }
 
-      private int pointId_ ;
-      /**
-       * <code>uint32 point_id = 5;</code>
-       * @return The pointId.
-       */
-      @java.lang.Override
-      public int getPointId() {
-        return pointId_;
-      }
-      /**
-       * <code>uint32 point_id = 5;</code>
-       * @param value The pointId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPointId(int value) {
-        
-        pointId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 point_id = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPointId() {
-        
-        pointId_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 14;</code>
+       * <code>uint32 scene_id = 1;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -499,7 +478,7 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 14;</code>
+       * <code>uint32 scene_id = 1;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -510,12 +489,43 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 14;</code>
+       * <code>uint32 scene_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
         
         sceneId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int pointId_ ;
+      /**
+       * <code>uint32 point_id = 12;</code>
+       * @return The pointId.
+       */
+      @java.lang.Override
+      public int getPointId() {
+        return pointId_;
+      }
+      /**
+       * <code>uint32 point_id = 12;</code>
+       * @param value The pointId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPointId(int value) {
+        
+        pointId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 point_id = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPointId() {
+        
+        pointId_ = 0;
         onChanged();
         return this;
       }
@@ -587,8 +597,8 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036UnfreezeGroupLimitNotify.proto\">\n\030Unfr" +
-      "eezeGroupLimitNotify\022\020\n\010point_id\030\005 \001(\r\022\020" +
-      "\n\010scene_id\030\016 \001(\rB\033\n\031emu.grasscutter.net." +
+      "eezeGroupLimitNotify\022\020\n\010scene_id\030\001 \001(\r\022\020" +
+      "\n\010point_id\030\014 \001(\rB\033\n\031emu.grasscutter.net." +
       "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -600,7 +610,7 @@ public final class UnfreezeGroupLimitNotifyOuterClass {
     internal_static_UnfreezeGroupLimitNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_UnfreezeGroupLimitNotify_descriptor,
-        new java.lang.String[] { "PointId", "SceneId", });
+        new java.lang.String[] { "SceneId", "PointId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

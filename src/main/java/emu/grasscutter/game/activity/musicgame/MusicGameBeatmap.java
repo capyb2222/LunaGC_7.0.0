@@ -49,15 +49,11 @@ public class MusicGameBeatmap {
     }
 
     public UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder toBriefProto() {
-        var player = DatabaseHelper.getPlayerByUid(authorUid);
-
         return UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.newBuilder()
                 .setMusicId(musicId)
                 //            .setMusicNoteCount(musicNoteCount)
-                .setUgcGuid(musicShareId)
-                .setMaxScore(maxScore)
+                .setUgcGuid((int) musicShareId)
                 //            .setShareTime(createTime)
-                .setCreatorNickname(player.getNickname())
                 .setVersion(1);
     }
 

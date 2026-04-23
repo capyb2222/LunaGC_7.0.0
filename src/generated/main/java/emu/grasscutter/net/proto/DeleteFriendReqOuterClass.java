@@ -25,6 +25,11 @@ public final class DeleteFriendReqOuterClass {
     int getTargetUid();
   }
   /**
+   * <pre>
+   * CmdId: 3037
+   * Obf: PALNPHNIHDF
+   * </pre>
+   *
    * Protobuf type {@code DeleteFriendReq}
    */
   public static final class DeleteFriendReq extends
@@ -273,6 +278,11 @@ public final class DeleteFriendReqOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 3037
+     * Obf: PALNPHNIHDF
+     * </pre>
+     *
      * Protobuf type {@code DeleteFriendReq}
      */
     public static final class Builder extends

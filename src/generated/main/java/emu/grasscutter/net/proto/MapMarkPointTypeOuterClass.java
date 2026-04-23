@@ -20,64 +20,64 @@ public final class MapMarkPointTypeOuterClass {
   public enum MapMarkPointType
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
-     * <code>MAP_MARK_POINT_TYPE_NPC = 0;</code>
+     * <code>MapMarkPointType_NPC = 0;</code>
      */
-    MAP_MARK_POINT_TYPE_NPC(0),
+    MapMarkPointType_NPC(0),
     /**
-     * <code>MAP_MARK_POINT_TYPE_QUEST = 1;</code>
+     * <code>MapMarkPointType_QUEST = 1;</code>
      */
-    MAP_MARK_POINT_TYPE_QUEST(1),
+    MapMarkPointType_QUEST(1),
     /**
-     * <code>MAP_MARK_POINT_TYPE_SPECIAL = 2;</code>
+     * <code>MapMarkPointType_SPECIAL = 2;</code>
      */
-    MAP_MARK_POINT_TYPE_SPECIAL(2),
+    MapMarkPointType_SPECIAL(2),
     /**
-     * <code>MAP_MARK_POINT_TYPE_MINE = 3;</code>
+     * <code>MapMarkPointType_MINE = 3;</code>
      */
-    MAP_MARK_POINT_TYPE_MINE(3),
+    MapMarkPointType_MINE(3),
     /**
-     * <code>MAP_MARK_POINT_TYPE_COLLECTION = 4;</code>
+     * <code>MapMarkPointType_COLLECTION = 4;</code>
      */
-    MAP_MARK_POINT_TYPE_COLLECTION(4),
+    MapMarkPointType_COLLECTION(4),
     /**
-     * <code>MAP_MARK_POINT_TYPE_MONSTER = 5;</code>
+     * <code>MapMarkPointType_MONSTER = 5;</code>
      */
-    MAP_MARK_POINT_TYPE_MONSTER(5),
+    MapMarkPointType_MONSTER(5),
     /**
-     * <code>MAP_MARK_POINT_TYPE_FISH_POOL = 6;</code>
+     * <code>MapMarkPointType_FISH_POOL = 6;</code>
      */
-    MAP_MARK_POINT_TYPE_FISH_POOL(6),
+    MapMarkPointType_FISH_POOL(6),
     UNRECOGNIZED(-1),
     ;
 
     /**
-     * <code>MAP_MARK_POINT_TYPE_NPC = 0;</code>
+     * <code>MapMarkPointType_NPC = 0;</code>
      */
-    public static final int MAP_MARK_POINT_TYPE_NPC_VALUE = 0;
+    public static final int MapMarkPointType_NPC_VALUE = 0;
     /**
-     * <code>MAP_MARK_POINT_TYPE_QUEST = 1;</code>
+     * <code>MapMarkPointType_QUEST = 1;</code>
      */
-    public static final int MAP_MARK_POINT_TYPE_QUEST_VALUE = 1;
+    public static final int MapMarkPointType_QUEST_VALUE = 1;
     /**
-     * <code>MAP_MARK_POINT_TYPE_SPECIAL = 2;</code>
+     * <code>MapMarkPointType_SPECIAL = 2;</code>
      */
-    public static final int MAP_MARK_POINT_TYPE_SPECIAL_VALUE = 2;
+    public static final int MapMarkPointType_SPECIAL_VALUE = 2;
     /**
-     * <code>MAP_MARK_POINT_TYPE_MINE = 3;</code>
+     * <code>MapMarkPointType_MINE = 3;</code>
      */
-    public static final int MAP_MARK_POINT_TYPE_MINE_VALUE = 3;
+    public static final int MapMarkPointType_MINE_VALUE = 3;
     /**
-     * <code>MAP_MARK_POINT_TYPE_COLLECTION = 4;</code>
+     * <code>MapMarkPointType_COLLECTION = 4;</code>
      */
-    public static final int MAP_MARK_POINT_TYPE_COLLECTION_VALUE = 4;
+    public static final int MapMarkPointType_COLLECTION_VALUE = 4;
     /**
-     * <code>MAP_MARK_POINT_TYPE_MONSTER = 5;</code>
+     * <code>MapMarkPointType_MONSTER = 5;</code>
      */
-    public static final int MAP_MARK_POINT_TYPE_MONSTER_VALUE = 5;
+    public static final int MapMarkPointType_MONSTER_VALUE = 5;
     /**
-     * <code>MAP_MARK_POINT_TYPE_FISH_POOL = 6;</code>
+     * <code>MapMarkPointType_FISH_POOL = 6;</code>
      */
-    public static final int MAP_MARK_POINT_TYPE_FISH_POOL_VALUE = 6;
+    public static final int MapMarkPointType_FISH_POOL_VALUE = 6;
 
 
     public final int getNumber() {
@@ -104,13 +104,13 @@ public final class MapMarkPointTypeOuterClass {
      */
     public static MapMarkPointType forNumber(int value) {
       switch (value) {
-        case 0: return MAP_MARK_POINT_TYPE_NPC;
-        case 1: return MAP_MARK_POINT_TYPE_QUEST;
-        case 2: return MAP_MARK_POINT_TYPE_SPECIAL;
-        case 3: return MAP_MARK_POINT_TYPE_MINE;
-        case 4: return MAP_MARK_POINT_TYPE_COLLECTION;
-        case 5: return MAP_MARK_POINT_TYPE_MONSTER;
-        case 6: return MAP_MARK_POINT_TYPE_FISH_POOL;
+        case 0: return MapMarkPointType_NPC;
+        case 1: return MapMarkPointType_QUEST;
+        case 2: return MapMarkPointType_SPECIAL;
+        case 3: return MapMarkPointType_MINE;
+        case 4: return MapMarkPointType_COLLECTION;
+        case 5: return MapMarkPointType_MONSTER;
+        case 6: return MapMarkPointType_FISH_POOL;
         default: return null;
       }
     }
@@ -176,14 +176,14 @@ public final class MapMarkPointTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026MapMarkPointType.proto*\365\001\n\020MapMarkPoin" +
-      "tType\022\033\n\027MAP_MARK_POINT_TYPE_NPC\020\000\022\035\n\031MA" +
-      "P_MARK_POINT_TYPE_QUEST\020\001\022\037\n\033MAP_MARK_PO" +
-      "INT_TYPE_SPECIAL\020\002\022\034\n\030MAP_MARK_POINT_TYP" +
-      "E_MINE\020\003\022\"\n\036MAP_MARK_POINT_TYPE_COLLECTI" +
-      "ON\020\004\022\037\n\033MAP_MARK_POINT_TYPE_MONSTER\020\005\022!\n" +
-      "\035MAP_MARK_POINT_TYPE_FISH_POOL\020\006B\033\n\031emu." +
-      "grasscutter.net.protob\006proto3"
+      "\n\026MapMarkPointType.proto*\340\001\n\020MapMarkPoin" +
+      "tType\022\030\n\024MapMarkPointType_NPC\020\000\022\032\n\026MapMa" +
+      "rkPointType_QUEST\020\001\022\034\n\030MapMarkPointType_" +
+      "SPECIAL\020\002\022\031\n\025MapMarkPointType_MINE\020\003\022\037\n\033" +
+      "MapMarkPointType_COLLECTION\020\004\022\034\n\030MapMark" +
+      "PointType_MONSTER\020\005\022\036\n\032MapMarkPointType_" +
+      "FISH_POOL\020\006B\033\n\031emu.grasscutter.net.proto" +
+      "b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

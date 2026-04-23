@@ -19,31 +19,24 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint64 avatar_guid_list = 14;</code>
-     * @return A list containing the avatarGuidList.
+     * <code>uint64 avatar_guid = 33847;</code>
+     * @return The avatarGuid.
      */
-    java.util.List<java.lang.Long> getAvatarGuidListList();
-    /**
-     * <code>repeated uint64 avatar_guid_list = 14;</code>
-     * @return The count of avatarGuidList.
-     */
-    int getAvatarGuidListCount();
-    /**
-     * <code>repeated uint64 avatar_guid_list = 14;</code>
-     * @param index The index of the element to return.
-     * @return The avatarGuidList at the given index.
-     */
-    long getAvatarGuidList(int index);
+    long getAvatarGuid();
 
     /**
-     * <code>uint32 flycloak_id = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 flycloak_id = 2;</code>
      * @return The flycloakId.
      */
     int getFlycloakId();
   }
   /**
    * <pre>
-   * CmdId: 7898
+   * CmdId: 9447
    * </pre>
    *
    * Protobuf type {@code AvatarFlycloakChangeNotify}
@@ -58,7 +51,6 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       super(builder);
     }
     private AvatarFlycloakChangeNotify() {
-      avatarGuidList_ = emptyLongList();
     }
 
     @java.lang.Override
@@ -81,7 +73,6 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
-      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -92,30 +83,14 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 16: {
 
               flycloakId_ = input.readUInt32();
               break;
             }
-            case 112: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                avatarGuidList_ = newLongList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              avatarGuidList_.addLong(input.readUInt64());
-              break;
-            }
-            case 114: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                avatarGuidList_ = newLongList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                avatarGuidList_.addLong(input.readUInt64());
-              }
-              input.popLimit(limit);
+            case 270776: {
+
+              avatarGuid_ = input.readUInt64();
               break;
             }
             default: {
@@ -133,9 +108,6 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          avatarGuidList_.makeImmutable(); // C
-        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -153,38 +125,25 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify.class, emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify.Builder.class);
     }
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 14;
-    private com.google.protobuf.Internal.LongList avatarGuidList_;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 33847;
+    private long avatarGuid_;
     /**
-     * <code>repeated uint64 avatar_guid_list = 14;</code>
-     * @return A list containing the avatarGuidList.
+     * <code>uint64 avatar_guid = 33847;</code>
+     * @return The avatarGuid.
      */
     @java.lang.Override
-    public java.util.List<java.lang.Long>
-        getAvatarGuidListList() {
-      return avatarGuidList_;
+    public long getAvatarGuid() {
+      return avatarGuid_;
     }
-    /**
-     * <code>repeated uint64 avatar_guid_list = 14;</code>
-     * @return The count of avatarGuidList.
-     */
-    public int getAvatarGuidListCount() {
-      return avatarGuidList_.size();
-    }
-    /**
-     * <code>repeated uint64 avatar_guid_list = 14;</code>
-     * @param index The index of the element to return.
-     * @return The avatarGuidList at the given index.
-     */
-    public long getAvatarGuidList(int index) {
-      return avatarGuidList_.getLong(index);
-    }
-    private int avatarGuidListMemoizedSerializedSize = -1;
 
-    public static final int FLYCLOAK_ID_FIELD_NUMBER = 3;
+    public static final int FLYCLOAK_ID_FIELD_NUMBER = 2;
     private int flycloakId_;
     /**
-     * <code>uint32 flycloak_id = 3;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 flycloak_id = 2;</code>
      * @return The flycloakId.
      */
     @java.lang.Override
@@ -206,16 +165,11 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      getSerializedSize();
       if (flycloakId_ != 0) {
-        output.writeUInt32(3, flycloakId_);
+        output.writeUInt32(2, flycloakId_);
       }
-      if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < avatarGuidList_.size(); i++) {
-        output.writeUInt64NoTag(avatarGuidList_.getLong(i));
+      if (avatarGuid_ != 0L) {
+        output.writeUInt64(33847, avatarGuid_);
       }
       unknownFields.writeTo(output);
     }
@@ -228,21 +182,11 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       size = 0;
       if (flycloakId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, flycloakId_);
+          .computeUInt32Size(2, flycloakId_);
       }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < avatarGuidList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt64SizeNoTag(avatarGuidList_.getLong(i));
-        }
-        size += dataSize;
-        if (!getAvatarGuidListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        avatarGuidListMemoizedSerializedSize = dataSize;
+      if (avatarGuid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(33847, avatarGuid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -259,8 +203,8 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       }
       emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify other = (emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify) obj;
 
-      if (!getAvatarGuidListList()
-          .equals(other.getAvatarGuidListList())) return false;
+      if (getAvatarGuid()
+          != other.getAvatarGuid()) return false;
       if (getFlycloakId()
           != other.getFlycloakId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -274,10 +218,9 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getAvatarGuidListCount() > 0) {
-        hash = (37 * hash) + AVATAR_GUID_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getAvatarGuidListList().hashCode();
-      }
+      hash = (37 * hash) + AVATAR_GUID_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
+          getAvatarGuid());
       hash = (37 * hash) + FLYCLOAK_ID_FIELD_NUMBER;
       hash = (53 * hash) + getFlycloakId();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -377,7 +320,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 7898
+     * CmdId: 9447
      * </pre>
      *
      * Protobuf type {@code AvatarFlycloakChangeNotify}
@@ -417,8 +360,8 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        avatarGuidList_ = emptyLongList();
-        bitField0_ = (bitField0_ & ~0x00000001);
+        avatarGuid_ = 0L;
+
         flycloakId_ = 0;
 
         return this;
@@ -447,12 +390,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify buildPartial() {
         emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify result = new emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify(this);
-        int from_bitField0_ = bitField0_;
-        if (((bitField0_ & 0x00000001) != 0)) {
-          avatarGuidList_.makeImmutable();
-          bitField0_ = (bitField0_ & ~0x00000001);
-        }
-        result.avatarGuidList_ = avatarGuidList_;
+        result.avatarGuid_ = avatarGuid_;
         result.flycloakId_ = flycloakId_;
         onBuilt();
         return result;
@@ -502,15 +440,8 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify other) {
         if (other == emu.grasscutter.net.proto.AvatarFlycloakChangeNotifyOuterClass.AvatarFlycloakChangeNotify.getDefaultInstance()) return this;
-        if (!other.avatarGuidList_.isEmpty()) {
-          if (avatarGuidList_.isEmpty()) {
-            avatarGuidList_ = other.avatarGuidList_;
-            bitField0_ = (bitField0_ & ~0x00000001);
-          } else {
-            ensureAvatarGuidListIsMutable();
-            avatarGuidList_.addAll(other.avatarGuidList_);
-          }
-          onChanged();
+        if (other.getAvatarGuid() != 0L) {
+          setAvatarGuid(other.getAvatarGuid());
         }
         if (other.getFlycloakId() != 0) {
           setFlycloakId(other.getFlycloakId());
@@ -543,90 +474,45 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
         }
         return this;
       }
-      private int bitField0_;
 
-      private com.google.protobuf.Internal.LongList avatarGuidList_ = emptyLongList();
-      private void ensureAvatarGuidListIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          avatarGuidList_ = mutableCopy(avatarGuidList_);
-          bitField0_ |= 0x00000001;
-         }
-      }
+      private long avatarGuid_ ;
       /**
-       * <code>repeated uint64 avatar_guid_list = 14;</code>
-       * @return A list containing the avatarGuidList.
+       * <code>uint64 avatar_guid = 33847;</code>
+       * @return The avatarGuid.
        */
-      public java.util.List<java.lang.Long>
-          getAvatarGuidListList() {
-        return ((bitField0_ & 0x00000001) != 0) ?
-                 java.util.Collections.unmodifiableList(avatarGuidList_) : avatarGuidList_;
+      @java.lang.Override
+      public long getAvatarGuid() {
+        return avatarGuid_;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 14;</code>
-       * @return The count of avatarGuidList.
-       */
-      public int getAvatarGuidListCount() {
-        return avatarGuidList_.size();
-      }
-      /**
-       * <code>repeated uint64 avatar_guid_list = 14;</code>
-       * @param index The index of the element to return.
-       * @return The avatarGuidList at the given index.
-       */
-      public long getAvatarGuidList(int index) {
-        return avatarGuidList_.getLong(index);
-      }
-      /**
-       * <code>repeated uint64 avatar_guid_list = 14;</code>
-       * @param index The index to set the value at.
-       * @param value The avatarGuidList to set.
+       * <code>uint64 avatar_guid = 33847;</code>
+       * @param value The avatarGuid to set.
        * @return This builder for chaining.
        */
-      public Builder setAvatarGuidList(
-          int index, long value) {
-        ensureAvatarGuidListIsMutable();
-        avatarGuidList_.setLong(index, value);
+      public Builder setAvatarGuid(long value) {
+        
+        avatarGuid_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 14;</code>
-       * @param value The avatarGuidList to add.
+       * <code>uint64 avatar_guid = 33847;</code>
        * @return This builder for chaining.
        */
-      public Builder addAvatarGuidList(long value) {
-        ensureAvatarGuidListIsMutable();
-        avatarGuidList_.addLong(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint64 avatar_guid_list = 14;</code>
-       * @param values The avatarGuidList to add.
-       * @return This builder for chaining.
-       */
-      public Builder addAllAvatarGuidList(
-          java.lang.Iterable<? extends java.lang.Long> values) {
-        ensureAvatarGuidListIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, avatarGuidList_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated uint64 avatar_guid_list = 14;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearAvatarGuidList() {
-        avatarGuidList_ = emptyLongList();
-        bitField0_ = (bitField0_ & ~0x00000001);
+      public Builder clearAvatarGuid() {
+        
+        avatarGuid_ = 0L;
         onChanged();
         return this;
       }
 
       private int flycloakId_ ;
       /**
-       * <code>uint32 flycloak_id = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 flycloak_id = 2;</code>
        * @return The flycloakId.
        */
       @java.lang.Override
@@ -634,7 +520,11 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
         return flycloakId_;
       }
       /**
-       * <code>uint32 flycloak_id = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 flycloak_id = 2;</code>
        * @param value The flycloakId to set.
        * @return This builder for chaining.
        */
@@ -645,7 +535,11 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 flycloak_id = 3;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 flycloak_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearFlycloakId() {
@@ -721,10 +615,10 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n AvatarFlycloakChangeNotify.proto\"K\n\032Av" +
-      "atarFlycloakChangeNotify\022\030\n\020avatar_guid_" +
-      "list\030\016 \003(\004\022\023\n\013flycloak_id\030\003 \001(\rB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      "\n AvatarFlycloakChangeNotify.proto\"H\n\032Av" +
+      "atarFlycloakChangeNotify\022\025\n\013avatar_guid\030" +
+      "\267\210\002 \001(\004\022\023\n\013flycloak_id\030\002 \001(\rB\033\n\031emu.gras" +
+      "scutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -735,7 +629,7 @@ public final class AvatarFlycloakChangeNotifyOuterClass {
     internal_static_AvatarFlycloakChangeNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarFlycloakChangeNotify_descriptor,
-        new java.lang.String[] { "AvatarGuidList", "FlycloakId", });
+        new java.lang.String[] { "AvatarGuid", "FlycloakId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

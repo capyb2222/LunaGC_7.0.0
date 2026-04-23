@@ -22,7 +22,7 @@ public class ReviveElemEnergyMixin extends AbilityMixinHandler {
 
     @Override
     public boolean execute(Ability ability, AbilityMixinData mixinData, ByteString abilityData, GameEntity target) {
- 
+
         float ratio = mixinData.ratio.get(ability);
 
         if (target instanceof EntityAvatar avatar) {
@@ -31,13 +31,13 @@ public class ReviveElemEnergyMixin extends AbilityMixinHandler {
 
             avatar.getAvatar().setCurrentEnergy(avatar.getAvatar().getSkillDepot().getElementType().getCurEnergyProp(), newEnergy);
             avatar.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(avatar, avatar.getAvatar().getSkillDepot().getElementType().getCurEnergyProp()));
-            avatar.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(avatar, avatar.getAvatar().getSkillDepot().getElementType().getCurEnergyProp(), newEnergy, PropChangeReason.PROP_CHANGE_REASON_ABILITY, ChangeEnergyReason.CHANGE_ENERGY_REASON_ABILITY));
+            avatar.getScene().broadcastPacket(new PacketEntityFightPropChangeReasonNotify(avatar, avatar.getAvatar().getSkillDepot().getElementType().getCurEnergyProp(), newEnergy, PropChangeReason.PropChangeReason_PROP_CHANGE_ABILITY, ChangeEnergyReason.ChangeEnergyReason_CHANGE_ENERGY_ABILITY));
             Grasscutter.getLogger().info("Revived avatar energy (mixin) by " + ratio);
 
             return true;
 
         }
- 
+
         return false;
 
     }

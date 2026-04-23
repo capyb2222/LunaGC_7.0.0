@@ -19,34 +19,34 @@ public final class TeamChainDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData> 
-        getStageDataListList();
+    java.util.List<emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ> 
+        getMMGAPLBAGBJList();
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
-    emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData getStageDataList(int index);
+    emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ getMMGAPLBAGBJ(int index);
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
-    int getStageDataListCount();
+    int getMMGAPLBAGBJCount();
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageDataOrBuilder> 
-        getStageDataListOrBuilderList();
+    java.util.List<? extends emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJOrBuilder> 
+        getMMGAPLBAGBJOrBuilderList();
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
-    emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageDataOrBuilder getStageDataListOrBuilder(
+    emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJOrBuilder getMMGAPLBAGBJOrBuilder(
         int index);
 
     /**
-     * <code>bool is_token_costume_reward = 14;</code>
-     * @return The isTokenCostumeReward.
+     * <code>bool GHPEFPDNLPE = 3;</code>
+     * @return The gHPEFPDNLPE.
      */
-    boolean getIsTokenCostumeReward();
+    boolean getGHPEFPDNLPE();
   }
   /**
    * Protobuf type {@code TeamChainDetailInfo}
@@ -61,7 +61,7 @@ public final class TeamChainDetailInfoOuterClass {
       super(builder);
     }
     private TeamChainDetailInfo() {
-      stageDataList_ = java.util.Collections.emptyList();
+      mMGAPLBAGBJ_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -95,18 +95,18 @@ public final class TeamChainDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                stageDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              stageDataList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.parser(), extensionRegistry));
+            case 24: {
+
+              gHPEFPDNLPE_ = input.readBool();
               break;
             }
-            case 112: {
-
-              isTokenCostumeReward_ = input.readBool();
+            case 34: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                mMGAPLBAGBJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              mMGAPLBAGBJ_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -125,7 +125,7 @@ public final class TeamChainDetailInfoOuterClass {
             e).setUnfinishedMessage(this);
       } finally {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          stageDataList_ = java.util.Collections.unmodifiableList(stageDataList_);
+          mMGAPLBAGBJ_ = java.util.Collections.unmodifiableList(mMGAPLBAGBJ_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -144,55 +144,55 @@ public final class TeamChainDetailInfoOuterClass {
               emu.grasscutter.net.proto.TeamChainDetailInfoOuterClass.TeamChainDetailInfo.class, emu.grasscutter.net.proto.TeamChainDetailInfoOuterClass.TeamChainDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_DATA_LIST_FIELD_NUMBER = 1;
-    private java.util.List<emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData> stageDataList_;
+    public static final int MMGAPLBAGBJ_FIELD_NUMBER = 4;
+    private java.util.List<emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ> mMGAPLBAGBJ_;
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData> getStageDataListList() {
-      return stageDataList_;
+    public java.util.List<emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ> getMMGAPLBAGBJList() {
+      return mMGAPLBAGBJ_;
     }
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageDataOrBuilder> 
-        getStageDataListOrBuilderList() {
-      return stageDataList_;
+    public java.util.List<? extends emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJOrBuilder> 
+        getMMGAPLBAGBJOrBuilderList() {
+      return mMGAPLBAGBJ_;
     }
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
     @java.lang.Override
-    public int getStageDataListCount() {
-      return stageDataList_.size();
+    public int getMMGAPLBAGBJCount() {
+      return mMGAPLBAGBJ_.size();
     }
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData getStageDataList(int index) {
-      return stageDataList_.get(index);
+    public emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ getMMGAPLBAGBJ(int index) {
+      return mMGAPLBAGBJ_.get(index);
     }
     /**
-     * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+     * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageDataOrBuilder getStageDataListOrBuilder(
+    public emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJOrBuilder getMMGAPLBAGBJOrBuilder(
         int index) {
-      return stageDataList_.get(index);
+      return mMGAPLBAGBJ_.get(index);
     }
 
-    public static final int IS_TOKEN_COSTUME_REWARD_FIELD_NUMBER = 14;
-    private boolean isTokenCostumeReward_;
+    public static final int GHPEFPDNLPE_FIELD_NUMBER = 3;
+    private boolean gHPEFPDNLPE_;
     /**
-     * <code>bool is_token_costume_reward = 14;</code>
-     * @return The isTokenCostumeReward.
+     * <code>bool GHPEFPDNLPE = 3;</code>
+     * @return The gHPEFPDNLPE.
      */
     @java.lang.Override
-    public boolean getIsTokenCostumeReward() {
-      return isTokenCostumeReward_;
+    public boolean getGHPEFPDNLPE() {
+      return gHPEFPDNLPE_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -209,11 +209,11 @@ public final class TeamChainDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < stageDataList_.size(); i++) {
-        output.writeMessage(1, stageDataList_.get(i));
+      if (gHPEFPDNLPE_ != false) {
+        output.writeBool(3, gHPEFPDNLPE_);
       }
-      if (isTokenCostumeReward_ != false) {
-        output.writeBool(14, isTokenCostumeReward_);
+      for (int i = 0; i < mMGAPLBAGBJ_.size(); i++) {
+        output.writeMessage(4, mMGAPLBAGBJ_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -224,13 +224,13 @@ public final class TeamChainDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < stageDataList_.size(); i++) {
+      if (gHPEFPDNLPE_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, stageDataList_.get(i));
+          .computeBoolSize(3, gHPEFPDNLPE_);
       }
-      if (isTokenCostumeReward_ != false) {
+      for (int i = 0; i < mMGAPLBAGBJ_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isTokenCostumeReward_);
+          .computeMessageSize(4, mMGAPLBAGBJ_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -247,10 +247,10 @@ public final class TeamChainDetailInfoOuterClass {
       }
       emu.grasscutter.net.proto.TeamChainDetailInfoOuterClass.TeamChainDetailInfo other = (emu.grasscutter.net.proto.TeamChainDetailInfoOuterClass.TeamChainDetailInfo) obj;
 
-      if (!getStageDataListList()
-          .equals(other.getStageDataListList())) return false;
-      if (getIsTokenCostumeReward()
-          != other.getIsTokenCostumeReward()) return false;
+      if (!getMMGAPLBAGBJList()
+          .equals(other.getMMGAPLBAGBJList())) return false;
+      if (getGHPEFPDNLPE()
+          != other.getGHPEFPDNLPE()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -262,13 +262,13 @@ public final class TeamChainDetailInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (getStageDataListCount() > 0) {
-        hash = (37 * hash) + STAGE_DATA_LIST_FIELD_NUMBER;
-        hash = (53 * hash) + getStageDataListList().hashCode();
+      if (getMMGAPLBAGBJCount() > 0) {
+        hash = (37 * hash) + MMGAPLBAGBJ_FIELD_NUMBER;
+        hash = (53 * hash) + getMMGAPLBAGBJList().hashCode();
       }
-      hash = (37 * hash) + IS_TOKEN_COSTUME_REWARD_FIELD_NUMBER;
+      hash = (37 * hash) + GHPEFPDNLPE_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsTokenCostumeReward());
+          getGHPEFPDNLPE());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -397,19 +397,19 @@ public final class TeamChainDetailInfoOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getStageDataListFieldBuilder();
+          getMMGAPLBAGBJFieldBuilder();
         }
       }
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        if (stageDataListBuilder_ == null) {
-          stageDataList_ = java.util.Collections.emptyList();
+        if (mMGAPLBAGBJBuilder_ == null) {
+          mMGAPLBAGBJ_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
         } else {
-          stageDataListBuilder_.clear();
+          mMGAPLBAGBJBuilder_.clear();
         }
-        isTokenCostumeReward_ = false;
+        gHPEFPDNLPE_ = false;
 
         return this;
       }
@@ -438,16 +438,16 @@ public final class TeamChainDetailInfoOuterClass {
       public emu.grasscutter.net.proto.TeamChainDetailInfoOuterClass.TeamChainDetailInfo buildPartial() {
         emu.grasscutter.net.proto.TeamChainDetailInfoOuterClass.TeamChainDetailInfo result = new emu.grasscutter.net.proto.TeamChainDetailInfoOuterClass.TeamChainDetailInfo(this);
         int from_bitField0_ = bitField0_;
-        if (stageDataListBuilder_ == null) {
+        if (mMGAPLBAGBJBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
-            stageDataList_ = java.util.Collections.unmodifiableList(stageDataList_);
+            mMGAPLBAGBJ_ = java.util.Collections.unmodifiableList(mMGAPLBAGBJ_);
             bitField0_ = (bitField0_ & ~0x00000001);
           }
-          result.stageDataList_ = stageDataList_;
+          result.mMGAPLBAGBJ_ = mMGAPLBAGBJ_;
         } else {
-          result.stageDataList_ = stageDataListBuilder_.build();
+          result.mMGAPLBAGBJ_ = mMGAPLBAGBJBuilder_.build();
         }
-        result.isTokenCostumeReward_ = isTokenCostumeReward_;
+        result.gHPEFPDNLPE_ = gHPEFPDNLPE_;
         onBuilt();
         return result;
       }
@@ -496,34 +496,34 @@ public final class TeamChainDetailInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.TeamChainDetailInfoOuterClass.TeamChainDetailInfo other) {
         if (other == emu.grasscutter.net.proto.TeamChainDetailInfoOuterClass.TeamChainDetailInfo.getDefaultInstance()) return this;
-        if (stageDataListBuilder_ == null) {
-          if (!other.stageDataList_.isEmpty()) {
-            if (stageDataList_.isEmpty()) {
-              stageDataList_ = other.stageDataList_;
+        if (mMGAPLBAGBJBuilder_ == null) {
+          if (!other.mMGAPLBAGBJ_.isEmpty()) {
+            if (mMGAPLBAGBJ_.isEmpty()) {
+              mMGAPLBAGBJ_ = other.mMGAPLBAGBJ_;
               bitField0_ = (bitField0_ & ~0x00000001);
             } else {
-              ensureStageDataListIsMutable();
-              stageDataList_.addAll(other.stageDataList_);
+              ensureMMGAPLBAGBJIsMutable();
+              mMGAPLBAGBJ_.addAll(other.mMGAPLBAGBJ_);
             }
             onChanged();
           }
         } else {
-          if (!other.stageDataList_.isEmpty()) {
-            if (stageDataListBuilder_.isEmpty()) {
-              stageDataListBuilder_.dispose();
-              stageDataListBuilder_ = null;
-              stageDataList_ = other.stageDataList_;
+          if (!other.mMGAPLBAGBJ_.isEmpty()) {
+            if (mMGAPLBAGBJBuilder_.isEmpty()) {
+              mMGAPLBAGBJBuilder_.dispose();
+              mMGAPLBAGBJBuilder_ = null;
+              mMGAPLBAGBJ_ = other.mMGAPLBAGBJ_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              stageDataListBuilder_ = 
+              mMGAPLBAGBJBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getStageDataListFieldBuilder() : null;
+                   getMMGAPLBAGBJFieldBuilder() : null;
             } else {
-              stageDataListBuilder_.addAllMessages(other.stageDataList_);
+              mMGAPLBAGBJBuilder_.addAllMessages(other.mMGAPLBAGBJ_);
             }
           }
         }
-        if (other.getIsTokenCostumeReward() != false) {
-          setIsTokenCostumeReward(other.getIsTokenCostumeReward());
+        if (other.getGHPEFPDNLPE() != false) {
+          setGHPEFPDNLPE(other.getGHPEFPDNLPE());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -555,273 +555,273 @@ public final class TeamChainDetailInfoOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData> stageDataList_ =
+      private java.util.List<emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ> mMGAPLBAGBJ_ =
         java.util.Collections.emptyList();
-      private void ensureStageDataListIsMutable() {
+      private void ensureMMGAPLBAGBJIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          stageDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData>(stageDataList_);
+          mMGAPLBAGBJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ>(mMGAPLBAGBJ_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageDataOrBuilder> stageDataListBuilder_;
+          emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJOrBuilder> mMGAPLBAGBJBuilder_;
 
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData> getStageDataListList() {
-        if (stageDataListBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(stageDataList_);
+      public java.util.List<emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ> getMMGAPLBAGBJList() {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(mMGAPLBAGBJ_);
         } else {
-          return stageDataListBuilder_.getMessageList();
+          return mMGAPLBAGBJBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public int getStageDataListCount() {
-        if (stageDataListBuilder_ == null) {
-          return stageDataList_.size();
+      public int getMMGAPLBAGBJCount() {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          return mMGAPLBAGBJ_.size();
         } else {
-          return stageDataListBuilder_.getCount();
+          return mMGAPLBAGBJBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData getStageDataList(int index) {
-        if (stageDataListBuilder_ == null) {
-          return stageDataList_.get(index);
+      public emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ getMMGAPLBAGBJ(int index) {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          return mMGAPLBAGBJ_.get(index);
         } else {
-          return stageDataListBuilder_.getMessage(index);
+          return mMGAPLBAGBJBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public Builder setStageDataList(
-          int index, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData value) {
-        if (stageDataListBuilder_ == null) {
+      public Builder setMMGAPLBAGBJ(
+          int index, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ value) {
+        if (mMGAPLBAGBJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageDataListIsMutable();
-          stageDataList_.set(index, value);
+          ensureMMGAPLBAGBJIsMutable();
+          mMGAPLBAGBJ_.set(index, value);
           onChanged();
         } else {
-          stageDataListBuilder_.setMessage(index, value);
+          mMGAPLBAGBJBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public Builder setStageDataList(
-          int index, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder builderForValue) {
-        if (stageDataListBuilder_ == null) {
-          ensureStageDataListIsMutable();
-          stageDataList_.set(index, builderForValue.build());
+      public Builder setMMGAPLBAGBJ(
+          int index, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder builderForValue) {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          ensureMMGAPLBAGBJIsMutable();
+          mMGAPLBAGBJ_.set(index, builderForValue.build());
           onChanged();
         } else {
-          stageDataListBuilder_.setMessage(index, builderForValue.build());
+          mMGAPLBAGBJBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public Builder addStageDataList(emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData value) {
-        if (stageDataListBuilder_ == null) {
+      public Builder addMMGAPLBAGBJ(emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ value) {
+        if (mMGAPLBAGBJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageDataListIsMutable();
-          stageDataList_.add(value);
+          ensureMMGAPLBAGBJIsMutable();
+          mMGAPLBAGBJ_.add(value);
           onChanged();
         } else {
-          stageDataListBuilder_.addMessage(value);
+          mMGAPLBAGBJBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public Builder addStageDataList(
-          int index, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData value) {
-        if (stageDataListBuilder_ == null) {
+      public Builder addMMGAPLBAGBJ(
+          int index, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ value) {
+        if (mMGAPLBAGBJBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureStageDataListIsMutable();
-          stageDataList_.add(index, value);
+          ensureMMGAPLBAGBJIsMutable();
+          mMGAPLBAGBJ_.add(index, value);
           onChanged();
         } else {
-          stageDataListBuilder_.addMessage(index, value);
+          mMGAPLBAGBJBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public Builder addStageDataList(
-          emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder builderForValue) {
-        if (stageDataListBuilder_ == null) {
-          ensureStageDataListIsMutable();
-          stageDataList_.add(builderForValue.build());
+      public Builder addMMGAPLBAGBJ(
+          emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder builderForValue) {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          ensureMMGAPLBAGBJIsMutable();
+          mMGAPLBAGBJ_.add(builderForValue.build());
           onChanged();
         } else {
-          stageDataListBuilder_.addMessage(builderForValue.build());
+          mMGAPLBAGBJBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public Builder addStageDataList(
-          int index, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder builderForValue) {
-        if (stageDataListBuilder_ == null) {
-          ensureStageDataListIsMutable();
-          stageDataList_.add(index, builderForValue.build());
+      public Builder addMMGAPLBAGBJ(
+          int index, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder builderForValue) {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          ensureMMGAPLBAGBJIsMutable();
+          mMGAPLBAGBJ_.add(index, builderForValue.build());
           onChanged();
         } else {
-          stageDataListBuilder_.addMessage(index, builderForValue.build());
+          mMGAPLBAGBJBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public Builder addAllStageDataList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData> values) {
-        if (stageDataListBuilder_ == null) {
-          ensureStageDataListIsMutable();
+      public Builder addAllMMGAPLBAGBJ(
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ> values) {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          ensureMMGAPLBAGBJIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, stageDataList_);
+              values, mMGAPLBAGBJ_);
           onChanged();
         } else {
-          stageDataListBuilder_.addAllMessages(values);
+          mMGAPLBAGBJBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public Builder clearStageDataList() {
-        if (stageDataListBuilder_ == null) {
-          stageDataList_ = java.util.Collections.emptyList();
+      public Builder clearMMGAPLBAGBJ() {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          mMGAPLBAGBJ_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
           onChanged();
         } else {
-          stageDataListBuilder_.clear();
+          mMGAPLBAGBJBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public Builder removeStageDataList(int index) {
-        if (stageDataListBuilder_ == null) {
-          ensureStageDataListIsMutable();
-          stageDataList_.remove(index);
+      public Builder removeMMGAPLBAGBJ(int index) {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          ensureMMGAPLBAGBJIsMutable();
+          mMGAPLBAGBJ_.remove(index);
           onChanged();
         } else {
-          stageDataListBuilder_.remove(index);
+          mMGAPLBAGBJBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder getStageDataListBuilder(
+      public emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder getMMGAPLBAGBJBuilder(
           int index) {
-        return getStageDataListFieldBuilder().getBuilder(index);
+        return getMMGAPLBAGBJFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageDataOrBuilder getStageDataListOrBuilder(
+      public emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJOrBuilder getMMGAPLBAGBJOrBuilder(
           int index) {
-        if (stageDataListBuilder_ == null) {
-          return stageDataList_.get(index);  } else {
-          return stageDataListBuilder_.getMessageOrBuilder(index);
+        if (mMGAPLBAGBJBuilder_ == null) {
+          return mMGAPLBAGBJ_.get(index);  } else {
+          return mMGAPLBAGBJBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageDataOrBuilder> 
-           getStageDataListOrBuilderList() {
-        if (stageDataListBuilder_ != null) {
-          return stageDataListBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJOrBuilder> 
+           getMMGAPLBAGBJOrBuilderList() {
+        if (mMGAPLBAGBJBuilder_ != null) {
+          return mMGAPLBAGBJBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(stageDataList_);
+          return java.util.Collections.unmodifiableList(mMGAPLBAGBJ_);
         }
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder addStageDataListBuilder() {
-        return getStageDataListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.getDefaultInstance());
+      public emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder addMMGAPLBAGBJBuilder() {
+        return getMMGAPLBAGBJFieldBuilder().addBuilder(
+            emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder addStageDataListBuilder(
+      public emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder addMMGAPLBAGBJBuilder(
           int index) {
-        return getStageDataListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.getDefaultInstance());
+        return getMMGAPLBAGBJFieldBuilder().addBuilder(
+            index, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .TeamChainStageData stage_data_list = 1;</code>
+       * <code>repeated .ONLHPINMANJ MMGAPLBAGBJ = 4;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder> 
-           getStageDataListBuilderList() {
-        return getStageDataListFieldBuilder().getBuilderList();
+      public java.util.List<emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder> 
+           getMMGAPLBAGBJBuilderList() {
+        return getMMGAPLBAGBJFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageDataOrBuilder> 
-          getStageDataListFieldBuilder() {
-        if (stageDataListBuilder_ == null) {
-          stageDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageData.Builder, emu.grasscutter.net.proto.TeamChainStageDataOuterClass.TeamChainStageDataOrBuilder>(
-                  stageDataList_,
+          emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJOrBuilder> 
+          getMMGAPLBAGBJFieldBuilder() {
+        if (mMGAPLBAGBJBuilder_ == null) {
+          mMGAPLBAGBJBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJ.Builder, emu.grasscutter.net.proto.ONLHPINMANJOuterClass.ONLHPINMANJOrBuilder>(
+                  mMGAPLBAGBJ_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
                   isClean());
-          stageDataList_ = null;
+          mMGAPLBAGBJ_ = null;
         }
-        return stageDataListBuilder_;
+        return mMGAPLBAGBJBuilder_;
       }
 
-      private boolean isTokenCostumeReward_ ;
+      private boolean gHPEFPDNLPE_ ;
       /**
-       * <code>bool is_token_costume_reward = 14;</code>
-       * @return The isTokenCostumeReward.
+       * <code>bool GHPEFPDNLPE = 3;</code>
+       * @return The gHPEFPDNLPE.
        */
       @java.lang.Override
-      public boolean getIsTokenCostumeReward() {
-        return isTokenCostumeReward_;
+      public boolean getGHPEFPDNLPE() {
+        return gHPEFPDNLPE_;
       }
       /**
-       * <code>bool is_token_costume_reward = 14;</code>
-       * @param value The isTokenCostumeReward to set.
+       * <code>bool GHPEFPDNLPE = 3;</code>
+       * @param value The gHPEFPDNLPE to set.
        * @return This builder for chaining.
        */
-      public Builder setIsTokenCostumeReward(boolean value) {
+      public Builder setGHPEFPDNLPE(boolean value) {
         
-        isTokenCostumeReward_ = value;
+        gHPEFPDNLPE_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_token_costume_reward = 14;</code>
+       * <code>bool GHPEFPDNLPE = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsTokenCostumeReward() {
+      public Builder clearGHPEFPDNLPE() {
         
-        isTokenCostumeReward_ = false;
+        gHPEFPDNLPE_ = false;
         onChanged();
         return this;
       }
@@ -892,24 +892,24 @@ public final class TeamChainDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031TeamChainDetailInfo.proto\032\030TeamChainSt" +
-      "ageData.proto\"d\n\023TeamChainDetailInfo\022,\n\017" +
-      "stage_data_list\030\001 \003(\0132\023.TeamChainStageDa" +
-      "ta\022\037\n\027is_token_costume_reward\030\016 \001(\010B\033\n\031e" +
-      "mu.grasscutter.net.protob\006proto3"
+      "\n\031TeamChainDetailInfo.proto\032\021ONLHPINMANJ" +
+      ".proto\"M\n\023TeamChainDetailInfo\022!\n\013MMGAPLB" +
+      "AGBJ\030\004 \003(\0132\014.ONLHPINMANJ\022\023\n\013GHPEFPDNLPE\030" +
+      "\003 \001(\010B\033\n\031emu.grasscutter.net.protob\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.TeamChainStageDataOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ONLHPINMANJOuterClass.getDescriptor(),
         });
     internal_static_TeamChainDetailInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_TeamChainDetailInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TeamChainDetailInfo_descriptor,
-        new java.lang.String[] { "StageDataList", "IsTokenCostumeReward", });
-    emu.grasscutter.net.proto.TeamChainStageDataOuterClass.getDescriptor();
+        new java.lang.String[] { "MMGAPLBAGBJ", "GHPEFPDNLPE", });
+    emu.grasscutter.net.proto.ONLHPINMANJOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -15,6 +15,10 @@ public final class LunaRiteHintStatusTypeOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   /**
+   * <pre>
+   * Obf: GGCKOHLIGEL
+   * </pre>
+   *
    * Protobuf enum {@code LunaRiteHintStatusType}
    */
   public enum LunaRiteHintStatusType

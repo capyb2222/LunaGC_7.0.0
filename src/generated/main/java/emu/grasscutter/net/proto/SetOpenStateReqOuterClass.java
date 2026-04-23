@@ -19,22 +19,26 @@ public final class SetOpenStateReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 key = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 key = 9;</code>
      * @return The key.
      */
     int getKey();
 
     /**
-     * <code>uint32 value = 8;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 value = 14;</code>
      * @return The value.
      */
     int getValue();
   }
   /**
-   * <pre>
-   * CmdId: 2642
-   * </pre>
-   *
    * Protobuf type {@code SetOpenStateReq}
    */
   public static final class SetOpenStateReq extends
@@ -79,14 +83,14 @@ public final class SetOpenStateReqOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
-
-              value_ = input.readUInt32();
-              break;
-            }
-            case 88: {
+            case 72: {
 
               key_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              value_ = input.readUInt32();
               break;
             }
             default: {
@@ -121,10 +125,14 @@ public final class SetOpenStateReqOuterClass {
               emu.grasscutter.net.proto.SetOpenStateReqOuterClass.SetOpenStateReq.class, emu.grasscutter.net.proto.SetOpenStateReqOuterClass.SetOpenStateReq.Builder.class);
     }
 
-    public static final int KEY_FIELD_NUMBER = 11;
+    public static final int KEY_FIELD_NUMBER = 9;
     private int key_;
     /**
-     * <code>uint32 key = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0        
+     * </pre>
+     *
+     * <code>uint32 key = 9;</code>
      * @return The key.
      */
     @java.lang.Override
@@ -132,10 +140,14 @@ public final class SetOpenStateReqOuterClass {
       return key_;
     }
 
-    public static final int VALUE_FIELD_NUMBER = 8;
+    public static final int VALUE_FIELD_NUMBER = 14;
     private int value_;
     /**
-     * <code>uint32 value = 8;</code>
+     * <pre>
+     *6.4.0 //6.5.0       
+     * </pre>
+     *
+     * <code>uint32 value = 14;</code>
      * @return The value.
      */
     @java.lang.Override
@@ -157,11 +169,11 @@ public final class SetOpenStateReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (value_ != 0) {
-        output.writeUInt32(8, value_);
-      }
       if (key_ != 0) {
-        output.writeUInt32(11, key_);
+        output.writeUInt32(9, key_);
+      }
+      if (value_ != 0) {
+        output.writeUInt32(14, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -172,13 +184,13 @@ public final class SetOpenStateReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (value_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, value_);
-      }
       if (key_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, key_);
+          .computeUInt32Size(9, key_);
+      }
+      if (value_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -310,10 +322,6 @@ public final class SetOpenStateReqOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 2642
-     * </pre>
-     *
      * Protobuf type {@code SetOpenStateReq}
      */
     public static final class Builder extends
@@ -468,7 +476,11 @@ public final class SetOpenStateReqOuterClass {
 
       private int key_ ;
       /**
-       * <code>uint32 key = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 key = 9;</code>
        * @return The key.
        */
       @java.lang.Override
@@ -476,7 +488,11 @@ public final class SetOpenStateReqOuterClass {
         return key_;
       }
       /**
-       * <code>uint32 key = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 key = 9;</code>
        * @param value The key to set.
        * @return This builder for chaining.
        */
@@ -487,7 +503,11 @@ public final class SetOpenStateReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 key = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0        
+       * </pre>
+       *
+       * <code>uint32 key = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearKey() {
@@ -499,7 +519,11 @@ public final class SetOpenStateReqOuterClass {
 
       private int value_ ;
       /**
-       * <code>uint32 value = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 value = 14;</code>
        * @return The value.
        */
       @java.lang.Override
@@ -507,7 +531,11 @@ public final class SetOpenStateReqOuterClass {
         return value_;
       }
       /**
-       * <code>uint32 value = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 value = 14;</code>
        * @param value The value to set.
        * @return This builder for chaining.
        */
@@ -518,7 +546,11 @@ public final class SetOpenStateReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 value = 8;</code>
+       * <pre>
+       *6.4.0 //6.5.0       
+       * </pre>
+       *
+       * <code>uint32 value = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearValue() {
@@ -595,7 +627,7 @@ public final class SetOpenStateReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025SetOpenStateReq.proto\"-\n\017SetOpenStateR" +
-      "eq\022\013\n\003key\030\013 \001(\r\022\r\n\005value\030\010 \001(\rB\033\n\031emu.gr" +
+      "eq\022\013\n\003key\030\t \001(\r\022\r\n\005value\030\016 \001(\rB\033\n\031emu.gr" +
       "asscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

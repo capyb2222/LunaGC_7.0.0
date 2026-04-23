@@ -19,32 +19,66 @@ public final class PingReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 client_time = 3;</code>
-     * @return The clientTime.
+     * <code>bytes IDPDCFKNGML = 5;</code>
+     * @return The iDPDCFKNGML.
      */
-    int getClientTime();
+    com.google.protobuf.ByteString getIDPDCFKNGML();
 
     /**
-     * <code>uint32 seq = 11;</code>
+     * <code>bytes OKOEPNILKKK = 2;</code>
+     * @return The oKOEPNILKKK.
+     */
+    com.google.protobuf.ByteString getOKOEPNILKKK();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 seq = 10;</code>
      * @return The seq.
      */
     int getSeq();
 
     /**
-     * <code>float ue_time = 6;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float ue_time = 3;</code>
      * @return The ueTime.
      */
     float getUeTime();
 
     /**
-     * <code>double total_tick_time = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>double total_tick_time = 6;</code>
      * @return The totalTickTime.
      */
     double getTotalTickTime();
+
+    /**
+     * <code>uint32 AKGPFDHNGBO = 41;</code>
+     * @return The aKGPFDHNGBO.
+     */
+    int getAKGPFDHNGBO();
+
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 client_time = 8;</code>
+     * @return The clientTime.
+     */
+    int getClientTime();
   }
   /**
    * <pre>
-   * CmdId: 5781
+   * CmdId: 9156
    * </pre>
    *
    * Protobuf type {@code PingReq}
@@ -59,6 +93,8 @@ public final class PingReqOuterClass {
       super(builder);
     }
     private PingReq() {
+      iDPDCFKNGML_ = com.google.protobuf.ByteString.EMPTY;
+      oKOEPNILKKK_ = com.google.protobuf.ByteString.EMPTY;
     }
 
     @java.lang.Override
@@ -91,24 +127,39 @@ public final class PingReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 18: {
 
-              clientTime_ = input.readUInt32();
+              oKOEPNILKKK_ = input.readBytes();
               break;
             }
-            case 53: {
+            case 29: {
 
               ueTime_ = input.readFloat();
               break;
             }
-            case 81: {
+            case 42: {
+
+              iDPDCFKNGML_ = input.readBytes();
+              break;
+            }
+            case 49: {
 
               totalTickTime_ = input.readDouble();
               break;
             }
-            case 88: {
+            case 64: {
+
+              clientTime_ = input.readUInt32();
+              break;
+            }
+            case 80: {
 
               seq_ = input.readUInt32();
+              break;
+            }
+            case 328: {
+
+              aKGPFDHNGBO_ = input.readUInt32();
               break;
             }
             default: {
@@ -143,21 +194,36 @@ public final class PingReqOuterClass {
               emu.grasscutter.net.proto.PingReqOuterClass.PingReq.class, emu.grasscutter.net.proto.PingReqOuterClass.PingReq.Builder.class);
     }
 
-    public static final int CLIENT_TIME_FIELD_NUMBER = 3;
-    private int clientTime_;
+    public static final int IDPDCFKNGML_FIELD_NUMBER = 5;
+    private com.google.protobuf.ByteString iDPDCFKNGML_;
     /**
-     * <code>uint32 client_time = 3;</code>
-     * @return The clientTime.
+     * <code>bytes IDPDCFKNGML = 5;</code>
+     * @return The iDPDCFKNGML.
      */
     @java.lang.Override
-    public int getClientTime() {
-      return clientTime_;
+    public com.google.protobuf.ByteString getIDPDCFKNGML() {
+      return iDPDCFKNGML_;
     }
 
-    public static final int SEQ_FIELD_NUMBER = 11;
+    public static final int OKOEPNILKKK_FIELD_NUMBER = 2;
+    private com.google.protobuf.ByteString oKOEPNILKKK_;
+    /**
+     * <code>bytes OKOEPNILKKK = 2;</code>
+     * @return The oKOEPNILKKK.
+     */
+    @java.lang.Override
+    public com.google.protobuf.ByteString getOKOEPNILKKK() {
+      return oKOEPNILKKK_;
+    }
+
+    public static final int SEQ_FIELD_NUMBER = 10;
     private int seq_;
     /**
-     * <code>uint32 seq = 11;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 seq = 10;</code>
      * @return The seq.
      */
     @java.lang.Override
@@ -165,10 +231,14 @@ public final class PingReqOuterClass {
       return seq_;
     }
 
-    public static final int UE_TIME_FIELD_NUMBER = 6;
+    public static final int UE_TIME_FIELD_NUMBER = 3;
     private float ueTime_;
     /**
-     * <code>float ue_time = 6;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>float ue_time = 3;</code>
      * @return The ueTime.
      */
     @java.lang.Override
@@ -176,15 +246,45 @@ public final class PingReqOuterClass {
       return ueTime_;
     }
 
-    public static final int TOTAL_TICK_TIME_FIELD_NUMBER = 10;
+    public static final int TOTAL_TICK_TIME_FIELD_NUMBER = 6;
     private double totalTickTime_;
     /**
-     * <code>double total_tick_time = 10;</code>
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>double total_tick_time = 6;</code>
      * @return The totalTickTime.
      */
     @java.lang.Override
     public double getTotalTickTime() {
       return totalTickTime_;
+    }
+
+    public static final int AKGPFDHNGBO_FIELD_NUMBER = 41;
+    private int aKGPFDHNGBO_;
+    /**
+     * <code>uint32 AKGPFDHNGBO = 41;</code>
+     * @return The aKGPFDHNGBO.
+     */
+    @java.lang.Override
+    public int getAKGPFDHNGBO() {
+      return aKGPFDHNGBO_;
+    }
+
+    public static final int CLIENT_TIME_FIELD_NUMBER = 8;
+    private int clientTime_;
+    /**
+     * <pre>
+     *6.4.0 //6.5.0           
+     * </pre>
+     *
+     * <code>uint32 client_time = 8;</code>
+     * @return The clientTime.
+     */
+    @java.lang.Override
+    public int getClientTime() {
+      return clientTime_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -201,17 +301,26 @@ public final class PingReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (clientTime_ != 0) {
-        output.writeUInt32(3, clientTime_);
+      if (!oKOEPNILKKK_.isEmpty()) {
+        output.writeBytes(2, oKOEPNILKKK_);
       }
       if (ueTime_ != 0F) {
-        output.writeFloat(6, ueTime_);
+        output.writeFloat(3, ueTime_);
+      }
+      if (!iDPDCFKNGML_.isEmpty()) {
+        output.writeBytes(5, iDPDCFKNGML_);
       }
       if (totalTickTime_ != 0D) {
-        output.writeDouble(10, totalTickTime_);
+        output.writeDouble(6, totalTickTime_);
+      }
+      if (clientTime_ != 0) {
+        output.writeUInt32(8, clientTime_);
       }
       if (seq_ != 0) {
-        output.writeUInt32(11, seq_);
+        output.writeUInt32(10, seq_);
+      }
+      if (aKGPFDHNGBO_ != 0) {
+        output.writeUInt32(41, aKGPFDHNGBO_);
       }
       unknownFields.writeTo(output);
     }
@@ -222,21 +331,33 @@ public final class PingReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (clientTime_ != 0) {
+      if (!oKOEPNILKKK_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, clientTime_);
+          .computeBytesSize(2, oKOEPNILKKK_);
       }
       if (ueTime_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(6, ueTime_);
+          .computeFloatSize(3, ueTime_);
+      }
+      if (!iDPDCFKNGML_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(5, iDPDCFKNGML_);
       }
       if (totalTickTime_ != 0D) {
         size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(10, totalTickTime_);
+          .computeDoubleSize(6, totalTickTime_);
+      }
+      if (clientTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, clientTime_);
       }
       if (seq_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, seq_);
+          .computeUInt32Size(10, seq_);
+      }
+      if (aKGPFDHNGBO_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(41, aKGPFDHNGBO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -253,8 +374,10 @@ public final class PingReqOuterClass {
       }
       emu.grasscutter.net.proto.PingReqOuterClass.PingReq other = (emu.grasscutter.net.proto.PingReqOuterClass.PingReq) obj;
 
-      if (getClientTime()
-          != other.getClientTime()) return false;
+      if (!getIDPDCFKNGML()
+          .equals(other.getIDPDCFKNGML())) return false;
+      if (!getOKOEPNILKKK()
+          .equals(other.getOKOEPNILKKK())) return false;
       if (getSeq()
           != other.getSeq()) return false;
       if (java.lang.Float.floatToIntBits(getUeTime())
@@ -263,6 +386,10 @@ public final class PingReqOuterClass {
       if (java.lang.Double.doubleToLongBits(getTotalTickTime())
           != java.lang.Double.doubleToLongBits(
               other.getTotalTickTime())) return false;
+      if (getAKGPFDHNGBO()
+          != other.getAKGPFDHNGBO()) return false;
+      if (getClientTime()
+          != other.getClientTime()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -274,8 +401,10 @@ public final class PingReqOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + CLIENT_TIME_FIELD_NUMBER;
-      hash = (53 * hash) + getClientTime();
+      hash = (37 * hash) + IDPDCFKNGML_FIELD_NUMBER;
+      hash = (53 * hash) + getIDPDCFKNGML().hashCode();
+      hash = (37 * hash) + OKOEPNILKKK_FIELD_NUMBER;
+      hash = (53 * hash) + getOKOEPNILKKK().hashCode();
       hash = (37 * hash) + SEQ_FIELD_NUMBER;
       hash = (53 * hash) + getSeq();
       hash = (37 * hash) + UE_TIME_FIELD_NUMBER;
@@ -284,6 +413,10 @@ public final class PingReqOuterClass {
       hash = (37 * hash) + TOTAL_TICK_TIME_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
           java.lang.Double.doubleToLongBits(getTotalTickTime()));
+      hash = (37 * hash) + AKGPFDHNGBO_FIELD_NUMBER;
+      hash = (53 * hash) + getAKGPFDHNGBO();
+      hash = (37 * hash) + CLIENT_TIME_FIELD_NUMBER;
+      hash = (53 * hash) + getClientTime();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -381,7 +514,7 @@ public final class PingReqOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 5781
+     * CmdId: 9156
      * </pre>
      *
      * Protobuf type {@code PingReq}
@@ -421,13 +554,19 @@ public final class PingReqOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        clientTime_ = 0;
+        iDPDCFKNGML_ = com.google.protobuf.ByteString.EMPTY;
+
+        oKOEPNILKKK_ = com.google.protobuf.ByteString.EMPTY;
 
         seq_ = 0;
 
         ueTime_ = 0F;
 
         totalTickTime_ = 0D;
+
+        aKGPFDHNGBO_ = 0;
+
+        clientTime_ = 0;
 
         return this;
       }
@@ -455,10 +594,13 @@ public final class PingReqOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.PingReqOuterClass.PingReq buildPartial() {
         emu.grasscutter.net.proto.PingReqOuterClass.PingReq result = new emu.grasscutter.net.proto.PingReqOuterClass.PingReq(this);
-        result.clientTime_ = clientTime_;
+        result.iDPDCFKNGML_ = iDPDCFKNGML_;
+        result.oKOEPNILKKK_ = oKOEPNILKKK_;
         result.seq_ = seq_;
         result.ueTime_ = ueTime_;
         result.totalTickTime_ = totalTickTime_;
+        result.aKGPFDHNGBO_ = aKGPFDHNGBO_;
+        result.clientTime_ = clientTime_;
         onBuilt();
         return result;
       }
@@ -507,8 +649,11 @@ public final class PingReqOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.PingReqOuterClass.PingReq other) {
         if (other == emu.grasscutter.net.proto.PingReqOuterClass.PingReq.getDefaultInstance()) return this;
-        if (other.getClientTime() != 0) {
-          setClientTime(other.getClientTime());
+        if (other.getIDPDCFKNGML() != com.google.protobuf.ByteString.EMPTY) {
+          setIDPDCFKNGML(other.getIDPDCFKNGML());
+        }
+        if (other.getOKOEPNILKKK() != com.google.protobuf.ByteString.EMPTY) {
+          setOKOEPNILKKK(other.getOKOEPNILKKK());
         }
         if (other.getSeq() != 0) {
           setSeq(other.getSeq());
@@ -518,6 +663,12 @@ public final class PingReqOuterClass {
         }
         if (other.getTotalTickTime() != 0D) {
           setTotalTickTime(other.getTotalTickTime());
+        }
+        if (other.getAKGPFDHNGBO() != 0) {
+          setAKGPFDHNGBO(other.getAKGPFDHNGBO());
+        }
+        if (other.getClientTime() != 0) {
+          setClientTime(other.getClientTime());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -548,40 +699,81 @@ public final class PingReqOuterClass {
         return this;
       }
 
-      private int clientTime_ ;
+      private com.google.protobuf.ByteString iDPDCFKNGML_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>uint32 client_time = 3;</code>
-       * @return The clientTime.
+       * <code>bytes IDPDCFKNGML = 5;</code>
+       * @return The iDPDCFKNGML.
        */
       @java.lang.Override
-      public int getClientTime() {
-        return clientTime_;
+      public com.google.protobuf.ByteString getIDPDCFKNGML() {
+        return iDPDCFKNGML_;
       }
       /**
-       * <code>uint32 client_time = 3;</code>
-       * @param value The clientTime to set.
+       * <code>bytes IDPDCFKNGML = 5;</code>
+       * @param value The iDPDCFKNGML to set.
        * @return This builder for chaining.
        */
-      public Builder setClientTime(int value) {
-        
-        clientTime_ = value;
+      public Builder setIDPDCFKNGML(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        iDPDCFKNGML_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 client_time = 3;</code>
+       * <code>bytes IDPDCFKNGML = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearClientTime() {
+      public Builder clearIDPDCFKNGML() {
         
-        clientTime_ = 0;
+        iDPDCFKNGML_ = getDefaultInstance().getIDPDCFKNGML();
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.ByteString oKOEPNILKKK_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>bytes OKOEPNILKKK = 2;</code>
+       * @return The oKOEPNILKKK.
+       */
+      @java.lang.Override
+      public com.google.protobuf.ByteString getOKOEPNILKKK() {
+        return oKOEPNILKKK_;
+      }
+      /**
+       * <code>bytes OKOEPNILKKK = 2;</code>
+       * @param value The oKOEPNILKKK to set.
+       * @return This builder for chaining.
+       */
+      public Builder setOKOEPNILKKK(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        oKOEPNILKKK_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bytes OKOEPNILKKK = 2;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearOKOEPNILKKK() {
+        
+        oKOEPNILKKK_ = getDefaultInstance().getOKOEPNILKKK();
         onChanged();
         return this;
       }
 
       private int seq_ ;
       /**
-       * <code>uint32 seq = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 seq = 10;</code>
        * @return The seq.
        */
       @java.lang.Override
@@ -589,7 +781,11 @@ public final class PingReqOuterClass {
         return seq_;
       }
       /**
-       * <code>uint32 seq = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 seq = 10;</code>
        * @param value The seq to set.
        * @return This builder for chaining.
        */
@@ -600,7 +796,11 @@ public final class PingReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 seq = 11;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 seq = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearSeq() {
@@ -612,7 +812,11 @@ public final class PingReqOuterClass {
 
       private float ueTime_ ;
       /**
-       * <code>float ue_time = 6;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float ue_time = 3;</code>
        * @return The ueTime.
        */
       @java.lang.Override
@@ -620,7 +824,11 @@ public final class PingReqOuterClass {
         return ueTime_;
       }
       /**
-       * <code>float ue_time = 6;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float ue_time = 3;</code>
        * @param value The ueTime to set.
        * @return This builder for chaining.
        */
@@ -631,7 +839,11 @@ public final class PingReqOuterClass {
         return this;
       }
       /**
-       * <code>float ue_time = 6;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>float ue_time = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearUeTime() {
@@ -643,7 +855,11 @@ public final class PingReqOuterClass {
 
       private double totalTickTime_ ;
       /**
-       * <code>double total_tick_time = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>double total_tick_time = 6;</code>
        * @return The totalTickTime.
        */
       @java.lang.Override
@@ -651,7 +867,11 @@ public final class PingReqOuterClass {
         return totalTickTime_;
       }
       /**
-       * <code>double total_tick_time = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>double total_tick_time = 6;</code>
        * @param value The totalTickTime to set.
        * @return This builder for chaining.
        */
@@ -662,12 +882,90 @@ public final class PingReqOuterClass {
         return this;
       }
       /**
-       * <code>double total_tick_time = 10;</code>
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>double total_tick_time = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearTotalTickTime() {
         
         totalTickTime_ = 0D;
+        onChanged();
+        return this;
+      }
+
+      private int aKGPFDHNGBO_ ;
+      /**
+       * <code>uint32 AKGPFDHNGBO = 41;</code>
+       * @return The aKGPFDHNGBO.
+       */
+      @java.lang.Override
+      public int getAKGPFDHNGBO() {
+        return aKGPFDHNGBO_;
+      }
+      /**
+       * <code>uint32 AKGPFDHNGBO = 41;</code>
+       * @param value The aKGPFDHNGBO to set.
+       * @return This builder for chaining.
+       */
+      public Builder setAKGPFDHNGBO(int value) {
+        
+        aKGPFDHNGBO_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 AKGPFDHNGBO = 41;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearAKGPFDHNGBO() {
+        
+        aKGPFDHNGBO_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int clientTime_ ;
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 client_time = 8;</code>
+       * @return The clientTime.
+       */
+      @java.lang.Override
+      public int getClientTime() {
+        return clientTime_;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 client_time = 8;</code>
+       * @param value The clientTime to set.
+       * @return This builder for chaining.
+       */
+      public Builder setClientTime(int value) {
+        
+        clientTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <pre>
+       *6.4.0 //6.5.0           
+       * </pre>
+       *
+       * <code>uint32 client_time = 8;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearClientTime() {
+        
+        clientTime_ = 0;
         onChanged();
         return this;
       }
@@ -738,10 +1036,12 @@ public final class PingReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\rPingReq.proto\"U\n\007PingReq\022\023\n\013client_tim" +
-      "e\030\003 \001(\r\022\013\n\003seq\030\013 \001(\r\022\017\n\007ue_time\030\006 \001(\002\022\027\n" +
-      "\017total_tick_time\030\n \001(\001B\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      "\n\rPingReq.proto\"\224\001\n\007PingReq\022\023\n\013IDPDCFKNG" +
+      "ML\030\005 \001(\014\022\023\n\013OKOEPNILKKK\030\002 \001(\014\022\013\n\003seq\030\n \001" +
+      "(\r\022\017\n\007ue_time\030\003 \001(\002\022\027\n\017total_tick_time\030\006" +
+      " \001(\001\022\023\n\013AKGPFDHNGBO\030) \001(\r\022\023\n\013client_time" +
+      "\030\010 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -752,7 +1052,7 @@ public final class PingReqOuterClass {
     internal_static_PingReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PingReq_descriptor,
-        new java.lang.String[] { "ClientTime", "Seq", "UeTime", "TotalTickTime", });
+        new java.lang.String[] { "IDPDCFKNGML", "OKOEPNILKKK", "Seq", "UeTime", "TotalTickTime", "AKGPFDHNGBO", "ClientTime", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
