@@ -363,11 +363,11 @@ public class ConfigContainer {
 
     public static class JoinOptions {
         public int[] welcomeEmotes = {2007, 1002, 4010};
-        public String welcomeMessage = "Welcome to LunaGC 6.1.0";
+        public String welcomeMessage = "Welcome to LunaGC 6.5.0";
         public JoinOptions.Mail welcomeMail = new JoinOptions.Mail();
 
         public static class Mail {
-            public String title = "Welcome to LunaGC 6.1.0";
+            public String title = "Welcome to LunaGC 6.5.0";
             public String content = """
                     Hi there!\r\nWelcome to LunaGC!
                     """;
