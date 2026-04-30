@@ -34,13 +34,13 @@ jobs:
       uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
 
     - name: Build with Gradle Wrapper
-      run: ./gradlew jar -PjarFilename=LunaGC
+      run: ./gradlew jar
 
     - name: Archive Artifacts
       uses: actions/upload-artifact@v4
       with:
         name: Artifacts
-        path: LunaGC.jar
+        path: LunaGC-6.5.0.jar
 
     # Generates and submits a dependency graph, enabling Dependabot Alerts for all project dependencies.
     # See: https://github.com/gradle/actions/blob/main/dependency-submission/README.md
