@@ -1,2 +1,2 @@
-java -jar LunaGC-6.1.0.jar
+java -jar LunaGC-6.5.0.jar
 pause
