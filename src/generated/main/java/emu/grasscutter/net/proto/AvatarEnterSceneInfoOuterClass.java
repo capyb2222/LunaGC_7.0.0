@@ -20,7 +20,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -29,7 +29,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     boolean hasWeaponAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -38,7 +38,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getWeaponAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -47,7 +47,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -56,7 +56,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     boolean hasAvatarAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -65,7 +65,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAvatarAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -74,7 +74,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 buff_id_list = 11;</code>
@@ -83,7 +83,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     java.util.List<java.lang.Integer> getBuffIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 buff_id_list = 11;</code>
@@ -92,7 +92,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     int getBuffIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 buff_id_list = 11;</code>
@@ -103,7 +103,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -112,7 +112,7 @@ public final class AvatarEnterSceneInfoOuterClass {
         getServerBuffListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -120,7 +120,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -128,7 +128,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     int getServerBuffListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -137,7 +137,7 @@ public final class AvatarEnterSceneInfoOuterClass {
         getServerBuffListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -147,7 +147,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 weapon_guid = 4;</code>
@@ -157,7 +157,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 weapon_entity_id = 10;</code>
@@ -167,7 +167,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_entity_id = 2;</code>
@@ -177,7 +177,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 15;</code>
@@ -351,7 +351,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo weaponAbilityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -363,7 +363,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -375,7 +375,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -389,7 +389,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo avatarAbilityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -401,7 +401,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -413,7 +413,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -427,7 +427,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     private com.google.protobuf.Internal.IntList buffIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 buff_id_list = 11;</code>
@@ -440,7 +440,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 buff_id_list = 11;</code>
@@ -451,7 +451,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 buff_id_list = 11;</code>
@@ -467,7 +467,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -478,7 +478,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -490,7 +490,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -501,7 +501,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -512,7 +512,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -527,7 +527,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     private long weaponGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 weapon_guid = 4;</code>
@@ -542,7 +542,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     private int weaponEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 weapon_entity_id = 10;</code>
@@ -557,7 +557,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     private int avatarEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_entity_id = 2;</code>
@@ -572,7 +572,7 @@ public final class AvatarEnterSceneInfoOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 15;</code>
@@ -1105,7 +1105,7 @@ public final class AvatarEnterSceneInfoOuterClass {
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> weaponAbilityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -1116,7 +1116,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -1131,7 +1131,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -1151,7 +1151,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -1169,7 +1169,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -1191,7 +1191,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -1209,7 +1209,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -1221,7 +1221,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -1236,7 +1236,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 3;</code>
@@ -1260,7 +1260,7 @@ public final class AvatarEnterSceneInfoOuterClass {
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> avatarAbilityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -1271,7 +1271,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -1286,7 +1286,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -1306,7 +1306,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -1324,7 +1324,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -1346,7 +1346,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -1364,7 +1364,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -1376,7 +1376,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -1391,7 +1391,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 6;</code>
@@ -1419,7 +1419,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 buff_id_list = 11;</code>
@@ -1432,7 +1432,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 buff_id_list = 11;</code>
@@ -1443,7 +1443,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 buff_id_list = 11;</code>
@@ -1455,7 +1455,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 buff_id_list = 11;</code>
@@ -1472,7 +1472,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 buff_id_list = 11;</code>
@@ -1487,7 +1487,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 buff_id_list = 11;</code>
@@ -1504,7 +1504,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 buff_id_list = 11;</code>
@@ -1531,7 +1531,7 @@ public final class AvatarEnterSceneInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1545,7 +1545,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1559,7 +1559,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1573,7 +1573,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1594,7 +1594,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1612,7 +1612,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1632,7 +1632,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1653,7 +1653,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1671,7 +1671,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1689,7 +1689,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1708,7 +1708,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1725,7 +1725,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1742,7 +1742,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1753,7 +1753,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1767,7 +1767,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1782,7 +1782,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1793,7 +1793,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1805,7 +1805,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 1;</code>
@@ -1832,7 +1832,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       private long weaponGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 weapon_guid = 4;</code>
@@ -1844,7 +1844,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 weapon_guid = 4;</code>
@@ -1859,7 +1859,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 weapon_guid = 4;</code>
@@ -1875,7 +1875,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       private int weaponEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 weapon_entity_id = 10;</code>
@@ -1887,7 +1887,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 weapon_entity_id = 10;</code>
@@ -1902,7 +1902,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 weapon_entity_id = 10;</code>
@@ -1918,7 +1918,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       private int avatarEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_entity_id = 2;</code>
@@ -1930,7 +1930,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_entity_id = 2;</code>
@@ -1945,7 +1945,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_entity_id = 2;</code>
@@ -1961,7 +1961,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 15;</code>
@@ -1973,7 +1973,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 15;</code>
@@ -1988,7 +1988,7 @@ public final class AvatarEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 15;</code>

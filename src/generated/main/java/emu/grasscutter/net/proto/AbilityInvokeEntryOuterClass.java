@@ -20,7 +20,7 @@ public final class AbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -29,7 +29,7 @@ public final class AbilityInvokeEntryOuterClass {
     boolean hasHead();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -38,7 +38,7 @@ public final class AbilityInvokeEntryOuterClass {
     emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead getHead();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -47,7 +47,7 @@ public final class AbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bytes ability_data = 14;</code>
@@ -57,7 +57,7 @@ public final class AbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_ignore_auth = 6;</code>
@@ -67,7 +67,7 @@ public final class AbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -77,7 +77,7 @@ public final class AbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeArgument argument_type = 15;</code>
@@ -86,7 +86,7 @@ public final class AbilityInvokeEntryOuterClass {
     int getArgumentTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeArgument argument_type = 15;</code>
@@ -96,7 +96,7 @@ public final class AbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 forward_peer = 9;</code>
@@ -106,7 +106,7 @@ public final class AbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 event_id = 3;</code>
@@ -116,7 +116,7 @@ public final class AbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 2;</code>
@@ -125,7 +125,7 @@ public final class AbilityInvokeEntryOuterClass {
     int getForwardTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 2;</code>
@@ -135,7 +135,7 @@ public final class AbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>double total_tick_time = 7;</code>
@@ -282,7 +282,7 @@ public final class AbilityInvokeEntryOuterClass {
     private emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead head_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -294,7 +294,7 @@ public final class AbilityInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -306,7 +306,7 @@ public final class AbilityInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -320,7 +320,7 @@ public final class AbilityInvokeEntryOuterClass {
     private com.google.protobuf.ByteString abilityData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bytes ability_data = 14;</code>
@@ -335,7 +335,7 @@ public final class AbilityInvokeEntryOuterClass {
     private boolean isIgnoreAuth_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_ignore_auth = 6;</code>
@@ -350,7 +350,7 @@ public final class AbilityInvokeEntryOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -365,7 +365,7 @@ public final class AbilityInvokeEntryOuterClass {
     private int argumentType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeArgument argument_type = 15;</code>
@@ -376,7 +376,7 @@ public final class AbilityInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityInvokeArgument argument_type = 15;</code>
@@ -392,7 +392,7 @@ public final class AbilityInvokeEntryOuterClass {
     private int forwardPeer_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 forward_peer = 9;</code>
@@ -407,7 +407,7 @@ public final class AbilityInvokeEntryOuterClass {
     private int eventId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 event_id = 3;</code>
@@ -422,7 +422,7 @@ public final class AbilityInvokeEntryOuterClass {
     private int forwardType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 2;</code>
@@ -433,7 +433,7 @@ public final class AbilityInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 2;</code>
@@ -449,7 +449,7 @@ public final class AbilityInvokeEntryOuterClass {
     private double totalTickTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>double total_tick_time = 7;</code>
@@ -917,7 +917,7 @@ public final class AbilityInvokeEntryOuterClass {
           emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead, emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHead.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryHeadOuterClass.AbilityInvokeEntryHeadOrBuilder> headBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -928,7 +928,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -943,7 +943,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -963,7 +963,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -981,7 +981,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -1003,7 +1003,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -1021,7 +1021,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -1033,7 +1033,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -1048,7 +1048,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeEntryHead head = 5;</code>
@@ -1070,7 +1070,7 @@ public final class AbilityInvokeEntryOuterClass {
       private com.google.protobuf.ByteString abilityData_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes ability_data = 14;</code>
@@ -1082,7 +1082,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes ability_data = 14;</code>
@@ -1100,7 +1100,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes ability_data = 14;</code>
@@ -1116,7 +1116,7 @@ public final class AbilityInvokeEntryOuterClass {
       private boolean isIgnoreAuth_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_ignore_auth = 6;</code>
@@ -1128,7 +1128,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_ignore_auth = 6;</code>
@@ -1143,7 +1143,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_ignore_auth = 6;</code>
@@ -1159,7 +1159,7 @@ public final class AbilityInvokeEntryOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -1171,7 +1171,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -1186,7 +1186,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -1202,7 +1202,7 @@ public final class AbilityInvokeEntryOuterClass {
       private int argumentType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeArgument argument_type = 15;</code>
@@ -1213,7 +1213,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeArgument argument_type = 15;</code>
@@ -1228,7 +1228,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeArgument argument_type = 15;</code>
@@ -1242,7 +1242,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeArgument argument_type = 15;</code>
@@ -1260,7 +1260,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityInvokeArgument argument_type = 15;</code>
@@ -1276,7 +1276,7 @@ public final class AbilityInvokeEntryOuterClass {
       private int forwardPeer_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 forward_peer = 9;</code>
@@ -1288,7 +1288,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 forward_peer = 9;</code>
@@ -1303,7 +1303,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 forward_peer = 9;</code>
@@ -1319,7 +1319,7 @@ public final class AbilityInvokeEntryOuterClass {
       private int eventId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 event_id = 3;</code>
@@ -1331,7 +1331,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 event_id = 3;</code>
@@ -1346,7 +1346,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 event_id = 3;</code>
@@ -1362,7 +1362,7 @@ public final class AbilityInvokeEntryOuterClass {
       private int forwardType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 2;</code>
@@ -1373,7 +1373,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 2;</code>
@@ -1388,7 +1388,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 2;</code>
@@ -1402,7 +1402,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 2;</code>
@@ -1420,7 +1420,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 2;</code>
@@ -1436,7 +1436,7 @@ public final class AbilityInvokeEntryOuterClass {
       private double totalTickTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 7;</code>
@@ -1448,7 +1448,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 7;</code>
@@ -1463,7 +1463,7 @@ public final class AbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 7;</code>

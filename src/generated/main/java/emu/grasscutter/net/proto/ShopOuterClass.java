@@ -20,7 +20,7 @@ public final class ShopOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -29,7 +29,7 @@ public final class ShopOuterClass {
         getConcertProductListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -37,7 +37,7 @@ public final class ShopOuterClass {
     emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct getConcertProductList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -45,7 +45,7 @@ public final class ShopOuterClass {
     int getConcertProductListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -54,7 +54,7 @@ public final class ShopOuterClass {
         getConcertProductListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -64,7 +64,7 @@ public final class ShopOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -73,7 +73,7 @@ public final class ShopOuterClass {
         getMcoinProductListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -81,7 +81,7 @@ public final class ShopOuterClass {
     emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct getMcoinProductList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -89,7 +89,7 @@ public final class ShopOuterClass {
     int getMcoinProductListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -98,7 +98,7 @@ public final class ShopOuterClass {
         getMcoinProductListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -108,7 +108,7 @@ public final class ShopOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -117,7 +117,7 @@ public final class ShopOuterClass {
         getGoodsListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -125,7 +125,7 @@ public final class ShopOuterClass {
     emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods getGoodsList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -133,7 +133,7 @@ public final class ShopOuterClass {
     int getGoodsListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -142,7 +142,7 @@ public final class ShopOuterClass {
         getGoodsListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -152,7 +152,7 @@ public final class ShopOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -161,7 +161,7 @@ public final class ShopOuterClass {
         getCardProductListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -169,7 +169,7 @@ public final class ShopOuterClass {
     emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct getCardProductList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -177,7 +177,7 @@ public final class ShopOuterClass {
     int getCardProductListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -186,7 +186,7 @@ public final class ShopOuterClass {
         getCardProductListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -196,7 +196,7 @@ public final class ShopOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 city_id = 15;</code>
@@ -206,7 +206,7 @@ public final class ShopOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 next_refresh_time = 5;</code>
@@ -216,7 +216,7 @@ public final class ShopOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 city_reputation_level = 13;</code>
@@ -226,7 +226,7 @@ public final class ShopOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 shop_type = 9;</code>
@@ -399,7 +399,7 @@ public final class ShopOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct> concertProductList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -410,7 +410,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -422,7 +422,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -433,7 +433,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -444,7 +444,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -459,7 +459,7 @@ public final class ShopOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ShopMcoinProductOuterClass.ShopMcoinProduct> mcoinProductList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -470,7 +470,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -482,7 +482,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -493,7 +493,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -504,7 +504,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -519,7 +519,7 @@ public final class ShopOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ShopGoodsOuterClass.ShopGoods> goodsList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -530,7 +530,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -542,7 +542,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -553,7 +553,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -564,7 +564,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -579,7 +579,7 @@ public final class ShopOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ShopCardProductOuterClass.ShopCardProduct> cardProductList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -590,7 +590,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -602,7 +602,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -613,7 +613,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -624,7 +624,7 @@ public final class ShopOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -639,7 +639,7 @@ public final class ShopOuterClass {
     private int cityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 city_id = 15;</code>
@@ -654,7 +654,7 @@ public final class ShopOuterClass {
     private int nextRefreshTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 next_refresh_time = 5;</code>
@@ -669,7 +669,7 @@ public final class ShopOuterClass {
     private int cityReputationLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 city_reputation_level = 13;</code>
@@ -684,7 +684,7 @@ public final class ShopOuterClass {
     private int shopType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 shop_type = 9;</code>
@@ -1312,7 +1312,7 @@ public final class ShopOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1326,7 +1326,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1340,7 +1340,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1354,7 +1354,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1375,7 +1375,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1393,7 +1393,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1413,7 +1413,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1434,7 +1434,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1452,7 +1452,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1470,7 +1470,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1489,7 +1489,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1506,7 +1506,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1523,7 +1523,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1534,7 +1534,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1548,7 +1548,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1563,7 +1563,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1574,7 +1574,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1586,7 +1586,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopConcertProduct concert_product_list = 11;</code>
@@ -1624,7 +1624,7 @@ public final class ShopOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1638,7 +1638,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1652,7 +1652,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1666,7 +1666,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1687,7 +1687,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1705,7 +1705,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1725,7 +1725,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1746,7 +1746,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1764,7 +1764,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1782,7 +1782,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1801,7 +1801,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1818,7 +1818,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1835,7 +1835,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1846,7 +1846,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1860,7 +1860,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1875,7 +1875,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1886,7 +1886,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1898,7 +1898,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ShopMcoinProduct mcoin_product_list = 2;</code>
@@ -1936,7 +1936,7 @@ public final class ShopOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -1950,7 +1950,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -1964,7 +1964,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -1978,7 +1978,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -1999,7 +1999,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2017,7 +2017,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2037,7 +2037,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2058,7 +2058,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2076,7 +2076,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2094,7 +2094,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2113,7 +2113,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2130,7 +2130,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2147,7 +2147,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2158,7 +2158,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2172,7 +2172,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2187,7 +2187,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2198,7 +2198,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2210,7 +2210,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopGoods goods_list = 14;</code>
@@ -2248,7 +2248,7 @@ public final class ShopOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2262,7 +2262,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2276,7 +2276,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2290,7 +2290,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2311,7 +2311,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2329,7 +2329,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2349,7 +2349,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2370,7 +2370,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2388,7 +2388,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2406,7 +2406,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2425,7 +2425,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2442,7 +2442,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2459,7 +2459,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2470,7 +2470,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2484,7 +2484,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2499,7 +2499,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2510,7 +2510,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2522,7 +2522,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ShopCardProduct card_product_list = 12;</code>
@@ -2549,7 +2549,7 @@ public final class ShopOuterClass {
       private int cityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 city_id = 15;</code>
@@ -2561,7 +2561,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 city_id = 15;</code>
@@ -2576,7 +2576,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 city_id = 15;</code>
@@ -2592,7 +2592,7 @@ public final class ShopOuterClass {
       private int nextRefreshTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 next_refresh_time = 5;</code>
@@ -2604,7 +2604,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 next_refresh_time = 5;</code>
@@ -2619,7 +2619,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 next_refresh_time = 5;</code>
@@ -2635,7 +2635,7 @@ public final class ShopOuterClass {
       private int cityReputationLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 city_reputation_level = 13;</code>
@@ -2647,7 +2647,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 city_reputation_level = 13;</code>
@@ -2662,7 +2662,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 city_reputation_level = 13;</code>
@@ -2678,7 +2678,7 @@ public final class ShopOuterClass {
       private int shopType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 shop_type = 9;</code>
@@ -2690,7 +2690,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 shop_type = 9;</code>
@@ -2705,7 +2705,7 @@ public final class ShopOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 shop_type = 9;</code>

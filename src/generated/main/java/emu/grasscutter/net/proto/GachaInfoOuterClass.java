@@ -61,7 +61,7 @@ public final class GachaInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -70,7 +70,7 @@ public final class GachaInfoOuterClass {
         getGachaUpInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -78,7 +78,7 @@ public final class GachaInfoOuterClass {
     emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo getGachaUpInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -86,7 +86,7 @@ public final class GachaInfoOuterClass {
     int getGachaUpInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -95,7 +95,7 @@ public final class GachaInfoOuterClass {
         getGachaUpInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -104,53 +104,89 @@ public final class GachaInfoOuterClass {
         int index);
 
     /**
-     * <code>string title_textmap = 881;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string title_textmap = 755;</code>
      * @return The titleTextmap.
      */
     java.lang.String getTitleTextmap();
     /**
-     * <code>string title_textmap = 881;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string title_textmap = 755;</code>
      * @return The bytes for titleTextmap.
      */
     com.google.protobuf.ByteString
         getTitleTextmapBytes();
 
     /**
-     * <code>string gacha_prefab_path = 16;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string gacha_prefab_path = 2;</code>
      * @return The gachaPrefabPath.
      */
     java.lang.String getGachaPrefabPath();
     /**
-     * <code>string gacha_prefab_path = 16;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string gacha_prefab_path = 2;</code>
      * @return The bytes for gachaPrefabPath.
      */
     com.google.protobuf.ByteString
         getGachaPrefabPathBytes();
 
     /**
-     * <code>string gacha_preview_prefab_path = 3;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string gacha_preview_prefab_path = 9;</code>
      * @return The gachaPreviewPrefabPath.
      */
     java.lang.String getGachaPreviewPrefabPath();
     /**
-     * <code>string gacha_preview_prefab_path = 3;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string gacha_preview_prefab_path = 9;</code>
      * @return The bytes for gachaPreviewPrefabPath.
      */
     com.google.protobuf.ByteString
         getGachaPreviewPrefabPathBytes();
 
     /**
-     * <code>repeated uint32 display_up5_item_list = 856;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up5_item_list = 810;</code>
      * @return A list containing the displayUp5ItemList.
      */
     java.util.List<java.lang.Integer> getDisplayUp5ItemListList();
     /**
-     * <code>repeated uint32 display_up5_item_list = 856;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up5_item_list = 810;</code>
      * @return The count of displayUp5ItemList.
      */
     int getDisplayUp5ItemListCount();
     /**
-     * <code>repeated uint32 display_up5_item_list = 856;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up5_item_list = 810;</code>
      * @param index The index of the element to return.
      * @return The displayUp5ItemList at the given index.
      */
@@ -169,43 +205,59 @@ public final class GachaInfoOuterClass {
         getGachaProbUrlOverseaBytes();
 
     /**
-     * <code>repeated uint32 display_up4_item_list = 1431;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up4_item_list = 109;</code>
      * @return A list containing the displayUp4ItemList.
      */
     java.util.List<java.lang.Integer> getDisplayUp4ItemListList();
     /**
-     * <code>repeated uint32 display_up4_item_list = 1431;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up4_item_list = 109;</code>
      * @return The count of displayUp4ItemList.
      */
     int getDisplayUp4ItemListCount();
     /**
-     * <code>repeated uint32 display_up4_item_list = 1431;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up4_item_list = 109;</code>
      * @param index The index of the element to return.
      * @return The displayUp4ItemList at the given index.
      */
     int getDisplayUp4ItemList(int index);
 
     /**
-     * <code>string gacha_record_url_oversea = 7;</code>
+     * <code>string gacha_record_url_oversea = 7123;</code>
      * @return The gachaRecordUrlOversea.
      */
     java.lang.String getGachaRecordUrlOversea();
     /**
-     * <code>string gacha_record_url_oversea = 7;</code>
+     * <code>string gacha_record_url_oversea = 7123;</code>
      * @return The bytes for gachaRecordUrlOversea.
      */
     com.google.protobuf.ByteString
         getGachaRecordUrlOverseaBytes();
 
     /**
-     * <code>uint32 ten_cost_item_num = 2;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 ten_cost_item_num = 5;</code>
      * @return The tenCostItemNum.
      */
     int getTenCostItemNum();
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_type = 12;</code>
@@ -214,14 +266,18 @@ public final class GachaInfoOuterClass {
     int getGachaType();
 
     /**
-     * <code>uint32 left_gacha_times = 8;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 left_gacha_times = 3;</code>
      * @return The leftGachaTimes.
      */
     int getLeftGachaTimes();
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 schedule_id = 10;</code>
@@ -230,32 +286,48 @@ public final class GachaInfoOuterClass {
     int getScheduleId();
 
     /**
-     * <code>uint32 gacha_times_limit = 6;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 gacha_times_limit = 7;</code>
      * @return The gachaTimesLimit.
      */
     int getGachaTimesLimit();
 
     /**
-     * <code>uint32 gacha_sort_id = 17;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 gacha_sort_id = 8;</code>
      * @return The gachaSortId.
      */
     int getGachaSortId();
 
     /**
-     * <code>uint32 wish_item_id = 1380;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 wish_item_id = 393;</code>
      * @return The wishItemId.
      */
     int getWishItemId();
 
     /**
-     * <code>uint32 wish_progress = 2022;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 wish_progress = 2008;</code>
      * @return The wishProgress.
      */
     int getWishProgress();
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 end_time = 14;</code>
@@ -264,7 +336,11 @@ public final class GachaInfoOuterClass {
     int getEndTime();
 
     /**
-     * <code>uint32 wish_max_progress = 1711;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 wish_max_progress = 48;</code>
      * @return The wishMaxProgress.
      */
     int getWishMaxProgress();
@@ -282,13 +358,17 @@ public final class GachaInfoOuterClass {
     boolean getJDLPNHAJANL();
 
     /**
-     * <code>uint32 ten_cost_item_id = 5;</code>
+     * <code>uint32 ten_cost_item_id = 5123;</code>
      * @return The tenCostItemId.
      */
     int getTenCostItemId();
 
     /**
-     * <code>uint32 cost_item_num = 9;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 cost_item_num = 4;</code>
      * @return The costItemNum.
      */
     int getCostItemNum();
@@ -301,7 +381,7 @@ public final class GachaInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 begin_time = 11;</code>
@@ -371,41 +451,41 @@ public final class GachaInfoOuterClass {
               costItemId_ = input.readUInt32();
               break;
             }
-            case 16: {
-
-              tenCostItemNum_ = input.readUInt32();
-              break;
-            }
-            case 26: {
+            case 18: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              gachaPreviewPrefabPath_ = s;
+              gachaPrefabPath_ = s;
               break;
             }
-            case 40: {
-
-              tenCostItemId_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              gachaTimesLimit_ = input.readUInt32();
-              break;
-            }
-            case 58: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              gachaRecordUrlOversea_ = s;
-              break;
-            }
-            case 64: {
+            case 24: {
 
               leftGachaTimes_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 32: {
 
               costItemNum_ = input.readUInt32();
+              break;
+            }
+            case 40: {
+
+              tenCostItemNum_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              gachaTimesLimit_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              gachaSortId_ = input.readUInt32();
+              break;
+            }
+            case 74: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              gachaPreviewPrefabPath_ = s;
               break;
             }
             case 80: {
@@ -434,70 +514,12 @@ public final class GachaInfoOuterClass {
               gachaRecordUrl_ = s;
               break;
             }
-            case 130: {
-              java.lang.String s = input.readStringRequireUtf8();
+            case 384: {
 
-              gachaPrefabPath_ = s;
+              wishMaxProgress_ = input.readUInt32();
               break;
             }
-            case 136: {
-
-              gachaSortId_ = input.readUInt32();
-              break;
-            }
-            case 4122: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                gachaUpInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              gachaUpInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 6600: {
-
-              jDLPNHAJANL_ = input.readBool();
-              break;
-            }
-            case 6848: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                displayUp5ItemList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              displayUp5ItemList_.addInt(input.readUInt32());
-              break;
-            }
-            case 6850: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                displayUp5ItemList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                displayUp5ItemList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 7050: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              titleTextmap_ = s;
-              break;
-            }
-            case 10642: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              gachaProbUrl_ = s;
-              break;
-            }
-            case 11040: {
-
-              wishItemId_ = input.readUInt32();
-              break;
-            }
-            case 11448: {
+            case 872: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 displayUp4ItemList_ = newIntList();
                 mutable_bitField0_ |= 0x00000008;
@@ -505,7 +527,7 @@ public final class GachaInfoOuterClass {
               displayUp4ItemList_.addInt(input.readUInt32());
               break;
             }
-            case 11450: {
+            case 874: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
@@ -518,15 +540,62 @@ public final class GachaInfoOuterClass {
               input.popLimit(limit);
               break;
             }
+            case 3144: {
+
+              wishItemId_ = input.readUInt32();
+              break;
+            }
+            case 4122: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                gachaUpInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              gachaUpInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 6042: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              titleTextmap_ = s;
+              break;
+            }
+            case 6480: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                displayUp5ItemList_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              displayUp5ItemList_.addInt(input.readUInt32());
+              break;
+            }
+            case 6482: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
+                displayUp5ItemList_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                displayUp5ItemList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 6600: {
+
+              jDLPNHAJANL_ = input.readBool();
+              break;
+            }
+            case 10642: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              gachaProbUrl_ = s;
+              break;
+            }
             case 11722: {
               java.lang.String s = input.readStringRequireUtf8();
 
               gachaProbUrlOversea_ = s;
-              break;
-            }
-            case 13688: {
-
-              wishMaxProgress_ = input.readUInt32();
               break;
             }
             case 13784: {
@@ -555,9 +624,20 @@ public final class GachaInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 16176: {
+            case 16064: {
 
               wishProgress_ = input.readUInt32();
+              break;
+            }
+            case 40984: {
+
+              tenCostItemId_ = input.readUInt32();
+              break;
+            }
+            case 56986: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              gachaRecordUrlOversea_ = s;
               break;
             }
             default: {
@@ -575,14 +655,14 @@ public final class GachaInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+          displayUp4ItemList_.makeImmutable(); // C
+        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           gachaUpInfoList_ = java.util.Collections.unmodifiableList(gachaUpInfoList_);
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           displayUp5ItemList_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          displayUp4ItemList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           displayChronicle5ItemList_.makeImmutable(); // C
@@ -712,7 +792,7 @@ public final class GachaInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.GachaUpInfoOuterClass.GachaUpInfo> gachaUpInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -723,7 +803,7 @@ public final class GachaInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -735,7 +815,7 @@ public final class GachaInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -746,7 +826,7 @@ public final class GachaInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -757,7 +837,7 @@ public final class GachaInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -768,10 +848,14 @@ public final class GachaInfoOuterClass {
       return gachaUpInfoList_.get(index);
     }
 
-    public static final int TITLE_TEXTMAP_FIELD_NUMBER = 881;
+    public static final int TITLE_TEXTMAP_FIELD_NUMBER = 755;
     private volatile java.lang.Object titleTextmap_;
     /**
-     * <code>string title_textmap = 881;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string title_textmap = 755;</code>
      * @return The titleTextmap.
      */
     @java.lang.Override
@@ -788,7 +872,11 @@ public final class GachaInfoOuterClass {
       }
     }
     /**
-     * <code>string title_textmap = 881;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string title_textmap = 755;</code>
      * @return The bytes for titleTextmap.
      */
     @java.lang.Override
@@ -806,10 +894,14 @@ public final class GachaInfoOuterClass {
       }
     }
 
-    public static final int GACHA_PREFAB_PATH_FIELD_NUMBER = 16;
+    public static final int GACHA_PREFAB_PATH_FIELD_NUMBER = 2;
     private volatile java.lang.Object gachaPrefabPath_;
     /**
-     * <code>string gacha_prefab_path = 16;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string gacha_prefab_path = 2;</code>
      * @return The gachaPrefabPath.
      */
     @java.lang.Override
@@ -826,7 +918,11 @@ public final class GachaInfoOuterClass {
       }
     }
     /**
-     * <code>string gacha_prefab_path = 16;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string gacha_prefab_path = 2;</code>
      * @return The bytes for gachaPrefabPath.
      */
     @java.lang.Override
@@ -844,10 +940,14 @@ public final class GachaInfoOuterClass {
       }
     }
 
-    public static final int GACHA_PREVIEW_PREFAB_PATH_FIELD_NUMBER = 3;
+    public static final int GACHA_PREVIEW_PREFAB_PATH_FIELD_NUMBER = 9;
     private volatile java.lang.Object gachaPreviewPrefabPath_;
     /**
-     * <code>string gacha_preview_prefab_path = 3;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string gacha_preview_prefab_path = 9;</code>
      * @return The gachaPreviewPrefabPath.
      */
     @java.lang.Override
@@ -864,7 +964,11 @@ public final class GachaInfoOuterClass {
       }
     }
     /**
-     * <code>string gacha_preview_prefab_path = 3;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>string gacha_preview_prefab_path = 9;</code>
      * @return The bytes for gachaPreviewPrefabPath.
      */
     @java.lang.Override
@@ -882,10 +986,14 @@ public final class GachaInfoOuterClass {
       }
     }
 
-    public static final int DISPLAY_UP5_ITEM_LIST_FIELD_NUMBER = 856;
+    public static final int DISPLAY_UP5_ITEM_LIST_FIELD_NUMBER = 810;
     private com.google.protobuf.Internal.IntList displayUp5ItemList_;
     /**
-     * <code>repeated uint32 display_up5_item_list = 856;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up5_item_list = 810;</code>
      * @return A list containing the displayUp5ItemList.
      */
     @java.lang.Override
@@ -894,14 +1002,22 @@ public final class GachaInfoOuterClass {
       return displayUp5ItemList_;
     }
     /**
-     * <code>repeated uint32 display_up5_item_list = 856;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up5_item_list = 810;</code>
      * @return The count of displayUp5ItemList.
      */
     public int getDisplayUp5ItemListCount() {
       return displayUp5ItemList_.size();
     }
     /**
-     * <code>repeated uint32 display_up5_item_list = 856;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up5_item_list = 810;</code>
      * @param index The index of the element to return.
      * @return The displayUp5ItemList at the given index.
      */
@@ -948,10 +1064,14 @@ public final class GachaInfoOuterClass {
       }
     }
 
-    public static final int DISPLAY_UP4_ITEM_LIST_FIELD_NUMBER = 1431;
+    public static final int DISPLAY_UP4_ITEM_LIST_FIELD_NUMBER = 109;
     private com.google.protobuf.Internal.IntList displayUp4ItemList_;
     /**
-     * <code>repeated uint32 display_up4_item_list = 1431;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up4_item_list = 109;</code>
      * @return A list containing the displayUp4ItemList.
      */
     @java.lang.Override
@@ -960,14 +1080,22 @@ public final class GachaInfoOuterClass {
       return displayUp4ItemList_;
     }
     /**
-     * <code>repeated uint32 display_up4_item_list = 1431;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up4_item_list = 109;</code>
      * @return The count of displayUp4ItemList.
      */
     public int getDisplayUp4ItemListCount() {
       return displayUp4ItemList_.size();
     }
     /**
-     * <code>repeated uint32 display_up4_item_list = 1431;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>repeated uint32 display_up4_item_list = 109;</code>
      * @param index The index of the element to return.
      * @return The displayUp4ItemList at the given index.
      */
@@ -976,10 +1104,10 @@ public final class GachaInfoOuterClass {
     }
     private int displayUp4ItemListMemoizedSerializedSize = -1;
 
-    public static final int GACHA_RECORD_URL_OVERSEA_FIELD_NUMBER = 7;
+    public static final int GACHA_RECORD_URL_OVERSEA_FIELD_NUMBER = 7123;
     private volatile java.lang.Object gachaRecordUrlOversea_;
     /**
-     * <code>string gacha_record_url_oversea = 7;</code>
+     * <code>string gacha_record_url_oversea = 7123;</code>
      * @return The gachaRecordUrlOversea.
      */
     @java.lang.Override
@@ -996,7 +1124,7 @@ public final class GachaInfoOuterClass {
       }
     }
     /**
-     * <code>string gacha_record_url_oversea = 7;</code>
+     * <code>string gacha_record_url_oversea = 7123;</code>
      * @return The bytes for gachaRecordUrlOversea.
      */
     @java.lang.Override
@@ -1014,10 +1142,14 @@ public final class GachaInfoOuterClass {
       }
     }
 
-    public static final int TEN_COST_ITEM_NUM_FIELD_NUMBER = 2;
+    public static final int TEN_COST_ITEM_NUM_FIELD_NUMBER = 5;
     private int tenCostItemNum_;
     /**
-     * <code>uint32 ten_cost_item_num = 2;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 ten_cost_item_num = 5;</code>
      * @return The tenCostItemNum.
      */
     @java.lang.Override
@@ -1029,7 +1161,7 @@ public final class GachaInfoOuterClass {
     private int gachaType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_type = 12;</code>
@@ -1040,10 +1172,14 @@ public final class GachaInfoOuterClass {
       return gachaType_;
     }
 
-    public static final int LEFT_GACHA_TIMES_FIELD_NUMBER = 8;
+    public static final int LEFT_GACHA_TIMES_FIELD_NUMBER = 3;
     private int leftGachaTimes_;
     /**
-     * <code>uint32 left_gacha_times = 8;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 left_gacha_times = 3;</code>
      * @return The leftGachaTimes.
      */
     @java.lang.Override
@@ -1055,7 +1191,7 @@ public final class GachaInfoOuterClass {
     private int scheduleId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 schedule_id = 10;</code>
@@ -1066,10 +1202,14 @@ public final class GachaInfoOuterClass {
       return scheduleId_;
     }
 
-    public static final int GACHA_TIMES_LIMIT_FIELD_NUMBER = 6;
+    public static final int GACHA_TIMES_LIMIT_FIELD_NUMBER = 7;
     private int gachaTimesLimit_;
     /**
-     * <code>uint32 gacha_times_limit = 6;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 gacha_times_limit = 7;</code>
      * @return The gachaTimesLimit.
      */
     @java.lang.Override
@@ -1077,10 +1217,14 @@ public final class GachaInfoOuterClass {
       return gachaTimesLimit_;
     }
 
-    public static final int GACHA_SORT_ID_FIELD_NUMBER = 17;
+    public static final int GACHA_SORT_ID_FIELD_NUMBER = 8;
     private int gachaSortId_;
     /**
-     * <code>uint32 gacha_sort_id = 17;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 gacha_sort_id = 8;</code>
      * @return The gachaSortId.
      */
     @java.lang.Override
@@ -1088,10 +1232,14 @@ public final class GachaInfoOuterClass {
       return gachaSortId_;
     }
 
-    public static final int WISH_ITEM_ID_FIELD_NUMBER = 1380;
+    public static final int WISH_ITEM_ID_FIELD_NUMBER = 393;
     private int wishItemId_;
     /**
-     * <code>uint32 wish_item_id = 1380;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 wish_item_id = 393;</code>
      * @return The wishItemId.
      */
     @java.lang.Override
@@ -1099,10 +1247,14 @@ public final class GachaInfoOuterClass {
       return wishItemId_;
     }
 
-    public static final int WISH_PROGRESS_FIELD_NUMBER = 2022;
+    public static final int WISH_PROGRESS_FIELD_NUMBER = 2008;
     private int wishProgress_;
     /**
-     * <code>uint32 wish_progress = 2022;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 wish_progress = 2008;</code>
      * @return The wishProgress.
      */
     @java.lang.Override
@@ -1114,7 +1266,7 @@ public final class GachaInfoOuterClass {
     private int endTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 end_time = 14;</code>
@@ -1125,10 +1277,14 @@ public final class GachaInfoOuterClass {
       return endTime_;
     }
 
-    public static final int WISH_MAX_PROGRESS_FIELD_NUMBER = 1711;
+    public static final int WISH_MAX_PROGRESS_FIELD_NUMBER = 48;
     private int wishMaxProgress_;
     /**
-     * <code>uint32 wish_max_progress = 1711;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 wish_max_progress = 48;</code>
      * @return The wishMaxProgress.
      */
     @java.lang.Override
@@ -1158,10 +1314,10 @@ public final class GachaInfoOuterClass {
       return jDLPNHAJANL_;
     }
 
-    public static final int TEN_COST_ITEM_ID_FIELD_NUMBER = 5;
+    public static final int TEN_COST_ITEM_ID_FIELD_NUMBER = 5123;
     private int tenCostItemId_;
     /**
-     * <code>uint32 ten_cost_item_id = 5;</code>
+     * <code>uint32 ten_cost_item_id = 5123;</code>
      * @return The tenCostItemId.
      */
     @java.lang.Override
@@ -1169,10 +1325,14 @@ public final class GachaInfoOuterClass {
       return tenCostItemId_;
     }
 
-    public static final int COST_ITEM_NUM_FIELD_NUMBER = 9;
+    public static final int COST_ITEM_NUM_FIELD_NUMBER = 4;
     private int costItemNum_;
     /**
-     * <code>uint32 cost_item_num = 9;</code>
+     * <pre>
+     *6.5.5      
+     * </pre>
+     *
+     * <code>uint32 cost_item_num = 4;</code>
      * @return The costItemNum.
      */
     @java.lang.Override
@@ -1195,7 +1355,7 @@ public final class GachaInfoOuterClass {
     private int beginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 begin_time = 11;</code>
@@ -1224,26 +1384,26 @@ public final class GachaInfoOuterClass {
       if (costItemId_ != 0) {
         output.writeUInt32(1, costItemId_);
       }
-      if (tenCostItemNum_ != 0) {
-        output.writeUInt32(2, tenCostItemNum_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaPreviewPrefabPath_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, gachaPreviewPrefabPath_);
-      }
-      if (tenCostItemId_ != 0) {
-        output.writeUInt32(5, tenCostItemId_);
-      }
-      if (gachaTimesLimit_ != 0) {
-        output.writeUInt32(6, gachaTimesLimit_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaRecordUrlOversea_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, gachaRecordUrlOversea_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaPrefabPath_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, gachaPrefabPath_);
       }
       if (leftGachaTimes_ != 0) {
-        output.writeUInt32(8, leftGachaTimes_);
+        output.writeUInt32(3, leftGachaTimes_);
       }
       if (costItemNum_ != 0) {
-        output.writeUInt32(9, costItemNum_);
+        output.writeUInt32(4, costItemNum_);
+      }
+      if (tenCostItemNum_ != 0) {
+        output.writeUInt32(5, tenCostItemNum_);
+      }
+      if (gachaTimesLimit_ != 0) {
+        output.writeUInt32(7, gachaTimesLimit_);
+      }
+      if (gachaSortId_ != 0) {
+        output.writeUInt32(8, gachaSortId_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaPreviewPrefabPath_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 9, gachaPreviewPrefabPath_);
       }
       if (scheduleId_ != 0) {
         output.writeUInt32(10, scheduleId_);
@@ -1260,46 +1420,40 @@ public final class GachaInfoOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaRecordUrl_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 15, gachaRecordUrl_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaPrefabPath_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 16, gachaPrefabPath_);
-      }
-      if (gachaSortId_ != 0) {
-        output.writeUInt32(17, gachaSortId_);
-      }
-      for (int i = 0; i < gachaUpInfoList_.size(); i++) {
-        output.writeMessage(515, gachaUpInfoList_.get(i));
-      }
-      if (jDLPNHAJANL_ != false) {
-        output.writeBool(825, jDLPNHAJANL_);
-      }
-      if (getDisplayUp5ItemListList().size() > 0) {
-        output.writeUInt32NoTag(6850);
-        output.writeUInt32NoTag(displayUp5ItemListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < displayUp5ItemList_.size(); i++) {
-        output.writeUInt32NoTag(displayUp5ItemList_.getInt(i));
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(titleTextmap_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 881, titleTextmap_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaProbUrl_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1330, gachaProbUrl_);
-      }
-      if (wishItemId_ != 0) {
-        output.writeUInt32(1380, wishItemId_);
+      if (wishMaxProgress_ != 0) {
+        output.writeUInt32(48, wishMaxProgress_);
       }
       if (getDisplayUp4ItemListList().size() > 0) {
-        output.writeUInt32NoTag(11450);
+        output.writeUInt32NoTag(874);
         output.writeUInt32NoTag(displayUp4ItemListMemoizedSerializedSize);
       }
       for (int i = 0; i < displayUp4ItemList_.size(); i++) {
         output.writeUInt32NoTag(displayUp4ItemList_.getInt(i));
       }
+      if (wishItemId_ != 0) {
+        output.writeUInt32(393, wishItemId_);
+      }
+      for (int i = 0; i < gachaUpInfoList_.size(); i++) {
+        output.writeMessage(515, gachaUpInfoList_.get(i));
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(titleTextmap_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 755, titleTextmap_);
+      }
+      if (getDisplayUp5ItemListList().size() > 0) {
+        output.writeUInt32NoTag(6482);
+        output.writeUInt32NoTag(displayUp5ItemListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < displayUp5ItemList_.size(); i++) {
+        output.writeUInt32NoTag(displayUp5ItemList_.getInt(i));
+      }
+      if (jDLPNHAJANL_ != false) {
+        output.writeBool(825, jDLPNHAJANL_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaProbUrl_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1330, gachaProbUrl_);
+      }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaProbUrlOversea_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1465, gachaProbUrlOversea_);
-      }
-      if (wishMaxProgress_ != 0) {
-        output.writeUInt32(1711, wishMaxProgress_);
       }
       if (isNewWish_ != false) {
         output.writeBool(1723, isNewWish_);
@@ -1312,7 +1466,13 @@ public final class GachaInfoOuterClass {
         output.writeUInt32NoTag(displayChronicle5ItemList_.getInt(i));
       }
       if (wishProgress_ != 0) {
-        output.writeUInt32(2022, wishProgress_);
+        output.writeUInt32(2008, wishProgress_);
+      }
+      if (tenCostItemId_ != 0) {
+        output.writeUInt32(5123, tenCostItemId_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaRecordUrlOversea_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 7123, gachaRecordUrlOversea_);
       }
       unknownFields.writeTo(output);
     }
@@ -1327,31 +1487,31 @@ public final class GachaInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, costItemId_);
       }
-      if (tenCostItemNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, tenCostItemNum_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaPreviewPrefabPath_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, gachaPreviewPrefabPath_);
-      }
-      if (tenCostItemId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, tenCostItemId_);
-      }
-      if (gachaTimesLimit_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, gachaTimesLimit_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaRecordUrlOversea_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, gachaRecordUrlOversea_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaPrefabPath_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, gachaPrefabPath_);
       }
       if (leftGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, leftGachaTimes_);
+          .computeUInt32Size(3, leftGachaTimes_);
       }
       if (costItemNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, costItemNum_);
+          .computeUInt32Size(4, costItemNum_);
+      }
+      if (tenCostItemNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, tenCostItemNum_);
+      }
+      if (gachaTimesLimit_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, gachaTimesLimit_);
+      }
+      if (gachaSortId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, gachaSortId_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaPreviewPrefabPath_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(9, gachaPreviewPrefabPath_);
       }
       if (scheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1372,44 +1532,9 @@ public final class GachaInfoOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaRecordUrl_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, gachaRecordUrl_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaPrefabPath_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(16, gachaPrefabPath_);
-      }
-      if (gachaSortId_ != 0) {
+      if (wishMaxProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(17, gachaSortId_);
-      }
-      for (int i = 0; i < gachaUpInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(515, gachaUpInfoList_.get(i));
-      }
-      if (jDLPNHAJANL_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(825, jDLPNHAJANL_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < displayUp5ItemList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(displayUp5ItemList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getDisplayUp5ItemListList().isEmpty()) {
-          size += 2;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        displayUp5ItemListMemoizedSerializedSize = dataSize;
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(titleTextmap_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(881, titleTextmap_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaProbUrl_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1330, gachaProbUrl_);
-      }
-      if (wishItemId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1380, wishItemId_);
+          .computeUInt32Size(48, wishMaxProgress_);
       }
       {
         int dataSize = 0;
@@ -1425,12 +1550,40 @@ public final class GachaInfoOuterClass {
         }
         displayUp4ItemListMemoizedSerializedSize = dataSize;
       }
+      if (wishItemId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(393, wishItemId_);
+      }
+      for (int i = 0; i < gachaUpInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(515, gachaUpInfoList_.get(i));
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(titleTextmap_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(755, titleTextmap_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < displayUp5ItemList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(displayUp5ItemList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getDisplayUp5ItemListList().isEmpty()) {
+          size += 2;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        displayUp5ItemListMemoizedSerializedSize = dataSize;
+      }
+      if (jDLPNHAJANL_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(825, jDLPNHAJANL_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaProbUrl_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1330, gachaProbUrl_);
+      }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaProbUrlOversea_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1465, gachaProbUrlOversea_);
-      }
-      if (wishMaxProgress_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1711, wishMaxProgress_);
       }
       if (isNewWish_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -1452,7 +1605,14 @@ public final class GachaInfoOuterClass {
       }
       if (wishProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2022, wishProgress_);
+          .computeUInt32Size(2008, wishProgress_);
+      }
+      if (tenCostItemId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5123, tenCostItemId_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gachaRecordUrlOversea_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7123, gachaRecordUrlOversea_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -2319,7 +2479,7 @@ public final class GachaInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2333,7 +2493,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2347,7 +2507,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2361,7 +2521,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2382,7 +2542,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2400,7 +2560,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2420,7 +2580,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2441,7 +2601,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2459,7 +2619,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2477,7 +2637,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2496,7 +2656,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2513,7 +2673,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2530,7 +2690,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2541,7 +2701,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2555,7 +2715,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2570,7 +2730,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2581,7 +2741,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2593,7 +2753,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaUpInfo gacha_up_info_list = 515;</code>
@@ -2619,7 +2779,11 @@ public final class GachaInfoOuterClass {
 
       private java.lang.Object titleTextmap_ = "";
       /**
-       * <code>string title_textmap = 881;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string title_textmap = 755;</code>
        * @return The titleTextmap.
        */
       public java.lang.String getTitleTextmap() {
@@ -2635,7 +2799,11 @@ public final class GachaInfoOuterClass {
         }
       }
       /**
-       * <code>string title_textmap = 881;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string title_textmap = 755;</code>
        * @return The bytes for titleTextmap.
        */
       public com.google.protobuf.ByteString
@@ -2652,7 +2820,11 @@ public final class GachaInfoOuterClass {
         }
       }
       /**
-       * <code>string title_textmap = 881;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string title_textmap = 755;</code>
        * @param value The titleTextmap to set.
        * @return This builder for chaining.
        */
@@ -2667,7 +2839,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>string title_textmap = 881;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string title_textmap = 755;</code>
        * @return This builder for chaining.
        */
       public Builder clearTitleTextmap() {
@@ -2677,7 +2853,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>string title_textmap = 881;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string title_textmap = 755;</code>
        * @param value The bytes for titleTextmap to set.
        * @return This builder for chaining.
        */
@@ -2695,7 +2875,11 @@ public final class GachaInfoOuterClass {
 
       private java.lang.Object gachaPrefabPath_ = "";
       /**
-       * <code>string gacha_prefab_path = 16;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_prefab_path = 2;</code>
        * @return The gachaPrefabPath.
        */
       public java.lang.String getGachaPrefabPath() {
@@ -2711,7 +2895,11 @@ public final class GachaInfoOuterClass {
         }
       }
       /**
-       * <code>string gacha_prefab_path = 16;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_prefab_path = 2;</code>
        * @return The bytes for gachaPrefabPath.
        */
       public com.google.protobuf.ByteString
@@ -2728,7 +2916,11 @@ public final class GachaInfoOuterClass {
         }
       }
       /**
-       * <code>string gacha_prefab_path = 16;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_prefab_path = 2;</code>
        * @param value The gachaPrefabPath to set.
        * @return This builder for chaining.
        */
@@ -2743,7 +2935,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>string gacha_prefab_path = 16;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_prefab_path = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearGachaPrefabPath() {
@@ -2753,7 +2949,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>string gacha_prefab_path = 16;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_prefab_path = 2;</code>
        * @param value The bytes for gachaPrefabPath to set.
        * @return This builder for chaining.
        */
@@ -2771,7 +2971,11 @@ public final class GachaInfoOuterClass {
 
       private java.lang.Object gachaPreviewPrefabPath_ = "";
       /**
-       * <code>string gacha_preview_prefab_path = 3;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_preview_prefab_path = 9;</code>
        * @return The gachaPreviewPrefabPath.
        */
       public java.lang.String getGachaPreviewPrefabPath() {
@@ -2787,7 +2991,11 @@ public final class GachaInfoOuterClass {
         }
       }
       /**
-       * <code>string gacha_preview_prefab_path = 3;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_preview_prefab_path = 9;</code>
        * @return The bytes for gachaPreviewPrefabPath.
        */
       public com.google.protobuf.ByteString
@@ -2804,7 +3012,11 @@ public final class GachaInfoOuterClass {
         }
       }
       /**
-       * <code>string gacha_preview_prefab_path = 3;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_preview_prefab_path = 9;</code>
        * @param value The gachaPreviewPrefabPath to set.
        * @return This builder for chaining.
        */
@@ -2819,7 +3031,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>string gacha_preview_prefab_path = 3;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_preview_prefab_path = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearGachaPreviewPrefabPath() {
@@ -2829,7 +3045,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>string gacha_preview_prefab_path = 3;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>string gacha_preview_prefab_path = 9;</code>
        * @param value The bytes for gachaPreviewPrefabPath to set.
        * @return This builder for chaining.
        */
@@ -2853,7 +3073,11 @@ public final class GachaInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 display_up5_item_list = 856;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up5_item_list = 810;</code>
        * @return A list containing the displayUp5ItemList.
        */
       public java.util.List<java.lang.Integer>
@@ -2862,14 +3086,22 @@ public final class GachaInfoOuterClass {
                  java.util.Collections.unmodifiableList(displayUp5ItemList_) : displayUp5ItemList_;
       }
       /**
-       * <code>repeated uint32 display_up5_item_list = 856;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up5_item_list = 810;</code>
        * @return The count of displayUp5ItemList.
        */
       public int getDisplayUp5ItemListCount() {
         return displayUp5ItemList_.size();
       }
       /**
-       * <code>repeated uint32 display_up5_item_list = 856;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up5_item_list = 810;</code>
        * @param index The index of the element to return.
        * @return The displayUp5ItemList at the given index.
        */
@@ -2877,7 +3109,11 @@ public final class GachaInfoOuterClass {
         return displayUp5ItemList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 display_up5_item_list = 856;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up5_item_list = 810;</code>
        * @param index The index to set the value at.
        * @param value The displayUp5ItemList to set.
        * @return This builder for chaining.
@@ -2890,7 +3126,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 display_up5_item_list = 856;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up5_item_list = 810;</code>
        * @param value The displayUp5ItemList to add.
        * @return This builder for chaining.
        */
@@ -2901,7 +3141,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 display_up5_item_list = 856;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up5_item_list = 810;</code>
        * @param values The displayUp5ItemList to add.
        * @return This builder for chaining.
        */
@@ -2914,7 +3158,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 display_up5_item_list = 856;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up5_item_list = 810;</code>
        * @return This builder for chaining.
        */
       public Builder clearDisplayUp5ItemList() {
@@ -3008,7 +3256,11 @@ public final class GachaInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 display_up4_item_list = 1431;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up4_item_list = 109;</code>
        * @return A list containing the displayUp4ItemList.
        */
       public java.util.List<java.lang.Integer>
@@ -3017,14 +3269,22 @@ public final class GachaInfoOuterClass {
                  java.util.Collections.unmodifiableList(displayUp4ItemList_) : displayUp4ItemList_;
       }
       /**
-       * <code>repeated uint32 display_up4_item_list = 1431;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up4_item_list = 109;</code>
        * @return The count of displayUp4ItemList.
        */
       public int getDisplayUp4ItemListCount() {
         return displayUp4ItemList_.size();
       }
       /**
-       * <code>repeated uint32 display_up4_item_list = 1431;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up4_item_list = 109;</code>
        * @param index The index of the element to return.
        * @return The displayUp4ItemList at the given index.
        */
@@ -3032,7 +3292,11 @@ public final class GachaInfoOuterClass {
         return displayUp4ItemList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 display_up4_item_list = 1431;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up4_item_list = 109;</code>
        * @param index The index to set the value at.
        * @param value The displayUp4ItemList to set.
        * @return This builder for chaining.
@@ -3045,7 +3309,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 display_up4_item_list = 1431;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up4_item_list = 109;</code>
        * @param value The displayUp4ItemList to add.
        * @return This builder for chaining.
        */
@@ -3056,7 +3324,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 display_up4_item_list = 1431;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up4_item_list = 109;</code>
        * @param values The displayUp4ItemList to add.
        * @return This builder for chaining.
        */
@@ -3069,7 +3341,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 display_up4_item_list = 1431;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>repeated uint32 display_up4_item_list = 109;</code>
        * @return This builder for chaining.
        */
       public Builder clearDisplayUp4ItemList() {
@@ -3081,7 +3357,7 @@ public final class GachaInfoOuterClass {
 
       private java.lang.Object gachaRecordUrlOversea_ = "";
       /**
-       * <code>string gacha_record_url_oversea = 7;</code>
+       * <code>string gacha_record_url_oversea = 7123;</code>
        * @return The gachaRecordUrlOversea.
        */
       public java.lang.String getGachaRecordUrlOversea() {
@@ -3097,7 +3373,7 @@ public final class GachaInfoOuterClass {
         }
       }
       /**
-       * <code>string gacha_record_url_oversea = 7;</code>
+       * <code>string gacha_record_url_oversea = 7123;</code>
        * @return The bytes for gachaRecordUrlOversea.
        */
       public com.google.protobuf.ByteString
@@ -3114,7 +3390,7 @@ public final class GachaInfoOuterClass {
         }
       }
       /**
-       * <code>string gacha_record_url_oversea = 7;</code>
+       * <code>string gacha_record_url_oversea = 7123;</code>
        * @param value The gachaRecordUrlOversea to set.
        * @return This builder for chaining.
        */
@@ -3129,7 +3405,7 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>string gacha_record_url_oversea = 7;</code>
+       * <code>string gacha_record_url_oversea = 7123;</code>
        * @return This builder for chaining.
        */
       public Builder clearGachaRecordUrlOversea() {
@@ -3139,7 +3415,7 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>string gacha_record_url_oversea = 7;</code>
+       * <code>string gacha_record_url_oversea = 7123;</code>
        * @param value The bytes for gachaRecordUrlOversea to set.
        * @return This builder for chaining.
        */
@@ -3157,7 +3433,11 @@ public final class GachaInfoOuterClass {
 
       private int tenCostItemNum_ ;
       /**
-       * <code>uint32 ten_cost_item_num = 2;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 ten_cost_item_num = 5;</code>
        * @return The tenCostItemNum.
        */
       @java.lang.Override
@@ -3165,7 +3445,11 @@ public final class GachaInfoOuterClass {
         return tenCostItemNum_;
       }
       /**
-       * <code>uint32 ten_cost_item_num = 2;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 ten_cost_item_num = 5;</code>
        * @param value The tenCostItemNum to set.
        * @return This builder for chaining.
        */
@@ -3176,7 +3460,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ten_cost_item_num = 2;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 ten_cost_item_num = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearTenCostItemNum() {
@@ -3189,7 +3477,7 @@ public final class GachaInfoOuterClass {
       private int gachaType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_type = 12;</code>
@@ -3201,7 +3489,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_type = 12;</code>
@@ -3216,7 +3504,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_type = 12;</code>
@@ -3231,7 +3519,11 @@ public final class GachaInfoOuterClass {
 
       private int leftGachaTimes_ ;
       /**
-       * <code>uint32 left_gacha_times = 8;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 left_gacha_times = 3;</code>
        * @return The leftGachaTimes.
        */
       @java.lang.Override
@@ -3239,7 +3531,11 @@ public final class GachaInfoOuterClass {
         return leftGachaTimes_;
       }
       /**
-       * <code>uint32 left_gacha_times = 8;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 left_gacha_times = 3;</code>
        * @param value The leftGachaTimes to set.
        * @return This builder for chaining.
        */
@@ -3250,7 +3546,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 left_gacha_times = 8;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 left_gacha_times = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearLeftGachaTimes() {
@@ -3263,7 +3563,7 @@ public final class GachaInfoOuterClass {
       private int scheduleId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 schedule_id = 10;</code>
@@ -3275,7 +3575,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 schedule_id = 10;</code>
@@ -3290,7 +3590,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 schedule_id = 10;</code>
@@ -3305,7 +3605,11 @@ public final class GachaInfoOuterClass {
 
       private int gachaTimesLimit_ ;
       /**
-       * <code>uint32 gacha_times_limit = 6;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 gacha_times_limit = 7;</code>
        * @return The gachaTimesLimit.
        */
       @java.lang.Override
@@ -3313,7 +3617,11 @@ public final class GachaInfoOuterClass {
         return gachaTimesLimit_;
       }
       /**
-       * <code>uint32 gacha_times_limit = 6;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 gacha_times_limit = 7;</code>
        * @param value The gachaTimesLimit to set.
        * @return This builder for chaining.
        */
@@ -3324,7 +3632,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 gacha_times_limit = 6;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 gacha_times_limit = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearGachaTimesLimit() {
@@ -3336,7 +3648,11 @@ public final class GachaInfoOuterClass {
 
       private int gachaSortId_ ;
       /**
-       * <code>uint32 gacha_sort_id = 17;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 gacha_sort_id = 8;</code>
        * @return The gachaSortId.
        */
       @java.lang.Override
@@ -3344,7 +3660,11 @@ public final class GachaInfoOuterClass {
         return gachaSortId_;
       }
       /**
-       * <code>uint32 gacha_sort_id = 17;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 gacha_sort_id = 8;</code>
        * @param value The gachaSortId to set.
        * @return This builder for chaining.
        */
@@ -3355,7 +3675,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 gacha_sort_id = 17;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 gacha_sort_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearGachaSortId() {
@@ -3367,7 +3691,11 @@ public final class GachaInfoOuterClass {
 
       private int wishItemId_ ;
       /**
-       * <code>uint32 wish_item_id = 1380;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 wish_item_id = 393;</code>
        * @return The wishItemId.
        */
       @java.lang.Override
@@ -3375,7 +3703,11 @@ public final class GachaInfoOuterClass {
         return wishItemId_;
       }
       /**
-       * <code>uint32 wish_item_id = 1380;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 wish_item_id = 393;</code>
        * @param value The wishItemId to set.
        * @return This builder for chaining.
        */
@@ -3386,7 +3718,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 wish_item_id = 1380;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 wish_item_id = 393;</code>
        * @return This builder for chaining.
        */
       public Builder clearWishItemId() {
@@ -3398,7 +3734,11 @@ public final class GachaInfoOuterClass {
 
       private int wishProgress_ ;
       /**
-       * <code>uint32 wish_progress = 2022;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 wish_progress = 2008;</code>
        * @return The wishProgress.
        */
       @java.lang.Override
@@ -3406,7 +3746,11 @@ public final class GachaInfoOuterClass {
         return wishProgress_;
       }
       /**
-       * <code>uint32 wish_progress = 2022;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 wish_progress = 2008;</code>
        * @param value The wishProgress to set.
        * @return This builder for chaining.
        */
@@ -3417,7 +3761,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 wish_progress = 2022;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 wish_progress = 2008;</code>
        * @return This builder for chaining.
        */
       public Builder clearWishProgress() {
@@ -3430,7 +3778,7 @@ public final class GachaInfoOuterClass {
       private int endTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 14;</code>
@@ -3442,7 +3790,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 14;</code>
@@ -3457,7 +3805,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 14;</code>
@@ -3472,7 +3820,11 @@ public final class GachaInfoOuterClass {
 
       private int wishMaxProgress_ ;
       /**
-       * <code>uint32 wish_max_progress = 1711;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 wish_max_progress = 48;</code>
        * @return The wishMaxProgress.
        */
       @java.lang.Override
@@ -3480,7 +3832,11 @@ public final class GachaInfoOuterClass {
         return wishMaxProgress_;
       }
       /**
-       * <code>uint32 wish_max_progress = 1711;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 wish_max_progress = 48;</code>
        * @param value The wishMaxProgress to set.
        * @return This builder for chaining.
        */
@@ -3491,7 +3847,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 wish_max_progress = 1711;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 wish_max_progress = 48;</code>
        * @return This builder for chaining.
        */
       public Builder clearWishMaxProgress() {
@@ -3565,7 +3925,7 @@ public final class GachaInfoOuterClass {
 
       private int tenCostItemId_ ;
       /**
-       * <code>uint32 ten_cost_item_id = 5;</code>
+       * <code>uint32 ten_cost_item_id = 5123;</code>
        * @return The tenCostItemId.
        */
       @java.lang.Override
@@ -3573,7 +3933,7 @@ public final class GachaInfoOuterClass {
         return tenCostItemId_;
       }
       /**
-       * <code>uint32 ten_cost_item_id = 5;</code>
+       * <code>uint32 ten_cost_item_id = 5123;</code>
        * @param value The tenCostItemId to set.
        * @return This builder for chaining.
        */
@@ -3584,7 +3944,7 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ten_cost_item_id = 5;</code>
+       * <code>uint32 ten_cost_item_id = 5123;</code>
        * @return This builder for chaining.
        */
       public Builder clearTenCostItemId() {
@@ -3596,7 +3956,11 @@ public final class GachaInfoOuterClass {
 
       private int costItemNum_ ;
       /**
-       * <code>uint32 cost_item_num = 9;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 cost_item_num = 4;</code>
        * @return The costItemNum.
        */
       @java.lang.Override
@@ -3604,7 +3968,11 @@ public final class GachaInfoOuterClass {
         return costItemNum_;
       }
       /**
-       * <code>uint32 cost_item_num = 9;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 cost_item_num = 4;</code>
        * @param value The costItemNum to set.
        * @return This builder for chaining.
        */
@@ -3615,7 +3983,11 @@ public final class GachaInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cost_item_num = 9;</code>
+       * <pre>
+       *6.5.5      
+       * </pre>
+       *
+       * <code>uint32 cost_item_num = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearCostItemNum() {
@@ -3659,7 +4031,7 @@ public final class GachaInfoOuterClass {
       private int beginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 begin_time = 11;</code>
@@ -3671,7 +4043,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 begin_time = 11;</code>
@@ -3686,7 +4058,7 @@ public final class GachaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 begin_time = 11;</code>
@@ -3770,20 +4142,20 @@ public final class GachaInfoOuterClass {
       "gacha_prob_url\030\262\n \001(\t\022&\n\035display_chronic" +
       "le_5_item_list\030\256\016 \003(\r\022)\n\022gacha_up_info_l" +
       "ist\030\203\004 \003(\0132\014.GachaUpInfo\022\026\n\rtitle_textma" +
-      "p\030\361\006 \001(\t\022\031\n\021gacha_prefab_path\030\020 \001(\t\022!\n\031g" +
-      "acha_preview_prefab_path\030\003 \001(\t\022\036\n\025displa" +
-      "y_up5_item_list\030\330\006 \003(\r\022\037\n\026gacha_prob_url" +
-      "_oversea\030\271\013 \001(\t\022\036\n\025display_up4_item_list" +
-      "\030\227\013 \003(\r\022 \n\030gacha_record_url_oversea\030\007 \001(" +
-      "\t\022\031\n\021ten_cost_item_num\030\002 \001(\r\022\022\n\ngacha_ty" +
-      "pe\030\014 \001(\r\022\030\n\020left_gacha_times\030\010 \001(\r\022\023\n\013sc" +
-      "hedule_id\030\n \001(\r\022\031\n\021gacha_times_limit\030\006 \001" +
-      "(\r\022\025\n\rgacha_sort_id\030\021 \001(\r\022\025\n\014wish_item_i" +
-      "d\030\344\n \001(\r\022\026\n\rwish_progress\030\346\017 \001(\r\022\020\n\010end_" +
-      "time\030\016 \001(\r\022\032\n\021wish_max_progress\030\257\r \001(\r\022\024" +
-      "\n\013is_new_wish\030\273\r \001(\010\022\024\n\013JDLPNHAJANL\030\271\006 \001" +
-      "(\010\022\030\n\020ten_cost_item_id\030\005 \001(\r\022\025\n\rcost_ite" +
-      "m_num\030\t \001(\r\022\024\n\014cost_item_id\030\001 \001(\r\022\022\n\nbeg" +
+      "p\030\363\005 \001(\t\022\031\n\021gacha_prefab_path\030\002 \001(\t\022!\n\031g" +
+      "acha_preview_prefab_path\030\t \001(\t\022\036\n\025displa" +
+      "y_up5_item_list\030\252\006 \003(\r\022\037\n\026gacha_prob_url" +
+      "_oversea\030\271\013 \001(\t\022\035\n\025display_up4_item_list" +
+      "\030m \003(\r\022!\n\030gacha_record_url_oversea\030\3237 \001(" +
+      "\t\022\031\n\021ten_cost_item_num\030\005 \001(\r\022\022\n\ngacha_ty" +
+      "pe\030\014 \001(\r\022\030\n\020left_gacha_times\030\003 \001(\r\022\023\n\013sc" +
+      "hedule_id\030\n \001(\r\022\031\n\021gacha_times_limit\030\007 \001" +
+      "(\r\022\025\n\rgacha_sort_id\030\010 \001(\r\022\025\n\014wish_item_i" +
+      "d\030\211\003 \001(\r\022\026\n\rwish_progress\030\330\017 \001(\r\022\020\n\010end_" +
+      "time\030\016 \001(\r\022\031\n\021wish_max_progress\0300 \001(\r\022\024\n" +
+      "\013is_new_wish\030\273\r \001(\010\022\024\n\013JDLPNHAJANL\030\271\006 \001(" +
+      "\010\022\031\n\020ten_cost_item_id\030\203( \001(\r\022\025\n\rcost_ite" +
+      "m_num\030\004 \001(\r\022\024\n\014cost_item_id\030\001 \001(\r\022\022\n\nbeg" +
       "in_time\030\013 \001(\rB\033\n\031emu.grasscutter.net.pro" +
       "tob\006proto3"
     };

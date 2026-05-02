@@ -20,7 +20,7 @@ public final class SceneReliquaryInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 3;</code>
@@ -30,7 +30,7 @@ public final class SceneReliquaryInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 promote_level = 4;</code>
@@ -40,7 +40,7 @@ public final class SceneReliquaryInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 1;</code>
@@ -50,7 +50,7 @@ public final class SceneReliquaryInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 2;</code>
@@ -159,7 +159,7 @@ public final class SceneReliquaryInfoOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 3;</code>
@@ -174,7 +174,7 @@ public final class SceneReliquaryInfoOuterClass {
     private int promoteLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 promote_level = 4;</code>
@@ -189,7 +189,7 @@ public final class SceneReliquaryInfoOuterClass {
     private int itemId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 1;</code>
@@ -204,7 +204,7 @@ public final class SceneReliquaryInfoOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 2;</code>
@@ -572,7 +572,7 @@ public final class SceneReliquaryInfoOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 3;</code>
@@ -584,7 +584,7 @@ public final class SceneReliquaryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 3;</code>
@@ -599,7 +599,7 @@ public final class SceneReliquaryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 3;</code>
@@ -615,7 +615,7 @@ public final class SceneReliquaryInfoOuterClass {
       private int promoteLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 4;</code>
@@ -627,7 +627,7 @@ public final class SceneReliquaryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 4;</code>
@@ -642,7 +642,7 @@ public final class SceneReliquaryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 4;</code>
@@ -658,7 +658,7 @@ public final class SceneReliquaryInfoOuterClass {
       private int itemId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 1;</code>
@@ -670,7 +670,7 @@ public final class SceneReliquaryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 1;</code>
@@ -685,7 +685,7 @@ public final class SceneReliquaryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 1;</code>
@@ -701,7 +701,7 @@ public final class SceneReliquaryInfoOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -713,7 +713,7 @@ public final class SceneReliquaryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -728,7 +728,7 @@ public final class SceneReliquaryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 2;</code>

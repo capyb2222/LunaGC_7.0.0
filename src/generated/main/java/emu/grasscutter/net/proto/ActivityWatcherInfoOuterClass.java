@@ -20,7 +20,7 @@ public final class ActivityWatcherInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 total_progress = 15;</code>
@@ -30,7 +30,7 @@ public final class ActivityWatcherInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cur_progress = 5;</code>
@@ -40,7 +40,7 @@ public final class ActivityWatcherInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_taken_reward = 9;</code>
@@ -50,7 +50,7 @@ public final class ActivityWatcherInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 watcher_id = 10;</code>
@@ -159,7 +159,7 @@ public final class ActivityWatcherInfoOuterClass {
     private int totalProgress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 total_progress = 15;</code>
@@ -174,7 +174,7 @@ public final class ActivityWatcherInfoOuterClass {
     private int curProgress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cur_progress = 5;</code>
@@ -189,7 +189,7 @@ public final class ActivityWatcherInfoOuterClass {
     private boolean isTakenReward_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_taken_reward = 9;</code>
@@ -204,7 +204,7 @@ public final class ActivityWatcherInfoOuterClass {
     private int watcherId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 watcher_id = 10;</code>
@@ -572,7 +572,7 @@ public final class ActivityWatcherInfoOuterClass {
       private int totalProgress_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 total_progress = 15;</code>
@@ -584,7 +584,7 @@ public final class ActivityWatcherInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 total_progress = 15;</code>
@@ -599,7 +599,7 @@ public final class ActivityWatcherInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 total_progress = 15;</code>
@@ -615,7 +615,7 @@ public final class ActivityWatcherInfoOuterClass {
       private int curProgress_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_progress = 5;</code>
@@ -627,7 +627,7 @@ public final class ActivityWatcherInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_progress = 5;</code>
@@ -642,7 +642,7 @@ public final class ActivityWatcherInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_progress = 5;</code>
@@ -658,7 +658,7 @@ public final class ActivityWatcherInfoOuterClass {
       private boolean isTakenReward_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_taken_reward = 9;</code>
@@ -670,7 +670,7 @@ public final class ActivityWatcherInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_taken_reward = 9;</code>
@@ -685,7 +685,7 @@ public final class ActivityWatcherInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_taken_reward = 9;</code>
@@ -701,7 +701,7 @@ public final class ActivityWatcherInfoOuterClass {
       private int watcherId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 watcher_id = 10;</code>
@@ -713,7 +713,7 @@ public final class ActivityWatcherInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 watcher_id = 10;</code>
@@ -728,7 +728,7 @@ public final class ActivityWatcherInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 watcher_id = 10;</code>

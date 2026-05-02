@@ -20,7 +20,7 @@ public final class AuthorityChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -29,7 +29,7 @@ public final class AuthorityChangeOuterClass {
     boolean hasEntityAuthorityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -38,7 +38,7 @@ public final class AuthorityChangeOuterClass {
     emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfo getEntityAuthorityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -47,7 +47,7 @@ public final class AuthorityChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 entity_id = 9;</code>
@@ -57,7 +57,7 @@ public final class AuthorityChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 authority_peer_id = 12;</code>
@@ -169,7 +169,7 @@ public final class AuthorityChangeOuterClass {
     private emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfo entityAuthorityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -181,7 +181,7 @@ public final class AuthorityChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -193,7 +193,7 @@ public final class AuthorityChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -207,7 +207,7 @@ public final class AuthorityChangeOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 entity_id = 9;</code>
@@ -222,7 +222,7 @@ public final class AuthorityChangeOuterClass {
     private int authorityPeerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 authority_peer_id = 12;</code>
@@ -587,7 +587,7 @@ public final class AuthorityChangeOuterClass {
           emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfo, emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfo.Builder, emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfoOrBuilder> entityAuthorityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -598,7 +598,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -613,7 +613,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -633,7 +633,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -651,7 +651,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -673,7 +673,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -691,7 +691,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -703,7 +703,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -718,7 +718,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 10;</code>
@@ -740,7 +740,7 @@ public final class AuthorityChangeOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 9;</code>
@@ -752,7 +752,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 9;</code>
@@ -767,7 +767,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 9;</code>
@@ -783,7 +783,7 @@ public final class AuthorityChangeOuterClass {
       private int authorityPeerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 authority_peer_id = 12;</code>
@@ -795,7 +795,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 authority_peer_id = 12;</code>
@@ -810,7 +810,7 @@ public final class AuthorityChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 authority_peer_id = 12;</code>

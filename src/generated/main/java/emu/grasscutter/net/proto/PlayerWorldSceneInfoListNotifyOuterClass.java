@@ -37,7 +37,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -46,7 +46,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
         getInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -54,7 +54,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
     emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo getInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -62,7 +62,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
     int getInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -71,7 +71,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
         getInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -231,7 +231,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo> infoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -242,7 +242,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -254,7 +254,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -265,7 +265,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -276,7 +276,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -771,7 +771,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -785,7 +785,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -799,7 +799,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -813,7 +813,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -834,7 +834,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -852,7 +852,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -872,7 +872,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -893,7 +893,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -911,7 +911,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -929,7 +929,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -948,7 +948,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -965,7 +965,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -982,7 +982,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -993,7 +993,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -1007,7 +1007,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -1022,7 +1022,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -1033,7 +1033,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>
@@ -1045,7 +1045,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWorldSceneInfo info_list = 4;</code>

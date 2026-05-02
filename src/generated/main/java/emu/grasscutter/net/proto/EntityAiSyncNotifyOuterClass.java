@@ -20,7 +20,7 @@ public final class EntityAiSyncNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -29,7 +29,7 @@ public final class EntityAiSyncNotifyOuterClass {
     java.util.List<java.lang.Integer> getLocalAvatarAlertedMonsterListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -38,7 +38,7 @@ public final class EntityAiSyncNotifyOuterClass {
     int getLocalAvatarAlertedMonsterListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -49,7 +49,7 @@ public final class EntityAiSyncNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -58,7 +58,7 @@ public final class EntityAiSyncNotifyOuterClass {
         getInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -66,7 +66,7 @@ public final class EntityAiSyncNotifyOuterClass {
     emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo getInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -74,7 +74,7 @@ public final class EntityAiSyncNotifyOuterClass {
     int getInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -83,7 +83,7 @@ public final class EntityAiSyncNotifyOuterClass {
         getInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -215,7 +215,7 @@ public final class EntityAiSyncNotifyOuterClass {
     private com.google.protobuf.Internal.IntList localAvatarAlertedMonsterList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -228,7 +228,7 @@ public final class EntityAiSyncNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -239,7 +239,7 @@ public final class EntityAiSyncNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -255,7 +255,7 @@ public final class EntityAiSyncNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo> infoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -266,7 +266,7 @@ public final class EntityAiSyncNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -278,7 +278,7 @@ public final class EntityAiSyncNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -289,7 +289,7 @@ public final class EntityAiSyncNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -300,7 +300,7 @@ public final class EntityAiSyncNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -711,7 +711,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -724,7 +724,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -735,7 +735,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -747,7 +747,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -764,7 +764,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -779,7 +779,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -796,7 +796,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 local_avatar_alerted_monster_list = 1;</code>
@@ -823,7 +823,7 @@ public final class EntityAiSyncNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -837,7 +837,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -851,7 +851,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -865,7 +865,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -886,7 +886,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -904,7 +904,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -924,7 +924,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -945,7 +945,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -963,7 +963,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -981,7 +981,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -1000,7 +1000,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -1017,7 +1017,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -1034,7 +1034,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -1045,7 +1045,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -1059,7 +1059,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -1074,7 +1074,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -1085,7 +1085,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>
@@ -1097,7 +1097,7 @@ public final class EntityAiSyncNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AiSyncInfo info_list = 4;</code>

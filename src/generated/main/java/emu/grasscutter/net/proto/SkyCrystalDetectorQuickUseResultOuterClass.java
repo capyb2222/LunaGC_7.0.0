@@ -20,7 +20,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -29,7 +29,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
     boolean hasSkyCrystalDetectorData();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -38,7 +38,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
     emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData getSkyCrystalDetectorData();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -47,7 +47,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -154,7 +154,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
     private emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData skyCrystalDetectorData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -166,7 +166,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -178,7 +178,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -192,7 +192,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -540,7 +540,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
           emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.Builder, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorDataOrBuilder> skyCrystalDetectorDataBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -551,7 +551,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -566,7 +566,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -586,7 +586,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -604,7 +604,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -626,7 +626,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -644,7 +644,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -656,7 +656,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -671,7 +671,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 12;</code>
@@ -693,7 +693,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -705,7 +705,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -720,7 +720,7 @@ public final class SkyCrystalDetectorQuickUseResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 11;</code>

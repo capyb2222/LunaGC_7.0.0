@@ -20,7 +20,7 @@ public final class AvatarFetterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -29,7 +29,7 @@ public final class AvatarFetterInfoOuterClass {
         getFetterListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -37,7 +37,7 @@ public final class AvatarFetterInfoOuterClass {
     emu.grasscutter.net.proto.FetterDataOuterClass.FetterData getFetterList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -45,7 +45,7 @@ public final class AvatarFetterInfoOuterClass {
     int getFetterListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -54,7 +54,7 @@ public final class AvatarFetterInfoOuterClass {
         getFetterListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -64,7 +64,7 @@ public final class AvatarFetterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -73,7 +73,7 @@ public final class AvatarFetterInfoOuterClass {
     java.util.List<java.lang.Integer> getRewardedFetterLevelListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -82,7 +82,7 @@ public final class AvatarFetterInfoOuterClass {
     int getRewardedFetterLevelListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -93,7 +93,7 @@ public final class AvatarFetterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 finish_id_list = 4;</code>
@@ -102,7 +102,7 @@ public final class AvatarFetterInfoOuterClass {
     java.util.List<java.lang.Integer> getFinishIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 finish_id_list = 4;</code>
@@ -111,7 +111,7 @@ public final class AvatarFetterInfoOuterClass {
     int getFinishIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 finish_id_list = 4;</code>
@@ -122,7 +122,7 @@ public final class AvatarFetterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 open_id_list = 3;</code>
@@ -131,7 +131,7 @@ public final class AvatarFetterInfoOuterClass {
     java.util.List<java.lang.Integer> getOpenIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 open_id_list = 3;</code>
@@ -140,7 +140,7 @@ public final class AvatarFetterInfoOuterClass {
     int getOpenIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 open_id_list = 3;</code>
@@ -151,7 +151,7 @@ public final class AvatarFetterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 exp_level = 2;</code>
@@ -161,7 +161,7 @@ public final class AvatarFetterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 exp_number = 1;</code>
@@ -349,7 +349,7 @@ public final class AvatarFetterInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.FetterDataOuterClass.FetterData> fetterList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -360,7 +360,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -372,7 +372,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -383,7 +383,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -394,7 +394,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FetterData fetter_list = 6;</code>
@@ -409,7 +409,7 @@ public final class AvatarFetterInfoOuterClass {
     private com.google.protobuf.Internal.IntList rewardedFetterLevelList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -422,7 +422,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -433,7 +433,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -449,7 +449,7 @@ public final class AvatarFetterInfoOuterClass {
     private com.google.protobuf.Internal.IntList finishIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 finish_id_list = 4;</code>
@@ -462,7 +462,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 finish_id_list = 4;</code>
@@ -473,7 +473,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 finish_id_list = 4;</code>
@@ -489,7 +489,7 @@ public final class AvatarFetterInfoOuterClass {
     private com.google.protobuf.Internal.IntList openIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 open_id_list = 3;</code>
@@ -502,7 +502,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 open_id_list = 3;</code>
@@ -513,7 +513,7 @@ public final class AvatarFetterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 open_id_list = 3;</code>
@@ -529,7 +529,7 @@ public final class AvatarFetterInfoOuterClass {
     private int expLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 exp_level = 2;</code>
@@ -544,7 +544,7 @@ public final class AvatarFetterInfoOuterClass {
     private int expNumber_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 exp_number = 1;</code>
@@ -1078,7 +1078,7 @@ public final class AvatarFetterInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1092,7 +1092,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1106,7 +1106,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1120,7 +1120,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1141,7 +1141,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1159,7 +1159,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1179,7 +1179,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1200,7 +1200,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1218,7 +1218,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1236,7 +1236,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1255,7 +1255,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1272,7 +1272,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1289,7 +1289,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1300,7 +1300,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1314,7 +1314,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1329,7 +1329,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1340,7 +1340,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1352,7 +1352,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FetterData fetter_list = 6;</code>
@@ -1385,7 +1385,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -1398,7 +1398,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -1409,7 +1409,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -1421,7 +1421,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -1438,7 +1438,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -1453,7 +1453,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -1470,7 +1470,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 rewarded_fetter_level_list = 5;</code>
@@ -1492,7 +1492,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 finish_id_list = 4;</code>
@@ -1505,7 +1505,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 finish_id_list = 4;</code>
@@ -1516,7 +1516,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 finish_id_list = 4;</code>
@@ -1528,7 +1528,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 finish_id_list = 4;</code>
@@ -1545,7 +1545,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 finish_id_list = 4;</code>
@@ -1560,7 +1560,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 finish_id_list = 4;</code>
@@ -1577,7 +1577,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 finish_id_list = 4;</code>
@@ -1599,7 +1599,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 open_id_list = 3;</code>
@@ -1612,7 +1612,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 open_id_list = 3;</code>
@@ -1623,7 +1623,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 open_id_list = 3;</code>
@@ -1635,7 +1635,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 open_id_list = 3;</code>
@@ -1652,7 +1652,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 open_id_list = 3;</code>
@@ -1667,7 +1667,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 open_id_list = 3;</code>
@@ -1684,7 +1684,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 open_id_list = 3;</code>
@@ -1700,7 +1700,7 @@ public final class AvatarFetterInfoOuterClass {
       private int expLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 exp_level = 2;</code>
@@ -1712,7 +1712,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 exp_level = 2;</code>
@@ -1727,7 +1727,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 exp_level = 2;</code>
@@ -1743,7 +1743,7 @@ public final class AvatarFetterInfoOuterClass {
       private int expNumber_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 exp_number = 1;</code>
@@ -1755,7 +1755,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 exp_number = 1;</code>
@@ -1770,7 +1770,7 @@ public final class AvatarFetterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 exp_number = 1;</code>

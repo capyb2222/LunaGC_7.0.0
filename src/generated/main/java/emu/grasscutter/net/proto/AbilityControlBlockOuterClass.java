@@ -20,7 +20,7 @@ public final class AbilityControlBlockOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -29,7 +29,7 @@ public final class AbilityControlBlockOuterClass {
         getAbilityEmbryoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -37,7 +37,7 @@ public final class AbilityControlBlockOuterClass {
     emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo getAbilityEmbryoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -45,7 +45,7 @@ public final class AbilityControlBlockOuterClass {
     int getAbilityEmbryoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -54,7 +54,7 @@ public final class AbilityControlBlockOuterClass {
         getAbilityEmbryoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -157,7 +157,7 @@ public final class AbilityControlBlockOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo> abilityEmbryoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -168,7 +168,7 @@ public final class AbilityControlBlockOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -180,7 +180,7 @@ public final class AbilityControlBlockOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -191,7 +191,7 @@ public final class AbilityControlBlockOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -202,7 +202,7 @@ public final class AbilityControlBlockOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -569,7 +569,7 @@ public final class AbilityControlBlockOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -583,7 +583,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -597,7 +597,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -611,7 +611,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -632,7 +632,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -650,7 +650,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -670,7 +670,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -691,7 +691,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -709,7 +709,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -727,7 +727,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -746,7 +746,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -763,7 +763,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -780,7 +780,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -791,7 +791,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -805,7 +805,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -820,7 +820,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -831,7 +831,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
@@ -843,7 +843,7 @@ public final class AbilityControlBlockOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>

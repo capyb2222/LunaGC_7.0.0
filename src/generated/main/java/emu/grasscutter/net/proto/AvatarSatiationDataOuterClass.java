@@ -20,7 +20,7 @@ public final class AvatarSatiationDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 4;</code>
@@ -30,7 +30,7 @@ public final class AvatarSatiationDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float penalty_finish_time = 3;</code>
@@ -40,7 +40,7 @@ public final class AvatarSatiationDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float finish_time = 7;</code>
@@ -144,7 +144,7 @@ public final class AvatarSatiationDataOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 4;</code>
@@ -159,7 +159,7 @@ public final class AvatarSatiationDataOuterClass {
     private float penaltyFinishTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float penalty_finish_time = 3;</code>
@@ -174,7 +174,7 @@ public final class AvatarSatiationDataOuterClass {
     private float finishTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float finish_time = 7;</code>
@@ -529,7 +529,7 @@ public final class AvatarSatiationDataOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -541,7 +541,7 @@ public final class AvatarSatiationDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -556,7 +556,7 @@ public final class AvatarSatiationDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -572,7 +572,7 @@ public final class AvatarSatiationDataOuterClass {
       private float penaltyFinishTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float penalty_finish_time = 3;</code>
@@ -584,7 +584,7 @@ public final class AvatarSatiationDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float penalty_finish_time = 3;</code>
@@ -599,7 +599,7 @@ public final class AvatarSatiationDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float penalty_finish_time = 3;</code>
@@ -615,7 +615,7 @@ public final class AvatarSatiationDataOuterClass {
       private float finishTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float finish_time = 7;</code>
@@ -627,7 +627,7 @@ public final class AvatarSatiationDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float finish_time = 7;</code>
@@ -642,7 +642,7 @@ public final class AvatarSatiationDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float finish_time = 7;</code>

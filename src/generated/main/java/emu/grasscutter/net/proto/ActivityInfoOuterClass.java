@@ -20,7 +20,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -28,7 +28,7 @@ public final class ActivityInfoOuterClass {
     int getActivityCoinMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -43,7 +43,7 @@ public final class ActivityInfoOuterClass {
     getActivityCoinMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -52,7 +52,7 @@ public final class ActivityInfoOuterClass {
     getActivityCoinMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -63,7 +63,7 @@ public final class ActivityInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -74,7 +74,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -83,7 +83,7 @@ public final class ActivityInfoOuterClass {
         getWatcherInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -91,7 +91,7 @@ public final class ActivityInfoOuterClass {
     emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo getWatcherInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -99,7 +99,7 @@ public final class ActivityInfoOuterClass {
     int getWatcherInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -108,7 +108,7 @@ public final class ActivityInfoOuterClass {
         getWatcherInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -152,7 +152,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -161,7 +161,7 @@ public final class ActivityInfoOuterClass {
         getActivityPushTipsDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -169,7 +169,7 @@ public final class ActivityInfoOuterClass {
     emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData getActivityPushTipsDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -177,7 +177,7 @@ public final class ActivityInfoOuterClass {
     int getActivityPushTipsDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -186,7 +186,7 @@ public final class ActivityInfoOuterClass {
         getActivityPushTipsDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -196,7 +196,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -204,7 +204,7 @@ public final class ActivityInfoOuterClass {
     int getWishGiftNumMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -219,7 +219,7 @@ public final class ActivityInfoOuterClass {
     getWishGiftNumMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -228,7 +228,7 @@ public final class ActivityInfoOuterClass {
     getWishGiftNumMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -239,7 +239,7 @@ public final class ActivityInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -281,17 +281,29 @@ public final class ActivityInfoOuterClass {
     int getFLDFIFJDGDB(int index);
 
     /**
-     * <code>repeated uint32 meet_cond_list = 16;</code>
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
      * @return A list containing the meetCondList.
      */
     java.util.List<java.lang.Integer> getMeetCondListList();
     /**
-     * <code>repeated uint32 meet_cond_list = 16;</code>
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
      * @return The count of meetCondList.
      */
     int getMeetCondListCount();
     /**
-     * <code>repeated uint32 meet_cond_list = 16;</code>
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
      * @param index The index of the element to return.
      * @return The meetCondList at the given index.
      */
@@ -334,7 +346,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 cur_score = 1217;</code>
@@ -350,7 +362,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 activity_id = 4;</code>
@@ -366,7 +378,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>uint32 first_day_start_time = 795;</code>
@@ -376,7 +388,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 schedule_id = 1;</code>
@@ -386,7 +398,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 end_time = 5;</code>
@@ -396,7 +408,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 begin_time = 2;</code>
@@ -418,7 +430,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_finished = 11;</code>
@@ -446,7 +458,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>uint32 activity_type = 13;</code>
@@ -468,35 +480,35 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-     * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-     * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-     * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-     * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-     * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-     * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-     * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-     * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-     * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-     * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-     * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-     * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-     * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -505,35 +517,35 @@ public final class ActivityInfoOuterClass {
     boolean hasMusicGameInfo();
     /**
      * <pre>
-     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-     * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-     * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-     * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-     * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-     * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-     * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-     * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-     * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-     * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-     * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-     * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-     * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-     * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -542,35 +554,35 @@ public final class ActivityInfoOuterClass {
     emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo();
     /**
      * <pre>
-     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-     * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-     * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-     * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-     * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-     * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-     * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-     * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-     * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-     * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-     * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-     * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-     * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-     * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -579,7 +591,7 @@ public final class ActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0
+     *6.5.5 //6.4.0 //6.5.0
      * </pre>
      *
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -588,7 +600,7 @@ public final class ActivityInfoOuterClass {
     boolean hasBubbleDramaDetailInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0
+     *6.5.5 //6.4.0 //6.5.0
      * </pre>
      *
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -597,7 +609,7 @@ public final class ActivityInfoOuterClass {
     emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0
+     *6.5.5 //6.4.0 //6.5.0
      * </pre>
      *
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -693,6 +705,27 @@ public final class ActivityInfoOuterClass {
               endTime_ = input.readUInt32();
               break;
             }
+            case 48: {
+              if (!((mutable_bitField0_ & 0x00000080) != 0)) {
+                meetCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000080;
+              }
+              meetCondList_.addInt(input.readUInt32());
+              break;
+            }
+            case 50: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000080) != 0) && input.getBytesUntilLimit() > 0) {
+                meetCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000080;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                meetCondList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
             case 88: {
 
               isFinished_ = input.readBool();
@@ -706,27 +739,6 @@ public final class ActivityInfoOuterClass {
             case 120: {
 
               dKKAEBHHLFM_ = input.readBool();
-              break;
-            }
-            case 128: {
-              if (!((mutable_bitField0_ & 0x00000080) != 0)) {
-                meetCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000080;
-              }
-              meetCondList_.addInt(input.readUInt32());
-              break;
-            }
-            case 130: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000080) != 0) && input.getBytesUntilLimit() > 0) {
-                meetCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000080;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                meetCondList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
               break;
             }
             case 216: {
@@ -1075,7 +1087,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -1097,7 +1109,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -1109,7 +1121,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -1126,7 +1138,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -1148,7 +1160,7 @@ public final class ActivityInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> watcherInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -1159,7 +1171,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -1171,7 +1183,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -1182,7 +1194,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -1193,7 +1205,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -1264,7 +1276,7 @@ public final class ActivityInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> activityPushTipsDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -1275,7 +1287,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -1287,7 +1299,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -1298,7 +1310,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -1309,7 +1321,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -1348,7 +1360,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -1370,7 +1382,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -1382,7 +1394,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -1399,7 +1411,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -1471,10 +1483,14 @@ public final class ActivityInfoOuterClass {
     }
     private int fLDFIFJDGDBMemoizedSerializedSize = -1;
 
-    public static final int MEET_COND_LIST_FIELD_NUMBER = 16;
+    public static final int MEET_COND_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList meetCondList_;
     /**
-     * <code>repeated uint32 meet_cond_list = 16;</code>
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
      * @return A list containing the meetCondList.
      */
     @java.lang.Override
@@ -1483,14 +1499,22 @@ public final class ActivityInfoOuterClass {
       return meetCondList_;
     }
     /**
-     * <code>repeated uint32 meet_cond_list = 16;</code>
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
      * @return The count of meetCondList.
      */
     public int getMeetCondListCount() {
       return meetCondList_.size();
     }
     /**
-     * <code>repeated uint32 meet_cond_list = 16;</code>
+     * <pre>
+     *6.5.5  
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 6;</code>
      * @param index The index of the element to return.
      * @return The meetCondList at the given index.
      */
@@ -1549,7 +1573,7 @@ public final class ActivityInfoOuterClass {
     private int curScore_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 cur_score = 1217;</code>
@@ -1575,7 +1599,7 @@ public final class ActivityInfoOuterClass {
     private int activityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 activity_id = 4;</code>
@@ -1601,7 +1625,7 @@ public final class ActivityInfoOuterClass {
     private int firstDayStartTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>uint32 first_day_start_time = 795;</code>
@@ -1616,7 +1640,7 @@ public final class ActivityInfoOuterClass {
     private int scheduleId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 schedule_id = 1;</code>
@@ -1631,7 +1655,7 @@ public final class ActivityInfoOuterClass {
     private int endTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 end_time = 5;</code>
@@ -1646,7 +1670,7 @@ public final class ActivityInfoOuterClass {
     private int beginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 begin_time = 2;</code>
@@ -1683,7 +1707,7 @@ public final class ActivityInfoOuterClass {
     private boolean isFinished_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_finished = 11;</code>
@@ -1731,7 +1755,7 @@ public final class ActivityInfoOuterClass {
     private int activityType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>uint32 activity_type = 13;</code>
@@ -1767,35 +1791,35 @@ public final class ActivityInfoOuterClass {
     public static final int MUSIC_GAME_INFO_FIELD_NUMBER = 1472;
     /**
      * <pre>
-     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-     * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-     * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-     * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-     * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-     * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-     * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-     * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-     * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-     * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-     * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-     * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-     * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-     * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -1807,35 +1831,35 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-     * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-     * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-     * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-     * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-     * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-     * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-     * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-     * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-     * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-     * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-     * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-     * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-     * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -1850,35 +1874,35 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-     * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-     * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-     * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-     * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-     * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-     * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-     * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-     * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-     * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-     * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-     * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-     * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-     * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+     * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+     * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+     * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+     * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+     * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+     * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+     * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+     * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+     * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+     * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+     * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+     * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+     * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+     * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+     * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+     * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+     * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+     * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+     * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+     * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+     * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+     * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+     * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+     * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+     * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+     * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+     * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+     * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+     * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -1894,7 +1918,7 @@ public final class ActivityInfoOuterClass {
     public static final int BUBBLE_DRAMA_DETAIL_INFO_FIELD_NUMBER = 1117;
     /**
      * <pre>
-     *6.4.0 //6.5.0
+     *6.5.5 //6.4.0 //6.5.0
      * </pre>
      *
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -1906,7 +1930,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0
+     *6.5.5 //6.4.0 //6.5.0
      * </pre>
      *
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -1921,7 +1945,7 @@ public final class ActivityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0
+     *6.5.5 //6.4.0 //6.5.0
      * </pre>
      *
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -1964,6 +1988,13 @@ public final class ActivityInfoOuterClass {
       if (endTime_ != 0) {
         output.writeUInt32(5, endTime_);
       }
+      if (getMeetCondListList().size() > 0) {
+        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < meetCondList_.size(); i++) {
+        output.writeUInt32NoTag(meetCondList_.getInt(i));
+      }
       if (isFinished_ != false) {
         output.writeBool(11, isFinished_);
       }
@@ -1972,13 +2003,6 @@ public final class ActivityInfoOuterClass {
       }
       if (dKKAEBHHLFM_ != false) {
         output.writeBool(15, dKKAEBHHLFM_);
-      }
-      if (getMeetCondListList().size() > 0) {
-        output.writeUInt32NoTag(130);
-        output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < meetCondList_.size(); i++) {
-        output.writeUInt32NoTag(meetCondList_.getInt(i));
       }
       if (getGJLKEBPOEEAList().size() > 0) {
         output.writeUInt32NoTag(218);
@@ -2091,6 +2115,20 @@ public final class ActivityInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(5, endTime_);
       }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < meetCondList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(meetCondList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getMeetCondListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        meetCondListMemoizedSerializedSize = dataSize;
+      }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(11, isFinished_);
@@ -2102,20 +2140,6 @@ public final class ActivityInfoOuterClass {
       if (dKKAEBHHLFM_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(15, dKKAEBHHLFM_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < meetCondList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(meetCondList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getMeetCondListList().isEmpty()) {
-          size += 2;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        meetCondListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -3075,7 +3099,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -3097,7 +3121,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -3109,7 +3133,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -3126,7 +3150,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -3151,7 +3175,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -3174,7 +3198,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -3190,7 +3214,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
@@ -3217,7 +3241,7 @@ public final class ActivityInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3231,7 +3255,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3245,7 +3269,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3259,7 +3283,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3280,7 +3304,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3298,7 +3322,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3318,7 +3342,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3339,7 +3363,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3357,7 +3381,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3375,7 +3399,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3394,7 +3418,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3411,7 +3435,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3428,7 +3452,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3439,7 +3463,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3453,7 +3477,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3468,7 +3492,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3479,7 +3503,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3491,7 +3515,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
@@ -3687,7 +3711,7 @@ public final class ActivityInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3701,7 +3725,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3715,7 +3739,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3729,7 +3753,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3750,7 +3774,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3768,7 +3792,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3788,7 +3812,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3809,7 +3833,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3827,7 +3851,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3845,7 +3869,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3864,7 +3888,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3881,7 +3905,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3898,7 +3922,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3909,7 +3933,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3923,7 +3947,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3938,7 +3962,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3949,7 +3973,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -3961,7 +3985,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
@@ -4013,7 +4037,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -4035,7 +4059,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -4047,7 +4071,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -4064,7 +4088,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -4089,7 +4113,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -4112,7 +4136,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -4128,7 +4152,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
@@ -4347,7 +4371,11 @@ public final class ActivityInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 16;</code>
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
        * @return A list containing the meetCondList.
        */
       public java.util.List<java.lang.Integer>
@@ -4356,14 +4384,22 @@ public final class ActivityInfoOuterClass {
                  java.util.Collections.unmodifiableList(meetCondList_) : meetCondList_;
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 16;</code>
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
        * @return The count of meetCondList.
        */
       public int getMeetCondListCount() {
         return meetCondList_.size();
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 16;</code>
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
        * @param index The index of the element to return.
        * @return The meetCondList at the given index.
        */
@@ -4371,7 +4407,11 @@ public final class ActivityInfoOuterClass {
         return meetCondList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 16;</code>
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
        * @param index The index to set the value at.
        * @param value The meetCondList to set.
        * @return This builder for chaining.
@@ -4384,7 +4424,11 @@ public final class ActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 16;</code>
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
        * @param value The meetCondList to add.
        * @return This builder for chaining.
        */
@@ -4395,7 +4439,11 @@ public final class ActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 16;</code>
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
        * @param values The meetCondList to add.
        * @return This builder for chaining.
        */
@@ -4408,7 +4456,11 @@ public final class ActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 16;</code>
+       * <pre>
+       *6.5.5  
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearMeetCondList() {
@@ -4542,7 +4594,7 @@ public final class ActivityInfoOuterClass {
       private int curScore_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 cur_score = 1217;</code>
@@ -4554,7 +4606,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 cur_score = 1217;</code>
@@ -4569,7 +4621,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 cur_score = 1217;</code>
@@ -4616,7 +4668,7 @@ public final class ActivityInfoOuterClass {
       private int activityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 activity_id = 4;</code>
@@ -4628,7 +4680,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 activity_id = 4;</code>
@@ -4643,7 +4695,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 activity_id = 4;</code>
@@ -4690,7 +4742,7 @@ public final class ActivityInfoOuterClass {
       private int firstDayStartTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>uint32 first_day_start_time = 795;</code>
@@ -4702,7 +4754,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>uint32 first_day_start_time = 795;</code>
@@ -4717,7 +4769,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>uint32 first_day_start_time = 795;</code>
@@ -4733,7 +4785,7 @@ public final class ActivityInfoOuterClass {
       private int scheduleId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 schedule_id = 1;</code>
@@ -4745,7 +4797,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 schedule_id = 1;</code>
@@ -4760,7 +4812,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 schedule_id = 1;</code>
@@ -4776,7 +4828,7 @@ public final class ActivityInfoOuterClass {
       private int endTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 5;</code>
@@ -4788,7 +4840,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 5;</code>
@@ -4803,7 +4855,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 5;</code>
@@ -4819,7 +4871,7 @@ public final class ActivityInfoOuterClass {
       private int beginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 begin_time = 2;</code>
@@ -4831,7 +4883,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 begin_time = 2;</code>
@@ -4846,7 +4898,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 begin_time = 2;</code>
@@ -4924,7 +4976,7 @@ public final class ActivityInfoOuterClass {
       private boolean isFinished_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_finished = 11;</code>
@@ -4936,7 +4988,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_finished = 11;</code>
@@ -4951,7 +5003,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_finished = 11;</code>
@@ -5060,7 +5112,7 @@ public final class ActivityInfoOuterClass {
       private int activityType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>uint32 activity_type = 13;</code>
@@ -5072,7 +5124,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>uint32 activity_type = 13;</code>
@@ -5087,7 +5139,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>uint32 activity_type = 13;</code>
@@ -5166,35 +5218,35 @@ public final class ActivityInfoOuterClass {
           emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder> musicGameInfoBuilder_;
       /**
        * <pre>
-       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-       * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-       * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-       * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-       * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-       * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-       * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-       * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-       * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-       * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-       * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-       * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-       * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-       * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -5206,35 +5258,35 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-       * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-       * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-       * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-       * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-       * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-       * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-       * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-       * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-       * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-       * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-       * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-       * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-       * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -5256,35 +5308,35 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-       * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-       * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-       * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-       * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-       * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-       * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-       * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-       * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-       * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-       * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-       * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-       * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-       * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -5304,35 +5356,35 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-       * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-       * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-       * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-       * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-       * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-       * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-       * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-       * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-       * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-       * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-       * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-       * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-       * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -5350,35 +5402,35 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-       * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-       * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-       * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-       * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-       * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-       * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-       * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-       * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-       * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-       * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-       * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-       * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-       * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -5404,35 +5456,35 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-       * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-       * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-       * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-       * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-       * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-       * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-       * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-       * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-       * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-       * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-       * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-       * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-       * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -5455,35 +5507,35 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-       * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-       * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-       * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-       * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-       * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-       * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-       * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-       * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-       * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-       * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-       * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-       * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-       * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -5493,35 +5545,35 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-       * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-       * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-       * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-       * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-       * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-       * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-       * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-       * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-       * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-       * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-       * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-       * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-       * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -5539,35 +5591,35 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.4.0 //6.5.0          
-       * CrucibleActivityDetailInfo crucible_info = 7; //6.4.0 //6.5.0          
-       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.4.0 //6.5.0           
-       * DeliveryActivityDetailInfo delivery_info = 742; //6.4.0 //6.5.0          
-       * AsterActivityDetailInfo aster_info = 488; //6.4.0 //6.5.0          
-       * FlightActivityDetailInfo flight_info = 1200; //6.4.0 //6.5.0          
-       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.4.0 //6.5.0          
-       * EffigyActivityDetailInfo effigy_info = 1624; //6.4.0 //6.5.0          
-       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.4.0 //6.5.0          
-       * BlessingActivityDetailInfo blessing_info = 1581; //6.4.0 //6.5.0          
-       * SeaLampActivityInfo sea_lamp_info = 1534; //6.4.0 //6.5.0          
-       * ExpeditionActivityDetailInfo expedition_info = 223; //6.4.0 //6.5.0          
-       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.4.0 //6.5.0          
-       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.4.0 //6.5.0          
-       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.4.0 //6.5.0          
-       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.4.0 //6.5.0          
-       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.4.0 //6.5.0          
-       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.4.0 //6.5.0          
-       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.4.0 //6.5.0          
-       * SummerTimeDetailInfo summer_time_info = 659; //6.4.0 //6.5.0          
-       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.4.0 //6.5.0          
-       * EchoShellDetailInfo echo_shell_info = 156; //6.4.0 //6.5.0          
-       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.4.0 //6.5.0          
-       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.4.0 //6.5.0          
-       * ChessActivityDetailInfo chess_info = 1135; //6.4.0 //6.5.0          
-       * SumoActivityDetailInfo sumo_info = 1545; //6.4.0 //6.5.0          
-       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.4.0 //6.5.0          
-       * LunaRiteDetailInfo luna_rite_info = 648; //6.4.0 //6.5.0          
-       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.4.0 //6.5.0          
+       * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
+       * CrucibleActivityDetailInfo crucible_info = 7; //6.5.5 //6.4.0 //6.5.0          
+       * TrialAvatarActivityDetailInfo trial_avatar_info = 8; //6.5.5 //6.4.0 //6.5.0           
+       * DeliveryActivityDetailInfo delivery_info = 742; //6.5.5 //6.4.0 //6.5.0          
+       * AsterActivityDetailInfo aster_info = 488; //6.5.5 //6.4.0 //6.5.0          
+       * FlightActivityDetailInfo flight_info = 1200; //6.5.5 //6.4.0 //6.5.0          
+       * DragonSpineActivityDetailInfo dragon_spine_info = 881; //6.5.5 //6.4.0 //6.5.0          
+       * EffigyActivityDetailInfo effigy_info = 1624; //6.5.5 //6.4.0 //6.5.0          
+       * TreasureMapActivityDetailInfo treasure_map_info = 1456; //6.5.5 //6.4.0 //6.5.0          
+       * BlessingActivityDetailInfo blessing_info = 1581; //6.5.5 //6.4.0 //6.5.0          
+       * SeaLampActivityInfo sea_lamp_info = 1534; //6.5.5 //6.4.0 //6.5.0          
+       * ExpeditionActivityDetailInfo expedition_info = 223; //6.5.5 //6.4.0 //6.5.0          
+       * ArenaChallengeActivityDetailInfo arena_challenge_info = 777; //6.5.5 //6.4.0 //6.5.0          
+       * FleurFairActivityDetailInfo fleur_fair_info = 2026; //6.5.5 //6.4.0 //6.5.0          
+       * WaterSpiritActivityDetailInfo water_spirit_info = 1372; //6.5.5 //6.4.0 //6.5.0          
+       * ChannelerSlabActivityDetailInfo challneler_slab_info = 209; //6.5.5 //6.4.0 //6.5.0          
+       * MistTrialActivityDetailInfo mist_trial_activity_info = 312; //6.5.5 //6.4.0 //6.5.0          
+       * HideAndSeekActivityDetailInfo hide_and_seek_info = 596; //6.5.5 //6.4.0 //6.5.0          
+       * FindHilichurlDetailInfo find_hilichurl_info = 379; //6.5.5 //6.4.0 //6.5.0          
+       * SummerTimeDetailInfo summer_time_info = 659; //6.5.5 //6.4.0 //6.5.0          
+       * BuoyantCombatDetailInfo buoyant_combat_info = 1439; //6.5.5 //6.4.0 //6.5.0          
+       * EchoShellDetailInfo echo_shell_info = 156; //6.5.5 //6.4.0 //6.5.0          
+       * BounceConjuringActivityDetailInfo bounce_conjuring_info = 271; //6.5.5 //6.4.0 //6.5.0          
+       * BlitzRushActivityDetailInfo blitz_rush_info = 342; //6.5.5 //6.4.0 //6.5.0          
+       * ChessActivityDetailInfo chess_info = 1135; //6.5.5 //6.4.0 //6.5.0          
+       * SumoActivityDetailInfo sumo_info = 1545; //6.5.5 //6.4.0 //6.5.0          
+       * MoonfinTrialActivityDetailInfo moonfin_trial_info = 1655; //6.5.5 //6.4.0 //6.5.0          
+       * LunaRiteDetailInfo luna_rite_info = 648; //6.5.5 //6.4.0 //6.5.0          
+       * PlantFlowerActivityDetailInfo plant_flower_info = 987; //6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
@@ -5595,7 +5647,7 @@ public final class ActivityInfoOuterClass {
           emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder> bubbleDramaDetailInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0
+       *6.5.5 //6.4.0 //6.5.0
        * </pre>
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -5607,7 +5659,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0
+       *6.5.5 //6.4.0 //6.5.0
        * </pre>
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -5629,7 +5681,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0
+       *6.5.5 //6.4.0 //6.5.0
        * </pre>
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -5649,7 +5701,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0
+       *6.5.5 //6.4.0 //6.5.0
        * </pre>
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -5667,7 +5719,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0
+       *6.5.5 //6.4.0 //6.5.0
        * </pre>
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -5693,7 +5745,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0
+       *6.5.5 //6.4.0 //6.5.0
        * </pre>
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -5716,7 +5768,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0
+       *6.5.5 //6.4.0 //6.5.0
        * </pre>
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -5726,7 +5778,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0
+       *6.5.5 //6.4.0 //6.5.0
        * </pre>
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -5744,7 +5796,7 @@ public final class ActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0
+       *6.5.5 //6.4.0 //6.5.0
        * </pre>
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
@@ -5858,7 +5910,7 @@ public final class ActivityInfoOuterClass {
       "yInfo.WishGiftNumMapEntry\0225\n\026bubble_dram" +
       "a_play_info\030\227\007 \001(\0132\024.BubbleDramaPlayInfo" +
       "\022\024\n\013FLDFIFJDGDB\030\265\002 \003(\r\022\026\n\016meet_cond_list" +
-      "\030\020 \003(\r\022\023\n\013GJLKEBPOEEA\030\033 \003(\004\022\022\n\tcur_score" +
+      "\030\006 \003(\r\022\023\n\013GJLKEBPOEEA\030\033 \003(\004\022\022\n\tcur_score" +
       "\030\301\t \001(\r\022\024\n\013LEOKOPDKDBE\030\314\t \001(\r\022\023\n\013activit" +
       "y_id\030\004 \001(\r\022\024\n\013LFPOBIAKJJN\030\360\017 \001(\004\022\035\n\024firs" +
       "t_day_start_time\030\233\006 \001(\r\022\023\n\013schedule_id\030\001" +

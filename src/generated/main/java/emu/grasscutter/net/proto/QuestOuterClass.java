@@ -20,7 +20,7 @@ public final class QuestOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 32
+     *6.5.5 //6.4.0 //6.5.0           // offset: 32
      * </pre>
      *
      * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -29,7 +29,7 @@ public final class QuestOuterClass {
     java.util.List<java.lang.Integer> getFinishProgressListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 32
+     *6.5.5 //6.4.0 //6.5.0           // offset: 32
      * </pre>
      *
      * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -38,7 +38,7 @@ public final class QuestOuterClass {
     int getFinishProgressListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 32
+     *6.5.5 //6.4.0 //6.5.0           // offset: 32
      * </pre>
      *
      * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -49,7 +49,7 @@ public final class QuestOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 40
+     *6.5.5 //6.4.0 //6.5.0           // offset: 40
      * </pre>
      *
      * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -58,7 +58,7 @@ public final class QuestOuterClass {
     java.util.List<java.lang.Integer> getFailProgressListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 40
+     *6.5.5 //6.4.0 //6.5.0           // offset: 40
      * </pre>
      *
      * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -67,7 +67,7 @@ public final class QuestOuterClass {
     int getFailProgressListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 40
+     *6.5.5 //6.4.0 //6.5.0           // offset: 40
      * </pre>
      *
      * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -89,7 +89,7 @@ public final class QuestOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 68
+     *6.5.5 //6.4.0 //6.5.0            // offset: 68
      * </pre>
      *
      * <code>uint32 parent_quest_id = 6;</code>
@@ -99,7 +99,7 @@ public final class QuestOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 72
+     *6.5.5 //6.4.0 //6.5.0            // offset: 72
      * </pre>
      *
      * <code>uint32 quest_id = 1;</code>
@@ -109,7 +109,7 @@ public final class QuestOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 76
+     *6.5.5 //6.4.0 //6.5.0            // offset: 76
      * </pre>
      *
      * <code>uint32 quest_config_id = 7;</code>
@@ -119,7 +119,7 @@ public final class QuestOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 80
+     *6.5.5 //6.4.0 //6.5.0           // offset: 80
      * </pre>
      *
      * <code>uint32 accept_time = 9;</code>
@@ -129,7 +129,7 @@ public final class QuestOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 84
+     *6.5.5 //6.4.0 //6.5.0            // offset: 84
      * </pre>
      *
      * <code>uint32 start_time = 4;</code>
@@ -139,7 +139,7 @@ public final class QuestOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 88
+     *6.5.5 //6.4.0 //6.5.0            // offset: 88
      * </pre>
      *
      * <code>bool is_random = 5;</code>
@@ -149,7 +149,7 @@ public final class QuestOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 92
+     *6.5.5 //6.4.0 //6.5.0            // offset: 92
      * </pre>
      *
      * <code>uint32 state = 2;</code>
@@ -329,7 +329,7 @@ public final class QuestOuterClass {
     private com.google.protobuf.Internal.IntList finishProgressList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 32
+     *6.5.5 //6.4.0 //6.5.0           // offset: 32
      * </pre>
      *
      * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -342,7 +342,7 @@ public final class QuestOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 32
+     *6.5.5 //6.4.0 //6.5.0           // offset: 32
      * </pre>
      *
      * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -353,7 +353,7 @@ public final class QuestOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 32
+     *6.5.5 //6.4.0 //6.5.0           // offset: 32
      * </pre>
      *
      * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -369,7 +369,7 @@ public final class QuestOuterClass {
     private com.google.protobuf.Internal.IntList failProgressList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 40
+     *6.5.5 //6.4.0 //6.5.0           // offset: 40
      * </pre>
      *
      * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -382,7 +382,7 @@ public final class QuestOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 40
+     *6.5.5 //6.4.0 //6.5.0           // offset: 40
      * </pre>
      *
      * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -393,7 +393,7 @@ public final class QuestOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 40
+     *6.5.5 //6.4.0 //6.5.0           // offset: 40
      * </pre>
      *
      * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -425,7 +425,7 @@ public final class QuestOuterClass {
     private int parentQuestId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 68
+     *6.5.5 //6.4.0 //6.5.0            // offset: 68
      * </pre>
      *
      * <code>uint32 parent_quest_id = 6;</code>
@@ -440,7 +440,7 @@ public final class QuestOuterClass {
     private int questId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 72
+     *6.5.5 //6.4.0 //6.5.0            // offset: 72
      * </pre>
      *
      * <code>uint32 quest_id = 1;</code>
@@ -455,7 +455,7 @@ public final class QuestOuterClass {
     private int questConfigId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 76
+     *6.5.5 //6.4.0 //6.5.0            // offset: 76
      * </pre>
      *
      * <code>uint32 quest_config_id = 7;</code>
@@ -470,7 +470,7 @@ public final class QuestOuterClass {
     private int acceptTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           // offset: 80
+     *6.5.5 //6.4.0 //6.5.0           // offset: 80
      * </pre>
      *
      * <code>uint32 accept_time = 9;</code>
@@ -485,7 +485,7 @@ public final class QuestOuterClass {
     private int startTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 84
+     *6.5.5 //6.4.0 //6.5.0            // offset: 84
      * </pre>
      *
      * <code>uint32 start_time = 4;</code>
@@ -500,7 +500,7 @@ public final class QuestOuterClass {
     private boolean isRandom_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 88
+     *6.5.5 //6.4.0 //6.5.0            // offset: 88
      * </pre>
      *
      * <code>bool is_random = 5;</code>
@@ -515,7 +515,7 @@ public final class QuestOuterClass {
     private int state_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 92
+     *6.5.5 //6.4.0 //6.5.0            // offset: 92
      * </pre>
      *
      * <code>uint32 state = 2;</code>
@@ -1048,7 +1048,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 32
+       *6.5.5 //6.4.0 //6.5.0           // offset: 32
        * </pre>
        *
        * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -1061,7 +1061,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 32
+       *6.5.5 //6.4.0 //6.5.0           // offset: 32
        * </pre>
        *
        * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -1072,7 +1072,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 32
+       *6.5.5 //6.4.0 //6.5.0           // offset: 32
        * </pre>
        *
        * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -1084,7 +1084,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 32
+       *6.5.5 //6.4.0 //6.5.0           // offset: 32
        * </pre>
        *
        * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -1101,7 +1101,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 32
+       *6.5.5 //6.4.0 //6.5.0           // offset: 32
        * </pre>
        *
        * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -1116,7 +1116,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 32
+       *6.5.5 //6.4.0 //6.5.0           // offset: 32
        * </pre>
        *
        * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -1133,7 +1133,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 32
+       *6.5.5 //6.4.0 //6.5.0           // offset: 32
        * </pre>
        *
        * <code>repeated uint32 finish_progress_list = 10;</code>
@@ -1155,7 +1155,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 40
+       *6.5.5 //6.4.0 //6.5.0           // offset: 40
        * </pre>
        *
        * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -1168,7 +1168,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 40
+       *6.5.5 //6.4.0 //6.5.0           // offset: 40
        * </pre>
        *
        * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -1179,7 +1179,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 40
+       *6.5.5 //6.4.0 //6.5.0           // offset: 40
        * </pre>
        *
        * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -1191,7 +1191,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 40
+       *6.5.5 //6.4.0 //6.5.0           // offset: 40
        * </pre>
        *
        * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -1208,7 +1208,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 40
+       *6.5.5 //6.4.0 //6.5.0           // offset: 40
        * </pre>
        *
        * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -1223,7 +1223,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 40
+       *6.5.5 //6.4.0 //6.5.0           // offset: 40
        * </pre>
        *
        * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -1240,7 +1240,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 40
+       *6.5.5 //6.4.0 //6.5.0           // offset: 40
        * </pre>
        *
        * <code>repeated uint32 fail_progress_list = 11;</code>
@@ -1302,7 +1302,7 @@ public final class QuestOuterClass {
       private int parentQuestId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 68
+       *6.5.5 //6.4.0 //6.5.0            // offset: 68
        * </pre>
        *
        * <code>uint32 parent_quest_id = 6;</code>
@@ -1314,7 +1314,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 68
+       *6.5.5 //6.4.0 //6.5.0            // offset: 68
        * </pre>
        *
        * <code>uint32 parent_quest_id = 6;</code>
@@ -1329,7 +1329,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 68
+       *6.5.5 //6.4.0 //6.5.0            // offset: 68
        * </pre>
        *
        * <code>uint32 parent_quest_id = 6;</code>
@@ -1345,7 +1345,7 @@ public final class QuestOuterClass {
       private int questId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 72
+       *6.5.5 //6.4.0 //6.5.0            // offset: 72
        * </pre>
        *
        * <code>uint32 quest_id = 1;</code>
@@ -1357,7 +1357,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 72
+       *6.5.5 //6.4.0 //6.5.0            // offset: 72
        * </pre>
        *
        * <code>uint32 quest_id = 1;</code>
@@ -1372,7 +1372,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 72
+       *6.5.5 //6.4.0 //6.5.0            // offset: 72
        * </pre>
        *
        * <code>uint32 quest_id = 1;</code>
@@ -1388,7 +1388,7 @@ public final class QuestOuterClass {
       private int questConfigId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 76
+       *6.5.5 //6.4.0 //6.5.0            // offset: 76
        * </pre>
        *
        * <code>uint32 quest_config_id = 7;</code>
@@ -1400,7 +1400,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 76
+       *6.5.5 //6.4.0 //6.5.0            // offset: 76
        * </pre>
        *
        * <code>uint32 quest_config_id = 7;</code>
@@ -1415,7 +1415,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 76
+       *6.5.5 //6.4.0 //6.5.0            // offset: 76
        * </pre>
        *
        * <code>uint32 quest_config_id = 7;</code>
@@ -1431,7 +1431,7 @@ public final class QuestOuterClass {
       private int acceptTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 80
+       *6.5.5 //6.4.0 //6.5.0           // offset: 80
        * </pre>
        *
        * <code>uint32 accept_time = 9;</code>
@@ -1443,7 +1443,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 80
+       *6.5.5 //6.4.0 //6.5.0           // offset: 80
        * </pre>
        *
        * <code>uint32 accept_time = 9;</code>
@@ -1458,7 +1458,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           // offset: 80
+       *6.5.5 //6.4.0 //6.5.0           // offset: 80
        * </pre>
        *
        * <code>uint32 accept_time = 9;</code>
@@ -1474,7 +1474,7 @@ public final class QuestOuterClass {
       private int startTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 84
+       *6.5.5 //6.4.0 //6.5.0            // offset: 84
        * </pre>
        *
        * <code>uint32 start_time = 4;</code>
@@ -1486,7 +1486,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 84
+       *6.5.5 //6.4.0 //6.5.0            // offset: 84
        * </pre>
        *
        * <code>uint32 start_time = 4;</code>
@@ -1501,7 +1501,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 84
+       *6.5.5 //6.4.0 //6.5.0            // offset: 84
        * </pre>
        *
        * <code>uint32 start_time = 4;</code>
@@ -1517,7 +1517,7 @@ public final class QuestOuterClass {
       private boolean isRandom_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>bool is_random = 5;</code>
@@ -1529,7 +1529,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>bool is_random = 5;</code>
@@ -1544,7 +1544,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>bool is_random = 5;</code>
@@ -1560,7 +1560,7 @@ public final class QuestOuterClass {
       private int state_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 92
+       *6.5.5 //6.4.0 //6.5.0            // offset: 92
        * </pre>
        *
        * <code>uint32 state = 2;</code>
@@ -1572,7 +1572,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 92
+       *6.5.5 //6.4.0 //6.5.0            // offset: 92
        * </pre>
        *
        * <code>uint32 state = 2;</code>
@@ -1587,7 +1587,7 @@ public final class QuestOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 92
+       *6.5.5 //6.4.0 //6.5.0            // offset: 92
        * </pre>
        *
        * <code>uint32 state = 2;</code>

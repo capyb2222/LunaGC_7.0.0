@@ -20,7 +20,7 @@ public final class CutSceneBeginNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -29,7 +29,7 @@ public final class CutSceneBeginNotifyOuterClass {
         getExtraParamListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -37,7 +37,7 @@ public final class CutSceneBeginNotifyOuterClass {
     emu.grasscutter.net.proto.CutSceneExtraParamOuterClass.CutSceneExtraParam getExtraParamList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -45,7 +45,7 @@ public final class CutSceneBeginNotifyOuterClass {
     int getExtraParamListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -54,7 +54,7 @@ public final class CutSceneBeginNotifyOuterClass {
         getExtraParamListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -64,7 +64,7 @@ public final class CutSceneBeginNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cutscene_id = 11;</code>
@@ -74,7 +74,7 @@ public final class CutSceneBeginNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_wait_others = 7;</code>
@@ -192,7 +192,7 @@ public final class CutSceneBeginNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.CutSceneExtraParamOuterClass.CutSceneExtraParam> extraParamList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -203,7 +203,7 @@ public final class CutSceneBeginNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -215,7 +215,7 @@ public final class CutSceneBeginNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -226,7 +226,7 @@ public final class CutSceneBeginNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -237,7 +237,7 @@ public final class CutSceneBeginNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -252,7 +252,7 @@ public final class CutSceneBeginNotifyOuterClass {
     private int cutsceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cutscene_id = 11;</code>
@@ -267,7 +267,7 @@ public final class CutSceneBeginNotifyOuterClass {
     private boolean isWaitOthers_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_wait_others = 7;</code>
@@ -674,7 +674,7 @@ public final class CutSceneBeginNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -688,7 +688,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -702,7 +702,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -716,7 +716,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -737,7 +737,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -755,7 +755,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -775,7 +775,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -796,7 +796,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -814,7 +814,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -832,7 +832,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -851,7 +851,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -868,7 +868,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -885,7 +885,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -896,7 +896,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -910,7 +910,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -925,7 +925,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -936,7 +936,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -948,7 +948,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CutSceneExtraParam extra_param_list = 4;</code>
@@ -975,7 +975,7 @@ public final class CutSceneBeginNotifyOuterClass {
       private int cutsceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cutscene_id = 11;</code>
@@ -987,7 +987,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cutscene_id = 11;</code>
@@ -1002,7 +1002,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cutscene_id = 11;</code>
@@ -1018,7 +1018,7 @@ public final class CutSceneBeginNotifyOuterClass {
       private boolean isWaitOthers_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_wait_others = 7;</code>
@@ -1030,7 +1030,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_wait_others = 7;</code>
@@ -1045,7 +1045,7 @@ public final class CutSceneBeginNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_wait_others = 7;</code>

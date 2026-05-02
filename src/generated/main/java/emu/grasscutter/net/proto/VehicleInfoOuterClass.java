@@ -20,7 +20,7 @@ public final class VehicleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -29,7 +29,7 @@ public final class VehicleInfoOuterClass {
         getMemberListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -37,7 +37,7 @@ public final class VehicleInfoOuterClass {
     emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember getMemberList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -45,7 +45,7 @@ public final class VehicleInfoOuterClass {
     int getMemberListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -54,7 +54,7 @@ public final class VehicleInfoOuterClass {
         getMemberListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -74,7 +74,7 @@ public final class VehicleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 owner_uid = 2;</code>
@@ -84,7 +84,7 @@ public final class VehicleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>float cur_stamina = 3;</code>
@@ -104,7 +104,7 @@ public final class VehicleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 anim_hash = 6;</code>
@@ -232,7 +232,7 @@ public final class VehicleInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember> memberList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -243,7 +243,7 @@ public final class VehicleInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -255,7 +255,7 @@ public final class VehicleInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -266,7 +266,7 @@ public final class VehicleInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -277,7 +277,7 @@ public final class VehicleInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .VehicleMember member_list = 1;</code>
@@ -307,7 +307,7 @@ public final class VehicleInfoOuterClass {
     private int ownerUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 owner_uid = 2;</code>
@@ -322,7 +322,7 @@ public final class VehicleInfoOuterClass {
     private float curStamina_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>float cur_stamina = 3;</code>
@@ -352,7 +352,7 @@ public final class VehicleInfoOuterClass {
     private int animHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 anim_hash = 6;</code>
@@ -808,7 +808,7 @@ public final class VehicleInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -822,7 +822,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -836,7 +836,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -850,7 +850,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -871,7 +871,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -889,7 +889,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -909,7 +909,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -930,7 +930,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -948,7 +948,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -966,7 +966,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -985,7 +985,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -1002,7 +1002,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -1019,7 +1019,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -1030,7 +1030,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -1044,7 +1044,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -1059,7 +1059,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -1070,7 +1070,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -1082,7 +1082,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .VehicleMember member_list = 1;</code>
@@ -1152,7 +1152,7 @@ public final class VehicleInfoOuterClass {
       private int ownerUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 owner_uid = 2;</code>
@@ -1164,7 +1164,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 owner_uid = 2;</code>
@@ -1179,7 +1179,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 owner_uid = 2;</code>
@@ -1195,7 +1195,7 @@ public final class VehicleInfoOuterClass {
       private float curStamina_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>float cur_stamina = 3;</code>
@@ -1207,7 +1207,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>float cur_stamina = 3;</code>
@@ -1222,7 +1222,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>float cur_stamina = 3;</code>
@@ -1281,7 +1281,7 @@ public final class VehicleInfoOuterClass {
       private int animHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 anim_hash = 6;</code>
@@ -1293,7 +1293,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 anim_hash = 6;</code>
@@ -1308,7 +1308,7 @@ public final class VehicleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 anim_hash = 6;</code>

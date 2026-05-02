@@ -20,7 +20,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -29,7 +29,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     java.util.List<java.lang.Integer> getQualifyUidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -38,7 +38,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     int getQualifyUidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -49,7 +49,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -58,7 +58,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     java.util.List<java.lang.Integer> getRemainUidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -67,7 +67,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     int getRemainUidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -99,7 +99,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 resin = 1;</code>
@@ -262,7 +262,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     private com.google.protobuf.Internal.IntList qualifyUidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -275,7 +275,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -286,7 +286,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -302,7 +302,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     private com.google.protobuf.Internal.IntList remainUidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -315,7 +315,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -326,7 +326,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -379,7 +379,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
     private int resin_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 resin = 1;</code>
@@ -839,7 +839,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -852,7 +852,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -863,7 +863,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -875,7 +875,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -892,7 +892,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -907,7 +907,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -924,7 +924,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 4;</code>
@@ -946,7 +946,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -959,7 +959,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -970,7 +970,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -982,7 +982,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -999,7 +999,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -1014,7 +1014,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -1031,7 +1031,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -1197,7 +1197,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       private int resin_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 resin = 1;</code>
@@ -1209,7 +1209,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 resin = 1;</code>
@@ -1224,7 +1224,7 @@ public final class GadgetGeneralRewardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 resin = 1;</code>

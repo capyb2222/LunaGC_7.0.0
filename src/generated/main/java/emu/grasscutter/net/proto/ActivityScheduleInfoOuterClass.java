@@ -20,7 +20,7 @@ public final class ActivityScheduleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 schedule_id = 12;</code>
@@ -30,7 +30,7 @@ public final class ActivityScheduleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 activity_id = 1;</code>
@@ -40,7 +40,7 @@ public final class ActivityScheduleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 end_time = 10;</code>
@@ -50,7 +50,7 @@ public final class ActivityScheduleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_open = 13;</code>
@@ -60,7 +60,7 @@ public final class ActivityScheduleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 begin_time = 15;</code>
@@ -174,7 +174,7 @@ public final class ActivityScheduleInfoOuterClass {
     private int scheduleId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 schedule_id = 12;</code>
@@ -189,7 +189,7 @@ public final class ActivityScheduleInfoOuterClass {
     private int activityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 activity_id = 1;</code>
@@ -204,7 +204,7 @@ public final class ActivityScheduleInfoOuterClass {
     private int endTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 end_time = 10;</code>
@@ -219,7 +219,7 @@ public final class ActivityScheduleInfoOuterClass {
     private boolean isOpen_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_open = 13;</code>
@@ -234,7 +234,7 @@ public final class ActivityScheduleInfoOuterClass {
     private int beginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 begin_time = 15;</code>
@@ -619,7 +619,7 @@ public final class ActivityScheduleInfoOuterClass {
       private int scheduleId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 schedule_id = 12;</code>
@@ -631,7 +631,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 schedule_id = 12;</code>
@@ -646,7 +646,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 schedule_id = 12;</code>
@@ -662,7 +662,7 @@ public final class ActivityScheduleInfoOuterClass {
       private int activityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 activity_id = 1;</code>
@@ -674,7 +674,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 activity_id = 1;</code>
@@ -689,7 +689,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 activity_id = 1;</code>
@@ -705,7 +705,7 @@ public final class ActivityScheduleInfoOuterClass {
       private int endTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 end_time = 10;</code>
@@ -717,7 +717,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 end_time = 10;</code>
@@ -732,7 +732,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 end_time = 10;</code>
@@ -748,7 +748,7 @@ public final class ActivityScheduleInfoOuterClass {
       private boolean isOpen_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_open = 13;</code>
@@ -760,7 +760,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_open = 13;</code>
@@ -775,7 +775,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_open = 13;</code>
@@ -791,7 +791,7 @@ public final class ActivityScheduleInfoOuterClass {
       private int beginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 begin_time = 15;</code>
@@ -803,7 +803,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 begin_time = 15;</code>
@@ -818,7 +818,7 @@ public final class ActivityScheduleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 begin_time = 15;</code>

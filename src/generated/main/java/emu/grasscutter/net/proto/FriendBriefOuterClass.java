@@ -20,7 +20,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -29,7 +29,7 @@ public final class FriendBriefOuterClass {
         getShowAvatarInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -37,7 +37,7 @@ public final class FriendBriefOuterClass {
     emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo getShowAvatarInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -45,7 +45,7 @@ public final class FriendBriefOuterClass {
     int getShowAvatarInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -54,7 +54,7 @@ public final class FriendBriefOuterClass {
         getShowAvatarInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -64,7 +64,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string signature = 6;</code>
@@ -73,7 +73,7 @@ public final class FriendBriefOuterClass {
     java.lang.String getSignature();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string signature = 6;</code>
@@ -96,7 +96,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 24;</code>
@@ -105,7 +105,7 @@ public final class FriendBriefOuterClass {
     boolean hasProfilePicture();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 24;</code>
@@ -114,7 +114,7 @@ public final class FriendBriefOuterClass {
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 24;</code>
@@ -135,7 +135,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string remark_name = 17;</code>
@@ -144,7 +144,7 @@ public final class FriendBriefOuterClass {
     java.lang.String getRemarkName();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string remark_name = 17;</code>
@@ -155,7 +155,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string nickname = 2;</code>
@@ -164,7 +164,7 @@ public final class FriendBriefOuterClass {
     java.lang.String getNickname();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string nickname = 2;</code>
@@ -175,7 +175,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string online_id = 11;</code>
@@ -184,7 +184,7 @@ public final class FriendBriefOuterClass {
     java.lang.String getOnlineId();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string online_id = 11;</code>
@@ -195,7 +195,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 last_active_time = 12;</code>
@@ -205,7 +205,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FriendEnterHomeOption friend_enter_home_option = 23;</code>
@@ -214,7 +214,7 @@ public final class FriendBriefOuterClass {
     int getFriendEnterHomeOptionValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FriendEnterHomeOption friend_enter_home_option = 23;</code>
@@ -224,7 +224,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 avatar_id = 4;</code>
@@ -234,7 +234,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 name_card_id = 13;</code>
@@ -244,7 +244,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FriendOnlineState online_state = 7;</code>
@@ -253,7 +253,7 @@ public final class FriendBriefOuterClass {
     int getOnlineStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FriendOnlineState online_state = 7;</code>
@@ -263,7 +263,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlatformType platform_type = 27;</code>
@@ -272,7 +272,7 @@ public final class FriendBriefOuterClass {
     int getPlatformTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlatformType platform_type = 27;</code>
@@ -282,7 +282,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 param = 8;</code>
@@ -302,7 +302,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_chat_no_disturb = 15;</code>
@@ -322,7 +322,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -332,7 +332,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 world_level = 5;</code>
@@ -342,7 +342,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_psn_source = 26;</code>
@@ -358,7 +358,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_game_source = 25;</code>
@@ -368,7 +368,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_mp_mode_available = 10;</code>
@@ -378,7 +378,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 mp_player_num = 14;</code>
@@ -388,7 +388,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 level = 3;</code>
@@ -398,7 +398,7 @@ public final class FriendBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 chat_sequence = 16;</code>
@@ -657,7 +657,7 @@ public final class FriendBriefOuterClass {
     private java.util.List<emu.grasscutter.net.proto.SocialShowAvatarInfoOuterClass.SocialShowAvatarInfo> showAvatarInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -668,7 +668,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -680,7 +680,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -691,7 +691,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -702,7 +702,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -717,7 +717,7 @@ public final class FriendBriefOuterClass {
     private volatile java.lang.Object signature_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string signature = 6;</code>
@@ -738,7 +738,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string signature = 6;</code>
@@ -801,7 +801,7 @@ public final class FriendBriefOuterClass {
     private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 24;</code>
@@ -813,7 +813,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 24;</code>
@@ -825,7 +825,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 24;</code>
@@ -877,7 +877,7 @@ public final class FriendBriefOuterClass {
     private volatile java.lang.Object remarkName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string remark_name = 17;</code>
@@ -898,7 +898,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string remark_name = 17;</code>
@@ -923,7 +923,7 @@ public final class FriendBriefOuterClass {
     private volatile java.lang.Object nickname_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string nickname = 2;</code>
@@ -944,7 +944,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string nickname = 2;</code>
@@ -969,7 +969,7 @@ public final class FriendBriefOuterClass {
     private volatile java.lang.Object onlineId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string online_id = 11;</code>
@@ -990,7 +990,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string online_id = 11;</code>
@@ -1015,7 +1015,7 @@ public final class FriendBriefOuterClass {
     private int lastActiveTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 last_active_time = 12;</code>
@@ -1030,7 +1030,7 @@ public final class FriendBriefOuterClass {
     private int friendEnterHomeOption_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FriendEnterHomeOption friend_enter_home_option = 23;</code>
@@ -1041,7 +1041,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FriendEnterHomeOption friend_enter_home_option = 23;</code>
@@ -1057,7 +1057,7 @@ public final class FriendBriefOuterClass {
     private int avatarId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 avatar_id = 4;</code>
@@ -1072,7 +1072,7 @@ public final class FriendBriefOuterClass {
     private int nameCardId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 name_card_id = 13;</code>
@@ -1087,7 +1087,7 @@ public final class FriendBriefOuterClass {
     private int onlineState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FriendOnlineState online_state = 7;</code>
@@ -1098,7 +1098,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FriendOnlineState online_state = 7;</code>
@@ -1114,7 +1114,7 @@ public final class FriendBriefOuterClass {
     private int platformType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlatformType platform_type = 27;</code>
@@ -1125,7 +1125,7 @@ public final class FriendBriefOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlatformType platform_type = 27;</code>
@@ -1141,7 +1141,7 @@ public final class FriendBriefOuterClass {
     private int param_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 param = 8;</code>
@@ -1171,7 +1171,7 @@ public final class FriendBriefOuterClass {
     private boolean isChatNoDisturb_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_chat_no_disturb = 15;</code>
@@ -1201,7 +1201,7 @@ public final class FriendBriefOuterClass {
     private int uid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -1216,7 +1216,7 @@ public final class FriendBriefOuterClass {
     private int worldLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 world_level = 5;</code>
@@ -1231,7 +1231,7 @@ public final class FriendBriefOuterClass {
     private boolean isPsnSource_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_psn_source = 26;</code>
@@ -1257,7 +1257,7 @@ public final class FriendBriefOuterClass {
     private boolean isGameSource_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_game_source = 25;</code>
@@ -1272,7 +1272,7 @@ public final class FriendBriefOuterClass {
     private boolean isMpModeAvailable_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_mp_mode_available = 10;</code>
@@ -1287,7 +1287,7 @@ public final class FriendBriefOuterClass {
     private int mpPlayerNum_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 mp_player_num = 14;</code>
@@ -1302,7 +1302,7 @@ public final class FriendBriefOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 level = 3;</code>
@@ -1317,7 +1317,7 @@ public final class FriendBriefOuterClass {
     private int chatSequence_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 chat_sequence = 16;</code>
@@ -2143,7 +2143,7 @@ public final class FriendBriefOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2157,7 +2157,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2171,7 +2171,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2185,7 +2185,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2206,7 +2206,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2224,7 +2224,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2244,7 +2244,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2265,7 +2265,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2283,7 +2283,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2301,7 +2301,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2320,7 +2320,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2337,7 +2337,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2354,7 +2354,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2365,7 +2365,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2379,7 +2379,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2394,7 +2394,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2405,7 +2405,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2417,7 +2417,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .SocialShowAvatarInfo show_avatar_info_list = 22;</code>
@@ -2444,7 +2444,7 @@ public final class FriendBriefOuterClass {
       private java.lang.Object signature_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 6;</code>
@@ -2464,7 +2464,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 6;</code>
@@ -2485,7 +2485,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 6;</code>
@@ -2504,7 +2504,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 6;</code>
@@ -2518,7 +2518,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 6;</code>
@@ -2618,7 +2618,7 @@ public final class FriendBriefOuterClass {
           emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> profilePictureBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 24;</code>
@@ -2629,7 +2629,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 24;</code>
@@ -2644,7 +2644,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 24;</code>
@@ -2664,7 +2664,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 24;</code>
@@ -2682,7 +2682,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 24;</code>
@@ -2704,7 +2704,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 24;</code>
@@ -2722,7 +2722,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 24;</code>
@@ -2734,7 +2734,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 24;</code>
@@ -2749,7 +2749,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 24;</code>
@@ -2847,7 +2847,7 @@ public final class FriendBriefOuterClass {
       private java.lang.Object remarkName_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string remark_name = 17;</code>
@@ -2867,7 +2867,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string remark_name = 17;</code>
@@ -2888,7 +2888,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string remark_name = 17;</code>
@@ -2907,7 +2907,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string remark_name = 17;</code>
@@ -2921,7 +2921,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string remark_name = 17;</code>
@@ -2943,7 +2943,7 @@ public final class FriendBriefOuterClass {
       private java.lang.Object nickname_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -2963,7 +2963,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -2984,7 +2984,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -3003,7 +3003,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -3017,7 +3017,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -3039,7 +3039,7 @@ public final class FriendBriefOuterClass {
       private java.lang.Object onlineId_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string online_id = 11;</code>
@@ -3059,7 +3059,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string online_id = 11;</code>
@@ -3080,7 +3080,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string online_id = 11;</code>
@@ -3099,7 +3099,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string online_id = 11;</code>
@@ -3113,7 +3113,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string online_id = 11;</code>
@@ -3135,7 +3135,7 @@ public final class FriendBriefOuterClass {
       private int lastActiveTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 last_active_time = 12;</code>
@@ -3147,7 +3147,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 last_active_time = 12;</code>
@@ -3162,7 +3162,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 last_active_time = 12;</code>
@@ -3178,7 +3178,7 @@ public final class FriendBriefOuterClass {
       private int friendEnterHomeOption_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendEnterHomeOption friend_enter_home_option = 23;</code>
@@ -3189,7 +3189,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendEnterHomeOption friend_enter_home_option = 23;</code>
@@ -3204,7 +3204,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendEnterHomeOption friend_enter_home_option = 23;</code>
@@ -3218,7 +3218,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendEnterHomeOption friend_enter_home_option = 23;</code>
@@ -3236,7 +3236,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendEnterHomeOption friend_enter_home_option = 23;</code>
@@ -3252,7 +3252,7 @@ public final class FriendBriefOuterClass {
       private int avatarId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 avatar_id = 4;</code>
@@ -3264,7 +3264,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 avatar_id = 4;</code>
@@ -3279,7 +3279,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 avatar_id = 4;</code>
@@ -3295,7 +3295,7 @@ public final class FriendBriefOuterClass {
       private int nameCardId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 name_card_id = 13;</code>
@@ -3307,7 +3307,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 name_card_id = 13;</code>
@@ -3322,7 +3322,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 name_card_id = 13;</code>
@@ -3338,7 +3338,7 @@ public final class FriendBriefOuterClass {
       private int onlineState_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendOnlineState online_state = 7;</code>
@@ -3349,7 +3349,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendOnlineState online_state = 7;</code>
@@ -3364,7 +3364,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendOnlineState online_state = 7;</code>
@@ -3378,7 +3378,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendOnlineState online_state = 7;</code>
@@ -3396,7 +3396,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FriendOnlineState online_state = 7;</code>
@@ -3412,7 +3412,7 @@ public final class FriendBriefOuterClass {
       private int platformType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlatformType platform_type = 27;</code>
@@ -3423,7 +3423,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlatformType platform_type = 27;</code>
@@ -3438,7 +3438,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlatformType platform_type = 27;</code>
@@ -3452,7 +3452,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlatformType platform_type = 27;</code>
@@ -3470,7 +3470,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlatformType platform_type = 27;</code>
@@ -3486,7 +3486,7 @@ public final class FriendBriefOuterClass {
       private int param_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 param = 8;</code>
@@ -3498,7 +3498,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 param = 8;</code>
@@ -3513,7 +3513,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 param = 8;</code>
@@ -3572,7 +3572,7 @@ public final class FriendBriefOuterClass {
       private boolean isChatNoDisturb_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_chat_no_disturb = 15;</code>
@@ -3584,7 +3584,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_chat_no_disturb = 15;</code>
@@ -3599,7 +3599,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_chat_no_disturb = 15;</code>
@@ -3658,7 +3658,7 @@ public final class FriendBriefOuterClass {
       private int uid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -3670,7 +3670,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -3685,7 +3685,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -3701,7 +3701,7 @@ public final class FriendBriefOuterClass {
       private int worldLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 world_level = 5;</code>
@@ -3713,7 +3713,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 world_level = 5;</code>
@@ -3728,7 +3728,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 world_level = 5;</code>
@@ -3744,7 +3744,7 @@ public final class FriendBriefOuterClass {
       private boolean isPsnSource_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_psn_source = 26;</code>
@@ -3756,7 +3756,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_psn_source = 26;</code>
@@ -3771,7 +3771,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_psn_source = 26;</code>
@@ -3818,7 +3818,7 @@ public final class FriendBriefOuterClass {
       private boolean isGameSource_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_game_source = 25;</code>
@@ -3830,7 +3830,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_game_source = 25;</code>
@@ -3845,7 +3845,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_game_source = 25;</code>
@@ -3861,7 +3861,7 @@ public final class FriendBriefOuterClass {
       private boolean isMpModeAvailable_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_mp_mode_available = 10;</code>
@@ -3873,7 +3873,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_mp_mode_available = 10;</code>
@@ -3888,7 +3888,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_mp_mode_available = 10;</code>
@@ -3904,7 +3904,7 @@ public final class FriendBriefOuterClass {
       private int mpPlayerNum_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 mp_player_num = 14;</code>
@@ -3916,7 +3916,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 mp_player_num = 14;</code>
@@ -3931,7 +3931,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 mp_player_num = 14;</code>
@@ -3947,7 +3947,7 @@ public final class FriendBriefOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level = 3;</code>
@@ -3959,7 +3959,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level = 3;</code>
@@ -3974,7 +3974,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level = 3;</code>
@@ -3990,7 +3990,7 @@ public final class FriendBriefOuterClass {
       private int chatSequence_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 chat_sequence = 16;</code>
@@ -4002,7 +4002,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 chat_sequence = 16;</code>
@@ -4017,7 +4017,7 @@ public final class FriendBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 chat_sequence = 16;</code>

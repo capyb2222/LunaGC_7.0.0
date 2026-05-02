@@ -54,7 +54,7 @@ public final class GachaStageDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stage_id = 1;</code>
@@ -64,7 +64,7 @@ public final class GachaStageDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 9;</code>
@@ -270,7 +270,7 @@ public final class GachaStageDataOuterClass {
     private int stageId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stage_id = 1;</code>
@@ -285,7 +285,7 @@ public final class GachaStageDataOuterClass {
     private boolean isOpen_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 9;</code>
@@ -798,7 +798,7 @@ public final class GachaStageDataOuterClass {
       private int stageId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_id = 1;</code>
@@ -810,7 +810,7 @@ public final class GachaStageDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_id = 1;</code>
@@ -825,7 +825,7 @@ public final class GachaStageDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_id = 1;</code>
@@ -841,7 +841,7 @@ public final class GachaStageDataOuterClass {
       private boolean isOpen_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 9;</code>
@@ -853,7 +853,7 @@ public final class GachaStageDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 9;</code>
@@ -868,7 +868,7 @@ public final class GachaStageDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 9;</code>

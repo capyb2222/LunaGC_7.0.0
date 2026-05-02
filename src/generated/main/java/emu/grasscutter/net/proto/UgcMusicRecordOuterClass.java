@@ -20,7 +20,7 @@ public final class UgcMusicRecordOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -29,7 +29,7 @@ public final class UgcMusicRecordOuterClass {
         getMusicTrackListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -37,7 +37,7 @@ public final class UgcMusicRecordOuterClass {
     emu.grasscutter.net.proto.UgcMusicTrackOuterClass.UgcMusicTrack getMusicTrackList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -45,7 +45,7 @@ public final class UgcMusicRecordOuterClass {
     int getMusicTrackListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -54,7 +54,7 @@ public final class UgcMusicRecordOuterClass {
         getMusicTrackListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -64,7 +64,7 @@ public final class UgcMusicRecordOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 music_id = 9;</code>
@@ -172,7 +172,7 @@ public final class UgcMusicRecordOuterClass {
     private java.util.List<emu.grasscutter.net.proto.UgcMusicTrackOuterClass.UgcMusicTrack> musicTrackList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -183,7 +183,7 @@ public final class UgcMusicRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -195,7 +195,7 @@ public final class UgcMusicRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -206,7 +206,7 @@ public final class UgcMusicRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -217,7 +217,7 @@ public final class UgcMusicRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -232,7 +232,7 @@ public final class UgcMusicRecordOuterClass {
     private int musicId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 music_id = 9;</code>
@@ -616,7 +616,7 @@ public final class UgcMusicRecordOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -630,7 +630,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -644,7 +644,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -658,7 +658,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -679,7 +679,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -697,7 +697,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -717,7 +717,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -738,7 +738,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -756,7 +756,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -774,7 +774,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -793,7 +793,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -810,7 +810,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -827,7 +827,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -838,7 +838,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -852,7 +852,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -867,7 +867,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -878,7 +878,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -890,7 +890,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .UgcMusicTrack music_track_list = 15;</code>
@@ -917,7 +917,7 @@ public final class UgcMusicRecordOuterClass {
       private int musicId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 music_id = 9;</code>
@@ -929,7 +929,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 music_id = 9;</code>
@@ -944,7 +944,7 @@ public final class UgcMusicRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 music_id = 9;</code>

@@ -20,7 +20,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -30,7 +30,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 1;</code>
@@ -39,7 +39,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
     int getForwardTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 1;</code>
@@ -145,7 +145,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -160,7 +160,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
     private int forwardType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 1;</code>
@@ -171,7 +171,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 1;</code>
@@ -509,7 +509,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -521,7 +521,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -536,7 +536,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -552,7 +552,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       private int forwardType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>
@@ -563,7 +563,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>
@@ -578,7 +578,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>
@@ -592,7 +592,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>
@@ -610,7 +610,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>

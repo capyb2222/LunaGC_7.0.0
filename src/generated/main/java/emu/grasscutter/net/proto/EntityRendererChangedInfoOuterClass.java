@@ -20,7 +20,7 @@ public final class EntityRendererChangedInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -28,7 +28,7 @@ public final class EntityRendererChangedInfoOuterClass {
     int getChangedRenderersCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -43,7 +43,7 @@ public final class EntityRendererChangedInfoOuterClass {
     getChangedRenderers();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -52,7 +52,7 @@ public final class EntityRendererChangedInfoOuterClass {
     getChangedRenderersMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -63,7 +63,7 @@ public final class EntityRendererChangedInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -74,7 +74,7 @@ public final class EntityRendererChangedInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_cached = 3;</code>
@@ -84,7 +84,7 @@ public final class EntityRendererChangedInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 visibility_count = 2;</code>
@@ -233,7 +233,7 @@ public final class EntityRendererChangedInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -255,7 +255,7 @@ public final class EntityRendererChangedInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -267,7 +267,7 @@ public final class EntityRendererChangedInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -284,7 +284,7 @@ public final class EntityRendererChangedInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -306,7 +306,7 @@ public final class EntityRendererChangedInfoOuterClass {
     private boolean isCached_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_cached = 3;</code>
@@ -321,7 +321,7 @@ public final class EntityRendererChangedInfoOuterClass {
     private int visibilityCount_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 visibility_count = 2;</code>
@@ -731,7 +731,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -753,7 +753,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -765,7 +765,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -782,7 +782,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -807,7 +807,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -830,7 +830,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -846,7 +846,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;string, uint32&gt; changed_renderers = 1;</code>
@@ -862,7 +862,7 @@ public final class EntityRendererChangedInfoOuterClass {
       private boolean isCached_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_cached = 3;</code>
@@ -874,7 +874,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_cached = 3;</code>
@@ -889,7 +889,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_cached = 3;</code>
@@ -905,7 +905,7 @@ public final class EntityRendererChangedInfoOuterClass {
       private int visibilityCount_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 visibility_count = 2;</code>
@@ -917,7 +917,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 visibility_count = 2;</code>
@@ -932,7 +932,7 @@ public final class EntityRendererChangedInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 visibility_count = 2;</code>

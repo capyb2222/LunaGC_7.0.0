@@ -20,7 +20,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 gadget_entity_id = 2;</code>
@@ -30,7 +30,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 gadget_id = 10;</code>
@@ -40,7 +40,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InterOpType op_type = 3;</code>
@@ -49,7 +49,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
     int getOpTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InterOpType op_type = 3;</code>
@@ -59,7 +59,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InteractType interact_type = 1;</code>
@@ -68,7 +68,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
     int getInteractTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InteractType interact_type = 1;</code>
@@ -78,7 +78,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 15;</code>
@@ -200,7 +200,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
     private int gadgetEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 gadget_entity_id = 2;</code>
@@ -215,7 +215,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
     private int gadgetId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 gadget_id = 10;</code>
@@ -230,7 +230,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
     private int opType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InterOpType op_type = 3;</code>
@@ -241,7 +241,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InterOpType op_type = 3;</code>
@@ -257,7 +257,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
     private int interactType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InteractType interact_type = 1;</code>
@@ -268,7 +268,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InteractType interact_type = 1;</code>
@@ -284,7 +284,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 15;</code>
@@ -670,7 +670,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       private int gadgetEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 2;</code>
@@ -682,7 +682,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 2;</code>
@@ -697,7 +697,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 2;</code>
@@ -713,7 +713,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       private int gadgetId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 gadget_id = 10;</code>
@@ -725,7 +725,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 gadget_id = 10;</code>
@@ -740,7 +740,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 gadget_id = 10;</code>
@@ -756,7 +756,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       private int opType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InterOpType op_type = 3;</code>
@@ -767,7 +767,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InterOpType op_type = 3;</code>
@@ -782,7 +782,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InterOpType op_type = 3;</code>
@@ -796,7 +796,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InterOpType op_type = 3;</code>
@@ -814,7 +814,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InterOpType op_type = 3;</code>
@@ -830,7 +830,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       private int interactType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InteractType interact_type = 1;</code>
@@ -841,7 +841,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InteractType interact_type = 1;</code>
@@ -856,7 +856,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InteractType interact_type = 1;</code>
@@ -870,7 +870,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InteractType interact_type = 1;</code>
@@ -888,7 +888,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InteractType interact_type = 1;</code>
@@ -904,7 +904,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 15;</code>
@@ -916,7 +916,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 15;</code>
@@ -931,7 +931,7 @@ public final class MiracleRingDeliverItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 15;</code>

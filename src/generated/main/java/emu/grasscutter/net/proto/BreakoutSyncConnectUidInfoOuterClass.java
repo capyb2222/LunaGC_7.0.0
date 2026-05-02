@@ -20,7 +20,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_level_list = 3;</code>
@@ -29,7 +29,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     java.util.List<java.lang.Integer> getSkillLevelListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_level_list = 3;</code>
@@ -38,7 +38,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     int getSkillLevelListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_level_list = 3;</code>
@@ -49,7 +49,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_id_list = 2;</code>
@@ -58,7 +58,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     java.util.List<java.lang.Integer> getSkillIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_id_list = 2;</code>
@@ -67,7 +67,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     int getSkillIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_id_list = 2;</code>
@@ -78,7 +78,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -223,7 +223,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     private com.google.protobuf.Internal.IntList skillLevelList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_level_list = 3;</code>
@@ -236,7 +236,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_level_list = 3;</code>
@@ -247,7 +247,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_level_list = 3;</code>
@@ -263,7 +263,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     private com.google.protobuf.Internal.IntList skillIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_id_list = 2;</code>
@@ -276,7 +276,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_id_list = 2;</code>
@@ -287,7 +287,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 skill_id_list = 2;</code>
@@ -303,7 +303,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
     private int uid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -716,7 +716,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_level_list = 3;</code>
@@ -729,7 +729,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_level_list = 3;</code>
@@ -740,7 +740,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_level_list = 3;</code>
@@ -752,7 +752,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_level_list = 3;</code>
@@ -769,7 +769,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_level_list = 3;</code>
@@ -784,7 +784,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_level_list = 3;</code>
@@ -801,7 +801,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_level_list = 3;</code>
@@ -823,7 +823,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_id_list = 2;</code>
@@ -836,7 +836,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_id_list = 2;</code>
@@ -847,7 +847,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_id_list = 2;</code>
@@ -859,7 +859,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_id_list = 2;</code>
@@ -876,7 +876,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_id_list = 2;</code>
@@ -891,7 +891,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_id_list = 2;</code>
@@ -908,7 +908,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 skill_id_list = 2;</code>
@@ -924,7 +924,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       private int uid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -936,7 +936,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -951,7 +951,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>

@@ -20,7 +20,7 @@ public final class AvatarAddNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarInfo avatar = 12;</code>
@@ -29,7 +29,7 @@ public final class AvatarAddNotifyOuterClass {
     boolean hasAvatar();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarInfo avatar = 12;</code>
@@ -38,7 +38,7 @@ public final class AvatarAddNotifyOuterClass {
     emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo getAvatar();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarInfo avatar = 12;</code>
@@ -47,7 +47,7 @@ public final class AvatarAddNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_in_team = 3;</code>
@@ -158,7 +158,7 @@ public final class AvatarAddNotifyOuterClass {
     private emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo avatar_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarInfo avatar = 12;</code>
@@ -170,7 +170,7 @@ public final class AvatarAddNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarInfo avatar = 12;</code>
@@ -182,7 +182,7 @@ public final class AvatarAddNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarInfo avatar = 12;</code>
@@ -196,7 +196,7 @@ public final class AvatarAddNotifyOuterClass {
     private boolean isInTeam_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_in_team = 3;</code>
@@ -549,7 +549,7 @@ public final class AvatarAddNotifyOuterClass {
           emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder> avatarBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarInfo avatar = 12;</code>
@@ -560,7 +560,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarInfo avatar = 12;</code>
@@ -575,7 +575,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarInfo avatar = 12;</code>
@@ -595,7 +595,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarInfo avatar = 12;</code>
@@ -613,7 +613,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarInfo avatar = 12;</code>
@@ -635,7 +635,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarInfo avatar = 12;</code>
@@ -653,7 +653,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarInfo avatar = 12;</code>
@@ -665,7 +665,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarInfo avatar = 12;</code>
@@ -680,7 +680,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarInfo avatar = 12;</code>
@@ -702,7 +702,7 @@ public final class AvatarAddNotifyOuterClass {
       private boolean isInTeam_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_in_team = 3;</code>
@@ -714,7 +714,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_in_team = 3;</code>
@@ -729,7 +729,7 @@ public final class AvatarAddNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_in_team = 3;</code>

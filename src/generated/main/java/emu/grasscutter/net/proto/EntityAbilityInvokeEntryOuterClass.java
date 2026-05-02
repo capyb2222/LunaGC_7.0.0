@@ -20,7 +20,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -29,7 +29,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
         getInvokesList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -37,7 +37,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
     emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvokes(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -45,7 +45,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
     int getInvokesCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -54,7 +54,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
         getInvokesOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -64,7 +64,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 14;</code>
@@ -172,7 +172,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> invokes_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -183,7 +183,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -195,7 +195,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -206,7 +206,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -217,7 +217,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -232,7 +232,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 14;</code>
@@ -616,7 +616,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -630,7 +630,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -644,7 +644,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -658,7 +658,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -679,7 +679,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -697,7 +697,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -717,7 +717,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -738,7 +738,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -756,7 +756,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -774,7 +774,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -793,7 +793,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -810,7 +810,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -827,7 +827,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -838,7 +838,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -852,7 +852,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -867,7 +867,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -878,7 +878,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -890,7 +890,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
@@ -917,7 +917,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 14;</code>
@@ -929,7 +929,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 14;</code>
@@ -944,7 +944,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 14;</code>

@@ -20,7 +20,7 @@ public final class MonsterRouteOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -29,7 +29,7 @@ public final class MonsterRouteOuterClass {
         getRoutePointsList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -37,7 +37,7 @@ public final class MonsterRouteOuterClass {
     emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint getRoutePoints(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -45,7 +45,7 @@ public final class MonsterRouteOuterClass {
     int getRoutePointsCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -54,7 +54,7 @@ public final class MonsterRouteOuterClass {
         getRoutePointsOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -64,7 +64,7 @@ public final class MonsterRouteOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 route_type = 3;</code>
@@ -92,7 +92,7 @@ public final class MonsterRouteOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float arrive_range = 4;</code>
@@ -220,7 +220,7 @@ public final class MonsterRouteOuterClass {
     private java.util.List<emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint> routePoints_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -231,7 +231,7 @@ public final class MonsterRouteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -243,7 +243,7 @@ public final class MonsterRouteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -254,7 +254,7 @@ public final class MonsterRouteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -265,7 +265,7 @@ public final class MonsterRouteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoutePoint route_points = 1;</code>
@@ -280,7 +280,7 @@ public final class MonsterRouteOuterClass {
     private int routeType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 route_type = 3;</code>
@@ -328,7 +328,7 @@ public final class MonsterRouteOuterClass {
     private float arriveRange_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float arrive_range = 4;</code>
@@ -784,7 +784,7 @@ public final class MonsterRouteOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -798,7 +798,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -812,7 +812,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -826,7 +826,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -847,7 +847,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -865,7 +865,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -885,7 +885,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -906,7 +906,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -924,7 +924,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -942,7 +942,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -961,7 +961,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -978,7 +978,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -995,7 +995,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -1006,7 +1006,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -1020,7 +1020,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -1035,7 +1035,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -1046,7 +1046,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -1058,7 +1058,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoutePoint route_points = 1;</code>
@@ -1085,7 +1085,7 @@ public final class MonsterRouteOuterClass {
       private int routeType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 route_type = 3;</code>
@@ -1097,7 +1097,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 route_type = 3;</code>
@@ -1112,7 +1112,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 route_type = 3;</code>
@@ -1221,7 +1221,7 @@ public final class MonsterRouteOuterClass {
       private float arriveRange_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float arrive_range = 4;</code>
@@ -1233,7 +1233,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float arrive_range = 4;</code>
@@ -1248,7 +1248,7 @@ public final class MonsterRouteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float arrive_range = 4;</code>

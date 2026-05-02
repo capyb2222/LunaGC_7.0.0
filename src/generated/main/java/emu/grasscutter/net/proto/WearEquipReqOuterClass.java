@@ -20,7 +20,7 @@ public final class WearEquipReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint64 equip_guid = 5;</code>
@@ -30,7 +30,7 @@ public final class WearEquipReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint64 avatar_guid = 12;</code>
@@ -133,7 +133,7 @@ public final class WearEquipReqOuterClass {
     private long equipGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint64 equip_guid = 5;</code>
@@ -148,7 +148,7 @@ public final class WearEquipReqOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint64 avatar_guid = 12;</code>
@@ -487,7 +487,7 @@ public final class WearEquipReqOuterClass {
       private long equipGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint64 equip_guid = 5;</code>
@@ -499,7 +499,7 @@ public final class WearEquipReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint64 equip_guid = 5;</code>
@@ -514,7 +514,7 @@ public final class WearEquipReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint64 equip_guid = 5;</code>
@@ -530,7 +530,7 @@ public final class WearEquipReqOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint64 avatar_guid = 12;</code>
@@ -542,7 +542,7 @@ public final class WearEquipReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint64 avatar_guid = 12;</code>
@@ -557,7 +557,7 @@ public final class WearEquipReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint64 avatar_guid = 12;</code>

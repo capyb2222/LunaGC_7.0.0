@@ -20,7 +20,7 @@ public final class EnterWorldAreaReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 area_type = 13;</code>
@@ -30,7 +30,7 @@ public final class EnterWorldAreaReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 area_id = 8;</code>
@@ -133,7 +133,7 @@ public final class EnterWorldAreaReqOuterClass {
     private int areaType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 area_type = 13;</code>
@@ -148,7 +148,7 @@ public final class EnterWorldAreaReqOuterClass {
     private int areaId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 area_id = 8;</code>
@@ -485,7 +485,7 @@ public final class EnterWorldAreaReqOuterClass {
       private int areaType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_type = 13;</code>
@@ -497,7 +497,7 @@ public final class EnterWorldAreaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_type = 13;</code>
@@ -512,7 +512,7 @@ public final class EnterWorldAreaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_type = 13;</code>
@@ -528,7 +528,7 @@ public final class EnterWorldAreaReqOuterClass {
       private int areaId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_id = 8;</code>
@@ -540,7 +540,7 @@ public final class EnterWorldAreaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_id = 8;</code>
@@ -555,7 +555,7 @@ public final class EnterWorldAreaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_id = 8;</code>

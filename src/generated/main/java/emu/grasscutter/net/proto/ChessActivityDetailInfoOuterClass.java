@@ -20,7 +20,7 @@ public final class ChessActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 10;</code>
@@ -36,7 +36,7 @@ public final class ChessActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 exp = 9;</code>
@@ -52,7 +52,7 @@ public final class ChessActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 level = 4;</code>
@@ -68,7 +68,7 @@ public final class ChessActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 6;</code>
@@ -192,7 +192,7 @@ public final class ChessActivityDetailInfoOuterClass {
     private boolean isContentClosed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 10;</code>
@@ -218,7 +218,7 @@ public final class ChessActivityDetailInfoOuterClass {
     private int exp_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 exp = 9;</code>
@@ -244,7 +244,7 @@ public final class ChessActivityDetailInfoOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 level = 4;</code>
@@ -270,7 +270,7 @@ public final class ChessActivityDetailInfoOuterClass {
     private int contentCloseTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 6;</code>
@@ -690,7 +690,7 @@ public final class ChessActivityDetailInfoOuterClass {
       private boolean isContentClosed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 10;</code>
@@ -702,7 +702,7 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 10;</code>
@@ -717,7 +717,7 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 10;</code>
@@ -764,7 +764,7 @@ public final class ChessActivityDetailInfoOuterClass {
       private int exp_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 exp = 9;</code>
@@ -776,7 +776,7 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 exp = 9;</code>
@@ -791,7 +791,7 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 exp = 9;</code>
@@ -838,7 +838,7 @@ public final class ChessActivityDetailInfoOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level = 4;</code>
@@ -850,7 +850,7 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level = 4;</code>
@@ -865,7 +865,7 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level = 4;</code>
@@ -912,7 +912,7 @@ public final class ChessActivityDetailInfoOuterClass {
       private int contentCloseTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 6;</code>
@@ -924,7 +924,7 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 6;</code>
@@ -939,7 +939,7 @@ public final class ChessActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 6;</code>

@@ -20,7 +20,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -29,7 +29,7 @@ public final class SceneEntityInfoOuterClass {
     boolean hasEntityAuthorityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -38,7 +38,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfo getEntityAuthorityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -47,7 +47,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -56,7 +56,7 @@ public final class SceneEntityInfoOuterClass {
         getServerBuffListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -64,7 +64,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -72,7 +72,7 @@ public final class SceneEntityInfoOuterClass {
     int getServerBuffListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -81,7 +81,7 @@ public final class SceneEntityInfoOuterClass {
         getServerBuffListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -91,7 +91,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -100,7 +100,7 @@ public final class SceneEntityInfoOuterClass {
         getPropListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -108,7 +108,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.PropPairOuterClass.PropPair getPropList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -116,7 +116,7 @@ public final class SceneEntityInfoOuterClass {
     int getPropListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -125,7 +125,7 @@ public final class SceneEntityInfoOuterClass {
         getPropListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -135,7 +135,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -144,7 +144,7 @@ public final class SceneEntityInfoOuterClass {
         getEntityEnvironmentInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -152,7 +152,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo getEntityEnvironmentInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -160,7 +160,7 @@ public final class SceneEntityInfoOuterClass {
     int getEntityEnvironmentInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -169,7 +169,7 @@ public final class SceneEntityInfoOuterClass {
         getEntityEnvironmentInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -179,7 +179,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string tag_list = 22;</code>
@@ -189,7 +189,7 @@ public final class SceneEntityInfoOuterClass {
         getTagListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string tag_list = 22;</code>
@@ -198,7 +198,7 @@ public final class SceneEntityInfoOuterClass {
     int getTagListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string tag_list = 22;</code>
@@ -208,7 +208,7 @@ public final class SceneEntityInfoOuterClass {
     java.lang.String getTagList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string tag_list = 22;</code>
@@ -220,7 +220,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 4;</code>
@@ -229,7 +229,7 @@ public final class SceneEntityInfoOuterClass {
     boolean hasMotionInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 4;</code>
@@ -238,7 +238,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo getMotionInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 4;</code>
@@ -247,7 +247,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -256,7 +256,7 @@ public final class SceneEntityInfoOuterClass {
         getAnimatorParaListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -264,7 +264,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair getAnimatorParaList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -272,7 +272,7 @@ public final class SceneEntityInfoOuterClass {
     int getAnimatorParaListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -281,7 +281,7 @@ public final class SceneEntityInfoOuterClass {
         getAnimatorParaListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -291,7 +291,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 19;</code>
@@ -300,7 +300,7 @@ public final class SceneEntityInfoOuterClass {
     boolean hasEntityClientData();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 19;</code>
@@ -309,7 +309,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData getEntityClientData();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 19;</code>
@@ -318,7 +318,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 3;</code>
@@ -327,7 +327,7 @@ public final class SceneEntityInfoOuterClass {
     java.lang.String getName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 3;</code>
@@ -338,7 +338,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -347,7 +347,7 @@ public final class SceneEntityInfoOuterClass {
         getFightPropListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -355,7 +355,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair getFightPropList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -363,7 +363,7 @@ public final class SceneEntityInfoOuterClass {
     int getFightPropListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -372,7 +372,7 @@ public final class SceneEntityInfoOuterClass {
         getFightPropListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -382,7 +382,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProtEntityType entity_type = 1;</code>
@@ -391,7 +391,7 @@ public final class SceneEntityInfoOuterClass {
     int getEntityTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProtEntityType entity_type = 1;</code>
@@ -401,7 +401,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 last_move_scene_time_ms = 17;</code>
@@ -411,7 +411,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 life_state = 7;</code>
@@ -421,7 +421,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 last_move_reliable_seq = 18;</code>
@@ -431,7 +431,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 2;</code>
@@ -441,7 +441,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -450,7 +450,7 @@ public final class SceneEntityInfoOuterClass {
     boolean hasAvatar();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -459,7 +459,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo getAvatar();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -468,7 +468,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneMonsterInfo monster = 11;</code>
@@ -477,7 +477,7 @@ public final class SceneEntityInfoOuterClass {
     boolean hasMonster();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneMonsterInfo monster = 11;</code>
@@ -486,7 +486,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.SceneMonsterInfo getMonster();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneMonsterInfo monster = 11;</code>
@@ -495,7 +495,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneNpcInfo npc = 12;</code>
@@ -504,7 +504,7 @@ public final class SceneEntityInfoOuterClass {
     boolean hasNpc();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneNpcInfo npc = 12;</code>
@@ -513,7 +513,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.SceneNpcInfoOuterClass.SceneNpcInfo getNpc();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneNpcInfo npc = 12;</code>
@@ -522,7 +522,7 @@ public final class SceneEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -531,7 +531,7 @@ public final class SceneEntityInfoOuterClass {
     boolean hasGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -540,7 +540,7 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo getGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -883,7 +883,7 @@ public final class SceneEntityInfoOuterClass {
     private emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfo entityAuthorityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -895,7 +895,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -907,7 +907,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -921,7 +921,7 @@ public final class SceneEntityInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -932,7 +932,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -944,7 +944,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -955,7 +955,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -966,7 +966,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -981,7 +981,7 @@ public final class SceneEntityInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.PropPairOuterClass.PropPair> propList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -992,7 +992,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -1004,7 +1004,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -1015,7 +1015,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -1026,7 +1026,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PropPair prop_list = 5;</code>
@@ -1041,7 +1041,7 @@ public final class SceneEntityInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.EntityEnvironmentInfo> entityEnvironmentInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -1052,7 +1052,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -1064,7 +1064,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -1075,7 +1075,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -1086,7 +1086,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -1101,7 +1101,7 @@ public final class SceneEntityInfoOuterClass {
     private com.google.protobuf.LazyStringList tagList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string tag_list = 22;</code>
@@ -1113,7 +1113,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string tag_list = 22;</code>
@@ -1124,7 +1124,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string tag_list = 22;</code>
@@ -1136,7 +1136,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string tag_list = 22;</code>
@@ -1152,7 +1152,7 @@ public final class SceneEntityInfoOuterClass {
     private emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo motionInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 4;</code>
@@ -1164,7 +1164,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 4;</code>
@@ -1176,7 +1176,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 4;</code>
@@ -1190,7 +1190,7 @@ public final class SceneEntityInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair> animatorParaList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -1201,7 +1201,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -1213,7 +1213,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -1224,7 +1224,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -1235,7 +1235,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -1250,7 +1250,7 @@ public final class SceneEntityInfoOuterClass {
     private emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData entityClientData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 19;</code>
@@ -1262,7 +1262,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 19;</code>
@@ -1274,7 +1274,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 19;</code>
@@ -1288,7 +1288,7 @@ public final class SceneEntityInfoOuterClass {
     private volatile java.lang.Object name_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 3;</code>
@@ -1309,7 +1309,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 3;</code>
@@ -1334,7 +1334,7 @@ public final class SceneEntityInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.FightPropPairOuterClass.FightPropPair> fightPropList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -1345,7 +1345,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -1357,7 +1357,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -1368,7 +1368,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -1379,7 +1379,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -1394,7 +1394,7 @@ public final class SceneEntityInfoOuterClass {
     private int entityType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProtEntityType entity_type = 1;</code>
@@ -1405,7 +1405,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProtEntityType entity_type = 1;</code>
@@ -1421,7 +1421,7 @@ public final class SceneEntityInfoOuterClass {
     private int lastMoveSceneTimeMs_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 last_move_scene_time_ms = 17;</code>
@@ -1436,7 +1436,7 @@ public final class SceneEntityInfoOuterClass {
     private int lifeState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 life_state = 7;</code>
@@ -1451,7 +1451,7 @@ public final class SceneEntityInfoOuterClass {
     private int lastMoveReliableSeq_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 last_move_reliable_seq = 18;</code>
@@ -1466,7 +1466,7 @@ public final class SceneEntityInfoOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 2;</code>
@@ -1480,7 +1480,7 @@ public final class SceneEntityInfoOuterClass {
     public static final int AVATAR_FIELD_NUMBER = 10;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -1492,7 +1492,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -1507,7 +1507,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -1523,7 +1523,7 @@ public final class SceneEntityInfoOuterClass {
     public static final int MONSTER_FIELD_NUMBER = 11;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneMonsterInfo monster = 11;</code>
@@ -1535,7 +1535,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneMonsterInfo monster = 11;</code>
@@ -1550,7 +1550,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneMonsterInfo monster = 11;</code>
@@ -1566,7 +1566,7 @@ public final class SceneEntityInfoOuterClass {
     public static final int NPC_FIELD_NUMBER = 12;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneNpcInfo npc = 12;</code>
@@ -1578,7 +1578,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneNpcInfo npc = 12;</code>
@@ -1593,7 +1593,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneNpcInfo npc = 12;</code>
@@ -1609,7 +1609,7 @@ public final class SceneEntityInfoOuterClass {
     public static final int GADGET_FIELD_NUMBER = 13;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -1621,7 +1621,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -1636,7 +1636,7 @@ public final class SceneEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -2577,7 +2577,7 @@ public final class SceneEntityInfoOuterClass {
           emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfo, emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfo.Builder, emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.EntityAuthorityInfoOrBuilder> entityAuthorityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -2588,7 +2588,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -2603,7 +2603,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -2623,7 +2623,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -2641,7 +2641,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -2663,7 +2663,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -2681,7 +2681,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -2693,7 +2693,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -2708,7 +2708,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityAuthorityInfo entity_authority_info = 21;</code>
@@ -2741,7 +2741,7 @@ public final class SceneEntityInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2755,7 +2755,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2769,7 +2769,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2783,7 +2783,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2804,7 +2804,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2822,7 +2822,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2842,7 +2842,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2863,7 +2863,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2881,7 +2881,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2899,7 +2899,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2918,7 +2918,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2935,7 +2935,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2952,7 +2952,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2963,7 +2963,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2977,7 +2977,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -2992,7 +2992,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -3003,7 +3003,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -3015,7 +3015,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 23;</code>
@@ -3053,7 +3053,7 @@ public final class SceneEntityInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3067,7 +3067,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3081,7 +3081,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3095,7 +3095,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3116,7 +3116,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3134,7 +3134,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3154,7 +3154,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3175,7 +3175,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3193,7 +3193,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3211,7 +3211,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3230,7 +3230,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3247,7 +3247,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3264,7 +3264,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3275,7 +3275,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3289,7 +3289,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3304,7 +3304,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3315,7 +3315,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3327,7 +3327,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PropPair prop_list = 5;</code>
@@ -3365,7 +3365,7 @@ public final class SceneEntityInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3379,7 +3379,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3393,7 +3393,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3407,7 +3407,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3428,7 +3428,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3446,7 +3446,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3466,7 +3466,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3487,7 +3487,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3505,7 +3505,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3523,7 +3523,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3542,7 +3542,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3559,7 +3559,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3576,7 +3576,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3587,7 +3587,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3601,7 +3601,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3616,7 +3616,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3627,7 +3627,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3639,7 +3639,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EntityEnvironmentInfo entity_environment_info_list = 20;</code>
@@ -3672,7 +3672,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string tag_list = 22;</code>
@@ -3684,7 +3684,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string tag_list = 22;</code>
@@ -3695,7 +3695,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string tag_list = 22;</code>
@@ -3707,7 +3707,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string tag_list = 22;</code>
@@ -3720,7 +3720,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string tag_list = 22;</code>
@@ -3740,7 +3740,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string tag_list = 22;</code>
@@ -3759,7 +3759,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string tag_list = 22;</code>
@@ -3776,7 +3776,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string tag_list = 22;</code>
@@ -3790,7 +3790,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string tag_list = 22;</code>
@@ -3814,7 +3814,7 @@ public final class SceneEntityInfoOuterClass {
           emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo, emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo.Builder, emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfoOrBuilder> motionInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 4;</code>
@@ -3825,7 +3825,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 4;</code>
@@ -3840,7 +3840,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 4;</code>
@@ -3860,7 +3860,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 4;</code>
@@ -3878,7 +3878,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 4;</code>
@@ -3900,7 +3900,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 4;</code>
@@ -3918,7 +3918,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 4;</code>
@@ -3930,7 +3930,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 4;</code>
@@ -3945,7 +3945,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 4;</code>
@@ -3978,7 +3978,7 @@ public final class SceneEntityInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -3992,7 +3992,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4006,7 +4006,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4020,7 +4020,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4041,7 +4041,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4059,7 +4059,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4079,7 +4079,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4100,7 +4100,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4118,7 +4118,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4136,7 +4136,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4155,7 +4155,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4172,7 +4172,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4189,7 +4189,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4200,7 +4200,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4214,7 +4214,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4229,7 +4229,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4240,7 +4240,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4252,7 +4252,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair animator_para_list = 9;</code>
@@ -4281,7 +4281,7 @@ public final class SceneEntityInfoOuterClass {
           emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder> entityClientDataBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 19;</code>
@@ -4292,7 +4292,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 19;</code>
@@ -4307,7 +4307,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 19;</code>
@@ -4327,7 +4327,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 19;</code>
@@ -4345,7 +4345,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 19;</code>
@@ -4367,7 +4367,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 19;</code>
@@ -4385,7 +4385,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 19;</code>
@@ -4397,7 +4397,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 19;</code>
@@ -4412,7 +4412,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 19;</code>
@@ -4434,7 +4434,7 @@ public final class SceneEntityInfoOuterClass {
       private java.lang.Object name_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 3;</code>
@@ -4454,7 +4454,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 3;</code>
@@ -4475,7 +4475,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 3;</code>
@@ -4494,7 +4494,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 3;</code>
@@ -4508,7 +4508,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 3;</code>
@@ -4541,7 +4541,7 @@ public final class SceneEntityInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4555,7 +4555,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4569,7 +4569,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4583,7 +4583,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4604,7 +4604,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4622,7 +4622,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4642,7 +4642,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4663,7 +4663,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4681,7 +4681,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4699,7 +4699,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4718,7 +4718,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4735,7 +4735,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4752,7 +4752,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4763,7 +4763,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4777,7 +4777,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4792,7 +4792,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4803,7 +4803,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4815,7 +4815,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FightPropPair fight_prop_list = 6;</code>
@@ -4842,7 +4842,7 @@ public final class SceneEntityInfoOuterClass {
       private int entityType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProtEntityType entity_type = 1;</code>
@@ -4853,7 +4853,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProtEntityType entity_type = 1;</code>
@@ -4868,7 +4868,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProtEntityType entity_type = 1;</code>
@@ -4882,7 +4882,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProtEntityType entity_type = 1;</code>
@@ -4900,7 +4900,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProtEntityType entity_type = 1;</code>
@@ -4916,7 +4916,7 @@ public final class SceneEntityInfoOuterClass {
       private int lastMoveSceneTimeMs_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 last_move_scene_time_ms = 17;</code>
@@ -4928,7 +4928,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 last_move_scene_time_ms = 17;</code>
@@ -4943,7 +4943,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 last_move_scene_time_ms = 17;</code>
@@ -4959,7 +4959,7 @@ public final class SceneEntityInfoOuterClass {
       private int lifeState_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 7;</code>
@@ -4971,7 +4971,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 7;</code>
@@ -4986,7 +4986,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 7;</code>
@@ -5002,7 +5002,7 @@ public final class SceneEntityInfoOuterClass {
       private int lastMoveReliableSeq_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 last_move_reliable_seq = 18;</code>
@@ -5014,7 +5014,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 last_move_reliable_seq = 18;</code>
@@ -5029,7 +5029,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 last_move_reliable_seq = 18;</code>
@@ -5045,7 +5045,7 @@ public final class SceneEntityInfoOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -5057,7 +5057,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -5072,7 +5072,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -5089,7 +5089,7 @@ public final class SceneEntityInfoOuterClass {
           emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.Builder, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfoOrBuilder> avatarBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -5101,7 +5101,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -5123,7 +5123,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -5143,7 +5143,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -5161,7 +5161,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -5187,7 +5187,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -5210,7 +5210,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -5220,7 +5220,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -5238,7 +5238,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneAvatarInfo avatar = 10;</code>
@@ -5266,7 +5266,7 @@ public final class SceneEntityInfoOuterClass {
           emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.SceneMonsterInfo, emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.SceneMonsterInfo.Builder, emu.grasscutter.net.proto.SceneMonsterInfoOuterClass.SceneMonsterInfoOrBuilder> monsterBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneMonsterInfo monster = 11;</code>
@@ -5278,7 +5278,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneMonsterInfo monster = 11;</code>
@@ -5300,7 +5300,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneMonsterInfo monster = 11;</code>
@@ -5320,7 +5320,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneMonsterInfo monster = 11;</code>
@@ -5338,7 +5338,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneMonsterInfo monster = 11;</code>
@@ -5364,7 +5364,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneMonsterInfo monster = 11;</code>
@@ -5387,7 +5387,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneMonsterInfo monster = 11;</code>
@@ -5397,7 +5397,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneMonsterInfo monster = 11;</code>
@@ -5415,7 +5415,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneMonsterInfo monster = 11;</code>
@@ -5443,7 +5443,7 @@ public final class SceneEntityInfoOuterClass {
           emu.grasscutter.net.proto.SceneNpcInfoOuterClass.SceneNpcInfo, emu.grasscutter.net.proto.SceneNpcInfoOuterClass.SceneNpcInfo.Builder, emu.grasscutter.net.proto.SceneNpcInfoOuterClass.SceneNpcInfoOrBuilder> npcBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneNpcInfo npc = 12;</code>
@@ -5455,7 +5455,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneNpcInfo npc = 12;</code>
@@ -5477,7 +5477,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneNpcInfo npc = 12;</code>
@@ -5497,7 +5497,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneNpcInfo npc = 12;</code>
@@ -5515,7 +5515,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneNpcInfo npc = 12;</code>
@@ -5541,7 +5541,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneNpcInfo npc = 12;</code>
@@ -5564,7 +5564,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneNpcInfo npc = 12;</code>
@@ -5574,7 +5574,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneNpcInfo npc = 12;</code>
@@ -5592,7 +5592,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneNpcInfo npc = 12;</code>
@@ -5620,7 +5620,7 @@ public final class SceneEntityInfoOuterClass {
           emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo, emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfo.Builder, emu.grasscutter.net.proto.SceneGadgetInfoOuterClass.SceneGadgetInfoOrBuilder> gadgetBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -5632,7 +5632,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -5654,7 +5654,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -5674,7 +5674,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -5692,7 +5692,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -5718,7 +5718,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -5741,7 +5741,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -5751,7 +5751,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneGadgetInfo gadget = 13;</code>
@@ -5769,7 +5769,7 @@ public final class SceneEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneGadgetInfo gadget = 13;</code>

@@ -20,7 +20,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 server_buff_uid = 10;</code>
@@ -30,7 +30,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 13;</code>
@@ -40,7 +40,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_id = 1;</code>
@@ -50,7 +50,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 11;</code>
@@ -66,7 +66,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 local_id = 14;</code>
@@ -76,7 +76,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 modifier_config_local_id = 6;</code>
@@ -200,7 +200,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
     private int serverBuffUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 server_buff_uid = 10;</code>
@@ -215,7 +215,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
     private int instancedModifierId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 13;</code>
@@ -230,7 +230,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
     private int targetId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_id = 1;</code>
@@ -245,7 +245,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
     private int instancedAbilityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 11;</code>
@@ -271,7 +271,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
     private int localId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 local_id = 14;</code>
@@ -286,7 +286,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
     private int modifierConfigLocalId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 modifier_config_local_id = 6;</code>
@@ -705,7 +705,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       private int serverBuffUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 server_buff_uid = 10;</code>
@@ -717,7 +717,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 server_buff_uid = 10;</code>
@@ -732,7 +732,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 server_buff_uid = 10;</code>
@@ -748,7 +748,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       private int instancedModifierId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 13;</code>
@@ -760,7 +760,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 13;</code>
@@ -775,7 +775,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 13;</code>
@@ -791,7 +791,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       private int targetId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_id = 1;</code>
@@ -803,7 +803,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_id = 1;</code>
@@ -818,7 +818,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_id = 1;</code>
@@ -834,7 +834,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       private int instancedAbilityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 11;</code>
@@ -846,7 +846,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 11;</code>
@@ -861,7 +861,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 11;</code>
@@ -908,7 +908,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       private int localId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 local_id = 14;</code>
@@ -920,7 +920,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 local_id = 14;</code>
@@ -935,7 +935,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 local_id = 14;</code>
@@ -951,7 +951,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       private int modifierConfigLocalId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 modifier_config_local_id = 6;</code>
@@ -963,7 +963,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 modifier_config_local_id = 6;</code>
@@ -978,7 +978,7 @@ public final class AbilityInvokeEntryHeadOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 modifier_config_local_id = 6;</code>

@@ -20,7 +20,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -29,7 +29,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
     boolean hasWorldRoutineType();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -38,7 +38,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
     emu.grasscutter.net.proto.WorldRoutineTypeInfoOuterClass.WorldRoutineTypeInfo getWorldRoutineType();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -143,7 +143,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
     private emu.grasscutter.net.proto.WorldRoutineTypeInfoOuterClass.WorldRoutineTypeInfo worldRoutineType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -155,7 +155,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -167,7 +167,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -501,7 +501,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
           emu.grasscutter.net.proto.WorldRoutineTypeInfoOuterClass.WorldRoutineTypeInfo, emu.grasscutter.net.proto.WorldRoutineTypeInfoOuterClass.WorldRoutineTypeInfo.Builder, emu.grasscutter.net.proto.WorldRoutineTypeInfoOuterClass.WorldRoutineTypeInfoOrBuilder> worldRoutineTypeBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -512,7 +512,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -527,7 +527,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -547,7 +547,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -565,7 +565,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -587,7 +587,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -605,7 +605,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -617,7 +617,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>
@@ -632,7 +632,7 @@ public final class WorldRoutineTypeRefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineTypeInfo world_routine_type = 4;</code>

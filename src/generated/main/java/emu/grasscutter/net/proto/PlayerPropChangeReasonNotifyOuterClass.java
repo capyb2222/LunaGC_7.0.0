@@ -20,7 +20,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.PropChangeReason reason = 1;</code>
@@ -29,7 +29,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
     int getReasonValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.PropChangeReason reason = 1;</code>
@@ -39,7 +39,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 prop_type = 11;</code>
@@ -49,7 +49,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float cur_value = 10;</code>
@@ -59,7 +59,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float old_value = 12;</code>
@@ -174,7 +174,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
     private int reason_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.PropChangeReason reason = 1;</code>
@@ -185,7 +185,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.PropChangeReason reason = 1;</code>
@@ -201,7 +201,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
     private int propType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 prop_type = 11;</code>
@@ -216,7 +216,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
     private float curValue_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float cur_value = 10;</code>
@@ -231,7 +231,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
     private float oldValue_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float old_value = 12;</code>
@@ -605,7 +605,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       private int reason_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.PropChangeReason reason = 1;</code>
@@ -616,7 +616,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.PropChangeReason reason = 1;</code>
@@ -631,7 +631,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.PropChangeReason reason = 1;</code>
@@ -645,7 +645,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.PropChangeReason reason = 1;</code>
@@ -663,7 +663,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.PropChangeReason reason = 1;</code>
@@ -679,7 +679,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       private int propType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 prop_type = 11;</code>
@@ -691,7 +691,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 prop_type = 11;</code>
@@ -706,7 +706,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 prop_type = 11;</code>
@@ -722,7 +722,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       private float curValue_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float cur_value = 10;</code>
@@ -734,7 +734,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float cur_value = 10;</code>
@@ -749,7 +749,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float cur_value = 10;</code>
@@ -765,7 +765,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       private float oldValue_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float old_value = 12;</code>
@@ -777,7 +777,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float old_value = 12;</code>
@@ -792,7 +792,7 @@ public final class PlayerPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float old_value = 12;</code>

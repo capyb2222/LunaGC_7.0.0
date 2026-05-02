@@ -20,7 +20,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -29,7 +29,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
     boolean hasEntityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -38,7 +38,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
     emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo getEntityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -143,7 +143,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
     private emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo entityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -155,7 +155,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -167,7 +167,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -501,7 +501,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
           emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder> entityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -512,7 +512,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -527,7 +527,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -547,7 +547,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -565,7 +565,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -587,7 +587,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -605,7 +605,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -617,7 +617,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityInfo entity_info = 7;</code>
@@ -632,7 +632,7 @@ public final class AvatarChangeCostumeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityInfo entity_info = 7;</code>

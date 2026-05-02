@@ -20,7 +20,7 @@ public final class TrialAvatarGrantRecordOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 from_parent_quest_id = 2;</code>
@@ -30,7 +30,7 @@ public final class TrialAvatarGrantRecordOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 grant_reason = 1;</code>
@@ -129,7 +129,7 @@ public final class TrialAvatarGrantRecordOuterClass {
     private int fromParentQuestId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 from_parent_quest_id = 2;</code>
@@ -144,7 +144,7 @@ public final class TrialAvatarGrantRecordOuterClass {
     private int grantReason_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 grant_reason = 1;</code>
@@ -477,7 +477,7 @@ public final class TrialAvatarGrantRecordOuterClass {
       private int fromParentQuestId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 from_parent_quest_id = 2;</code>
@@ -489,7 +489,7 @@ public final class TrialAvatarGrantRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 from_parent_quest_id = 2;</code>
@@ -504,7 +504,7 @@ public final class TrialAvatarGrantRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 from_parent_quest_id = 2;</code>
@@ -520,7 +520,7 @@ public final class TrialAvatarGrantRecordOuterClass {
       private int grantReason_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 grant_reason = 1;</code>
@@ -532,7 +532,7 @@ public final class TrialAvatarGrantRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 grant_reason = 1;</code>
@@ -547,7 +547,7 @@ public final class TrialAvatarGrantRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 grant_reason = 1;</code>

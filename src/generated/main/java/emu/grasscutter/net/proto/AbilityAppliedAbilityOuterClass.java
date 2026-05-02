@@ -20,7 +20,7 @@ public final class AbilityAppliedAbilityOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -29,7 +29,7 @@ public final class AbilityAppliedAbilityOuterClass {
         getOverrideMapList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -37,7 +37,7 @@ public final class AbilityAppliedAbilityOuterClass {
     emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry getOverrideMap(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -45,7 +45,7 @@ public final class AbilityAppliedAbilityOuterClass {
     int getOverrideMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -54,7 +54,7 @@ public final class AbilityAppliedAbilityOuterClass {
         getOverrideMapOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -64,7 +64,7 @@ public final class AbilityAppliedAbilityOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_override = 2;</code>
@@ -73,7 +73,7 @@ public final class AbilityAppliedAbilityOuterClass {
     boolean hasAbilityOverride();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_override = 2;</code>
@@ -82,7 +82,7 @@ public final class AbilityAppliedAbilityOuterClass {
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getAbilityOverride();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_override = 2;</code>
@@ -91,7 +91,7 @@ public final class AbilityAppliedAbilityOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 1;</code>
@@ -100,7 +100,7 @@ public final class AbilityAppliedAbilityOuterClass {
     boolean hasAbilityName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 1;</code>
@@ -109,7 +109,7 @@ public final class AbilityAppliedAbilityOuterClass {
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getAbilityName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 1;</code>
@@ -118,7 +118,7 @@ public final class AbilityAppliedAbilityOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 4;</code>
@@ -252,7 +252,7 @@ public final class AbilityAppliedAbilityOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry> overrideMap_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -263,7 +263,7 @@ public final class AbilityAppliedAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -275,7 +275,7 @@ public final class AbilityAppliedAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -286,7 +286,7 @@ public final class AbilityAppliedAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -297,7 +297,7 @@ public final class AbilityAppliedAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -312,7 +312,7 @@ public final class AbilityAppliedAbilityOuterClass {
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString abilityOverride_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_override = 2;</code>
@@ -324,7 +324,7 @@ public final class AbilityAppliedAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_override = 2;</code>
@@ -336,7 +336,7 @@ public final class AbilityAppliedAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_override = 2;</code>
@@ -350,7 +350,7 @@ public final class AbilityAppliedAbilityOuterClass {
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString abilityName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 1;</code>
@@ -362,7 +362,7 @@ public final class AbilityAppliedAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 1;</code>
@@ -374,7 +374,7 @@ public final class AbilityAppliedAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 1;</code>
@@ -388,7 +388,7 @@ public final class AbilityAppliedAbilityOuterClass {
     private int instancedAbilityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 4;</code>
@@ -832,7 +832,7 @@ public final class AbilityAppliedAbilityOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -846,7 +846,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -860,7 +860,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -874,7 +874,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -895,7 +895,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -913,7 +913,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -933,7 +933,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -954,7 +954,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -972,7 +972,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -990,7 +990,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -1009,7 +1009,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -1026,7 +1026,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -1043,7 +1043,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -1054,7 +1054,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -1068,7 +1068,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -1083,7 +1083,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -1094,7 +1094,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -1106,7 +1106,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 3;</code>
@@ -1135,7 +1135,7 @@ public final class AbilityAppliedAbilityOuterClass {
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> abilityOverrideBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_override = 2;</code>
@@ -1146,7 +1146,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_override = 2;</code>
@@ -1161,7 +1161,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_override = 2;</code>
@@ -1181,7 +1181,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_override = 2;</code>
@@ -1199,7 +1199,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_override = 2;</code>
@@ -1221,7 +1221,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_override = 2;</code>
@@ -1239,7 +1239,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_override = 2;</code>
@@ -1251,7 +1251,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_override = 2;</code>
@@ -1266,7 +1266,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_override = 2;</code>
@@ -1290,7 +1290,7 @@ public final class AbilityAppliedAbilityOuterClass {
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> abilityNameBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 1;</code>
@@ -1301,7 +1301,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 1;</code>
@@ -1316,7 +1316,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 1;</code>
@@ -1336,7 +1336,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 1;</code>
@@ -1354,7 +1354,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 1;</code>
@@ -1376,7 +1376,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 1;</code>
@@ -1394,7 +1394,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 1;</code>
@@ -1406,7 +1406,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 1;</code>
@@ -1421,7 +1421,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 1;</code>
@@ -1443,7 +1443,7 @@ public final class AbilityAppliedAbilityOuterClass {
       private int instancedAbilityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 4;</code>
@@ -1455,7 +1455,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 4;</code>
@@ -1470,7 +1470,7 @@ public final class AbilityAppliedAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 4;</code>

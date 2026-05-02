@@ -20,7 +20,7 @@ public final class GachaItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -29,7 +29,7 @@ public final class GachaItemOuterClass {
         getTokenItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -37,7 +37,7 @@ public final class GachaItemOuterClass {
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getTokenItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -45,7 +45,7 @@ public final class GachaItemOuterClass {
     int getTokenItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -54,7 +54,7 @@ public final class GachaItemOuterClass {
         getTokenItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -64,7 +64,7 @@ public final class GachaItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam gacha_item = 7;</code>
@@ -73,7 +73,7 @@ public final class GachaItemOuterClass {
     boolean hasGachaItem();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam gacha_item = 7;</code>
@@ -82,7 +82,7 @@ public final class GachaItemOuterClass {
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGachaItem();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam gacha_item = 7;</code>
@@ -91,7 +91,7 @@ public final class GachaItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -100,7 +100,7 @@ public final class GachaItemOuterClass {
         getTransferItemsList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -108,7 +108,7 @@ public final class GachaItemOuterClass {
     emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem getTransferItems(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -116,7 +116,7 @@ public final class GachaItemOuterClass {
     int getTransferItemsCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -125,7 +125,7 @@ public final class GachaItemOuterClass {
         getTransferItemsOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -134,13 +134,21 @@ public final class GachaItemOuterClass {
         int index);
 
     /**
+     * <pre>
+     *6.5.5    
+     * </pre>
+     *
      * <code>bool is_gacha_item_new = 8;</code>
      * @return The isGachaItemNew.
      */
     boolean getIsGachaItemNew();
 
     /**
-     * <code>bool is_flash_card = 10;</code>
+     * <pre>
+     *6.5.5    
+     * </pre>
+     *
+     * <code>bool is_flash_card = 11;</code>
      * @return The isFlashCard.
      */
     boolean getIsFlashCard();
@@ -220,7 +228,7 @@ public final class GachaItemOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.parser(), extensionRegistry));
               break;
             }
-            case 80: {
+            case 88: {
 
               isFlashCard_ = input.readBool();
               break;
@@ -276,7 +284,7 @@ public final class GachaItemOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> tokenItemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -287,7 +295,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -299,7 +307,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -310,7 +318,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -321,7 +329,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -336,7 +344,7 @@ public final class GachaItemOuterClass {
     private emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam gachaItem_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam gacha_item = 7;</code>
@@ -348,7 +356,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam gacha_item = 7;</code>
@@ -360,7 +368,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam gacha_item = 7;</code>
@@ -374,7 +382,7 @@ public final class GachaItemOuterClass {
     private java.util.List<emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem> transferItems_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -385,7 +393,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -397,7 +405,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -408,7 +416,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -419,7 +427,7 @@ public final class GachaItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -433,6 +441,10 @@ public final class GachaItemOuterClass {
     public static final int IS_GACHA_ITEM_NEW_FIELD_NUMBER = 8;
     private boolean isGachaItemNew_;
     /**
+     * <pre>
+     *6.5.5    
+     * </pre>
+     *
      * <code>bool is_gacha_item_new = 8;</code>
      * @return The isGachaItemNew.
      */
@@ -441,10 +453,14 @@ public final class GachaItemOuterClass {
       return isGachaItemNew_;
     }
 
-    public static final int IS_FLASH_CARD_FIELD_NUMBER = 10;
+    public static final int IS_FLASH_CARD_FIELD_NUMBER = 11;
     private boolean isFlashCard_;
     /**
-     * <code>bool is_flash_card = 10;</code>
+     * <pre>
+     *6.5.5    
+     * </pre>
+     *
+     * <code>bool is_flash_card = 11;</code>
      * @return The isFlashCard.
      */
     @java.lang.Override
@@ -476,7 +492,7 @@ public final class GachaItemOuterClass {
         output.writeMessage(9, transferItems_.get(i));
       }
       if (isFlashCard_ != false) {
-        output.writeBool(10, isFlashCard_);
+        output.writeBool(11, isFlashCard_);
       }
       for (int i = 0; i < tokenItemList_.size(); i++) {
         output.writeMessage(14, tokenItemList_.get(i));
@@ -504,7 +520,7 @@ public final class GachaItemOuterClass {
       }
       if (isFlashCard_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isFlashCard_);
+          .computeBoolSize(11, isFlashCard_);
       }
       for (int i = 0; i < tokenItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -929,7 +945,7 @@ public final class GachaItemOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -943,7 +959,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -957,7 +973,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -971,7 +987,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -992,7 +1008,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1010,7 +1026,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1030,7 +1046,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1051,7 +1067,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1069,7 +1085,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1087,7 +1103,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1106,7 +1122,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1123,7 +1139,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1140,7 +1156,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1151,7 +1167,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1165,7 +1181,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1180,7 +1196,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1191,7 +1207,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1203,7 +1219,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
@@ -1232,7 +1248,7 @@ public final class GachaItemOuterClass {
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> gachaItemBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam gacha_item = 7;</code>
@@ -1243,7 +1259,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam gacha_item = 7;</code>
@@ -1258,7 +1274,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam gacha_item = 7;</code>
@@ -1278,7 +1294,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam gacha_item = 7;</code>
@@ -1296,7 +1312,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam gacha_item = 7;</code>
@@ -1318,7 +1334,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam gacha_item = 7;</code>
@@ -1336,7 +1352,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam gacha_item = 7;</code>
@@ -1348,7 +1364,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam gacha_item = 7;</code>
@@ -1363,7 +1379,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam gacha_item = 7;</code>
@@ -1396,7 +1412,7 @@ public final class GachaItemOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1410,7 +1426,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1424,7 +1440,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1438,7 +1454,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1459,7 +1475,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1477,7 +1493,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1497,7 +1513,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1518,7 +1534,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1536,7 +1552,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1554,7 +1570,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1573,7 +1589,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1590,7 +1606,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1607,7 +1623,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1618,7 +1634,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1632,7 +1648,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1647,7 +1663,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1658,7 +1674,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1670,7 +1686,7 @@ public final class GachaItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
@@ -1696,6 +1712,10 @@ public final class GachaItemOuterClass {
 
       private boolean isGachaItemNew_ ;
       /**
+       * <pre>
+       *6.5.5    
+       * </pre>
+       *
        * <code>bool is_gacha_item_new = 8;</code>
        * @return The isGachaItemNew.
        */
@@ -1704,6 +1724,10 @@ public final class GachaItemOuterClass {
         return isGachaItemNew_;
       }
       /**
+       * <pre>
+       *6.5.5    
+       * </pre>
+       *
        * <code>bool is_gacha_item_new = 8;</code>
        * @param value The isGachaItemNew to set.
        * @return This builder for chaining.
@@ -1715,6 +1739,10 @@ public final class GachaItemOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5    
+       * </pre>
+       *
        * <code>bool is_gacha_item_new = 8;</code>
        * @return This builder for chaining.
        */
@@ -1727,7 +1755,11 @@ public final class GachaItemOuterClass {
 
       private boolean isFlashCard_ ;
       /**
-       * <code>bool is_flash_card = 10;</code>
+       * <pre>
+       *6.5.5    
+       * </pre>
+       *
+       * <code>bool is_flash_card = 11;</code>
        * @return The isFlashCard.
        */
       @java.lang.Override
@@ -1735,7 +1767,11 @@ public final class GachaItemOuterClass {
         return isFlashCard_;
       }
       /**
-       * <code>bool is_flash_card = 10;</code>
+       * <pre>
+       *6.5.5    
+       * </pre>
+       *
+       * <code>bool is_flash_card = 11;</code>
        * @param value The isFlashCard to set.
        * @return This builder for chaining.
        */
@@ -1746,7 +1782,11 @@ public final class GachaItemOuterClass {
         return this;
       }
       /**
-       * <code>bool is_flash_card = 10;</code>
+       * <pre>
+       *6.5.5    
+       * </pre>
+       *
+       * <code>bool is_flash_card = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFlashCard() {
@@ -1827,7 +1867,7 @@ public final class GachaItemOuterClass {
       "en_item_list\030\016 \003(\0132\n.ItemParam\022\036\n\ngacha_" +
       "item\030\007 \001(\0132\n.ItemParam\022*\n\016transfer_items" +
       "\030\t \003(\0132\022.GachaTransferItem\022\031\n\021is_gacha_i" +
-      "tem_new\030\010 \001(\010\022\025\n\ris_flash_card\030\n \001(\010B\033\n\031" +
+      "tem_new\030\010 \001(\010\022\025\n\ris_flash_card\030\013 \001(\010B\033\n\031" +
       "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

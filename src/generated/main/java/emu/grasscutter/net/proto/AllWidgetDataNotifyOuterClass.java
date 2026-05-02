@@ -20,7 +20,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -29,7 +29,7 @@ public final class AllWidgetDataNotifyOuterClass {
     boolean hasWeatherWizardData();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -38,7 +38,7 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.WeatherWizardDataOuterClass.WeatherWizardData getWeatherWizardData();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -47,7 +47,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -56,7 +56,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getCoolDownGroupDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -64,7 +64,7 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData getCoolDownGroupDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -72,7 +72,7 @@ public final class AllWidgetDataNotifyOuterClass {
     int getCoolDownGroupDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -81,7 +81,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getCoolDownGroupDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -91,7 +91,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -100,7 +100,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getOneoffGatherPointDetectorDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -108,7 +108,7 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData getOneoffGatherPointDetectorDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -116,7 +116,7 @@ public final class AllWidgetDataNotifyOuterClass {
     int getOneoffGatherPointDetectorDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -125,7 +125,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getOneoffGatherPointDetectorDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -135,7 +135,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -144,7 +144,7 @@ public final class AllWidgetDataNotifyOuterClass {
     boolean hasSkyCrystalDetectorData();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -153,7 +153,7 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData getSkyCrystalDetectorData();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -162,7 +162,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -171,7 +171,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getNormalCoolDownDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -179,7 +179,7 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData getNormalCoolDownDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -187,7 +187,7 @@ public final class AllWidgetDataNotifyOuterClass {
     int getNormalCoolDownDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -196,7 +196,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getNormalCoolDownDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -221,7 +221,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -230,7 +230,7 @@ public final class AllWidgetDataNotifyOuterClass {
     boolean hasLunchBoxData();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -239,7 +239,7 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData getLunchBoxData();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -248,7 +248,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -257,7 +257,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getSlotListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -265,7 +265,7 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData getSlotList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -273,7 +273,7 @@ public final class AllWidgetDataNotifyOuterClass {
     int getSlotListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -282,7 +282,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getSlotListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -292,7 +292,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -301,7 +301,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getClientCollectorDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -309,7 +309,7 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData getClientCollectorDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -317,7 +317,7 @@ public final class AllWidgetDataNotifyOuterClass {
     int getClientCollectorDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -326,7 +326,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getClientCollectorDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -353,7 +353,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -362,7 +362,7 @@ public final class AllWidgetDataNotifyOuterClass {
     java.util.List<java.lang.Integer> getBackgroundActiveWidgetListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -371,7 +371,7 @@ public final class AllWidgetDataNotifyOuterClass {
     int getBackgroundActiveWidgetListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -406,7 +406,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -415,7 +415,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getAnchorPointListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -423,7 +423,7 @@ public final class AllWidgetDataNotifyOuterClass {
     emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData getAnchorPointList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -431,7 +431,7 @@ public final class AllWidgetDataNotifyOuterClass {
     int getAnchorPointListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -440,7 +440,7 @@ public final class AllWidgetDataNotifyOuterClass {
         getAnchorPointListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -749,7 +749,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private emu.grasscutter.net.proto.WeatherWizardDataOuterClass.WeatherWizardData weatherWizardData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -761,7 +761,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -773,7 +773,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -787,7 +787,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> coolDownGroupDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -798,7 +798,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -810,7 +810,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -821,7 +821,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -832,7 +832,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -847,7 +847,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.OneoffGatherPointDetectorDataOuterClass.OneoffGatherPointDetectorData> oneoffGatherPointDetectorDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -858,7 +858,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -870,7 +870,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -881,7 +881,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -892,7 +892,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -907,7 +907,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData skyCrystalDetectorData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -919,7 +919,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -931,7 +931,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -945,7 +945,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData> normalCoolDownDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -956,7 +956,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -968,7 +968,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -979,7 +979,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -990,7 +990,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -1031,7 +1031,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData lunchBoxData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -1043,7 +1043,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -1055,7 +1055,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -1069,7 +1069,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData> slotList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -1080,7 +1080,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -1092,7 +1092,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -1103,7 +1103,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -1114,7 +1114,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -1129,7 +1129,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ClientCollectorDataOuterClass.ClientCollectorData> clientCollectorDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -1140,7 +1140,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -1152,7 +1152,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -1163,7 +1163,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -1174,7 +1174,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -1217,7 +1217,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private com.google.protobuf.Internal.IntList backgroundActiveWidgetList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -1230,7 +1230,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -1241,7 +1241,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -1297,7 +1297,7 @@ public final class AllWidgetDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData> anchorPointList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -1308,7 +1308,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -1320,7 +1320,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -1331,7 +1331,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -1342,7 +1342,7 @@ public final class AllWidgetDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -2299,7 +2299,7 @@ public final class AllWidgetDataNotifyOuterClass {
           emu.grasscutter.net.proto.WeatherWizardDataOuterClass.WeatherWizardData, emu.grasscutter.net.proto.WeatherWizardDataOuterClass.WeatherWizardData.Builder, emu.grasscutter.net.proto.WeatherWizardDataOuterClass.WeatherWizardDataOrBuilder> weatherWizardDataBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -2310,7 +2310,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -2325,7 +2325,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -2345,7 +2345,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -2363,7 +2363,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -2385,7 +2385,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -2403,7 +2403,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -2415,7 +2415,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -2430,7 +2430,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.WeatherWizardData weather_wizard_data = 13;</code>
@@ -2463,7 +2463,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2477,7 +2477,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2491,7 +2491,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2505,7 +2505,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2526,7 +2526,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2544,7 +2544,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2564,7 +2564,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2585,7 +2585,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2603,7 +2603,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2621,7 +2621,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2640,7 +2640,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2657,7 +2657,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2674,7 +2674,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2685,7 +2685,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2699,7 +2699,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2714,7 +2714,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2725,7 +2725,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2737,7 +2737,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData cool_down_group_data_list = 11;</code>
@@ -2775,7 +2775,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2789,7 +2789,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2803,7 +2803,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2817,7 +2817,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2838,7 +2838,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2856,7 +2856,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2876,7 +2876,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2897,7 +2897,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2915,7 +2915,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2933,7 +2933,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2952,7 +2952,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2969,7 +2969,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2986,7 +2986,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -2997,7 +2997,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -3011,7 +3011,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -3026,7 +3026,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -3037,7 +3037,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -3049,7 +3049,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 14;</code>
@@ -3078,7 +3078,7 @@ public final class AllWidgetDataNotifyOuterClass {
           emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.Builder, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorDataOrBuilder> skyCrystalDetectorDataBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -3089,7 +3089,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -3104,7 +3104,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -3124,7 +3124,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -3142,7 +3142,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -3164,7 +3164,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -3182,7 +3182,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -3194,7 +3194,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -3209,7 +3209,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 8;</code>
@@ -3242,7 +3242,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3256,7 +3256,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3270,7 +3270,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3284,7 +3284,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3305,7 +3305,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3323,7 +3323,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3343,7 +3343,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3364,7 +3364,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3382,7 +3382,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3400,7 +3400,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3419,7 +3419,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3436,7 +3436,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3453,7 +3453,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3464,7 +3464,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3478,7 +3478,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3493,7 +3493,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3504,7 +3504,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3516,7 +3516,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated .WidgetCoolDownData normal_cool_down_data_list = 4;</code>
@@ -3664,7 +3664,7 @@ public final class AllWidgetDataNotifyOuterClass {
           emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder> lunchBoxDataBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -3675,7 +3675,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -3690,7 +3690,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -3710,7 +3710,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -3728,7 +3728,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -3750,7 +3750,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -3768,7 +3768,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -3780,7 +3780,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -3795,7 +3795,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 6;</code>
@@ -3828,7 +3828,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -3842,7 +3842,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -3856,7 +3856,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -3870,7 +3870,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -3891,7 +3891,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -3909,7 +3909,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -3929,7 +3929,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -3950,7 +3950,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -3968,7 +3968,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -3986,7 +3986,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -4005,7 +4005,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -4022,7 +4022,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -4039,7 +4039,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -4050,7 +4050,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -4064,7 +4064,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -4079,7 +4079,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -4090,7 +4090,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -4102,7 +4102,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .WidgetSlotData slot_list = 10;</code>
@@ -4140,7 +4140,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4154,7 +4154,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4168,7 +4168,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4182,7 +4182,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4203,7 +4203,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4221,7 +4221,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4241,7 +4241,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4262,7 +4262,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4280,7 +4280,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4298,7 +4298,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4317,7 +4317,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4334,7 +4334,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4351,7 +4351,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4362,7 +4362,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4376,7 +4376,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4391,7 +4391,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4402,7 +4402,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4414,7 +4414,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .ClientCollectorData client_collector_data_list = 9;</code>
@@ -4526,7 +4526,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -4539,7 +4539,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -4550,7 +4550,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -4562,7 +4562,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -4579,7 +4579,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -4594,7 +4594,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -4611,7 +4611,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>repeated uint32 background_active_widget_list = 15;</code>
@@ -4878,7 +4878,7 @@ public final class AllWidgetDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -4892,7 +4892,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -4906,7 +4906,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -4920,7 +4920,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -4941,7 +4941,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -4959,7 +4959,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -4979,7 +4979,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5000,7 +5000,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5018,7 +5018,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5036,7 +5036,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5055,7 +5055,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5072,7 +5072,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5089,7 +5089,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5100,7 +5100,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5114,7 +5114,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5129,7 +5129,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5140,7 +5140,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>
@@ -5152,7 +5152,7 @@ public final class AllWidgetDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AnchorPointData anchor_point_list = 12;</code>

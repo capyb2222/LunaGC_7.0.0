@@ -20,7 +20,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -29,7 +29,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
         getAvatarEnterInfoList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -37,7 +37,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     emu.grasscutter.net.proto.AvatarEnterSceneInfoOuterClass.AvatarEnterSceneInfo getAvatarEnterInfo(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -45,7 +45,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     int getAvatarEnterInfoCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -54,7 +54,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
         getAvatarEnterInfoOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -64,7 +64,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -73,7 +73,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     boolean hasTeamEnterInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -82,7 +82,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.TeamEnterSceneInfo getTeamEnterInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -91,7 +91,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -100,7 +100,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     boolean hasMpLevelEntityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -109,7 +109,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfo getMpLevelEntityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -118,7 +118,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cur_avatar_entity_id = 6;</code>
@@ -128,7 +128,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 enter_scene_token = 2;</code>
@@ -271,7 +271,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AvatarEnterSceneInfoOuterClass.AvatarEnterSceneInfo> avatarEnterInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -282,7 +282,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -294,7 +294,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -305,7 +305,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -316,7 +316,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -331,7 +331,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     private emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.TeamEnterSceneInfo teamEnterInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -343,7 +343,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -355,7 +355,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -369,7 +369,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     private emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfo mpLevelEntityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -381,7 +381,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -393,7 +393,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -407,7 +407,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     private int curAvatarEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cur_avatar_entity_id = 6;</code>
@@ -422,7 +422,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
     private int enterSceneToken_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 enter_scene_token = 2;</code>
@@ -887,7 +887,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -901,7 +901,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -915,7 +915,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -929,7 +929,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -950,7 +950,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -968,7 +968,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -988,7 +988,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1009,7 +1009,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1027,7 +1027,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1045,7 +1045,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1064,7 +1064,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1081,7 +1081,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1098,7 +1098,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1109,7 +1109,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1123,7 +1123,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1138,7 +1138,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1149,7 +1149,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1161,7 +1161,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEnterSceneInfo avatar_enter_info = 1;</code>
@@ -1190,7 +1190,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
           emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.TeamEnterSceneInfo, emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.TeamEnterSceneInfo.Builder, emu.grasscutter.net.proto.TeamEnterSceneInfoOuterClass.TeamEnterSceneInfoOrBuilder> teamEnterInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -1201,7 +1201,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -1216,7 +1216,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -1236,7 +1236,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -1254,7 +1254,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -1276,7 +1276,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -1294,7 +1294,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -1306,7 +1306,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -1321,7 +1321,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TeamEnterSceneInfo team_enter_info = 3;</code>
@@ -1345,7 +1345,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
           emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfo, emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfo.Builder, emu.grasscutter.net.proto.MPLevelEntityInfoOuterClass.MPLevelEntityInfoOrBuilder> mpLevelEntityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -1356,7 +1356,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -1371,7 +1371,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -1391,7 +1391,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -1409,7 +1409,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -1431,7 +1431,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -1449,7 +1449,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -1461,7 +1461,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -1476,7 +1476,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MPLevelEntityInfo mp_level_entity_info = 10;</code>
@@ -1498,7 +1498,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       private int curAvatarEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_avatar_entity_id = 6;</code>
@@ -1510,7 +1510,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_avatar_entity_id = 6;</code>
@@ -1525,7 +1525,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_avatar_entity_id = 6;</code>
@@ -1541,7 +1541,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       private int enterSceneToken_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 enter_scene_token = 2;</code>
@@ -1553,7 +1553,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 enter_scene_token = 2;</code>
@@ -1568,7 +1568,7 @@ public final class PlayerEnterSceneInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 enter_scene_token = 2;</code>

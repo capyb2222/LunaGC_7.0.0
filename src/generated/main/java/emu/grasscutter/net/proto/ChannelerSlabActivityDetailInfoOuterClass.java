@@ -20,7 +20,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -29,7 +29,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         getStageListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -37,7 +37,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG getStageList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -45,7 +45,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
     int getStageListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -54,7 +54,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
         getStageListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -224,7 +224,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.JMGBKLMOLLGOuterClass.JMGBKLMOLLG> stageList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -235,7 +235,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -247,7 +247,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -258,7 +258,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -269,7 +269,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -776,7 +776,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -790,7 +790,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -804,7 +804,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -818,7 +818,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -839,7 +839,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -857,7 +857,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -877,7 +877,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -898,7 +898,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -916,7 +916,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -934,7 +934,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -953,7 +953,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -970,7 +970,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -987,7 +987,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -998,7 +998,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -1012,7 +1012,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -1027,7 +1027,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -1038,7 +1038,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>
@@ -1050,7 +1050,7 @@ public final class ChannelerSlabActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JMGBKLMOLLG stage_list = 1;</code>

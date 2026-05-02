@@ -20,7 +20,7 @@ public final class BattlePassScheduleOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -29,7 +29,7 @@ public final class BattlePassScheduleOuterClass {
         getRewardTakenListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -37,7 +37,7 @@ public final class BattlePassScheduleOuterClass {
     emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag getRewardTakenList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -45,7 +45,7 @@ public final class BattlePassScheduleOuterClass {
     int getRewardTakenListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -54,7 +54,7 @@ public final class BattlePassScheduleOuterClass {
         getRewardTakenListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -64,7 +64,7 @@ public final class BattlePassScheduleOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassProduct product_info = 1;</code>
@@ -73,7 +73,7 @@ public final class BattlePassScheduleOuterClass {
     boolean hasProductInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassProduct product_info = 1;</code>
@@ -82,7 +82,7 @@ public final class BattlePassScheduleOuterClass {
     emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct getProductInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassProduct product_info = 1;</code>
@@ -135,7 +135,7 @@ public final class BattlePassScheduleOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -144,7 +144,7 @@ public final class BattlePassScheduleOuterClass {
     boolean hasCurCycle();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -153,7 +153,7 @@ public final class BattlePassScheduleOuterClass {
     emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle getCurCycle();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -162,7 +162,7 @@ public final class BattlePassScheduleOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 5;</code>
@@ -172,7 +172,7 @@ public final class BattlePassScheduleOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 schedule_id = 14;</code>
@@ -182,7 +182,7 @@ public final class BattlePassScheduleOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassUnlockStatus unlock_status = 15;</code>
@@ -191,7 +191,7 @@ public final class BattlePassScheduleOuterClass {
     int getUnlockStatusValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassUnlockStatus unlock_status = 15;</code>
@@ -201,7 +201,7 @@ public final class BattlePassScheduleOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 begin_time = 11;</code>
@@ -210,14 +210,18 @@ public final class BattlePassScheduleOuterClass {
     int getBeginTime();
 
     /**
-     * <code>uint32 point = 1101;</code>
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
+     * <code>uint32 point = 10;</code>
      * @return The point.
      */
     int getPoint();
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 end_time = 12;</code>
@@ -323,6 +327,11 @@ public final class BattlePassScheduleOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.BattlePassRewardPlanOptionOuterClass.BattlePassRewardPlanOption.parser(), extensionRegistry));
               break;
             }
+            case 80: {
+
+              point_ = input.readUInt32();
+              break;
+            }
             case 88: {
 
               beginTime_ = input.readUInt32();
@@ -342,11 +351,6 @@ public final class BattlePassScheduleOuterClass {
               int rawValue = input.readEnum();
 
               unlockStatus_ = rawValue;
-              break;
-            }
-            case 8808: {
-
-              point_ = input.readUInt32();
               break;
             }
             default: {
@@ -391,7 +395,7 @@ public final class BattlePassScheduleOuterClass {
     private java.util.List<emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag> rewardTakenList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -402,7 +406,7 @@ public final class BattlePassScheduleOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -414,7 +418,7 @@ public final class BattlePassScheduleOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -425,7 +429,7 @@ public final class BattlePassScheduleOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -436,7 +440,7 @@ public final class BattlePassScheduleOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -451,7 +455,7 @@ public final class BattlePassScheduleOuterClass {
     private emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct productInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassProduct product_info = 1;</code>
@@ -463,7 +467,7 @@ public final class BattlePassScheduleOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassProduct product_info = 1;</code>
@@ -475,7 +479,7 @@ public final class BattlePassScheduleOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassProduct product_info = 1;</code>
@@ -549,7 +553,7 @@ public final class BattlePassScheduleOuterClass {
     private emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle curCycle_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -561,7 +565,7 @@ public final class BattlePassScheduleOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -573,7 +577,7 @@ public final class BattlePassScheduleOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -587,7 +591,7 @@ public final class BattlePassScheduleOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 5;</code>
@@ -602,7 +606,7 @@ public final class BattlePassScheduleOuterClass {
     private int scheduleId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 schedule_id = 14;</code>
@@ -617,7 +621,7 @@ public final class BattlePassScheduleOuterClass {
     private int unlockStatus_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassUnlockStatus unlock_status = 15;</code>
@@ -628,7 +632,7 @@ public final class BattlePassScheduleOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassUnlockStatus unlock_status = 15;</code>
@@ -644,7 +648,7 @@ public final class BattlePassScheduleOuterClass {
     private int beginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 begin_time = 11;</code>
@@ -655,10 +659,14 @@ public final class BattlePassScheduleOuterClass {
       return beginTime_;
     }
 
-    public static final int POINT_FIELD_NUMBER = 1101;
+    public static final int POINT_FIELD_NUMBER = 10;
     private int point_;
     /**
-     * <code>uint32 point = 1101;</code>
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
+     * <code>uint32 point = 10;</code>
      * @return The point.
      */
     @java.lang.Override
@@ -670,7 +678,7 @@ public final class BattlePassScheduleOuterClass {
     private int endTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 end_time = 12;</code>
@@ -710,6 +718,9 @@ public final class BattlePassScheduleOuterClass {
       for (int i = 0; i < rewardPlanOptionList_.size(); i++) {
         output.writeMessage(9, rewardPlanOptionList_.get(i));
       }
+      if (point_ != 0) {
+        output.writeUInt32(10, point_);
+      }
       if (beginTime_ != 0) {
         output.writeUInt32(11, beginTime_);
       }
@@ -721,9 +732,6 @@ public final class BattlePassScheduleOuterClass {
       }
       if (unlockStatus_ != emu.grasscutter.net.proto.BattlePassUnlockStatusOuterClass.BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID.getNumber()) {
         output.writeEnum(15, unlockStatus_);
-      }
-      if (point_ != 0) {
-        output.writeUInt32(1101, point_);
       }
       unknownFields.writeTo(output);
     }
@@ -754,6 +762,10 @@ public final class BattlePassScheduleOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(9, rewardPlanOptionList_.get(i));
       }
+      if (point_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, point_);
+      }
       if (beginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, beginTime_);
@@ -769,10 +781,6 @@ public final class BattlePassScheduleOuterClass {
       if (unlockStatus_ != emu.grasscutter.net.proto.BattlePassUnlockStatusOuterClass.BattlePassUnlockStatus.BattlePassUnlockSTATUS_BATTLE_PASS_UNLOCK_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(15, unlockStatus_);
-      }
-      if (point_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1101, point_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1253,7 +1261,7 @@ public final class BattlePassScheduleOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1267,7 +1275,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1281,7 +1289,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1295,7 +1303,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1316,7 +1324,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1334,7 +1342,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1354,7 +1362,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1375,7 +1383,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1393,7 +1401,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1411,7 +1419,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1430,7 +1438,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1447,7 +1455,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1464,7 +1472,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1475,7 +1483,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1489,7 +1497,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1504,7 +1512,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1515,7 +1523,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1527,7 +1535,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassRewardTag reward_taken_list = 2;</code>
@@ -1556,7 +1564,7 @@ public final class BattlePassScheduleOuterClass {
           emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct, emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProduct.Builder, emu.grasscutter.net.proto.BattlePassProductOuterClass.BattlePassProductOrBuilder> productInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassProduct product_info = 1;</code>
@@ -1567,7 +1575,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassProduct product_info = 1;</code>
@@ -1582,7 +1590,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassProduct product_info = 1;</code>
@@ -1602,7 +1610,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassProduct product_info = 1;</code>
@@ -1620,7 +1628,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassProduct product_info = 1;</code>
@@ -1642,7 +1650,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassProduct product_info = 1;</code>
@@ -1660,7 +1668,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassProduct product_info = 1;</code>
@@ -1672,7 +1680,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassProduct product_info = 1;</code>
@@ -1687,7 +1695,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassProduct product_info = 1;</code>
@@ -2023,7 +2031,7 @@ public final class BattlePassScheduleOuterClass {
           emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle, emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycle.Builder, emu.grasscutter.net.proto.BattlePassCycleOuterClass.BattlePassCycleOrBuilder> curCycleBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -2034,7 +2042,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -2049,7 +2057,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -2069,7 +2077,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -2087,7 +2095,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -2109,7 +2117,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -2127,7 +2135,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -2139,7 +2147,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -2154,7 +2162,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassCycle cur_cycle = 4;</code>
@@ -2176,7 +2184,7 @@ public final class BattlePassScheduleOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 5;</code>
@@ -2188,7 +2196,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 5;</code>
@@ -2203,7 +2211,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 5;</code>
@@ -2219,7 +2227,7 @@ public final class BattlePassScheduleOuterClass {
       private int scheduleId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 schedule_id = 14;</code>
@@ -2231,7 +2239,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 schedule_id = 14;</code>
@@ -2246,7 +2254,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 schedule_id = 14;</code>
@@ -2262,7 +2270,7 @@ public final class BattlePassScheduleOuterClass {
       private int unlockStatus_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 15;</code>
@@ -2273,7 +2281,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 15;</code>
@@ -2288,7 +2296,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 15;</code>
@@ -2302,7 +2310,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 15;</code>
@@ -2320,7 +2328,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 15;</code>
@@ -2336,7 +2344,7 @@ public final class BattlePassScheduleOuterClass {
       private int beginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 begin_time = 11;</code>
@@ -2348,7 +2356,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 begin_time = 11;</code>
@@ -2363,7 +2371,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 begin_time = 11;</code>
@@ -2378,7 +2386,11 @@ public final class BattlePassScheduleOuterClass {
 
       private int point_ ;
       /**
-       * <code>uint32 point = 1101;</code>
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
+       * <code>uint32 point = 10;</code>
        * @return The point.
        */
       @java.lang.Override
@@ -2386,7 +2398,11 @@ public final class BattlePassScheduleOuterClass {
         return point_;
       }
       /**
-       * <code>uint32 point = 1101;</code>
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
+       * <code>uint32 point = 10;</code>
        * @param value The point to set.
        * @return This builder for chaining.
        */
@@ -2397,7 +2413,11 @@ public final class BattlePassScheduleOuterClass {
         return this;
       }
       /**
-       * <code>uint32 point = 1101;</code>
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
+       * <code>uint32 point = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearPoint() {
@@ -2410,7 +2430,7 @@ public final class BattlePassScheduleOuterClass {
       private int endTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 12;</code>
@@ -2422,7 +2442,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 12;</code>
@@ -2437,7 +2457,7 @@ public final class BattlePassScheduleOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 12;</code>
@@ -2520,7 +2540,7 @@ public final class BattlePassScheduleOuterClass {
       "wardTag.proto\032\027BattlePassProduct.proto\032 " +
       "BattlePassRewardPlanOption.proto\032\025Battle" +
       "PassCycle.proto\032\034BattlePassUnlockStatus." +
-      "proto\"\334\002\n\022BattlePassSchedule\022/\n\021reward_t" +
+      "proto\"\333\002\n\022BattlePassSchedule\022/\n\021reward_t" +
       "aken_list\030\002 \003(\0132\024.BattlePassRewardTag\022(\n" +
       "\014product_info\030\001 \001(\0132\022.BattlePassProduct\022" +
       "<\n\027reward_plan_option_list\030\t \003(\0132\033.Battl" +
@@ -2528,8 +2548,8 @@ public final class BattlePassScheduleOuterClass {
       "2\020.BattlePassCycle\022\r\n\005level\030\005 \001(\r\022\023\n\013sch" +
       "edule_id\030\016 \001(\r\022.\n\runlock_status\030\017 \001(\0162\027." +
       "BattlePassUnlockStatus\022\022\n\nbegin_time\030\013 \001" +
-      "(\r\022\016\n\005point\030\315\010 \001(\r\022\020\n\010end_time\030\014 \001(\rB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "(\r\022\r\n\005point\030\n \001(\r\022\020\n\010end_time\030\014 \001(\rB\033\n\031e" +
+      "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

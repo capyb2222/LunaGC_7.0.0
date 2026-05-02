@@ -20,7 +20,7 @@ public final class MassivePropSyncInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -29,7 +29,7 @@ public final class MassivePropSyncInfoOuterClass {
         getPropListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -37,7 +37,7 @@ public final class MassivePropSyncInfoOuterClass {
     emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam getPropList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -45,7 +45,7 @@ public final class MassivePropSyncInfoOuterClass {
     int getPropListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -54,7 +54,7 @@ public final class MassivePropSyncInfoOuterClass {
         getPropListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -64,7 +64,7 @@ public final class MassivePropSyncInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int64 id = 1;</code>
@@ -172,7 +172,7 @@ public final class MassivePropSyncInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.MassivePropParamOuterClass.MassivePropParam> propList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -183,7 +183,7 @@ public final class MassivePropSyncInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -195,7 +195,7 @@ public final class MassivePropSyncInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -206,7 +206,7 @@ public final class MassivePropSyncInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -217,7 +217,7 @@ public final class MassivePropSyncInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -232,7 +232,7 @@ public final class MassivePropSyncInfoOuterClass {
     private long id_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int64 id = 1;</code>
@@ -617,7 +617,7 @@ public final class MassivePropSyncInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -631,7 +631,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -645,7 +645,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -659,7 +659,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -680,7 +680,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -698,7 +698,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -718,7 +718,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -739,7 +739,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -757,7 +757,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -775,7 +775,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -794,7 +794,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -811,7 +811,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -828,7 +828,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -839,7 +839,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -853,7 +853,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -868,7 +868,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -879,7 +879,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -891,7 +891,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MassivePropParam prop_list = 2;</code>
@@ -918,7 +918,7 @@ public final class MassivePropSyncInfoOuterClass {
       private long id_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int64 id = 1;</code>
@@ -930,7 +930,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int64 id = 1;</code>
@@ -945,7 +945,7 @@ public final class MassivePropSyncInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int64 id = 1;</code>

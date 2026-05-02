@@ -20,7 +20,7 @@ public final class AranaraCollectionSuiteOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -28,7 +28,7 @@ public final class AranaraCollectionSuiteOuterClass {
     int getCollectionIdStateMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -43,7 +43,7 @@ public final class AranaraCollectionSuiteOuterClass {
     getCollectionIdStateMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -52,7 +52,7 @@ public final class AranaraCollectionSuiteOuterClass {
     getCollectionIdStateMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -62,7 +62,7 @@ public final class AranaraCollectionSuiteOuterClass {
         emu.grasscutter.net.proto.AranaraCollectionStateOuterClass.AranaraCollectionState defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -77,7 +77,7 @@ public final class AranaraCollectionSuiteOuterClass {
     getCollectionIdStateMapValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -86,7 +86,7 @@ public final class AranaraCollectionSuiteOuterClass {
     getCollectionIdStateMapValueMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -97,7 +97,7 @@ public final class AranaraCollectionSuiteOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -108,7 +108,7 @@ public final class AranaraCollectionSuiteOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 collection_type = 7;</code>
@@ -265,7 +265,7 @@ public final class AranaraCollectionSuiteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -288,7 +288,7 @@ public final class AranaraCollectionSuiteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -301,7 +301,7 @@ public final class AranaraCollectionSuiteOuterClass {
           internalGetCollectionIdStateMap().getMap());}
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -320,7 +320,7 @@ public final class AranaraCollectionSuiteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -348,7 +348,7 @@ public final class AranaraCollectionSuiteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -361,7 +361,7 @@ public final class AranaraCollectionSuiteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -378,7 +378,7 @@ public final class AranaraCollectionSuiteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -400,7 +400,7 @@ public final class AranaraCollectionSuiteOuterClass {
     private int collectionType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 collection_type = 7;</code>
@@ -792,7 +792,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -815,7 +815,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -828,7 +828,7 @@ public final class AranaraCollectionSuiteOuterClass {
             internalGetCollectionIdStateMap().getMap());}
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -847,7 +847,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -875,7 +875,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -888,7 +888,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -905,7 +905,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -930,7 +930,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -954,7 +954,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -970,7 +970,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -992,7 +992,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -1007,7 +1007,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .AranaraCollectionState&gt; collection_id_state_map = 10;</code>
@@ -1022,7 +1022,7 @@ public final class AranaraCollectionSuiteOuterClass {
       private int collectionType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collection_type = 7;</code>
@@ -1034,7 +1034,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collection_type = 7;</code>
@@ -1049,7 +1049,7 @@ public final class AranaraCollectionSuiteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collection_type = 7;</code>

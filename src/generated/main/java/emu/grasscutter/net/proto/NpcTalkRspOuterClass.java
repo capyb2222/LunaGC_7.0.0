@@ -20,7 +20,7 @@ public final class NpcTalkRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 4;</code>
@@ -30,7 +30,7 @@ public final class NpcTalkRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 cur_talk_id = 8;</code>
@@ -40,7 +40,7 @@ public final class NpcTalkRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 npc_entity_id = 3;</code>
@@ -50,7 +50,7 @@ public final class NpcTalkRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 2;</code>
@@ -163,7 +163,7 @@ public final class NpcTalkRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 4;</code>
@@ -178,7 +178,7 @@ public final class NpcTalkRspOuterClass {
     private int curTalkId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 cur_talk_id = 8;</code>
@@ -193,7 +193,7 @@ public final class NpcTalkRspOuterClass {
     private int npcEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 npc_entity_id = 3;</code>
@@ -208,7 +208,7 @@ public final class NpcTalkRspOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 2;</code>
@@ -579,7 +579,7 @@ public final class NpcTalkRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 4;</code>
@@ -591,7 +591,7 @@ public final class NpcTalkRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 4;</code>
@@ -606,7 +606,7 @@ public final class NpcTalkRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 4;</code>
@@ -622,7 +622,7 @@ public final class NpcTalkRspOuterClass {
       private int curTalkId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 cur_talk_id = 8;</code>
@@ -634,7 +634,7 @@ public final class NpcTalkRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 cur_talk_id = 8;</code>
@@ -649,7 +649,7 @@ public final class NpcTalkRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 cur_talk_id = 8;</code>
@@ -665,7 +665,7 @@ public final class NpcTalkRspOuterClass {
       private int npcEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 npc_entity_id = 3;</code>
@@ -677,7 +677,7 @@ public final class NpcTalkRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 npc_entity_id = 3;</code>
@@ -692,7 +692,7 @@ public final class NpcTalkRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 npc_entity_id = 3;</code>
@@ -708,7 +708,7 @@ public final class NpcTalkRspOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -720,7 +720,7 @@ public final class NpcTalkRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -735,7 +735,7 @@ public final class NpcTalkRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>

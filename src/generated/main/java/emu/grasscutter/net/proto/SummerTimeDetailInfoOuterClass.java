@@ -69,7 +69,7 @@ public final class SummerTimeDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 9;</code>
@@ -309,7 +309,7 @@ public final class SummerTimeDetailInfoOuterClass {
     private int contentCloseTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 9;</code>
@@ -953,7 +953,7 @@ public final class SummerTimeDetailInfoOuterClass {
       private int contentCloseTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 9;</code>
@@ -965,7 +965,7 @@ public final class SummerTimeDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 9;</code>
@@ -980,7 +980,7 @@ public final class SummerTimeDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 9;</code>

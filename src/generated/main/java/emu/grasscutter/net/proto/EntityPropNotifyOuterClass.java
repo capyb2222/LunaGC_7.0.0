@@ -20,7 +20,7 @@ public final class EntityPropNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -28,7 +28,7 @@ public final class EntityPropNotifyOuterClass {
     int getPropMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -43,7 +43,7 @@ public final class EntityPropNotifyOuterClass {
     getPropMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -52,7 +52,7 @@ public final class EntityPropNotifyOuterClass {
     getPropMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -63,7 +63,7 @@ public final class EntityPropNotifyOuterClass {
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -74,7 +74,7 @@ public final class EntityPropNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 entity_id = 12;</code>
@@ -222,7 +222,7 @@ public final class EntityPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -244,7 +244,7 @@ public final class EntityPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -256,7 +256,7 @@ public final class EntityPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -273,7 +273,7 @@ public final class EntityPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -295,7 +295,7 @@ public final class EntityPropNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 entity_id = 12;</code>
@@ -691,7 +691,7 @@ public final class EntityPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -713,7 +713,7 @@ public final class EntityPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -725,7 +725,7 @@ public final class EntityPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -742,7 +742,7 @@ public final class EntityPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -767,7 +767,7 @@ public final class EntityPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -790,7 +790,7 @@ public final class EntityPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -806,7 +806,7 @@ public final class EntityPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -822,7 +822,7 @@ public final class EntityPropNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 12;</code>
@@ -834,7 +834,7 @@ public final class EntityPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 12;</code>
@@ -849,7 +849,7 @@ public final class EntityPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 12;</code>

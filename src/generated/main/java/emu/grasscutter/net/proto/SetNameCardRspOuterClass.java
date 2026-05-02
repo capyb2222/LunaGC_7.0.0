@@ -20,7 +20,7 @@ public final class SetNameCardRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 name_card_id = 11;</code>
@@ -30,7 +30,7 @@ public final class SetNameCardRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 3;</code>
@@ -134,7 +134,7 @@ public final class SetNameCardRspOuterClass {
     private int nameCardId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 name_card_id = 11;</code>
@@ -149,7 +149,7 @@ public final class SetNameCardRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 3;</code>
@@ -487,7 +487,7 @@ public final class SetNameCardRspOuterClass {
       private int nameCardId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 name_card_id = 11;</code>
@@ -499,7 +499,7 @@ public final class SetNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 name_card_id = 11;</code>
@@ -514,7 +514,7 @@ public final class SetNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 name_card_id = 11;</code>
@@ -530,7 +530,7 @@ public final class SetNameCardRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 3;</code>
@@ -542,7 +542,7 @@ public final class SetNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 3;</code>
@@ -557,7 +557,7 @@ public final class SetNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 3;</code>

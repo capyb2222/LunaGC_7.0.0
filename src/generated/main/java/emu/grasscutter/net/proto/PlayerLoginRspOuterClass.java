@@ -20,7 +20,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string msg = 217;</code>
@@ -29,7 +29,7 @@ public final class PlayerLoginRspOuterClass {
     java.lang.String getMsg();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string msg = 217;</code>
@@ -40,7 +40,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -49,7 +49,7 @@ public final class PlayerLoginRspOuterClass {
         getShortAbilityHashMapList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -57,7 +57,7 @@ public final class PlayerLoginRspOuterClass {
     emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair getShortAbilityHashMap(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -65,7 +65,7 @@ public final class PlayerLoginRspOuterClass {
     int getShortAbilityHashMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -74,7 +74,7 @@ public final class PlayerLoginRspOuterClass {
         getShortAbilityHashMapOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -99,7 +99,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 45;</code>
@@ -108,7 +108,7 @@ public final class PlayerLoginRspOuterClass {
     java.lang.String getBirthday();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 45;</code>
@@ -119,7 +119,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_version_suffix = 2038;</code>
@@ -128,7 +128,7 @@ public final class PlayerLoginRspOuterClass {
     java.lang.String getClientSilenceVersionSuffix();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_version_suffix = 2038;</code>
@@ -139,7 +139,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -147,7 +147,7 @@ public final class PlayerLoginRspOuterClass {
     int getBlockInfoMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -162,7 +162,7 @@ public final class PlayerLoginRspOuterClass {
     getBlockInfoMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -171,7 +171,7 @@ public final class PlayerLoginRspOuterClass {
     getBlockInfoMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -182,7 +182,7 @@ public final class PlayerLoginRspOuterClass {
         emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -199,7 +199,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -208,7 +208,7 @@ public final class PlayerLoginRspOuterClass {
         getFeatureBlockInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -216,7 +216,7 @@ public final class PlayerLoginRspOuterClass {
     emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo getFeatureBlockInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -224,7 +224,7 @@ public final class PlayerLoginRspOuterClass {
     int getFeatureBlockInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -233,7 +233,7 @@ public final class PlayerLoginRspOuterClass {
         getFeatureBlockInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -243,7 +243,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 1562;</code>
@@ -252,7 +252,7 @@ public final class PlayerLoginRspOuterClass {
     java.lang.String getCountryCode();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 1562;</code>
@@ -263,7 +263,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string game_biz = 1;</code>
@@ -272,7 +272,7 @@ public final class PlayerLoginRspOuterClass {
     java.lang.String getGameBiz();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string game_biz = 1;</code>
@@ -307,7 +307,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -316,7 +316,7 @@ public final class PlayerLoginRspOuterClass {
     boolean hasResVersionConfig();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -325,7 +325,7 @@ public final class PlayerLoginRspOuterClass {
     emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getResVersionConfig();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -334,7 +334,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -343,7 +343,7 @@ public final class PlayerLoginRspOuterClass {
     boolean hasNextResVersionConfig();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -352,7 +352,7 @@ public final class PlayerLoginRspOuterClass {
     emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getNextResVersionConfig();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -373,7 +373,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -381,7 +381,7 @@ public final class PlayerLoginRspOuterClass {
     int getAbilityHashMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -396,7 +396,7 @@ public final class PlayerLoginRspOuterClass {
     getAbilityHashMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -405,7 +405,7 @@ public final class PlayerLoginRspOuterClass {
     getAbilityHashMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -416,7 +416,7 @@ public final class PlayerLoginRspOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -427,7 +427,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string next_resource_url = 1618;</code>
@@ -436,7 +436,7 @@ public final class PlayerLoginRspOuterClass {
     java.lang.String getNextResourceUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string next_resource_url = 1618;</code>
@@ -447,7 +447,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_version_suffix = 1956;</code>
@@ -456,7 +456,7 @@ public final class PlayerLoginRspOuterClass {
     java.lang.String getClientVersionSuffix();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_version_suffix = 1956;</code>
@@ -479,7 +479,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_relogin = 10;</code>
@@ -501,7 +501,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>double total_tick_time = 1366;</code>
@@ -517,7 +517,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 14;</code>
@@ -545,7 +545,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_silence_data_version = 11;</code>
@@ -555,7 +555,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_uid = 6;</code>
@@ -565,7 +565,7 @@ public final class PlayerLoginRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_data_version = 2;</code>
@@ -910,7 +910,7 @@ public final class PlayerLoginRspOuterClass {
     private volatile java.lang.Object msg_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string msg = 217;</code>
@@ -931,7 +931,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string msg = 217;</code>
@@ -956,7 +956,7 @@ public final class PlayerLoginRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair> shortAbilityHashMap_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -967,7 +967,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -979,7 +979,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -990,7 +990,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -1001,7 +1001,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -1042,7 +1042,7 @@ public final class PlayerLoginRspOuterClass {
     private volatile java.lang.Object birthday_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 45;</code>
@@ -1063,7 +1063,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 45;</code>
@@ -1088,7 +1088,7 @@ public final class PlayerLoginRspOuterClass {
     private volatile java.lang.Object clientSilenceVersionSuffix_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_version_suffix = 2038;</code>
@@ -1109,7 +1109,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_version_suffix = 2038;</code>
@@ -1158,7 +1158,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -1180,7 +1180,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -1192,7 +1192,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -1209,7 +1209,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -1242,7 +1242,7 @@ public final class PlayerLoginRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo> featureBlockInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -1253,7 +1253,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -1265,7 +1265,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -1276,7 +1276,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -1287,7 +1287,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -1302,7 +1302,7 @@ public final class PlayerLoginRspOuterClass {
     private volatile java.lang.Object countryCode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 1562;</code>
@@ -1323,7 +1323,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 1562;</code>
@@ -1348,7 +1348,7 @@ public final class PlayerLoginRspOuterClass {
     private volatile java.lang.Object gameBiz_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string game_biz = 1;</code>
@@ -1369,7 +1369,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string game_biz = 1;</code>
@@ -1470,7 +1470,7 @@ public final class PlayerLoginRspOuterClass {
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig resVersionConfig_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -1482,7 +1482,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -1494,7 +1494,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -1508,7 +1508,7 @@ public final class PlayerLoginRspOuterClass {
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig nextResVersionConfig_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -1520,7 +1520,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -1532,7 +1532,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -1608,7 +1608,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -1630,7 +1630,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -1642,7 +1642,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -1659,7 +1659,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -1681,7 +1681,7 @@ public final class PlayerLoginRspOuterClass {
     private volatile java.lang.Object nextResourceUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string next_resource_url = 1618;</code>
@@ -1702,7 +1702,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string next_resource_url = 1618;</code>
@@ -1727,7 +1727,7 @@ public final class PlayerLoginRspOuterClass {
     private volatile java.lang.Object clientVersionSuffix_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_version_suffix = 1956;</code>
@@ -1748,7 +1748,7 @@ public final class PlayerLoginRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_version_suffix = 1956;</code>
@@ -1795,7 +1795,7 @@ public final class PlayerLoginRspOuterClass {
     private boolean isRelogin_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_relogin = 10;</code>
@@ -1832,7 +1832,7 @@ public final class PlayerLoginRspOuterClass {
     private double totalTickTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>double total_tick_time = 1366;</code>
@@ -1858,7 +1858,7 @@ public final class PlayerLoginRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 14;</code>
@@ -1906,7 +1906,7 @@ public final class PlayerLoginRspOuterClass {
     private int clientSilenceDataVersion_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_silence_data_version = 11;</code>
@@ -1921,7 +1921,7 @@ public final class PlayerLoginRspOuterClass {
     private int targetUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_uid = 6;</code>
@@ -1936,7 +1936,7 @@ public final class PlayerLoginRspOuterClass {
     private int clientDataVersion_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_data_version = 2;</code>
@@ -2955,7 +2955,7 @@ public final class PlayerLoginRspOuterClass {
       private java.lang.Object msg_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 217;</code>
@@ -2975,7 +2975,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 217;</code>
@@ -2996,7 +2996,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 217;</code>
@@ -3015,7 +3015,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 217;</code>
@@ -3029,7 +3029,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 217;</code>
@@ -3062,7 +3062,7 @@ public final class PlayerLoginRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3076,7 +3076,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3090,7 +3090,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3104,7 +3104,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3125,7 +3125,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3143,7 +3143,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3163,7 +3163,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3184,7 +3184,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3202,7 +3202,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3220,7 +3220,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3239,7 +3239,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3256,7 +3256,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3273,7 +3273,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3284,7 +3284,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3298,7 +3298,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3313,7 +3313,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3324,7 +3324,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3336,7 +3336,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 344;</code>
@@ -3482,7 +3482,7 @@ public final class PlayerLoginRspOuterClass {
       private java.lang.Object birthday_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 45;</code>
@@ -3502,7 +3502,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 45;</code>
@@ -3523,7 +3523,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 45;</code>
@@ -3542,7 +3542,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 45;</code>
@@ -3556,7 +3556,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 45;</code>
@@ -3578,7 +3578,7 @@ public final class PlayerLoginRspOuterClass {
       private java.lang.Object clientSilenceVersionSuffix_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 2038;</code>
@@ -3598,7 +3598,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 2038;</code>
@@ -3619,7 +3619,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 2038;</code>
@@ -3638,7 +3638,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 2038;</code>
@@ -3652,7 +3652,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 2038;</code>
@@ -3699,7 +3699,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -3721,7 +3721,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -3733,7 +3733,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -3750,7 +3750,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -3775,7 +3775,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -3798,7 +3798,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -3814,7 +3814,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 184;</code>
@@ -3875,7 +3875,7 @@ public final class PlayerLoginRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -3889,7 +3889,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -3903,7 +3903,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -3917,7 +3917,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -3938,7 +3938,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -3956,7 +3956,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -3976,7 +3976,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -3997,7 +3997,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4015,7 +4015,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4033,7 +4033,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4052,7 +4052,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4069,7 +4069,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4086,7 +4086,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4097,7 +4097,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4111,7 +4111,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4126,7 +4126,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4137,7 +4137,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4149,7 +4149,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .FeatureBlockInfo feature_block_info_list = 262;</code>
@@ -4176,7 +4176,7 @@ public final class PlayerLoginRspOuterClass {
       private java.lang.Object countryCode_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1562;</code>
@@ -4196,7 +4196,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1562;</code>
@@ -4217,7 +4217,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1562;</code>
@@ -4236,7 +4236,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1562;</code>
@@ -4250,7 +4250,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1562;</code>
@@ -4272,7 +4272,7 @@ public final class PlayerLoginRspOuterClass {
       private java.lang.Object gameBiz_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 1;</code>
@@ -4292,7 +4292,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 1;</code>
@@ -4313,7 +4313,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 1;</code>
@@ -4332,7 +4332,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 1;</code>
@@ -4346,7 +4346,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 1;</code>
@@ -4522,7 +4522,7 @@ public final class PlayerLoginRspOuterClass {
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> resVersionConfigBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -4533,7 +4533,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -4548,7 +4548,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -4568,7 +4568,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -4586,7 +4586,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -4608,7 +4608,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -4626,7 +4626,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -4638,7 +4638,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -4653,7 +4653,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 1827;</code>
@@ -4677,7 +4677,7 @@ public final class PlayerLoginRspOuterClass {
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> nextResVersionConfigBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -4688,7 +4688,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -4703,7 +4703,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -4723,7 +4723,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -4741,7 +4741,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -4763,7 +4763,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -4781,7 +4781,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -4793,7 +4793,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -4808,7 +4808,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 198;</code>
@@ -4931,7 +4931,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -4953,7 +4953,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -4965,7 +4965,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -4982,7 +4982,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -5007,7 +5007,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -5030,7 +5030,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -5046,7 +5046,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;string, int32&gt; ability_hash_map = 12;</code>
@@ -5062,7 +5062,7 @@ public final class PlayerLoginRspOuterClass {
       private java.lang.Object nextResourceUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 1618;</code>
@@ -5082,7 +5082,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 1618;</code>
@@ -5103,7 +5103,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 1618;</code>
@@ -5122,7 +5122,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 1618;</code>
@@ -5136,7 +5136,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 1618;</code>
@@ -5158,7 +5158,7 @@ public final class PlayerLoginRspOuterClass {
       private java.lang.Object clientVersionSuffix_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 1956;</code>
@@ -5178,7 +5178,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 1956;</code>
@@ -5199,7 +5199,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 1956;</code>
@@ -5218,7 +5218,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 1956;</code>
@@ -5232,7 +5232,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 1956;</code>
@@ -5316,7 +5316,7 @@ public final class PlayerLoginRspOuterClass {
       private boolean isRelogin_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_relogin = 10;</code>
@@ -5328,7 +5328,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_relogin = 10;</code>
@@ -5343,7 +5343,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_relogin = 10;</code>
@@ -5421,7 +5421,7 @@ public final class PlayerLoginRspOuterClass {
       private double totalTickTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 1366;</code>
@@ -5433,7 +5433,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 1366;</code>
@@ -5448,7 +5448,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 1366;</code>
@@ -5495,7 +5495,7 @@ public final class PlayerLoginRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -5507,7 +5507,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -5522,7 +5522,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -5631,7 +5631,7 @@ public final class PlayerLoginRspOuterClass {
       private int clientSilenceDataVersion_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_silence_data_version = 11;</code>
@@ -5643,7 +5643,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_silence_data_version = 11;</code>
@@ -5658,7 +5658,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_silence_data_version = 11;</code>
@@ -5674,7 +5674,7 @@ public final class PlayerLoginRspOuterClass {
       private int targetUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 6;</code>
@@ -5686,7 +5686,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 6;</code>
@@ -5701,7 +5701,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 6;</code>
@@ -5717,7 +5717,7 @@ public final class PlayerLoginRspOuterClass {
       private int clientDataVersion_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_data_version = 2;</code>
@@ -5729,7 +5729,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_data_version = 2;</code>
@@ -5744,7 +5744,7 @@ public final class PlayerLoginRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_data_version = 2;</code>

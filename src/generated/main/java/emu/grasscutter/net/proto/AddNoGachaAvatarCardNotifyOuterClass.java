@@ -20,7 +20,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -29,7 +29,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         getTransferItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -37,7 +37,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     emu.grasscutter.net.proto.AddNoGachaAvatarCardTransferItemOuterClass.AddNoGachaAvatarCardTransferItem getTransferItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -45,7 +45,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     int getTransferItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -54,7 +54,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         getTransferItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -64,7 +64,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_transfer_to_item = 3;</code>
@@ -80,7 +80,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 item_id = 2;</code>
@@ -90,7 +90,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 avatar_id = 7;</code>
@@ -106,7 +106,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 reason = 8;</code>
@@ -243,7 +243,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AddNoGachaAvatarCardTransferItemOuterClass.AddNoGachaAvatarCardTransferItem> transferItemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -254,7 +254,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -266,7 +266,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -277,7 +277,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -288,7 +288,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -303,7 +303,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     private boolean isTransferToItem_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_transfer_to_item = 3;</code>
@@ -329,7 +329,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     private int itemId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 item_id = 2;</code>
@@ -344,7 +344,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     private int avatarId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 avatar_id = 7;</code>
@@ -370,7 +370,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     private int reason_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 reason = 8;</code>
@@ -844,7 +844,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -858,7 +858,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -872,7 +872,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -886,7 +886,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -907,7 +907,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -925,7 +925,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -945,7 +945,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -966,7 +966,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -984,7 +984,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1002,7 +1002,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1021,7 +1021,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1038,7 +1038,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1055,7 +1055,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1066,7 +1066,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1080,7 +1080,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1095,7 +1095,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1106,7 +1106,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1118,7 +1118,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .AddNoGachaAvatarCardTransferItem transfer_item_list = 6;</code>
@@ -1145,7 +1145,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       private boolean isTransferToItem_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_transfer_to_item = 3;</code>
@@ -1157,7 +1157,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_transfer_to_item = 3;</code>
@@ -1172,7 +1172,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_transfer_to_item = 3;</code>
@@ -1219,7 +1219,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       private int itemId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 2;</code>
@@ -1231,7 +1231,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 2;</code>
@@ -1246,7 +1246,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 2;</code>
@@ -1262,7 +1262,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       private int avatarId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 avatar_id = 7;</code>
@@ -1274,7 +1274,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 avatar_id = 7;</code>
@@ -1289,7 +1289,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 avatar_id = 7;</code>
@@ -1336,7 +1336,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       private int reason_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 reason = 8;</code>
@@ -1348,7 +1348,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 reason = 8;</code>
@@ -1363,7 +1363,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 reason = 8;</code>

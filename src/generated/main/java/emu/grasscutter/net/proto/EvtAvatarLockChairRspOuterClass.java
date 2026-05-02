@@ -20,7 +20,7 @@ public final class EvtAvatarLockChairRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -30,7 +30,7 @@ public final class EvtAvatarLockChairRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 chair_id = 8;</code>
@@ -46,7 +46,7 @@ public final class EvtAvatarLockChairRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -56,7 +56,7 @@ public final class EvtAvatarLockChairRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 15;</code>
@@ -65,7 +65,7 @@ public final class EvtAvatarLockChairRspOuterClass {
     boolean hasPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 15;</code>
@@ -74,7 +74,7 @@ public final class EvtAvatarLockChairRspOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 15;</code>
@@ -195,7 +195,7 @@ public final class EvtAvatarLockChairRspOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -210,7 +210,7 @@ public final class EvtAvatarLockChairRspOuterClass {
     private long chairId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 chair_id = 8;</code>
@@ -236,7 +236,7 @@ public final class EvtAvatarLockChairRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -251,7 +251,7 @@ public final class EvtAvatarLockChairRspOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 15;</code>
@@ -263,7 +263,7 @@ public final class EvtAvatarLockChairRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 15;</code>
@@ -275,7 +275,7 @@ public final class EvtAvatarLockChairRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 15;</code>
@@ -672,7 +672,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -684,7 +684,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -699,7 +699,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -715,7 +715,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       private long chairId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 chair_id = 8;</code>
@@ -727,7 +727,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 chair_id = 8;</code>
@@ -742,7 +742,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 chair_id = 8;</code>
@@ -789,7 +789,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -801,7 +801,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -816,7 +816,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -834,7 +834,7 @@ public final class EvtAvatarLockChairRspOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> positionBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 15;</code>
@@ -845,7 +845,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 15;</code>
@@ -860,7 +860,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 15;</code>
@@ -880,7 +880,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 15;</code>
@@ -898,7 +898,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 15;</code>
@@ -920,7 +920,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 15;</code>
@@ -938,7 +938,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 15;</code>
@@ -950,7 +950,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 15;</code>
@@ -965,7 +965,7 @@ public final class EvtAvatarLockChairRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 15;</code>

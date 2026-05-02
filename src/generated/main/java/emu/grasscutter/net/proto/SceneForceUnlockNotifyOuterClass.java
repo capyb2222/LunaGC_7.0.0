@@ -20,7 +20,7 @@ public final class SceneForceUnlockNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 force_id_list = 11;</code>
@@ -29,7 +29,7 @@ public final class SceneForceUnlockNotifyOuterClass {
     java.util.List<java.lang.Integer> getForceIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 force_id_list = 11;</code>
@@ -38,7 +38,7 @@ public final class SceneForceUnlockNotifyOuterClass {
     int getForceIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 force_id_list = 11;</code>
@@ -49,7 +49,7 @@ public final class SceneForceUnlockNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_add = 8;</code>
@@ -173,7 +173,7 @@ public final class SceneForceUnlockNotifyOuterClass {
     private com.google.protobuf.Internal.IntList forceIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 force_id_list = 11;</code>
@@ -186,7 +186,7 @@ public final class SceneForceUnlockNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 force_id_list = 11;</code>
@@ -197,7 +197,7 @@ public final class SceneForceUnlockNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 force_id_list = 11;</code>
@@ -213,7 +213,7 @@ public final class SceneForceUnlockNotifyOuterClass {
     private boolean isAdd_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_add = 8;</code>
@@ -587,7 +587,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 force_id_list = 11;</code>
@@ -600,7 +600,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 force_id_list = 11;</code>
@@ -611,7 +611,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 force_id_list = 11;</code>
@@ -623,7 +623,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 force_id_list = 11;</code>
@@ -640,7 +640,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 force_id_list = 11;</code>
@@ -655,7 +655,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 force_id_list = 11;</code>
@@ -672,7 +672,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 force_id_list = 11;</code>
@@ -688,7 +688,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       private boolean isAdd_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_add = 8;</code>
@@ -700,7 +700,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_add = 8;</code>
@@ -715,7 +715,7 @@ public final class SceneForceUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_add = 8;</code>

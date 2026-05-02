@@ -20,7 +20,7 @@ public final class SetPlayerNameRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string nick_name = 1;</code>
@@ -29,7 +29,7 @@ public final class SetPlayerNameRspOuterClass {
     java.lang.String getNickName();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string nick_name = 1;</code>
@@ -40,7 +40,7 @@ public final class SetPlayerNameRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -145,7 +145,7 @@ public final class SetPlayerNameRspOuterClass {
     private volatile java.lang.Object nickName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string nick_name = 1;</code>
@@ -166,7 +166,7 @@ public final class SetPlayerNameRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string nick_name = 1;</code>
@@ -191,7 +191,7 @@ public final class SetPlayerNameRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -528,7 +528,7 @@ public final class SetPlayerNameRspOuterClass {
       private java.lang.Object nickName_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -548,7 +548,7 @@ public final class SetPlayerNameRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -569,7 +569,7 @@ public final class SetPlayerNameRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -588,7 +588,7 @@ public final class SetPlayerNameRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -602,7 +602,7 @@ public final class SetPlayerNameRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -624,7 +624,7 @@ public final class SetPlayerNameRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -636,7 +636,7 @@ public final class SetPlayerNameRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -651,7 +651,7 @@ public final class SetPlayerNameRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 11;</code>

@@ -20,7 +20,7 @@ public final class DoGachaReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string gacha_tag = 13;</code>
@@ -29,7 +29,7 @@ public final class DoGachaReqOuterClass {
     java.lang.String getGachaTag();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string gacha_tag = 13;</code>
@@ -40,7 +40,7 @@ public final class DoGachaReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_random = 8;</code>
@@ -50,7 +50,7 @@ public final class DoGachaReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 gacha_times = 7;</code>
@@ -60,7 +60,7 @@ public final class DoGachaReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_type = 9;</code>
@@ -70,7 +70,7 @@ public final class DoGachaReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_schedule_id = 1;</code>
@@ -190,7 +190,7 @@ public final class DoGachaReqOuterClass {
     private volatile java.lang.Object gachaTag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string gacha_tag = 13;</code>
@@ -211,7 +211,7 @@ public final class DoGachaReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string gacha_tag = 13;</code>
@@ -236,7 +236,7 @@ public final class DoGachaReqOuterClass {
     private int gachaRandom_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_random = 8;</code>
@@ -251,7 +251,7 @@ public final class DoGachaReqOuterClass {
     private int gachaTimes_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 gacha_times = 7;</code>
@@ -266,7 +266,7 @@ public final class DoGachaReqOuterClass {
     private int gachaType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_type = 9;</code>
@@ -281,7 +281,7 @@ public final class DoGachaReqOuterClass {
     private int gachaScheduleId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_schedule_id = 1;</code>
@@ -669,7 +669,7 @@ public final class DoGachaReqOuterClass {
       private java.lang.Object gachaTag_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string gacha_tag = 13;</code>
@@ -689,7 +689,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string gacha_tag = 13;</code>
@@ -710,7 +710,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string gacha_tag = 13;</code>
@@ -729,7 +729,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string gacha_tag = 13;</code>
@@ -743,7 +743,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string gacha_tag = 13;</code>
@@ -765,7 +765,7 @@ public final class DoGachaReqOuterClass {
       private int gachaRandom_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_random = 8;</code>
@@ -777,7 +777,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_random = 8;</code>
@@ -792,7 +792,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_random = 8;</code>
@@ -808,7 +808,7 @@ public final class DoGachaReqOuterClass {
       private int gachaTimes_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 gacha_times = 7;</code>
@@ -820,7 +820,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 gacha_times = 7;</code>
@@ -835,7 +835,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 gacha_times = 7;</code>
@@ -851,7 +851,7 @@ public final class DoGachaReqOuterClass {
       private int gachaType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_type = 9;</code>
@@ -863,7 +863,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_type = 9;</code>
@@ -878,7 +878,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_type = 9;</code>
@@ -894,7 +894,7 @@ public final class DoGachaReqOuterClass {
       private int gachaScheduleId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_schedule_id = 1;</code>
@@ -906,7 +906,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_schedule_id = 1;</code>
@@ -921,7 +921,7 @@ public final class DoGachaReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_schedule_id = 1;</code>

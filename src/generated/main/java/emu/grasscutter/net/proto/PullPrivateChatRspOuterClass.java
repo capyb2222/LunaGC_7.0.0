@@ -20,7 +20,7 @@ public final class PullPrivateChatRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 7;</code>
@@ -30,7 +30,7 @@ public final class PullPrivateChatRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -39,7 +39,7 @@ public final class PullPrivateChatRspOuterClass {
         getChatInfoList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -47,7 +47,7 @@ public final class PullPrivateChatRspOuterClass {
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo getChatInfo(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -55,7 +55,7 @@ public final class PullPrivateChatRspOuterClass {
     int getChatInfoCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -64,7 +64,7 @@ public final class PullPrivateChatRspOuterClass {
         getChatInfoOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -172,7 +172,7 @@ public final class PullPrivateChatRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 7;</code>
@@ -187,7 +187,7 @@ public final class PullPrivateChatRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo> chatInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -198,7 +198,7 @@ public final class PullPrivateChatRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -210,7 +210,7 @@ public final class PullPrivateChatRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -221,7 +221,7 @@ public final class PullPrivateChatRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -232,7 +232,7 @@ public final class PullPrivateChatRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -605,7 +605,7 @@ public final class PullPrivateChatRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 7;</code>
@@ -617,7 +617,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 7;</code>
@@ -632,7 +632,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 7;</code>
@@ -659,7 +659,7 @@ public final class PullPrivateChatRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -673,7 +673,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -687,7 +687,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -701,7 +701,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -722,7 +722,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -740,7 +740,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -760,7 +760,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -781,7 +781,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -799,7 +799,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -817,7 +817,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -836,7 +836,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -853,7 +853,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -870,7 +870,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -881,7 +881,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -895,7 +895,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -910,7 +910,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -921,7 +921,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>
@@ -933,7 +933,7 @@ public final class PullPrivateChatRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ChatInfo chat_info = 9;</code>

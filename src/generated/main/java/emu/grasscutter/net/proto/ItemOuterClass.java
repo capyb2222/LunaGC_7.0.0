@@ -20,7 +20,7 @@ public final class ItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 1;</code>
@@ -30,7 +30,7 @@ public final class ItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 2;</code>
@@ -40,7 +40,7 @@ public final class ItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Material material = 5;</code>
@@ -49,7 +49,7 @@ public final class ItemOuterClass {
     boolean hasMaterial();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Material material = 5;</code>
@@ -58,7 +58,7 @@ public final class ItemOuterClass {
     emu.grasscutter.net.proto.MaterialOuterClass.Material getMaterial();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Material material = 5;</code>
@@ -67,7 +67,7 @@ public final class ItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Equip equip = 6;</code>
@@ -76,7 +76,7 @@ public final class ItemOuterClass {
     boolean hasEquip();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Equip equip = 6;</code>
@@ -85,7 +85,7 @@ public final class ItemOuterClass {
     emu.grasscutter.net.proto.EquipOuterClass.Equip getEquip();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Equip equip = 6;</code>
@@ -94,7 +94,7 @@ public final class ItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Furniture furniture = 7;</code>
@@ -103,7 +103,7 @@ public final class ItemOuterClass {
     boolean hasFurniture();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Furniture furniture = 7;</code>
@@ -112,7 +112,7 @@ public final class ItemOuterClass {
     emu.grasscutter.net.proto.FurnitureOuterClass.Furniture getFurniture();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Furniture furniture = 7;</code>
@@ -297,7 +297,7 @@ public final class ItemOuterClass {
     private int itemId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 1;</code>
@@ -312,7 +312,7 @@ public final class ItemOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 2;</code>
@@ -326,7 +326,7 @@ public final class ItemOuterClass {
     public static final int MATERIAL_FIELD_NUMBER = 5;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Material material = 5;</code>
@@ -338,7 +338,7 @@ public final class ItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Material material = 5;</code>
@@ -353,7 +353,7 @@ public final class ItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Material material = 5;</code>
@@ -369,7 +369,7 @@ public final class ItemOuterClass {
     public static final int EQUIP_FIELD_NUMBER = 6;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Equip equip = 6;</code>
@@ -381,7 +381,7 @@ public final class ItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Equip equip = 6;</code>
@@ -396,7 +396,7 @@ public final class ItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Equip equip = 6;</code>
@@ -412,7 +412,7 @@ public final class ItemOuterClass {
     public static final int FURNITURE_FIELD_NUMBER = 7;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Furniture furniture = 7;</code>
@@ -424,7 +424,7 @@ public final class ItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Furniture furniture = 7;</code>
@@ -439,7 +439,7 @@ public final class ItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Furniture furniture = 7;</code>
@@ -885,7 +885,7 @@ public final class ItemOuterClass {
       private int itemId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 1;</code>
@@ -897,7 +897,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 1;</code>
@@ -912,7 +912,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 1;</code>
@@ -928,7 +928,7 @@ public final class ItemOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -940,7 +940,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -955,7 +955,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -972,7 +972,7 @@ public final class ItemOuterClass {
           emu.grasscutter.net.proto.MaterialOuterClass.Material, emu.grasscutter.net.proto.MaterialOuterClass.Material.Builder, emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder> materialBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Material material = 5;</code>
@@ -984,7 +984,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Material material = 5;</code>
@@ -1006,7 +1006,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Material material = 5;</code>
@@ -1026,7 +1026,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Material material = 5;</code>
@@ -1044,7 +1044,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Material material = 5;</code>
@@ -1070,7 +1070,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Material material = 5;</code>
@@ -1093,7 +1093,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Material material = 5;</code>
@@ -1103,7 +1103,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Material material = 5;</code>
@@ -1121,7 +1121,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Material material = 5;</code>
@@ -1149,7 +1149,7 @@ public final class ItemOuterClass {
           emu.grasscutter.net.proto.EquipOuterClass.Equip, emu.grasscutter.net.proto.EquipOuterClass.Equip.Builder, emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder> equipBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Equip equip = 6;</code>
@@ -1161,7 +1161,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Equip equip = 6;</code>
@@ -1183,7 +1183,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Equip equip = 6;</code>
@@ -1203,7 +1203,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Equip equip = 6;</code>
@@ -1221,7 +1221,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Equip equip = 6;</code>
@@ -1247,7 +1247,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Equip equip = 6;</code>
@@ -1270,7 +1270,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Equip equip = 6;</code>
@@ -1280,7 +1280,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Equip equip = 6;</code>
@@ -1298,7 +1298,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Equip equip = 6;</code>
@@ -1326,7 +1326,7 @@ public final class ItemOuterClass {
           emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder> furnitureBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Furniture furniture = 7;</code>
@@ -1338,7 +1338,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Furniture furniture = 7;</code>
@@ -1360,7 +1360,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Furniture furniture = 7;</code>
@@ -1380,7 +1380,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Furniture furniture = 7;</code>
@@ -1398,7 +1398,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Furniture furniture = 7;</code>
@@ -1424,7 +1424,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Furniture furniture = 7;</code>
@@ -1447,7 +1447,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Furniture furniture = 7;</code>
@@ -1457,7 +1457,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Furniture furniture = 7;</code>
@@ -1475,7 +1475,7 @@ public final class ItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Furniture furniture = 7;</code>

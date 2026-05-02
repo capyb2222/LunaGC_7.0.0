@@ -80,7 +80,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 6;</code>
@@ -313,7 +313,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
     private boolean isContentClosed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 6;</code>
@@ -1318,7 +1318,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
       private boolean isContentClosed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 6;</code>
@@ -1330,7 +1330,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 6;</code>
@@ -1345,7 +1345,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 6;</code>

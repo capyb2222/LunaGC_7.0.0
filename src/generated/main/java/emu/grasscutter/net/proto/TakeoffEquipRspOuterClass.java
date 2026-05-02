@@ -20,7 +20,7 @@ public final class TakeoffEquipRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 slot = 11;</code>
@@ -30,7 +30,7 @@ public final class TakeoffEquipRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 9;</code>
@@ -40,7 +40,7 @@ public final class TakeoffEquipRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 4;</code>
@@ -148,7 +148,7 @@ public final class TakeoffEquipRspOuterClass {
     private int slot_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 slot = 11;</code>
@@ -163,7 +163,7 @@ public final class TakeoffEquipRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 9;</code>
@@ -178,7 +178,7 @@ public final class TakeoffEquipRspOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 4;</code>
@@ -533,7 +533,7 @@ public final class TakeoffEquipRspOuterClass {
       private int slot_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 slot = 11;</code>
@@ -545,7 +545,7 @@ public final class TakeoffEquipRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 slot = 11;</code>
@@ -560,7 +560,7 @@ public final class TakeoffEquipRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 slot = 11;</code>
@@ -576,7 +576,7 @@ public final class TakeoffEquipRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 9;</code>
@@ -588,7 +588,7 @@ public final class TakeoffEquipRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 9;</code>
@@ -603,7 +603,7 @@ public final class TakeoffEquipRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 9;</code>
@@ -619,7 +619,7 @@ public final class TakeoffEquipRspOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -631,7 +631,7 @@ public final class TakeoffEquipRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -646,7 +646,7 @@ public final class TakeoffEquipRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>

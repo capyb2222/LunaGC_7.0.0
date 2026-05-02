@@ -20,7 +20,7 @@ public final class AsterLargeDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 begin_time = 5;</code>
@@ -30,7 +30,7 @@ public final class AsterLargeDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_open = 4;</code>
@@ -129,7 +129,7 @@ public final class AsterLargeDetailInfoOuterClass {
     private int beginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 begin_time = 5;</code>
@@ -144,7 +144,7 @@ public final class AsterLargeDetailInfoOuterClass {
     private boolean isOpen_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_open = 4;</code>
@@ -478,7 +478,7 @@ public final class AsterLargeDetailInfoOuterClass {
       private int beginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 begin_time = 5;</code>
@@ -490,7 +490,7 @@ public final class AsterLargeDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 begin_time = 5;</code>
@@ -505,7 +505,7 @@ public final class AsterLargeDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 begin_time = 5;</code>
@@ -521,7 +521,7 @@ public final class AsterLargeDetailInfoOuterClass {
       private boolean isOpen_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_open = 4;</code>
@@ -533,7 +533,7 @@ public final class AsterLargeDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_open = 4;</code>
@@ -548,7 +548,7 @@ public final class AsterLargeDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_open = 4;</code>

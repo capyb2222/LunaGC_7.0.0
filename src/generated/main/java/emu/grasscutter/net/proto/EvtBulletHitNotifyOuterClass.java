@@ -20,7 +20,7 @@ public final class EvtBulletHitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_normal = 11;</code>
@@ -29,7 +29,7 @@ public final class EvtBulletHitNotifyOuterClass {
     boolean hasHitNormal();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_normal = 11;</code>
@@ -38,7 +38,7 @@ public final class EvtBulletHitNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getHitNormal();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_normal = 11;</code>
@@ -47,7 +47,7 @@ public final class EvtBulletHitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -56,7 +56,7 @@ public final class EvtBulletHitNotifyOuterClass {
     boolean hasHitPoint();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -65,7 +65,7 @@ public final class EvtBulletHitNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getHitPoint();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -74,7 +74,7 @@ public final class EvtBulletHitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitColliderType hit_collider_type = 4;</code>
@@ -83,7 +83,7 @@ public final class EvtBulletHitNotifyOuterClass {
     int getHitColliderTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitColliderType hit_collider_type = 4;</code>
@@ -93,7 +93,7 @@ public final class EvtBulletHitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 hit_box_index = 12;</code>
@@ -103,7 +103,7 @@ public final class EvtBulletHitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 forward_peer = 15;</code>
@@ -119,7 +119,7 @@ public final class EvtBulletHitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 3;</code>
@@ -129,7 +129,7 @@ public final class EvtBulletHitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 1;</code>
@@ -138,7 +138,7 @@ public final class EvtBulletHitNotifyOuterClass {
     int getForwardTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 1;</code>
@@ -291,7 +291,7 @@ public final class EvtBulletHitNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector hitNormal_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_normal = 11;</code>
@@ -303,7 +303,7 @@ public final class EvtBulletHitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_normal = 11;</code>
@@ -315,7 +315,7 @@ public final class EvtBulletHitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_normal = 11;</code>
@@ -329,7 +329,7 @@ public final class EvtBulletHitNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector hitPoint_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -341,7 +341,7 @@ public final class EvtBulletHitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -353,7 +353,7 @@ public final class EvtBulletHitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -367,7 +367,7 @@ public final class EvtBulletHitNotifyOuterClass {
     private int hitColliderType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitColliderType hit_collider_type = 4;</code>
@@ -378,7 +378,7 @@ public final class EvtBulletHitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitColliderType hit_collider_type = 4;</code>
@@ -394,7 +394,7 @@ public final class EvtBulletHitNotifyOuterClass {
     private int hitBoxIndex_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 hit_box_index = 12;</code>
@@ -409,7 +409,7 @@ public final class EvtBulletHitNotifyOuterClass {
     private int forwardPeer_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 forward_peer = 15;</code>
@@ -435,7 +435,7 @@ public final class EvtBulletHitNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 3;</code>
@@ -450,7 +450,7 @@ public final class EvtBulletHitNotifyOuterClass {
     private int forwardType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 1;</code>
@@ -461,7 +461,7 @@ public final class EvtBulletHitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 1;</code>
@@ -927,7 +927,7 @@ public final class EvtBulletHitNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> hitNormalBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_normal = 11;</code>
@@ -938,7 +938,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_normal = 11;</code>
@@ -953,7 +953,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_normal = 11;</code>
@@ -973,7 +973,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_normal = 11;</code>
@@ -991,7 +991,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_normal = 11;</code>
@@ -1013,7 +1013,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_normal = 11;</code>
@@ -1031,7 +1031,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_normal = 11;</code>
@@ -1043,7 +1043,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_normal = 11;</code>
@@ -1058,7 +1058,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_normal = 11;</code>
@@ -1082,7 +1082,7 @@ public final class EvtBulletHitNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> hitPointBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1093,7 +1093,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1108,7 +1108,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1128,7 +1128,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1146,7 +1146,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1168,7 +1168,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1186,7 +1186,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1198,7 +1198,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1213,7 +1213,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1235,7 +1235,7 @@ public final class EvtBulletHitNotifyOuterClass {
       private int hitColliderType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 4;</code>
@@ -1246,7 +1246,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 4;</code>
@@ -1261,7 +1261,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 4;</code>
@@ -1275,7 +1275,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 4;</code>
@@ -1293,7 +1293,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 4;</code>
@@ -1309,7 +1309,7 @@ public final class EvtBulletHitNotifyOuterClass {
       private int hitBoxIndex_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 hit_box_index = 12;</code>
@@ -1321,7 +1321,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 hit_box_index = 12;</code>
@@ -1336,7 +1336,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 hit_box_index = 12;</code>
@@ -1352,7 +1352,7 @@ public final class EvtBulletHitNotifyOuterClass {
       private int forwardPeer_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 forward_peer = 15;</code>
@@ -1364,7 +1364,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 forward_peer = 15;</code>
@@ -1379,7 +1379,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 forward_peer = 15;</code>
@@ -1426,7 +1426,7 @@ public final class EvtBulletHitNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 3;</code>
@@ -1438,7 +1438,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 3;</code>
@@ -1453,7 +1453,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 3;</code>
@@ -1469,7 +1469,7 @@ public final class EvtBulletHitNotifyOuterClass {
       private int forwardType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>
@@ -1480,7 +1480,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>
@@ -1495,7 +1495,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>
@@ -1509,7 +1509,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>
@@ -1527,7 +1527,7 @@ public final class EvtBulletHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 1;</code>

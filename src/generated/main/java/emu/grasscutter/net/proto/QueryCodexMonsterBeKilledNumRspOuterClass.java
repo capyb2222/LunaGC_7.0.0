@@ -20,7 +20,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 9;</code>
@@ -29,7 +29,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     java.util.List<java.lang.Integer> getCodexIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 9;</code>
@@ -38,7 +38,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     int getCodexIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 9;</code>
@@ -83,7 +83,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -257,7 +257,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     private com.google.protobuf.Internal.IntList codexIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 9;</code>
@@ -270,7 +270,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 9;</code>
@@ -281,7 +281,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 9;</code>
@@ -353,7 +353,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -814,7 +814,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 9;</code>
@@ -827,7 +827,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 9;</code>
@@ -838,7 +838,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 9;</code>
@@ -850,7 +850,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 9;</code>
@@ -867,7 +867,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 9;</code>
@@ -882,7 +882,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 9;</code>
@@ -899,7 +899,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 9;</code>
@@ -1073,7 +1073,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -1085,7 +1085,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -1100,7 +1100,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 11;</code>

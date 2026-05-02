@@ -20,7 +20,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 avatar_skill_id = 14;</code>
@@ -30,7 +30,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 old_level = 11;</code>
@@ -40,7 +40,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint64 avatar_guid = 3;</code>
@@ -148,7 +148,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
     private int avatarSkillId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 avatar_skill_id = 14;</code>
@@ -163,7 +163,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
     private int oldLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 old_level = 11;</code>
@@ -178,7 +178,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint64 avatar_guid = 3;</code>
@@ -533,7 +533,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       private int avatarSkillId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 avatar_skill_id = 14;</code>
@@ -545,7 +545,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 avatar_skill_id = 14;</code>
@@ -560,7 +560,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 avatar_skill_id = 14;</code>
@@ -576,7 +576,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       private int oldLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 old_level = 11;</code>
@@ -588,7 +588,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 old_level = 11;</code>
@@ -603,7 +603,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 old_level = 11;</code>
@@ -619,7 +619,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint64 avatar_guid = 3;</code>
@@ -631,7 +631,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint64 avatar_guid = 3;</code>
@@ -646,7 +646,7 @@ public final class AvatarSkillUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint64 avatar_guid = 3;</code>

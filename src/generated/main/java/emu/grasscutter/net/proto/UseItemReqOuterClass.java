@@ -37,7 +37,7 @@ public final class UseItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 guid = 13;</code>
@@ -47,7 +47,7 @@ public final class UseItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_enter_mp_dungeon_team = 11;</code>
@@ -57,7 +57,7 @@ public final class UseItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 option_idx = 15;</code>
@@ -67,7 +67,7 @@ public final class UseItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 count = 8;</code>
@@ -77,7 +77,7 @@ public final class UseItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 target_guid = 6;</code>
@@ -249,7 +249,7 @@ public final class UseItemReqOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 guid = 13;</code>
@@ -264,7 +264,7 @@ public final class UseItemReqOuterClass {
     private boolean isEnterMpDungeonTeam_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_enter_mp_dungeon_team = 11;</code>
@@ -279,7 +279,7 @@ public final class UseItemReqOuterClass {
     private int optionIdx_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 option_idx = 15;</code>
@@ -294,7 +294,7 @@ public final class UseItemReqOuterClass {
     private int count_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 count = 8;</code>
@@ -309,7 +309,7 @@ public final class UseItemReqOuterClass {
     private long targetGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 target_guid = 6;</code>
@@ -826,7 +826,7 @@ public final class UseItemReqOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 guid = 13;</code>
@@ -838,7 +838,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 guid = 13;</code>
@@ -853,7 +853,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 guid = 13;</code>
@@ -869,7 +869,7 @@ public final class UseItemReqOuterClass {
       private boolean isEnterMpDungeonTeam_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_enter_mp_dungeon_team = 11;</code>
@@ -881,7 +881,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_enter_mp_dungeon_team = 11;</code>
@@ -896,7 +896,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_enter_mp_dungeon_team = 11;</code>
@@ -912,7 +912,7 @@ public final class UseItemReqOuterClass {
       private int optionIdx_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 option_idx = 15;</code>
@@ -924,7 +924,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 option_idx = 15;</code>
@@ -939,7 +939,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 option_idx = 15;</code>
@@ -955,7 +955,7 @@ public final class UseItemReqOuterClass {
       private int count_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 count = 8;</code>
@@ -967,7 +967,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 count = 8;</code>
@@ -982,7 +982,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 count = 8;</code>
@@ -998,7 +998,7 @@ public final class UseItemReqOuterClass {
       private long targetGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 target_guid = 6;</code>
@@ -1010,7 +1010,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 target_guid = 6;</code>
@@ -1025,7 +1025,7 @@ public final class UseItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 target_guid = 6;</code>

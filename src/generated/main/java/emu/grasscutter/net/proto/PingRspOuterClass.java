@@ -20,7 +20,7 @@ public final class PingRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 8;</code>
@@ -30,7 +30,7 @@ public final class PingRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 seq = 3;</code>
@@ -40,7 +40,7 @@ public final class PingRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 client_time = 4;</code>
@@ -148,7 +148,7 @@ public final class PingRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 8;</code>
@@ -163,7 +163,7 @@ public final class PingRspOuterClass {
     private int seq_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 seq = 3;</code>
@@ -178,7 +178,7 @@ public final class PingRspOuterClass {
     private int clientTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 client_time = 4;</code>
@@ -532,7 +532,7 @@ public final class PingRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 8;</code>
@@ -544,7 +544,7 @@ public final class PingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 8;</code>
@@ -559,7 +559,7 @@ public final class PingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 8;</code>
@@ -575,7 +575,7 @@ public final class PingRspOuterClass {
       private int seq_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 seq = 3;</code>
@@ -587,7 +587,7 @@ public final class PingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 seq = 3;</code>
@@ -602,7 +602,7 @@ public final class PingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 seq = 3;</code>
@@ -618,7 +618,7 @@ public final class PingRspOuterClass {
       private int clientTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 client_time = 4;</code>
@@ -630,7 +630,7 @@ public final class PingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 client_time = 4;</code>
@@ -645,7 +645,7 @@ public final class PingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 client_time = 4;</code>

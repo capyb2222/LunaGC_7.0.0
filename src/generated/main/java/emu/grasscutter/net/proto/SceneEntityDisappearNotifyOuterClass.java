@@ -20,7 +20,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 entity_list = 5;</code>
@@ -29,7 +29,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     java.util.List<java.lang.Integer> getEntityListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 entity_list = 5;</code>
@@ -38,7 +38,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     int getEntityListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 entity_list = 5;</code>
@@ -49,7 +49,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VisionType disappear_type = 7;</code>
@@ -58,7 +58,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     int getDisappearTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VisionType disappear_type = 7;</code>
@@ -68,7 +68,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 param = 2;</code>
@@ -199,7 +199,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     private com.google.protobuf.Internal.IntList entityList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 entity_list = 5;</code>
@@ -212,7 +212,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 entity_list = 5;</code>
@@ -223,7 +223,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 entity_list = 5;</code>
@@ -239,7 +239,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     private int disappearType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VisionType disappear_type = 7;</code>
@@ -250,7 +250,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VisionType disappear_type = 7;</code>
@@ -266,7 +266,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
     private int param_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 param = 2;</code>
@@ -655,7 +655,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 entity_list = 5;</code>
@@ -668,7 +668,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 entity_list = 5;</code>
@@ -679,7 +679,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 entity_list = 5;</code>
@@ -691,7 +691,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 entity_list = 5;</code>
@@ -708,7 +708,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 entity_list = 5;</code>
@@ -723,7 +723,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 entity_list = 5;</code>
@@ -740,7 +740,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 entity_list = 5;</code>
@@ -756,7 +756,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       private int disappearType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VisionType disappear_type = 7;</code>
@@ -767,7 +767,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VisionType disappear_type = 7;</code>
@@ -782,7 +782,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VisionType disappear_type = 7;</code>
@@ -796,7 +796,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VisionType disappear_type = 7;</code>
@@ -814,7 +814,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VisionType disappear_type = 7;</code>
@@ -830,7 +830,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       private int param_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 param = 2;</code>
@@ -842,7 +842,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 param = 2;</code>
@@ -857,7 +857,7 @@ public final class SceneEntityDisappearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 param = 2;</code>

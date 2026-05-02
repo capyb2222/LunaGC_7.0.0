@@ -20,7 +20,7 @@ public final class GadgetPlayInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -29,7 +29,7 @@ public final class GadgetPlayInfoOuterClass {
     java.util.List<java.lang.Integer> getProgressStageListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -38,7 +38,7 @@ public final class GadgetPlayInfoOuterClass {
     int getProgressStageListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -49,7 +49,7 @@ public final class GadgetPlayInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 duration = 2;</code>
@@ -59,7 +59,7 @@ public final class GadgetPlayInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_time = 5;</code>
@@ -69,7 +69,7 @@ public final class GadgetPlayInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 play_type = 1;</code>
@@ -79,7 +79,7 @@ public final class GadgetPlayInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_cd = 4;</code>
@@ -89,7 +89,7 @@ public final class GadgetPlayInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 progress = 6;</code>
@@ -229,7 +229,7 @@ public final class GadgetPlayInfoOuterClass {
     private com.google.protobuf.Internal.IntList progressStageList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -242,7 +242,7 @@ public final class GadgetPlayInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -253,7 +253,7 @@ public final class GadgetPlayInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -269,7 +269,7 @@ public final class GadgetPlayInfoOuterClass {
     private int duration_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 duration = 2;</code>
@@ -284,7 +284,7 @@ public final class GadgetPlayInfoOuterClass {
     private int startTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_time = 5;</code>
@@ -299,7 +299,7 @@ public final class GadgetPlayInfoOuterClass {
     private int playType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 play_type = 1;</code>
@@ -314,7 +314,7 @@ public final class GadgetPlayInfoOuterClass {
     private int startCd_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_cd = 4;</code>
@@ -329,7 +329,7 @@ public final class GadgetPlayInfoOuterClass {
     private int progress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 progress = 6;</code>
@@ -766,7 +766,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -779,7 +779,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -790,7 +790,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -802,7 +802,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -819,7 +819,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -834,7 +834,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -851,7 +851,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 progress_stage_list = 3;</code>
@@ -867,7 +867,7 @@ public final class GadgetPlayInfoOuterClass {
       private int duration_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 duration = 2;</code>
@@ -879,7 +879,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 duration = 2;</code>
@@ -894,7 +894,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 duration = 2;</code>
@@ -910,7 +910,7 @@ public final class GadgetPlayInfoOuterClass {
       private int startTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_time = 5;</code>
@@ -922,7 +922,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_time = 5;</code>
@@ -937,7 +937,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_time = 5;</code>
@@ -953,7 +953,7 @@ public final class GadgetPlayInfoOuterClass {
       private int playType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 play_type = 1;</code>
@@ -965,7 +965,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 play_type = 1;</code>
@@ -980,7 +980,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 play_type = 1;</code>
@@ -996,7 +996,7 @@ public final class GadgetPlayInfoOuterClass {
       private int startCd_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_cd = 4;</code>
@@ -1008,7 +1008,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_cd = 4;</code>
@@ -1023,7 +1023,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_cd = 4;</code>
@@ -1039,7 +1039,7 @@ public final class GadgetPlayInfoOuterClass {
       private int progress_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 progress = 6;</code>
@@ -1051,7 +1051,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 progress = 6;</code>
@@ -1066,7 +1066,7 @@ public final class GadgetPlayInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 progress = 6;</code>

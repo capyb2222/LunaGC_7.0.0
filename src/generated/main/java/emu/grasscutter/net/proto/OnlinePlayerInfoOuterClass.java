@@ -32,7 +32,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string signature = 11;</code>
@@ -41,7 +41,7 @@ public final class OnlinePlayerInfoOuterClass {
     java.lang.String getSignature();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string signature = 11;</code>
@@ -52,7 +52,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 12;</code>
@@ -61,7 +61,7 @@ public final class OnlinePlayerInfoOuterClass {
     boolean hasProfilePicture();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 12;</code>
@@ -70,7 +70,7 @@ public final class OnlinePlayerInfoOuterClass {
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 12;</code>
@@ -91,7 +91,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -100,7 +100,7 @@ public final class OnlinePlayerInfoOuterClass {
     java.util.List<java.lang.Integer> getBlacklistUidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -109,7 +109,7 @@ public final class OnlinePlayerInfoOuterClass {
     int getBlacklistUidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -120,7 +120,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 13;</code>
@@ -129,7 +129,7 @@ public final class OnlinePlayerInfoOuterClass {
     java.lang.String getPsnId();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 13;</code>
@@ -140,7 +140,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 8;</code>
@@ -149,7 +149,7 @@ public final class OnlinePlayerInfoOuterClass {
     java.lang.String getOnlineId();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 8;</code>
@@ -160,7 +160,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string nickname = 2;</code>
@@ -169,7 +169,7 @@ public final class OnlinePlayerInfoOuterClass {
     java.lang.String getNickname();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string nickname = 2;</code>
@@ -180,7 +180,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 cur_player_num_in_world = 6;</code>
@@ -190,7 +190,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformType platform_type = 16;</code>
@@ -199,7 +199,7 @@ public final class OnlinePlayerInfoOuterClass {
     int getPlatformTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformType platform_type = 16;</code>
@@ -209,7 +209,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 4;</code>
@@ -219,7 +219,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 name_card_id = 9;</code>
@@ -229,7 +229,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 player_level = 3;</code>
@@ -239,7 +239,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 world_level = 7;</code>
@@ -249,7 +249,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpSettingType mp_setting_type = 5;</code>
@@ -258,7 +258,7 @@ public final class OnlinePlayerInfoOuterClass {
     int getMpSettingTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpSettingType mp_setting_type = 5;</code>
@@ -268,7 +268,7 @@ public final class OnlinePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -520,7 +520,7 @@ public final class OnlinePlayerInfoOuterClass {
     private volatile java.lang.Object signature_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string signature = 11;</code>
@@ -541,7 +541,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string signature = 11;</code>
@@ -566,7 +566,7 @@ public final class OnlinePlayerInfoOuterClass {
     private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 12;</code>
@@ -578,7 +578,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 12;</code>
@@ -590,7 +590,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ProfilePicture profile_picture = 12;</code>
@@ -642,7 +642,7 @@ public final class OnlinePlayerInfoOuterClass {
     private com.google.protobuf.Internal.IntList blacklistUidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -655,7 +655,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -666,7 +666,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -682,7 +682,7 @@ public final class OnlinePlayerInfoOuterClass {
     private volatile java.lang.Object psnId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 13;</code>
@@ -703,7 +703,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 13;</code>
@@ -728,7 +728,7 @@ public final class OnlinePlayerInfoOuterClass {
     private volatile java.lang.Object onlineId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 8;</code>
@@ -749,7 +749,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 8;</code>
@@ -774,7 +774,7 @@ public final class OnlinePlayerInfoOuterClass {
     private volatile java.lang.Object nickname_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string nickname = 2;</code>
@@ -795,7 +795,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string nickname = 2;</code>
@@ -820,7 +820,7 @@ public final class OnlinePlayerInfoOuterClass {
     private int curPlayerNumInWorld_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 cur_player_num_in_world = 6;</code>
@@ -835,7 +835,7 @@ public final class OnlinePlayerInfoOuterClass {
     private int platformType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformType platform_type = 16;</code>
@@ -846,7 +846,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformType platform_type = 16;</code>
@@ -862,7 +862,7 @@ public final class OnlinePlayerInfoOuterClass {
     private int avatarId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 4;</code>
@@ -877,7 +877,7 @@ public final class OnlinePlayerInfoOuterClass {
     private int nameCardId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 name_card_id = 9;</code>
@@ -892,7 +892,7 @@ public final class OnlinePlayerInfoOuterClass {
     private int playerLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 player_level = 3;</code>
@@ -907,7 +907,7 @@ public final class OnlinePlayerInfoOuterClass {
     private int worldLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 world_level = 7;</code>
@@ -922,7 +922,7 @@ public final class OnlinePlayerInfoOuterClass {
     private int mpSettingType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpSettingType mp_setting_type = 5;</code>
@@ -933,7 +933,7 @@ public final class OnlinePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpSettingType mp_setting_type = 5;</code>
@@ -949,7 +949,7 @@ public final class OnlinePlayerInfoOuterClass {
     private int uid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -1637,7 +1637,7 @@ public final class OnlinePlayerInfoOuterClass {
       private java.lang.Object signature_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string signature = 11;</code>
@@ -1657,7 +1657,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string signature = 11;</code>
@@ -1678,7 +1678,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string signature = 11;</code>
@@ -1697,7 +1697,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string signature = 11;</code>
@@ -1711,7 +1711,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string signature = 11;</code>
@@ -1735,7 +1735,7 @@ public final class OnlinePlayerInfoOuterClass {
           emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> profilePictureBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 12;</code>
@@ -1746,7 +1746,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 12;</code>
@@ -1761,7 +1761,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 12;</code>
@@ -1781,7 +1781,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 12;</code>
@@ -1799,7 +1799,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 12;</code>
@@ -1821,7 +1821,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 12;</code>
@@ -1839,7 +1839,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 12;</code>
@@ -1851,7 +1851,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 12;</code>
@@ -1866,7 +1866,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ProfilePicture profile_picture = 12;</code>
@@ -1970,7 +1970,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -1983,7 +1983,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -1994,7 +1994,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -2006,7 +2006,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -2023,7 +2023,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -2038,7 +2038,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -2055,7 +2055,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 blacklist_uid_list = 10;</code>
@@ -2071,7 +2071,7 @@ public final class OnlinePlayerInfoOuterClass {
       private java.lang.Object psnId_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 13;</code>
@@ -2091,7 +2091,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 13;</code>
@@ -2112,7 +2112,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 13;</code>
@@ -2131,7 +2131,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 13;</code>
@@ -2145,7 +2145,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 13;</code>
@@ -2167,7 +2167,7 @@ public final class OnlinePlayerInfoOuterClass {
       private java.lang.Object onlineId_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 8;</code>
@@ -2187,7 +2187,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 8;</code>
@@ -2208,7 +2208,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 8;</code>
@@ -2227,7 +2227,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 8;</code>
@@ -2241,7 +2241,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 8;</code>
@@ -2263,7 +2263,7 @@ public final class OnlinePlayerInfoOuterClass {
       private java.lang.Object nickname_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -2283,7 +2283,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -2304,7 +2304,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -2323,7 +2323,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -2337,7 +2337,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nickname = 2;</code>
@@ -2359,7 +2359,7 @@ public final class OnlinePlayerInfoOuterClass {
       private int curPlayerNumInWorld_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 cur_player_num_in_world = 6;</code>
@@ -2371,7 +2371,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 cur_player_num_in_world = 6;</code>
@@ -2386,7 +2386,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 cur_player_num_in_world = 6;</code>
@@ -2402,7 +2402,7 @@ public final class OnlinePlayerInfoOuterClass {
       private int platformType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformType platform_type = 16;</code>
@@ -2413,7 +2413,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformType platform_type = 16;</code>
@@ -2428,7 +2428,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformType platform_type = 16;</code>
@@ -2442,7 +2442,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformType platform_type = 16;</code>
@@ -2460,7 +2460,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformType platform_type = 16;</code>
@@ -2476,7 +2476,7 @@ public final class OnlinePlayerInfoOuterClass {
       private int avatarId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 4;</code>
@@ -2488,7 +2488,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 4;</code>
@@ -2503,7 +2503,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 4;</code>
@@ -2519,7 +2519,7 @@ public final class OnlinePlayerInfoOuterClass {
       private int nameCardId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 name_card_id = 9;</code>
@@ -2531,7 +2531,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 name_card_id = 9;</code>
@@ -2546,7 +2546,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 name_card_id = 9;</code>
@@ -2562,7 +2562,7 @@ public final class OnlinePlayerInfoOuterClass {
       private int playerLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 player_level = 3;</code>
@@ -2574,7 +2574,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 player_level = 3;</code>
@@ -2589,7 +2589,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 player_level = 3;</code>
@@ -2605,7 +2605,7 @@ public final class OnlinePlayerInfoOuterClass {
       private int worldLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 world_level = 7;</code>
@@ -2617,7 +2617,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 world_level = 7;</code>
@@ -2632,7 +2632,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 world_level = 7;</code>
@@ -2648,7 +2648,7 @@ public final class OnlinePlayerInfoOuterClass {
       private int mpSettingType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpSettingType mp_setting_type = 5;</code>
@@ -2659,7 +2659,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpSettingType mp_setting_type = 5;</code>
@@ -2674,7 +2674,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpSettingType mp_setting_type = 5;</code>
@@ -2688,7 +2688,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpSettingType mp_setting_type = 5;</code>
@@ -2706,7 +2706,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpSettingType mp_setting_type = 5;</code>
@@ -2722,7 +2722,7 @@ public final class OnlinePlayerInfoOuterClass {
       private int uid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -2734,7 +2734,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -2749,7 +2749,7 @@ public final class OnlinePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>

@@ -20,7 +20,7 @@ public final class DealAddFriendRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_uid = 1;</code>
@@ -30,7 +30,7 @@ public final class DealAddFriendRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DealAddFriendResultType deal_add_friend_result = 12;</code>
@@ -39,7 +39,7 @@ public final class DealAddFriendRspOuterClass {
     int getDealAddFriendResultValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DealAddFriendResultType deal_add_friend_result = 12;</code>
@@ -49,7 +49,7 @@ public final class DealAddFriendRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -159,7 +159,7 @@ public final class DealAddFriendRspOuterClass {
     private int targetUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_uid = 1;</code>
@@ -174,7 +174,7 @@ public final class DealAddFriendRspOuterClass {
     private int dealAddFriendResult_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DealAddFriendResultType deal_add_friend_result = 12;</code>
@@ -185,7 +185,7 @@ public final class DealAddFriendRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DealAddFriendResultType deal_add_friend_result = 12;</code>
@@ -201,7 +201,7 @@ public final class DealAddFriendRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -554,7 +554,7 @@ public final class DealAddFriendRspOuterClass {
       private int targetUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 1;</code>
@@ -566,7 +566,7 @@ public final class DealAddFriendRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 1;</code>
@@ -581,7 +581,7 @@ public final class DealAddFriendRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 1;</code>
@@ -597,7 +597,7 @@ public final class DealAddFriendRspOuterClass {
       private int dealAddFriendResult_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 12;</code>
@@ -608,7 +608,7 @@ public final class DealAddFriendRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 12;</code>
@@ -623,7 +623,7 @@ public final class DealAddFriendRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 12;</code>
@@ -637,7 +637,7 @@ public final class DealAddFriendRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 12;</code>
@@ -655,7 +655,7 @@ public final class DealAddFriendRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 12;</code>
@@ -671,7 +671,7 @@ public final class DealAddFriendRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -683,7 +683,7 @@ public final class DealAddFriendRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -698,7 +698,7 @@ public final class DealAddFriendRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>

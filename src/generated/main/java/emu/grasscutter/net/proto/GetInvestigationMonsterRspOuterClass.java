@@ -20,7 +20,7 @@ public final class GetInvestigationMonsterRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -29,7 +29,7 @@ public final class GetInvestigationMonsterRspOuterClass {
         getMonsterListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -37,7 +37,7 @@ public final class GetInvestigationMonsterRspOuterClass {
     emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster getMonsterList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -45,7 +45,7 @@ public final class GetInvestigationMonsterRspOuterClass {
     int getMonsterListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -54,7 +54,7 @@ public final class GetInvestigationMonsterRspOuterClass {
         getMonsterListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -64,7 +64,7 @@ public final class GetInvestigationMonsterRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -74,7 +74,7 @@ public final class GetInvestigationMonsterRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_for_mark = 15;</code>
@@ -191,7 +191,7 @@ public final class GetInvestigationMonsterRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster> monsterList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -202,7 +202,7 @@ public final class GetInvestigationMonsterRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -214,7 +214,7 @@ public final class GetInvestigationMonsterRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -225,7 +225,7 @@ public final class GetInvestigationMonsterRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -236,7 +236,7 @@ public final class GetInvestigationMonsterRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -251,7 +251,7 @@ public final class GetInvestigationMonsterRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -266,7 +266,7 @@ public final class GetInvestigationMonsterRspOuterClass {
     private boolean isForMark_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_for_mark = 15;</code>
@@ -672,7 +672,7 @@ public final class GetInvestigationMonsterRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -686,7 +686,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -700,7 +700,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -714,7 +714,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -735,7 +735,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -753,7 +753,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -773,7 +773,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -794,7 +794,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -812,7 +812,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -830,7 +830,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -849,7 +849,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -866,7 +866,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -883,7 +883,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -894,7 +894,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -908,7 +908,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -923,7 +923,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -934,7 +934,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -946,7 +946,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .InvestigationMonster monster_list = 12;</code>
@@ -973,7 +973,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -985,7 +985,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -1000,7 +1000,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -1016,7 +1016,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       private boolean isForMark_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_for_mark = 15;</code>
@@ -1028,7 +1028,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_for_mark = 15;</code>
@@ -1043,7 +1043,7 @@ public final class GetInvestigationMonsterRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_for_mark = 15;</code>

@@ -20,7 +20,7 @@ public final class BlossomChestInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -29,7 +29,7 @@ public final class BlossomChestInfoOuterClass {
     java.util.List<java.lang.Integer> getRemainUidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -38,7 +38,7 @@ public final class BlossomChestInfoOuterClass {
     int getRemainUidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -49,7 +49,7 @@ public final class BlossomChestInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -58,7 +58,7 @@ public final class BlossomChestInfoOuterClass {
     java.util.List<java.lang.Integer> getQualifyUidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -67,7 +67,7 @@ public final class BlossomChestInfoOuterClass {
     int getQualifyUidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -84,7 +84,7 @@ public final class BlossomChestInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 resin = 1;</code>
@@ -256,7 +256,7 @@ public final class BlossomChestInfoOuterClass {
     private com.google.protobuf.Internal.IntList remainUidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -269,7 +269,7 @@ public final class BlossomChestInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -280,7 +280,7 @@ public final class BlossomChestInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -296,7 +296,7 @@ public final class BlossomChestInfoOuterClass {
     private com.google.protobuf.Internal.IntList qualifyUidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -309,7 +309,7 @@ public final class BlossomChestInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -320,7 +320,7 @@ public final class BlossomChestInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -347,7 +347,7 @@ public final class BlossomChestInfoOuterClass {
     private int resin_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 resin = 1;</code>
@@ -833,7 +833,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -846,7 +846,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -857,7 +857,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -869,7 +869,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -886,7 +886,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -901,7 +901,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -918,7 +918,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 remain_uid_list = 3;</code>
@@ -940,7 +940,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -953,7 +953,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -964,7 +964,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -976,7 +976,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -993,7 +993,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -1008,7 +1008,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -1025,7 +1025,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 qualify_uid_list = 2;</code>
@@ -1072,7 +1072,7 @@ public final class BlossomChestInfoOuterClass {
       private int resin_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 resin = 1;</code>
@@ -1084,7 +1084,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 resin = 1;</code>
@@ -1099,7 +1099,7 @@ public final class BlossomChestInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 resin = 1;</code>

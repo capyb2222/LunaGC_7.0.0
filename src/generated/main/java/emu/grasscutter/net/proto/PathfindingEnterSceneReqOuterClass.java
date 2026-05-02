@@ -20,7 +20,7 @@ public final class PathfindingEnterSceneReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -29,7 +29,7 @@ public final class PathfindingEnterSceneReqOuterClass {
         getObstaclesList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -37,7 +37,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo getObstacles(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -45,7 +45,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     int getObstaclesCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -54,7 +54,7 @@ public final class PathfindingEnterSceneReqOuterClass {
         getObstaclesOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -81,7 +81,7 @@ public final class PathfindingEnterSceneReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_editor = 3;</code>
@@ -91,7 +91,7 @@ public final class PathfindingEnterSceneReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 version = 14;</code>
@@ -107,7 +107,7 @@ public final class PathfindingEnterSceneReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 7;</code>
@@ -259,7 +259,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo> obstacles_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -270,7 +270,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -282,7 +282,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -293,7 +293,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -304,7 +304,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -347,7 +347,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     private boolean isEditor_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_editor = 3;</code>
@@ -362,7 +362,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     private int version_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 version = 14;</code>
@@ -388,7 +388,7 @@ public final class PathfindingEnterSceneReqOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 7;</code>
@@ -873,7 +873,7 @@ public final class PathfindingEnterSceneReqOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -887,7 +887,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -901,7 +901,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -915,7 +915,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -936,7 +936,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -954,7 +954,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -974,7 +974,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -995,7 +995,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1013,7 +1013,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1031,7 +1031,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1050,7 +1050,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1067,7 +1067,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1084,7 +1084,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1095,7 +1095,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1109,7 +1109,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1124,7 +1124,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1135,7 +1135,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1147,7 +1147,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo obstacles = 9;</code>
@@ -1253,7 +1253,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       private boolean isEditor_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_editor = 3;</code>
@@ -1265,7 +1265,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_editor = 3;</code>
@@ -1280,7 +1280,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_editor = 3;</code>
@@ -1296,7 +1296,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       private int version_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 version = 14;</code>
@@ -1308,7 +1308,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 version = 14;</code>
@@ -1323,7 +1323,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 version = 14;</code>
@@ -1370,7 +1370,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 7;</code>
@@ -1382,7 +1382,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 7;</code>
@@ -1397,7 +1397,7 @@ public final class PathfindingEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 7;</code>

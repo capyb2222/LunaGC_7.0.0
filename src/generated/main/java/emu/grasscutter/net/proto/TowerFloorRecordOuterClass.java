@@ -20,7 +20,7 @@ public final class TowerFloorRecordOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -29,7 +29,7 @@ public final class TowerFloorRecordOuterClass {
         getPassedLevelRecordListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -37,7 +37,7 @@ public final class TowerFloorRecordOuterClass {
     emu.grasscutter.net.proto.TowerLevelRecordOuterClass.TowerLevelRecord getPassedLevelRecordList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -45,7 +45,7 @@ public final class TowerFloorRecordOuterClass {
     int getPassedLevelRecordListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -54,7 +54,7 @@ public final class TowerFloorRecordOuterClass {
         getPassedLevelRecordListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -64,7 +64,7 @@ public final class TowerFloorRecordOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -72,7 +72,7 @@ public final class TowerFloorRecordOuterClass {
     int getPassedLevelMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -87,7 +87,7 @@ public final class TowerFloorRecordOuterClass {
     getPassedLevelMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -96,7 +96,7 @@ public final class TowerFloorRecordOuterClass {
     getPassedLevelMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -107,7 +107,7 @@ public final class TowerFloorRecordOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -118,7 +118,7 @@ public final class TowerFloorRecordOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 floor_star_reward_progress = 6;</code>
@@ -128,7 +128,7 @@ public final class TowerFloorRecordOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 floor_id = 11;</code>
@@ -266,7 +266,7 @@ public final class TowerFloorRecordOuterClass {
     private java.util.List<emu.grasscutter.net.proto.TowerLevelRecordOuterClass.TowerLevelRecord> passedLevelRecordList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -277,7 +277,7 @@ public final class TowerFloorRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -289,7 +289,7 @@ public final class TowerFloorRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -300,7 +300,7 @@ public final class TowerFloorRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -311,7 +311,7 @@ public final class TowerFloorRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -350,7 +350,7 @@ public final class TowerFloorRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -372,7 +372,7 @@ public final class TowerFloorRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -384,7 +384,7 @@ public final class TowerFloorRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -401,7 +401,7 @@ public final class TowerFloorRecordOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -423,7 +423,7 @@ public final class TowerFloorRecordOuterClass {
     private int floorStarRewardProgress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 floor_star_reward_progress = 6;</code>
@@ -438,7 +438,7 @@ public final class TowerFloorRecordOuterClass {
     private int floorId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 floor_id = 11;</code>
@@ -888,7 +888,7 @@ public final class TowerFloorRecordOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -902,7 +902,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -916,7 +916,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -930,7 +930,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -951,7 +951,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -969,7 +969,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -989,7 +989,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1010,7 +1010,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1028,7 +1028,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1046,7 +1046,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1065,7 +1065,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1082,7 +1082,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1099,7 +1099,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1110,7 +1110,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1124,7 +1124,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1139,7 +1139,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1150,7 +1150,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1162,7 +1162,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .TowerLevelRecord passed_level_record_list = 5;</code>
@@ -1214,7 +1214,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -1236,7 +1236,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -1248,7 +1248,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -1265,7 +1265,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -1290,7 +1290,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -1313,7 +1313,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -1329,7 +1329,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; passed_level_map = 1;</code>
@@ -1345,7 +1345,7 @@ public final class TowerFloorRecordOuterClass {
       private int floorStarRewardProgress_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 floor_star_reward_progress = 6;</code>
@@ -1357,7 +1357,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 floor_star_reward_progress = 6;</code>
@@ -1372,7 +1372,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 floor_star_reward_progress = 6;</code>
@@ -1388,7 +1388,7 @@ public final class TowerFloorRecordOuterClass {
       private int floorId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 floor_id = 11;</code>
@@ -1400,7 +1400,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 floor_id = 11;</code>
@@ -1415,7 +1415,7 @@ public final class TowerFloorRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 floor_id = 11;</code>

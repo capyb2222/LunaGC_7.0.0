@@ -20,7 +20,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -29,7 +29,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
         getItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -37,7 +37,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     emu.grasscutter.net.proto.ItemOuterClass.Item getItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -45,7 +45,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     int getItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -54,7 +54,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
         getItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -161,7 +161,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> itemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -172,7 +172,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -184,7 +184,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -195,7 +195,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -206,7 +206,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item item_list = 8;</code>
@@ -577,7 +577,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -591,7 +591,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -605,7 +605,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -619,7 +619,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -640,7 +640,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -658,7 +658,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -678,7 +678,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -699,7 +699,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -717,7 +717,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -735,7 +735,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -754,7 +754,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -771,7 +771,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -788,7 +788,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -799,7 +799,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -813,7 +813,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -828,7 +828,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -839,7 +839,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>
@@ -851,7 +851,7 @@ public final class GadgetAutoPickDropInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item item_list = 8;</code>

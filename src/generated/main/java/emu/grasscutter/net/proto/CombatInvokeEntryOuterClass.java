@@ -20,7 +20,7 @@ public final class CombatInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bytes combat_data = 6;</code>
@@ -30,7 +30,7 @@ public final class CombatInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CombatTypeArgument argument_type = 10;</code>
@@ -39,7 +39,7 @@ public final class CombatInvokeEntryOuterClass {
     int getArgumentTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CombatTypeArgument argument_type = 10;</code>
@@ -49,7 +49,7 @@ public final class CombatInvokeEntryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 15;</code>
@@ -58,7 +58,7 @@ public final class CombatInvokeEntryOuterClass {
     int getForwardTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 15;</code>
@@ -167,7 +167,7 @@ public final class CombatInvokeEntryOuterClass {
     private com.google.protobuf.ByteString combatData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bytes combat_data = 6;</code>
@@ -182,7 +182,7 @@ public final class CombatInvokeEntryOuterClass {
     private int argumentType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CombatTypeArgument argument_type = 10;</code>
@@ -193,7 +193,7 @@ public final class CombatInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CombatTypeArgument argument_type = 10;</code>
@@ -209,7 +209,7 @@ public final class CombatInvokeEntryOuterClass {
     private int forwardType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 15;</code>
@@ -220,7 +220,7 @@ public final class CombatInvokeEntryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 15;</code>
@@ -569,7 +569,7 @@ public final class CombatInvokeEntryOuterClass {
       private com.google.protobuf.ByteString combatData_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes combat_data = 6;</code>
@@ -581,7 +581,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes combat_data = 6;</code>
@@ -599,7 +599,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes combat_data = 6;</code>
@@ -615,7 +615,7 @@ public final class CombatInvokeEntryOuterClass {
       private int argumentType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CombatTypeArgument argument_type = 10;</code>
@@ -626,7 +626,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CombatTypeArgument argument_type = 10;</code>
@@ -641,7 +641,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CombatTypeArgument argument_type = 10;</code>
@@ -655,7 +655,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CombatTypeArgument argument_type = 10;</code>
@@ -673,7 +673,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CombatTypeArgument argument_type = 10;</code>
@@ -689,7 +689,7 @@ public final class CombatInvokeEntryOuterClass {
       private int forwardType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>
@@ -700,7 +700,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>
@@ -715,7 +715,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>
@@ -729,7 +729,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>
@@ -747,7 +747,7 @@ public final class CombatInvokeEntryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>

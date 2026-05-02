@@ -20,7 +20,7 @@ public final class AvatarDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -29,7 +29,7 @@ public final class AvatarDataNotifyOuterClass {
         getAvatarListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -37,7 +37,7 @@ public final class AvatarDataNotifyOuterClass {
     emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo getAvatarList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -45,7 +45,7 @@ public final class AvatarDataNotifyOuterClass {
     int getAvatarListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -54,7 +54,7 @@ public final class AvatarDataNotifyOuterClass {
         getAvatarListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -64,7 +64,7 @@ public final class AvatarDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -73,7 +73,7 @@ public final class AvatarDataNotifyOuterClass {
         getAvatarRenameListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -81,7 +81,7 @@ public final class AvatarDataNotifyOuterClass {
     emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo getAvatarRenameList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -89,7 +89,7 @@ public final class AvatarDataNotifyOuterClass {
     int getAvatarRenameListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -98,7 +98,7 @@ public final class AvatarDataNotifyOuterClass {
         getAvatarRenameListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -108,7 +108,7 @@ public final class AvatarDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 48
+     *6.5.5 //6.4.0 //6.5.0            // offset: 48
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -116,7 +116,7 @@ public final class AvatarDataNotifyOuterClass {
     int getAvatarTeamMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 48
+     *6.5.5 //6.4.0 //6.5.0            // offset: 48
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -131,7 +131,7 @@ public final class AvatarDataNotifyOuterClass {
     getAvatarTeamMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 48
+     *6.5.5 //6.4.0 //6.5.0            // offset: 48
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -140,7 +140,7 @@ public final class AvatarDataNotifyOuterClass {
     getAvatarTeamMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 48
+     *6.5.5 //6.4.0 //6.5.0            // offset: 48
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -151,7 +151,7 @@ public final class AvatarDataNotifyOuterClass {
         emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 48
+     *6.5.5 //6.4.0 //6.5.0            // offset: 48
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -162,7 +162,7 @@ public final class AvatarDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 56
+     *6.5.5 //6.4.0 //6.5.0            // offset: 56
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -171,7 +171,7 @@ public final class AvatarDataNotifyOuterClass {
     java.util.List<java.lang.Long> getTempAvatarGuidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 56
+     *6.5.5 //6.4.0 //6.5.0            // offset: 56
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -180,7 +180,7 @@ public final class AvatarDataNotifyOuterClass {
     int getTempAvatarGuidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 56
+     *6.5.5 //6.4.0 //6.5.0            // offset: 56
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -220,7 +220,7 @@ public final class AvatarDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 72
+     *6.5.5 //6.4.0 //6.5.0      // offset: 72
      * </pre>
      *
      * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -229,7 +229,7 @@ public final class AvatarDataNotifyOuterClass {
     java.util.List<java.lang.Integer> getOwnedFlycloakListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 72
+     *6.5.5 //6.4.0 //6.5.0      // offset: 72
      * </pre>
      *
      * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -238,7 +238,7 @@ public final class AvatarDataNotifyOuterClass {
     int getOwnedFlycloakListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 72
+     *6.5.5 //6.4.0 //6.5.0      // offset: 72
      * </pre>
      *
      * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -249,7 +249,7 @@ public final class AvatarDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 80
+     *6.5.5 //6.4.0 //6.5.0      // offset: 80
      * </pre>
      *
      * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -258,7 +258,7 @@ public final class AvatarDataNotifyOuterClass {
     java.util.List<java.lang.Integer> getOwnedCostumeListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 80
+     *6.5.5 //6.4.0 //6.5.0      // offset: 80
      * </pre>
      *
      * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -267,7 +267,7 @@ public final class AvatarDataNotifyOuterClass {
     int getOwnedCostumeListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 80
+     *6.5.5 //6.4.0 //6.5.0      // offset: 80
      * </pre>
      *
      * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -278,7 +278,7 @@ public final class AvatarDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 88
+     *6.5.5 //6.4.0 //6.5.0            // offset: 88
      * </pre>
      *
      * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -287,7 +287,7 @@ public final class AvatarDataNotifyOuterClass {
     java.util.List<java.lang.Integer> getBackupAvatarTeamOrderListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 88
+     *6.5.5 //6.4.0 //6.5.0            // offset: 88
      * </pre>
      *
      * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -296,7 +296,7 @@ public final class AvatarDataNotifyOuterClass {
     int getBackupAvatarTeamOrderListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 88
+     *6.5.5 //6.4.0 //6.5.0            // offset: 88
      * </pre>
      *
      * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -307,7 +307,7 @@ public final class AvatarDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 96
+     *6.5.5 //6.4.0 //6.5.0            // offset: 96
      * </pre>
      *
      * <code>uint64 choose_avatar_guid = 14;</code>
@@ -317,7 +317,7 @@ public final class AvatarDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 104
+     *6.5.5 //6.4.0 //6.5.0            // offset: 104
      * </pre>
      *
      * <code>uint32 cur_avatar_team_id = 11;</code>
@@ -597,7 +597,7 @@ public final class AvatarDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo> avatarList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -608,7 +608,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -620,7 +620,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -631,7 +631,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -642,7 +642,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -657,7 +657,7 @@ public final class AvatarDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AvatarRenameInfoOuterClass.AvatarRenameInfo> avatarRenameList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -668,7 +668,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -680,7 +680,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -691,7 +691,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -702,7 +702,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -741,7 +741,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 48
+     *6.5.5 //6.4.0 //6.5.0            // offset: 48
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -763,7 +763,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 48
+     *6.5.5 //6.4.0 //6.5.0            // offset: 48
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -775,7 +775,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 48
+     *6.5.5 //6.4.0 //6.5.0            // offset: 48
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -792,7 +792,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 48
+     *6.5.5 //6.4.0 //6.5.0            // offset: 48
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -814,7 +814,7 @@ public final class AvatarDataNotifyOuterClass {
     private com.google.protobuf.Internal.LongList tempAvatarGuidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 56
+     *6.5.5 //6.4.0 //6.5.0            // offset: 56
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -827,7 +827,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 56
+     *6.5.5 //6.4.0 //6.5.0            // offset: 56
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -838,7 +838,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 56
+     *6.5.5 //6.4.0 //6.5.0            // offset: 56
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -894,7 +894,7 @@ public final class AvatarDataNotifyOuterClass {
     private com.google.protobuf.Internal.IntList ownedFlycloakList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 72
+     *6.5.5 //6.4.0 //6.5.0      // offset: 72
      * </pre>
      *
      * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -907,7 +907,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 72
+     *6.5.5 //6.4.0 //6.5.0      // offset: 72
      * </pre>
      *
      * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -918,7 +918,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 72
+     *6.5.5 //6.4.0 //6.5.0      // offset: 72
      * </pre>
      *
      * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -934,7 +934,7 @@ public final class AvatarDataNotifyOuterClass {
     private com.google.protobuf.Internal.IntList ownedCostumeList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 80
+     *6.5.5 //6.4.0 //6.5.0      // offset: 80
      * </pre>
      *
      * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -947,7 +947,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 80
+     *6.5.5 //6.4.0 //6.5.0      // offset: 80
      * </pre>
      *
      * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -958,7 +958,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      // offset: 80
+     *6.5.5 //6.4.0 //6.5.0      // offset: 80
      * </pre>
      *
      * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -974,7 +974,7 @@ public final class AvatarDataNotifyOuterClass {
     private com.google.protobuf.Internal.IntList backupAvatarTeamOrderList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 88
+     *6.5.5 //6.4.0 //6.5.0            // offset: 88
      * </pre>
      *
      * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -987,7 +987,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 88
+     *6.5.5 //6.4.0 //6.5.0            // offset: 88
      * </pre>
      *
      * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -998,7 +998,7 @@ public final class AvatarDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 88
+     *6.5.5 //6.4.0 //6.5.0            // offset: 88
      * </pre>
      *
      * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -1014,7 +1014,7 @@ public final class AvatarDataNotifyOuterClass {
     private long chooseAvatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 96
+     *6.5.5 //6.4.0 //6.5.0            // offset: 96
      * </pre>
      *
      * <code>uint64 choose_avatar_guid = 14;</code>
@@ -1029,7 +1029,7 @@ public final class AvatarDataNotifyOuterClass {
     private int curAvatarTeamId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 104
+     *6.5.5 //6.4.0 //6.5.0            // offset: 104
      * </pre>
      *
      * <code>uint32 cur_avatar_team_id = 11;</code>
@@ -1760,7 +1760,7 @@ public final class AvatarDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1774,7 +1774,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1788,7 +1788,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1802,7 +1802,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1823,7 +1823,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1841,7 +1841,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1861,7 +1861,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1882,7 +1882,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1900,7 +1900,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1918,7 +1918,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1937,7 +1937,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1954,7 +1954,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1971,7 +1971,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1982,7 +1982,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -1996,7 +1996,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -2011,7 +2011,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -2022,7 +2022,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -2034,7 +2034,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .AvatarInfo avatar_list = 10;</code>
@@ -2072,7 +2072,7 @@ public final class AvatarDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2086,7 +2086,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2100,7 +2100,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2114,7 +2114,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2135,7 +2135,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2153,7 +2153,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2173,7 +2173,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2194,7 +2194,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2212,7 +2212,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2230,7 +2230,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2249,7 +2249,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2266,7 +2266,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2283,7 +2283,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2294,7 +2294,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2308,7 +2308,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2323,7 +2323,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2334,7 +2334,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2346,7 +2346,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>repeated .AvatarRenameInfo avatar_rename_list = 12;</code>
@@ -2398,7 +2398,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 48
+       *6.5.5 //6.4.0 //6.5.0            // offset: 48
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -2420,7 +2420,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 48
+       *6.5.5 //6.4.0 //6.5.0            // offset: 48
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -2432,7 +2432,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 48
+       *6.5.5 //6.4.0 //6.5.0            // offset: 48
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -2449,7 +2449,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 48
+       *6.5.5 //6.4.0 //6.5.0            // offset: 48
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -2474,7 +2474,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 48
+       *6.5.5 //6.4.0 //6.5.0            // offset: 48
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -2497,7 +2497,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 48
+       *6.5.5 //6.4.0 //6.5.0            // offset: 48
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -2513,7 +2513,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 48
+       *6.5.5 //6.4.0 //6.5.0            // offset: 48
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -2535,7 +2535,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 56
+       *6.5.5 //6.4.0 //6.5.0            // offset: 56
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -2548,7 +2548,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 56
+       *6.5.5 //6.4.0 //6.5.0            // offset: 56
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -2559,7 +2559,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 56
+       *6.5.5 //6.4.0 //6.5.0            // offset: 56
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -2571,7 +2571,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 56
+       *6.5.5 //6.4.0 //6.5.0            // offset: 56
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -2588,7 +2588,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 56
+       *6.5.5 //6.4.0 //6.5.0            // offset: 56
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -2603,7 +2603,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 56
+       *6.5.5 //6.4.0 //6.5.0            // offset: 56
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -2620,7 +2620,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 56
+       *6.5.5 //6.4.0 //6.5.0            // offset: 56
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 4;</code>
@@ -2749,7 +2749,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 72
+       *6.5.5 //6.4.0 //6.5.0      // offset: 72
        * </pre>
        *
        * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -2762,7 +2762,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 72
+       *6.5.5 //6.4.0 //6.5.0      // offset: 72
        * </pre>
        *
        * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -2773,7 +2773,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 72
+       *6.5.5 //6.4.0 //6.5.0      // offset: 72
        * </pre>
        *
        * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -2785,7 +2785,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 72
+       *6.5.5 //6.4.0 //6.5.0      // offset: 72
        * </pre>
        *
        * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -2802,7 +2802,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 72
+       *6.5.5 //6.4.0 //6.5.0      // offset: 72
        * </pre>
        *
        * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -2817,7 +2817,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 72
+       *6.5.5 //6.4.0 //6.5.0      // offset: 72
        * </pre>
        *
        * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -2834,7 +2834,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 72
+       *6.5.5 //6.4.0 //6.5.0      // offset: 72
        * </pre>
        *
        * <code>repeated uint32 owned_flycloak_list = 6;</code>
@@ -2856,7 +2856,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 80
+       *6.5.5 //6.4.0 //6.5.0      // offset: 80
        * </pre>
        *
        * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -2869,7 +2869,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 80
+       *6.5.5 //6.4.0 //6.5.0      // offset: 80
        * </pre>
        *
        * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -2880,7 +2880,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 80
+       *6.5.5 //6.4.0 //6.5.0      // offset: 80
        * </pre>
        *
        * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -2892,7 +2892,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 80
+       *6.5.5 //6.4.0 //6.5.0      // offset: 80
        * </pre>
        *
        * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -2909,7 +2909,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 80
+       *6.5.5 //6.4.0 //6.5.0      // offset: 80
        * </pre>
        *
        * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -2924,7 +2924,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 80
+       *6.5.5 //6.4.0 //6.5.0      // offset: 80
        * </pre>
        *
        * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -2941,7 +2941,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      // offset: 80
+       *6.5.5 //6.4.0 //6.5.0      // offset: 80
        * </pre>
        *
        * <code>repeated uint32 owned_costume_list = 15;</code>
@@ -2963,7 +2963,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -2976,7 +2976,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -2987,7 +2987,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -2999,7 +2999,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -3016,7 +3016,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -3031,7 +3031,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -3048,7 +3048,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 88
+       *6.5.5 //6.4.0 //6.5.0            // offset: 88
        * </pre>
        *
        * <code>repeated uint32 backup_avatar_team_order_list = 9;</code>
@@ -3064,7 +3064,7 @@ public final class AvatarDataNotifyOuterClass {
       private long chooseAvatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 96
+       *6.5.5 //6.4.0 //6.5.0            // offset: 96
        * </pre>
        *
        * <code>uint64 choose_avatar_guid = 14;</code>
@@ -3076,7 +3076,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 96
+       *6.5.5 //6.4.0 //6.5.0            // offset: 96
        * </pre>
        *
        * <code>uint64 choose_avatar_guid = 14;</code>
@@ -3091,7 +3091,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 96
+       *6.5.5 //6.4.0 //6.5.0            // offset: 96
        * </pre>
        *
        * <code>uint64 choose_avatar_guid = 14;</code>
@@ -3107,7 +3107,7 @@ public final class AvatarDataNotifyOuterClass {
       private int curAvatarTeamId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 104
+       *6.5.5 //6.4.0 //6.5.0            // offset: 104
        * </pre>
        *
        * <code>uint32 cur_avatar_team_id = 11;</code>
@@ -3119,7 +3119,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 104
+       *6.5.5 //6.4.0 //6.5.0            // offset: 104
        * </pre>
        *
        * <code>uint32 cur_avatar_team_id = 11;</code>
@@ -3134,7 +3134,7 @@ public final class AvatarDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 104
+       *6.5.5 //6.4.0 //6.5.0            // offset: 104
        * </pre>
        *
        * <code>uint32 cur_avatar_team_id = 11;</code>

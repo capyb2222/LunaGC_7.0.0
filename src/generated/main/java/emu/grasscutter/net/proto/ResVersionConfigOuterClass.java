@@ -20,7 +20,7 @@ public final class ResVersionConfigOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string release_total_size = 4;</code>
@@ -29,7 +29,7 @@ public final class ResVersionConfigOuterClass {
     java.lang.String getReleaseTotalSize();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string release_total_size = 4;</code>
@@ -40,7 +40,7 @@ public final class ResVersionConfigOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string md5 = 3;</code>
@@ -49,7 +49,7 @@ public final class ResVersionConfigOuterClass {
     java.lang.String getMd5();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string md5 = 3;</code>
@@ -60,7 +60,7 @@ public final class ResVersionConfigOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string next_script_version = 7;</code>
@@ -69,7 +69,7 @@ public final class ResVersionConfigOuterClass {
     java.lang.String getNextScriptVersion();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string next_script_version = 7;</code>
@@ -80,7 +80,7 @@ public final class ResVersionConfigOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string version_suffix = 5;</code>
@@ -89,7 +89,7 @@ public final class ResVersionConfigOuterClass {
     java.lang.String getVersionSuffix();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string version_suffix = 5;</code>
@@ -100,7 +100,7 @@ public final class ResVersionConfigOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string branch = 6;</code>
@@ -109,7 +109,7 @@ public final class ResVersionConfigOuterClass {
     java.lang.String getBranch();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string branch = 6;</code>
@@ -120,7 +120,7 @@ public final class ResVersionConfigOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool relogin = 2;</code>
@@ -130,7 +130,7 @@ public final class ResVersionConfigOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 version = 1;</code>
@@ -264,7 +264,7 @@ public final class ResVersionConfigOuterClass {
     private volatile java.lang.Object releaseTotalSize_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string release_total_size = 4;</code>
@@ -285,7 +285,7 @@ public final class ResVersionConfigOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string release_total_size = 4;</code>
@@ -310,7 +310,7 @@ public final class ResVersionConfigOuterClass {
     private volatile java.lang.Object md5_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string md5 = 3;</code>
@@ -331,7 +331,7 @@ public final class ResVersionConfigOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string md5 = 3;</code>
@@ -356,7 +356,7 @@ public final class ResVersionConfigOuterClass {
     private volatile java.lang.Object nextScriptVersion_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string next_script_version = 7;</code>
@@ -377,7 +377,7 @@ public final class ResVersionConfigOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string next_script_version = 7;</code>
@@ -402,7 +402,7 @@ public final class ResVersionConfigOuterClass {
     private volatile java.lang.Object versionSuffix_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string version_suffix = 5;</code>
@@ -423,7 +423,7 @@ public final class ResVersionConfigOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string version_suffix = 5;</code>
@@ -448,7 +448,7 @@ public final class ResVersionConfigOuterClass {
     private volatile java.lang.Object branch_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string branch = 6;</code>
@@ -469,7 +469,7 @@ public final class ResVersionConfigOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string branch = 6;</code>
@@ -494,7 +494,7 @@ public final class ResVersionConfigOuterClass {
     private boolean relogin_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool relogin = 2;</code>
@@ -509,7 +509,7 @@ public final class ResVersionConfigOuterClass {
     private int version_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 version = 1;</code>
@@ -928,7 +928,7 @@ public final class ResVersionConfigOuterClass {
       private java.lang.Object releaseTotalSize_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string release_total_size = 4;</code>
@@ -948,7 +948,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string release_total_size = 4;</code>
@@ -969,7 +969,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string release_total_size = 4;</code>
@@ -988,7 +988,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string release_total_size = 4;</code>
@@ -1002,7 +1002,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string release_total_size = 4;</code>
@@ -1024,7 +1024,7 @@ public final class ResVersionConfigOuterClass {
       private java.lang.Object md5_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string md5 = 3;</code>
@@ -1044,7 +1044,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string md5 = 3;</code>
@@ -1065,7 +1065,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string md5 = 3;</code>
@@ -1084,7 +1084,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string md5 = 3;</code>
@@ -1098,7 +1098,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string md5 = 3;</code>
@@ -1120,7 +1120,7 @@ public final class ResVersionConfigOuterClass {
       private java.lang.Object nextScriptVersion_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string next_script_version = 7;</code>
@@ -1140,7 +1140,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string next_script_version = 7;</code>
@@ -1161,7 +1161,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string next_script_version = 7;</code>
@@ -1180,7 +1180,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string next_script_version = 7;</code>
@@ -1194,7 +1194,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string next_script_version = 7;</code>
@@ -1216,7 +1216,7 @@ public final class ResVersionConfigOuterClass {
       private java.lang.Object versionSuffix_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string version_suffix = 5;</code>
@@ -1236,7 +1236,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string version_suffix = 5;</code>
@@ -1257,7 +1257,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string version_suffix = 5;</code>
@@ -1276,7 +1276,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string version_suffix = 5;</code>
@@ -1290,7 +1290,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string version_suffix = 5;</code>
@@ -1312,7 +1312,7 @@ public final class ResVersionConfigOuterClass {
       private java.lang.Object branch_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string branch = 6;</code>
@@ -1332,7 +1332,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string branch = 6;</code>
@@ -1353,7 +1353,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string branch = 6;</code>
@@ -1372,7 +1372,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string branch = 6;</code>
@@ -1386,7 +1386,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string branch = 6;</code>
@@ -1408,7 +1408,7 @@ public final class ResVersionConfigOuterClass {
       private boolean relogin_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool relogin = 2;</code>
@@ -1420,7 +1420,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool relogin = 2;</code>
@@ -1435,7 +1435,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool relogin = 2;</code>
@@ -1451,7 +1451,7 @@ public final class ResVersionConfigOuterClass {
       private int version_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 version = 1;</code>
@@ -1463,7 +1463,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 version = 1;</code>
@@ -1478,7 +1478,7 @@ public final class ResVersionConfigOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 version = 1;</code>

@@ -20,7 +20,7 @@ public final class MathQuaternionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float x = 1;</code>
@@ -30,7 +30,7 @@ public final class MathQuaternionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float y = 2;</code>
@@ -40,7 +40,7 @@ public final class MathQuaternionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float z = 3;</code>
@@ -50,7 +50,7 @@ public final class MathQuaternionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float w = 4;</code>
@@ -159,7 +159,7 @@ public final class MathQuaternionOuterClass {
     private float x_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float x = 1;</code>
@@ -174,7 +174,7 @@ public final class MathQuaternionOuterClass {
     private float y_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float y = 2;</code>
@@ -189,7 +189,7 @@ public final class MathQuaternionOuterClass {
     private float z_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float z = 3;</code>
@@ -204,7 +204,7 @@ public final class MathQuaternionOuterClass {
     private float w_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float w = 4;</code>
@@ -579,7 +579,7 @@ public final class MathQuaternionOuterClass {
       private float x_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float x = 1;</code>
@@ -591,7 +591,7 @@ public final class MathQuaternionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float x = 1;</code>
@@ -606,7 +606,7 @@ public final class MathQuaternionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float x = 1;</code>
@@ -622,7 +622,7 @@ public final class MathQuaternionOuterClass {
       private float y_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float y = 2;</code>
@@ -634,7 +634,7 @@ public final class MathQuaternionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float y = 2;</code>
@@ -649,7 +649,7 @@ public final class MathQuaternionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float y = 2;</code>
@@ -665,7 +665,7 @@ public final class MathQuaternionOuterClass {
       private float z_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float z = 3;</code>
@@ -677,7 +677,7 @@ public final class MathQuaternionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float z = 3;</code>
@@ -692,7 +692,7 @@ public final class MathQuaternionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float z = 3;</code>
@@ -708,7 +708,7 @@ public final class MathQuaternionOuterClass {
       private float w_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float w = 4;</code>
@@ -720,7 +720,7 @@ public final class MathQuaternionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float w = 4;</code>
@@ -735,7 +735,7 @@ public final class MathQuaternionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float w = 4;</code>

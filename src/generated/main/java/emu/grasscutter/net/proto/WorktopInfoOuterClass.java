@@ -20,7 +20,7 @@ public final class WorktopInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 option_list = 1;</code>
@@ -29,7 +29,7 @@ public final class WorktopInfoOuterClass {
     java.util.List<java.lang.Integer> getOptionListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 option_list = 1;</code>
@@ -38,7 +38,7 @@ public final class WorktopInfoOuterClass {
     int getOptionListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 option_list = 1;</code>
@@ -49,7 +49,7 @@ public final class WorktopInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_guest_can_operate = 2;</code>
@@ -169,7 +169,7 @@ public final class WorktopInfoOuterClass {
     private com.google.protobuf.Internal.IntList optionList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 option_list = 1;</code>
@@ -182,7 +182,7 @@ public final class WorktopInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 option_list = 1;</code>
@@ -193,7 +193,7 @@ public final class WorktopInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 option_list = 1;</code>
@@ -209,7 +209,7 @@ public final class WorktopInfoOuterClass {
     private boolean isGuestCanOperate_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_guest_can_operate = 2;</code>
@@ -579,7 +579,7 @@ public final class WorktopInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 option_list = 1;</code>
@@ -592,7 +592,7 @@ public final class WorktopInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 option_list = 1;</code>
@@ -603,7 +603,7 @@ public final class WorktopInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 option_list = 1;</code>
@@ -615,7 +615,7 @@ public final class WorktopInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 option_list = 1;</code>
@@ -632,7 +632,7 @@ public final class WorktopInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 option_list = 1;</code>
@@ -647,7 +647,7 @@ public final class WorktopInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 option_list = 1;</code>
@@ -664,7 +664,7 @@ public final class WorktopInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 option_list = 1;</code>
@@ -680,7 +680,7 @@ public final class WorktopInfoOuterClass {
       private boolean isGuestCanOperate_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_guest_can_operate = 2;</code>
@@ -692,7 +692,7 @@ public final class WorktopInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_guest_can_operate = 2;</code>
@@ -707,7 +707,7 @@ public final class WorktopInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_guest_can_operate = 2;</code>

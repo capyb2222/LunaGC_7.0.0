@@ -20,7 +20,7 @@ public final class AiThreatInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -28,7 +28,7 @@ public final class AiThreatInfoOuterClass {
     int getAiThreatMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -43,7 +43,7 @@ public final class AiThreatInfoOuterClass {
     getAiThreatMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -52,7 +52,7 @@ public final class AiThreatInfoOuterClass {
     getAiThreatMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -63,7 +63,7 @@ public final class AiThreatInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -203,7 +203,7 @@ public final class AiThreatInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -225,7 +225,7 @@ public final class AiThreatInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -237,7 +237,7 @@ public final class AiThreatInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -254,7 +254,7 @@ public final class AiThreatInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -636,7 +636,7 @@ public final class AiThreatInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -658,7 +658,7 @@ public final class AiThreatInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -670,7 +670,7 @@ public final class AiThreatInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -687,7 +687,7 @@ public final class AiThreatInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -712,7 +712,7 @@ public final class AiThreatInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -735,7 +735,7 @@ public final class AiThreatInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>
@@ -751,7 +751,7 @@ public final class AiThreatInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 3;</code>

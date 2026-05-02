@@ -20,7 +20,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 key_hash = 12;</code>
@@ -30,7 +30,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float value = 14;</code>
@@ -40,7 +40,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 11;</code>
@@ -149,7 +149,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
     private int keyHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 key_hash = 12;</code>
@@ -164,7 +164,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
     private float value_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float value = 14;</code>
@@ -179,7 +179,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 11;</code>
@@ -536,7 +536,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       private int keyHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 key_hash = 12;</code>
@@ -548,7 +548,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 key_hash = 12;</code>
@@ -563,7 +563,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 key_hash = 12;</code>
@@ -579,7 +579,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       private float value_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float value = 14;</code>
@@ -591,7 +591,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float value = 14;</code>
@@ -606,7 +606,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float value = 14;</code>
@@ -622,7 +622,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -634,7 +634,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -649,7 +649,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>

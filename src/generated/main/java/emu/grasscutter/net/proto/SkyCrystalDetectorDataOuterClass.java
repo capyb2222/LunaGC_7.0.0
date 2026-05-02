@@ -20,7 +20,7 @@ public final class SkyCrystalDetectorDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector hint_center_pos = 2;</code>
@@ -29,7 +29,7 @@ public final class SkyCrystalDetectorDataOuterClass {
     boolean hasHintCenterPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector hint_center_pos = 2;</code>
@@ -38,7 +38,7 @@ public final class SkyCrystalDetectorDataOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getHintCenterPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector hint_center_pos = 2;</code>
@@ -47,7 +47,7 @@ public final class SkyCrystalDetectorDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 group_id = 1;</code>
@@ -57,7 +57,7 @@ public final class SkyCrystalDetectorDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_hint_valid = 10;</code>
@@ -67,7 +67,7 @@ public final class SkyCrystalDetectorDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 11;</code>
@@ -184,7 +184,7 @@ public final class SkyCrystalDetectorDataOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector hintCenterPos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector hint_center_pos = 2;</code>
@@ -196,7 +196,7 @@ public final class SkyCrystalDetectorDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector hint_center_pos = 2;</code>
@@ -208,7 +208,7 @@ public final class SkyCrystalDetectorDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector hint_center_pos = 2;</code>
@@ -222,7 +222,7 @@ public final class SkyCrystalDetectorDataOuterClass {
     private int groupId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 group_id = 1;</code>
@@ -237,7 +237,7 @@ public final class SkyCrystalDetectorDataOuterClass {
     private boolean isHintValid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_hint_valid = 10;</code>
@@ -252,7 +252,7 @@ public final class SkyCrystalDetectorDataOuterClass {
     private int configId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 11;</code>
@@ -635,7 +635,7 @@ public final class SkyCrystalDetectorDataOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> hintCenterPosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector hint_center_pos = 2;</code>
@@ -646,7 +646,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector hint_center_pos = 2;</code>
@@ -661,7 +661,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector hint_center_pos = 2;</code>
@@ -681,7 +681,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector hint_center_pos = 2;</code>
@@ -699,7 +699,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector hint_center_pos = 2;</code>
@@ -721,7 +721,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector hint_center_pos = 2;</code>
@@ -739,7 +739,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector hint_center_pos = 2;</code>
@@ -751,7 +751,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector hint_center_pos = 2;</code>
@@ -766,7 +766,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector hint_center_pos = 2;</code>
@@ -788,7 +788,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       private int groupId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 group_id = 1;</code>
@@ -800,7 +800,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 group_id = 1;</code>
@@ -815,7 +815,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 group_id = 1;</code>
@@ -831,7 +831,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       private boolean isHintValid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_hint_valid = 10;</code>
@@ -843,7 +843,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_hint_valid = 10;</code>
@@ -858,7 +858,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_hint_valid = 10;</code>
@@ -874,7 +874,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       private int configId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 11;</code>
@@ -886,7 +886,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 11;</code>
@@ -901,7 +901,7 @@ public final class SkyCrystalDetectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 11;</code>

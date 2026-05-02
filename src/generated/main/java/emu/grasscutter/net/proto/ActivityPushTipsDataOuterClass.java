@@ -20,7 +20,7 @@ public final class ActivityPushTipsDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 activity_push_tips_id = 8;</code>
@@ -30,7 +30,7 @@ public final class ActivityPushTipsDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityPushTipsState state = 14;</code>
@@ -39,7 +39,7 @@ public final class ActivityPushTipsDataOuterClass {
     int getStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityPushTipsState state = 14;</code>
@@ -140,7 +140,7 @@ public final class ActivityPushTipsDataOuterClass {
     private int activityPushTipsId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 activity_push_tips_id = 8;</code>
@@ -155,7 +155,7 @@ public final class ActivityPushTipsDataOuterClass {
     private int state_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityPushTipsState state = 14;</code>
@@ -166,7 +166,7 @@ public final class ActivityPushTipsDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityPushTipsState state = 14;</code>
@@ -499,7 +499,7 @@ public final class ActivityPushTipsDataOuterClass {
       private int activityPushTipsId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 activity_push_tips_id = 8;</code>
@@ -511,7 +511,7 @@ public final class ActivityPushTipsDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 activity_push_tips_id = 8;</code>
@@ -526,7 +526,7 @@ public final class ActivityPushTipsDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 activity_push_tips_id = 8;</code>
@@ -542,7 +542,7 @@ public final class ActivityPushTipsDataOuterClass {
       private int state_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityPushTipsState state = 14;</code>
@@ -553,7 +553,7 @@ public final class ActivityPushTipsDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityPushTipsState state = 14;</code>
@@ -568,7 +568,7 @@ public final class ActivityPushTipsDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityPushTipsState state = 14;</code>
@@ -582,7 +582,7 @@ public final class ActivityPushTipsDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityPushTipsState state = 14;</code>
@@ -600,7 +600,7 @@ public final class ActivityPushTipsDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityPushTipsState state = 14;</code>

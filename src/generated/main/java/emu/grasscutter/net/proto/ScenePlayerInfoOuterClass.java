@@ -20,7 +20,7 @@ public final class ScenePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 15;</code>
@@ -29,7 +29,7 @@ public final class ScenePlayerInfoOuterClass {
     java.lang.String getName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 15;</code>
@@ -40,7 +40,7 @@ public final class ScenePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -49,7 +49,7 @@ public final class ScenePlayerInfoOuterClass {
     boolean hasOnlinePlayerInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -58,7 +58,7 @@ public final class ScenePlayerInfoOuterClass {
     emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getOnlinePlayerInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -67,7 +67,7 @@ public final class ScenePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 10;</code>
@@ -77,7 +77,7 @@ public final class ScenePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 6;</code>
@@ -87,7 +87,7 @@ public final class ScenePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 11;</code>
@@ -97,7 +97,7 @@ public final class ScenePlayerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_connected = 14;</code>
@@ -226,7 +226,7 @@ public final class ScenePlayerInfoOuterClass {
     private volatile java.lang.Object name_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 15;</code>
@@ -247,7 +247,7 @@ public final class ScenePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 15;</code>
@@ -272,7 +272,7 @@ public final class ScenePlayerInfoOuterClass {
     private emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo onlinePlayerInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -284,7 +284,7 @@ public final class ScenePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -296,7 +296,7 @@ public final class ScenePlayerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -310,7 +310,7 @@ public final class ScenePlayerInfoOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 10;</code>
@@ -325,7 +325,7 @@ public final class ScenePlayerInfoOuterClass {
     private int uid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 6;</code>
@@ -340,7 +340,7 @@ public final class ScenePlayerInfoOuterClass {
     private int peerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 11;</code>
@@ -355,7 +355,7 @@ public final class ScenePlayerInfoOuterClass {
     private boolean isConnected_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_connected = 14;</code>
@@ -770,7 +770,7 @@ public final class ScenePlayerInfoOuterClass {
       private java.lang.Object name_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 15;</code>
@@ -790,7 +790,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 15;</code>
@@ -811,7 +811,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 15;</code>
@@ -830,7 +830,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 15;</code>
@@ -844,7 +844,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 15;</code>
@@ -868,7 +868,7 @@ public final class ScenePlayerInfoOuterClass {
           emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> onlinePlayerInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -879,7 +879,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -894,7 +894,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -914,7 +914,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -932,7 +932,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -954,7 +954,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -972,7 +972,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -984,7 +984,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -999,7 +999,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OnlinePlayerInfo online_player_info = 9;</code>
@@ -1021,7 +1021,7 @@ public final class ScenePlayerInfoOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 10;</code>
@@ -1033,7 +1033,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 10;</code>
@@ -1048,7 +1048,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 10;</code>
@@ -1064,7 +1064,7 @@ public final class ScenePlayerInfoOuterClass {
       private int uid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 6;</code>
@@ -1076,7 +1076,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 6;</code>
@@ -1091,7 +1091,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 6;</code>
@@ -1107,7 +1107,7 @@ public final class ScenePlayerInfoOuterClass {
       private int peerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 11;</code>
@@ -1119,7 +1119,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 11;</code>
@@ -1134,7 +1134,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 11;</code>
@@ -1150,7 +1150,7 @@ public final class ScenePlayerInfoOuterClass {
       private boolean isConnected_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_connected = 14;</code>
@@ -1162,7 +1162,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_connected = 14;</code>
@@ -1177,7 +1177,7 @@ public final class ScenePlayerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_connected = 14;</code>

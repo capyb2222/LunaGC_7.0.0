@@ -20,7 +20,7 @@ public final class TakeoffEquipReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 slot = 9;</code>
@@ -30,7 +30,7 @@ public final class TakeoffEquipReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 6;</code>
@@ -133,7 +133,7 @@ public final class TakeoffEquipReqOuterClass {
     private int slot_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 slot = 9;</code>
@@ -148,7 +148,7 @@ public final class TakeoffEquipReqOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 6;</code>
@@ -486,7 +486,7 @@ public final class TakeoffEquipReqOuterClass {
       private int slot_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 slot = 9;</code>
@@ -498,7 +498,7 @@ public final class TakeoffEquipReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 slot = 9;</code>
@@ -513,7 +513,7 @@ public final class TakeoffEquipReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 slot = 9;</code>
@@ -529,7 +529,7 @@ public final class TakeoffEquipReqOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 6;</code>
@@ -541,7 +541,7 @@ public final class TakeoffEquipReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 6;</code>
@@ -556,7 +556,7 @@ public final class TakeoffEquipReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 6;</code>

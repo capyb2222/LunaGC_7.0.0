@@ -20,7 +20,7 @@ public final class ReliquaryUpgradeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -29,7 +29,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     java.util.List<java.lang.Long> getFoodReliquaryGuidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -38,7 +38,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     int getFoodReliquaryGuidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -49,7 +49,7 @@ public final class ReliquaryUpgradeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -58,7 +58,7 @@ public final class ReliquaryUpgradeReqOuterClass {
         getItemParamListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -66,7 +66,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -74,7 +74,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     int getItemParamListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -83,7 +83,7 @@ public final class ReliquaryUpgradeReqOuterClass {
         getItemParamListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -93,7 +93,7 @@ public final class ReliquaryUpgradeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 target_reliquary_guid = 11;</code>
@@ -230,7 +230,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     private com.google.protobuf.Internal.LongList foodReliquaryGuidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -243,7 +243,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -254,7 +254,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -270,7 +270,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -281,7 +281,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -293,7 +293,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -304,7 +304,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -315,7 +315,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -330,7 +330,7 @@ public final class ReliquaryUpgradeReqOuterClass {
     private long targetReliquaryGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 target_reliquary_guid = 11;</code>
@@ -759,7 +759,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -772,7 +772,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -783,7 +783,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -795,7 +795,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -812,7 +812,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -827,7 +827,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -844,7 +844,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 food_reliquary_guid_list = 6;</code>
@@ -871,7 +871,7 @@ public final class ReliquaryUpgradeReqOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -885,7 +885,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -899,7 +899,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -913,7 +913,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -934,7 +934,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -952,7 +952,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -972,7 +972,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -993,7 +993,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1011,7 +1011,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1029,7 +1029,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1048,7 +1048,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1065,7 +1065,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1082,7 +1082,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1093,7 +1093,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1107,7 +1107,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1122,7 +1122,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1133,7 +1133,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1145,7 +1145,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 4;</code>
@@ -1172,7 +1172,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       private long targetReliquaryGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 target_reliquary_guid = 11;</code>
@@ -1184,7 +1184,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 target_reliquary_guid = 11;</code>
@@ -1199,7 +1199,7 @@ public final class ReliquaryUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 target_reliquary_guid = 11;</code>

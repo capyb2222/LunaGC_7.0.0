@@ -20,7 +20,7 @@ public final class ActivityInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityInfo activity_info = 13;</code>
@@ -29,7 +29,7 @@ public final class ActivityInfoNotifyOuterClass {
     boolean hasActivityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityInfo activity_info = 13;</code>
@@ -38,7 +38,7 @@ public final class ActivityInfoNotifyOuterClass {
     emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo getActivityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityInfo activity_info = 13;</code>
@@ -143,7 +143,7 @@ public final class ActivityInfoNotifyOuterClass {
     private emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo activityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityInfo activity_info = 13;</code>
@@ -155,7 +155,7 @@ public final class ActivityInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityInfo activity_info = 13;</code>
@@ -167,7 +167,7 @@ public final class ActivityInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ActivityInfo activity_info = 13;</code>
@@ -501,7 +501,7 @@ public final class ActivityInfoNotifyOuterClass {
           emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder> activityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityInfo activity_info = 13;</code>
@@ -512,7 +512,7 @@ public final class ActivityInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityInfo activity_info = 13;</code>
@@ -527,7 +527,7 @@ public final class ActivityInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityInfo activity_info = 13;</code>
@@ -547,7 +547,7 @@ public final class ActivityInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityInfo activity_info = 13;</code>
@@ -565,7 +565,7 @@ public final class ActivityInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityInfo activity_info = 13;</code>
@@ -587,7 +587,7 @@ public final class ActivityInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityInfo activity_info = 13;</code>
@@ -605,7 +605,7 @@ public final class ActivityInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityInfo activity_info = 13;</code>
@@ -617,7 +617,7 @@ public final class ActivityInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityInfo activity_info = 13;</code>
@@ -632,7 +632,7 @@ public final class ActivityInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ActivityInfo activity_info = 13;</code>

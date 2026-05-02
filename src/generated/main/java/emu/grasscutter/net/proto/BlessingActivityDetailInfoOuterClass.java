@@ -60,7 +60,7 @@ public final class BlessingActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 15;</code>
@@ -76,7 +76,7 @@ public final class BlessingActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 next_refresh_time = 11;</code>
@@ -92,7 +92,7 @@ public final class BlessingActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 1;</code>
@@ -340,7 +340,7 @@ public final class BlessingActivityDetailInfoOuterClass {
     private int contentCloseTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 15;</code>
@@ -366,7 +366,7 @@ public final class BlessingActivityDetailInfoOuterClass {
     private int nextRefreshTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 next_refresh_time = 11;</code>
@@ -392,7 +392,7 @@ public final class BlessingActivityDetailInfoOuterClass {
     private boolean isContentClosed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 1;</code>
@@ -1033,7 +1033,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       private int contentCloseTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 15;</code>
@@ -1045,7 +1045,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 15;</code>
@@ -1060,7 +1060,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 15;</code>
@@ -1107,7 +1107,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       private int nextRefreshTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 next_refresh_time = 11;</code>
@@ -1119,7 +1119,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 next_refresh_time = 11;</code>
@@ -1134,7 +1134,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 next_refresh_time = 11;</code>
@@ -1181,7 +1181,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       private boolean isContentClosed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 1;</code>
@@ -1193,7 +1193,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 1;</code>
@@ -1208,7 +1208,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 1;</code>

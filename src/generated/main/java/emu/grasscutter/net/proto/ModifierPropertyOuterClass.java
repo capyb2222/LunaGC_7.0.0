@@ -20,7 +20,7 @@ public final class ModifierPropertyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString key = 7;</code>
@@ -29,7 +29,7 @@ public final class ModifierPropertyOuterClass {
     boolean hasKey();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString key = 7;</code>
@@ -38,7 +38,7 @@ public final class ModifierPropertyOuterClass {
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getKey();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString key = 7;</code>
@@ -47,7 +47,7 @@ public final class ModifierPropertyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float value = 11;</code>
@@ -154,7 +154,7 @@ public final class ModifierPropertyOuterClass {
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString key_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString key = 7;</code>
@@ -166,7 +166,7 @@ public final class ModifierPropertyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString key = 7;</code>
@@ -178,7 +178,7 @@ public final class ModifierPropertyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString key = 7;</code>
@@ -192,7 +192,7 @@ public final class ModifierPropertyOuterClass {
     private float value_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float value = 11;</code>
@@ -542,7 +542,7 @@ public final class ModifierPropertyOuterClass {
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> keyBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString key = 7;</code>
@@ -553,7 +553,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString key = 7;</code>
@@ -568,7 +568,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString key = 7;</code>
@@ -588,7 +588,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString key = 7;</code>
@@ -606,7 +606,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString key = 7;</code>
@@ -628,7 +628,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString key = 7;</code>
@@ -646,7 +646,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString key = 7;</code>
@@ -658,7 +658,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString key = 7;</code>
@@ -673,7 +673,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString key = 7;</code>
@@ -695,7 +695,7 @@ public final class ModifierPropertyOuterClass {
       private float value_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float value = 11;</code>
@@ -707,7 +707,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float value = 11;</code>
@@ -722,7 +722,7 @@ public final class ModifierPropertyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float value = 11;</code>

@@ -20,7 +20,7 @@ public final class MailChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -29,7 +29,7 @@ public final class MailChangeNotifyOuterClass {
         getMailListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -37,7 +37,7 @@ public final class MailChangeNotifyOuterClass {
     emu.grasscutter.net.proto.MailDataOuterClass.MailData getMailList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -45,7 +45,7 @@ public final class MailChangeNotifyOuterClass {
     int getMailListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -54,7 +54,7 @@ public final class MailChangeNotifyOuterClass {
         getMailListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -64,7 +64,7 @@ public final class MailChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -73,7 +73,7 @@ public final class MailChangeNotifyOuterClass {
     java.util.List<java.lang.Integer> getDelMailIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -82,7 +82,7 @@ public final class MailChangeNotifyOuterClass {
     int getDelMailIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -211,7 +211,7 @@ public final class MailChangeNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData> mailList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -222,7 +222,7 @@ public final class MailChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -234,7 +234,7 @@ public final class MailChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -245,7 +245,7 @@ public final class MailChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -256,7 +256,7 @@ public final class MailChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 6;</code>
@@ -271,7 +271,7 @@ public final class MailChangeNotifyOuterClass {
     private com.google.protobuf.Internal.IntList delMailIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -284,7 +284,7 @@ public final class MailChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -295,7 +295,7 @@ public final class MailChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -708,7 +708,7 @@ public final class MailChangeNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -722,7 +722,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -736,7 +736,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -750,7 +750,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -771,7 +771,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -789,7 +789,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -809,7 +809,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -830,7 +830,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -848,7 +848,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -866,7 +866,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -885,7 +885,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -902,7 +902,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -919,7 +919,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -930,7 +930,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -944,7 +944,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -959,7 +959,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -970,7 +970,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -982,7 +982,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 6;</code>
@@ -1015,7 +1015,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -1028,7 +1028,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -1039,7 +1039,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -1051,7 +1051,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -1068,7 +1068,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -1083,7 +1083,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 del_mail_id_list = 8;</code>
@@ -1100,7 +1100,7 @@ public final class MailChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 del_mail_id_list = 8;</code>

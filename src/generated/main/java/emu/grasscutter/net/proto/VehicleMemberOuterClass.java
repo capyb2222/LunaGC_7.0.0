@@ -20,7 +20,7 @@ public final class VehicleMemberOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -30,7 +30,7 @@ public final class VehicleMemberOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 pos = 3;</code>
@@ -40,7 +40,7 @@ public final class VehicleMemberOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 2;</code>
@@ -144,7 +144,7 @@ public final class VehicleMemberOuterClass {
     private int uid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -159,7 +159,7 @@ public final class VehicleMemberOuterClass {
     private int pos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 pos = 3;</code>
@@ -174,7 +174,7 @@ public final class VehicleMemberOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 2;</code>
@@ -525,7 +525,7 @@ public final class VehicleMemberOuterClass {
       private int uid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -537,7 +537,7 @@ public final class VehicleMemberOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -552,7 +552,7 @@ public final class VehicleMemberOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -568,7 +568,7 @@ public final class VehicleMemberOuterClass {
       private int pos_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 pos = 3;</code>
@@ -580,7 +580,7 @@ public final class VehicleMemberOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 pos = 3;</code>
@@ -595,7 +595,7 @@ public final class VehicleMemberOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 pos = 3;</code>
@@ -611,7 +611,7 @@ public final class VehicleMemberOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 2;</code>
@@ -623,7 +623,7 @@ public final class VehicleMemberOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 2;</code>
@@ -638,7 +638,7 @@ public final class VehicleMemberOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 2;</code>

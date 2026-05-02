@@ -20,7 +20,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -29,7 +29,7 @@ public final class AbilityMetaModifierChangeOuterClass {
         getPropertiesList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -37,7 +37,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     emu.grasscutter.net.proto.ModifierPropertyOuterClass.ModifierProperty getProperties(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -45,7 +45,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     int getPropertiesCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -54,7 +54,7 @@ public final class AbilityMetaModifierChangeOuterClass {
         getPropertiesOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -64,7 +64,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 12;</code>
@@ -73,7 +73,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     boolean hasParentAbilityName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 12;</code>
@@ -82,7 +82,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getParentAbilityName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 12;</code>
@@ -91,7 +91,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 10;</code>
@@ -100,7 +100,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     boolean hasParentAbilityOverride();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 10;</code>
@@ -109,7 +109,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getParentAbilityOverride();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 10;</code>
@@ -118,7 +118,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -127,7 +127,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     boolean hasAttachedInstancedModifier();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -136,7 +136,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier getAttachedInstancedModifier();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -145,7 +145,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 apply_entity_id = 5;</code>
@@ -155,7 +155,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 modifier_local_id = 14;</code>
@@ -165,7 +165,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 server_buff_uid = 2;</code>
@@ -175,7 +175,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_attached_parent_ability = 15;</code>
@@ -185,7 +185,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ModifierAction action = 13;</code>
@@ -194,7 +194,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     int getActionValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ModifierAction action = 13;</code>
@@ -363,7 +363,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ModifierPropertyOuterClass.ModifierProperty> properties_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -374,7 +374,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -386,7 +386,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -397,7 +397,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -408,7 +408,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ModifierProperty properties = 3;</code>
@@ -423,7 +423,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString parentAbilityName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 12;</code>
@@ -435,7 +435,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 12;</code>
@@ -447,7 +447,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 12;</code>
@@ -461,7 +461,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString parentAbilityOverride_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 10;</code>
@@ -473,7 +473,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 10;</code>
@@ -485,7 +485,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 10;</code>
@@ -499,7 +499,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     private emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier attachedInstancedModifier_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -511,7 +511,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -523,7 +523,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -537,7 +537,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     private int applyEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 apply_entity_id = 5;</code>
@@ -552,7 +552,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     private int modifierLocalId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 modifier_local_id = 14;</code>
@@ -567,7 +567,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     private int serverBuffUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 server_buff_uid = 2;</code>
@@ -582,7 +582,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     private boolean isAttachedParentAbility_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_attached_parent_ability = 15;</code>
@@ -597,7 +597,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     private int action_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ModifierAction action = 13;</code>
@@ -608,7 +608,7 @@ public final class AbilityMetaModifierChangeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ModifierAction action = 13;</code>
@@ -1151,7 +1151,7 @@ public final class AbilityMetaModifierChangeOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1165,7 +1165,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1179,7 +1179,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1193,7 +1193,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1214,7 +1214,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1232,7 +1232,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1252,7 +1252,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1273,7 +1273,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1291,7 +1291,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1309,7 +1309,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1328,7 +1328,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1345,7 +1345,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1362,7 +1362,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1373,7 +1373,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1387,7 +1387,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1402,7 +1402,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1413,7 +1413,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1425,7 +1425,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ModifierProperty properties = 3;</code>
@@ -1454,7 +1454,7 @@ public final class AbilityMetaModifierChangeOuterClass {
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> parentAbilityNameBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 12;</code>
@@ -1465,7 +1465,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 12;</code>
@@ -1480,7 +1480,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 12;</code>
@@ -1500,7 +1500,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 12;</code>
@@ -1518,7 +1518,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 12;</code>
@@ -1540,7 +1540,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 12;</code>
@@ -1558,7 +1558,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 12;</code>
@@ -1570,7 +1570,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 12;</code>
@@ -1585,7 +1585,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 12;</code>
@@ -1609,7 +1609,7 @@ public final class AbilityMetaModifierChangeOuterClass {
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> parentAbilityOverrideBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 10;</code>
@@ -1620,7 +1620,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 10;</code>
@@ -1635,7 +1635,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 10;</code>
@@ -1655,7 +1655,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 10;</code>
@@ -1673,7 +1673,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 10;</code>
@@ -1695,7 +1695,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 10;</code>
@@ -1713,7 +1713,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 10;</code>
@@ -1725,7 +1725,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 10;</code>
@@ -1740,7 +1740,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 10;</code>
@@ -1764,7 +1764,7 @@ public final class AbilityMetaModifierChangeOuterClass {
           emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier, emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier.Builder, emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifierOrBuilder> attachedInstancedModifierBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1775,7 +1775,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1790,7 +1790,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1810,7 +1810,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1828,7 +1828,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1850,7 +1850,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1868,7 +1868,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1880,7 +1880,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1895,7 +1895,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1917,7 +1917,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       private int applyEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 apply_entity_id = 5;</code>
@@ -1929,7 +1929,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 apply_entity_id = 5;</code>
@@ -1944,7 +1944,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 apply_entity_id = 5;</code>
@@ -1960,7 +1960,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       private int modifierLocalId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 modifier_local_id = 14;</code>
@@ -1972,7 +1972,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 modifier_local_id = 14;</code>
@@ -1987,7 +1987,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 modifier_local_id = 14;</code>
@@ -2003,7 +2003,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       private int serverBuffUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 server_buff_uid = 2;</code>
@@ -2015,7 +2015,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 server_buff_uid = 2;</code>
@@ -2030,7 +2030,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 server_buff_uid = 2;</code>
@@ -2046,7 +2046,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       private boolean isAttachedParentAbility_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_attached_parent_ability = 15;</code>
@@ -2058,7 +2058,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_attached_parent_ability = 15;</code>
@@ -2073,7 +2073,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_attached_parent_ability = 15;</code>
@@ -2089,7 +2089,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       private int action_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ModifierAction action = 13;</code>
@@ -2100,7 +2100,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ModifierAction action = 13;</code>
@@ -2115,7 +2115,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ModifierAction action = 13;</code>
@@ -2129,7 +2129,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ModifierAction action = 13;</code>
@@ -2147,7 +2147,7 @@ public final class AbilityMetaModifierChangeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ModifierAction action = 13;</code>

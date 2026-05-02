@@ -20,7 +20,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 attacker_id = 7;</code>
@@ -30,7 +30,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 entity_type = 10;</code>
@@ -64,7 +64,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -73,7 +73,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     boolean hasShapeSphere();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -82,7 +82,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     emu.grasscutter.net.proto.ShapeSphereOuterClass.ShapeSphere getShapeSphere();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -91,7 +91,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeBox shape_box = 6;</code>
@@ -100,7 +100,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     boolean hasShapeBox();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeBox shape_box = 6;</code>
@@ -109,7 +109,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     emu.grasscutter.net.proto.ShapeBoxOuterClass.ShapeBox getShapeBox();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeBox shape_box = 6;</code>
@@ -302,7 +302,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     private int attackerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 attacker_id = 7;</code>
@@ -317,7 +317,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     private int entityType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 entity_type = 10;</code>
@@ -375,7 +375,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     public static final int SHAPE_SPHERE_FIELD_NUMBER = 4;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -387,7 +387,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -402,7 +402,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -418,7 +418,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     public static final int SHAPE_BOX_FIELD_NUMBER = 6;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeBox shape_box = 6;</code>
@@ -430,7 +430,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeBox shape_box = 6;</code>
@@ -445,7 +445,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ShapeBox shape_box = 6;</code>
@@ -938,7 +938,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       private int attackerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 attacker_id = 7;</code>
@@ -950,7 +950,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 attacker_id = 7;</code>
@@ -965,7 +965,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 attacker_id = 7;</code>
@@ -981,7 +981,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       private int entityType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 entity_type = 10;</code>
@@ -993,7 +993,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 entity_type = 10;</code>
@@ -1008,7 +1008,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 entity_type = 10;</code>
@@ -1149,7 +1149,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
           emu.grasscutter.net.proto.ShapeSphereOuterClass.ShapeSphere, emu.grasscutter.net.proto.ShapeSphereOuterClass.ShapeSphere.Builder, emu.grasscutter.net.proto.ShapeSphereOuterClass.ShapeSphereOrBuilder> shapeSphereBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -1161,7 +1161,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -1183,7 +1183,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -1203,7 +1203,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -1221,7 +1221,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -1247,7 +1247,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -1270,7 +1270,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -1280,7 +1280,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -1298,7 +1298,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeSphere shape_sphere = 4;</code>
@@ -1326,7 +1326,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
           emu.grasscutter.net.proto.ShapeBoxOuterClass.ShapeBox, emu.grasscutter.net.proto.ShapeBoxOuterClass.ShapeBox.Builder, emu.grasscutter.net.proto.ShapeBoxOuterClass.ShapeBoxOrBuilder> shapeBoxBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeBox shape_box = 6;</code>
@@ -1338,7 +1338,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeBox shape_box = 6;</code>
@@ -1360,7 +1360,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeBox shape_box = 6;</code>
@@ -1380,7 +1380,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeBox shape_box = 6;</code>
@@ -1398,7 +1398,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeBox shape_box = 6;</code>
@@ -1424,7 +1424,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeBox shape_box = 6;</code>
@@ -1447,7 +1447,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeBox shape_box = 6;</code>
@@ -1457,7 +1457,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeBox shape_box = 6;</code>
@@ -1475,7 +1475,7 @@ public final class MassiveEntityElementOpBatchNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ShapeBox shape_box = 6;</code>

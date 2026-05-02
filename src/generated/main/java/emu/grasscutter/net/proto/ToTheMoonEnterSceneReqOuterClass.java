@@ -20,7 +20,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 scene_id = 11;</code>
@@ -42,7 +42,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 version = 12;</code>
@@ -155,7 +155,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 scene_id = 11;</code>
@@ -192,7 +192,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
     private int version_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 version = 12;</code>
@@ -563,7 +563,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 scene_id = 11;</code>
@@ -575,7 +575,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 scene_id = 11;</code>
@@ -590,7 +590,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 scene_id = 11;</code>
@@ -668,7 +668,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       private int version_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 version = 12;</code>
@@ -680,7 +680,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 version = 12;</code>
@@ -695,7 +695,7 @@ public final class ToTheMoonEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 version = 12;</code>

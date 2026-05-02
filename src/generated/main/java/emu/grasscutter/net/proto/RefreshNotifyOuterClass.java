@@ -20,7 +20,7 @@ public final class RefreshNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 refresh_num = 10;</code>
@@ -114,7 +114,7 @@ public final class RefreshNotifyOuterClass {
     private int refreshNum_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 refresh_num = 10;</code>
@@ -430,7 +430,7 @@ public final class RefreshNotifyOuterClass {
       private int refreshNum_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 refresh_num = 10;</code>
@@ -442,7 +442,7 @@ public final class RefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 refresh_num = 10;</code>
@@ -457,7 +457,7 @@ public final class RefreshNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 refresh_num = 10;</code>

@@ -20,7 +20,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector reborn_pos = 5;</code>
@@ -29,7 +29,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
     boolean hasRebornPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector reborn_pos = 5;</code>
@@ -38,7 +38,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getRebornPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector reborn_pos = 5;</code>
@@ -47,7 +47,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 die_guid = 3;</code>
@@ -57,7 +57,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_id = 7;</code>
@@ -173,7 +173,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rebornPos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector reborn_pos = 5;</code>
@@ -185,7 +185,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector reborn_pos = 5;</code>
@@ -197,7 +197,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector reborn_pos = 5;</code>
@@ -211,7 +211,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
     private long dieGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 die_guid = 3;</code>
@@ -226,7 +226,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
     private int skillId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_id = 7;</code>
@@ -596,7 +596,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rebornPosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector reborn_pos = 5;</code>
@@ -607,7 +607,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector reborn_pos = 5;</code>
@@ -622,7 +622,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector reborn_pos = 5;</code>
@@ -642,7 +642,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector reborn_pos = 5;</code>
@@ -660,7 +660,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector reborn_pos = 5;</code>
@@ -682,7 +682,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector reborn_pos = 5;</code>
@@ -700,7 +700,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector reborn_pos = 5;</code>
@@ -712,7 +712,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector reborn_pos = 5;</code>
@@ -727,7 +727,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector reborn_pos = 5;</code>
@@ -749,7 +749,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       private long dieGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 die_guid = 3;</code>
@@ -761,7 +761,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 die_guid = 3;</code>
@@ -776,7 +776,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 die_guid = 3;</code>
@@ -792,7 +792,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       private int skillId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_id = 7;</code>
@@ -804,7 +804,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_id = 7;</code>
@@ -819,7 +819,7 @@ public final class AvatarDieAnimationEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_id = 7;</code>

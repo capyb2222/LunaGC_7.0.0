@@ -20,7 +20,7 @@ public final class AreaNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bytes area_code = 9;</code>
@@ -30,7 +30,7 @@ public final class AreaNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 area_type = 1;</code>
@@ -40,7 +40,7 @@ public final class AreaNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 area_id = 14;</code>
@@ -145,7 +145,7 @@ public final class AreaNotifyOuterClass {
     private com.google.protobuf.ByteString areaCode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bytes area_code = 9;</code>
@@ -160,7 +160,7 @@ public final class AreaNotifyOuterClass {
     private int areaType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 area_type = 1;</code>
@@ -175,7 +175,7 @@ public final class AreaNotifyOuterClass {
     private int areaId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 area_id = 14;</code>
@@ -525,7 +525,7 @@ public final class AreaNotifyOuterClass {
       private com.google.protobuf.ByteString areaCode_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bytes area_code = 9;</code>
@@ -537,7 +537,7 @@ public final class AreaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bytes area_code = 9;</code>
@@ -555,7 +555,7 @@ public final class AreaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bytes area_code = 9;</code>
@@ -571,7 +571,7 @@ public final class AreaNotifyOuterClass {
       private int areaType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 area_type = 1;</code>
@@ -583,7 +583,7 @@ public final class AreaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 area_type = 1;</code>
@@ -598,7 +598,7 @@ public final class AreaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 area_type = 1;</code>
@@ -614,7 +614,7 @@ public final class AreaNotifyOuterClass {
       private int areaId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 area_id = 14;</code>
@@ -626,7 +626,7 @@ public final class AreaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 area_id = 14;</code>
@@ -641,7 +641,7 @@ public final class AreaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 area_id = 14;</code>

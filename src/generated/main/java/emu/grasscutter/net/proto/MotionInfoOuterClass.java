@@ -20,7 +20,7 @@ public final class MotionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rot = 2;</code>
@@ -29,7 +29,7 @@ public final class MotionInfoOuterClass {
     boolean hasRot();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rot = 2;</code>
@@ -38,7 +38,7 @@ public final class MotionInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getRot();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rot = 2;</code>
@@ -47,7 +47,7 @@ public final class MotionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector speed = 3;</code>
@@ -56,7 +56,7 @@ public final class MotionInfoOuterClass {
     boolean hasSpeed();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector speed = 3;</code>
@@ -65,7 +65,7 @@ public final class MotionInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getSpeed();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector speed = 3;</code>
@@ -74,7 +74,7 @@ public final class MotionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector ref_pos = 6;</code>
@@ -83,7 +83,7 @@ public final class MotionInfoOuterClass {
     boolean hasRefPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector ref_pos = 6;</code>
@@ -92,7 +92,7 @@ public final class MotionInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getRefPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector ref_pos = 6;</code>
@@ -101,7 +101,7 @@ public final class MotionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -110,7 +110,7 @@ public final class MotionInfoOuterClass {
         getParamsList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -118,7 +118,7 @@ public final class MotionInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getParams(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -126,7 +126,7 @@ public final class MotionInfoOuterClass {
     int getParamsCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -135,7 +135,7 @@ public final class MotionInfoOuterClass {
         getParamsOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -145,7 +145,7 @@ public final class MotionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 1;</code>
@@ -154,7 +154,7 @@ public final class MotionInfoOuterClass {
     boolean hasPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 1;</code>
@@ -163,7 +163,7 @@ public final class MotionInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 1;</code>
@@ -178,7 +178,7 @@ public final class MotionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionState state = 4;</code>
@@ -187,7 +187,7 @@ public final class MotionInfoOuterClass {
     int getStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionState state = 4;</code>
@@ -203,7 +203,7 @@ public final class MotionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_time = 8;</code>
@@ -213,7 +213,7 @@ public final class MotionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 ref_id = 7;</code>
@@ -223,7 +223,7 @@ public final class MotionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 interval_velocity = 9;</code>
@@ -410,7 +410,7 @@ public final class MotionInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rot = 2;</code>
@@ -422,7 +422,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rot = 2;</code>
@@ -434,7 +434,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rot = 2;</code>
@@ -448,7 +448,7 @@ public final class MotionInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector speed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector speed = 3;</code>
@@ -460,7 +460,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector speed = 3;</code>
@@ -472,7 +472,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector speed = 3;</code>
@@ -486,7 +486,7 @@ public final class MotionInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector refPos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector ref_pos = 6;</code>
@@ -498,7 +498,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector ref_pos = 6;</code>
@@ -510,7 +510,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector ref_pos = 6;</code>
@@ -524,7 +524,7 @@ public final class MotionInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.VectorOuterClass.Vector> params_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -535,7 +535,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -547,7 +547,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -558,7 +558,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -569,7 +569,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Vector params = 5;</code>
@@ -584,7 +584,7 @@ public final class MotionInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 1;</code>
@@ -596,7 +596,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 1;</code>
@@ -608,7 +608,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 1;</code>
@@ -633,7 +633,7 @@ public final class MotionInfoOuterClass {
     private int state_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionState state = 4;</code>
@@ -644,7 +644,7 @@ public final class MotionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionState state = 4;</code>
@@ -671,7 +671,7 @@ public final class MotionInfoOuterClass {
     private int sceneTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_time = 8;</code>
@@ -686,7 +686,7 @@ public final class MotionInfoOuterClass {
     private int refId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 ref_id = 7;</code>
@@ -701,7 +701,7 @@ public final class MotionInfoOuterClass {
     private long intervalVelocity_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 interval_velocity = 9;</code>
@@ -1281,7 +1281,7 @@ public final class MotionInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rot = 2;</code>
@@ -1292,7 +1292,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rot = 2;</code>
@@ -1307,7 +1307,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rot = 2;</code>
@@ -1327,7 +1327,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rot = 2;</code>
@@ -1345,7 +1345,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rot = 2;</code>
@@ -1367,7 +1367,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rot = 2;</code>
@@ -1385,7 +1385,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rot = 2;</code>
@@ -1397,7 +1397,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rot = 2;</code>
@@ -1412,7 +1412,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rot = 2;</code>
@@ -1436,7 +1436,7 @@ public final class MotionInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> speedBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector speed = 3;</code>
@@ -1447,7 +1447,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector speed = 3;</code>
@@ -1462,7 +1462,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector speed = 3;</code>
@@ -1482,7 +1482,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector speed = 3;</code>
@@ -1500,7 +1500,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector speed = 3;</code>
@@ -1522,7 +1522,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector speed = 3;</code>
@@ -1540,7 +1540,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector speed = 3;</code>
@@ -1552,7 +1552,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector speed = 3;</code>
@@ -1567,7 +1567,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector speed = 3;</code>
@@ -1591,7 +1591,7 @@ public final class MotionInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> refPosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector ref_pos = 6;</code>
@@ -1602,7 +1602,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector ref_pos = 6;</code>
@@ -1617,7 +1617,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector ref_pos = 6;</code>
@@ -1637,7 +1637,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector ref_pos = 6;</code>
@@ -1655,7 +1655,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector ref_pos = 6;</code>
@@ -1677,7 +1677,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector ref_pos = 6;</code>
@@ -1695,7 +1695,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector ref_pos = 6;</code>
@@ -1707,7 +1707,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector ref_pos = 6;</code>
@@ -1722,7 +1722,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector ref_pos = 6;</code>
@@ -1755,7 +1755,7 @@ public final class MotionInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1769,7 +1769,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1783,7 +1783,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1797,7 +1797,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1818,7 +1818,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1836,7 +1836,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1856,7 +1856,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1877,7 +1877,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1895,7 +1895,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1913,7 +1913,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1932,7 +1932,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1949,7 +1949,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1966,7 +1966,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1977,7 +1977,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -1991,7 +1991,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -2006,7 +2006,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -2017,7 +2017,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -2029,7 +2029,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Vector params = 5;</code>
@@ -2058,7 +2058,7 @@ public final class MotionInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 1;</code>
@@ -2069,7 +2069,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 1;</code>
@@ -2084,7 +2084,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 1;</code>
@@ -2104,7 +2104,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 1;</code>
@@ -2122,7 +2122,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 1;</code>
@@ -2144,7 +2144,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 1;</code>
@@ -2162,7 +2162,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 1;</code>
@@ -2174,7 +2174,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 1;</code>
@@ -2189,7 +2189,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 1;</code>
@@ -2242,7 +2242,7 @@ public final class MotionInfoOuterClass {
       private int state_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionState state = 4;</code>
@@ -2253,7 +2253,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionState state = 4;</code>
@@ -2268,7 +2268,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionState state = 4;</code>
@@ -2282,7 +2282,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionState state = 4;</code>
@@ -2300,7 +2300,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionState state = 4;</code>
@@ -2347,7 +2347,7 @@ public final class MotionInfoOuterClass {
       private int sceneTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_time = 8;</code>
@@ -2359,7 +2359,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_time = 8;</code>
@@ -2374,7 +2374,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_time = 8;</code>
@@ -2390,7 +2390,7 @@ public final class MotionInfoOuterClass {
       private int refId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 ref_id = 7;</code>
@@ -2402,7 +2402,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 ref_id = 7;</code>
@@ -2417,7 +2417,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 ref_id = 7;</code>
@@ -2433,7 +2433,7 @@ public final class MotionInfoOuterClass {
       private long intervalVelocity_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 interval_velocity = 9;</code>
@@ -2445,7 +2445,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 interval_velocity = 9;</code>
@@ -2460,7 +2460,7 @@ public final class MotionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 interval_velocity = 9;</code>

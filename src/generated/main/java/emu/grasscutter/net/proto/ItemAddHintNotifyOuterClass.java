@@ -20,7 +20,7 @@ public final class ItemAddHintNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 14;</code>
@@ -29,7 +29,7 @@ public final class ItemAddHintNotifyOuterClass {
     boolean hasPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 14;</code>
@@ -38,7 +38,7 @@ public final class ItemAddHintNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 14;</code>
@@ -47,7 +47,7 @@ public final class ItemAddHintNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -56,7 +56,7 @@ public final class ItemAddHintNotifyOuterClass {
         getItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -64,7 +64,7 @@ public final class ItemAddHintNotifyOuterClass {
     emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -72,7 +72,7 @@ public final class ItemAddHintNotifyOuterClass {
     int getItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -81,7 +81,7 @@ public final class ItemAddHintNotifyOuterClass {
         getItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -91,7 +91,7 @@ public final class ItemAddHintNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -100,7 +100,7 @@ public final class ItemAddHintNotifyOuterClass {
         getOverflowTransformedItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -108,7 +108,7 @@ public final class ItemAddHintNotifyOuterClass {
     emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getOverflowTransformedItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -116,7 +116,7 @@ public final class ItemAddHintNotifyOuterClass {
     int getOverflowTransformedItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -125,7 +125,7 @@ public final class ItemAddHintNotifyOuterClass {
         getOverflowTransformedItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -147,7 +147,7 @@ public final class ItemAddHintNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 quest_id = 13;</code>
@@ -157,7 +157,7 @@ public final class ItemAddHintNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 reason = 9;</code>
@@ -310,7 +310,7 @@ public final class ItemAddHintNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 14;</code>
@@ -322,7 +322,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 14;</code>
@@ -334,7 +334,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 14;</code>
@@ -348,7 +348,7 @@ public final class ItemAddHintNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> itemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -359,7 +359,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -371,7 +371,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -382,7 +382,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -393,7 +393,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint item_list = 1;</code>
@@ -408,7 +408,7 @@ public final class ItemAddHintNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> overflowTransformedItemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -419,7 +419,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -431,7 +431,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -442,7 +442,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -453,7 +453,7 @@ public final class ItemAddHintNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -490,7 +490,7 @@ public final class ItemAddHintNotifyOuterClass {
     private int questId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 quest_id = 13;</code>
@@ -505,7 +505,7 @@ public final class ItemAddHintNotifyOuterClass {
     private int reason_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 reason = 9;</code>
@@ -1022,7 +1022,7 @@ public final class ItemAddHintNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> positionBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 14;</code>
@@ -1033,7 +1033,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 14;</code>
@@ -1048,7 +1048,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 14;</code>
@@ -1068,7 +1068,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 14;</code>
@@ -1086,7 +1086,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 14;</code>
@@ -1108,7 +1108,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 14;</code>
@@ -1126,7 +1126,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 14;</code>
@@ -1138,7 +1138,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 14;</code>
@@ -1153,7 +1153,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 14;</code>
@@ -1186,7 +1186,7 @@ public final class ItemAddHintNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1200,7 +1200,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1214,7 +1214,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1228,7 +1228,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1249,7 +1249,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1267,7 +1267,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1287,7 +1287,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1308,7 +1308,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1326,7 +1326,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1344,7 +1344,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1363,7 +1363,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1380,7 +1380,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1397,7 +1397,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1408,7 +1408,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1422,7 +1422,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1437,7 +1437,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1448,7 +1448,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1460,7 +1460,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint item_list = 1;</code>
@@ -1498,7 +1498,7 @@ public final class ItemAddHintNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1512,7 +1512,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1526,7 +1526,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1540,7 +1540,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1561,7 +1561,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1579,7 +1579,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1599,7 +1599,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1620,7 +1620,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1638,7 +1638,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1656,7 +1656,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1675,7 +1675,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1692,7 +1692,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1709,7 +1709,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1720,7 +1720,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1734,7 +1734,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1749,7 +1749,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1760,7 +1760,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1772,7 +1772,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemHint overflow_transformed_item_list = 11;</code>
@@ -1861,7 +1861,7 @@ public final class ItemAddHintNotifyOuterClass {
       private int questId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 quest_id = 13;</code>
@@ -1873,7 +1873,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 quest_id = 13;</code>
@@ -1888,7 +1888,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 quest_id = 13;</code>
@@ -1904,7 +1904,7 @@ public final class ItemAddHintNotifyOuterClass {
       private int reason_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 reason = 9;</code>
@@ -1916,7 +1916,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 reason = 9;</code>
@@ -1931,7 +1931,7 @@ public final class ItemAddHintNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 reason = 9;</code>

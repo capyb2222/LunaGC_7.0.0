@@ -20,7 +20,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -29,7 +29,7 @@ public final class AbilityAppliedModifierOuterClass {
     boolean hasModifierDurability();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -38,7 +38,7 @@ public final class AbilityAppliedModifierOuterClass {
     emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability getModifierDurability();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -47,7 +47,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 3;</code>
@@ -56,7 +56,7 @@ public final class AbilityAppliedModifierOuterClass {
     boolean hasParentAbilityName();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 3;</code>
@@ -65,7 +65,7 @@ public final class AbilityAppliedModifierOuterClass {
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getParentAbilityName();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 3;</code>
@@ -74,7 +74,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 4;</code>
@@ -83,7 +83,7 @@ public final class AbilityAppliedModifierOuterClass {
     boolean hasParentAbilityOverride();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 4;</code>
@@ -92,7 +92,7 @@ public final class AbilityAppliedModifierOuterClass {
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getParentAbilityOverride();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 4;</code>
@@ -101,7 +101,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -110,7 +110,7 @@ public final class AbilityAppliedModifierOuterClass {
     boolean hasAttachedInstancedModifier();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -119,7 +119,7 @@ public final class AbilityAppliedModifierOuterClass {
     emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier getAttachedInstancedModifier();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -128,7 +128,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 parent_ability_entity_id = 2;</code>
@@ -144,7 +144,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_attached_parent_ability = 10;</code>
@@ -160,7 +160,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 6;</code>
@@ -170,7 +170,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 apply_entity_id = 9;</code>
@@ -180,7 +180,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 5;</code>
@@ -190,7 +190,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 sbuff_uid = 12;</code>
@@ -200,7 +200,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 modifier_local_id = 1;</code>
@@ -210,7 +210,7 @@ public final class AbilityAppliedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float exist_duration = 7;</code>
@@ -401,7 +401,7 @@ public final class AbilityAppliedModifierOuterClass {
     private emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability modifierDurability_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -413,7 +413,7 @@ public final class AbilityAppliedModifierOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -425,7 +425,7 @@ public final class AbilityAppliedModifierOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -439,7 +439,7 @@ public final class AbilityAppliedModifierOuterClass {
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString parentAbilityName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 3;</code>
@@ -451,7 +451,7 @@ public final class AbilityAppliedModifierOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 3;</code>
@@ -463,7 +463,7 @@ public final class AbilityAppliedModifierOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_name = 3;</code>
@@ -477,7 +477,7 @@ public final class AbilityAppliedModifierOuterClass {
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString parentAbilityOverride_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 4;</code>
@@ -489,7 +489,7 @@ public final class AbilityAppliedModifierOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 4;</code>
@@ -501,7 +501,7 @@ public final class AbilityAppliedModifierOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityString parent_ability_override = 4;</code>
@@ -515,7 +515,7 @@ public final class AbilityAppliedModifierOuterClass {
     private emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier attachedInstancedModifier_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -527,7 +527,7 @@ public final class AbilityAppliedModifierOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -539,7 +539,7 @@ public final class AbilityAppliedModifierOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -553,7 +553,7 @@ public final class AbilityAppliedModifierOuterClass {
     private int parentAbilityEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 parent_ability_entity_id = 2;</code>
@@ -579,7 +579,7 @@ public final class AbilityAppliedModifierOuterClass {
     private boolean isAttachedParentAbility_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_attached_parent_ability = 10;</code>
@@ -605,7 +605,7 @@ public final class AbilityAppliedModifierOuterClass {
     private int instancedModifierId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 6;</code>
@@ -620,7 +620,7 @@ public final class AbilityAppliedModifierOuterClass {
     private int applyEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 apply_entity_id = 9;</code>
@@ -635,7 +635,7 @@ public final class AbilityAppliedModifierOuterClass {
     private int instancedAbilityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 5;</code>
@@ -650,7 +650,7 @@ public final class AbilityAppliedModifierOuterClass {
     private int sbuffUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 sbuff_uid = 12;</code>
@@ -665,7 +665,7 @@ public final class AbilityAppliedModifierOuterClass {
     private int modifierLocalId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 modifier_local_id = 1;</code>
@@ -680,7 +680,7 @@ public final class AbilityAppliedModifierOuterClass {
     private float existDuration_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float exist_duration = 7;</code>
@@ -1276,7 +1276,7 @@ public final class AbilityAppliedModifierOuterClass {
           emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability, emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurability.Builder, emu.grasscutter.net.proto.ModifierDurabilityOuterClass.ModifierDurabilityOrBuilder> modifierDurabilityBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -1287,7 +1287,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -1302,7 +1302,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -1322,7 +1322,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -1340,7 +1340,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -1362,7 +1362,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -1380,7 +1380,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -1392,7 +1392,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -1407,7 +1407,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ModifierDurability modifier_durability = 11;</code>
@@ -1431,7 +1431,7 @@ public final class AbilityAppliedModifierOuterClass {
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> parentAbilityNameBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 3;</code>
@@ -1442,7 +1442,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 3;</code>
@@ -1457,7 +1457,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 3;</code>
@@ -1477,7 +1477,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 3;</code>
@@ -1495,7 +1495,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 3;</code>
@@ -1517,7 +1517,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 3;</code>
@@ -1535,7 +1535,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 3;</code>
@@ -1547,7 +1547,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 3;</code>
@@ -1562,7 +1562,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_name = 3;</code>
@@ -1586,7 +1586,7 @@ public final class AbilityAppliedModifierOuterClass {
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> parentAbilityOverrideBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 4;</code>
@@ -1597,7 +1597,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 4;</code>
@@ -1612,7 +1612,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 4;</code>
@@ -1632,7 +1632,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 4;</code>
@@ -1650,7 +1650,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 4;</code>
@@ -1672,7 +1672,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 4;</code>
@@ -1690,7 +1690,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 4;</code>
@@ -1702,7 +1702,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 4;</code>
@@ -1717,7 +1717,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityString parent_ability_override = 4;</code>
@@ -1741,7 +1741,7 @@ public final class AbilityAppliedModifierOuterClass {
           emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier, emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifier.Builder, emu.grasscutter.net.proto.AbilityAttachedModifierOuterClass.AbilityAttachedModifierOrBuilder> attachedInstancedModifierBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1752,7 +1752,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1767,7 +1767,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1787,7 +1787,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1805,7 +1805,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1827,7 +1827,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1845,7 +1845,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1857,7 +1857,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1872,7 +1872,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AbilityAttachedModifier attached_instanced_modifier = 8;</code>
@@ -1894,7 +1894,7 @@ public final class AbilityAppliedModifierOuterClass {
       private int parentAbilityEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 parent_ability_entity_id = 2;</code>
@@ -1906,7 +1906,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 parent_ability_entity_id = 2;</code>
@@ -1921,7 +1921,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 parent_ability_entity_id = 2;</code>
@@ -1968,7 +1968,7 @@ public final class AbilityAppliedModifierOuterClass {
       private boolean isAttachedParentAbility_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_attached_parent_ability = 10;</code>
@@ -1980,7 +1980,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_attached_parent_ability = 10;</code>
@@ -1995,7 +1995,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_attached_parent_ability = 10;</code>
@@ -2042,7 +2042,7 @@ public final class AbilityAppliedModifierOuterClass {
       private int instancedModifierId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 6;</code>
@@ -2054,7 +2054,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 6;</code>
@@ -2069,7 +2069,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 6;</code>
@@ -2085,7 +2085,7 @@ public final class AbilityAppliedModifierOuterClass {
       private int applyEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 apply_entity_id = 9;</code>
@@ -2097,7 +2097,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 apply_entity_id = 9;</code>
@@ -2112,7 +2112,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 apply_entity_id = 9;</code>
@@ -2128,7 +2128,7 @@ public final class AbilityAppliedModifierOuterClass {
       private int instancedAbilityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 5;</code>
@@ -2140,7 +2140,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 5;</code>
@@ -2155,7 +2155,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 5;</code>
@@ -2171,7 +2171,7 @@ public final class AbilityAppliedModifierOuterClass {
       private int sbuffUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 sbuff_uid = 12;</code>
@@ -2183,7 +2183,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 sbuff_uid = 12;</code>
@@ -2198,7 +2198,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 sbuff_uid = 12;</code>
@@ -2214,7 +2214,7 @@ public final class AbilityAppliedModifierOuterClass {
       private int modifierLocalId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 modifier_local_id = 1;</code>
@@ -2226,7 +2226,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 modifier_local_id = 1;</code>
@@ -2241,7 +2241,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 modifier_local_id = 1;</code>
@@ -2257,7 +2257,7 @@ public final class AbilityAppliedModifierOuterClass {
       private float existDuration_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float exist_duration = 7;</code>
@@ -2269,7 +2269,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float exist_duration = 7;</code>
@@ -2284,7 +2284,7 @@ public final class AbilityAppliedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float exist_duration = 7;</code>

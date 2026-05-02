@@ -20,7 +20,7 @@ public final class PotionActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -29,7 +29,7 @@ public final class PotionActivityDetailInfoOuterClass {
         getStageListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -37,7 +37,7 @@ public final class PotionActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO getStageList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -45,7 +45,7 @@ public final class PotionActivityDetailInfoOuterClass {
     int getStageListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -54,7 +54,7 @@ public final class PotionActivityDetailInfoOuterClass {
         getStageListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -157,7 +157,7 @@ public final class PotionActivityDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ANHFAKADIAOOuterClass.ANHFAKADIAO> stageList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -168,7 +168,7 @@ public final class PotionActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -180,7 +180,7 @@ public final class PotionActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -191,7 +191,7 @@ public final class PotionActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -202,7 +202,7 @@ public final class PotionActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -569,7 +569,7 @@ public final class PotionActivityDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -583,7 +583,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -597,7 +597,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -611,7 +611,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -632,7 +632,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -650,7 +650,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -670,7 +670,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -691,7 +691,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -709,7 +709,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -727,7 +727,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -746,7 +746,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -763,7 +763,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -780,7 +780,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -791,7 +791,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -805,7 +805,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -820,7 +820,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -831,7 +831,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>
@@ -843,7 +843,7 @@ public final class PotionActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ANHFAKADIAO stage_list = 15;</code>

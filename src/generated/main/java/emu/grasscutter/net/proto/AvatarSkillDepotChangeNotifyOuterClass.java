@@ -20,7 +20,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 13;</code>
@@ -29,7 +29,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     java.util.List<java.lang.Integer> getTalentIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 13;</code>
@@ -38,7 +38,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     int getTalentIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 13;</code>
@@ -49,7 +49,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -58,7 +58,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     java.util.List<java.lang.Integer> getProudSkillListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -67,7 +67,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     int getProudSkillListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -78,7 +78,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -86,7 +86,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     int getSkillLevelMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -101,7 +101,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     getSkillLevelMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -110,7 +110,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     getSkillLevelMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -121,7 +121,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -132,7 +132,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -140,7 +140,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     int getProudSkillExtraLevelMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -155,7 +155,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     getProudSkillExtraLevelMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -164,7 +164,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     getProudSkillExtraLevelMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -175,7 +175,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -186,7 +186,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 skill_depot_id = 6;</code>
@@ -196,7 +196,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 core_proud_skill_level = 10;</code>
@@ -206,7 +206,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 9;</code>
@@ -216,7 +216,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 8;</code>
@@ -420,7 +420,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     private com.google.protobuf.Internal.IntList talentIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 13;</code>
@@ -433,7 +433,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 13;</code>
@@ -444,7 +444,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 13;</code>
@@ -460,7 +460,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     private com.google.protobuf.Internal.IntList proudSkillList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -473,7 +473,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -484,7 +484,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -524,7 +524,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -546,7 +546,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -558,7 +558,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -575,7 +575,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -621,7 +621,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -643,7 +643,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -655,7 +655,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -672,7 +672,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -694,7 +694,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     private int skillDepotId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 skill_depot_id = 6;</code>
@@ -709,7 +709,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     private int coreProudSkillLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 core_proud_skill_level = 10;</code>
@@ -724,7 +724,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 9;</code>
@@ -739,7 +739,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 8;</code>
@@ -1288,7 +1288,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 13;</code>
@@ -1301,7 +1301,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 13;</code>
@@ -1312,7 +1312,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 13;</code>
@@ -1324,7 +1324,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 13;</code>
@@ -1341,7 +1341,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 13;</code>
@@ -1356,7 +1356,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 13;</code>
@@ -1373,7 +1373,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 13;</code>
@@ -1395,7 +1395,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -1408,7 +1408,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -1419,7 +1419,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -1431,7 +1431,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -1448,7 +1448,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -1463,7 +1463,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -1480,7 +1480,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 5;</code>
@@ -1521,7 +1521,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -1543,7 +1543,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -1555,7 +1555,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -1572,7 +1572,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -1597,7 +1597,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -1620,7 +1620,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -1636,7 +1636,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 7;</code>
@@ -1677,7 +1677,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1699,7 +1699,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1711,7 +1711,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1728,7 +1728,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1753,7 +1753,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1776,7 +1776,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1792,7 +1792,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1808,7 +1808,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       private int skillDepotId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 skill_depot_id = 6;</code>
@@ -1820,7 +1820,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 skill_depot_id = 6;</code>
@@ -1835,7 +1835,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 skill_depot_id = 6;</code>
@@ -1851,7 +1851,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       private int coreProudSkillLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 core_proud_skill_level = 10;</code>
@@ -1863,7 +1863,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 core_proud_skill_level = 10;</code>
@@ -1878,7 +1878,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 core_proud_skill_level = 10;</code>
@@ -1894,7 +1894,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 9;</code>
@@ -1906,7 +1906,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 9;</code>
@@ -1921,7 +1921,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 9;</code>
@@ -1937,7 +1937,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 8;</code>
@@ -1949,7 +1949,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 8;</code>
@@ -1964,7 +1964,7 @@ public final class AvatarSkillDepotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 8;</code>

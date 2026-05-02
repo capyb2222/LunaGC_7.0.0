@@ -20,7 +20,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float cur_value = 3;</code>
@@ -30,7 +30,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float old_value = 11;</code>
@@ -40,7 +40,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 prop_type = 4;</code>
@@ -50,7 +50,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PropChangeReason reason = 5;</code>
@@ -59,7 +59,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     int getReasonValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PropChangeReason reason = 5;</code>
@@ -69,7 +69,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint64 avatar_guid = 2;</code>
@@ -189,7 +189,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     private float curValue_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float cur_value = 3;</code>
@@ -204,7 +204,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     private float oldValue_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float old_value = 11;</code>
@@ -219,7 +219,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     private int propType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 prop_type = 4;</code>
@@ -234,7 +234,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     private int reason_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PropChangeReason reason = 5;</code>
@@ -245,7 +245,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PropChangeReason reason = 5;</code>
@@ -261,7 +261,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint64 avatar_guid = 2;</code>
@@ -653,7 +653,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       private float curValue_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float cur_value = 3;</code>
@@ -665,7 +665,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float cur_value = 3;</code>
@@ -680,7 +680,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float cur_value = 3;</code>
@@ -696,7 +696,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       private float oldValue_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float old_value = 11;</code>
@@ -708,7 +708,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float old_value = 11;</code>
@@ -723,7 +723,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float old_value = 11;</code>
@@ -739,7 +739,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       private int propType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 prop_type = 4;</code>
@@ -751,7 +751,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 prop_type = 4;</code>
@@ -766,7 +766,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 prop_type = 4;</code>
@@ -782,7 +782,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       private int reason_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PropChangeReason reason = 5;</code>
@@ -793,7 +793,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PropChangeReason reason = 5;</code>
@@ -808,7 +808,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PropChangeReason reason = 5;</code>
@@ -822,7 +822,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PropChangeReason reason = 5;</code>
@@ -840,7 +840,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PropChangeReason reason = 5;</code>
@@ -856,7 +856,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint64 avatar_guid = 2;</code>
@@ -868,7 +868,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint64 avatar_guid = 2;</code>
@@ -883,7 +883,7 @@ public final class AvatarPropChangeReasonNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint64 avatar_guid = 2;</code>

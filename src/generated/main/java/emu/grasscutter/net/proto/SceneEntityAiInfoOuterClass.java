@@ -20,7 +20,7 @@ public final class SceneEntityAiInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -28,7 +28,7 @@ public final class SceneEntityAiInfoOuterClass {
     int getAiThreatMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -43,7 +43,7 @@ public final class SceneEntityAiInfoOuterClass {
     getAiThreatMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -52,7 +52,7 @@ public final class SceneEntityAiInfoOuterClass {
     getAiThreatMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -63,7 +63,7 @@ public final class SceneEntityAiInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -74,7 +74,7 @@ public final class SceneEntityAiInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ServantInfo servant_info = 4;</code>
@@ -83,7 +83,7 @@ public final class SceneEntityAiInfoOuterClass {
     boolean hasServantInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ServantInfo servant_info = 4;</code>
@@ -92,7 +92,7 @@ public final class SceneEntityAiInfoOuterClass {
     emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo getServantInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ServantInfo servant_info = 4;</code>
@@ -101,7 +101,7 @@ public final class SceneEntityAiInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -109,7 +109,7 @@ public final class SceneEntityAiInfoOuterClass {
     int getSkillGroupCdMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -124,7 +124,7 @@ public final class SceneEntityAiInfoOuterClass {
     getSkillGroupCdMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -133,7 +133,7 @@ public final class SceneEntityAiInfoOuterClass {
     getSkillGroupCdMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -144,7 +144,7 @@ public final class SceneEntityAiInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -155,7 +155,7 @@ public final class SceneEntityAiInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -163,7 +163,7 @@ public final class SceneEntityAiInfoOuterClass {
     int getSkillCdMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -178,7 +178,7 @@ public final class SceneEntityAiInfoOuterClass {
     getSkillCdMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -187,7 +187,7 @@ public final class SceneEntityAiInfoOuterClass {
     getSkillCdMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -198,7 +198,7 @@ public final class SceneEntityAiInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -215,7 +215,7 @@ public final class SceneEntityAiInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cur_tactic = 7;</code>
@@ -407,7 +407,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -429,7 +429,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -441,7 +441,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -458,7 +458,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -480,7 +480,7 @@ public final class SceneEntityAiInfoOuterClass {
     private emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo servantInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ServantInfo servant_info = 4;</code>
@@ -492,7 +492,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ServantInfo servant_info = 4;</code>
@@ -504,7 +504,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ServantInfo servant_info = 4;</code>
@@ -542,7 +542,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -564,7 +564,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -576,7 +576,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -593,7 +593,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -639,7 +639,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -661,7 +661,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -673,7 +673,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -690,7 +690,7 @@ public final class SceneEntityAiInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -723,7 +723,7 @@ public final class SceneEntityAiInfoOuterClass {
     private int curTactic_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cur_tactic = 7;</code>
@@ -1225,7 +1225,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -1247,7 +1247,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -1259,7 +1259,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -1276,7 +1276,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -1301,7 +1301,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -1324,7 +1324,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -1340,7 +1340,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; ai_threat_map = 5;</code>
@@ -1358,7 +1358,7 @@ public final class SceneEntityAiInfoOuterClass {
           emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo, emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfo.Builder, emu.grasscutter.net.proto.ServantInfoOuterClass.ServantInfoOrBuilder> servantInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ServantInfo servant_info = 4;</code>
@@ -1369,7 +1369,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ServantInfo servant_info = 4;</code>
@@ -1384,7 +1384,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ServantInfo servant_info = 4;</code>
@@ -1404,7 +1404,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ServantInfo servant_info = 4;</code>
@@ -1422,7 +1422,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ServantInfo servant_info = 4;</code>
@@ -1444,7 +1444,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ServantInfo servant_info = 4;</code>
@@ -1462,7 +1462,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ServantInfo servant_info = 4;</code>
@@ -1474,7 +1474,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ServantInfo servant_info = 4;</code>
@@ -1489,7 +1489,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ServantInfo servant_info = 4;</code>
@@ -1536,7 +1536,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -1558,7 +1558,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -1570,7 +1570,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -1587,7 +1587,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -1612,7 +1612,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -1635,7 +1635,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -1651,7 +1651,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 6;</code>
@@ -1692,7 +1692,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -1714,7 +1714,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -1726,7 +1726,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -1743,7 +1743,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -1768,7 +1768,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -1791,7 +1791,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -1807,7 +1807,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 3;</code>
@@ -1854,7 +1854,7 @@ public final class SceneEntityAiInfoOuterClass {
       private int curTactic_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_tactic = 7;</code>
@@ -1866,7 +1866,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_tactic = 7;</code>
@@ -1881,7 +1881,7 @@ public final class SceneEntityAiInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_tactic = 7;</code>

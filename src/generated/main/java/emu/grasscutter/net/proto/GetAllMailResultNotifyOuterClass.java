@@ -20,7 +20,7 @@ public final class GetAllMailResultNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>uint32 total_page_count = 15;</code>
@@ -30,7 +30,7 @@ public final class GetAllMailResultNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string transaction = 4;</code>
@@ -39,7 +39,7 @@ public final class GetAllMailResultNotifyOuterClass {
     java.lang.String getTransaction();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string transaction = 4;</code>
@@ -50,7 +50,7 @@ public final class GetAllMailResultNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -59,7 +59,7 @@ public final class GetAllMailResultNotifyOuterClass {
         getMailListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -67,7 +67,7 @@ public final class GetAllMailResultNotifyOuterClass {
     emu.grasscutter.net.proto.MailDataOuterClass.MailData getMailList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -75,7 +75,7 @@ public final class GetAllMailResultNotifyOuterClass {
     int getMailListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -84,7 +84,7 @@ public final class GetAllMailResultNotifyOuterClass {
         getMailListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -94,7 +94,7 @@ public final class GetAllMailResultNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>uint32 page_index = 13;</code>
@@ -104,7 +104,7 @@ public final class GetAllMailResultNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_collected = 9;</code>
@@ -114,7 +114,7 @@ public final class GetAllMailResultNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 6;</code>
@@ -248,7 +248,7 @@ public final class GetAllMailResultNotifyOuterClass {
     private int totalPageCount_;
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>uint32 total_page_count = 15;</code>
@@ -263,7 +263,7 @@ public final class GetAllMailResultNotifyOuterClass {
     private volatile java.lang.Object transaction_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string transaction = 4;</code>
@@ -284,7 +284,7 @@ public final class GetAllMailResultNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string transaction = 4;</code>
@@ -309,7 +309,7 @@ public final class GetAllMailResultNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData> mailList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -320,7 +320,7 @@ public final class GetAllMailResultNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -332,7 +332,7 @@ public final class GetAllMailResultNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -343,7 +343,7 @@ public final class GetAllMailResultNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -354,7 +354,7 @@ public final class GetAllMailResultNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailData mail_list = 3;</code>
@@ -369,7 +369,7 @@ public final class GetAllMailResultNotifyOuterClass {
     private int pageIndex_;
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>uint32 page_index = 13;</code>
@@ -384,7 +384,7 @@ public final class GetAllMailResultNotifyOuterClass {
     private boolean isCollected_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_collected = 9;</code>
@@ -399,7 +399,7 @@ public final class GetAllMailResultNotifyOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 6;</code>
@@ -845,7 +845,7 @@ public final class GetAllMailResultNotifyOuterClass {
       private int totalPageCount_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 total_page_count = 15;</code>
@@ -857,7 +857,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 total_page_count = 15;</code>
@@ -872,7 +872,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 total_page_count = 15;</code>
@@ -888,7 +888,7 @@ public final class GetAllMailResultNotifyOuterClass {
       private java.lang.Object transaction_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string transaction = 4;</code>
@@ -908,7 +908,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string transaction = 4;</code>
@@ -929,7 +929,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string transaction = 4;</code>
@@ -948,7 +948,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string transaction = 4;</code>
@@ -962,7 +962,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string transaction = 4;</code>
@@ -995,7 +995,7 @@ public final class GetAllMailResultNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1009,7 +1009,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1023,7 +1023,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1037,7 +1037,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1058,7 +1058,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1076,7 +1076,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1096,7 +1096,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1117,7 +1117,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1135,7 +1135,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1153,7 +1153,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1172,7 +1172,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1189,7 +1189,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1206,7 +1206,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1217,7 +1217,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1231,7 +1231,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1246,7 +1246,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1257,7 +1257,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1269,7 +1269,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailData mail_list = 3;</code>
@@ -1296,7 +1296,7 @@ public final class GetAllMailResultNotifyOuterClass {
       private int pageIndex_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 page_index = 13;</code>
@@ -1308,7 +1308,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 page_index = 13;</code>
@@ -1323,7 +1323,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 page_index = 13;</code>
@@ -1339,7 +1339,7 @@ public final class GetAllMailResultNotifyOuterClass {
       private boolean isCollected_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_collected = 9;</code>
@@ -1351,7 +1351,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_collected = 9;</code>
@@ -1366,7 +1366,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_collected = 9;</code>
@@ -1382,7 +1382,7 @@ public final class GetAllMailResultNotifyOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -1394,7 +1394,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -1409,7 +1409,7 @@ public final class GetAllMailResultNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 6;</code>

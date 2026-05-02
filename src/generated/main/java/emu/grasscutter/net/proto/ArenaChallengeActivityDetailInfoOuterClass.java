@@ -84,7 +84,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 world_level = 13;</code>
@@ -354,7 +354,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
     private int worldLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 world_level = 13;</code>
@@ -1193,7 +1193,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       private int worldLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 world_level = 13;</code>
@@ -1205,7 +1205,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 world_level = 13;</code>
@@ -1220,7 +1220,7 @@ public final class ArenaChallengeActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 world_level = 13;</code>

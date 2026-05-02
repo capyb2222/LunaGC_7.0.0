@@ -20,7 +20,7 @@ public final class GadgetInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 13;</code>
@@ -30,7 +30,7 @@ public final class GadgetInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_entity_id = 5;</code>
@@ -40,7 +40,7 @@ public final class GadgetInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 8;</code>
@@ -56,7 +56,7 @@ public final class GadgetInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InteractType interact_type = 9;</code>
@@ -65,7 +65,7 @@ public final class GadgetInteractRspOuterClass {
     int getInteractTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InteractType interact_type = 9;</code>
@@ -75,7 +75,7 @@ public final class GadgetInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InterOpType op_type = 14;</code>
@@ -84,7 +84,7 @@ public final class GadgetInteractRspOuterClass {
     int getOpTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InterOpType op_type = 14;</code>
@@ -211,7 +211,7 @@ public final class GadgetInteractRspOuterClass {
     private int gadgetId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 13;</code>
@@ -226,7 +226,7 @@ public final class GadgetInteractRspOuterClass {
     private int gadgetEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_entity_id = 5;</code>
@@ -241,7 +241,7 @@ public final class GadgetInteractRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 8;</code>
@@ -267,7 +267,7 @@ public final class GadgetInteractRspOuterClass {
     private int interactType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InteractType interact_type = 9;</code>
@@ -278,7 +278,7 @@ public final class GadgetInteractRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InteractType interact_type = 9;</code>
@@ -294,7 +294,7 @@ public final class GadgetInteractRspOuterClass {
     private int opType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InterOpType op_type = 14;</code>
@@ -305,7 +305,7 @@ public final class GadgetInteractRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InterOpType op_type = 14;</code>
@@ -709,7 +709,7 @@ public final class GadgetInteractRspOuterClass {
       private int gadgetId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 13;</code>
@@ -721,7 +721,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 13;</code>
@@ -736,7 +736,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 13;</code>
@@ -752,7 +752,7 @@ public final class GadgetInteractRspOuterClass {
       private int gadgetEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 5;</code>
@@ -764,7 +764,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 5;</code>
@@ -779,7 +779,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 5;</code>
@@ -795,7 +795,7 @@ public final class GadgetInteractRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 8;</code>
@@ -807,7 +807,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 8;</code>
@@ -822,7 +822,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 8;</code>
@@ -869,7 +869,7 @@ public final class GadgetInteractRspOuterClass {
       private int interactType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InteractType interact_type = 9;</code>
@@ -880,7 +880,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InteractType interact_type = 9;</code>
@@ -895,7 +895,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InteractType interact_type = 9;</code>
@@ -909,7 +909,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InteractType interact_type = 9;</code>
@@ -927,7 +927,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InteractType interact_type = 9;</code>
@@ -943,7 +943,7 @@ public final class GadgetInteractRspOuterClass {
       private int opType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 14;</code>
@@ -954,7 +954,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 14;</code>
@@ -969,7 +969,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 14;</code>
@@ -983,7 +983,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 14;</code>
@@ -1001,7 +1001,7 @@ public final class GadgetInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 14;</code>

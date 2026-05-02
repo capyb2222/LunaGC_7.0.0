@@ -20,7 +20,7 @@ public final class AbilityIdentifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 12;</code>
@@ -36,7 +36,7 @@ public final class AbilityIdentifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 1;</code>
@@ -46,7 +46,7 @@ public final class AbilityIdentifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 local_id = 4;</code>
@@ -166,7 +166,7 @@ public final class AbilityIdentifierOuterClass {
     private int instancedModifierId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 12;</code>
@@ -192,7 +192,7 @@ public final class AbilityIdentifierOuterClass {
     private int instancedAbilityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 1;</code>
@@ -207,7 +207,7 @@ public final class AbilityIdentifierOuterClass {
     private int localId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 local_id = 4;</code>
@@ -603,7 +603,7 @@ public final class AbilityIdentifierOuterClass {
       private int instancedModifierId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 12;</code>
@@ -615,7 +615,7 @@ public final class AbilityIdentifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 12;</code>
@@ -630,7 +630,7 @@ public final class AbilityIdentifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 12;</code>
@@ -677,7 +677,7 @@ public final class AbilityIdentifierOuterClass {
       private int instancedAbilityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 1;</code>
@@ -689,7 +689,7 @@ public final class AbilityIdentifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 1;</code>
@@ -704,7 +704,7 @@ public final class AbilityIdentifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 1;</code>
@@ -720,7 +720,7 @@ public final class AbilityIdentifierOuterClass {
       private int localId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 local_id = 4;</code>
@@ -732,7 +732,7 @@ public final class AbilityIdentifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 local_id = 4;</code>
@@ -747,7 +747,7 @@ public final class AbilityIdentifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 local_id = 4;</code>

@@ -20,7 +20,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -29,7 +29,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
     boolean hasProgressDetail();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -38,7 +38,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
     emu.grasscutter.net.proto.FungusTrainingProgressDetailOuterClass.FungusTrainingProgressDetail getProgressDetail();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -143,7 +143,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
     private emu.grasscutter.net.proto.FungusTrainingProgressDetailOuterClass.FungusTrainingProgressDetail progressDetail_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -155,7 +155,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -167,7 +167,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -501,7 +501,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
           emu.grasscutter.net.proto.FungusTrainingProgressDetailOuterClass.FungusTrainingProgressDetail, emu.grasscutter.net.proto.FungusTrainingProgressDetailOuterClass.FungusTrainingProgressDetail.Builder, emu.grasscutter.net.proto.FungusTrainingProgressDetailOuterClass.FungusTrainingProgressDetailOrBuilder> progressDetailBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -512,7 +512,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -527,7 +527,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -547,7 +547,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -565,7 +565,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -587,7 +587,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -605,7 +605,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -617,7 +617,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>
@@ -632,7 +632,7 @@ public final class FungusFighterRuntimeDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FungusTrainingProgressDetail progress_detail = 11;</code>

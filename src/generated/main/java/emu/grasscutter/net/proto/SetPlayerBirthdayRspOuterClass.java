@@ -20,7 +20,7 @@ public final class SetPlayerBirthdayRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Birthday birthday = 15;</code>
@@ -29,7 +29,7 @@ public final class SetPlayerBirthdayRspOuterClass {
     boolean hasBirthday();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Birthday birthday = 15;</code>
@@ -38,7 +38,7 @@ public final class SetPlayerBirthdayRspOuterClass {
     emu.grasscutter.net.proto.BirthdayOuterClass.Birthday getBirthday();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Birthday birthday = 15;</code>
@@ -47,7 +47,7 @@ public final class SetPlayerBirthdayRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -158,7 +158,7 @@ public final class SetPlayerBirthdayRspOuterClass {
     private emu.grasscutter.net.proto.BirthdayOuterClass.Birthday birthday_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Birthday birthday = 15;</code>
@@ -170,7 +170,7 @@ public final class SetPlayerBirthdayRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Birthday birthday = 15;</code>
@@ -182,7 +182,7 @@ public final class SetPlayerBirthdayRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Birthday birthday = 15;</code>
@@ -196,7 +196,7 @@ public final class SetPlayerBirthdayRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -548,7 +548,7 @@ public final class SetPlayerBirthdayRspOuterClass {
           emu.grasscutter.net.proto.BirthdayOuterClass.Birthday, emu.grasscutter.net.proto.BirthdayOuterClass.Birthday.Builder, emu.grasscutter.net.proto.BirthdayOuterClass.BirthdayOrBuilder> birthdayBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Birthday birthday = 15;</code>
@@ -559,7 +559,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Birthday birthday = 15;</code>
@@ -574,7 +574,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Birthday birthday = 15;</code>
@@ -594,7 +594,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Birthday birthday = 15;</code>
@@ -612,7 +612,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Birthday birthday = 15;</code>
@@ -634,7 +634,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Birthday birthday = 15;</code>
@@ -652,7 +652,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Birthday birthday = 15;</code>
@@ -664,7 +664,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Birthday birthday = 15;</code>
@@ -679,7 +679,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Birthday birthday = 15;</code>
@@ -701,7 +701,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -713,7 +713,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -728,7 +728,7 @@ public final class SetPlayerBirthdayRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>

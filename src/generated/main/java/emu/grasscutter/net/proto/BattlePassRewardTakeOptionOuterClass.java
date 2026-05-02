@@ -20,7 +20,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassRewardTag tag = 13;</code>
@@ -29,7 +29,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
     boolean hasTag();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassRewardTag tag = 13;</code>
@@ -38,7 +38,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
     emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag getTag();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassRewardTag tag = 13;</code>
@@ -53,7 +53,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 option_idx = 2;</code>
@@ -165,7 +165,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
     private emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag tag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassRewardTag tag = 13;</code>
@@ -177,7 +177,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassRewardTag tag = 13;</code>
@@ -189,7 +189,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BattlePassRewardTag tag = 13;</code>
@@ -214,7 +214,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
     private int optionIdx_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 option_idx = 2;</code>
@@ -579,7 +579,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
           emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTag.Builder, emu.grasscutter.net.proto.BattlePassRewardTagOuterClass.BattlePassRewardTagOrBuilder> tagBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassRewardTag tag = 13;</code>
@@ -590,7 +590,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassRewardTag tag = 13;</code>
@@ -605,7 +605,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassRewardTag tag = 13;</code>
@@ -625,7 +625,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassRewardTag tag = 13;</code>
@@ -643,7 +643,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassRewardTag tag = 13;</code>
@@ -665,7 +665,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassRewardTag tag = 13;</code>
@@ -683,7 +683,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassRewardTag tag = 13;</code>
@@ -695,7 +695,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassRewardTag tag = 13;</code>
@@ -710,7 +710,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BattlePassRewardTag tag = 13;</code>
@@ -763,7 +763,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       private int optionIdx_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 option_idx = 2;</code>
@@ -775,7 +775,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 option_idx = 2;</code>
@@ -790,7 +790,7 @@ public final class BattlePassRewardTakeOptionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 option_idx = 2;</code>

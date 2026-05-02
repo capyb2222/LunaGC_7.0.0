@@ -20,7 +20,7 @@ public final class PlayerPropNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -28,7 +28,7 @@ public final class PlayerPropNotifyOuterClass {
     int getPropMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -43,7 +43,7 @@ public final class PlayerPropNotifyOuterClass {
     getPropMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -52,7 +52,7 @@ public final class PlayerPropNotifyOuterClass {
     getPropMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -63,7 +63,7 @@ public final class PlayerPropNotifyOuterClass {
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -207,7 +207,7 @@ public final class PlayerPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -229,7 +229,7 @@ public final class PlayerPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -241,7 +241,7 @@ public final class PlayerPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -258,7 +258,7 @@ public final class PlayerPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -644,7 +644,7 @@ public final class PlayerPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -666,7 +666,7 @@ public final class PlayerPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -678,7 +678,7 @@ public final class PlayerPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -695,7 +695,7 @@ public final class PlayerPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -720,7 +720,7 @@ public final class PlayerPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -743,7 +743,7 @@ public final class PlayerPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>
@@ -759,7 +759,7 @@ public final class PlayerPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 12;</code>

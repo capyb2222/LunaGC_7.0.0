@@ -20,7 +20,7 @@ public final class SetUpAvatarTeamReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -29,7 +29,7 @@ public final class SetUpAvatarTeamReqOuterClass {
     java.util.List<java.lang.Long> getAvatarTeamGuidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -38,7 +38,7 @@ public final class SetUpAvatarTeamReqOuterClass {
     int getAvatarTeamGuidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -188,7 +188,7 @@ public final class SetUpAvatarTeamReqOuterClass {
     private com.google.protobuf.Internal.LongList avatarTeamGuidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -201,7 +201,7 @@ public final class SetUpAvatarTeamReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -212,7 +212,7 @@ public final class SetUpAvatarTeamReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -634,7 +634,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -647,7 +647,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -658,7 +658,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -670,7 +670,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -687,7 +687,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -702,7 +702,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated uint64 avatar_team_guid_list = 9;</code>
@@ -719,7 +719,7 @@ public final class SetUpAvatarTeamReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated uint64 avatar_team_guid_list = 9;</code>

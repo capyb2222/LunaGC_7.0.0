@@ -20,7 +20,7 @@ public final class StoreItemChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -29,7 +29,7 @@ public final class StoreItemChangeNotifyOuterClass {
         getItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -37,7 +37,7 @@ public final class StoreItemChangeNotifyOuterClass {
     emu.grasscutter.net.proto.ItemOuterClass.Item getItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -45,7 +45,7 @@ public final class StoreItemChangeNotifyOuterClass {
     int getItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -54,7 +54,7 @@ public final class StoreItemChangeNotifyOuterClass {
         getItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -64,7 +64,7 @@ public final class StoreItemChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.StoreType store_type = 7;</code>
@@ -73,7 +73,7 @@ public final class StoreItemChangeNotifyOuterClass {
     int getStoreTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.StoreType store_type = 7;</code>
@@ -83,7 +83,7 @@ public final class StoreItemChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.CHOEOGNELGN reason = 4;</code>
@@ -92,7 +92,7 @@ public final class StoreItemChangeNotifyOuterClass {
     int getReasonValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.CHOEOGNELGN reason = 4;</code>
@@ -213,7 +213,7 @@ public final class StoreItemChangeNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> itemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -224,7 +224,7 @@ public final class StoreItemChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -236,7 +236,7 @@ public final class StoreItemChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -247,7 +247,7 @@ public final class StoreItemChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -258,7 +258,7 @@ public final class StoreItemChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Item item_list = 9;</code>
@@ -273,7 +273,7 @@ public final class StoreItemChangeNotifyOuterClass {
     private int storeType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.StoreType store_type = 7;</code>
@@ -284,7 +284,7 @@ public final class StoreItemChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.StoreType store_type = 7;</code>
@@ -300,7 +300,7 @@ public final class StoreItemChangeNotifyOuterClass {
     private int reason_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.CHOEOGNELGN reason = 4;</code>
@@ -311,7 +311,7 @@ public final class StoreItemChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.CHOEOGNELGN reason = 4;</code>
@@ -715,7 +715,7 @@ public final class StoreItemChangeNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -729,7 +729,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -743,7 +743,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -757,7 +757,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -778,7 +778,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -796,7 +796,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -816,7 +816,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -837,7 +837,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -855,7 +855,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -873,7 +873,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -892,7 +892,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -909,7 +909,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -926,7 +926,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -937,7 +937,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -951,7 +951,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -966,7 +966,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -977,7 +977,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -989,7 +989,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Item item_list = 9;</code>
@@ -1016,7 +1016,7 @@ public final class StoreItemChangeNotifyOuterClass {
       private int storeType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.StoreType store_type = 7;</code>
@@ -1027,7 +1027,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.StoreType store_type = 7;</code>
@@ -1042,7 +1042,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.StoreType store_type = 7;</code>
@@ -1056,7 +1056,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.StoreType store_type = 7;</code>
@@ -1074,7 +1074,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.StoreType store_type = 7;</code>
@@ -1090,7 +1090,7 @@ public final class StoreItemChangeNotifyOuterClass {
       private int reason_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.CHOEOGNELGN reason = 4;</code>
@@ -1101,7 +1101,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.CHOEOGNELGN reason = 4;</code>
@@ -1116,7 +1116,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.CHOEOGNELGN reason = 4;</code>
@@ -1130,7 +1130,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.CHOEOGNELGN reason = 4;</code>
@@ -1148,7 +1148,7 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.CHOEOGNELGN reason = 4;</code>

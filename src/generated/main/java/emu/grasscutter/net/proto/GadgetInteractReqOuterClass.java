@@ -20,7 +20,7 @@ public final class GadgetInteractReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InterOpType op_type = 6;</code>
@@ -29,7 +29,7 @@ public final class GadgetInteractReqOuterClass {
     int getOpTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InterOpType op_type = 6;</code>
@@ -51,7 +51,7 @@ public final class GadgetInteractReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ResinCostType resin_cost_type = 11;</code>
@@ -60,7 +60,7 @@ public final class GadgetInteractReqOuterClass {
     int getResinCostTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ResinCostType resin_cost_type = 11;</code>
@@ -70,7 +70,7 @@ public final class GadgetInteractReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_entity_id = 13;</code>
@@ -80,7 +80,7 @@ public final class GadgetInteractReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 4;</code>
@@ -207,7 +207,7 @@ public final class GadgetInteractReqOuterClass {
     private int opType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InterOpType op_type = 6;</code>
@@ -218,7 +218,7 @@ public final class GadgetInteractReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.InterOpType op_type = 6;</code>
@@ -256,7 +256,7 @@ public final class GadgetInteractReqOuterClass {
     private int resinCostType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ResinCostType resin_cost_type = 11;</code>
@@ -267,7 +267,7 @@ public final class GadgetInteractReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.ResinCostType resin_cost_type = 11;</code>
@@ -283,7 +283,7 @@ public final class GadgetInteractReqOuterClass {
     private int gadgetEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_entity_id = 13;</code>
@@ -298,7 +298,7 @@ public final class GadgetInteractReqOuterClass {
     private int gadgetId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 4;</code>
@@ -702,7 +702,7 @@ public final class GadgetInteractReqOuterClass {
       private int opType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 6;</code>
@@ -713,7 +713,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 6;</code>
@@ -728,7 +728,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 6;</code>
@@ -742,7 +742,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 6;</code>
@@ -760,7 +760,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.InterOpType op_type = 6;</code>
@@ -838,7 +838,7 @@ public final class GadgetInteractReqOuterClass {
       private int resinCostType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ResinCostType resin_cost_type = 11;</code>
@@ -849,7 +849,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ResinCostType resin_cost_type = 11;</code>
@@ -864,7 +864,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ResinCostType resin_cost_type = 11;</code>
@@ -878,7 +878,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ResinCostType resin_cost_type = 11;</code>
@@ -896,7 +896,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.ResinCostType resin_cost_type = 11;</code>
@@ -912,7 +912,7 @@ public final class GadgetInteractReqOuterClass {
       private int gadgetEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 13;</code>
@@ -924,7 +924,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 13;</code>
@@ -939,7 +939,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 13;</code>
@@ -955,7 +955,7 @@ public final class GadgetInteractReqOuterClass {
       private int gadgetId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 4;</code>
@@ -967,7 +967,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 4;</code>
@@ -982,7 +982,7 @@ public final class GadgetInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 4;</code>

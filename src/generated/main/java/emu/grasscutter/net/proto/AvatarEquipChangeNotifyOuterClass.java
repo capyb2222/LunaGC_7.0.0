@@ -20,7 +20,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -29,7 +29,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     boolean hasWeapon();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -38,7 +38,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getWeapon();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -47,7 +47,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -56,7 +56,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     boolean hasReliquary();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -65,7 +65,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo getReliquary();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -74,7 +74,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 equip_guid = 14;</code>
@@ -84,7 +84,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 equip_type = 2;</code>
@@ -94,7 +94,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 11;</code>
@@ -104,7 +104,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 6;</code>
@@ -243,7 +243,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     private emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo weapon_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -255,7 +255,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -267,7 +267,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -281,7 +281,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     private emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo reliquary_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -293,7 +293,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -305,7 +305,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -319,7 +319,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     private long equipGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 equip_guid = 14;</code>
@@ -334,7 +334,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     private int equipType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 equip_type = 2;</code>
@@ -349,7 +349,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     private int itemId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 11;</code>
@@ -364,7 +364,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 6;</code>
@@ -799,7 +799,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
           emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> weaponBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -810,7 +810,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -825,7 +825,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -845,7 +845,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -863,7 +863,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -885,7 +885,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -903,7 +903,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -915,7 +915,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -930,7 +930,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 4;</code>
@@ -954,7 +954,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
           emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo.Builder, emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfoOrBuilder> reliquaryBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -965,7 +965,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -980,7 +980,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -1000,7 +1000,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -1018,7 +1018,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -1040,7 +1040,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -1058,7 +1058,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -1070,7 +1070,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -1085,7 +1085,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneReliquaryInfo reliquary = 13;</code>
@@ -1107,7 +1107,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       private long equipGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 equip_guid = 14;</code>
@@ -1119,7 +1119,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 equip_guid = 14;</code>
@@ -1134,7 +1134,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 equip_guid = 14;</code>
@@ -1150,7 +1150,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       private int equipType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 equip_type = 2;</code>
@@ -1162,7 +1162,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 equip_type = 2;</code>
@@ -1177,7 +1177,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 equip_type = 2;</code>
@@ -1193,7 +1193,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       private int itemId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 11;</code>
@@ -1205,7 +1205,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 11;</code>
@@ -1220,7 +1220,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 11;</code>
@@ -1236,7 +1236,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 6;</code>
@@ -1248,7 +1248,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 6;</code>
@@ -1263,7 +1263,7 @@ public final class AvatarEquipChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 6;</code>

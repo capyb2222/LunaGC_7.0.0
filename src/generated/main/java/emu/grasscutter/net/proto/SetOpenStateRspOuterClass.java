@@ -20,7 +20,7 @@ public final class SetOpenStateRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 value = 8;</code>
@@ -30,7 +30,7 @@ public final class SetOpenStateRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 14;</code>
@@ -40,7 +40,7 @@ public final class SetOpenStateRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 key = 13;</code>
@@ -144,7 +144,7 @@ public final class SetOpenStateRspOuterClass {
     private int value_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 value = 8;</code>
@@ -159,7 +159,7 @@ public final class SetOpenStateRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 14;</code>
@@ -174,7 +174,7 @@ public final class SetOpenStateRspOuterClass {
     private int key_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 key = 13;</code>
@@ -524,7 +524,7 @@ public final class SetOpenStateRspOuterClass {
       private int value_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 value = 8;</code>
@@ -536,7 +536,7 @@ public final class SetOpenStateRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 value = 8;</code>
@@ -551,7 +551,7 @@ public final class SetOpenStateRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 value = 8;</code>
@@ -567,7 +567,7 @@ public final class SetOpenStateRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -579,7 +579,7 @@ public final class SetOpenStateRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -594,7 +594,7 @@ public final class SetOpenStateRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -610,7 +610,7 @@ public final class SetOpenStateRspOuterClass {
       private int key_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 key = 13;</code>
@@ -622,7 +622,7 @@ public final class SetOpenStateRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 key = 13;</code>
@@ -637,7 +637,7 @@ public final class SetOpenStateRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 key = 13;</code>

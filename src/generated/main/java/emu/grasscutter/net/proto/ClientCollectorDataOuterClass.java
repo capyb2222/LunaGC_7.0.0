@@ -20,7 +20,7 @@ public final class ClientCollectorDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 material_id = 4;</code>
@@ -136,7 +136,7 @@ public final class ClientCollectorDataOuterClass {
     private int materialId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 material_id = 4;</code>
@@ -508,7 +508,7 @@ public final class ClientCollectorDataOuterClass {
       private int materialId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 4;</code>
@@ -520,7 +520,7 @@ public final class ClientCollectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 4;</code>
@@ -535,7 +535,7 @@ public final class ClientCollectorDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 4;</code>

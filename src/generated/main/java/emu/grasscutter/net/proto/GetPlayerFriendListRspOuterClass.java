@@ -20,7 +20,7 @@ public final class GetPlayerFriendListRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -29,7 +29,7 @@ public final class GetPlayerFriendListRspOuterClass {
         getAskFriendListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -37,7 +37,7 @@ public final class GetPlayerFriendListRspOuterClass {
     emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief getAskFriendList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -45,7 +45,7 @@ public final class GetPlayerFriendListRspOuterClass {
     int getAskFriendListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -54,7 +54,7 @@ public final class GetPlayerFriendListRspOuterClass {
         getAskFriendListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -64,7 +64,7 @@ public final class GetPlayerFriendListRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -73,7 +73,7 @@ public final class GetPlayerFriendListRspOuterClass {
         getFriendListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -81,7 +81,7 @@ public final class GetPlayerFriendListRspOuterClass {
     emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief getFriendList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -89,7 +89,7 @@ public final class GetPlayerFriendListRspOuterClass {
     int getFriendListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -98,7 +98,7 @@ public final class GetPlayerFriendListRspOuterClass {
         getFriendListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -108,7 +108,7 @@ public final class GetPlayerFriendListRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 15;</code>
@@ -229,7 +229,7 @@ public final class GetPlayerFriendListRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> askFriendList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -240,7 +240,7 @@ public final class GetPlayerFriendListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -252,7 +252,7 @@ public final class GetPlayerFriendListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -263,7 +263,7 @@ public final class GetPlayerFriendListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -274,7 +274,7 @@ public final class GetPlayerFriendListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -289,7 +289,7 @@ public final class GetPlayerFriendListRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> friendList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -300,7 +300,7 @@ public final class GetPlayerFriendListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -312,7 +312,7 @@ public final class GetPlayerFriendListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -323,7 +323,7 @@ public final class GetPlayerFriendListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -334,7 +334,7 @@ public final class GetPlayerFriendListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -349,7 +349,7 @@ public final class GetPlayerFriendListRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 15;</code>
@@ -788,7 +788,7 @@ public final class GetPlayerFriendListRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -802,7 +802,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -816,7 +816,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -830,7 +830,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -851,7 +851,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -869,7 +869,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -889,7 +889,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -910,7 +910,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -928,7 +928,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -946,7 +946,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -965,7 +965,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -982,7 +982,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -999,7 +999,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -1010,7 +1010,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -1024,7 +1024,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -1039,7 +1039,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -1050,7 +1050,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -1062,7 +1062,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief ask_friend_list = 4;</code>
@@ -1100,7 +1100,7 @@ public final class GetPlayerFriendListRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1114,7 +1114,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1128,7 +1128,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1142,7 +1142,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1163,7 +1163,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1181,7 +1181,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1201,7 +1201,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1222,7 +1222,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1240,7 +1240,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1258,7 +1258,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1277,7 +1277,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1294,7 +1294,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1311,7 +1311,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1322,7 +1322,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1336,7 +1336,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1351,7 +1351,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1362,7 +1362,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1374,7 +1374,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>repeated .FriendBrief friend_list = 2;</code>
@@ -1401,7 +1401,7 @@ public final class GetPlayerFriendListRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 15;</code>
@@ -1413,7 +1413,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 15;</code>
@@ -1428,7 +1428,7 @@ public final class GetPlayerFriendListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 15;</code>

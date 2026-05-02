@@ -20,7 +20,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 646;</code>
@@ -29,7 +29,7 @@ public final class GetPlayerTokenReqOuterClass {
     java.lang.String getBirthday();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 646;</code>
@@ -40,7 +40,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_uid = 1;</code>
@@ -49,7 +49,7 @@ public final class GetPlayerTokenReqOuterClass {
     java.lang.String getAccountUid();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_uid = 1;</code>
@@ -72,7 +72,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_token = 10;</code>
@@ -81,7 +81,7 @@ public final class GetPlayerTokenReqOuterClass {
     java.lang.String getAccountToken();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_token = 10;</code>
@@ -92,7 +92,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 3;</code>
@@ -101,7 +101,7 @@ public final class GetPlayerTokenReqOuterClass {
     java.lang.String getOnlineId();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 3;</code>
@@ -124,7 +124,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 5;</code>
@@ -133,7 +133,7 @@ public final class GetPlayerTokenReqOuterClass {
     java.lang.String getPsnId();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 5;</code>
@@ -144,7 +144,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_rand_key = 2015;</code>
@@ -153,7 +153,7 @@ public final class GetPlayerTokenReqOuterClass {
     java.lang.String getClientRandKey();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_rand_key = 2015;</code>
@@ -188,7 +188,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 7;</code>
@@ -197,7 +197,7 @@ public final class GetPlayerTokenReqOuterClass {
     java.lang.String getCountryCode();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 7;</code>
@@ -220,7 +220,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string client_ip_str = 13;</code>
@@ -229,7 +229,7 @@ public final class GetPlayerTokenReqOuterClass {
     java.lang.String getClientIpStr();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string client_ip_str = 13;</code>
@@ -240,7 +240,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 channel_id = 9;</code>
@@ -250,7 +250,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_guest = 11;</code>
@@ -260,7 +260,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 key_id = 929;</code>
@@ -288,7 +288,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 platform_type = 8;</code>
@@ -298,7 +298,7 @@ public final class GetPlayerTokenReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 12;</code>
@@ -544,7 +544,7 @@ public final class GetPlayerTokenReqOuterClass {
     private volatile java.lang.Object birthday_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 646;</code>
@@ -565,7 +565,7 @@ public final class GetPlayerTokenReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 646;</code>
@@ -590,7 +590,7 @@ public final class GetPlayerTokenReqOuterClass {
     private volatile java.lang.Object accountUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_uid = 1;</code>
@@ -611,7 +611,7 @@ public final class GetPlayerTokenReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_uid = 1;</code>
@@ -674,7 +674,7 @@ public final class GetPlayerTokenReqOuterClass {
     private volatile java.lang.Object accountToken_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_token = 10;</code>
@@ -695,7 +695,7 @@ public final class GetPlayerTokenReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_token = 10;</code>
@@ -720,7 +720,7 @@ public final class GetPlayerTokenReqOuterClass {
     private volatile java.lang.Object onlineId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 3;</code>
@@ -741,7 +741,7 @@ public final class GetPlayerTokenReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 3;</code>
@@ -804,7 +804,7 @@ public final class GetPlayerTokenReqOuterClass {
     private volatile java.lang.Object psnId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 5;</code>
@@ -825,7 +825,7 @@ public final class GetPlayerTokenReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 5;</code>
@@ -850,7 +850,7 @@ public final class GetPlayerTokenReqOuterClass {
     private volatile java.lang.Object clientRandKey_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_rand_key = 2015;</code>
@@ -871,7 +871,7 @@ public final class GetPlayerTokenReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_rand_key = 2015;</code>
@@ -972,7 +972,7 @@ public final class GetPlayerTokenReqOuterClass {
     private volatile java.lang.Object countryCode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 7;</code>
@@ -993,7 +993,7 @@ public final class GetPlayerTokenReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 7;</code>
@@ -1056,7 +1056,7 @@ public final class GetPlayerTokenReqOuterClass {
     private volatile java.lang.Object clientIpStr_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string client_ip_str = 13;</code>
@@ -1077,7 +1077,7 @@ public final class GetPlayerTokenReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string client_ip_str = 13;</code>
@@ -1102,7 +1102,7 @@ public final class GetPlayerTokenReqOuterClass {
     private int channelId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 channel_id = 9;</code>
@@ -1117,7 +1117,7 @@ public final class GetPlayerTokenReqOuterClass {
     private boolean isGuest_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_guest = 11;</code>
@@ -1132,7 +1132,7 @@ public final class GetPlayerTokenReqOuterClass {
     private int keyId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 key_id = 929;</code>
@@ -1180,7 +1180,7 @@ public final class GetPlayerTokenReqOuterClass {
     private int platformType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 platform_type = 8;</code>
@@ -1195,7 +1195,7 @@ public final class GetPlayerTokenReqOuterClass {
     private int uid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 12;</code>
@@ -1912,7 +1912,7 @@ public final class GetPlayerTokenReqOuterClass {
       private java.lang.Object birthday_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 646;</code>
@@ -1932,7 +1932,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 646;</code>
@@ -1953,7 +1953,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 646;</code>
@@ -1972,7 +1972,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 646;</code>
@@ -1986,7 +1986,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 646;</code>
@@ -2008,7 +2008,7 @@ public final class GetPlayerTokenReqOuterClass {
       private java.lang.Object accountUid_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 1;</code>
@@ -2028,7 +2028,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 1;</code>
@@ -2049,7 +2049,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 1;</code>
@@ -2068,7 +2068,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 1;</code>
@@ -2082,7 +2082,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 1;</code>
@@ -2180,7 +2180,7 @@ public final class GetPlayerTokenReqOuterClass {
       private java.lang.Object accountToken_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_token = 10;</code>
@@ -2200,7 +2200,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_token = 10;</code>
@@ -2221,7 +2221,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_token = 10;</code>
@@ -2240,7 +2240,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_token = 10;</code>
@@ -2254,7 +2254,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_token = 10;</code>
@@ -2276,7 +2276,7 @@ public final class GetPlayerTokenReqOuterClass {
       private java.lang.Object onlineId_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 3;</code>
@@ -2296,7 +2296,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 3;</code>
@@ -2317,7 +2317,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 3;</code>
@@ -2336,7 +2336,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 3;</code>
@@ -2350,7 +2350,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 3;</code>
@@ -2448,7 +2448,7 @@ public final class GetPlayerTokenReqOuterClass {
       private java.lang.Object psnId_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 5;</code>
@@ -2468,7 +2468,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 5;</code>
@@ -2489,7 +2489,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 5;</code>
@@ -2508,7 +2508,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 5;</code>
@@ -2522,7 +2522,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 5;</code>
@@ -2544,7 +2544,7 @@ public final class GetPlayerTokenReqOuterClass {
       private java.lang.Object clientRandKey_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_rand_key = 2015;</code>
@@ -2564,7 +2564,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_rand_key = 2015;</code>
@@ -2585,7 +2585,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_rand_key = 2015;</code>
@@ -2604,7 +2604,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_rand_key = 2015;</code>
@@ -2618,7 +2618,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_rand_key = 2015;</code>
@@ -2792,7 +2792,7 @@ public final class GetPlayerTokenReqOuterClass {
       private java.lang.Object countryCode_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 7;</code>
@@ -2812,7 +2812,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 7;</code>
@@ -2833,7 +2833,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 7;</code>
@@ -2852,7 +2852,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 7;</code>
@@ -2866,7 +2866,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 7;</code>
@@ -2964,7 +2964,7 @@ public final class GetPlayerTokenReqOuterClass {
       private java.lang.Object clientIpStr_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string client_ip_str = 13;</code>
@@ -2984,7 +2984,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string client_ip_str = 13;</code>
@@ -3005,7 +3005,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string client_ip_str = 13;</code>
@@ -3024,7 +3024,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string client_ip_str = 13;</code>
@@ -3038,7 +3038,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string client_ip_str = 13;</code>
@@ -3060,7 +3060,7 @@ public final class GetPlayerTokenReqOuterClass {
       private int channelId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 channel_id = 9;</code>
@@ -3072,7 +3072,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 channel_id = 9;</code>
@@ -3087,7 +3087,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 channel_id = 9;</code>
@@ -3103,7 +3103,7 @@ public final class GetPlayerTokenReqOuterClass {
       private boolean isGuest_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_guest = 11;</code>
@@ -3115,7 +3115,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_guest = 11;</code>
@@ -3130,7 +3130,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_guest = 11;</code>
@@ -3146,7 +3146,7 @@ public final class GetPlayerTokenReqOuterClass {
       private int keyId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 key_id = 929;</code>
@@ -3158,7 +3158,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 key_id = 929;</code>
@@ -3173,7 +3173,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 key_id = 929;</code>
@@ -3282,7 +3282,7 @@ public final class GetPlayerTokenReqOuterClass {
       private int platformType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 platform_type = 8;</code>
@@ -3294,7 +3294,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 platform_type = 8;</code>
@@ -3309,7 +3309,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 platform_type = 8;</code>
@@ -3325,7 +3325,7 @@ public final class GetPlayerTokenReqOuterClass {
       private int uid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 12;</code>
@@ -3337,7 +3337,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 12;</code>
@@ -3352,7 +3352,7 @@ public final class GetPlayerTokenReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 12;</code>

@@ -20,7 +20,7 @@ public final class ChangeTeamNameReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string team_name = 3;</code>
@@ -29,7 +29,7 @@ public final class ChangeTeamNameReqOuterClass {
     java.lang.String getTeamName();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string team_name = 3;</code>
@@ -40,7 +40,7 @@ public final class ChangeTeamNameReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 team_id = 7;</code>
@@ -145,7 +145,7 @@ public final class ChangeTeamNameReqOuterClass {
     private volatile java.lang.Object teamName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string team_name = 3;</code>
@@ -166,7 +166,7 @@ public final class ChangeTeamNameReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string team_name = 3;</code>
@@ -191,7 +191,7 @@ public final class ChangeTeamNameReqOuterClass {
     private int teamId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 team_id = 7;</code>
@@ -528,7 +528,7 @@ public final class ChangeTeamNameReqOuterClass {
       private java.lang.Object teamName_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string team_name = 3;</code>
@@ -548,7 +548,7 @@ public final class ChangeTeamNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string team_name = 3;</code>
@@ -569,7 +569,7 @@ public final class ChangeTeamNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string team_name = 3;</code>
@@ -588,7 +588,7 @@ public final class ChangeTeamNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string team_name = 3;</code>
@@ -602,7 +602,7 @@ public final class ChangeTeamNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string team_name = 3;</code>
@@ -624,7 +624,7 @@ public final class ChangeTeamNameReqOuterClass {
       private int teamId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 team_id = 7;</code>
@@ -636,7 +636,7 @@ public final class ChangeTeamNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 team_id = 7;</code>
@@ -651,7 +651,7 @@ public final class ChangeTeamNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 team_id = 7;</code>

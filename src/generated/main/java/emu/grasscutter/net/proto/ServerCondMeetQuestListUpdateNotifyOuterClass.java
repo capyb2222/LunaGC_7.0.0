@@ -20,7 +20,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -29,7 +29,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     java.util.List<java.lang.Integer> getDelQuestIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -38,7 +38,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     int getDelQuestIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -49,7 +49,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -58,7 +58,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     java.util.List<java.lang.Integer> getAddQuestIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -67,7 +67,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     int getAddQuestIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -212,7 +212,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     private com.google.protobuf.Internal.IntList delQuestIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -225,7 +225,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -236,7 +236,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -252,7 +252,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     private com.google.protobuf.Internal.IntList addQuestIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -265,7 +265,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -276,7 +276,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -677,7 +677,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -690,7 +690,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -701,7 +701,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -713,7 +713,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -730,7 +730,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -745,7 +745,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -762,7 +762,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 del_quest_id_list = 15;</code>
@@ -784,7 +784,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -797,7 +797,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -808,7 +808,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -820,7 +820,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -837,7 +837,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -852,7 +852,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 add_quest_id_list = 1;</code>
@@ -869,7 +869,7 @@ public final class ServerCondMeetQuestListUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>repeated uint32 add_quest_id_list = 1;</code>

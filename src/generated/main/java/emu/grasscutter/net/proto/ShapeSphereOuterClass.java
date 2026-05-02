@@ -20,7 +20,7 @@ public final class ShapeSphereOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -29,7 +29,7 @@ public final class ShapeSphereOuterClass {
     boolean hasCenter();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -38,7 +38,7 @@ public final class ShapeSphereOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -47,7 +47,7 @@ public final class ShapeSphereOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float radius = 2;</code>
@@ -154,7 +154,7 @@ public final class ShapeSphereOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector center_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -166,7 +166,7 @@ public final class ShapeSphereOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -178,7 +178,7 @@ public final class ShapeSphereOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -192,7 +192,7 @@ public final class ShapeSphereOuterClass {
     private float radius_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float radius = 2;</code>
@@ -542,7 +542,7 @@ public final class ShapeSphereOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> centerBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -553,7 +553,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -568,7 +568,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -588,7 +588,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -606,7 +606,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -628,7 +628,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -646,7 +646,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -658,7 +658,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -673,7 +673,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -695,7 +695,7 @@ public final class ShapeSphereOuterClass {
       private float radius_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float radius = 2;</code>
@@ -707,7 +707,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float radius = 2;</code>
@@ -722,7 +722,7 @@ public final class ShapeSphereOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float radius = 2;</code>

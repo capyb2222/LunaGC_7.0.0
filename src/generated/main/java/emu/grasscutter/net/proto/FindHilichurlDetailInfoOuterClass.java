@@ -50,7 +50,7 @@ public final class FindHilichurlDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 9;</code>
@@ -72,7 +72,7 @@ public final class FindHilichurlDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 13;</code>
@@ -251,7 +251,7 @@ public final class FindHilichurlDetailInfoOuterClass {
     private boolean isContentClosed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 9;</code>
@@ -288,7 +288,7 @@ public final class FindHilichurlDetailInfoOuterClass {
     private int contentCloseTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 13;</code>
@@ -1002,7 +1002,7 @@ public final class FindHilichurlDetailInfoOuterClass {
       private boolean isContentClosed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 9;</code>
@@ -1014,7 +1014,7 @@ public final class FindHilichurlDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 9;</code>
@@ -1029,7 +1029,7 @@ public final class FindHilichurlDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 9;</code>
@@ -1107,7 +1107,7 @@ public final class FindHilichurlDetailInfoOuterClass {
       private int contentCloseTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 13;</code>
@@ -1119,7 +1119,7 @@ public final class FindHilichurlDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 13;</code>
@@ -1134,7 +1134,7 @@ public final class FindHilichurlDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 13;</code>

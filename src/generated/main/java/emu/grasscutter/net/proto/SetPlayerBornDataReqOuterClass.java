@@ -20,7 +20,7 @@ public final class SetPlayerBornDataReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string nick_name = 7;</code>
@@ -29,7 +29,7 @@ public final class SetPlayerBornDataReqOuterClass {
     java.lang.String getNickName();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string nick_name = 7;</code>
@@ -40,7 +40,7 @@ public final class SetPlayerBornDataReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 avatar_id = 13;</code>
@@ -145,7 +145,7 @@ public final class SetPlayerBornDataReqOuterClass {
     private volatile java.lang.Object nickName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string nick_name = 7;</code>
@@ -166,7 +166,7 @@ public final class SetPlayerBornDataReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string nick_name = 7;</code>
@@ -191,7 +191,7 @@ public final class SetPlayerBornDataReqOuterClass {
     private int avatarId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 avatar_id = 13;</code>
@@ -528,7 +528,7 @@ public final class SetPlayerBornDataReqOuterClass {
       private java.lang.Object nickName_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 7;</code>
@@ -548,7 +548,7 @@ public final class SetPlayerBornDataReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 7;</code>
@@ -569,7 +569,7 @@ public final class SetPlayerBornDataReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 7;</code>
@@ -588,7 +588,7 @@ public final class SetPlayerBornDataReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 7;</code>
@@ -602,7 +602,7 @@ public final class SetPlayerBornDataReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string nick_name = 7;</code>
@@ -624,7 +624,7 @@ public final class SetPlayerBornDataReqOuterClass {
       private int avatarId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 avatar_id = 13;</code>
@@ -636,7 +636,7 @@ public final class SetPlayerBornDataReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 avatar_id = 13;</code>
@@ -651,7 +651,7 @@ public final class SetPlayerBornDataReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 avatar_id = 13;</code>

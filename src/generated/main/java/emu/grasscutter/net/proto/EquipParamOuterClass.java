@@ -20,7 +20,7 @@ public final class EquipParamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 1;</code>
@@ -30,7 +30,7 @@ public final class EquipParamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_num = 2;</code>
@@ -40,7 +40,7 @@ public final class EquipParamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_level = 3;</code>
@@ -50,7 +50,7 @@ public final class EquipParamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 promote_level = 4;</code>
@@ -159,7 +159,7 @@ public final class EquipParamOuterClass {
     private int itemId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 1;</code>
@@ -174,7 +174,7 @@ public final class EquipParamOuterClass {
     private int itemNum_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_num = 2;</code>
@@ -189,7 +189,7 @@ public final class EquipParamOuterClass {
     private int itemLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_level = 3;</code>
@@ -204,7 +204,7 @@ public final class EquipParamOuterClass {
     private int promoteLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 promote_level = 4;</code>
@@ -571,7 +571,7 @@ public final class EquipParamOuterClass {
       private int itemId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 1;</code>
@@ -583,7 +583,7 @@ public final class EquipParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 1;</code>
@@ -598,7 +598,7 @@ public final class EquipParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 1;</code>
@@ -614,7 +614,7 @@ public final class EquipParamOuterClass {
       private int itemNum_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_num = 2;</code>
@@ -626,7 +626,7 @@ public final class EquipParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_num = 2;</code>
@@ -641,7 +641,7 @@ public final class EquipParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_num = 2;</code>
@@ -657,7 +657,7 @@ public final class EquipParamOuterClass {
       private int itemLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_level = 3;</code>
@@ -669,7 +669,7 @@ public final class EquipParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_level = 3;</code>
@@ -684,7 +684,7 @@ public final class EquipParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_level = 3;</code>
@@ -700,7 +700,7 @@ public final class EquipParamOuterClass {
       private int promoteLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 4;</code>
@@ -712,7 +712,7 @@ public final class EquipParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 4;</code>
@@ -727,7 +727,7 @@ public final class EquipParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 4;</code>

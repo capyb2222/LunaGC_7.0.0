@@ -20,7 +20,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -29,7 +29,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
         getInvokesList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -37,7 +37,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvokes(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -45,7 +45,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     int getInvokesCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -54,7 +54,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
         getInvokesOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -64,7 +64,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 5;</code>
@@ -176,7 +176,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> invokes_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -187,7 +187,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -199,7 +199,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -210,7 +210,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -221,7 +221,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -236,7 +236,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 5;</code>
@@ -624,7 +624,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -638,7 +638,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -652,7 +652,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -666,7 +666,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -687,7 +687,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -705,7 +705,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -725,7 +725,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -746,7 +746,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -764,7 +764,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -782,7 +782,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -801,7 +801,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -818,7 +818,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -835,7 +835,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -846,7 +846,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -860,7 +860,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -875,7 +875,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -886,7 +886,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -898,7 +898,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 15;</code>
@@ -925,7 +925,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 5;</code>
@@ -937,7 +937,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 5;</code>
@@ -952,7 +952,7 @@ public final class ClientAbilityInitFinishNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 5;</code>

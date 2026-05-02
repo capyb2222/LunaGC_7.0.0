@@ -20,7 +20,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -29,7 +29,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
     java.util.List<java.lang.Integer> getShowAvatarIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -38,7 +38,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
     int getShowAvatarIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -59,7 +59,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_show_avatar = 4;</code>
@@ -188,7 +188,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
     private com.google.protobuf.Internal.IntList showAvatarIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -201,7 +201,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -212,7 +212,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -243,7 +243,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
     private boolean isShowAvatar_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_show_avatar = 4;</code>
@@ -635,7 +635,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -648,7 +648,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -659,7 +659,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -671,7 +671,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -688,7 +688,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -703,7 +703,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -720,7 +720,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 1;</code>
@@ -779,7 +779,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       private boolean isShowAvatar_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_show_avatar = 4;</code>
@@ -791,7 +791,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_show_avatar = 4;</code>
@@ -806,7 +806,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_show_avatar = 4;</code>

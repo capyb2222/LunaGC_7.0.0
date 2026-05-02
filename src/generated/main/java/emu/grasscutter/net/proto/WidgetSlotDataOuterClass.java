@@ -20,7 +20,7 @@ public final class WidgetSlotDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotTag tag = 12;</code>
@@ -29,7 +29,7 @@ public final class WidgetSlotDataOuterClass {
     int getTagValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotTag tag = 12;</code>
@@ -39,7 +39,7 @@ public final class WidgetSlotDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 material_id = 11;</code>
@@ -49,7 +49,7 @@ public final class WidgetSlotDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cd_over_time = 9;</code>
@@ -59,7 +59,7 @@ public final class WidgetSlotDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_active = 15;</code>
@@ -170,7 +170,7 @@ public final class WidgetSlotDataOuterClass {
     private int tag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotTag tag = 12;</code>
@@ -181,7 +181,7 @@ public final class WidgetSlotDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotTag tag = 12;</code>
@@ -197,7 +197,7 @@ public final class WidgetSlotDataOuterClass {
     private int materialId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 material_id = 11;</code>
@@ -212,7 +212,7 @@ public final class WidgetSlotDataOuterClass {
     private int cdOverTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cd_over_time = 9;</code>
@@ -227,7 +227,7 @@ public final class WidgetSlotDataOuterClass {
     private boolean isActive_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_active = 15;</code>
@@ -594,7 +594,7 @@ public final class WidgetSlotDataOuterClass {
       private int tag_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotTag tag = 12;</code>
@@ -605,7 +605,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotTag tag = 12;</code>
@@ -620,7 +620,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotTag tag = 12;</code>
@@ -634,7 +634,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotTag tag = 12;</code>
@@ -652,7 +652,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotTag tag = 12;</code>
@@ -668,7 +668,7 @@ public final class WidgetSlotDataOuterClass {
       private int materialId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 11;</code>
@@ -680,7 +680,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 11;</code>
@@ -695,7 +695,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 11;</code>
@@ -711,7 +711,7 @@ public final class WidgetSlotDataOuterClass {
       private int cdOverTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cd_over_time = 9;</code>
@@ -723,7 +723,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cd_over_time = 9;</code>
@@ -738,7 +738,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cd_over_time = 9;</code>
@@ -754,7 +754,7 @@ public final class WidgetSlotDataOuterClass {
       private boolean isActive_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_active = 15;</code>
@@ -766,7 +766,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_active = 15;</code>
@@ -781,7 +781,7 @@ public final class WidgetSlotDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_active = 15;</code>

@@ -20,7 +20,7 @@ public final class SceneWeaponInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -29,7 +29,7 @@ public final class SceneWeaponInfoOuterClass {
     boolean hasRendererChangedInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -38,7 +38,7 @@ public final class SceneWeaponInfoOuterClass {
     emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo getRendererChangedInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -47,7 +47,7 @@ public final class SceneWeaponInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -56,7 +56,7 @@ public final class SceneWeaponInfoOuterClass {
     boolean hasAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -65,7 +65,7 @@ public final class SceneWeaponInfoOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -74,7 +74,7 @@ public final class SceneWeaponInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -82,7 +82,7 @@ public final class SceneWeaponInfoOuterClass {
     int getAffixMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -97,7 +97,7 @@ public final class SceneWeaponInfoOuterClass {
     getAffixMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -106,7 +106,7 @@ public final class SceneWeaponInfoOuterClass {
     getAffixMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -117,7 +117,7 @@ public final class SceneWeaponInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -128,7 +128,7 @@ public final class SceneWeaponInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 3;</code>
@@ -144,7 +144,7 @@ public final class SceneWeaponInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 4;</code>
@@ -154,7 +154,7 @@ public final class SceneWeaponInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 2;</code>
@@ -164,7 +164,7 @@ public final class SceneWeaponInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -174,7 +174,7 @@ public final class SceneWeaponInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 5;</code>
@@ -184,7 +184,7 @@ public final class SceneWeaponInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 promote_level = 6;</code>
@@ -360,7 +360,7 @@ public final class SceneWeaponInfoOuterClass {
     private emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo rendererChangedInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -372,7 +372,7 @@ public final class SceneWeaponInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -384,7 +384,7 @@ public final class SceneWeaponInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -398,7 +398,7 @@ public final class SceneWeaponInfoOuterClass {
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo abilityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -410,7 +410,7 @@ public final class SceneWeaponInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -422,7 +422,7 @@ public final class SceneWeaponInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -460,7 +460,7 @@ public final class SceneWeaponInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -482,7 +482,7 @@ public final class SceneWeaponInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -494,7 +494,7 @@ public final class SceneWeaponInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -511,7 +511,7 @@ public final class SceneWeaponInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -533,7 +533,7 @@ public final class SceneWeaponInfoOuterClass {
     private int itemId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 item_id = 3;</code>
@@ -559,7 +559,7 @@ public final class SceneWeaponInfoOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 4;</code>
@@ -574,7 +574,7 @@ public final class SceneWeaponInfoOuterClass {
     private int gadgetId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 2;</code>
@@ -589,7 +589,7 @@ public final class SceneWeaponInfoOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -604,7 +604,7 @@ public final class SceneWeaponInfoOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 5;</code>
@@ -619,7 +619,7 @@ public final class SceneWeaponInfoOuterClass {
     private int promoteLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 promote_level = 6;</code>
@@ -1152,7 +1152,7 @@ public final class SceneWeaponInfoOuterClass {
           emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.Builder, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfoOrBuilder> rendererChangedInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -1163,7 +1163,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -1178,7 +1178,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -1198,7 +1198,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -1216,7 +1216,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -1238,7 +1238,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -1256,7 +1256,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -1268,7 +1268,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -1283,7 +1283,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 9;</code>
@@ -1307,7 +1307,7 @@ public final class SceneWeaponInfoOuterClass {
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> abilityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -1318,7 +1318,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -1333,7 +1333,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -1353,7 +1353,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -1371,7 +1371,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -1393,7 +1393,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -1411,7 +1411,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -1423,7 +1423,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -1438,7 +1438,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 7;</code>
@@ -1485,7 +1485,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -1507,7 +1507,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -1519,7 +1519,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -1536,7 +1536,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -1561,7 +1561,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -1584,7 +1584,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -1600,7 +1600,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; affix_map = 8;</code>
@@ -1616,7 +1616,7 @@ public final class SceneWeaponInfoOuterClass {
       private int itemId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 3;</code>
@@ -1628,7 +1628,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 3;</code>
@@ -1643,7 +1643,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 item_id = 3;</code>
@@ -1690,7 +1690,7 @@ public final class SceneWeaponInfoOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 4;</code>
@@ -1702,7 +1702,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 4;</code>
@@ -1717,7 +1717,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 4;</code>
@@ -1733,7 +1733,7 @@ public final class SceneWeaponInfoOuterClass {
       private int gadgetId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 2;</code>
@@ -1745,7 +1745,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 2;</code>
@@ -1760,7 +1760,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 2;</code>
@@ -1776,7 +1776,7 @@ public final class SceneWeaponInfoOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -1788,7 +1788,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -1803,7 +1803,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -1819,7 +1819,7 @@ public final class SceneWeaponInfoOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 5;</code>
@@ -1831,7 +1831,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 5;</code>
@@ -1846,7 +1846,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 5;</code>
@@ -1862,7 +1862,7 @@ public final class SceneWeaponInfoOuterClass {
       private int promoteLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 6;</code>
@@ -1874,7 +1874,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 6;</code>
@@ -1889,7 +1889,7 @@ public final class SceneWeaponInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 6;</code>

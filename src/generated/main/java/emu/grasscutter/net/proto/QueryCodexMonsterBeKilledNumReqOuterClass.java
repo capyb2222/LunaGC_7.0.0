@@ -20,7 +20,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 15;</code>
@@ -29,7 +29,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
     java.util.List<java.lang.Integer> getCodexIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 15;</code>
@@ -38,7 +38,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
     int getCodexIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 15;</code>
@@ -158,7 +158,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
     private com.google.protobuf.Internal.IntList codexIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 15;</code>
@@ -171,7 +171,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 15;</code>
@@ -182,7 +182,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 15;</code>
@@ -539,7 +539,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 15;</code>
@@ -552,7 +552,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 15;</code>
@@ -563,7 +563,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 15;</code>
@@ -575,7 +575,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 15;</code>
@@ -592,7 +592,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 15;</code>
@@ -607,7 +607,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 15;</code>
@@ -624,7 +624,7 @@ public final class QueryCodexMonsterBeKilledNumReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 15;</code>

@@ -20,7 +20,7 @@ public final class AvatarUpgradeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -29,7 +29,7 @@ public final class AvatarUpgradeReqOuterClass {
         getItemParamListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -37,7 +37,7 @@ public final class AvatarUpgradeReqOuterClass {
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -45,7 +45,7 @@ public final class AvatarUpgradeReqOuterClass {
     int getItemParamListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -54,7 +54,7 @@ public final class AvatarUpgradeReqOuterClass {
         getItemParamListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -64,7 +64,7 @@ public final class AvatarUpgradeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 5;</code>
@@ -176,7 +176,7 @@ public final class AvatarUpgradeReqOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -187,7 +187,7 @@ public final class AvatarUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -199,7 +199,7 @@ public final class AvatarUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -210,7 +210,7 @@ public final class AvatarUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -221,7 +221,7 @@ public final class AvatarUpgradeReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -236,7 +236,7 @@ public final class AvatarUpgradeReqOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 5;</code>
@@ -625,7 +625,7 @@ public final class AvatarUpgradeReqOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -639,7 +639,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -653,7 +653,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -667,7 +667,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -688,7 +688,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -706,7 +706,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -726,7 +726,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -747,7 +747,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -765,7 +765,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -783,7 +783,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -802,7 +802,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -819,7 +819,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -836,7 +836,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -847,7 +847,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -861,7 +861,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -876,7 +876,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -887,7 +887,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -899,7 +899,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 12;</code>
@@ -926,7 +926,7 @@ public final class AvatarUpgradeReqOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 5;</code>
@@ -938,7 +938,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 5;</code>
@@ -953,7 +953,7 @@ public final class AvatarUpgradeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 5;</code>

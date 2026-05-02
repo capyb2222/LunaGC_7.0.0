@@ -20,7 +20,7 @@ public final class ProudSkillChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -29,7 +29,7 @@ public final class ProudSkillChangeNotifyOuterClass {
     java.util.List<java.lang.Integer> getProudSkillListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -38,7 +38,7 @@ public final class ProudSkillChangeNotifyOuterClass {
     int getProudSkillListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -49,7 +49,7 @@ public final class ProudSkillChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 15;</code>
@@ -59,7 +59,7 @@ public final class ProudSkillChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 skill_depot_id = 12;</code>
@@ -69,7 +69,7 @@ public final class ProudSkillChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 7;</code>
@@ -203,7 +203,7 @@ public final class ProudSkillChangeNotifyOuterClass {
     private com.google.protobuf.Internal.IntList proudSkillList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -216,7 +216,7 @@ public final class ProudSkillChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -227,7 +227,7 @@ public final class ProudSkillChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -243,7 +243,7 @@ public final class ProudSkillChangeNotifyOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 15;</code>
@@ -258,7 +258,7 @@ public final class ProudSkillChangeNotifyOuterClass {
     private int skillDepotId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 skill_depot_id = 12;</code>
@@ -273,7 +273,7 @@ public final class ProudSkillChangeNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 7;</code>
@@ -681,7 +681,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -694,7 +694,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -705,7 +705,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -717,7 +717,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -734,7 +734,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -749,7 +749,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -766,7 +766,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 proud_skill_list = 4;</code>
@@ -782,7 +782,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 15;</code>
@@ -794,7 +794,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 15;</code>
@@ -809,7 +809,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 15;</code>
@@ -825,7 +825,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       private int skillDepotId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 skill_depot_id = 12;</code>
@@ -837,7 +837,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 skill_depot_id = 12;</code>
@@ -852,7 +852,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 skill_depot_id = 12;</code>
@@ -868,7 +868,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 7;</code>
@@ -880,7 +880,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 7;</code>
@@ -895,7 +895,7 @@ public final class ProudSkillChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 7;</code>

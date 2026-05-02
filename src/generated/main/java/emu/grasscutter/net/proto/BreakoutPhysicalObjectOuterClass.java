@@ -61,7 +61,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -70,7 +70,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     boolean hasMoveDir();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -79,7 +79,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 getMoveDir();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -88,7 +88,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 pos = 4;</code>
@@ -97,7 +97,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     boolean hasPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 pos = 4;</code>
@@ -106,7 +106,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 getPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 pos = 4;</code>
@@ -115,7 +115,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -124,7 +124,7 @@ public final class BreakoutPhysicalObjectOuterClass {
         getModifierListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -132,7 +132,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier getModifierList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -140,7 +140,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     int getModifierListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -149,7 +149,7 @@ public final class BreakoutPhysicalObjectOuterClass {
         getModifierListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -159,7 +159,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -168,7 +168,7 @@ public final class BreakoutPhysicalObjectOuterClass {
         getInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -176,7 +176,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo getInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -184,7 +184,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     int getInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -193,7 +193,7 @@ public final class BreakoutPhysicalObjectOuterClass {
         getInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -203,7 +203,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 last_hit_peer_id = 14;</code>
@@ -213,7 +213,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 element_reaction_buff = 10;</code>
@@ -223,7 +223,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 speed = 6;</code>
@@ -233,7 +233,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 speed_increase_count = 15;</code>
@@ -243,7 +243,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_active = 3;</code>
@@ -253,7 +253,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 offset = 16;</code>
@@ -263,7 +263,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 state = 8;</code>
@@ -273,7 +273,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 init_peer_id = 7;</code>
@@ -283,7 +283,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 element_type = 9;</code>
@@ -299,7 +299,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 1;</code>
@@ -309,7 +309,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 index = 2;</code>
@@ -617,7 +617,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 moveDir_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -629,7 +629,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -641,7 +641,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -655,7 +655,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 pos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 pos = 4;</code>
@@ -667,7 +667,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 pos = 4;</code>
@@ -679,7 +679,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BreakoutVector2 pos = 4;</code>
@@ -693,7 +693,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier> modifierList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -704,7 +704,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -716,7 +716,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -727,7 +727,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -738,7 +738,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -753,7 +753,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private java.util.List<emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo> infoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -764,7 +764,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -776,7 +776,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -787,7 +787,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -798,7 +798,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -813,7 +813,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int lastHitPeerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 last_hit_peer_id = 14;</code>
@@ -828,7 +828,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int elementReactionBuff_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 element_reaction_buff = 10;</code>
@@ -843,7 +843,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int speed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 speed = 6;</code>
@@ -858,7 +858,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int speedIncreaseCount_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 speed_increase_count = 15;</code>
@@ -873,7 +873,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private boolean isActive_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_active = 3;</code>
@@ -888,7 +888,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int offset_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 offset = 16;</code>
@@ -903,7 +903,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int state_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 state = 8;</code>
@@ -918,7 +918,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int initPeerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 init_peer_id = 7;</code>
@@ -933,7 +933,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int elementType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 element_type = 9;</code>
@@ -959,7 +959,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int id_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 1;</code>
@@ -974,7 +974,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     private int index_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 index = 2;</code>
@@ -2071,7 +2071,7 @@ public final class BreakoutPhysicalObjectOuterClass {
           emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder> moveDirBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -2082,7 +2082,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -2097,7 +2097,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -2117,7 +2117,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -2135,7 +2135,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -2157,7 +2157,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -2175,7 +2175,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -2187,7 +2187,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -2202,7 +2202,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
@@ -2226,7 +2226,7 @@ public final class BreakoutPhysicalObjectOuterClass {
           emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder> posBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 pos = 4;</code>
@@ -2237,7 +2237,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 pos = 4;</code>
@@ -2252,7 +2252,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 pos = 4;</code>
@@ -2272,7 +2272,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 pos = 4;</code>
@@ -2290,7 +2290,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 pos = 4;</code>
@@ -2312,7 +2312,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 pos = 4;</code>
@@ -2330,7 +2330,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 pos = 4;</code>
@@ -2342,7 +2342,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 pos = 4;</code>
@@ -2357,7 +2357,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BreakoutVector2 pos = 4;</code>
@@ -2390,7 +2390,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2404,7 +2404,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2418,7 +2418,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2432,7 +2432,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2453,7 +2453,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2471,7 +2471,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2491,7 +2491,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2512,7 +2512,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2530,7 +2530,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2548,7 +2548,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2567,7 +2567,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2584,7 +2584,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2601,7 +2601,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2612,7 +2612,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2626,7 +2626,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2641,7 +2641,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2652,7 +2652,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2664,7 +2664,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
@@ -2702,7 +2702,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2716,7 +2716,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2730,7 +2730,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2744,7 +2744,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2765,7 +2765,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2783,7 +2783,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2803,7 +2803,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2824,7 +2824,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2842,7 +2842,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2860,7 +2860,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2879,7 +2879,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2896,7 +2896,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2913,7 +2913,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2924,7 +2924,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2938,7 +2938,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2953,7 +2953,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2964,7 +2964,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -2976,7 +2976,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
@@ -3003,7 +3003,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int lastHitPeerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 last_hit_peer_id = 14;</code>
@@ -3015,7 +3015,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 last_hit_peer_id = 14;</code>
@@ -3030,7 +3030,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 last_hit_peer_id = 14;</code>
@@ -3046,7 +3046,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int elementReactionBuff_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 element_reaction_buff = 10;</code>
@@ -3058,7 +3058,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 element_reaction_buff = 10;</code>
@@ -3073,7 +3073,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 element_reaction_buff = 10;</code>
@@ -3089,7 +3089,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int speed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 speed = 6;</code>
@@ -3101,7 +3101,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 speed = 6;</code>
@@ -3116,7 +3116,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 speed = 6;</code>
@@ -3132,7 +3132,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int speedIncreaseCount_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 speed_increase_count = 15;</code>
@@ -3144,7 +3144,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 speed_increase_count = 15;</code>
@@ -3159,7 +3159,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 speed_increase_count = 15;</code>
@@ -3175,7 +3175,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private boolean isActive_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_active = 3;</code>
@@ -3187,7 +3187,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_active = 3;</code>
@@ -3202,7 +3202,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_active = 3;</code>
@@ -3218,7 +3218,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int offset_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 offset = 16;</code>
@@ -3230,7 +3230,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 offset = 16;</code>
@@ -3245,7 +3245,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 offset = 16;</code>
@@ -3261,7 +3261,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int state_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 state = 8;</code>
@@ -3273,7 +3273,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 state = 8;</code>
@@ -3288,7 +3288,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 state = 8;</code>
@@ -3304,7 +3304,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int initPeerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_peer_id = 7;</code>
@@ -3316,7 +3316,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_peer_id = 7;</code>
@@ -3331,7 +3331,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_peer_id = 7;</code>
@@ -3347,7 +3347,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int elementType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 element_type = 9;</code>
@@ -3359,7 +3359,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 element_type = 9;</code>
@@ -3374,7 +3374,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 element_type = 9;</code>
@@ -3421,7 +3421,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int id_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 1;</code>
@@ -3433,7 +3433,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 1;</code>
@@ -3448,7 +3448,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 1;</code>
@@ -3464,7 +3464,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       private int index_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 index = 2;</code>
@@ -3476,7 +3476,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 index = 2;</code>
@@ -3491,7 +3491,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 index = 2;</code>

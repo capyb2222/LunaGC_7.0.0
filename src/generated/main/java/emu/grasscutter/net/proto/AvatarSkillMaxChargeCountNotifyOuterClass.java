@@ -20,7 +20,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 skill_id = 15;</code>
@@ -30,7 +30,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 max_charge_count = 14;</code>
@@ -40,7 +40,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 4;</code>
@@ -148,7 +148,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
     private int skillId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 skill_id = 15;</code>
@@ -163,7 +163,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
     private int maxChargeCount_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 max_charge_count = 14;</code>
@@ -178,7 +178,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 4;</code>
@@ -533,7 +533,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       private int skillId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 skill_id = 15;</code>
@@ -545,7 +545,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 skill_id = 15;</code>
@@ -560,7 +560,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 skill_id = 15;</code>
@@ -576,7 +576,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       private int maxChargeCount_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 max_charge_count = 14;</code>
@@ -588,7 +588,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 max_charge_count = 14;</code>
@@ -603,7 +603,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 max_charge_count = 14;</code>
@@ -619,7 +619,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -631,7 +631,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -646,7 +646,7 @@ public final class AvatarSkillMaxChargeCountNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>

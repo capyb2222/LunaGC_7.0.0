@@ -88,7 +88,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.MaterialDeleteReturnType type = 15;</code>
@@ -97,7 +97,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
     int getTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.MaterialDeleteReturnType type = 15;</code>
@@ -400,7 +400,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
     private int type_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.MaterialDeleteReturnType type = 15;</code>
@@ -411,7 +411,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.MaterialDeleteReturnType type = 15;</code>
@@ -1069,7 +1069,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       private int type_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.MaterialDeleteReturnType type = 15;</code>
@@ -1080,7 +1080,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.MaterialDeleteReturnType type = 15;</code>
@@ -1095,7 +1095,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.MaterialDeleteReturnType type = 15;</code>
@@ -1109,7 +1109,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.MaterialDeleteReturnType type = 15;</code>
@@ -1127,7 +1127,7 @@ public final class MaterialDeleteReturnNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.MaterialDeleteReturnType type = 15;</code>

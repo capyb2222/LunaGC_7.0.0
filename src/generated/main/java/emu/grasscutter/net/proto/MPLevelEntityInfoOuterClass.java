@@ -20,7 +20,7 @@ public final class MPLevelEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -29,7 +29,7 @@ public final class MPLevelEntityInfoOuterClass {
     boolean hasAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -38,7 +38,7 @@ public final class MPLevelEntityInfoOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -47,7 +47,7 @@ public final class MPLevelEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 authority_peer_id = 14;</code>
@@ -57,7 +57,7 @@ public final class MPLevelEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 7;</code>
@@ -169,7 +169,7 @@ public final class MPLevelEntityInfoOuterClass {
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo abilityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -181,7 +181,7 @@ public final class MPLevelEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -193,7 +193,7 @@ public final class MPLevelEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -207,7 +207,7 @@ public final class MPLevelEntityInfoOuterClass {
     private int authorityPeerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 authority_peer_id = 14;</code>
@@ -222,7 +222,7 @@ public final class MPLevelEntityInfoOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 7;</code>
@@ -587,7 +587,7 @@ public final class MPLevelEntityInfoOuterClass {
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> abilityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -598,7 +598,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -613,7 +613,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -633,7 +633,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -651,7 +651,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -673,7 +673,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -691,7 +691,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -703,7 +703,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -718,7 +718,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -740,7 +740,7 @@ public final class MPLevelEntityInfoOuterClass {
       private int authorityPeerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 14;</code>
@@ -752,7 +752,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 14;</code>
@@ -767,7 +767,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 14;</code>
@@ -783,7 +783,7 @@ public final class MPLevelEntityInfoOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 7;</code>
@@ -795,7 +795,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 7;</code>
@@ -810,7 +810,7 @@ public final class MPLevelEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 7;</code>

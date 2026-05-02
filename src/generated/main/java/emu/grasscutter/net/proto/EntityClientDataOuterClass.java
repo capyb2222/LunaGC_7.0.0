@@ -20,7 +20,7 @@ public final class EntityClientDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 wind_change_scene_time = 1;</code>
@@ -30,7 +30,7 @@ public final class EntityClientDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 wind_change_target_level = 3;</code>
@@ -40,7 +40,7 @@ public final class EntityClientDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float windmill_sync_angle = 2;</code>
@@ -144,7 +144,7 @@ public final class EntityClientDataOuterClass {
     private int windChangeSceneTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 wind_change_scene_time = 1;</code>
@@ -159,7 +159,7 @@ public final class EntityClientDataOuterClass {
     private int windChangeTargetLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 wind_change_target_level = 3;</code>
@@ -174,7 +174,7 @@ public final class EntityClientDataOuterClass {
     private float windmillSyncAngle_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float windmill_sync_angle = 2;</code>
@@ -526,7 +526,7 @@ public final class EntityClientDataOuterClass {
       private int windChangeSceneTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 wind_change_scene_time = 1;</code>
@@ -538,7 +538,7 @@ public final class EntityClientDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 wind_change_scene_time = 1;</code>
@@ -553,7 +553,7 @@ public final class EntityClientDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 wind_change_scene_time = 1;</code>
@@ -569,7 +569,7 @@ public final class EntityClientDataOuterClass {
       private int windChangeTargetLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 wind_change_target_level = 3;</code>
@@ -581,7 +581,7 @@ public final class EntityClientDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 wind_change_target_level = 3;</code>
@@ -596,7 +596,7 @@ public final class EntityClientDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 wind_change_target_level = 3;</code>
@@ -612,7 +612,7 @@ public final class EntityClientDataOuterClass {
       private float windmillSyncAngle_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float windmill_sync_angle = 2;</code>
@@ -624,7 +624,7 @@ public final class EntityClientDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float windmill_sync_angle = 2;</code>
@@ -639,7 +639,7 @@ public final class EntityClientDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float windmill_sync_angle = 2;</code>

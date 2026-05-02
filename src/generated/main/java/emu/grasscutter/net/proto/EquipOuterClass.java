@@ -20,7 +20,7 @@ public final class EquipOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_locked = 3;</code>
@@ -30,7 +30,7 @@ public final class EquipOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Reliquary reliquary = 1;</code>
@@ -39,7 +39,7 @@ public final class EquipOuterClass {
     boolean hasReliquary();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Reliquary reliquary = 1;</code>
@@ -48,7 +48,7 @@ public final class EquipOuterClass {
     emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary getReliquary();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Reliquary reliquary = 1;</code>
@@ -57,7 +57,7 @@ public final class EquipOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Weapon weapon = 2;</code>
@@ -66,7 +66,7 @@ public final class EquipOuterClass {
     boolean hasWeapon();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Weapon weapon = 2;</code>
@@ -75,7 +75,7 @@ public final class EquipOuterClass {
     emu.grasscutter.net.proto.WeaponOuterClass.Weapon getWeapon();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Weapon weapon = 2;</code>
@@ -239,7 +239,7 @@ public final class EquipOuterClass {
     private boolean isLocked_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_locked = 3;</code>
@@ -253,7 +253,7 @@ public final class EquipOuterClass {
     public static final int RELIQUARY_FIELD_NUMBER = 1;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Reliquary reliquary = 1;</code>
@@ -265,7 +265,7 @@ public final class EquipOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Reliquary reliquary = 1;</code>
@@ -280,7 +280,7 @@ public final class EquipOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Reliquary reliquary = 1;</code>
@@ -296,7 +296,7 @@ public final class EquipOuterClass {
     public static final int WEAPON_FIELD_NUMBER = 2;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Weapon weapon = 2;</code>
@@ -308,7 +308,7 @@ public final class EquipOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Weapon weapon = 2;</code>
@@ -323,7 +323,7 @@ public final class EquipOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Weapon weapon = 2;</code>
@@ -726,7 +726,7 @@ public final class EquipOuterClass {
       private boolean isLocked_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_locked = 3;</code>
@@ -738,7 +738,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_locked = 3;</code>
@@ -753,7 +753,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_locked = 3;</code>
@@ -770,7 +770,7 @@ public final class EquipOuterClass {
           emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder> reliquaryBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Reliquary reliquary = 1;</code>
@@ -782,7 +782,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Reliquary reliquary = 1;</code>
@@ -804,7 +804,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Reliquary reliquary = 1;</code>
@@ -824,7 +824,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Reliquary reliquary = 1;</code>
@@ -842,7 +842,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Reliquary reliquary = 1;</code>
@@ -868,7 +868,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Reliquary reliquary = 1;</code>
@@ -891,7 +891,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Reliquary reliquary = 1;</code>
@@ -901,7 +901,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Reliquary reliquary = 1;</code>
@@ -919,7 +919,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Reliquary reliquary = 1;</code>
@@ -947,7 +947,7 @@ public final class EquipOuterClass {
           emu.grasscutter.net.proto.WeaponOuterClass.Weapon, emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder, emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder> weaponBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Weapon weapon = 2;</code>
@@ -959,7 +959,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Weapon weapon = 2;</code>
@@ -981,7 +981,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Weapon weapon = 2;</code>
@@ -1001,7 +1001,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Weapon weapon = 2;</code>
@@ -1019,7 +1019,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Weapon weapon = 2;</code>
@@ -1045,7 +1045,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Weapon weapon = 2;</code>
@@ -1068,7 +1068,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Weapon weapon = 2;</code>
@@ -1078,7 +1078,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Weapon weapon = 2;</code>
@@ -1096,7 +1096,7 @@ public final class EquipOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Weapon weapon = 2;</code>

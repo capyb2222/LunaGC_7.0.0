@@ -20,7 +20,7 @@ public final class BreakoutBrickInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 hp = 1;</code>
@@ -36,7 +36,7 @@ public final class BreakoutBrickInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 element_type = 2;</code>
@@ -140,7 +140,7 @@ public final class BreakoutBrickInfoOuterClass {
     private int hp_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 hp = 1;</code>
@@ -166,7 +166,7 @@ public final class BreakoutBrickInfoOuterClass {
     private int elementType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 element_type = 2;</code>
@@ -516,7 +516,7 @@ public final class BreakoutBrickInfoOuterClass {
       private int hp_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 hp = 1;</code>
@@ -528,7 +528,7 @@ public final class BreakoutBrickInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 hp = 1;</code>
@@ -543,7 +543,7 @@ public final class BreakoutBrickInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 hp = 1;</code>
@@ -590,7 +590,7 @@ public final class BreakoutBrickInfoOuterClass {
       private int elementType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 element_type = 2;</code>
@@ -602,7 +602,7 @@ public final class BreakoutBrickInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 element_type = 2;</code>
@@ -617,7 +617,7 @@ public final class BreakoutBrickInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 element_type = 2;</code>

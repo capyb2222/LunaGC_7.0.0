@@ -20,7 +20,7 @@ public final class EvtBeingHitInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AttackResult attack_result = 2;</code>
@@ -29,7 +29,7 @@ public final class EvtBeingHitInfoOuterClass {
     boolean hasAttackResult();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AttackResult attack_result = 2;</code>
@@ -38,7 +38,7 @@ public final class EvtBeingHitInfoOuterClass {
     emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult getAttackResult();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AttackResult attack_result = 2;</code>
@@ -47,7 +47,7 @@ public final class EvtBeingHitInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 3;</code>
@@ -57,7 +57,7 @@ public final class EvtBeingHitInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 frame_num = 1;</code>
@@ -169,7 +169,7 @@ public final class EvtBeingHitInfoOuterClass {
     private emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult attackResult_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AttackResult attack_result = 2;</code>
@@ -181,7 +181,7 @@ public final class EvtBeingHitInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AttackResult attack_result = 2;</code>
@@ -193,7 +193,7 @@ public final class EvtBeingHitInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AttackResult attack_result = 2;</code>
@@ -207,7 +207,7 @@ public final class EvtBeingHitInfoOuterClass {
     private int peerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 3;</code>
@@ -222,7 +222,7 @@ public final class EvtBeingHitInfoOuterClass {
     private int frameNum_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 frame_num = 1;</code>
@@ -587,7 +587,7 @@ public final class EvtBeingHitInfoOuterClass {
           emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResult.Builder, emu.grasscutter.net.proto.AttackResultOuterClass.AttackResultOrBuilder> attackResultBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AttackResult attack_result = 2;</code>
@@ -598,7 +598,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AttackResult attack_result = 2;</code>
@@ -613,7 +613,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AttackResult attack_result = 2;</code>
@@ -633,7 +633,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AttackResult attack_result = 2;</code>
@@ -651,7 +651,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AttackResult attack_result = 2;</code>
@@ -673,7 +673,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AttackResult attack_result = 2;</code>
@@ -691,7 +691,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AttackResult attack_result = 2;</code>
@@ -703,7 +703,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AttackResult attack_result = 2;</code>
@@ -718,7 +718,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AttackResult attack_result = 2;</code>
@@ -740,7 +740,7 @@ public final class EvtBeingHitInfoOuterClass {
       private int peerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 3;</code>
@@ -752,7 +752,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 3;</code>
@@ -767,7 +767,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 3;</code>
@@ -783,7 +783,7 @@ public final class EvtBeingHitInfoOuterClass {
       private int frameNum_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 frame_num = 1;</code>
@@ -795,7 +795,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 frame_num = 1;</code>
@@ -810,7 +810,7 @@ public final class EvtBeingHitInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 frame_num = 1;</code>

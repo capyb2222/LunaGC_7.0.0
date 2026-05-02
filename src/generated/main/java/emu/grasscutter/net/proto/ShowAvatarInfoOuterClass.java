@@ -19,16 +19,28 @@ public final class ShowAvatarInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 avatar_id = 1;</code>
      * @return The avatarId.
      */
     int getAvatarId();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
      */
     int getPropMapCount();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
      */
     boolean containsPropMap(
@@ -40,11 +52,19 @@ public final class ShowAvatarInfoOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
     getPropMap();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PropValueOuterClass.PropValue>
     getPropMapMap();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
      */
 
@@ -52,6 +72,10 @@ public final class ShowAvatarInfoOuterClass {
         int key,
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue);
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
      */
 
@@ -59,16 +83,28 @@ public final class ShowAvatarInfoOuterClass {
         int key);
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 talent_id_list = 3;</code>
      * @return A list containing the talentIdList.
      */
     java.util.List<java.lang.Integer> getTalentIdListList();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 talent_id_list = 3;</code>
      * @return The count of talentIdList.
      */
     int getTalentIdListCount();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 talent_id_list = 3;</code>
      * @param index The index of the element to return.
      * @return The talentIdList at the given index.
@@ -76,10 +112,18 @@ public final class ShowAvatarInfoOuterClass {
     int getTalentIdList(int index);
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
      */
     int getFightPropMapCount();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
      */
     boolean containsFightPropMap(
@@ -91,11 +135,19 @@ public final class ShowAvatarInfoOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Float>
     getFightPropMap();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Float>
     getFightPropMapMap();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
      */
 
@@ -103,6 +155,10 @@ public final class ShowAvatarInfoOuterClass {
         int key,
         float defaultValue);
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
      */
 
@@ -110,28 +166,48 @@ public final class ShowAvatarInfoOuterClass {
         int key);
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 skill_depot_id = 5;</code>
      * @return The skillDepotId.
      */
     int getSkillDepotId();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 core_proud_skill_level = 6;</code>
      * @return The coreProudSkillLevel.
      */
     int getCoreProudSkillLevel();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
      * @return A list containing the inherentProudSkillList.
      */
     java.util.List<java.lang.Integer> getInherentProudSkillListList();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
      * @return The count of inherentProudSkillList.
      */
     int getInherentProudSkillListCount();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
      * @param index The index of the element to return.
      * @return The inherentProudSkillList at the given index.
@@ -139,10 +215,18 @@ public final class ShowAvatarInfoOuterClass {
     int getInherentProudSkillList(int index);
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
      */
     int getSkillLevelMapCount();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
      */
     boolean containsSkillLevelMap(
@@ -154,11 +238,19 @@ public final class ShowAvatarInfoOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillLevelMap();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillLevelMapMap();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
      */
 
@@ -166,6 +258,10 @@ public final class ShowAvatarInfoOuterClass {
         int key,
         int defaultValue);
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
      */
 
@@ -173,10 +269,18 @@ public final class ShowAvatarInfoOuterClass {
         int key);
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
      */
     int getProudSkillExtraLevelMapCount();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
      */
     boolean containsProudSkillExtraLevelMap(
@@ -188,11 +292,19 @@ public final class ShowAvatarInfoOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getProudSkillExtraLevelMap();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getProudSkillExtraLevelMapMap();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
      */
 
@@ -200,6 +312,10 @@ public final class ShowAvatarInfoOuterClass {
         int key,
         int defaultValue);
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
      */
 
@@ -207,88 +323,156 @@ public final class ShowAvatarInfoOuterClass {
         int key);
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip> 
         getEquipListList();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip getEquipList(int index);
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     int getEquipListCount();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder> 
         getEquipListOrBuilderList();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder getEquipListOrBuilder(
         int index);
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarFetterInfo fetter_info = 11;</code>
      * @return Whether the fetterInfo field is set.
      */
     boolean hasFetterInfo();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarFetterInfo fetter_info = 11;</code>
      * @return The fetterInfo.
      */
     emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfo();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarFetterInfo fetter_info = 11;</code>
      */
     emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfoOrBuilder getFetterInfoOrBuilder();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 costume_id = 12;</code>
      * @return The costumeId.
      */
     int getCostumeId();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarExcelInfo excel_info = 13;</code>
      * @return Whether the excelInfo field is set.
      */
     boolean hasExcelInfo();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarExcelInfo excel_info = 13;</code>
      * @return The excelInfo.
      */
     emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo getExcelInfo();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarExcelInfo excel_info = 13;</code>
      */
     emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder getExcelInfoOrBuilder();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 _weapon_skin_id = 14;</code>
      * @return The weaponSkinId.
      */
     int getWeaponSkinId();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint64 NLKPGHHLGEK = 15;</code>
      * @return The nLKPGHHLGEK.
      */
     long getNLKPGHHLGEK();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 _special_proud_skill_list = 17;</code>
      * @return A list containing the specialProudSkillList.
      */
     java.util.List<java.lang.Integer> getSpecialProudSkillListList();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 _special_proud_skill_list = 17;</code>
      * @return The count of specialProudSkillList.
      */
     int getSpecialProudSkillListCount();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 _special_proud_skill_list = 17;</code>
      * @param index The index of the element to return.
      * @return The specialProudSkillList at the given index.
@@ -590,6 +774,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int AVATAR_ID_FIELD_NUMBER = 1;
     private int avatarId_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 avatar_id = 1;</code>
      * @return The avatarId.
      */
@@ -625,6 +813,10 @@ public final class ShowAvatarInfoOuterClass {
       return internalGetPropMap().getMap().size();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
      */
 
@@ -643,6 +835,10 @@ public final class ShowAvatarInfoOuterClass {
       return getPropMapMap();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
      */
     @java.lang.Override
@@ -651,6 +847,10 @@ public final class ShowAvatarInfoOuterClass {
       return internalGetPropMap().getMap();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
      */
     @java.lang.Override
@@ -664,6 +864,10 @@ public final class ShowAvatarInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
      */
     @java.lang.Override
@@ -682,6 +886,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int TALENT_ID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList talentIdList_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 talent_id_list = 3;</code>
      * @return A list containing the talentIdList.
      */
@@ -691,6 +899,10 @@ public final class ShowAvatarInfoOuterClass {
       return talentIdList_;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 talent_id_list = 3;</code>
      * @return The count of talentIdList.
      */
@@ -698,6 +910,10 @@ public final class ShowAvatarInfoOuterClass {
       return talentIdList_.size();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 talent_id_list = 3;</code>
      * @param index The index of the element to return.
      * @return The talentIdList at the given index.
@@ -734,6 +950,10 @@ public final class ShowAvatarInfoOuterClass {
       return internalGetFightPropMap().getMap().size();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
      */
 
@@ -752,6 +972,10 @@ public final class ShowAvatarInfoOuterClass {
       return getFightPropMapMap();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
      */
     @java.lang.Override
@@ -760,6 +984,10 @@ public final class ShowAvatarInfoOuterClass {
       return internalGetFightPropMap().getMap();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
      */
     @java.lang.Override
@@ -773,6 +1001,10 @@ public final class ShowAvatarInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
      */
     @java.lang.Override
@@ -791,6 +1023,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int SKILL_DEPOT_ID_FIELD_NUMBER = 5;
     private int skillDepotId_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 skill_depot_id = 5;</code>
      * @return The skillDepotId.
      */
@@ -802,6 +1038,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int CORE_PROUD_SKILL_LEVEL_FIELD_NUMBER = 6;
     private int coreProudSkillLevel_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 core_proud_skill_level = 6;</code>
      * @return The coreProudSkillLevel.
      */
@@ -813,6 +1053,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int INHERENT_PROUD_SKILL_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList inherentProudSkillList_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
      * @return A list containing the inherentProudSkillList.
      */
@@ -822,6 +1066,10 @@ public final class ShowAvatarInfoOuterClass {
       return inherentProudSkillList_;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
      * @return The count of inherentProudSkillList.
      */
@@ -829,6 +1077,10 @@ public final class ShowAvatarInfoOuterClass {
       return inherentProudSkillList_.size();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
      * @param index The index of the element to return.
      * @return The inherentProudSkillList at the given index.
@@ -865,6 +1117,10 @@ public final class ShowAvatarInfoOuterClass {
       return internalGetSkillLevelMap().getMap().size();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
      */
 
@@ -883,6 +1139,10 @@ public final class ShowAvatarInfoOuterClass {
       return getSkillLevelMapMap();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
      */
     @java.lang.Override
@@ -891,6 +1151,10 @@ public final class ShowAvatarInfoOuterClass {
       return internalGetSkillLevelMap().getMap();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
      */
     @java.lang.Override
@@ -904,6 +1168,10 @@ public final class ShowAvatarInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
      */
     @java.lang.Override
@@ -946,6 +1214,10 @@ public final class ShowAvatarInfoOuterClass {
       return internalGetProudSkillExtraLevelMap().getMap().size();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
      */
 
@@ -964,6 +1236,10 @@ public final class ShowAvatarInfoOuterClass {
       return getProudSkillExtraLevelMapMap();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
      */
     @java.lang.Override
@@ -972,6 +1248,10 @@ public final class ShowAvatarInfoOuterClass {
       return internalGetProudSkillExtraLevelMap().getMap();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
      */
     @java.lang.Override
@@ -985,6 +1265,10 @@ public final class ShowAvatarInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
      */
     @java.lang.Override
@@ -1003,6 +1287,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int EQUIP_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip> equipList_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     @java.lang.Override
@@ -1010,6 +1298,10 @@ public final class ShowAvatarInfoOuterClass {
       return equipList_;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     @java.lang.Override
@@ -1018,6 +1310,10 @@ public final class ShowAvatarInfoOuterClass {
       return equipList_;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     @java.lang.Override
@@ -1025,6 +1321,10 @@ public final class ShowAvatarInfoOuterClass {
       return equipList_.size();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     @java.lang.Override
@@ -1032,6 +1332,10 @@ public final class ShowAvatarInfoOuterClass {
       return equipList_.get(index);
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated .ShowEquip equip_list = 10;</code>
      */
     @java.lang.Override
@@ -1043,6 +1347,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int FETTER_INFO_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo fetterInfo_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarFetterInfo fetter_info = 11;</code>
      * @return Whether the fetterInfo field is set.
      */
@@ -1051,6 +1359,10 @@ public final class ShowAvatarInfoOuterClass {
       return fetterInfo_ != null;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarFetterInfo fetter_info = 11;</code>
      * @return The fetterInfo.
      */
@@ -1059,6 +1371,10 @@ public final class ShowAvatarInfoOuterClass {
       return fetterInfo_ == null ? emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo.getDefaultInstance() : fetterInfo_;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarFetterInfo fetter_info = 11;</code>
      */
     @java.lang.Override
@@ -1069,6 +1385,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int COSTUME_ID_FIELD_NUMBER = 12;
     private int costumeId_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 costume_id = 12;</code>
      * @return The costumeId.
      */
@@ -1080,6 +1400,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int EXCEL_INFO_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo excelInfo_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarExcelInfo excel_info = 13;</code>
      * @return Whether the excelInfo field is set.
      */
@@ -1088,6 +1412,10 @@ public final class ShowAvatarInfoOuterClass {
       return excelInfo_ != null;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarExcelInfo excel_info = 13;</code>
      * @return The excelInfo.
      */
@@ -1096,6 +1424,10 @@ public final class ShowAvatarInfoOuterClass {
       return excelInfo_ == null ? emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.getDefaultInstance() : excelInfo_;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.AvatarExcelInfo excel_info = 13;</code>
      */
     @java.lang.Override
@@ -1106,6 +1438,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int _WEAPON_SKIN_ID_FIELD_NUMBER = 14;
     private int WeaponSkinId_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 _weapon_skin_id = 14;</code>
      * @return The weaponSkinId.
      */
@@ -1117,6 +1453,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int NLKPGHHLGEK_FIELD_NUMBER = 15;
     private long nLKPGHHLGEK_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint64 NLKPGHHLGEK = 15;</code>
      * @return The nLKPGHHLGEK.
      */
@@ -1128,6 +1468,10 @@ public final class ShowAvatarInfoOuterClass {
     public static final int _SPECIAL_PROUD_SKILL_LIST_FIELD_NUMBER = 17;
     private com.google.protobuf.Internal.IntList SpecialProudSkillList_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 _special_proud_skill_list = 17;</code>
      * @return A list containing the specialProudSkillList.
      */
@@ -1137,6 +1481,10 @@ public final class ShowAvatarInfoOuterClass {
       return SpecialProudSkillList_;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 _special_proud_skill_list = 17;</code>
      * @return The count of specialProudSkillList.
      */
@@ -1144,6 +1492,10 @@ public final class ShowAvatarInfoOuterClass {
       return SpecialProudSkillList_.size();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>repeated uint32 _special_proud_skill_list = 17;</code>
      * @param index The index of the element to return.
      * @return The specialProudSkillList at the given index.
@@ -1935,6 +2287,10 @@ public final class ShowAvatarInfoOuterClass {
 
       private int avatarId_ ;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 avatar_id = 1;</code>
        * @return The avatarId.
        */
@@ -1943,6 +2299,10 @@ public final class ShowAvatarInfoOuterClass {
         return avatarId_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 avatar_id = 1;</code>
        * @param value The avatarId to set.
        * @return This builder for chaining.
@@ -1954,6 +2314,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 avatar_id = 1;</code>
        * @return This builder for chaining.
        */
@@ -1991,6 +2355,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetPropMap().getMap().size();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
        */
 
@@ -2009,6 +2377,10 @@ public final class ShowAvatarInfoOuterClass {
         return getPropMapMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
        */
       @java.lang.Override
@@ -2017,6 +2389,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetPropMap().getMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
        */
       @java.lang.Override
@@ -2030,6 +2406,10 @@ public final class ShowAvatarInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
        */
       @java.lang.Override
@@ -2051,6 +2431,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
        */
 
@@ -2070,6 +2454,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetMutablePropMap().getMutableMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
        */
       public Builder putPropMap(
@@ -2082,6 +2470,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 2;</code>
        */
 
@@ -2100,6 +2492,10 @@ public final class ShowAvatarInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 talent_id_list = 3;</code>
        * @return A list containing the talentIdList.
        */
@@ -2109,6 +2505,10 @@ public final class ShowAvatarInfoOuterClass {
                  java.util.Collections.unmodifiableList(talentIdList_) : talentIdList_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 talent_id_list = 3;</code>
        * @return The count of talentIdList.
        */
@@ -2116,6 +2516,10 @@ public final class ShowAvatarInfoOuterClass {
         return talentIdList_.size();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 talent_id_list = 3;</code>
        * @param index The index of the element to return.
        * @return The talentIdList at the given index.
@@ -2124,6 +2528,10 @@ public final class ShowAvatarInfoOuterClass {
         return talentIdList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 talent_id_list = 3;</code>
        * @param index The index to set the value at.
        * @param value The talentIdList to set.
@@ -2137,6 +2545,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 talent_id_list = 3;</code>
        * @param value The talentIdList to add.
        * @return This builder for chaining.
@@ -2148,6 +2560,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 talent_id_list = 3;</code>
        * @param values The talentIdList to add.
        * @return This builder for chaining.
@@ -2161,6 +2577,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 talent_id_list = 3;</code>
        * @return This builder for chaining.
        */
@@ -2198,6 +2618,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetFightPropMap().getMap().size();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
        */
 
@@ -2216,6 +2640,10 @@ public final class ShowAvatarInfoOuterClass {
         return getFightPropMapMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
        */
       @java.lang.Override
@@ -2224,6 +2652,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetFightPropMap().getMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
        */
       @java.lang.Override
@@ -2237,6 +2669,10 @@ public final class ShowAvatarInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
        */
       @java.lang.Override
@@ -2258,6 +2694,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
        */
 
@@ -2277,6 +2717,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetMutableFightPropMap().getMutableMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
        */
       public Builder putFightPropMap(
@@ -2289,6 +2733,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 4;</code>
        */
 
@@ -2301,6 +2749,10 @@ public final class ShowAvatarInfoOuterClass {
 
       private int skillDepotId_ ;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 skill_depot_id = 5;</code>
        * @return The skillDepotId.
        */
@@ -2309,6 +2761,10 @@ public final class ShowAvatarInfoOuterClass {
         return skillDepotId_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 skill_depot_id = 5;</code>
        * @param value The skillDepotId to set.
        * @return This builder for chaining.
@@ -2320,6 +2776,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 skill_depot_id = 5;</code>
        * @return This builder for chaining.
        */
@@ -2332,6 +2792,10 @@ public final class ShowAvatarInfoOuterClass {
 
       private int coreProudSkillLevel_ ;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 core_proud_skill_level = 6;</code>
        * @return The coreProudSkillLevel.
        */
@@ -2340,6 +2804,10 @@ public final class ShowAvatarInfoOuterClass {
         return coreProudSkillLevel_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 core_proud_skill_level = 6;</code>
        * @param value The coreProudSkillLevel to set.
        * @return This builder for chaining.
@@ -2351,6 +2819,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 core_proud_skill_level = 6;</code>
        * @return This builder for chaining.
        */
@@ -2369,6 +2841,10 @@ public final class ShowAvatarInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
        * @return A list containing the inherentProudSkillList.
        */
@@ -2378,6 +2854,10 @@ public final class ShowAvatarInfoOuterClass {
                  java.util.Collections.unmodifiableList(inherentProudSkillList_) : inherentProudSkillList_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
        * @return The count of inherentProudSkillList.
        */
@@ -2385,6 +2865,10 @@ public final class ShowAvatarInfoOuterClass {
         return inherentProudSkillList_.size();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
        * @param index The index of the element to return.
        * @return The inherentProudSkillList at the given index.
@@ -2393,6 +2877,10 @@ public final class ShowAvatarInfoOuterClass {
         return inherentProudSkillList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
        * @param index The index to set the value at.
        * @param value The inherentProudSkillList to set.
@@ -2406,6 +2894,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
        * @param value The inherentProudSkillList to add.
        * @return This builder for chaining.
@@ -2417,6 +2909,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
        * @param values The inherentProudSkillList to add.
        * @return This builder for chaining.
@@ -2430,6 +2926,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 inherent_proud_skill_list = 7;</code>
        * @return This builder for chaining.
        */
@@ -2467,6 +2967,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetSkillLevelMap().getMap().size();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
        */
 
@@ -2485,6 +2989,10 @@ public final class ShowAvatarInfoOuterClass {
         return getSkillLevelMapMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
        */
       @java.lang.Override
@@ -2493,6 +3001,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetSkillLevelMap().getMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
        */
       @java.lang.Override
@@ -2506,6 +3018,10 @@ public final class ShowAvatarInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
        */
       @java.lang.Override
@@ -2527,6 +3043,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
        */
 
@@ -2546,6 +3066,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetMutableSkillLevelMap().getMutableMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
        */
       public Builder putSkillLevelMap(
@@ -2558,6 +3082,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 8;</code>
        */
 
@@ -2595,6 +3123,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetProudSkillExtraLevelMap().getMap().size();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
        */
 
@@ -2613,6 +3145,10 @@ public final class ShowAvatarInfoOuterClass {
         return getProudSkillExtraLevelMapMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
        */
       @java.lang.Override
@@ -2621,6 +3157,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetProudSkillExtraLevelMap().getMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
        */
       @java.lang.Override
@@ -2634,6 +3174,10 @@ public final class ShowAvatarInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
        */
       @java.lang.Override
@@ -2655,6 +3199,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
        */
 
@@ -2674,6 +3222,10 @@ public final class ShowAvatarInfoOuterClass {
         return internalGetMutableProudSkillExtraLevelMap().getMutableMap();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
        */
       public Builder putProudSkillExtraLevelMap(
@@ -2686,6 +3238,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 9;</code>
        */
 
@@ -2709,6 +3265,10 @@ public final class ShowAvatarInfoOuterClass {
           emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder> equipListBuilder_;
 
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip> getEquipListList() {
@@ -2719,6 +3279,10 @@ public final class ShowAvatarInfoOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public int getEquipListCount() {
@@ -2729,6 +3293,10 @@ public final class ShowAvatarInfoOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip getEquipList(int index) {
@@ -2739,6 +3307,10 @@ public final class ShowAvatarInfoOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public Builder setEquipList(
@@ -2756,6 +3328,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public Builder setEquipList(
@@ -2770,6 +3346,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public Builder addEquipList(emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip value) {
@@ -2786,6 +3366,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public Builder addEquipList(
@@ -2803,6 +3387,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public Builder addEquipList(
@@ -2817,6 +3405,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public Builder addEquipList(
@@ -2831,6 +3423,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public Builder addAllEquipList(
@@ -2846,6 +3442,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public Builder clearEquipList() {
@@ -2859,6 +3459,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public Builder removeEquipList(int index) {
@@ -2872,6 +3476,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder getEquipListBuilder(
@@ -2879,6 +3487,10 @@ public final class ShowAvatarInfoOuterClass {
         return getEquipListFieldBuilder().getBuilder(index);
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder getEquipListOrBuilder(
@@ -2889,6 +3501,10 @@ public final class ShowAvatarInfoOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquipOrBuilder> 
@@ -2900,6 +3516,10 @@ public final class ShowAvatarInfoOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder addEquipListBuilder() {
@@ -2907,6 +3527,10 @@ public final class ShowAvatarInfoOuterClass {
             emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.getDefaultInstance());
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder addEquipListBuilder(
@@ -2915,6 +3539,10 @@ public final class ShowAvatarInfoOuterClass {
             index, emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.getDefaultInstance());
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated .ShowEquip equip_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ShowEquipOuterClass.ShowEquip.Builder> 
@@ -2940,6 +3568,10 @@ public final class ShowAvatarInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo.Builder, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfoOrBuilder> fetterInfoBuilder_;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarFetterInfo fetter_info = 11;</code>
        * @return Whether the fetterInfo field is set.
        */
@@ -2947,6 +3579,10 @@ public final class ShowAvatarInfoOuterClass {
         return fetterInfoBuilder_ != null || fetterInfo_ != null;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarFetterInfo fetter_info = 11;</code>
        * @return The fetterInfo.
        */
@@ -2958,6 +3594,10 @@ public final class ShowAvatarInfoOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarFetterInfo fetter_info = 11;</code>
        */
       public Builder setFetterInfo(emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo value) {
@@ -2974,6 +3614,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarFetterInfo fetter_info = 11;</code>
        */
       public Builder setFetterInfo(
@@ -2988,6 +3632,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarFetterInfo fetter_info = 11;</code>
        */
       public Builder mergeFetterInfo(emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo value) {
@@ -3006,6 +3654,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarFetterInfo fetter_info = 11;</code>
        */
       public Builder clearFetterInfo() {
@@ -3020,6 +3672,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarFetterInfo fetter_info = 11;</code>
        */
       public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo.Builder getFetterInfoBuilder() {
@@ -3028,6 +3684,10 @@ public final class ShowAvatarInfoOuterClass {
         return getFetterInfoFieldBuilder().getBuilder();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarFetterInfo fetter_info = 11;</code>
        */
       public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfoOrBuilder getFetterInfoOrBuilder() {
@@ -3039,6 +3699,10 @@ public final class ShowAvatarInfoOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarFetterInfo fetter_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -3057,6 +3721,10 @@ public final class ShowAvatarInfoOuterClass {
 
       private int costumeId_ ;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 costume_id = 12;</code>
        * @return The costumeId.
        */
@@ -3065,6 +3733,10 @@ public final class ShowAvatarInfoOuterClass {
         return costumeId_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 costume_id = 12;</code>
        * @param value The costumeId to set.
        * @return This builder for chaining.
@@ -3076,6 +3748,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 costume_id = 12;</code>
        * @return This builder for chaining.
        */
@@ -3090,6 +3766,10 @@ public final class ShowAvatarInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder> excelInfoBuilder_;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarExcelInfo excel_info = 13;</code>
        * @return Whether the excelInfo field is set.
        */
@@ -3097,6 +3777,10 @@ public final class ShowAvatarInfoOuterClass {
         return excelInfoBuilder_ != null || excelInfo_ != null;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarExcelInfo excel_info = 13;</code>
        * @return The excelInfo.
        */
@@ -3108,6 +3792,10 @@ public final class ShowAvatarInfoOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarExcelInfo excel_info = 13;</code>
        */
       public Builder setExcelInfo(emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo value) {
@@ -3124,6 +3812,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarExcelInfo excel_info = 13;</code>
        */
       public Builder setExcelInfo(
@@ -3138,6 +3830,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarExcelInfo excel_info = 13;</code>
        */
       public Builder mergeExcelInfo(emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo value) {
@@ -3156,6 +3852,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarExcelInfo excel_info = 13;</code>
        */
       public Builder clearExcelInfo() {
@@ -3170,6 +3870,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarExcelInfo excel_info = 13;</code>
        */
       public emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder getExcelInfoBuilder() {
@@ -3178,6 +3882,10 @@ public final class ShowAvatarInfoOuterClass {
         return getExcelInfoFieldBuilder().getBuilder();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarExcelInfo excel_info = 13;</code>
        */
       public emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder getExcelInfoOrBuilder() {
@@ -3189,6 +3897,10 @@ public final class ShowAvatarInfoOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.AvatarExcelInfo excel_info = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -3207,6 +3919,10 @@ public final class ShowAvatarInfoOuterClass {
 
       private int WeaponSkinId_ ;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 _weapon_skin_id = 14;</code>
        * @return The weaponSkinId.
        */
@@ -3215,6 +3931,10 @@ public final class ShowAvatarInfoOuterClass {
         return WeaponSkinId_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 _weapon_skin_id = 14;</code>
        * @param value The weaponSkinId to set.
        * @return This builder for chaining.
@@ -3226,6 +3946,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 _weapon_skin_id = 14;</code>
        * @return This builder for chaining.
        */
@@ -3238,6 +3962,10 @@ public final class ShowAvatarInfoOuterClass {
 
       private long nLKPGHHLGEK_ ;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint64 NLKPGHHLGEK = 15;</code>
        * @return The nLKPGHHLGEK.
        */
@@ -3246,6 +3974,10 @@ public final class ShowAvatarInfoOuterClass {
         return nLKPGHHLGEK_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint64 NLKPGHHLGEK = 15;</code>
        * @param value The nLKPGHHLGEK to set.
        * @return This builder for chaining.
@@ -3257,6 +3989,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint64 NLKPGHHLGEK = 15;</code>
        * @return This builder for chaining.
        */
@@ -3275,6 +4011,10 @@ public final class ShowAvatarInfoOuterClass {
          }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 _special_proud_skill_list = 17;</code>
        * @return A list containing the specialProudSkillList.
        */
@@ -3284,6 +4024,10 @@ public final class ShowAvatarInfoOuterClass {
                  java.util.Collections.unmodifiableList(SpecialProudSkillList_) : SpecialProudSkillList_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 _special_proud_skill_list = 17;</code>
        * @return The count of specialProudSkillList.
        */
@@ -3291,6 +4035,10 @@ public final class ShowAvatarInfoOuterClass {
         return SpecialProudSkillList_.size();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 _special_proud_skill_list = 17;</code>
        * @param index The index of the element to return.
        * @return The specialProudSkillList at the given index.
@@ -3299,6 +4047,10 @@ public final class ShowAvatarInfoOuterClass {
         return SpecialProudSkillList_.getInt(index);
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 _special_proud_skill_list = 17;</code>
        * @param index The index to set the value at.
        * @param value The specialProudSkillList to set.
@@ -3312,6 +4064,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 _special_proud_skill_list = 17;</code>
        * @param value The specialProudSkillList to add.
        * @return This builder for chaining.
@@ -3323,6 +4079,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 _special_proud_skill_list = 17;</code>
        * @param values The specialProudSkillList to add.
        * @return This builder for chaining.
@@ -3336,6 +4096,10 @@ public final class ShowAvatarInfoOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>repeated uint32 _special_proud_skill_list = 17;</code>
        * @return This builder for chaining.
        */

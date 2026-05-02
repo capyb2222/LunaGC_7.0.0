@@ -20,7 +20,7 @@ public final class AbilityAttachedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 2;</code>
@@ -30,7 +30,7 @@ public final class AbilityAttachedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 3;</code>
@@ -40,7 +40,7 @@ public final class AbilityAttachedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 attach_name_hash = 5;</code>
@@ -50,7 +50,7 @@ public final class AbilityAttachedModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_invalid = 1;</code>
@@ -170,7 +170,7 @@ public final class AbilityAttachedModifierOuterClass {
     private int ownerEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 2;</code>
@@ -185,7 +185,7 @@ public final class AbilityAttachedModifierOuterClass {
     private int instancedModifierId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 3;</code>
@@ -200,7 +200,7 @@ public final class AbilityAttachedModifierOuterClass {
     private int attachNameHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 attach_name_hash = 5;</code>
@@ -215,7 +215,7 @@ public final class AbilityAttachedModifierOuterClass {
     private boolean isInvalid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_invalid = 1;</code>
@@ -612,7 +612,7 @@ public final class AbilityAttachedModifierOuterClass {
       private int ownerEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 2;</code>
@@ -624,7 +624,7 @@ public final class AbilityAttachedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 2;</code>
@@ -639,7 +639,7 @@ public final class AbilityAttachedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 2;</code>
@@ -655,7 +655,7 @@ public final class AbilityAttachedModifierOuterClass {
       private int instancedModifierId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 3;</code>
@@ -667,7 +667,7 @@ public final class AbilityAttachedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 3;</code>
@@ -682,7 +682,7 @@ public final class AbilityAttachedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 3;</code>
@@ -698,7 +698,7 @@ public final class AbilityAttachedModifierOuterClass {
       private int attachNameHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 attach_name_hash = 5;</code>
@@ -710,7 +710,7 @@ public final class AbilityAttachedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 attach_name_hash = 5;</code>
@@ -725,7 +725,7 @@ public final class AbilityAttachedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 attach_name_hash = 5;</code>
@@ -741,7 +741,7 @@ public final class AbilityAttachedModifierOuterClass {
       private boolean isInvalid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_invalid = 1;</code>
@@ -753,7 +753,7 @@ public final class AbilityAttachedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_invalid = 1;</code>
@@ -768,7 +768,7 @@ public final class AbilityAttachedModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_invalid = 1;</code>

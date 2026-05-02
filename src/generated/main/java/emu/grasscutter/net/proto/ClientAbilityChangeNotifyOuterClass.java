@@ -20,7 +20,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -29,7 +29,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
         getInvokesList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -37,7 +37,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
     emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvokes(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -45,7 +45,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
     int getInvokesCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -54,7 +54,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
         getInvokesOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -64,7 +64,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_init_hash = 4;</code>
@@ -74,7 +74,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 2;</code>
@@ -191,7 +191,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> invokes_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -202,7 +202,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -214,7 +214,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -225,7 +225,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -236,7 +236,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -251,7 +251,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
     private boolean isInitHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_init_hash = 4;</code>
@@ -266,7 +266,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 2;</code>
@@ -672,7 +672,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -686,7 +686,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -700,7 +700,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -714,7 +714,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -735,7 +735,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -753,7 +753,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -773,7 +773,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -794,7 +794,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -812,7 +812,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -830,7 +830,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -849,7 +849,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -866,7 +866,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -883,7 +883,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -894,7 +894,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -908,7 +908,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -923,7 +923,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -934,7 +934,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -946,7 +946,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityInvokeEntry invokes = 9;</code>
@@ -973,7 +973,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       private boolean isInitHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_init_hash = 4;</code>
@@ -985,7 +985,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_init_hash = 4;</code>
@@ -1000,7 +1000,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_init_hash = 4;</code>
@@ -1016,7 +1016,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -1028,7 +1028,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -1043,7 +1043,7 @@ public final class ClientAbilityChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>

@@ -20,7 +20,7 @@ public final class SystemHintOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 type = 8;</code>
@@ -114,7 +114,7 @@ public final class SystemHintOuterClass {
     private int type_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 type = 8;</code>
@@ -430,7 +430,7 @@ public final class SystemHintOuterClass {
       private int type_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 type = 8;</code>
@@ -442,7 +442,7 @@ public final class SystemHintOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 type = 8;</code>
@@ -457,7 +457,7 @@ public final class SystemHintOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 type = 8;</code>

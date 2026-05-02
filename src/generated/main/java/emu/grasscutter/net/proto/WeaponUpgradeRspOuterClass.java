@@ -20,7 +20,7 @@ public final class WeaponUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -29,7 +29,7 @@ public final class WeaponUpgradeRspOuterClass {
         getItemParamListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -37,7 +37,7 @@ public final class WeaponUpgradeRspOuterClass {
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -45,7 +45,7 @@ public final class WeaponUpgradeRspOuterClass {
     int getItemParamListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -54,7 +54,7 @@ public final class WeaponUpgradeRspOuterClass {
         getItemParamListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -64,7 +64,7 @@ public final class WeaponUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 old_level = 14;</code>
@@ -74,7 +74,7 @@ public final class WeaponUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 cur_level = 11;</code>
@@ -84,7 +84,7 @@ public final class WeaponUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -94,7 +94,7 @@ public final class WeaponUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 target_weapon_guid = 1;</code>
@@ -221,7 +221,7 @@ public final class WeaponUpgradeRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -232,7 +232,7 @@ public final class WeaponUpgradeRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -244,7 +244,7 @@ public final class WeaponUpgradeRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -255,7 +255,7 @@ public final class WeaponUpgradeRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -266,7 +266,7 @@ public final class WeaponUpgradeRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -281,7 +281,7 @@ public final class WeaponUpgradeRspOuterClass {
     private int oldLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 old_level = 14;</code>
@@ -296,7 +296,7 @@ public final class WeaponUpgradeRspOuterClass {
     private int curLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 cur_level = 11;</code>
@@ -311,7 +311,7 @@ public final class WeaponUpgradeRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -326,7 +326,7 @@ public final class WeaponUpgradeRspOuterClass {
     private long targetWeaponGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 target_weapon_guid = 1;</code>
@@ -766,7 +766,7 @@ public final class WeaponUpgradeRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -780,7 +780,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -794,7 +794,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -808,7 +808,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -829,7 +829,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -847,7 +847,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -867,7 +867,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -888,7 +888,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -906,7 +906,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -924,7 +924,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -943,7 +943,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -960,7 +960,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -977,7 +977,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -988,7 +988,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -1002,7 +1002,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -1017,7 +1017,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -1028,7 +1028,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -1040,7 +1040,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ItemParam item_param_list = 8;</code>
@@ -1067,7 +1067,7 @@ public final class WeaponUpgradeRspOuterClass {
       private int oldLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 old_level = 14;</code>
@@ -1079,7 +1079,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 old_level = 14;</code>
@@ -1094,7 +1094,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 old_level = 14;</code>
@@ -1110,7 +1110,7 @@ public final class WeaponUpgradeRspOuterClass {
       private int curLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 cur_level = 11;</code>
@@ -1122,7 +1122,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 cur_level = 11;</code>
@@ -1137,7 +1137,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 cur_level = 11;</code>
@@ -1153,7 +1153,7 @@ public final class WeaponUpgradeRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -1165,7 +1165,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -1180,7 +1180,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -1196,7 +1196,7 @@ public final class WeaponUpgradeRspOuterClass {
       private long targetWeaponGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 target_weapon_guid = 1;</code>
@@ -1208,7 +1208,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 target_weapon_guid = 1;</code>
@@ -1223,7 +1223,7 @@ public final class WeaponUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 target_weapon_guid = 1;</code>

@@ -20,7 +20,7 @@ public final class CutSceneExtraParamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated double detail_param_list = 10;</code>
@@ -29,7 +29,7 @@ public final class CutSceneExtraParamOuterClass {
     java.util.List<java.lang.Double> getDetailParamListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated double detail_param_list = 10;</code>
@@ -38,7 +38,7 @@ public final class CutSceneExtraParamOuterClass {
     int getDetailParamListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated double detail_param_list = 10;</code>
@@ -158,7 +158,7 @@ public final class CutSceneExtraParamOuterClass {
     private com.google.protobuf.Internal.DoubleList detailParamList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated double detail_param_list = 10;</code>
@@ -171,7 +171,7 @@ public final class CutSceneExtraParamOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated double detail_param_list = 10;</code>
@@ -182,7 +182,7 @@ public final class CutSceneExtraParamOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated double detail_param_list = 10;</code>
@@ -536,7 +536,7 @@ public final class CutSceneExtraParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated double detail_param_list = 10;</code>
@@ -549,7 +549,7 @@ public final class CutSceneExtraParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated double detail_param_list = 10;</code>
@@ -560,7 +560,7 @@ public final class CutSceneExtraParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated double detail_param_list = 10;</code>
@@ -572,7 +572,7 @@ public final class CutSceneExtraParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated double detail_param_list = 10;</code>
@@ -589,7 +589,7 @@ public final class CutSceneExtraParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated double detail_param_list = 10;</code>
@@ -604,7 +604,7 @@ public final class CutSceneExtraParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated double detail_param_list = 10;</code>
@@ -621,7 +621,7 @@ public final class CutSceneExtraParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated double detail_param_list = 10;</code>

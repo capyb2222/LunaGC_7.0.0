@@ -20,7 +20,7 @@ public final class HomeBlockDotPatternOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bytes data = 8;</code>
@@ -30,7 +30,7 @@ public final class HomeBlockDotPatternOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 width = 10;</code>
@@ -40,7 +40,7 @@ public final class HomeBlockDotPatternOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 height = 1;</code>
@@ -145,7 +145,7 @@ public final class HomeBlockDotPatternOuterClass {
     private com.google.protobuf.ByteString data_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bytes data = 8;</code>
@@ -160,7 +160,7 @@ public final class HomeBlockDotPatternOuterClass {
     private int width_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 width = 10;</code>
@@ -175,7 +175,7 @@ public final class HomeBlockDotPatternOuterClass {
     private int height_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 height = 1;</code>
@@ -525,7 +525,7 @@ public final class HomeBlockDotPatternOuterClass {
       private com.google.protobuf.ByteString data_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes data = 8;</code>
@@ -537,7 +537,7 @@ public final class HomeBlockDotPatternOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes data = 8;</code>
@@ -555,7 +555,7 @@ public final class HomeBlockDotPatternOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes data = 8;</code>
@@ -571,7 +571,7 @@ public final class HomeBlockDotPatternOuterClass {
       private int width_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 width = 10;</code>
@@ -583,7 +583,7 @@ public final class HomeBlockDotPatternOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 width = 10;</code>
@@ -598,7 +598,7 @@ public final class HomeBlockDotPatternOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 width = 10;</code>
@@ -614,7 +614,7 @@ public final class HomeBlockDotPatternOuterClass {
       private int height_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 height = 1;</code>
@@ -626,7 +626,7 @@ public final class HomeBlockDotPatternOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 height = 1;</code>
@@ -641,7 +641,7 @@ public final class HomeBlockDotPatternOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 height = 1;</code>

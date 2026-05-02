@@ -20,7 +20,7 @@ public final class AsterActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -29,7 +29,7 @@ public final class AsterActivityDetailInfoOuterClass {
     boolean hasAsterProgress();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -38,7 +38,7 @@ public final class AsterActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.AsterProgressDetailInfoOuterClass.AsterProgressDetailInfo getAsterProgress();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -47,7 +47,7 @@ public final class AsterActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -56,7 +56,7 @@ public final class AsterActivityDetailInfoOuterClass {
     boolean hasAsterLarge();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -65,7 +65,7 @@ public final class AsterActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.AsterLargeDetailInfoOuterClass.AsterLargeDetailInfo getAsterLarge();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -74,7 +74,7 @@ public final class AsterActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -83,7 +83,7 @@ public final class AsterActivityDetailInfoOuterClass {
     boolean hasAsterLittle();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -92,7 +92,7 @@ public final class AsterActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfo getAsterLittle();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -101,7 +101,7 @@ public final class AsterActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -110,7 +110,7 @@ public final class AsterActivityDetailInfoOuterClass {
     boolean hasAsterMid();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -119,7 +119,7 @@ public final class AsterActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.AsterMidDetailInfoOuterClass.AsterMidDetailInfo getAsterMid();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -134,7 +134,7 @@ public final class AsterActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 5;</code>
@@ -144,7 +144,7 @@ public final class AsterActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_special_reward_taken = 7;</code>
@@ -154,7 +154,7 @@ public final class AsterActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 1;</code>
@@ -326,7 +326,7 @@ public final class AsterActivityDetailInfoOuterClass {
     private emu.grasscutter.net.proto.AsterProgressDetailInfoOuterClass.AsterProgressDetailInfo asterProgress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -338,7 +338,7 @@ public final class AsterActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -350,7 +350,7 @@ public final class AsterActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -364,7 +364,7 @@ public final class AsterActivityDetailInfoOuterClass {
     private emu.grasscutter.net.proto.AsterLargeDetailInfoOuterClass.AsterLargeDetailInfo asterLarge_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -376,7 +376,7 @@ public final class AsterActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -388,7 +388,7 @@ public final class AsterActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -402,7 +402,7 @@ public final class AsterActivityDetailInfoOuterClass {
     private emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfo asterLittle_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -414,7 +414,7 @@ public final class AsterActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -426,7 +426,7 @@ public final class AsterActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -440,7 +440,7 @@ public final class AsterActivityDetailInfoOuterClass {
     private emu.grasscutter.net.proto.AsterMidDetailInfoOuterClass.AsterMidDetailInfo asterMid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -452,7 +452,7 @@ public final class AsterActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -464,7 +464,7 @@ public final class AsterActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -489,7 +489,7 @@ public final class AsterActivityDetailInfoOuterClass {
     private int contentCloseTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 5;</code>
@@ -504,7 +504,7 @@ public final class AsterActivityDetailInfoOuterClass {
     private boolean isSpecialRewardTaken_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_special_reward_taken = 7;</code>
@@ -519,7 +519,7 @@ public final class AsterActivityDetailInfoOuterClass {
     private boolean isContentClosed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 1;</code>
@@ -1038,7 +1038,7 @@ public final class AsterActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.AsterProgressDetailInfoOuterClass.AsterProgressDetailInfo, emu.grasscutter.net.proto.AsterProgressDetailInfoOuterClass.AsterProgressDetailInfo.Builder, emu.grasscutter.net.proto.AsterProgressDetailInfoOuterClass.AsterProgressDetailInfoOrBuilder> asterProgressBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -1049,7 +1049,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -1064,7 +1064,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -1084,7 +1084,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -1102,7 +1102,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -1124,7 +1124,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -1142,7 +1142,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -1154,7 +1154,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -1169,7 +1169,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterProgressDetailInfo aster_progress = 14;</code>
@@ -1193,7 +1193,7 @@ public final class AsterActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.AsterLargeDetailInfoOuterClass.AsterLargeDetailInfo, emu.grasscutter.net.proto.AsterLargeDetailInfoOuterClass.AsterLargeDetailInfo.Builder, emu.grasscutter.net.proto.AsterLargeDetailInfoOuterClass.AsterLargeDetailInfoOrBuilder> asterLargeBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -1204,7 +1204,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -1219,7 +1219,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -1239,7 +1239,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -1257,7 +1257,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -1279,7 +1279,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -1297,7 +1297,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -1309,7 +1309,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -1324,7 +1324,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>.AsterLargeDetailInfo aster_large = 6;</code>
@@ -1348,7 +1348,7 @@ public final class AsterActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfo, emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfo.Builder, emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfoOrBuilder> asterLittleBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -1359,7 +1359,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -1374,7 +1374,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -1394,7 +1394,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -1412,7 +1412,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -1434,7 +1434,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -1452,7 +1452,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -1464,7 +1464,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -1479,7 +1479,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo aster_little = 8;</code>
@@ -1503,7 +1503,7 @@ public final class AsterActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.AsterMidDetailInfoOuterClass.AsterMidDetailInfo, emu.grasscutter.net.proto.AsterMidDetailInfoOuterClass.AsterMidDetailInfo.Builder, emu.grasscutter.net.proto.AsterMidDetailInfoOuterClass.AsterMidDetailInfoOrBuilder> asterMidBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -1514,7 +1514,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -1529,7 +1529,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -1549,7 +1549,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -1567,7 +1567,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -1589,7 +1589,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -1607,7 +1607,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -1619,7 +1619,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -1634,7 +1634,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterMidDetailInfo aster_mid = 13;</code>
@@ -1687,7 +1687,7 @@ public final class AsterActivityDetailInfoOuterClass {
       private int contentCloseTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 5;</code>
@@ -1699,7 +1699,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 5;</code>
@@ -1714,7 +1714,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 5;</code>
@@ -1730,7 +1730,7 @@ public final class AsterActivityDetailInfoOuterClass {
       private boolean isSpecialRewardTaken_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_special_reward_taken = 7;</code>
@@ -1742,7 +1742,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_special_reward_taken = 7;</code>
@@ -1757,7 +1757,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_special_reward_taken = 7;</code>
@@ -1773,7 +1773,7 @@ public final class AsterActivityDetailInfoOuterClass {
       private boolean isContentClosed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 1;</code>
@@ -1785,7 +1785,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 1;</code>
@@ -1800,7 +1800,7 @@ public final class AsterActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 1;</code>

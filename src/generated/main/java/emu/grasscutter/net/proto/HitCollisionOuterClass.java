@@ -20,7 +20,7 @@ public final class HitCollisionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_dir = 3;</code>
@@ -29,7 +29,7 @@ public final class HitCollisionOuterClass {
     boolean hasHitDir();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_dir = 3;</code>
@@ -38,7 +38,7 @@ public final class HitCollisionOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getHitDir();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_dir = 3;</code>
@@ -47,7 +47,7 @@ public final class HitCollisionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -56,7 +56,7 @@ public final class HitCollisionOuterClass {
     boolean hasHitPoint();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -65,7 +65,7 @@ public final class HitCollisionOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getHitPoint();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -80,7 +80,7 @@ public final class HitCollisionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitColliderType hit_collider_type = 2;</code>
@@ -89,7 +89,7 @@ public final class HitCollisionOuterClass {
     int getHitColliderTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitColliderType hit_collider_type = 2;</code>
@@ -99,7 +99,7 @@ public final class HitCollisionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 hit_box_index = 6;</code>
@@ -231,7 +231,7 @@ public final class HitCollisionOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector hitDir_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_dir = 3;</code>
@@ -243,7 +243,7 @@ public final class HitCollisionOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_dir = 3;</code>
@@ -255,7 +255,7 @@ public final class HitCollisionOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_dir = 3;</code>
@@ -269,7 +269,7 @@ public final class HitCollisionOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector hitPoint_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -281,7 +281,7 @@ public final class HitCollisionOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -293,7 +293,7 @@ public final class HitCollisionOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector hit_point = 14;</code>
@@ -318,7 +318,7 @@ public final class HitCollisionOuterClass {
     private int hitColliderType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitColliderType hit_collider_type = 2;</code>
@@ -329,7 +329,7 @@ public final class HitCollisionOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitColliderType hit_collider_type = 2;</code>
@@ -345,7 +345,7 @@ public final class HitCollisionOuterClass {
     private int hitBoxIndex_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 hit_box_index = 6;</code>
@@ -758,7 +758,7 @@ public final class HitCollisionOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> hitDirBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_dir = 3;</code>
@@ -769,7 +769,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_dir = 3;</code>
@@ -784,7 +784,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_dir = 3;</code>
@@ -804,7 +804,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_dir = 3;</code>
@@ -822,7 +822,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_dir = 3;</code>
@@ -844,7 +844,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_dir = 3;</code>
@@ -862,7 +862,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_dir = 3;</code>
@@ -874,7 +874,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_dir = 3;</code>
@@ -889,7 +889,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_dir = 3;</code>
@@ -913,7 +913,7 @@ public final class HitCollisionOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> hitPointBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -924,7 +924,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -939,7 +939,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -959,7 +959,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -977,7 +977,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -999,7 +999,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1017,7 +1017,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1029,7 +1029,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1044,7 +1044,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector hit_point = 14;</code>
@@ -1097,7 +1097,7 @@ public final class HitCollisionOuterClass {
       private int hitColliderType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 2;</code>
@@ -1108,7 +1108,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 2;</code>
@@ -1123,7 +1123,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 2;</code>
@@ -1137,7 +1137,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 2;</code>
@@ -1155,7 +1155,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitColliderType hit_collider_type = 2;</code>
@@ -1171,7 +1171,7 @@ public final class HitCollisionOuterClass {
       private int hitBoxIndex_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 hit_box_index = 6;</code>
@@ -1183,7 +1183,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 hit_box_index = 6;</code>
@@ -1198,7 +1198,7 @@ public final class HitCollisionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 hit_box_index = 6;</code>

@@ -20,7 +20,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bytes extra_bin_data = 295;</code>
@@ -30,7 +30,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 1129;</code>
@@ -39,7 +39,7 @@ public final class PlayerLoginReqOuterClass {
     java.lang.String getBirthday();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 1129;</code>
@@ -50,7 +50,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 382;</code>
@@ -59,7 +59,7 @@ public final class PlayerLoginReqOuterClass {
     java.lang.String getPsnId();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 382;</code>
@@ -70,7 +70,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string security_library_md5 = 254;</code>
@@ -79,7 +79,7 @@ public final class PlayerLoginReqOuterClass {
     java.lang.String getSecurityLibraryMd5();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string security_library_md5 = 254;</code>
@@ -90,7 +90,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string token = 3;</code>
@@ -99,7 +99,7 @@ public final class PlayerLoginReqOuterClass {
     java.lang.String getToken();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string token = 3;</code>
@@ -110,7 +110,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string platform = 12;</code>
@@ -119,7 +119,7 @@ public final class PlayerLoginReqOuterClass {
     java.lang.String getPlatform();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string platform = 12;</code>
@@ -130,7 +130,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_uid = 11;</code>
@@ -139,7 +139,7 @@ public final class PlayerLoginReqOuterClass {
     java.lang.String getAccountUid();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_uid = 11;</code>
@@ -150,7 +150,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bytes security_cmd_reply = 771;</code>
@@ -160,7 +160,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bytes environment_error_code = 1766;</code>
@@ -170,7 +170,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 1068;</code>
@@ -179,7 +179,7 @@ public final class PlayerLoginReqOuterClass {
     java.lang.String getOnlineId();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 1068;</code>
@@ -190,7 +190,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_uid = 5;</code>
@@ -200,7 +200,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 channel_id = 1539;</code>
@@ -210,7 +210,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_data_version = 1729;</code>
@@ -220,7 +220,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 tag = 1397;</code>
@@ -230,7 +230,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 platform_type = 4;</code>
@@ -240,7 +240,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_editor = 10;</code>
@@ -250,7 +250,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_guest = 2;</code>
@@ -412,7 +412,7 @@ public final class PlayerLoginReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 1160;</code>
@@ -421,7 +421,7 @@ public final class PlayerLoginReqOuterClass {
     java.lang.String getCountryCode();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 1160;</code>
@@ -942,7 +942,7 @@ public final class PlayerLoginReqOuterClass {
     private com.google.protobuf.ByteString extraBinData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bytes extra_bin_data = 295;</code>
@@ -957,7 +957,7 @@ public final class PlayerLoginReqOuterClass {
     private volatile java.lang.Object birthday_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 1129;</code>
@@ -978,7 +978,7 @@ public final class PlayerLoginReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string birthday = 1129;</code>
@@ -1003,7 +1003,7 @@ public final class PlayerLoginReqOuterClass {
     private volatile java.lang.Object psnId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 382;</code>
@@ -1024,7 +1024,7 @@ public final class PlayerLoginReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string psn_id = 382;</code>
@@ -1049,7 +1049,7 @@ public final class PlayerLoginReqOuterClass {
     private volatile java.lang.Object securityLibraryMd5_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string security_library_md5 = 254;</code>
@@ -1070,7 +1070,7 @@ public final class PlayerLoginReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string security_library_md5 = 254;</code>
@@ -1095,7 +1095,7 @@ public final class PlayerLoginReqOuterClass {
     private volatile java.lang.Object token_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string token = 3;</code>
@@ -1116,7 +1116,7 @@ public final class PlayerLoginReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string token = 3;</code>
@@ -1141,7 +1141,7 @@ public final class PlayerLoginReqOuterClass {
     private volatile java.lang.Object platform_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string platform = 12;</code>
@@ -1162,7 +1162,7 @@ public final class PlayerLoginReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string platform = 12;</code>
@@ -1187,7 +1187,7 @@ public final class PlayerLoginReqOuterClass {
     private volatile java.lang.Object accountUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_uid = 11;</code>
@@ -1208,7 +1208,7 @@ public final class PlayerLoginReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_uid = 11;</code>
@@ -1233,7 +1233,7 @@ public final class PlayerLoginReqOuterClass {
     private com.google.protobuf.ByteString securityCmdReply_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bytes security_cmd_reply = 771;</code>
@@ -1248,7 +1248,7 @@ public final class PlayerLoginReqOuterClass {
     private com.google.protobuf.ByteString environmentErrorCode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bytes environment_error_code = 1766;</code>
@@ -1263,7 +1263,7 @@ public final class PlayerLoginReqOuterClass {
     private volatile java.lang.Object onlineId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 1068;</code>
@@ -1284,7 +1284,7 @@ public final class PlayerLoginReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string online_id = 1068;</code>
@@ -1309,7 +1309,7 @@ public final class PlayerLoginReqOuterClass {
     private int targetUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_uid = 5;</code>
@@ -1324,7 +1324,7 @@ public final class PlayerLoginReqOuterClass {
     private int channelId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 channel_id = 1539;</code>
@@ -1339,7 +1339,7 @@ public final class PlayerLoginReqOuterClass {
     private int clientDataVersion_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_data_version = 1729;</code>
@@ -1354,7 +1354,7 @@ public final class PlayerLoginReqOuterClass {
     private int tag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 tag = 1397;</code>
@@ -1369,7 +1369,7 @@ public final class PlayerLoginReqOuterClass {
     private int platformType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 platform_type = 4;</code>
@@ -1384,7 +1384,7 @@ public final class PlayerLoginReqOuterClass {
     private boolean isEditor_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_editor = 10;</code>
@@ -1399,7 +1399,7 @@ public final class PlayerLoginReqOuterClass {
     private boolean isGuest_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_guest = 2;</code>
@@ -1827,7 +1827,7 @@ public final class PlayerLoginReqOuterClass {
     private volatile java.lang.Object countryCode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 1160;</code>
@@ -1848,7 +1848,7 @@ public final class PlayerLoginReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string country_code = 1160;</code>
@@ -3286,7 +3286,7 @@ public final class PlayerLoginReqOuterClass {
       private com.google.protobuf.ByteString extraBinData_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bytes extra_bin_data = 295;</code>
@@ -3298,7 +3298,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bytes extra_bin_data = 295;</code>
@@ -3316,7 +3316,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bytes extra_bin_data = 295;</code>
@@ -3332,7 +3332,7 @@ public final class PlayerLoginReqOuterClass {
       private java.lang.Object birthday_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 1129;</code>
@@ -3352,7 +3352,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 1129;</code>
@@ -3373,7 +3373,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 1129;</code>
@@ -3392,7 +3392,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 1129;</code>
@@ -3406,7 +3406,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string birthday = 1129;</code>
@@ -3428,7 +3428,7 @@ public final class PlayerLoginReqOuterClass {
       private java.lang.Object psnId_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 382;</code>
@@ -3448,7 +3448,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 382;</code>
@@ -3469,7 +3469,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 382;</code>
@@ -3488,7 +3488,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 382;</code>
@@ -3502,7 +3502,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string psn_id = 382;</code>
@@ -3524,7 +3524,7 @@ public final class PlayerLoginReqOuterClass {
       private java.lang.Object securityLibraryMd5_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string security_library_md5 = 254;</code>
@@ -3544,7 +3544,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string security_library_md5 = 254;</code>
@@ -3565,7 +3565,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string security_library_md5 = 254;</code>
@@ -3584,7 +3584,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string security_library_md5 = 254;</code>
@@ -3598,7 +3598,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string security_library_md5 = 254;</code>
@@ -3620,7 +3620,7 @@ public final class PlayerLoginReqOuterClass {
       private java.lang.Object token_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string token = 3;</code>
@@ -3640,7 +3640,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string token = 3;</code>
@@ -3661,7 +3661,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string token = 3;</code>
@@ -3680,7 +3680,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string token = 3;</code>
@@ -3694,7 +3694,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string token = 3;</code>
@@ -3716,7 +3716,7 @@ public final class PlayerLoginReqOuterClass {
       private java.lang.Object platform_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string platform = 12;</code>
@@ -3736,7 +3736,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string platform = 12;</code>
@@ -3757,7 +3757,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string platform = 12;</code>
@@ -3776,7 +3776,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string platform = 12;</code>
@@ -3790,7 +3790,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string platform = 12;</code>
@@ -3812,7 +3812,7 @@ public final class PlayerLoginReqOuterClass {
       private java.lang.Object accountUid_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 11;</code>
@@ -3832,7 +3832,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 11;</code>
@@ -3853,7 +3853,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 11;</code>
@@ -3872,7 +3872,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 11;</code>
@@ -3886,7 +3886,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_uid = 11;</code>
@@ -3908,7 +3908,7 @@ public final class PlayerLoginReqOuterClass {
       private com.google.protobuf.ByteString securityCmdReply_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bytes security_cmd_reply = 771;</code>
@@ -3920,7 +3920,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bytes security_cmd_reply = 771;</code>
@@ -3938,7 +3938,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bytes security_cmd_reply = 771;</code>
@@ -3954,7 +3954,7 @@ public final class PlayerLoginReqOuterClass {
       private com.google.protobuf.ByteString environmentErrorCode_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bytes environment_error_code = 1766;</code>
@@ -3966,7 +3966,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bytes environment_error_code = 1766;</code>
@@ -3984,7 +3984,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bytes environment_error_code = 1766;</code>
@@ -4000,7 +4000,7 @@ public final class PlayerLoginReqOuterClass {
       private java.lang.Object onlineId_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 1068;</code>
@@ -4020,7 +4020,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 1068;</code>
@@ -4041,7 +4041,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 1068;</code>
@@ -4060,7 +4060,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 1068;</code>
@@ -4074,7 +4074,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string online_id = 1068;</code>
@@ -4096,7 +4096,7 @@ public final class PlayerLoginReqOuterClass {
       private int targetUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 5;</code>
@@ -4108,7 +4108,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 5;</code>
@@ -4123,7 +4123,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 5;</code>
@@ -4139,7 +4139,7 @@ public final class PlayerLoginReqOuterClass {
       private int channelId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 channel_id = 1539;</code>
@@ -4151,7 +4151,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 channel_id = 1539;</code>
@@ -4166,7 +4166,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 channel_id = 1539;</code>
@@ -4182,7 +4182,7 @@ public final class PlayerLoginReqOuterClass {
       private int clientDataVersion_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_data_version = 1729;</code>
@@ -4194,7 +4194,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_data_version = 1729;</code>
@@ -4209,7 +4209,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_data_version = 1729;</code>
@@ -4225,7 +4225,7 @@ public final class PlayerLoginReqOuterClass {
       private int tag_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 tag = 1397;</code>
@@ -4237,7 +4237,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 tag = 1397;</code>
@@ -4252,7 +4252,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 tag = 1397;</code>
@@ -4268,7 +4268,7 @@ public final class PlayerLoginReqOuterClass {
       private int platformType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 platform_type = 4;</code>
@@ -4280,7 +4280,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 platform_type = 4;</code>
@@ -4295,7 +4295,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 platform_type = 4;</code>
@@ -4311,7 +4311,7 @@ public final class PlayerLoginReqOuterClass {
       private boolean isEditor_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_editor = 10;</code>
@@ -4323,7 +4323,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_editor = 10;</code>
@@ -4338,7 +4338,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_editor = 10;</code>
@@ -4354,7 +4354,7 @@ public final class PlayerLoginReqOuterClass {
       private boolean isGuest_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_guest = 2;</code>
@@ -4366,7 +4366,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_guest = 2;</code>
@@ -4381,7 +4381,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_guest = 2;</code>
@@ -5373,7 +5373,7 @@ public final class PlayerLoginReqOuterClass {
       private java.lang.Object countryCode_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1160;</code>
@@ -5393,7 +5393,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1160;</code>
@@ -5414,7 +5414,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1160;</code>
@@ -5433,7 +5433,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1160;</code>
@@ -5447,7 +5447,7 @@ public final class PlayerLoginReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string country_code = 1160;</code>

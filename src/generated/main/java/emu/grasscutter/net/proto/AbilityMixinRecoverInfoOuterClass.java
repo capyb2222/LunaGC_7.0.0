@@ -35,7 +35,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -44,7 +44,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
         getMassivePropListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -52,7 +52,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo getMassivePropList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -60,7 +60,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     int getMassivePropListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -69,7 +69,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
         getMassivePropListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -79,7 +79,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -88,7 +88,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     boolean hasBreakoutSnapShot();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -97,7 +97,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot getBreakoutSnapShot();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -106,7 +106,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 data_list = 4;</code>
@@ -115,7 +115,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     java.util.List<java.lang.Integer> getDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 data_list = 4;</code>
@@ -124,7 +124,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     int getDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 data_list = 4;</code>
@@ -135,7 +135,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 local_id = 3;</code>
@@ -151,7 +151,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 1;</code>
@@ -160,7 +160,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     boolean hasInstancedAbilityId();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 1;</code>
@@ -170,7 +170,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 2;</code>
@@ -179,7 +179,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     boolean hasInstancedModifierId();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 2;</code>
@@ -422,7 +422,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo> massivePropList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -433,7 +433,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -445,7 +445,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -456,7 +456,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -467,7 +467,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -482,7 +482,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     private emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot breakoutSnapShot_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -494,7 +494,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -506,7 +506,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -520,7 +520,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     private com.google.protobuf.Internal.IntList dataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 data_list = 4;</code>
@@ -533,7 +533,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 data_list = 4;</code>
@@ -544,7 +544,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 data_list = 4;</code>
@@ -560,7 +560,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     private int localId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 local_id = 3;</code>
@@ -585,7 +585,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 1;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 1;</code>
@@ -597,7 +597,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_ability_id = 1;</code>
@@ -614,7 +614,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 2;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 2;</code>
@@ -626,7 +626,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 instanced_modifier_id = 2;</code>
@@ -1335,7 +1335,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1349,7 +1349,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1363,7 +1363,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1377,7 +1377,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1398,7 +1398,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1416,7 +1416,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1436,7 +1436,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1457,7 +1457,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1475,7 +1475,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1493,7 +1493,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1512,7 +1512,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1529,7 +1529,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1546,7 +1546,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1557,7 +1557,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1571,7 +1571,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1586,7 +1586,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1597,7 +1597,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1609,7 +1609,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
@@ -1638,7 +1638,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
           emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot, emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot.Builder, emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShotOrBuilder> breakoutSnapShotBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -1649,7 +1649,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -1664,7 +1664,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -1684,7 +1684,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -1702,7 +1702,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -1724,7 +1724,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -1742,7 +1742,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -1754,7 +1754,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -1769,7 +1769,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
@@ -1797,7 +1797,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 data_list = 4;</code>
@@ -1810,7 +1810,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 data_list = 4;</code>
@@ -1821,7 +1821,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 data_list = 4;</code>
@@ -1833,7 +1833,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 data_list = 4;</code>
@@ -1850,7 +1850,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 data_list = 4;</code>
@@ -1865,7 +1865,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 data_list = 4;</code>
@@ -1882,7 +1882,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 data_list = 4;</code>
@@ -1898,7 +1898,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       private int localId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 local_id = 3;</code>
@@ -1910,7 +1910,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 local_id = 3;</code>
@@ -1925,7 +1925,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 local_id = 3;</code>
@@ -1971,7 +1971,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 1;</code>
@@ -1982,7 +1982,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 1;</code>
@@ -1996,7 +1996,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 1;</code>
@@ -2011,7 +2011,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_ability_id = 1;</code>
@@ -2028,7 +2028,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 2;</code>
@@ -2039,7 +2039,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 2;</code>
@@ -2053,7 +2053,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 2;</code>
@@ -2068,7 +2068,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 instanced_modifier_id = 2;</code>

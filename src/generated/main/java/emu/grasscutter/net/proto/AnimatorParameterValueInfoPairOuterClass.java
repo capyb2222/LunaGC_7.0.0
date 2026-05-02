@@ -20,7 +20,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -29,7 +29,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
     boolean hasAnimatorPara();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -38,7 +38,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
     emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo getAnimatorPara();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -47,7 +47,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 name_id = 1;</code>
@@ -154,7 +154,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
     private emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo animatorPara_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -166,7 +166,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -178,7 +178,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -192,7 +192,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
     private int nameId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 name_id = 1;</code>
@@ -540,7 +540,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
           emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder> animatorParaBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -551,7 +551,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -566,7 +566,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -586,7 +586,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -604,7 +604,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -626,7 +626,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -644,7 +644,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -656,7 +656,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -671,7 +671,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo animator_para = 2;</code>
@@ -693,7 +693,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       private int nameId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 name_id = 1;</code>
@@ -705,7 +705,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 name_id = 1;</code>
@@ -720,7 +720,7 @@ public final class AnimatorParameterValueInfoPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 name_id = 1;</code>

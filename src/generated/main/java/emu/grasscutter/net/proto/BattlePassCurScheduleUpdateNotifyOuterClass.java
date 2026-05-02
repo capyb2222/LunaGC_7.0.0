@@ -20,7 +20,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -29,7 +29,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     boolean hasCurSchedule();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -38,7 +38,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule getCurSchedule();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -59,7 +59,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool is_viewed = 7;</code>
@@ -69,7 +69,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool have_cur_schedule = 1;</code>
@@ -195,7 +195,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     private emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule curSchedule_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -207,7 +207,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -219,7 +219,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -255,7 +255,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     private boolean isViewed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool is_viewed = 7;</code>
@@ -270,7 +270,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     private boolean haveCurSchedule_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool have_cur_schedule = 1;</code>
@@ -676,7 +676,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
           emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder> curScheduleBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -687,7 +687,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -702,7 +702,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -722,7 +722,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -740,7 +740,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -762,7 +762,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -780,7 +780,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -792,7 +792,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -807,7 +807,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 9;</code>
@@ -891,7 +891,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       private boolean isViewed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool is_viewed = 7;</code>
@@ -903,7 +903,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool is_viewed = 7;</code>
@@ -918,7 +918,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool is_viewed = 7;</code>
@@ -934,7 +934,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       private boolean haveCurSchedule_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool have_cur_schedule = 1;</code>
@@ -946,7 +946,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool have_cur_schedule = 1;</code>
@@ -961,7 +961,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool have_cur_schedule = 1;</code>

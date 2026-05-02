@@ -35,7 +35,7 @@ public final class ShapeBoxOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector extents = 5;</code>
@@ -44,7 +44,7 @@ public final class ShapeBoxOuterClass {
     boolean hasExtents();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector extents = 5;</code>
@@ -53,7 +53,7 @@ public final class ShapeBoxOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getExtents();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector extents = 5;</code>
@@ -77,7 +77,7 @@ public final class ShapeBoxOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -86,7 +86,7 @@ public final class ShapeBoxOuterClass {
     boolean hasCenter();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -95,7 +95,7 @@ public final class ShapeBoxOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -289,7 +289,7 @@ public final class ShapeBoxOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector extents_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector extents = 5;</code>
@@ -301,7 +301,7 @@ public final class ShapeBoxOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector extents = 5;</code>
@@ -313,7 +313,7 @@ public final class ShapeBoxOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector extents = 5;</code>
@@ -353,7 +353,7 @@ public final class ShapeBoxOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector center_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -365,7 +365,7 @@ public final class ShapeBoxOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -377,7 +377,7 @@ public final class ShapeBoxOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector center = 1;</code>
@@ -972,7 +972,7 @@ public final class ShapeBoxOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> extentsBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector extents = 5;</code>
@@ -983,7 +983,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector extents = 5;</code>
@@ -998,7 +998,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector extents = 5;</code>
@@ -1018,7 +1018,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector extents = 5;</code>
@@ -1036,7 +1036,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector extents = 5;</code>
@@ -1058,7 +1058,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector extents = 5;</code>
@@ -1076,7 +1076,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector extents = 5;</code>
@@ -1088,7 +1088,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector extents = 5;</code>
@@ -1103,7 +1103,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector extents = 5;</code>
@@ -1246,7 +1246,7 @@ public final class ShapeBoxOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> centerBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -1257,7 +1257,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -1272,7 +1272,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -1292,7 +1292,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -1310,7 +1310,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -1332,7 +1332,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -1350,7 +1350,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -1362,7 +1362,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector center = 1;</code>
@@ -1377,7 +1377,7 @@ public final class ShapeBoxOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector center = 1;</code>

@@ -20,7 +20,7 @@ public final class RogueStageInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -29,7 +29,7 @@ public final class RogueStageInfoOuterClass {
         getRuneRecordListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -37,7 +37,7 @@ public final class RogueStageInfoOuterClass {
     emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord getRuneRecordList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -45,7 +45,7 @@ public final class RogueStageInfoOuterClass {
     int getRuneRecordListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -54,7 +54,7 @@ public final class RogueStageInfoOuterClass {
         getRuneRecordListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -64,7 +64,7 @@ public final class RogueStageInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -73,7 +73,7 @@ public final class RogueStageInfoOuterClass {
     boolean hasAvatarTeam();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -82,7 +82,7 @@ public final class RogueStageInfoOuterClass {
     emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo getAvatarTeam();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -121,7 +121,7 @@ public final class RogueStageInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 11;</code>
@@ -131,7 +131,7 @@ public final class RogueStageInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_passed = 4;</code>
@@ -141,7 +141,7 @@ public final class RogueStageInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_taken_reward = 15;</code>
@@ -151,7 +151,7 @@ public final class RogueStageInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>uint32 cur_level = 12;</code>
@@ -161,7 +161,7 @@ public final class RogueStageInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stage_id = 9;</code>
@@ -327,7 +327,7 @@ public final class RogueStageInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.RoguelikeRuneRecordOuterClass.RoguelikeRuneRecord> runeRecordList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -338,7 +338,7 @@ public final class RogueStageInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -350,7 +350,7 @@ public final class RogueStageInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -361,7 +361,7 @@ public final class RogueStageInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -372,7 +372,7 @@ public final class RogueStageInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -387,7 +387,7 @@ public final class RogueStageInfoOuterClass {
     private emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo avatarTeam_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -399,7 +399,7 @@ public final class RogueStageInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -411,7 +411,7 @@ public final class RogueStageInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -480,7 +480,7 @@ public final class RogueStageInfoOuterClass {
     private boolean isOpen_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 11;</code>
@@ -495,7 +495,7 @@ public final class RogueStageInfoOuterClass {
     private boolean isPassed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_passed = 4;</code>
@@ -510,7 +510,7 @@ public final class RogueStageInfoOuterClass {
     private boolean isTakenReward_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_taken_reward = 15;</code>
@@ -525,7 +525,7 @@ public final class RogueStageInfoOuterClass {
     private int curLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>uint32 cur_level = 12;</code>
@@ -540,7 +540,7 @@ public final class RogueStageInfoOuterClass {
     private int stageId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stage_id = 9;</code>
@@ -1111,7 +1111,7 @@ public final class RogueStageInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1125,7 +1125,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1139,7 +1139,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1153,7 +1153,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1174,7 +1174,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1192,7 +1192,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1212,7 +1212,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1233,7 +1233,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1251,7 +1251,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1269,7 +1269,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1288,7 +1288,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1305,7 +1305,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1322,7 +1322,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1333,7 +1333,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1347,7 +1347,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1362,7 +1362,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1373,7 +1373,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1385,7 +1385,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeRuneRecord rune_record_list = 2;</code>
@@ -1414,7 +1414,7 @@ public final class RogueStageInfoOuterClass {
           emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo, emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfo.Builder, emu.grasscutter.net.proto.RogueShowAvatarTeamInfoOuterClass.RogueShowAvatarTeamInfoOrBuilder> avatarTeamBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -1425,7 +1425,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -1440,7 +1440,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -1460,7 +1460,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -1478,7 +1478,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -1500,7 +1500,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -1518,7 +1518,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -1530,7 +1530,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -1545,7 +1545,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueShowAvatarTeamInfo avatar_team = 3;</code>
@@ -1722,7 +1722,7 @@ public final class RogueStageInfoOuterClass {
       private boolean isOpen_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 11;</code>
@@ -1734,7 +1734,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 11;</code>
@@ -1749,7 +1749,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 11;</code>
@@ -1765,7 +1765,7 @@ public final class RogueStageInfoOuterClass {
       private boolean isPassed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_passed = 4;</code>
@@ -1777,7 +1777,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_passed = 4;</code>
@@ -1792,7 +1792,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_passed = 4;</code>
@@ -1808,7 +1808,7 @@ public final class RogueStageInfoOuterClass {
       private boolean isTakenReward_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_taken_reward = 15;</code>
@@ -1820,7 +1820,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_taken_reward = 15;</code>
@@ -1835,7 +1835,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_taken_reward = 15;</code>
@@ -1851,7 +1851,7 @@ public final class RogueStageInfoOuterClass {
       private int curLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>uint32 cur_level = 12;</code>
@@ -1863,7 +1863,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>uint32 cur_level = 12;</code>
@@ -1878,7 +1878,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>uint32 cur_level = 12;</code>
@@ -1894,7 +1894,7 @@ public final class RogueStageInfoOuterClass {
       private int stageId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_id = 9;</code>
@@ -1906,7 +1906,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_id = 9;</code>
@@ -1921,7 +1921,7 @@ public final class RogueStageInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_id = 9;</code>

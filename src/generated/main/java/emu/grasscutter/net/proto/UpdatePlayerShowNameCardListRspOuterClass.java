@@ -20,7 +20,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -29,7 +29,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
     java.util.List<java.lang.Integer> getShowNameCardIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -38,7 +38,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
     int getShowNameCardIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -49,7 +49,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 15;</code>
@@ -174,7 +174,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
     private com.google.protobuf.Internal.IntList showNameCardIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -187,7 +187,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -198,7 +198,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -214,7 +214,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 15;</code>
@@ -588,7 +588,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -601,7 +601,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -612,7 +612,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -624,7 +624,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -641,7 +641,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -656,7 +656,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -673,7 +673,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 9;</code>
@@ -689,7 +689,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 15;</code>
@@ -701,7 +701,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 15;</code>
@@ -716,7 +716,7 @@ public final class UpdatePlayerShowNameCardListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 15;</code>

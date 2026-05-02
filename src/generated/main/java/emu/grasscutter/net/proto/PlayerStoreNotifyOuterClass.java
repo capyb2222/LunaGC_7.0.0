@@ -20,7 +20,7 @@ public final class PlayerStoreNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 weight_limit = 2;</code>
@@ -30,7 +30,7 @@ public final class PlayerStoreNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.StoreType store_type = 6;</code>
@@ -39,7 +39,7 @@ public final class PlayerStoreNotifyOuterClass {
     int getStoreTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.StoreType store_type = 6;</code>
@@ -49,7 +49,7 @@ public final class PlayerStoreNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -58,7 +58,7 @@ public final class PlayerStoreNotifyOuterClass {
         getItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -66,7 +66,7 @@ public final class PlayerStoreNotifyOuterClass {
     emu.grasscutter.net.proto.ItemOuterClass.Item getItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -74,7 +74,7 @@ public final class PlayerStoreNotifyOuterClass {
     int getItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -83,7 +83,7 @@ public final class PlayerStoreNotifyOuterClass {
         getItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -198,7 +198,7 @@ public final class PlayerStoreNotifyOuterClass {
     private int weightLimit_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 weight_limit = 2;</code>
@@ -213,7 +213,7 @@ public final class PlayerStoreNotifyOuterClass {
     private int storeType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.StoreType store_type = 6;</code>
@@ -224,7 +224,7 @@ public final class PlayerStoreNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>.StoreType store_type = 6;</code>
@@ -240,7 +240,7 @@ public final class PlayerStoreNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> itemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -251,7 +251,7 @@ public final class PlayerStoreNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -263,7 +263,7 @@ public final class PlayerStoreNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -274,7 +274,7 @@ public final class PlayerStoreNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -285,7 +285,7 @@ public final class PlayerStoreNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>repeated .Item item_list = 3;</code>
@@ -674,7 +674,7 @@ public final class PlayerStoreNotifyOuterClass {
       private int weightLimit_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 weight_limit = 2;</code>
@@ -686,7 +686,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 weight_limit = 2;</code>
@@ -701,7 +701,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 weight_limit = 2;</code>
@@ -717,7 +717,7 @@ public final class PlayerStoreNotifyOuterClass {
       private int storeType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.StoreType store_type = 6;</code>
@@ -728,7 +728,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.StoreType store_type = 6;</code>
@@ -743,7 +743,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.StoreType store_type = 6;</code>
@@ -757,7 +757,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.StoreType store_type = 6;</code>
@@ -775,7 +775,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>.StoreType store_type = 6;</code>
@@ -802,7 +802,7 @@ public final class PlayerStoreNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -816,7 +816,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -830,7 +830,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -844,7 +844,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -865,7 +865,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -883,7 +883,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -903,7 +903,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -924,7 +924,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -942,7 +942,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -960,7 +960,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -979,7 +979,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -996,7 +996,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -1013,7 +1013,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -1024,7 +1024,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -1038,7 +1038,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -1053,7 +1053,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -1064,7 +1064,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>
@@ -1076,7 +1076,7 @@ public final class PlayerStoreNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>repeated .Item item_list = 3;</code>

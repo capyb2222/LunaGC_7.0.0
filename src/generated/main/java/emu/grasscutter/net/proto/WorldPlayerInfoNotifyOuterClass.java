@@ -20,7 +20,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -29,7 +29,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         getPlayerInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -37,7 +37,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getPlayerInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -45,7 +45,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     int getPlayerInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -54,7 +54,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         getPlayerInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -64,7 +64,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -73,7 +73,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         getPlayerWidgetInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -81,7 +81,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo getPlayerWidgetInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -89,7 +89,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     int getPlayerWidgetInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -98,7 +98,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
         getPlayerWidgetInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -108,7 +108,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 player_uid_list = 5;</code>
@@ -117,7 +117,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     java.util.List<java.lang.Integer> getPlayerUidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 player_uid_list = 5;</code>
@@ -126,7 +126,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     int getPlayerUidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 player_uid_list = 5;</code>
@@ -272,7 +272,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> playerInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -283,7 +283,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -295,7 +295,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -306,7 +306,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -317,7 +317,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -332,7 +332,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.PlayerWidgetInfoOuterClass.PlayerWidgetInfo> playerWidgetInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -343,7 +343,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -355,7 +355,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -366,7 +366,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -377,7 +377,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -392,7 +392,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     private com.google.protobuf.Internal.IntList playerUidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 player_uid_list = 5;</code>
@@ -405,7 +405,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 player_uid_list = 5;</code>
@@ -416,7 +416,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 player_uid_list = 5;</code>
@@ -888,7 +888,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -902,7 +902,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -916,7 +916,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -930,7 +930,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -951,7 +951,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -969,7 +969,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -989,7 +989,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1010,7 +1010,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1028,7 +1028,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1046,7 +1046,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1065,7 +1065,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1082,7 +1082,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1099,7 +1099,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1110,7 +1110,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1124,7 +1124,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1139,7 +1139,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1150,7 +1150,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1162,7 +1162,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 4;</code>
@@ -1200,7 +1200,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1214,7 +1214,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1228,7 +1228,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1242,7 +1242,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1263,7 +1263,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1281,7 +1281,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1301,7 +1301,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1322,7 +1322,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1340,7 +1340,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1358,7 +1358,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1377,7 +1377,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1394,7 +1394,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1411,7 +1411,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1422,7 +1422,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1436,7 +1436,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1451,7 +1451,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1462,7 +1462,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1474,7 +1474,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .PlayerWidgetInfo player_widget_info_list = 7;</code>
@@ -1507,7 +1507,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 player_uid_list = 5;</code>
@@ -1520,7 +1520,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 player_uid_list = 5;</code>
@@ -1531,7 +1531,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 player_uid_list = 5;</code>
@@ -1543,7 +1543,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 player_uid_list = 5;</code>
@@ -1560,7 +1560,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 player_uid_list = 5;</code>
@@ -1575,7 +1575,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 player_uid_list = 5;</code>
@@ -1592,7 +1592,7 @@ public final class WorldPlayerInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 player_uid_list = 5;</code>

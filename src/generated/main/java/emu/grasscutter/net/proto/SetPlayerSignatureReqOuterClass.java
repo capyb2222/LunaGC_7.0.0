@@ -20,7 +20,7 @@ public final class SetPlayerSignatureReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string signature = 14;</code>
@@ -29,7 +29,7 @@ public final class SetPlayerSignatureReqOuterClass {
     java.lang.String getSignature();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string signature = 14;</code>
@@ -130,7 +130,7 @@ public final class SetPlayerSignatureReqOuterClass {
     private volatile java.lang.Object signature_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string signature = 14;</code>
@@ -151,7 +151,7 @@ public final class SetPlayerSignatureReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string signature = 14;</code>
@@ -481,7 +481,7 @@ public final class SetPlayerSignatureReqOuterClass {
       private java.lang.Object signature_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 14;</code>
@@ -501,7 +501,7 @@ public final class SetPlayerSignatureReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 14;</code>
@@ -522,7 +522,7 @@ public final class SetPlayerSignatureReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 14;</code>
@@ -541,7 +541,7 @@ public final class SetPlayerSignatureReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 14;</code>
@@ -555,7 +555,7 @@ public final class SetPlayerSignatureReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string signature = 14;</code>

@@ -20,7 +20,7 @@ public final class MassivePropParamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -29,7 +29,7 @@ public final class MassivePropParamOuterClass {
     java.util.List<java.lang.Integer> getReactionInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -38,7 +38,7 @@ public final class MassivePropParamOuterClass {
     int getReactionInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -49,7 +49,7 @@ public final class MassivePropParamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated float param_list = 3;</code>
@@ -58,7 +58,7 @@ public final class MassivePropParamOuterClass {
     java.util.List<java.lang.Float> getParamListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated float param_list = 3;</code>
@@ -67,7 +67,7 @@ public final class MassivePropParamOuterClass {
     int getParamListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated float param_list = 3;</code>
@@ -78,7 +78,7 @@ public final class MassivePropParamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 type = 1;</code>
@@ -88,7 +88,7 @@ public final class MassivePropParamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 sync_flag = 4;</code>
@@ -238,7 +238,7 @@ public final class MassivePropParamOuterClass {
     private com.google.protobuf.Internal.IntList reactionInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -251,7 +251,7 @@ public final class MassivePropParamOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -262,7 +262,7 @@ public final class MassivePropParamOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -278,7 +278,7 @@ public final class MassivePropParamOuterClass {
     private com.google.protobuf.Internal.FloatList paramList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated float param_list = 3;</code>
@@ -291,7 +291,7 @@ public final class MassivePropParamOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated float param_list = 3;</code>
@@ -302,7 +302,7 @@ public final class MassivePropParamOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated float param_list = 3;</code>
@@ -318,7 +318,7 @@ public final class MassivePropParamOuterClass {
     private int type_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 type = 1;</code>
@@ -333,7 +333,7 @@ public final class MassivePropParamOuterClass {
     private int syncFlag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 sync_flag = 4;</code>
@@ -760,7 +760,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -773,7 +773,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -784,7 +784,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -796,7 +796,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -813,7 +813,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -828,7 +828,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -845,7 +845,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 reaction_info_list = 2;</code>
@@ -867,7 +867,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated float param_list = 3;</code>
@@ -880,7 +880,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated float param_list = 3;</code>
@@ -891,7 +891,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated float param_list = 3;</code>
@@ -903,7 +903,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated float param_list = 3;</code>
@@ -920,7 +920,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated float param_list = 3;</code>
@@ -935,7 +935,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated float param_list = 3;</code>
@@ -952,7 +952,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated float param_list = 3;</code>
@@ -968,7 +968,7 @@ public final class MassivePropParamOuterClass {
       private int type_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 type = 1;</code>
@@ -980,7 +980,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 type = 1;</code>
@@ -995,7 +995,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 type = 1;</code>
@@ -1011,7 +1011,7 @@ public final class MassivePropParamOuterClass {
       private int syncFlag_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 sync_flag = 4;</code>
@@ -1023,7 +1023,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 sync_flag = 4;</code>
@@ -1038,7 +1038,7 @@ public final class MassivePropParamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 sync_flag = 4;</code>

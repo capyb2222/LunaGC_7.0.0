@@ -20,7 +20,7 @@ public final class AddQuestContentProgressReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
+     *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
      * </pre>
      *
      * <code>uint32 content_type = 2;</code>
@@ -30,7 +30,7 @@ public final class AddQuestContentProgressReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
+     *6.5.5 //6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
      * </pre>
      *
      * <code>uint32 add_progress = 3;</code>
@@ -40,7 +40,7 @@ public final class AddQuestContentProgressReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 40
+     *6.5.5 //6.4.0 //6.5.0          // offset: 40
      * </pre>
      *
      * <code>uint32 param = 5;</code>
@@ -144,7 +144,7 @@ public final class AddQuestContentProgressReqOuterClass {
     private int contentType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
+     *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
      * </pre>
      *
      * <code>uint32 content_type = 2;</code>
@@ -159,7 +159,7 @@ public final class AddQuestContentProgressReqOuterClass {
     private int addProgress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
+     *6.5.5 //6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
      * </pre>
      *
      * <code>uint32 add_progress = 3;</code>
@@ -174,7 +174,7 @@ public final class AddQuestContentProgressReqOuterClass {
     private int param_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 40
+     *6.5.5 //6.4.0 //6.5.0          // offset: 40
      * </pre>
      *
      * <code>uint32 param = 5;</code>
@@ -524,7 +524,7 @@ public final class AddQuestContentProgressReqOuterClass {
       private int contentType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
        * </pre>
        *
        * <code>uint32 content_type = 2;</code>
@@ -536,7 +536,7 @@ public final class AddQuestContentProgressReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
        * </pre>
        *
        * <code>uint32 content_type = 2;</code>
@@ -551,7 +551,7 @@ public final class AddQuestContentProgressReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
        * </pre>
        *
        * <code>uint32 content_type = 2;</code>
@@ -567,7 +567,7 @@ public final class AddQuestContentProgressReqOuterClass {
       private int addProgress_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
+       *6.5.5 //6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
        * </pre>
        *
        * <code>uint32 add_progress = 3;</code>
@@ -579,7 +579,7 @@ public final class AddQuestContentProgressReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
+       *6.5.5 //6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
        * </pre>
        *
        * <code>uint32 add_progress = 3;</code>
@@ -594,7 +594,7 @@ public final class AddQuestContentProgressReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
+       *6.5.5 //6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
        * </pre>
        *
        * <code>uint32 add_progress = 3;</code>
@@ -610,7 +610,7 @@ public final class AddQuestContentProgressReqOuterClass {
       private int param_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 40
+       *6.5.5 //6.4.0 //6.5.0          // offset: 40
        * </pre>
        *
        * <code>uint32 param = 5;</code>
@@ -622,7 +622,7 @@ public final class AddQuestContentProgressReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 40
+       *6.5.5 //6.4.0 //6.5.0          // offset: 40
        * </pre>
        *
        * <code>uint32 param = 5;</code>
@@ -637,7 +637,7 @@ public final class AddQuestContentProgressReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 40
+       *6.5.5 //6.4.0 //6.5.0          // offset: 40
        * </pre>
        *
        * <code>uint32 param = 5;</code>

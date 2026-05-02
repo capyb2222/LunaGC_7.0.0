@@ -20,7 +20,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -29,7 +29,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
         getRoutineInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -37,7 +37,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo getRoutineInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -45,7 +45,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     int getRoutineInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -54,7 +54,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
         getRoutineInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -161,7 +161,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.PlayerRoutineInfoOuterClass.PlayerRoutineInfo> routineInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -172,7 +172,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -184,7 +184,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -195,7 +195,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -206,7 +206,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -577,7 +577,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -591,7 +591,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -605,7 +605,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -619,7 +619,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -640,7 +640,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -658,7 +658,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -678,7 +678,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -699,7 +699,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -717,7 +717,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -735,7 +735,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -754,7 +754,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -771,7 +771,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -788,7 +788,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -799,7 +799,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -813,7 +813,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -828,7 +828,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -839,7 +839,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>
@@ -851,7 +851,7 @@ public final class PlayerRoutineDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .PlayerRoutineInfo routine_info_list = 12;</code>

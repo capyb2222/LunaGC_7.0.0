@@ -20,7 +20,7 @@ public final class FurnitureMakeDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>fixed32 begin_time = 4;</code>
@@ -42,7 +42,7 @@ public final class FurnitureMakeDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 make_id = 14;</code>
@@ -52,7 +52,7 @@ public final class FurnitureMakeDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 2;</code>
@@ -62,7 +62,7 @@ public final class FurnitureMakeDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 index = 9;</code>
@@ -181,7 +181,7 @@ public final class FurnitureMakeDataOuterClass {
     private int beginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>fixed32 begin_time = 4;</code>
@@ -218,7 +218,7 @@ public final class FurnitureMakeDataOuterClass {
     private int makeId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 make_id = 14;</code>
@@ -233,7 +233,7 @@ public final class FurnitureMakeDataOuterClass {
     private int avatarId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 2;</code>
@@ -248,7 +248,7 @@ public final class FurnitureMakeDataOuterClass {
     private int index_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 index = 9;</code>
@@ -649,7 +649,7 @@ public final class FurnitureMakeDataOuterClass {
       private int beginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>fixed32 begin_time = 4;</code>
@@ -661,7 +661,7 @@ public final class FurnitureMakeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>fixed32 begin_time = 4;</code>
@@ -676,7 +676,7 @@ public final class FurnitureMakeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>fixed32 begin_time = 4;</code>
@@ -754,7 +754,7 @@ public final class FurnitureMakeDataOuterClass {
       private int makeId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 make_id = 14;</code>
@@ -766,7 +766,7 @@ public final class FurnitureMakeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 make_id = 14;</code>
@@ -781,7 +781,7 @@ public final class FurnitureMakeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 make_id = 14;</code>
@@ -797,7 +797,7 @@ public final class FurnitureMakeDataOuterClass {
       private int avatarId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 2;</code>
@@ -809,7 +809,7 @@ public final class FurnitureMakeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 2;</code>
@@ -824,7 +824,7 @@ public final class FurnitureMakeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 2;</code>
@@ -840,7 +840,7 @@ public final class FurnitureMakeDataOuterClass {
       private int index_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 index = 9;</code>
@@ -852,7 +852,7 @@ public final class FurnitureMakeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 index = 9;</code>
@@ -867,7 +867,7 @@ public final class FurnitureMakeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 index = 9;</code>

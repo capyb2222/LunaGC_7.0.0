@@ -20,7 +20,7 @@ public final class BattlePassAllDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -29,7 +29,7 @@ public final class BattlePassAllDataNotifyOuterClass {
         getMissionListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -37,7 +37,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission getMissionList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -45,7 +45,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     int getMissionListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -54,7 +54,7 @@ public final class BattlePassAllDataNotifyOuterClass {
         getMissionListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -64,7 +64,7 @@ public final class BattlePassAllDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -73,7 +73,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     boolean hasCurSchedule();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -82,7 +82,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule getCurSchedule();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -91,7 +91,7 @@ public final class BattlePassAllDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool have_cur_schedule = 9;</code>
@@ -101,7 +101,7 @@ public final class BattlePassAllDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool is_viewed = 12;</code>
@@ -242,7 +242,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission> missionList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -253,7 +253,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -265,7 +265,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -276,7 +276,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -287,7 +287,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -302,7 +302,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     private emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule curSchedule_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -314,7 +314,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -326,7 +326,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -340,7 +340,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     private boolean haveCurSchedule_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool have_cur_schedule = 9;</code>
@@ -355,7 +355,7 @@ public final class BattlePassAllDataNotifyOuterClass {
     private boolean isViewed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool is_viewed = 12;</code>
@@ -820,7 +820,7 @@ public final class BattlePassAllDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -834,7 +834,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -848,7 +848,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -862,7 +862,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -883,7 +883,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -901,7 +901,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -921,7 +921,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -942,7 +942,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -960,7 +960,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -978,7 +978,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -997,7 +997,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -1014,7 +1014,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -1031,7 +1031,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -1042,7 +1042,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -1056,7 +1056,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -1071,7 +1071,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -1082,7 +1082,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -1094,7 +1094,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BattlePassMission mission_list = 1;</code>
@@ -1123,7 +1123,7 @@ public final class BattlePassAllDataNotifyOuterClass {
           emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassSchedule.Builder, emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder> curScheduleBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -1134,7 +1134,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -1149,7 +1149,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -1169,7 +1169,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -1187,7 +1187,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -1209,7 +1209,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -1227,7 +1227,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -1239,7 +1239,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -1254,7 +1254,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassSchedule cur_schedule = 5;</code>
@@ -1276,7 +1276,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       private boolean haveCurSchedule_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool have_cur_schedule = 9;</code>
@@ -1288,7 +1288,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool have_cur_schedule = 9;</code>
@@ -1303,7 +1303,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool have_cur_schedule = 9;</code>
@@ -1319,7 +1319,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       private boolean isViewed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool is_viewed = 12;</code>
@@ -1331,7 +1331,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool is_viewed = 12;</code>
@@ -1346,7 +1346,7 @@ public final class BattlePassAllDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool is_viewed = 12;</code>

@@ -55,7 +55,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 progress = 13;</code>
@@ -262,7 +262,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
     private int progress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 progress = 13;</code>
@@ -876,7 +876,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
       private int progress_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 progress = 13;</code>
@@ -888,7 +888,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 progress = 13;</code>
@@ -903,7 +903,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 progress = 13;</code>

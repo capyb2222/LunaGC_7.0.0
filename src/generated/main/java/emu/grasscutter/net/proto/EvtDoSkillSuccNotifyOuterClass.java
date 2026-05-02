@@ -20,7 +20,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector forward = 14;</code>
@@ -29,7 +29,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     boolean hasForward();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector forward = 14;</code>
@@ -38,7 +38,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getForward();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector forward = 14;</code>
@@ -47,7 +47,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 13;</code>
@@ -56,7 +56,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     int getForwardTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 13;</code>
@@ -66,7 +66,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 caster_id = 2;</code>
@@ -76,7 +76,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_id = 6;</code>
@@ -199,7 +199,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector forward_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector forward = 14;</code>
@@ -211,7 +211,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector forward = 14;</code>
@@ -223,7 +223,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector forward = 14;</code>
@@ -237,7 +237,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     private int forwardType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 13;</code>
@@ -248,7 +248,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 13;</code>
@@ -264,7 +264,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     private int casterId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 caster_id = 2;</code>
@@ -279,7 +279,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
     private int skillId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_id = 6;</code>
@@ -664,7 +664,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> forwardBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector forward = 14;</code>
@@ -675,7 +675,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector forward = 14;</code>
@@ -690,7 +690,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector forward = 14;</code>
@@ -710,7 +710,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector forward = 14;</code>
@@ -728,7 +728,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector forward = 14;</code>
@@ -750,7 +750,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector forward = 14;</code>
@@ -768,7 +768,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector forward = 14;</code>
@@ -780,7 +780,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector forward = 14;</code>
@@ -795,7 +795,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector forward = 14;</code>
@@ -817,7 +817,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       private int forwardType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 13;</code>
@@ -828,7 +828,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 13;</code>
@@ -843,7 +843,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 13;</code>
@@ -857,7 +857,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 13;</code>
@@ -875,7 +875,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 13;</code>
@@ -891,7 +891,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       private int casterId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 caster_id = 2;</code>
@@ -903,7 +903,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 caster_id = 2;</code>
@@ -918,7 +918,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 caster_id = 2;</code>
@@ -934,7 +934,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       private int skillId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_id = 6;</code>
@@ -946,7 +946,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_id = 6;</code>
@@ -961,7 +961,7 @@ public final class EvtDoSkillSuccNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_id = 6;</code>

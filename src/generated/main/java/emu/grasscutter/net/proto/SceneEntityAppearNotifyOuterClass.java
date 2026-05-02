@@ -20,7 +20,7 @@ public final class SceneEntityAppearNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
      * </pre>
      *
      * <code>uint32 param = 4;</code>
@@ -30,7 +30,7 @@ public final class SceneEntityAppearNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
      * </pre>
      *
      * <code>.VisionType appear_type = 1;</code>
@@ -39,7 +39,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     int getAppearTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
      * </pre>
      *
      * <code>.VisionType appear_type = 1;</code>
@@ -49,7 +49,7 @@ public final class SceneEntityAppearNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -58,7 +58,7 @@ public final class SceneEntityAppearNotifyOuterClass {
         getEntityListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -66,7 +66,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo getEntityList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -74,7 +74,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     int getEntityListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -83,7 +83,7 @@ public final class SceneEntityAppearNotifyOuterClass {
         getEntityListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -202,7 +202,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     private int param_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
      * </pre>
      *
      * <code>uint32 param = 4;</code>
@@ -217,7 +217,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     private int appearType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
      * </pre>
      *
      * <code>.VisionType appear_type = 1;</code>
@@ -228,7 +228,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
      * </pre>
      *
      * <code>.VisionType appear_type = 1;</code>
@@ -244,7 +244,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo> entityList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -255,7 +255,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -267,7 +267,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -278,7 +278,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -289,7 +289,7 @@ public final class SceneEntityAppearNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
      * </pre>
      *
      * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -682,7 +682,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       private int param_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
        * </pre>
        *
        * <code>uint32 param = 4;</code>
@@ -694,7 +694,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
        * </pre>
        *
        * <code>uint32 param = 4;</code>
@@ -709,7 +709,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; param count is 54. *&#47;
        * </pre>
        *
        * <code>uint32 param = 4;</code>
@@ -725,7 +725,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       private int appearType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
        * </pre>
        *
        * <code>.VisionType appear_type = 1;</code>
@@ -736,7 +736,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
        * </pre>
        *
        * <code>.VisionType appear_type = 1;</code>
@@ -751,7 +751,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
        * </pre>
        *
        * <code>.VisionType appear_type = 1;</code>
@@ -765,7 +765,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
        * </pre>
        *
        * <code>.VisionType appear_type = 1;</code>
@@ -783,7 +783,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; appear_type count is 3. *&#47;
        * </pre>
        *
        * <code>.VisionType appear_type = 1;</code>
@@ -810,7 +810,7 @@ public final class SceneEntityAppearNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -824,7 +824,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -838,7 +838,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -852,7 +852,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -873,7 +873,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -891,7 +891,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -911,7 +911,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -932,7 +932,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -950,7 +950,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -968,7 +968,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -987,7 +987,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -1004,7 +1004,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -1021,7 +1021,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -1032,7 +1032,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -1046,7 +1046,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -1061,7 +1061,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -1072,7 +1072,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>
@@ -1084,7 +1084,7 @@ public final class SceneEntityAppearNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_list count is 5. *&#47;
        * </pre>
        *
        * <code>repeated .SceneEntityInfo entity_list = 10;</code>

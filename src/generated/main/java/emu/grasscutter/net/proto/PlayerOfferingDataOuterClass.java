@@ -20,7 +20,7 @@ public final class PlayerOfferingDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -29,7 +29,7 @@ public final class PlayerOfferingDataOuterClass {
     java.util.List<java.lang.Integer> getTakenLevelRewardListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -38,7 +38,7 @@ public final class PlayerOfferingDataOuterClass {
     int getTakenLevelRewardListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -83,7 +83,7 @@ public final class PlayerOfferingDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 offering_id = 9;</code>
@@ -93,7 +93,7 @@ public final class PlayerOfferingDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 level = 1;</code>
@@ -103,7 +103,7 @@ public final class PlayerOfferingDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_first_interact = 4;</code>
@@ -269,7 +269,7 @@ public final class PlayerOfferingDataOuterClass {
     private com.google.protobuf.Internal.IntList takenLevelRewardList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -282,7 +282,7 @@ public final class PlayerOfferingDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -293,7 +293,7 @@ public final class PlayerOfferingDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -390,7 +390,7 @@ public final class PlayerOfferingDataOuterClass {
     private int offeringId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 offering_id = 9;</code>
@@ -405,7 +405,7 @@ public final class PlayerOfferingDataOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 level = 1;</code>
@@ -420,7 +420,7 @@ public final class PlayerOfferingDataOuterClass {
     private boolean isFirstInteract_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_first_interact = 4;</code>
@@ -902,7 +902,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -915,7 +915,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -926,7 +926,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -938,7 +938,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -955,7 +955,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -970,7 +970,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -987,7 +987,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 taken_level_reward_list = 11;</code>
@@ -1131,7 +1131,7 @@ public final class PlayerOfferingDataOuterClass {
       private int offeringId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 offering_id = 9;</code>
@@ -1143,7 +1143,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 offering_id = 9;</code>
@@ -1158,7 +1158,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 offering_id = 9;</code>
@@ -1174,7 +1174,7 @@ public final class PlayerOfferingDataOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level = 1;</code>
@@ -1186,7 +1186,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level = 1;</code>
@@ -1201,7 +1201,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level = 1;</code>
@@ -1217,7 +1217,7 @@ public final class PlayerOfferingDataOuterClass {
       private boolean isFirstInteract_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_first_interact = 4;</code>
@@ -1229,7 +1229,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_first_interact = 4;</code>
@@ -1244,7 +1244,7 @@ public final class PlayerOfferingDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_first_interact = 4;</code>

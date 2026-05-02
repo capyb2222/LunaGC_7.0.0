@@ -20,7 +20,7 @@ public final class SetPlayerNameReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string nick_name = 12;</code>
@@ -29,7 +29,7 @@ public final class SetPlayerNameReqOuterClass {
     java.lang.String getNickName();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string nick_name = 12;</code>
@@ -130,7 +130,7 @@ public final class SetPlayerNameReqOuterClass {
     private volatile java.lang.Object nickName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string nick_name = 12;</code>
@@ -151,7 +151,7 @@ public final class SetPlayerNameReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string nick_name = 12;</code>
@@ -481,7 +481,7 @@ public final class SetPlayerNameReqOuterClass {
       private java.lang.Object nickName_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nick_name = 12;</code>
@@ -501,7 +501,7 @@ public final class SetPlayerNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nick_name = 12;</code>
@@ -522,7 +522,7 @@ public final class SetPlayerNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nick_name = 12;</code>
@@ -541,7 +541,7 @@ public final class SetPlayerNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nick_name = 12;</code>
@@ -555,7 +555,7 @@ public final class SetPlayerNameReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string nick_name = 12;</code>

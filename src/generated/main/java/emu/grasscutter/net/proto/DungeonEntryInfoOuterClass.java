@@ -20,7 +20,7 @@ public final class DungeonEntryInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -29,7 +29,7 @@ public final class DungeonEntryInfoOuterClass {
     boolean hasWeeklyBossResinDiscountInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -38,7 +38,7 @@ public final class DungeonEntryInfoOuterClass {
     emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo getWeeklyBossResinDiscountInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -53,7 +53,7 @@ public final class DungeonEntryInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_passed = 13;</code>
@@ -63,7 +63,7 @@ public final class DungeonEntryInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 next_refresh_time = 1;</code>
@@ -79,7 +79,7 @@ public final class DungeonEntryInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dungeon_id = 10;</code>
@@ -206,7 +206,7 @@ public final class DungeonEntryInfoOuterClass {
     private emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo weeklyBossResinDiscountInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -218,7 +218,7 @@ public final class DungeonEntryInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -230,7 +230,7 @@ public final class DungeonEntryInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -255,7 +255,7 @@ public final class DungeonEntryInfoOuterClass {
     private boolean isPassed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_passed = 13;</code>
@@ -270,7 +270,7 @@ public final class DungeonEntryInfoOuterClass {
     private int nextRefreshTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 next_refresh_time = 1;</code>
@@ -296,7 +296,7 @@ public final class DungeonEntryInfoOuterClass {
     private int dungeonId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dungeon_id = 10;</code>
@@ -713,7 +713,7 @@ public final class DungeonEntryInfoOuterClass {
           emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfo.Builder, emu.grasscutter.net.proto.WeeklyBossResinDiscountInfoOuterClass.WeeklyBossResinDiscountInfoOrBuilder> weeklyBossResinDiscountInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -724,7 +724,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -739,7 +739,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -759,7 +759,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -777,7 +777,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -799,7 +799,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -817,7 +817,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -829,7 +829,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -844,7 +844,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 8;</code>
@@ -897,7 +897,7 @@ public final class DungeonEntryInfoOuterClass {
       private boolean isPassed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_passed = 13;</code>
@@ -909,7 +909,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_passed = 13;</code>
@@ -924,7 +924,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_passed = 13;</code>
@@ -940,7 +940,7 @@ public final class DungeonEntryInfoOuterClass {
       private int nextRefreshTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 next_refresh_time = 1;</code>
@@ -952,7 +952,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 next_refresh_time = 1;</code>
@@ -967,7 +967,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 next_refresh_time = 1;</code>
@@ -1014,7 +1014,7 @@ public final class DungeonEntryInfoOuterClass {
       private int dungeonId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dungeon_id = 10;</code>
@@ -1026,7 +1026,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dungeon_id = 10;</code>
@@ -1041,7 +1041,7 @@ public final class DungeonEntryInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dungeon_id = 10;</code>

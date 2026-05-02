@@ -26,7 +26,7 @@ public final class MusicGameRecordOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 max_combo = 9;</code>
@@ -147,7 +147,7 @@ public final class MusicGameRecordOuterClass {
     private int maxCombo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 max_combo = 9;</code>
@@ -540,7 +540,7 @@ public final class MusicGameRecordOuterClass {
       private int maxCombo_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 max_combo = 9;</code>
@@ -552,7 +552,7 @@ public final class MusicGameRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 max_combo = 9;</code>
@@ -567,7 +567,7 @@ public final class MusicGameRecordOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 max_combo = 9;</code>

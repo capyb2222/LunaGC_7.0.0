@@ -20,7 +20,7 @@ public final class PlayerEnterDungeonReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -29,7 +29,7 @@ public final class PlayerEnterDungeonReqOuterClass {
     boolean hasEnterPosInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -38,7 +38,7 @@ public final class PlayerEnterDungeonReqOuterClass {
     emu.grasscutter.net.proto.DungeonEnterPosInfoOuterClass.DungeonEnterPosInfo getEnterPosInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -47,7 +47,7 @@ public final class PlayerEnterDungeonReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 point_id = 5;</code>
@@ -57,7 +57,7 @@ public final class PlayerEnterDungeonReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dungeon_id = 8;</code>
@@ -173,7 +173,7 @@ public final class PlayerEnterDungeonReqOuterClass {
     private emu.grasscutter.net.proto.DungeonEnterPosInfoOuterClass.DungeonEnterPosInfo enterPosInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -185,7 +185,7 @@ public final class PlayerEnterDungeonReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -197,7 +197,7 @@ public final class PlayerEnterDungeonReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -211,7 +211,7 @@ public final class PlayerEnterDungeonReqOuterClass {
     private int pointId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 point_id = 5;</code>
@@ -226,7 +226,7 @@ public final class PlayerEnterDungeonReqOuterClass {
     private int dungeonId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dungeon_id = 8;</code>
@@ -595,7 +595,7 @@ public final class PlayerEnterDungeonReqOuterClass {
           emu.grasscutter.net.proto.DungeonEnterPosInfoOuterClass.DungeonEnterPosInfo, emu.grasscutter.net.proto.DungeonEnterPosInfoOuterClass.DungeonEnterPosInfo.Builder, emu.grasscutter.net.proto.DungeonEnterPosInfoOuterClass.DungeonEnterPosInfoOrBuilder> enterPosInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -606,7 +606,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -621,7 +621,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -641,7 +641,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -659,7 +659,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -681,7 +681,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -699,7 +699,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -711,7 +711,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -726,7 +726,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DungeonEnterPosInfo enter_pos_info = 13;</code>
@@ -748,7 +748,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       private int pointId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 5;</code>
@@ -760,7 +760,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 5;</code>
@@ -775,7 +775,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 5;</code>
@@ -791,7 +791,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       private int dungeonId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dungeon_id = 8;</code>
@@ -803,7 +803,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dungeon_id = 8;</code>
@@ -818,7 +818,7 @@ public final class PlayerEnterDungeonReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dungeon_id = 8;</code>

@@ -20,7 +20,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -29,7 +29,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
         getSatiationDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -37,7 +37,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
     emu.grasscutter.net.proto.AvatarSatiationDataOuterClass.AvatarSatiationData getSatiationDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -45,7 +45,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
     int getSatiationDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -54,7 +54,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
         getSatiationDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -161,7 +161,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AvatarSatiationDataOuterClass.AvatarSatiationData> satiationDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -172,7 +172,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -184,7 +184,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -195,7 +195,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -206,7 +206,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -577,7 +577,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -591,7 +591,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -605,7 +605,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -619,7 +619,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -640,7 +640,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -658,7 +658,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -678,7 +678,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -699,7 +699,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -717,7 +717,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -735,7 +735,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -754,7 +754,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -771,7 +771,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -788,7 +788,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -799,7 +799,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -813,7 +813,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -828,7 +828,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -839,7 +839,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>
@@ -851,7 +851,7 @@ public final class AvatarSatiationDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarSatiationData satiation_data_list = 4;</code>

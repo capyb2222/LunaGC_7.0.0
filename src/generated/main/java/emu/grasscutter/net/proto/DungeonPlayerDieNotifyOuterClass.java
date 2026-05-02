@@ -20,7 +20,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -28,7 +28,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     int getStrengthenPointDataMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -43,7 +43,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     getStrengthenPointDataMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -52,7 +52,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     getStrengthenPointDataMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -63,7 +63,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         emu.grasscutter.net.proto.StrengthenPointDataOuterClass.StrengthenPointData defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -89,7 +89,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dungeon_id = 6;</code>
@@ -99,7 +99,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 15;</code>
@@ -108,7 +108,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     int getDieTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 15;</code>
@@ -124,7 +124,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 revive_count = 13;</code>
@@ -134,7 +134,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 wait_time = 11;</code>
@@ -144,7 +144,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 14;</code>
@@ -153,7 +153,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     boolean hasMonsterId();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 14;</code>
@@ -163,7 +163,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 8;</code>
@@ -172,7 +172,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     boolean hasGadgetId();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 8;</code>
@@ -408,7 +408,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -430,7 +430,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -442,7 +442,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -459,7 +459,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -507,7 +507,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     private int dungeonId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dungeon_id = 6;</code>
@@ -522,7 +522,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     private int dieType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 15;</code>
@@ -533,7 +533,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 15;</code>
@@ -560,7 +560,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     private int reviveCount_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 revive_count = 13;</code>
@@ -575,7 +575,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     private int waitTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 wait_time = 11;</code>
@@ -589,7 +589,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     public static final int MONSTER_ID_FIELD_NUMBER = 14;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 14;</code>
@@ -601,7 +601,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 14;</code>
@@ -618,7 +618,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     public static final int GADGET_ID_FIELD_NUMBER = 8;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 8;</code>
@@ -630,7 +630,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 8;</code>
@@ -1206,7 +1206,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -1228,7 +1228,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -1240,7 +1240,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -1257,7 +1257,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -1282,7 +1282,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -1305,7 +1305,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -1321,7 +1321,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .StrengthenPointData&gt; strengthen_point_data_map = 9;</code>
@@ -1456,7 +1456,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       private int dungeonId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dungeon_id = 6;</code>
@@ -1468,7 +1468,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dungeon_id = 6;</code>
@@ -1483,7 +1483,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dungeon_id = 6;</code>
@@ -1499,7 +1499,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       private int dieType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 15;</code>
@@ -1510,7 +1510,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 15;</code>
@@ -1525,7 +1525,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 15;</code>
@@ -1539,7 +1539,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 15;</code>
@@ -1557,7 +1557,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 15;</code>
@@ -1604,7 +1604,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       private int reviveCount_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 revive_count = 13;</code>
@@ -1616,7 +1616,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 revive_count = 13;</code>
@@ -1631,7 +1631,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 revive_count = 13;</code>
@@ -1647,7 +1647,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       private int waitTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 wait_time = 11;</code>
@@ -1659,7 +1659,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 wait_time = 11;</code>
@@ -1674,7 +1674,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 wait_time = 11;</code>
@@ -1689,7 +1689,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 14;</code>
@@ -1700,7 +1700,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 14;</code>
@@ -1714,7 +1714,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 14;</code>
@@ -1729,7 +1729,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 14;</code>
@@ -1746,7 +1746,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 8;</code>
@@ -1757,7 +1757,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 8;</code>
@@ -1771,7 +1771,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 8;</code>
@@ -1786,7 +1786,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 8;</code>

@@ -20,7 +20,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 type = 1;</code>
@@ -30,7 +30,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 13;</code>
@@ -40,7 +40,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool bool1 = 9;</code>
@@ -50,7 +50,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 combo = 12;</code>
@@ -60,7 +60,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 choose_player_count = 16;</code>
@@ -70,7 +70,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 duration = 10;</code>
@@ -80,7 +80,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 param5 = 7;</code>
@@ -90,7 +90,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 param6 = 8;</code>
@@ -100,7 +100,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 param2 = 4;</code>
@@ -110,7 +110,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 15;</code>
@@ -120,7 +120,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 param1 = 3;</code>
@@ -130,7 +130,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 param4 = 6;</code>
@@ -140,7 +140,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 end_time = 11;</code>
@@ -150,7 +150,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 param3 = 5;</code>
@@ -160,7 +160,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 2;</code>
@@ -170,7 +170,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 skill_type = 14;</code>
@@ -339,7 +339,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int type_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 type = 1;</code>
@@ -354,7 +354,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int peerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 13;</code>
@@ -369,7 +369,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private boolean bool1_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool bool1 = 9;</code>
@@ -384,7 +384,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int combo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 combo = 12;</code>
@@ -399,7 +399,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int choosePlayerCount_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 choose_player_count = 16;</code>
@@ -414,7 +414,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int duration_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 duration = 10;</code>
@@ -429,7 +429,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int param5_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 param5 = 7;</code>
@@ -444,7 +444,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int param6_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 param6 = 8;</code>
@@ -459,7 +459,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int param2_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 param2 = 4;</code>
@@ -474,7 +474,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 15;</code>
@@ -489,7 +489,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int param1_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 param1 = 3;</code>
@@ -504,7 +504,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int param4_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 param4 = 6;</code>
@@ -519,7 +519,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int endTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 end_time = 11;</code>
@@ -534,7 +534,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int param3_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 param3 = 5;</code>
@@ -549,7 +549,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int id_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 2;</code>
@@ -564,7 +564,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
     private int skillType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 skill_type = 14;</code>
@@ -1136,7 +1136,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int type_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 type = 1;</code>
@@ -1148,7 +1148,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 type = 1;</code>
@@ -1163,7 +1163,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 type = 1;</code>
@@ -1179,7 +1179,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int peerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 13;</code>
@@ -1191,7 +1191,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 13;</code>
@@ -1206,7 +1206,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 13;</code>
@@ -1222,7 +1222,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private boolean bool1_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool bool1 = 9;</code>
@@ -1234,7 +1234,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool bool1 = 9;</code>
@@ -1249,7 +1249,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool bool1 = 9;</code>
@@ -1265,7 +1265,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int combo_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 combo = 12;</code>
@@ -1277,7 +1277,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 combo = 12;</code>
@@ -1292,7 +1292,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 combo = 12;</code>
@@ -1308,7 +1308,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int choosePlayerCount_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 choose_player_count = 16;</code>
@@ -1320,7 +1320,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 choose_player_count = 16;</code>
@@ -1335,7 +1335,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 choose_player_count = 16;</code>
@@ -1351,7 +1351,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int duration_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 duration = 10;</code>
@@ -1363,7 +1363,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 duration = 10;</code>
@@ -1378,7 +1378,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 duration = 10;</code>
@@ -1394,7 +1394,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int param5_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 param5 = 7;</code>
@@ -1406,7 +1406,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 param5 = 7;</code>
@@ -1421,7 +1421,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 param5 = 7;</code>
@@ -1437,7 +1437,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int param6_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 param6 = 8;</code>
@@ -1449,7 +1449,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 param6 = 8;</code>
@@ -1464,7 +1464,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 param6 = 8;</code>
@@ -1480,7 +1480,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int param2_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param2 = 4;</code>
@@ -1492,7 +1492,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param2 = 4;</code>
@@ -1507,7 +1507,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param2 = 4;</code>
@@ -1523,7 +1523,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 15;</code>
@@ -1535,7 +1535,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 15;</code>
@@ -1550,7 +1550,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 15;</code>
@@ -1566,7 +1566,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int param1_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param1 = 3;</code>
@@ -1578,7 +1578,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param1 = 3;</code>
@@ -1593,7 +1593,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param1 = 3;</code>
@@ -1609,7 +1609,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int param4_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param4 = 6;</code>
@@ -1621,7 +1621,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param4 = 6;</code>
@@ -1636,7 +1636,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param4 = 6;</code>
@@ -1652,7 +1652,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int endTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 end_time = 11;</code>
@@ -1664,7 +1664,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 end_time = 11;</code>
@@ -1679,7 +1679,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 end_time = 11;</code>
@@ -1695,7 +1695,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int param3_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param3 = 5;</code>
@@ -1707,7 +1707,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param3 = 5;</code>
@@ -1722,7 +1722,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 param3 = 5;</code>
@@ -1738,7 +1738,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int id_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 2;</code>
@@ -1750,7 +1750,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 2;</code>
@@ -1765,7 +1765,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 2;</code>
@@ -1781,7 +1781,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       private int skillType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 skill_type = 14;</code>
@@ -1793,7 +1793,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 skill_type = 14;</code>
@@ -1808,7 +1808,7 @@ public final class BreakoutPhysicalObjectModifierOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 skill_type = 14;</code>

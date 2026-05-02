@@ -20,7 +20,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string token = 7;</code>
@@ -29,7 +29,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getToken();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string token = 7;</code>
@@ -40,7 +40,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string sign = 1842;</code>
@@ -49,7 +49,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getSign();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string sign = 1842;</code>
@@ -60,7 +60,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -69,7 +69,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.util.List<java.lang.Integer> getFinishCollectionIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -78,7 +78,7 @@ public final class GetPlayerTokenRspOuterClass {
     int getFinishCollectionIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -89,7 +89,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>string msg = 11;</code>
@@ -98,7 +98,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getMsg();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>string msg = 11;</code>
@@ -109,7 +109,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>bytes extra_bin_data = 6;</code>
@@ -119,7 +119,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string client_ip_str = 1673;</code>
@@ -128,7 +128,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getClientIpStr();
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string client_ip_str = 1673;</code>
@@ -139,7 +139,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string birthday = 1707;</code>
@@ -148,7 +148,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getBirthday();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string birthday = 1707;</code>
@@ -159,7 +159,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string psn_id = 384;</code>
@@ -168,7 +168,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getPsnId();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string psn_id = 384;</code>
@@ -179,7 +179,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 2040;</code>
@@ -188,7 +188,7 @@ public final class GetPlayerTokenRspOuterClass {
     boolean hasStopServer();
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 2040;</code>
@@ -197,7 +197,7 @@ public final class GetPlayerTokenRspOuterClass {
     emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getStopServer();
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 2040;</code>
@@ -206,7 +206,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string secret_key = 14;</code>
@@ -215,7 +215,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getSecretKey();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string secret_key = 14;</code>
@@ -226,7 +226,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string game_biz = 2042;</code>
@@ -235,7 +235,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getGameBiz();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string game_biz = 2042;</code>
@@ -246,7 +246,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string account_uid = 15;</code>
@@ -255,7 +255,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getAccountUid();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string account_uid = 15;</code>
@@ -266,7 +266,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string server_rand_key = 1212;</code>
@@ -275,7 +275,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getServerRandKey();
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string server_rand_key = 1212;</code>
@@ -286,7 +286,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string country_code = 959;</code>
@@ -295,7 +295,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getCountryCode();
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string country_code = 959;</code>
@@ -306,7 +306,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string client_version_random_key = 1883;</code>
@@ -315,7 +315,7 @@ public final class GetPlayerTokenRspOuterClass {
     java.lang.String getClientVersionRandomKey();
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string client_version_random_key = 1883;</code>
@@ -326,7 +326,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>bytes security_cmd_buffer = 3;</code>
@@ -336,7 +336,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 uid = 5;</code>
@@ -346,7 +346,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>bool is_guest = 2;</code>
@@ -356,7 +356,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 tag = 430;</code>
@@ -366,7 +366,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>int32 retcode = 12;</code>
@@ -376,7 +376,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint64 secret_key_seed = 13;</code>
@@ -386,7 +386,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 channel_id = 1407;</code>
@@ -396,7 +396,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 key_id = 1871;</code>
@@ -406,7 +406,7 @@ public final class GetPlayerTokenRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 platform_type = 10;</code>
@@ -783,7 +783,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object token_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string token = 7;</code>
@@ -804,7 +804,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string token = 7;</code>
@@ -829,7 +829,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object sign_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string sign = 1842;</code>
@@ -850,7 +850,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string sign = 1842;</code>
@@ -875,7 +875,7 @@ public final class GetPlayerTokenRspOuterClass {
     private com.google.protobuf.Internal.IntList finishCollectionIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -888,7 +888,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -899,7 +899,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -915,7 +915,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object msg_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>string msg = 11;</code>
@@ -936,7 +936,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>string msg = 11;</code>
@@ -961,7 +961,7 @@ public final class GetPlayerTokenRspOuterClass {
     private com.google.protobuf.ByteString extraBinData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>bytes extra_bin_data = 6;</code>
@@ -976,7 +976,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object clientIpStr_;
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string client_ip_str = 1673;</code>
@@ -997,7 +997,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string client_ip_str = 1673;</code>
@@ -1022,7 +1022,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object birthday_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string birthday = 1707;</code>
@@ -1043,7 +1043,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string birthday = 1707;</code>
@@ -1068,7 +1068,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object psnId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string psn_id = 384;</code>
@@ -1089,7 +1089,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>string psn_id = 384;</code>
@@ -1114,7 +1114,7 @@ public final class GetPlayerTokenRspOuterClass {
     private emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo stopServer_;
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 2040;</code>
@@ -1126,7 +1126,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 2040;</code>
@@ -1138,7 +1138,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0  
+     *6.5.5 //6.4.0 //6.5.0  
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 2040;</code>
@@ -1152,7 +1152,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object secretKey_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string secret_key = 14;</code>
@@ -1173,7 +1173,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string secret_key = 14;</code>
@@ -1198,7 +1198,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object gameBiz_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string game_biz = 2042;</code>
@@ -1219,7 +1219,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string game_biz = 2042;</code>
@@ -1244,7 +1244,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object accountUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string account_uid = 15;</code>
@@ -1265,7 +1265,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string account_uid = 15;</code>
@@ -1290,7 +1290,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object serverRandKey_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string server_rand_key = 1212;</code>
@@ -1311,7 +1311,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>string server_rand_key = 1212;</code>
@@ -1336,7 +1336,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object countryCode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string country_code = 959;</code>
@@ -1357,7 +1357,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string country_code = 959;</code>
@@ -1382,7 +1382,7 @@ public final class GetPlayerTokenRspOuterClass {
     private volatile java.lang.Object clientVersionRandomKey_;
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string client_version_random_key = 1883;</code>
@@ -1403,7 +1403,7 @@ public final class GetPlayerTokenRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>string client_version_random_key = 1883;</code>
@@ -1428,7 +1428,7 @@ public final class GetPlayerTokenRspOuterClass {
     private com.google.protobuf.ByteString securityCmdBuffer_;
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>bytes security_cmd_buffer = 3;</code>
@@ -1443,7 +1443,7 @@ public final class GetPlayerTokenRspOuterClass {
     private int uid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 uid = 5;</code>
@@ -1458,7 +1458,7 @@ public final class GetPlayerTokenRspOuterClass {
     private boolean isGuest_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>bool is_guest = 2;</code>
@@ -1473,7 +1473,7 @@ public final class GetPlayerTokenRspOuterClass {
     private int tag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 tag = 430;</code>
@@ -1488,7 +1488,7 @@ public final class GetPlayerTokenRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>int32 retcode = 12;</code>
@@ -1503,7 +1503,7 @@ public final class GetPlayerTokenRspOuterClass {
     private long secretKeySeed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint64 secret_key_seed = 13;</code>
@@ -1518,7 +1518,7 @@ public final class GetPlayerTokenRspOuterClass {
     private int channelId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 channel_id = 1407;</code>
@@ -1533,7 +1533,7 @@ public final class GetPlayerTokenRspOuterClass {
     private int keyId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 key_id = 1871;</code>
@@ -1548,7 +1548,7 @@ public final class GetPlayerTokenRspOuterClass {
     private int platformType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 platform_type = 10;</code>
@@ -2591,7 +2591,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object token_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string token = 7;</code>
@@ -2611,7 +2611,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string token = 7;</code>
@@ -2632,7 +2632,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string token = 7;</code>
@@ -2651,7 +2651,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string token = 7;</code>
@@ -2665,7 +2665,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string token = 7;</code>
@@ -2687,7 +2687,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object sign_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string sign = 1842;</code>
@@ -2707,7 +2707,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string sign = 1842;</code>
@@ -2728,7 +2728,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string sign = 1842;</code>
@@ -2747,7 +2747,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string sign = 1842;</code>
@@ -2761,7 +2761,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string sign = 1842;</code>
@@ -2789,7 +2789,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -2802,7 +2802,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -2813,7 +2813,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -2825,7 +2825,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -2842,7 +2842,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -2857,7 +2857,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -2874,7 +2874,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 finish_collection_id_list = 1222;</code>
@@ -2890,7 +2890,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object msg_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -2910,7 +2910,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -2931,7 +2931,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -2950,7 +2950,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -2964,7 +2964,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -2986,7 +2986,7 @@ public final class GetPlayerTokenRspOuterClass {
       private com.google.protobuf.ByteString extraBinData_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>bytes extra_bin_data = 6;</code>
@@ -2998,7 +2998,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>bytes extra_bin_data = 6;</code>
@@ -3016,7 +3016,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>bytes extra_bin_data = 6;</code>
@@ -3032,7 +3032,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object clientIpStr_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_ip_str = 1673;</code>
@@ -3052,7 +3052,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_ip_str = 1673;</code>
@@ -3073,7 +3073,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_ip_str = 1673;</code>
@@ -3092,7 +3092,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_ip_str = 1673;</code>
@@ -3106,7 +3106,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_ip_str = 1673;</code>
@@ -3128,7 +3128,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object birthday_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string birthday = 1707;</code>
@@ -3148,7 +3148,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string birthday = 1707;</code>
@@ -3169,7 +3169,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string birthday = 1707;</code>
@@ -3188,7 +3188,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string birthday = 1707;</code>
@@ -3202,7 +3202,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string birthday = 1707;</code>
@@ -3224,7 +3224,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object psnId_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string psn_id = 384;</code>
@@ -3244,7 +3244,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string psn_id = 384;</code>
@@ -3265,7 +3265,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string psn_id = 384;</code>
@@ -3284,7 +3284,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string psn_id = 384;</code>
@@ -3298,7 +3298,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>string psn_id = 384;</code>
@@ -3322,7 +3322,7 @@ public final class GetPlayerTokenRspOuterClass {
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder> stopServerBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 2040;</code>
@@ -3333,7 +3333,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 2040;</code>
@@ -3348,7 +3348,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 2040;</code>
@@ -3368,7 +3368,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 2040;</code>
@@ -3386,7 +3386,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 2040;</code>
@@ -3408,7 +3408,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 2040;</code>
@@ -3426,7 +3426,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 2040;</code>
@@ -3438,7 +3438,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 2040;</code>
@@ -3453,7 +3453,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0  
+       *6.5.5 //6.4.0 //6.5.0  
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 2040;</code>
@@ -3475,7 +3475,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object secretKey_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string secret_key = 14;</code>
@@ -3495,7 +3495,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string secret_key = 14;</code>
@@ -3516,7 +3516,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string secret_key = 14;</code>
@@ -3535,7 +3535,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string secret_key = 14;</code>
@@ -3549,7 +3549,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string secret_key = 14;</code>
@@ -3571,7 +3571,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object gameBiz_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string game_biz = 2042;</code>
@@ -3591,7 +3591,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string game_biz = 2042;</code>
@@ -3612,7 +3612,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string game_biz = 2042;</code>
@@ -3631,7 +3631,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string game_biz = 2042;</code>
@@ -3645,7 +3645,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string game_biz = 2042;</code>
@@ -3667,7 +3667,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object accountUid_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string account_uid = 15;</code>
@@ -3687,7 +3687,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string account_uid = 15;</code>
@@ -3708,7 +3708,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string account_uid = 15;</code>
@@ -3727,7 +3727,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string account_uid = 15;</code>
@@ -3741,7 +3741,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string account_uid = 15;</code>
@@ -3763,7 +3763,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object serverRandKey_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string server_rand_key = 1212;</code>
@@ -3783,7 +3783,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string server_rand_key = 1212;</code>
@@ -3804,7 +3804,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string server_rand_key = 1212;</code>
@@ -3823,7 +3823,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string server_rand_key = 1212;</code>
@@ -3837,7 +3837,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>string server_rand_key = 1212;</code>
@@ -3859,7 +3859,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object countryCode_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string country_code = 959;</code>
@@ -3879,7 +3879,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string country_code = 959;</code>
@@ -3900,7 +3900,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string country_code = 959;</code>
@@ -3919,7 +3919,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string country_code = 959;</code>
@@ -3933,7 +3933,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string country_code = 959;</code>
@@ -3955,7 +3955,7 @@ public final class GetPlayerTokenRspOuterClass {
       private java.lang.Object clientVersionRandomKey_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_version_random_key = 1883;</code>
@@ -3975,7 +3975,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_version_random_key = 1883;</code>
@@ -3996,7 +3996,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_version_random_key = 1883;</code>
@@ -4015,7 +4015,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_version_random_key = 1883;</code>
@@ -4029,7 +4029,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>string client_version_random_key = 1883;</code>
@@ -4051,7 +4051,7 @@ public final class GetPlayerTokenRspOuterClass {
       private com.google.protobuf.ByteString securityCmdBuffer_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>bytes security_cmd_buffer = 3;</code>
@@ -4063,7 +4063,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>bytes security_cmd_buffer = 3;</code>
@@ -4081,7 +4081,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>bytes security_cmd_buffer = 3;</code>
@@ -4097,7 +4097,7 @@ public final class GetPlayerTokenRspOuterClass {
       private int uid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 uid = 5;</code>
@@ -4109,7 +4109,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 uid = 5;</code>
@@ -4124,7 +4124,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 uid = 5;</code>
@@ -4140,7 +4140,7 @@ public final class GetPlayerTokenRspOuterClass {
       private boolean isGuest_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>bool is_guest = 2;</code>
@@ -4152,7 +4152,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>bool is_guest = 2;</code>
@@ -4167,7 +4167,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>bool is_guest = 2;</code>
@@ -4183,7 +4183,7 @@ public final class GetPlayerTokenRspOuterClass {
       private int tag_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 tag = 430;</code>
@@ -4195,7 +4195,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 tag = 430;</code>
@@ -4210,7 +4210,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 tag = 430;</code>
@@ -4226,7 +4226,7 @@ public final class GetPlayerTokenRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -4238,7 +4238,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -4253,7 +4253,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -4269,7 +4269,7 @@ public final class GetPlayerTokenRspOuterClass {
       private long secretKeySeed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint64 secret_key_seed = 13;</code>
@@ -4281,7 +4281,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint64 secret_key_seed = 13;</code>
@@ -4296,7 +4296,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint64 secret_key_seed = 13;</code>
@@ -4312,7 +4312,7 @@ public final class GetPlayerTokenRspOuterClass {
       private int channelId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 channel_id = 1407;</code>
@@ -4324,7 +4324,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 channel_id = 1407;</code>
@@ -4339,7 +4339,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 channel_id = 1407;</code>
@@ -4355,7 +4355,7 @@ public final class GetPlayerTokenRspOuterClass {
       private int keyId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 key_id = 1871;</code>
@@ -4367,7 +4367,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 key_id = 1871;</code>
@@ -4382,7 +4382,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 key_id = 1871;</code>
@@ -4398,7 +4398,7 @@ public final class GetPlayerTokenRspOuterClass {
       private int platformType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 platform_type = 10;</code>
@@ -4410,7 +4410,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 platform_type = 10;</code>
@@ -4425,7 +4425,7 @@ public final class GetPlayerTokenRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 platform_type = 10;</code>

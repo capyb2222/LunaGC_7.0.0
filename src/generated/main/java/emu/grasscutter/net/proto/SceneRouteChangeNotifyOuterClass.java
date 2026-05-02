@@ -44,7 +44,7 @@ public final class SceneRouteChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 scene_id = 4;</code>
@@ -54,7 +54,7 @@ public final class SceneRouteChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 scene_time = 5;</code>
@@ -211,7 +211,7 @@ public final class SceneRouteChangeNotifyOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 scene_id = 4;</code>
@@ -226,7 +226,7 @@ public final class SceneRouteChangeNotifyOuterClass {
     private int sceneTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 scene_time = 5;</code>
@@ -860,7 +860,7 @@ public final class SceneRouteChangeNotifyOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_id = 4;</code>
@@ -872,7 +872,7 @@ public final class SceneRouteChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_id = 4;</code>
@@ -887,7 +887,7 @@ public final class SceneRouteChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_id = 4;</code>
@@ -903,7 +903,7 @@ public final class SceneRouteChangeNotifyOuterClass {
       private int sceneTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_time = 5;</code>
@@ -915,7 +915,7 @@ public final class SceneRouteChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_time = 5;</code>
@@ -930,7 +930,7 @@ public final class SceneRouteChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_time = 5;</code>

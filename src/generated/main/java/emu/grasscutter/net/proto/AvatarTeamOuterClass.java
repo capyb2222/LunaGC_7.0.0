@@ -20,7 +20,7 @@ public final class AvatarTeamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -29,7 +29,7 @@ public final class AvatarTeamOuterClass {
     java.util.List<java.lang.Long> getAvatarGuidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -38,7 +38,7 @@ public final class AvatarTeamOuterClass {
     int getAvatarGuidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -49,7 +49,7 @@ public final class AvatarTeamOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string team_name = 14;</code>
@@ -58,7 +58,7 @@ public final class AvatarTeamOuterClass {
     java.lang.String getTeamName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string team_name = 14;</code>
@@ -181,7 +181,7 @@ public final class AvatarTeamOuterClass {
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -194,7 +194,7 @@ public final class AvatarTeamOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -205,7 +205,7 @@ public final class AvatarTeamOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -221,7 +221,7 @@ public final class AvatarTeamOuterClass {
     private volatile java.lang.Object teamName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string team_name = 14;</code>
@@ -242,7 +242,7 @@ public final class AvatarTeamOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string team_name = 14;</code>
@@ -621,7 +621,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -634,7 +634,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -645,7 +645,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -657,7 +657,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -674,7 +674,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -689,7 +689,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -706,7 +706,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 3;</code>
@@ -722,7 +722,7 @@ public final class AvatarTeamOuterClass {
       private java.lang.Object teamName_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string team_name = 14;</code>
@@ -742,7 +742,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string team_name = 14;</code>
@@ -763,7 +763,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string team_name = 14;</code>
@@ -782,7 +782,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string team_name = 14;</code>
@@ -796,7 +796,7 @@ public final class AvatarTeamOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string team_name = 14;</code>

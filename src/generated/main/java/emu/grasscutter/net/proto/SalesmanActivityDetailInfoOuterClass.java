@@ -66,7 +66,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.DEMBMADKBAL status = 12;</code>
@@ -75,7 +75,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
     int getStatusValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.DEMBMADKBAL status = 12;</code>
@@ -365,7 +365,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
     private int status_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.DEMBMADKBAL status = 12;</code>
@@ -376,7 +376,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.DEMBMADKBAL status = 12;</code>
@@ -1109,7 +1109,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       private int status_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.DEMBMADKBAL status = 12;</code>
@@ -1120,7 +1120,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.DEMBMADKBAL status = 12;</code>
@@ -1135,7 +1135,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.DEMBMADKBAL status = 12;</code>
@@ -1149,7 +1149,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.DEMBMADKBAL status = 12;</code>
@@ -1167,7 +1167,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.DEMBMADKBAL status = 12;</code>

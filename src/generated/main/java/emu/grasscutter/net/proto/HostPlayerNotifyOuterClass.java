@@ -20,7 +20,7 @@ public final class HostPlayerNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 host_peer_id = 12;</code>
@@ -30,7 +30,7 @@ public final class HostPlayerNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 host_uid = 5;</code>
@@ -133,7 +133,7 @@ public final class HostPlayerNotifyOuterClass {
     private int hostPeerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 host_peer_id = 12;</code>
@@ -148,7 +148,7 @@ public final class HostPlayerNotifyOuterClass {
     private int hostUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 host_uid = 5;</code>
@@ -485,7 +485,7 @@ public final class HostPlayerNotifyOuterClass {
       private int hostPeerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 host_peer_id = 12;</code>
@@ -497,7 +497,7 @@ public final class HostPlayerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 host_peer_id = 12;</code>
@@ -512,7 +512,7 @@ public final class HostPlayerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 host_peer_id = 12;</code>
@@ -528,7 +528,7 @@ public final class HostPlayerNotifyOuterClass {
       private int hostUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 host_uid = 5;</code>
@@ -540,7 +540,7 @@ public final class HostPlayerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 host_uid = 5;</code>
@@ -555,7 +555,7 @@ public final class HostPlayerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 host_uid = 5;</code>

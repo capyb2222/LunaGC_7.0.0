@@ -32,7 +32,7 @@ public final class BlockInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 data_version = 2;</code>
@@ -42,7 +42,7 @@ public final class BlockInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 block_id = 1;</code>
@@ -174,7 +174,7 @@ public final class BlockInfoOuterClass {
     private int dataVersion_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 data_version = 2;</code>
@@ -189,7 +189,7 @@ public final class BlockInfoOuterClass {
     private int blockId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 block_id = 1;</code>
@@ -622,7 +622,7 @@ public final class BlockInfoOuterClass {
       private int dataVersion_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 data_version = 2;</code>
@@ -634,7 +634,7 @@ public final class BlockInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 data_version = 2;</code>
@@ -649,7 +649,7 @@ public final class BlockInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 data_version = 2;</code>
@@ -665,7 +665,7 @@ public final class BlockInfoOuterClass {
       private int blockId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 block_id = 1;</code>
@@ -677,7 +677,7 @@ public final class BlockInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 block_id = 1;</code>
@@ -692,7 +692,7 @@ public final class BlockInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 block_id = 1;</code>

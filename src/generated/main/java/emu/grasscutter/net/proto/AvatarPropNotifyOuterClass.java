@@ -20,7 +20,7 @@ public final class AvatarPropNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -28,7 +28,7 @@ public final class AvatarPropNotifyOuterClass {
     int getPropMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -43,7 +43,7 @@ public final class AvatarPropNotifyOuterClass {
     getPropMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -52,7 +52,7 @@ public final class AvatarPropNotifyOuterClass {
     getPropMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -63,7 +63,7 @@ public final class AvatarPropNotifyOuterClass {
         long defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -74,7 +74,7 @@ public final class AvatarPropNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 12;</code>
@@ -222,7 +222,7 @@ public final class AvatarPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -244,7 +244,7 @@ public final class AvatarPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -256,7 +256,7 @@ public final class AvatarPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -273,7 +273,7 @@ public final class AvatarPropNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -295,7 +295,7 @@ public final class AvatarPropNotifyOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 12;</code>
@@ -692,7 +692,7 @@ public final class AvatarPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -714,7 +714,7 @@ public final class AvatarPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -726,7 +726,7 @@ public final class AvatarPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -743,7 +743,7 @@ public final class AvatarPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -768,7 +768,7 @@ public final class AvatarPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -791,7 +791,7 @@ public final class AvatarPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -807,7 +807,7 @@ public final class AvatarPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, int64&gt; prop_map = 14;</code>
@@ -823,7 +823,7 @@ public final class AvatarPropNotifyOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 12;</code>
@@ -835,7 +835,7 @@ public final class AvatarPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 12;</code>
@@ -850,7 +850,7 @@ public final class AvatarPropNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 12;</code>

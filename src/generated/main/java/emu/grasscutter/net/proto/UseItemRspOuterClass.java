@@ -20,7 +20,7 @@ public final class UseItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 12;</code>
@@ -30,7 +30,7 @@ public final class UseItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 target_guid = 15;</code>
@@ -40,7 +40,7 @@ public final class UseItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 guid = 11;</code>
@@ -50,7 +50,7 @@ public final class UseItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 item_id = 5;</code>
@@ -60,7 +60,7 @@ public final class UseItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 option_idx = 7;</code>
@@ -178,7 +178,7 @@ public final class UseItemRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 12;</code>
@@ -193,7 +193,7 @@ public final class UseItemRspOuterClass {
     private long targetGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 target_guid = 15;</code>
@@ -208,7 +208,7 @@ public final class UseItemRspOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 guid = 11;</code>
@@ -223,7 +223,7 @@ public final class UseItemRspOuterClass {
     private int itemId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 item_id = 5;</code>
@@ -238,7 +238,7 @@ public final class UseItemRspOuterClass {
     private int optionIdx_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 option_idx = 7;</code>
@@ -628,7 +628,7 @@ public final class UseItemRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -640,7 +640,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -655,7 +655,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -671,7 +671,7 @@ public final class UseItemRspOuterClass {
       private long targetGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 target_guid = 15;</code>
@@ -683,7 +683,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 target_guid = 15;</code>
@@ -698,7 +698,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 target_guid = 15;</code>
@@ -714,7 +714,7 @@ public final class UseItemRspOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 guid = 11;</code>
@@ -726,7 +726,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 guid = 11;</code>
@@ -741,7 +741,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 guid = 11;</code>
@@ -757,7 +757,7 @@ public final class UseItemRspOuterClass {
       private int itemId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 5;</code>
@@ -769,7 +769,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 5;</code>
@@ -784,7 +784,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 5;</code>
@@ -800,7 +800,7 @@ public final class UseItemRspOuterClass {
       private int optionIdx_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 option_idx = 7;</code>
@@ -812,7 +812,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 option_idx = 7;</code>
@@ -827,7 +827,7 @@ public final class UseItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 option_idx = 7;</code>

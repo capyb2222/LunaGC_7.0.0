@@ -20,7 +20,7 @@ public final class Vector3IntOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 y = 2;</code>
@@ -30,7 +30,7 @@ public final class Vector3IntOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 x = 1;</code>
@@ -40,7 +40,7 @@ public final class Vector3IntOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 z = 3;</code>
@@ -144,7 +144,7 @@ public final class Vector3IntOuterClass {
     private int y_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 y = 2;</code>
@@ -159,7 +159,7 @@ public final class Vector3IntOuterClass {
     private int x_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 x = 1;</code>
@@ -174,7 +174,7 @@ public final class Vector3IntOuterClass {
     private int z_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>int32 z = 3;</code>
@@ -524,7 +524,7 @@ public final class Vector3IntOuterClass {
       private int y_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 y = 2;</code>
@@ -536,7 +536,7 @@ public final class Vector3IntOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 y = 2;</code>
@@ -551,7 +551,7 @@ public final class Vector3IntOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 y = 2;</code>
@@ -567,7 +567,7 @@ public final class Vector3IntOuterClass {
       private int x_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 x = 1;</code>
@@ -579,7 +579,7 @@ public final class Vector3IntOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 x = 1;</code>
@@ -594,7 +594,7 @@ public final class Vector3IntOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 x = 1;</code>
@@ -610,7 +610,7 @@ public final class Vector3IntOuterClass {
       private int z_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 z = 3;</code>
@@ -622,7 +622,7 @@ public final class Vector3IntOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 z = 3;</code>
@@ -637,7 +637,7 @@ public final class Vector3IntOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>int32 z = 3;</code>

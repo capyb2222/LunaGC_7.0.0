@@ -20,7 +20,7 @@ public final class AsterLittleInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -29,7 +29,7 @@ public final class AsterLittleInfoNotifyOuterClass {
     boolean hasInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -38,7 +38,7 @@ public final class AsterLittleInfoNotifyOuterClass {
     emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfo getInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -143,7 +143,7 @@ public final class AsterLittleInfoNotifyOuterClass {
     private emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfo info_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -155,7 +155,7 @@ public final class AsterLittleInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -167,7 +167,7 @@ public final class AsterLittleInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -501,7 +501,7 @@ public final class AsterLittleInfoNotifyOuterClass {
           emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfo, emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfo.Builder, emu.grasscutter.net.proto.AsterLittleDetailInfoOuterClass.AsterLittleDetailInfoOrBuilder> infoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -512,7 +512,7 @@ public final class AsterLittleInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -527,7 +527,7 @@ public final class AsterLittleInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -547,7 +547,7 @@ public final class AsterLittleInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -565,7 +565,7 @@ public final class AsterLittleInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -587,7 +587,7 @@ public final class AsterLittleInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -605,7 +605,7 @@ public final class AsterLittleInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -617,7 +617,7 @@ public final class AsterLittleInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo info = 14;</code>
@@ -632,7 +632,7 @@ public final class AsterLittleInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleDetailInfo info = 14;</code>

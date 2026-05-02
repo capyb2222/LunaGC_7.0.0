@@ -20,7 +20,7 @@ public final class FungusFighterMonsterDetailOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_alive = 7;</code>
@@ -30,7 +30,7 @@ public final class FungusFighterMonsterDetailOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float cur_hp_percentage = 14;</code>
@@ -40,7 +40,7 @@ public final class FungusFighterMonsterDetailOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 fungus_id = 13;</code>
@@ -144,7 +144,7 @@ public final class FungusFighterMonsterDetailOuterClass {
     private boolean isAlive_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_alive = 7;</code>
@@ -159,7 +159,7 @@ public final class FungusFighterMonsterDetailOuterClass {
     private float curHpPercentage_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float cur_hp_percentage = 14;</code>
@@ -174,7 +174,7 @@ public final class FungusFighterMonsterDetailOuterClass {
     private int fungusId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 fungus_id = 13;</code>
@@ -527,7 +527,7 @@ public final class FungusFighterMonsterDetailOuterClass {
       private boolean isAlive_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_alive = 7;</code>
@@ -539,7 +539,7 @@ public final class FungusFighterMonsterDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_alive = 7;</code>
@@ -554,7 +554,7 @@ public final class FungusFighterMonsterDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_alive = 7;</code>
@@ -570,7 +570,7 @@ public final class FungusFighterMonsterDetailOuterClass {
       private float curHpPercentage_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float cur_hp_percentage = 14;</code>
@@ -582,7 +582,7 @@ public final class FungusFighterMonsterDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float cur_hp_percentage = 14;</code>
@@ -597,7 +597,7 @@ public final class FungusFighterMonsterDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float cur_hp_percentage = 14;</code>
@@ -613,7 +613,7 @@ public final class FungusFighterMonsterDetailOuterClass {
       private int fungusId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 fungus_id = 13;</code>
@@ -625,7 +625,7 @@ public final class FungusFighterMonsterDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 fungus_id = 13;</code>
@@ -640,7 +640,7 @@ public final class FungusFighterMonsterDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 fungus_id = 13;</code>

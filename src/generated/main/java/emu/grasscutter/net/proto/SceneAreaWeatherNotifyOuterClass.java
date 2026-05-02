@@ -20,7 +20,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -28,7 +28,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     int getWeatherValueMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -43,7 +43,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     getWeatherValueMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -52,7 +52,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     getWeatherValueMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -63,7 +63,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
         java.lang.String defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -74,7 +74,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>float trans_duration = 4;</code>
@@ -84,7 +84,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 climate_type = 12;</code>
@@ -94,7 +94,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 weather_gadget_id = 3;</code>
@@ -104,7 +104,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 weather_area_id = 5;</code>
@@ -267,7 +267,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -289,7 +289,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -301,7 +301,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -318,7 +318,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -340,7 +340,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     private float transDuration_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>float trans_duration = 4;</code>
@@ -355,7 +355,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     private int climateType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 climate_type = 12;</code>
@@ -370,7 +370,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     private int weatherGadgetId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 weather_gadget_id = 3;</code>
@@ -385,7 +385,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
     private int weatherAreaId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 weather_area_id = 5;</code>
@@ -834,7 +834,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -856,7 +856,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -868,7 +868,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -885,7 +885,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -910,7 +910,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -933,7 +933,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -949,7 +949,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>map&lt;uint32, string&gt; weather_value_map = 11;</code>
@@ -965,7 +965,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       private float transDuration_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>float trans_duration = 4;</code>
@@ -977,7 +977,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>float trans_duration = 4;</code>
@@ -992,7 +992,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>float trans_duration = 4;</code>
@@ -1008,7 +1008,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       private int climateType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 climate_type = 12;</code>
@@ -1020,7 +1020,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 climate_type = 12;</code>
@@ -1035,7 +1035,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 climate_type = 12;</code>
@@ -1051,7 +1051,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       private int weatherGadgetId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 weather_gadget_id = 3;</code>
@@ -1063,7 +1063,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 weather_gadget_id = 3;</code>
@@ -1078,7 +1078,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 weather_gadget_id = 3;</code>
@@ -1094,7 +1094,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       private int weatherAreaId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 weather_area_id = 5;</code>
@@ -1106,7 +1106,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 weather_area_id = 5;</code>
@@ -1121,7 +1121,7 @@ public final class SceneAreaWeatherNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 weather_area_id = 5;</code>

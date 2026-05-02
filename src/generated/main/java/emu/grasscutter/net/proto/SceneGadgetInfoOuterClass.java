@@ -20,7 +20,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 29;</code>
@@ -29,7 +29,7 @@ public final class SceneGadgetInfoOuterClass {
     java.util.List<java.lang.Integer> getAffixListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 29;</code>
@@ -38,7 +38,7 @@ public final class SceneGadgetInfoOuterClass {
     int getAffixListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 29;</code>
@@ -118,7 +118,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -127,7 +127,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasPlayInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -136,7 +136,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfo getPlayInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -172,7 +172,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformInfo platform = 23;</code>
@@ -181,7 +181,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasPlatform();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformInfo platform = 23;</code>
@@ -190,7 +190,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo getPlatform();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformInfo platform = 23;</code>
@@ -199,7 +199,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -208,7 +208,7 @@ public final class SceneGadgetInfoOuterClass {
     java.util.List<java.lang.Integer> getInteractUidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -217,7 +217,7 @@ public final class SceneGadgetInfoOuterClass {
     int getInteractUidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -228,7 +228,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_enable_interact = 10;</code>
@@ -238,7 +238,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_show_cutscene = 8;</code>
@@ -248,7 +248,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 1;</code>
@@ -258,7 +258,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 init_pose_id = 28;</code>
@@ -268,7 +268,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 gadget_talk_state = 26;</code>
@@ -278,7 +278,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 interact_id = 11;</code>
@@ -288,7 +288,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 gadget_type = 7;</code>
@@ -298,7 +298,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetBornType born_type = 5;</code>
@@ -307,7 +307,7 @@ public final class SceneGadgetInfoOuterClass {
     int getBornTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetBornType born_type = 5;</code>
@@ -317,7 +317,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 3;</code>
@@ -327,7 +327,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 draft_id = 25;</code>
@@ -337,7 +337,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 authority_peer_id = 9;</code>
@@ -347,7 +347,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 mark_flag = 21;</code>
@@ -357,7 +357,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 4;</code>
@@ -367,7 +367,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_state = 6;</code>
@@ -377,7 +377,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 group_id = 2;</code>
@@ -387,7 +387,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 prop_owner_entity_id = 22;</code>
@@ -397,7 +397,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -406,7 +406,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasGatherGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -415,7 +415,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo getGatherGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -424,7 +424,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WorktopInfo worktop = 14;</code>
@@ -433,7 +433,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasWorktop();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WorktopInfo worktop = 14;</code>
@@ -442,7 +442,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo getWorktop();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WorktopInfo worktop = 14;</code>
@@ -451,7 +451,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -460,7 +460,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasClientGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -469,7 +469,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfo getClientGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -478,7 +478,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeatherInfo weather = 17;</code>
@@ -487,7 +487,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasWeather();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeatherInfo weather = 17;</code>
@@ -496,7 +496,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfo getWeather();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeatherInfo weather = 17;</code>
@@ -505,7 +505,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -514,7 +514,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasAbilityGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -523,7 +523,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo getAbilityGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -532,7 +532,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -541,7 +541,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasStatueGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -550,7 +550,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo getStatueGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -559,7 +559,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BossChestInfo boss_chest = 20;</code>
@@ -568,7 +568,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasBossChest();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BossChestInfo boss_chest = 20;</code>
@@ -577,7 +577,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo getBossChest();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BossChestInfo boss_chest = 20;</code>
@@ -586,7 +586,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -595,7 +595,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasBlossomChest();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -604,7 +604,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo getBlossomChest();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -613,7 +613,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -622,7 +622,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasMpPlayReward();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -631,7 +631,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo getMpPlayReward();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -640,7 +640,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -649,7 +649,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasGeneralReward();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -658,7 +658,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfo getGeneralReward();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -667,7 +667,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OfferingInfo offering_info = 44;</code>
@@ -676,7 +676,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasOfferingInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OfferingInfo offering_info = 44;</code>
@@ -685,7 +685,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfo getOfferingInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OfferingInfo offering_info = 44;</code>
@@ -694,7 +694,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FoundationInfo foundation_info = 45;</code>
@@ -703,7 +703,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasFoundationInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FoundationInfo foundation_info = 45;</code>
@@ -712,7 +712,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo getFoundationInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FoundationInfo foundation_info = 45;</code>
@@ -721,7 +721,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -730,7 +730,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasVehicleInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -739,7 +739,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfo getVehicleInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -748,7 +748,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EchoShellInfo shell_info = 47;</code>
@@ -757,7 +757,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasShellInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EchoShellInfo shell_info = 47;</code>
@@ -766,7 +766,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo getShellInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EchoShellInfo shell_info = 47;</code>
@@ -775,7 +775,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ScreenInfo screen_info = 48;</code>
@@ -784,7 +784,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasScreenInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ScreenInfo screen_info = 48;</code>
@@ -793,7 +793,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfo getScreenInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ScreenInfo screen_info = 48;</code>
@@ -802,7 +802,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -811,7 +811,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasFishPoolInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -820,7 +820,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo getFishPoolInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -829,7 +829,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -838,7 +838,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasCustomGadgetTreeInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -847,7 +847,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfo getCustomGadgetTreeInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -856,7 +856,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -865,7 +865,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasRoguelikeGadgetInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -874,7 +874,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo getRoguelikeGadgetInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -883,7 +883,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -892,7 +892,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasNightCrowGadgetInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -901,7 +901,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.NightCrowGadgetInfoOuterClass.NightCrowGadgetInfo getNightCrowGadgetInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -910,7 +910,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -919,7 +919,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasDeshretObeliskGadgetInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -928,7 +928,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.DeshretObeliskGadgetInfoOuterClass.DeshretObeliskGadgetInfo getDeshretObeliskGadgetInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -937,7 +937,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -946,7 +946,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasCoinCollectOperatorInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -955,7 +955,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.CoinCollectOperatorInfoOuterClass.CoinCollectOperatorInfo getCoinCollectOperatorInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -964,7 +964,7 @@ public final class SceneGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -973,7 +973,7 @@ public final class SceneGadgetInfoOuterClass {
     boolean hasTrifleGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -982,7 +982,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.TrifleGadgetOuterClass.TrifleGadget getTrifleGadget();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -1672,7 +1672,7 @@ public final class SceneGadgetInfoOuterClass {
     private com.google.protobuf.Internal.IntList affixList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 29;</code>
@@ -1685,7 +1685,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 29;</code>
@@ -1696,7 +1696,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 29;</code>
@@ -1814,7 +1814,7 @@ public final class SceneGadgetInfoOuterClass {
     private emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfo playInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -1826,7 +1826,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -1838,7 +1838,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -1890,7 +1890,7 @@ public final class SceneGadgetInfoOuterClass {
     private emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo platform_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformInfo platform = 23;</code>
@@ -1902,7 +1902,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformInfo platform = 23;</code>
@@ -1914,7 +1914,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlatformInfo platform = 23;</code>
@@ -1928,7 +1928,7 @@ public final class SceneGadgetInfoOuterClass {
     private com.google.protobuf.Internal.IntList interactUidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -1941,7 +1941,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -1952,7 +1952,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -1968,7 +1968,7 @@ public final class SceneGadgetInfoOuterClass {
     private boolean isEnableInteract_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_enable_interact = 10;</code>
@@ -1983,7 +1983,7 @@ public final class SceneGadgetInfoOuterClass {
     private boolean isShowCutscene_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_show_cutscene = 8;</code>
@@ -1998,7 +1998,7 @@ public final class SceneGadgetInfoOuterClass {
     private int gadgetId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 1;</code>
@@ -2013,7 +2013,7 @@ public final class SceneGadgetInfoOuterClass {
     private int initPoseId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 init_pose_id = 28;</code>
@@ -2028,7 +2028,7 @@ public final class SceneGadgetInfoOuterClass {
     private int gadgetTalkState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 gadget_talk_state = 26;</code>
@@ -2043,7 +2043,7 @@ public final class SceneGadgetInfoOuterClass {
     private int interactId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 interact_id = 11;</code>
@@ -2058,7 +2058,7 @@ public final class SceneGadgetInfoOuterClass {
     private int gadgetType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 gadget_type = 7;</code>
@@ -2073,7 +2073,7 @@ public final class SceneGadgetInfoOuterClass {
     private int bornType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetBornType born_type = 5;</code>
@@ -2084,7 +2084,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetBornType born_type = 5;</code>
@@ -2100,7 +2100,7 @@ public final class SceneGadgetInfoOuterClass {
     private int configId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 3;</code>
@@ -2115,7 +2115,7 @@ public final class SceneGadgetInfoOuterClass {
     private int draftId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 draft_id = 25;</code>
@@ -2130,7 +2130,7 @@ public final class SceneGadgetInfoOuterClass {
     private int authorityPeerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 authority_peer_id = 9;</code>
@@ -2145,7 +2145,7 @@ public final class SceneGadgetInfoOuterClass {
     private int markFlag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 mark_flag = 21;</code>
@@ -2160,7 +2160,7 @@ public final class SceneGadgetInfoOuterClass {
     private int ownerEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 4;</code>
@@ -2175,7 +2175,7 @@ public final class SceneGadgetInfoOuterClass {
     private int gadgetState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_state = 6;</code>
@@ -2190,7 +2190,7 @@ public final class SceneGadgetInfoOuterClass {
     private int groupId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 group_id = 2;</code>
@@ -2205,7 +2205,7 @@ public final class SceneGadgetInfoOuterClass {
     private int propOwnerEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 prop_owner_entity_id = 22;</code>
@@ -2219,7 +2219,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int GATHER_GADGET_FIELD_NUMBER = 13;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -2231,7 +2231,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -2246,7 +2246,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -2262,7 +2262,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int WORKTOP_FIELD_NUMBER = 14;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WorktopInfo worktop = 14;</code>
@@ -2274,7 +2274,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WorktopInfo worktop = 14;</code>
@@ -2289,7 +2289,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WorktopInfo worktop = 14;</code>
@@ -2305,7 +2305,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int CLIENT_GADGET_FIELD_NUMBER = 15;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -2317,7 +2317,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -2332,7 +2332,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -2348,7 +2348,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int WEATHER_FIELD_NUMBER = 17;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeatherInfo weather = 17;</code>
@@ -2360,7 +2360,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeatherInfo weather = 17;</code>
@@ -2375,7 +2375,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WeatherInfo weather = 17;</code>
@@ -2391,7 +2391,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int ABILITY_GADGET_FIELD_NUMBER = 18;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -2403,7 +2403,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -2418,7 +2418,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -2434,7 +2434,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int STATUE_GADGET_FIELD_NUMBER = 19;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -2446,7 +2446,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -2461,7 +2461,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -2477,7 +2477,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int BOSS_CHEST_FIELD_NUMBER = 20;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BossChestInfo boss_chest = 20;</code>
@@ -2489,7 +2489,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BossChestInfo boss_chest = 20;</code>
@@ -2504,7 +2504,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BossChestInfo boss_chest = 20;</code>
@@ -2520,7 +2520,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int BLOSSOM_CHEST_FIELD_NUMBER = 41;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -2532,7 +2532,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -2547,7 +2547,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -2563,7 +2563,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int MP_PLAY_REWARD_FIELD_NUMBER = 42;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -2575,7 +2575,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -2590,7 +2590,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -2606,7 +2606,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int GENERAL_REWARD_FIELD_NUMBER = 43;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -2618,7 +2618,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -2633,7 +2633,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -2649,7 +2649,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int OFFERING_INFO_FIELD_NUMBER = 44;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OfferingInfo offering_info = 44;</code>
@@ -2661,7 +2661,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OfferingInfo offering_info = 44;</code>
@@ -2676,7 +2676,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.OfferingInfo offering_info = 44;</code>
@@ -2692,7 +2692,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int FOUNDATION_INFO_FIELD_NUMBER = 45;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FoundationInfo foundation_info = 45;</code>
@@ -2704,7 +2704,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FoundationInfo foundation_info = 45;</code>
@@ -2719,7 +2719,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FoundationInfo foundation_info = 45;</code>
@@ -2735,7 +2735,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int VEHICLE_INFO_FIELD_NUMBER = 46;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -2747,7 +2747,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -2762,7 +2762,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -2778,7 +2778,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int SHELL_INFO_FIELD_NUMBER = 47;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EchoShellInfo shell_info = 47;</code>
@@ -2790,7 +2790,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EchoShellInfo shell_info = 47;</code>
@@ -2805,7 +2805,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EchoShellInfo shell_info = 47;</code>
@@ -2821,7 +2821,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int SCREEN_INFO_FIELD_NUMBER = 48;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ScreenInfo screen_info = 48;</code>
@@ -2833,7 +2833,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ScreenInfo screen_info = 48;</code>
@@ -2848,7 +2848,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ScreenInfo screen_info = 48;</code>
@@ -2864,7 +2864,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int FISH_POOL_INFO_FIELD_NUMBER = 59;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -2876,7 +2876,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -2891,7 +2891,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -2907,7 +2907,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int CUSTOM_GADGET_TREE_INFO_FIELD_NUMBER = 60;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -2919,7 +2919,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -2934,7 +2934,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -2950,7 +2950,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int ROGUELIKE_GADGET_INFO_FIELD_NUMBER = 61;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -2962,7 +2962,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -2977,7 +2977,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -2993,7 +2993,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int NIGHT_CROW_GADGET_INFO_FIELD_NUMBER = 62;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -3005,7 +3005,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -3020,7 +3020,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -3036,7 +3036,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int DESHRET_OBELISK_GADGET_INFO_FIELD_NUMBER = 63;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -3048,7 +3048,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -3063,7 +3063,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -3079,7 +3079,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int COIN_COLLECT_OPERATOR_INFO_FIELD_NUMBER = 64;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -3091,7 +3091,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -3106,7 +3106,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -3122,7 +3122,7 @@ public final class SceneGadgetInfoOuterClass {
     public static final int TRIFLE_GADGET_FIELD_NUMBER = 67;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -3134,7 +3134,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -3149,7 +3149,7 @@ public final class SceneGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -4604,7 +4604,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 29;</code>
@@ -4617,7 +4617,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 29;</code>
@@ -4628,7 +4628,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 29;</code>
@@ -4640,7 +4640,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 29;</code>
@@ -4657,7 +4657,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 29;</code>
@@ -4672,7 +4672,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 29;</code>
@@ -4689,7 +4689,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 29;</code>
@@ -5136,7 +5136,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfo, emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfo.Builder, emu.grasscutter.net.proto.GadgetPlayInfoOuterClass.GadgetPlayInfoOrBuilder> playInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -5147,7 +5147,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -5162,7 +5162,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -5182,7 +5182,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -5200,7 +5200,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -5222,7 +5222,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -5240,7 +5240,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -5252,7 +5252,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -5267,7 +5267,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetPlayInfo play_info = 100;</code>
@@ -5446,7 +5446,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo, emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfo.Builder, emu.grasscutter.net.proto.PlatformInfoOuterClass.PlatformInfoOrBuilder> platformBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformInfo platform = 23;</code>
@@ -5457,7 +5457,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformInfo platform = 23;</code>
@@ -5472,7 +5472,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformInfo platform = 23;</code>
@@ -5492,7 +5492,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformInfo platform = 23;</code>
@@ -5510,7 +5510,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformInfo platform = 23;</code>
@@ -5532,7 +5532,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformInfo platform = 23;</code>
@@ -5550,7 +5550,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformInfo platform = 23;</code>
@@ -5562,7 +5562,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformInfo platform = 23;</code>
@@ -5577,7 +5577,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlatformInfo platform = 23;</code>
@@ -5605,7 +5605,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -5618,7 +5618,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -5629,7 +5629,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -5641,7 +5641,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -5658,7 +5658,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -5673,7 +5673,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -5690,7 +5690,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 interact_uid_list = 24;</code>
@@ -5706,7 +5706,7 @@ public final class SceneGadgetInfoOuterClass {
       private boolean isEnableInteract_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_enable_interact = 10;</code>
@@ -5718,7 +5718,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_enable_interact = 10;</code>
@@ -5733,7 +5733,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_enable_interact = 10;</code>
@@ -5749,7 +5749,7 @@ public final class SceneGadgetInfoOuterClass {
       private boolean isShowCutscene_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_show_cutscene = 8;</code>
@@ -5761,7 +5761,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_show_cutscene = 8;</code>
@@ -5776,7 +5776,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_show_cutscene = 8;</code>
@@ -5792,7 +5792,7 @@ public final class SceneGadgetInfoOuterClass {
       private int gadgetId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 1;</code>
@@ -5804,7 +5804,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 1;</code>
@@ -5819,7 +5819,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 1;</code>
@@ -5835,7 +5835,7 @@ public final class SceneGadgetInfoOuterClass {
       private int initPoseId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_pose_id = 28;</code>
@@ -5847,7 +5847,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_pose_id = 28;</code>
@@ -5862,7 +5862,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_pose_id = 28;</code>
@@ -5878,7 +5878,7 @@ public final class SceneGadgetInfoOuterClass {
       private int gadgetTalkState_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 gadget_talk_state = 26;</code>
@@ -5890,7 +5890,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 gadget_talk_state = 26;</code>
@@ -5905,7 +5905,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 gadget_talk_state = 26;</code>
@@ -5921,7 +5921,7 @@ public final class SceneGadgetInfoOuterClass {
       private int interactId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 interact_id = 11;</code>
@@ -5933,7 +5933,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 interact_id = 11;</code>
@@ -5948,7 +5948,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 interact_id = 11;</code>
@@ -5964,7 +5964,7 @@ public final class SceneGadgetInfoOuterClass {
       private int gadgetType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 gadget_type = 7;</code>
@@ -5976,7 +5976,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 gadget_type = 7;</code>
@@ -5991,7 +5991,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 gadget_type = 7;</code>
@@ -6007,7 +6007,7 @@ public final class SceneGadgetInfoOuterClass {
       private int bornType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetBornType born_type = 5;</code>
@@ -6018,7 +6018,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetBornType born_type = 5;</code>
@@ -6033,7 +6033,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetBornType born_type = 5;</code>
@@ -6047,7 +6047,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetBornType born_type = 5;</code>
@@ -6065,7 +6065,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetBornType born_type = 5;</code>
@@ -6081,7 +6081,7 @@ public final class SceneGadgetInfoOuterClass {
       private int configId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 3;</code>
@@ -6093,7 +6093,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 3;</code>
@@ -6108,7 +6108,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 3;</code>
@@ -6124,7 +6124,7 @@ public final class SceneGadgetInfoOuterClass {
       private int draftId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 draft_id = 25;</code>
@@ -6136,7 +6136,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 draft_id = 25;</code>
@@ -6151,7 +6151,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 draft_id = 25;</code>
@@ -6167,7 +6167,7 @@ public final class SceneGadgetInfoOuterClass {
       private int authorityPeerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 9;</code>
@@ -6179,7 +6179,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 9;</code>
@@ -6194,7 +6194,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 9;</code>
@@ -6210,7 +6210,7 @@ public final class SceneGadgetInfoOuterClass {
       private int markFlag_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mark_flag = 21;</code>
@@ -6222,7 +6222,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mark_flag = 21;</code>
@@ -6237,7 +6237,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mark_flag = 21;</code>
@@ -6253,7 +6253,7 @@ public final class SceneGadgetInfoOuterClass {
       private int ownerEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 4;</code>
@@ -6265,7 +6265,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 4;</code>
@@ -6280,7 +6280,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 4;</code>
@@ -6296,7 +6296,7 @@ public final class SceneGadgetInfoOuterClass {
       private int gadgetState_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_state = 6;</code>
@@ -6308,7 +6308,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_state = 6;</code>
@@ -6323,7 +6323,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_state = 6;</code>
@@ -6339,7 +6339,7 @@ public final class SceneGadgetInfoOuterClass {
       private int groupId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 group_id = 2;</code>
@@ -6351,7 +6351,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 group_id = 2;</code>
@@ -6366,7 +6366,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 group_id = 2;</code>
@@ -6382,7 +6382,7 @@ public final class SceneGadgetInfoOuterClass {
       private int propOwnerEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 prop_owner_entity_id = 22;</code>
@@ -6394,7 +6394,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 prop_owner_entity_id = 22;</code>
@@ -6409,7 +6409,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 prop_owner_entity_id = 22;</code>
@@ -6426,7 +6426,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo, emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfo.Builder, emu.grasscutter.net.proto.GatherGadgetInfoOuterClass.GatherGadgetInfoOrBuilder> gatherGadgetBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -6438,7 +6438,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -6460,7 +6460,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -6480,7 +6480,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -6498,7 +6498,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -6524,7 +6524,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -6547,7 +6547,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -6557,7 +6557,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -6575,7 +6575,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GatherGadgetInfo gather_gadget = 13;</code>
@@ -6603,7 +6603,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.Builder, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfoOrBuilder> worktopBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WorktopInfo worktop = 14;</code>
@@ -6615,7 +6615,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WorktopInfo worktop = 14;</code>
@@ -6637,7 +6637,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WorktopInfo worktop = 14;</code>
@@ -6657,7 +6657,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WorktopInfo worktop = 14;</code>
@@ -6675,7 +6675,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WorktopInfo worktop = 14;</code>
@@ -6701,7 +6701,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WorktopInfo worktop = 14;</code>
@@ -6724,7 +6724,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WorktopInfo worktop = 14;</code>
@@ -6734,7 +6734,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WorktopInfo worktop = 14;</code>
@@ -6752,7 +6752,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WorktopInfo worktop = 14;</code>
@@ -6780,7 +6780,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfo, emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfo.Builder, emu.grasscutter.net.proto.ClientGadgetInfoOuterClass.ClientGadgetInfoOrBuilder> clientGadgetBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -6792,7 +6792,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -6814,7 +6814,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -6834,7 +6834,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -6852,7 +6852,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -6878,7 +6878,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -6901,7 +6901,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -6911,7 +6911,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -6929,7 +6929,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ClientGadgetInfo client_gadget = 15;</code>
@@ -6957,7 +6957,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfo, emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfo.Builder, emu.grasscutter.net.proto.WeatherInfoOuterClass.WeatherInfoOrBuilder> weatherBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeatherInfo weather = 17;</code>
@@ -6969,7 +6969,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeatherInfo weather = 17;</code>
@@ -6991,7 +6991,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeatherInfo weather = 17;</code>
@@ -7011,7 +7011,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeatherInfo weather = 17;</code>
@@ -7029,7 +7029,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeatherInfo weather = 17;</code>
@@ -7055,7 +7055,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeatherInfo weather = 17;</code>
@@ -7078,7 +7078,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeatherInfo weather = 17;</code>
@@ -7088,7 +7088,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeatherInfo weather = 17;</code>
@@ -7106,7 +7106,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WeatherInfo weather = 17;</code>
@@ -7134,7 +7134,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo, emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfo.Builder, emu.grasscutter.net.proto.AbilityGadgetInfoOuterClass.AbilityGadgetInfoOrBuilder> abilityGadgetBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -7146,7 +7146,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -7168,7 +7168,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -7188,7 +7188,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -7206,7 +7206,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -7232,7 +7232,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -7255,7 +7255,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -7265,7 +7265,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -7283,7 +7283,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityGadgetInfo ability_gadget = 18;</code>
@@ -7311,7 +7311,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo, emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfo.Builder, emu.grasscutter.net.proto.StatueGadgetInfoOuterClass.StatueGadgetInfoOrBuilder> statueGadgetBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -7323,7 +7323,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -7345,7 +7345,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -7365,7 +7365,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -7383,7 +7383,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -7409,7 +7409,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -7432,7 +7432,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -7442,7 +7442,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -7460,7 +7460,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StatueGadgetInfo statue_gadget = 19;</code>
@@ -7488,7 +7488,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfoOrBuilder> bossChestBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BossChestInfo boss_chest = 20;</code>
@@ -7500,7 +7500,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BossChestInfo boss_chest = 20;</code>
@@ -7522,7 +7522,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BossChestInfo boss_chest = 20;</code>
@@ -7542,7 +7542,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BossChestInfo boss_chest = 20;</code>
@@ -7560,7 +7560,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BossChestInfo boss_chest = 20;</code>
@@ -7586,7 +7586,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BossChestInfo boss_chest = 20;</code>
@@ -7609,7 +7609,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BossChestInfo boss_chest = 20;</code>
@@ -7619,7 +7619,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BossChestInfo boss_chest = 20;</code>
@@ -7637,7 +7637,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BossChestInfo boss_chest = 20;</code>
@@ -7665,7 +7665,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo, emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfo.Builder, emu.grasscutter.net.proto.BlossomChestInfoOuterClass.BlossomChestInfoOrBuilder> blossomChestBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -7677,7 +7677,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -7699,7 +7699,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -7719,7 +7719,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -7737,7 +7737,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -7763,7 +7763,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -7786,7 +7786,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -7796,7 +7796,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -7814,7 +7814,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BlossomChestInfo blossom_chest = 41;</code>
@@ -7842,7 +7842,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo, emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfo.Builder, emu.grasscutter.net.proto.MpPlayRewardInfoOuterClass.MpPlayRewardInfoOrBuilder> mpPlayRewardBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -7854,7 +7854,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -7876,7 +7876,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -7896,7 +7896,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -7914,7 +7914,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -7940,7 +7940,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -7963,7 +7963,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -7973,7 +7973,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -7991,7 +7991,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MpPlayRewardInfo mp_play_reward = 42;</code>
@@ -8019,7 +8019,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfo, emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfo.Builder, emu.grasscutter.net.proto.GadgetGeneralRewardInfoOuterClass.GadgetGeneralRewardInfoOrBuilder> generalRewardBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -8031,7 +8031,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -8053,7 +8053,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -8073,7 +8073,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -8091,7 +8091,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -8117,7 +8117,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -8140,7 +8140,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -8150,7 +8150,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -8168,7 +8168,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.GadgetGeneralRewardInfo general_reward = 43;</code>
@@ -8196,7 +8196,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfo, emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfo.Builder, emu.grasscutter.net.proto.OfferingInfoOuterClass.OfferingInfoOrBuilder> offeringInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OfferingInfo offering_info = 44;</code>
@@ -8208,7 +8208,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OfferingInfo offering_info = 44;</code>
@@ -8230,7 +8230,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OfferingInfo offering_info = 44;</code>
@@ -8250,7 +8250,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OfferingInfo offering_info = 44;</code>
@@ -8268,7 +8268,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OfferingInfo offering_info = 44;</code>
@@ -8294,7 +8294,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OfferingInfo offering_info = 44;</code>
@@ -8317,7 +8317,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OfferingInfo offering_info = 44;</code>
@@ -8327,7 +8327,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OfferingInfo offering_info = 44;</code>
@@ -8345,7 +8345,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.OfferingInfo offering_info = 44;</code>
@@ -8373,7 +8373,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo, emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfo.Builder, emu.grasscutter.net.proto.FoundationInfoOuterClass.FoundationInfoOrBuilder> foundationInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FoundationInfo foundation_info = 45;</code>
@@ -8385,7 +8385,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FoundationInfo foundation_info = 45;</code>
@@ -8407,7 +8407,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FoundationInfo foundation_info = 45;</code>
@@ -8427,7 +8427,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FoundationInfo foundation_info = 45;</code>
@@ -8445,7 +8445,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FoundationInfo foundation_info = 45;</code>
@@ -8471,7 +8471,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FoundationInfo foundation_info = 45;</code>
@@ -8494,7 +8494,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FoundationInfo foundation_info = 45;</code>
@@ -8504,7 +8504,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FoundationInfo foundation_info = 45;</code>
@@ -8522,7 +8522,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FoundationInfo foundation_info = 45;</code>
@@ -8550,7 +8550,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfo, emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfo.Builder, emu.grasscutter.net.proto.VehicleInfoOuterClass.VehicleInfoOrBuilder> vehicleInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -8562,7 +8562,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -8584,7 +8584,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -8604,7 +8604,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -8622,7 +8622,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -8648,7 +8648,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -8671,7 +8671,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -8681,7 +8681,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -8699,7 +8699,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInfo vehicle_info = 46;</code>
@@ -8727,7 +8727,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo, emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfo.Builder, emu.grasscutter.net.proto.EchoShellInfoOuterClass.EchoShellInfoOrBuilder> shellInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EchoShellInfo shell_info = 47;</code>
@@ -8739,7 +8739,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EchoShellInfo shell_info = 47;</code>
@@ -8761,7 +8761,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EchoShellInfo shell_info = 47;</code>
@@ -8781,7 +8781,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EchoShellInfo shell_info = 47;</code>
@@ -8799,7 +8799,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EchoShellInfo shell_info = 47;</code>
@@ -8825,7 +8825,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EchoShellInfo shell_info = 47;</code>
@@ -8848,7 +8848,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EchoShellInfo shell_info = 47;</code>
@@ -8858,7 +8858,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EchoShellInfo shell_info = 47;</code>
@@ -8876,7 +8876,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EchoShellInfo shell_info = 47;</code>
@@ -8904,7 +8904,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfo, emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfo.Builder, emu.grasscutter.net.proto.ScreenInfoOuterClass.ScreenInfoOrBuilder> screenInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ScreenInfo screen_info = 48;</code>
@@ -8916,7 +8916,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ScreenInfo screen_info = 48;</code>
@@ -8938,7 +8938,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ScreenInfo screen_info = 48;</code>
@@ -8958,7 +8958,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ScreenInfo screen_info = 48;</code>
@@ -8976,7 +8976,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ScreenInfo screen_info = 48;</code>
@@ -9002,7 +9002,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ScreenInfo screen_info = 48;</code>
@@ -9025,7 +9025,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ScreenInfo screen_info = 48;</code>
@@ -9035,7 +9035,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ScreenInfo screen_info = 48;</code>
@@ -9053,7 +9053,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ScreenInfo screen_info = 48;</code>
@@ -9081,7 +9081,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo, emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfo.Builder, emu.grasscutter.net.proto.FishPoolInfoOuterClass.FishPoolInfoOrBuilder> fishPoolInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -9093,7 +9093,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -9115,7 +9115,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -9135,7 +9135,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -9153,7 +9153,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -9179,7 +9179,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -9202,7 +9202,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -9212,7 +9212,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -9230,7 +9230,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishPoolInfo fish_pool_info = 59;</code>
@@ -9258,7 +9258,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfo, emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfo.Builder, emu.grasscutter.net.proto.CustomGadgetTreeInfoOuterClass.CustomGadgetTreeInfoOrBuilder> customGadgetTreeInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -9270,7 +9270,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -9292,7 +9292,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -9312,7 +9312,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -9330,7 +9330,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -9356,7 +9356,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -9379,7 +9379,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -9389,7 +9389,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -9407,7 +9407,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomGadgetTreeInfo custom_gadget_tree_info = 60;</code>
@@ -9435,7 +9435,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo, emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfo.Builder, emu.grasscutter.net.proto.RoguelikeGadgetInfoOuterClass.RoguelikeGadgetInfoOrBuilder> roguelikeGadgetInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -9447,7 +9447,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -9469,7 +9469,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -9489,7 +9489,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -9507,7 +9507,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -9533,7 +9533,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -9556,7 +9556,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -9566,7 +9566,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -9584,7 +9584,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.RoguelikeGadgetInfo roguelike_gadget_info = 61;</code>
@@ -9612,7 +9612,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.NightCrowGadgetInfoOuterClass.NightCrowGadgetInfo, emu.grasscutter.net.proto.NightCrowGadgetInfoOuterClass.NightCrowGadgetInfo.Builder, emu.grasscutter.net.proto.NightCrowGadgetInfoOuterClass.NightCrowGadgetInfoOrBuilder> nightCrowGadgetInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -9624,7 +9624,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -9646,7 +9646,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -9666,7 +9666,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -9684,7 +9684,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -9710,7 +9710,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -9733,7 +9733,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -9743,7 +9743,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -9761,7 +9761,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.NightCrowGadgetInfo night_crow_gadget_info = 62;</code>
@@ -9789,7 +9789,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.DeshretObeliskGadgetInfoOuterClass.DeshretObeliskGadgetInfo, emu.grasscutter.net.proto.DeshretObeliskGadgetInfoOuterClass.DeshretObeliskGadgetInfo.Builder, emu.grasscutter.net.proto.DeshretObeliskGadgetInfoOuterClass.DeshretObeliskGadgetInfoOrBuilder> deshretObeliskGadgetInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -9801,7 +9801,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -9823,7 +9823,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -9843,7 +9843,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -9861,7 +9861,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -9887,7 +9887,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -9910,7 +9910,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -9920,7 +9920,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -9938,7 +9938,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;</code>
@@ -9966,7 +9966,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.CoinCollectOperatorInfoOuterClass.CoinCollectOperatorInfo, emu.grasscutter.net.proto.CoinCollectOperatorInfoOuterClass.CoinCollectOperatorInfo.Builder, emu.grasscutter.net.proto.CoinCollectOperatorInfoOuterClass.CoinCollectOperatorInfoOrBuilder> coinCollectOperatorInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -9978,7 +9978,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -10000,7 +10000,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -10020,7 +10020,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -10038,7 +10038,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -10064,7 +10064,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -10087,7 +10087,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -10097,7 +10097,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -10115,7 +10115,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CoinCollectOperatorInfo coin_collect_operator_info = 64;</code>
@@ -10143,7 +10143,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.TrifleGadgetOuterClass.TrifleGadget, emu.grasscutter.net.proto.TrifleGadgetOuterClass.TrifleGadget.Builder, emu.grasscutter.net.proto.TrifleGadgetOuterClass.TrifleGadgetOrBuilder> trifleGadgetBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -10155,7 +10155,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -10177,7 +10177,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -10197,7 +10197,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -10215,7 +10215,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -10241,7 +10241,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -10264,7 +10264,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -10274,7 +10274,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrifleGadget trifle_gadget = 67;</code>
@@ -10292,7 +10292,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrifleGadget trifle_gadget = 67;</code>

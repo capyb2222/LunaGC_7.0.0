@@ -20,7 +20,7 @@ public final class DungeonEntryInfoReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -29,7 +29,7 @@ public final class DungeonEntryInfoReqOuterClass {
         getScenePointIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -37,7 +37,7 @@ public final class DungeonEntryInfoReqOuterClass {
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getScenePointIdList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -45,7 +45,7 @@ public final class DungeonEntryInfoReqOuterClass {
     int getScenePointIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -54,7 +54,7 @@ public final class DungeonEntryInfoReqOuterClass {
         getScenePointIdListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -64,7 +64,7 @@ public final class DungeonEntryInfoReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 point_id = 13;</code>
@@ -80,7 +80,7 @@ public final class DungeonEntryInfoReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 10;</code>
@@ -202,7 +202,7 @@ public final class DungeonEntryInfoReqOuterClass {
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> scenePointIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -213,7 +213,7 @@ public final class DungeonEntryInfoReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -225,7 +225,7 @@ public final class DungeonEntryInfoReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -236,7 +236,7 @@ public final class DungeonEntryInfoReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -247,7 +247,7 @@ public final class DungeonEntryInfoReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -262,7 +262,7 @@ public final class DungeonEntryInfoReqOuterClass {
     private int pointId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 point_id = 13;</code>
@@ -288,7 +288,7 @@ public final class DungeonEntryInfoReqOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 10;</code>
@@ -711,7 +711,7 @@ public final class DungeonEntryInfoReqOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -725,7 +725,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -739,7 +739,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -753,7 +753,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -774,7 +774,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -792,7 +792,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -812,7 +812,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -833,7 +833,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -851,7 +851,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -869,7 +869,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -888,7 +888,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -905,7 +905,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -922,7 +922,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -933,7 +933,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -947,7 +947,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -962,7 +962,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -973,7 +973,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -985,7 +985,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Uint32Pair scene_point_id_list = 5;</code>
@@ -1012,7 +1012,7 @@ public final class DungeonEntryInfoReqOuterClass {
       private int pointId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 13;</code>
@@ -1024,7 +1024,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 13;</code>
@@ -1039,7 +1039,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 13;</code>
@@ -1086,7 +1086,7 @@ public final class DungeonEntryInfoReqOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 10;</code>
@@ -1098,7 +1098,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 10;</code>
@@ -1113,7 +1113,7 @@ public final class DungeonEntryInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 10;</code>

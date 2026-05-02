@@ -19,17 +19,29 @@ public final class ScenePointUnlockNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 unhide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 12;</code>
      * @return A list containing the unhidePointList.
      */
     java.util.List<java.lang.Integer> getUnhidePointListList();
     /**
-     * <code>repeated uint32 unhide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 12;</code>
      * @return The count of unhidePointList.
      */
     int getUnhidePointListCount();
     /**
-     * <code>repeated uint32 unhide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 12;</code>
      * @param index The index of the element to return.
      * @return The unhidePointList at the given index.
      */
@@ -37,7 +49,7 @@ public final class ScenePointUnlockNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 1;</code>
@@ -46,7 +58,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     java.util.List<java.lang.Integer> getLockedPointListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 1;</code>
@@ -55,7 +67,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     int getLockedPointListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 1;</code>
@@ -66,7 +78,7 @@ public final class ScenePointUnlockNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 point_list = 10;</code>
@@ -75,7 +87,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     java.util.List<java.lang.Integer> getPointListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 point_list = 10;</code>
@@ -84,7 +96,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     int getPointListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 point_list = 10;</code>
@@ -94,17 +106,29 @@ public final class ScenePointUnlockNotifyOuterClass {
     int getPointList(int index);
 
     /**
-     * <code>repeated uint32 hide_point_list = 5;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 4;</code>
      * @return A list containing the hidePointList.
      */
     java.util.List<java.lang.Integer> getHidePointListList();
     /**
-     * <code>repeated uint32 hide_point_list = 5;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 4;</code>
      * @return The count of hidePointList.
      */
     int getHidePointListCount();
     /**
-     * <code>repeated uint32 hide_point_list = 5;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 4;</code>
      * @param index The index of the element to return.
      * @return The hidePointList at the given index.
      */
@@ -112,7 +136,7 @@ public final class ScenePointUnlockNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 scene_id = 11;</code>
@@ -195,28 +219,7 @@ public final class ScenePointUnlockNotifyOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 16: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                unhidePointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              unhidePointList_.addInt(input.readUInt32());
-              break;
-            }
-            case 18: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                unhidePointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                unhidePointList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 40: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 hidePointList_ = newIntList();
                 mutable_bitField0_ |= 0x00000008;
@@ -224,7 +227,7 @@ public final class ScenePointUnlockNotifyOuterClass {
               hidePointList_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
@@ -263,6 +266,27 @@ public final class ScenePointUnlockNotifyOuterClass {
               sceneId_ = input.readUInt32();
               break;
             }
+            case 96: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                unhidePointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              unhidePointList_.addInt(input.readUInt32());
+              break;
+            }
+            case 98: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                unhidePointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                unhidePointList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -281,14 +305,14 @@ public final class ScenePointUnlockNotifyOuterClass {
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           lockedPointList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          unhidePointList_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000008) != 0)) {
           hidePointList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           pointList_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          unhidePointList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -307,10 +331,14 @@ public final class ScenePointUnlockNotifyOuterClass {
               emu.grasscutter.net.proto.ScenePointUnlockNotifyOuterClass.ScenePointUnlockNotify.class, emu.grasscutter.net.proto.ScenePointUnlockNotifyOuterClass.ScenePointUnlockNotify.Builder.class);
     }
 
-    public static final int UNHIDE_POINT_LIST_FIELD_NUMBER = 2;
+    public static final int UNHIDE_POINT_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList unhidePointList_;
     /**
-     * <code>repeated uint32 unhide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 12;</code>
      * @return A list containing the unhidePointList.
      */
     @java.lang.Override
@@ -319,14 +347,22 @@ public final class ScenePointUnlockNotifyOuterClass {
       return unhidePointList_;
     }
     /**
-     * <code>repeated uint32 unhide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 12;</code>
      * @return The count of unhidePointList.
      */
     public int getUnhidePointListCount() {
       return unhidePointList_.size();
     }
     /**
-     * <code>repeated uint32 unhide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 12;</code>
      * @param index The index of the element to return.
      * @return The unhidePointList at the given index.
      */
@@ -339,7 +375,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     private com.google.protobuf.Internal.IntList lockedPointList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 1;</code>
@@ -352,7 +388,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 1;</code>
@@ -363,7 +399,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 1;</code>
@@ -379,7 +415,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     private com.google.protobuf.Internal.IntList pointList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 point_list = 10;</code>
@@ -392,7 +428,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 point_list = 10;</code>
@@ -403,7 +439,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 point_list = 10;</code>
@@ -415,10 +451,14 @@ public final class ScenePointUnlockNotifyOuterClass {
     }
     private int pointListMemoizedSerializedSize = -1;
 
-    public static final int HIDE_POINT_LIST_FIELD_NUMBER = 5;
+    public static final int HIDE_POINT_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList hidePointList_;
     /**
-     * <code>repeated uint32 hide_point_list = 5;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 4;</code>
      * @return A list containing the hidePointList.
      */
     @java.lang.Override
@@ -427,14 +467,22 @@ public final class ScenePointUnlockNotifyOuterClass {
       return hidePointList_;
     }
     /**
-     * <code>repeated uint32 hide_point_list = 5;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 4;</code>
      * @return The count of hidePointList.
      */
     public int getHidePointListCount() {
       return hidePointList_.size();
     }
     /**
-     * <code>repeated uint32 hide_point_list = 5;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 4;</code>
      * @param index The index of the element to return.
      * @return The hidePointList at the given index.
      */
@@ -447,7 +495,7 @@ public final class ScenePointUnlockNotifyOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 scene_id = 11;</code>
@@ -480,15 +528,8 @@ public final class ScenePointUnlockNotifyOuterClass {
       for (int i = 0; i < lockedPointList_.size(); i++) {
         output.writeUInt32NoTag(lockedPointList_.getInt(i));
       }
-      if (getUnhidePointListList().size() > 0) {
-        output.writeUInt32NoTag(18);
-        output.writeUInt32NoTag(unhidePointListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < unhidePointList_.size(); i++) {
-        output.writeUInt32NoTag(unhidePointList_.getInt(i));
-      }
       if (getHidePointListList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(hidePointListMemoizedSerializedSize);
       }
       for (int i = 0; i < hidePointList_.size(); i++) {
@@ -503,6 +544,13 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       if (sceneId_ != 0) {
         output.writeUInt32(11, sceneId_);
+      }
+      if (getUnhidePointListList().size() > 0) {
+        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(unhidePointListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < unhidePointList_.size(); i++) {
+        output.writeUInt32NoTag(unhidePointList_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -526,20 +574,6 @@ public final class ScenePointUnlockNotifyOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         lockedPointListMemoizedSerializedSize = dataSize;
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < unhidePointList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unhidePointList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getUnhidePointListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        unhidePointListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -572,6 +606,20 @@ public final class ScenePointUnlockNotifyOuterClass {
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, sceneId_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < unhidePointList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(unhidePointList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getUnhidePointListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        unhidePointListMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -951,7 +999,11 @@ public final class ScenePointUnlockNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 12;</code>
        * @return A list containing the unhidePointList.
        */
       public java.util.List<java.lang.Integer>
@@ -960,14 +1012,22 @@ public final class ScenePointUnlockNotifyOuterClass {
                  java.util.Collections.unmodifiableList(unhidePointList_) : unhidePointList_;
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 12;</code>
        * @return The count of unhidePointList.
        */
       public int getUnhidePointListCount() {
         return unhidePointList_.size();
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 12;</code>
        * @param index The index of the element to return.
        * @return The unhidePointList at the given index.
        */
@@ -975,7 +1035,11 @@ public final class ScenePointUnlockNotifyOuterClass {
         return unhidePointList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 12;</code>
        * @param index The index to set the value at.
        * @param value The unhidePointList to set.
        * @return This builder for chaining.
@@ -988,7 +1052,11 @@ public final class ScenePointUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 12;</code>
        * @param value The unhidePointList to add.
        * @return This builder for chaining.
        */
@@ -999,7 +1067,11 @@ public final class ScenePointUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 12;</code>
        * @param values The unhidePointList to add.
        * @return This builder for chaining.
        */
@@ -1012,7 +1084,11 @@ public final class ScenePointUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearUnhidePointList() {
@@ -1031,7 +1107,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 1;</code>
@@ -1044,7 +1120,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 1;</code>
@@ -1055,7 +1131,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 1;</code>
@@ -1067,7 +1143,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 1;</code>
@@ -1084,7 +1160,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 1;</code>
@@ -1099,7 +1175,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 1;</code>
@@ -1116,7 +1192,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 1;</code>
@@ -1138,7 +1214,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 point_list = 10;</code>
@@ -1151,7 +1227,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 point_list = 10;</code>
@@ -1162,7 +1238,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 point_list = 10;</code>
@@ -1174,7 +1250,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 point_list = 10;</code>
@@ -1191,7 +1267,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 point_list = 10;</code>
@@ -1206,7 +1282,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 point_list = 10;</code>
@@ -1223,7 +1299,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 point_list = 10;</code>
@@ -1244,7 +1320,11 @@ public final class ScenePointUnlockNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 hide_point_list = 5;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 4;</code>
        * @return A list containing the hidePointList.
        */
       public java.util.List<java.lang.Integer>
@@ -1253,14 +1333,22 @@ public final class ScenePointUnlockNotifyOuterClass {
                  java.util.Collections.unmodifiableList(hidePointList_) : hidePointList_;
       }
       /**
-       * <code>repeated uint32 hide_point_list = 5;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 4;</code>
        * @return The count of hidePointList.
        */
       public int getHidePointListCount() {
         return hidePointList_.size();
       }
       /**
-       * <code>repeated uint32 hide_point_list = 5;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 4;</code>
        * @param index The index of the element to return.
        * @return The hidePointList at the given index.
        */
@@ -1268,7 +1356,11 @@ public final class ScenePointUnlockNotifyOuterClass {
         return hidePointList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 hide_point_list = 5;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 4;</code>
        * @param index The index to set the value at.
        * @param value The hidePointList to set.
        * @return This builder for chaining.
@@ -1281,7 +1373,11 @@ public final class ScenePointUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 hide_point_list = 5;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 4;</code>
        * @param value The hidePointList to add.
        * @return This builder for chaining.
        */
@@ -1292,7 +1388,11 @@ public final class ScenePointUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 hide_point_list = 5;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 4;</code>
        * @param values The hidePointList to add.
        * @return This builder for chaining.
        */
@@ -1305,7 +1405,11 @@ public final class ScenePointUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 hide_point_list = 5;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearHidePointList() {
@@ -1318,7 +1422,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 scene_id = 11;</code>
@@ -1330,7 +1434,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 scene_id = 11;</code>
@@ -1345,7 +1449,7 @@ public final class ScenePointUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 scene_id = 11;</code>
@@ -1425,9 +1529,9 @@ public final class ScenePointUnlockNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034ScenePointUnlockNotify.proto\"\215\001\n\026Scene" +
-      "PointUnlockNotify\022\031\n\021unhide_point_list\030\002" +
+      "PointUnlockNotify\022\031\n\021unhide_point_list\030\014" +
       " \003(\r\022\031\n\021locked_point_list\030\001 \003(\r\022\022\n\npoint" +
-      "_list\030\n \003(\r\022\027\n\017hide_point_list\030\005 \003(\r\022\020\n\010" +
+      "_list\030\n \003(\r\022\027\n\017hide_point_list\030\004 \003(\r\022\020\n\010" +
       "scene_id\030\013 \001(\rB\033\n\031emu.grasscutter.net.pr" +
       "otob\006proto3"
     };

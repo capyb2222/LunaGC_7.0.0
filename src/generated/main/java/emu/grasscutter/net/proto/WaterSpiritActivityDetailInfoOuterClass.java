@@ -54,7 +54,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 mp_play_id = 7;</code>
@@ -266,7 +266,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     private int mpPlayId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 mp_play_id = 7;</code>
@@ -789,7 +789,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       private int mpPlayId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mp_play_id = 7;</code>
@@ -801,7 +801,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mp_play_id = 7;</code>
@@ -816,7 +816,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mp_play_id = 7;</code>

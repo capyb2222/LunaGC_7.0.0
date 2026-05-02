@@ -20,7 +20,7 @@ public final class PlayerOfferingRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -29,7 +29,7 @@ public final class PlayerOfferingRspOuterClass {
         getItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -37,7 +37,7 @@ public final class PlayerOfferingRspOuterClass {
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -45,7 +45,7 @@ public final class PlayerOfferingRspOuterClass {
     int getItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -54,7 +54,7 @@ public final class PlayerOfferingRspOuterClass {
         getItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -64,7 +64,7 @@ public final class PlayerOfferingRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -73,7 +73,7 @@ public final class PlayerOfferingRspOuterClass {
     boolean hasOfferingData();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -82,7 +82,7 @@ public final class PlayerOfferingRspOuterClass {
     emu.grasscutter.net.proto.PlayerOfferingDataOuterClass.PlayerOfferingData getOfferingData();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -91,7 +91,7 @@ public final class PlayerOfferingRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 8;</code>
@@ -216,7 +216,7 @@ public final class PlayerOfferingRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -227,7 +227,7 @@ public final class PlayerOfferingRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -239,7 +239,7 @@ public final class PlayerOfferingRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -250,7 +250,7 @@ public final class PlayerOfferingRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -261,7 +261,7 @@ public final class PlayerOfferingRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .ItemParam item_list = 14;</code>
@@ -276,7 +276,7 @@ public final class PlayerOfferingRspOuterClass {
     private emu.grasscutter.net.proto.PlayerOfferingDataOuterClass.PlayerOfferingData offeringData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -288,7 +288,7 @@ public final class PlayerOfferingRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -300,7 +300,7 @@ public final class PlayerOfferingRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -314,7 +314,7 @@ public final class PlayerOfferingRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 8;</code>
@@ -732,7 +732,7 @@ public final class PlayerOfferingRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -746,7 +746,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -760,7 +760,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -774,7 +774,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -795,7 +795,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -813,7 +813,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -833,7 +833,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -854,7 +854,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -872,7 +872,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -890,7 +890,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -909,7 +909,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -926,7 +926,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -943,7 +943,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -954,7 +954,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -968,7 +968,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -983,7 +983,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -994,7 +994,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -1006,7 +1006,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .ItemParam item_list = 14;</code>
@@ -1035,7 +1035,7 @@ public final class PlayerOfferingRspOuterClass {
           emu.grasscutter.net.proto.PlayerOfferingDataOuterClass.PlayerOfferingData, emu.grasscutter.net.proto.PlayerOfferingDataOuterClass.PlayerOfferingData.Builder, emu.grasscutter.net.proto.PlayerOfferingDataOuterClass.PlayerOfferingDataOrBuilder> offeringDataBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -1046,7 +1046,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -1061,7 +1061,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -1081,7 +1081,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -1099,7 +1099,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -1121,7 +1121,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -1139,7 +1139,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -1151,7 +1151,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -1166,7 +1166,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.PlayerOfferingData offering_data = 2;</code>
@@ -1188,7 +1188,7 @@ public final class PlayerOfferingRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 8;</code>
@@ -1200,7 +1200,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 8;</code>
@@ -1215,7 +1215,7 @@ public final class PlayerOfferingRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 8;</code>

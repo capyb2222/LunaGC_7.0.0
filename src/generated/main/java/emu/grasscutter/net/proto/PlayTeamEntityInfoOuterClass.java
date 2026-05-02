@@ -20,7 +20,7 @@ public final class PlayTeamEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -29,7 +29,7 @@ public final class PlayTeamEntityInfoOuterClass {
     boolean hasAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -38,7 +38,7 @@ public final class PlayTeamEntityInfoOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -47,7 +47,7 @@ public final class PlayTeamEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -57,7 +57,7 @@ public final class PlayTeamEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 player_uid = 2;</code>
@@ -67,7 +67,7 @@ public final class PlayTeamEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 authority_peer_id = 3;</code>
@@ -77,7 +77,7 @@ public final class PlayTeamEntityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_config_id = 5;</code>
@@ -199,7 +199,7 @@ public final class PlayTeamEntityInfoOuterClass {
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo abilityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -211,7 +211,7 @@ public final class PlayTeamEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -223,7 +223,7 @@ public final class PlayTeamEntityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -237,7 +237,7 @@ public final class PlayTeamEntityInfoOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -252,7 +252,7 @@ public final class PlayTeamEntityInfoOuterClass {
     private int playerUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 player_uid = 2;</code>
@@ -267,7 +267,7 @@ public final class PlayTeamEntityInfoOuterClass {
     private int authorityPeerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 authority_peer_id = 3;</code>
@@ -282,7 +282,7 @@ public final class PlayTeamEntityInfoOuterClass {
     private int gadgetConfigId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_config_id = 5;</code>
@@ -681,7 +681,7 @@ public final class PlayTeamEntityInfoOuterClass {
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> abilityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -692,7 +692,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -707,7 +707,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -727,7 +727,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -745,7 +745,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -767,7 +767,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -785,7 +785,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -797,7 +797,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -812,7 +812,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
@@ -834,7 +834,7 @@ public final class PlayTeamEntityInfoOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -846,7 +846,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -861,7 +861,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -877,7 +877,7 @@ public final class PlayTeamEntityInfoOuterClass {
       private int playerUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 player_uid = 2;</code>
@@ -889,7 +889,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 player_uid = 2;</code>
@@ -904,7 +904,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 player_uid = 2;</code>
@@ -920,7 +920,7 @@ public final class PlayTeamEntityInfoOuterClass {
       private int authorityPeerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 3;</code>
@@ -932,7 +932,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 3;</code>
@@ -947,7 +947,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 3;</code>
@@ -963,7 +963,7 @@ public final class PlayTeamEntityInfoOuterClass {
       private int gadgetConfigId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_config_id = 5;</code>
@@ -975,7 +975,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_config_id = 5;</code>
@@ -990,7 +990,7 @@ public final class PlayTeamEntityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_config_id = 5;</code>

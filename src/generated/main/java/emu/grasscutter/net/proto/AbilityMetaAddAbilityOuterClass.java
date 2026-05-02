@@ -20,7 +20,7 @@ public final class AbilityMetaAddAbilityOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -29,7 +29,7 @@ public final class AbilityMetaAddAbilityOuterClass {
     boolean hasAbility();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -38,7 +38,7 @@ public final class AbilityMetaAddAbilityOuterClass {
     emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility getAbility();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -139,7 +139,7 @@ public final class AbilityMetaAddAbilityOuterClass {
     private emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility ability_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -151,7 +151,7 @@ public final class AbilityMetaAddAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -163,7 +163,7 @@ public final class AbilityMetaAddAbilityOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -493,7 +493,7 @@ public final class AbilityMetaAddAbilityOuterClass {
           emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility, emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.Builder, emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbilityOrBuilder> abilityBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -504,7 +504,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -519,7 +519,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -539,7 +539,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -557,7 +557,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -579,7 +579,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -597,7 +597,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -609,7 +609,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
@@ -624,7 +624,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>

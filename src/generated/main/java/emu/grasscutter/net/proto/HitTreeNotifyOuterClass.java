@@ -20,7 +20,7 @@ public final class HitTreeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector drop_pos = 8;</code>
@@ -29,7 +29,7 @@ public final class HitTreeNotifyOuterClass {
     boolean hasDropPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector drop_pos = 8;</code>
@@ -38,7 +38,7 @@ public final class HitTreeNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getDropPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector drop_pos = 8;</code>
@@ -47,7 +47,7 @@ public final class HitTreeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector tree_pos = 12;</code>
@@ -56,7 +56,7 @@ public final class HitTreeNotifyOuterClass {
     boolean hasTreePos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector tree_pos = 12;</code>
@@ -65,7 +65,7 @@ public final class HitTreeNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getTreePos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector tree_pos = 12;</code>
@@ -74,7 +74,7 @@ public final class HitTreeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 tree_type = 15;</code>
@@ -198,7 +198,7 @@ public final class HitTreeNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector dropPos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector drop_pos = 8;</code>
@@ -210,7 +210,7 @@ public final class HitTreeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector drop_pos = 8;</code>
@@ -222,7 +222,7 @@ public final class HitTreeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector drop_pos = 8;</code>
@@ -236,7 +236,7 @@ public final class HitTreeNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector treePos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector tree_pos = 12;</code>
@@ -248,7 +248,7 @@ public final class HitTreeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector tree_pos = 12;</code>
@@ -260,7 +260,7 @@ public final class HitTreeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector tree_pos = 12;</code>
@@ -274,7 +274,7 @@ public final class HitTreeNotifyOuterClass {
     private int treeType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 tree_type = 15;</code>
@@ -656,7 +656,7 @@ public final class HitTreeNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> dropPosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector drop_pos = 8;</code>
@@ -667,7 +667,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector drop_pos = 8;</code>
@@ -682,7 +682,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector drop_pos = 8;</code>
@@ -702,7 +702,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector drop_pos = 8;</code>
@@ -720,7 +720,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector drop_pos = 8;</code>
@@ -742,7 +742,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector drop_pos = 8;</code>
@@ -760,7 +760,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector drop_pos = 8;</code>
@@ -772,7 +772,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector drop_pos = 8;</code>
@@ -787,7 +787,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector drop_pos = 8;</code>
@@ -811,7 +811,7 @@ public final class HitTreeNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> treePosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector tree_pos = 12;</code>
@@ -822,7 +822,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector tree_pos = 12;</code>
@@ -837,7 +837,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector tree_pos = 12;</code>
@@ -857,7 +857,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector tree_pos = 12;</code>
@@ -875,7 +875,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector tree_pos = 12;</code>
@@ -897,7 +897,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector tree_pos = 12;</code>
@@ -915,7 +915,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector tree_pos = 12;</code>
@@ -927,7 +927,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector tree_pos = 12;</code>
@@ -942,7 +942,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector tree_pos = 12;</code>
@@ -964,7 +964,7 @@ public final class HitTreeNotifyOuterClass {
       private int treeType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 tree_type = 15;</code>
@@ -976,7 +976,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 tree_type = 15;</code>
@@ -991,7 +991,7 @@ public final class HitTreeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 tree_type = 15;</code>

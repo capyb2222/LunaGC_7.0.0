@@ -20,7 +20,7 @@ public final class AvatarSkillInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -29,7 +29,7 @@ public final class AvatarSkillInfoOuterClass {
     java.util.List<java.lang.Integer> getFullCdTimeListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -38,7 +38,7 @@ public final class AvatarSkillInfoOuterClass {
     int getFullCdTimeListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -49,7 +49,7 @@ public final class AvatarSkillInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 pass_cd_time = 1;</code>
@@ -59,7 +59,7 @@ public final class AvatarSkillInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 max_charge_count = 3;</code>
@@ -184,7 +184,7 @@ public final class AvatarSkillInfoOuterClass {
     private com.google.protobuf.Internal.IntList fullCdTimeList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -197,7 +197,7 @@ public final class AvatarSkillInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -208,7 +208,7 @@ public final class AvatarSkillInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -224,7 +224,7 @@ public final class AvatarSkillInfoOuterClass {
     private int passCdTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 pass_cd_time = 1;</code>
@@ -239,7 +239,7 @@ public final class AvatarSkillInfoOuterClass {
     private int maxChargeCount_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 max_charge_count = 3;</code>
@@ -625,7 +625,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -638,7 +638,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -649,7 +649,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -661,7 +661,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -678,7 +678,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -693,7 +693,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -710,7 +710,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 full_cd_time_list = 2;</code>
@@ -726,7 +726,7 @@ public final class AvatarSkillInfoOuterClass {
       private int passCdTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 pass_cd_time = 1;</code>
@@ -738,7 +738,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 pass_cd_time = 1;</code>
@@ -753,7 +753,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 pass_cd_time = 1;</code>
@@ -769,7 +769,7 @@ public final class AvatarSkillInfoOuterClass {
       private int maxChargeCount_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 max_charge_count = 3;</code>
@@ -781,7 +781,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 max_charge_count = 3;</code>
@@ -796,7 +796,7 @@ public final class AvatarSkillInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 max_charge_count = 3;</code>

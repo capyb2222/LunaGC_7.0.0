@@ -20,7 +20,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -29,7 +29,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
     boolean hasLunchBoxData();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -38,7 +38,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
     emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData getLunchBoxData();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -143,7 +143,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
     private emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData lunchBoxData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -155,7 +155,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -167,7 +167,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -501,7 +501,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
           emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxData.Builder, emu.grasscutter.net.proto.LunchBoxDataOuterClass.LunchBoxDataOrBuilder> lunchBoxDataBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -512,7 +512,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -527,7 +527,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -547,7 +547,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -565,7 +565,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -587,7 +587,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -605,7 +605,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -617,7 +617,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 7;</code>
@@ -632,7 +632,7 @@ public final class SetUpLunchBoxWidgetReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.LunchBoxData lunch_box_data = 7;</code>

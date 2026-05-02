@@ -20,7 +20,7 @@ public final class DungeonEntryInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -29,7 +29,7 @@ public final class DungeonEntryInfoRspOuterClass {
         getDungeonEntryPointListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -37,7 +37,7 @@ public final class DungeonEntryInfoRspOuterClass {
     emu.grasscutter.net.proto.DungeonEntryPointInfoOuterClass.DungeonEntryPointInfo getDungeonEntryPointList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -45,7 +45,7 @@ public final class DungeonEntryInfoRspOuterClass {
     int getDungeonEntryPointListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -54,7 +54,7 @@ public final class DungeonEntryInfoRspOuterClass {
         getDungeonEntryPointListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -64,7 +64,7 @@ public final class DungeonEntryInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -73,7 +73,7 @@ public final class DungeonEntryInfoRspOuterClass {
         getDungeonEntryListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -81,7 +81,7 @@ public final class DungeonEntryInfoRspOuterClass {
     emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo getDungeonEntryList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -89,7 +89,7 @@ public final class DungeonEntryInfoRspOuterClass {
     int getDungeonEntryListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -98,7 +98,7 @@ public final class DungeonEntryInfoRspOuterClass {
         getDungeonEntryListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -108,7 +108,7 @@ public final class DungeonEntryInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 4;</code>
@@ -118,7 +118,7 @@ public final class DungeonEntryInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 recommend_dungeon_id = 9;</code>
@@ -134,7 +134,7 @@ public final class DungeonEntryInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 point_id = 1;</code>
@@ -274,7 +274,7 @@ public final class DungeonEntryInfoRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.DungeonEntryPointInfoOuterClass.DungeonEntryPointInfo> dungeonEntryPointList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -285,7 +285,7 @@ public final class DungeonEntryInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -297,7 +297,7 @@ public final class DungeonEntryInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -308,7 +308,7 @@ public final class DungeonEntryInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -319,7 +319,7 @@ public final class DungeonEntryInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -334,7 +334,7 @@ public final class DungeonEntryInfoRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.DungeonEntryInfoOuterClass.DungeonEntryInfo> dungeonEntryList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -345,7 +345,7 @@ public final class DungeonEntryInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -357,7 +357,7 @@ public final class DungeonEntryInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -368,7 +368,7 @@ public final class DungeonEntryInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -379,7 +379,7 @@ public final class DungeonEntryInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -394,7 +394,7 @@ public final class DungeonEntryInfoRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 4;</code>
@@ -409,7 +409,7 @@ public final class DungeonEntryInfoRspOuterClass {
     private int recommendDungeonId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 recommend_dungeon_id = 9;</code>
@@ -435,7 +435,7 @@ public final class DungeonEntryInfoRspOuterClass {
     private int pointId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 point_id = 1;</code>
@@ -930,7 +930,7 @@ public final class DungeonEntryInfoRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -944,7 +944,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -958,7 +958,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -972,7 +972,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -993,7 +993,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1011,7 +1011,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1031,7 +1031,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1052,7 +1052,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1070,7 +1070,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1088,7 +1088,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1107,7 +1107,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1124,7 +1124,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1141,7 +1141,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1152,7 +1152,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1166,7 +1166,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1181,7 +1181,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1192,7 +1192,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1204,7 +1204,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryPointInfo dungeon_entry_point_list = 14;</code>
@@ -1242,7 +1242,7 @@ public final class DungeonEntryInfoRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1256,7 +1256,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1270,7 +1270,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1284,7 +1284,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1305,7 +1305,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1323,7 +1323,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1343,7 +1343,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1364,7 +1364,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1382,7 +1382,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1400,7 +1400,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1419,7 +1419,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1436,7 +1436,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1453,7 +1453,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1464,7 +1464,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1478,7 +1478,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1493,7 +1493,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1504,7 +1504,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1516,7 +1516,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .DungeonEntryInfo dungeon_entry_list = 15;</code>
@@ -1543,7 +1543,7 @@ public final class DungeonEntryInfoRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 4;</code>
@@ -1555,7 +1555,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 4;</code>
@@ -1570,7 +1570,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 4;</code>
@@ -1586,7 +1586,7 @@ public final class DungeonEntryInfoRspOuterClass {
       private int recommendDungeonId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 recommend_dungeon_id = 9;</code>
@@ -1598,7 +1598,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 recommend_dungeon_id = 9;</code>
@@ -1613,7 +1613,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 recommend_dungeon_id = 9;</code>
@@ -1660,7 +1660,7 @@ public final class DungeonEntryInfoRspOuterClass {
       private int pointId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 1;</code>
@@ -1672,7 +1672,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 1;</code>
@@ -1687,7 +1687,7 @@ public final class DungeonEntryInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 1;</code>

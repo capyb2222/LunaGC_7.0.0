@@ -82,7 +82,7 @@ public final class ReunionBriefInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string version = 4;</code>
@@ -91,7 +91,7 @@ public final class ReunionBriefInfoOuterClass {
     java.lang.String getVersion();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string version = 4;</code>
@@ -134,7 +134,7 @@ public final class ReunionBriefInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 start_time = 6;</code>
@@ -144,7 +144,7 @@ public final class ReunionBriefInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 finish_time = 14;</code>
@@ -154,7 +154,7 @@ public final class ReunionBriefInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 mission_id = 11;</code>
@@ -176,7 +176,7 @@ public final class ReunionBriefInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>uint32 first_day_start_time = 15;</code>
@@ -544,7 +544,7 @@ public final class ReunionBriefInfoOuterClass {
     private volatile java.lang.Object version_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string version = 4;</code>
@@ -565,7 +565,7 @@ public final class ReunionBriefInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string version = 4;</code>
@@ -644,7 +644,7 @@ public final class ReunionBriefInfoOuterClass {
     private int startTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 start_time = 6;</code>
@@ -659,7 +659,7 @@ public final class ReunionBriefInfoOuterClass {
     private int finishTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 finish_time = 14;</code>
@@ -674,7 +674,7 @@ public final class ReunionBriefInfoOuterClass {
     private int missionId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 mission_id = 11;</code>
@@ -711,7 +711,7 @@ public final class ReunionBriefInfoOuterClass {
     private int firstDayStartTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>uint32 first_day_start_time = 15;</code>
@@ -1862,7 +1862,7 @@ public final class ReunionBriefInfoOuterClass {
       private java.lang.Object version_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string version = 4;</code>
@@ -1882,7 +1882,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string version = 4;</code>
@@ -1903,7 +1903,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string version = 4;</code>
@@ -1922,7 +1922,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string version = 4;</code>
@@ -1936,7 +1936,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string version = 4;</code>
@@ -2156,7 +2156,7 @@ public final class ReunionBriefInfoOuterClass {
       private int startTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 start_time = 6;</code>
@@ -2168,7 +2168,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 start_time = 6;</code>
@@ -2183,7 +2183,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 start_time = 6;</code>
@@ -2199,7 +2199,7 @@ public final class ReunionBriefInfoOuterClass {
       private int finishTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 finish_time = 14;</code>
@@ -2211,7 +2211,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 finish_time = 14;</code>
@@ -2226,7 +2226,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 finish_time = 14;</code>
@@ -2242,7 +2242,7 @@ public final class ReunionBriefInfoOuterClass {
       private int missionId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 mission_id = 11;</code>
@@ -2254,7 +2254,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 mission_id = 11;</code>
@@ -2269,7 +2269,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 mission_id = 11;</code>
@@ -2347,7 +2347,7 @@ public final class ReunionBriefInfoOuterClass {
       private int firstDayStartTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 first_day_start_time = 15;</code>
@@ -2359,7 +2359,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 first_day_start_time = 15;</code>
@@ -2374,7 +2374,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 first_day_start_time = 15;</code>

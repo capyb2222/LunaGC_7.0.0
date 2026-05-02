@@ -32,7 +32,7 @@ public final class ChallengeBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cur_progress = 3;</code>
@@ -42,7 +42,7 @@ public final class ChallengeBriefOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_success = 7;</code>
@@ -173,7 +173,7 @@ public final class ChallengeBriefOuterClass {
     private int curProgress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cur_progress = 3;</code>
@@ -188,7 +188,7 @@ public final class ChallengeBriefOuterClass {
     private boolean isSuccess_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_success = 7;</code>
@@ -618,7 +618,7 @@ public final class ChallengeBriefOuterClass {
       private int curProgress_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_progress = 3;</code>
@@ -630,7 +630,7 @@ public final class ChallengeBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_progress = 3;</code>
@@ -645,7 +645,7 @@ public final class ChallengeBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cur_progress = 3;</code>
@@ -661,7 +661,7 @@ public final class ChallengeBriefOuterClass {
       private boolean isSuccess_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_success = 7;</code>
@@ -673,7 +673,7 @@ public final class ChallengeBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_success = 7;</code>
@@ -688,7 +688,7 @@ public final class ChallengeBriefOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_success = 7;</code>

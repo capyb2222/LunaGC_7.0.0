@@ -20,7 +20,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -29,7 +29,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     java.util.List<java.lang.Integer> getTargetLockPointIndexListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -38,7 +38,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     int getTargetLockPointIndexListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -49,7 +49,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_euler_angles = 7;</code>
@@ -58,7 +58,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     boolean hasInitEulerAngles();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_euler_angles = 7;</code>
@@ -67,7 +67,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getInitEulerAngles();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_euler_angles = 7;</code>
@@ -76,7 +76,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_pos = 6;</code>
@@ -85,7 +85,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     boolean hasInitPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_pos = 6;</code>
@@ -94,7 +94,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getInitPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_pos = 6;</code>
@@ -103,7 +103,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 591;</code>
@@ -112,7 +112,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     boolean hasAbilityName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 591;</code>
@@ -121,7 +121,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getAbilityName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 591;</code>
@@ -130,7 +130,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -139,7 +139,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     java.util.List<java.lang.Integer> getTargetEntityIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -148,7 +148,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     int getTargetEntityIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -159,7 +159,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 3;</code>
@@ -169,7 +169,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 8;</code>
@@ -178,7 +178,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     int getForwardTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 8;</code>
@@ -188,7 +188,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 init_pose_id = 1667;</code>
@@ -217,7 +217,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_peer_id_from_player = 67;</code>
@@ -239,7 +239,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -249,7 +249,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 born_slot_index = 1585;</code>
@@ -259,7 +259,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 prop_owner_entity_id = 14;</code>
@@ -269,7 +269,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 local_id = 39;</code>
@@ -279,7 +279,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_entity_id = 11;</code>
@@ -289,7 +289,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 room_id = 1;</code>
@@ -299,7 +299,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 12;</code>
@@ -309,7 +309,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 10;</code>
@@ -319,7 +319,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 camp_type = 2;</code>
@@ -329,7 +329,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 camp_id = 13;</code>
@@ -601,7 +601,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private com.google.protobuf.Internal.IntList targetLockPointIndexList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -614,7 +614,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -625,7 +625,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -641,7 +641,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector initEulerAngles_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_euler_angles = 7;</code>
@@ -653,7 +653,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_euler_angles = 7;</code>
@@ -665,7 +665,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_euler_angles = 7;</code>
@@ -679,7 +679,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector initPos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_pos = 6;</code>
@@ -691,7 +691,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_pos = 6;</code>
@@ -703,7 +703,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector init_pos = 6;</code>
@@ -717,7 +717,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString abilityName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 591;</code>
@@ -729,7 +729,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 591;</code>
@@ -741,7 +741,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityString ability_name = 591;</code>
@@ -755,7 +755,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private com.google.protobuf.Internal.IntList targetEntityIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -768,7 +768,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -779,7 +779,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -795,7 +795,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int configId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 3;</code>
@@ -810,7 +810,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int forwardType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 8;</code>
@@ -821,7 +821,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 8;</code>
@@ -837,7 +837,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int initPoseId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 init_pose_id = 1667;</code>
@@ -879,7 +879,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private boolean isPeerIdFromPlayer_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_peer_id_from_player = 67;</code>
@@ -916,7 +916,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -931,7 +931,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int bornSlotIndex_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 born_slot_index = 1585;</code>
@@ -946,7 +946,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int propOwnerEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 prop_owner_entity_id = 14;</code>
@@ -961,7 +961,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int localId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 local_id = 39;</code>
@@ -976,7 +976,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int targetEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_entity_id = 11;</code>
@@ -991,7 +991,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int roomId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 room_id = 1;</code>
@@ -1006,7 +1006,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int ownerEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 12;</code>
@@ -1021,7 +1021,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 10;</code>
@@ -1036,7 +1036,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int campType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 camp_type = 2;</code>
@@ -1051,7 +1051,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     private int campId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 camp_id = 13;</code>
@@ -1832,7 +1832,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -1845,7 +1845,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -1856,7 +1856,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -1868,7 +1868,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -1885,7 +1885,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -1900,7 +1900,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -1917,7 +1917,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 19;</code>
@@ -1935,7 +1935,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> initEulerAnglesBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_euler_angles = 7;</code>
@@ -1946,7 +1946,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_euler_angles = 7;</code>
@@ -1961,7 +1961,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_euler_angles = 7;</code>
@@ -1981,7 +1981,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_euler_angles = 7;</code>
@@ -1999,7 +1999,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_euler_angles = 7;</code>
@@ -2021,7 +2021,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_euler_angles = 7;</code>
@@ -2039,7 +2039,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_euler_angles = 7;</code>
@@ -2051,7 +2051,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_euler_angles = 7;</code>
@@ -2066,7 +2066,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_euler_angles = 7;</code>
@@ -2090,7 +2090,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> initPosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_pos = 6;</code>
@@ -2101,7 +2101,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_pos = 6;</code>
@@ -2116,7 +2116,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_pos = 6;</code>
@@ -2136,7 +2136,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_pos = 6;</code>
@@ -2154,7 +2154,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_pos = 6;</code>
@@ -2176,7 +2176,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_pos = 6;</code>
@@ -2194,7 +2194,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_pos = 6;</code>
@@ -2206,7 +2206,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_pos = 6;</code>
@@ -2221,7 +2221,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector init_pos = 6;</code>
@@ -2245,7 +2245,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> abilityNameBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 591;</code>
@@ -2256,7 +2256,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 591;</code>
@@ -2271,7 +2271,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 591;</code>
@@ -2291,7 +2291,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 591;</code>
@@ -2309,7 +2309,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 591;</code>
@@ -2331,7 +2331,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 591;</code>
@@ -2349,7 +2349,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 591;</code>
@@ -2361,7 +2361,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 591;</code>
@@ -2376,7 +2376,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityString ability_name = 591;</code>
@@ -2404,7 +2404,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -2417,7 +2417,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -2428,7 +2428,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -2440,7 +2440,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -2457,7 +2457,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -2472,7 +2472,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -2489,7 +2489,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 808;</code>
@@ -2505,7 +2505,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int configId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 3;</code>
@@ -2517,7 +2517,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 3;</code>
@@ -2532,7 +2532,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 3;</code>
@@ -2548,7 +2548,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int forwardType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 8;</code>
@@ -2559,7 +2559,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 8;</code>
@@ -2574,7 +2574,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 8;</code>
@@ -2588,7 +2588,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 8;</code>
@@ -2606,7 +2606,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 8;</code>
@@ -2622,7 +2622,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int initPoseId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_pose_id = 1667;</code>
@@ -2634,7 +2634,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_pose_id = 1667;</code>
@@ -2649,7 +2649,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_pose_id = 1667;</code>
@@ -2739,7 +2739,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private boolean isPeerIdFromPlayer_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_peer_id_from_player = 67;</code>
@@ -2751,7 +2751,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_peer_id_from_player = 67;</code>
@@ -2766,7 +2766,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_peer_id_from_player = 67;</code>
@@ -2844,7 +2844,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -2856,7 +2856,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -2871,7 +2871,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -2887,7 +2887,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int bornSlotIndex_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 born_slot_index = 1585;</code>
@@ -2899,7 +2899,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 born_slot_index = 1585;</code>
@@ -2914,7 +2914,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 born_slot_index = 1585;</code>
@@ -2930,7 +2930,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int propOwnerEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 prop_owner_entity_id = 14;</code>
@@ -2942,7 +2942,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 prop_owner_entity_id = 14;</code>
@@ -2957,7 +2957,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 prop_owner_entity_id = 14;</code>
@@ -2973,7 +2973,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int localId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 local_id = 39;</code>
@@ -2985,7 +2985,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 local_id = 39;</code>
@@ -3000,7 +3000,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 local_id = 39;</code>
@@ -3016,7 +3016,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int targetEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_entity_id = 11;</code>
@@ -3028,7 +3028,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_entity_id = 11;</code>
@@ -3043,7 +3043,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_entity_id = 11;</code>
@@ -3059,7 +3059,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int roomId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 room_id = 1;</code>
@@ -3071,7 +3071,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 room_id = 1;</code>
@@ -3086,7 +3086,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 room_id = 1;</code>
@@ -3102,7 +3102,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int ownerEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 12;</code>
@@ -3114,7 +3114,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 12;</code>
@@ -3129,7 +3129,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 12;</code>
@@ -3145,7 +3145,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 10;</code>
@@ -3157,7 +3157,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 10;</code>
@@ -3172,7 +3172,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 10;</code>
@@ -3188,7 +3188,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int campType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_type = 2;</code>
@@ -3200,7 +3200,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_type = 2;</code>
@@ -3215,7 +3215,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_type = 2;</code>
@@ -3231,7 +3231,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private int campId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_id = 13;</code>
@@ -3243,7 +3243,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_id = 13;</code>
@@ -3258,7 +3258,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_id = 13;</code>

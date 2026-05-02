@@ -20,7 +20,7 @@ public final class ForceUpdateInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string force_update_url = 1;</code>
@@ -29,7 +29,7 @@ public final class ForceUpdateInfoOuterClass {
     java.lang.String getForceUpdateUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string force_update_url = 1;</code>
@@ -126,7 +126,7 @@ public final class ForceUpdateInfoOuterClass {
     private volatile java.lang.Object forceUpdateUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string force_update_url = 1;</code>
@@ -147,7 +147,7 @@ public final class ForceUpdateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string force_update_url = 1;</code>
@@ -473,7 +473,7 @@ public final class ForceUpdateInfoOuterClass {
       private java.lang.Object forceUpdateUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string force_update_url = 1;</code>
@@ -493,7 +493,7 @@ public final class ForceUpdateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string force_update_url = 1;</code>
@@ -514,7 +514,7 @@ public final class ForceUpdateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string force_update_url = 1;</code>
@@ -533,7 +533,7 @@ public final class ForceUpdateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string force_update_url = 1;</code>
@@ -547,7 +547,7 @@ public final class ForceUpdateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string force_update_url = 1;</code>

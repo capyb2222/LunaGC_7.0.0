@@ -20,7 +20,7 @@ public final class FightPropPairOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float prop_value = 2;</code>
@@ -30,7 +30,7 @@ public final class FightPropPairOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 prop_type = 1;</code>
@@ -129,7 +129,7 @@ public final class FightPropPairOuterClass {
     private float propValue_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float prop_value = 2;</code>
@@ -144,7 +144,7 @@ public final class FightPropPairOuterClass {
     private int propType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 prop_type = 1;</code>
@@ -479,7 +479,7 @@ public final class FightPropPairOuterClass {
       private float propValue_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float prop_value = 2;</code>
@@ -491,7 +491,7 @@ public final class FightPropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float prop_value = 2;</code>
@@ -506,7 +506,7 @@ public final class FightPropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float prop_value = 2;</code>
@@ -522,7 +522,7 @@ public final class FightPropPairOuterClass {
       private int propType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 prop_type = 1;</code>
@@ -534,7 +534,7 @@ public final class FightPropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 prop_type = 1;</code>
@@ -549,7 +549,7 @@ public final class FightPropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 prop_type = 1;</code>

@@ -20,7 +20,7 @@ public final class SetWidgetSlotRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -29,7 +29,7 @@ public final class SetWidgetSlotRspOuterClass {
     java.util.List<emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag> getTagListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -38,7 +38,7 @@ public final class SetWidgetSlotRspOuterClass {
     int getTagListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -48,7 +48,7 @@ public final class SetWidgetSlotRspOuterClass {
     emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag getTagList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -58,7 +58,7 @@ public final class SetWidgetSlotRspOuterClass {
     getTagListValueList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -69,7 +69,7 @@ public final class SetWidgetSlotRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -79,7 +79,7 @@ public final class SetWidgetSlotRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 8;</code>
@@ -88,7 +88,7 @@ public final class SetWidgetSlotRspOuterClass {
     int getOpValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 8;</code>
@@ -98,7 +98,7 @@ public final class SetWidgetSlotRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 material_id = 14;</code>
@@ -246,7 +246,7 @@ public final class SetWidgetSlotRspOuterClass {
             };
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -259,7 +259,7 @@ public final class SetWidgetSlotRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -271,7 +271,7 @@ public final class SetWidgetSlotRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -284,7 +284,7 @@ public final class SetWidgetSlotRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -297,7 +297,7 @@ public final class SetWidgetSlotRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -314,7 +314,7 @@ public final class SetWidgetSlotRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -329,7 +329,7 @@ public final class SetWidgetSlotRspOuterClass {
     private int op_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 8;</code>
@@ -340,7 +340,7 @@ public final class SetWidgetSlotRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 8;</code>
@@ -356,7 +356,7 @@ public final class SetWidgetSlotRspOuterClass {
     private int materialId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 material_id = 14;</code>
@@ -760,7 +760,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -772,7 +772,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -783,7 +783,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -795,7 +795,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -815,7 +815,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -833,7 +833,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -851,7 +851,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -865,7 +865,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -877,7 +877,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -889,7 +889,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -906,7 +906,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -921,7 +921,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
@@ -941,7 +941,7 @@ public final class SetWidgetSlotRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -953,7 +953,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -968,7 +968,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -984,7 +984,7 @@ public final class SetWidgetSlotRspOuterClass {
       private int op_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 8;</code>
@@ -995,7 +995,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 8;</code>
@@ -1010,7 +1010,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 8;</code>
@@ -1024,7 +1024,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 8;</code>
@@ -1042,7 +1042,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 8;</code>
@@ -1058,7 +1058,7 @@ public final class SetWidgetSlotRspOuterClass {
       private int materialId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 14;</code>
@@ -1070,7 +1070,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 14;</code>
@@ -1085,7 +1085,7 @@ public final class SetWidgetSlotRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 14;</code>

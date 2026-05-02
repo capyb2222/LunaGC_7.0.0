@@ -20,7 +20,7 @@ public final class CodexDataUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 weapon_max_promote_level = 15;</code>
@@ -30,7 +30,7 @@ public final class CodexDataUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 7;</code>
@@ -40,7 +40,7 @@ public final class CodexDataUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CodexType type = 14;</code>
@@ -49,7 +49,7 @@ public final class CodexDataUpdateNotifyOuterClass {
     int getTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CodexType type = 14;</code>
@@ -159,7 +159,7 @@ public final class CodexDataUpdateNotifyOuterClass {
     private int weaponMaxPromoteLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 weapon_max_promote_level = 15;</code>
@@ -174,7 +174,7 @@ public final class CodexDataUpdateNotifyOuterClass {
     private int id_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 7;</code>
@@ -189,7 +189,7 @@ public final class CodexDataUpdateNotifyOuterClass {
     private int type_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CodexType type = 14;</code>
@@ -200,7 +200,7 @@ public final class CodexDataUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CodexType type = 14;</code>
@@ -554,7 +554,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       private int weaponMaxPromoteLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 weapon_max_promote_level = 15;</code>
@@ -566,7 +566,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 weapon_max_promote_level = 15;</code>
@@ -581,7 +581,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 weapon_max_promote_level = 15;</code>
@@ -597,7 +597,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       private int id_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 7;</code>
@@ -609,7 +609,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 7;</code>
@@ -624,7 +624,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 7;</code>
@@ -640,7 +640,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       private int type_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 14;</code>
@@ -651,7 +651,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 14;</code>
@@ -666,7 +666,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 14;</code>
@@ -680,7 +680,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 14;</code>
@@ -698,7 +698,7 @@ public final class CodexDataUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 14;</code>

@@ -20,7 +20,7 @@ public final class AntiAddictNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string level = 3;</code>
@@ -29,7 +29,7 @@ public final class AntiAddictNotifyOuterClass {
     java.lang.String getLevel();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string level = 3;</code>
@@ -40,7 +40,7 @@ public final class AntiAddictNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string msg = 11;</code>
@@ -49,7 +49,7 @@ public final class AntiAddictNotifyOuterClass {
     java.lang.String getMsg();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string msg = 11;</code>
@@ -60,7 +60,7 @@ public final class AntiAddictNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>int32 msg_type = 8;</code>
@@ -172,7 +172,7 @@ public final class AntiAddictNotifyOuterClass {
     private volatile java.lang.Object level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string level = 3;</code>
@@ -193,7 +193,7 @@ public final class AntiAddictNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string level = 3;</code>
@@ -218,7 +218,7 @@ public final class AntiAddictNotifyOuterClass {
     private volatile java.lang.Object msg_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string msg = 11;</code>
@@ -239,7 +239,7 @@ public final class AntiAddictNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>string msg = 11;</code>
@@ -264,7 +264,7 @@ public final class AntiAddictNotifyOuterClass {
     private int msgType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>int32 msg_type = 8;</code>
@@ -618,7 +618,7 @@ public final class AntiAddictNotifyOuterClass {
       private java.lang.Object level_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string level = 3;</code>
@@ -638,7 +638,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string level = 3;</code>
@@ -659,7 +659,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string level = 3;</code>
@@ -678,7 +678,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string level = 3;</code>
@@ -692,7 +692,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string level = 3;</code>
@@ -714,7 +714,7 @@ public final class AntiAddictNotifyOuterClass {
       private java.lang.Object msg_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -734,7 +734,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -755,7 +755,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -774,7 +774,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -788,7 +788,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>string msg = 11;</code>
@@ -810,7 +810,7 @@ public final class AntiAddictNotifyOuterClass {
       private int msgType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>int32 msg_type = 8;</code>
@@ -822,7 +822,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>int32 msg_type = 8;</code>
@@ -837,7 +837,7 @@ public final class AntiAddictNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>int32 msg_type = 8;</code>

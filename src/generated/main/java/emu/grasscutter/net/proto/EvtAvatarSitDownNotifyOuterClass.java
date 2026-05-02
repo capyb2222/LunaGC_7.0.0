@@ -20,7 +20,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 2;</code>
@@ -29,7 +29,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     boolean hasPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 2;</code>
@@ -38,7 +38,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 2;</code>
@@ -47,7 +47,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -63,7 +63,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 chair_id = 8;</code>
@@ -185,7 +185,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 2;</code>
@@ -197,7 +197,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 2;</code>
@@ -209,7 +209,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 2;</code>
@@ -223,7 +223,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -249,7 +249,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
     private long chairId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 chair_id = 8;</code>
@@ -637,7 +637,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> positionBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 2;</code>
@@ -648,7 +648,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 2;</code>
@@ -663,7 +663,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 2;</code>
@@ -683,7 +683,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 2;</code>
@@ -701,7 +701,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 2;</code>
@@ -723,7 +723,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 2;</code>
@@ -741,7 +741,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 2;</code>
@@ -753,7 +753,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 2;</code>
@@ -768,7 +768,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 2;</code>
@@ -790,7 +790,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -802,7 +802,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -817,7 +817,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -864,7 +864,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       private long chairId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 chair_id = 8;</code>
@@ -876,7 +876,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 chair_id = 8;</code>
@@ -891,7 +891,7 @@ public final class EvtAvatarSitDownNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 chair_id = 8;</code>

@@ -61,7 +61,7 @@ public final class DigActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 stage_id = 7;</code>
@@ -262,7 +262,7 @@ public final class DigActivityDetailInfoOuterClass {
     private int stageId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 stage_id = 7;</code>
@@ -999,7 +999,7 @@ public final class DigActivityDetailInfoOuterClass {
       private int stageId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 stage_id = 7;</code>
@@ -1011,7 +1011,7 @@ public final class DigActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 stage_id = 7;</code>
@@ -1026,7 +1026,7 @@ public final class DigActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 stage_id = 7;</code>

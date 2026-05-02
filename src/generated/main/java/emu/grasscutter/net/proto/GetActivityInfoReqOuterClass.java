@@ -20,7 +20,7 @@ public final class GetActivityInfoReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 activity_id_list = 11;</code>
@@ -29,7 +29,7 @@ public final class GetActivityInfoReqOuterClass {
     java.util.List<java.lang.Integer> getActivityIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 activity_id_list = 11;</code>
@@ -38,7 +38,7 @@ public final class GetActivityInfoReqOuterClass {
     int getActivityIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 activity_id_list = 11;</code>
@@ -158,7 +158,7 @@ public final class GetActivityInfoReqOuterClass {
     private com.google.protobuf.Internal.IntList activityIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 activity_id_list = 11;</code>
@@ -171,7 +171,7 @@ public final class GetActivityInfoReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 activity_id_list = 11;</code>
@@ -182,7 +182,7 @@ public final class GetActivityInfoReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated uint32 activity_id_list = 11;</code>
@@ -539,7 +539,7 @@ public final class GetActivityInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 activity_id_list = 11;</code>
@@ -552,7 +552,7 @@ public final class GetActivityInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 activity_id_list = 11;</code>
@@ -563,7 +563,7 @@ public final class GetActivityInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 activity_id_list = 11;</code>
@@ -575,7 +575,7 @@ public final class GetActivityInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 activity_id_list = 11;</code>
@@ -592,7 +592,7 @@ public final class GetActivityInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 activity_id_list = 11;</code>
@@ -607,7 +607,7 @@ public final class GetActivityInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 activity_id_list = 11;</code>
@@ -624,7 +624,7 @@ public final class GetActivityInfoReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated uint32 activity_id_list = 11;</code>

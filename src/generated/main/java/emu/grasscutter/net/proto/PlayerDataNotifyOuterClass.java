@@ -20,7 +20,7 @@ public final class PlayerDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string nick_name = 1;</code>
@@ -29,7 +29,7 @@ public final class PlayerDataNotifyOuterClass {
     java.lang.String getNickName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string nick_name = 1;</code>
@@ -40,7 +40,7 @@ public final class PlayerDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -48,7 +48,7 @@ public final class PlayerDataNotifyOuterClass {
     int getPropMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -63,7 +63,7 @@ public final class PlayerDataNotifyOuterClass {
     getPropMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -72,7 +72,7 @@ public final class PlayerDataNotifyOuterClass {
     getPropMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -83,7 +83,7 @@ public final class PlayerDataNotifyOuterClass {
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -94,7 +94,7 @@ public final class PlayerDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_first_login_today = 3;</code>
@@ -104,7 +104,7 @@ public final class PlayerDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 region_id = 14;</code>
@@ -114,7 +114,7 @@ public final class PlayerDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 server_time = 2;</code>
@@ -255,7 +255,7 @@ public final class PlayerDataNotifyOuterClass {
     private volatile java.lang.Object nickName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string nick_name = 1;</code>
@@ -276,7 +276,7 @@ public final class PlayerDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string nick_name = 1;</code>
@@ -325,7 +325,7 @@ public final class PlayerDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -347,7 +347,7 @@ public final class PlayerDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -359,7 +359,7 @@ public final class PlayerDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -376,7 +376,7 @@ public final class PlayerDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -398,7 +398,7 @@ public final class PlayerDataNotifyOuterClass {
     private boolean isFirstLoginToday_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_first_login_today = 3;</code>
@@ -413,7 +413,7 @@ public final class PlayerDataNotifyOuterClass {
     private int regionId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 region_id = 14;</code>
@@ -428,7 +428,7 @@ public final class PlayerDataNotifyOuterClass {
     private long serverTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 server_time = 2;</code>
@@ -852,7 +852,7 @@ public final class PlayerDataNotifyOuterClass {
       private java.lang.Object nickName_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -872,7 +872,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -893,7 +893,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -912,7 +912,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -926,7 +926,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string nick_name = 1;</code>
@@ -973,7 +973,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -995,7 +995,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -1007,7 +1007,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -1024,7 +1024,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -1049,7 +1049,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -1072,7 +1072,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -1088,7 +1088,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 8;</code>
@@ -1104,7 +1104,7 @@ public final class PlayerDataNotifyOuterClass {
       private boolean isFirstLoginToday_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_first_login_today = 3;</code>
@@ -1116,7 +1116,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_first_login_today = 3;</code>
@@ -1131,7 +1131,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_first_login_today = 3;</code>
@@ -1147,7 +1147,7 @@ public final class PlayerDataNotifyOuterClass {
       private int regionId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 region_id = 14;</code>
@@ -1159,7 +1159,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 region_id = 14;</code>
@@ -1174,7 +1174,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 region_id = 14;</code>
@@ -1190,7 +1190,7 @@ public final class PlayerDataNotifyOuterClass {
       private long serverTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 server_time = 2;</code>
@@ -1202,7 +1202,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 server_time = 2;</code>
@@ -1217,7 +1217,7 @@ public final class PlayerDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 server_time = 2;</code>

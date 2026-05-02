@@ -20,7 +20,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -29,7 +29,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
         getUidInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -37,7 +37,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML getUidInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -45,7 +45,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     int getUidInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -54,7 +54,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
         getUidInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -64,7 +64,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 8;</code>
@@ -73,7 +73,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     boolean hasPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 8;</code>
@@ -82,7 +82,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 8;</code>
@@ -97,7 +97,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cost_time = 1;</code>
@@ -223,7 +223,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.BELNHAFOHMLOuterClass.BELNHAFOHML> uidInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -234,7 +234,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -246,7 +246,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -257,7 +257,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -268,7 +268,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -283,7 +283,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 8;</code>
@@ -295,7 +295,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 8;</code>
@@ -307,7 +307,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 8;</code>
@@ -332,7 +332,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
     private int costTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cost_time = 1;</code>
@@ -763,7 +763,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -777,7 +777,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -791,7 +791,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -805,7 +805,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -826,7 +826,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -844,7 +844,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -864,7 +864,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -885,7 +885,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -903,7 +903,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -921,7 +921,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -940,7 +940,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -957,7 +957,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -974,7 +974,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -985,7 +985,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -999,7 +999,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -1014,7 +1014,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -1025,7 +1025,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -1037,7 +1037,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .BELNHAFOHML uid_info_list = 14;</code>
@@ -1066,7 +1066,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 8;</code>
@@ -1077,7 +1077,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 8;</code>
@@ -1092,7 +1092,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 8;</code>
@@ -1112,7 +1112,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 8;</code>
@@ -1130,7 +1130,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 8;</code>
@@ -1152,7 +1152,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 8;</code>
@@ -1170,7 +1170,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 8;</code>
@@ -1182,7 +1182,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 8;</code>
@@ -1197,7 +1197,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 8;</code>
@@ -1250,7 +1250,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       private int costTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cost_time = 1;</code>
@@ -1262,7 +1262,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cost_time = 1;</code>
@@ -1277,7 +1277,7 @@ public final class CrucibleActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cost_time = 1;</code>

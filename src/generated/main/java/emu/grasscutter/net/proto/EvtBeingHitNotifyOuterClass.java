@@ -20,7 +20,7 @@ public final class EvtBeingHitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -29,7 +29,7 @@ public final class EvtBeingHitNotifyOuterClass {
     boolean hasBeingHitInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -38,7 +38,7 @@ public final class EvtBeingHitNotifyOuterClass {
     emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo getBeingHitInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -47,7 +47,7 @@ public final class EvtBeingHitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ForwardType forward_type = 5;</code>
@@ -56,7 +56,7 @@ public final class EvtBeingHitNotifyOuterClass {
     int getForwardTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ForwardType forward_type = 5;</code>
@@ -169,7 +169,7 @@ public final class EvtBeingHitNotifyOuterClass {
     private emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo beingHitInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -181,7 +181,7 @@ public final class EvtBeingHitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -193,7 +193,7 @@ public final class EvtBeingHitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -207,7 +207,7 @@ public final class EvtBeingHitNotifyOuterClass {
     private int forwardType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ForwardType forward_type = 5;</code>
@@ -218,7 +218,7 @@ public final class EvtBeingHitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ForwardType forward_type = 5;</code>
@@ -570,7 +570,7 @@ public final class EvtBeingHitNotifyOuterClass {
           emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo.Builder, emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfoOrBuilder> beingHitInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -581,7 +581,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -596,7 +596,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -616,7 +616,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -634,7 +634,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -656,7 +656,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -674,7 +674,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -686,7 +686,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -701,7 +701,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.EvtBeingHitInfo being_hit_info = 10;</code>
@@ -723,7 +723,7 @@ public final class EvtBeingHitNotifyOuterClass {
       private int forwardType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 5;</code>
@@ -734,7 +734,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 5;</code>
@@ -749,7 +749,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 5;</code>
@@ -763,7 +763,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 5;</code>
@@ -781,7 +781,7 @@ public final class EvtBeingHitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 5;</code>

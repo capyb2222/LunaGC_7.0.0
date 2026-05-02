@@ -19,17 +19,29 @@ public final class GetScenePointRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 hide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 14;</code>
      * @return A list containing the hidePointList.
      */
     java.util.List<java.lang.Integer> getHidePointListList();
     /**
-     * <code>repeated uint32 hide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 14;</code>
      * @return The count of hidePointList.
      */
     int getHidePointListCount();
     /**
-     * <code>repeated uint32 hide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 14;</code>
      * @param index The index of the element to return.
      * @return The hidePointList at the given index.
      */
@@ -37,7 +49,7 @@ public final class GetScenePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 8;</code>
@@ -46,7 +58,7 @@ public final class GetScenePointRspOuterClass {
     java.util.List<java.lang.Integer> getLockedPointListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 8;</code>
@@ -55,7 +67,7 @@ public final class GetScenePointRspOuterClass {
     int getLockedPointListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 8;</code>
@@ -66,7 +78,7 @@ public final class GetScenePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -75,7 +87,7 @@ public final class GetScenePointRspOuterClass {
     java.util.List<java.lang.Integer> getUnlockedPointListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -84,7 +96,7 @@ public final class GetScenePointRspOuterClass {
     int getUnlockedPointListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -94,34 +106,58 @@ public final class GetScenePointRspOuterClass {
     int getUnlockedPointList(int index);
 
     /**
-     * <code>repeated uint32 unhide_point_list = 15;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 7;</code>
      * @return A list containing the unhidePointList.
      */
     java.util.List<java.lang.Integer> getUnhidePointListList();
     /**
-     * <code>repeated uint32 unhide_point_list = 15;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 7;</code>
      * @return The count of unhidePointList.
      */
     int getUnhidePointListCount();
     /**
-     * <code>repeated uint32 unhide_point_list = 15;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 7;</code>
      * @param index The index of the element to return.
      * @return The unhidePointList at the given index.
      */
     int getUnhidePointList(int index);
 
     /**
-     * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 group_unlimit_point_list = 1;</code>
      * @return A list containing the groupUnlimitPointList.
      */
     java.util.List<java.lang.Integer> getGroupUnlimitPointListList();
     /**
-     * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 group_unlimit_point_list = 1;</code>
      * @return The count of groupUnlimitPointList.
      */
     int getGroupUnlimitPointListCount();
     /**
-     * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 group_unlimit_point_list = 1;</code>
      * @param index The index of the element to return.
      * @return The groupUnlimitPointList at the given index.
      */
@@ -129,7 +165,7 @@ public final class GetScenePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -138,7 +174,7 @@ public final class GetScenePointRspOuterClass {
     java.util.List<java.lang.Integer> getUnlockAreaListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -147,7 +183,7 @@ public final class GetScenePointRspOuterClass {
     int getUnlockAreaListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -158,7 +194,7 @@ public final class GetScenePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 belong_uid = 3;</code>
@@ -168,7 +204,7 @@ public final class GetScenePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_relogin = 12;</code>
@@ -178,7 +214,7 @@ public final class GetScenePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 scene_id = 13;</code>
@@ -188,7 +224,7 @@ public final class GetScenePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -252,23 +288,23 @@ public final class GetScenePointRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                hidePointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+            case 8: {
+              if (!((mutable_bitField0_ & 0x00000010) != 0)) {
+                groupUnlimitPointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000010;
               }
-              hidePointList_.addInt(input.readUInt32());
+              groupUnlimitPointList_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                hidePointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+              if (!((mutable_bitField0_ & 0x00000010) != 0) && input.getBytesUntilLimit() > 0) {
+                groupUnlimitPointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000010;
               }
               while (input.getBytesUntilLimit() > 0) {
-                hidePointList_.addInt(input.readUInt32());
+                groupUnlimitPointList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -295,6 +331,27 @@ public final class GetScenePointRspOuterClass {
               }
               while (input.getBytesUntilLimit() > 0) {
                 unlockAreaList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 56: {
+              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+                unhidePointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              unhidePointList_.addInt(input.readUInt32());
+              break;
+            }
+            case 58: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
+                unhidePointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                unhidePointList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -357,43 +414,22 @@ public final class GetScenePointRspOuterClass {
               break;
             }
             case 112: {
-              if (!((mutable_bitField0_ & 0x00000010) != 0)) {
-                groupUnlimitPointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000010;
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                hidePointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
               }
-              groupUnlimitPointList_.addInt(input.readUInt32());
+              hidePointList_.addInt(input.readUInt32());
               break;
             }
             case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000010) != 0) && input.getBytesUntilLimit() > 0) {
-                groupUnlimitPointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000010;
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                hidePointList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
               }
               while (input.getBytesUntilLimit() > 0) {
-                groupUnlimitPointList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 120: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                unhidePointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              unhidePointList_.addInt(input.readUInt32());
-              break;
-            }
-            case 122: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
-                unhidePointList_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                unhidePointList_.addInt(input.readUInt32());
+                hidePointList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
               break;
@@ -413,11 +449,14 @@ public final class GetScenePointRspOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          hidePointList_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000010) != 0)) {
+          groupUnlimitPointList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000020) != 0)) {
           unlockAreaList_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+          unhidePointList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           lockedPointList_.makeImmutable(); // C
@@ -425,11 +464,8 @@ public final class GetScenePointRspOuterClass {
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           unlockedPointList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000010) != 0)) {
-          groupUnlimitPointList_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          unhidePointList_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          hidePointList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -448,10 +484,14 @@ public final class GetScenePointRspOuterClass {
               emu.grasscutter.net.proto.GetScenePointRspOuterClass.GetScenePointRsp.class, emu.grasscutter.net.proto.GetScenePointRspOuterClass.GetScenePointRsp.Builder.class);
     }
 
-    public static final int HIDE_POINT_LIST_FIELD_NUMBER = 2;
+    public static final int HIDE_POINT_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList hidePointList_;
     /**
-     * <code>repeated uint32 hide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 14;</code>
      * @return A list containing the hidePointList.
      */
     @java.lang.Override
@@ -460,14 +500,22 @@ public final class GetScenePointRspOuterClass {
       return hidePointList_;
     }
     /**
-     * <code>repeated uint32 hide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 14;</code>
      * @return The count of hidePointList.
      */
     public int getHidePointListCount() {
       return hidePointList_.size();
     }
     /**
-     * <code>repeated uint32 hide_point_list = 2;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 hide_point_list = 14;</code>
      * @param index The index of the element to return.
      * @return The hidePointList at the given index.
      */
@@ -480,7 +528,7 @@ public final class GetScenePointRspOuterClass {
     private com.google.protobuf.Internal.IntList lockedPointList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 8;</code>
@@ -493,7 +541,7 @@ public final class GetScenePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 8;</code>
@@ -504,7 +552,7 @@ public final class GetScenePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 locked_point_list = 8;</code>
@@ -520,7 +568,7 @@ public final class GetScenePointRspOuterClass {
     private com.google.protobuf.Internal.IntList unlockedPointList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -533,7 +581,7 @@ public final class GetScenePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -544,7 +592,7 @@ public final class GetScenePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -556,10 +604,14 @@ public final class GetScenePointRspOuterClass {
     }
     private int unlockedPointListMemoizedSerializedSize = -1;
 
-    public static final int UNHIDE_POINT_LIST_FIELD_NUMBER = 15;
+    public static final int UNHIDE_POINT_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList unhidePointList_;
     /**
-     * <code>repeated uint32 unhide_point_list = 15;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 7;</code>
      * @return A list containing the unhidePointList.
      */
     @java.lang.Override
@@ -568,14 +620,22 @@ public final class GetScenePointRspOuterClass {
       return unhidePointList_;
     }
     /**
-     * <code>repeated uint32 unhide_point_list = 15;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 7;</code>
      * @return The count of unhidePointList.
      */
     public int getUnhidePointListCount() {
       return unhidePointList_.size();
     }
     /**
-     * <code>repeated uint32 unhide_point_list = 15;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 unhide_point_list = 7;</code>
      * @param index The index of the element to return.
      * @return The unhidePointList at the given index.
      */
@@ -584,10 +644,14 @@ public final class GetScenePointRspOuterClass {
     }
     private int unhidePointListMemoizedSerializedSize = -1;
 
-    public static final int GROUP_UNLIMIT_POINT_LIST_FIELD_NUMBER = 14;
+    public static final int GROUP_UNLIMIT_POINT_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList groupUnlimitPointList_;
     /**
-     * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 group_unlimit_point_list = 1;</code>
      * @return A list containing the groupUnlimitPointList.
      */
     @java.lang.Override
@@ -596,14 +660,22 @@ public final class GetScenePointRspOuterClass {
       return groupUnlimitPointList_;
     }
     /**
-     * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 group_unlimit_point_list = 1;</code>
      * @return The count of groupUnlimitPointList.
      */
     public int getGroupUnlimitPointListCount() {
       return groupUnlimitPointList_.size();
     }
     /**
-     * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+     * <pre>
+     *6.5.5       
+     * </pre>
+     *
+     * <code>repeated uint32 group_unlimit_point_list = 1;</code>
      * @param index The index of the element to return.
      * @return The groupUnlimitPointList at the given index.
      */
@@ -616,7 +688,7 @@ public final class GetScenePointRspOuterClass {
     private com.google.protobuf.Internal.IntList unlockAreaList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -629,7 +701,7 @@ public final class GetScenePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -640,7 +712,7 @@ public final class GetScenePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -656,7 +728,7 @@ public final class GetScenePointRspOuterClass {
     private int belongUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 belong_uid = 3;</code>
@@ -671,7 +743,7 @@ public final class GetScenePointRspOuterClass {
     private boolean isRelogin_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_relogin = 12;</code>
@@ -686,7 +758,7 @@ public final class GetScenePointRspOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 scene_id = 13;</code>
@@ -701,7 +773,7 @@ public final class GetScenePointRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -727,12 +799,12 @@ public final class GetScenePointRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getHidePointListList().size() > 0) {
-        output.writeUInt32NoTag(18);
-        output.writeUInt32NoTag(hidePointListMemoizedSerializedSize);
+      if (getGroupUnlimitPointListList().size() > 0) {
+        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(groupUnlimitPointListMemoizedSerializedSize);
       }
-      for (int i = 0; i < hidePointList_.size(); i++) {
-        output.writeUInt32NoTag(hidePointList_.getInt(i));
+      for (int i = 0; i < groupUnlimitPointList_.size(); i++) {
+        output.writeUInt32NoTag(groupUnlimitPointList_.getInt(i));
       }
       if (belongUid_ != 0) {
         output.writeUInt32(3, belongUid_);
@@ -743,6 +815,13 @@ public final class GetScenePointRspOuterClass {
       }
       for (int i = 0; i < unlockAreaList_.size(); i++) {
         output.writeUInt32NoTag(unlockAreaList_.getInt(i));
+      }
+      if (getUnhidePointListList().size() > 0) {
+        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(unhidePointListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < unhidePointList_.size(); i++) {
+        output.writeUInt32NoTag(unhidePointList_.getInt(i));
       }
       if (getLockedPointListList().size() > 0) {
         output.writeUInt32NoTag(66);
@@ -767,19 +846,12 @@ public final class GetScenePointRspOuterClass {
       if (sceneId_ != 0) {
         output.writeUInt32(13, sceneId_);
       }
-      if (getGroupUnlimitPointListList().size() > 0) {
+      if (getHidePointListList().size() > 0) {
         output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(groupUnlimitPointListMemoizedSerializedSize);
+        output.writeUInt32NoTag(hidePointListMemoizedSerializedSize);
       }
-      for (int i = 0; i < groupUnlimitPointList_.size(); i++) {
-        output.writeUInt32NoTag(groupUnlimitPointList_.getInt(i));
-      }
-      if (getUnhidePointListList().size() > 0) {
-        output.writeUInt32NoTag(122);
-        output.writeUInt32NoTag(unhidePointListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < unhidePointList_.size(); i++) {
-        output.writeUInt32NoTag(unhidePointList_.getInt(i));
+      for (int i = 0; i < hidePointList_.size(); i++) {
+        output.writeUInt32NoTag(hidePointList_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -792,17 +864,17 @@ public final class GetScenePointRspOuterClass {
       size = 0;
       {
         int dataSize = 0;
-        for (int i = 0; i < hidePointList_.size(); i++) {
+        for (int i = 0; i < groupUnlimitPointList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(hidePointList_.getInt(i));
+            .computeUInt32SizeNoTag(groupUnlimitPointList_.getInt(i));
         }
         size += dataSize;
-        if (!getHidePointListList().isEmpty()) {
+        if (!getGroupUnlimitPointListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        hidePointListMemoizedSerializedSize = dataSize;
+        groupUnlimitPointListMemoizedSerializedSize = dataSize;
       }
       if (belongUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -821,6 +893,20 @@ public final class GetScenePointRspOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         unlockAreaListMemoizedSerializedSize = dataSize;
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < unhidePointList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(unhidePointList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getUnhidePointListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        unhidePointListMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -864,31 +950,17 @@ public final class GetScenePointRspOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < groupUnlimitPointList_.size(); i++) {
+        for (int i = 0; i < hidePointList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(groupUnlimitPointList_.getInt(i));
+            .computeUInt32SizeNoTag(hidePointList_.getInt(i));
         }
         size += dataSize;
-        if (!getGroupUnlimitPointListList().isEmpty()) {
+        if (!getHidePointListList().isEmpty()) {
           size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
-        groupUnlimitPointListMemoizedSerializedSize = dataSize;
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < unhidePointList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(unhidePointList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getUnhidePointListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        unhidePointListMemoizedSerializedSize = dataSize;
+        hidePointListMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1345,7 +1417,11 @@ public final class GetScenePointRspOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 hide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 14;</code>
        * @return A list containing the hidePointList.
        */
       public java.util.List<java.lang.Integer>
@@ -1354,14 +1430,22 @@ public final class GetScenePointRspOuterClass {
                  java.util.Collections.unmodifiableList(hidePointList_) : hidePointList_;
       }
       /**
-       * <code>repeated uint32 hide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 14;</code>
        * @return The count of hidePointList.
        */
       public int getHidePointListCount() {
         return hidePointList_.size();
       }
       /**
-       * <code>repeated uint32 hide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 14;</code>
        * @param index The index of the element to return.
        * @return The hidePointList at the given index.
        */
@@ -1369,7 +1453,11 @@ public final class GetScenePointRspOuterClass {
         return hidePointList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 hide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 14;</code>
        * @param index The index to set the value at.
        * @param value The hidePointList to set.
        * @return This builder for chaining.
@@ -1382,7 +1470,11 @@ public final class GetScenePointRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 hide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 14;</code>
        * @param value The hidePointList to add.
        * @return This builder for chaining.
        */
@@ -1393,7 +1485,11 @@ public final class GetScenePointRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 hide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 14;</code>
        * @param values The hidePointList to add.
        * @return This builder for chaining.
        */
@@ -1406,7 +1502,11 @@ public final class GetScenePointRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 hide_point_list = 2;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 hide_point_list = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearHidePointList() {
@@ -1425,7 +1525,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 8;</code>
@@ -1438,7 +1538,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 8;</code>
@@ -1449,7 +1549,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 8;</code>
@@ -1461,7 +1561,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 8;</code>
@@ -1478,7 +1578,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 8;</code>
@@ -1493,7 +1593,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 8;</code>
@@ -1510,7 +1610,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 locked_point_list = 8;</code>
@@ -1532,7 +1632,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -1545,7 +1645,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -1556,7 +1656,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -1568,7 +1668,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -1585,7 +1685,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -1600,7 +1700,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -1617,7 +1717,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 unlocked_point_list = 9;</code>
@@ -1638,7 +1738,11 @@ public final class GetScenePointRspOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 15;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 7;</code>
        * @return A list containing the unhidePointList.
        */
       public java.util.List<java.lang.Integer>
@@ -1647,14 +1751,22 @@ public final class GetScenePointRspOuterClass {
                  java.util.Collections.unmodifiableList(unhidePointList_) : unhidePointList_;
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 15;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 7;</code>
        * @return The count of unhidePointList.
        */
       public int getUnhidePointListCount() {
         return unhidePointList_.size();
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 15;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 7;</code>
        * @param index The index of the element to return.
        * @return The unhidePointList at the given index.
        */
@@ -1662,7 +1774,11 @@ public final class GetScenePointRspOuterClass {
         return unhidePointList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 15;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 7;</code>
        * @param index The index to set the value at.
        * @param value The unhidePointList to set.
        * @return This builder for chaining.
@@ -1675,7 +1791,11 @@ public final class GetScenePointRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 15;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 7;</code>
        * @param value The unhidePointList to add.
        * @return This builder for chaining.
        */
@@ -1686,7 +1806,11 @@ public final class GetScenePointRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 15;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 7;</code>
        * @param values The unhidePointList to add.
        * @return This builder for chaining.
        */
@@ -1699,7 +1823,11 @@ public final class GetScenePointRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unhide_point_list = 15;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 unhide_point_list = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearUnhidePointList() {
@@ -1717,7 +1845,11 @@ public final class GetScenePointRspOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 group_unlimit_point_list = 1;</code>
        * @return A list containing the groupUnlimitPointList.
        */
       public java.util.List<java.lang.Integer>
@@ -1726,14 +1858,22 @@ public final class GetScenePointRspOuterClass {
                  java.util.Collections.unmodifiableList(groupUnlimitPointList_) : groupUnlimitPointList_;
       }
       /**
-       * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 group_unlimit_point_list = 1;</code>
        * @return The count of groupUnlimitPointList.
        */
       public int getGroupUnlimitPointListCount() {
         return groupUnlimitPointList_.size();
       }
       /**
-       * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 group_unlimit_point_list = 1;</code>
        * @param index The index of the element to return.
        * @return The groupUnlimitPointList at the given index.
        */
@@ -1741,7 +1881,11 @@ public final class GetScenePointRspOuterClass {
         return groupUnlimitPointList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 group_unlimit_point_list = 1;</code>
        * @param index The index to set the value at.
        * @param value The groupUnlimitPointList to set.
        * @return This builder for chaining.
@@ -1754,7 +1898,11 @@ public final class GetScenePointRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 group_unlimit_point_list = 1;</code>
        * @param value The groupUnlimitPointList to add.
        * @return This builder for chaining.
        */
@@ -1765,7 +1913,11 @@ public final class GetScenePointRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 group_unlimit_point_list = 1;</code>
        * @param values The groupUnlimitPointList to add.
        * @return This builder for chaining.
        */
@@ -1778,7 +1930,11 @@ public final class GetScenePointRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 group_unlimit_point_list = 14;</code>
+       * <pre>
+       *6.5.5       
+       * </pre>
+       *
+       * <code>repeated uint32 group_unlimit_point_list = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearGroupUnlimitPointList() {
@@ -1797,7 +1953,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -1810,7 +1966,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -1821,7 +1977,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -1833,7 +1989,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -1850,7 +2006,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -1865,7 +2021,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -1882,7 +2038,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 unlock_area_list = 4;</code>
@@ -1898,7 +2054,7 @@ public final class GetScenePointRspOuterClass {
       private int belongUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 belong_uid = 3;</code>
@@ -1910,7 +2066,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 belong_uid = 3;</code>
@@ -1925,7 +2081,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 belong_uid = 3;</code>
@@ -1941,7 +2097,7 @@ public final class GetScenePointRspOuterClass {
       private boolean isRelogin_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_relogin = 12;</code>
@@ -1953,7 +2109,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_relogin = 12;</code>
@@ -1968,7 +2124,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_relogin = 12;</code>
@@ -1984,7 +2140,7 @@ public final class GetScenePointRspOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 scene_id = 13;</code>
@@ -1996,7 +2152,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 scene_id = 13;</code>
@@ -2011,7 +2167,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 scene_id = 13;</code>
@@ -2027,7 +2183,7 @@ public final class GetScenePointRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -2039,7 +2195,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -2054,7 +2210,7 @@ public final class GetScenePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -2134,10 +2290,10 @@ public final class GetScenePointRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026GetScenePointRsp.proto\"\205\002\n\020GetScenePoi" +
-      "ntRsp\022\027\n\017hide_point_list\030\002 \003(\r\022\031\n\021locked" +
+      "ntRsp\022\027\n\017hide_point_list\030\016 \003(\r\022\031\n\021locked" +
       "_point_list\030\010 \003(\r\022\033\n\023unlocked_point_list" +
-      "\030\t \003(\r\022\031\n\021unhide_point_list\030\017 \003(\r\022 \n\030gro" +
-      "up_unlimit_point_list\030\016 \003(\r\022\030\n\020unlock_ar" +
+      "\030\t \003(\r\022\031\n\021unhide_point_list\030\007 \003(\r\022 \n\030gro" +
+      "up_unlimit_point_list\030\001 \003(\r\022\030\n\020unlock_ar" +
       "ea_list\030\004 \003(\r\022\022\n\nbelong_uid\030\003 \001(\r\022\022\n\nis_" +
       "relogin\030\014 \001(\010\022\020\n\010scene_id\030\r \001(\r\022\017\n\007retco" +
       "de\030\013 \001(\005B\033\n\031emu.grasscutter.net.protob\006p" +

@@ -20,7 +20,7 @@ public final class ForgeQueueManipulateReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 forge_queue_id = 15;</code>
@@ -30,7 +30,7 @@ public final class ForgeQueueManipulateReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
@@ -39,7 +39,7 @@ public final class ForgeQueueManipulateReqOuterClass {
     int getManipulateTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
@@ -144,7 +144,7 @@ public final class ForgeQueueManipulateReqOuterClass {
     private int forgeQueueId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 forge_queue_id = 15;</code>
@@ -159,7 +159,7 @@ public final class ForgeQueueManipulateReqOuterClass {
     private int manipulateType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
@@ -170,7 +170,7 @@ public final class ForgeQueueManipulateReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
@@ -507,7 +507,7 @@ public final class ForgeQueueManipulateReqOuterClass {
       private int forgeQueueId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 forge_queue_id = 15;</code>
@@ -519,7 +519,7 @@ public final class ForgeQueueManipulateReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 forge_queue_id = 15;</code>
@@ -534,7 +534,7 @@ public final class ForgeQueueManipulateReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 forge_queue_id = 15;</code>
@@ -550,7 +550,7 @@ public final class ForgeQueueManipulateReqOuterClass {
       private int manipulateType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
@@ -561,7 +561,7 @@ public final class ForgeQueueManipulateReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
@@ -576,7 +576,7 @@ public final class ForgeQueueManipulateReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
@@ -590,7 +590,7 @@ public final class ForgeQueueManipulateReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>
@@ -608,7 +608,7 @@ public final class ForgeQueueManipulateReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForgeQueueManipulateType manipulate_type = 13;</code>

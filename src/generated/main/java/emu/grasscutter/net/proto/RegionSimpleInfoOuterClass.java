@@ -20,7 +20,7 @@ public final class RegionSimpleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 1;</code>
@@ -29,7 +29,7 @@ public final class RegionSimpleInfoOuterClass {
     java.lang.String getName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 1;</code>
@@ -40,7 +40,7 @@ public final class RegionSimpleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string dispatch_url = 4;</code>
@@ -49,7 +49,7 @@ public final class RegionSimpleInfoOuterClass {
     java.lang.String getDispatchUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string dispatch_url = 4;</code>
@@ -60,7 +60,7 @@ public final class RegionSimpleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string type = 3;</code>
@@ -69,7 +69,7 @@ public final class RegionSimpleInfoOuterClass {
     java.lang.String getType();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string type = 3;</code>
@@ -80,7 +80,7 @@ public final class RegionSimpleInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string title = 2;</code>
@@ -89,7 +89,7 @@ public final class RegionSimpleInfoOuterClass {
     java.lang.String getTitle();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string title = 2;</code>
@@ -207,7 +207,7 @@ public final class RegionSimpleInfoOuterClass {
     private volatile java.lang.Object name_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 1;</code>
@@ -228,7 +228,7 @@ public final class RegionSimpleInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 1;</code>
@@ -253,7 +253,7 @@ public final class RegionSimpleInfoOuterClass {
     private volatile java.lang.Object dispatchUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string dispatch_url = 4;</code>
@@ -274,7 +274,7 @@ public final class RegionSimpleInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string dispatch_url = 4;</code>
@@ -299,7 +299,7 @@ public final class RegionSimpleInfoOuterClass {
     private volatile java.lang.Object type_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string type = 3;</code>
@@ -320,7 +320,7 @@ public final class RegionSimpleInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string type = 3;</code>
@@ -345,7 +345,7 @@ public final class RegionSimpleInfoOuterClass {
     private volatile java.lang.Object title_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string title = 2;</code>
@@ -366,7 +366,7 @@ public final class RegionSimpleInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string title = 2;</code>
@@ -743,7 +743,7 @@ public final class RegionSimpleInfoOuterClass {
       private java.lang.Object name_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 1;</code>
@@ -763,7 +763,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 1;</code>
@@ -784,7 +784,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 1;</code>
@@ -803,7 +803,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 1;</code>
@@ -817,7 +817,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 1;</code>
@@ -839,7 +839,7 @@ public final class RegionSimpleInfoOuterClass {
       private java.lang.Object dispatchUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string dispatch_url = 4;</code>
@@ -859,7 +859,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string dispatch_url = 4;</code>
@@ -880,7 +880,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string dispatch_url = 4;</code>
@@ -899,7 +899,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string dispatch_url = 4;</code>
@@ -913,7 +913,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string dispatch_url = 4;</code>
@@ -935,7 +935,7 @@ public final class RegionSimpleInfoOuterClass {
       private java.lang.Object type_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string type = 3;</code>
@@ -955,7 +955,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string type = 3;</code>
@@ -976,7 +976,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string type = 3;</code>
@@ -995,7 +995,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string type = 3;</code>
@@ -1009,7 +1009,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string type = 3;</code>
@@ -1031,7 +1031,7 @@ public final class RegionSimpleInfoOuterClass {
       private java.lang.Object title_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string title = 2;</code>
@@ -1051,7 +1051,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string title = 2;</code>
@@ -1072,7 +1072,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string title = 2;</code>
@@ -1091,7 +1091,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string title = 2;</code>
@@ -1105,7 +1105,7 @@ public final class RegionSimpleInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string title = 2;</code>

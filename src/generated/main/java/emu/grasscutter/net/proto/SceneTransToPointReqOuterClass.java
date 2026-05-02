@@ -20,7 +20,7 @@ public final class SceneTransToPointReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 point_id = 7;</code>
@@ -30,7 +30,7 @@ public final class SceneTransToPointReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 scene_id = 13;</code>
@@ -129,7 +129,7 @@ public final class SceneTransToPointReqOuterClass {
     private int pointId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 point_id = 7;</code>
@@ -144,7 +144,7 @@ public final class SceneTransToPointReqOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 scene_id = 13;</code>
@@ -477,7 +477,7 @@ public final class SceneTransToPointReqOuterClass {
       private int pointId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 point_id = 7;</code>
@@ -489,7 +489,7 @@ public final class SceneTransToPointReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 point_id = 7;</code>
@@ -504,7 +504,7 @@ public final class SceneTransToPointReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 point_id = 7;</code>
@@ -520,7 +520,7 @@ public final class SceneTransToPointReqOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_id = 13;</code>
@@ -532,7 +532,7 @@ public final class SceneTransToPointReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_id = 13;</code>
@@ -547,7 +547,7 @@ public final class SceneTransToPointReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_id = 13;</code>

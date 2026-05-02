@@ -20,7 +20,7 @@ public final class VehicleInteractReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 11;</code>
@@ -30,7 +30,7 @@ public final class VehicleInteractReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 pos = 10;</code>
@@ -40,7 +40,7 @@ public final class VehicleInteractReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInteractType interact_type = 9;</code>
@@ -49,7 +49,7 @@ public final class VehicleInteractReqOuterClass {
     int getInteractTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInteractType interact_type = 9;</code>
@@ -174,7 +174,7 @@ public final class VehicleInteractReqOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 11;</code>
@@ -189,7 +189,7 @@ public final class VehicleInteractReqOuterClass {
     private int pos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 pos = 10;</code>
@@ -204,7 +204,7 @@ public final class VehicleInteractReqOuterClass {
     private int interactType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInteractType interact_type = 9;</code>
@@ -215,7 +215,7 @@ public final class VehicleInteractReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInteractType interact_type = 9;</code>
@@ -602,7 +602,7 @@ public final class VehicleInteractReqOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -614,7 +614,7 @@ public final class VehicleInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -629,7 +629,7 @@ public final class VehicleInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -645,7 +645,7 @@ public final class VehicleInteractReqOuterClass {
       private int pos_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 pos = 10;</code>
@@ -657,7 +657,7 @@ public final class VehicleInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 pos = 10;</code>
@@ -672,7 +672,7 @@ public final class VehicleInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 pos = 10;</code>
@@ -688,7 +688,7 @@ public final class VehicleInteractReqOuterClass {
       private int interactType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 9;</code>
@@ -699,7 +699,7 @@ public final class VehicleInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 9;</code>
@@ -714,7 +714,7 @@ public final class VehicleInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 9;</code>
@@ -728,7 +728,7 @@ public final class VehicleInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 9;</code>
@@ -746,7 +746,7 @@ public final class VehicleInteractReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 9;</code>

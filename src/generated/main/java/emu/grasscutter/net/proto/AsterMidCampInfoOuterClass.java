@@ -20,7 +20,7 @@ public final class AsterMidCampInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -29,7 +29,7 @@ public final class AsterMidCampInfoOuterClass {
     boolean hasPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -38,7 +38,7 @@ public final class AsterMidCampInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -47,7 +47,7 @@ public final class AsterMidCampInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 camp_id = 12;</code>
@@ -154,7 +154,7 @@ public final class AsterMidCampInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -166,7 +166,7 @@ public final class AsterMidCampInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -178,7 +178,7 @@ public final class AsterMidCampInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -192,7 +192,7 @@ public final class AsterMidCampInfoOuterClass {
     private int campId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 camp_id = 12;</code>
@@ -540,7 +540,7 @@ public final class AsterMidCampInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -551,7 +551,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -566,7 +566,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -586,7 +586,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -604,7 +604,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -626,7 +626,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -644,7 +644,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -656,7 +656,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -671,7 +671,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -693,7 +693,7 @@ public final class AsterMidCampInfoOuterClass {
       private int campId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 camp_id = 12;</code>
@@ -705,7 +705,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 camp_id = 12;</code>
@@ -720,7 +720,7 @@ public final class AsterMidCampInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 camp_id = 12;</code>

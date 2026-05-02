@@ -20,7 +20,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -29,7 +29,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         getStageListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -37,7 +37,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK getStageList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -45,7 +45,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     int getStageListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -54,7 +54,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         getStageListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -64,7 +64,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 3;</code>
@@ -74,7 +74,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 14;</code>
@@ -187,7 +187,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> stageList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -198,7 +198,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -210,7 +210,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -221,7 +221,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -232,7 +232,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -247,7 +247,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     private int contentCloseTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 3;</code>
@@ -262,7 +262,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
     private boolean isContentClosed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 14;</code>
@@ -664,7 +664,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -678,7 +678,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -692,7 +692,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -706,7 +706,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -727,7 +727,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -745,7 +745,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -765,7 +765,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -786,7 +786,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -804,7 +804,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -822,7 +822,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -841,7 +841,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -858,7 +858,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -875,7 +875,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -886,7 +886,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -900,7 +900,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -915,7 +915,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -926,7 +926,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -938,7 +938,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
@@ -965,7 +965,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       private int contentCloseTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 3;</code>
@@ -977,7 +977,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 3;</code>
@@ -992,7 +992,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 3;</code>
@@ -1008,7 +1008,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       private boolean isContentClosed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 14;</code>
@@ -1020,7 +1020,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 14;</code>
@@ -1035,7 +1035,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 14;</code>

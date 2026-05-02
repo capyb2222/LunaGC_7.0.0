@@ -20,7 +20,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 mail_id = 1;</code>
@@ -30,7 +30,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailTextContent mail_text_content = 4;</code>
@@ -39,7 +39,7 @@ public final class MailDataOuterClass {
     boolean hasMailTextContent();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailTextContent mail_text_content = 4;</code>
@@ -48,7 +48,7 @@ public final class MailDataOuterClass {
     emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent getMailTextContent();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailTextContent mail_text_content = 4;</code>
@@ -57,7 +57,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -66,7 +66,7 @@ public final class MailDataOuterClass {
         getItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -74,7 +74,7 @@ public final class MailDataOuterClass {
     emu.grasscutter.net.proto.MailItemOuterClass.MailItem getItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -82,7 +82,7 @@ public final class MailDataOuterClass {
     int getItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -91,7 +91,7 @@ public final class MailDataOuterClass {
         getItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -101,7 +101,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 send_time = 8;</code>
@@ -111,7 +111,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 expire_time = 9;</code>
@@ -121,7 +121,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 importance = 10;</code>
@@ -131,7 +131,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_read = 11;</code>
@@ -141,7 +141,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_attachment_got = 12;</code>
@@ -151,7 +151,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 13;</code>
@@ -161,7 +161,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string argument_list = 14;</code>
@@ -171,7 +171,7 @@ public final class MailDataOuterClass {
         getArgumentListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string argument_list = 14;</code>
@@ -180,7 +180,7 @@ public final class MailDataOuterClass {
     int getArgumentListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string argument_list = 14;</code>
@@ -190,7 +190,7 @@ public final class MailDataOuterClass {
     java.lang.String getArgumentList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string argument_list = 14;</code>
@@ -202,7 +202,7 @@ public final class MailDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailCollectState collect_state = 15;</code>
@@ -211,7 +211,7 @@ public final class MailDataOuterClass {
     int getCollectStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailCollectState collect_state = 15;</code>
@@ -382,7 +382,7 @@ public final class MailDataOuterClass {
     private int mailId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 mail_id = 1;</code>
@@ -397,7 +397,7 @@ public final class MailDataOuterClass {
     private emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent mailTextContent_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailTextContent mail_text_content = 4;</code>
@@ -409,7 +409,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailTextContent mail_text_content = 4;</code>
@@ -421,7 +421,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailTextContent mail_text_content = 4;</code>
@@ -435,7 +435,7 @@ public final class MailDataOuterClass {
     private java.util.List<emu.grasscutter.net.proto.MailItemOuterClass.MailItem> itemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -446,7 +446,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -458,7 +458,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -469,7 +469,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -480,7 +480,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .MailItem item_list = 7;</code>
@@ -495,7 +495,7 @@ public final class MailDataOuterClass {
     private int sendTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 send_time = 8;</code>
@@ -510,7 +510,7 @@ public final class MailDataOuterClass {
     private int expireTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 expire_time = 9;</code>
@@ -525,7 +525,7 @@ public final class MailDataOuterClass {
     private int importance_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 importance = 10;</code>
@@ -540,7 +540,7 @@ public final class MailDataOuterClass {
     private boolean isRead_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_read = 11;</code>
@@ -555,7 +555,7 @@ public final class MailDataOuterClass {
     private boolean isAttachmentGot_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_attachment_got = 12;</code>
@@ -570,7 +570,7 @@ public final class MailDataOuterClass {
     private int configId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 13;</code>
@@ -585,7 +585,7 @@ public final class MailDataOuterClass {
     private com.google.protobuf.LazyStringList argumentList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string argument_list = 14;</code>
@@ -597,7 +597,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string argument_list = 14;</code>
@@ -608,7 +608,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string argument_list = 14;</code>
@@ -620,7 +620,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated string argument_list = 14;</code>
@@ -636,7 +636,7 @@ public final class MailDataOuterClass {
     private int collectState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailCollectState collect_state = 15;</code>
@@ -647,7 +647,7 @@ public final class MailDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MailCollectState collect_state = 15;</code>
@@ -1205,7 +1205,7 @@ public final class MailDataOuterClass {
       private int mailId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mail_id = 1;</code>
@@ -1217,7 +1217,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mail_id = 1;</code>
@@ -1232,7 +1232,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mail_id = 1;</code>
@@ -1250,7 +1250,7 @@ public final class MailDataOuterClass {
           emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent, emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContent.Builder, emu.grasscutter.net.proto.MailTextContentOuterClass.MailTextContentOrBuilder> mailTextContentBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailTextContent mail_text_content = 4;</code>
@@ -1261,7 +1261,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailTextContent mail_text_content = 4;</code>
@@ -1276,7 +1276,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailTextContent mail_text_content = 4;</code>
@@ -1296,7 +1296,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailTextContent mail_text_content = 4;</code>
@@ -1314,7 +1314,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailTextContent mail_text_content = 4;</code>
@@ -1336,7 +1336,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailTextContent mail_text_content = 4;</code>
@@ -1354,7 +1354,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailTextContent mail_text_content = 4;</code>
@@ -1366,7 +1366,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailTextContent mail_text_content = 4;</code>
@@ -1381,7 +1381,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailTextContent mail_text_content = 4;</code>
@@ -1414,7 +1414,7 @@ public final class MailDataOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1428,7 +1428,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1442,7 +1442,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1456,7 +1456,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1477,7 +1477,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1495,7 +1495,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1515,7 +1515,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1536,7 +1536,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1554,7 +1554,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1572,7 +1572,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1591,7 +1591,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1608,7 +1608,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1625,7 +1625,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1636,7 +1636,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1650,7 +1650,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1665,7 +1665,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1676,7 +1676,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1688,7 +1688,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .MailItem item_list = 7;</code>
@@ -1715,7 +1715,7 @@ public final class MailDataOuterClass {
       private int sendTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 send_time = 8;</code>
@@ -1727,7 +1727,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 send_time = 8;</code>
@@ -1742,7 +1742,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 send_time = 8;</code>
@@ -1758,7 +1758,7 @@ public final class MailDataOuterClass {
       private int expireTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 expire_time = 9;</code>
@@ -1770,7 +1770,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 expire_time = 9;</code>
@@ -1785,7 +1785,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 expire_time = 9;</code>
@@ -1801,7 +1801,7 @@ public final class MailDataOuterClass {
       private int importance_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 importance = 10;</code>
@@ -1813,7 +1813,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 importance = 10;</code>
@@ -1828,7 +1828,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 importance = 10;</code>
@@ -1844,7 +1844,7 @@ public final class MailDataOuterClass {
       private boolean isRead_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_read = 11;</code>
@@ -1856,7 +1856,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_read = 11;</code>
@@ -1871,7 +1871,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_read = 11;</code>
@@ -1887,7 +1887,7 @@ public final class MailDataOuterClass {
       private boolean isAttachmentGot_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_attachment_got = 12;</code>
@@ -1899,7 +1899,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_attachment_got = 12;</code>
@@ -1914,7 +1914,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_attachment_got = 12;</code>
@@ -1930,7 +1930,7 @@ public final class MailDataOuterClass {
       private int configId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 13;</code>
@@ -1942,7 +1942,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 13;</code>
@@ -1957,7 +1957,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 13;</code>
@@ -1979,7 +1979,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string argument_list = 14;</code>
@@ -1991,7 +1991,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string argument_list = 14;</code>
@@ -2002,7 +2002,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string argument_list = 14;</code>
@@ -2014,7 +2014,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string argument_list = 14;</code>
@@ -2027,7 +2027,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string argument_list = 14;</code>
@@ -2047,7 +2047,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string argument_list = 14;</code>
@@ -2066,7 +2066,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string argument_list = 14;</code>
@@ -2083,7 +2083,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string argument_list = 14;</code>
@@ -2097,7 +2097,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated string argument_list = 14;</code>
@@ -2119,7 +2119,7 @@ public final class MailDataOuterClass {
       private int collectState_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailCollectState collect_state = 15;</code>
@@ -2130,7 +2130,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailCollectState collect_state = 15;</code>
@@ -2145,7 +2145,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailCollectState collect_state = 15;</code>
@@ -2159,7 +2159,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailCollectState collect_state = 15;</code>
@@ -2177,7 +2177,7 @@ public final class MailDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MailCollectState collect_state = 15;</code>

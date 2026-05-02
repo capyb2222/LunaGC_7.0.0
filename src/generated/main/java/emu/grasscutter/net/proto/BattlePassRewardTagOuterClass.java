@@ -20,7 +20,7 @@ public final class BattlePassRewardTagOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 reward_id = 4;</code>
@@ -36,7 +36,7 @@ public final class BattlePassRewardTagOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassUnlockStatus unlock_status = 13;</code>
@@ -45,7 +45,7 @@ public final class BattlePassRewardTagOuterClass {
     int getUnlockStatusValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassUnlockStatus unlock_status = 13;</code>
@@ -55,7 +55,7 @@ public final class BattlePassRewardTagOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 5;</code>
@@ -166,7 +166,7 @@ public final class BattlePassRewardTagOuterClass {
     private int rewardId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 reward_id = 4;</code>
@@ -192,7 +192,7 @@ public final class BattlePassRewardTagOuterClass {
     private int unlockStatus_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassUnlockStatus unlock_status = 13;</code>
@@ -203,7 +203,7 @@ public final class BattlePassRewardTagOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BattlePassUnlockStatus unlock_status = 13;</code>
@@ -219,7 +219,7 @@ public final class BattlePassRewardTagOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 5;</code>
@@ -585,7 +585,7 @@ public final class BattlePassRewardTagOuterClass {
       private int rewardId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 reward_id = 4;</code>
@@ -597,7 +597,7 @@ public final class BattlePassRewardTagOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 reward_id = 4;</code>
@@ -612,7 +612,7 @@ public final class BattlePassRewardTagOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 reward_id = 4;</code>
@@ -659,7 +659,7 @@ public final class BattlePassRewardTagOuterClass {
       private int unlockStatus_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 13;</code>
@@ -670,7 +670,7 @@ public final class BattlePassRewardTagOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 13;</code>
@@ -685,7 +685,7 @@ public final class BattlePassRewardTagOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 13;</code>
@@ -699,7 +699,7 @@ public final class BattlePassRewardTagOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 13;</code>
@@ -717,7 +717,7 @@ public final class BattlePassRewardTagOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BattlePassUnlockStatus unlock_status = 13;</code>
@@ -733,7 +733,7 @@ public final class BattlePassRewardTagOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 5;</code>
@@ -745,7 +745,7 @@ public final class BattlePassRewardTagOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 5;</code>
@@ -760,7 +760,7 @@ public final class BattlePassRewardTagOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 5;</code>

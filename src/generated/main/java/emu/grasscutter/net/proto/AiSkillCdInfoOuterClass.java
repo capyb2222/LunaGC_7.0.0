@@ -20,7 +20,7 @@ public final class AiSkillCdInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -28,7 +28,7 @@ public final class AiSkillCdInfoOuterClass {
     int getSkillGroupCdMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -43,7 +43,7 @@ public final class AiSkillCdInfoOuterClass {
     getSkillGroupCdMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -52,7 +52,7 @@ public final class AiSkillCdInfoOuterClass {
     getSkillGroupCdMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -63,7 +63,7 @@ public final class AiSkillCdInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -74,7 +74,7 @@ public final class AiSkillCdInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -82,7 +82,7 @@ public final class AiSkillCdInfoOuterClass {
     int getSkillCdMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -97,7 +97,7 @@ public final class AiSkillCdInfoOuterClass {
     getSkillCdMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -106,7 +106,7 @@ public final class AiSkillCdInfoOuterClass {
     getSkillCdMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -117,7 +117,7 @@ public final class AiSkillCdInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -272,7 +272,7 @@ public final class AiSkillCdInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -294,7 +294,7 @@ public final class AiSkillCdInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -306,7 +306,7 @@ public final class AiSkillCdInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -323,7 +323,7 @@ public final class AiSkillCdInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -369,7 +369,7 @@ public final class AiSkillCdInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -391,7 +391,7 @@ public final class AiSkillCdInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -403,7 +403,7 @@ public final class AiSkillCdInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -420,7 +420,7 @@ public final class AiSkillCdInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -833,7 +833,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -855,7 +855,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -867,7 +867,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -884,7 +884,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -909,7 +909,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -932,7 +932,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -948,7 +948,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_group_cd_map = 13;</code>
@@ -989,7 +989,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -1011,7 +1011,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -1023,7 +1023,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -1040,7 +1040,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -1065,7 +1065,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -1088,7 +1088,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>
@@ -1104,7 +1104,7 @@ public final class AiSkillCdInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_cd_map = 7;</code>

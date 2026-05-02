@@ -20,7 +20,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -30,7 +30,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 avatar_skill_id = 10;</code>
@@ -40,7 +40,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 5;</code>
@@ -50,7 +50,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 cur_level = 6;</code>
@@ -60,7 +60,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 old_level = 11;</code>
@@ -178,7 +178,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -193,7 +193,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
     private int avatarSkillId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 avatar_skill_id = 10;</code>
@@ -208,7 +208,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 avatar_guid = 5;</code>
@@ -223,7 +223,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
     private int curLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 cur_level = 6;</code>
@@ -238,7 +238,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
     private int oldLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 old_level = 11;</code>
@@ -627,7 +627,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -639,7 +639,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -654,7 +654,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -670,7 +670,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       private int avatarSkillId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 avatar_skill_id = 10;</code>
@@ -682,7 +682,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 avatar_skill_id = 10;</code>
@@ -697,7 +697,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 avatar_skill_id = 10;</code>
@@ -713,7 +713,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 5;</code>
@@ -725,7 +725,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 5;</code>
@@ -740,7 +740,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 avatar_guid = 5;</code>
@@ -756,7 +756,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       private int curLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 cur_level = 6;</code>
@@ -768,7 +768,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 cur_level = 6;</code>
@@ -783,7 +783,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 cur_level = 6;</code>
@@ -799,7 +799,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       private int oldLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 old_level = 11;</code>
@@ -811,7 +811,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 old_level = 11;</code>
@@ -826,7 +826,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 old_level = 11;</code>

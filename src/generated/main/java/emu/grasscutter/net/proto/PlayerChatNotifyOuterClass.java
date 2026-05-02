@@ -20,7 +20,7 @@ public final class PlayerChatNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ChatInfo chat_info = 8;</code>
@@ -29,7 +29,7 @@ public final class PlayerChatNotifyOuterClass {
     boolean hasChatInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ChatInfo chat_info = 8;</code>
@@ -38,7 +38,7 @@ public final class PlayerChatNotifyOuterClass {
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo getChatInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ChatInfo chat_info = 8;</code>
@@ -47,7 +47,7 @@ public final class PlayerChatNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 channel_id = 15;</code>
@@ -158,7 +158,7 @@ public final class PlayerChatNotifyOuterClass {
     private emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo chatInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ChatInfo chat_info = 8;</code>
@@ -170,7 +170,7 @@ public final class PlayerChatNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ChatInfo chat_info = 8;</code>
@@ -182,7 +182,7 @@ public final class PlayerChatNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ChatInfo chat_info = 8;</code>
@@ -196,7 +196,7 @@ public final class PlayerChatNotifyOuterClass {
     private int channelId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 channel_id = 15;</code>
@@ -548,7 +548,7 @@ public final class PlayerChatNotifyOuterClass {
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfoOrBuilder> chatInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ChatInfo chat_info = 8;</code>
@@ -559,7 +559,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ChatInfo chat_info = 8;</code>
@@ -574,7 +574,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ChatInfo chat_info = 8;</code>
@@ -594,7 +594,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ChatInfo chat_info = 8;</code>
@@ -612,7 +612,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ChatInfo chat_info = 8;</code>
@@ -634,7 +634,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ChatInfo chat_info = 8;</code>
@@ -652,7 +652,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ChatInfo chat_info = 8;</code>
@@ -664,7 +664,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ChatInfo chat_info = 8;</code>
@@ -679,7 +679,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ChatInfo chat_info = 8;</code>
@@ -701,7 +701,7 @@ public final class PlayerChatNotifyOuterClass {
       private int channelId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 channel_id = 15;</code>
@@ -713,7 +713,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 channel_id = 15;</code>
@@ -728,7 +728,7 @@ public final class PlayerChatNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 channel_id = 15;</code>

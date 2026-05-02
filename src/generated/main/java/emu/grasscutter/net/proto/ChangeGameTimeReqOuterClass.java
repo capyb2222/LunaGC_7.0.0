@@ -20,7 +20,7 @@ public final class ChangeGameTimeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 game_time = 1;</code>
@@ -30,7 +30,7 @@ public final class ChangeGameTimeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 extra_days = 10;</code>
@@ -40,7 +40,7 @@ public final class ChangeGameTimeReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_force_set = 15;</code>
@@ -148,7 +148,7 @@ public final class ChangeGameTimeReqOuterClass {
     private int gameTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 game_time = 1;</code>
@@ -163,7 +163,7 @@ public final class ChangeGameTimeReqOuterClass {
     private int extraDays_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 extra_days = 10;</code>
@@ -178,7 +178,7 @@ public final class ChangeGameTimeReqOuterClass {
     private boolean isForceSet_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_force_set = 15;</code>
@@ -533,7 +533,7 @@ public final class ChangeGameTimeReqOuterClass {
       private int gameTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 game_time = 1;</code>
@@ -545,7 +545,7 @@ public final class ChangeGameTimeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 game_time = 1;</code>
@@ -560,7 +560,7 @@ public final class ChangeGameTimeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 game_time = 1;</code>
@@ -576,7 +576,7 @@ public final class ChangeGameTimeReqOuterClass {
       private int extraDays_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 extra_days = 10;</code>
@@ -588,7 +588,7 @@ public final class ChangeGameTimeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 extra_days = 10;</code>
@@ -603,7 +603,7 @@ public final class ChangeGameTimeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 extra_days = 10;</code>
@@ -619,7 +619,7 @@ public final class ChangeGameTimeReqOuterClass {
       private boolean isForceSet_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_force_set = 15;</code>
@@ -631,7 +631,7 @@ public final class ChangeGameTimeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_force_set = 15;</code>
@@ -646,7 +646,7 @@ public final class ChangeGameTimeReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_force_set = 15;</code>

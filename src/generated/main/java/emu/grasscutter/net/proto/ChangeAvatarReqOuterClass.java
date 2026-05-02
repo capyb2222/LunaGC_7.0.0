@@ -20,7 +20,7 @@ public final class ChangeAvatarReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector move_pos = 14;</code>
@@ -29,7 +29,7 @@ public final class ChangeAvatarReqOuterClass {
     boolean hasMovePos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector move_pos = 14;</code>
@@ -38,7 +38,7 @@ public final class ChangeAvatarReqOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getMovePos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector move_pos = 14;</code>
@@ -47,7 +47,7 @@ public final class ChangeAvatarReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_id = 3;</code>
@@ -69,7 +69,7 @@ public final class ChangeAvatarReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 6;</code>
@@ -78,7 +78,11 @@ public final class ChangeAvatarReqOuterClass {
     long getGuid();
 
     /**
-     * <code>bool is_move = 9;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>bool is_move = 15;</code>
      * @return The isMove.
      */
     boolean getIsMove();
@@ -147,11 +151,6 @@ public final class ChangeAvatarReqOuterClass {
               guid_ = input.readUInt64();
               break;
             }
-            case 72: {
-
-              isMove_ = input.readBool();
-              break;
-            }
             case 114: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (movePos_ != null) {
@@ -163,6 +162,11 @@ public final class ChangeAvatarReqOuterClass {
                 movePos_ = subBuilder.buildPartial();
               }
 
+              break;
+            }
+            case 120: {
+
+              isMove_ = input.readBool();
               break;
             }
             case 1120: {
@@ -206,7 +210,7 @@ public final class ChangeAvatarReqOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector movePos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector move_pos = 14;</code>
@@ -218,7 +222,7 @@ public final class ChangeAvatarReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector move_pos = 14;</code>
@@ -230,7 +234,7 @@ public final class ChangeAvatarReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector move_pos = 14;</code>
@@ -244,7 +248,7 @@ public final class ChangeAvatarReqOuterClass {
     private int skillId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_id = 3;</code>
@@ -281,7 +285,7 @@ public final class ChangeAvatarReqOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 6;</code>
@@ -292,10 +296,14 @@ public final class ChangeAvatarReqOuterClass {
       return guid_;
     }
 
-    public static final int IS_MOVE_FIELD_NUMBER = 9;
+    public static final int IS_MOVE_FIELD_NUMBER = 15;
     private boolean isMove_;
     /**
-     * <code>bool is_move = 9;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>bool is_move = 15;</code>
      * @return The isMove.
      */
     @java.lang.Override
@@ -326,11 +334,11 @@ public final class ChangeAvatarReqOuterClass {
       if (guid_ != 0L) {
         output.writeUInt64(6, guid_);
       }
-      if (isMove_ != false) {
-        output.writeBool(9, isMove_);
-      }
       if (movePos_ != null) {
         output.writeMessage(14, getMovePos());
+      }
+      if (isMove_ != false) {
+        output.writeBool(15, isMove_);
       }
       if (dBNDIOAOJHP_ != false) {
         output.writeBool(140, dBNDIOAOJHP_);
@@ -356,13 +364,13 @@ public final class ChangeAvatarReqOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(6, guid_);
       }
-      if (isMove_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isMove_);
-      }
       if (movePos_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(14, getMovePos());
+      }
+      if (isMove_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(15, isMove_);
       }
       if (dBNDIOAOJHP_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -716,7 +724,7 @@ public final class ChangeAvatarReqOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> movePosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector move_pos = 14;</code>
@@ -727,7 +735,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector move_pos = 14;</code>
@@ -742,7 +750,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector move_pos = 14;</code>
@@ -762,7 +770,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector move_pos = 14;</code>
@@ -780,7 +788,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector move_pos = 14;</code>
@@ -802,7 +810,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector move_pos = 14;</code>
@@ -820,7 +828,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector move_pos = 14;</code>
@@ -832,7 +840,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector move_pos = 14;</code>
@@ -847,7 +855,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector move_pos = 14;</code>
@@ -869,7 +877,7 @@ public final class ChangeAvatarReqOuterClass {
       private int skillId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_id = 3;</code>
@@ -881,7 +889,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_id = 3;</code>
@@ -896,7 +904,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_id = 3;</code>
@@ -974,7 +982,7 @@ public final class ChangeAvatarReqOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 6;</code>
@@ -986,7 +994,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 6;</code>
@@ -1001,7 +1009,7 @@ public final class ChangeAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 6;</code>
@@ -1016,7 +1024,11 @@ public final class ChangeAvatarReqOuterClass {
 
       private boolean isMove_ ;
       /**
-       * <code>bool is_move = 9;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>bool is_move = 15;</code>
        * @return The isMove.
        */
       @java.lang.Override
@@ -1024,7 +1036,11 @@ public final class ChangeAvatarReqOuterClass {
         return isMove_;
       }
       /**
-       * <code>bool is_move = 9;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>bool is_move = 15;</code>
        * @param value The isMove to set.
        * @return This builder for chaining.
        */
@@ -1035,7 +1051,11 @@ public final class ChangeAvatarReqOuterClass {
         return this;
       }
       /**
-       * <code>bool is_move = 9;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>bool is_move = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsMove() {
@@ -1115,7 +1135,7 @@ public final class ChangeAvatarReqOuterClass {
       "\n\017ChangeAvatarReq\022\031\n\010move_pos\030\016 \001(\0132\007.Ve" +
       "ctor\022\020\n\010skill_id\030\003 \001(\r\022\024\n\013DBNDIOAOJHP\030\214\001" +
       " \001(\010\022\023\n\013IECPBGINIBL\030\004 \001(\010\022\014\n\004guid\030\006 \001(\004\022" +
-      "\017\n\007is_move\030\t \001(\010B\033\n\031emu.grasscutter.net." +
+      "\017\n\007is_move\030\017 \001(\010B\033\n\031emu.grasscutter.net." +
       "protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

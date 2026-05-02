@@ -20,7 +20,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -29,7 +29,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     boolean hasInvoke();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -38,7 +38,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvoke();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -47,7 +47,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string reason = 8;</code>
@@ -56,7 +56,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     java.lang.String getReason();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string reason = 8;</code>
@@ -67,7 +67,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 entity_id = 10;</code>
@@ -185,7 +185,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     private emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry invoke_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -197,7 +197,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -209,7 +209,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -223,7 +223,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     private volatile java.lang.Object reason_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string reason = 8;</code>
@@ -244,7 +244,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string reason = 8;</code>
@@ -269,7 +269,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 entity_id = 10;</code>
@@ -638,7 +638,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
           emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> invokeBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -649,7 +649,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -664,7 +664,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -684,7 +684,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -702,7 +702,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -724,7 +724,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -742,7 +742,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -754,7 +754,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -769,7 +769,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AbilityInvokeEntry invoke = 1;</code>
@@ -791,7 +791,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       private java.lang.Object reason_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string reason = 8;</code>
@@ -811,7 +811,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string reason = 8;</code>
@@ -832,7 +832,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string reason = 8;</code>
@@ -851,7 +851,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string reason = 8;</code>
@@ -865,7 +865,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string reason = 8;</code>
@@ -887,7 +887,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 10;</code>
@@ -899,7 +899,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 10;</code>
@@ -914,7 +914,7 @@ public final class AbilityInvocationFailNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 10;</code>

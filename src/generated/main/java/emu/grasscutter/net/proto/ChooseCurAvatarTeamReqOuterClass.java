@@ -20,7 +20,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 team_id = 5;</code>
@@ -118,7 +118,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
     private int teamId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 team_id = 5;</code>
@@ -438,7 +438,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       private int teamId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 team_id = 5;</code>
@@ -450,7 +450,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 team_id = 5;</code>
@@ -465,7 +465,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 team_id = 5;</code>

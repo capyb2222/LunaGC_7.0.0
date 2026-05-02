@@ -20,7 +20,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -28,7 +28,7 @@ public final class SceneAvatarInfoOuterClass {
     int getSkillLevelMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -43,7 +43,7 @@ public final class SceneAvatarInfoOuterClass {
     getSkillLevelMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -52,7 +52,7 @@ public final class SceneAvatarInfoOuterClass {
     getSkillLevelMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -63,7 +63,7 @@ public final class SceneAvatarInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -74,7 +74,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 equip_id_list = 5;</code>
@@ -83,7 +83,7 @@ public final class SceneAvatarInfoOuterClass {
     java.util.List<java.lang.Integer> getEquipIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 equip_id_list = 5;</code>
@@ -92,7 +92,7 @@ public final class SceneAvatarInfoOuterClass {
     int getEquipIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 equip_id_list = 5;</code>
@@ -103,7 +103,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -112,7 +112,7 @@ public final class SceneAvatarInfoOuterClass {
     boolean hasCurVehicleInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -121,7 +121,7 @@ public final class SceneAvatarInfoOuterClass {
     emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo getCurVehicleInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -130,7 +130,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 7;</code>
@@ -139,7 +139,7 @@ public final class SceneAvatarInfoOuterClass {
     java.util.List<java.lang.Integer> getTalentIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 7;</code>
@@ -148,7 +148,7 @@ public final class SceneAvatarInfoOuterClass {
     int getTalentIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 7;</code>
@@ -159,7 +159,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -168,7 +168,7 @@ public final class SceneAvatarInfoOuterClass {
         getServerBuffListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -176,7 +176,7 @@ public final class SceneAvatarInfoOuterClass {
     emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -184,7 +184,7 @@ public final class SceneAvatarInfoOuterClass {
     int getServerBuffListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -193,7 +193,7 @@ public final class SceneAvatarInfoOuterClass {
         getServerBuffListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -203,7 +203,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -212,7 +212,7 @@ public final class SceneAvatarInfoOuterClass {
     java.util.List<java.lang.Integer> getTeamResonanceListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -221,7 +221,7 @@ public final class SceneAvatarInfoOuterClass {
     int getTeamResonanceListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -232,7 +232,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -241,7 +241,7 @@ public final class SceneAvatarInfoOuterClass {
     boolean hasExcelInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -250,7 +250,7 @@ public final class SceneAvatarInfoOuterClass {
     emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo getExcelInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -259,7 +259,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -267,7 +267,7 @@ public final class SceneAvatarInfoOuterClass {
     int getProudSkillExtraLevelMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -282,7 +282,7 @@ public final class SceneAvatarInfoOuterClass {
     getProudSkillExtraLevelMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -291,7 +291,7 @@ public final class SceneAvatarInfoOuterClass {
     getProudSkillExtraLevelMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -302,7 +302,7 @@ public final class SceneAvatarInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -313,7 +313,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -322,7 +322,7 @@ public final class SceneAvatarInfoOuterClass {
     boolean hasWeapon();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -331,7 +331,7 @@ public final class SceneAvatarInfoOuterClass {
     emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getWeapon();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -340,7 +340,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -349,7 +349,7 @@ public final class SceneAvatarInfoOuterClass {
     java.util.List<java.lang.Integer> getInherentProudSkillListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -358,7 +358,7 @@ public final class SceneAvatarInfoOuterClass {
     int getInherentProudSkillListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -369,7 +369,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -378,7 +378,7 @@ public final class SceneAvatarInfoOuterClass {
         getReliquaryListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -386,7 +386,7 @@ public final class SceneAvatarInfoOuterClass {
     emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo getReliquaryList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -394,7 +394,7 @@ public final class SceneAvatarInfoOuterClass {
     int getReliquaryListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -403,7 +403,7 @@ public final class SceneAvatarInfoOuterClass {
         getReliquaryListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -413,7 +413,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 2;</code>
@@ -433,7 +433,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 core_proud_skill_level = 11;</code>
@@ -443,7 +443,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 wearing_flycloak_id = 17;</code>
@@ -453,7 +453,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 anim_hash = 22;</code>
@@ -463,7 +463,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 costume_id = 19;</code>
@@ -473,7 +473,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 4;</code>
@@ -483,7 +483,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 born_time = 18;</code>
@@ -493,7 +493,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -503,7 +503,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_depot_id = 6;</code>
@@ -513,7 +513,7 @@ public final class SceneAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 3;</code>
@@ -963,7 +963,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -985,7 +985,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -997,7 +997,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -1014,7 +1014,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -1036,7 +1036,7 @@ public final class SceneAvatarInfoOuterClass {
     private com.google.protobuf.Internal.IntList equipIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 equip_id_list = 5;</code>
@@ -1049,7 +1049,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 equip_id_list = 5;</code>
@@ -1060,7 +1060,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 equip_id_list = 5;</code>
@@ -1076,7 +1076,7 @@ public final class SceneAvatarInfoOuterClass {
     private emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo curVehicleInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -1088,7 +1088,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -1100,7 +1100,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -1114,7 +1114,7 @@ public final class SceneAvatarInfoOuterClass {
     private com.google.protobuf.Internal.IntList talentIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 7;</code>
@@ -1127,7 +1127,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 7;</code>
@@ -1138,7 +1138,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 7;</code>
@@ -1154,7 +1154,7 @@ public final class SceneAvatarInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -1165,7 +1165,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -1177,7 +1177,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -1188,7 +1188,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -1199,7 +1199,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -1214,7 +1214,7 @@ public final class SceneAvatarInfoOuterClass {
     private com.google.protobuf.Internal.IntList teamResonanceList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -1227,7 +1227,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -1238,7 +1238,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -1254,7 +1254,7 @@ public final class SceneAvatarInfoOuterClass {
     private emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo excelInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -1266,7 +1266,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -1278,7 +1278,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -1316,7 +1316,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1338,7 +1338,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1350,7 +1350,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1367,7 +1367,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -1389,7 +1389,7 @@ public final class SceneAvatarInfoOuterClass {
     private emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo weapon_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -1401,7 +1401,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -1413,7 +1413,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -1427,7 +1427,7 @@ public final class SceneAvatarInfoOuterClass {
     private com.google.protobuf.Internal.IntList inherentProudSkillList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -1440,7 +1440,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -1451,7 +1451,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -1467,7 +1467,7 @@ public final class SceneAvatarInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.SceneReliquaryInfoOuterClass.SceneReliquaryInfo> reliquaryList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -1478,7 +1478,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -1490,7 +1490,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -1501,7 +1501,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -1512,7 +1512,7 @@ public final class SceneAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -1527,7 +1527,7 @@ public final class SceneAvatarInfoOuterClass {
     private int avatarId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 2;</code>
@@ -1557,7 +1557,7 @@ public final class SceneAvatarInfoOuterClass {
     private int coreProudSkillLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 core_proud_skill_level = 11;</code>
@@ -1572,7 +1572,7 @@ public final class SceneAvatarInfoOuterClass {
     private int wearingFlycloakId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 wearing_flycloak_id = 17;</code>
@@ -1587,7 +1587,7 @@ public final class SceneAvatarInfoOuterClass {
     private int animHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 anim_hash = 22;</code>
@@ -1602,7 +1602,7 @@ public final class SceneAvatarInfoOuterClass {
     private int costumeId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 costume_id = 19;</code>
@@ -1617,7 +1617,7 @@ public final class SceneAvatarInfoOuterClass {
     private int peerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 4;</code>
@@ -1632,7 +1632,7 @@ public final class SceneAvatarInfoOuterClass {
     private int bornTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 born_time = 18;</code>
@@ -1647,7 +1647,7 @@ public final class SceneAvatarInfoOuterClass {
     private int uid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 uid = 1;</code>
@@ -1662,7 +1662,7 @@ public final class SceneAvatarInfoOuterClass {
     private int skillDepotId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_depot_id = 6;</code>
@@ -1677,7 +1677,7 @@ public final class SceneAvatarInfoOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 3;</code>
@@ -2827,7 +2827,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -2849,7 +2849,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -2861,7 +2861,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -2878,7 +2878,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -2903,7 +2903,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -2926,7 +2926,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -2942,7 +2942,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 13;</code>
@@ -2964,7 +2964,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 equip_id_list = 5;</code>
@@ -2977,7 +2977,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 equip_id_list = 5;</code>
@@ -2988,7 +2988,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 equip_id_list = 5;</code>
@@ -3000,7 +3000,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 equip_id_list = 5;</code>
@@ -3017,7 +3017,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 equip_id_list = 5;</code>
@@ -3032,7 +3032,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 equip_id_list = 5;</code>
@@ -3049,7 +3049,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 equip_id_list = 5;</code>
@@ -3067,7 +3067,7 @@ public final class SceneAvatarInfoOuterClass {
           emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfo.Builder, emu.grasscutter.net.proto.CurVehicleInfoOuterClass.CurVehicleInfoOrBuilder> curVehicleInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -3078,7 +3078,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -3093,7 +3093,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -3113,7 +3113,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -3131,7 +3131,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -3153,7 +3153,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -3171,7 +3171,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -3183,7 +3183,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -3198,7 +3198,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CurVehicleInfo cur_vehicle_info = 20;</code>
@@ -3226,7 +3226,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 7;</code>
@@ -3239,7 +3239,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 7;</code>
@@ -3250,7 +3250,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 7;</code>
@@ -3262,7 +3262,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 7;</code>
@@ -3279,7 +3279,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 7;</code>
@@ -3294,7 +3294,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 7;</code>
@@ -3311,7 +3311,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 7;</code>
@@ -3338,7 +3338,7 @@ public final class SceneAvatarInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3352,7 +3352,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3366,7 +3366,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3380,7 +3380,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3401,7 +3401,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3419,7 +3419,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3439,7 +3439,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3460,7 +3460,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3478,7 +3478,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3496,7 +3496,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3515,7 +3515,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3532,7 +3532,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3549,7 +3549,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3560,7 +3560,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3574,7 +3574,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3589,7 +3589,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3600,7 +3600,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3612,7 +3612,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 15;</code>
@@ -3645,7 +3645,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -3658,7 +3658,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -3669,7 +3669,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -3681,7 +3681,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -3698,7 +3698,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -3713,7 +3713,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -3730,7 +3730,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 16;</code>
@@ -3748,7 +3748,7 @@ public final class SceneAvatarInfoOuterClass {
           emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder> excelInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -3759,7 +3759,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -3774,7 +3774,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -3794,7 +3794,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -3812,7 +3812,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -3834,7 +3834,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -3852,7 +3852,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -3864,7 +3864,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -3879,7 +3879,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 21;</code>
@@ -3926,7 +3926,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -3948,7 +3948,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -3960,7 +3960,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -3977,7 +3977,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -4002,7 +4002,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -4025,7 +4025,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -4041,7 +4041,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 14;</code>
@@ -4059,7 +4059,7 @@ public final class SceneAvatarInfoOuterClass {
           emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo.Builder, emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfoOrBuilder> weaponBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -4070,7 +4070,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -4085,7 +4085,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -4105,7 +4105,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -4123,7 +4123,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -4145,7 +4145,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -4163,7 +4163,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -4175,7 +4175,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -4190,7 +4190,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneWeaponInfo weapon = 8;</code>
@@ -4218,7 +4218,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -4231,7 +4231,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -4242,7 +4242,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -4254,7 +4254,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -4271,7 +4271,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -4286,7 +4286,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -4303,7 +4303,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 12;</code>
@@ -4330,7 +4330,7 @@ public final class SceneAvatarInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4344,7 +4344,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4358,7 +4358,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4372,7 +4372,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4393,7 +4393,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4411,7 +4411,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4431,7 +4431,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4452,7 +4452,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4470,7 +4470,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4488,7 +4488,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4507,7 +4507,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4524,7 +4524,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4541,7 +4541,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4552,7 +4552,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4566,7 +4566,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4581,7 +4581,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4592,7 +4592,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4604,7 +4604,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneReliquaryInfo reliquary_list = 9;</code>
@@ -4631,7 +4631,7 @@ public final class SceneAvatarInfoOuterClass {
       private int avatarId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 2;</code>
@@ -4643,7 +4643,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 2;</code>
@@ -4658,7 +4658,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 2;</code>
@@ -4717,7 +4717,7 @@ public final class SceneAvatarInfoOuterClass {
       private int coreProudSkillLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 core_proud_skill_level = 11;</code>
@@ -4729,7 +4729,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 core_proud_skill_level = 11;</code>
@@ -4744,7 +4744,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 core_proud_skill_level = 11;</code>
@@ -4760,7 +4760,7 @@ public final class SceneAvatarInfoOuterClass {
       private int wearingFlycloakId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 wearing_flycloak_id = 17;</code>
@@ -4772,7 +4772,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 wearing_flycloak_id = 17;</code>
@@ -4787,7 +4787,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 wearing_flycloak_id = 17;</code>
@@ -4803,7 +4803,7 @@ public final class SceneAvatarInfoOuterClass {
       private int animHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 anim_hash = 22;</code>
@@ -4815,7 +4815,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 anim_hash = 22;</code>
@@ -4830,7 +4830,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 anim_hash = 22;</code>
@@ -4846,7 +4846,7 @@ public final class SceneAvatarInfoOuterClass {
       private int costumeId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 costume_id = 19;</code>
@@ -4858,7 +4858,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 costume_id = 19;</code>
@@ -4873,7 +4873,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 costume_id = 19;</code>
@@ -4889,7 +4889,7 @@ public final class SceneAvatarInfoOuterClass {
       private int peerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 4;</code>
@@ -4901,7 +4901,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 4;</code>
@@ -4916,7 +4916,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 4;</code>
@@ -4932,7 +4932,7 @@ public final class SceneAvatarInfoOuterClass {
       private int bornTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 born_time = 18;</code>
@@ -4944,7 +4944,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 born_time = 18;</code>
@@ -4959,7 +4959,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 born_time = 18;</code>
@@ -4975,7 +4975,7 @@ public final class SceneAvatarInfoOuterClass {
       private int uid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -4987,7 +4987,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -5002,7 +5002,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 uid = 1;</code>
@@ -5018,7 +5018,7 @@ public final class SceneAvatarInfoOuterClass {
       private int skillDepotId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_depot_id = 6;</code>
@@ -5030,7 +5030,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_depot_id = 6;</code>
@@ -5045,7 +5045,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_depot_id = 6;</code>
@@ -5061,7 +5061,7 @@ public final class SceneAvatarInfoOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 3;</code>
@@ -5073,7 +5073,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 3;</code>
@@ -5088,7 +5088,7 @@ public final class SceneAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 3;</code>

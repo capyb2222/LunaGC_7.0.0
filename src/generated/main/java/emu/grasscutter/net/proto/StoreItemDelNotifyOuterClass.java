@@ -20,7 +20,7 @@ public final class StoreItemDelNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 guid_list = 11;</code>
@@ -29,7 +29,7 @@ public final class StoreItemDelNotifyOuterClass {
     java.util.List<java.lang.Long> getGuidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 guid_list = 11;</code>
@@ -38,7 +38,7 @@ public final class StoreItemDelNotifyOuterClass {
     int getGuidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 guid_list = 11;</code>
@@ -49,7 +49,7 @@ public final class StoreItemDelNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StoreType store_type = 1;</code>
@@ -58,7 +58,7 @@ public final class StoreItemDelNotifyOuterClass {
     int getStoreTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StoreType store_type = 1;</code>
@@ -184,7 +184,7 @@ public final class StoreItemDelNotifyOuterClass {
     private com.google.protobuf.Internal.LongList guidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 guid_list = 11;</code>
@@ -197,7 +197,7 @@ public final class StoreItemDelNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 guid_list = 11;</code>
@@ -208,7 +208,7 @@ public final class StoreItemDelNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 guid_list = 11;</code>
@@ -224,7 +224,7 @@ public final class StoreItemDelNotifyOuterClass {
     private int storeType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StoreType store_type = 1;</code>
@@ -235,7 +235,7 @@ public final class StoreItemDelNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StoreType store_type = 1;</code>
@@ -608,7 +608,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 guid_list = 11;</code>
@@ -621,7 +621,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 guid_list = 11;</code>
@@ -632,7 +632,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 guid_list = 11;</code>
@@ -644,7 +644,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 guid_list = 11;</code>
@@ -661,7 +661,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 guid_list = 11;</code>
@@ -676,7 +676,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 guid_list = 11;</code>
@@ -693,7 +693,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 guid_list = 11;</code>
@@ -709,7 +709,7 @@ public final class StoreItemDelNotifyOuterClass {
       private int storeType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 1;</code>
@@ -720,7 +720,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 1;</code>
@@ -735,7 +735,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 1;</code>
@@ -749,7 +749,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 1;</code>
@@ -767,7 +767,7 @@ public final class StoreItemDelNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 1;</code>

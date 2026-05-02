@@ -20,7 +20,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -29,7 +29,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     java.util.List<java.lang.Integer> getOpenExpeditionListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -38,7 +38,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     int getOpenExpeditionListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -49,7 +49,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -57,7 +57,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     int getExpeditionInfoMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -72,7 +72,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     getExpeditionInfoMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -81,7 +81,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     getExpeditionInfoMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -92,7 +92,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
         emu.grasscutter.net.proto.AvatarExpeditionInfoOuterClass.AvatarExpeditionInfo defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -103,7 +103,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 7;</code>
@@ -113,7 +113,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 expedition_count_limit = 8;</code>
@@ -267,7 +267,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     private com.google.protobuf.Internal.IntList openExpeditionList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -280,7 +280,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -291,7 +291,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -331,7 +331,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -353,7 +353,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -365,7 +365,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -382,7 +382,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -404,7 +404,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 7;</code>
@@ -419,7 +419,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
     private int expeditionCountLimit_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 expedition_count_limit = 8;</code>
@@ -858,7 +858,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -871,7 +871,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -882,7 +882,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -894,7 +894,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -911,7 +911,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -926,7 +926,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -943,7 +943,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 open_expedition_list = 13;</code>
@@ -984,7 +984,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -1006,7 +1006,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -1018,7 +1018,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -1035,7 +1035,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -1060,7 +1060,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -1083,7 +1083,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -1099,7 +1099,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint64, .AvatarExpeditionInfo&gt; expedition_info_map = 1;</code>
@@ -1115,7 +1115,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 7;</code>
@@ -1127,7 +1127,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 7;</code>
@@ -1142,7 +1142,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 7;</code>
@@ -1158,7 +1158,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       private int expeditionCountLimit_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 expedition_count_limit = 8;</code>
@@ -1170,7 +1170,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 expedition_count_limit = 8;</code>
@@ -1185,7 +1185,7 @@ public final class AvatarExpeditionAllDataRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 expedition_count_limit = 8;</code>

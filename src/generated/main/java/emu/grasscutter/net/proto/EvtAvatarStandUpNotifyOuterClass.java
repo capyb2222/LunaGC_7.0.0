@@ -20,7 +20,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 14;</code>
@@ -36,7 +36,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 chair_id = 3;</code>
@@ -46,7 +46,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 direction = 5;</code>
@@ -155,7 +155,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 entity_id = 14;</code>
@@ -181,7 +181,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
     private long chairId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 chair_id = 3;</code>
@@ -196,7 +196,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
     private int direction_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 direction = 5;</code>
@@ -564,7 +564,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 14;</code>
@@ -576,7 +576,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 14;</code>
@@ -591,7 +591,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 entity_id = 14;</code>
@@ -638,7 +638,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       private long chairId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 chair_id = 3;</code>
@@ -650,7 +650,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 chair_id = 3;</code>
@@ -665,7 +665,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 chair_id = 3;</code>
@@ -681,7 +681,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       private int direction_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 direction = 5;</code>
@@ -693,7 +693,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 direction = 5;</code>
@@ -708,7 +708,7 @@ public final class EvtAvatarStandUpNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 direction = 5;</code>

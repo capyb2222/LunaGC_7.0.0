@@ -20,7 +20,7 @@ public final class QueryRegionListHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -29,7 +29,7 @@ public final class QueryRegionListHttpRspOuterClass {
         getRegionListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -37,7 +37,7 @@ public final class QueryRegionListHttpRspOuterClass {
     emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo getRegionList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -45,7 +45,7 @@ public final class QueryRegionListHttpRspOuterClass {
     int getRegionListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -54,7 +54,7 @@ public final class QueryRegionListHttpRspOuterClass {
         getRegionListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -64,7 +64,7 @@ public final class QueryRegionListHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes client_custom_config_encrypted = 6;</code>
@@ -74,7 +74,7 @@ public final class QueryRegionListHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes client_secret_key = 5;</code>
@@ -84,7 +84,7 @@ public final class QueryRegionListHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 1;</code>
@@ -94,7 +94,7 @@ public final class QueryRegionListHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool enable_login_pc = 7;</code>
@@ -219,7 +219,7 @@ public final class QueryRegionListHttpRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.RegionSimpleInfoOuterClass.RegionSimpleInfo> regionList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -230,7 +230,7 @@ public final class QueryRegionListHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -242,7 +242,7 @@ public final class QueryRegionListHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -253,7 +253,7 @@ public final class QueryRegionListHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -264,7 +264,7 @@ public final class QueryRegionListHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -279,7 +279,7 @@ public final class QueryRegionListHttpRspOuterClass {
     private com.google.protobuf.ByteString clientCustomConfigEncrypted_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes client_custom_config_encrypted = 6;</code>
@@ -294,7 +294,7 @@ public final class QueryRegionListHttpRspOuterClass {
     private com.google.protobuf.ByteString clientSecretKey_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes client_secret_key = 5;</code>
@@ -309,7 +309,7 @@ public final class QueryRegionListHttpRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 1;</code>
@@ -324,7 +324,7 @@ public final class QueryRegionListHttpRspOuterClass {
     private boolean enableLoginPc_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool enable_login_pc = 7;</code>
@@ -760,7 +760,7 @@ public final class QueryRegionListHttpRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -774,7 +774,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -788,7 +788,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -802,7 +802,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -823,7 +823,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -841,7 +841,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -861,7 +861,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -882,7 +882,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -900,7 +900,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -918,7 +918,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -937,7 +937,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -954,7 +954,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -971,7 +971,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -982,7 +982,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -996,7 +996,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -1011,7 +1011,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -1022,7 +1022,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -1034,7 +1034,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated .RegionSimpleInfo region_list = 2;</code>
@@ -1061,7 +1061,7 @@ public final class QueryRegionListHttpRspOuterClass {
       private com.google.protobuf.ByteString clientCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_custom_config_encrypted = 6;</code>
@@ -1073,7 +1073,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_custom_config_encrypted = 6;</code>
@@ -1091,7 +1091,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_custom_config_encrypted = 6;</code>
@@ -1107,7 +1107,7 @@ public final class QueryRegionListHttpRspOuterClass {
       private com.google.protobuf.ByteString clientSecretKey_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_secret_key = 5;</code>
@@ -1119,7 +1119,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_secret_key = 5;</code>
@@ -1137,7 +1137,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_secret_key = 5;</code>
@@ -1153,7 +1153,7 @@ public final class QueryRegionListHttpRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -1165,7 +1165,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -1180,7 +1180,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -1196,7 +1196,7 @@ public final class QueryRegionListHttpRspOuterClass {
       private boolean enableLoginPc_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool enable_login_pc = 7;</code>
@@ -1208,7 +1208,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool enable_login_pc = 7;</code>
@@ -1223,7 +1223,7 @@ public final class QueryRegionListHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool enable_login_pc = 7;</code>

@@ -20,7 +20,7 @@ public final class MailItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EquipParam equip_param = 1;</code>
@@ -29,7 +29,7 @@ public final class MailItemOuterClass {
     boolean hasEquipParam();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EquipParam equip_param = 1;</code>
@@ -38,7 +38,7 @@ public final class MailItemOuterClass {
     emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam getEquipParam();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EquipParam equip_param = 1;</code>
@@ -47,7 +47,7 @@ public final class MailItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -56,7 +56,7 @@ public final class MailItemOuterClass {
     boolean hasDeleteInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -65,7 +65,7 @@ public final class MailItemOuterClass {
     emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo getDeleteInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -179,7 +179,7 @@ public final class MailItemOuterClass {
     private emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam equipParam_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EquipParam equip_param = 1;</code>
@@ -191,7 +191,7 @@ public final class MailItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EquipParam equip_param = 1;</code>
@@ -203,7 +203,7 @@ public final class MailItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EquipParam equip_param = 1;</code>
@@ -217,7 +217,7 @@ public final class MailItemOuterClass {
     private emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo deleteInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -229,7 +229,7 @@ public final class MailItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -241,7 +241,7 @@ public final class MailItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -601,7 +601,7 @@ public final class MailItemOuterClass {
           emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> equipParamBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EquipParam equip_param = 1;</code>
@@ -612,7 +612,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EquipParam equip_param = 1;</code>
@@ -627,7 +627,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EquipParam equip_param = 1;</code>
@@ -647,7 +647,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EquipParam equip_param = 1;</code>
@@ -665,7 +665,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EquipParam equip_param = 1;</code>
@@ -687,7 +687,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EquipParam equip_param = 1;</code>
@@ -705,7 +705,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EquipParam equip_param = 1;</code>
@@ -717,7 +717,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EquipParam equip_param = 1;</code>
@@ -732,7 +732,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EquipParam equip_param = 1;</code>
@@ -756,7 +756,7 @@ public final class MailItemOuterClass {
           emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfo.Builder, emu.grasscutter.net.proto.MaterialDeleteInfoOuterClass.MaterialDeleteInfoOrBuilder> deleteInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -767,7 +767,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -782,7 +782,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -802,7 +802,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -820,7 +820,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -842,7 +842,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -860,7 +860,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -872,7 +872,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>
@@ -887,7 +887,7 @@ public final class MailItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MaterialDeleteInfo delete_info = 2;</code>

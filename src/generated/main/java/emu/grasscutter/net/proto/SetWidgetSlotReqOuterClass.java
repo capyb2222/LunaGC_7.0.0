@@ -20,7 +20,7 @@ public final class SetWidgetSlotReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -29,7 +29,7 @@ public final class SetWidgetSlotReqOuterClass {
     java.util.List<emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag> getTagListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -38,7 +38,7 @@ public final class SetWidgetSlotReqOuterClass {
     int getTagListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -48,7 +48,7 @@ public final class SetWidgetSlotReqOuterClass {
     emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag getTagList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -58,7 +58,7 @@ public final class SetWidgetSlotReqOuterClass {
     getTagListValueList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -69,7 +69,7 @@ public final class SetWidgetSlotReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 material_id = 9;</code>
@@ -79,7 +79,7 @@ public final class SetWidgetSlotReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 7;</code>
@@ -88,7 +88,7 @@ public final class SetWidgetSlotReqOuterClass {
     int getOpValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 7;</code>
@@ -231,7 +231,7 @@ public final class SetWidgetSlotReqOuterClass {
             };
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -244,7 +244,7 @@ public final class SetWidgetSlotReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -256,7 +256,7 @@ public final class SetWidgetSlotReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -269,7 +269,7 @@ public final class SetWidgetSlotReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -282,7 +282,7 @@ public final class SetWidgetSlotReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -299,7 +299,7 @@ public final class SetWidgetSlotReqOuterClass {
     private int materialId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 material_id = 9;</code>
@@ -314,7 +314,7 @@ public final class SetWidgetSlotReqOuterClass {
     private int op_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 7;</code>
@@ -325,7 +325,7 @@ public final class SetWidgetSlotReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 7;</code>
@@ -713,7 +713,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -725,7 +725,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -736,7 +736,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -748,7 +748,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -768,7 +768,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -786,7 +786,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -804,7 +804,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -818,7 +818,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -830,7 +830,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -842,7 +842,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -859,7 +859,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -874,7 +874,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .WidgetSlotTag tag_list = 3;</code>
@@ -894,7 +894,7 @@ public final class SetWidgetSlotReqOuterClass {
       private int materialId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 9;</code>
@@ -906,7 +906,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 9;</code>
@@ -921,7 +921,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 material_id = 9;</code>
@@ -937,7 +937,7 @@ public final class SetWidgetSlotReqOuterClass {
       private int op_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 7;</code>
@@ -948,7 +948,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 7;</code>
@@ -963,7 +963,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 7;</code>
@@ -977,7 +977,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 7;</code>
@@ -995,7 +995,7 @@ public final class SetWidgetSlotReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 7;</code>

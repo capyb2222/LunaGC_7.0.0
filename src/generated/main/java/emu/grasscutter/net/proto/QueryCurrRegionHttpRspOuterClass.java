@@ -20,7 +20,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes client_secret_key = 11;</code>
@@ -30,7 +30,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string msg = 2;</code>
@@ -39,7 +39,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     java.lang.String getMsg();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string msg = 2;</code>
@@ -50,7 +50,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.RegionInfo region_info = 3;</code>
@@ -59,7 +59,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     boolean hasRegionInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.RegionInfo region_info = 3;</code>
@@ -68,7 +68,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo getRegionInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.RegionInfo region_info = 3;</code>
@@ -89,7 +89,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes region_custom_config_encrypted = 12;</code>
@@ -99,7 +99,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes client_region_custom_config_encrypted = 13;</code>
@@ -109,7 +109,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 1;</code>
@@ -119,7 +119,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -128,7 +128,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     boolean hasForceUdpate();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -137,7 +137,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo getForceUdpate();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -146,7 +146,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 5;</code>
@@ -155,7 +155,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     boolean hasStopServer();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 5;</code>
@@ -164,7 +164,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getStopServer();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 5;</code>
@@ -373,7 +373,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     private com.google.protobuf.ByteString clientSecretKey_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes client_secret_key = 11;</code>
@@ -388,7 +388,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     private volatile java.lang.Object msg_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string msg = 2;</code>
@@ -409,7 +409,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>string msg = 2;</code>
@@ -434,7 +434,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     private emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo regionInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.RegionInfo region_info = 3;</code>
@@ -446,7 +446,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.RegionInfo region_info = 3;</code>
@@ -458,7 +458,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.RegionInfo region_info = 3;</code>
@@ -510,7 +510,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     private com.google.protobuf.ByteString regionCustomConfigEncrypted_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes region_custom_config_encrypted = 12;</code>
@@ -525,7 +525,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     private com.google.protobuf.ByteString clientRegionCustomConfigEncrypted_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bytes client_region_custom_config_encrypted = 13;</code>
@@ -540,7 +540,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 1;</code>
@@ -554,7 +554,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     public static final int FORCE_UDPATE_FIELD_NUMBER = 4;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -566,7 +566,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -581,7 +581,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -597,7 +597,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     public static final int STOP_SERVER_FIELD_NUMBER = 5;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 5;</code>
@@ -609,7 +609,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 5;</code>
@@ -624,7 +624,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>.StopServerInfo stop_server = 5;</code>
@@ -1141,7 +1141,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       private com.google.protobuf.ByteString clientSecretKey_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_secret_key = 11;</code>
@@ -1153,7 +1153,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_secret_key = 11;</code>
@@ -1171,7 +1171,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_secret_key = 11;</code>
@@ -1187,7 +1187,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       private java.lang.Object msg_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string msg = 2;</code>
@@ -1207,7 +1207,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string msg = 2;</code>
@@ -1228,7 +1228,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string msg = 2;</code>
@@ -1247,7 +1247,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string msg = 2;</code>
@@ -1261,7 +1261,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>string msg = 2;</code>
@@ -1285,7 +1285,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo, emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfo.Builder, emu.grasscutter.net.proto.RegionInfoOuterClass.RegionInfoOrBuilder> regionInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.RegionInfo region_info = 3;</code>
@@ -1296,7 +1296,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.RegionInfo region_info = 3;</code>
@@ -1311,7 +1311,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.RegionInfo region_info = 3;</code>
@@ -1331,7 +1331,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.RegionInfo region_info = 3;</code>
@@ -1349,7 +1349,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.RegionInfo region_info = 3;</code>
@@ -1371,7 +1371,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.RegionInfo region_info = 3;</code>
@@ -1389,7 +1389,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.RegionInfo region_info = 3;</code>
@@ -1401,7 +1401,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.RegionInfo region_info = 3;</code>
@@ -1416,7 +1416,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.RegionInfo region_info = 3;</code>
@@ -1514,7 +1514,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       private com.google.protobuf.ByteString regionCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes region_custom_config_encrypted = 12;</code>
@@ -1526,7 +1526,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes region_custom_config_encrypted = 12;</code>
@@ -1544,7 +1544,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes region_custom_config_encrypted = 12;</code>
@@ -1560,7 +1560,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       private com.google.protobuf.ByteString clientRegionCustomConfigEncrypted_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_region_custom_config_encrypted = 13;</code>
@@ -1572,7 +1572,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_region_custom_config_encrypted = 13;</code>
@@ -1590,7 +1590,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bytes client_region_custom_config_encrypted = 13;</code>
@@ -1606,7 +1606,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -1618,7 +1618,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -1633,7 +1633,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -1650,7 +1650,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo, emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfo.Builder, emu.grasscutter.net.proto.ForceUpdateInfoOuterClass.ForceUpdateInfoOrBuilder> forceUdpateBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -1662,7 +1662,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -1684,7 +1684,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -1704,7 +1704,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -1722,7 +1722,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -1748,7 +1748,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -1771,7 +1771,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -1781,7 +1781,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -1799,7 +1799,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.ForceUpdateInfo force_udpate = 4;</code>
@@ -1827,7 +1827,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder> stopServerBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 5;</code>
@@ -1839,7 +1839,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 5;</code>
@@ -1861,7 +1861,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 5;</code>
@@ -1881,7 +1881,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 5;</code>
@@ -1899,7 +1899,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 5;</code>
@@ -1925,7 +1925,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 5;</code>
@@ -1948,7 +1948,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 5;</code>
@@ -1958,7 +1958,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 5;</code>
@@ -1976,7 +1976,7 @@ public final class QueryCurrRegionHttpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>.StopServerInfo stop_server = 5;</code>

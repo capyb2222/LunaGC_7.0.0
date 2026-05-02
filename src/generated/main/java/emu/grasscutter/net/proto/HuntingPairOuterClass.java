@@ -20,7 +20,7 @@ public final class HuntingPairOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint32 monster_config_id = 15;</code>
@@ -125,7 +125,7 @@ public final class HuntingPairOuterClass {
     private int monsterConfigId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint32 monster_config_id = 15;</code>
@@ -469,7 +469,7 @@ public final class HuntingPairOuterClass {
       private int monsterConfigId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint32 monster_config_id = 15;</code>
@@ -481,7 +481,7 @@ public final class HuntingPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint32 monster_config_id = 15;</code>
@@ -496,7 +496,7 @@ public final class HuntingPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint32 monster_config_id = 15;</code>

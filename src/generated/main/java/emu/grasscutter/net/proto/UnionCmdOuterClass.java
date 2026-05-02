@@ -20,7 +20,7 @@ public final class UnionCmdOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bytes body = 12;</code>
@@ -30,7 +30,7 @@ public final class UnionCmdOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 message_id = 10;</code>
@@ -130,7 +130,7 @@ public final class UnionCmdOuterClass {
     private com.google.protobuf.ByteString body_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bytes body = 12;</code>
@@ -145,7 +145,7 @@ public final class UnionCmdOuterClass {
     private int messageId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 message_id = 10;</code>
@@ -478,7 +478,7 @@ public final class UnionCmdOuterClass {
       private com.google.protobuf.ByteString body_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bytes body = 12;</code>
@@ -490,7 +490,7 @@ public final class UnionCmdOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bytes body = 12;</code>
@@ -508,7 +508,7 @@ public final class UnionCmdOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bytes body = 12;</code>
@@ -524,7 +524,7 @@ public final class UnionCmdOuterClass {
       private int messageId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 message_id = 10;</code>
@@ -536,7 +536,7 @@ public final class UnionCmdOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 message_id = 10;</code>
@@ -551,7 +551,7 @@ public final class UnionCmdOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 message_id = 10;</code>

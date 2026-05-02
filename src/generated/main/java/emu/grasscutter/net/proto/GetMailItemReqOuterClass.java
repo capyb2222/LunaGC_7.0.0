@@ -20,7 +20,7 @@ public final class GetMailItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 4;</code>
@@ -29,7 +29,7 @@ public final class GetMailItemReqOuterClass {
     java.util.List<java.lang.Integer> getMailIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 4;</code>
@@ -38,7 +38,7 @@ public final class GetMailItemReqOuterClass {
     int getMailIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 4;</code>
@@ -154,7 +154,7 @@ public final class GetMailItemReqOuterClass {
     private com.google.protobuf.Internal.IntList mailIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 4;</code>
@@ -167,7 +167,7 @@ public final class GetMailItemReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 4;</code>
@@ -178,7 +178,7 @@ public final class GetMailItemReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 4;</code>
@@ -531,7 +531,7 @@ public final class GetMailItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 4;</code>
@@ -544,7 +544,7 @@ public final class GetMailItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 4;</code>
@@ -555,7 +555,7 @@ public final class GetMailItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 4;</code>
@@ -567,7 +567,7 @@ public final class GetMailItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 4;</code>
@@ -584,7 +584,7 @@ public final class GetMailItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 4;</code>
@@ -599,7 +599,7 @@ public final class GetMailItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 4;</code>
@@ -616,7 +616,7 @@ public final class GetMailItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 4;</code>

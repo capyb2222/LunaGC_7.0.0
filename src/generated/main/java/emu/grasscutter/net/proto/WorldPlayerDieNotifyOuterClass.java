@@ -35,7 +35,7 @@ public final class WorldPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 7;</code>
@@ -44,7 +44,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     int getDieTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 7;</code>
@@ -60,7 +60,7 @@ public final class WorldPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 15;</code>
@@ -69,7 +69,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     boolean hasGadgetId();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 15;</code>
@@ -79,7 +79,7 @@ public final class WorldPlayerDieNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 1;</code>
@@ -88,7 +88,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     boolean hasMonsterId();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 1;</code>
@@ -285,7 +285,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     private int dieType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 7;</code>
@@ -296,7 +296,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 7;</code>
@@ -322,7 +322,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     public static final int GADGET_ID_FIELD_NUMBER = 15;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 15;</code>
@@ -334,7 +334,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 15;</code>
@@ -351,7 +351,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     public static final int MONSTER_ID_FIELD_NUMBER = 1;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 1;</code>
@@ -363,7 +363,7 @@ public final class WorldPlayerDieNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 1;</code>
@@ -931,7 +931,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       private int dieType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 7;</code>
@@ -942,7 +942,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 7;</code>
@@ -957,7 +957,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 7;</code>
@@ -971,7 +971,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 7;</code>
@@ -989,7 +989,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 7;</code>
@@ -1035,7 +1035,7 @@ public final class WorldPlayerDieNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 15;</code>
@@ -1046,7 +1046,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 15;</code>
@@ -1060,7 +1060,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 15;</code>
@@ -1075,7 +1075,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 15;</code>
@@ -1092,7 +1092,7 @@ public final class WorldPlayerDieNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 1;</code>
@@ -1103,7 +1103,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 1;</code>
@@ -1117,7 +1117,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 1;</code>
@@ -1132,7 +1132,7 @@ public final class WorldPlayerDieNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 1;</code>

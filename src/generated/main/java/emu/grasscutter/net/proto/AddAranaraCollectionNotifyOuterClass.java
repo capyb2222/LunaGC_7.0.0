@@ -42,7 +42,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 collection_type = 2;</code>
@@ -52,7 +52,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 collection_id = 4;</code>
@@ -207,7 +207,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
     private int collectionType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 collection_type = 2;</code>
@@ -222,7 +222,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
     private int collectionId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 collection_id = 4;</code>
@@ -699,7 +699,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
       private int collectionType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collection_type = 2;</code>
@@ -711,7 +711,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collection_type = 2;</code>
@@ -726,7 +726,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collection_type = 2;</code>
@@ -742,7 +742,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
       private int collectionId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collection_id = 4;</code>
@@ -754,7 +754,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collection_id = 4;</code>
@@ -769,7 +769,7 @@ public final class AddAranaraCollectionNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collection_id = 4;</code>

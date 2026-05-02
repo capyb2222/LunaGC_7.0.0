@@ -20,7 +20,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -29,7 +29,7 @@ public final class AvatarInfoOuterClass {
     java.util.List<java.lang.Integer> getPendingPromoteRewardListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -38,7 +38,7 @@ public final class AvatarInfoOuterClass {
     int getPendingPromoteRewardListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -49,7 +49,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -57,7 +57,7 @@ public final class AvatarInfoOuterClass {
     int getSkillMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -72,7 +72,7 @@ public final class AvatarInfoOuterClass {
     getSkillMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -81,7 +81,7 @@ public final class AvatarInfoOuterClass {
     getSkillMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -92,7 +92,7 @@ public final class AvatarInfoOuterClass {
         emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -103,7 +103,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -111,7 +111,7 @@ public final class AvatarInfoOuterClass {
     int getPropMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -126,7 +126,7 @@ public final class AvatarInfoOuterClass {
     getPropMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -135,7 +135,7 @@ public final class AvatarInfoOuterClass {
     getPropMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -146,7 +146,7 @@ public final class AvatarInfoOuterClass {
         emu.grasscutter.net.proto.PropValueOuterClass.PropValue defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -157,7 +157,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -166,7 +166,7 @@ public final class AvatarInfoOuterClass {
     java.util.List<java.lang.Integer> getTeamResonanceListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -175,7 +175,7 @@ public final class AvatarInfoOuterClass {
     int getTeamResonanceListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -186,7 +186,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 6;</code>
@@ -195,7 +195,7 @@ public final class AvatarInfoOuterClass {
     java.util.List<java.lang.Integer> getTalentIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 6;</code>
@@ -204,7 +204,7 @@ public final class AvatarInfoOuterClass {
     int getTalentIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 6;</code>
@@ -215,7 +215,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -224,7 +224,7 @@ public final class AvatarInfoOuterClass {
     boolean hasMirrorAvatarInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -233,7 +233,7 @@ public final class AvatarInfoOuterClass {
     emu.grasscutter.net.proto.MirrorAvatarInfoOuterClass.MirrorAvatarInfo getMirrorAvatarInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -242,7 +242,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -250,7 +250,7 @@ public final class AvatarInfoOuterClass {
     int getSkillLevelMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -265,7 +265,7 @@ public final class AvatarInfoOuterClass {
     getSkillLevelMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -274,7 +274,7 @@ public final class AvatarInfoOuterClass {
     getSkillLevelMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -285,7 +285,7 @@ public final class AvatarInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -296,7 +296,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -304,7 +304,7 @@ public final class AvatarInfoOuterClass {
     int getProudSkillExtraLevelMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -319,7 +319,7 @@ public final class AvatarInfoOuterClass {
     getProudSkillExtraLevelMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -328,7 +328,7 @@ public final class AvatarInfoOuterClass {
     getProudSkillExtraLevelMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -339,7 +339,7 @@ public final class AvatarInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -350,7 +350,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -359,7 +359,7 @@ public final class AvatarInfoOuterClass {
     boolean hasExcelInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -368,7 +368,7 @@ public final class AvatarInfoOuterClass {
     emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo getExcelInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -377,7 +377,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -386,7 +386,7 @@ public final class AvatarInfoOuterClass {
     boolean hasFetterInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -395,7 +395,7 @@ public final class AvatarInfoOuterClass {
     emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -404,7 +404,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -413,7 +413,7 @@ public final class AvatarInfoOuterClass {
         getEquipAffixListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -421,7 +421,7 @@ public final class AvatarInfoOuterClass {
     emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo getEquipAffixList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -429,7 +429,7 @@ public final class AvatarInfoOuterClass {
     int getEquipAffixListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -438,7 +438,7 @@ public final class AvatarInfoOuterClass {
         getEquipAffixListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -448,7 +448,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -456,7 +456,7 @@ public final class AvatarInfoOuterClass {
     int getFightPropMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -471,7 +471,7 @@ public final class AvatarInfoOuterClass {
     getFightPropMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -480,7 +480,7 @@ public final class AvatarInfoOuterClass {
     getFightPropMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -491,7 +491,7 @@ public final class AvatarInfoOuterClass {
         float defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -502,7 +502,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -511,7 +511,7 @@ public final class AvatarInfoOuterClass {
     java.util.List<java.lang.Long> getEquipGuidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -520,7 +520,7 @@ public final class AvatarInfoOuterClass {
     int getEquipGuidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -531,7 +531,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -540,7 +540,7 @@ public final class AvatarInfoOuterClass {
     java.util.List<java.lang.Integer> getInherentProudSkillListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -549,7 +549,7 @@ public final class AvatarInfoOuterClass {
     int getInherentProudSkillListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -575,7 +575,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_depot_id = 11;</code>
@@ -585,7 +585,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 costume_id = 25;</code>
@@ -595,7 +595,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 1;</code>
@@ -611,7 +611,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 2;</code>
@@ -621,7 +621,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExpeditionState expedition_state = 16;</code>
@@ -630,7 +630,7 @@ public final class AvatarInfoOuterClass {
     int getExpeditionStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExpeditionState expedition_state = 16;</code>
@@ -640,7 +640,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 anim_hash = 27;</code>
@@ -650,7 +650,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_focus = 18;</code>
@@ -660,7 +660,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 core_proud_skill_level = 13;</code>
@@ -670,7 +670,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 life_state = 4;</code>
@@ -680,7 +680,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 born_time = 23;</code>
@@ -690,7 +690,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_type = 19;</code>
@@ -700,7 +700,7 @@ public final class AvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 wearing_flycloak_id = 21;</code>
@@ -1158,7 +1158,7 @@ public final class AvatarInfoOuterClass {
     private com.google.protobuf.Internal.IntList pendingPromoteRewardList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -1171,7 +1171,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -1182,7 +1182,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -1222,7 +1222,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -1244,7 +1244,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -1256,7 +1256,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -1273,7 +1273,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -1319,7 +1319,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -1341,7 +1341,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -1353,7 +1353,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -1370,7 +1370,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -1392,7 +1392,7 @@ public final class AvatarInfoOuterClass {
     private com.google.protobuf.Internal.IntList teamResonanceList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -1405,7 +1405,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -1416,7 +1416,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -1432,7 +1432,7 @@ public final class AvatarInfoOuterClass {
     private com.google.protobuf.Internal.IntList talentIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 6;</code>
@@ -1445,7 +1445,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 6;</code>
@@ -1456,7 +1456,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 talent_id_list = 6;</code>
@@ -1472,7 +1472,7 @@ public final class AvatarInfoOuterClass {
     private emu.grasscutter.net.proto.MirrorAvatarInfoOuterClass.MirrorAvatarInfo mirrorAvatarInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -1484,7 +1484,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -1496,7 +1496,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -1534,7 +1534,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -1556,7 +1556,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -1568,7 +1568,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -1585,7 +1585,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -1631,7 +1631,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -1653,7 +1653,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -1665,7 +1665,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -1682,7 +1682,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -1704,7 +1704,7 @@ public final class AvatarInfoOuterClass {
     private emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo excelInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -1716,7 +1716,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -1728,7 +1728,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -1742,7 +1742,7 @@ public final class AvatarInfoOuterClass {
     private emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo fetterInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -1754,7 +1754,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -1766,7 +1766,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -1780,7 +1780,7 @@ public final class AvatarInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AvatarEquipAffixInfoOuterClass.AvatarEquipAffixInfo> equipAffixList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -1791,7 +1791,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -1803,7 +1803,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -1814,7 +1814,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -1825,7 +1825,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -1864,7 +1864,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -1886,7 +1886,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -1898,7 +1898,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -1915,7 +1915,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -1937,7 +1937,7 @@ public final class AvatarInfoOuterClass {
     private com.google.protobuf.Internal.LongList equipGuidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -1950,7 +1950,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -1961,7 +1961,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -1977,7 +1977,7 @@ public final class AvatarInfoOuterClass {
     private com.google.protobuf.Internal.IntList inherentProudSkillList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -1990,7 +1990,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -2001,7 +2001,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -2043,7 +2043,7 @@ public final class AvatarInfoOuterClass {
     private int skillDepotId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 skill_depot_id = 11;</code>
@@ -2058,7 +2058,7 @@ public final class AvatarInfoOuterClass {
     private int costumeId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 costume_id = 25;</code>
@@ -2073,7 +2073,7 @@ public final class AvatarInfoOuterClass {
     private int avatarId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 1;</code>
@@ -2099,7 +2099,7 @@ public final class AvatarInfoOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 2;</code>
@@ -2114,7 +2114,7 @@ public final class AvatarInfoOuterClass {
     private int expeditionState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExpeditionState expedition_state = 16;</code>
@@ -2125,7 +2125,7 @@ public final class AvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExpeditionState expedition_state = 16;</code>
@@ -2141,7 +2141,7 @@ public final class AvatarInfoOuterClass {
     private int animHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 anim_hash = 27;</code>
@@ -2156,7 +2156,7 @@ public final class AvatarInfoOuterClass {
     private boolean isFocus_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_focus = 18;</code>
@@ -2171,7 +2171,7 @@ public final class AvatarInfoOuterClass {
     private int coreProudSkillLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 core_proud_skill_level = 13;</code>
@@ -2186,7 +2186,7 @@ public final class AvatarInfoOuterClass {
     private int lifeState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 life_state = 4;</code>
@@ -2201,7 +2201,7 @@ public final class AvatarInfoOuterClass {
     private int bornTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 born_time = 23;</code>
@@ -2216,7 +2216,7 @@ public final class AvatarInfoOuterClass {
     private int avatarType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_type = 19;</code>
@@ -2231,7 +2231,7 @@ public final class AvatarInfoOuterClass {
     private int wearingFlycloakId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 wearing_flycloak_id = 21;</code>
@@ -3389,7 +3389,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -3402,7 +3402,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -3413,7 +3413,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -3425,7 +3425,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -3442,7 +3442,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -3457,7 +3457,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -3474,7 +3474,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 pending_promote_reward_list = 24;</code>
@@ -3515,7 +3515,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -3537,7 +3537,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -3549,7 +3549,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -3566,7 +3566,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -3591,7 +3591,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -3614,7 +3614,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -3630,7 +3630,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 10;</code>
@@ -3671,7 +3671,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -3693,7 +3693,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -3705,7 +3705,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -3722,7 +3722,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -3747,7 +3747,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -3770,7 +3770,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -3786,7 +3786,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .PropValue&gt; prop_map = 3;</code>
@@ -3808,7 +3808,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -3821,7 +3821,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -3832,7 +3832,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -3844,7 +3844,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -3861,7 +3861,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -3876,7 +3876,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -3893,7 +3893,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 team_resonance_list = 20;</code>
@@ -3915,7 +3915,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 6;</code>
@@ -3928,7 +3928,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 6;</code>
@@ -3939,7 +3939,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 6;</code>
@@ -3951,7 +3951,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 6;</code>
@@ -3968,7 +3968,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 6;</code>
@@ -3983,7 +3983,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 6;</code>
@@ -4000,7 +4000,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 talent_id_list = 6;</code>
@@ -4018,7 +4018,7 @@ public final class AvatarInfoOuterClass {
           emu.grasscutter.net.proto.MirrorAvatarInfoOuterClass.MirrorAvatarInfo, emu.grasscutter.net.proto.MirrorAvatarInfoOuterClass.MirrorAvatarInfo.Builder, emu.grasscutter.net.proto.MirrorAvatarInfoOuterClass.MirrorAvatarInfoOrBuilder> mirrorAvatarInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -4029,7 +4029,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -4044,7 +4044,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -4064,7 +4064,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -4082,7 +4082,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -4104,7 +4104,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -4122,7 +4122,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -4134,7 +4134,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -4149,7 +4149,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MirrorAvatarInfo mirror_avatar_info = 28;</code>
@@ -4196,7 +4196,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -4218,7 +4218,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -4230,7 +4230,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -4247,7 +4247,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -4272,7 +4272,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -4295,7 +4295,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -4311,7 +4311,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; skill_level_map = 15;</code>
@@ -4352,7 +4352,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -4374,7 +4374,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -4386,7 +4386,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -4403,7 +4403,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -4428,7 +4428,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -4451,7 +4451,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -4467,7 +4467,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; proud_skill_extra_level_map = 17;</code>
@@ -4485,7 +4485,7 @@ public final class AvatarInfoOuterClass {
           emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfo.Builder, emu.grasscutter.net.proto.AvatarExcelInfoOuterClass.AvatarExcelInfoOrBuilder> excelInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -4496,7 +4496,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -4511,7 +4511,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -4531,7 +4531,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -4549,7 +4549,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -4571,7 +4571,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -4589,7 +4589,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -4601,7 +4601,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -4616,7 +4616,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExcelInfo excel_info = 26;</code>
@@ -4640,7 +4640,7 @@ public final class AvatarInfoOuterClass {
           emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo.Builder, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfoOrBuilder> fetterInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -4651,7 +4651,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -4666,7 +4666,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -4686,7 +4686,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -4704,7 +4704,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -4726,7 +4726,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -4744,7 +4744,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -4756,7 +4756,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -4771,7 +4771,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarFetterInfo fetter_info = 12;</code>
@@ -4804,7 +4804,7 @@ public final class AvatarInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4818,7 +4818,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4832,7 +4832,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4846,7 +4846,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4867,7 +4867,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4885,7 +4885,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4905,7 +4905,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4926,7 +4926,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4944,7 +4944,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4962,7 +4962,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4981,7 +4981,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -4998,7 +4998,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -5015,7 +5015,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -5026,7 +5026,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -5040,7 +5040,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -5055,7 +5055,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -5066,7 +5066,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -5078,7 +5078,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AvatarEquipAffixInfo equip_affix_list = 22;</code>
@@ -5130,7 +5130,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -5152,7 +5152,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -5164,7 +5164,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -5181,7 +5181,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -5206,7 +5206,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -5229,7 +5229,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -5245,7 +5245,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 7;</code>
@@ -5267,7 +5267,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -5280,7 +5280,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -5291,7 +5291,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -5303,7 +5303,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -5320,7 +5320,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -5335,7 +5335,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -5352,7 +5352,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 equip_guid_list = 5;</code>
@@ -5374,7 +5374,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -5387,7 +5387,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -5398,7 +5398,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -5410,7 +5410,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -5427,7 +5427,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -5442,7 +5442,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -5459,7 +5459,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 inherent_proud_skill_list = 14;</code>
@@ -5594,7 +5594,7 @@ public final class AvatarInfoOuterClass {
       private int skillDepotId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_depot_id = 11;</code>
@@ -5606,7 +5606,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_depot_id = 11;</code>
@@ -5621,7 +5621,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 skill_depot_id = 11;</code>
@@ -5637,7 +5637,7 @@ public final class AvatarInfoOuterClass {
       private int costumeId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 costume_id = 25;</code>
@@ -5649,7 +5649,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 costume_id = 25;</code>
@@ -5664,7 +5664,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 costume_id = 25;</code>
@@ -5680,7 +5680,7 @@ public final class AvatarInfoOuterClass {
       private int avatarId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 1;</code>
@@ -5692,7 +5692,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 1;</code>
@@ -5707,7 +5707,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 1;</code>
@@ -5754,7 +5754,7 @@ public final class AvatarInfoOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -5766,7 +5766,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -5781,7 +5781,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -5797,7 +5797,7 @@ public final class AvatarInfoOuterClass {
       private int expeditionState_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState expedition_state = 16;</code>
@@ -5808,7 +5808,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState expedition_state = 16;</code>
@@ -5823,7 +5823,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState expedition_state = 16;</code>
@@ -5837,7 +5837,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState expedition_state = 16;</code>
@@ -5855,7 +5855,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState expedition_state = 16;</code>
@@ -5871,7 +5871,7 @@ public final class AvatarInfoOuterClass {
       private int animHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 anim_hash = 27;</code>
@@ -5883,7 +5883,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 anim_hash = 27;</code>
@@ -5898,7 +5898,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 anim_hash = 27;</code>
@@ -5914,7 +5914,7 @@ public final class AvatarInfoOuterClass {
       private boolean isFocus_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_focus = 18;</code>
@@ -5926,7 +5926,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_focus = 18;</code>
@@ -5941,7 +5941,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_focus = 18;</code>
@@ -5957,7 +5957,7 @@ public final class AvatarInfoOuterClass {
       private int coreProudSkillLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 core_proud_skill_level = 13;</code>
@@ -5969,7 +5969,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 core_proud_skill_level = 13;</code>
@@ -5984,7 +5984,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 core_proud_skill_level = 13;</code>
@@ -6000,7 +6000,7 @@ public final class AvatarInfoOuterClass {
       private int lifeState_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 4;</code>
@@ -6012,7 +6012,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 4;</code>
@@ -6027,7 +6027,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 4;</code>
@@ -6043,7 +6043,7 @@ public final class AvatarInfoOuterClass {
       private int bornTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 born_time = 23;</code>
@@ -6055,7 +6055,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 born_time = 23;</code>
@@ -6070,7 +6070,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 born_time = 23;</code>
@@ -6086,7 +6086,7 @@ public final class AvatarInfoOuterClass {
       private int avatarType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_type = 19;</code>
@@ -6098,7 +6098,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_type = 19;</code>
@@ -6113,7 +6113,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_type = 19;</code>
@@ -6129,7 +6129,7 @@ public final class AvatarInfoOuterClass {
       private int wearingFlycloakId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 wearing_flycloak_id = 21;</code>
@@ -6141,7 +6141,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 wearing_flycloak_id = 21;</code>
@@ -6156,7 +6156,7 @@ public final class AvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 wearing_flycloak_id = 21;</code>

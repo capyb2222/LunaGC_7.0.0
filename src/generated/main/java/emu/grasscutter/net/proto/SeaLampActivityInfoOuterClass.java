@@ -56,7 +56,7 @@ public final class SeaLampActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>uint32 first_day_start_time = 14;</code>
@@ -84,7 +84,7 @@ public final class SeaLampActivityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 11;</code>
@@ -284,7 +284,7 @@ public final class SeaLampActivityInfoOuterClass {
     private int firstDayStartTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0 
+     *6.5.5 //6.4.0 //6.5.0 
      * </pre>
      *
      * <code>uint32 first_day_start_time = 14;</code>
@@ -332,7 +332,7 @@ public final class SeaLampActivityInfoOuterClass {
     private boolean isContentClosed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 11;</code>
@@ -1111,7 +1111,7 @@ public final class SeaLampActivityInfoOuterClass {
       private int firstDayStartTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 first_day_start_time = 14;</code>
@@ -1123,7 +1123,7 @@ public final class SeaLampActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 first_day_start_time = 14;</code>
@@ -1138,7 +1138,7 @@ public final class SeaLampActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0 
+       *6.5.5 //6.4.0 //6.5.0 
        * </pre>
        *
        * <code>uint32 first_day_start_time = 14;</code>
@@ -1247,7 +1247,7 @@ public final class SeaLampActivityInfoOuterClass {
       private boolean isContentClosed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 11;</code>
@@ -1259,7 +1259,7 @@ public final class SeaLampActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 11;</code>
@@ -1274,7 +1274,7 @@ public final class SeaLampActivityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 11;</code>

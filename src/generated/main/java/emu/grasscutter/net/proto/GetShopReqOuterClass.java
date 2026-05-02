@@ -20,7 +20,7 @@ public final class GetShopReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 shop_type = 15;</code>
@@ -118,7 +118,7 @@ public final class GetShopReqOuterClass {
     private int shopType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 shop_type = 15;</code>
@@ -438,7 +438,7 @@ public final class GetShopReqOuterClass {
       private int shopType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 shop_type = 15;</code>
@@ -450,7 +450,7 @@ public final class GetShopReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 shop_type = 15;</code>
@@ -465,7 +465,7 @@ public final class GetShopReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 shop_type = 15;</code>

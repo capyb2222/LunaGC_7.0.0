@@ -19,37 +19,65 @@ public final class ShowEquipOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 item_id = 1;</code>
      * @return The itemId.
      */
     int getItemId();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Reliquary reliquary = 2;</code>
      * @return Whether the reliquary field is set.
      */
     boolean hasReliquary();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Reliquary reliquary = 2;</code>
      * @return The reliquary.
      */
     emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary getReliquary();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Reliquary reliquary = 2;</code>
      */
     emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder getReliquaryOrBuilder();
 
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Weapon weapon = 3;</code>
      * @return Whether the weapon field is set.
      */
     boolean hasWeapon();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Weapon weapon = 3;</code>
      * @return The weapon.
      */
     emu.grasscutter.net.proto.WeaponOuterClass.Weapon getWeapon();
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Weapon weapon = 3;</code>
      */
     emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder getWeaponOrBuilder();
@@ -210,6 +238,10 @@ public final class ShowEquipOuterClass {
     public static final int ITEM_ID_FIELD_NUMBER = 1;
     private int itemId_;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>uint32 item_id = 1;</code>
      * @return The itemId.
      */
@@ -220,6 +252,10 @@ public final class ShowEquipOuterClass {
 
     public static final int RELIQUARY_FIELD_NUMBER = 2;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Reliquary reliquary = 2;</code>
      * @return Whether the reliquary field is set.
      */
@@ -228,6 +264,10 @@ public final class ShowEquipOuterClass {
       return detailCase_ == 2;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Reliquary reliquary = 2;</code>
      * @return The reliquary.
      */
@@ -239,6 +279,10 @@ public final class ShowEquipOuterClass {
       return emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.getDefaultInstance();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Reliquary reliquary = 2;</code>
      */
     @java.lang.Override
@@ -251,6 +295,10 @@ public final class ShowEquipOuterClass {
 
     public static final int WEAPON_FIELD_NUMBER = 3;
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Weapon weapon = 3;</code>
      * @return Whether the weapon field is set.
      */
@@ -259,6 +307,10 @@ public final class ShowEquipOuterClass {
       return detailCase_ == 3;
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Weapon weapon = 3;</code>
      * @return The weapon.
      */
@@ -270,6 +322,10 @@ public final class ShowEquipOuterClass {
       return emu.grasscutter.net.proto.WeaponOuterClass.Weapon.getDefaultInstance();
     }
     /**
+     * <pre>
+     *6.5.5
+     * </pre>
+     *
      * <code>.Weapon weapon = 3;</code>
      */
     @java.lang.Override
@@ -668,6 +724,10 @@ public final class ShowEquipOuterClass {
 
       private int itemId_ ;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 item_id = 1;</code>
        * @return The itemId.
        */
@@ -676,6 +736,10 @@ public final class ShowEquipOuterClass {
         return itemId_;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 item_id = 1;</code>
        * @param value The itemId to set.
        * @return This builder for chaining.
@@ -687,6 +751,10 @@ public final class ShowEquipOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>uint32 item_id = 1;</code>
        * @return This builder for chaining.
        */
@@ -700,6 +768,10 @@ public final class ShowEquipOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder> reliquaryBuilder_;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Reliquary reliquary = 2;</code>
        * @return Whether the reliquary field is set.
        */
@@ -708,6 +780,10 @@ public final class ShowEquipOuterClass {
         return detailCase_ == 2;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Reliquary reliquary = 2;</code>
        * @return The reliquary.
        */
@@ -726,6 +802,10 @@ public final class ShowEquipOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Reliquary reliquary = 2;</code>
        */
       public Builder setReliquary(emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary value) {
@@ -742,6 +822,10 @@ public final class ShowEquipOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Reliquary reliquary = 2;</code>
        */
       public Builder setReliquary(
@@ -756,6 +840,10 @@ public final class ShowEquipOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Reliquary reliquary = 2;</code>
        */
       public Builder mergeReliquary(emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary value) {
@@ -778,6 +866,10 @@ public final class ShowEquipOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Reliquary reliquary = 2;</code>
        */
       public Builder clearReliquary() {
@@ -797,12 +889,20 @@ public final class ShowEquipOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Reliquary reliquary = 2;</code>
        */
       public emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder getReliquaryBuilder() {
         return getReliquaryFieldBuilder().getBuilder();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Reliquary reliquary = 2;</code>
        */
       @java.lang.Override
@@ -817,6 +917,10 @@ public final class ShowEquipOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Reliquary reliquary = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
@@ -841,6 +945,10 @@ public final class ShowEquipOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.WeaponOuterClass.Weapon, emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder, emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder> weaponBuilder_;
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Weapon weapon = 3;</code>
        * @return Whether the weapon field is set.
        */
@@ -849,6 +957,10 @@ public final class ShowEquipOuterClass {
         return detailCase_ == 3;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Weapon weapon = 3;</code>
        * @return The weapon.
        */
@@ -867,6 +979,10 @@ public final class ShowEquipOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Weapon weapon = 3;</code>
        */
       public Builder setWeapon(emu.grasscutter.net.proto.WeaponOuterClass.Weapon value) {
@@ -883,6 +999,10 @@ public final class ShowEquipOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Weapon weapon = 3;</code>
        */
       public Builder setWeapon(
@@ -897,6 +1017,10 @@ public final class ShowEquipOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Weapon weapon = 3;</code>
        */
       public Builder mergeWeapon(emu.grasscutter.net.proto.WeaponOuterClass.Weapon value) {
@@ -919,6 +1043,10 @@ public final class ShowEquipOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Weapon weapon = 3;</code>
        */
       public Builder clearWeapon() {
@@ -938,12 +1066,20 @@ public final class ShowEquipOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Weapon weapon = 3;</code>
        */
       public emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder getWeaponBuilder() {
         return getWeaponFieldBuilder().getBuilder();
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Weapon weapon = 3;</code>
        */
       @java.lang.Override
@@ -958,6 +1094,10 @@ public final class ShowEquipOuterClass {
         }
       }
       /**
+       * <pre>
+       *6.5.5
+       * </pre>
+       *
        * <code>.Weapon weapon = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<

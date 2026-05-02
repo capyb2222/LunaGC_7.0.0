@@ -20,7 +20,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 city_id_list = 14;</code>
@@ -29,7 +29,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
     java.util.List<java.lang.Integer> getCityIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 city_id_list = 14;</code>
@@ -38,7 +38,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
     int getCityIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 city_id_list = 14;</code>
@@ -158,7 +158,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
     private com.google.protobuf.Internal.IntList cityIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 city_id_list = 14;</code>
@@ -171,7 +171,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 city_id_list = 14;</code>
@@ -182,7 +182,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 city_id_list = 14;</code>
@@ -539,7 +539,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 city_id_list = 14;</code>
@@ -552,7 +552,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 city_id_list = 14;</code>
@@ -563,7 +563,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 city_id_list = 14;</code>
@@ -575,7 +575,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 city_id_list = 14;</code>
@@ -592,7 +592,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 city_id_list = 14;</code>
@@ -607,7 +607,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 city_id_list = 14;</code>
@@ -624,7 +624,7 @@ public final class GetBlossomBriefInfoListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 city_id_list = 14;</code>

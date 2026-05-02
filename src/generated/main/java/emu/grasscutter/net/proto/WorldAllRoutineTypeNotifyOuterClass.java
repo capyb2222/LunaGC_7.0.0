@@ -20,7 +20,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -29,7 +29,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
         getWorldRoutineTypeListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -37,7 +37,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
     emu.grasscutter.net.proto.WorldRoutineTypeInfoOuterClass.WorldRoutineTypeInfo getWorldRoutineTypeList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -45,7 +45,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
     int getWorldRoutineTypeListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -54,7 +54,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
         getWorldRoutineTypeListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -161,7 +161,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.WorldRoutineTypeInfoOuterClass.WorldRoutineTypeInfo> worldRoutineTypeList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -172,7 +172,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -184,7 +184,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -195,7 +195,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -206,7 +206,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -577,7 +577,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -591,7 +591,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -605,7 +605,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -619,7 +619,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -640,7 +640,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -658,7 +658,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -678,7 +678,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -699,7 +699,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -717,7 +717,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -735,7 +735,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -754,7 +754,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -771,7 +771,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -788,7 +788,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -799,7 +799,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -813,7 +813,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -828,7 +828,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -839,7 +839,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>
@@ -851,7 +851,7 @@ public final class WorldAllRoutineTypeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .WorldRoutineTypeInfo world_routine_type_list = 1;</code>

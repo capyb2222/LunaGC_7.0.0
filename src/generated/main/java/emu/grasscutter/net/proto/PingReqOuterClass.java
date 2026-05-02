@@ -32,7 +32,7 @@ public final class PingReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 seq = 10;</code>
@@ -42,7 +42,7 @@ public final class PingReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float ue_time = 3;</code>
@@ -52,7 +52,7 @@ public final class PingReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>double total_tick_time = 6;</code>
@@ -68,7 +68,7 @@ public final class PingReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 client_time = 8;</code>
@@ -220,7 +220,7 @@ public final class PingReqOuterClass {
     private int seq_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 seq = 10;</code>
@@ -235,7 +235,7 @@ public final class PingReqOuterClass {
     private float ueTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float ue_time = 3;</code>
@@ -250,7 +250,7 @@ public final class PingReqOuterClass {
     private double totalTickTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>double total_tick_time = 6;</code>
@@ -276,7 +276,7 @@ public final class PingReqOuterClass {
     private int clientTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 client_time = 8;</code>
@@ -770,7 +770,7 @@ public final class PingReqOuterClass {
       private int seq_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 seq = 10;</code>
@@ -782,7 +782,7 @@ public final class PingReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 seq = 10;</code>
@@ -797,7 +797,7 @@ public final class PingReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 seq = 10;</code>
@@ -813,7 +813,7 @@ public final class PingReqOuterClass {
       private float ueTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float ue_time = 3;</code>
@@ -825,7 +825,7 @@ public final class PingReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float ue_time = 3;</code>
@@ -840,7 +840,7 @@ public final class PingReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float ue_time = 3;</code>
@@ -856,7 +856,7 @@ public final class PingReqOuterClass {
       private double totalTickTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 6;</code>
@@ -868,7 +868,7 @@ public final class PingReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 6;</code>
@@ -883,7 +883,7 @@ public final class PingReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 6;</code>
@@ -930,7 +930,7 @@ public final class PingReqOuterClass {
       private int clientTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 client_time = 8;</code>
@@ -942,7 +942,7 @@ public final class PingReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 client_time = 8;</code>
@@ -957,7 +957,7 @@ public final class PingReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 client_time = 8;</code>

@@ -62,7 +62,7 @@ public final class PlayerWorldSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -71,7 +71,7 @@ public final class PlayerWorldSceneInfoOuterClass {
     java.util.List<java.lang.Integer> getSceneTagIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -80,7 +80,7 @@ public final class PlayerWorldSceneInfoOuterClass {
     int getSceneTagIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -91,7 +91,7 @@ public final class PlayerWorldSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_locked = 8;</code>
@@ -101,7 +101,7 @@ public final class PlayerWorldSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 12;</code>
@@ -316,7 +316,7 @@ public final class PlayerWorldSceneInfoOuterClass {
     private com.google.protobuf.Internal.IntList sceneTagIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -329,7 +329,7 @@ public final class PlayerWorldSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -340,7 +340,7 @@ public final class PlayerWorldSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -356,7 +356,7 @@ public final class PlayerWorldSceneInfoOuterClass {
     private boolean isLocked_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_locked = 8;</code>
@@ -371,7 +371,7 @@ public final class PlayerWorldSceneInfoOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 12;</code>
@@ -1092,7 +1092,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -1105,7 +1105,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -1116,7 +1116,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -1128,7 +1128,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -1145,7 +1145,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -1160,7 +1160,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -1177,7 +1177,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 10;</code>
@@ -1193,7 +1193,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       private boolean isLocked_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_locked = 8;</code>
@@ -1205,7 +1205,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_locked = 8;</code>
@@ -1220,7 +1220,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_locked = 8;</code>
@@ -1236,7 +1236,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 12;</code>
@@ -1248,7 +1248,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 12;</code>
@@ -1263,7 +1263,7 @@ public final class PlayerWorldSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 12;</code>

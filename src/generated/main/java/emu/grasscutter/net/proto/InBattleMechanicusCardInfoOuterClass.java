@@ -26,7 +26,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cost_points = 10;</code>
@@ -42,7 +42,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 card_id = 4;</code>
@@ -52,7 +52,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
@@ -61,7 +61,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
     int getChallengeStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
@@ -188,7 +188,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
     private int costPoints_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cost_points = 10;</code>
@@ -214,7 +214,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
     private int cardId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 card_id = 4;</code>
@@ -229,7 +229,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
     private int challengeState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
@@ -240,7 +240,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
@@ -655,7 +655,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       private int costPoints_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cost_points = 10;</code>
@@ -667,7 +667,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cost_points = 10;</code>
@@ -682,7 +682,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cost_points = 10;</code>
@@ -729,7 +729,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       private int cardId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 card_id = 4;</code>
@@ -741,7 +741,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 card_id = 4;</code>
@@ -756,7 +756,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 card_id = 4;</code>
@@ -772,7 +772,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       private int challengeState_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
@@ -783,7 +783,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
@@ -798,7 +798,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
@@ -812,7 +812,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>
@@ -830,7 +830,7 @@ public final class InBattleMechanicusCardInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.InBattleMechanicusCardChallengeState challenge_state = 3;</code>

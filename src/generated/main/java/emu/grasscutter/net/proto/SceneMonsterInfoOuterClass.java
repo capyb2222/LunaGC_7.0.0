@@ -20,7 +20,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -29,7 +29,7 @@ public final class SceneMonsterInfoOuterClass {
         getWeaponListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -37,7 +37,7 @@ public final class SceneMonsterInfoOuterClass {
     emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo getWeaponList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -45,7 +45,7 @@ public final class SceneMonsterInfoOuterClass {
     int getWeaponListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -54,7 +54,7 @@ public final class SceneMonsterInfoOuterClass {
         getWeaponListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -64,7 +64,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 6;</code>
@@ -73,7 +73,7 @@ public final class SceneMonsterInfoOuterClass {
     java.util.List<java.lang.Integer> getAffixListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 6;</code>
@@ -82,7 +82,7 @@ public final class SceneMonsterInfoOuterClass {
     int getAffixListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 6;</code>
@@ -93,7 +93,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -101,7 +101,7 @@ public final class SceneMonsterInfoOuterClass {
     int getSummonTagMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -116,7 +116,7 @@ public final class SceneMonsterInfoOuterClass {
     getSummonTagMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -125,7 +125,7 @@ public final class SceneMonsterInfoOuterClass {
     getSummonTagMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -136,7 +136,7 @@ public final class SceneMonsterInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -162,7 +162,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 block_id = 13;</code>
@@ -172,7 +172,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_light = 22;</code>
@@ -182,7 +182,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_elite = 7;</code>
@@ -192,7 +192,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 level_route_id = 20;</code>
@@ -202,7 +202,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 1;</code>
@@ -212,7 +212,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 3;</code>
@@ -222,7 +222,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 mark_flag = 14;</code>
@@ -232,7 +232,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 ai_config_id = 19;</code>
@@ -242,7 +242,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 attack_target_id = 17;</code>
@@ -252,7 +252,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 group_id = 2;</code>
@@ -262,7 +262,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 summoned_tag = 9;</code>
@@ -272,7 +272,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 authority_peer_id = 5;</code>
@@ -282,7 +282,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 pose_id = 11;</code>
@@ -292,7 +292,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 8;</code>
@@ -302,7 +302,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 title_id = 15;</code>
@@ -312,7 +312,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 special_name_id = 16;</code>
@@ -322,7 +322,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 init_pose_id = 21;</code>
@@ -332,7 +332,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MonsterBornType born_type = 12;</code>
@@ -341,7 +341,7 @@ public final class SceneMonsterInfoOuterClass {
     int getBornTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MonsterBornType born_type = 12;</code>
@@ -351,7 +351,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneFishInfo fish_info = 50;</code>
@@ -360,7 +360,7 @@ public final class SceneMonsterInfoOuterClass {
     boolean hasFishInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneFishInfo fish_info = 50;</code>
@@ -369,7 +369,7 @@ public final class SceneMonsterInfoOuterClass {
     emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo getFishInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneFishInfo fish_info = 50;</code>
@@ -378,7 +378,7 @@ public final class SceneMonsterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -387,7 +387,7 @@ public final class SceneMonsterInfoOuterClass {
     boolean hasFishtankFishInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -396,7 +396,7 @@ public final class SceneMonsterInfoOuterClass {
     emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo getFishtankFishInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -724,7 +724,7 @@ public final class SceneMonsterInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.SceneWeaponInfoOuterClass.SceneWeaponInfo> weaponList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -735,7 +735,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -747,7 +747,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -758,7 +758,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -769,7 +769,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -784,7 +784,7 @@ public final class SceneMonsterInfoOuterClass {
     private com.google.protobuf.Internal.IntList affixList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 6;</code>
@@ -797,7 +797,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 6;</code>
@@ -808,7 +808,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 affix_list = 6;</code>
@@ -848,7 +848,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -870,7 +870,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -882,7 +882,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -899,7 +899,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -947,7 +947,7 @@ public final class SceneMonsterInfoOuterClass {
     private int blockId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 block_id = 13;</code>
@@ -962,7 +962,7 @@ public final class SceneMonsterInfoOuterClass {
     private boolean isLight_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_light = 22;</code>
@@ -977,7 +977,7 @@ public final class SceneMonsterInfoOuterClass {
     private boolean isElite_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_elite = 7;</code>
@@ -992,7 +992,7 @@ public final class SceneMonsterInfoOuterClass {
     private int levelRouteId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 level_route_id = 20;</code>
@@ -1007,7 +1007,7 @@ public final class SceneMonsterInfoOuterClass {
     private int monsterId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 1;</code>
@@ -1022,7 +1022,7 @@ public final class SceneMonsterInfoOuterClass {
     private int configId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 config_id = 3;</code>
@@ -1037,7 +1037,7 @@ public final class SceneMonsterInfoOuterClass {
     private int markFlag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 mark_flag = 14;</code>
@@ -1052,7 +1052,7 @@ public final class SceneMonsterInfoOuterClass {
     private int aiConfigId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 ai_config_id = 19;</code>
@@ -1067,7 +1067,7 @@ public final class SceneMonsterInfoOuterClass {
     private int attackTargetId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 attack_target_id = 17;</code>
@@ -1082,7 +1082,7 @@ public final class SceneMonsterInfoOuterClass {
     private int groupId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 group_id = 2;</code>
@@ -1097,7 +1097,7 @@ public final class SceneMonsterInfoOuterClass {
     private int summonedTag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 summoned_tag = 9;</code>
@@ -1112,7 +1112,7 @@ public final class SceneMonsterInfoOuterClass {
     private int authorityPeerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 authority_peer_id = 5;</code>
@@ -1127,7 +1127,7 @@ public final class SceneMonsterInfoOuterClass {
     private int poseId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 pose_id = 11;</code>
@@ -1142,7 +1142,7 @@ public final class SceneMonsterInfoOuterClass {
     private int ownerEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 8;</code>
@@ -1157,7 +1157,7 @@ public final class SceneMonsterInfoOuterClass {
     private int titleId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 title_id = 15;</code>
@@ -1172,7 +1172,7 @@ public final class SceneMonsterInfoOuterClass {
     private int specialNameId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 special_name_id = 16;</code>
@@ -1187,7 +1187,7 @@ public final class SceneMonsterInfoOuterClass {
     private int initPoseId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 init_pose_id = 21;</code>
@@ -1202,7 +1202,7 @@ public final class SceneMonsterInfoOuterClass {
     private int bornType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MonsterBornType born_type = 12;</code>
@@ -1213,7 +1213,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MonsterBornType born_type = 12;</code>
@@ -1228,7 +1228,7 @@ public final class SceneMonsterInfoOuterClass {
     public static final int FISH_INFO_FIELD_NUMBER = 50;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneFishInfo fish_info = 50;</code>
@@ -1240,7 +1240,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneFishInfo fish_info = 50;</code>
@@ -1255,7 +1255,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneFishInfo fish_info = 50;</code>
@@ -1271,7 +1271,7 @@ public final class SceneMonsterInfoOuterClass {
     public static final int FISHTANK_FISH_INFO_FIELD_NUMBER = 51;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -1283,7 +1283,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -1298,7 +1298,7 @@ public final class SceneMonsterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -2182,7 +2182,7 @@ public final class SceneMonsterInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2196,7 +2196,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2210,7 +2210,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2224,7 +2224,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2245,7 +2245,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2263,7 +2263,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2283,7 +2283,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2304,7 +2304,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2322,7 +2322,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2340,7 +2340,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2359,7 +2359,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2376,7 +2376,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2393,7 +2393,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2404,7 +2404,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2418,7 +2418,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2433,7 +2433,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2444,7 +2444,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2456,7 +2456,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .SceneWeaponInfo weapon_list = 4;</code>
@@ -2489,7 +2489,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 6;</code>
@@ -2502,7 +2502,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 6;</code>
@@ -2513,7 +2513,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 6;</code>
@@ -2525,7 +2525,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 6;</code>
@@ -2542,7 +2542,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 6;</code>
@@ -2557,7 +2557,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 6;</code>
@@ -2574,7 +2574,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 affix_list = 6;</code>
@@ -2615,7 +2615,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -2637,7 +2637,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -2649,7 +2649,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -2666,7 +2666,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -2691,7 +2691,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -2714,7 +2714,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -2730,7 +2730,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; summon_tag_map = 10;</code>
@@ -2865,7 +2865,7 @@ public final class SceneMonsterInfoOuterClass {
       private int blockId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 block_id = 13;</code>
@@ -2877,7 +2877,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 block_id = 13;</code>
@@ -2892,7 +2892,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 block_id = 13;</code>
@@ -2908,7 +2908,7 @@ public final class SceneMonsterInfoOuterClass {
       private boolean isLight_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_light = 22;</code>
@@ -2920,7 +2920,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_light = 22;</code>
@@ -2935,7 +2935,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_light = 22;</code>
@@ -2951,7 +2951,7 @@ public final class SceneMonsterInfoOuterClass {
       private boolean isElite_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_elite = 7;</code>
@@ -2963,7 +2963,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_elite = 7;</code>
@@ -2978,7 +2978,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_elite = 7;</code>
@@ -2994,7 +2994,7 @@ public final class SceneMonsterInfoOuterClass {
       private int levelRouteId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 level_route_id = 20;</code>
@@ -3006,7 +3006,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 level_route_id = 20;</code>
@@ -3021,7 +3021,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 level_route_id = 20;</code>
@@ -3037,7 +3037,7 @@ public final class SceneMonsterInfoOuterClass {
       private int monsterId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 1;</code>
@@ -3049,7 +3049,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 1;</code>
@@ -3064,7 +3064,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 1;</code>
@@ -3080,7 +3080,7 @@ public final class SceneMonsterInfoOuterClass {
       private int configId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 3;</code>
@@ -3092,7 +3092,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 3;</code>
@@ -3107,7 +3107,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 config_id = 3;</code>
@@ -3123,7 +3123,7 @@ public final class SceneMonsterInfoOuterClass {
       private int markFlag_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mark_flag = 14;</code>
@@ -3135,7 +3135,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mark_flag = 14;</code>
@@ -3150,7 +3150,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 mark_flag = 14;</code>
@@ -3166,7 +3166,7 @@ public final class SceneMonsterInfoOuterClass {
       private int aiConfigId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 ai_config_id = 19;</code>
@@ -3178,7 +3178,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 ai_config_id = 19;</code>
@@ -3193,7 +3193,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 ai_config_id = 19;</code>
@@ -3209,7 +3209,7 @@ public final class SceneMonsterInfoOuterClass {
       private int attackTargetId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 attack_target_id = 17;</code>
@@ -3221,7 +3221,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 attack_target_id = 17;</code>
@@ -3236,7 +3236,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 attack_target_id = 17;</code>
@@ -3252,7 +3252,7 @@ public final class SceneMonsterInfoOuterClass {
       private int groupId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 group_id = 2;</code>
@@ -3264,7 +3264,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 group_id = 2;</code>
@@ -3279,7 +3279,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 group_id = 2;</code>
@@ -3295,7 +3295,7 @@ public final class SceneMonsterInfoOuterClass {
       private int summonedTag_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 summoned_tag = 9;</code>
@@ -3307,7 +3307,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 summoned_tag = 9;</code>
@@ -3322,7 +3322,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 summoned_tag = 9;</code>
@@ -3338,7 +3338,7 @@ public final class SceneMonsterInfoOuterClass {
       private int authorityPeerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 5;</code>
@@ -3350,7 +3350,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 5;</code>
@@ -3365,7 +3365,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 authority_peer_id = 5;</code>
@@ -3381,7 +3381,7 @@ public final class SceneMonsterInfoOuterClass {
       private int poseId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 pose_id = 11;</code>
@@ -3393,7 +3393,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 pose_id = 11;</code>
@@ -3408,7 +3408,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 pose_id = 11;</code>
@@ -3424,7 +3424,7 @@ public final class SceneMonsterInfoOuterClass {
       private int ownerEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 8;</code>
@@ -3436,7 +3436,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 8;</code>
@@ -3451,7 +3451,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 8;</code>
@@ -3467,7 +3467,7 @@ public final class SceneMonsterInfoOuterClass {
       private int titleId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 title_id = 15;</code>
@@ -3479,7 +3479,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 title_id = 15;</code>
@@ -3494,7 +3494,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 title_id = 15;</code>
@@ -3510,7 +3510,7 @@ public final class SceneMonsterInfoOuterClass {
       private int specialNameId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 special_name_id = 16;</code>
@@ -3522,7 +3522,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 special_name_id = 16;</code>
@@ -3537,7 +3537,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 special_name_id = 16;</code>
@@ -3553,7 +3553,7 @@ public final class SceneMonsterInfoOuterClass {
       private int initPoseId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_pose_id = 21;</code>
@@ -3565,7 +3565,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_pose_id = 21;</code>
@@ -3580,7 +3580,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 init_pose_id = 21;</code>
@@ -3596,7 +3596,7 @@ public final class SceneMonsterInfoOuterClass {
       private int bornType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MonsterBornType born_type = 12;</code>
@@ -3607,7 +3607,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MonsterBornType born_type = 12;</code>
@@ -3622,7 +3622,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MonsterBornType born_type = 12;</code>
@@ -3636,7 +3636,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MonsterBornType born_type = 12;</code>
@@ -3654,7 +3654,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MonsterBornType born_type = 12;</code>
@@ -3671,7 +3671,7 @@ public final class SceneMonsterInfoOuterClass {
           emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfo.Builder, emu.grasscutter.net.proto.SceneFishInfoOuterClass.SceneFishInfoOrBuilder> fishInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneFishInfo fish_info = 50;</code>
@@ -3683,7 +3683,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneFishInfo fish_info = 50;</code>
@@ -3705,7 +3705,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneFishInfo fish_info = 50;</code>
@@ -3725,7 +3725,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneFishInfo fish_info = 50;</code>
@@ -3743,7 +3743,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneFishInfo fish_info = 50;</code>
@@ -3769,7 +3769,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneFishInfo fish_info = 50;</code>
@@ -3792,7 +3792,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneFishInfo fish_info = 50;</code>
@@ -3802,7 +3802,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneFishInfo fish_info = 50;</code>
@@ -3820,7 +3820,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneFishInfo fish_info = 50;</code>
@@ -3848,7 +3848,7 @@ public final class SceneMonsterInfoOuterClass {
           emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfo.Builder, emu.grasscutter.net.proto.FishtankFishInfoOuterClass.FishtankFishInfoOrBuilder> fishtankFishInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -3860,7 +3860,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -3882,7 +3882,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -3902,7 +3902,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -3920,7 +3920,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -3946,7 +3946,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -3969,7 +3969,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -3979,7 +3979,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>
@@ -3997,7 +3997,7 @@ public final class SceneMonsterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.FishtankFishInfo fishtank_fish_info = 51;</code>

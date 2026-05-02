@@ -20,7 +20,7 @@ public final class SelectWorktopOptionRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 gadget_entity_id = 12;</code>
@@ -30,7 +30,7 @@ public final class SelectWorktopOptionRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 2;</code>
@@ -40,7 +40,7 @@ public final class SelectWorktopOptionRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 option_id = 11;</code>
@@ -148,7 +148,7 @@ public final class SelectWorktopOptionRspOuterClass {
     private int gadgetEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 gadget_entity_id = 12;</code>
@@ -163,7 +163,7 @@ public final class SelectWorktopOptionRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 2;</code>
@@ -178,7 +178,7 @@ public final class SelectWorktopOptionRspOuterClass {
     private int optionId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 option_id = 11;</code>
@@ -532,7 +532,7 @@ public final class SelectWorktopOptionRspOuterClass {
       private int gadgetEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 12;</code>
@@ -544,7 +544,7 @@ public final class SelectWorktopOptionRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 12;</code>
@@ -559,7 +559,7 @@ public final class SelectWorktopOptionRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 gadget_entity_id = 12;</code>
@@ -575,7 +575,7 @@ public final class SelectWorktopOptionRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 2;</code>
@@ -587,7 +587,7 @@ public final class SelectWorktopOptionRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 2;</code>
@@ -602,7 +602,7 @@ public final class SelectWorktopOptionRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 2;</code>
@@ -618,7 +618,7 @@ public final class SelectWorktopOptionRspOuterClass {
       private int optionId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 option_id = 11;</code>
@@ -630,7 +630,7 @@ public final class SelectWorktopOptionRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 option_id = 11;</code>
@@ -645,7 +645,7 @@ public final class SelectWorktopOptionRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 option_id = 11;</code>

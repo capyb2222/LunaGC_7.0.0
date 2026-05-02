@@ -20,7 +20,7 @@ public final class PersonalSceneJumpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector dest_pos = 5;</code>
@@ -29,7 +29,7 @@ public final class PersonalSceneJumpRspOuterClass {
     boolean hasDestPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector dest_pos = 5;</code>
@@ -38,7 +38,7 @@ public final class PersonalSceneJumpRspOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getDestPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector dest_pos = 5;</code>
@@ -47,7 +47,7 @@ public final class PersonalSceneJumpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 1;</code>
@@ -57,7 +57,7 @@ public final class PersonalSceneJumpRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dest_scene_id = 7;</code>
@@ -173,7 +173,7 @@ public final class PersonalSceneJumpRspOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector destPos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector dest_pos = 5;</code>
@@ -185,7 +185,7 @@ public final class PersonalSceneJumpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector dest_pos = 5;</code>
@@ -197,7 +197,7 @@ public final class PersonalSceneJumpRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector dest_pos = 5;</code>
@@ -211,7 +211,7 @@ public final class PersonalSceneJumpRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 1;</code>
@@ -226,7 +226,7 @@ public final class PersonalSceneJumpRspOuterClass {
     private int destSceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dest_scene_id = 7;</code>
@@ -595,7 +595,7 @@ public final class PersonalSceneJumpRspOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> destPosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector dest_pos = 5;</code>
@@ -606,7 +606,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector dest_pos = 5;</code>
@@ -621,7 +621,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector dest_pos = 5;</code>
@@ -641,7 +641,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector dest_pos = 5;</code>
@@ -659,7 +659,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector dest_pos = 5;</code>
@@ -681,7 +681,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector dest_pos = 5;</code>
@@ -699,7 +699,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector dest_pos = 5;</code>
@@ -711,7 +711,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector dest_pos = 5;</code>
@@ -726,7 +726,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector dest_pos = 5;</code>
@@ -748,7 +748,7 @@ public final class PersonalSceneJumpRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -760,7 +760,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -775,7 +775,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -791,7 +791,7 @@ public final class PersonalSceneJumpRspOuterClass {
       private int destSceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dest_scene_id = 7;</code>
@@ -803,7 +803,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dest_scene_id = 7;</code>
@@ -818,7 +818,7 @@ public final class PersonalSceneJumpRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dest_scene_id = 7;</code>

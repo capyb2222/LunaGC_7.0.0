@@ -20,7 +20,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -29,7 +29,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     java.util.List<java.lang.Long> getAvatarGuidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -38,7 +38,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     int getAvatarGuidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -49,7 +49,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 cur_avatar_guid = 11;</code>
@@ -59,7 +59,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 7;</code>
@@ -188,7 +188,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -201,7 +201,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -212,7 +212,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -228,7 +228,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     private long curAvatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 cur_avatar_guid = 11;</code>
@@ -243,7 +243,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 7;</code>
@@ -634,7 +634,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -647,7 +647,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -658,7 +658,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -670,7 +670,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -687,7 +687,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -702,7 +702,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -719,7 +719,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 10;</code>
@@ -735,7 +735,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       private long curAvatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 cur_avatar_guid = 11;</code>
@@ -747,7 +747,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 cur_avatar_guid = 11;</code>
@@ -762,7 +762,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 cur_avatar_guid = 11;</code>
@@ -778,7 +778,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 7;</code>
@@ -790,7 +790,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 7;</code>
@@ -805,7 +805,7 @@ public final class ChangeMpTeamAvatarRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 7;</code>

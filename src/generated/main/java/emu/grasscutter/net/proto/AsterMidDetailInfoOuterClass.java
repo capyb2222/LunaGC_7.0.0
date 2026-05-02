@@ -20,7 +20,7 @@ public final class AsterMidDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -29,7 +29,7 @@ public final class AsterMidDetailInfoOuterClass {
         getCampListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -37,7 +37,7 @@ public final class AsterMidDetailInfoOuterClass {
     emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo getCampList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -45,7 +45,7 @@ public final class AsterMidDetailInfoOuterClass {
     int getCampListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -54,7 +54,7 @@ public final class AsterMidDetailInfoOuterClass {
         getCampListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -64,7 +64,7 @@ public final class AsterMidDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 collect_count = 15;</code>
@@ -74,7 +74,7 @@ public final class AsterMidDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 begin_time = 12;</code>
@@ -84,7 +84,7 @@ public final class AsterMidDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 7;</code>
@@ -202,7 +202,7 @@ public final class AsterMidDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo> campList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -213,7 +213,7 @@ public final class AsterMidDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -225,7 +225,7 @@ public final class AsterMidDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -236,7 +236,7 @@ public final class AsterMidDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -247,7 +247,7 @@ public final class AsterMidDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -262,7 +262,7 @@ public final class AsterMidDetailInfoOuterClass {
     private int collectCount_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 collect_count = 15;</code>
@@ -277,7 +277,7 @@ public final class AsterMidDetailInfoOuterClass {
     private int beginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 begin_time = 12;</code>
@@ -292,7 +292,7 @@ public final class AsterMidDetailInfoOuterClass {
     private boolean isOpen_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 7;</code>
@@ -711,7 +711,7 @@ public final class AsterMidDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -725,7 +725,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -739,7 +739,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -753,7 +753,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -774,7 +774,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -792,7 +792,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -812,7 +812,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -833,7 +833,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -851,7 +851,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -869,7 +869,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -888,7 +888,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -905,7 +905,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -922,7 +922,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -933,7 +933,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -947,7 +947,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -962,7 +962,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -973,7 +973,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -985,7 +985,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
@@ -1012,7 +1012,7 @@ public final class AsterMidDetailInfoOuterClass {
       private int collectCount_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collect_count = 15;</code>
@@ -1024,7 +1024,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collect_count = 15;</code>
@@ -1039,7 +1039,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 collect_count = 15;</code>
@@ -1055,7 +1055,7 @@ public final class AsterMidDetailInfoOuterClass {
       private int beginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 begin_time = 12;</code>
@@ -1067,7 +1067,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 begin_time = 12;</code>
@@ -1082,7 +1082,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 begin_time = 12;</code>
@@ -1098,7 +1098,7 @@ public final class AsterMidDetailInfoOuterClass {
       private boolean isOpen_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 7;</code>
@@ -1110,7 +1110,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 7;</code>
@@ -1125,7 +1125,7 @@ public final class AsterMidDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 7;</code>

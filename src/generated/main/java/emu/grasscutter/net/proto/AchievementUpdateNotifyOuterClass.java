@@ -20,7 +20,7 @@ public final class AchievementUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -29,7 +29,7 @@ public final class AchievementUpdateNotifyOuterClass {
         getAchievementListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -37,7 +37,7 @@ public final class AchievementUpdateNotifyOuterClass {
     emu.grasscutter.net.proto.AchievementOuterClass.Achievement getAchievementList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -45,7 +45,7 @@ public final class AchievementUpdateNotifyOuterClass {
     int getAchievementListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -54,7 +54,7 @@ public final class AchievementUpdateNotifyOuterClass {
         getAchievementListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -161,7 +161,7 @@ public final class AchievementUpdateNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AchievementOuterClass.Achievement> achievementList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -172,7 +172,7 @@ public final class AchievementUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -184,7 +184,7 @@ public final class AchievementUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -195,7 +195,7 @@ public final class AchievementUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -206,7 +206,7 @@ public final class AchievementUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Achievement achievement_list = 11;</code>
@@ -577,7 +577,7 @@ public final class AchievementUpdateNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -591,7 +591,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -605,7 +605,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -619,7 +619,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -640,7 +640,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -658,7 +658,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -678,7 +678,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -699,7 +699,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -717,7 +717,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -735,7 +735,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -754,7 +754,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -771,7 +771,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -788,7 +788,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -799,7 +799,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -813,7 +813,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -828,7 +828,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -839,7 +839,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>
@@ -851,7 +851,7 @@ public final class AchievementUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Achievement achievement_list = 11;</code>

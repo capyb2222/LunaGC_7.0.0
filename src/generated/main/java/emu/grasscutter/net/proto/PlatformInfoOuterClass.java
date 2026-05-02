@@ -20,7 +20,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion start_rot = 9;</code>
@@ -29,7 +29,7 @@ public final class PlatformInfoOuterClass {
     boolean hasStartRot();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion start_rot = 9;</code>
@@ -38,7 +38,7 @@ public final class PlatformInfoOuterClass {
     emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getStartRot();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion start_rot = 9;</code>
@@ -47,7 +47,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Route route = 15;</code>
@@ -56,7 +56,7 @@ public final class PlatformInfoOuterClass {
     boolean hasRoute();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Route route = 15;</code>
@@ -65,7 +65,7 @@ public final class PlatformInfoOuterClass {
     emu.grasscutter.net.proto.RouteOuterClass.Route getRoute();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Route route = 15;</code>
@@ -74,7 +74,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion rot_offset = 12;</code>
@@ -83,7 +83,7 @@ public final class PlatformInfoOuterClass {
     boolean hasRotOffset();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion rot_offset = 12;</code>
@@ -92,7 +92,7 @@ public final class PlatformInfoOuterClass {
     emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getRotOffset();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion rot_offset = 12;</code>
@@ -101,7 +101,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector start_pos = 7;</code>
@@ -110,7 +110,7 @@ public final class PlatformInfoOuterClass {
     boolean hasStartPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector start_pos = 7;</code>
@@ -119,7 +119,7 @@ public final class PlatformInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getStartPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector start_pos = 7;</code>
@@ -128,7 +128,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector pos_offset = 11;</code>
@@ -137,7 +137,7 @@ public final class PlatformInfoOuterClass {
     boolean hasPosOffset();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector pos_offset = 11;</code>
@@ -146,7 +146,7 @@ public final class PlatformInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPosOffset();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector pos_offset = 11;</code>
@@ -155,7 +155,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_scene_time = 4;</code>
@@ -165,7 +165,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 start_index = 2;</code>
@@ -175,7 +175,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_active = 14;</code>
@@ -185,7 +185,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_started = 8;</code>
@@ -195,7 +195,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 route_id = 1;</code>
@@ -205,7 +205,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 start_route_time = 3;</code>
@@ -215,7 +215,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MovingPlatformType moving_platform_type = 13;</code>
@@ -224,7 +224,7 @@ public final class PlatformInfoOuterClass {
     int getMovingPlatformTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MovingPlatformType moving_platform_type = 13;</code>
@@ -234,7 +234,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 stop_scene_time = 10;</code>
@@ -244,7 +244,7 @@ public final class PlatformInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 point_id = 16;</code>
@@ -445,7 +445,7 @@ public final class PlatformInfoOuterClass {
     private emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion startRot_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion start_rot = 9;</code>
@@ -457,7 +457,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion start_rot = 9;</code>
@@ -469,7 +469,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion start_rot = 9;</code>
@@ -483,7 +483,7 @@ public final class PlatformInfoOuterClass {
     private emu.grasscutter.net.proto.RouteOuterClass.Route route_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Route route = 15;</code>
@@ -495,7 +495,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Route route = 15;</code>
@@ -507,7 +507,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Route route = 15;</code>
@@ -521,7 +521,7 @@ public final class PlatformInfoOuterClass {
     private emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion rotOffset_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion rot_offset = 12;</code>
@@ -533,7 +533,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion rot_offset = 12;</code>
@@ -545,7 +545,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MathQuaternion rot_offset = 12;</code>
@@ -559,7 +559,7 @@ public final class PlatformInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector startPos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector start_pos = 7;</code>
@@ -571,7 +571,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector start_pos = 7;</code>
@@ -583,7 +583,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector start_pos = 7;</code>
@@ -597,7 +597,7 @@ public final class PlatformInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector posOffset_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector pos_offset = 11;</code>
@@ -609,7 +609,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector pos_offset = 11;</code>
@@ -621,7 +621,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.Vector pos_offset = 11;</code>
@@ -635,7 +635,7 @@ public final class PlatformInfoOuterClass {
     private int startSceneTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_scene_time = 4;</code>
@@ -650,7 +650,7 @@ public final class PlatformInfoOuterClass {
     private int startIndex_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 start_index = 2;</code>
@@ -665,7 +665,7 @@ public final class PlatformInfoOuterClass {
     private boolean isActive_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_active = 14;</code>
@@ -680,7 +680,7 @@ public final class PlatformInfoOuterClass {
     private boolean isStarted_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_started = 8;</code>
@@ -695,7 +695,7 @@ public final class PlatformInfoOuterClass {
     private int routeId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 route_id = 1;</code>
@@ -710,7 +710,7 @@ public final class PlatformInfoOuterClass {
     private int startRouteTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 start_route_time = 3;</code>
@@ -725,7 +725,7 @@ public final class PlatformInfoOuterClass {
     private int movingPlatformType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MovingPlatformType moving_platform_type = 13;</code>
@@ -736,7 +736,7 @@ public final class PlatformInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MovingPlatformType moving_platform_type = 13;</code>
@@ -752,7 +752,7 @@ public final class PlatformInfoOuterClass {
     private int stopSceneTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 stop_scene_time = 10;</code>
@@ -767,7 +767,7 @@ public final class PlatformInfoOuterClass {
     private int pointId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 point_id = 16;</code>
@@ -1372,7 +1372,7 @@ public final class PlatformInfoOuterClass {
           emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> startRotBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion start_rot = 9;</code>
@@ -1383,7 +1383,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion start_rot = 9;</code>
@@ -1398,7 +1398,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion start_rot = 9;</code>
@@ -1418,7 +1418,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion start_rot = 9;</code>
@@ -1436,7 +1436,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion start_rot = 9;</code>
@@ -1458,7 +1458,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion start_rot = 9;</code>
@@ -1476,7 +1476,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion start_rot = 9;</code>
@@ -1488,7 +1488,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion start_rot = 9;</code>
@@ -1503,7 +1503,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion start_rot = 9;</code>
@@ -1527,7 +1527,7 @@ public final class PlatformInfoOuterClass {
           emu.grasscutter.net.proto.RouteOuterClass.Route, emu.grasscutter.net.proto.RouteOuterClass.Route.Builder, emu.grasscutter.net.proto.RouteOuterClass.RouteOrBuilder> routeBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Route route = 15;</code>
@@ -1538,7 +1538,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Route route = 15;</code>
@@ -1553,7 +1553,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Route route = 15;</code>
@@ -1573,7 +1573,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Route route = 15;</code>
@@ -1591,7 +1591,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Route route = 15;</code>
@@ -1613,7 +1613,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Route route = 15;</code>
@@ -1631,7 +1631,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Route route = 15;</code>
@@ -1643,7 +1643,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Route route = 15;</code>
@@ -1658,7 +1658,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Route route = 15;</code>
@@ -1682,7 +1682,7 @@ public final class PlatformInfoOuterClass {
           emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> rotOffsetBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion rot_offset = 12;</code>
@@ -1693,7 +1693,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion rot_offset = 12;</code>
@@ -1708,7 +1708,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion rot_offset = 12;</code>
@@ -1728,7 +1728,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion rot_offset = 12;</code>
@@ -1746,7 +1746,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion rot_offset = 12;</code>
@@ -1768,7 +1768,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion rot_offset = 12;</code>
@@ -1786,7 +1786,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion rot_offset = 12;</code>
@@ -1798,7 +1798,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion rot_offset = 12;</code>
@@ -1813,7 +1813,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MathQuaternion rot_offset = 12;</code>
@@ -1837,7 +1837,7 @@ public final class PlatformInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> startPosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector start_pos = 7;</code>
@@ -1848,7 +1848,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector start_pos = 7;</code>
@@ -1863,7 +1863,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector start_pos = 7;</code>
@@ -1883,7 +1883,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector start_pos = 7;</code>
@@ -1901,7 +1901,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector start_pos = 7;</code>
@@ -1923,7 +1923,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector start_pos = 7;</code>
@@ -1941,7 +1941,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector start_pos = 7;</code>
@@ -1953,7 +1953,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector start_pos = 7;</code>
@@ -1968,7 +1968,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector start_pos = 7;</code>
@@ -1992,7 +1992,7 @@ public final class PlatformInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posOffsetBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector pos_offset = 11;</code>
@@ -2003,7 +2003,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector pos_offset = 11;</code>
@@ -2018,7 +2018,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector pos_offset = 11;</code>
@@ -2038,7 +2038,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector pos_offset = 11;</code>
@@ -2056,7 +2056,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector pos_offset = 11;</code>
@@ -2078,7 +2078,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector pos_offset = 11;</code>
@@ -2096,7 +2096,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector pos_offset = 11;</code>
@@ -2108,7 +2108,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector pos_offset = 11;</code>
@@ -2123,7 +2123,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.Vector pos_offset = 11;</code>
@@ -2145,7 +2145,7 @@ public final class PlatformInfoOuterClass {
       private int startSceneTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_scene_time = 4;</code>
@@ -2157,7 +2157,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_scene_time = 4;</code>
@@ -2172,7 +2172,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_scene_time = 4;</code>
@@ -2188,7 +2188,7 @@ public final class PlatformInfoOuterClass {
       private int startIndex_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 start_index = 2;</code>
@@ -2200,7 +2200,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 start_index = 2;</code>
@@ -2215,7 +2215,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 start_index = 2;</code>
@@ -2231,7 +2231,7 @@ public final class PlatformInfoOuterClass {
       private boolean isActive_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_active = 14;</code>
@@ -2243,7 +2243,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_active = 14;</code>
@@ -2258,7 +2258,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_active = 14;</code>
@@ -2274,7 +2274,7 @@ public final class PlatformInfoOuterClass {
       private boolean isStarted_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_started = 8;</code>
@@ -2286,7 +2286,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_started = 8;</code>
@@ -2301,7 +2301,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_started = 8;</code>
@@ -2317,7 +2317,7 @@ public final class PlatformInfoOuterClass {
       private int routeId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 route_id = 1;</code>
@@ -2329,7 +2329,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 route_id = 1;</code>
@@ -2344,7 +2344,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 route_id = 1;</code>
@@ -2360,7 +2360,7 @@ public final class PlatformInfoOuterClass {
       private int startRouteTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 start_route_time = 3;</code>
@@ -2372,7 +2372,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 start_route_time = 3;</code>
@@ -2387,7 +2387,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 start_route_time = 3;</code>
@@ -2403,7 +2403,7 @@ public final class PlatformInfoOuterClass {
       private int movingPlatformType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MovingPlatformType moving_platform_type = 13;</code>
@@ -2414,7 +2414,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MovingPlatformType moving_platform_type = 13;</code>
@@ -2429,7 +2429,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MovingPlatformType moving_platform_type = 13;</code>
@@ -2443,7 +2443,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MovingPlatformType moving_platform_type = 13;</code>
@@ -2461,7 +2461,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MovingPlatformType moving_platform_type = 13;</code>
@@ -2477,7 +2477,7 @@ public final class PlatformInfoOuterClass {
       private int stopSceneTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 stop_scene_time = 10;</code>
@@ -2489,7 +2489,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 stop_scene_time = 10;</code>
@@ -2504,7 +2504,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 stop_scene_time = 10;</code>
@@ -2520,7 +2520,7 @@ public final class PlatformInfoOuterClass {
       private int pointId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 16;</code>
@@ -2532,7 +2532,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 16;</code>
@@ -2547,7 +2547,7 @@ public final class PlatformInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 point_id = 16;</code>

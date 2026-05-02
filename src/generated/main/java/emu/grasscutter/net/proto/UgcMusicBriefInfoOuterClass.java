@@ -98,7 +98,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 music_id = 2;</code>
@@ -156,7 +156,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 version = 12;</code>
@@ -166,7 +166,7 @@ public final class UgcMusicBriefInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 ugc_guid = 6;</code>
@@ -618,7 +618,7 @@ public final class UgcMusicBriefInfoOuterClass {
     private int musicId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 music_id = 2;</code>
@@ -721,7 +721,7 @@ public final class UgcMusicBriefInfoOuterClass {
     private int version_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 version = 12;</code>
@@ -736,7 +736,7 @@ public final class UgcMusicBriefInfoOuterClass {
     private int ugcGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 ugc_guid = 6;</code>
@@ -2041,7 +2041,7 @@ public final class UgcMusicBriefInfoOuterClass {
       private int musicId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 music_id = 2;</code>
@@ -2053,7 +2053,7 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 music_id = 2;</code>
@@ -2068,7 +2068,7 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 music_id = 2;</code>
@@ -2332,7 +2332,7 @@ public final class UgcMusicBriefInfoOuterClass {
       private int version_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 version = 12;</code>
@@ -2344,7 +2344,7 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 version = 12;</code>
@@ -2359,7 +2359,7 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 version = 12;</code>
@@ -2375,7 +2375,7 @@ public final class UgcMusicBriefInfoOuterClass {
       private int ugcGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 ugc_guid = 6;</code>
@@ -2387,7 +2387,7 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 ugc_guid = 6;</code>
@@ -2402,7 +2402,7 @@ public final class UgcMusicBriefInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 ugc_guid = 6;</code>

@@ -20,7 +20,7 @@ public final class SceneTimeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_paused = 6;</code>
@@ -30,7 +30,7 @@ public final class SceneTimeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 scene_id = 1;</code>
@@ -40,7 +40,7 @@ public final class SceneTimeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 scene_time = 4;</code>
@@ -148,7 +148,7 @@ public final class SceneTimeNotifyOuterClass {
     private boolean isPaused_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_paused = 6;</code>
@@ -163,7 +163,7 @@ public final class SceneTimeNotifyOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 scene_id = 1;</code>
@@ -178,7 +178,7 @@ public final class SceneTimeNotifyOuterClass {
     private long sceneTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 scene_time = 4;</code>
@@ -534,7 +534,7 @@ public final class SceneTimeNotifyOuterClass {
       private boolean isPaused_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_paused = 6;</code>
@@ -546,7 +546,7 @@ public final class SceneTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_paused = 6;</code>
@@ -561,7 +561,7 @@ public final class SceneTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_paused = 6;</code>
@@ -577,7 +577,7 @@ public final class SceneTimeNotifyOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 scene_id = 1;</code>
@@ -589,7 +589,7 @@ public final class SceneTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 scene_id = 1;</code>
@@ -604,7 +604,7 @@ public final class SceneTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 scene_id = 1;</code>
@@ -620,7 +620,7 @@ public final class SceneTimeNotifyOuterClass {
       private long sceneTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 scene_time = 4;</code>
@@ -632,7 +632,7 @@ public final class SceneTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 scene_time = 4;</code>
@@ -647,7 +647,7 @@ public final class SceneTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 scene_time = 4;</code>

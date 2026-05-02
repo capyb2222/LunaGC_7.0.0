@@ -20,7 +20,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string privacy_policy_url = 33;</code>
@@ -29,7 +29,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getPrivacyPolicyUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string privacy_policy_url = 33;</code>
@@ -52,7 +52,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string cdkey_url = 32;</code>
@@ -61,7 +61,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getCdkeyUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string cdkey_url = 32;</code>
@@ -72,7 +72,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -81,7 +81,7 @@ public final class RegionInfoOuterClass {
     boolean hasResVersionConfig();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -90,7 +90,7 @@ public final class RegionInfoOuterClass {
     emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getResVersionConfig();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -99,7 +99,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string pay_callback_url = 3;</code>
@@ -108,7 +108,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getPayCallbackUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string pay_callback_url = 3;</code>
@@ -119,7 +119,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string area_type = 7;</code>
@@ -128,7 +128,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getAreaType();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string area_type = 7;</code>
@@ -139,7 +139,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_version_suffix = 27;</code>
@@ -148,7 +148,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getClientSilenceVersionSuffix();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_version_suffix = 27;</code>
@@ -159,7 +159,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string data_url_bak = 13;</code>
@@ -168,7 +168,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getDataUrlBak();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string data_url_bak = 13;</code>
@@ -179,7 +179,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string game_biz = 36;</code>
@@ -188,7 +188,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getGameBiz();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string game_biz = 36;</code>
@@ -199,7 +199,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_data_md5 = 20;</code>
@@ -208,7 +208,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getClientSilenceDataMd5();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_data_md5 = 20;</code>
@@ -219,7 +219,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string next_resource_url = 34;</code>
@@ -228,7 +228,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getNextResourceUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string next_resource_url = 34;</code>
@@ -239,7 +239,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string resource_url_bak = 12;</code>
@@ -248,7 +248,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getResourceUrlBak();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string resource_url_bak = 12;</code>
@@ -259,7 +259,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_bind_url = 31;</code>
@@ -268,7 +268,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getAccountBindUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_bind_url = 31;</code>
@@ -279,7 +279,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string resource_url = 8;</code>
@@ -288,7 +288,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getResourceUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string resource_url = 8;</code>
@@ -299,7 +299,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string handbook_url = 16;</code>
@@ -308,7 +308,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getHandbookUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string handbook_url = 16;</code>
@@ -319,7 +319,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_data_md5 = 19;</code>
@@ -328,7 +328,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getClientDataMd5();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_data_md5 = 19;</code>
@@ -339,7 +339,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -348,7 +348,7 @@ public final class RegionInfoOuterClass {
     boolean hasNextResVersionConfig();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -357,7 +357,7 @@ public final class RegionInfoOuterClass {
     emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getNextResVersionConfig();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -366,7 +366,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string feedback_url = 10;</code>
@@ -375,7 +375,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getFeedbackUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string feedback_url = 10;</code>
@@ -386,7 +386,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string data_url = 9;</code>
@@ -395,7 +395,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getDataUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string data_url = 9;</code>
@@ -406,7 +406,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string bulletin_url = 11;</code>
@@ -415,7 +415,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getBulletinUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string bulletin_url = 11;</code>
@@ -426,7 +426,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string official_community_url = 24;</code>
@@ -435,7 +435,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getOfficialCommunityUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string official_community_url = 24;</code>
@@ -446,7 +446,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string user_center_url = 30;</code>
@@ -455,7 +455,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getUserCenterUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string user_center_url = 30;</code>
@@ -466,7 +466,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string gateserver_domain_name = 29;</code>
@@ -475,7 +475,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getGateserverDomainName();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string gateserver_domain_name = 29;</code>
@@ -486,7 +486,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_version_suffix = 26;</code>
@@ -495,7 +495,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getClientVersionSuffix();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_version_suffix = 26;</code>
@@ -506,7 +506,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bytes secret_key = 23;</code>
@@ -516,7 +516,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string gateserver_ip = 1;</code>
@@ -525,7 +525,7 @@ public final class RegionInfoOuterClass {
     java.lang.String getGateserverIp();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string gateserver_ip = 1;</code>
@@ -536,7 +536,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_silence_data_version = 18;</code>
@@ -546,7 +546,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 gateserver_port = 2;</code>
@@ -556,7 +556,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool use_gateserver_domain_name = 28;</code>
@@ -566,7 +566,7 @@ public final class RegionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_data_version = 14;</code>
@@ -868,7 +868,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object privacyPolicyUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string privacy_policy_url = 33;</code>
@@ -889,7 +889,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string privacy_policy_url = 33;</code>
@@ -952,7 +952,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object cdkeyUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string cdkey_url = 32;</code>
@@ -973,7 +973,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string cdkey_url = 32;</code>
@@ -998,7 +998,7 @@ public final class RegionInfoOuterClass {
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig resVersionConfig_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -1010,7 +1010,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -1022,7 +1022,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -1036,7 +1036,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object payCallbackUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string pay_callback_url = 3;</code>
@@ -1057,7 +1057,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string pay_callback_url = 3;</code>
@@ -1082,7 +1082,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object areaType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string area_type = 7;</code>
@@ -1103,7 +1103,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string area_type = 7;</code>
@@ -1128,7 +1128,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object clientSilenceVersionSuffix_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_version_suffix = 27;</code>
@@ -1149,7 +1149,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_version_suffix = 27;</code>
@@ -1174,7 +1174,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object dataUrlBak_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string data_url_bak = 13;</code>
@@ -1195,7 +1195,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string data_url_bak = 13;</code>
@@ -1220,7 +1220,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object gameBiz_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string game_biz = 36;</code>
@@ -1241,7 +1241,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string game_biz = 36;</code>
@@ -1266,7 +1266,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object clientSilenceDataMd5_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_data_md5 = 20;</code>
@@ -1287,7 +1287,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_silence_data_md5 = 20;</code>
@@ -1312,7 +1312,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object nextResourceUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string next_resource_url = 34;</code>
@@ -1333,7 +1333,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string next_resource_url = 34;</code>
@@ -1358,7 +1358,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object resourceUrlBak_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string resource_url_bak = 12;</code>
@@ -1379,7 +1379,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string resource_url_bak = 12;</code>
@@ -1404,7 +1404,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object accountBindUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_bind_url = 31;</code>
@@ -1425,7 +1425,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string account_bind_url = 31;</code>
@@ -1450,7 +1450,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object resourceUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string resource_url = 8;</code>
@@ -1471,7 +1471,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string resource_url = 8;</code>
@@ -1496,7 +1496,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object handbookUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string handbook_url = 16;</code>
@@ -1517,7 +1517,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string handbook_url = 16;</code>
@@ -1542,7 +1542,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object clientDataMd5_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_data_md5 = 19;</code>
@@ -1563,7 +1563,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_data_md5 = 19;</code>
@@ -1588,7 +1588,7 @@ public final class RegionInfoOuterClass {
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig nextResVersionConfig_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -1600,7 +1600,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -1612,7 +1612,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -1626,7 +1626,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object feedbackUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string feedback_url = 10;</code>
@@ -1647,7 +1647,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string feedback_url = 10;</code>
@@ -1672,7 +1672,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object dataUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string data_url = 9;</code>
@@ -1693,7 +1693,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string data_url = 9;</code>
@@ -1718,7 +1718,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object bulletinUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string bulletin_url = 11;</code>
@@ -1739,7 +1739,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string bulletin_url = 11;</code>
@@ -1764,7 +1764,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object officialCommunityUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string official_community_url = 24;</code>
@@ -1785,7 +1785,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string official_community_url = 24;</code>
@@ -1810,7 +1810,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object userCenterUrl_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string user_center_url = 30;</code>
@@ -1831,7 +1831,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string user_center_url = 30;</code>
@@ -1856,7 +1856,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object gateserverDomainName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string gateserver_domain_name = 29;</code>
@@ -1877,7 +1877,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string gateserver_domain_name = 29;</code>
@@ -1902,7 +1902,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object clientVersionSuffix_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_version_suffix = 26;</code>
@@ -1923,7 +1923,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string client_version_suffix = 26;</code>
@@ -1948,7 +1948,7 @@ public final class RegionInfoOuterClass {
     private com.google.protobuf.ByteString secretKey_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bytes secret_key = 23;</code>
@@ -1963,7 +1963,7 @@ public final class RegionInfoOuterClass {
     private volatile java.lang.Object gateserverIp_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string gateserver_ip = 1;</code>
@@ -1984,7 +1984,7 @@ public final class RegionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>string gateserver_ip = 1;</code>
@@ -2009,7 +2009,7 @@ public final class RegionInfoOuterClass {
     private int clientSilenceDataVersion_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_silence_data_version = 18;</code>
@@ -2024,7 +2024,7 @@ public final class RegionInfoOuterClass {
     private int gateserverPort_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 gateserver_port = 2;</code>
@@ -2039,7 +2039,7 @@ public final class RegionInfoOuterClass {
     private boolean useGateserverDomainName_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool use_gateserver_domain_name = 28;</code>
@@ -2054,7 +2054,7 @@ public final class RegionInfoOuterClass {
     private int clientDataVersion_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 client_data_version = 14;</code>
@@ -2890,7 +2890,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object privacyPolicyUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string privacy_policy_url = 33;</code>
@@ -2910,7 +2910,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string privacy_policy_url = 33;</code>
@@ -2931,7 +2931,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string privacy_policy_url = 33;</code>
@@ -2950,7 +2950,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string privacy_policy_url = 33;</code>
@@ -2964,7 +2964,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string privacy_policy_url = 33;</code>
@@ -3062,7 +3062,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object cdkeyUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string cdkey_url = 32;</code>
@@ -3082,7 +3082,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string cdkey_url = 32;</code>
@@ -3103,7 +3103,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string cdkey_url = 32;</code>
@@ -3122,7 +3122,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string cdkey_url = 32;</code>
@@ -3136,7 +3136,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string cdkey_url = 32;</code>
@@ -3160,7 +3160,7 @@ public final class RegionInfoOuterClass {
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> resVersionConfigBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -3171,7 +3171,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -3186,7 +3186,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -3206,7 +3206,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -3224,7 +3224,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -3246,7 +3246,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -3264,7 +3264,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -3276,7 +3276,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -3291,7 +3291,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
@@ -3313,7 +3313,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object payCallbackUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string pay_callback_url = 3;</code>
@@ -3333,7 +3333,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string pay_callback_url = 3;</code>
@@ -3354,7 +3354,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string pay_callback_url = 3;</code>
@@ -3373,7 +3373,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string pay_callback_url = 3;</code>
@@ -3387,7 +3387,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string pay_callback_url = 3;</code>
@@ -3409,7 +3409,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object areaType_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string area_type = 7;</code>
@@ -3429,7 +3429,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string area_type = 7;</code>
@@ -3450,7 +3450,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string area_type = 7;</code>
@@ -3469,7 +3469,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string area_type = 7;</code>
@@ -3483,7 +3483,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string area_type = 7;</code>
@@ -3505,7 +3505,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object clientSilenceVersionSuffix_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 27;</code>
@@ -3525,7 +3525,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 27;</code>
@@ -3546,7 +3546,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 27;</code>
@@ -3565,7 +3565,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 27;</code>
@@ -3579,7 +3579,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_version_suffix = 27;</code>
@@ -3601,7 +3601,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object dataUrlBak_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url_bak = 13;</code>
@@ -3621,7 +3621,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url_bak = 13;</code>
@@ -3642,7 +3642,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url_bak = 13;</code>
@@ -3661,7 +3661,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url_bak = 13;</code>
@@ -3675,7 +3675,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url_bak = 13;</code>
@@ -3697,7 +3697,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object gameBiz_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 36;</code>
@@ -3717,7 +3717,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 36;</code>
@@ -3738,7 +3738,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 36;</code>
@@ -3757,7 +3757,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 36;</code>
@@ -3771,7 +3771,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string game_biz = 36;</code>
@@ -3793,7 +3793,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object clientSilenceDataMd5_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_data_md5 = 20;</code>
@@ -3813,7 +3813,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_data_md5 = 20;</code>
@@ -3834,7 +3834,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_data_md5 = 20;</code>
@@ -3853,7 +3853,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_data_md5 = 20;</code>
@@ -3867,7 +3867,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_silence_data_md5 = 20;</code>
@@ -3889,7 +3889,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object nextResourceUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 34;</code>
@@ -3909,7 +3909,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 34;</code>
@@ -3930,7 +3930,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 34;</code>
@@ -3949,7 +3949,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 34;</code>
@@ -3963,7 +3963,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string next_resource_url = 34;</code>
@@ -3985,7 +3985,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object resourceUrlBak_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url_bak = 12;</code>
@@ -4005,7 +4005,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url_bak = 12;</code>
@@ -4026,7 +4026,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url_bak = 12;</code>
@@ -4045,7 +4045,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url_bak = 12;</code>
@@ -4059,7 +4059,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url_bak = 12;</code>
@@ -4081,7 +4081,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object accountBindUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_bind_url = 31;</code>
@@ -4101,7 +4101,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_bind_url = 31;</code>
@@ -4122,7 +4122,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_bind_url = 31;</code>
@@ -4141,7 +4141,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_bind_url = 31;</code>
@@ -4155,7 +4155,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string account_bind_url = 31;</code>
@@ -4177,7 +4177,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object resourceUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url = 8;</code>
@@ -4197,7 +4197,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url = 8;</code>
@@ -4218,7 +4218,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url = 8;</code>
@@ -4237,7 +4237,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url = 8;</code>
@@ -4251,7 +4251,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string resource_url = 8;</code>
@@ -4273,7 +4273,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object handbookUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string handbook_url = 16;</code>
@@ -4293,7 +4293,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string handbook_url = 16;</code>
@@ -4314,7 +4314,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string handbook_url = 16;</code>
@@ -4333,7 +4333,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string handbook_url = 16;</code>
@@ -4347,7 +4347,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string handbook_url = 16;</code>
@@ -4369,7 +4369,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object clientDataMd5_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_data_md5 = 19;</code>
@@ -4389,7 +4389,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_data_md5 = 19;</code>
@@ -4410,7 +4410,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_data_md5 = 19;</code>
@@ -4429,7 +4429,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_data_md5 = 19;</code>
@@ -4443,7 +4443,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_data_md5 = 19;</code>
@@ -4467,7 +4467,7 @@ public final class RegionInfoOuterClass {
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> nextResVersionConfigBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -4478,7 +4478,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -4493,7 +4493,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -4513,7 +4513,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -4531,7 +4531,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -4553,7 +4553,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -4571,7 +4571,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -4583,7 +4583,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -4598,7 +4598,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
@@ -4620,7 +4620,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object feedbackUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string feedback_url = 10;</code>
@@ -4640,7 +4640,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string feedback_url = 10;</code>
@@ -4661,7 +4661,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string feedback_url = 10;</code>
@@ -4680,7 +4680,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string feedback_url = 10;</code>
@@ -4694,7 +4694,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string feedback_url = 10;</code>
@@ -4716,7 +4716,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object dataUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url = 9;</code>
@@ -4736,7 +4736,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url = 9;</code>
@@ -4757,7 +4757,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url = 9;</code>
@@ -4776,7 +4776,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url = 9;</code>
@@ -4790,7 +4790,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string data_url = 9;</code>
@@ -4812,7 +4812,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object bulletinUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string bulletin_url = 11;</code>
@@ -4832,7 +4832,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string bulletin_url = 11;</code>
@@ -4853,7 +4853,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string bulletin_url = 11;</code>
@@ -4872,7 +4872,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string bulletin_url = 11;</code>
@@ -4886,7 +4886,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string bulletin_url = 11;</code>
@@ -4908,7 +4908,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object officialCommunityUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string official_community_url = 24;</code>
@@ -4928,7 +4928,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string official_community_url = 24;</code>
@@ -4949,7 +4949,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string official_community_url = 24;</code>
@@ -4968,7 +4968,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string official_community_url = 24;</code>
@@ -4982,7 +4982,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string official_community_url = 24;</code>
@@ -5004,7 +5004,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object userCenterUrl_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string user_center_url = 30;</code>
@@ -5024,7 +5024,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string user_center_url = 30;</code>
@@ -5045,7 +5045,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string user_center_url = 30;</code>
@@ -5064,7 +5064,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string user_center_url = 30;</code>
@@ -5078,7 +5078,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string user_center_url = 30;</code>
@@ -5100,7 +5100,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object gateserverDomainName_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_domain_name = 29;</code>
@@ -5120,7 +5120,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_domain_name = 29;</code>
@@ -5141,7 +5141,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_domain_name = 29;</code>
@@ -5160,7 +5160,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_domain_name = 29;</code>
@@ -5174,7 +5174,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_domain_name = 29;</code>
@@ -5196,7 +5196,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object clientVersionSuffix_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 26;</code>
@@ -5216,7 +5216,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 26;</code>
@@ -5237,7 +5237,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 26;</code>
@@ -5256,7 +5256,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 26;</code>
@@ -5270,7 +5270,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string client_version_suffix = 26;</code>
@@ -5292,7 +5292,7 @@ public final class RegionInfoOuterClass {
       private com.google.protobuf.ByteString secretKey_ = com.google.protobuf.ByteString.EMPTY;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes secret_key = 23;</code>
@@ -5304,7 +5304,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes secret_key = 23;</code>
@@ -5322,7 +5322,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bytes secret_key = 23;</code>
@@ -5338,7 +5338,7 @@ public final class RegionInfoOuterClass {
       private java.lang.Object gateserverIp_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_ip = 1;</code>
@@ -5358,7 +5358,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_ip = 1;</code>
@@ -5379,7 +5379,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_ip = 1;</code>
@@ -5398,7 +5398,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_ip = 1;</code>
@@ -5412,7 +5412,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>string gateserver_ip = 1;</code>
@@ -5434,7 +5434,7 @@ public final class RegionInfoOuterClass {
       private int clientSilenceDataVersion_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_silence_data_version = 18;</code>
@@ -5446,7 +5446,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_silence_data_version = 18;</code>
@@ -5461,7 +5461,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_silence_data_version = 18;</code>
@@ -5477,7 +5477,7 @@ public final class RegionInfoOuterClass {
       private int gateserverPort_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 gateserver_port = 2;</code>
@@ -5489,7 +5489,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 gateserver_port = 2;</code>
@@ -5504,7 +5504,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 gateserver_port = 2;</code>
@@ -5520,7 +5520,7 @@ public final class RegionInfoOuterClass {
       private boolean useGateserverDomainName_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool use_gateserver_domain_name = 28;</code>
@@ -5532,7 +5532,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool use_gateserver_domain_name = 28;</code>
@@ -5547,7 +5547,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool use_gateserver_domain_name = 28;</code>
@@ -5563,7 +5563,7 @@ public final class RegionInfoOuterClass {
       private int clientDataVersion_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_data_version = 14;</code>
@@ -5575,7 +5575,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_data_version = 14;</code>
@@ -5590,7 +5590,7 @@ public final class RegionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 client_data_version = 14;</code>

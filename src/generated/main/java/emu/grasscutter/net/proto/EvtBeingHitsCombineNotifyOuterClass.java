@@ -20,7 +20,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -29,7 +29,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
         getEvtBeingHitInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -37,7 +37,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo getEvtBeingHitInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -45,7 +45,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     int getEvtBeingHitInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -54,7 +54,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
         getEvtBeingHitInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -64,7 +64,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ForwardType forward_type = 7;</code>
@@ -73,7 +73,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     int getForwardTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ForwardType forward_type = 7;</code>
@@ -187,7 +187,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.EvtBeingHitInfoOuterClass.EvtBeingHitInfo> evtBeingHitInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -198,7 +198,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -210,7 +210,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -221,7 +221,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -232,7 +232,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -247,7 +247,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     private int forwardType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ForwardType forward_type = 7;</code>
@@ -258,7 +258,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.ForwardType forward_type = 7;</code>
@@ -646,7 +646,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -660,7 +660,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -674,7 +674,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -688,7 +688,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -709,7 +709,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -727,7 +727,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -747,7 +747,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -768,7 +768,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -786,7 +786,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -804,7 +804,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -823,7 +823,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -840,7 +840,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -857,7 +857,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -868,7 +868,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -882,7 +882,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -897,7 +897,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -908,7 +908,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -920,7 +920,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EvtBeingHitInfo evt_being_hit_info_list = 1;</code>
@@ -947,7 +947,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       private int forwardType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 7;</code>
@@ -958,7 +958,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 7;</code>
@@ -973,7 +973,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 7;</code>
@@ -987,7 +987,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 7;</code>
@@ -1005,7 +1005,7 @@ public final class EvtBeingHitsCombineNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.ForwardType forward_type = 7;</code>

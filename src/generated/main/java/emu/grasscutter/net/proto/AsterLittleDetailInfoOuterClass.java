@@ -20,7 +20,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 begin_time = 1;</code>
@@ -30,7 +30,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stage_begin_time = 2;</code>
@@ -40,7 +40,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleStageState stage_state = 8;</code>
@@ -49,7 +49,7 @@ public final class AsterLittleDetailInfoOuterClass {
     int getStageStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleStageState stage_state = 8;</code>
@@ -59,7 +59,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stage_id = 7;</code>
@@ -69,7 +69,7 @@ public final class AsterLittleDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 12;</code>
@@ -185,7 +185,7 @@ public final class AsterLittleDetailInfoOuterClass {
     private int beginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 begin_time = 1;</code>
@@ -200,7 +200,7 @@ public final class AsterLittleDetailInfoOuterClass {
     private int stageBeginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stage_begin_time = 2;</code>
@@ -215,7 +215,7 @@ public final class AsterLittleDetailInfoOuterClass {
     private int stageState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleStageState stage_state = 8;</code>
@@ -226,7 +226,7 @@ public final class AsterLittleDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.AsterLittleStageState stage_state = 8;</code>
@@ -242,7 +242,7 @@ public final class AsterLittleDetailInfoOuterClass {
     private int stageId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stage_id = 7;</code>
@@ -257,7 +257,7 @@ public final class AsterLittleDetailInfoOuterClass {
     private boolean isOpen_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 12;</code>
@@ -641,7 +641,7 @@ public final class AsterLittleDetailInfoOuterClass {
       private int beginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 begin_time = 1;</code>
@@ -653,7 +653,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 begin_time = 1;</code>
@@ -668,7 +668,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 begin_time = 1;</code>
@@ -684,7 +684,7 @@ public final class AsterLittleDetailInfoOuterClass {
       private int stageBeginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_begin_time = 2;</code>
@@ -696,7 +696,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_begin_time = 2;</code>
@@ -711,7 +711,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_begin_time = 2;</code>
@@ -727,7 +727,7 @@ public final class AsterLittleDetailInfoOuterClass {
       private int stageState_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleStageState stage_state = 8;</code>
@@ -738,7 +738,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleStageState stage_state = 8;</code>
@@ -753,7 +753,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleStageState stage_state = 8;</code>
@@ -767,7 +767,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleStageState stage_state = 8;</code>
@@ -785,7 +785,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.AsterLittleStageState stage_state = 8;</code>
@@ -801,7 +801,7 @@ public final class AsterLittleDetailInfoOuterClass {
       private int stageId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_id = 7;</code>
@@ -813,7 +813,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_id = 7;</code>
@@ -828,7 +828,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stage_id = 7;</code>
@@ -844,7 +844,7 @@ public final class AsterLittleDetailInfoOuterClass {
       private boolean isOpen_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 12;</code>
@@ -856,7 +856,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 12;</code>
@@ -871,7 +871,7 @@ public final class AsterLittleDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 12;</code>

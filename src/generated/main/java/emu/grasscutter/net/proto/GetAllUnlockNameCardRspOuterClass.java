@@ -20,7 +20,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 name_card_list = 4;</code>
@@ -29,7 +29,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
     java.util.List<java.lang.Integer> getNameCardListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 name_card_list = 4;</code>
@@ -38,7 +38,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
     int getNameCardListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 name_card_list = 4;</code>
@@ -49,7 +49,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 14;</code>
@@ -174,7 +174,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
     private com.google.protobuf.Internal.IntList nameCardList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 name_card_list = 4;</code>
@@ -187,7 +187,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 name_card_list = 4;</code>
@@ -198,7 +198,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 name_card_list = 4;</code>
@@ -214,7 +214,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 14;</code>
@@ -588,7 +588,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 name_card_list = 4;</code>
@@ -601,7 +601,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 name_card_list = 4;</code>
@@ -612,7 +612,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 name_card_list = 4;</code>
@@ -624,7 +624,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 name_card_list = 4;</code>
@@ -641,7 +641,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 name_card_list = 4;</code>
@@ -656,7 +656,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 name_card_list = 4;</code>
@@ -673,7 +673,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 name_card_list = 4;</code>
@@ -689,7 +689,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -701,7 +701,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -716,7 +716,7 @@ public final class GetAllUnlockNameCardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 14;</code>

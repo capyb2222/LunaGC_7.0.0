@@ -35,7 +35,7 @@ public final class AttackResultOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitCollision hit_collision = 6;</code>
@@ -44,7 +44,7 @@ public final class AttackResultOuterClass {
     boolean hasHitCollision();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitCollision hit_collision = 6;</code>
@@ -53,7 +53,7 @@ public final class AttackResultOuterClass {
     emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision getHitCollision();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitCollision hit_collision = 6;</code>
@@ -62,7 +62,7 @@ public final class AttackResultOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string anim_event_id = 4;</code>
@@ -71,7 +71,7 @@ public final class AttackResultOuterClass {
     java.lang.String getAnimEventId();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string anim_event_id = 4;</code>
@@ -82,7 +82,7 @@ public final class AttackResultOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -91,7 +91,7 @@ public final class AttackResultOuterClass {
     boolean hasHitEffResult();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -100,7 +100,7 @@ public final class AttackResultOuterClass {
     emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult getHitEffResult();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -109,7 +109,7 @@ public final class AttackResultOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -118,7 +118,7 @@ public final class AttackResultOuterClass {
     boolean hasAbilityIdentifier();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -127,7 +127,7 @@ public final class AttackResultOuterClass {
     emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier getAbilityIdentifier();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -154,7 +154,7 @@ public final class AttackResultOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 element_type = 9;</code>
@@ -182,7 +182,7 @@ public final class AttackResultOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 attacker_id = 1;</code>
@@ -198,7 +198,7 @@ public final class AttackResultOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float damage = 3;</code>
@@ -565,7 +565,7 @@ public final class AttackResultOuterClass {
     private emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision hitCollision_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitCollision hit_collision = 6;</code>
@@ -577,7 +577,7 @@ public final class AttackResultOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitCollision hit_collision = 6;</code>
@@ -589,7 +589,7 @@ public final class AttackResultOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.HitCollision hit_collision = 6;</code>
@@ -603,7 +603,7 @@ public final class AttackResultOuterClass {
     private volatile java.lang.Object animEventId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string anim_event_id = 4;</code>
@@ -624,7 +624,7 @@ public final class AttackResultOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string anim_event_id = 4;</code>
@@ -649,7 +649,7 @@ public final class AttackResultOuterClass {
     private emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult hitEffResult_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -661,7 +661,7 @@ public final class AttackResultOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -673,7 +673,7 @@ public final class AttackResultOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -687,7 +687,7 @@ public final class AttackResultOuterClass {
     private emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier abilityIdentifier_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -699,7 +699,7 @@ public final class AttackResultOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -711,7 +711,7 @@ public final class AttackResultOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -758,7 +758,7 @@ public final class AttackResultOuterClass {
     private int elementType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 element_type = 9;</code>
@@ -806,7 +806,7 @@ public final class AttackResultOuterClass {
     private int attackerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 attacker_id = 1;</code>
@@ -832,7 +832,7 @@ public final class AttackResultOuterClass {
     private float damage_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float damage = 3;</code>
@@ -1936,7 +1936,7 @@ public final class AttackResultOuterClass {
           emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollision.Builder, emu.grasscutter.net.proto.HitCollisionOuterClass.HitCollisionOrBuilder> hitCollisionBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitCollision hit_collision = 6;</code>
@@ -1947,7 +1947,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitCollision hit_collision = 6;</code>
@@ -1962,7 +1962,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitCollision hit_collision = 6;</code>
@@ -1982,7 +1982,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitCollision hit_collision = 6;</code>
@@ -2000,7 +2000,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitCollision hit_collision = 6;</code>
@@ -2022,7 +2022,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitCollision hit_collision = 6;</code>
@@ -2040,7 +2040,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitCollision hit_collision = 6;</code>
@@ -2052,7 +2052,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitCollision hit_collision = 6;</code>
@@ -2067,7 +2067,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.HitCollision hit_collision = 6;</code>
@@ -2089,7 +2089,7 @@ public final class AttackResultOuterClass {
       private java.lang.Object animEventId_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string anim_event_id = 4;</code>
@@ -2109,7 +2109,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string anim_event_id = 4;</code>
@@ -2130,7 +2130,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string anim_event_id = 4;</code>
@@ -2149,7 +2149,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string anim_event_id = 4;</code>
@@ -2163,7 +2163,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string anim_event_id = 4;</code>
@@ -2187,7 +2187,7 @@ public final class AttackResultOuterClass {
           emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResult.Builder, emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.AttackHitEffectResultOrBuilder> hitEffResultBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -2198,7 +2198,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -2213,7 +2213,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -2233,7 +2233,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -2251,7 +2251,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -2273,7 +2273,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -2291,7 +2291,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -2303,7 +2303,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -2318,7 +2318,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AttackHitEffectResult hit_eff_result = 8;</code>
@@ -2342,7 +2342,7 @@ public final class AttackResultOuterClass {
           emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.Builder, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifierOrBuilder> abilityIdentifierBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -2353,7 +2353,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -2368,7 +2368,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -2388,7 +2388,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -2406,7 +2406,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -2428,7 +2428,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -2446,7 +2446,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -2458,7 +2458,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -2473,7 +2473,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityIdentifier ability_identifier = 10;</code>
@@ -2588,7 +2588,7 @@ public final class AttackResultOuterClass {
       private int elementType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 element_type = 9;</code>
@@ -2600,7 +2600,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 element_type = 9;</code>
@@ -2615,7 +2615,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 element_type = 9;</code>
@@ -2724,7 +2724,7 @@ public final class AttackResultOuterClass {
       private int attackerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 attacker_id = 1;</code>
@@ -2736,7 +2736,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 attacker_id = 1;</code>
@@ -2751,7 +2751,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 attacker_id = 1;</code>
@@ -2798,7 +2798,7 @@ public final class AttackResultOuterClass {
       private float damage_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float damage = 3;</code>
@@ -2810,7 +2810,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float damage = 3;</code>
@@ -2825,7 +2825,7 @@ public final class AttackResultOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float damage = 3;</code>

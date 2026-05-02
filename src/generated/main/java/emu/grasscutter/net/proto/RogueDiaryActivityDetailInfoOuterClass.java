@@ -20,7 +20,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -29,7 +29,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
         getStageListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -37,7 +37,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.EFHMGIKJOHDOuterClass.EFHMGIKJOHD getStageList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -45,7 +45,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     int getStageListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -54,7 +54,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
         getStageListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -64,7 +64,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -73,7 +73,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     boolean hasCurProgress();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -82,7 +82,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.CHJOJKNAHLNOuterClass.CHJOJKNAHLN getCurProgress();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -97,7 +97,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 7;</code>
@@ -223,7 +223,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.EFHMGIKJOHDOuterClass.EFHMGIKJOHD> stageList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -234,7 +234,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -246,7 +246,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -257,7 +257,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -268,7 +268,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -283,7 +283,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     private emu.grasscutter.net.proto.CHJOJKNAHLNOuterClass.CHJOJKNAHLN curProgress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -295,7 +295,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -307,7 +307,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -332,7 +332,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
     private boolean isContentClosed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 7;</code>
@@ -765,7 +765,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -779,7 +779,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -793,7 +793,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -807,7 +807,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -828,7 +828,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -846,7 +846,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -866,7 +866,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -887,7 +887,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -905,7 +905,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -923,7 +923,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -942,7 +942,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -959,7 +959,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -976,7 +976,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -987,7 +987,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -1001,7 +1001,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -1016,7 +1016,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -1027,7 +1027,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -1039,7 +1039,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .EFHMGIKJOHD stage_list = 9;</code>
@@ -1068,7 +1068,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.CHJOJKNAHLNOuterClass.CHJOJKNAHLN, emu.grasscutter.net.proto.CHJOJKNAHLNOuterClass.CHJOJKNAHLN.Builder, emu.grasscutter.net.proto.CHJOJKNAHLNOuterClass.CHJOJKNAHLNOrBuilder> curProgressBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -1079,7 +1079,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -1094,7 +1094,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -1114,7 +1114,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -1132,7 +1132,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -1154,7 +1154,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -1172,7 +1172,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -1184,7 +1184,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -1199,7 +1199,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.CHJOJKNAHLN cur_progress = 2;</code>
@@ -1252,7 +1252,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       private boolean isContentClosed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 7;</code>
@@ -1264,7 +1264,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 7;</code>
@@ -1279,7 +1279,7 @@ public final class RogueDiaryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 7;</code>

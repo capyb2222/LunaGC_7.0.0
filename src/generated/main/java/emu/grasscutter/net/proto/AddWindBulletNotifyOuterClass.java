@@ -20,7 +20,7 @@ public final class AddWindBulletNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector seed_pos = 10;</code>
@@ -29,7 +29,7 @@ public final class AddWindBulletNotifyOuterClass {
     boolean hasSeedPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector seed_pos = 10;</code>
@@ -38,7 +38,7 @@ public final class AddWindBulletNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getSeedPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector seed_pos = 10;</code>
@@ -161,7 +161,7 @@ public final class AddWindBulletNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector seedPos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector seed_pos = 10;</code>
@@ -173,7 +173,7 @@ public final class AddWindBulletNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector seed_pos = 10;</code>
@@ -185,7 +185,7 @@ public final class AddWindBulletNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.Vector seed_pos = 10;</code>
@@ -571,7 +571,7 @@ public final class AddWindBulletNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> seedPosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector seed_pos = 10;</code>
@@ -582,7 +582,7 @@ public final class AddWindBulletNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector seed_pos = 10;</code>
@@ -597,7 +597,7 @@ public final class AddWindBulletNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector seed_pos = 10;</code>
@@ -617,7 +617,7 @@ public final class AddWindBulletNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector seed_pos = 10;</code>
@@ -635,7 +635,7 @@ public final class AddWindBulletNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector seed_pos = 10;</code>
@@ -657,7 +657,7 @@ public final class AddWindBulletNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector seed_pos = 10;</code>
@@ -675,7 +675,7 @@ public final class AddWindBulletNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector seed_pos = 10;</code>
@@ -687,7 +687,7 @@ public final class AddWindBulletNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector seed_pos = 10;</code>
@@ -702,7 +702,7 @@ public final class AddWindBulletNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.Vector seed_pos = 10;</code>

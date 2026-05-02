@@ -20,7 +20,7 @@ public final class DropItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>int32 retcode = 6;</code>
@@ -30,7 +30,7 @@ public final class DropItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.StoreType store_type = 10;</code>
@@ -39,7 +39,7 @@ public final class DropItemRspOuterClass {
     int getStoreTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.StoreType store_type = 10;</code>
@@ -49,7 +49,7 @@ public final class DropItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint64 guid = 2;</code>
@@ -159,7 +159,7 @@ public final class DropItemRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>int32 retcode = 6;</code>
@@ -174,7 +174,7 @@ public final class DropItemRspOuterClass {
     private int storeType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.StoreType store_type = 10;</code>
@@ -185,7 +185,7 @@ public final class DropItemRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.StoreType store_type = 10;</code>
@@ -201,7 +201,7 @@ public final class DropItemRspOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint64 guid = 2;</code>
@@ -555,7 +555,7 @@ public final class DropItemRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -567,7 +567,7 @@ public final class DropItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -582,7 +582,7 @@ public final class DropItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -598,7 +598,7 @@ public final class DropItemRspOuterClass {
       private int storeType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 10;</code>
@@ -609,7 +609,7 @@ public final class DropItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 10;</code>
@@ -624,7 +624,7 @@ public final class DropItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 10;</code>
@@ -638,7 +638,7 @@ public final class DropItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 10;</code>
@@ -656,7 +656,7 @@ public final class DropItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 10;</code>
@@ -672,7 +672,7 @@ public final class DropItemRspOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -684,7 +684,7 @@ public final class DropItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint64 guid = 2;</code>
@@ -699,7 +699,7 @@ public final class DropItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint64 guid = 2;</code>

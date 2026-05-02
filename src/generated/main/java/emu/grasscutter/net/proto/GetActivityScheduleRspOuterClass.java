@@ -20,7 +20,7 @@ public final class GetActivityScheduleRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -29,7 +29,7 @@ public final class GetActivityScheduleRspOuterClass {
         getActivityScheduleListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -37,7 +37,7 @@ public final class GetActivityScheduleRspOuterClass {
     emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo getActivityScheduleList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -45,7 +45,7 @@ public final class GetActivityScheduleRspOuterClass {
     int getActivityScheduleListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -54,7 +54,7 @@ public final class GetActivityScheduleRspOuterClass {
         getActivityScheduleListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -64,7 +64,7 @@ public final class GetActivityScheduleRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -74,7 +74,7 @@ public final class GetActivityScheduleRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint32 remain_fly_sea_lamp_num = 11;</code>
@@ -191,7 +191,7 @@ public final class GetActivityScheduleRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ActivityScheduleInfoOuterClass.ActivityScheduleInfo> activityScheduleList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -202,7 +202,7 @@ public final class GetActivityScheduleRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -214,7 +214,7 @@ public final class GetActivityScheduleRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -225,7 +225,7 @@ public final class GetActivityScheduleRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -236,7 +236,7 @@ public final class GetActivityScheduleRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -251,7 +251,7 @@ public final class GetActivityScheduleRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>int32 retcode = 5;</code>
@@ -266,7 +266,7 @@ public final class GetActivityScheduleRspOuterClass {
     private int remainFlySeaLampNum_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint32 remain_fly_sea_lamp_num = 11;</code>
@@ -671,7 +671,7 @@ public final class GetActivityScheduleRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -685,7 +685,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -699,7 +699,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -713,7 +713,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -734,7 +734,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -752,7 +752,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -772,7 +772,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -793,7 +793,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -811,7 +811,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -829,7 +829,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -848,7 +848,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -865,7 +865,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -882,7 +882,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -893,7 +893,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -907,7 +907,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -922,7 +922,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -933,7 +933,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -945,7 +945,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>repeated .ActivityScheduleInfo activity_schedule_list = 7;</code>
@@ -972,7 +972,7 @@ public final class GetActivityScheduleRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -984,7 +984,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -999,7 +999,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>int32 retcode = 5;</code>
@@ -1015,7 +1015,7 @@ public final class GetActivityScheduleRspOuterClass {
       private int remainFlySeaLampNum_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint32 remain_fly_sea_lamp_num = 11;</code>
@@ -1027,7 +1027,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint32 remain_fly_sea_lamp_num = 11;</code>
@@ -1042,7 +1042,7 @@ public final class GetActivityScheduleRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint32 remain_fly_sea_lamp_num = 11;</code>

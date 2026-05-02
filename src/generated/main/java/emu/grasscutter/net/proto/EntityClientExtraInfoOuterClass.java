@@ -20,7 +20,7 @@ public final class EntityClientExtraInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector skill_anchor_position = 1;</code>
@@ -29,7 +29,7 @@ public final class EntityClientExtraInfoOuterClass {
     boolean hasSkillAnchorPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector skill_anchor_position = 1;</code>
@@ -38,7 +38,7 @@ public final class EntityClientExtraInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getSkillAnchorPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector skill_anchor_position = 1;</code>
@@ -139,7 +139,7 @@ public final class EntityClientExtraInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector skillAnchorPosition_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector skill_anchor_position = 1;</code>
@@ -151,7 +151,7 @@ public final class EntityClientExtraInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector skill_anchor_position = 1;</code>
@@ -163,7 +163,7 @@ public final class EntityClientExtraInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector skill_anchor_position = 1;</code>
@@ -493,7 +493,7 @@ public final class EntityClientExtraInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> skillAnchorPositionBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector skill_anchor_position = 1;</code>
@@ -504,7 +504,7 @@ public final class EntityClientExtraInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector skill_anchor_position = 1;</code>
@@ -519,7 +519,7 @@ public final class EntityClientExtraInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector skill_anchor_position = 1;</code>
@@ -539,7 +539,7 @@ public final class EntityClientExtraInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector skill_anchor_position = 1;</code>
@@ -557,7 +557,7 @@ public final class EntityClientExtraInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector skill_anchor_position = 1;</code>
@@ -579,7 +579,7 @@ public final class EntityClientExtraInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector skill_anchor_position = 1;</code>
@@ -597,7 +597,7 @@ public final class EntityClientExtraInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector skill_anchor_position = 1;</code>
@@ -609,7 +609,7 @@ public final class EntityClientExtraInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector skill_anchor_position = 1;</code>
@@ -624,7 +624,7 @@ public final class EntityClientExtraInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector skill_anchor_position = 1;</code>

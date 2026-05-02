@@ -20,7 +20,7 @@ public final class CodexDataFullNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -29,7 +29,7 @@ public final class CodexDataFullNotifyOuterClass {
     java.util.List<java.lang.Integer> getRecentViewedPushtipsListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -38,7 +38,7 @@ public final class CodexDataFullNotifyOuterClass {
     int getRecentViewedPushtipsListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -49,7 +49,7 @@ public final class CodexDataFullNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -58,7 +58,7 @@ public final class CodexDataFullNotifyOuterClass {
         getTypeDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -66,7 +66,7 @@ public final class CodexDataFullNotifyOuterClass {
     emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData getTypeDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -74,7 +74,7 @@ public final class CodexDataFullNotifyOuterClass {
     int getTypeDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -83,7 +83,7 @@ public final class CodexDataFullNotifyOuterClass {
         getTypeDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -237,7 +237,7 @@ public final class CodexDataFullNotifyOuterClass {
     private com.google.protobuf.Internal.IntList recentViewedPushtipsList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -250,7 +250,7 @@ public final class CodexDataFullNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -261,7 +261,7 @@ public final class CodexDataFullNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -277,7 +277,7 @@ public final class CodexDataFullNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> typeDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -288,7 +288,7 @@ public final class CodexDataFullNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -300,7 +300,7 @@ public final class CodexDataFullNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -311,7 +311,7 @@ public final class CodexDataFullNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -322,7 +322,7 @@ public final class CodexDataFullNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -789,7 +789,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -802,7 +802,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -813,7 +813,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -825,7 +825,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -842,7 +842,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -857,7 +857,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -874,7 +874,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 6;</code>
@@ -901,7 +901,7 @@ public final class CodexDataFullNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -915,7 +915,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -929,7 +929,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -943,7 +943,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -964,7 +964,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -982,7 +982,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1002,7 +1002,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1023,7 +1023,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1041,7 +1041,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1059,7 +1059,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1078,7 +1078,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1095,7 +1095,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1112,7 +1112,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1123,7 +1123,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1137,7 +1137,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1152,7 +1152,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1163,7 +1163,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1175,7 +1175,7 @@ public final class CodexDataFullNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>

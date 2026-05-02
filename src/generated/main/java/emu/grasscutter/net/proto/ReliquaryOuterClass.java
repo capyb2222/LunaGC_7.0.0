@@ -37,7 +37,7 @@ public final class ReliquaryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -46,7 +46,7 @@ public final class ReliquaryOuterClass {
     java.util.List<java.lang.Integer> getAppendPropIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -55,7 +55,7 @@ public final class ReliquaryOuterClass {
     int getAppendPropIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -66,7 +66,7 @@ public final class ReliquaryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 exp = 2;</code>
@@ -76,7 +76,7 @@ public final class ReliquaryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 main_prop_id = 4;</code>
@@ -92,7 +92,7 @@ public final class ReliquaryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 promote_level = 3;</code>
@@ -102,7 +102,7 @@ public final class ReliquaryOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 1;</code>
@@ -295,7 +295,7 @@ public final class ReliquaryOuterClass {
     private com.google.protobuf.Internal.IntList appendPropIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -308,7 +308,7 @@ public final class ReliquaryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -319,7 +319,7 @@ public final class ReliquaryOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -335,7 +335,7 @@ public final class ReliquaryOuterClass {
     private int exp_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 exp = 2;</code>
@@ -350,7 +350,7 @@ public final class ReliquaryOuterClass {
     private int mainPropId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 main_prop_id = 4;</code>
@@ -376,7 +376,7 @@ public final class ReliquaryOuterClass {
     private int promoteLevel_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 promote_level = 3;</code>
@@ -391,7 +391,7 @@ public final class ReliquaryOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 1;</code>
@@ -952,7 +952,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -965,7 +965,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -976,7 +976,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -988,7 +988,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -1005,7 +1005,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -1020,7 +1020,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -1037,7 +1037,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 append_prop_id_list = 5;</code>
@@ -1053,7 +1053,7 @@ public final class ReliquaryOuterClass {
       private int exp_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 exp = 2;</code>
@@ -1065,7 +1065,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 exp = 2;</code>
@@ -1080,7 +1080,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 exp = 2;</code>
@@ -1096,7 +1096,7 @@ public final class ReliquaryOuterClass {
       private int mainPropId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 main_prop_id = 4;</code>
@@ -1108,7 +1108,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 main_prop_id = 4;</code>
@@ -1123,7 +1123,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 main_prop_id = 4;</code>
@@ -1170,7 +1170,7 @@ public final class ReliquaryOuterClass {
       private int promoteLevel_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 3;</code>
@@ -1182,7 +1182,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 3;</code>
@@ -1197,7 +1197,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 promote_level = 3;</code>
@@ -1213,7 +1213,7 @@ public final class ReliquaryOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 1;</code>
@@ -1225,7 +1225,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 1;</code>
@@ -1240,7 +1240,7 @@ public final class ReliquaryOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 1;</code>

@@ -45,7 +45,7 @@ public final class LifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -54,7 +54,7 @@ public final class LifeStateChangeNotifyOuterClass {
         getServerBuffListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -62,7 +62,7 @@ public final class LifeStateChangeNotifyOuterClass {
     emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -70,7 +70,7 @@ public final class LifeStateChangeNotifyOuterClass {
     int getServerBuffListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -79,7 +79,7 @@ public final class LifeStateChangeNotifyOuterClass {
         getServerBuffListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -89,7 +89,7 @@ public final class LifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string attack_tag = 3;</code>
@@ -98,7 +98,7 @@ public final class LifeStateChangeNotifyOuterClass {
     java.lang.String getAttackTag();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string attack_tag = 3;</code>
@@ -109,7 +109,7 @@ public final class LifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 move_reliable_seq = 10;</code>
@@ -119,7 +119,7 @@ public final class LifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 12;</code>
@@ -128,7 +128,7 @@ public final class LifeStateChangeNotifyOuterClass {
     int getDieTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 12;</code>
@@ -138,7 +138,7 @@ public final class LifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 source_entity_id = 6;</code>
@@ -148,7 +148,7 @@ public final class LifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 15;</code>
@@ -158,7 +158,7 @@ public final class LifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 life_state = 4;</code>
@@ -347,7 +347,7 @@ public final class LifeStateChangeNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -358,7 +358,7 @@ public final class LifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -370,7 +370,7 @@ public final class LifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -381,7 +381,7 @@ public final class LifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -392,7 +392,7 @@ public final class LifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -407,7 +407,7 @@ public final class LifeStateChangeNotifyOuterClass {
     private volatile java.lang.Object attackTag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string attack_tag = 3;</code>
@@ -428,7 +428,7 @@ public final class LifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string attack_tag = 3;</code>
@@ -453,7 +453,7 @@ public final class LifeStateChangeNotifyOuterClass {
     private int moveReliableSeq_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 move_reliable_seq = 10;</code>
@@ -468,7 +468,7 @@ public final class LifeStateChangeNotifyOuterClass {
     private int dieType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 12;</code>
@@ -479,7 +479,7 @@ public final class LifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 12;</code>
@@ -495,7 +495,7 @@ public final class LifeStateChangeNotifyOuterClass {
     private int sourceEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 source_entity_id = 6;</code>
@@ -510,7 +510,7 @@ public final class LifeStateChangeNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 15;</code>
@@ -525,7 +525,7 @@ public final class LifeStateChangeNotifyOuterClass {
     private int lifeState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 life_state = 4;</code>
@@ -1141,7 +1141,7 @@ public final class LifeStateChangeNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1155,7 +1155,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1169,7 +1169,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1183,7 +1183,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1204,7 +1204,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1222,7 +1222,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1242,7 +1242,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1263,7 +1263,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1281,7 +1281,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1299,7 +1299,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1318,7 +1318,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1335,7 +1335,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1352,7 +1352,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1363,7 +1363,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1377,7 +1377,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1392,7 +1392,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1403,7 +1403,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1415,7 +1415,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 9;</code>
@@ -1442,7 +1442,7 @@ public final class LifeStateChangeNotifyOuterClass {
       private java.lang.Object attackTag_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 3;</code>
@@ -1462,7 +1462,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 3;</code>
@@ -1483,7 +1483,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 3;</code>
@@ -1502,7 +1502,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 3;</code>
@@ -1516,7 +1516,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 3;</code>
@@ -1538,7 +1538,7 @@ public final class LifeStateChangeNotifyOuterClass {
       private int moveReliableSeq_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 move_reliable_seq = 10;</code>
@@ -1550,7 +1550,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 move_reliable_seq = 10;</code>
@@ -1565,7 +1565,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 move_reliable_seq = 10;</code>
@@ -1581,7 +1581,7 @@ public final class LifeStateChangeNotifyOuterClass {
       private int dieType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 12;</code>
@@ -1592,7 +1592,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 12;</code>
@@ -1607,7 +1607,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 12;</code>
@@ -1621,7 +1621,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 12;</code>
@@ -1639,7 +1639,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 12;</code>
@@ -1655,7 +1655,7 @@ public final class LifeStateChangeNotifyOuterClass {
       private int sourceEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 source_entity_id = 6;</code>
@@ -1667,7 +1667,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 source_entity_id = 6;</code>
@@ -1682,7 +1682,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 source_entity_id = 6;</code>
@@ -1698,7 +1698,7 @@ public final class LifeStateChangeNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 15;</code>
@@ -1710,7 +1710,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 15;</code>
@@ -1725,7 +1725,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 15;</code>
@@ -1741,7 +1741,7 @@ public final class LifeStateChangeNotifyOuterClass {
       private int lifeState_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 4;</code>
@@ -1753,7 +1753,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 4;</code>
@@ -1768,7 +1768,7 @@ public final class LifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 4;</code>

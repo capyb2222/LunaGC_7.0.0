@@ -20,7 +20,7 @@ public final class DealAddFriendReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
@@ -29,7 +29,7 @@ public final class DealAddFriendReqOuterClass {
     int getDealAddFriendResultValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
@@ -39,7 +39,7 @@ public final class DealAddFriendReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_uid = 4;</code>
@@ -144,7 +144,7 @@ public final class DealAddFriendReqOuterClass {
     private int dealAddFriendResult_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
@@ -155,7 +155,7 @@ public final class DealAddFriendReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
@@ -171,7 +171,7 @@ public final class DealAddFriendReqOuterClass {
     private int targetUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_uid = 4;</code>
@@ -507,7 +507,7 @@ public final class DealAddFriendReqOuterClass {
       private int dealAddFriendResult_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
@@ -518,7 +518,7 @@ public final class DealAddFriendReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
@@ -533,7 +533,7 @@ public final class DealAddFriendReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
@@ -547,7 +547,7 @@ public final class DealAddFriendReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
@@ -565,7 +565,7 @@ public final class DealAddFriendReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
@@ -581,7 +581,7 @@ public final class DealAddFriendReqOuterClass {
       private int targetUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 4;</code>
@@ -593,7 +593,7 @@ public final class DealAddFriendReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 4;</code>
@@ -608,7 +608,7 @@ public final class DealAddFriendReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_uid = 4;</code>

@@ -20,7 +20,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -29,7 +29,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     boolean hasRendererChangedInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -38,7 +38,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo getRendererChangedInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -47,7 +47,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_server_cache = 8;</code>
@@ -57,7 +57,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 12;</code>
@@ -67,7 +67,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 15;</code>
@@ -76,7 +76,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     int getForwardTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 15;</code>
@@ -199,7 +199,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     private emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo rendererChangedInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -211,7 +211,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -223,7 +223,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -237,7 +237,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     private boolean isServerCache_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_server_cache = 8;</code>
@@ -252,7 +252,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 12;</code>
@@ -267,7 +267,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     private int forwardType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 15;</code>
@@ -278,7 +278,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ForwardType forward_type = 15;</code>
@@ -665,7 +665,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
           emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.Builder, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfoOrBuilder> rendererChangedInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -676,7 +676,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -691,7 +691,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -711,7 +711,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -729,7 +729,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -751,7 +751,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -769,7 +769,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -781,7 +781,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -796,7 +796,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 4;</code>
@@ -818,7 +818,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       private boolean isServerCache_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_server_cache = 8;</code>
@@ -830,7 +830,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_server_cache = 8;</code>
@@ -845,7 +845,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_server_cache = 8;</code>
@@ -861,7 +861,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 12;</code>
@@ -873,7 +873,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 12;</code>
@@ -888,7 +888,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 12;</code>
@@ -904,7 +904,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       private int forwardType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>
@@ -915,7 +915,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>
@@ -930,7 +930,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>
@@ -944,7 +944,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>
@@ -962,7 +962,7 @@ public final class EvtEntityRenderersChangedNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ForwardType forward_type = 15;</code>

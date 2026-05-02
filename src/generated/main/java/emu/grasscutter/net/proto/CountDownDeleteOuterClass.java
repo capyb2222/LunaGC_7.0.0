@@ -20,7 +20,7 @@ public final class CountDownDeleteOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -28,7 +28,7 @@ public final class CountDownDeleteOuterClass {
     int getDeleteTimeNumMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -43,7 +43,7 @@ public final class CountDownDeleteOuterClass {
     getDeleteTimeNumMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -52,7 +52,7 @@ public final class CountDownDeleteOuterClass {
     getDeleteTimeNumMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -63,7 +63,7 @@ public final class CountDownDeleteOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -74,7 +74,7 @@ public final class CountDownDeleteOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 config_count_down_time = 2;</code>
@@ -218,7 +218,7 @@ public final class CountDownDeleteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -240,7 +240,7 @@ public final class CountDownDeleteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -252,7 +252,7 @@ public final class CountDownDeleteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -269,7 +269,7 @@ public final class CountDownDeleteOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -291,7 +291,7 @@ public final class CountDownDeleteOuterClass {
     private int configCountDownTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 config_count_down_time = 2;</code>
@@ -683,7 +683,7 @@ public final class CountDownDeleteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -705,7 +705,7 @@ public final class CountDownDeleteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -717,7 +717,7 @@ public final class CountDownDeleteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -734,7 +734,7 @@ public final class CountDownDeleteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -759,7 +759,7 @@ public final class CountDownDeleteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -782,7 +782,7 @@ public final class CountDownDeleteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -798,7 +798,7 @@ public final class CountDownDeleteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
@@ -814,7 +814,7 @@ public final class CountDownDeleteOuterClass {
       private int configCountDownTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 config_count_down_time = 2;</code>
@@ -826,7 +826,7 @@ public final class CountDownDeleteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 config_count_down_time = 2;</code>
@@ -841,7 +841,7 @@ public final class CountDownDeleteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 config_count_down_time = 2;</code>

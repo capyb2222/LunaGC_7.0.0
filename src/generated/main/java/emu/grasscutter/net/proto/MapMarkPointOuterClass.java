@@ -20,7 +20,7 @@ public final class MapMarkPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 3;</code>
@@ -29,7 +29,7 @@ public final class MapMarkPointOuterClass {
     boolean hasPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 3;</code>
@@ -38,7 +38,7 @@ public final class MapMarkPointOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 3;</code>
@@ -47,7 +47,7 @@ public final class MapMarkPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 2;</code>
@@ -56,7 +56,7 @@ public final class MapMarkPointOuterClass {
     java.lang.String getName();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 2;</code>
@@ -67,7 +67,7 @@ public final class MapMarkPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 quest_id = 7;</code>
@@ -77,7 +77,7 @@ public final class MapMarkPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MapMarkFromType from_type = 6;</code>
@@ -86,7 +86,7 @@ public final class MapMarkPointOuterClass {
     int getFromTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MapMarkFromType from_type = 6;</code>
@@ -106,7 +106,7 @@ public final class MapMarkPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MapMarkPointType point_type = 4;</code>
@@ -115,7 +115,7 @@ public final class MapMarkPointOuterClass {
     int getPointTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MapMarkPointType point_type = 4;</code>
@@ -125,7 +125,7 @@ public final class MapMarkPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 1;</code>
@@ -135,7 +135,7 @@ public final class MapMarkPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 5;</code>
@@ -278,7 +278,7 @@ public final class MapMarkPointOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 3;</code>
@@ -290,7 +290,7 @@ public final class MapMarkPointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 3;</code>
@@ -302,7 +302,7 @@ public final class MapMarkPointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector pos = 3;</code>
@@ -316,7 +316,7 @@ public final class MapMarkPointOuterClass {
     private volatile java.lang.Object name_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 2;</code>
@@ -337,7 +337,7 @@ public final class MapMarkPointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string name = 2;</code>
@@ -362,7 +362,7 @@ public final class MapMarkPointOuterClass {
     private int questId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 quest_id = 7;</code>
@@ -377,7 +377,7 @@ public final class MapMarkPointOuterClass {
     private int fromType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MapMarkFromType from_type = 6;</code>
@@ -388,7 +388,7 @@ public final class MapMarkPointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MapMarkFromType from_type = 6;</code>
@@ -419,7 +419,7 @@ public final class MapMarkPointOuterClass {
     private int pointType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MapMarkPointType point_type = 4;</code>
@@ -430,7 +430,7 @@ public final class MapMarkPointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MapMarkPointType point_type = 4;</code>
@@ -446,7 +446,7 @@ public final class MapMarkPointOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 1;</code>
@@ -461,7 +461,7 @@ public final class MapMarkPointOuterClass {
     private int monsterId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 monster_id = 5;</code>
@@ -909,7 +909,7 @@ public final class MapMarkPointOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 3;</code>
@@ -920,7 +920,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 3;</code>
@@ -935,7 +935,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 3;</code>
@@ -955,7 +955,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 3;</code>
@@ -973,7 +973,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 3;</code>
@@ -995,7 +995,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 3;</code>
@@ -1013,7 +1013,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 3;</code>
@@ -1025,7 +1025,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 3;</code>
@@ -1040,7 +1040,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector pos = 3;</code>
@@ -1062,7 +1062,7 @@ public final class MapMarkPointOuterClass {
       private java.lang.Object name_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 2;</code>
@@ -1082,7 +1082,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 2;</code>
@@ -1103,7 +1103,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 2;</code>
@@ -1122,7 +1122,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 2;</code>
@@ -1136,7 +1136,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string name = 2;</code>
@@ -1158,7 +1158,7 @@ public final class MapMarkPointOuterClass {
       private int questId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 quest_id = 7;</code>
@@ -1170,7 +1170,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 quest_id = 7;</code>
@@ -1185,7 +1185,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 quest_id = 7;</code>
@@ -1201,7 +1201,7 @@ public final class MapMarkPointOuterClass {
       private int fromType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkFromType from_type = 6;</code>
@@ -1212,7 +1212,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkFromType from_type = 6;</code>
@@ -1227,7 +1227,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkFromType from_type = 6;</code>
@@ -1241,7 +1241,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkFromType from_type = 6;</code>
@@ -1259,7 +1259,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkFromType from_type = 6;</code>
@@ -1318,7 +1318,7 @@ public final class MapMarkPointOuterClass {
       private int pointType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkPointType point_type = 4;</code>
@@ -1329,7 +1329,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkPointType point_type = 4;</code>
@@ -1344,7 +1344,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkPointType point_type = 4;</code>
@@ -1358,7 +1358,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkPointType point_type = 4;</code>
@@ -1376,7 +1376,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MapMarkPointType point_type = 4;</code>
@@ -1392,7 +1392,7 @@ public final class MapMarkPointOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 1;</code>
@@ -1404,7 +1404,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 1;</code>
@@ -1419,7 +1419,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 1;</code>
@@ -1435,7 +1435,7 @@ public final class MapMarkPointOuterClass {
       private int monsterId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 5;</code>
@@ -1447,7 +1447,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 5;</code>
@@ -1462,7 +1462,7 @@ public final class MapMarkPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 monster_id = 5;</code>

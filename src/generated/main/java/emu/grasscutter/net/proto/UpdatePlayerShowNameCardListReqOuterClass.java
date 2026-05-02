@@ -20,7 +20,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -29,7 +29,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
     java.util.List<java.lang.Integer> getShowNameCardIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -38,7 +38,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
     int getShowNameCardIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -159,7 +159,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
     private com.google.protobuf.Internal.IntList showNameCardIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -172,7 +172,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -183,7 +183,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -541,7 +541,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -554,7 +554,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -565,7 +565,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -577,7 +577,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -594,7 +594,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -609,7 +609,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 1;</code>
@@ -626,7 +626,7 @@ public final class UpdatePlayerShowNameCardListReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_name_card_id_list = 1;</code>

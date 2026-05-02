@@ -20,7 +20,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SocialDetail detail_data = 4;</code>
@@ -29,7 +29,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
     boolean hasDetailData();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SocialDetail detail_data = 4;</code>
@@ -38,7 +38,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
     emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail getDetailData();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SocialDetail detail_data = 4;</code>
@@ -47,7 +47,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -57,7 +57,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 param = 6;</code>
@@ -173,7 +173,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
     private emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail detailData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SocialDetail detail_data = 4;</code>
@@ -185,7 +185,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SocialDetail detail_data = 4;</code>
@@ -197,7 +197,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SocialDetail detail_data = 4;</code>
@@ -211,7 +211,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -226,7 +226,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
     private int param_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 param = 6;</code>
@@ -595,7 +595,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
           emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail, emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetail.Builder, emu.grasscutter.net.proto.SocialDetailOuterClass.SocialDetailOrBuilder> detailDataBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SocialDetail detail_data = 4;</code>
@@ -606,7 +606,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SocialDetail detail_data = 4;</code>
@@ -621,7 +621,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SocialDetail detail_data = 4;</code>
@@ -641,7 +641,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SocialDetail detail_data = 4;</code>
@@ -659,7 +659,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SocialDetail detail_data = 4;</code>
@@ -681,7 +681,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SocialDetail detail_data = 4;</code>
@@ -699,7 +699,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SocialDetail detail_data = 4;</code>
@@ -711,7 +711,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SocialDetail detail_data = 4;</code>
@@ -726,7 +726,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SocialDetail detail_data = 4;</code>
@@ -748,7 +748,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -760,7 +760,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -775,7 +775,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -791,7 +791,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       private int param_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 param = 6;</code>
@@ -803,7 +803,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 param = 6;</code>
@@ -818,7 +818,7 @@ public final class GetPlayerSocialDetailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 param = 6;</code>

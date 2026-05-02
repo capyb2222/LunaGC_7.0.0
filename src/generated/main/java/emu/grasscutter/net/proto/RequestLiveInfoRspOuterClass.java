@@ -44,7 +44,7 @@ public final class RequestLiveInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>int32 retcode = 3;</code>
@@ -54,7 +54,7 @@ public final class RequestLiveInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 live_id = 15;</code>
@@ -247,7 +247,7 @@ public final class RequestLiveInfoRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>int32 retcode = 3;</code>
@@ -262,7 +262,7 @@ public final class RequestLiveInfoRspOuterClass {
     private int liveId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 live_id = 15;</code>
@@ -785,7 +785,7 @@ public final class RequestLiveInfoRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>int32 retcode = 3;</code>
@@ -797,7 +797,7 @@ public final class RequestLiveInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>int32 retcode = 3;</code>
@@ -812,7 +812,7 @@ public final class RequestLiveInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>int32 retcode = 3;</code>
@@ -828,7 +828,7 @@ public final class RequestLiveInfoRspOuterClass {
       private int liveId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 live_id = 15;</code>
@@ -840,7 +840,7 @@ public final class RequestLiveInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 live_id = 15;</code>
@@ -855,7 +855,7 @@ public final class RequestLiveInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 live_id = 15;</code>

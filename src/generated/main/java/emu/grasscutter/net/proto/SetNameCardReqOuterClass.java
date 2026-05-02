@@ -20,7 +20,7 @@ public final class SetNameCardReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 name_card_id = 10;</code>
@@ -119,7 +119,7 @@ public final class SetNameCardReqOuterClass {
     private int nameCardId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 name_card_id = 10;</code>
@@ -440,7 +440,7 @@ public final class SetNameCardReqOuterClass {
       private int nameCardId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 name_card_id = 10;</code>
@@ -452,7 +452,7 @@ public final class SetNameCardReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 name_card_id = 10;</code>
@@ -467,7 +467,7 @@ public final class SetNameCardReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 name_card_id = 10;</code>

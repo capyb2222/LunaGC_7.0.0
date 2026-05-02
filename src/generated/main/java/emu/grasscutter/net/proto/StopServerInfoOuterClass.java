@@ -20,7 +20,7 @@ public final class StopServerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string content_msg = 4;</code>
@@ -29,7 +29,7 @@ public final class StopServerInfoOuterClass {
     java.lang.String getContentMsg();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string content_msg = 4;</code>
@@ -40,7 +40,7 @@ public final class StopServerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string url = 3;</code>
@@ -49,7 +49,7 @@ public final class StopServerInfoOuterClass {
     java.lang.String getUrl();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string url = 3;</code>
@@ -60,7 +60,7 @@ public final class StopServerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stop_end_time = 2;</code>
@@ -70,7 +70,7 @@ public final class StopServerInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stop_begin_time = 1;</code>
@@ -183,7 +183,7 @@ public final class StopServerInfoOuterClass {
     private volatile java.lang.Object contentMsg_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string content_msg = 4;</code>
@@ -204,7 +204,7 @@ public final class StopServerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string content_msg = 4;</code>
@@ -229,7 +229,7 @@ public final class StopServerInfoOuterClass {
     private volatile java.lang.Object url_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string url = 3;</code>
@@ -250,7 +250,7 @@ public final class StopServerInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>string url = 3;</code>
@@ -275,7 +275,7 @@ public final class StopServerInfoOuterClass {
     private int stopEndTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stop_end_time = 2;</code>
@@ -290,7 +290,7 @@ public final class StopServerInfoOuterClass {
     private int stopBeginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 stop_begin_time = 1;</code>
@@ -657,7 +657,7 @@ public final class StopServerInfoOuterClass {
       private java.lang.Object contentMsg_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string content_msg = 4;</code>
@@ -677,7 +677,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string content_msg = 4;</code>
@@ -698,7 +698,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string content_msg = 4;</code>
@@ -717,7 +717,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string content_msg = 4;</code>
@@ -731,7 +731,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string content_msg = 4;</code>
@@ -753,7 +753,7 @@ public final class StopServerInfoOuterClass {
       private java.lang.Object url_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string url = 3;</code>
@@ -773,7 +773,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string url = 3;</code>
@@ -794,7 +794,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string url = 3;</code>
@@ -813,7 +813,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string url = 3;</code>
@@ -827,7 +827,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>string url = 3;</code>
@@ -849,7 +849,7 @@ public final class StopServerInfoOuterClass {
       private int stopEndTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stop_end_time = 2;</code>
@@ -861,7 +861,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stop_end_time = 2;</code>
@@ -876,7 +876,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stop_end_time = 2;</code>
@@ -892,7 +892,7 @@ public final class StopServerInfoOuterClass {
       private int stopBeginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stop_begin_time = 1;</code>
@@ -904,7 +904,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stop_begin_time = 1;</code>
@@ -919,7 +919,7 @@ public final class StopServerInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 stop_begin_time = 1;</code>

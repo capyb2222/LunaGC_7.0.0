@@ -19,17 +19,29 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 meet_cond_list = 8;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 4;</code>
      * @return A list containing the meetCondList.
      */
     java.util.List<java.lang.Integer> getMeetCondListList();
     /**
-     * <code>repeated uint32 meet_cond_list = 8;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 4;</code>
      * @return The count of meetCondList.
      */
     int getMeetCondListCount();
     /**
-     * <code>repeated uint32 meet_cond_list = 8;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 4;</code>
      * @param index The index of the element to return.
      * @return The meetCondList at the given index.
      */
@@ -37,7 +49,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -46,7 +58,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     java.util.List<java.lang.Integer> getActivatedSaleIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -55,7 +67,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     int getActivatedSaleIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -65,17 +77,29 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     int getActivatedSaleIdList(int index);
 
     /**
-     * <code>repeated uint32 expire_cond_list = 6;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 expire_cond_list = 14;</code>
      * @return A list containing the expireCondList.
      */
     java.util.List<java.lang.Integer> getExpireCondListList();
     /**
-     * <code>repeated uint32 expire_cond_list = 6;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 expire_cond_list = 14;</code>
      * @return The count of expireCondList.
      */
     int getExpireCondListCount();
     /**
-     * <code>repeated uint32 expire_cond_list = 6;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 expire_cond_list = 14;</code>
      * @param index The index of the element to return.
      * @return The expireCondList at the given index.
      */
@@ -83,7 +107,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -92,7 +116,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         getDisableTransferPointInteractionListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -100,7 +124,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getDisableTransferPointInteractionList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -108,7 +132,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     int getDisableTransferPointInteractionListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -117,7 +141,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         getDisableTransferPointInteractionListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -127,7 +151,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 schedule_id = 7;</code>
@@ -137,7 +161,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 activity_id = 3;</code>
@@ -204,33 +228,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               activityId_ = input.readUInt32();
               break;
             }
-            case 48: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                expireCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              expireCondList_.addInt(input.readUInt32());
-              break;
-            }
-            case 50: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
-                expireCondList_ = newIntList();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                expireCondList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 56: {
-
-              scheduleId_ = input.readUInt32();
-              break;
-            }
-            case 64: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 meetCondList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -238,7 +236,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               meetCondList_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -249,6 +247,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
                 meetCondList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 56: {
+
+              scheduleId_ = input.readUInt32();
               break;
             }
             case 88: {
@@ -281,6 +284,27 @@ public final class ActivityCondStateChangeNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
               break;
             }
+            case 112: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                expireCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              expireCondList_.addInt(input.readUInt32());
+              break;
+            }
+            case 114: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
+                expireCondList_ = newIntList();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                expireCondList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -296,9 +320,6 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          expireCondList_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           meetCondList_.makeImmutable(); // C
         }
@@ -307,6 +328,9 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         }
         if (((mutable_bitField0_ & 0x00000008) != 0)) {
           disableTransferPointInteractionList_ = java.util.Collections.unmodifiableList(disableTransferPointInteractionList_);
+        }
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          expireCondList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -325,10 +349,14 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               emu.grasscutter.net.proto.ActivityCondStateChangeNotifyOuterClass.ActivityCondStateChangeNotify.class, emu.grasscutter.net.proto.ActivityCondStateChangeNotifyOuterClass.ActivityCondStateChangeNotify.Builder.class);
     }
 
-    public static final int MEET_COND_LIST_FIELD_NUMBER = 8;
+    public static final int MEET_COND_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList meetCondList_;
     /**
-     * <code>repeated uint32 meet_cond_list = 8;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 4;</code>
      * @return A list containing the meetCondList.
      */
     @java.lang.Override
@@ -337,14 +365,22 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       return meetCondList_;
     }
     /**
-     * <code>repeated uint32 meet_cond_list = 8;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 4;</code>
      * @return The count of meetCondList.
      */
     public int getMeetCondListCount() {
       return meetCondList_.size();
     }
     /**
-     * <code>repeated uint32 meet_cond_list = 8;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 meet_cond_list = 4;</code>
      * @param index The index of the element to return.
      * @return The meetCondList at the given index.
      */
@@ -357,7 +393,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     private com.google.protobuf.Internal.IntList activatedSaleIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -370,7 +406,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -381,7 +417,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -393,10 +429,14 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     private int activatedSaleIdListMemoizedSerializedSize = -1;
 
-    public static final int EXPIRE_COND_LIST_FIELD_NUMBER = 6;
+    public static final int EXPIRE_COND_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList expireCondList_;
     /**
-     * <code>repeated uint32 expire_cond_list = 6;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 expire_cond_list = 14;</code>
      * @return A list containing the expireCondList.
      */
     @java.lang.Override
@@ -405,14 +445,22 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       return expireCondList_;
     }
     /**
-     * <code>repeated uint32 expire_cond_list = 6;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 expire_cond_list = 14;</code>
      * @return The count of expireCondList.
      */
     public int getExpireCondListCount() {
       return expireCondList_.size();
     }
     /**
-     * <code>repeated uint32 expire_cond_list = 6;</code>
+     * <pre>
+     *6.5.5 
+     * </pre>
+     *
+     * <code>repeated uint32 expire_cond_list = 14;</code>
      * @param index The index of the element to return.
      * @return The expireCondList at the given index.
      */
@@ -425,7 +473,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> disableTransferPointInteractionList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -436,7 +484,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -448,7 +496,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -459,7 +507,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -470,7 +518,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -485,7 +533,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     private int scheduleId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 schedule_id = 7;</code>
@@ -500,7 +548,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     private int activityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 activity_id = 3;</code>
@@ -529,22 +577,15 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       if (activityId_ != 0) {
         output.writeUInt32(3, activityId_);
       }
-      if (getExpireCondListList().size() > 0) {
-        output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(expireCondListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < expireCondList_.size(); i++) {
-        output.writeUInt32NoTag(expireCondList_.getInt(i));
-      }
-      if (scheduleId_ != 0) {
-        output.writeUInt32(7, scheduleId_);
-      }
       if (getMeetCondListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(meetCondListMemoizedSerializedSize);
       }
       for (int i = 0; i < meetCondList_.size(); i++) {
         output.writeUInt32NoTag(meetCondList_.getInt(i));
+      }
+      if (scheduleId_ != 0) {
+        output.writeUInt32(7, scheduleId_);
       }
       if (getActivatedSaleIdListList().size() > 0) {
         output.writeUInt32NoTag(90);
@@ -555,6 +596,13 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
         output.writeMessage(13, disableTransferPointInteractionList_.get(i));
+      }
+      if (getExpireCondListList().size() > 0) {
+        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(expireCondListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < expireCondList_.size(); i++) {
+        output.writeUInt32NoTag(expireCondList_.getInt(i));
       }
       unknownFields.writeTo(output);
     }
@@ -571,24 +619,6 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < expireCondList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(expireCondList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getExpireCondListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        expireCondListMemoizedSerializedSize = dataSize;
-      }
-      if (scheduleId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, scheduleId_);
-      }
-      {
-        int dataSize = 0;
         for (int i = 0; i < meetCondList_.size(); i++) {
           dataSize += com.google.protobuf.CodedOutputStream
             .computeUInt32SizeNoTag(meetCondList_.getInt(i));
@@ -600,6 +630,10 @@ public final class ActivityCondStateChangeNotifyOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         meetCondListMemoizedSerializedSize = dataSize;
+      }
+      if (scheduleId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, scheduleId_);
       }
       {
         int dataSize = 0;
@@ -618,6 +652,20 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(13, disableTransferPointInteractionList_.get(i));
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < expireCondList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(expireCondList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getExpireCondListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        expireCondListMemoizedSerializedSize = dataSize;
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1032,7 +1080,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 8;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 4;</code>
        * @return A list containing the meetCondList.
        */
       public java.util.List<java.lang.Integer>
@@ -1041,14 +1093,22 @@ public final class ActivityCondStateChangeNotifyOuterClass {
                  java.util.Collections.unmodifiableList(meetCondList_) : meetCondList_;
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 8;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 4;</code>
        * @return The count of meetCondList.
        */
       public int getMeetCondListCount() {
         return meetCondList_.size();
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 8;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 4;</code>
        * @param index The index of the element to return.
        * @return The meetCondList at the given index.
        */
@@ -1056,7 +1116,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         return meetCondList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 8;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 4;</code>
        * @param index The index to set the value at.
        * @param value The meetCondList to set.
        * @return This builder for chaining.
@@ -1069,7 +1133,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 8;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 4;</code>
        * @param value The meetCondList to add.
        * @return This builder for chaining.
        */
@@ -1080,7 +1148,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 8;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 4;</code>
        * @param values The meetCondList to add.
        * @return This builder for chaining.
        */
@@ -1093,7 +1165,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 meet_cond_list = 8;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 meet_cond_list = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearMeetCondList() {
@@ -1112,7 +1188,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -1125,7 +1201,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -1136,7 +1212,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -1148,7 +1224,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -1165,7 +1241,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -1180,7 +1256,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -1197,7 +1273,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 activated_sale_id_list = 11;</code>
@@ -1218,7 +1294,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 expire_cond_list = 6;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 expire_cond_list = 14;</code>
        * @return A list containing the expireCondList.
        */
       public java.util.List<java.lang.Integer>
@@ -1227,14 +1307,22 @@ public final class ActivityCondStateChangeNotifyOuterClass {
                  java.util.Collections.unmodifiableList(expireCondList_) : expireCondList_;
       }
       /**
-       * <code>repeated uint32 expire_cond_list = 6;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 expire_cond_list = 14;</code>
        * @return The count of expireCondList.
        */
       public int getExpireCondListCount() {
         return expireCondList_.size();
       }
       /**
-       * <code>repeated uint32 expire_cond_list = 6;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 expire_cond_list = 14;</code>
        * @param index The index of the element to return.
        * @return The expireCondList at the given index.
        */
@@ -1242,7 +1330,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         return expireCondList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 expire_cond_list = 6;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 expire_cond_list = 14;</code>
        * @param index The index to set the value at.
        * @param value The expireCondList to set.
        * @return This builder for chaining.
@@ -1255,7 +1347,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 expire_cond_list = 6;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 expire_cond_list = 14;</code>
        * @param value The expireCondList to add.
        * @return This builder for chaining.
        */
@@ -1266,7 +1362,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 expire_cond_list = 6;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 expire_cond_list = 14;</code>
        * @param values The expireCondList to add.
        * @return This builder for chaining.
        */
@@ -1279,7 +1379,11 @@ public final class ActivityCondStateChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 expire_cond_list = 6;</code>
+       * <pre>
+       *6.5.5 
+       * </pre>
+       *
+       * <code>repeated uint32 expire_cond_list = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearExpireCondList() {
@@ -1303,7 +1407,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1317,7 +1421,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1331,7 +1435,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1345,7 +1449,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1366,7 +1470,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1384,7 +1488,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1404,7 +1508,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1425,7 +1529,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1443,7 +1547,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1461,7 +1565,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1480,7 +1584,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1497,7 +1601,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1514,7 +1618,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1525,7 +1629,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1539,7 +1643,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1554,7 +1658,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1565,7 +1669,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1577,7 +1681,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 13;</code>
@@ -1604,7 +1708,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       private int scheduleId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 schedule_id = 7;</code>
@@ -1616,7 +1720,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 schedule_id = 7;</code>
@@ -1631,7 +1735,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 schedule_id = 7;</code>
@@ -1647,7 +1751,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       private int activityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 activity_id = 3;</code>
@@ -1659,7 +1763,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 activity_id = 3;</code>
@@ -1674,7 +1778,7 @@ public final class ActivityCondStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 activity_id = 3;</code>
@@ -1755,9 +1859,9 @@ public final class ActivityCondStateChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n#ActivityCondStateChangeNotify.proto\032\020U" +
       "int32Pair.proto\"\331\001\n\035ActivityCondStateCha" +
-      "ngeNotify\022\026\n\016meet_cond_list\030\010 \003(\r\022\036\n\026act" +
+      "ngeNotify\022\026\n\016meet_cond_list\030\004 \003(\r\022\036\n\026act" +
       "ivated_sale_id_list\030\013 \003(\r\022\030\n\020expire_cond" +
-      "_list\030\006 \003(\r\022<\n\'disable_transfer_point_in" +
+      "_list\030\016 \003(\r\022<\n\'disable_transfer_point_in" +
       "teraction_list\030\r \003(\0132\013.Uint32Pair\022\023\n\013sch" +
       "edule_id\030\007 \001(\r\022\023\n\013activity_id\030\003 \001(\rB\033\n\031e" +
       "mu.grasscutter.net.protob\006proto3"

@@ -20,7 +20,7 @@ public final class AbilityStringOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string str = 1;</code>
@@ -29,7 +29,7 @@ public final class AbilityStringOuterClass {
     boolean hasStr();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string str = 1;</code>
@@ -38,7 +38,7 @@ public final class AbilityStringOuterClass {
     java.lang.String getStr();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string str = 1;</code>
@@ -49,7 +49,7 @@ public final class AbilityStringOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 hash = 2;</code>
@@ -58,7 +58,7 @@ public final class AbilityStringOuterClass {
     boolean hasHash();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 hash = 2;</code>
@@ -200,7 +200,7 @@ public final class AbilityStringOuterClass {
     public static final int STR_FIELD_NUMBER = 1;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string str = 1;</code>
@@ -211,7 +211,7 @@ public final class AbilityStringOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string str = 1;</code>
@@ -236,7 +236,7 @@ public final class AbilityStringOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string str = 1;</code>
@@ -264,7 +264,7 @@ public final class AbilityStringOuterClass {
     public static final int HASH_FIELD_NUMBER = 2;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 hash = 2;</code>
@@ -276,7 +276,7 @@ public final class AbilityStringOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 hash = 2;</code>
@@ -656,7 +656,7 @@ public final class AbilityStringOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string str = 1;</code>
@@ -668,7 +668,7 @@ public final class AbilityStringOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string str = 1;</code>
@@ -694,7 +694,7 @@ public final class AbilityStringOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string str = 1;</code>
@@ -721,7 +721,7 @@ public final class AbilityStringOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string str = 1;</code>
@@ -740,7 +740,7 @@ public final class AbilityStringOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string str = 1;</code>
@@ -756,7 +756,7 @@ public final class AbilityStringOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string str = 1;</code>
@@ -777,7 +777,7 @@ public final class AbilityStringOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 hash = 2;</code>
@@ -788,7 +788,7 @@ public final class AbilityStringOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 hash = 2;</code>
@@ -802,7 +802,7 @@ public final class AbilityStringOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 hash = 2;</code>
@@ -817,7 +817,7 @@ public final class AbilityStringOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 hash = 2;</code>

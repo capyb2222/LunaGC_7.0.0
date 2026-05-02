@@ -20,7 +20,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -29,7 +29,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
         getServerBuffListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -37,7 +37,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -45,7 +45,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     int getServerBuffListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -54,7 +54,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
         getServerBuffListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -64,7 +64,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string attack_tag = 13;</code>
@@ -73,7 +73,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     java.lang.String getAttackTag();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string attack_tag = 13;</code>
@@ -84,7 +84,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 life_state = 3;</code>
@@ -94,7 +94,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 move_reliable_seq = 4;</code>
@@ -104,7 +104,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 14;</code>
@@ -114,7 +114,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 2;</code>
@@ -123,7 +123,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     int getDieTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 2;</code>
@@ -133,7 +133,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 source_entity_id = 12;</code>
@@ -274,7 +274,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -285,7 +285,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -297,7 +297,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -308,7 +308,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -319,7 +319,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -334,7 +334,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     private volatile java.lang.Object attackTag_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string attack_tag = 13;</code>
@@ -355,7 +355,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>string attack_tag = 13;</code>
@@ -380,7 +380,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     private int lifeState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 life_state = 3;</code>
@@ -395,7 +395,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     private int moveReliableSeq_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 move_reliable_seq = 4;</code>
@@ -410,7 +410,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 avatar_guid = 14;</code>
@@ -425,7 +425,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     private int dieType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 2;</code>
@@ -436,7 +436,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PlayerDieType die_type = 2;</code>
@@ -452,7 +452,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
     private int sourceEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 source_entity_id = 12;</code>
@@ -925,7 +925,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -939,7 +939,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -953,7 +953,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -967,7 +967,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -988,7 +988,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1006,7 +1006,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1026,7 +1026,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1047,7 +1047,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1065,7 +1065,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1083,7 +1083,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1102,7 +1102,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1119,7 +1119,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1136,7 +1136,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1147,7 +1147,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1161,7 +1161,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1176,7 +1176,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1187,7 +1187,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1199,7 +1199,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 11;</code>
@@ -1226,7 +1226,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       private java.lang.Object attackTag_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 13;</code>
@@ -1246,7 +1246,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 13;</code>
@@ -1267,7 +1267,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 13;</code>
@@ -1286,7 +1286,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 13;</code>
@@ -1300,7 +1300,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>string attack_tag = 13;</code>
@@ -1322,7 +1322,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       private int lifeState_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 3;</code>
@@ -1334,7 +1334,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 3;</code>
@@ -1349,7 +1349,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 life_state = 3;</code>
@@ -1365,7 +1365,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       private int moveReliableSeq_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 move_reliable_seq = 4;</code>
@@ -1377,7 +1377,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 move_reliable_seq = 4;</code>
@@ -1392,7 +1392,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 move_reliable_seq = 4;</code>
@@ -1408,7 +1408,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 14;</code>
@@ -1420,7 +1420,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 14;</code>
@@ -1435,7 +1435,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 avatar_guid = 14;</code>
@@ -1451,7 +1451,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       private int dieType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 2;</code>
@@ -1462,7 +1462,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 2;</code>
@@ -1477,7 +1477,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 2;</code>
@@ -1491,7 +1491,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 2;</code>
@@ -1509,7 +1509,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PlayerDieType die_type = 2;</code>
@@ -1525,7 +1525,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       private int sourceEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 source_entity_id = 12;</code>
@@ -1537,7 +1537,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 source_entity_id = 12;</code>
@@ -1552,7 +1552,7 @@ public final class AvatarLifeStateChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 source_entity_id = 12;</code>

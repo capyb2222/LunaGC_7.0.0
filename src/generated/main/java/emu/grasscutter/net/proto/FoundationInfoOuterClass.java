@@ -37,7 +37,7 @@ public final class FoundationInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BCFKCAMNCFF status = 1;</code>
@@ -46,7 +46,7 @@ public final class FoundationInfoOuterClass {
     int getStatusValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BCFKCAMNCFF status = 1;</code>
@@ -218,7 +218,7 @@ public final class FoundationInfoOuterClass {
     private int status_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BCFKCAMNCFF status = 1;</code>
@@ -229,7 +229,7 @@ public final class FoundationInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.BCFKCAMNCFF status = 1;</code>
@@ -727,7 +727,7 @@ public final class FoundationInfoOuterClass {
       private int status_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BCFKCAMNCFF status = 1;</code>
@@ -738,7 +738,7 @@ public final class FoundationInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BCFKCAMNCFF status = 1;</code>
@@ -753,7 +753,7 @@ public final class FoundationInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BCFKCAMNCFF status = 1;</code>
@@ -767,7 +767,7 @@ public final class FoundationInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BCFKCAMNCFF status = 1;</code>
@@ -785,7 +785,7 @@ public final class FoundationInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.BCFKCAMNCFF status = 1;</code>

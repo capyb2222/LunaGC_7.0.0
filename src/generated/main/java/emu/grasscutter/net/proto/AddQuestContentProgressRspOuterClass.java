@@ -20,7 +20,7 @@ public final class AddQuestContentProgressRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 32
+     *6.5.5 //6.4.0 //6.5.0          // offset: 32
      * </pre>
      *
      * <code>int32 retcode = 6;</code>
@@ -30,7 +30,7 @@ public final class AddQuestContentProgressRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+     *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
      * </pre>
      *
      * <code>uint32 content_type = 9;</code>
@@ -129,7 +129,7 @@ public final class AddQuestContentProgressRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 32
+     *6.5.5 //6.4.0 //6.5.0          // offset: 32
      * </pre>
      *
      * <code>int32 retcode = 6;</code>
@@ -144,7 +144,7 @@ public final class AddQuestContentProgressRspOuterClass {
     private int contentType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+     *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
      * </pre>
      *
      * <code>uint32 content_type = 9;</code>
@@ -477,7 +477,7 @@ public final class AddQuestContentProgressRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 32
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -489,7 +489,7 @@ public final class AddQuestContentProgressRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 32
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -504,7 +504,7 @@ public final class AddQuestContentProgressRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 32
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -520,7 +520,7 @@ public final class AddQuestContentProgressRspOuterClass {
       private int contentType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+       *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
        * </pre>
        *
        * <code>uint32 content_type = 9;</code>
@@ -532,7 +532,7 @@ public final class AddQuestContentProgressRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+       *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
        * </pre>
        *
        * <code>uint32 content_type = 9;</code>
@@ -547,7 +547,7 @@ public final class AddQuestContentProgressRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
+       *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
        * </pre>
        *
        * <code>uint32 content_type = 9;</code>

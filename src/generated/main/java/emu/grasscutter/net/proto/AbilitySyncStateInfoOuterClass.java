@@ -20,7 +20,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -29,7 +29,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getSgvDynamicValueMapList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -37,7 +37,7 @@ public final class AbilitySyncStateInfoOuterClass {
     emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry getSgvDynamicValueMap(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -45,7 +45,7 @@ public final class AbilitySyncStateInfoOuterClass {
     int getSgvDynamicValueMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -54,7 +54,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getSgvDynamicValueMapOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -64,7 +64,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -73,7 +73,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getAppliedAbilitiesList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -81,7 +81,7 @@ public final class AbilitySyncStateInfoOuterClass {
     emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility getAppliedAbilities(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -89,7 +89,7 @@ public final class AbilitySyncStateInfoOuterClass {
     int getAppliedAbilitiesCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -98,7 +98,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getAppliedAbilitiesOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -108,7 +108,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -117,7 +117,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getMixinRecoverInfosList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -125,7 +125,7 @@ public final class AbilitySyncStateInfoOuterClass {
     emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo getMixinRecoverInfos(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -133,7 +133,7 @@ public final class AbilitySyncStateInfoOuterClass {
     int getMixinRecoverInfosCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -142,7 +142,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getMixinRecoverInfosOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -152,7 +152,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -161,7 +161,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getDynamicValueMapList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -169,7 +169,7 @@ public final class AbilitySyncStateInfoOuterClass {
     emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry getDynamicValueMap(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -177,7 +177,7 @@ public final class AbilitySyncStateInfoOuterClass {
     int getDynamicValueMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -186,7 +186,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getDynamicValueMapOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -196,7 +196,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -205,7 +205,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getAppliedModifiersList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -213,7 +213,7 @@ public final class AbilitySyncStateInfoOuterClass {
     emu.grasscutter.net.proto.AbilityAppliedModifierOuterClass.AbilityAppliedModifier getAppliedModifiers(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -221,7 +221,7 @@ public final class AbilitySyncStateInfoOuterClass {
     int getAppliedModifiersCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -230,7 +230,7 @@ public final class AbilitySyncStateInfoOuterClass {
         getAppliedModifiersOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -240,7 +240,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_inited = 1;</code>
@@ -400,7 +400,7 @@ public final class AbilitySyncStateInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry> sgvDynamicValueMap_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -411,7 +411,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -423,7 +423,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -434,7 +434,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -445,7 +445,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -460,7 +460,7 @@ public final class AbilitySyncStateInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility> appliedAbilities_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -471,7 +471,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -483,7 +483,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -494,7 +494,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -505,7 +505,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -520,7 +520,7 @@ public final class AbilitySyncStateInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo> mixinRecoverInfos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -531,7 +531,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -543,7 +543,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -554,7 +554,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -565,7 +565,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -580,7 +580,7 @@ public final class AbilitySyncStateInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry> dynamicValueMap_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -591,7 +591,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -603,7 +603,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -614,7 +614,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -625,7 +625,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -640,7 +640,7 @@ public final class AbilitySyncStateInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityAppliedModifierOuterClass.AbilityAppliedModifier> appliedModifiers_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -651,7 +651,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -663,7 +663,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -674,7 +674,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -685,7 +685,7 @@ public final class AbilitySyncStateInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -700,7 +700,7 @@ public final class AbilitySyncStateInfoOuterClass {
     private boolean isInited_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_inited = 1;</code>
@@ -1305,7 +1305,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1319,7 +1319,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1333,7 +1333,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1347,7 +1347,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1368,7 +1368,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1386,7 +1386,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1406,7 +1406,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1427,7 +1427,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1445,7 +1445,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1463,7 +1463,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1482,7 +1482,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1499,7 +1499,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1516,7 +1516,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1527,7 +1527,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1541,7 +1541,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1556,7 +1556,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1567,7 +1567,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1579,7 +1579,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry sgv_dynamic_value_map = 6;</code>
@@ -1617,7 +1617,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1631,7 +1631,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1645,7 +1645,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1659,7 +1659,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1680,7 +1680,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1698,7 +1698,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1718,7 +1718,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1739,7 +1739,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1757,7 +1757,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1775,7 +1775,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1794,7 +1794,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1811,7 +1811,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1828,7 +1828,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1839,7 +1839,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1853,7 +1853,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1868,7 +1868,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1879,7 +1879,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1891,7 +1891,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityAppliedAbility applied_abilities = 3;</code>
@@ -1929,7 +1929,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -1943,7 +1943,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -1957,7 +1957,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -1971,7 +1971,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -1992,7 +1992,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2010,7 +2010,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2030,7 +2030,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2051,7 +2051,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2069,7 +2069,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2087,7 +2087,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2106,7 +2106,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2123,7 +2123,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2140,7 +2140,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2151,7 +2151,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2165,7 +2165,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2180,7 +2180,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2191,7 +2191,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2203,7 +2203,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityMixinRecoverInfo mixin_recover_infos = 5;</code>
@@ -2241,7 +2241,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2255,7 +2255,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2269,7 +2269,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2283,7 +2283,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2304,7 +2304,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2322,7 +2322,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2342,7 +2342,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2363,7 +2363,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2381,7 +2381,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2399,7 +2399,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2418,7 +2418,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2435,7 +2435,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2452,7 +2452,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2463,7 +2463,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2477,7 +2477,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2492,7 +2492,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2503,7 +2503,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2515,7 +2515,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry dynamic_value_map = 2;</code>
@@ -2553,7 +2553,7 @@ public final class AbilitySyncStateInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2567,7 +2567,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2581,7 +2581,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2595,7 +2595,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2616,7 +2616,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2634,7 +2634,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2654,7 +2654,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2675,7 +2675,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2693,7 +2693,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2711,7 +2711,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2730,7 +2730,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2747,7 +2747,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2764,7 +2764,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2775,7 +2775,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2789,7 +2789,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2804,7 +2804,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2815,7 +2815,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2827,7 +2827,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .AbilityAppliedModifier applied_modifiers = 4;</code>
@@ -2854,7 +2854,7 @@ public final class AbilitySyncStateInfoOuterClass {
       private boolean isInited_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_inited = 1;</code>
@@ -2866,7 +2866,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_inited = 1;</code>
@@ -2881,7 +2881,7 @@ public final class AbilitySyncStateInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_inited = 1;</code>

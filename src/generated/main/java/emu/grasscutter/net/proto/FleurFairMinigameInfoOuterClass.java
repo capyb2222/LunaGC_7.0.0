@@ -20,7 +20,7 @@ public final class FleurFairMinigameInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 5;</code>
@@ -30,7 +30,7 @@ public final class FleurFairMinigameInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 open_time = 1;</code>
@@ -40,7 +40,7 @@ public final class FleurFairMinigameInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 minigame_id = 14;</code>
@@ -50,7 +50,7 @@ public final class FleurFairMinigameInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -59,7 +59,7 @@ public final class FleurFairMinigameInfoOuterClass {
     boolean hasMusicInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -68,7 +68,7 @@ public final class FleurFairMinigameInfoOuterClass {
     emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo getMusicInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -77,7 +77,7 @@ public final class FleurFairMinigameInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -86,7 +86,7 @@ public final class FleurFairMinigameInfoOuterClass {
     boolean hasFallInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -95,7 +95,7 @@ public final class FleurFairMinigameInfoOuterClass {
     emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo getFallInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -104,7 +104,7 @@ public final class FleurFairMinigameInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -113,7 +113,7 @@ public final class FleurFairMinigameInfoOuterClass {
     boolean hasBalloonInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -122,7 +122,7 @@ public final class FleurFairMinigameInfoOuterClass {
     emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo getBalloonInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -312,7 +312,7 @@ public final class FleurFairMinigameInfoOuterClass {
     private boolean isOpen_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_open = 5;</code>
@@ -327,7 +327,7 @@ public final class FleurFairMinigameInfoOuterClass {
     private int openTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 open_time = 1;</code>
@@ -342,7 +342,7 @@ public final class FleurFairMinigameInfoOuterClass {
     private int minigameId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 minigame_id = 14;</code>
@@ -356,7 +356,7 @@ public final class FleurFairMinigameInfoOuterClass {
     public static final int MUSIC_INFO_FIELD_NUMBER = 9;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -368,7 +368,7 @@ public final class FleurFairMinigameInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -383,7 +383,7 @@ public final class FleurFairMinigameInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -399,7 +399,7 @@ public final class FleurFairMinigameInfoOuterClass {
     public static final int FALL_INFO_FIELD_NUMBER = 7;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -411,7 +411,7 @@ public final class FleurFairMinigameInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -426,7 +426,7 @@ public final class FleurFairMinigameInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -442,7 +442,7 @@ public final class FleurFairMinigameInfoOuterClass {
     public static final int BALLOON_INFO_FIELD_NUMBER = 15;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -454,7 +454,7 @@ public final class FleurFairMinigameInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -469,7 +469,7 @@ public final class FleurFairMinigameInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -932,7 +932,7 @@ public final class FleurFairMinigameInfoOuterClass {
       private boolean isOpen_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 5;</code>
@@ -944,7 +944,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 5;</code>
@@ -959,7 +959,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_open = 5;</code>
@@ -975,7 +975,7 @@ public final class FleurFairMinigameInfoOuterClass {
       private int openTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 open_time = 1;</code>
@@ -987,7 +987,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 open_time = 1;</code>
@@ -1002,7 +1002,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 open_time = 1;</code>
@@ -1018,7 +1018,7 @@ public final class FleurFairMinigameInfoOuterClass {
       private int minigameId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 minigame_id = 14;</code>
@@ -1030,7 +1030,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 minigame_id = 14;</code>
@@ -1045,7 +1045,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 minigame_id = 14;</code>
@@ -1062,7 +1062,7 @@ public final class FleurFairMinigameInfoOuterClass {
           emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo, emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfo.Builder, emu.grasscutter.net.proto.FleurFairMusicGameInfoOuterClass.FleurFairMusicGameInfoOrBuilder> musicInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -1074,7 +1074,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -1096,7 +1096,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -1116,7 +1116,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -1134,7 +1134,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -1160,7 +1160,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -1183,7 +1183,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -1193,7 +1193,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -1211,7 +1211,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairMusicGameInfo music_info = 9;</code>
@@ -1239,7 +1239,7 @@ public final class FleurFairMinigameInfoOuterClass {
           emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo, emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfo.Builder, emu.grasscutter.net.proto.FleurFairFallInfoOuterClass.FleurFairFallInfoOrBuilder> fallInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -1251,7 +1251,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -1273,7 +1273,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -1293,7 +1293,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -1311,7 +1311,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -1337,7 +1337,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -1360,7 +1360,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -1370,7 +1370,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -1388,7 +1388,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairFallInfo fall_info = 7;</code>
@@ -1416,7 +1416,7 @@ public final class FleurFairMinigameInfoOuterClass {
           emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfo.Builder, emu.grasscutter.net.proto.FleurFairBalloonInfoOuterClass.FleurFairBalloonInfoOrBuilder> balloonInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -1428,7 +1428,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -1450,7 +1450,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -1470,7 +1470,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -1488,7 +1488,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -1514,7 +1514,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -1537,7 +1537,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -1547,7 +1547,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairBalloonInfo balloon_info = 15;</code>
@@ -1565,7 +1565,7 @@ public final class FleurFairMinigameInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FleurFairBalloonInfo balloon_info = 15;</code>

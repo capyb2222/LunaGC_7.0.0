@@ -20,7 +20,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -29,7 +29,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
         getSceneTeamAvatarListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -37,7 +37,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar getSceneTeamAvatarList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -45,7 +45,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     int getSceneTeamAvatarListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -54,7 +54,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
         getSceneTeamAvatarListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -64,7 +64,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>bool is_in_mp = 14;</code>
@@ -176,7 +176,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.SceneTeamAvatarOuterClass.SceneTeamAvatar> sceneTeamAvatarList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -187,7 +187,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -199,7 +199,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -210,7 +210,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -221,7 +221,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 32
+     *6.5.5 //6.4.0 //6.5.0            // offset: 32
      * </pre>
      *
      * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -236,7 +236,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
     private boolean isInMp_;
     /**
      * <pre>
-     *6.4.0 //6.5.0            // offset: 40
+     *6.5.5 //6.4.0 //6.5.0            // offset: 40
      * </pre>
      *
      * <code>bool is_in_mp = 14;</code>
@@ -625,7 +625,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -639,7 +639,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -653,7 +653,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -667,7 +667,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -688,7 +688,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -706,7 +706,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -726,7 +726,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -747,7 +747,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -765,7 +765,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -783,7 +783,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -802,7 +802,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -819,7 +819,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -836,7 +836,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -847,7 +847,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -861,7 +861,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -876,7 +876,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -887,7 +887,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -899,7 +899,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 32
+       *6.5.5 //6.4.0 //6.5.0            // offset: 32
        * </pre>
        *
        * <code>repeated .SceneTeamAvatar scene_team_avatar_list = 15;</code>
@@ -926,7 +926,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       private boolean isInMp_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>bool is_in_mp = 14;</code>
@@ -938,7 +938,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>bool is_in_mp = 14;</code>
@@ -953,7 +953,7 @@ public final class SceneTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0            // offset: 40
+       *6.5.5 //6.4.0 //6.5.0            // offset: 40
        * </pre>
        *
        * <code>bool is_in_mp = 14;</code>

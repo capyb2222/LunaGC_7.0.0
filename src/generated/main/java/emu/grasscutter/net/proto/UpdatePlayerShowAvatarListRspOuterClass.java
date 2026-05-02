@@ -20,7 +20,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -29,7 +29,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     java.util.List<java.lang.Integer> getShowAvatarIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -38,7 +38,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     int getShowAvatarIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -49,7 +49,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 3;</code>
@@ -69,7 +69,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_show_avatar = 8;</code>
@@ -203,7 +203,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     private com.google.protobuf.Internal.IntList showAvatarIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -216,7 +216,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -227,7 +227,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -243,7 +243,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 3;</code>
@@ -273,7 +273,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
     private boolean isShowAvatar_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_show_avatar = 8;</code>
@@ -682,7 +682,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -695,7 +695,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -706,7 +706,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -718,7 +718,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -735,7 +735,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -750,7 +750,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -767,7 +767,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint32 show_avatar_id_list = 13;</code>
@@ -783,7 +783,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 3;</code>
@@ -795,7 +795,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 3;</code>
@@ -810,7 +810,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 3;</code>
@@ -869,7 +869,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       private boolean isShowAvatar_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_show_avatar = 8;</code>
@@ -881,7 +881,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_show_avatar = 8;</code>
@@ -896,7 +896,7 @@ public final class UpdatePlayerShowAvatarListRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_show_avatar = 8;</code>

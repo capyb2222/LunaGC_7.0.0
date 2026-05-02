@@ -20,7 +20,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 argument_list = 1;</code>
@@ -29,7 +29,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
     java.util.List<java.lang.Integer> getArgumentListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 argument_list = 1;</code>
@@ -38,7 +38,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
     int getArgumentListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 argument_list = 1;</code>
@@ -154,7 +154,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
     private com.google.protobuf.Internal.IntList argumentList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 argument_list = 1;</code>
@@ -167,7 +167,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 argument_list = 1;</code>
@@ -178,7 +178,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 argument_list = 1;</code>
@@ -531,7 +531,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 argument_list = 1;</code>
@@ -544,7 +544,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 argument_list = 1;</code>
@@ -555,7 +555,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 argument_list = 1;</code>
@@ -567,7 +567,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 argument_list = 1;</code>
@@ -584,7 +584,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 argument_list = 1;</code>
@@ -599,7 +599,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 argument_list = 1;</code>
@@ -616,7 +616,7 @@ public final class DeshretObeliskGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 argument_list = 1;</code>

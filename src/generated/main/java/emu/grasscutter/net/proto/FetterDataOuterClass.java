@@ -20,7 +20,7 @@ public final class FetterDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 cond_index_list = 3;</code>
@@ -29,7 +29,7 @@ public final class FetterDataOuterClass {
     java.util.List<java.lang.Integer> getCondIndexListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 cond_index_list = 3;</code>
@@ -38,7 +38,7 @@ public final class FetterDataOuterClass {
     int getCondIndexListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 cond_index_list = 3;</code>
@@ -49,7 +49,7 @@ public final class FetterDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 fetter_id = 1;</code>
@@ -59,7 +59,7 @@ public final class FetterDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 fetter_state = 2;</code>
@@ -184,7 +184,7 @@ public final class FetterDataOuterClass {
     private com.google.protobuf.Internal.IntList condIndexList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 cond_index_list = 3;</code>
@@ -197,7 +197,7 @@ public final class FetterDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 cond_index_list = 3;</code>
@@ -208,7 +208,7 @@ public final class FetterDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 cond_index_list = 3;</code>
@@ -224,7 +224,7 @@ public final class FetterDataOuterClass {
     private int fetterId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 fetter_id = 1;</code>
@@ -239,7 +239,7 @@ public final class FetterDataOuterClass {
     private int fetterState_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 fetter_state = 2;</code>
@@ -625,7 +625,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 cond_index_list = 3;</code>
@@ -638,7 +638,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 cond_index_list = 3;</code>
@@ -649,7 +649,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 cond_index_list = 3;</code>
@@ -661,7 +661,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 cond_index_list = 3;</code>
@@ -678,7 +678,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 cond_index_list = 3;</code>
@@ -693,7 +693,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 cond_index_list = 3;</code>
@@ -710,7 +710,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 cond_index_list = 3;</code>
@@ -726,7 +726,7 @@ public final class FetterDataOuterClass {
       private int fetterId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 fetter_id = 1;</code>
@@ -738,7 +738,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 fetter_id = 1;</code>
@@ -753,7 +753,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 fetter_id = 1;</code>
@@ -769,7 +769,7 @@ public final class FetterDataOuterClass {
       private int fetterState_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 fetter_state = 2;</code>
@@ -781,7 +781,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 fetter_state = 2;</code>
@@ -796,7 +796,7 @@ public final class FetterDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 fetter_state = 2;</code>

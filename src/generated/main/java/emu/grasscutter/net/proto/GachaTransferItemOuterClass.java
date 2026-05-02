@@ -20,7 +20,7 @@ public final class GachaTransferItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam item = 11;</code>
@@ -29,7 +29,7 @@ public final class GachaTransferItemOuterClass {
     boolean hasItem();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam item = 11;</code>
@@ -38,7 +38,7 @@ public final class GachaTransferItemOuterClass {
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItem();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam item = 11;</code>
@@ -47,7 +47,7 @@ public final class GachaTransferItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_transfer_item_new = 10;</code>
@@ -154,7 +154,7 @@ public final class GachaTransferItemOuterClass {
     private emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam item_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam item = 11;</code>
@@ -166,7 +166,7 @@ public final class GachaTransferItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam item = 11;</code>
@@ -178,7 +178,7 @@ public final class GachaTransferItemOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.ItemParam item = 11;</code>
@@ -192,7 +192,7 @@ public final class GachaTransferItemOuterClass {
     private boolean isTransferItemNew_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_transfer_item_new = 10;</code>
@@ -541,7 +541,7 @@ public final class GachaTransferItemOuterClass {
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> itemBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam item = 11;</code>
@@ -552,7 +552,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam item = 11;</code>
@@ -567,7 +567,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam item = 11;</code>
@@ -587,7 +587,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam item = 11;</code>
@@ -605,7 +605,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam item = 11;</code>
@@ -627,7 +627,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam item = 11;</code>
@@ -645,7 +645,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam item = 11;</code>
@@ -657,7 +657,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam item = 11;</code>
@@ -672,7 +672,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.ItemParam item = 11;</code>
@@ -694,7 +694,7 @@ public final class GachaTransferItemOuterClass {
       private boolean isTransferItemNew_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_transfer_item_new = 10;</code>
@@ -706,7 +706,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_transfer_item_new = 10;</code>
@@ -721,7 +721,7 @@ public final class GachaTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_transfer_item_new = 10;</code>

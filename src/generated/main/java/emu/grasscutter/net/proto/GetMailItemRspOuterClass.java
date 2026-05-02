@@ -20,7 +20,7 @@ public final class GetMailItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 1;</code>
@@ -30,7 +30,7 @@ public final class GetMailItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 12;</code>
@@ -39,7 +39,7 @@ public final class GetMailItemRspOuterClass {
     java.util.List<java.lang.Integer> getMailIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 12;</code>
@@ -48,7 +48,7 @@ public final class GetMailItemRspOuterClass {
     int getMailIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 12;</code>
@@ -59,7 +59,7 @@ public final class GetMailItemRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -68,7 +68,7 @@ public final class GetMailItemRspOuterClass {
         getItemListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -76,7 +76,7 @@ public final class GetMailItemRspOuterClass {
     emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam getItemList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -84,7 +84,7 @@ public final class GetMailItemRspOuterClass {
     int getItemListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -93,7 +93,7 @@ public final class GetMailItemRspOuterClass {
         getItemListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -231,7 +231,7 @@ public final class GetMailItemRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 1;</code>
@@ -246,7 +246,7 @@ public final class GetMailItemRspOuterClass {
     private com.google.protobuf.Internal.IntList mailIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 12;</code>
@@ -259,7 +259,7 @@ public final class GetMailItemRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 12;</code>
@@ -270,7 +270,7 @@ public final class GetMailItemRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 mail_id_list = 12;</code>
@@ -286,7 +286,7 @@ public final class GetMailItemRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam> itemList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -297,7 +297,7 @@ public final class GetMailItemRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -309,7 +309,7 @@ public final class GetMailItemRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -320,7 +320,7 @@ public final class GetMailItemRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -331,7 +331,7 @@ public final class GetMailItemRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .EquipParam item_list = 14;</code>
@@ -754,7 +754,7 @@ public final class GetMailItemRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -766,7 +766,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -781,7 +781,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 1;</code>
@@ -803,7 +803,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 12;</code>
@@ -816,7 +816,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 12;</code>
@@ -827,7 +827,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 12;</code>
@@ -839,7 +839,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 12;</code>
@@ -856,7 +856,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 12;</code>
@@ -871,7 +871,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 12;</code>
@@ -888,7 +888,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 mail_id_list = 12;</code>
@@ -915,7 +915,7 @@ public final class GetMailItemRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -929,7 +929,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -943,7 +943,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -957,7 +957,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -978,7 +978,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -996,7 +996,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1016,7 +1016,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1037,7 +1037,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1055,7 +1055,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1073,7 +1073,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1092,7 +1092,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1109,7 +1109,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1126,7 +1126,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1137,7 +1137,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1151,7 +1151,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1166,7 +1166,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1177,7 +1177,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>
@@ -1189,7 +1189,7 @@ public final class GetMailItemRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .EquipParam item_list = 14;</code>

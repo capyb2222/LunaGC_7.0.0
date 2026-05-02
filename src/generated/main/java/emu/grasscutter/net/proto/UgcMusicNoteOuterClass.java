@@ -20,7 +20,7 @@ public final class UgcMusicNoteOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_time = 10;</code>
@@ -30,7 +30,7 @@ public final class UgcMusicNoteOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 end_time = 14;</code>
@@ -129,7 +129,7 @@ public final class UgcMusicNoteOuterClass {
     private int startTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_time = 10;</code>
@@ -144,7 +144,7 @@ public final class UgcMusicNoteOuterClass {
     private int endTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 end_time = 14;</code>
@@ -477,7 +477,7 @@ public final class UgcMusicNoteOuterClass {
       private int startTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_time = 10;</code>
@@ -489,7 +489,7 @@ public final class UgcMusicNoteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_time = 10;</code>
@@ -504,7 +504,7 @@ public final class UgcMusicNoteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_time = 10;</code>
@@ -520,7 +520,7 @@ public final class UgcMusicNoteOuterClass {
       private int endTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 14;</code>
@@ -532,7 +532,7 @@ public final class UgcMusicNoteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 14;</code>
@@ -547,7 +547,7 @@ public final class UgcMusicNoteOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 end_time = 14;</code>

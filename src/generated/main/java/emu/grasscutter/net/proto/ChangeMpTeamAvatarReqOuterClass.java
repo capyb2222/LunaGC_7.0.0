@@ -20,7 +20,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -29,7 +29,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     java.util.List<java.lang.Long> getAvatarGuidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -38,7 +38,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     int getAvatarGuidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -49,7 +49,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 cur_avatar_guid = 11;</code>
@@ -173,7 +173,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -186,7 +186,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -197,7 +197,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -213,7 +213,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
     private long curAvatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 cur_avatar_guid = 11;</code>
@@ -587,7 +587,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -600,7 +600,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -611,7 +611,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -623,7 +623,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -640,7 +640,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -655,7 +655,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -672,7 +672,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>repeated uint64 avatar_guid_list = 2;</code>
@@ -688,7 +688,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       private long curAvatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 cur_avatar_guid = 11;</code>
@@ -700,7 +700,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 cur_avatar_guid = 11;</code>
@@ -715,7 +715,7 @@ public final class ChangeMpTeamAvatarReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 cur_avatar_guid = 11;</code>

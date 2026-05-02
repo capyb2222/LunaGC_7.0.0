@@ -32,7 +32,7 @@ public final class SocialShowAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 1;</code>
@@ -42,7 +42,7 @@ public final class SocialShowAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 2;</code>
@@ -52,7 +52,7 @@ public final class SocialShowAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 costume_id = 3;</code>
@@ -188,7 +188,7 @@ public final class SocialShowAvatarInfoOuterClass {
     private int avatarId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 avatar_id = 1;</code>
@@ -203,7 +203,7 @@ public final class SocialShowAvatarInfoOuterClass {
     private int level_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 level = 2;</code>
@@ -218,7 +218,7 @@ public final class SocialShowAvatarInfoOuterClass {
     private int costumeId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 costume_id = 3;</code>
@@ -664,7 +664,7 @@ public final class SocialShowAvatarInfoOuterClass {
       private int avatarId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 1;</code>
@@ -676,7 +676,7 @@ public final class SocialShowAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 1;</code>
@@ -691,7 +691,7 @@ public final class SocialShowAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 avatar_id = 1;</code>
@@ -707,7 +707,7 @@ public final class SocialShowAvatarInfoOuterClass {
       private int level_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 2;</code>
@@ -719,7 +719,7 @@ public final class SocialShowAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 2;</code>
@@ -734,7 +734,7 @@ public final class SocialShowAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 level = 2;</code>
@@ -750,7 +750,7 @@ public final class SocialShowAvatarInfoOuterClass {
       private int costumeId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 costume_id = 3;</code>
@@ -762,7 +762,7 @@ public final class SocialShowAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 costume_id = 3;</code>
@@ -777,7 +777,7 @@ public final class SocialShowAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 costume_id = 3;</code>

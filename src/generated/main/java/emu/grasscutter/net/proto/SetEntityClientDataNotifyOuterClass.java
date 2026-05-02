@@ -20,7 +20,7 @@ public final class SetEntityClientDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 5;</code>
@@ -29,7 +29,7 @@ public final class SetEntityClientDataNotifyOuterClass {
     boolean hasEntityClientData();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 5;</code>
@@ -38,7 +38,7 @@ public final class SetEntityClientDataNotifyOuterClass {
     emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData getEntityClientData();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 5;</code>
@@ -47,7 +47,7 @@ public final class SetEntityClientDataNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -158,7 +158,7 @@ public final class SetEntityClientDataNotifyOuterClass {
     private emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData entityClientData_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 5;</code>
@@ -170,7 +170,7 @@ public final class SetEntityClientDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 5;</code>
@@ -182,7 +182,7 @@ public final class SetEntityClientDataNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientData entity_client_data = 5;</code>
@@ -196,7 +196,7 @@ public final class SetEntityClientDataNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 4;</code>
@@ -548,7 +548,7 @@ public final class SetEntityClientDataNotifyOuterClass {
           emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientData.Builder, emu.grasscutter.net.proto.EntityClientDataOuterClass.EntityClientDataOrBuilder> entityClientDataBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 5;</code>
@@ -559,7 +559,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 5;</code>
@@ -574,7 +574,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 5;</code>
@@ -594,7 +594,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 5;</code>
@@ -612,7 +612,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 5;</code>
@@ -634,7 +634,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 5;</code>
@@ -652,7 +652,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 5;</code>
@@ -664,7 +664,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 5;</code>
@@ -679,7 +679,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientData entity_client_data = 5;</code>
@@ -701,7 +701,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -713,7 +713,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>
@@ -728,7 +728,7 @@ public final class SetEntityClientDataNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 4;</code>

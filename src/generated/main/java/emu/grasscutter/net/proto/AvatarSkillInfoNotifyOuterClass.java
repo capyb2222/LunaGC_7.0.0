@@ -20,7 +20,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -28,7 +28,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     int getSkillMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -43,7 +43,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     getSkillMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -52,7 +52,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     getSkillMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -63,7 +63,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
         emu.grasscutter.net.proto.AvatarSkillInfoOuterClass.AvatarSkillInfo defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -74,7 +74,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 15;</code>
@@ -222,7 +222,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -244,7 +244,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -256,7 +256,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -273,7 +273,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -295,7 +295,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 15;</code>
@@ -692,7 +692,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -714,7 +714,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -726,7 +726,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -743,7 +743,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -768,7 +768,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -791,7 +791,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -807,7 +807,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarSkillInfo&gt; skill_map = 8;</code>
@@ -823,7 +823,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 15;</code>
@@ -835,7 +835,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 15;</code>
@@ -850,7 +850,7 @@ public final class AvatarSkillInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 15;</code>

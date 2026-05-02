@@ -20,7 +20,7 @@ public final class OpenStateUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        // offset: 32
+     *6.5.5 //6.4.0 //6.5.0        // offset: 32
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -28,7 +28,7 @@ public final class OpenStateUpdateNotifyOuterClass {
     int getOpenStateMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        // offset: 32
+     *6.5.5 //6.4.0 //6.5.0        // offset: 32
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -43,7 +43,7 @@ public final class OpenStateUpdateNotifyOuterClass {
     getOpenStateMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        // offset: 32
+     *6.5.5 //6.4.0 //6.5.0        // offset: 32
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -52,7 +52,7 @@ public final class OpenStateUpdateNotifyOuterClass {
     getOpenStateMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0        // offset: 32
+     *6.5.5 //6.4.0 //6.5.0        // offset: 32
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -63,7 +63,7 @@ public final class OpenStateUpdateNotifyOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0        // offset: 32
+     *6.5.5 //6.4.0 //6.5.0        // offset: 32
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -207,7 +207,7 @@ public final class OpenStateUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        // offset: 32
+     *6.5.5 //6.4.0 //6.5.0        // offset: 32
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -229,7 +229,7 @@ public final class OpenStateUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        // offset: 32
+     *6.5.5 //6.4.0 //6.5.0        // offset: 32
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -241,7 +241,7 @@ public final class OpenStateUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        // offset: 32
+     *6.5.5 //6.4.0 //6.5.0        // offset: 32
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -258,7 +258,7 @@ public final class OpenStateUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        // offset: 32
+     *6.5.5 //6.4.0 //6.5.0        // offset: 32
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -644,7 +644,7 @@ public final class OpenStateUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        // offset: 32
+       *6.5.5 //6.4.0 //6.5.0        // offset: 32
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -666,7 +666,7 @@ public final class OpenStateUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        // offset: 32
+       *6.5.5 //6.4.0 //6.5.0        // offset: 32
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -678,7 +678,7 @@ public final class OpenStateUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        // offset: 32
+       *6.5.5 //6.4.0 //6.5.0        // offset: 32
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -695,7 +695,7 @@ public final class OpenStateUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        // offset: 32
+       *6.5.5 //6.4.0 //6.5.0        // offset: 32
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -720,7 +720,7 @@ public final class OpenStateUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        // offset: 32
+       *6.5.5 //6.4.0 //6.5.0        // offset: 32
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -743,7 +743,7 @@ public final class OpenStateUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        // offset: 32
+       *6.5.5 //6.4.0 //6.5.0        // offset: 32
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>
@@ -759,7 +759,7 @@ public final class OpenStateUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        // offset: 32
+       *6.5.5 //6.4.0 //6.5.0        // offset: 32
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; open_state_map = 4;</code>

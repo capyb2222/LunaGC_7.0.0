@@ -20,7 +20,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -29,7 +29,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
     boolean hasRoutineInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -38,7 +38,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
     emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo getRoutineInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -47,7 +47,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 routine_type = 1;</code>
@@ -158,7 +158,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
     private emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo routineInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -170,7 +170,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -182,7 +182,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -196,7 +196,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
     private int routineType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 routine_type = 1;</code>
@@ -548,7 +548,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
           emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder> routineInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -559,7 +559,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -574,7 +574,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -594,7 +594,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -612,7 +612,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -634,7 +634,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -652,7 +652,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -664,7 +664,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -679,7 +679,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
@@ -701,7 +701,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       private int routineType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 routine_type = 1;</code>
@@ -713,7 +713,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 routine_type = 1;</code>
@@ -728,7 +728,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 routine_type = 1;</code>

@@ -20,7 +20,7 @@ public final class VehicleStaminaNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float cur_stamina = 13;</code>
@@ -30,7 +30,7 @@ public final class VehicleStaminaNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 entity_id = 11;</code>
@@ -133,7 +133,7 @@ public final class VehicleStaminaNotifyOuterClass {
     private float curStamina_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>float cur_stamina = 13;</code>
@@ -148,7 +148,7 @@ public final class VehicleStaminaNotifyOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 entity_id = 11;</code>
@@ -487,7 +487,7 @@ public final class VehicleStaminaNotifyOuterClass {
       private float curStamina_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float cur_stamina = 13;</code>
@@ -499,7 +499,7 @@ public final class VehicleStaminaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float cur_stamina = 13;</code>
@@ -514,7 +514,7 @@ public final class VehicleStaminaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>float cur_stamina = 13;</code>
@@ -530,7 +530,7 @@ public final class VehicleStaminaNotifyOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -542,7 +542,7 @@ public final class VehicleStaminaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -557,7 +557,7 @@ public final class VehicleStaminaNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>

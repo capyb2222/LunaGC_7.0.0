@@ -20,7 +20,7 @@ public final class HuntingOfferDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingPair hunting_pair = 7;</code>
@@ -29,7 +29,7 @@ public final class HuntingOfferDataOuterClass {
     boolean hasHuntingPair();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingPair hunting_pair = 7;</code>
@@ -38,7 +38,7 @@ public final class HuntingOfferDataOuterClass {
     emu.grasscutter.net.proto.HuntingPairOuterClass.HuntingPair getHuntingPair();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingPair hunting_pair = 7;</code>
@@ -47,7 +47,7 @@ public final class HuntingOfferDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingOfferState state = 5;</code>
@@ -56,7 +56,7 @@ public final class HuntingOfferDataOuterClass {
     int getStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingOfferState state = 5;</code>
@@ -66,7 +66,7 @@ public final class HuntingOfferDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 city_id = 15;</code>
@@ -180,7 +180,7 @@ public final class HuntingOfferDataOuterClass {
     private emu.grasscutter.net.proto.HuntingPairOuterClass.HuntingPair huntingPair_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingPair hunting_pair = 7;</code>
@@ -192,7 +192,7 @@ public final class HuntingOfferDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingPair hunting_pair = 7;</code>
@@ -204,7 +204,7 @@ public final class HuntingOfferDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingPair hunting_pair = 7;</code>
@@ -218,7 +218,7 @@ public final class HuntingOfferDataOuterClass {
     private int state_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingOfferState state = 5;</code>
@@ -229,7 +229,7 @@ public final class HuntingOfferDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.HuntingOfferState state = 5;</code>
@@ -245,7 +245,7 @@ public final class HuntingOfferDataOuterClass {
     private int cityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 city_id = 15;</code>
@@ -609,7 +609,7 @@ public final class HuntingOfferDataOuterClass {
           emu.grasscutter.net.proto.HuntingPairOuterClass.HuntingPair, emu.grasscutter.net.proto.HuntingPairOuterClass.HuntingPair.Builder, emu.grasscutter.net.proto.HuntingPairOuterClass.HuntingPairOrBuilder> huntingPairBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingPair hunting_pair = 7;</code>
@@ -620,7 +620,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingPair hunting_pair = 7;</code>
@@ -635,7 +635,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingPair hunting_pair = 7;</code>
@@ -655,7 +655,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingPair hunting_pair = 7;</code>
@@ -673,7 +673,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingPair hunting_pair = 7;</code>
@@ -695,7 +695,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingPair hunting_pair = 7;</code>
@@ -713,7 +713,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingPair hunting_pair = 7;</code>
@@ -725,7 +725,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingPair hunting_pair = 7;</code>
@@ -740,7 +740,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingPair hunting_pair = 7;</code>
@@ -762,7 +762,7 @@ public final class HuntingOfferDataOuterClass {
       private int state_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingOfferState state = 5;</code>
@@ -773,7 +773,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingOfferState state = 5;</code>
@@ -788,7 +788,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingOfferState state = 5;</code>
@@ -802,7 +802,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingOfferState state = 5;</code>
@@ -820,7 +820,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.HuntingOfferState state = 5;</code>
@@ -836,7 +836,7 @@ public final class HuntingOfferDataOuterClass {
       private int cityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 city_id = 15;</code>
@@ -848,7 +848,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 city_id = 15;</code>
@@ -863,7 +863,7 @@ public final class HuntingOfferDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 city_id = 15;</code>

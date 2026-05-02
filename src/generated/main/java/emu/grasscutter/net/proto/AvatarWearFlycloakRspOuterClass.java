@@ -26,7 +26,7 @@ public final class AvatarWearFlycloakRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 flycloak_id = 9;</code>
@@ -36,7 +36,7 @@ public final class AvatarWearFlycloakRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 14;</code>
@@ -155,7 +155,7 @@ public final class AvatarWearFlycloakRspOuterClass {
     private int flycloakId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 flycloak_id = 9;</code>
@@ -170,7 +170,7 @@ public final class AvatarWearFlycloakRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 14;</code>
@@ -556,7 +556,7 @@ public final class AvatarWearFlycloakRspOuterClass {
       private int flycloakId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 flycloak_id = 9;</code>
@@ -568,7 +568,7 @@ public final class AvatarWearFlycloakRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 flycloak_id = 9;</code>
@@ -583,7 +583,7 @@ public final class AvatarWearFlycloakRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 flycloak_id = 9;</code>
@@ -599,7 +599,7 @@ public final class AvatarWearFlycloakRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -611,7 +611,7 @@ public final class AvatarWearFlycloakRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 14;</code>
@@ -626,7 +626,7 @@ public final class AvatarWearFlycloakRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 14;</code>

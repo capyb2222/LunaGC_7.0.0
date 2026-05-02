@@ -20,7 +20,7 @@ public final class MapAreaInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 map_area_id = 1;</code>
@@ -30,7 +30,7 @@ public final class MapAreaInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_open = 2;</code>
@@ -129,7 +129,7 @@ public final class MapAreaInfoOuterClass {
     private int mapAreaId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 map_area_id = 1;</code>
@@ -144,7 +144,7 @@ public final class MapAreaInfoOuterClass {
     private boolean isOpen_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>bool is_open = 2;</code>
@@ -478,7 +478,7 @@ public final class MapAreaInfoOuterClass {
       private int mapAreaId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 map_area_id = 1;</code>
@@ -490,7 +490,7 @@ public final class MapAreaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 map_area_id = 1;</code>
@@ -505,7 +505,7 @@ public final class MapAreaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 map_area_id = 1;</code>
@@ -521,7 +521,7 @@ public final class MapAreaInfoOuterClass {
       private boolean isOpen_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_open = 2;</code>
@@ -533,7 +533,7 @@ public final class MapAreaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_open = 2;</code>
@@ -548,7 +548,7 @@ public final class MapAreaInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>bool is_open = 2;</code>

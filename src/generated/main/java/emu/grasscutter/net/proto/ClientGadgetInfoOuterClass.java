@@ -20,7 +20,7 @@ public final class ClientGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -29,7 +29,7 @@ public final class ClientGadgetInfoOuterClass {
     java.util.List<java.lang.Integer> getTargetEntityIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -38,7 +38,7 @@ public final class ClientGadgetInfoOuterClass {
     int getTargetEntityIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -49,7 +49,7 @@ public final class ClientGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -58,7 +58,7 @@ public final class ClientGadgetInfoOuterClass {
     java.util.List<java.lang.Integer> getTargetLockPointIndexListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -67,7 +67,7 @@ public final class ClientGadgetInfoOuterClass {
     int getTargetLockPointIndexListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -78,7 +78,7 @@ public final class ClientGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_entity_id = 5;</code>
@@ -88,7 +88,7 @@ public final class ClientGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 4;</code>
@@ -98,7 +98,7 @@ public final class ClientGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 camp_type = 2;</code>
@@ -108,7 +108,7 @@ public final class ClientGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 camp_id = 1;</code>
@@ -118,7 +118,7 @@ public final class ClientGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 3;</code>
@@ -128,7 +128,7 @@ public final class ClientGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool async_load = 6;</code>
@@ -138,7 +138,7 @@ public final class ClientGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_peer_id_from_player = 7;</code>
@@ -313,7 +313,7 @@ public final class ClientGadgetInfoOuterClass {
     private com.google.protobuf.Internal.IntList targetEntityIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -326,7 +326,7 @@ public final class ClientGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -337,7 +337,7 @@ public final class ClientGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -353,7 +353,7 @@ public final class ClientGadgetInfoOuterClass {
     private com.google.protobuf.Internal.IntList targetLockPointIndexList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -366,7 +366,7 @@ public final class ClientGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -377,7 +377,7 @@ public final class ClientGadgetInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -393,7 +393,7 @@ public final class ClientGadgetInfoOuterClass {
     private int targetEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 target_entity_id = 5;</code>
@@ -408,7 +408,7 @@ public final class ClientGadgetInfoOuterClass {
     private int ownerEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 owner_entity_id = 4;</code>
@@ -423,7 +423,7 @@ public final class ClientGadgetInfoOuterClass {
     private int campType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 camp_type = 2;</code>
@@ -438,7 +438,7 @@ public final class ClientGadgetInfoOuterClass {
     private int campId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 camp_id = 1;</code>
@@ -453,7 +453,7 @@ public final class ClientGadgetInfoOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 guid = 3;</code>
@@ -468,7 +468,7 @@ public final class ClientGadgetInfoOuterClass {
     private boolean asyncLoad_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool async_load = 6;</code>
@@ -483,7 +483,7 @@ public final class ClientGadgetInfoOuterClass {
     private boolean isPeerIdFromPlayer_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_peer_id_from_player = 7;</code>
@@ -1001,7 +1001,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -1014,7 +1014,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -1025,7 +1025,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -1037,7 +1037,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -1054,7 +1054,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -1069,7 +1069,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -1086,7 +1086,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_entity_id_list = 8;</code>
@@ -1108,7 +1108,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -1121,7 +1121,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -1132,7 +1132,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -1144,7 +1144,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -1161,7 +1161,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -1176,7 +1176,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -1193,7 +1193,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated uint32 target_lock_point_index_list = 9;</code>
@@ -1209,7 +1209,7 @@ public final class ClientGadgetInfoOuterClass {
       private int targetEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_entity_id = 5;</code>
@@ -1221,7 +1221,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_entity_id = 5;</code>
@@ -1236,7 +1236,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 target_entity_id = 5;</code>
@@ -1252,7 +1252,7 @@ public final class ClientGadgetInfoOuterClass {
       private int ownerEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 4;</code>
@@ -1264,7 +1264,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 4;</code>
@@ -1279,7 +1279,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 owner_entity_id = 4;</code>
@@ -1295,7 +1295,7 @@ public final class ClientGadgetInfoOuterClass {
       private int campType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_type = 2;</code>
@@ -1307,7 +1307,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_type = 2;</code>
@@ -1322,7 +1322,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_type = 2;</code>
@@ -1338,7 +1338,7 @@ public final class ClientGadgetInfoOuterClass {
       private int campId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_id = 1;</code>
@@ -1350,7 +1350,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_id = 1;</code>
@@ -1365,7 +1365,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 camp_id = 1;</code>
@@ -1381,7 +1381,7 @@ public final class ClientGadgetInfoOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 3;</code>
@@ -1393,7 +1393,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 3;</code>
@@ -1408,7 +1408,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 guid = 3;</code>
@@ -1424,7 +1424,7 @@ public final class ClientGadgetInfoOuterClass {
       private boolean asyncLoad_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool async_load = 6;</code>
@@ -1436,7 +1436,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool async_load = 6;</code>
@@ -1451,7 +1451,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool async_load = 6;</code>
@@ -1467,7 +1467,7 @@ public final class ClientGadgetInfoOuterClass {
       private boolean isPeerIdFromPlayer_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_peer_id_from_player = 7;</code>
@@ -1479,7 +1479,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_peer_id_from_player = 7;</code>
@@ -1494,7 +1494,7 @@ public final class ClientGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_peer_id_from_player = 7;</code>

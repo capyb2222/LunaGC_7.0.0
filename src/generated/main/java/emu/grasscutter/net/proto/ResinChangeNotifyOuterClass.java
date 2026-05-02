@@ -19,20 +19,28 @@ public final class ResinChangeNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
      * <code>uint32 next_add_timestamp = 6;</code>
      * @return The nextAddTimestamp.
      */
     int getNextAddTimestamp();
 
     /**
-     * <code>uint32 cur_buy_count = 9;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 cur_buy_count = 13;</code>
      * @return The curBuyCount.
      */
     int getCurBuyCount();
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cur_value = 4;</code>
@@ -99,7 +107,7 @@ public final class ResinChangeNotifyOuterClass {
               nextAddTimestamp_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 104: {
 
               curBuyCount_ = input.readUInt32();
               break;
@@ -139,6 +147,10 @@ public final class ResinChangeNotifyOuterClass {
     public static final int NEXT_ADD_TIMESTAMP_FIELD_NUMBER = 6;
     private int nextAddTimestamp_;
     /**
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
      * <code>uint32 next_add_timestamp = 6;</code>
      * @return The nextAddTimestamp.
      */
@@ -147,10 +159,14 @@ public final class ResinChangeNotifyOuterClass {
       return nextAddTimestamp_;
     }
 
-    public static final int CUR_BUY_COUNT_FIELD_NUMBER = 9;
+    public static final int CUR_BUY_COUNT_FIELD_NUMBER = 13;
     private int curBuyCount_;
     /**
-     * <code>uint32 cur_buy_count = 9;</code>
+     * <pre>
+     *6.5.5     
+     * </pre>
+     *
+     * <code>uint32 cur_buy_count = 13;</code>
      * @return The curBuyCount.
      */
     @java.lang.Override
@@ -162,7 +178,7 @@ public final class ResinChangeNotifyOuterClass {
     private int curValue_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cur_value = 4;</code>
@@ -194,7 +210,7 @@ public final class ResinChangeNotifyOuterClass {
         output.writeUInt32(6, nextAddTimestamp_);
       }
       if (curBuyCount_ != 0) {
-        output.writeUInt32(9, curBuyCount_);
+        output.writeUInt32(13, curBuyCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -215,7 +231,7 @@ public final class ResinChangeNotifyOuterClass {
       }
       if (curBuyCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, curBuyCount_);
+          .computeUInt32Size(13, curBuyCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -515,6 +531,10 @@ public final class ResinChangeNotifyOuterClass {
 
       private int nextAddTimestamp_ ;
       /**
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
        * <code>uint32 next_add_timestamp = 6;</code>
        * @return The nextAddTimestamp.
        */
@@ -523,6 +543,10 @@ public final class ResinChangeNotifyOuterClass {
         return nextAddTimestamp_;
       }
       /**
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
        * <code>uint32 next_add_timestamp = 6;</code>
        * @param value The nextAddTimestamp to set.
        * @return This builder for chaining.
@@ -534,6 +558,10 @@ public final class ResinChangeNotifyOuterClass {
         return this;
       }
       /**
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
        * <code>uint32 next_add_timestamp = 6;</code>
        * @return This builder for chaining.
        */
@@ -546,7 +574,11 @@ public final class ResinChangeNotifyOuterClass {
 
       private int curBuyCount_ ;
       /**
-       * <code>uint32 cur_buy_count = 9;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 cur_buy_count = 13;</code>
        * @return The curBuyCount.
        */
       @java.lang.Override
@@ -554,7 +586,11 @@ public final class ResinChangeNotifyOuterClass {
         return curBuyCount_;
       }
       /**
-       * <code>uint32 cur_buy_count = 9;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 cur_buy_count = 13;</code>
        * @param value The curBuyCount to set.
        * @return This builder for chaining.
        */
@@ -565,7 +601,11 @@ public final class ResinChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cur_buy_count = 9;</code>
+       * <pre>
+       *6.5.5     
+       * </pre>
+       *
+       * <code>uint32 cur_buy_count = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearCurBuyCount() {
@@ -578,7 +618,7 @@ public final class ResinChangeNotifyOuterClass {
       private int curValue_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cur_value = 4;</code>
@@ -590,7 +630,7 @@ public final class ResinChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cur_value = 4;</code>
@@ -605,7 +645,7 @@ public final class ResinChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cur_value = 4;</code>
@@ -686,7 +726,7 @@ public final class ResinChangeNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027ResinChangeNotify.proto\"Y\n\021ResinChange" +
       "Notify\022\032\n\022next_add_timestamp\030\006 \001(\r\022\025\n\rcu" +
-      "r_buy_count\030\t \001(\r\022\021\n\tcur_value\030\004 \001(\rB\033\n\031" +
+      "r_buy_count\030\r \001(\r\022\021\n\tcur_value\030\004 \001(\rB\033\n\031" +
       "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

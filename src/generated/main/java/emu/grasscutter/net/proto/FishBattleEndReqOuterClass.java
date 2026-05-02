@@ -20,7 +20,7 @@ public final class FishBattleEndReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_always_bonus = 7;</code>
@@ -30,7 +30,7 @@ public final class FishBattleEndReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 max_bonus_time = 3;</code>
@@ -40,7 +40,7 @@ public final class FishBattleEndReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FishBattleResult battle_result = 4;</code>
@@ -49,7 +49,7 @@ public final class FishBattleEndReqOuterClass {
     int getBattleResultValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FishBattleResult battle_result = 4;</code>
@@ -159,7 +159,7 @@ public final class FishBattleEndReqOuterClass {
     private boolean isAlwaysBonus_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_always_bonus = 7;</code>
@@ -174,7 +174,7 @@ public final class FishBattleEndReqOuterClass {
     private int maxBonusTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 max_bonus_time = 3;</code>
@@ -189,7 +189,7 @@ public final class FishBattleEndReqOuterClass {
     private int battleResult_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FishBattleResult battle_result = 4;</code>
@@ -200,7 +200,7 @@ public final class FishBattleEndReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.FishBattleResult battle_result = 4;</code>
@@ -555,7 +555,7 @@ public final class FishBattleEndReqOuterClass {
       private boolean isAlwaysBonus_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_always_bonus = 7;</code>
@@ -567,7 +567,7 @@ public final class FishBattleEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_always_bonus = 7;</code>
@@ -582,7 +582,7 @@ public final class FishBattleEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_always_bonus = 7;</code>
@@ -598,7 +598,7 @@ public final class FishBattleEndReqOuterClass {
       private int maxBonusTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 max_bonus_time = 3;</code>
@@ -610,7 +610,7 @@ public final class FishBattleEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 max_bonus_time = 3;</code>
@@ -625,7 +625,7 @@ public final class FishBattleEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 max_bonus_time = 3;</code>
@@ -641,7 +641,7 @@ public final class FishBattleEndReqOuterClass {
       private int battleResult_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FishBattleResult battle_result = 4;</code>
@@ -652,7 +652,7 @@ public final class FishBattleEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FishBattleResult battle_result = 4;</code>
@@ -667,7 +667,7 @@ public final class FishBattleEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FishBattleResult battle_result = 4;</code>
@@ -681,7 +681,7 @@ public final class FishBattleEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FishBattleResult battle_result = 4;</code>
@@ -699,7 +699,7 @@ public final class FishBattleEndReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.FishBattleResult battle_result = 4;</code>

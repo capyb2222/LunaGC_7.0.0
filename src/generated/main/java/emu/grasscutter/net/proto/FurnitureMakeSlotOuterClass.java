@@ -20,7 +20,7 @@ public final class FurnitureMakeSlotOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -29,7 +29,7 @@ public final class FurnitureMakeSlotOuterClass {
         getFurnitureMakeDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -37,7 +37,7 @@ public final class FurnitureMakeSlotOuterClass {
     emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData getFurnitureMakeDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -45,7 +45,7 @@ public final class FurnitureMakeSlotOuterClass {
     int getFurnitureMakeDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -54,7 +54,7 @@ public final class FurnitureMakeSlotOuterClass {
         getFurnitureMakeDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -157,7 +157,7 @@ public final class FurnitureMakeSlotOuterClass {
     private java.util.List<emu.grasscutter.net.proto.FurnitureMakeDataOuterClass.FurnitureMakeData> furnitureMakeDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -168,7 +168,7 @@ public final class FurnitureMakeSlotOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -180,7 +180,7 @@ public final class FurnitureMakeSlotOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -191,7 +191,7 @@ public final class FurnitureMakeSlotOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -202,7 +202,7 @@ public final class FurnitureMakeSlotOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -569,7 +569,7 @@ public final class FurnitureMakeSlotOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -583,7 +583,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -597,7 +597,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -611,7 +611,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -632,7 +632,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -650,7 +650,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -670,7 +670,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -691,7 +691,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -709,7 +709,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -727,7 +727,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -746,7 +746,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -763,7 +763,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -780,7 +780,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -791,7 +791,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -805,7 +805,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -820,7 +820,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -831,7 +831,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>
@@ -843,7 +843,7 @@ public final class FurnitureMakeSlotOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .FurnitureMakeData furniture_make_data_list = 13;</code>

@@ -20,7 +20,7 @@ public final class TrialAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -29,7 +29,7 @@ public final class TrialAvatarInfoOuterClass {
     boolean hasGrantRecord();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -38,7 +38,7 @@ public final class TrialAvatarInfoOuterClass {
     emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.TrialAvatarGrantRecord getGrantRecord();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -47,7 +47,7 @@ public final class TrialAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -56,7 +56,7 @@ public final class TrialAvatarInfoOuterClass {
         getTrialEquipListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -64,7 +64,7 @@ public final class TrialAvatarInfoOuterClass {
     emu.grasscutter.net.proto.ItemOuterClass.Item getTrialEquipList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -72,7 +72,7 @@ public final class TrialAvatarInfoOuterClass {
     int getTrialEquipListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -81,7 +81,7 @@ public final class TrialAvatarInfoOuterClass {
         getTrialEquipListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -91,7 +91,7 @@ public final class TrialAvatarInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 trial_avatar_id = 1;</code>
@@ -212,7 +212,7 @@ public final class TrialAvatarInfoOuterClass {
     private emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.TrialAvatarGrantRecord grantRecord_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -224,7 +224,7 @@ public final class TrialAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -236,7 +236,7 @@ public final class TrialAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -250,7 +250,7 @@ public final class TrialAvatarInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> trialEquipList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -261,7 +261,7 @@ public final class TrialAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -273,7 +273,7 @@ public final class TrialAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -284,7 +284,7 @@ public final class TrialAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -295,7 +295,7 @@ public final class TrialAvatarInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .Item trial_equip_list = 2;</code>
@@ -310,7 +310,7 @@ public final class TrialAvatarInfoOuterClass {
     private int trialAvatarId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 trial_avatar_id = 1;</code>
@@ -715,7 +715,7 @@ public final class TrialAvatarInfoOuterClass {
           emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.TrialAvatarGrantRecord, emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.TrialAvatarGrantRecord.Builder, emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.TrialAvatarGrantRecordOrBuilder> grantRecordBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -726,7 +726,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -741,7 +741,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -761,7 +761,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -779,7 +779,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -801,7 +801,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -819,7 +819,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -831,7 +831,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -846,7 +846,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.TrialAvatarGrantRecord grant_record = 3;</code>
@@ -879,7 +879,7 @@ public final class TrialAvatarInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -893,7 +893,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -907,7 +907,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -921,7 +921,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -942,7 +942,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -960,7 +960,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -980,7 +980,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1001,7 +1001,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1019,7 +1019,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1037,7 +1037,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1056,7 +1056,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1073,7 +1073,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1090,7 +1090,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1101,7 +1101,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1115,7 +1115,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1130,7 +1130,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1141,7 +1141,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1153,7 +1153,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .Item trial_equip_list = 2;</code>
@@ -1180,7 +1180,7 @@ public final class TrialAvatarInfoOuterClass {
       private int trialAvatarId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 trial_avatar_id = 1;</code>
@@ -1192,7 +1192,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 trial_avatar_id = 1;</code>
@@ -1207,7 +1207,7 @@ public final class TrialAvatarInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 trial_avatar_id = 1;</code>

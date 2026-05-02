@@ -20,7 +20,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -29,7 +29,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     java.util.List<java.lang.Long> getTempAvatarGuidListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -38,7 +38,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     int getTempAvatarGuidListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -49,7 +49,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -57,7 +57,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     int getAvatarTeamMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -72,7 +72,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     getAvatarTeamMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -81,7 +81,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     getAvatarTeamMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -92,7 +92,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
         emu.grasscutter.net.proto.AvatarTeamOuterClass.AvatarTeam defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -237,7 +237,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     private com.google.protobuf.Internal.LongList tempAvatarGuidList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -250,7 +250,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -261,7 +261,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -301,7 +301,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -323,7 +323,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -335,7 +335,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -352,7 +352,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -764,7 +764,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -777,7 +777,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -788,7 +788,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -800,7 +800,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -817,7 +817,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -832,7 +832,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -849,7 +849,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint64 temp_avatar_guid_list = 10;</code>
@@ -890,7 +890,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -912,7 +912,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -924,7 +924,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -941,7 +941,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -966,7 +966,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -989,7 +989,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>
@@ -1005,7 +1005,7 @@ public final class AvatarTeamUpdateNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, .AvatarTeam&gt; avatar_team_map = 3;</code>

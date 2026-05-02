@@ -20,7 +20,7 @@ public final class AsterProgressDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 count = 8;</code>
@@ -30,7 +30,7 @@ public final class AsterProgressDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 last_auto_add_time = 13;</code>
@@ -129,7 +129,7 @@ public final class AsterProgressDetailInfoOuterClass {
     private int count_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 count = 8;</code>
@@ -144,7 +144,7 @@ public final class AsterProgressDetailInfoOuterClass {
     private int lastAutoAddTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 last_auto_add_time = 13;</code>
@@ -477,7 +477,7 @@ public final class AsterProgressDetailInfoOuterClass {
       private int count_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 count = 8;</code>
@@ -489,7 +489,7 @@ public final class AsterProgressDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 count = 8;</code>
@@ -504,7 +504,7 @@ public final class AsterProgressDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 count = 8;</code>
@@ -520,7 +520,7 @@ public final class AsterProgressDetailInfoOuterClass {
       private int lastAutoAddTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 last_auto_add_time = 13;</code>
@@ -532,7 +532,7 @@ public final class AsterProgressDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 last_auto_add_time = 13;</code>
@@ -547,7 +547,7 @@ public final class AsterProgressDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 last_auto_add_time = 13;</code>

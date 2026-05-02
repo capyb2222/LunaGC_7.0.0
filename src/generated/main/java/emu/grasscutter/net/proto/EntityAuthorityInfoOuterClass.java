@@ -20,7 +20,7 @@ public final class EntityAuthorityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -29,7 +29,7 @@ public final class EntityAuthorityInfoOuterClass {
     boolean hasRendererChangedInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -38,7 +38,7 @@ public final class EntityAuthorityInfoOuterClass {
     emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo getRendererChangedInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -47,7 +47,7 @@ public final class EntityAuthorityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -56,7 +56,7 @@ public final class EntityAuthorityInfoOuterClass {
     boolean hasClientExtraInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -65,7 +65,7 @@ public final class EntityAuthorityInfoOuterClass {
     emu.grasscutter.net.proto.EntityClientExtraInfoOuterClass.EntityClientExtraInfo getClientExtraInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -74,7 +74,7 @@ public final class EntityAuthorityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -83,7 +83,7 @@ public final class EntityAuthorityInfoOuterClass {
     boolean hasAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -92,7 +92,7 @@ public final class EntityAuthorityInfoOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -101,7 +101,7 @@ public final class EntityAuthorityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector born_pos = 4;</code>
@@ -110,7 +110,7 @@ public final class EntityAuthorityInfoOuterClass {
     boolean hasBornPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector born_pos = 4;</code>
@@ -119,7 +119,7 @@ public final class EntityAuthorityInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getBornPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector born_pos = 4;</code>
@@ -128,7 +128,7 @@ public final class EntityAuthorityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -137,7 +137,7 @@ public final class EntityAuthorityInfoOuterClass {
         getPoseParaListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -145,7 +145,7 @@ public final class EntityAuthorityInfoOuterClass {
     emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair getPoseParaList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -153,7 +153,7 @@ public final class EntityAuthorityInfoOuterClass {
     int getPoseParaListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -162,7 +162,7 @@ public final class EntityAuthorityInfoOuterClass {
         getPoseParaListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -172,7 +172,7 @@ public final class EntityAuthorityInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -181,7 +181,7 @@ public final class EntityAuthorityInfoOuterClass {
     boolean hasAiInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -190,7 +190,7 @@ public final class EntityAuthorityInfoOuterClass {
     emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo getAiInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -357,7 +357,7 @@ public final class EntityAuthorityInfoOuterClass {
     private emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo rendererChangedInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -369,7 +369,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -381,7 +381,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -395,7 +395,7 @@ public final class EntityAuthorityInfoOuterClass {
     private emu.grasscutter.net.proto.EntityClientExtraInfoOuterClass.EntityClientExtraInfo clientExtraInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -407,7 +407,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -419,7 +419,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -433,7 +433,7 @@ public final class EntityAuthorityInfoOuterClass {
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo abilityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -445,7 +445,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -457,7 +457,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -471,7 +471,7 @@ public final class EntityAuthorityInfoOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector bornPos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector born_pos = 4;</code>
@@ -483,7 +483,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector born_pos = 4;</code>
@@ -495,7 +495,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector born_pos = 4;</code>
@@ -509,7 +509,7 @@ public final class EntityAuthorityInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair> poseParaList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -520,7 +520,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -532,7 +532,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -543,7 +543,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -554,7 +554,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -569,7 +569,7 @@ public final class EntityAuthorityInfoOuterClass {
     private emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo aiInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -581,7 +581,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -593,7 +593,7 @@ public final class EntityAuthorityInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -1100,7 +1100,7 @@ public final class EntityAuthorityInfoOuterClass {
           emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfo.Builder, emu.grasscutter.net.proto.EntityRendererChangedInfoOuterClass.EntityRendererChangedInfoOrBuilder> rendererChangedInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -1111,7 +1111,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -1126,7 +1126,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -1146,7 +1146,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -1164,7 +1164,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -1186,7 +1186,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -1204,7 +1204,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -1216,7 +1216,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -1231,7 +1231,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityRendererChangedInfo renderer_changed_info = 2;</code>
@@ -1255,7 +1255,7 @@ public final class EntityAuthorityInfoOuterClass {
           emu.grasscutter.net.proto.EntityClientExtraInfoOuterClass.EntityClientExtraInfo, emu.grasscutter.net.proto.EntityClientExtraInfoOuterClass.EntityClientExtraInfo.Builder, emu.grasscutter.net.proto.EntityClientExtraInfoOuterClass.EntityClientExtraInfoOrBuilder> clientExtraInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -1266,7 +1266,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -1281,7 +1281,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -1301,7 +1301,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -1319,7 +1319,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -1341,7 +1341,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -1359,7 +1359,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -1371,7 +1371,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -1386,7 +1386,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.EntityClientExtraInfo client_extra_info = 6;</code>
@@ -1410,7 +1410,7 @@ public final class EntityAuthorityInfoOuterClass {
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> abilityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -1421,7 +1421,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -1436,7 +1436,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -1456,7 +1456,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -1474,7 +1474,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -1496,7 +1496,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -1514,7 +1514,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -1526,7 +1526,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -1541,7 +1541,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo ability_info = 1;</code>
@@ -1565,7 +1565,7 @@ public final class EntityAuthorityInfoOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> bornPosBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector born_pos = 4;</code>
@@ -1576,7 +1576,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector born_pos = 4;</code>
@@ -1591,7 +1591,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector born_pos = 4;</code>
@@ -1611,7 +1611,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector born_pos = 4;</code>
@@ -1629,7 +1629,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector born_pos = 4;</code>
@@ -1651,7 +1651,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector born_pos = 4;</code>
@@ -1669,7 +1669,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector born_pos = 4;</code>
@@ -1681,7 +1681,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector born_pos = 4;</code>
@@ -1696,7 +1696,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector born_pos = 4;</code>
@@ -1729,7 +1729,7 @@ public final class EntityAuthorityInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1743,7 +1743,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1757,7 +1757,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1771,7 +1771,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1792,7 +1792,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1810,7 +1810,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1830,7 +1830,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1851,7 +1851,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1869,7 +1869,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1887,7 +1887,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1906,7 +1906,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1923,7 +1923,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1940,7 +1940,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1951,7 +1951,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1965,7 +1965,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1980,7 +1980,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -1991,7 +1991,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -2003,7 +2003,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AnimatorParameterValueInfoPair pose_para_list = 5;</code>
@@ -2032,7 +2032,7 @@ public final class EntityAuthorityInfoOuterClass {
           emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo, emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfo.Builder, emu.grasscutter.net.proto.SceneEntityAiInfoOuterClass.SceneEntityAiInfoOrBuilder> aiInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -2043,7 +2043,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -2058,7 +2058,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -2078,7 +2078,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -2096,7 +2096,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -2118,7 +2118,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -2136,7 +2136,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -2148,7 +2148,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityAiInfo ai_info = 3;</code>
@@ -2163,7 +2163,7 @@ public final class EntityAuthorityInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.SceneEntityAiInfo ai_info = 3;</code>

@@ -20,7 +20,7 @@ public final class GetAreaExplorePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 explore_point_list = 11;</code>
@@ -29,7 +29,7 @@ public final class GetAreaExplorePointRspOuterClass {
     java.util.List<java.lang.Integer> getExplorePointListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 explore_point_list = 11;</code>
@@ -38,7 +38,7 @@ public final class GetAreaExplorePointRspOuterClass {
     int getExplorePointListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 explore_point_list = 11;</code>
@@ -49,7 +49,7 @@ public final class GetAreaExplorePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 7;</code>
@@ -58,7 +58,7 @@ public final class GetAreaExplorePointRspOuterClass {
     java.util.List<java.lang.Integer> getAreaIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 7;</code>
@@ -67,7 +67,7 @@ public final class GetAreaExplorePointRspOuterClass {
     int getAreaIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 7;</code>
@@ -78,7 +78,7 @@ public final class GetAreaExplorePointRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>int32 retcode = 6;</code>
@@ -227,7 +227,7 @@ public final class GetAreaExplorePointRspOuterClass {
     private com.google.protobuf.Internal.IntList explorePointList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 explore_point_list = 11;</code>
@@ -240,7 +240,7 @@ public final class GetAreaExplorePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 explore_point_list = 11;</code>
@@ -251,7 +251,7 @@ public final class GetAreaExplorePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 explore_point_list = 11;</code>
@@ -267,7 +267,7 @@ public final class GetAreaExplorePointRspOuterClass {
     private com.google.protobuf.Internal.IntList areaIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 7;</code>
@@ -280,7 +280,7 @@ public final class GetAreaExplorePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 7;</code>
@@ -291,7 +291,7 @@ public final class GetAreaExplorePointRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 7;</code>
@@ -307,7 +307,7 @@ public final class GetAreaExplorePointRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>int32 retcode = 6;</code>
@@ -724,7 +724,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 explore_point_list = 11;</code>
@@ -737,7 +737,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 explore_point_list = 11;</code>
@@ -748,7 +748,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 explore_point_list = 11;</code>
@@ -760,7 +760,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 explore_point_list = 11;</code>
@@ -777,7 +777,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 explore_point_list = 11;</code>
@@ -792,7 +792,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 explore_point_list = 11;</code>
@@ -809,7 +809,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 explore_point_list = 11;</code>
@@ -831,7 +831,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 7;</code>
@@ -844,7 +844,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 7;</code>
@@ -855,7 +855,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 7;</code>
@@ -867,7 +867,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 7;</code>
@@ -884,7 +884,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 7;</code>
@@ -899,7 +899,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 7;</code>
@@ -916,7 +916,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 7;</code>
@@ -932,7 +932,7 @@ public final class GetAreaExplorePointRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -944,7 +944,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>int32 retcode = 6;</code>
@@ -959,7 +959,7 @@ public final class GetAreaExplorePointRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>int32 retcode = 6;</code>

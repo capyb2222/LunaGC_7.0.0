@@ -20,7 +20,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WidgetSlotData slot = 1;</code>
@@ -29,7 +29,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
     boolean hasSlot();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WidgetSlotData slot = 1;</code>
@@ -38,7 +38,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
     emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData getSlot();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WidgetSlotData slot = 1;</code>
@@ -47,7 +47,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 5;</code>
@@ -56,7 +56,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
     int getOpValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 5;</code>
@@ -169,7 +169,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
     private emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData slot_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WidgetSlotData slot = 1;</code>
@@ -181,7 +181,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WidgetSlotData slot = 1;</code>
@@ -193,7 +193,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.WidgetSlotData slot = 1;</code>
@@ -207,7 +207,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
     private int op_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 5;</code>
@@ -218,7 +218,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.WidgetSlotOp op = 5;</code>
@@ -570,7 +570,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
           emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> slotBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WidgetSlotData slot = 1;</code>
@@ -581,7 +581,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WidgetSlotData slot = 1;</code>
@@ -596,7 +596,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WidgetSlotData slot = 1;</code>
@@ -616,7 +616,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WidgetSlotData slot = 1;</code>
@@ -634,7 +634,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WidgetSlotData slot = 1;</code>
@@ -656,7 +656,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WidgetSlotData slot = 1;</code>
@@ -674,7 +674,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WidgetSlotData slot = 1;</code>
@@ -686,7 +686,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WidgetSlotData slot = 1;</code>
@@ -701,7 +701,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.WidgetSlotData slot = 1;</code>
@@ -723,7 +723,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       private int op_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 5;</code>
@@ -734,7 +734,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 5;</code>
@@ -749,7 +749,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 5;</code>
@@ -763,7 +763,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 5;</code>
@@ -781,7 +781,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.WidgetSlotOp op = 5;</code>

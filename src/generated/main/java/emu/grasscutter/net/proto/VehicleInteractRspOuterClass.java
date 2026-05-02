@@ -20,7 +20,7 @@ public final class VehicleInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.VehicleMember member = 4;</code>
@@ -29,7 +29,7 @@ public final class VehicleInteractRspOuterClass {
     boolean hasMember();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.VehicleMember member = 4;</code>
@@ -38,7 +38,7 @@ public final class VehicleInteractRspOuterClass {
     emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember getMember();
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.VehicleMember member = 4;</code>
@@ -107,7 +107,7 @@ public final class VehicleInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -117,7 +117,7 @@ public final class VehicleInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 11;</code>
@@ -138,7 +138,7 @@ public final class VehicleInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 5;</code>
@@ -148,7 +148,7 @@ public final class VehicleInteractRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInteractType interact_type = 15;</code>
@@ -157,7 +157,7 @@ public final class VehicleInteractRspOuterClass {
     int getInteractTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInteractType interact_type = 15;</code>
@@ -359,7 +359,7 @@ public final class VehicleInteractRspOuterClass {
     private emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember member_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.VehicleMember member = 4;</code>
@@ -371,7 +371,7 @@ public final class VehicleInteractRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.VehicleMember member = 4;</code>
@@ -383,7 +383,7 @@ public final class VehicleInteractRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>.VehicleMember member = 4;</code>
@@ -501,7 +501,7 @@ public final class VehicleInteractRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -516,7 +516,7 @@ public final class VehicleInteractRspOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 11;</code>
@@ -550,7 +550,7 @@ public final class VehicleInteractRspOuterClass {
     private int gadgetId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 gadget_id = 5;</code>
@@ -565,7 +565,7 @@ public final class VehicleInteractRspOuterClass {
     private int interactType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInteractType interact_type = 15;</code>
@@ -576,7 +576,7 @@ public final class VehicleInteractRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.VehicleInteractType interact_type = 15;</code>
@@ -1147,7 +1147,7 @@ public final class VehicleInteractRspOuterClass {
           emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMember.Builder, emu.grasscutter.net.proto.VehicleMemberOuterClass.VehicleMemberOrBuilder> memberBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.VehicleMember member = 4;</code>
@@ -1158,7 +1158,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.VehicleMember member = 4;</code>
@@ -1173,7 +1173,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.VehicleMember member = 4;</code>
@@ -1193,7 +1193,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.VehicleMember member = 4;</code>
@@ -1211,7 +1211,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.VehicleMember member = 4;</code>
@@ -1233,7 +1233,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.VehicleMember member = 4;</code>
@@ -1251,7 +1251,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.VehicleMember member = 4;</code>
@@ -1263,7 +1263,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.VehicleMember member = 4;</code>
@@ -1278,7 +1278,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>.VehicleMember member = 4;</code>
@@ -1776,7 +1776,7 @@ public final class VehicleInteractRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -1788,7 +1788,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -1803,7 +1803,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -1819,7 +1819,7 @@ public final class VehicleInteractRspOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -1831,7 +1831,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -1846,7 +1846,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 11;</code>
@@ -1916,7 +1916,7 @@ public final class VehicleInteractRspOuterClass {
       private int gadgetId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 5;</code>
@@ -1928,7 +1928,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 5;</code>
@@ -1943,7 +1943,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 gadget_id = 5;</code>
@@ -1959,7 +1959,7 @@ public final class VehicleInteractRspOuterClass {
       private int interactType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 15;</code>
@@ -1970,7 +1970,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 15;</code>
@@ -1985,7 +1985,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 15;</code>
@@ -1999,7 +1999,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 15;</code>
@@ -2017,7 +2017,7 @@ public final class VehicleInteractRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.VehicleInteractType interact_type = 15;</code>

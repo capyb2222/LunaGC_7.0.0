@@ -20,7 +20,7 @@ public final class TowerAllDataReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool is_interact = 15;</code>
@@ -118,7 +118,7 @@ public final class TowerAllDataReqOuterClass {
     private boolean isInteract_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>bool is_interact = 15;</code>
@@ -439,7 +439,7 @@ public final class TowerAllDataReqOuterClass {
       private boolean isInteract_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool is_interact = 15;</code>
@@ -451,7 +451,7 @@ public final class TowerAllDataReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool is_interact = 15;</code>
@@ -466,7 +466,7 @@ public final class TowerAllDataReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>bool is_interact = 15;</code>

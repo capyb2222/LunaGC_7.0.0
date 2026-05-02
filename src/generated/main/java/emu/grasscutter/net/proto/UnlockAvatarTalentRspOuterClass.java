@@ -20,7 +20,7 @@ public final class UnlockAvatarTalentRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint64 avatar_guid = 4;</code>
@@ -30,7 +30,7 @@ public final class UnlockAvatarTalentRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 talent_id = 6;</code>
@@ -40,7 +40,7 @@ public final class UnlockAvatarTalentRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -148,7 +148,7 @@ public final class UnlockAvatarTalentRspOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint64 avatar_guid = 4;</code>
@@ -163,7 +163,7 @@ public final class UnlockAvatarTalentRspOuterClass {
     private int talentId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 talent_id = 6;</code>
@@ -178,7 +178,7 @@ public final class UnlockAvatarTalentRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -533,7 +533,7 @@ public final class UnlockAvatarTalentRspOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -545,7 +545,7 @@ public final class UnlockAvatarTalentRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -560,7 +560,7 @@ public final class UnlockAvatarTalentRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint64 avatar_guid = 4;</code>
@@ -576,7 +576,7 @@ public final class UnlockAvatarTalentRspOuterClass {
       private int talentId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 talent_id = 6;</code>
@@ -588,7 +588,7 @@ public final class UnlockAvatarTalentRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 talent_id = 6;</code>
@@ -603,7 +603,7 @@ public final class UnlockAvatarTalentRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 talent_id = 6;</code>
@@ -619,7 +619,7 @@ public final class UnlockAvatarTalentRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -631,7 +631,7 @@ public final class UnlockAvatarTalentRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -646,7 +646,7 @@ public final class UnlockAvatarTalentRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 11;</code>

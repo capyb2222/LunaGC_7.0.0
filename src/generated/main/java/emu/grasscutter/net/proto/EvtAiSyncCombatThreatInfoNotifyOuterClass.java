@@ -20,7 +20,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -28,7 +28,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
     int getCombatThreatInfoMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -43,7 +43,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
     getCombatThreatInfoMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -52,7 +52,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
     getCombatThreatInfoMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -63,7 +63,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
         emu.grasscutter.net.proto.AiThreatInfoOuterClass.AiThreatInfo defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -203,7 +203,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -225,7 +225,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -237,7 +237,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -254,7 +254,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -636,7 +636,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -658,7 +658,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -670,7 +670,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -687,7 +687,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -712,7 +712,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -735,7 +735,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>
@@ -751,7 +751,7 @@ public final class EvtAiSyncCombatThreatInfoNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>map&lt;uint32, .AiThreatInfo&gt; combat_threat_info_map = 10;</code>

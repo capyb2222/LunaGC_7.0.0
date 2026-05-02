@@ -35,7 +35,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>string scene_transaction = 1504;</code>
@@ -44,7 +44,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     java.lang.String getSceneTransaction();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>string scene_transaction = 1504;</code>
@@ -70,7 +70,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -79,7 +79,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     java.util.List<java.lang.Integer> getSceneTagIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -88,7 +88,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     int getSceneTagIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -99,7 +99,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -108,7 +108,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     boolean hasPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -117,7 +117,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -191,7 +191,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.EnterType type = 1;</code>
@@ -200,7 +200,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     int getTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.EnterType type = 1;</code>
@@ -566,7 +566,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     private volatile java.lang.Object sceneTransaction_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>string scene_transaction = 1504;</code>
@@ -587,7 +587,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>string scene_transaction = 1504;</code>
@@ -638,7 +638,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     private com.google.protobuf.Internal.IntList sceneTagIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -651,7 +651,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -662,7 +662,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -678,7 +678,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -690,7 +690,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -702,7 +702,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.Vector pos = 6;</code>
@@ -817,7 +817,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     private int type_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.EnterType type = 1;</code>
@@ -828,7 +828,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>.EnterType type = 1;</code>
@@ -1839,7 +1839,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       private java.lang.Object sceneTransaction_ = "";
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string scene_transaction = 1504;</code>
@@ -1859,7 +1859,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string scene_transaction = 1504;</code>
@@ -1880,7 +1880,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string scene_transaction = 1504;</code>
@@ -1899,7 +1899,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string scene_transaction = 1504;</code>
@@ -1913,7 +1913,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>string scene_transaction = 1504;</code>
@@ -2060,7 +2060,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -2073,7 +2073,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -2084,7 +2084,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -2096,7 +2096,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -2113,7 +2113,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -2128,7 +2128,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -2145,7 +2145,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>repeated uint32 scene_tag_id_list = 14;</code>
@@ -2163,7 +2163,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -2174,7 +2174,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -2189,7 +2189,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -2209,7 +2209,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -2227,7 +2227,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -2249,7 +2249,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -2267,7 +2267,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -2279,7 +2279,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -2294,7 +2294,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.Vector pos = 6;</code>
@@ -2650,7 +2650,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       private int type_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.EnterType type = 1;</code>
@@ -2661,7 +2661,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.EnterType type = 1;</code>
@@ -2676,7 +2676,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.EnterType type = 1;</code>
@@ -2690,7 +2690,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.EnterType type = 1;</code>
@@ -2708,7 +2708,7 @@ public final class PlayerEnterSceneNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>.EnterType type = 1;</code>

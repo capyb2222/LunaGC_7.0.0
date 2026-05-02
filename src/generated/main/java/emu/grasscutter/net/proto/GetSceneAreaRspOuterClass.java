@@ -20,7 +20,7 @@ public final class GetSceneAreaRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -29,7 +29,7 @@ public final class GetSceneAreaRspOuterClass {
         getCityInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -37,7 +37,7 @@ public final class GetSceneAreaRspOuterClass {
     emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo getCityInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -45,7 +45,7 @@ public final class GetSceneAreaRspOuterClass {
     int getCityInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -54,7 +54,7 @@ public final class GetSceneAreaRspOuterClass {
         getCityInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -64,7 +64,7 @@ public final class GetSceneAreaRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 14;</code>
@@ -73,7 +73,7 @@ public final class GetSceneAreaRspOuterClass {
     java.util.List<java.lang.Integer> getAreaIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 14;</code>
@@ -82,7 +82,7 @@ public final class GetSceneAreaRspOuterClass {
     int getAreaIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 14;</code>
@@ -93,7 +93,7 @@ public final class GetSceneAreaRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 7;</code>
@@ -103,7 +103,7 @@ public final class GetSceneAreaRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 12;</code>
@@ -245,7 +245,7 @@ public final class GetSceneAreaRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.CityInfoOuterClass.CityInfo> cityInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -256,7 +256,7 @@ public final class GetSceneAreaRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -268,7 +268,7 @@ public final class GetSceneAreaRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -279,7 +279,7 @@ public final class GetSceneAreaRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -290,7 +290,7 @@ public final class GetSceneAreaRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -305,7 +305,7 @@ public final class GetSceneAreaRspOuterClass {
     private com.google.protobuf.Internal.IntList areaIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 14;</code>
@@ -318,7 +318,7 @@ public final class GetSceneAreaRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 14;</code>
@@ -329,7 +329,7 @@ public final class GetSceneAreaRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 area_id_list = 14;</code>
@@ -345,7 +345,7 @@ public final class GetSceneAreaRspOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 7;</code>
@@ -360,7 +360,7 @@ public final class GetSceneAreaRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 12;</code>
@@ -810,7 +810,7 @@ public final class GetSceneAreaRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -824,7 +824,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -838,7 +838,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -852,7 +852,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -873,7 +873,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -891,7 +891,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -911,7 +911,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -932,7 +932,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -950,7 +950,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -968,7 +968,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -987,7 +987,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -1004,7 +1004,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -1021,7 +1021,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -1032,7 +1032,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -1046,7 +1046,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -1061,7 +1061,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -1072,7 +1072,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -1084,7 +1084,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .CityInfo city_info_list = 8;</code>
@@ -1117,7 +1117,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 14;</code>
@@ -1130,7 +1130,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 14;</code>
@@ -1141,7 +1141,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 14;</code>
@@ -1153,7 +1153,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 14;</code>
@@ -1170,7 +1170,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 14;</code>
@@ -1185,7 +1185,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 14;</code>
@@ -1202,7 +1202,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 area_id_list = 14;</code>
@@ -1218,7 +1218,7 @@ public final class GetSceneAreaRspOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 7;</code>
@@ -1230,7 +1230,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 7;</code>
@@ -1245,7 +1245,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 7;</code>
@@ -1261,7 +1261,7 @@ public final class GetSceneAreaRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -1273,7 +1273,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -1288,7 +1288,7 @@ public final class GetSceneAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 12;</code>

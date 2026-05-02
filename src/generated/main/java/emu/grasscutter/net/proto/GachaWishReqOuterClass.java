@@ -20,7 +20,7 @@ public final class GachaWishReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_type = 14;</code>
@@ -30,7 +30,7 @@ public final class GachaWishReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_schedule_id = 1;</code>
@@ -40,7 +40,7 @@ public final class GachaWishReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 item_id = 5;</code>
@@ -149,7 +149,7 @@ public final class GachaWishReqOuterClass {
     private int gachaType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_type = 14;</code>
@@ -164,7 +164,7 @@ public final class GachaWishReqOuterClass {
     private int gachaScheduleId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_schedule_id = 1;</code>
@@ -179,7 +179,7 @@ public final class GachaWishReqOuterClass {
     private int itemId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 item_id = 5;</code>
@@ -534,7 +534,7 @@ public final class GachaWishReqOuterClass {
       private int gachaType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_type = 14;</code>
@@ -546,7 +546,7 @@ public final class GachaWishReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_type = 14;</code>
@@ -561,7 +561,7 @@ public final class GachaWishReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_type = 14;</code>
@@ -577,7 +577,7 @@ public final class GachaWishReqOuterClass {
       private int gachaScheduleId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_schedule_id = 1;</code>
@@ -589,7 +589,7 @@ public final class GachaWishReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_schedule_id = 1;</code>
@@ -604,7 +604,7 @@ public final class GachaWishReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_schedule_id = 1;</code>
@@ -620,7 +620,7 @@ public final class GachaWishReqOuterClass {
       private int itemId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 5;</code>
@@ -632,7 +632,7 @@ public final class GachaWishReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 5;</code>
@@ -647,7 +647,7 @@ public final class GachaWishReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 5;</code>

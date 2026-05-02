@@ -20,7 +20,7 @@ public final class PlayerPropChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 prop_type = 10;</code>
@@ -30,7 +30,7 @@ public final class PlayerPropChangeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 prop_delta = 11;</code>
@@ -133,7 +133,7 @@ public final class PlayerPropChangeNotifyOuterClass {
     private int propType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 prop_type = 10;</code>
@@ -148,7 +148,7 @@ public final class PlayerPropChangeNotifyOuterClass {
     private int propDelta_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 prop_delta = 11;</code>
@@ -485,7 +485,7 @@ public final class PlayerPropChangeNotifyOuterClass {
       private int propType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 prop_type = 10;</code>
@@ -497,7 +497,7 @@ public final class PlayerPropChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 prop_type = 10;</code>
@@ -512,7 +512,7 @@ public final class PlayerPropChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 prop_type = 10;</code>
@@ -528,7 +528,7 @@ public final class PlayerPropChangeNotifyOuterClass {
       private int propDelta_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 prop_delta = 11;</code>
@@ -540,7 +540,7 @@ public final class PlayerPropChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 prop_delta = 11;</code>
@@ -555,7 +555,7 @@ public final class PlayerPropChangeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 prop_delta = 11;</code>

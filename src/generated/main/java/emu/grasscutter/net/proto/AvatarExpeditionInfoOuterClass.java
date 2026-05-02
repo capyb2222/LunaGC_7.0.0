@@ -20,7 +20,7 @@ public final class AvatarExpeditionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 hour_time = 3;</code>
@@ -30,7 +30,7 @@ public final class AvatarExpeditionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_time = 4;</code>
@@ -40,7 +40,7 @@ public final class AvatarExpeditionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 exp_id = 2;</code>
@@ -50,7 +50,7 @@ public final class AvatarExpeditionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float shorten_ratio = 5;</code>
@@ -60,7 +60,7 @@ public final class AvatarExpeditionInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExpeditionState state = 1;</code>
@@ -69,7 +69,7 @@ public final class AvatarExpeditionInfoOuterClass {
     int getStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExpeditionState state = 1;</code>
@@ -185,7 +185,7 @@ public final class AvatarExpeditionInfoOuterClass {
     private int hourTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 hour_time = 3;</code>
@@ -200,7 +200,7 @@ public final class AvatarExpeditionInfoOuterClass {
     private int startTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 start_time = 4;</code>
@@ -215,7 +215,7 @@ public final class AvatarExpeditionInfoOuterClass {
     private int expId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 exp_id = 2;</code>
@@ -230,7 +230,7 @@ public final class AvatarExpeditionInfoOuterClass {
     private float shortenRatio_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float shorten_ratio = 5;</code>
@@ -245,7 +245,7 @@ public final class AvatarExpeditionInfoOuterClass {
     private int state_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExpeditionState state = 1;</code>
@@ -256,7 +256,7 @@ public final class AvatarExpeditionInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AvatarExpeditionState state = 1;</code>
@@ -642,7 +642,7 @@ public final class AvatarExpeditionInfoOuterClass {
       private int hourTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 hour_time = 3;</code>
@@ -654,7 +654,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 hour_time = 3;</code>
@@ -669,7 +669,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 hour_time = 3;</code>
@@ -685,7 +685,7 @@ public final class AvatarExpeditionInfoOuterClass {
       private int startTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_time = 4;</code>
@@ -697,7 +697,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_time = 4;</code>
@@ -712,7 +712,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 start_time = 4;</code>
@@ -728,7 +728,7 @@ public final class AvatarExpeditionInfoOuterClass {
       private int expId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 exp_id = 2;</code>
@@ -740,7 +740,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 exp_id = 2;</code>
@@ -755,7 +755,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 exp_id = 2;</code>
@@ -771,7 +771,7 @@ public final class AvatarExpeditionInfoOuterClass {
       private float shortenRatio_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float shorten_ratio = 5;</code>
@@ -783,7 +783,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float shorten_ratio = 5;</code>
@@ -798,7 +798,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float shorten_ratio = 5;</code>
@@ -814,7 +814,7 @@ public final class AvatarExpeditionInfoOuterClass {
       private int state_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState state = 1;</code>
@@ -825,7 +825,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState state = 1;</code>
@@ -840,7 +840,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState state = 1;</code>
@@ -854,7 +854,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState state = 1;</code>
@@ -872,7 +872,7 @@ public final class AvatarExpeditionInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AvatarExpeditionState state = 1;</code>

@@ -20,7 +20,7 @@ public final class EnterScenePeerNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dest_scene_id = 15;</code>
@@ -30,7 +30,7 @@ public final class EnterScenePeerNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 enter_scene_token = 2;</code>
@@ -40,7 +40,7 @@ public final class EnterScenePeerNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 9;</code>
@@ -50,7 +50,7 @@ public final class EnterScenePeerNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 host_peer_id = 14;</code>
@@ -163,7 +163,7 @@ public final class EnterScenePeerNotifyOuterClass {
     private int destSceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 dest_scene_id = 15;</code>
@@ -178,7 +178,7 @@ public final class EnterScenePeerNotifyOuterClass {
     private int enterSceneToken_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 enter_scene_token = 2;</code>
@@ -193,7 +193,7 @@ public final class EnterScenePeerNotifyOuterClass {
     private int peerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 peer_id = 9;</code>
@@ -208,7 +208,7 @@ public final class EnterScenePeerNotifyOuterClass {
     private int hostPeerId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 host_peer_id = 14;</code>
@@ -579,7 +579,7 @@ public final class EnterScenePeerNotifyOuterClass {
       private int destSceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dest_scene_id = 15;</code>
@@ -591,7 +591,7 @@ public final class EnterScenePeerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dest_scene_id = 15;</code>
@@ -606,7 +606,7 @@ public final class EnterScenePeerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 dest_scene_id = 15;</code>
@@ -622,7 +622,7 @@ public final class EnterScenePeerNotifyOuterClass {
       private int enterSceneToken_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 enter_scene_token = 2;</code>
@@ -634,7 +634,7 @@ public final class EnterScenePeerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 enter_scene_token = 2;</code>
@@ -649,7 +649,7 @@ public final class EnterScenePeerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 enter_scene_token = 2;</code>
@@ -665,7 +665,7 @@ public final class EnterScenePeerNotifyOuterClass {
       private int peerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 9;</code>
@@ -677,7 +677,7 @@ public final class EnterScenePeerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 9;</code>
@@ -692,7 +692,7 @@ public final class EnterScenePeerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 peer_id = 9;</code>
@@ -708,7 +708,7 @@ public final class EnterScenePeerNotifyOuterClass {
       private int hostPeerId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 host_peer_id = 14;</code>
@@ -720,7 +720,7 @@ public final class EnterScenePeerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 host_peer_id = 14;</code>
@@ -735,7 +735,7 @@ public final class EnterScenePeerNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 host_peer_id = 14;</code>

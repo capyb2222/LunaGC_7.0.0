@@ -26,7 +26,7 @@ public final class StoreWeightLimitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 reliquary_count_limit = 2;</code>
@@ -36,7 +36,7 @@ public final class StoreWeightLimitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 furniture_count_limit = 15;</code>
@@ -46,7 +46,7 @@ public final class StoreWeightLimitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StoreType store_type = 8;</code>
@@ -55,7 +55,7 @@ public final class StoreWeightLimitNotifyOuterClass {
     int getStoreTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StoreType store_type = 8;</code>
@@ -65,7 +65,7 @@ public final class StoreWeightLimitNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 weight_limit = 7;</code>
@@ -196,7 +196,7 @@ public final class StoreWeightLimitNotifyOuterClass {
     private int reliquaryCountLimit_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 reliquary_count_limit = 2;</code>
@@ -211,7 +211,7 @@ public final class StoreWeightLimitNotifyOuterClass {
     private int furnitureCountLimit_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>uint32 furniture_count_limit = 15;</code>
@@ -226,7 +226,7 @@ public final class StoreWeightLimitNotifyOuterClass {
     private int storeType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StoreType store_type = 8;</code>
@@ -237,7 +237,7 @@ public final class StoreWeightLimitNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.StoreType store_type = 8;</code>
@@ -253,7 +253,7 @@ public final class StoreWeightLimitNotifyOuterClass {
     private int weightLimit_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 weight_limit = 7;</code>
@@ -671,7 +671,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       private int reliquaryCountLimit_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 reliquary_count_limit = 2;</code>
@@ -683,7 +683,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 reliquary_count_limit = 2;</code>
@@ -698,7 +698,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 reliquary_count_limit = 2;</code>
@@ -714,7 +714,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       private int furnitureCountLimit_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 furniture_count_limit = 15;</code>
@@ -726,7 +726,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 furniture_count_limit = 15;</code>
@@ -741,7 +741,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>uint32 furniture_count_limit = 15;</code>
@@ -757,7 +757,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       private int storeType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 8;</code>
@@ -768,7 +768,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 8;</code>
@@ -783,7 +783,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 8;</code>
@@ -797,7 +797,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 8;</code>
@@ -815,7 +815,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.StoreType store_type = 8;</code>
@@ -831,7 +831,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       private int weightLimit_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 weight_limit = 7;</code>
@@ -843,7 +843,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 weight_limit = 7;</code>
@@ -858,7 +858,7 @@ public final class StoreWeightLimitNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 weight_limit = 7;</code>

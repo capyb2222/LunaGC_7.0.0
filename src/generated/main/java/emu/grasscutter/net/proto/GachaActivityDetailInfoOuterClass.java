@@ -20,7 +20,7 @@ public final class GachaActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -28,7 +28,7 @@ public final class GachaActivityDetailInfoOuterClass {
     int getRobotNumMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -43,7 +43,7 @@ public final class GachaActivityDetailInfoOuterClass {
     getRobotNumMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -52,7 +52,7 @@ public final class GachaActivityDetailInfoOuterClass {
     getRobotNumMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -63,7 +63,7 @@ public final class GachaActivityDetailInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -74,7 +74,7 @@ public final class GachaActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -83,7 +83,7 @@ public final class GachaActivityDetailInfoOuterClass {
     java.util.List<java.lang.Integer> getHaveGetRobotListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -92,7 +92,7 @@ public final class GachaActivityDetailInfoOuterClass {
     int getHaveGetRobotListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -103,7 +103,7 @@ public final class GachaActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -112,7 +112,7 @@ public final class GachaActivityDetailInfoOuterClass {
         getGachaStageDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -120,7 +120,7 @@ public final class GachaActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.GachaStageDataOuterClass.GachaStageData getGachaStageDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -128,7 +128,7 @@ public final class GachaActivityDetailInfoOuterClass {
     int getGachaStageDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -137,7 +137,7 @@ public final class GachaActivityDetailInfoOuterClass {
         getGachaStageDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -147,7 +147,7 @@ public final class GachaActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -155,7 +155,7 @@ public final class GachaActivityDetailInfoOuterClass {
     int getHaveRewardRobotNumMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -170,7 +170,7 @@ public final class GachaActivityDetailInfoOuterClass {
     getHaveRewardRobotNumMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -179,7 +179,7 @@ public final class GachaActivityDetailInfoOuterClass {
     getHaveRewardRobotNumMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -190,7 +190,7 @@ public final class GachaActivityDetailInfoOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -405,7 +405,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -427,7 +427,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -439,7 +439,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -456,7 +456,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -478,7 +478,7 @@ public final class GachaActivityDetailInfoOuterClass {
     private com.google.protobuf.Internal.IntList haveGetRobotList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -491,7 +491,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -502,7 +502,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -518,7 +518,7 @@ public final class GachaActivityDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.GachaStageDataOuterClass.GachaStageData> gachaStageDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -529,7 +529,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -541,7 +541,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -552,7 +552,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -563,7 +563,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -602,7 +602,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -624,7 +624,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -636,7 +636,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -653,7 +653,7 @@ public final class GachaActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -1222,7 +1222,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -1244,7 +1244,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -1256,7 +1256,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -1273,7 +1273,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -1298,7 +1298,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -1321,7 +1321,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -1337,7 +1337,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; robot_num_map = 14;</code>
@@ -1359,7 +1359,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -1372,7 +1372,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -1383,7 +1383,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -1395,7 +1395,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -1412,7 +1412,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -1427,7 +1427,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -1444,7 +1444,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 have_get_robot_list = 10;</code>
@@ -1471,7 +1471,7 @@ public final class GachaActivityDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1485,7 +1485,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1499,7 +1499,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1513,7 +1513,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1534,7 +1534,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1552,7 +1552,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1572,7 +1572,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1593,7 +1593,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1611,7 +1611,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1629,7 +1629,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1648,7 +1648,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1665,7 +1665,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1682,7 +1682,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1693,7 +1693,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1707,7 +1707,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1722,7 +1722,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1733,7 +1733,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1745,7 +1745,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .GachaStageData gacha_stage_data_list = 7;</code>
@@ -1797,7 +1797,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -1819,7 +1819,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -1831,7 +1831,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -1848,7 +1848,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -1873,7 +1873,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -1896,7 +1896,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>
@@ -1912,7 +1912,7 @@ public final class GachaActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; have_reward_robot_num_map = 1;</code>

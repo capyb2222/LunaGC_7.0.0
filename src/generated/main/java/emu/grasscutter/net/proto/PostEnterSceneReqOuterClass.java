@@ -30,7 +30,7 @@ public final class PostEnterSceneReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>double total_tick_time = 3;</code>
@@ -148,7 +148,7 @@ public final class PostEnterSceneReqOuterClass {
     private double totalTickTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>double total_tick_time = 3;</code>
@@ -530,7 +530,7 @@ public final class PostEnterSceneReqOuterClass {
       private double totalTickTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 3;</code>
@@ -542,7 +542,7 @@ public final class PostEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 3;</code>
@@ -557,7 +557,7 @@ public final class PostEnterSceneReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>double total_tick_time = 3;</code>

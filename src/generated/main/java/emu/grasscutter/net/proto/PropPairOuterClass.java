@@ -20,7 +20,7 @@ public final class PropPairOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PropValue prop_value = 2;</code>
@@ -29,7 +29,7 @@ public final class PropPairOuterClass {
     boolean hasPropValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PropValue prop_value = 2;</code>
@@ -38,7 +38,7 @@ public final class PropPairOuterClass {
     emu.grasscutter.net.proto.PropValueOuterClass.PropValue getPropValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PropValue prop_value = 2;</code>
@@ -47,7 +47,7 @@ public final class PropPairOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 type = 1;</code>
@@ -154,7 +154,7 @@ public final class PropPairOuterClass {
     private emu.grasscutter.net.proto.PropValueOuterClass.PropValue propValue_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PropValue prop_value = 2;</code>
@@ -166,7 +166,7 @@ public final class PropPairOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PropValue prop_value = 2;</code>
@@ -178,7 +178,7 @@ public final class PropPairOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.PropValue prop_value = 2;</code>
@@ -192,7 +192,7 @@ public final class PropPairOuterClass {
     private int type_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 type = 1;</code>
@@ -540,7 +540,7 @@ public final class PropPairOuterClass {
           emu.grasscutter.net.proto.PropValueOuterClass.PropValue, emu.grasscutter.net.proto.PropValueOuterClass.PropValue.Builder, emu.grasscutter.net.proto.PropValueOuterClass.PropValueOrBuilder> propValueBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PropValue prop_value = 2;</code>
@@ -551,7 +551,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PropValue prop_value = 2;</code>
@@ -566,7 +566,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PropValue prop_value = 2;</code>
@@ -586,7 +586,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PropValue prop_value = 2;</code>
@@ -604,7 +604,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PropValue prop_value = 2;</code>
@@ -626,7 +626,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PropValue prop_value = 2;</code>
@@ -644,7 +644,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PropValue prop_value = 2;</code>
@@ -656,7 +656,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PropValue prop_value = 2;</code>
@@ -671,7 +671,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.PropValue prop_value = 2;</code>
@@ -693,7 +693,7 @@ public final class PropPairOuterClass {
       private int type_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 type = 1;</code>
@@ -705,7 +705,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 type = 1;</code>
@@ -720,7 +720,7 @@ public final class PropPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 type = 1;</code>

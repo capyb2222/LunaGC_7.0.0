@@ -20,7 +20,7 @@ public final class FungusTrainingProgressDetailOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -29,7 +29,7 @@ public final class FungusTrainingProgressDetailOuterClass {
         getMonsterDetailListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -37,7 +37,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     emu.grasscutter.net.proto.FungusFighterMonsterDetailOuterClass.FungusFighterMonsterDetail getMonsterDetailList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -45,7 +45,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     int getMonsterDetailListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -54,7 +54,7 @@ public final class FungusTrainingProgressDetailOuterClass {
         getMonsterDetailListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -98,7 +98,7 @@ public final class FungusTrainingProgressDetailOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -107,7 +107,7 @@ public final class FungusTrainingProgressDetailOuterClass {
         getMonsterPoolPreviewListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -115,7 +115,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     emu.grasscutter.net.proto.FungusTrainingPoolPreviewDetailOuterClass.FungusTrainingPoolPreviewDetail getMonsterPoolPreviewList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -123,7 +123,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     int getMonsterPoolPreviewListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -132,7 +132,7 @@ public final class FungusTrainingProgressDetailOuterClass {
         getMonsterPoolPreviewListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -142,7 +142,7 @@ public final class FungusTrainingProgressDetailOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 total_used_time = 3;</code>
@@ -152,7 +152,7 @@ public final class FungusTrainingProgressDetailOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cur_round = 8;</code>
@@ -162,7 +162,7 @@ public final class FungusTrainingProgressDetailOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 dungeon_id = 7;</code>
@@ -343,7 +343,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     private java.util.List<emu.grasscutter.net.proto.FungusFighterMonsterDetailOuterClass.FungusFighterMonsterDetail> monsterDetailList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -354,7 +354,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -366,7 +366,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -377,7 +377,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -388,7 +388,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -459,7 +459,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     private java.util.List<emu.grasscutter.net.proto.FungusTrainingPoolPreviewDetailOuterClass.FungusTrainingPoolPreviewDetail> monsterPoolPreviewList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -470,7 +470,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -482,7 +482,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -493,7 +493,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -504,7 +504,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -519,7 +519,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     private int totalUsedTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 total_used_time = 3;</code>
@@ -534,7 +534,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     private int curRound_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cur_round = 8;</code>
@@ -549,7 +549,7 @@ public final class FungusTrainingProgressDetailOuterClass {
     private int dungeonId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 dungeon_id = 7;</code>
@@ -1111,7 +1111,7 @@ public final class FungusTrainingProgressDetailOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1125,7 +1125,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1139,7 +1139,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1153,7 +1153,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1174,7 +1174,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1192,7 +1192,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1212,7 +1212,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1233,7 +1233,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1251,7 +1251,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1269,7 +1269,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1288,7 +1288,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1305,7 +1305,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1322,7 +1322,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1333,7 +1333,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1347,7 +1347,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1362,7 +1362,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1373,7 +1373,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1385,7 +1385,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusFighterMonsterDetail monster_detail_list = 5;</code>
@@ -1581,7 +1581,7 @@ public final class FungusTrainingProgressDetailOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1595,7 +1595,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1609,7 +1609,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1623,7 +1623,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1644,7 +1644,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1662,7 +1662,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1682,7 +1682,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1703,7 +1703,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1721,7 +1721,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1739,7 +1739,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1758,7 +1758,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1775,7 +1775,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1792,7 +1792,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1803,7 +1803,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1817,7 +1817,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1832,7 +1832,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1843,7 +1843,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1855,7 +1855,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .FungusTrainingPoolPreviewDetail monster_pool_preview_list = 12;</code>
@@ -1882,7 +1882,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       private int totalUsedTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 total_used_time = 3;</code>
@@ -1894,7 +1894,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 total_used_time = 3;</code>
@@ -1909,7 +1909,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 total_used_time = 3;</code>
@@ -1925,7 +1925,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       private int curRound_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cur_round = 8;</code>
@@ -1937,7 +1937,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cur_round = 8;</code>
@@ -1952,7 +1952,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cur_round = 8;</code>
@@ -1968,7 +1968,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       private int dungeonId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 dungeon_id = 7;</code>
@@ -1980,7 +1980,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 dungeon_id = 7;</code>
@@ -1995,7 +1995,7 @@ public final class FungusTrainingProgressDetailOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 dungeon_id = 7;</code>

@@ -20,7 +20,7 @@ public final class CodexTypeDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -28,7 +28,7 @@ public final class CodexTypeDataOuterClass {
     int getWeaponMaxPromoteLevelMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -43,7 +43,7 @@ public final class CodexTypeDataOuterClass {
     getWeaponMaxPromoteLevelMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -52,7 +52,7 @@ public final class CodexTypeDataOuterClass {
     getWeaponMaxPromoteLevelMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -63,7 +63,7 @@ public final class CodexTypeDataOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -74,7 +74,7 @@ public final class CodexTypeDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 14;</code>
@@ -83,7 +83,7 @@ public final class CodexTypeDataOuterClass {
     java.util.List<java.lang.Integer> getCodexIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 14;</code>
@@ -92,7 +92,7 @@ public final class CodexTypeDataOuterClass {
     int getCodexIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 14;</code>
@@ -103,7 +103,7 @@ public final class CodexTypeDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated bool have_viewed_list = 9;</code>
@@ -112,7 +112,7 @@ public final class CodexTypeDataOuterClass {
     java.util.List<java.lang.Boolean> getHaveViewedListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated bool have_viewed_list = 9;</code>
@@ -121,7 +121,7 @@ public final class CodexTypeDataOuterClass {
     int getHaveViewedListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated bool have_viewed_list = 9;</code>
@@ -132,7 +132,7 @@ public final class CodexTypeDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CodexType type = 11;</code>
@@ -141,7 +141,7 @@ public final class CodexTypeDataOuterClass {
     int getTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CodexType type = 11;</code>
@@ -337,7 +337,7 @@ public final class CodexTypeDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -359,7 +359,7 @@ public final class CodexTypeDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -371,7 +371,7 @@ public final class CodexTypeDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -388,7 +388,7 @@ public final class CodexTypeDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -410,7 +410,7 @@ public final class CodexTypeDataOuterClass {
     private com.google.protobuf.Internal.IntList codexIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 14;</code>
@@ -423,7 +423,7 @@ public final class CodexTypeDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 14;</code>
@@ -434,7 +434,7 @@ public final class CodexTypeDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated uint32 codex_id_list = 14;</code>
@@ -450,7 +450,7 @@ public final class CodexTypeDataOuterClass {
     private com.google.protobuf.Internal.BooleanList haveViewedList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated bool have_viewed_list = 9;</code>
@@ -463,7 +463,7 @@ public final class CodexTypeDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated bool have_viewed_list = 9;</code>
@@ -474,7 +474,7 @@ public final class CodexTypeDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated bool have_viewed_list = 9;</code>
@@ -490,7 +490,7 @@ public final class CodexTypeDataOuterClass {
     private int type_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CodexType type = 11;</code>
@@ -501,7 +501,7 @@ public final class CodexTypeDataOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CodexType type = 11;</code>
@@ -979,7 +979,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -1001,7 +1001,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -1013,7 +1013,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -1030,7 +1030,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -1055,7 +1055,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -1078,7 +1078,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -1094,7 +1094,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; weapon_max_promote_level_map = 6;</code>
@@ -1116,7 +1116,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 14;</code>
@@ -1129,7 +1129,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 14;</code>
@@ -1140,7 +1140,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 14;</code>
@@ -1152,7 +1152,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 14;</code>
@@ -1169,7 +1169,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 14;</code>
@@ -1184,7 +1184,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 14;</code>
@@ -1201,7 +1201,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated uint32 codex_id_list = 14;</code>
@@ -1223,7 +1223,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated bool have_viewed_list = 9;</code>
@@ -1236,7 +1236,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated bool have_viewed_list = 9;</code>
@@ -1247,7 +1247,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated bool have_viewed_list = 9;</code>
@@ -1259,7 +1259,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated bool have_viewed_list = 9;</code>
@@ -1276,7 +1276,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated bool have_viewed_list = 9;</code>
@@ -1291,7 +1291,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated bool have_viewed_list = 9;</code>
@@ -1308,7 +1308,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated bool have_viewed_list = 9;</code>
@@ -1324,7 +1324,7 @@ public final class CodexTypeDataOuterClass {
       private int type_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 11;</code>
@@ -1335,7 +1335,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 11;</code>
@@ -1350,7 +1350,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 11;</code>
@@ -1364,7 +1364,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 11;</code>
@@ -1382,7 +1382,7 @@ public final class CodexTypeDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CodexType type = 11;</code>

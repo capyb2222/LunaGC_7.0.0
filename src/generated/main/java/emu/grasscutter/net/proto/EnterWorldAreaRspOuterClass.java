@@ -20,7 +20,7 @@ public final class EnterWorldAreaRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 area_id = 3;</code>
@@ -30,7 +30,7 @@ public final class EnterWorldAreaRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 4;</code>
@@ -40,7 +40,7 @@ public final class EnterWorldAreaRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 area_type = 7;</code>
@@ -148,7 +148,7 @@ public final class EnterWorldAreaRspOuterClass {
     private int areaId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 area_id = 3;</code>
@@ -163,7 +163,7 @@ public final class EnterWorldAreaRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>int32 retcode = 4;</code>
@@ -178,7 +178,7 @@ public final class EnterWorldAreaRspOuterClass {
     private int areaType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 area_type = 7;</code>
@@ -532,7 +532,7 @@ public final class EnterWorldAreaRspOuterClass {
       private int areaId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_id = 3;</code>
@@ -544,7 +544,7 @@ public final class EnterWorldAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_id = 3;</code>
@@ -559,7 +559,7 @@ public final class EnterWorldAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_id = 3;</code>
@@ -575,7 +575,7 @@ public final class EnterWorldAreaRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 4;</code>
@@ -587,7 +587,7 @@ public final class EnterWorldAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 4;</code>
@@ -602,7 +602,7 @@ public final class EnterWorldAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>int32 retcode = 4;</code>
@@ -618,7 +618,7 @@ public final class EnterWorldAreaRspOuterClass {
       private int areaType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_type = 7;</code>
@@ -630,7 +630,7 @@ public final class EnterWorldAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_type = 7;</code>
@@ -645,7 +645,7 @@ public final class EnterWorldAreaRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 area_type = 7;</code>

@@ -20,7 +20,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -29,7 +29,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
     boolean hasValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -38,7 +38,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
     emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo getValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -47,7 +47,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -57,7 +57,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 name_id = 6;</code>
@@ -67,7 +67,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_server_cache = 9;</code>
@@ -184,7 +184,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
     private emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo value_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -196,7 +196,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -208,7 +208,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -222,7 +222,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -237,7 +237,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
     private int nameId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 name_id = 6;</code>
@@ -252,7 +252,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
     private boolean isServerCache_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_server_cache = 9;</code>
@@ -635,7 +635,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
           emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfo.Builder, emu.grasscutter.net.proto.AnimatorParameterValueInfoOuterClass.AnimatorParameterValueInfoOrBuilder> valueBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -646,7 +646,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -661,7 +661,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -681,7 +681,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -699,7 +699,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -721,7 +721,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -739,7 +739,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -751,7 +751,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -766,7 +766,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.AnimatorParameterValueInfo value = 14;</code>
@@ -788,7 +788,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -800,7 +800,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -815,7 +815,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -831,7 +831,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       private int nameId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 name_id = 6;</code>
@@ -843,7 +843,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 name_id = 6;</code>
@@ -858,7 +858,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 name_id = 6;</code>
@@ -874,7 +874,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       private boolean isServerCache_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_server_cache = 9;</code>
@@ -886,7 +886,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_server_cache = 9;</code>
@@ -901,7 +901,7 @@ public final class EvtAnimatorParameterInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_server_cache = 9;</code>

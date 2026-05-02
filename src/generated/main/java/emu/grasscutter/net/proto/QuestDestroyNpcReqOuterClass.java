@@ -20,7 +20,7 @@ public final class QuestDestroyNpcReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 32
+     *6.5.5 //6.4.0 //6.5.0          // offset: 32
      * </pre>
      *
      * <code>uint32 npc_id = 1;</code>
@@ -30,7 +30,7 @@ public final class QuestDestroyNpcReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 40
+     *6.5.5 //6.4.0 //6.5.0          // offset: 40
      * </pre>
      *
      * <code>uint32 parent_quest_id = 4;</code>
@@ -133,7 +133,7 @@ public final class QuestDestroyNpcReqOuterClass {
     private int npcId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 32
+     *6.5.5 //6.4.0 //6.5.0          // offset: 32
      * </pre>
      *
      * <code>uint32 npc_id = 1;</code>
@@ -148,7 +148,7 @@ public final class QuestDestroyNpcReqOuterClass {
     private int parentQuestId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          // offset: 40
+     *6.5.5 //6.4.0 //6.5.0          // offset: 40
      * </pre>
      *
      * <code>uint32 parent_quest_id = 4;</code>
@@ -485,7 +485,7 @@ public final class QuestDestroyNpcReqOuterClass {
       private int npcId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 32
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32
        * </pre>
        *
        * <code>uint32 npc_id = 1;</code>
@@ -497,7 +497,7 @@ public final class QuestDestroyNpcReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 32
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32
        * </pre>
        *
        * <code>uint32 npc_id = 1;</code>
@@ -512,7 +512,7 @@ public final class QuestDestroyNpcReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 32
+       *6.5.5 //6.4.0 //6.5.0          // offset: 32
        * </pre>
        *
        * <code>uint32 npc_id = 1;</code>
@@ -528,7 +528,7 @@ public final class QuestDestroyNpcReqOuterClass {
       private int parentQuestId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 40
+       *6.5.5 //6.4.0 //6.5.0          // offset: 40
        * </pre>
        *
        * <code>uint32 parent_quest_id = 4;</code>
@@ -540,7 +540,7 @@ public final class QuestDestroyNpcReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 40
+       *6.5.5 //6.4.0 //6.5.0          // offset: 40
        * </pre>
        *
        * <code>uint32 parent_quest_id = 4;</code>
@@ -555,7 +555,7 @@ public final class QuestDestroyNpcReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          // offset: 40
+       *6.5.5 //6.4.0 //6.5.0          // offset: 40
        * </pre>
        *
        * <code>uint32 parent_quest_id = 4;</code>

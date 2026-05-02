@@ -37,7 +37,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 level_id = 7;</code>
@@ -47,7 +47,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -57,7 +57,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 config_id = 10;</code>
@@ -219,7 +219,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
     private int levelId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 level_id = 7;</code>
@@ -234,7 +234,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -249,7 +249,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
     private int configId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 config_id = 10;</code>
@@ -729,7 +729,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       private int levelId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level_id = 7;</code>
@@ -741,7 +741,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level_id = 7;</code>
@@ -756,7 +756,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 level_id = 7;</code>
@@ -772,7 +772,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -784,7 +784,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -799,7 +799,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -815,7 +815,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       private int configId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 config_id = 10;</code>
@@ -827,7 +827,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 config_id = 10;</code>
@@ -842,7 +842,7 @@ public final class GCGStartChallengeByCheckRewardRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 config_id = 10;</code>

@@ -44,7 +44,7 @@ public final class ShopConcertProductOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 begin_time = 5;</code>
@@ -60,7 +60,7 @@ public final class ShopConcertProductOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 end_time = 6;</code>
@@ -276,7 +276,7 @@ public final class ShopConcertProductOuterClass {
     private int beginTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 begin_time = 5;</code>
@@ -302,7 +302,7 @@ public final class ShopConcertProductOuterClass {
     private int endTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0         
+     *6.5.5 //6.4.0 //6.5.0         
      * </pre>
      *
      * <code>uint32 end_time = 6;</code>
@@ -894,7 +894,7 @@ public final class ShopConcertProductOuterClass {
       private int beginTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 begin_time = 5;</code>
@@ -906,7 +906,7 @@ public final class ShopConcertProductOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 begin_time = 5;</code>
@@ -921,7 +921,7 @@ public final class ShopConcertProductOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 begin_time = 5;</code>
@@ -968,7 +968,7 @@ public final class ShopConcertProductOuterClass {
       private int endTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 end_time = 6;</code>
@@ -980,7 +980,7 @@ public final class ShopConcertProductOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 end_time = 6;</code>
@@ -995,7 +995,7 @@ public final class ShopConcertProductOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0         
+       *6.5.5 //6.4.0 //6.5.0         
        * </pre>
        *
        * <code>uint32 end_time = 6;</code>

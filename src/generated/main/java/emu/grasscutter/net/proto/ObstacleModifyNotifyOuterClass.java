@@ -20,7 +20,7 @@ public final class ObstacleModifyNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -29,7 +29,7 @@ public final class ObstacleModifyNotifyOuterClass {
     java.util.List<java.lang.Integer> getRemoveObstacleIdsList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -38,7 +38,7 @@ public final class ObstacleModifyNotifyOuterClass {
     int getRemoveObstacleIdsCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -49,7 +49,7 @@ public final class ObstacleModifyNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -58,7 +58,7 @@ public final class ObstacleModifyNotifyOuterClass {
         getAddObstaclesList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -66,7 +66,7 @@ public final class ObstacleModifyNotifyOuterClass {
     emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo getAddObstacles(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -74,7 +74,7 @@ public final class ObstacleModifyNotifyOuterClass {
     int getAddObstaclesCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -83,7 +83,7 @@ public final class ObstacleModifyNotifyOuterClass {
         getAddObstaclesOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -110,7 +110,7 @@ public final class ObstacleModifyNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 4;</code>
@@ -272,7 +272,7 @@ public final class ObstacleModifyNotifyOuterClass {
     private com.google.protobuf.Internal.IntList removeObstacleIds_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -285,7 +285,7 @@ public final class ObstacleModifyNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -296,7 +296,7 @@ public final class ObstacleModifyNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -312,7 +312,7 @@ public final class ObstacleModifyNotifyOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ObstacleInfoOuterClass.ObstacleInfo> addObstacles_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -323,7 +323,7 @@ public final class ObstacleModifyNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -335,7 +335,7 @@ public final class ObstacleModifyNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -346,7 +346,7 @@ public final class ObstacleModifyNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -357,7 +357,7 @@ public final class ObstacleModifyNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -400,7 +400,7 @@ public final class ObstacleModifyNotifyOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_id = 4;</code>
@@ -872,7 +872,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -885,7 +885,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -896,7 +896,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -908,7 +908,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -925,7 +925,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -940,7 +940,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -957,7 +957,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated int32 remove_obstacle_ids = 5;</code>
@@ -984,7 +984,7 @@ public final class ObstacleModifyNotifyOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -998,7 +998,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1012,7 +1012,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1026,7 +1026,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1047,7 +1047,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1065,7 +1065,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1085,7 +1085,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1106,7 +1106,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1124,7 +1124,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1142,7 +1142,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1161,7 +1161,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1178,7 +1178,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1195,7 +1195,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1206,7 +1206,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1220,7 +1220,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1235,7 +1235,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1246,7 +1246,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1258,7 +1258,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ObstacleInfo add_obstacles = 10;</code>
@@ -1364,7 +1364,7 @@ public final class ObstacleModifyNotifyOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 4;</code>
@@ -1376,7 +1376,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 4;</code>
@@ -1391,7 +1391,7 @@ public final class ObstacleModifyNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_id = 4;</code>

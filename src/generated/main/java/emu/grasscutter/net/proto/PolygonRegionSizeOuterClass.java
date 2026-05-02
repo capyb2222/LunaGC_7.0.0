@@ -20,7 +20,7 @@ public final class PolygonRegionSizeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -29,7 +29,7 @@ public final class PolygonRegionSizeOuterClass {
         getPointListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -37,7 +37,7 @@ public final class PolygonRegionSizeOuterClass {
     emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane getPointList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -45,7 +45,7 @@ public final class PolygonRegionSizeOuterClass {
     int getPointListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -54,7 +54,7 @@ public final class PolygonRegionSizeOuterClass {
         getPointListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -64,7 +64,7 @@ public final class PolygonRegionSizeOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float height = 9;</code>
@@ -172,7 +172,7 @@ public final class PolygonRegionSizeOuterClass {
     private java.util.List<emu.grasscutter.net.proto.VectorPlaneOuterClass.VectorPlane> pointList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -183,7 +183,7 @@ public final class PolygonRegionSizeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -195,7 +195,7 @@ public final class PolygonRegionSizeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -206,7 +206,7 @@ public final class PolygonRegionSizeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -217,7 +217,7 @@ public final class PolygonRegionSizeOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>repeated .VectorPlane point_list = 3;</code>
@@ -232,7 +232,7 @@ public final class PolygonRegionSizeOuterClass {
     private float height_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>float height = 9;</code>
@@ -618,7 +618,7 @@ public final class PolygonRegionSizeOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -632,7 +632,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -646,7 +646,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -660,7 +660,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -681,7 +681,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -699,7 +699,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -719,7 +719,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -740,7 +740,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -758,7 +758,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -776,7 +776,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -795,7 +795,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -812,7 +812,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -829,7 +829,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -840,7 +840,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -854,7 +854,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -869,7 +869,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -880,7 +880,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -892,7 +892,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>repeated .VectorPlane point_list = 3;</code>
@@ -919,7 +919,7 @@ public final class PolygonRegionSizeOuterClass {
       private float height_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float height = 9;</code>
@@ -931,7 +931,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float height = 9;</code>
@@ -946,7 +946,7 @@ public final class PolygonRegionSizeOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>float height = 9;</code>

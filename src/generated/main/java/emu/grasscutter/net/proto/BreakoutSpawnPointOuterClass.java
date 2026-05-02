@@ -44,7 +44,7 @@ public final class BreakoutSpawnPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -53,7 +53,7 @@ public final class BreakoutSpawnPointOuterClass {
         getSpawnedBrickListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -61,7 +61,7 @@ public final class BreakoutSpawnPointOuterClass {
     emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject getSpawnedBrickList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -69,7 +69,7 @@ public final class BreakoutSpawnPointOuterClass {
     int getSpawnedBrickListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -78,7 +78,7 @@ public final class BreakoutSpawnPointOuterClass {
         getSpawnedBrickListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -105,7 +105,7 @@ public final class BreakoutSpawnPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 brick_suite_id = 2;</code>
@@ -127,7 +127,7 @@ public final class BreakoutSpawnPointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 1;</code>
@@ -328,7 +328,7 @@ public final class BreakoutSpawnPointOuterClass {
     private java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectOuterClass.BreakoutPhysicalObject> spawnedBrickList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -339,7 +339,7 @@ public final class BreakoutSpawnPointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -351,7 +351,7 @@ public final class BreakoutSpawnPointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -362,7 +362,7 @@ public final class BreakoutSpawnPointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -373,7 +373,7 @@ public final class BreakoutSpawnPointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -416,7 +416,7 @@ public final class BreakoutSpawnPointOuterClass {
     private int brickSuiteId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 brick_suite_id = 2;</code>
@@ -453,7 +453,7 @@ public final class BreakoutSpawnPointOuterClass {
     private int id_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 1;</code>
@@ -1228,7 +1228,7 @@ public final class BreakoutSpawnPointOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1242,7 +1242,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1256,7 +1256,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1270,7 +1270,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1291,7 +1291,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1309,7 +1309,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1329,7 +1329,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1350,7 +1350,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1368,7 +1368,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1386,7 +1386,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1405,7 +1405,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1422,7 +1422,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1439,7 +1439,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1450,7 +1450,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1464,7 +1464,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1479,7 +1479,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1490,7 +1490,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1502,7 +1502,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .BreakoutPhysicalObject spawned_brick_list = 3;</code>
@@ -1608,7 +1608,7 @@ public final class BreakoutSpawnPointOuterClass {
       private int brickSuiteId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 brick_suite_id = 2;</code>
@@ -1620,7 +1620,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 brick_suite_id = 2;</code>
@@ -1635,7 +1635,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 brick_suite_id = 2;</code>
@@ -1713,7 +1713,7 @@ public final class BreakoutSpawnPointOuterClass {
       private int id_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 1;</code>
@@ -1725,7 +1725,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 1;</code>
@@ -1740,7 +1740,7 @@ public final class BreakoutSpawnPointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 1;</code>

@@ -20,7 +20,7 @@ public final class RoguelikeGadgetInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cell_id = 4;</code>
@@ -147,7 +147,7 @@ public final class RoguelikeGadgetInfoOuterClass {
     private int cellId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 cell_id = 4;</code>
@@ -547,7 +547,7 @@ public final class RoguelikeGadgetInfoOuterClass {
       private int cellId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cell_id = 4;</code>
@@ -559,7 +559,7 @@ public final class RoguelikeGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cell_id = 4;</code>
@@ -574,7 +574,7 @@ public final class RoguelikeGadgetInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 cell_id = 4;</code>

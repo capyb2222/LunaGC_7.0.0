@@ -20,7 +20,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
      * </pre>
      *
      * <code>uint64 weapon_guid = 10;</code>
@@ -30,7 +30,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
      * </pre>
      *
      * <code>uint64 avatar_guid = 8;</code>
@@ -40,7 +40,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
      * </pre>
      *
      * <code>bool is_player_cur_avatar = 5;</code>
@@ -50,7 +50,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
      * </pre>
      *
      * <code>bool is_on_scene = 1318;</code>
@@ -60,7 +60,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
      * </pre>
      *
      * <code>bool is_reconnect = 9;</code>
@@ -70,7 +70,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
      * </pre>
      *
      * <code>uint32 weapon_entity_id = 13;</code>
@@ -80,7 +80,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
      * </pre>
      *
      * <code>uint32 player_uid = 7;</code>
@@ -90,7 +90,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
      * </pre>
      *
      * <code>uint32 scene_id = 1;</code>
@@ -100,7 +100,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
      * </pre>
      *
      * <code>uint32 entity_id = 2;</code>
@@ -110,7 +110,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -119,7 +119,7 @@ public final class SceneTeamAvatarOuterClass {
     boolean hasAbilityControlBlock();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -128,7 +128,7 @@ public final class SceneTeamAvatarOuterClass {
     emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock getAbilityControlBlock();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -137,7 +137,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
      * </pre>
      *
      * <code>.AvatarInfo avatar_info = 3;</code>
@@ -146,7 +146,7 @@ public final class SceneTeamAvatarOuterClass {
     boolean hasAvatarInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
      * </pre>
      *
      * <code>.AvatarInfo avatar_info = 3;</code>
@@ -155,7 +155,7 @@ public final class SceneTeamAvatarOuterClass {
     emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo getAvatarInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
      * </pre>
      *
      * <code>.AvatarInfo avatar_info = 3;</code>
@@ -164,7 +164,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -173,7 +173,7 @@ public final class SceneTeamAvatarOuterClass {
     boolean hasWeaponAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -182,7 +182,7 @@ public final class SceneTeamAvatarOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getWeaponAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -191,7 +191,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -200,7 +200,7 @@ public final class SceneTeamAvatarOuterClass {
     boolean hasAvatarAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -209,7 +209,7 @@ public final class SceneTeamAvatarOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAvatarAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -218,7 +218,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -227,7 +227,7 @@ public final class SceneTeamAvatarOuterClass {
     boolean hasSceneAvatarInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -236,7 +236,7 @@ public final class SceneTeamAvatarOuterClass {
     emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo getSceneAvatarInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -245,7 +245,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -254,7 +254,7 @@ public final class SceneTeamAvatarOuterClass {
     boolean hasSceneEntityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -263,7 +263,7 @@ public final class SceneTeamAvatarOuterClass {
     emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo getSceneEntityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -272,7 +272,7 @@ public final class SceneTeamAvatarOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -281,7 +281,7 @@ public final class SceneTeamAvatarOuterClass {
         getServerBuffListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -289,7 +289,7 @@ public final class SceneTeamAvatarOuterClass {
     emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff getServerBuffList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -297,7 +297,7 @@ public final class SceneTeamAvatarOuterClass {
     int getServerBuffListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -306,7 +306,7 @@ public final class SceneTeamAvatarOuterClass {
         getServerBuffListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -532,7 +532,7 @@ public final class SceneTeamAvatarOuterClass {
     private long weaponGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
      * </pre>
      *
      * <code>uint64 weapon_guid = 10;</code>
@@ -547,7 +547,7 @@ public final class SceneTeamAvatarOuterClass {
     private long avatarGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
      * </pre>
      *
      * <code>uint64 avatar_guid = 8;</code>
@@ -562,7 +562,7 @@ public final class SceneTeamAvatarOuterClass {
     private boolean isPlayerCurAvatar_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
      * </pre>
      *
      * <code>bool is_player_cur_avatar = 5;</code>
@@ -577,7 +577,7 @@ public final class SceneTeamAvatarOuterClass {
     private boolean isOnScene_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
      * </pre>
      *
      * <code>bool is_on_scene = 1318;</code>
@@ -592,7 +592,7 @@ public final class SceneTeamAvatarOuterClass {
     private boolean isReconnect_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
      * </pre>
      *
      * <code>bool is_reconnect = 9;</code>
@@ -607,7 +607,7 @@ public final class SceneTeamAvatarOuterClass {
     private int weaponEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
      * </pre>
      *
      * <code>uint32 weapon_entity_id = 13;</code>
@@ -622,7 +622,7 @@ public final class SceneTeamAvatarOuterClass {
     private int playerUid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
      * </pre>
      *
      * <code>uint32 player_uid = 7;</code>
@@ -637,7 +637,7 @@ public final class SceneTeamAvatarOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
      * </pre>
      *
      * <code>uint32 scene_id = 1;</code>
@@ -652,7 +652,7 @@ public final class SceneTeamAvatarOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
      * </pre>
      *
      * <code>uint32 entity_id = 2;</code>
@@ -667,7 +667,7 @@ public final class SceneTeamAvatarOuterClass {
     private emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock abilityControlBlock_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -679,7 +679,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -691,7 +691,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -705,7 +705,7 @@ public final class SceneTeamAvatarOuterClass {
     private emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo avatarInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
      * </pre>
      *
      * <code>.AvatarInfo avatar_info = 3;</code>
@@ -717,7 +717,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
      * </pre>
      *
      * <code>.AvatarInfo avatar_info = 3;</code>
@@ -729,7 +729,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
      * </pre>
      *
      * <code>.AvatarInfo avatar_info = 3;</code>
@@ -743,7 +743,7 @@ public final class SceneTeamAvatarOuterClass {
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo weaponAbilityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -755,7 +755,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -767,7 +767,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -781,7 +781,7 @@ public final class SceneTeamAvatarOuterClass {
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo avatarAbilityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -793,7 +793,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -805,7 +805,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+     *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
      * </pre>
      *
      * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -819,7 +819,7 @@ public final class SceneTeamAvatarOuterClass {
     private emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo sceneAvatarInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -831,7 +831,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -843,7 +843,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -857,7 +857,7 @@ public final class SceneTeamAvatarOuterClass {
     private emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo sceneEntityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -869,7 +869,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -881,7 +881,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
      * </pre>
      *
      * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -895,7 +895,7 @@ public final class SceneTeamAvatarOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -906,7 +906,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -918,7 +918,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -929,7 +929,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -940,7 +940,7 @@ public final class SceneTeamAvatarOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+     *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
      * </pre>
      *
      * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -1634,7 +1634,7 @@ public final class SceneTeamAvatarOuterClass {
       private long weaponGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
        * </pre>
        *
        * <code>uint64 weapon_guid = 10;</code>
@@ -1646,7 +1646,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
        * </pre>
        *
        * <code>uint64 weapon_guid = 10;</code>
@@ -1661,7 +1661,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_guid count is 2. *&#47;
        * </pre>
        *
        * <code>uint64 weapon_guid = 10;</code>
@@ -1677,7 +1677,7 @@ public final class SceneTeamAvatarOuterClass {
       private long avatarGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
        * </pre>
        *
        * <code>uint64 avatar_guid = 8;</code>
@@ -1689,7 +1689,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
        * </pre>
        *
        * <code>uint64 avatar_guid = 8;</code>
@@ -1704,7 +1704,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_guid count is 78. *&#47;
        * </pre>
        *
        * <code>uint64 avatar_guid = 8;</code>
@@ -1720,7 +1720,7 @@ public final class SceneTeamAvatarOuterClass {
       private boolean isPlayerCurAvatar_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
        * </pre>
        *
        * <code>bool is_player_cur_avatar = 5;</code>
@@ -1732,7 +1732,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
        * </pre>
        *
        * <code>bool is_player_cur_avatar = 5;</code>
@@ -1747,7 +1747,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; is_player_cur_avatar count is 1. *&#47;
        * </pre>
        *
        * <code>bool is_player_cur_avatar = 5;</code>
@@ -1763,7 +1763,7 @@ public final class SceneTeamAvatarOuterClass {
       private boolean isOnScene_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
        * </pre>
        *
        * <code>bool is_on_scene = 1318;</code>
@@ -1775,7 +1775,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
        * </pre>
        *
        * <code>bool is_on_scene = 1318;</code>
@@ -1790,7 +1790,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; is_on_scene count is 1. *&#47;
        * </pre>
        *
        * <code>bool is_on_scene = 1318;</code>
@@ -1806,7 +1806,7 @@ public final class SceneTeamAvatarOuterClass {
       private boolean isReconnect_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
        * </pre>
        *
        * <code>bool is_reconnect = 9;</code>
@@ -1818,7 +1818,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
        * </pre>
        *
        * <code>bool is_reconnect = 9;</code>
@@ -1833,7 +1833,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; is_reconnect count is 2. *&#47;
        * </pre>
        *
        * <code>bool is_reconnect = 9;</code>
@@ -1849,7 +1849,7 @@ public final class SceneTeamAvatarOuterClass {
       private int weaponEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
        * </pre>
        *
        * <code>uint32 weapon_entity_id = 13;</code>
@@ -1861,7 +1861,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
        * </pre>
        *
        * <code>uint32 weapon_entity_id = 13;</code>
@@ -1876,7 +1876,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; weapon_entity_id count is 2. *&#47;
        * </pre>
        *
        * <code>uint32 weapon_entity_id = 13;</code>
@@ -1892,7 +1892,7 @@ public final class SceneTeamAvatarOuterClass {
       private int playerUid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
        * </pre>
        *
        * <code>uint32 player_uid = 7;</code>
@@ -1904,7 +1904,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
        * </pre>
        *
        * <code>uint32 player_uid = 7;</code>
@@ -1919,7 +1919,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; player_uid count is 35. *&#47;
        * </pre>
        *
        * <code>uint32 player_uid = 7;</code>
@@ -1935,7 +1935,7 @@ public final class SceneTeamAvatarOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
        * </pre>
        *
        * <code>uint32 scene_id = 1;</code>
@@ -1947,7 +1947,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
        * </pre>
        *
        * <code>uint32 scene_id = 1;</code>
@@ -1962,7 +1962,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_id count is 80. *&#47;
        * </pre>
        *
        * <code>uint32 scene_id = 1;</code>
@@ -1978,7 +1978,7 @@ public final class SceneTeamAvatarOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -1990,7 +1990,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -2005,7 +2005,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; entity_id count is 185. *&#47;
        * </pre>
        *
        * <code>uint32 entity_id = 2;</code>
@@ -2023,7 +2023,7 @@ public final class SceneTeamAvatarOuterClass {
           emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder> abilityControlBlockBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -2034,7 +2034,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -2049,7 +2049,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -2069,7 +2069,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -2087,7 +2087,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -2109,7 +2109,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -2127,7 +2127,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -2139,7 +2139,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -2154,7 +2154,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; ability_control_block count is 3. *&#47;
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 15;</code>
@@ -2178,7 +2178,7 @@ public final class SceneTeamAvatarOuterClass {
           emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfo.Builder, emu.grasscutter.net.proto.AvatarInfoOuterClass.AvatarInfoOrBuilder> avatarInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
        * </pre>
        *
        * <code>.AvatarInfo avatar_info = 3;</code>
@@ -2189,7 +2189,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
        * </pre>
        *
        * <code>.AvatarInfo avatar_info = 3;</code>
@@ -2204,7 +2204,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
        * </pre>
        *
        * <code>.AvatarInfo avatar_info = 3;</code>
@@ -2224,7 +2224,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
        * </pre>
        *
        * <code>.AvatarInfo avatar_info = 3;</code>
@@ -2242,7 +2242,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
        * </pre>
        *
        * <code>.AvatarInfo avatar_info = 3;</code>
@@ -2264,7 +2264,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
        * </pre>
        *
        * <code>.AvatarInfo avatar_info = 3;</code>
@@ -2282,7 +2282,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
        * </pre>
        *
        * <code>.AvatarInfo avatar_info = 3;</code>
@@ -2294,7 +2294,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
        * </pre>
        *
        * <code>.AvatarInfo avatar_info = 3;</code>
@@ -2309,7 +2309,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; avatar_info count is 5. *&#47;
        * </pre>
        *
        * <code>.AvatarInfo avatar_info = 3;</code>
@@ -2333,7 +2333,7 @@ public final class SceneTeamAvatarOuterClass {
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> weaponAbilityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -2344,7 +2344,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -2359,7 +2359,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -2379,7 +2379,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -2397,7 +2397,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -2419,7 +2419,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -2437,7 +2437,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -2449,7 +2449,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -2464,7 +2464,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; weapon_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo weapon_ability_info = 14;</code>
@@ -2488,7 +2488,7 @@ public final class SceneTeamAvatarOuterClass {
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> avatarAbilityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -2499,7 +2499,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -2514,7 +2514,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -2534,7 +2534,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -2552,7 +2552,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -2574,7 +2574,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -2592,7 +2592,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -2604,7 +2604,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -2619,7 +2619,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
+       *6.5.5 //6.4.0 //6.5.0   /&#42; avatar_ability_info count is 2. *&#47;
        * </pre>
        *
        * <code>.AbilitySyncStateInfo avatar_ability_info = 11;</code>
@@ -2643,7 +2643,7 @@ public final class SceneTeamAvatarOuterClass {
           emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfo.Builder, emu.grasscutter.net.proto.SceneAvatarInfoOuterClass.SceneAvatarInfoOrBuilder> sceneAvatarInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -2654,7 +2654,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -2669,7 +2669,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -2689,7 +2689,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -2707,7 +2707,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -2729,7 +2729,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -2747,7 +2747,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -2759,7 +2759,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -2774,7 +2774,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_avatar_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneAvatarInfo scene_avatar_info = 12;</code>
@@ -2798,7 +2798,7 @@ public final class SceneTeamAvatarOuterClass {
           emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo.Builder, emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfoOrBuilder> sceneEntityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -2809,7 +2809,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -2824,7 +2824,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -2844,7 +2844,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -2862,7 +2862,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -2884,7 +2884,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -2902,7 +2902,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -2914,7 +2914,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -2929,7 +2929,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; scene_entity_info count is 1. *&#47;
        * </pre>
        *
        * <code>.SceneEntityInfo scene_entity_info = 6;</code>
@@ -2962,7 +2962,7 @@ public final class SceneTeamAvatarOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -2976,7 +2976,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -2990,7 +2990,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3004,7 +3004,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3025,7 +3025,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3043,7 +3043,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3063,7 +3063,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3084,7 +3084,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3102,7 +3102,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3120,7 +3120,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3139,7 +3139,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3156,7 +3156,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3173,7 +3173,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3184,7 +3184,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3198,7 +3198,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3213,7 +3213,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3224,7 +3224,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>
@@ -3236,7 +3236,7 @@ public final class SceneTeamAvatarOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
+       *6.5.5 //6.4.0 //6.5.0        /&#42; server_buff_list count is 7. *&#47;
        * </pre>
        *
        * <code>repeated .ServerBuff server_buff_list = 4;</code>

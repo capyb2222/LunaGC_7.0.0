@@ -20,7 +20,7 @@ public final class GetGachaInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -29,7 +29,7 @@ public final class GetGachaInfoRspOuterClass {
         getGachaInfoListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -37,7 +37,7 @@ public final class GetGachaInfoRspOuterClass {
     emu.grasscutter.net.proto.GachaInfoOuterClass.GachaInfo getGachaInfoList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -45,7 +45,7 @@ public final class GetGachaInfoRspOuterClass {
     int getGachaInfoListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -54,7 +54,7 @@ public final class GetGachaInfoRspOuterClass {
         getGachaInfoListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -64,7 +64,7 @@ public final class GetGachaInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 daily_gacha_times = 4;</code>
@@ -74,7 +74,7 @@ public final class GetGachaInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 12;</code>
@@ -84,7 +84,7 @@ public final class GetGachaInfoRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_random = 2;</code>
@@ -228,7 +228,7 @@ public final class GetGachaInfoRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.GachaInfoOuterClass.GachaInfo> gachaInfoList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -239,7 +239,7 @@ public final class GetGachaInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -251,7 +251,7 @@ public final class GetGachaInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -262,7 +262,7 @@ public final class GetGachaInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -273,7 +273,7 @@ public final class GetGachaInfoRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -288,7 +288,7 @@ public final class GetGachaInfoRspOuterClass {
     private int dailyGachaTimes_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 daily_gacha_times = 4;</code>
@@ -303,7 +303,7 @@ public final class GetGachaInfoRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>int32 retcode = 12;</code>
@@ -318,7 +318,7 @@ public final class GetGachaInfoRspOuterClass {
     private int gachaRandom_;
     /**
      * <pre>
-     *6.4.0 //6.5.0      
+     *6.5.5 //6.4.0 //6.5.0      
      * </pre>
      *
      * <code>uint32 gacha_random = 2;</code>
@@ -798,7 +798,7 @@ public final class GetGachaInfoRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -812,7 +812,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -826,7 +826,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -840,7 +840,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -861,7 +861,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -879,7 +879,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -899,7 +899,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -920,7 +920,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -938,7 +938,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -956,7 +956,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -975,7 +975,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -992,7 +992,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -1009,7 +1009,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -1020,7 +1020,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -1034,7 +1034,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -1049,7 +1049,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -1060,7 +1060,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -1072,7 +1072,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .GachaInfo gacha_info_list = 1;</code>
@@ -1099,7 +1099,7 @@ public final class GetGachaInfoRspOuterClass {
       private int dailyGachaTimes_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 daily_gacha_times = 4;</code>
@@ -1111,7 +1111,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 daily_gacha_times = 4;</code>
@@ -1126,7 +1126,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 daily_gacha_times = 4;</code>
@@ -1142,7 +1142,7 @@ public final class GetGachaInfoRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -1154,7 +1154,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -1169,7 +1169,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>int32 retcode = 12;</code>
@@ -1185,7 +1185,7 @@ public final class GetGachaInfoRspOuterClass {
       private int gachaRandom_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_random = 2;</code>
@@ -1197,7 +1197,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_random = 2;</code>
@@ -1212,7 +1212,7 @@ public final class GetGachaInfoRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0      
+       *6.5.5 //6.4.0 //6.5.0      
        * </pre>
        *
        * <code>uint32 gacha_random = 2;</code>

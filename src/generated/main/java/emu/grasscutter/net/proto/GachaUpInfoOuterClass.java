@@ -20,7 +20,7 @@ public final class GachaUpInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 item_id_list = 13;</code>
@@ -29,7 +29,7 @@ public final class GachaUpInfoOuterClass {
     java.util.List<java.lang.Integer> getItemIdListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 item_id_list = 13;</code>
@@ -38,7 +38,7 @@ public final class GachaUpInfoOuterClass {
     int getItemIdListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 item_id_list = 13;</code>
@@ -49,7 +49,7 @@ public final class GachaUpInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 item_parent_type = 7;</code>
@@ -169,7 +169,7 @@ public final class GachaUpInfoOuterClass {
     private com.google.protobuf.Internal.IntList itemIdList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 item_id_list = 13;</code>
@@ -182,7 +182,7 @@ public final class GachaUpInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 item_id_list = 13;</code>
@@ -193,7 +193,7 @@ public final class GachaUpInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 item_id_list = 13;</code>
@@ -209,7 +209,7 @@ public final class GachaUpInfoOuterClass {
     private int itemParentType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 item_parent_type = 7;</code>
@@ -578,7 +578,7 @@ public final class GachaUpInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 item_id_list = 13;</code>
@@ -591,7 +591,7 @@ public final class GachaUpInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 item_id_list = 13;</code>
@@ -602,7 +602,7 @@ public final class GachaUpInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 item_id_list = 13;</code>
@@ -614,7 +614,7 @@ public final class GachaUpInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 item_id_list = 13;</code>
@@ -631,7 +631,7 @@ public final class GachaUpInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 item_id_list = 13;</code>
@@ -646,7 +646,7 @@ public final class GachaUpInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 item_id_list = 13;</code>
@@ -663,7 +663,7 @@ public final class GachaUpInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 item_id_list = 13;</code>
@@ -679,7 +679,7 @@ public final class GachaUpInfoOuterClass {
       private int itemParentType_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 item_parent_type = 7;</code>
@@ -691,7 +691,7 @@ public final class GachaUpInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 item_parent_type = 7;</code>
@@ -706,7 +706,7 @@ public final class GachaUpInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 item_parent_type = 7;</code>

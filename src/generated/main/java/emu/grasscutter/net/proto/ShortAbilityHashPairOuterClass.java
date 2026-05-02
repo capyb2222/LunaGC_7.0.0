@@ -20,7 +20,7 @@ public final class ShortAbilityHashPairOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>sfixed32 ability_name_hash = 3;</code>
@@ -30,7 +30,7 @@ public final class ShortAbilityHashPairOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>sfixed32 ability_config_hash = 6;</code>
@@ -129,7 +129,7 @@ public final class ShortAbilityHashPairOuterClass {
     private int abilityNameHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>sfixed32 ability_name_hash = 3;</code>
@@ -144,7 +144,7 @@ public final class ShortAbilityHashPairOuterClass {
     private int abilityConfigHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>sfixed32 ability_config_hash = 6;</code>
@@ -477,7 +477,7 @@ public final class ShortAbilityHashPairOuterClass {
       private int abilityNameHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>sfixed32 ability_name_hash = 3;</code>
@@ -489,7 +489,7 @@ public final class ShortAbilityHashPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>sfixed32 ability_name_hash = 3;</code>
@@ -504,7 +504,7 @@ public final class ShortAbilityHashPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>sfixed32 ability_name_hash = 3;</code>
@@ -520,7 +520,7 @@ public final class ShortAbilityHashPairOuterClass {
       private int abilityConfigHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>sfixed32 ability_config_hash = 6;</code>
@@ -532,7 +532,7 @@ public final class ShortAbilityHashPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>sfixed32 ability_config_hash = 6;</code>
@@ -547,7 +547,7 @@ public final class ShortAbilityHashPairOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>sfixed32 ability_config_hash = 6;</code>

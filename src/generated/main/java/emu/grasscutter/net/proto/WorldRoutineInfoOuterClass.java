@@ -20,7 +20,7 @@ public final class WorldRoutineInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 finish_progress = 2;</code>
@@ -30,7 +30,7 @@ public final class WorldRoutineInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 progress = 4;</code>
@@ -40,7 +40,7 @@ public final class WorldRoutineInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 routine_id = 9;</code>
@@ -50,7 +50,7 @@ public final class WorldRoutineInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_finished = 5;</code>
@@ -159,7 +159,7 @@ public final class WorldRoutineInfoOuterClass {
     private int finishProgress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 finish_progress = 2;</code>
@@ -174,7 +174,7 @@ public final class WorldRoutineInfoOuterClass {
     private int progress_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 progress = 4;</code>
@@ -189,7 +189,7 @@ public final class WorldRoutineInfoOuterClass {
     private int routineId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 routine_id = 9;</code>
@@ -204,7 +204,7 @@ public final class WorldRoutineInfoOuterClass {
     private boolean isFinished_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_finished = 5;</code>
@@ -572,7 +572,7 @@ public final class WorldRoutineInfoOuterClass {
       private int finishProgress_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 finish_progress = 2;</code>
@@ -584,7 +584,7 @@ public final class WorldRoutineInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 finish_progress = 2;</code>
@@ -599,7 +599,7 @@ public final class WorldRoutineInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 finish_progress = 2;</code>
@@ -615,7 +615,7 @@ public final class WorldRoutineInfoOuterClass {
       private int progress_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 progress = 4;</code>
@@ -627,7 +627,7 @@ public final class WorldRoutineInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 progress = 4;</code>
@@ -642,7 +642,7 @@ public final class WorldRoutineInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 progress = 4;</code>
@@ -658,7 +658,7 @@ public final class WorldRoutineInfoOuterClass {
       private int routineId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 routine_id = 9;</code>
@@ -670,7 +670,7 @@ public final class WorldRoutineInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 routine_id = 9;</code>
@@ -685,7 +685,7 @@ public final class WorldRoutineInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 routine_id = 9;</code>
@@ -701,7 +701,7 @@ public final class WorldRoutineInfoOuterClass {
       private boolean isFinished_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_finished = 5;</code>
@@ -713,7 +713,7 @@ public final class WorldRoutineInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_finished = 5;</code>
@@ -728,7 +728,7 @@ public final class WorldRoutineInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_finished = 5;</code>

@@ -20,7 +20,7 @@ public final class EntityMoveInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 2;</code>
@@ -29,7 +29,7 @@ public final class EntityMoveInfoOuterClass {
     boolean hasMotionInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 2;</code>
@@ -38,7 +38,7 @@ public final class EntityMoveInfoOuterClass {
     emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo getMotionInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 2;</code>
@@ -47,7 +47,7 @@ public final class EntityMoveInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 reliable_seq = 4;</code>
@@ -57,7 +57,7 @@ public final class EntityMoveInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -67,7 +67,7 @@ public final class EntityMoveInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_time = 3;</code>
@@ -77,7 +77,7 @@ public final class EntityMoveInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_reliable = 5;</code>
@@ -199,7 +199,7 @@ public final class EntityMoveInfoOuterClass {
     private emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo motionInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 2;</code>
@@ -211,7 +211,7 @@ public final class EntityMoveInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 2;</code>
@@ -223,7 +223,7 @@ public final class EntityMoveInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MotionInfo motion_info = 2;</code>
@@ -237,7 +237,7 @@ public final class EntityMoveInfoOuterClass {
     private int reliableSeq_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 reliable_seq = 4;</code>
@@ -252,7 +252,7 @@ public final class EntityMoveInfoOuterClass {
     private int entityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 entity_id = 1;</code>
@@ -267,7 +267,7 @@ public final class EntityMoveInfoOuterClass {
     private int sceneTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 scene_time = 3;</code>
@@ -282,7 +282,7 @@ public final class EntityMoveInfoOuterClass {
     private boolean isReliable_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_reliable = 5;</code>
@@ -682,7 +682,7 @@ public final class EntityMoveInfoOuterClass {
           emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo, emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo.Builder, emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfoOrBuilder> motionInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 2;</code>
@@ -693,7 +693,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 2;</code>
@@ -708,7 +708,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 2;</code>
@@ -728,7 +728,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 2;</code>
@@ -746,7 +746,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 2;</code>
@@ -768,7 +768,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 2;</code>
@@ -786,7 +786,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 2;</code>
@@ -798,7 +798,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 2;</code>
@@ -813,7 +813,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MotionInfo motion_info = 2;</code>
@@ -835,7 +835,7 @@ public final class EntityMoveInfoOuterClass {
       private int reliableSeq_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 reliable_seq = 4;</code>
@@ -847,7 +847,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 reliable_seq = 4;</code>
@@ -862,7 +862,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 reliable_seq = 4;</code>
@@ -878,7 +878,7 @@ public final class EntityMoveInfoOuterClass {
       private int entityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -890,7 +890,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -905,7 +905,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 entity_id = 1;</code>
@@ -921,7 +921,7 @@ public final class EntityMoveInfoOuterClass {
       private int sceneTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_time = 3;</code>
@@ -933,7 +933,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_time = 3;</code>
@@ -948,7 +948,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 scene_time = 3;</code>
@@ -964,7 +964,7 @@ public final class EntityMoveInfoOuterClass {
       private boolean isReliable_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_reliable = 5;</code>
@@ -976,7 +976,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_reliable = 5;</code>
@@ -991,7 +991,7 @@ public final class EntityMoveInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_reliable = 5;</code>

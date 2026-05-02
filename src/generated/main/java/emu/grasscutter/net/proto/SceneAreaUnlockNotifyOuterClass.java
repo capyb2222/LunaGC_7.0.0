@@ -20,7 +20,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 area_list = 12;</code>
@@ -29,7 +29,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
     java.util.List<java.lang.Integer> getAreaListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 area_list = 12;</code>
@@ -38,7 +38,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
     int getAreaListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 area_list = 12;</code>
@@ -49,7 +49,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 scene_id = 10;</code>
@@ -173,7 +173,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
     private com.google.protobuf.Internal.IntList areaList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 area_list = 12;</code>
@@ -186,7 +186,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 area_list = 12;</code>
@@ -197,7 +197,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 area_list = 12;</code>
@@ -213,7 +213,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
     private int sceneId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 scene_id = 10;</code>
@@ -586,7 +586,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 area_list = 12;</code>
@@ -599,7 +599,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 area_list = 12;</code>
@@ -610,7 +610,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 area_list = 12;</code>
@@ -622,7 +622,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 area_list = 12;</code>
@@ -639,7 +639,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 area_list = 12;</code>
@@ -654,7 +654,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 area_list = 12;</code>
@@ -671,7 +671,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 area_list = 12;</code>
@@ -687,7 +687,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       private int sceneId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_id = 10;</code>
@@ -699,7 +699,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_id = 10;</code>
@@ -714,7 +714,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 scene_id = 10;</code>

@@ -20,7 +20,7 @@ public final class TeamEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -29,7 +29,7 @@ public final class TeamEnterSceneInfoOuterClass {
     boolean hasAbilityControlBlock();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -38,7 +38,7 @@ public final class TeamEnterSceneInfoOuterClass {
     emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock getAbilityControlBlock();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -47,7 +47,7 @@ public final class TeamEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -56,7 +56,7 @@ public final class TeamEnterSceneInfoOuterClass {
     boolean hasTeamAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -65,7 +65,7 @@ public final class TeamEnterSceneInfoOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getTeamAbilityInfo();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -74,7 +74,7 @@ public final class TeamEnterSceneInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 team_entity_id = 12;</code>
@@ -194,7 +194,7 @@ public final class TeamEnterSceneInfoOuterClass {
     private emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock abilityControlBlock_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -206,7 +206,7 @@ public final class TeamEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -218,7 +218,7 @@ public final class TeamEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -232,7 +232,7 @@ public final class TeamEnterSceneInfoOuterClass {
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo teamAbilityInfo_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -244,7 +244,7 @@ public final class TeamEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -256,7 +256,7 @@ public final class TeamEnterSceneInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -270,7 +270,7 @@ public final class TeamEnterSceneInfoOuterClass {
     private int teamEntityId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 team_entity_id = 12;</code>
@@ -648,7 +648,7 @@ public final class TeamEnterSceneInfoOuterClass {
           emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlock.Builder, emu.grasscutter.net.proto.AbilityControlBlockOuterClass.AbilityControlBlockOrBuilder> abilityControlBlockBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -659,7 +659,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -674,7 +674,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -694,7 +694,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -712,7 +712,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -734,7 +734,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -752,7 +752,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -764,7 +764,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -779,7 +779,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilityControlBlock ability_control_block = 14;</code>
@@ -803,7 +803,7 @@ public final class TeamEnterSceneInfoOuterClass {
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> teamAbilityInfoBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -814,7 +814,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -829,7 +829,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -849,7 +849,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -867,7 +867,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -889,7 +889,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -907,7 +907,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -919,7 +919,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -934,7 +934,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.AbilitySyncStateInfo team_ability_info = 13;</code>
@@ -956,7 +956,7 @@ public final class TeamEnterSceneInfoOuterClass {
       private int teamEntityId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 team_entity_id = 12;</code>
@@ -968,7 +968,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 team_entity_id = 12;</code>
@@ -983,7 +983,7 @@ public final class TeamEnterSceneInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 team_entity_id = 12;</code>

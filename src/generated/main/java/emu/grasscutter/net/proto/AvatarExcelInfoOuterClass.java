@@ -20,7 +20,7 @@ public final class AvatarExcelInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 controller_path_remote_hash = 4;</code>
@@ -30,7 +30,7 @@ public final class AvatarExcelInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 combat_config_hash = 5;</code>
@@ -40,7 +40,7 @@ public final class AvatarExcelInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 prefab_path_remote_hash = 2;</code>
@@ -50,7 +50,7 @@ public final class AvatarExcelInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 prefab_path_hash = 1;</code>
@@ -60,7 +60,7 @@ public final class AvatarExcelInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 controller_path_hash = 3;</code>
@@ -174,7 +174,7 @@ public final class AvatarExcelInfoOuterClass {
     private long controllerPathRemoteHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 controller_path_remote_hash = 4;</code>
@@ -189,7 +189,7 @@ public final class AvatarExcelInfoOuterClass {
     private long combatConfigHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 combat_config_hash = 5;</code>
@@ -204,7 +204,7 @@ public final class AvatarExcelInfoOuterClass {
     private long prefabPathRemoteHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 prefab_path_remote_hash = 2;</code>
@@ -219,7 +219,7 @@ public final class AvatarExcelInfoOuterClass {
     private long prefabPathHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 prefab_path_hash = 1;</code>
@@ -234,7 +234,7 @@ public final class AvatarExcelInfoOuterClass {
     private long controllerPathHash_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint64 controller_path_hash = 3;</code>
@@ -623,7 +623,7 @@ public final class AvatarExcelInfoOuterClass {
       private long controllerPathRemoteHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 controller_path_remote_hash = 4;</code>
@@ -635,7 +635,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 controller_path_remote_hash = 4;</code>
@@ -650,7 +650,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 controller_path_remote_hash = 4;</code>
@@ -666,7 +666,7 @@ public final class AvatarExcelInfoOuterClass {
       private long combatConfigHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 combat_config_hash = 5;</code>
@@ -678,7 +678,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 combat_config_hash = 5;</code>
@@ -693,7 +693,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 combat_config_hash = 5;</code>
@@ -709,7 +709,7 @@ public final class AvatarExcelInfoOuterClass {
       private long prefabPathRemoteHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 prefab_path_remote_hash = 2;</code>
@@ -721,7 +721,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 prefab_path_remote_hash = 2;</code>
@@ -736,7 +736,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 prefab_path_remote_hash = 2;</code>
@@ -752,7 +752,7 @@ public final class AvatarExcelInfoOuterClass {
       private long prefabPathHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 prefab_path_hash = 1;</code>
@@ -764,7 +764,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 prefab_path_hash = 1;</code>
@@ -779,7 +779,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 prefab_path_hash = 1;</code>
@@ -795,7 +795,7 @@ public final class AvatarExcelInfoOuterClass {
       private long controllerPathHash_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 controller_path_hash = 3;</code>
@@ -807,7 +807,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 controller_path_hash = 3;</code>
@@ -822,7 +822,7 @@ public final class AvatarExcelInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint64 controller_path_hash = 3;</code>

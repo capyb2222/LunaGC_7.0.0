@@ -20,7 +20,7 @@ public final class SeeMonsterReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 monster_id = 12;</code>
@@ -118,7 +118,7 @@ public final class SeeMonsterReqOuterClass {
     private int monsterId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0    
+     *6.5.5 //6.4.0 //6.5.0    
      * </pre>
      *
      * <code>uint32 monster_id = 12;</code>
@@ -438,7 +438,7 @@ public final class SeeMonsterReqOuterClass {
       private int monsterId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 monster_id = 12;</code>
@@ -450,7 +450,7 @@ public final class SeeMonsterReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 monster_id = 12;</code>
@@ -465,7 +465,7 @@ public final class SeeMonsterReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0    
+       *6.5.5 //6.4.0 //6.5.0    
        * </pre>
        *
        * <code>uint32 monster_id = 12;</code>

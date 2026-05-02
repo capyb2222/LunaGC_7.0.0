@@ -20,7 +20,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -29,7 +29,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
         getOverrideMapList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -37,7 +37,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry getOverrideMap(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -45,7 +45,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     int getOverrideMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -54,7 +54,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
         getOverrideMapOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -157,7 +157,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     private java.util.List<emu.grasscutter.net.proto.AbilityScalarValueEntryOuterClass.AbilityScalarValueEntry> overrideMap_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -168,7 +168,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -180,7 +180,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -191,7 +191,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -202,7 +202,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -569,7 +569,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -583,7 +583,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -597,7 +597,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -611,7 +611,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -632,7 +632,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -650,7 +650,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -670,7 +670,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -691,7 +691,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -709,7 +709,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -727,7 +727,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -746,7 +746,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -763,7 +763,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -780,7 +780,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -791,7 +791,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -805,7 +805,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -820,7 +820,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -831,7 +831,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>
@@ -843,7 +843,7 @@ public final class AbilityMetaReInitOverrideMapOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .AbilityScalarValueEntry override_map = 2;</code>

@@ -20,7 +20,7 @@ public final class RoutePointChangeInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 point_index = 10;</code>
@@ -30,7 +30,7 @@ public final class RoutePointChangeInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>float target_velocity = 5;</code>
@@ -40,7 +40,7 @@ public final class RoutePointChangeInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>float wait_time = 13;</code>
@@ -144,7 +144,7 @@ public final class RoutePointChangeInfoOuterClass {
     private int pointIndex_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 point_index = 10;</code>
@@ -159,7 +159,7 @@ public final class RoutePointChangeInfoOuterClass {
     private float targetVelocity_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>float target_velocity = 5;</code>
@@ -174,7 +174,7 @@ public final class RoutePointChangeInfoOuterClass {
     private float waitTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0     
+     *6.5.5 //6.4.0 //6.5.0     
      * </pre>
      *
      * <code>float wait_time = 13;</code>
@@ -528,7 +528,7 @@ public final class RoutePointChangeInfoOuterClass {
       private int pointIndex_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 point_index = 10;</code>
@@ -540,7 +540,7 @@ public final class RoutePointChangeInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 point_index = 10;</code>
@@ -555,7 +555,7 @@ public final class RoutePointChangeInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 point_index = 10;</code>
@@ -571,7 +571,7 @@ public final class RoutePointChangeInfoOuterClass {
       private float targetVelocity_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>float target_velocity = 5;</code>
@@ -583,7 +583,7 @@ public final class RoutePointChangeInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>float target_velocity = 5;</code>
@@ -598,7 +598,7 @@ public final class RoutePointChangeInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>float target_velocity = 5;</code>
@@ -614,7 +614,7 @@ public final class RoutePointChangeInfoOuterClass {
       private float waitTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>float wait_time = 13;</code>
@@ -626,7 +626,7 @@ public final class RoutePointChangeInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>float wait_time = 13;</code>
@@ -641,7 +641,7 @@ public final class RoutePointChangeInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0     
+       *6.5.5 //6.4.0 //6.5.0     
        * </pre>
        *
        * <code>float wait_time = 13;</code>

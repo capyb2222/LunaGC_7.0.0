@@ -20,7 +20,7 @@ public final class PlayerTimeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 player_time = 8;</code>
@@ -30,7 +30,7 @@ public final class PlayerTimeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_paused = 11;</code>
@@ -40,7 +40,7 @@ public final class PlayerTimeNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 server_time = 1;</code>
@@ -148,7 +148,7 @@ public final class PlayerTimeNotifyOuterClass {
     private long playerTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 player_time = 8;</code>
@@ -163,7 +163,7 @@ public final class PlayerTimeNotifyOuterClass {
     private boolean isPaused_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_paused = 11;</code>
@@ -178,7 +178,7 @@ public final class PlayerTimeNotifyOuterClass {
     private long serverTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint64 server_time = 1;</code>
@@ -535,7 +535,7 @@ public final class PlayerTimeNotifyOuterClass {
       private long playerTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 player_time = 8;</code>
@@ -547,7 +547,7 @@ public final class PlayerTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 player_time = 8;</code>
@@ -562,7 +562,7 @@ public final class PlayerTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 player_time = 8;</code>
@@ -578,7 +578,7 @@ public final class PlayerTimeNotifyOuterClass {
       private boolean isPaused_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_paused = 11;</code>
@@ -590,7 +590,7 @@ public final class PlayerTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_paused = 11;</code>
@@ -605,7 +605,7 @@ public final class PlayerTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_paused = 11;</code>
@@ -621,7 +621,7 @@ public final class PlayerTimeNotifyOuterClass {
       private long serverTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 server_time = 1;</code>
@@ -633,7 +633,7 @@ public final class PlayerTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 server_time = 1;</code>
@@ -648,7 +648,7 @@ public final class PlayerTimeNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint64 server_time = 1;</code>

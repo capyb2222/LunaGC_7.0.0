@@ -20,7 +20,7 @@ public final class WidgetCoolDownDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 3;</code>
@@ -30,7 +30,7 @@ public final class WidgetCoolDownDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_success = 10;</code>
@@ -40,7 +40,7 @@ public final class WidgetCoolDownDataOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 cool_down_time = 14;</code>
@@ -144,7 +144,7 @@ public final class WidgetCoolDownDataOuterClass {
     private int id_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 id = 3;</code>
@@ -159,7 +159,7 @@ public final class WidgetCoolDownDataOuterClass {
     private boolean isSuccess_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_success = 10;</code>
@@ -174,7 +174,7 @@ public final class WidgetCoolDownDataOuterClass {
     private long coolDownTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 cool_down_time = 14;</code>
@@ -526,7 +526,7 @@ public final class WidgetCoolDownDataOuterClass {
       private int id_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 3;</code>
@@ -538,7 +538,7 @@ public final class WidgetCoolDownDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 3;</code>
@@ -553,7 +553,7 @@ public final class WidgetCoolDownDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 id = 3;</code>
@@ -569,7 +569,7 @@ public final class WidgetCoolDownDataOuterClass {
       private boolean isSuccess_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_success = 10;</code>
@@ -581,7 +581,7 @@ public final class WidgetCoolDownDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_success = 10;</code>
@@ -596,7 +596,7 @@ public final class WidgetCoolDownDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_success = 10;</code>
@@ -612,7 +612,7 @@ public final class WidgetCoolDownDataOuterClass {
       private long coolDownTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 cool_down_time = 14;</code>
@@ -624,7 +624,7 @@ public final class WidgetCoolDownDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 cool_down_time = 14;</code>
@@ -639,7 +639,7 @@ public final class WidgetCoolDownDataOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 cool_down_time = 14;</code>

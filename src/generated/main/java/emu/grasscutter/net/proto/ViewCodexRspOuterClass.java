@@ -20,7 +20,7 @@ public final class ViewCodexRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -29,7 +29,7 @@ public final class ViewCodexRspOuterClass {
     java.util.List<java.lang.Integer> getRecentViewedPushtipsListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -38,7 +38,7 @@ public final class ViewCodexRspOuterClass {
     int getRecentViewedPushtipsListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -66,7 +66,7 @@ public final class ViewCodexRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -75,7 +75,7 @@ public final class ViewCodexRspOuterClass {
         getTypeDataListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -83,7 +83,7 @@ public final class ViewCodexRspOuterClass {
     emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData getTypeDataList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -91,7 +91,7 @@ public final class ViewCodexRspOuterClass {
     int getTypeDataListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -100,7 +100,7 @@ public final class ViewCodexRspOuterClass {
         getTypeDataListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -110,7 +110,7 @@ public final class ViewCodexRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -272,7 +272,7 @@ public final class ViewCodexRspOuterClass {
     private com.google.protobuf.Internal.IntList recentViewedPushtipsList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -285,7 +285,7 @@ public final class ViewCodexRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -296,7 +296,7 @@ public final class ViewCodexRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -340,7 +340,7 @@ public final class ViewCodexRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.CodexTypeDataOuterClass.CodexTypeData> typeDataList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -351,7 +351,7 @@ public final class ViewCodexRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -363,7 +363,7 @@ public final class ViewCodexRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -374,7 +374,7 @@ public final class ViewCodexRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -385,7 +385,7 @@ public final class ViewCodexRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -400,7 +400,7 @@ public final class ViewCodexRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 11;</code>
@@ -872,7 +872,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -885,7 +885,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -896,7 +896,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -908,7 +908,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -925,7 +925,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -940,7 +940,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -957,7 +957,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated uint32 recent_viewed_pushtips_list = 12;</code>
@@ -1063,7 +1063,7 @@ public final class ViewCodexRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1077,7 +1077,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1091,7 +1091,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1105,7 +1105,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1126,7 +1126,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1144,7 +1144,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1164,7 +1164,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1185,7 +1185,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1203,7 +1203,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1221,7 +1221,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1240,7 +1240,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1257,7 +1257,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1274,7 +1274,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1285,7 +1285,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1299,7 +1299,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1314,7 +1314,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1325,7 +1325,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1337,7 +1337,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .CodexTypeData type_data_list = 10;</code>
@@ -1364,7 +1364,7 @@ public final class ViewCodexRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -1376,7 +1376,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 11;</code>
@@ -1391,7 +1391,7 @@ public final class ViewCodexRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 11;</code>

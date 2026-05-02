@@ -20,7 +20,7 @@ public final class RogueCellInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cell_id = 10;</code>
@@ -30,7 +30,7 @@ public final class RogueCellInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueCellState state = 6;</code>
@@ -39,7 +39,7 @@ public final class RogueCellInfoOuterClass {
     int getStateValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueCellState state = 6;</code>
@@ -49,7 +49,7 @@ public final class RogueCellInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 dungeon_id = 3;</code>
@@ -166,7 +166,7 @@ public final class RogueCellInfoOuterClass {
     private int cellId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 cell_id = 10;</code>
@@ -181,7 +181,7 @@ public final class RogueCellInfoOuterClass {
     private int state_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueCellState state = 6;</code>
@@ -192,7 +192,7 @@ public final class RogueCellInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.RogueCellState state = 6;</code>
@@ -208,7 +208,7 @@ public final class RogueCellInfoOuterClass {
     private int dungeonId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 dungeon_id = 3;</code>
@@ -585,7 +585,7 @@ public final class RogueCellInfoOuterClass {
       private int cellId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cell_id = 10;</code>
@@ -597,7 +597,7 @@ public final class RogueCellInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cell_id = 10;</code>
@@ -612,7 +612,7 @@ public final class RogueCellInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 cell_id = 10;</code>
@@ -628,7 +628,7 @@ public final class RogueCellInfoOuterClass {
       private int state_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueCellState state = 6;</code>
@@ -639,7 +639,7 @@ public final class RogueCellInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueCellState state = 6;</code>
@@ -654,7 +654,7 @@ public final class RogueCellInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueCellState state = 6;</code>
@@ -668,7 +668,7 @@ public final class RogueCellInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueCellState state = 6;</code>
@@ -686,7 +686,7 @@ public final class RogueCellInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.RogueCellState state = 6;</code>
@@ -702,7 +702,7 @@ public final class RogueCellInfoOuterClass {
       private int dungeonId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 dungeon_id = 3;</code>
@@ -714,7 +714,7 @@ public final class RogueCellInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 dungeon_id = 3;</code>
@@ -729,7 +729,7 @@ public final class RogueCellInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 dungeon_id = 3;</code>

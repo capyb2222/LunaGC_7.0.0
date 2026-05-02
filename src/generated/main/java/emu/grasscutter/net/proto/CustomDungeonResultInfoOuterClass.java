@@ -20,7 +20,7 @@ public final class CustomDungeonResultInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -29,7 +29,7 @@ public final class CustomDungeonResultInfoOuterClass {
         getChildChallengeListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -37,7 +37,7 @@ public final class CustomDungeonResultInfoOuterClass {
     emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief getChildChallengeList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -45,7 +45,7 @@ public final class CustomDungeonResultInfoOuterClass {
     int getChildChallengeListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -54,7 +54,7 @@ public final class CustomDungeonResultInfoOuterClass {
         getChildChallengeListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -64,7 +64,7 @@ public final class CustomDungeonResultInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 dungeon_guid = 12;</code>
@@ -74,7 +74,7 @@ public final class CustomDungeonResultInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 time_cost = 14;</code>
@@ -84,7 +84,7 @@ public final class CustomDungeonResultInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_arrive_finish = 4;</code>
@@ -100,7 +100,7 @@ public final class CustomDungeonResultInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 got_coin_num = 2;</code>
@@ -110,7 +110,7 @@ public final class CustomDungeonResultInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomDungeonFinishType finish_type = 3;</code>
@@ -119,7 +119,7 @@ public final class CustomDungeonResultInfoOuterClass {
     int getFinishTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomDungeonFinishType finish_type = 3;</code>
@@ -254,7 +254,7 @@ public final class CustomDungeonResultInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.ChallengeBriefOuterClass.ChallengeBrief> childChallengeList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -265,7 +265,7 @@ public final class CustomDungeonResultInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -277,7 +277,7 @@ public final class CustomDungeonResultInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -288,7 +288,7 @@ public final class CustomDungeonResultInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -299,7 +299,7 @@ public final class CustomDungeonResultInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -314,7 +314,7 @@ public final class CustomDungeonResultInfoOuterClass {
     private long dungeonGuid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint64 dungeon_guid = 12;</code>
@@ -329,7 +329,7 @@ public final class CustomDungeonResultInfoOuterClass {
     private int timeCost_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 time_cost = 14;</code>
@@ -344,7 +344,7 @@ public final class CustomDungeonResultInfoOuterClass {
     private boolean isArriveFinish_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>bool is_arrive_finish = 4;</code>
@@ -370,7 +370,7 @@ public final class CustomDungeonResultInfoOuterClass {
     private int gotCoinNum_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>uint32 got_coin_num = 2;</code>
@@ -385,7 +385,7 @@ public final class CustomDungeonResultInfoOuterClass {
     private int finishType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomDungeonFinishType finish_type = 3;</code>
@@ -396,7 +396,7 @@ public final class CustomDungeonResultInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.CustomDungeonFinishType finish_type = 3;</code>
@@ -868,7 +868,7 @@ public final class CustomDungeonResultInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -882,7 +882,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -896,7 +896,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -910,7 +910,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -931,7 +931,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -949,7 +949,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -969,7 +969,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -990,7 +990,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1008,7 +1008,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1026,7 +1026,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1045,7 +1045,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1062,7 +1062,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1079,7 +1079,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1090,7 +1090,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1104,7 +1104,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1119,7 +1119,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1130,7 +1130,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1142,7 +1142,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>repeated .ChallengeBrief child_challenge_list = 11;</code>
@@ -1169,7 +1169,7 @@ public final class CustomDungeonResultInfoOuterClass {
       private long dungeonGuid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 dungeon_guid = 12;</code>
@@ -1181,7 +1181,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 dungeon_guid = 12;</code>
@@ -1196,7 +1196,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint64 dungeon_guid = 12;</code>
@@ -1212,7 +1212,7 @@ public final class CustomDungeonResultInfoOuterClass {
       private int timeCost_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 time_cost = 14;</code>
@@ -1224,7 +1224,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 time_cost = 14;</code>
@@ -1239,7 +1239,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 time_cost = 14;</code>
@@ -1255,7 +1255,7 @@ public final class CustomDungeonResultInfoOuterClass {
       private boolean isArriveFinish_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_arrive_finish = 4;</code>
@@ -1267,7 +1267,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_arrive_finish = 4;</code>
@@ -1282,7 +1282,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>bool is_arrive_finish = 4;</code>
@@ -1329,7 +1329,7 @@ public final class CustomDungeonResultInfoOuterClass {
       private int gotCoinNum_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 got_coin_num = 2;</code>
@@ -1341,7 +1341,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 got_coin_num = 2;</code>
@@ -1356,7 +1356,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>uint32 got_coin_num = 2;</code>
@@ -1372,7 +1372,7 @@ public final class CustomDungeonResultInfoOuterClass {
       private int finishType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomDungeonFinishType finish_type = 3;</code>
@@ -1383,7 +1383,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomDungeonFinishType finish_type = 3;</code>
@@ -1398,7 +1398,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomDungeonFinishType finish_type = 3;</code>
@@ -1412,7 +1412,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomDungeonFinishType finish_type = 3;</code>
@@ -1430,7 +1430,7 @@ public final class CustomDungeonResultInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.CustomDungeonFinishType finish_type = 3;</code>

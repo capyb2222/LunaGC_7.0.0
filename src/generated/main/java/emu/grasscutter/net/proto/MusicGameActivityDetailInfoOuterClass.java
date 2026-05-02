@@ -20,7 +20,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -28,7 +28,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     int getMusicGameRecordMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -43,7 +43,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     getMusicGameRecordMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -52,7 +52,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     getMusicGameRecordMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -63,7 +63,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
         emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -277,7 +277,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -299,7 +299,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -311,7 +311,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -328,7 +328,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -900,7 +900,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -922,7 +922,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -934,7 +934,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -951,7 +951,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -976,7 +976,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -999,7 +999,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
@@ -1015,7 +1015,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>

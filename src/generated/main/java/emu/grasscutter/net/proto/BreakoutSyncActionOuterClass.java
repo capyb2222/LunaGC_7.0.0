@@ -20,7 +20,7 @@ public final class BreakoutSyncActionOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.BreakoutAction action = 6;</code>
@@ -29,7 +29,7 @@ public final class BreakoutSyncActionOuterClass {
     boolean hasAction();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.BreakoutAction action = 6;</code>
@@ -38,7 +38,7 @@ public final class BreakoutSyncActionOuterClass {
     emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction getAction();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.BreakoutAction action = 6;</code>
@@ -139,7 +139,7 @@ public final class BreakoutSyncActionOuterClass {
     private emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction action_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.BreakoutAction action = 6;</code>
@@ -151,7 +151,7 @@ public final class BreakoutSyncActionOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.BreakoutAction action = 6;</code>
@@ -163,7 +163,7 @@ public final class BreakoutSyncActionOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>.BreakoutAction action = 6;</code>
@@ -493,7 +493,7 @@ public final class BreakoutSyncActionOuterClass {
           emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction, emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutAction.Builder, emu.grasscutter.net.proto.BreakoutActionOuterClass.BreakoutActionOrBuilder> actionBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.BreakoutAction action = 6;</code>
@@ -504,7 +504,7 @@ public final class BreakoutSyncActionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.BreakoutAction action = 6;</code>
@@ -519,7 +519,7 @@ public final class BreakoutSyncActionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.BreakoutAction action = 6;</code>
@@ -539,7 +539,7 @@ public final class BreakoutSyncActionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.BreakoutAction action = 6;</code>
@@ -557,7 +557,7 @@ public final class BreakoutSyncActionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.BreakoutAction action = 6;</code>
@@ -579,7 +579,7 @@ public final class BreakoutSyncActionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.BreakoutAction action = 6;</code>
@@ -597,7 +597,7 @@ public final class BreakoutSyncActionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.BreakoutAction action = 6;</code>
@@ -609,7 +609,7 @@ public final class BreakoutSyncActionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.BreakoutAction action = 6;</code>
@@ -624,7 +624,7 @@ public final class BreakoutSyncActionOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>.BreakoutAction action = 6;</code>

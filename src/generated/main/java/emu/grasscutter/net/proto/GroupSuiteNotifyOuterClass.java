@@ -20,7 +20,7 @@ public final class GroupSuiteNotifyOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -28,7 +28,7 @@ public final class GroupSuiteNotifyOuterClass {
     int getGroupMapCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -43,7 +43,7 @@ public final class GroupSuiteNotifyOuterClass {
     getGroupMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -52,7 +52,7 @@ public final class GroupSuiteNotifyOuterClass {
     getGroupMapMap();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -63,7 +63,7 @@ public final class GroupSuiteNotifyOuterClass {
         int defaultValue);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -207,7 +207,7 @@ public final class GroupSuiteNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -229,7 +229,7 @@ public final class GroupSuiteNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -241,7 +241,7 @@ public final class GroupSuiteNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -258,7 +258,7 @@ public final class GroupSuiteNotifyOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -644,7 +644,7 @@ public final class GroupSuiteNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -666,7 +666,7 @@ public final class GroupSuiteNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -678,7 +678,7 @@ public final class GroupSuiteNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -695,7 +695,7 @@ public final class GroupSuiteNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -720,7 +720,7 @@ public final class GroupSuiteNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -743,7 +743,7 @@ public final class GroupSuiteNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>
@@ -759,7 +759,7 @@ public final class GroupSuiteNotifyOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>map&lt;uint32, uint32&gt; group_map = 8;</code>

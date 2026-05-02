@@ -54,7 +54,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -63,7 +63,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
         getStageListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -71,7 +71,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.RogueStageInfoOuterClass.RogueStageInfo getStageList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -79,7 +79,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     int getStageListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -88,7 +88,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
         getStageListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -98,7 +98,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -107,7 +107,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
         getShikigamiListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -115,7 +115,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.RoguelikeShikigamiRecordOuterClass.RoguelikeShikigamiRecord getShikigamiList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -123,7 +123,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     int getShikigamiListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -132,7 +132,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
         getShikigamiListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -142,7 +142,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 13;</code>
@@ -152,7 +152,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 8;</code>
@@ -384,7 +384,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.RogueStageInfoOuterClass.RogueStageInfo> stageList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -395,7 +395,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -407,7 +407,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -418,7 +418,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -429,7 +429,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -444,7 +444,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.RoguelikeShikigamiRecordOuterClass.RoguelikeShikigamiRecord> shikigamiList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -455,7 +455,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -467,7 +467,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -478,7 +478,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -489,7 +489,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -504,7 +504,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     private int contentCloseTime_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>uint32 content_close_time = 13;</code>
@@ -519,7 +519,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
     private boolean isContentClosed_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_content_closed = 8;</code>
@@ -1223,7 +1223,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1237,7 +1237,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1251,7 +1251,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1265,7 +1265,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1286,7 +1286,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1304,7 +1304,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1324,7 +1324,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1345,7 +1345,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1363,7 +1363,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1381,7 +1381,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1400,7 +1400,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1417,7 +1417,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1434,7 +1434,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1445,7 +1445,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1459,7 +1459,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1474,7 +1474,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1485,7 +1485,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1497,7 +1497,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RogueStageInfo stage_list = 11;</code>
@@ -1535,7 +1535,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1549,7 +1549,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1563,7 +1563,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1577,7 +1577,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1598,7 +1598,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1616,7 +1616,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1636,7 +1636,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1657,7 +1657,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1675,7 +1675,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1693,7 +1693,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1712,7 +1712,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1729,7 +1729,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1746,7 +1746,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1757,7 +1757,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1771,7 +1771,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1786,7 +1786,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1797,7 +1797,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1809,7 +1809,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .RoguelikeShikigamiRecord shikigami_list = 3;</code>
@@ -1836,7 +1836,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       private int contentCloseTime_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 13;</code>
@@ -1848,7 +1848,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 13;</code>
@@ -1863,7 +1863,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>uint32 content_close_time = 13;</code>
@@ -1879,7 +1879,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       private boolean isContentClosed_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 8;</code>
@@ -1891,7 +1891,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 8;</code>
@@ -1906,7 +1906,7 @@ public final class RoguelikeDungeonActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_content_closed = 8;</code>

@@ -20,7 +20,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 discount_num_limit = 2;</code>
@@ -30,7 +30,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 resin_cost = 3;</code>
@@ -40,7 +40,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 discount_num = 1;</code>
@@ -50,7 +50,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 original_resin_cost = 4;</code>
@@ -159,7 +159,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
     private int discountNumLimit_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 discount_num_limit = 2;</code>
@@ -174,7 +174,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
     private int resinCost_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 resin_cost = 3;</code>
@@ -189,7 +189,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
     private int discountNum_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 discount_num = 1;</code>
@@ -204,7 +204,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
     private int originalResinCost_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>uint32 original_resin_cost = 4;</code>
@@ -571,7 +571,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       private int discountNumLimit_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 discount_num_limit = 2;</code>
@@ -583,7 +583,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 discount_num_limit = 2;</code>
@@ -598,7 +598,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 discount_num_limit = 2;</code>
@@ -614,7 +614,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       private int resinCost_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 resin_cost = 3;</code>
@@ -626,7 +626,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 resin_cost = 3;</code>
@@ -641,7 +641,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 resin_cost = 3;</code>
@@ -657,7 +657,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       private int discountNum_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 discount_num = 1;</code>
@@ -669,7 +669,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 discount_num = 1;</code>
@@ -684,7 +684,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 discount_num = 1;</code>
@@ -700,7 +700,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       private int originalResinCost_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 original_resin_cost = 4;</code>
@@ -712,7 +712,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 original_resin_cost = 4;</code>
@@ -727,7 +727,7 @@ public final class WeeklyBossResinDiscountInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>uint32 original_resin_cost = 4;</code>

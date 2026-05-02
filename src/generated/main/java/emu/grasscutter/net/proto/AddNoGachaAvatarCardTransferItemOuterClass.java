@@ -20,7 +20,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_new = 5;</code>
@@ -30,7 +30,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 count = 2;</code>
@@ -40,7 +40,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 item_id = 9;</code>
@@ -144,7 +144,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
     private boolean isNew_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>bool is_new = 5;</code>
@@ -159,7 +159,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
     private int count_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 count = 2;</code>
@@ -174,7 +174,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
     private int itemId_;
     /**
      * <pre>
-     *6.4.0 //6.5.0        
+     *6.5.5 //6.4.0 //6.5.0        
      * </pre>
      *
      * <code>uint32 item_id = 9;</code>
@@ -525,7 +525,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       private boolean isNew_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_new = 5;</code>
@@ -537,7 +537,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_new = 5;</code>
@@ -552,7 +552,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>bool is_new = 5;</code>
@@ -568,7 +568,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       private int count_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 count = 2;</code>
@@ -580,7 +580,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 count = 2;</code>
@@ -595,7 +595,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 count = 2;</code>
@@ -611,7 +611,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       private int itemId_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 9;</code>
@@ -623,7 +623,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 9;</code>
@@ -638,7 +638,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0        
+       *6.5.5 //6.4.0 //6.5.0        
        * </pre>
        *
        * <code>uint32 item_id = 9;</code>

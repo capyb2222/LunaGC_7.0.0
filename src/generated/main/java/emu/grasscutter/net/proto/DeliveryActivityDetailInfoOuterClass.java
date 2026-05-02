@@ -43,7 +43,7 @@ public final class DeliveryActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_taken_reward = 2;</code>
@@ -207,7 +207,7 @@ public final class DeliveryActivityDetailInfoOuterClass {
     private boolean isTakenReward_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>bool is_taken_reward = 2;</code>
@@ -698,7 +698,7 @@ public final class DeliveryActivityDetailInfoOuterClass {
       private boolean isTakenReward_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_taken_reward = 2;</code>
@@ -710,7 +710,7 @@ public final class DeliveryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_taken_reward = 2;</code>
@@ -725,7 +725,7 @@ public final class DeliveryActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>bool is_taken_reward = 2;</code>

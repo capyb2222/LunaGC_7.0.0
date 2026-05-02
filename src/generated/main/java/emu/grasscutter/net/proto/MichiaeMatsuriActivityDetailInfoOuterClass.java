@@ -68,7 +68,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -77,7 +77,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         getStageListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -85,7 +85,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN getStageList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -93,7 +93,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
     int getStageListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -102,7 +102,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
         getStageListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -364,7 +364,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
     private java.util.List<emu.grasscutter.net.proto.JGPIAPGGAINOuterClass.JGPIAPGGAIN> stageList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -375,7 +375,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -387,7 +387,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -398,7 +398,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -409,7 +409,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1467,7 +1467,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1481,7 +1481,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1495,7 +1495,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1509,7 +1509,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1530,7 +1530,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1548,7 +1548,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1568,7 +1568,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1589,7 +1589,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1607,7 +1607,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1625,7 +1625,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1644,7 +1644,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1661,7 +1661,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1678,7 +1678,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1689,7 +1689,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1703,7 +1703,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1718,7 +1718,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1729,7 +1729,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>
@@ -1741,7 +1741,7 @@ public final class MichiaeMatsuriActivityDetailInfoOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .JGPIAPGGAIN stage_list = 4;</code>

@@ -20,7 +20,7 @@ public final class RoutePointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MHDOKEBFCFP action = 25;</code>
@@ -29,7 +29,7 @@ public final class RoutePointOuterClass {
     boolean hasAction();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MHDOKEBFCFP action = 25;</code>
@@ -38,7 +38,7 @@ public final class RoutePointOuterClass {
     emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP getAction();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MHDOKEBFCFP action = 25;</code>
@@ -47,7 +47,7 @@ public final class RoutePointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 1;</code>
@@ -56,7 +56,7 @@ public final class RoutePointOuterClass {
     boolean hasPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 1;</code>
@@ -65,7 +65,7 @@ public final class RoutePointOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 1;</code>
@@ -74,7 +74,7 @@ public final class RoutePointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.OBHJADAPFGN point_type = 24;</code>
@@ -83,7 +83,7 @@ public final class RoutePointOuterClass {
     int getPointTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.OBHJADAPFGN point_type = 24;</code>
@@ -93,7 +93,7 @@ public final class RoutePointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float arrive_range = 2;</code>
@@ -115,7 +115,7 @@ public final class RoutePointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float velocity = 11;</code>
@@ -124,7 +124,7 @@ public final class RoutePointOuterClass {
     boolean hasVelocity();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float velocity = 11;</code>
@@ -134,7 +134,7 @@ public final class RoutePointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float time = 12;</code>
@@ -143,7 +143,7 @@ public final class RoutePointOuterClass {
     boolean hasTime();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float time = 12;</code>
@@ -153,7 +153,7 @@ public final class RoutePointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rotation = 21;</code>
@@ -162,7 +162,7 @@ public final class RoutePointOuterClass {
     boolean hasRotation();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rotation = 21;</code>
@@ -171,7 +171,7 @@ public final class RoutePointOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getRotation();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rotation = 21;</code>
@@ -180,7 +180,7 @@ public final class RoutePointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -189,7 +189,7 @@ public final class RoutePointOuterClass {
     boolean hasRotationSpeed();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -198,7 +198,7 @@ public final class RoutePointOuterClass {
     emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getRotationSpeed();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -207,7 +207,7 @@ public final class RoutePointOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion axis_speed = 23;</code>
@@ -216,7 +216,7 @@ public final class RoutePointOuterClass {
     boolean hasAxisSpeed();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion axis_speed = 23;</code>
@@ -225,7 +225,7 @@ public final class RoutePointOuterClass {
     emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getAxisSpeed();
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion axis_speed = 23;</code>
@@ -501,7 +501,7 @@ public final class RoutePointOuterClass {
     private emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP action_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MHDOKEBFCFP action = 25;</code>
@@ -513,7 +513,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MHDOKEBFCFP action = 25;</code>
@@ -525,7 +525,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.MHDOKEBFCFP action = 25;</code>
@@ -539,7 +539,7 @@ public final class RoutePointOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 1;</code>
@@ -551,7 +551,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 1;</code>
@@ -563,7 +563,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector position = 1;</code>
@@ -577,7 +577,7 @@ public final class RoutePointOuterClass {
     private int pointType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.OBHJADAPFGN point_type = 24;</code>
@@ -588,7 +588,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0          
+     *6.5.5 //6.4.0 //6.5.0          
      * </pre>
      *
      * <code>.OBHJADAPFGN point_type = 24;</code>
@@ -604,7 +604,7 @@ public final class RoutePointOuterClass {
     private float arriveRange_;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float arrive_range = 2;</code>
@@ -640,7 +640,7 @@ public final class RoutePointOuterClass {
     public static final int VELOCITY_FIELD_NUMBER = 11;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float velocity = 11;</code>
@@ -652,7 +652,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float velocity = 11;</code>
@@ -669,7 +669,7 @@ public final class RoutePointOuterClass {
     public static final int TIME_FIELD_NUMBER = 12;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float time = 12;</code>
@@ -681,7 +681,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>float time = 12;</code>
@@ -698,7 +698,7 @@ public final class RoutePointOuterClass {
     public static final int ROTATION_FIELD_NUMBER = 21;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rotation = 21;</code>
@@ -710,7 +710,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rotation = 21;</code>
@@ -725,7 +725,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.Vector rotation = 21;</code>
@@ -741,7 +741,7 @@ public final class RoutePointOuterClass {
     public static final int ROTATION_SPEED_FIELD_NUMBER = 22;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -753,7 +753,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -768,7 +768,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -784,7 +784,7 @@ public final class RoutePointOuterClass {
     public static final int AXIS_SPEED_FIELD_NUMBER = 23;
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion axis_speed = 23;</code>
@@ -796,7 +796,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion axis_speed = 23;</code>
@@ -811,7 +811,7 @@ public final class RoutePointOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0           
+     *6.5.5 //6.4.0 //6.5.0           
      * </pre>
      *
      * <code>.MathQuaternion axis_speed = 23;</code>
@@ -1439,7 +1439,7 @@ public final class RoutePointOuterClass {
           emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder> actionBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
@@ -1450,7 +1450,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
@@ -1465,7 +1465,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
@@ -1485,7 +1485,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
@@ -1503,7 +1503,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
@@ -1525,7 +1525,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
@@ -1543,7 +1543,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
@@ -1555,7 +1555,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
@@ -1570,7 +1570,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
@@ -1594,7 +1594,7 @@ public final class RoutePointOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> positionBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 1;</code>
@@ -1605,7 +1605,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 1;</code>
@@ -1620,7 +1620,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 1;</code>
@@ -1640,7 +1640,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 1;</code>
@@ -1658,7 +1658,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 1;</code>
@@ -1680,7 +1680,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 1;</code>
@@ -1698,7 +1698,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 1;</code>
@@ -1710,7 +1710,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 1;</code>
@@ -1725,7 +1725,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector position = 1;</code>
@@ -1747,7 +1747,7 @@ public final class RoutePointOuterClass {
       private int pointType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.OBHJADAPFGN point_type = 24;</code>
@@ -1758,7 +1758,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.OBHJADAPFGN point_type = 24;</code>
@@ -1773,7 +1773,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.OBHJADAPFGN point_type = 24;</code>
@@ -1787,7 +1787,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.OBHJADAPFGN point_type = 24;</code>
@@ -1805,7 +1805,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0          
+       *6.5.5 //6.4.0 //6.5.0          
        * </pre>
        *
        * <code>.OBHJADAPFGN point_type = 24;</code>
@@ -1821,7 +1821,7 @@ public final class RoutePointOuterClass {
       private float arriveRange_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float arrive_range = 2;</code>
@@ -1833,7 +1833,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float arrive_range = 2;</code>
@@ -1848,7 +1848,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float arrive_range = 2;</code>
@@ -1925,7 +1925,7 @@ public final class RoutePointOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float velocity = 11;</code>
@@ -1936,7 +1936,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float velocity = 11;</code>
@@ -1950,7 +1950,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float velocity = 11;</code>
@@ -1965,7 +1965,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float velocity = 11;</code>
@@ -1982,7 +1982,7 @@ public final class RoutePointOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float time = 12;</code>
@@ -1993,7 +1993,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float time = 12;</code>
@@ -2007,7 +2007,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float time = 12;</code>
@@ -2022,7 +2022,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>float time = 12;</code>
@@ -2041,7 +2041,7 @@ public final class RoutePointOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotationBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rotation = 21;</code>
@@ -2053,7 +2053,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rotation = 21;</code>
@@ -2075,7 +2075,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rotation = 21;</code>
@@ -2095,7 +2095,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rotation = 21;</code>
@@ -2113,7 +2113,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rotation = 21;</code>
@@ -2139,7 +2139,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rotation = 21;</code>
@@ -2162,7 +2162,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rotation = 21;</code>
@@ -2172,7 +2172,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rotation = 21;</code>
@@ -2190,7 +2190,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.Vector rotation = 21;</code>
@@ -2218,7 +2218,7 @@ public final class RoutePointOuterClass {
           emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> rotationSpeedBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -2230,7 +2230,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -2252,7 +2252,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -2272,7 +2272,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -2290,7 +2290,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -2316,7 +2316,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -2339,7 +2339,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -2349,7 +2349,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -2367,7 +2367,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
@@ -2395,7 +2395,7 @@ public final class RoutePointOuterClass {
           emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> axisSpeedBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
@@ -2407,7 +2407,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
@@ -2429,7 +2429,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
@@ -2449,7 +2449,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
@@ -2467,7 +2467,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
@@ -2493,7 +2493,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
@@ -2516,7 +2516,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
@@ -2526,7 +2526,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
@@ -2544,7 +2544,7 @@ public final class RoutePointOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0           
+       *6.5.5 //6.4.0 //6.5.0           
        * </pre>
        *
        * <code>.MathQuaternion axis_speed = 23;</code>

@@ -20,7 +20,7 @@ public final class DropItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.Vector pos = 11;</code>
@@ -29,7 +29,7 @@ public final class DropItemReqOuterClass {
     boolean hasPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.Vector pos = 11;</code>
@@ -38,7 +38,7 @@ public final class DropItemReqOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.Vector pos = 11;</code>
@@ -47,7 +47,7 @@ public final class DropItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint64 guid = 9;</code>
@@ -57,7 +57,7 @@ public final class DropItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint32 count = 14;</code>
@@ -67,7 +67,7 @@ public final class DropItemReqOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.StoreType store_type = 13;</code>
@@ -76,7 +76,7 @@ public final class DropItemReqOuterClass {
     int getStoreTypeValue();
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.StoreType store_type = 13;</code>
@@ -199,7 +199,7 @@ public final class DropItemReqOuterClass {
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.Vector pos = 11;</code>
@@ -211,7 +211,7 @@ public final class DropItemReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.Vector pos = 11;</code>
@@ -223,7 +223,7 @@ public final class DropItemReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.Vector pos = 11;</code>
@@ -237,7 +237,7 @@ public final class DropItemReqOuterClass {
     private long guid_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint64 guid = 9;</code>
@@ -252,7 +252,7 @@ public final class DropItemReqOuterClass {
     private int count_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>uint32 count = 14;</code>
@@ -267,7 +267,7 @@ public final class DropItemReqOuterClass {
     private int storeType_;
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.StoreType store_type = 13;</code>
@@ -278,7 +278,7 @@ public final class DropItemReqOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0   
+     *6.5.5 //6.4.0 //6.5.0   
      * </pre>
      *
      * <code>.StoreType store_type = 13;</code>
@@ -665,7 +665,7 @@ public final class DropItemReqOuterClass {
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.Vector pos = 11;</code>
@@ -676,7 +676,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.Vector pos = 11;</code>
@@ -691,7 +691,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.Vector pos = 11;</code>
@@ -711,7 +711,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.Vector pos = 11;</code>
@@ -729,7 +729,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.Vector pos = 11;</code>
@@ -751,7 +751,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.Vector pos = 11;</code>
@@ -769,7 +769,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.Vector pos = 11;</code>
@@ -781,7 +781,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.Vector pos = 11;</code>
@@ -796,7 +796,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.Vector pos = 11;</code>
@@ -818,7 +818,7 @@ public final class DropItemReqOuterClass {
       private long guid_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint64 guid = 9;</code>
@@ -830,7 +830,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint64 guid = 9;</code>
@@ -845,7 +845,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint64 guid = 9;</code>
@@ -861,7 +861,7 @@ public final class DropItemReqOuterClass {
       private int count_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint32 count = 14;</code>
@@ -873,7 +873,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint32 count = 14;</code>
@@ -888,7 +888,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>uint32 count = 14;</code>
@@ -904,7 +904,7 @@ public final class DropItemReqOuterClass {
       private int storeType_ = 0;
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 13;</code>
@@ -915,7 +915,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 13;</code>
@@ -930,7 +930,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 13;</code>
@@ -944,7 +944,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 13;</code>
@@ -962,7 +962,7 @@ public final class DropItemReqOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0   
+       *6.5.5 //6.4.0 //6.5.0   
        * </pre>
        *
        * <code>.StoreType store_type = 13;</code>

@@ -20,7 +20,7 @@ public final class GetAllMailRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -29,7 +29,7 @@ public final class GetAllMailRspOuterClass {
         getMailListList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -37,7 +37,7 @@ public final class GetAllMailRspOuterClass {
     emu.grasscutter.net.proto.MailDataOuterClass.MailData getMailList(int index);
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -45,7 +45,7 @@ public final class GetAllMailRspOuterClass {
     int getMailListCount();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -54,7 +54,7 @@ public final class GetAllMailRspOuterClass {
         getMailListOrBuilderList();
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -64,7 +64,7 @@ public final class GetAllMailRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_collected = 8;</code>
@@ -74,7 +74,7 @@ public final class GetAllMailRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_truncated = 10;</code>
@@ -84,7 +84,7 @@ public final class GetAllMailRspOuterClass {
 
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -206,7 +206,7 @@ public final class GetAllMailRspOuterClass {
     private java.util.List<emu.grasscutter.net.proto.MailDataOuterClass.MailData> mailList_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -217,7 +217,7 @@ public final class GetAllMailRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -229,7 +229,7 @@ public final class GetAllMailRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -240,7 +240,7 @@ public final class GetAllMailRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -251,7 +251,7 @@ public final class GetAllMailRspOuterClass {
     }
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>repeated .MailData mail_list = 2;</code>
@@ -266,7 +266,7 @@ public final class GetAllMailRspOuterClass {
     private boolean isCollected_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_collected = 8;</code>
@@ -281,7 +281,7 @@ public final class GetAllMailRspOuterClass {
     private boolean isTruncated_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>bool is_truncated = 10;</code>
@@ -296,7 +296,7 @@ public final class GetAllMailRspOuterClass {
     private int retcode_;
     /**
      * <pre>
-     *6.4.0 //6.5.0       
+     *6.5.5 //6.4.0 //6.5.0       
      * </pre>
      *
      * <code>int32 retcode = 13;</code>
@@ -720,7 +720,7 @@ public final class GetAllMailRspOuterClass {
 
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -734,7 +734,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -748,7 +748,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -762,7 +762,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -783,7 +783,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -801,7 +801,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -821,7 +821,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -842,7 +842,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -860,7 +860,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -878,7 +878,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -897,7 +897,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -914,7 +914,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -931,7 +931,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -942,7 +942,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -956,7 +956,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -971,7 +971,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -982,7 +982,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -994,7 +994,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>repeated .MailData mail_list = 2;</code>
@@ -1021,7 +1021,7 @@ public final class GetAllMailRspOuterClass {
       private boolean isCollected_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_collected = 8;</code>
@@ -1033,7 +1033,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_collected = 8;</code>
@@ -1048,7 +1048,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_collected = 8;</code>
@@ -1064,7 +1064,7 @@ public final class GetAllMailRspOuterClass {
       private boolean isTruncated_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_truncated = 10;</code>
@@ -1076,7 +1076,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_truncated = 10;</code>
@@ -1091,7 +1091,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>bool is_truncated = 10;</code>
@@ -1107,7 +1107,7 @@ public final class GetAllMailRspOuterClass {
       private int retcode_ ;
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -1119,7 +1119,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
@@ -1134,7 +1134,7 @@ public final class GetAllMailRspOuterClass {
       }
       /**
        * <pre>
-       *6.4.0 //6.5.0       
+       *6.5.5 //6.4.0 //6.5.0       
        * </pre>
        *
        * <code>int32 retcode = 13;</code>
