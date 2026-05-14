@@ -31,6 +31,7 @@ Contribute if you want/can...
 - Have fun (or don't)
 
 ### Patching the game
+## The patch won't redirect HoYoPass requests, so you may need an external proxy for now.
 - Install [**Rust**](https://rust-lang.org/learn/get-started/) and **Cargo** (comes with rustup)
 - Go to the `patch/` folder (make sure you have cloned this repository with the `--recurse-submodules` flag)
 - Run `cargo build --release` to build the DLL at `target/release`
